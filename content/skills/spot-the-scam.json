@@ -1,0 +1,656 @@
+{
+  "id": "spot-the-scam",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": "Your phone buzzes. **“Hi Mum, I dropped my phone. This is my new number. Can you help me pay a bill today?”** It looks normal. It isn’t. Scammers write messages like this every day — and they work.",
+    "why": "Scammers are writers. They choose every word to make you click, pay or reply **before you think**. If you can read their tricks, you can’t be played — and you can protect your family too.",
+    "canDo": [
+      "I can work out the **purpose** of a message (what does the writer want?).",
+      "I can spot the **4 red flags** scammers use: Rush, Reaction, Request, Random.",
+      "I can **read between the lines** to work out what a message really means.",
+      "I can write a clear warning message for someone I care about."
+    ],
+    "showIt": "Finish your workbook pages, pass the quick check, then write a warning message to protect someone you know.",
+    "vocab": [
+      {
+        "word": "scam",
+        "meaning": "a trick to steal your money or information",
+        "example": "That text about a free PS5 was a scam."
+      },
+      {
+        "word": "purpose",
+        "meaning": "the reason a text was written — what the writer wants",
+        "example": "The purpose of the ad is to make you buy."
+      },
+      {
+        "word": "audience",
+        "meaning": "the person or people a text is written for",
+        "example": "This scam’s audience is parents."
+      },
+      {
+        "word": "urgent",
+        "meaning": "needs to be done right now",
+        "example": "“Pay in 2 hours!” makes it sound urgent."
+      },
+      {
+        "word": "persuade",
+        "meaning": "to get someone to think or do something",
+        "example": "Scammers persuade you with fear."
+      },
+      {
+        "word": "infer",
+        "meaning": "to work out something that isn’t said directly",
+        "example": "I can infer the sender isn’t really my mate."
+      },
+      {
+        "word": "verify",
+        "meaning": "to check if something is true",
+        "example": "Verify by calling the real number."
+      },
+      {
+        "word": "impersonate",
+        "meaning": "to pretend to be someone else",
+        "example": "The scammer impersonated the bank."
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Spot the Scam in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Spot the Scam",
+        "sub": "How not to get played by a dodgy text",
+        "icon": "lucide:message-circle-warning",
+        "say": "Spot the Scam. How not to get played by a dodgy text."
+      },
+      {
+        "kind": "message",
+        "title": "Ding!",
+        "sender": "+61 4•• ••• 327",
+        "text": "Hi Mum, I dropped my phone 😩 this is my new number. Can u help me pay a bill today? Need it urgent x",
+        "say": "Your phone buzzes. Hi Mum, I dropped my phone. This is my new number. Can you help me pay a bill today? It looks normal. But it is a trap."
+      },
+      {
+        "kind": "stat",
+        "big": "$2.6 million",
+        "title": "lost to ‘Hi Mum’ scams in 7 months",
+        "sub": "More than 1,150 Australians fell for it in early 2022. Source: ACCC",
+        "say": "In just seven months of 2022, more than one thousand one hundred Australians fell for this exact scam. They lost two point six million dollars."
+      },
+      {
+        "kind": "big",
+        "title": "Scammers are writers",
+        "text": "Every scam has a **purpose**: get your money, your info or your click. And an **audience**: you.",
+        "icon": "lucide:pen-line",
+        "say": "Here's the secret. Scammers are writers. Every scam has a purpose: to get your money, your information, or your click. And every scam has an audience. You."
+      },
+      {
+        "kind": "flag",
+        "letter": "R",
+        "title": "Rush",
+        "text": "“Pay today.” “Only 2 hours left!” They rush you so you don’t stop and think.",
+        "icon": "lucide:timer",
+        "say": "Red flag one. Rush. Pay today. Only two hours left. They rush you so you don't stop and think."
+      },
+      {
+        "kind": "flag",
+        "letter": "R",
+        "title": "Reaction",
+        "text": "They make you feel something big — scared, excited, or sorry for someone.",
+        "icon": "lucide:heart-crack",
+        "say": "Red flag two. Reaction. They try to make you feel something big. Scared. Excited. Or sorry for someone."
+      },
+      {
+        "kind": "flag",
+        "letter": "R",
+        "title": "Request",
+        "text": "They ask for money, a code, a password, or a click on a link.",
+        "icon": "lucide:hand-coins",
+        "say": "Red flag three. Request. They ask you for money, a code, a password, or to click a link."
+      },
+      {
+        "kind": "flag",
+        "letter": "R",
+        "title": "Random",
+        "text": "Unknown number. Weird link. Doesn’t use your name. Something feels off.",
+        "icon": "lucide:shuffle",
+        "say": "Red flag four. Random. An unknown number. A weird link. They don't use your name. Something just feels off."
+      },
+      {
+        "kind": "steps",
+        "title": "Spot a flag? Do this.",
+        "steps": [
+          "Stop — don’t click, pay or reply",
+          "Check — contact them on a number you already trust",
+          "Protect — block, report, tell someone"
+        ],
+        "say": "Spot a red flag? Stop. Don't click, pay or reply. Check. Contact the person or company using a number you already trust. Protect. Block it, report it, and tell someone."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Grab your workbook. Find the red flags. Then protect someone you care about.",
+        "icon": "lucide:shield-check",
+        "say": "Your mission. Grab your workbook. Find the red flags. Then protect someone you care about."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Scammers are writers",
+        "minutes": 4,
+        "body": "Every message you get was **written by someone, for a reason**. A text from your coach tells you when training is on. An ad tries to make you buy something. A scam tries to **trick you**.\n\nScammers are good writers. They think hard about **who will read the message** (the audience) and **what they want the reader to do** (the purpose). Then they choose words that push you to act fast.\n\nMost scams use the same four tricks. We call them the **4 red flags**:\n\n1. **Rush** — “Act now!” “Last chance!” They don’t want you to have time to think.\n2. **Reaction** — They make you feel scared, excited or sorry for someone. Big feelings switch off careful thinking.\n3. **Request** — They want something: money, a gift card, a code, your password, or a click.\n4. **Random** — Something doesn’t fit. A number you don’t know. A strange link. Spelling that’s a bit off. They don’t use your name.\n\nOne red flag doesn’t always mean scam. Your mate might really be in a rush! But **two or more red flags is a big warning**.\n\nThe best move? **Stop. Check. Protect.** Don’t reply to the message. Check by contacting the person or company another way — use a number or app you *already* have, not the one in the message. Then block, report and tell someone."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The “Hi Mum” scam",
+        "icon": "lucide:smartphone",
+        "body": "In 2022, a scam message spread across Australia. It went like this: *“Hi Mum, I’ve lost my phone. This is my new number.”* After a few friendly messages, the “child” asked for money to pay an urgent bill.\n\nThe Australian Competition and Consumer Commission (ACCC) said that in the first seven months of 2022, **more than 1,150 Australians fell for it** and lost **$2.6 million**. Most of the reports came in June and July.\n\nMost people who were tricked were **parents and grandparents over 55**. The scammers knew their audience: people who love their kids and want to help them fast.\n\nThe ACCC’s advice: if you get a message from a number you don’t know, **check by calling the person on the number you already have** for them.",
+        "source": {
+          "name": "ACCC media release — “ACCC warning of suspicious messages as ‘Hi Mum’ scams spike” (2022)",
+          "url": "https://www.accc.gov.au/media-release/accc-warning-of-suspicious-messages-as-hi-mum-scams-spike"
+        },
+        "think": [
+          "Who was the audience for this scam?",
+          "Which red flags can you find in “Hi Mum, I’ve lost my phone”?",
+          "Why do you think it worked so well on parents?"
+        ]
+      },
+      {
+        "title": "“Earn $500 a day liking videos”",
+        "icon": "lucide:briefcase-business",
+        "body": "Scamwatch warns about fake job offers sent by text, WhatsApp and social media. They promise easy money for simple tasks, like liking videos or rating products. At first, they might even pay you a little bit — so it feels real. Then they ask you to **pay money to “unlock” bigger earnings**. That money is gone.\n\nThese scams target people who want work — including young people looking for their first job. **Real jobs never ask you to pay to start.**",
+        "source": {
+          "name": "Scamwatch (National Anti-Scam Centre) — search “job scams”",
+          "url": "https://www.scamwatch.gov.au"
+        },
+        "think": [
+          "What is the purpose of this message?",
+          "Why would a scammer pay you a little bit first?"
+        ]
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "phone-anatomy",
+      "title": "Anatomy of a scam text",
+      "sender": "+61 4•• ••• 327",
+      "text": "Hi Mum, dropped my phone in the toilet 😩 this is my new number. Can u pay this bill for me today? I’ll pay u back tmrw. Pls hurry x",
+      "callouts": [
+        {
+          "flag": "Random",
+          "label": "Unknown number",
+          "note": "Your real kid is saved in your phone."
+        },
+        {
+          "flag": "Reaction",
+          "label": "“😩 dropped my phone”",
+          "note": "Makes you feel sorry and want to help."
+        },
+        {
+          "flag": "Request",
+          "label": "“pay this bill”",
+          "note": "The real purpose: your money."
+        },
+        {
+          "flag": "Rush",
+          "label": "“today… Pls hurry”",
+          "note": "No time to stop and check."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Stop. Check. Protect.",
+      "steps": [
+        {
+          "title": "Stop",
+          "text": "Don’t click, pay or reply.",
+          "icon": "lucide:hand"
+        },
+        {
+          "title": "Check",
+          "text": "Contact them on a number or app you already trust.",
+          "icon": "lucide:phone-outgoing"
+        },
+        {
+          "title": "Protect",
+          "text": "Block it, report it (scamwatch.gov.au) and tell someone.",
+          "icon": "lucide:shield-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is the **purpose** of most scam messages?",
+        "options": [
+          "To make new friends",
+          "To get your money, your info or your click",
+          "To share the news",
+          "To sell you something real"
+        ],
+        "answer": 1,
+        "explain": "Scammers write with one purpose: get something from you."
+      },
+      {
+        "q": "“Claim your prize in the next 2 hours!” Which red flag is this?",
+        "options": [
+          "Rush",
+          "Random",
+          "Reaction",
+          "None — this is fine"
+        ],
+        "answer": 0,
+        "explain": "A short time limit is a Rush flag. They don’t want you to think."
+      },
+      {
+        "q": "A text says it’s from your bank and asks for your password. What should you do?",
+        "options": [
+          "Reply with the password",
+          "Click the link to check",
+          "Contact the bank using the app or number you already have",
+          "Forward it to your friends"
+        ],
+        "answer": 2,
+        "explain": "Check using a contact you already trust — never the link or number in the message."
+      },
+      {
+        "q": "Who were most of the people tricked by the ‘Hi Mum’ scam?",
+        "options": [
+          "Teenagers",
+          "People over 55",
+          "Gamers",
+          "Business owners"
+        ],
+        "answer": 1,
+        "explain": "The ACCC said most victims were parents and grandparents over 55."
+      },
+      {
+        "q": "Read this: “hey its me, new number. can u send $200 for rent, will pay back tmrw x”. What can you **infer**?",
+        "options": [
+          "It is definitely your friend",
+          "The sender wants you to act before you check who they are",
+          "It is from a bank",
+          "It is an ad"
+        ],
+        "answer": 1,
+        "explain": "Nothing proves who it is. The writer wants money before you check — that’s the inference."
+      }
+    ]
+  },
+  "show": {
+    "task": "Write a message to someone you care about (a parent, grandparent or friend) warning them about a scam. Use what you learned.",
+    "checklist": [
+      "I finished my workbook pages",
+      "My warning message says what the scam looks like",
+      "My warning message tells them what to do (Stop. Check. Protect.)",
+      "I used the right tone for my audience"
+    ],
+    "levelUp": "Think like a scammer: write your own fake scam text and label the 4 red flags you used."
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Scammers are writers",
+        "article": 0,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions.",
+        "pagebreak": true
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What is the **purpose** of a scam message?",
+            "lines": 2
+          },
+          {
+            "q": "List the **4 red flags**.",
+            "lines": 0,
+            "boxes": [
+              "R",
+              "R",
+              "R",
+              "R"
+            ]
+          },
+          {
+            "q": "Why does a scammer want you to feel a big feeling?",
+            "lines": 2
+          },
+          {
+            "q": "Why should you check using a number you **already** have, not the one in the message?",
+            "lines": 2,
+            "levelUp": true
+          }
+        ]
+      },
+      {
+        "type": "phone-annotate",
+        "title": "Find the red flags",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": "Circle each red flag in the message. Label it: **Rush**, **Reaction**, **Request** or **Random**. Then explain one."
+      },
+      {
+        "type": "sort",
+        "title": "Scam or legit?",
+        "pagebreak": true,
+        "instructions": "Read each message. Tick **Scam**, **Legit** or **Not sure**. Write the red flags you spotted.",
+        "cards": [
+          {
+            "from": "AusPost",
+            "text": "Your parcel is on hold due to an unpaid $1.95 fee. Pay now to avoid return: auspost-redeliver.xyz",
+            "answer": "Scam",
+            "flags": "Rush, Request, Random (weird link)"
+          },
+          {
+            "from": "Coach Dan",
+            "text": "Training moved to 5pm Thursday because of the rain. See you there! 🏀",
+            "answer": "Legit",
+            "flags": "None — known sender, no request"
+          },
+          {
+            "from": "+61 4•• ••• 118",
+            "text": "CONGRATS!! U have WON a PS5 🎮 in our Gamer Giveaway! Claim in the next 2 hrs: bit.ly/ps5-w1n",
+            "answer": "Scam",
+            "flags": "Rush, Reaction, Request, Random"
+          },
+          {
+            "from": "myGov",
+            "text": "Your myGov code is 482913. Don’t share this code with anyone.",
+            "answer": "Not sure",
+            "flags": "Legit only if YOU just asked for a code. Never share it."
+          },
+          {
+            "from": "+61 4•• ••• 905",
+            "text": "Hey! Ur profile is perfect for our team 💰 Earn $300–$800/day liking videos from home. No experience needed!",
+            "answer": "Scam",
+            "flags": "Reaction, Random — job scam"
+          },
+          {
+            "from": "Mum",
+            "text": "Can you grab milk on the way home? Thanks love x",
+            "answer": "Legit",
+            "flags": "None — saved contact, normal request"
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the “Hi Mum” scam",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How many Australians fell for this scam in 7 months? How much did they lose?",
+            "lines": 2
+          },
+          {
+            "q": "Who was the **audience** for this scam?",
+            "lines": 2
+          },
+          {
+            "q": "Why did it work so well on parents? Use the word **reaction**.",
+            "lines": 3
+          },
+          {
+            "q": "Who in **your** life could this scam target? How could you help them?",
+            "lines": 3,
+            "levelUp": true
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Read between the lines",
+        "instructions": "Scammers don’t say what they really mean. Work it out — that’s called **inferring**. The first one is done for you.",
+        "columns": [
+          "What the message says",
+          "What it really means"
+        ],
+        "rows": [
+          [
+            "“This is my new number.”",
+            "Don’t check my old number — you might find out I’m not who I say."
+          ],
+          [
+            "“Only 2 hours left to claim!”",
+            ""
+          ],
+          [
+            "“Your account will be locked.”",
+            ""
+          ],
+          [
+            "“No experience needed! Easy money!”",
+            ""
+          ]
+        ],
+        "pagebreak": true
+      },
+      {
+        "type": "equation",
+        "parts": [
+          {
+            "icon": "lucide:search",
+            "title": "Clues",
+            "text": "what the message says (and how it says it)"
+          },
+          {
+            "icon": "lucide:brain",
+            "title": "What I know",
+            "text": "how scams work and how real people talk"
+          },
+          {
+            "icon": "lucide:lightbulb",
+            "title": "Inference",
+            "text": "what the writer really wants"
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Stop. Check. Protect.",
+        "diagram": 1,
+        "pagebreak": true
+      },
+      {
+        "type": "scenarios",
+        "title": "What would you do?",
+        "instructions": "Use **Stop. Check. Protect.** to explain what you would do.",
+        "items": [
+          {
+            "q": "A message from “Netflix” says your payment failed and you need to update your card using a link.",
+            "lines": 4
+          },
+          {
+            "q": "Someone you met in a game asks for your phone number and a code that was just sent to you.",
+            "lines": 4
+          },
+          {
+            "q": "Your nan says she got a text from “your cousin” on a new number asking for money.",
+            "lines": 4
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: protect someone",
+        "pagebreak": true,
+        "prompt": "Write a message to someone you care about, warning them about a scam. Think about your **audience** — how would you talk to them?",
+        "plan": [
+          {
+            "label": "Who is it for?",
+            "lines": 1
+          },
+          {
+            "label": "Which scam will you warn them about?",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Hey ___, just a heads up…",
+          "Watch out for messages that…",
+          "If you get one, don’t…",
+          "Instead, you should…"
+        ],
+        "lines": 12,
+        "check": [
+          "says what the scam looks like",
+          "says what to do",
+          "right tone for my audience"
+        ]
+      },
+      {
+        "type": "levelup-draw",
+        "title": "Level Up: think like a scammer",
+        "prompt": "Write your own fake scam text in the phone. Then label the **4 red flags** you used around it.",
+        "phone": true,
+        "pagebreak": true
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can work out the purpose of a message.",
+          "I can spot the 4 red flags.",
+          "I can read between the lines (infer).",
+          "I can write a warning message for my audience."
+        ],
+        "questions": [
+          "One thing I’ll do differently with my phone now:",
+          "Someone I’m going to tell about this:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn that every text is written for a **purpose** and an **audience**, then apply this to scam messages. The literacy core is critical reading: identifying purpose, recognising persuasive techniques (urgency, emotive language, requests) and **inferring** unstated intent. They finish by writing a short warning message for a chosen audience, which gives evidence of adjusting language for audience.\n\nThe hook is strong because the main targets of ‘Hi Mum’ scams were parents and grandparents — students become the **expert protector**, not the victim.",
+    "prep": [
+      "Print workbooks (A4, colour if possible — greyscale still works).",
+      "Load the explainer on the board (Watch tab) — it reads itself aloud.",
+      "Optional: screenshot 2–3 real scam texts you have received (remove personal info).",
+      "Check scamwatch.gov.au for the latest local scam alerts to use as a warm-up."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Every text wants something",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** Show the ‘Hi Mum’ text on the board. Ask: *Would your mum or nan fall for this? Why?*",
+          "**Explicit teaching (15 min):** Purpose and audience. Model with 3 everyday texts (coach text, ad, scam). Think aloud: *Who wrote this? Who for? What do they want me to do?*",
+          "**Watch (5 min):** Play the explainer together.",
+          "**Vocab (10 min):** Word Power page. Say each word aloud together; students use it in a sentence about their own phone.",
+          "**Exit:** Each student names one purpose and one audience for a text they saw today."
+        ]
+      },
+      {
+        "title": "Lesson 2 — The 4 red flags",
+        "minutes": 50,
+        "steps": [
+          "**Explicit teaching (15 min):** Model annotating the scam text — circle, label, explain. Think aloud for each flag.",
+          "**Read (15 min):** ‘Scammers are writers’ — read aloud or partner read; students use the app’s read-aloud if needed. Complete ‘Check your reading’.",
+          "**We do → you do (20 min):** ‘Find the red flags’ then ‘Scam or legit?’ in pairs. Discuss the myGov card — *it depends* is a valid answer."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Reading between the lines",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** Read the ‘Hi Mum’ case study together. Highlight the facts (numbers, who, when).",
+          "**Explicit teaching (10 min):** Inference = clues + what I know. Model the first row of ‘Read between the lines’.",
+          "**Independent (25 min):** Inference table, Stop. Check. Protect., and scenarios."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Protect someone",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** Write a warning text to an imaginary nan on the board. Show how tone changes for a nan vs a mate.",
+          "**Write (25 min):** Final mission. Fast finishers do Level Up.",
+          "**Check & reflect (15 min):** Quick check on the app, reflection page, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Purpose = what the writer wants. Audience = who it’s written for.",
+      "The 4 red flags: Rush, Reaction, Request, Random. Two or more = big warning.",
+      "Inference = clues in the text + what you already know.",
+      "Always verify through a channel you already trust — never the link/number in the message."
+    ],
+    "differentiation": {
+      "support": [
+        "Use the read-aloud button on all app text; pair readers for the article.",
+        "Reduce the sort to 4 cards; provide the flag words on a card.",
+        "Accept the final message as a voice memo transcribed with help, or 3 sentences using the starters."
+      ],
+      "extend": [
+        "Level Up tasks: why check on a number you already have; think like a scammer.",
+        "Compare two scam texts: which is more persuasive and why? (Level 7–8 analysis.)",
+        "Research a current scam on scamwatch.gov.au and present a 1-minute warning to the class."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "L5-AIE",
+        "evidence": "Correctly infers intent in the inference table and the quiz; explains why a message is a scam using text evidence."
+      },
+      {
+        "vc": "L5-TIC",
+        "evidence": "Identifies purpose and audience for scam and legitimate messages; explains why ‘Hi Mum’ targeted parents."
+      },
+      {
+        "vc": "L5-LIO",
+        "evidence": "Final message uses a tone that suits the chosen audience (e.g. warm and clear for a grandparent)."
+      },
+      {
+        "vc": "L7-AIE",
+        "evidence": "Level Up: explains how specific word choices (urgency, emoji, ‘Mum’) create a reaction."
+      },
+      {
+        "vc": "L8-AIE",
+        "evidence": "Level Up: evaluates how a scam positions its reader; constructs a scam text using deliberate techniques."
+      }
+    ],
+    "answers": "**Check your reading:** purpose = to get your money, info or a click. Flags = Rush, Reaction, Request, Random. Big feelings stop careful thinking. The number in the message might belong to the scammer.\n\n**Find the red flags:** Unknown number (Random); “dropped my phone 😩” (Reaction); “pay this bill” (Request); “today… Pls hurry” (Rush).\n\n**Scam or legit?** AusPost — Scam. Coach Dan — Legit. PS5 — Scam. myGov — Not sure/depends (legit only if the student requested a code; never share it). Job offer — Scam. Mum — Legit.\n\n**Case study:** 1,150+ people, $2.6 million (Jan–Jul 2022); audience = parents/grandparents (mostly over 55); it works because it triggers love/worry (reaction) and urgency.\n\n**Read between the lines (sample):** “Only 2 hours left” → don’t take time to think or check. “Account will be locked” → be scared so you click without checking. “No experience needed” → too good to be true; they want something from you.",
+    "resources": [
+      {
+        "label": "Scamwatch — latest scam alerts",
+        "url": "https://www.scamwatch.gov.au"
+      },
+      {
+        "label": "ACCC media release on ‘Hi Mum’ scams (2022)",
+        "url": "https://www.accc.gov.au/media-release/accc-warning-of-suspicious-messages-as-hi-mum-scams-spike"
+      },
+      {
+        "label": "eSafety Commissioner — young people",
+        "url": "https://www.esafety.gov.au/young-people"
+      }
+    ]
+  }
+}

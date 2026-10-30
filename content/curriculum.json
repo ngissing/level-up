@@ -1,0 +1,578 @@
+{
+  "source": "Victorian Curriculum F–10 Version 2.0 — English (paraphrased)",
+  "note": "Wording is paraphrased and codes are provisional. Check each entry against the VCAA site, then set verified:true and correct the code/text.",
+  "focusAreas": {
+    "TIC": {
+      "strand": "Literacy",
+      "substrand": "Texts in context"
+    },
+    "IWO": {
+      "strand": "Literacy",
+      "substrand": "Interacting with others"
+    },
+    "AIE": {
+      "strand": "Literacy",
+      "substrand": "Analysing, interpreting and evaluating"
+    },
+    "CT": {
+      "strand": "Literacy",
+      "substrand": "Creating texts"
+    },
+    "LIO": {
+      "strand": "Language",
+      "substrand": "Language for interacting with others"
+    },
+    "TSO": {
+      "strand": "Language",
+      "substrand": "Text structure and organisation"
+    },
+    "EDI": {
+      "strand": "Language",
+      "substrand": "Language for expressing and developing ideas"
+    },
+    "ER": {
+      "strand": "Literature",
+      "substrand": "Engaging with and responding to literature"
+    },
+    "EX": {
+      "strand": "Literature",
+      "substrand": "Examining literature"
+    },
+    "CL": {
+      "strand": "Literature",
+      "substrand": "Creating literature"
+    }
+  },
+  "entries": [
+    {
+      "id": "L3-TIC",
+      "code": "VC2E3LY01",
+      "level": 3,
+      "strand": "Literacy",
+      "substrand": "Texts in context",
+      "focus": "TIC",
+      "text": "Identify how texts are shaped by the purpose and audience they are made for.",
+      "verified": false
+    },
+    {
+      "id": "L3-IWO",
+      "code": "VC2E3LY02",
+      "level": 3,
+      "strand": "Literacy",
+      "substrand": "Interacting with others",
+      "focus": "IWO",
+      "text": "Use interaction skills (listening, turn-taking, asking questions) to share ideas; plan and deliver short presentations.",
+      "verified": false
+    },
+    {
+      "id": "L3-AIE",
+      "code": "VC2E3LY03",
+      "level": 3,
+      "strand": "Literacy",
+      "substrand": "Analysing, interpreting and evaluating",
+      "focus": "AIE",
+      "text": "Use comprehension strategies (predicting, questioning, monitoring, summarising) to build literal and inferred meaning; use text features and images to help meaning.",
+      "verified": false
+    },
+    {
+      "id": "L3-CT",
+      "code": "VC2E3LY04",
+      "level": 3,
+      "strand": "Literacy",
+      "substrand": "Creating texts",
+      "focus": "CT",
+      "text": "Plan, draft and publish imaginative, informative and persuasive texts with a clear sequence and topic vocabulary.",
+      "verified": false
+    },
+    {
+      "id": "L3-TSO",
+      "code": "VC2E3LA01",
+      "level": 3,
+      "strand": "Language",
+      "substrand": "Text structure and organisation",
+      "focus": "TSO",
+      "text": "Understand how different types of texts are organised (e.g. procedures, recounts) and how headings and layout help readers.",
+      "verified": false
+    },
+    {
+      "id": "L3-EDI",
+      "code": "VC2E3LA02",
+      "level": 3,
+      "strand": "Language",
+      "substrand": "Language for expressing and developing ideas",
+      "focus": "EDI",
+      "text": "Use topic-specific vocabulary and understand how images and words work together to create meaning.",
+      "verified": false
+    },
+    {
+      "id": "L4-TIC",
+      "code": "VC2E4LY01",
+      "level": 4,
+      "strand": "Literacy",
+      "substrand": "Texts in context",
+      "focus": "TIC",
+      "text": "Explain how texts reflect the contexts, purposes and audiences they are made for.",
+      "verified": false
+    },
+    {
+      "id": "L4-IWO",
+      "code": "VC2E4LY02",
+      "level": 4,
+      "strand": "Literacy",
+      "substrand": "Interacting with others",
+      "focus": "IWO",
+      "text": "Use interaction skills to contribute to and clarify discussions; plan and deliver short spoken and multimodal presentations.",
+      "verified": false
+    },
+    {
+      "id": "L4-AIE",
+      "code": "VC2E4LY03",
+      "level": 4,
+      "strand": "Literacy",
+      "substrand": "Analysing, interpreting and evaluating",
+      "focus": "AIE",
+      "text": "Use comprehension strategies to build literal and inferred meaning, find the main idea and supporting details, and connect ideas across texts.",
+      "verified": false
+    },
+    {
+      "id": "L4-CT",
+      "code": "VC2E4LY04",
+      "level": 4,
+      "strand": "Literacy",
+      "substrand": "Creating texts",
+      "focus": "CT",
+      "text": "Plan, draft and publish texts with ideas grouped into paragraphs and suitable vocabulary; re-read and edit for meaning.",
+      "verified": false
+    },
+    {
+      "id": "L4-LIO",
+      "code": "VC2E4LA01",
+      "level": 4,
+      "strand": "Language",
+      "substrand": "Language for interacting with others",
+      "focus": "LIO",
+      "text": "Understand that language choices (formal or informal, tone) change depending on who we are communicating with and why.",
+      "verified": false
+    },
+    {
+      "id": "L4-TSO",
+      "code": "VC2E4LA02",
+      "level": 4,
+      "strand": "Language",
+      "substrand": "Text structure and organisation",
+      "focus": "TSO",
+      "text": "Understand how texts are organised by purpose, and how paragraphs, headings and navigation features help readers find information.",
+      "verified": false
+    },
+    {
+      "id": "L4-EDI",
+      "code": "VC2E4LA03",
+      "level": 4,
+      "strand": "Language",
+      "substrand": "Language for expressing and developing ideas",
+      "focus": "EDI",
+      "text": "Use precise and technical vocabulary; understand how complex sentences link ideas.",
+      "verified": false
+    },
+    {
+      "id": "L5-TIC",
+      "code": "VC2E5LY01",
+      "level": 5,
+      "strand": "Literacy",
+      "substrand": "Texts in context",
+      "focus": "TIC",
+      "text": "Explain how texts present ideas, people and issues differently depending on purpose and audience.",
+      "verified": false
+    },
+    {
+      "id": "L5-IWO",
+      "code": "VC2E5LY02",
+      "level": 5,
+      "strand": "Literacy",
+      "substrand": "Interacting with others",
+      "focus": "IWO",
+      "text": "Use interaction skills, including active listening and clear speaking, to develop ideas; deliver presentations that suit purpose and audience.",
+      "verified": false
+    },
+    {
+      "id": "L5-AIE",
+      "code": "VC2E5LY03",
+      "level": 5,
+      "strand": "Literacy",
+      "substrand": "Analysing, interpreting and evaluating",
+      "focus": "AIE",
+      "text": "Use comprehension strategies to build literal and inferred meaning and evaluate ideas; navigate print and digital texts using features such as headings, links and tables.",
+      "verified": false
+    },
+    {
+      "id": "L5-CT",
+      "code": "VC2E5LY04",
+      "level": 5,
+      "strand": "Literacy",
+      "substrand": "Creating texts",
+      "focus": "CT",
+      "text": "Plan, create, edit and publish texts that suit purpose and audience, using paragraphs, precise vocabulary and multimodal features.",
+      "verified": false
+    },
+    {
+      "id": "L5-LIO",
+      "code": "VC2E5LA01",
+      "level": 5,
+      "strand": "Language",
+      "substrand": "Language for interacting with others",
+      "focus": "LIO",
+      "text": "Understand how to move between formal and informal language to suit context and relationship; use language to express opinions.",
+      "verified": false
+    },
+    {
+      "id": "L5-TSO",
+      "code": "VC2E5LA02",
+      "level": 5,
+      "strand": "Language",
+      "substrand": "Text structure and organisation",
+      "focus": "TSO",
+      "text": "Understand how informative and persuasive texts use different structures and features, and how cohesive words link ideas.",
+      "verified": false
+    },
+    {
+      "id": "L5-EDI",
+      "code": "VC2E5LA03",
+      "level": 5,
+      "strand": "Language",
+      "substrand": "Language for expressing and developing ideas",
+      "focus": "EDI",
+      "text": "Use noun groups, verbs and adverbials to add precise detail; explore how word choice and images create meaning.",
+      "verified": false
+    },
+    {
+      "id": "L5-ER",
+      "code": "VC2E5LE01",
+      "level": 5,
+      "strand": "Literature",
+      "substrand": "Engaging with and responding to literature",
+      "focus": "ER",
+      "text": "Present a personal response to literary texts, explaining likes and dislikes with reasons.",
+      "verified": false
+    },
+    {
+      "id": "L5-EX",
+      "code": "VC2E5LE02",
+      "level": 5,
+      "strand": "Literature",
+      "substrand": "Examining literature",
+      "focus": "EX",
+      "text": "Identify how authors use language features, including imagery and sound, to create effects.",
+      "verified": false
+    },
+    {
+      "id": "L5-CL",
+      "code": "VC2E5LE03",
+      "level": 5,
+      "strand": "Literature",
+      "substrand": "Creating literature",
+      "focus": "CL",
+      "text": "Create narratives and poems drawing on personal experience, using descriptive language and dialogue.",
+      "verified": false
+    },
+    {
+      "id": "L6-TIC",
+      "code": "VC2E6LY01",
+      "level": 6,
+      "strand": "Literacy",
+      "substrand": "Texts in context",
+      "focus": "TIC",
+      "text": "Examine how texts, including digital texts, present information and viewpoints for different purposes and audiences.",
+      "verified": false
+    },
+    {
+      "id": "L6-IWO",
+      "code": "VC2E6LY02",
+      "level": 6,
+      "strand": "Literacy",
+      "substrand": "Interacting with others",
+      "focus": "IWO",
+      "text": "Use interaction skills to present and support opinions and respond to others; deliver logically structured presentations with multimodal elements.",
+      "verified": false
+    },
+    {
+      "id": "L6-AIE",
+      "code": "VC2E6LY03",
+      "level": 6,
+      "strand": "Literacy",
+      "substrand": "Analysing, interpreting and evaluating",
+      "focus": "AIE",
+      "text": "Use comprehension strategies to interpret and analyse information, compare information across texts and evaluate the reliability of sources.",
+      "verified": false
+    },
+    {
+      "id": "L6-CT",
+      "code": "VC2E6LY04",
+      "level": 6,
+      "strand": "Literacy",
+      "substrand": "Creating texts",
+      "focus": "CT",
+      "text": "Plan, create, edit and publish texts with a logical structure, supporting evidence and language that suits purpose, audience and form.",
+      "verified": false
+    },
+    {
+      "id": "L6-LIO",
+      "code": "VC2E6LA01",
+      "level": 6,
+      "strand": "Language",
+      "substrand": "Language for interacting with others",
+      "focus": "LIO",
+      "text": "Understand how language choices, including evaluative and emotive language, show relationships and express viewpoints.",
+      "verified": false
+    },
+    {
+      "id": "L6-TSO",
+      "code": "VC2E6LA02",
+      "level": 6,
+      "strand": "Language",
+      "substrand": "Text structure and organisation",
+      "focus": "TSO",
+      "text": "Understand how text structures and features (tables, captions, sections) are used for different purposes, including in digital texts.",
+      "verified": false
+    },
+    {
+      "id": "L6-EDI",
+      "code": "VC2E6LA03",
+      "level": 6,
+      "strand": "Language",
+      "substrand": "Language for expressing and developing ideas",
+      "focus": "EDI",
+      "text": "Use a range of sentence types and vocabulary for clarity and effect; understand how visual elements add meaning.",
+      "verified": false
+    },
+    {
+      "id": "L6-ER",
+      "code": "VC2E6LE01",
+      "level": 6,
+      "strand": "Literature",
+      "substrand": "Engaging with and responding to literature",
+      "focus": "ER",
+      "text": "Compare personal responses to literary texts and explain how texts connect to their own experiences.",
+      "verified": false
+    },
+    {
+      "id": "L6-EX",
+      "code": "VC2E6LE02",
+      "level": 6,
+      "strand": "Literature",
+      "substrand": "Examining literature",
+      "focus": "EX",
+      "text": "Identify and explain how figurative language, imagery and sound devices create meaning and effect.",
+      "verified": false
+    },
+    {
+      "id": "L6-CL",
+      "code": "VC2E6LE03",
+      "level": 6,
+      "strand": "Literature",
+      "substrand": "Creating literature",
+      "focus": "CL",
+      "text": "Create literary texts that experiment with structure, voice and language for effect.",
+      "verified": false
+    },
+    {
+      "id": "L7-TIC",
+      "code": "VC2E7LY01",
+      "level": 7,
+      "strand": "Literacy",
+      "substrand": "Texts in context",
+      "focus": "TIC",
+      "text": "Analyse how representations of people, places, events and ideas reflect the contexts in which texts are created.",
+      "verified": false
+    },
+    {
+      "id": "L7-IWO",
+      "code": "VC2E7LY02",
+      "level": 7,
+      "strand": "Literacy",
+      "substrand": "Interacting with others",
+      "focus": "IWO",
+      "text": "Use interaction skills to discuss and present ideas, evaluating features of texts; plan and deliver presentations suited to the audience.",
+      "verified": false
+    },
+    {
+      "id": "L7-AIE",
+      "code": "VC2E7LY03",
+      "level": 7,
+      "strand": "Literacy",
+      "substrand": "Analysing, interpreting and evaluating",
+      "focus": "AIE",
+      "text": "Analyse and evaluate how language, structure and multimodal features shape meaning; analyse implicit and explicit ideas.",
+      "verified": false
+    },
+    {
+      "id": "L7-CT",
+      "code": "VC2E7LY04",
+      "level": 7,
+      "strand": "Literacy",
+      "substrand": "Creating texts",
+      "focus": "CT",
+      "text": "Plan, create, edit and publish imaginative, informative and persuasive texts, choosing structure, language and multimodal features for the audience.",
+      "verified": false
+    },
+    {
+      "id": "L7-LIO",
+      "code": "VC2E7LA01",
+      "level": 7,
+      "strand": "Language",
+      "substrand": "Language for interacting with others",
+      "focus": "LIO",
+      "text": "Understand how language choices, including modality and evaluative language, are used to persuade, express opinions and build relationships.",
+      "verified": false
+    },
+    {
+      "id": "L7-TSO",
+      "code": "VC2E7LA02",
+      "level": 7,
+      "strand": "Language",
+      "substrand": "Text structure and organisation",
+      "focus": "TSO",
+      "text": "Understand how structures and features such as headings, cohesive links and layout support purpose in print, digital and multimodal texts.",
+      "verified": false
+    },
+    {
+      "id": "L7-EDI",
+      "code": "VC2E7LA03",
+      "level": 7,
+      "strand": "Language",
+      "substrand": "Language for expressing and developing ideas",
+      "focus": "EDI",
+      "text": "Understand how vocabulary (including technical and figurative language) and sentence structures shape meaning; analyse how images and layout create meaning.",
+      "verified": false
+    },
+    {
+      "id": "L7-ER",
+      "code": "VC2E7LE01",
+      "level": 7,
+      "strand": "Literature",
+      "substrand": "Engaging with and responding to literature",
+      "focus": "ER",
+      "text": "Explain personal responses to literary texts, including how texts connect to their own and others’ experiences and values.",
+      "verified": false
+    },
+    {
+      "id": "L7-EX",
+      "code": "VC2E7LE02",
+      "level": 7,
+      "strand": "Literature",
+      "substrand": "Examining literature",
+      "focus": "EX",
+      "text": "Analyse how language features such as figurative language, rhythm and rhyme shape meaning in literary texts, including poetry and song lyrics.",
+      "verified": false
+    },
+    {
+      "id": "L7-CL",
+      "code": "VC2E7LE03",
+      "level": 7,
+      "strand": "Literature",
+      "substrand": "Creating literature",
+      "focus": "CL",
+      "text": "Create literary texts drawing on personal experience, using language and structure for effect.",
+      "verified": false
+    },
+    {
+      "id": "L8-TIC",
+      "code": "VC2E8LY01",
+      "level": 8,
+      "strand": "Literacy",
+      "substrand": "Texts in context",
+      "focus": "TIC",
+      "text": "Analyse how texts are shaped by context and how they position audiences to accept particular viewpoints.",
+      "verified": false
+    },
+    {
+      "id": "L8-IWO",
+      "code": "VC2E8LY02",
+      "level": 8,
+      "strand": "Literacy",
+      "substrand": "Interacting with others",
+      "focus": "IWO",
+      "text": "Use interaction skills to discuss, debate and present viewpoints, varying language and delivery for effect.",
+      "verified": false
+    },
+    {
+      "id": "L8-AIE",
+      "code": "VC2E8LY03",
+      "level": 8,
+      "strand": "Literacy",
+      "substrand": "Analysing, interpreting and evaluating",
+      "focus": "AIE",
+      "text": "Evaluate how texts use language and visual techniques to persuade and position readers; analyse and synthesise information from several sources.",
+      "verified": false
+    },
+    {
+      "id": "L8-CT",
+      "code": "VC2E8LY04",
+      "level": 8,
+      "strand": "Literacy",
+      "substrand": "Creating texts",
+      "focus": "CT",
+      "text": "Plan, create, edit and publish texts that develop and justify a point of view using evidence and persuasive techniques.",
+      "verified": false
+    },
+    {
+      "id": "L8-LIO",
+      "code": "VC2E8LA01",
+      "level": 8,
+      "strand": "Language",
+      "substrand": "Language for interacting with others",
+      "focus": "LIO",
+      "text": "Understand how to adjust register, tone and modality for an audience, and how language can include or exclude people.",
+      "verified": false
+    },
+    {
+      "id": "L8-TSO",
+      "code": "VC2E8LA02",
+      "level": 8,
+      "strand": "Language",
+      "substrand": "Text structure and organisation",
+      "focus": "TSO",
+      "text": "Analyse how text structures and conventions are adapted for purpose and audience, including combining text types.",
+      "verified": false
+    },
+    {
+      "id": "L8-EDI",
+      "code": "VC2E8LA03",
+      "level": 8,
+      "strand": "Language",
+      "substrand": "Language for expressing and developing ideas",
+      "focus": "EDI",
+      "text": "Analyse and use language features such as emotive vocabulary, nominalisation and figurative language for effect.",
+      "verified": false
+    },
+    {
+      "id": "L8-ER",
+      "code": "VC2E8LE01",
+      "level": 8,
+      "strand": "Literature",
+      "substrand": "Engaging with and responding to literature",
+      "focus": "ER",
+      "text": "Explain and justify responses to literary texts, considering different viewpoints and values.",
+      "verified": false
+    },
+    {
+      "id": "L8-EX",
+      "code": "VC2E8LE02",
+      "level": 8,
+      "strand": "Literature",
+      "substrand": "Examining literature",
+      "focus": "EX",
+      "text": "Analyse how authors use language, structure and voice to create tone, mood and meaning.",
+      "verified": false
+    },
+    {
+      "id": "L8-CL",
+      "code": "VC2E8LE03",
+      "level": 8,
+      "strand": "Literature",
+      "substrand": "Creating literature",
+      "focus": "CL",
+      "text": "Create literary texts that use voice, point of view and language features to engage an audience.",
+      "verified": false
+    }
+  ]
+}
