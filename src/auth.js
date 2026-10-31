@@ -50,7 +50,7 @@ export function sessionMiddleware(req, res, next) {
   req.user = null;
   if (token) {
     const row = db.prepare(`
-      SELECT u.id, u.username, u.name, u.role, u.class_id, u.must_change_pw, s.expires_at
+      SELECT u.id, u.username, u.name, u.role, u.class_id, u.must_change_pw, u.reading_level, s.expires_at
       FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token = ?`).get(token);
     if (row && row.expires_at > Date.now()) req.user = row;
     else if (row) destroySession(token);

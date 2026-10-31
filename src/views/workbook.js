@@ -5,6 +5,7 @@ import { html, icon, md, mdInline, raw } from '../html.js';
 import { head, sticker } from './layout.js';
 import { phone, flow } from './diagrams.js';
 import { content } from '../content.js';
+import { LEVELS } from '../levels.js';
 
 const lines = (n, cls = '') => html`<div class="lines ${cls}">${Array.from({ length: n }, () => html`<span></span>`)}</div>`;
 const lvl = () => html`<span class="wb-lvl">${icon('lucide:star')} Level Up</span>`;
@@ -38,8 +39,8 @@ const BLOCKS = {
         <ul class="wb-tick">${br.canDo.map((x) => html`<li><span class="tickbox"></span><span>${mdInline(x)}</span></li>`)}</ul></div>
       <div class="wb-card wb-card-zone"><h3>${icon('lucide:target')} How I’ll show it</h3><p>${br.showIt}</p>
         <h3>${icon('lucide:graduation-cap')} Victorian Curriculum</h3>
-        <ul class="wb-vc">${skill.vc.core.map((id) => html`<li><b>Level ${c.vc[id].level}</b> ${c.vc[id].substrand}</li>`)}</ul>
-        <p class="wb-small">${icon('lucide:star')} Level Up tasks stretch to Level ${Math.max(...skill.vc.extend.map((id) => c.vc[id].level))}.</p>
+        <ul class="wb-vc">${[...new Set(skill.vcNow.core.map((id) => c.vc[id].substrand))].map((sub) => html`<li>${sub}</li>`)}</ul>
+        <p class="wb-small">${icon('lucide:star')} Level Up tasks stretch you further.</p>
       </div>
     </div>`;
   },
@@ -95,7 +96,7 @@ const BLOCKS = {
   table(b) {
     return html`${blockTitle(b, 'lucide:table')}
     <table class="wb-table"><thead><tr>${b.columns.map((col) => html`<th>${col}</th>`)}</tr></thead>
-    <tbody>${b.rows.map((r, i) => html`<tr>${r.map((cell) => html`<td class="${cell ? (i === 0 ? 'eg' : '') : 'blank'}">${cell ? mdInline(cell) : ''}</td>`)}</tr>`)}</tbody></table>`;
+    <tbody>${b.rows.map((row) => (Array.isArray(row) ? row : row.cells)).map((r, i) => html`<tr>${r.map((cell) => html`<td class="${cell ? (i === 0 ? 'eg' : '') : 'blank'}">${cell ? mdInline(cell) : ''}</td>`)}</tr>`)}</tbody></table>`;
   },
 
   equation(b) {
@@ -188,10 +189,11 @@ function cover(skill, c, qr) {
 
 function sheet(skill, n, inner) {
   const z = skill.zoneObj;
+  const mark = LEVELS[skill.level]?.symbol || '';
   return html`<section class="sheet">
     <header class="sheet-head"><span class="sh-ico">${icon(skill.icon)}</span><b>${skill.title}</b><span class="sh-zone">${z.name}</span><span class="sh-name">Name <i></i></span></header>
     <div class="sheet-body">${inner}</div>
-    <footer class="sheet-foot"><span>${icon('lucide:chevrons-up')} Level Up Literacy</span><span>${n}</span></footer>
+    <footer class="sheet-foot"><span>${icon('lucide:chevrons-up')} Level Up Literacy <i class="ver" title="Version">${mark}</i></span><span>${n}</span></footer>
   </section>`;
 }
 
@@ -215,9 +217,9 @@ export async function workbookPage(req, skill, { answers = false, baseUrl = '' }
   }
 
   return html`${head(`${skill.title} workbook`, ['/css/shared.css', '/css/workbook.css'])}
-  <body style="--zone:${z.color};--zone-ink:${z.ink}" class="${answers ? 'answers' : ''}">
+  <body style="--zone:${z.color};--zone-ink:${z.ink}" class="${answers ? 'answers' : ''} rl-${skill.level}">
     <div class="print-bar no-print">
-      <span>${icon('lucide:notebook-pen')} <b>${skill.title}</b> workbook${answers ? ' — teacher answer copy' : ''} · ${sheets.length + 1 + (answers ? 1 : 0)} A4 pages</span>
+      <span>${icon('lucide:notebook-pen')} <b>${skill.title}</b> workbook${answers ? ' — teacher answer copy' : ''} · ${sheets.length + 1 + (answers ? 1 : 0)} A4 pages${req?.user && req.user.role !== 'student' ? ` · ${LEVELS[skill.level].symbol} ${LEVELS[skill.level].label} version` : ''}</span>
       <button onclick="window.print()">${icon('lucide:printer')} Print / Save as PDF</button>
     </div>
     ${cover(skill, c, qr)}

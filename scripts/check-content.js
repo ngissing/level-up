@@ -1,11 +1,13 @@
 // Validates content/ and estimates reading level of student-facing text.
 //   npm run check
-import { content, STEPS } from '../src/content.js';
+import { content, courseFor } from '../src/content.js';
+import { LEVEL_IDS, LEVELS } from '../src/levels.js';
 
 const BLOCKS = ['cover', 'goals', 'vocab-match', 'reading', 'questions', 'scenarios', 'phone-annotate', 'sort', 'case-study',
   'table', 'equation', 'flow', 'write', 'levelup-draw', 'reflect', 'signoff'];
 const SCENES = ['title', 'message', 'stat', 'big', 'flag', 'steps', 'end'];
-const TARGET_GRADE = 7; // students read at about Year 3–7 level
+// Rough reading-level ceilings per version (Flesch–Kincaid grade).
+const TARGET = { support: 4.5, core: 6.5, extend: 8.5 };
 
 let errors = 0, warnings = 0;
 const err = (id, m) => { errors++; console.log(`  ✗ ${id}: ${m}`); };
@@ -32,14 +34,17 @@ const vcIds = new Set(Object.keys(c.vc));
 console.log(`Map: ${c.map.zones.length} zones, ${Object.keys(c.skills).length} skills`);
 
 for (const s of Object.values(c.skills)) {
-  for (const id of [...s.vc.core, ...s.vc.extend]) if (!vcIds.has(id)) err(s.id, `unknown VC id ${id}`);
+  for (const id of [...s.vc.core, ...s.vc.extend, ...(s.vc.support || [])]) if (!vcIds.has(id)) err(s.id, `unknown VC id ${id}`);
   if (!c.zones[s.zone]) err(s.id, `unknown zone ${s.zone}`);
   if (s.status === 'ready' && !s.course) err(s.id, 'status is "ready" but content/skills/<id>.json is missing');
   if (!s.course) continue;
 
-  const k = s.course;
   console.log(`\n${s.title} (${s.id})`);
-  for (const key of ['brief', 'explainer', 'read', 'diagrams', 'quiz', 'show', 'workbook', 'teacher']) if (!k[key]) err(s.id, `missing "${key}"`);
+  for (const level of LEVEL_IDS) {
+  const k = courseFor(s, level);
+  const tag = `${s.id}/${level}`;
+  console.log(`  — ${LEVELS[level].label} version: ${k.brief?.vocab?.length} key words, ${k.quiz?.questions?.length} quiz questions, ${k.workbook?.pages?.length} workbook blocks`);
+  for (const key of ['brief', 'explainer', 'read', 'diagrams', 'quiz', 'show', 'workbook', 'teacher']) if (!k[key]) err(tag, `missing "${key}"`);
   if (!k.brief) continue;
   k.explainer?.scenes?.forEach((sc, i) => { if (!SCENES.includes(sc.kind)) err(s.id, `scene ${i}: unknown kind "${sc.kind}"`); if (!sc.say) warn(s.id, `scene ${i} has no "say" narration`); });
   k.quiz?.questions?.forEach((q, i) => { if (!(q.answer >= 0 && q.answer < q.options.length)) err(s.id, `quiz ${i}: answer index out of range`); });
@@ -56,12 +61,14 @@ for (const s of Object.values(c.skills)) {
     ...k.read.articles.map((a) => [`article "${a.title}"`, a.body]),
     ...k.read.caseStudies.map((cs) => [`case "${cs.title}"`, cs.body])];
   for (const [label, t] of texts) {
+    if (typeof t !== 'string') { err(tag, `${label} did not resolve to text`); continue; }
     const g = fkGrade(t);
     if (g === null) continue;
-    const flag = g > TARGET_GRADE + 1 ? '!' : '✓';
+    const flag = g > TARGET[level] ? '!' : '✓';
     if (flag === '!') warnings++;
-    console.log(`  ${flag} reading level ${g.toFixed(1)} — ${label}`);
+    console.log(`     ${flag} reading level ${g.toFixed(1)} (aim ≤ ${TARGET[level]}) — ${label}`);
+  }
   }
 }
-console.log(`\n${errors} error(s), ${warnings} warning(s). Reading level target: about Year ${TARGET_GRADE} or below.`);
+console.log(`\n${errors} error(s), ${warnings} warning(s).`);
 process.exit(errors ? 1 : 0);

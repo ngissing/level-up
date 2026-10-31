@@ -10,7 +10,8 @@
   };
   if (synth) { pickVoice(); synth.onvoiceschanged = pickVoice; }
 
-  function speak(text, { onend, rate = 0.95 } = {}) {
+  const baseRate = document.body.dataset.rl === 'support' ? 0.82 : 0.95;
+  function speak(text, { onend, rate = baseRate } = {}) {
     if (!synth) { onend && setTimeout(onend, 3000); return null; }
     synth.cancel();
     const u = new SpeechSynthesisUtterance(text);

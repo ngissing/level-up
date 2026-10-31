@@ -5,6 +5,7 @@ import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import path from 'node:path';
 import { ROOT_DIR } from './html.js';
 import { db } from './db.js';
+import { LEVEL_IDS, DEFAULT_LEVEL } from './levels.js';
 
 const CONTENT = path.join(ROOT_DIR, 'content');
 let cache = null;
@@ -33,6 +34,7 @@ export function content() {
     skills[sk.id] = { ...sk, zoneObj: zones[sk.zone], course, ready: sk.status === 'ready' && !!course };
   }
   cache = { map, curriculum, vc, zones, skills, milestones: map.milestones };
+  levelCache?.clear();
   cacheStamp = s;
   return cache;
 }
@@ -40,6 +42,61 @@ export function content() {
 export const skillList = () => Object.values(content().skills);
 export const getSkill = (id) => content().skills[id];
 export const zoneSkills = (zone) => skillList().filter((s) => s.zone === zone);
+
+// ---------- Reading levels ----------
+// Any value in a course file can be written per level:
+//   "body": { "support": "…", "core": "…", "extend": "…" }   (missing levels fall back to core)
+// and any object in a list can be limited to some levels:
+//   { "q": "…", "levels": ["core", "extend"] }
+const isLeveled = (o) => o && typeof o === 'object' && !Array.isArray(o) && 'core' in o
+  && Object.keys(o).every((k) => LEVEL_IDS.includes(k));
+
+export function resolveLevel(v, level) {
+  if (Array.isArray(v)) {
+    return v.filter((x) => !(x && typeof x === 'object' && Array.isArray(x.levels) && !x.levels.includes(level)))
+      .map((x) => resolveLevel(x, level));
+  }
+  if (isLeveled(v)) return resolveLevel(level in v ? v[level] : v.core, level);
+  if (v && typeof v === 'object') {
+    const out = {};
+    for (const [k, x] of Object.entries(v)) if (k !== 'levels') out[k] = resolveLevel(x, level);
+    return out;
+  }
+  return v;
+}
+
+// Automatic adjustments that don't need authoring.
+function adapt(course, level) {
+  if (level === 'support') {
+    for (const q of course.quiz?.questions || []) {
+      if (q.options.length <= 3 || q.keepOptions) continue;
+      // Keep the answer plus the first two distractors, in their original order.
+      const keep = q.options.map((o, i) => i).filter((i) => i === q.answer).concat(
+        q.options.map((o, i) => i).filter((i) => i !== q.answer).slice(0, 2)).sort((a, b) => a - b);
+      q.answer = keep.indexOf(q.answer);
+      q.options = keep.map((i) => q.options[i]);
+    }
+  }
+  return course;
+}
+
+var levelCache = new Map(); // var: content() may run before this line on first import
+export function courseFor(skill, level = DEFAULT_LEVEL) {
+  if (!skill.course) return null;
+  const key = `${skill.id}|${level}|${cacheStamp}`;
+  if (!levelCache.has(key)) levelCache.set(key, adapt(resolveLevel(skill.course, level), level));
+  return levelCache.get(key);
+}
+
+// A copy of the skill with its course and curriculum links set for one reading level.
+export function withLevel(skill, level = DEFAULT_LEVEL) {
+  return { ...skill, level, course: courseFor(skill, level), vcNow: vcFor(skill, level) };
+}
+
+// Foundation-level students can show earlier-level curriculum (vc.support) for the same skill.
+export function vcFor(skill, level = DEFAULT_LEVEL) {
+  return { core: level === 'support' && skill.vc.support ? skill.vc.support : skill.vc.core, extend: skill.vc.extend };
+}
 
 // ---------- Unlock rules ----------
 // tier 0  Base Camp: always open
@@ -145,15 +202,16 @@ export function newlyUnlocked(done, skillId) {
 // ---------- Curriculum coverage ----------
 // Core VC links count once a skill is complete; extension links count when
 // the teacher confirms the Level Up work.
-export function coverage(progress) {
+export function coverage(progress, level = DEFAULT_LEVEL) {
   const c = content();
   const cov = {};
   for (const p of Object.values(progress)) {
     if (p.status !== 'complete') continue;
     const s = c.skills[p.skill_id];
     if (!s) continue;
-    for (const id of s.vc.core) (cov[id] ||= []).push({ skill: s, extend: false });
-    if (p.level_up) for (const id of s.vc.extend) (cov[id] ||= []).push({ skill: s, extend: true });
+    const vc = vcFor(s, level);
+    for (const id of vc.core) (cov[id] ||= []).push({ skill: s, extend: false });
+    if (p.level_up) for (const id of vc.extend) (cov[id] ||= []).push({ skill: s, extend: true });
   }
   return cov;
 }

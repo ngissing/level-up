@@ -18,7 +18,7 @@ You need Node.js 22.13 or later (it uses the built-in `node:sqlite`).
 |---|---|---|
 | `admin` | `changeme` | Admin: accounts, classes, settings |
 | `teacher` | `teacher123` | Teacher of class “10 Literacy” (after `npm run seed`) |
-| `kai`, `mia`, `jay`, `tia` | `student123` | Students at different stages |
+| `kai`, `mia`, `jay`, `tia` | `student123` | Students at different stages (Kai is Foundation, Jay is Extended, Mia and Tia are Core) |
 
 Change the admin password straight away, or set `ADMIN_PASSWORD` before the first run.
 
@@ -40,7 +40,8 @@ Change the admin password straight away, or set `ADMIN_PASSWORD` before the firs
 - Curriculum map: every VC focus point and the skills that cover it.
 
 **Admins**
-- Add people one at a time or paste a whole class (`name, username, password, class`).
+- Add people one at a time or paste a whole class (`name, username, password, class, reading level`).
+- Set each student's **reading level** (▲ Foundation, Years 3–4 · ■ Core, Years 5–6 · ● Extended, Year 7+). It changes the wording, length and scaffolds of every part of a mini course, and which curriculum level the work evidences. Students never see their level.
 - Students set their own password at first login.
 - Classes, teacher assignment, password resets.
 - Settings: require teacher sign-off, and the quiz pass mark.
@@ -55,6 +56,7 @@ Change the admin password straight away, or set `ADMIN_PASSWORD` before the firs
 | `npm run pdf [-- <skill-id>] [-- --answers]` | Export A4 workbook PDFs to `exports/` (needs Playwright). Warns on page overflow. |
 | `npm run map-doc` | Regenerate `docs/COURSE-MAP.md` from the content |
 | `npm run build-curriculum` | Rebuild `content/curriculum.json` |
+| `npm run import-vcaa -- <file.docx>` | Import the official VCAA English curriculum and write a comparison report (`docs/CURRICULUM-CHECK.md`) |
 
 ## Project layout
 
@@ -75,6 +77,6 @@ docs/
 
 ## Before using with real students
 
-- **Verify the curriculum links.** `content/curriculum.json` was written without access to the VCAA site. The wording is paraphrased and the codes are provisional. Check each entry against <https://f10.vcaa.vic.edu.au>, then correct it in `scripts/build-curriculum.mjs`.
+- **Verify the curriculum links.** `content/curriculum.json` was written without access to the VCAA site. The wording is paraphrased and the codes are provisional. Download the official *English – Curriculum* Word document from <https://f10.vcaa.vic.edu.au/learning-areas/english/english/curriculum>. Then run `npm run import-vcaa -- path/to/file.docx` and check `docs/CURRICULUM-CHECK.md`.
 - **Hosting and privacy.** The app stores student names, usernames and progress in `data/levelup.db`. Host it somewhere your school approves, behind HTTPS. Set `NODE_ENV=production` for secure cookies, and set `BASE_URL` (e.g. `https://levelup.yourschool.vic.edu.au`) so workbook QR codes point to the right place. Back up `data/`.
 - Run `npm run check` and print a workbook before each new course goes live.

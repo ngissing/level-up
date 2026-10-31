@@ -14,13 +14,15 @@
     "check": "node --disable-warning=ExperimentalWarning scripts/check-content.js",
     "pdf": "node --disable-warning=ExperimentalWarning scripts/workbook-pdf.js",
     "map-doc": "node --disable-warning=ExperimentalWarning scripts/course-map-doc.js",
-    "build-curriculum": "node scripts/build-curriculum.mjs"
+    "build-curriculum": "node scripts/build-curriculum.mjs",
+    "import-vcaa": "node scripts/import-vcaa.js"
   },
   "dependencies": {
     "@phosphor-icons/core": "^2.1.1",
     "@tabler/icons": "^3.50.0",
     "express": "^5.3.0",
     "lucide-static": "^1.65.0",
+    "mammoth": "^1.13.0",
     "marked": "^18.1.2",
     "qrcode": "^1.5.4"
   }

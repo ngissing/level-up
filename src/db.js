@@ -76,6 +76,10 @@ INSERT OR IGNORE INTO settings (key, value) VALUES ('require_signoff', '1');
 INSERT OR IGNORE INTO settings (key, value) VALUES ('quiz_pass_percent', '60');
 `);
 
+// Migrations for databases created by earlier versions.
+const cols = (t) => db.prepare(`PRAGMA table_info(${t})`).all().map((c) => c.name);
+if (!cols('users').includes('reading_level')) db.exec("ALTER TABLE users ADD COLUMN reading_level TEXT NOT NULL DEFAULT 'core'");
+
 export const getSetting = (k) => db.prepare('SELECT value FROM settings WHERE key = ?').get(k)?.value;
 export const setSetting = (k, v) =>
   db.prepare('INSERT INTO settings (key, value) VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value').run(k, String(v));

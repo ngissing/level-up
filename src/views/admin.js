@@ -1,12 +1,15 @@
 import { html, icon, raw } from '../html.js';
 import { page } from './layout.js';
+import { LEVELS, LEVEL_IDS } from '../levels.js';
 
 export function adminPage(req, { users, classes, settings, roleFilter }) {
   const teachers = users.filter((u) => u.role !== 'student');
   const shown = roleFilter ? users.filter((u) => u.role === roleFilter) : users;
+  const levelOpts = (sel, long = true) => LEVEL_IDS.map((l) => html`<option value="${l}" ${sel === l ? raw('selected') : ''}>${LEVELS[l].symbol} ${LEVELS[l].label}${long ? ` — ${LEVELS[l].years}` : ''}</option>`);
   const classOpts = (sel) => html`<option value="">—</option>${classes.map((c) => html`<option value="${c.id}" ${String(sel) === String(c.id) ? raw('selected') : ''}>${c.name}</option>`)}`;
   const body = html`<section class="page-head"><p class="eyebrow">Admin</p><h1>Accounts & classes</h1>
-    <p class="lede">Students can’t sign themselves up — add them here. Give each student a simple password; they’ll be asked to change it the first time they log in.</p></section>
+    <p class="lede">Students can’t sign themselves up — add them here. Give each student a simple password; they’ll be asked to change it the first time they log in.</p>
+    <div class="callout-box">${icon('lucide:layers')}<div><strong>Reading levels</strong><p>Each student has a reading level. It changes the wording, the length and the scaffolds of every mini course: the brief, the readings, the quiz, the explainer voice speed and the printed workbook. Students never see their level. ${LEVEL_IDS.map((l) => html`<b>${LEVELS[l].symbol} ${LEVELS[l].label}</b> ${LEVELS[l].years}. `)}</p></div></div></section>
 
   <div class="admin-grid">
     <section class="panel">
@@ -17,6 +20,7 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
         <label class="field"><span>Starting password</span><input name="password" required minlength="4" autocomplete="off"></label>
         <label class="field"><span>Role</span><select name="role"><option>student</option><option>teacher</option><option>admin</option></select></label>
         <label class="field"><span>Class</span><select name="class_id">${classOpts('')}</select></label>
+        <label class="field"><span>Reading level (students only — they never see it)</span><select name="reading_level">${levelOpts('core')}</select></label>
         <button class="btn btn-ink">${icon('lucide:plus')} Add</button>
       </form>
     </section>
@@ -24,9 +28,9 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
     <section class="panel">
       <h2>${icon('lucide:sheet')} Add a whole class</h2>
       <form method="post" action="/admin/bulk">
-        <label class="field"><span>One per line: <code>name, username, password, class</code></span>
-          <textarea name="csv" rows="6" placeholder="Jordan Smith, jsmith, tiger42, 10 Literacy&#10;Ari Nguyen, anguyen, comet77, 10 Literacy"></textarea></label>
-        <p class="muted small">Classes that don’t exist yet are created. Everyone added here is a student.</p>
+        <label class="field"><span>One per line: <code>name, username, password, class, reading level</code></span>
+          <textarea name="csv" rows="6" placeholder="Jordan Smith, jsmith, tiger42, 10 Literacy, foundation&#10;Ari Nguyen, anguyen, comet77, 10 Literacy, core"></textarea></label>
+        <p class="muted small">Classes that don’t exist yet are created. Everyone added here is a student. Reading level can be <code>foundation</code> (Years 3–4), <code>core</code> (Years 5–6) or <code>extended</code> (Year 7+); leave it blank for core.</p>
         <button class="btn btn-ink">${icon('lucide:upload')} Add students</button>
       </form>
     </section>
@@ -59,10 +63,11 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
     <div class="row"><h2>${icon('lucide:users')} People (${shown.length})</h2>
       <nav class="pills">${[['', 'All'], ['student', 'Students'], ['teacher', 'Teachers'], ['admin', 'Admins']].map(([r, l]) => html`<a href="/admin${r ? '?role=' + r : ''}" class="${(roleFilter || '') === r ? 'on' : ''}">${l}</a>`)}</nav></div>
     <table class="table">
-      <thead><tr><th>Name</th><th>Username</th><th>Role</th><th>Class</th><th>Last login</th><th>Reset password</th><th></th></tr></thead>
+      <thead><tr><th>Name</th><th>Username</th><th>Role</th><th>Class</th><th>Reading level</th><th>Last login</th><th>Reset password</th><th></th></tr></thead>
       <tbody>${shown.map((u) => html`<tr>
         <td>${u.name}</td><td><code>${u.username}</code></td><td>${u.role}</td>
         <td><form method="post" action="/admin/users/${u.id}/class" class="inline-form"><select name="class_id" onchange="this.form.submit()">${classOpts(u.class_id)}</select></form></td>
+        <td>${u.role === 'student' ? html`<form method="post" action="/admin/users/${u.id}/level" class="inline-form"><select name="reading_level" onchange="this.form.submit()" aria-label="Reading level for ${u.name}">${levelOpts(u.reading_level, false)}</select></form>` : html`<span class="muted">—</span>`}</td>
         <td>${u.last_login?.slice(0, 10) || '—'}</td>
         <td><form method="post" action="/admin/users/${u.id}/password" class="inline-form"><input name="password" placeholder="new password" minlength="4" required size="10"><button class="btn btn-sm btn-ghost">Set</button></form></td>
         <td>${u.id !== req.user.id ? html`<form method="post" action="/admin/users/${u.id}/delete" onsubmit="return confirm('Delete ${u.name} and all their progress?')"><button class="btn btn-sm btn-danger" aria-label="Delete ${u.name}">${icon('lucide:trash-2')}</button></form>` : ''}</td>

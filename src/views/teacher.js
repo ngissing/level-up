@@ -1,6 +1,7 @@
 import { html, icon, md, mdInline, raw } from '../html.js';
-import { page, sticker, vcChip, empty, initials } from './layout.js';
-import { content, skillList, skillState, doneSet, coverage, STEPS } from '../content.js';
+import { page, sticker, vcChip, empty, initials, levelTag } from './layout.js';
+import { LEVELS, LEVEL_IDS } from '../levels.js';
+import { content, skillList, skillState, doneSet, coverage, STEPS, courseFor, vcFor } from '../content.js';
 import { curriculumGrid } from './student.js';
 import { diagram } from './diagrams.js';
 
@@ -58,11 +59,12 @@ export function dashboardPage(req, { students, queue, classes, classId, progress
     <tbody>${students.map((st) => {
       const prog = progressByUser[st.id] || {};
       const done = doneSet(prog);
-      return html`<tr><th><a href="/teacher/student/${st.id}"><span class="avatar sm">${initials(st.name)}</span>${st.name}</a></th>
+      return html`<tr><th><a href="/teacher/student/${st.id}"><span class="avatar sm">${initials(st.name)}</span>${st.name}${levelTag(st.reading_level, { short: true })}</a></th>
         ${skills.map((s) => { const state = skillState(s, prog, done); return html`<td><span class="dot dot-${state}" title="${s.title}: ${DOT[state]}" style="--zone:${s.zoneObj.color}"></span></td>`; })}
         <td><b>${done.size}</b></td></tr>`;
     })}</tbody></table></div>
-    <p class="legend">${['complete', 'submitted', 'started', 'open', 'locked'].map((k) => html`<span><span class="dot dot-${k}" style="--zone:#4D7CFE"></span>${DOT[k]}</span>`)}</p>`
+    <p class="legend">${['complete', 'submitted', 'started', 'open', 'locked'].map((k) => html`<span><span class="dot dot-${k}" style="--zone:#4D7CFE"></span>${DOT[k]}</span>`)}
+      <span>Reading level: ${LEVEL_IDS.map((l) => html`${LEVELS[l].symbol} ${LEVELS[l].label} `)}</span></p>`
     : empty('No students yet. An admin can add accounts under Accounts.', 'lucide:user-plus')}`;
   return page(req, { title: 'Dashboard', body, active: '/teacher', wide: true });
 }
@@ -74,22 +76,24 @@ export function studentDetailPage(req, { student, progress, badges }) {
   const body = html`<section class="page-head row">
     <div><p class="eyebrow"><a href="/teacher">${icon('lucide:arrow-left')} Dashboard</a></p>
     <h1><span class="avatar lg">${initials(student.name)}</span> ${student.name}</h1>
-    <p class="muted">${student.username} · ${student.class_name || 'No class'} · last login ${student.last_login?.slice(0, 10) || 'never'}</p></div>
+    <p class="muted">${student.username} · ${student.class_name || 'No class'} · last login ${student.last_login?.slice(0, 10) || 'never'}</p>
+    <p>${levelTag(student.reading_level)} <span class="muted small">Reading level — students don’t see this. ${req.user.role === 'admin' ? html`Change it under <a href="/admin?role=student">Accounts</a>.` : 'An admin can change it.'}</span></p></div>
     <div class="tiles mini"><div class="tile">${icon('lucide:circle-check-big')}<b>${done.size}</b><span>skills</span></div><div class="tile">${icon('lucide:award')}<b>${badges.length}</b><span>badges</span></div></div>
   </section>
 
   <h2 class="section-title">${icon('lucide:graduation-cap')} Victorian Curriculum evidence</h2>
-  ${curriculumGrid(coverage(progress))}
+  ${curriculumGrid(coverage(progress, student.reading_level))}
 
   <h2 class="section-title">${icon('lucide:list')} Skills</h2>
   <table class="table">
-    <thead><tr><th>Skill</th><th>Status</th><th>Steps</th><th>Quick check</th><th>Notes</th><th></th></tr></thead>
+    <thead><tr><th>Skill</th><th>Status</th><th>Steps</th><th>Quick check</th><th>Notes</th><th>Workbook</th><th></th></tr></thead>
     <tbody>${rows.filter((r) => r.st !== 'locked').map(({ s, st, p }) => html`<tr>
       <td><span class="mini-skill" style="--zone:${s.zoneObj.color};--zone-ink:${s.zoneObj.ink}">${icon(s.icon)} ${s.title}</span></td>
       <td><span class="status status-${st}">${DOT[st]}</span>${p?.level_up ? html` <span class="lvl-chip">${icon('lucide:star')}</span>` : ''}</td>
       <td>${p ? `${p.steps.length}/${STEPS.length}` : '—'}</td>
       <td>${p?.quiz_best != null ? `${p.quiz_best}/${p.quiz_total}` : '—'}</td>
       <td class="notes">${p?.reflection ? html`<em>“${p.reflection}”</em>` : ''}${p?.teacher_comment ? html`<br><small>You: ${p.teacher_comment}</small>` : ''}</td>
+      <td>${s.ready ? html`<a class="btn btn-sm btn-ghost" href="/workbook/${s.id}?student=${student.id}" target="_blank" title="Printed at ${student.name.split(' ')[0]}’s reading level">${icon('lucide:printer')} Print</a>` : ''}</td>
       <td>${st !== 'complete' && st !== 'soon' ? html`<form method="post" action="/teacher/signoff">
           <input type="hidden" name="user_id" value="${student.id}"><input type="hidden" name="skill_id" value="${s.id}">
           <input type="hidden" name="paper" value="1">
@@ -122,18 +126,25 @@ export function skillsIndexPage(req) {
   return page(req, { title: 'Mini courses', body, active: '/teacher/skills', wide: true });
 }
 
+const printButtons = (skill, answers = false) => html`${LEVEL_IDS.map((l) => html`<a class="btn btn-sm ${answers ? 'btn-ghost' : 'btn-ink'}" href="/workbook/${skill.id}?level=${l}${answers ? '&answers=1' : ''}" target="_blank" title="${LEVELS[l].years}">${icon(answers ? 'lucide:key-round' : 'lucide:printer')} ${LEVELS[l].symbol} ${LEVELS[l].label}</a>`)}`;
+
 export function teacherGuidePage(req, skill) {
   const c = content();
-  const t = skill.course.teacher;
+  const t = courseFor(skill, 'core').teacher;
+  const lookFors = skill.course.teacher.lookFors; // unresolved: shows every level
+  const levelNotes = skill.course.teacher.levels; // unresolved: one note per level
   const z = skill.zoneObj;
   const body = html`<section class="skill-hero">
     <a class="crumb" href="/teacher/skills">${icon('lucide:arrow-left')} Mini courses</a>
     <div class="skill-hero-grid">
       <div>${sticker(skill.icon, { color: '#fff', ink: z.ink, size: 'xl', cls: 'hero-sticker' })}<h1>${skill.title}</h1><p class="tagline">Teacher guide · ${skill.course.duration}</p></div>
       <aside class="hero-card">
-        <p class="btn-row"><a class="btn btn-ink" href="/workbook/${skill.id}" target="_blank">${icon('lucide:printer')} Print workbook</a>
-        <a class="btn btn-ghost" href="/workbook/${skill.id}?answers=1" target="_blank">${icon('lucide:key-round')} Answer copy</a></p>
-        <p class="btn-row"><a class="btn btn-ghost" href="/teacher/skill/${skill.id}/explainer" target="_blank">${icon('lucide:tv')} Explainer on the board</a></p>
+        <p class="kicker">${icon('lucide:printer')} Workbook by reading level</p>
+        <p class="btn-row">${printButtons(skill)}</p>
+        <p class="kicker">${icon('lucide:key-round')} Answer copies</p>
+        <p class="btn-row">${printButtons(skill, true)}</p>
+        <p class="btn-row"><a class="btn btn-sm btn-ghost" href="/teacher/skill/${skill.id}/explainer" target="_blank">${icon('lucide:tv')} Explainer on the board</a></p>
+        <p class="small muted">Tip: print a student’s own copy from their page on the dashboard. Workbooks show a small ${LEVELS.support.symbol} ${LEVELS.core.symbol} ${LEVELS.extend.symbol} in the footer so you can tell versions apart; it isn’t labelled for students.</p>
       </aside>
     </div>
   </section>
@@ -145,8 +156,16 @@ export function teacherGuidePage(req, skill) {
     <section class="panel"><h2>${icon('lucide:graduation-cap')} Curriculum links & what to look for</h2>
       <p class="verify">${icon('lucide:triangle-alert')} Codes and wording are paraphrased from VC 2.0 English and still need checking against the VCAA site.</p>
       <table class="table"><thead><tr><th>Victorian Curriculum</th><th>Evidence to look for</th></tr></thead><tbody>
-      ${t.lookFors.map((l) => { const e = c.vc[l.vc]; return html`<tr><td>${vcChip(e, { extend: skill.vc.extend.includes(l.vc) })}<p class="small">${e.code} — ${e.text}</p></td><td>${l.evidence}</td></tr>`; })}
+      ${lookFors.map((l) => { const e = c.vc[l.vc]; return html`<tr><td>${vcChip(e, { extend: skill.vc.extend.includes(l.vc) })}<p class="small">${e.code} — ${e.text}</p></td><td>${l.levels ? html`${l.levels.map((x) => levelTag(x))} ` : ''}${l.evidence}</td></tr>`; })}
       </tbody></table></section>
+
+    ${levelNotes ? html`<section class="panel"><h2>${icon('lucide:layers')} Reading levels</h2>
+      <p>Each student gets the version that matches the reading level an admin has set for them. Students never see the level name.</p>
+      <div class="levels-grid">${LEVEL_IDS.map((l) => { const v = vcFor(skill, l); return html`<div class="level-card rl-${l}">
+        <h3>${LEVELS[l].symbol} ${LEVELS[l].label} <small>${LEVELS[l].years}</small></h3>
+        ${md(levelNotes[l] || '')}
+        <p class="small"><b>Curriculum evidenced:</b></p><div class="vc-list">${v.core.map((id) => vcChip(c.vc[id]))}${l === 'extend' ? v.extend.map((id) => vcChip(c.vc[id], { extend: true })) : ''}</div>
+      </div>`; })}</div></section>` : ''}
 
     <section class="panel"><h2>${icon('lucide:package')} Prep</h2><ul>${t.prep.map((p) => html`<li>${mdInline(p)}</li>`)}</ul>
       <h2>${icon('lucide:key')} Key teaching points</h2><ul class="keypoints">${t.keyPoints.map((p) => html`<li>${p}</li>`)}</ul></section>
@@ -172,7 +191,7 @@ export function curriculumMapPage(req) {
   const c = content();
   const bySub = {};
   for (const e of c.curriculum.entries) (bySub[e.focus] ||= []).push(e);
-  const skillsFor = (id) => skillList().map((s) => ({ s, core: s.vc.core.includes(id), ext: s.vc.extend.includes(id) })).filter((x) => x.core || x.ext);
+  const skillsFor = (id) => skillList().map((s) => ({ s, core: s.vc.core.includes(id) || (s.vc.support || []).includes(id), ext: s.vc.extend.includes(id) })).filter((x) => x.core || x.ext);
   const total = c.curriculum.entries.length;
   const covered = c.curriculum.entries.filter((e) => skillsFor(e.id).length).length;
   const body = html`<section class="page-head"><p class="eyebrow">Curriculum map</p>

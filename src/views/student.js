@@ -26,7 +26,7 @@ function node(skill, progress, done) {
       <strong>${skill.title}</strong>
       <small>${st === 'locked' ? reqs.map((r) => r.text).join(' · ') : skill.tagline}</small>
     </span>
-    <span class="node-state">${icon(STATE_ICON[st])}${st === 'started' ? `${stepsDone}/${STEPS.length}` : STATE_LABEL[st]}</span>`;
+    <span class="node-state">${icon(STATE_ICON[st])}${st === 'started' ? `${stepsDone} of ${STEPS.length} steps` : STATE_LABEL[st]}</span>`;
   return clickable
     ? html`<a class="node state-${st}" href="/skill/${skill.id}" style="--zone:${z.color};--zone-ink:${z.ink}">${inner}</a>`
     : html`<div class="node state-${st}" style="--zone:${z.color};--zone-ink:${z.ink}" aria-disabled="true">${inner}</div>`;
@@ -293,7 +293,14 @@ export function readiness(skill, p, passPct) {
   return { missing };
 }
 
+// Without level numbers, two links to the same sub-strand look identical: show each once.
+function dedupe(ids, c) {
+  const seen = new Set();
+  return ids.map((id) => c.vc[id]).filter((e) => e && !seen.has(e.substrand) && seen.add(e.substrand));
+}
+
 export function skillPage(req, { skill, progress, step, quizResult, passPct }) {
+  const student = req.user.role === 'student';
   const z = skill.zoneObj;
   const c = content();
   const p = progress[skill.id];
@@ -310,7 +317,7 @@ export function skillPage(req, { skill, progress, step, quizResult, passPct }) {
       <aside class="hero-card">
         <p><span class="kicker">${icon('lucide:hand-heart')} Real-life skill</span>${skill.realLife}</p>
         <p><span class="kicker">${icon('lucide:graduation-cap')} Victorian Curriculum</span></p>
-        <div class="vc-list">${skill.vc.core.map((id) => vcChip(c.vc[id]))}${skill.vc.extend.map((id) => vcChip(c.vc[id], { extend: true }))}</div>
+        <div class="vc-list">${(student ? dedupe(skill.vcNow.core, c) : skill.vcNow.core.map((id) => c.vc[id])).map((e) => vcChip(e, { hideLevel: student }))}${(student ? dedupe(skill.vcNow.extend, c) : skill.vcNow.extend.map((id) => c.vc[id])).map((e) => vcChip(e, { extend: true, hideLevel: student }))}</div>
       </aside>
     </div>
   </section>`;
@@ -383,18 +390,31 @@ export function curriculumGrid(cov, { compact = false } = {}) {
   </table></div>`;
 }
 
-export function myCurriculumPage(req, { progress }) {
+export function myCurriculumPage(req, { progress, level }) {
   const c = content();
-  const cov = coverage(progress);
-  const items = Object.entries(cov).map(([id, hits]) => ({ e: c.vc[id], hits })).sort((a, b) => a.e.level - b.e.level);
+  const cov = coverage(progress, level);
+  // Students see sub-strands, not curriculum levels (levels would reveal their reading level).
+  const bySub = {};
+  for (const [id, hits] of Object.entries(cov)) {
+    const e = c.vc[id];
+    const key = e.focus;
+    bySub[key] ||= new Map();
+    for (const h of hits) bySub[key].set(h.skill.id, h);
+  }
+  const areas = Object.entries(c.curriculum.focusAreas);
   const body = html`<section class="page-head"><p class="eyebrow">My Curriculum</p>
     <h1>What you’ve <span class="hl">shown you can do</span></h1>
-    <p class="lede">Every skill links to the Victorian Curriculum for English. Green squares are parts you’ve shown in your work. Hover or tap a square to see what it means.</p></section>
-  ${curriculumGrid(cov)}
-  <h2 class="section-title">${icon('lucide:list-checks')} The details</h2>
-  ${items.length ? html`<ul class="vc-detail">${items.map(({ e, hits }) => html`<li>
-      ${vcChip(e)}<p>${e.text}</p>
-      <div class="vc-from">Shown in: ${hits.map((h) => html`<a href="/skill/${h.skill.id}" class="mini-skill" style="--zone:${h.skill.zoneObj.color};--zone-ink:${h.skill.zoneObj.ink}">${icon(h.skill.icon)} ${h.skill.title}${h.extend ? ' ★' : ''}</a>`)}</div>
-    </li>`)}</ul>` : empty('Finish your first skill and it will show up here.', 'lucide:graduation-cap')}`;
+    <p class="lede">Every skill links to the Victorian Curriculum for English. Here’s what your finished skills count towards.</p></section>
+  ${Object.keys(bySub).length ? '' : empty('Finish your first skill and it will show up here.', 'lucide:graduation-cap')}
+  ${['Literacy', 'Language', 'Literature'].map((strand) => html`
+    <h2 class="section-title">${icon(strand === 'Literacy' ? 'lucide:book-open' : strand === 'Language' ? 'lucide:message-square-quote' : 'lucide:feather')} ${strand}</h2>
+    <div class="mc-grid">${areas.filter(([, fa]) => fa.strand === strand).map(([key, fa]) => {
+      const hits = [...(bySub[key]?.values() || [])];
+      return html`<div class="mc-card ${hits.length ? 'hit' : ''}">
+        <span class="mc-tick">${icon(hits.length ? 'lucide:check' : 'lucide:circle-dashed')}</span>
+        <strong>${fa.substrand}</strong>
+        <div class="vc-from">${hits.length ? hits.map((h) => html`<a href="/skill/${h.skill.id}" class="mini-skill" style="--zone:${h.skill.zoneObj.color};--zone-ink:${h.skill.zoneObj.ink}">${icon(h.skill.icon)} ${h.skill.title}${h.extend ? ' ★' : ''}</a>`) : html`<small class="muted">Not yet — keep going!</small>`}</div>
+      </div>`;
+    })}</div>`)}`;
   return page(req, { title: 'My Curriculum', body, active: '/my-curriculum', wide: true });
 }

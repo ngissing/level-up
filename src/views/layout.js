@@ -1,4 +1,5 @@
 import { html, icon, raw } from '../html.js';
+import { LEVELS } from '../levels.js';
 
 const FONTS = 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Lexend:wght@300;400;500;600;700&display=swap';
 
@@ -35,7 +36,7 @@ export function page(req, { title, body, active = '', theme = null, wide = false
   const nav = u ? NAV[u.role] : [];
   const style = theme ? `--zone:${theme.color};--zone-ink:${theme.ink}` : '';
   return html`${head(title, ['/css/shared.css', '/css/app.css'])}
-<body class="role-${u?.role || 'guest'}" style="${style}">
+<body class="role-${u?.role || 'guest'}" style="${style}" ${u?.role === 'student' ? raw(`data-rl="${u.reading_level}"`) : ''}>
 <a class="skip" href="#main">Skip to content</a>
 <header class="topbar">
   ${logo()}
@@ -67,10 +68,11 @@ export function sticker(ic, { color = '#C6F432', ink = '#111', size = 'md', cls 
   return html`<span class="sticker sticker-${size} ${cls}" style="--s-bg:${color};--s-ink:${ink}">${icon(ic)}</span>`;
 }
 
-export function vcChip(entry, { extend = false } = {}) {
+// hideLevel: students never see curriculum level numbers (they would reveal reading level).
+export function vcChip(entry, { extend = false, hideLevel = false } = {}) {
   if (!entry) return '';
-  return html`<span class="vc-chip ${extend ? 'vc-ext' : ''}" title="${entry.text}">
-    <b>L${entry.level}</b> ${entry.strand} › ${entry.substrand}${extend ? html` <em>Level Up</em>` : ''}
+  return html`<span class="vc-chip ${extend ? 'vc-ext' : ''}" title="${hideLevel ? '' : entry.text}">
+    ${hideLevel ? '' : html`<b>L${entry.level}</b> `}${entry.strand} › ${entry.substrand}${extend ? html` <em>Level Up</em>` : ''}
   </span>`;
 }
 
@@ -80,3 +82,11 @@ export function readAloud(targetSelector, label = 'Read to me') {
 
 export const empty = (text, ic = 'lucide:inbox') => html`<div class="empty">${icon(ic)}<p>${text}</p></div>`;
 export { raw };
+
+// Staff-only reading level tag.
+export function levelTag(id, { short = false } = {}) {
+  const l = LEVELS[id] || LEVELS.core;
+  return short
+    ? html`<span class="rl-sym" title="Reading level: ${l.label} (${l.years})">${l.symbol}</span>`
+    : html`<span class="rl rl-${l.id}" title="${l.years}">${l.symbol} ${l.label}</span>`;
+}

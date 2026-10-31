@@ -8,3 +8,5 @@ Self-paced literacy mini courses for disengaged 14–17 year olds who read at ab
 - Curriculum entries are **paraphrased and unverified** (`verified: false`). Don't present codes as official. If the VCAA site is reachable, verify them and update `scripts/build-curriculum.mjs`, then run `npm run build-curriculum`.
 - Views use the `html` tag from `src/html.js`: interpolations are escaped, and `raw()`/`md()` mark trusted HTML. Icons come from `icon('lucide:name')`.
 - Styling: tokens in `public/css/shared.css` (also used by workbooks), app styles in `app.css`, print styles in `workbook.css`. The look is neo-brutalist: ink outlines, hard shadows, zone colours.
+- Reading levels (`src/levels.js`): support / core / extend, set per student by an admin and **never shown to students**. Course values can be split by level, and list items can carry `levels: [...]` (see AUTHORING.md). Student pages must not show level names or curriculum level numbers.
+- Official curriculum: `npm run import-vcaa -- <VCAA .docx>` writes `content/vcaa-english.json` and `docs/CURRICULUM-CHECK.md`. Use these, not memory, when mapping skills to codes.

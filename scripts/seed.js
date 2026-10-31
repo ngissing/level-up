@@ -22,6 +22,10 @@ add('Mia Tran', 'mia', 'student123', 'student', classId);
 const jay = add('Jay Wilson', 'jay', 'student123', 'student', classId);
 const tia = add('Tia Morgan', 'tia', 'student123', 'student', classId);
 
+// Reading levels (admins can change these under Accounts).
+const setLevel = db.prepare('UPDATE users SET reading_level = ? WHERE id = ?');
+setLevel.run('support', kai); setLevel.run('extend', jay);
+
 const prog = db.prepare(`INSERT OR IGNORE INTO progress (user_id, skill_id, status, steps, quiz_best, quiz_total, reflection, level_up, submitted_at, completed_at)
   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
 // Kai: started Spot the Scam (3 steps in)
@@ -35,4 +39,5 @@ syncBadges(tia);
 console.log(`Seeded. Logins:
   admin   / changeme   (admin)
   teacher / teacher123 (teacher, class "10 Literacy")
-  kai, mia, jay, tia / student123 (students)`);
+  kai, mia, jay, tia / student123 (students)
+  Reading levels: kai = Foundation, mia & tia = Core, jay = Extended`);

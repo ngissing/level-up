@@ -208,3 +208,10 @@ body.answers .sheet-head::after { content: "ANSWERS"; font: 800 9pt var(--displa
 .eq-box small { font-size: 9pt; line-height: 1.3; }
 .eq-0 { background: var(--sun); } .eq-1 { background: #cfe0ff; } .eq-2 { background: var(--zone); }
 .eq-op { font-family: var(--display); font-weight: 800; font-size: 26pt; }
+
+.sheet-foot .ver { font-style: normal; margin-left: 4px; color: #9a948a; }
+/* Foundation version: larger text and roomier writing lines */
+body.rl-support .sheet { font-size: 12.5pt; }
+body.rl-support .lines span { height: 9.5mm; }
+body.rl-support .wb-article { font-size: 12pt; line-height: 1.65; }
+body.rl-support .sort-msg { font-size: 13pt; }

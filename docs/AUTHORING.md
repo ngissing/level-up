@@ -72,6 +72,50 @@ Each mini course is **one JSON file**: `content/skills/<skill-id>.json`. The app
 
 Curriculum ids look like `L5-AIE` = Level 5, Literacy › Analysing, interpreting and evaluating. The full list is in `content/curriculum.json`. Focus keys: `TIC` Texts in context · `IWO` Interacting with others · `AIE` Analysing, interpreting and evaluating · `CT` Creating texts · `LIO` Language for interacting with others · `TSO` Text structure and organisation · `EDI` Language for expressing and developing ideas · `ER` Engaging with and responding to literature · `EX` Examining literature · `CL` Creating literature.
 
+### Reading levels
+
+An admin sets each student's reading level, and students never see it:
+
+- **▲ Foundation** (`support`): reads at about Years 3–4
+- **■ Core** (`core`): reads at about Years 5–6
+- **● Extended** (`extend`): reads at about Year 7 and up
+
+Write one course file. Any value can be split by level, and levels you leave out fall back to `core`:
+
+```jsonc
+"hook": {
+  "support": "Short, simple version.",
+  "core": "The standard version.",
+  "extend": "A richer version."
+}
+```
+
+Any item in a list (a vocab word, a quiz question, a workbook block or question, a sort card, a table row) can be limited to some levels:
+
+```jsonc
+{ "q": "Why does that small word choice matter?", "lines": 2, "levelUp": true, "levels": ["extend"] }
+```
+
+Table rows that need `levels` are written as `{ "cells": ["…", ""], "levels": ["core", "extend"] }`.
+
+The app also makes some changes automatically:
+
+- **Foundation:**
+  - Quiz questions drop to 3 choices (add `"keepOptions": true` to a question to stop this).
+  - App text and printed workbooks are larger, with taller writing lines.
+  - The explainer voice is slower.
+- **Curriculum:**
+  - In `content/map.json`, a skill can list `vc.support`: the earlier-level curriculum links that Foundation students show. If it's missing, they evidence `vc.core`.
+  - Extended students evidence `vc.extend` when the teacher confirms their Level Up work.
+- **Teacher guide:**
+  - Write `teacher.levels` as `{ "support": "…", "core": "…", "extend": "…" }` to describe what changes at each level. It appears in the teacher guide.
+  - Add `"levels": [...]` to a `teacher.lookFors` item that only applies to one level.
+
+Check all three versions:
+
+- `npm run check` reports reading level for each version.
+- `npm run pdf -- <id>` prints all three versions and warns about any page that overflows. A `pagebreak` can be set per level: `"pagebreak": { "core": false, "extend": true }`.
+
 ### Explainer scene kinds
 
 | kind | fields | use for |

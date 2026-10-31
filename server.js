@@ -3,7 +3,8 @@ import path from 'node:path';
 import { db, getSetting, setSetting } from './src/db.js';
 import { html, icon, ROOT_DIR } from './src/html.js';
 import { sessionMiddleware, requireRole, checkPassword, hashPassword, createSession, destroySession, setCookie } from './src/auth.js';
-import { getSkill, progressFor, doneSet, skillState, syncBadges, newlyUnlocked, allBadges, STEPS, content } from './src/content.js';
+import { getSkill, progressFor, doneSet, skillState, syncBadges, newlyUnlocked, allBadges, STEPS, content, withLevel } from './src/content.js';
+import { LEVEL_IDS, normalizeLevel } from './src/levels.js';
 import { mapPage, skillPage, badgesPage, myCurriculumPage, readiness, explainer } from './src/views/student.js';
 import { dashboardPage, studentDetailPage, skillsIndexPage, teacherGuidePage, curriculumMapPage } from './src/views/teacher.js';
 import { adminPage, loginPage, passwordPage } from './src/views/admin.js';
@@ -19,6 +20,8 @@ app.use(sessionMiddleware);
 
 const send = (res, view) => res.type('html').send(String(view));
 const passPct = () => Number(getSetting('quiz_pass_percent') || 60);
+// Students always get their own reading level; staff can preview any level with ?level=.
+const levelOf = (req) => (req.user.role === 'student' ? req.user.reading_level : LEVEL_IDS.includes(req.query.level) ? req.query.level : 'core');
 const baseUrl = (req) => process.env.BASE_URL || `${req.protocol}://${req.get('host')}`;
 
 // ---------- Auth ----------
@@ -78,7 +81,8 @@ function canWork(skill, progress) {
 }
 
 app.get('/skill/:id', student, (req, res) => {
-  const skill = loadSkill(req, res); if (!skill) return;
+  let skill = loadSkill(req, res); if (!skill) return;
+  skill = withLevel(skill, levelOf(req));
   const progress = progressFor(req.user.id);
   const p = progress[skill.id];
   let step = STEPS.some((s) => s.id === req.query.step) ? req.query.step : null;
@@ -105,7 +109,8 @@ app.post('/skill/:id/step', student, (req, res) => {
 });
 
 app.post('/skill/:id/quiz', student, (req, res) => {
-  const skill = loadSkill(req, res); if (!skill?.course) return;
+  let skill = loadSkill(req, res); if (!skill?.course) return;
+  skill = withLevel(skill, levelOf(req));
   const progress = progressFor(req.user.id);
   const p = progress[skill.id];
   if (!p) return res.redirect(`/skill/${skill.id}`);
@@ -158,14 +163,19 @@ app.get('/badges', student, (req, res) => {
   db.prepare('UPDATE badges SET seen = 1 WHERE user_id = ?').run(req.user.id);
 });
 
-app.get('/my-curriculum', student, (req, res) => send(res, myCurriculumPage(req, { progress: progressFor(req.user.id) })));
+app.get('/my-curriculum', student, (req, res) => send(res, myCurriculumPage(req, { progress: progressFor(req.user.id), level: levelOf(req) })));
 
 // ---------- Workbooks (any logged-in user) ----------
 app.get('/workbook/:id', requireRole(), async (req, res) => {
   const skill = loadSkill(req, res); if (!skill) return;
   if (!skill.course) return res.status(404).send('This workbook hasn’t been written yet.');
   const answers = req.query.answers === '1' && req.user.role !== 'student';
-  send(res, await workbookPage(req, skill, { answers, baseUrl: baseUrl(req) }));
+  // Staff can print for one student (?student=ID) or for a level (?level=).
+  let level = levelOf(req);
+  if (req.user.role !== 'student' && req.query.student && canSee(req.user, req.query.student)) {
+    level = db.prepare('SELECT reading_level FROM users WHERE id = ?').get(Number(req.query.student))?.reading_level || level;
+  }
+  send(res, await workbookPage(req, withLevel(skill, level), { answers, baseUrl: baseUrl(req) }));
 });
 
 // ---------- Teacher ----------
@@ -245,7 +255,7 @@ app.get('/teacher/skill/:id/explainer', requireRole(), (req, res) => {
   const skill = loadSkill(req, res); if (!skill?.course) return;
   const z = skill.zoneObj;
   send(res, html`${head(skill.title, ['/css/shared.css', '/css/app.css'])}<body class="board" style="--zone:${z.color};--zone-ink:${z.ink}">
-    <main class="board-main">${explainer(skill.course.explainer)}</main><script src="/js/app.js" defer></script></body></html>`);
+    <main class="board-main">${explainer(withLevel(skill, levelOf(req)).course.explainer)}</main><script src="/js/app.js" defer></script></body></html>`);
 });
 
 // ---------- Admin ----------
@@ -259,15 +269,16 @@ app.get('/admin', admin, (req, res) => {
   send(res, adminPage(req, { users, classes, settings, roleFilter: req.query.role }));
 });
 
-function addUser({ name, username, password, role = 'student', class_id = null }) {
-  db.prepare('INSERT INTO users (name, username, password_hash, role, class_id, must_change_pw) VALUES (?, ?, ?, ?, ?, 1)')
-    .run(name.trim(), username.trim().toLowerCase(), hashPassword(password), role, class_id || null);
+function addUser({ name, username, password, role = 'student', class_id = null, reading_level = 'core' }) {
+  db.prepare('INSERT INTO users (name, username, password_hash, role, class_id, must_change_pw, reading_level) VALUES (?, ?, ?, ?, ?, 1, ?)')
+    .run(name.trim(), username.trim().toLowerCase(), hashPassword(password), role, class_id || null, reading_level);
 }
 
 app.post('/admin/users', admin, (req, res) => {
   const { name, username, password, role, class_id } = req.body;
   if (!['student', 'teacher', 'admin'].includes(role)) return res.status(400).send('Bad role');
-  try { addUser({ name, username, password, role, class_id: class_id ? Number(class_id) : null }); res.flash('ok', `Added ${name}.`); }
+  const reading_level = normalizeLevel(req.body.reading_level) || 'core';
+  try { addUser({ name, username, password, role, class_id: class_id ? Number(class_id) : null, reading_level }); res.flash('ok', `Added ${name}.`); }
   catch { res.flash('error', `Username “${username}” is already taken.`); }
   res.redirect('/admin');
 });
@@ -276,16 +287,17 @@ app.post('/admin/bulk', admin, (req, res) => {
   let added = 0; const problems = [];
   for (const line of String(req.body.csv || '').split(/\r?\n/)) {
     if (!line.trim()) continue;
-    const [name, username, password, className] = line.split(',').map((x) => (x || '').trim());
-    if (!name || !username || !password) { problems.push(line); continue; }
+    const [name, username, password, className, levelText] = line.split(',').map((x) => (x || '').trim());
+    const reading_level = normalizeLevel(levelText);
+    if (!name || !username || !password || !reading_level) { problems.push(line); continue; }
     let classId = null;
     if (className) {
       db.prepare('INSERT OR IGNORE INTO classes (name) VALUES (?)').run(className);
       classId = db.prepare('SELECT id FROM classes WHERE name = ?').get(className).id;
     }
-    try { addUser({ name, username, password, class_id: classId }); added++; } catch { problems.push(line); }
+    try { addUser({ name, username, password, class_id: classId, reading_level }); added++; } catch { problems.push(line); }
   }
-  res.flash(problems.length ? 'error' : 'ok', `Added ${added} student${added === 1 ? '' : 's'}.${problems.length ? ` Skipped ${problems.length} line(s) (missing info or username taken).` : ''}`);
+  res.flash(problems.length ? 'error' : 'ok', `Added ${added} student${added === 1 ? '' : 's'}.${problems.length ? ` Skipped ${problems.length} line(s): ${problems.map((l) => `“${l}”`).join(', ')} (missing info, unknown reading level, or username taken).` : ''}`);
   res.redirect('/admin');
 });
 
@@ -304,6 +316,12 @@ app.post('/admin/classes/:id/teachers', admin, (req, res) => {
 
 app.post('/admin/users/:id/class', admin, (req, res) => {
   db.prepare('UPDATE users SET class_id = ? WHERE id = ?').run(req.body.class_id ? Number(req.body.class_id) : null, Number(req.params.id));
+  res.redirect(req.get('referer') || '/admin');
+});
+
+app.post('/admin/users/:id/level', admin, (req, res) => {
+  const level = normalizeLevel(req.body.reading_level);
+  if (level) db.prepare('UPDATE users SET reading_level = ? WHERE id = ?').run(level, Number(req.params.id));
   res.redirect(req.get('referer') || '/admin');
 });
 
