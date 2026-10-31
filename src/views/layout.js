@@ -44,7 +44,7 @@ export function page(req, { title, body, active = '', theme = null, wide = false
     ${nav.map(([href, label, ic]) => html`<a href="${href}" class="${active === href ? 'on' : ''}">${icon(ic)}<span>${label}</span></a>`)}
   </nav>
   <div class="me">
-    <button class="tool-btn" type="button" data-textsize title="Change text size" aria-label="Change text size">${icon('lucide:a-large-small')}</button>
+    <button class="tool-btn" type="button" data-textsize-toggle title="Change text size" aria-label="Change text size">${icon('lucide:a-large-small')}</button>
     <details class="me-menu">
       <summary><span class="avatar" aria-hidden="true">${initials(u.name)}</span><span class="me-name">${u.name.split(' ')[0]}</span></summary>
       <div class="me-pop">

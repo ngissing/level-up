@@ -44,7 +44,8 @@
   // ----- Text size (remembered per device) -----
   const root = document.documentElement;
   // (The saved size is applied by a tiny script in <head>, before the page is drawn.)
-  document.querySelectorAll('[data-textsize]').forEach((b) => b.addEventListener('click', () => {
+  // Only the Aa button: <html> itself carries data-textsize (the chosen size).
+  document.querySelectorAll('button[data-textsize-toggle]').forEach((b) => b.addEventListener('click', () => {
     const next = ((Number(root.dataset.textsize) || 0) + 1) % 3;
     root.dataset.textsize = next;
     try { localStorage.setItem('lu-textsize', next); } catch {}
