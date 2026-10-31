@@ -1,0 +1,975 @@
+{
+  "id": "find-it-fast",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "The bus leaves in **4 minutes**. Where is your stop? You don't have time to read every word.",
+      "core": "The bus leaves in **4 minutes**. Which stop? Which platform? You don't have time to read the whole website — and you don't need to."
+    },
+    "why": {
+      "support": "Timetables, menus and websites are not for reading every word. Learn where to look. Find answers fast.",
+      "core": "Most of what you read in real life — timetables, menus, websites, forms — isn't meant to be read word by word. If you know where to look, you find the answer in seconds.",
+      "extend": "Websites, timetables and forms are designed for scanning, not reading. Knowing how a text is organised — and how technology has changed the way we read — lets you find, check and compare information in seconds."
+    },
+    "canDo": {
+      "support": [
+        "I can **skim** to see what a page is about.",
+        "I can **scan** to find a time or a price.",
+        "I can use headings and tables to find things.",
+        "I can check my answer is right."
+      ],
+      "core": [
+        "I can **skim** to get the main idea fast.",
+        "I can **scan** to find one detail, like a time or a price.",
+        "I can use **headings, menus, tables and search** to find my way.",
+        "I can check that I've found the right answer."
+      ]
+    },
+    "showIt": "Race the clock to find real information, then turn a wall of text into something people can scan.",
+    "vocab": [
+      {
+        "word": "skim",
+        "meaning": "look quickly over a text to get the main idea",
+        "example": "I skimmed the article to see what it was about."
+      },
+      {
+        "word": "scan",
+        "meaning": "look quickly for one detail, like a time",
+        "example": "I scanned the menu for the price of chips."
+      },
+      {
+        "word": "keyword",
+        "meaning": "an important word you look or search for",
+        "example": "“Refund” was my keyword."
+      },
+      {
+        "word": "heading",
+        "meaning": "a title that tells you what a section is about",
+        "example": "The heading said “Opening hours”."
+      },
+      {
+        "word": "table",
+        "meaning": "information set out in rows and columns",
+        "example": "The timetable is a table."
+      },
+      {
+        "word": "link",
+        "meaning": "words or a button you click to go to another page",
+        "example": "Click the link to see the menu."
+      },
+      {
+        "word": "menu (website)",
+        "meaning": "a list of a website's main sections",
+        "example": "The website menu had a “Contact us” page.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "navigate",
+        "meaning": "find your way around a text or website",
+        "example": "I navigated to the help page.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "index",
+        "meaning": "an A–Z list of topics at the back of a book",
+        "example": "The index showed “warranty, p. 42”.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "F-pattern",
+        "meaning": "the shape our eyes make scanning a web page",
+        "example": "Most people read web pages in an F-pattern.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Find It Fast in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Find It Fast",
+        "sub": "Get the info you need in 30 seconds, not 30 minutes",
+        "icon": "lucide:scan-search",
+        "say": "Find it fast. Get the info you need in thirty seconds, not thirty minutes."
+      },
+      {
+        "kind": "big",
+        "title": "Nobody reads every word",
+        "text": "Timetables, menus and websites are built to be **scanned**.",
+        "icon": "lucide:eye",
+        "say": "Nobody reads every word. Timetables, menus and websites are built to be scanned.",
+        "vc": [
+          "VC2E3LA05",
+          "VC2E5LA03"
+        ]
+      },
+      {
+        "kind": "stat",
+        "title": "of the words on a web page is about what people read",
+        "big": "20%",
+        "sub": "Nielsen Norman Group, 2008",
+        "say": "Researchers found people read about twenty percent of the words on an average web page.",
+        "vc": [
+          "VC2E7LY04"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "S",
+        "pill": "Skill 1",
+        "pillIcon": "lucide:zap",
+        "title": "Skim",
+        "text": "Headings, pictures and first lines → the main idea.",
+        "icon": "lucide:eye",
+        "say": "Three S's. One: skim. Look over headings, pictures and first lines to get the main idea.",
+        "vc": [
+          "VC2E4LY09",
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "S",
+        "pill": "Skill 2",
+        "pillIcon": "lucide:zap",
+        "title": "Scan",
+        "text": "Hunt for one detail: a time, a price, a name.",
+        "icon": "lucide:search",
+        "say": "Two: scan. Hunt for one detail, like a time, a price or a name.",
+        "vc": [
+          "VC2E4LY09",
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "S",
+        "pill": "Skill 3",
+        "pillIcon": "lucide:zap",
+        "title": "Search",
+        "text": "Use the search box, or **Ctrl + F** to find a word on the page.",
+        "icon": "lucide:keyboard",
+        "say": "Three: search. Type a keyword in the search box, or press control F to find a word on the page.",
+        "vc": [
+          "VC2E4LA05"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Find it fast",
+        "steps": [
+          "Know what you’re looking for",
+          "Pick your keyword",
+          "Let headings, menus and tables guide you",
+          "Check the answer makes sense"
+        ],
+        "say": "Find it fast: know what you're looking for. Pick your keyword. Let the layout guide you. Check the answer makes sense.",
+        "vc": [
+          "VC2E3LA05",
+          "VC2E4LA05"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Race the clock. Then make a messy notice easy to scan.",
+        "icon": "lucide:timer",
+        "say": "Your mission. Race the clock to find real information. Then make a messy notice easy to scan."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Read like a detective",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Need one fact fast? Don't read every word. Use three tricks.\n\n1. **Skim.** Look at the title, headings and pictures. Now you know what it's about.\n2. **Scan.** Hunt for one thing, like a time or a price. Let your eyes jump.\n3. **Search.** On a website, use the search box. Or press **Ctrl + F** to find a word.\n\nTexts help you. **Headings** tell you what each part is about. **Tables** have rows and columns. Run your finger across and down.\n\nFound it? **Check** it. Right day? Right stop?",
+          "core": "When you need one fact fast, reading every word is the slow way. Good readers use three tricks.\n\n1. **Skim** to get the main idea. Look at the title, headings, pictures and the first line of each section. In ten seconds you know what the text is about.\n2. **Scan** to find one detail. Decide what you're hunting for — a time, a price, a name — and let your eyes jump until you see it. Numbers and bold words stand out.\n3. **Search** when the text is long. Use the website's search box, or press **Ctrl + F** (Cmd + F on a Mac) to find a word on the page.\n\nTexts are built to help you. **Headings** tell you what each part is about. **Menus** show a website's main sections. **Tables** put information in rows and columns, so you can run your finger across and down. **Bold** words and **links** jump out.\n\nWhen you think you've found it, **check**. Is it the right day? The right stop? The right size? A quick check saves a long walk."
+        },
+        "vc": [
+          "VC2E3LA05",
+          "VC2E4LA05",
+          "VC2E4LY09",
+          "VC2E5LY09",
+          "VC2E5LA03"
+        ],
+        "vcNote": "The three skills (skim, scan, search) and how headings, menus and tables are organised to help readers."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "How little do people read?",
+        "icon": "lucide:monitor",
+        "body": {
+          "support": "**Nielsen Norman Group** studies how people use websites.\n\nIn 2008, it found most web pages had about **600 words**. But people only read about **20%** of them.\n\nIt also found people's eyes often move in an **F shape**. Across the top. Across again. Then down the left side.\n\nSo good websites put the important words first.",
+          "core": "**Nielsen Norman Group** is a company. It studies how people use websites. In 2008 it checked how long people spent on web pages. It also counted the words on each page.\n\nThe average page had about **600 words**. But people only had time to read about **28%** of them. The researchers said **20%** was more likely.\n\nThe same group also used cameras that track where eyes look. People often read web pages in an **F shape**. They read across the top. Then across a bit lower down. Then down the left side.\n\nSo good websites put the most important words first. They use headings, short paragraphs and lists.",
+          "extend": "**Nielsen Norman Group** is a company that studies how people use websites. In 2008 it compared how long people spent on web pages with how many words those pages had.\n\nThe average page had about **600 words**, but people only had time to read about **28%** of them. The researchers estimated **20%** was more realistic, because some time goes on looking at layout and images.\n\nIn eye-tracking research, the same group found people often scan web pages in an **F-pattern**: across the top, across a little lower, then down the left side. Designers use this — putting key words first, and using headings, short paragraphs and lists — so the page works for scanners."
+        },
+        "source": {
+          "name": "Nielsen Norman Group — “How Little Do Users Read?” (2008) and “F-Shaped Pattern of Reading on the Web”",
+          "url": "https://www.nngroup.com/articles/how-little-do-users-read/"
+        },
+        "think": {
+          "support": [
+            "How much of a web page do people read?",
+            "What shape do people's eyes make?"
+          ],
+          "core": [
+            "About how much of a web page do people actually read?",
+            "What is the F-pattern?",
+            "How should a website be laid out if people scan it?"
+          ]
+        },
+        "vc": [
+          "VC2E5LY09",
+          "VC2E7LY04"
+        ],
+        "vcNote": "Evidence that people scan rather than read — and how websites are designed for it."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a timetable",
+      "docTitle": "ROUTE 901 — WEEKDAYS (EXAMPLE)",
+      "vc": [
+        "VC2E3LA05",
+        "VC2E4LA05"
+      ],
+      "vcNote": "How layout features (title, column and row headings, notes) help you find information.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Route and days",
+          "value": "901 · Monday to Friday"
+        },
+        {
+          "table": {
+            "n": 2,
+            "columns": [
+              "Stop",
+              "Bus 1",
+              "Bus 2",
+              "Bus 3"
+            ],
+            "rows": [
+              [
+                "Station",
+                "7:05",
+                "7:35",
+                "8:05"
+              ],
+              [
+                "Main St",
+                "7:12",
+                "7:42",
+                "8:12"
+              ],
+              [
+                "Pool",
+                "7:16",
+                "7:46",
+                "—"
+              ],
+              [
+                "TAFE",
+                "7:20",
+                "7:50",
+                "8:20"
+              ],
+              [
+                "Hospital",
+                "7:31",
+                "8:01",
+                "8:31"
+              ]
+            ]
+          }
+        },
+        {
+          "n": 3,
+          "label": "Note",
+          "value": "— = this bus doesn’t stop here"
+        },
+        {
+          "n": 4,
+          "label": "More info",
+          "value": "transport.example/901 · 03 5550 0901"
+        }
+      ],
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Title",
+          "note": "Check you have the right route and the right days."
+        },
+        {
+          "n": 2,
+          "label": "Table",
+          "note": "Stops down the side, buses across the top. Run your finger across and down."
+        },
+        {
+          "n": 3,
+          "label": "Notes",
+          "note": "Small print that can change your answer."
+        },
+        {
+          "n": 4,
+          "label": "Where to get help",
+          "note": "A website or number for more details."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Skim. Scan. Search.",
+      "steps": [
+        {
+          "title": "Skim",
+          "text": "Headings, pictures, first lines → main idea.",
+          "icon": "lucide:eye"
+        },
+        {
+          "title": "Scan",
+          "text": "Hunt for one detail: a time, price or name.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Search",
+          "text": "Search box or Ctrl + F for long texts.",
+          "icon": "lucide:keyboard"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "You want to know what a news article is about, fast. What do you do?",
+        "options": [
+          "Skim the headline, picture and first line",
+          "Read every word carefully",
+          "Scan for a phone number",
+          "Close it"
+        ],
+        "answer": 0,
+        "explain": "Skimming gets you the main idea quickly.",
+        "vc": [
+          "VC2E4LY09",
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "q": "You need the price of a large pizza on a menu. Which skill?",
+        "options": [
+          "Scan",
+          "Skim",
+          "Read every word",
+          "Guess"
+        ],
+        "answer": 0,
+        "explain": "Scanning is for finding one detail.",
+        "vc": [
+          "VC2E4LY09",
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "q": "You need to find the word “refund” in a 20-page document online. What's fastest?",
+        "options": [
+          "Press Ctrl + F and type “refund”",
+          "Start at page 1 and read",
+          "Look at the pictures",
+          "Read the last page only"
+        ],
+        "answer": 0,
+        "explain": "Search tools find a word in seconds.",
+        "vc": [
+          "VC2E4LA05"
+        ]
+      },
+      {
+        "q": "What does a **heading** do?",
+        "options": [
+          "Tells you what a section is about",
+          "Makes the text longer",
+          "Shows the author's name",
+          "Nothing — it's decoration"
+        ],
+        "answer": 0,
+        "explain": "Headings are signposts.",
+        "vc": [
+          "VC2E3LA05",
+          "VC2E5LA03"
+        ]
+      },
+      {
+        "q": "About how much of a web page do people read, according to Nielsen Norman Group?",
+        "options": [
+          "About 20%",
+          "All of it",
+          "About 75%",
+          "None of it"
+        ],
+        "answer": 0,
+        "explain": "Their 2008 study estimated about 20%.",
+        "vc": [
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "q": "Why do many websites put the most important words at the start of headings and paragraphs?",
+        "options": [
+          "Because people scan in an F-pattern and may not read further",
+          "Because it looks nice",
+          "Because search engines ban long sentences",
+          "No reason"
+        ],
+        "answer": 0,
+        "explain": "Designers write for scanners.",
+        "vc": [
+          "VC2E7LY04",
+          "VC2E7LA03"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Find information fast. Then make a messy notice easy to read.",
+      "core": "Race the clock to find real information, then turn a messy notice into one people can scan.",
+      "extend": "Find and check information across texts, then redesign a dense notice for scanners and explain your choices."
+    },
+    "checklist": [
+      "I finished my workbook pages",
+      "I found answers using skim, scan or search",
+      "My notice has a heading and short sections",
+      "Key information stands out (bold, lists or a table)"
+    ],
+    "levelUp": "Compare two real websites for the same thing (e.g. two gyms or two phone plans): which one lets you find the price faster, and why?",
+    "vc": [
+      "VC2E5LA03",
+      "VC2E4LA05"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Read like a detective",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What's the difference between **skimming** and **scanning**?",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VC2E4LY09",
+              "VC2E5LY09"
+            ]
+          },
+          {
+            "q": "Name **three** features that help you find your way in a text.",
+            "lines": 0,
+            "vc": [
+              "VC2E3LA05",
+              "VC2E4LA05"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3"
+            ]
+          },
+          {
+            "q": "Why should you **check** your answer once you find it?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          },
+          {
+            "q": "How have phones and websites changed the way people read?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY04"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Read the timetable",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a part of the timetable. Use the word bank. Write what it is.",
+          "core": "Write what each numbered part is and how it helps you."
+        },
+        "columns": [
+          "What is it?",
+          "How does it help you?"
+        ],
+        "wordBank": {
+          "support": [
+            "title",
+            "table",
+            "notes",
+            "help"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E3LA05",
+          "VC2E4LA05"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Race the clock: use the timetable and time yourself!",
+        "items": [
+          {
+            "q": "What time does **Bus 2** get to **TAFE**?",
+            "lines": 1
+          },
+          {
+            "q": "You must be at the **Hospital** by **8:15**. Which is the **latest** bus from the Station?",
+            "lines": 1
+          },
+          {
+            "q": "Does **Bus 3** stop at the Pool? How do you know?",
+            "lines": 1,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E4LY09",
+          "VC2E5LY09"
+        ],
+        "vcNote": "Scanning a table for one detail, then checking it."
+      },
+      {
+        "type": "sort",
+        "title": "Skim, scan or search?",
+        "pagebreak": true,
+        "choices": [
+          "Skim",
+          "Scan",
+          "Search"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Which skill is best for each job? Tick one and say why.",
+        "cards": [
+          {
+            "from": "Job",
+            "text": "Find out what a news story is about before deciding to read it.",
+            "answer": "Skim",
+            "flags": "Main idea, fast."
+          },
+          {
+            "from": "Job",
+            "text": "Find the price of a large chips on a menu board.",
+            "answer": "Scan",
+            "flags": "One detail."
+          },
+          {
+            "from": "Job",
+            "text": "Find the word “warranty” in a 40-page online manual.",
+            "answer": "Search",
+            "flags": "Ctrl + F or the search box."
+          },
+          {
+            "from": "Job",
+            "text": "Check what a website is for before signing up.",
+            "answer": "Skim",
+            "flags": "Headings and menu tell you."
+          },
+          {
+            "from": "Job",
+            "text": "Find your shoe size in a size chart.",
+            "answer": "Scan",
+            "flags": "Run your finger across the table.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Job",
+            "text": "Find the return policy on a big shopping website.",
+            "answer": "Search",
+            "flags": "Search box or the footer links.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E4LY09",
+          "VC2E5LY09",
+          "VC2E4LA05"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: how little do people read?",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "About how many words were on an average web page, and how much did people read?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          },
+          {
+            "q": "Describe the **F-pattern** in your own words.",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VC2E5LY09"
+            ]
+          },
+          {
+            "q": "If you were making a website for your school, how would you use this?",
+            "lines": 3,
+            "vc": [
+              "VC2E5LA03"
+            ]
+          },
+          {
+            "q": "How has technology changed **how** people read and write?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY04"
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Skim. Scan. Search.",
+        "diagram": 1,
+        "pagebreak": true
+      },
+      {
+        "type": "scenarios",
+        "title": "What would you do?",
+        "instructions": "Explain which skill you'd use, and where you'd look first.",
+        "items": [
+          {
+            "q": "You need the opening hours of a Medicare service centre near you.",
+            "lines": {
+              "support": 4,
+              "core": 3,
+              "extend": 3
+            }
+          },
+          {
+            "q": "You want to know if a phone plan includes overseas calls.",
+            "lines": {
+              "support": 4,
+              "core": 3,
+              "extend": 3
+            }
+          },
+          {
+            "q": "You need to find the safety warning in a long instruction manual.",
+            "lines": 3,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LY09",
+          "VC2E6LY08"
+        ],
+        "vcNote": "Choosing a strategy and where to look in real texts."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: make it scannable",
+        "pagebreak": true,
+        "prompt": {
+          "support": "This notice is hard to read: “The pool is closed on Saturday the 12th for cleaning and opens on Sunday the 13th at 6am and lessons move to Monday at 4pm and you can call 5550 0123.” Make it easy to scan.",
+          "core": "This notice is hard to scan: “The pool will be closed on Saturday the 12th for cleaning and will reopen on Sunday the 13th at 6am, with swimming lessons moving to Monday at 4pm, and if you have questions you can call reception on 5550 0123.” Rewrite it so people can find the information **fast**.",
+          "extend": "This notice is hard to scan: “Due to scheduled maintenance the pool will be closed on Saturday the 12th and will reopen on Sunday the 13th at 6am, with all swimming lessons rescheduled to Monday at 4pm; members with questions about refunds or bookings should contact reception on 5550 0123.” Redesign it for scanners, then explain two choices you made."
+        },
+        "plan": [
+          {
+            "label": "What will people look for first?",
+            "lines": 2
+          },
+          {
+            "label": "Your heading",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Heading: …",
+          "When: …",
+          "What changes: …",
+          "Questions? Call …"
+        ],
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "clear heading",
+          "short sections or dot points",
+          "key times stand out",
+          "nothing important missing"
+        ],
+        "vc": [
+          "VC2E5LA03",
+          "VC2E4LA05",
+          "VC2E7LA03"
+        ],
+        "vcNote": "Reorganising a text for its purpose: headings, sections and emphasis."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Pick **two** real websites that offer the same thing (two gyms, two phone plans or two takeaway shops).",
+        "items": [
+          {
+            "q": "Time yourself finding the **price** on each site. Which was faster?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          },
+          {
+            "q": "What did the faster site do differently? Think about headings, menus, tables and words.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA03",
+              "VC2E6LY08"
+            ]
+          },
+          {
+            "q": "Summarise what you found in two sentences, as advice for a friend.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can skim to get the main idea.",
+          "I can scan for one detail.",
+          "I can use headings, menus, tables and search.",
+          "I can check my answer."
+        ],
+        "questions": [
+          "A real place I'll use these skills this week:",
+          "The skill I'm best at:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn three navigation strategies — **skim, scan, search** — and how text features (headings, menus, tables, bold) are designed to help readers find information. They apply these to real-world texts (timetables, menus, websites), then reorganise a dense notice so it can be scanned.",
+    "prep": [
+      "Print workbooks.",
+      "Have two real websites ready to model scanning (e.g. a public transport journey planner and a takeaway menu).",
+      "Optional: stopwatch for Race the clock."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Nobody reads every word",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** “The bus leaves in 4 minutes” — show a busy timetable.",
+          "**Explicit teaching (15 min):** model skim, scan and search on a real website, thinking aloud.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** Read like a detective + Check your reading.",
+          "**Exit:** which skill for which job?"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Timetables and races",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** label the timetable features.",
+          "**Race the clock (15 min):** pairs, timed.",
+          "**Sort (10 min):** skim, scan or search.",
+          "**Case study (15 min):** how little do people read; discuss the F-pattern."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Make it scannable",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** turn a paragraph into a notice with heading and dot points.",
+          "**Write (25 min):** final mission; fast finishers Level Up.",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Skim = main idea; scan = one detail; search = long texts.",
+      "Headings, menus, tables and bold words are signposts.",
+      "Always check the answer (right day, stop, size).",
+      "People scan web pages — good writers put key words first."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the timetable page.",
+        "Fewer race and sort items.",
+        "Accept a notice with a heading and three dot points."
+      ],
+      "extend": [
+        "Compare two websites and explain which design helps scanners (Level Up).",
+        "Explain the F-pattern and how technology has changed reading."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LA05",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Names layout features (title, table, notes) and what each is for on the timetable."
+      },
+      {
+        "vc": "VC2E4LA05",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses navigation features (search, menus, links) to choose a strategy in the sort and scenarios."
+      },
+      {
+        "vc": "VC2E4LY09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Skims and scans accurately in Race the clock."
+      },
+      {
+        "vc": "VC2E5LY09",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Locates and checks information, including the latest-bus question that needs evaluating, not just finding."
+      },
+      {
+        "vc": "VC2E5LA03",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Reorganises the notice into clear stages with a heading for its purpose."
+      },
+      {
+        "vc": "VC2E6LY08",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Connects and compares information from more than one source (scenarios, Level Up)."
+      },
+      {
+        "vc": "VC2E7LY07",
+        "evidence": "Level Up: summarises findings from comparing two websites."
+      },
+      {
+        "vc": "VC2E7LA03",
+        "evidence": "Level Up / Extended notice: explains how structure suits purpose."
+      },
+      {
+        "vc": "VC2E7LY04",
+        "evidence": "Extended / Level Up: explains how technology has changed reading (F-pattern, scanning)."
+      }
+    ],
+    "answers": "**Race the clock:** Bus 2 reaches TAFE at 7:50. To reach the Hospital by 8:15, catch Bus 2 (Station 7:35, Hospital 8:01); Bus 3 arrives 8:31 — too late. Bus 3 doesn't stop at the Pool (a dash — see the note).\n\n**Skim, scan or search?** News story — Skim. Chips price — Scan. “Warranty” in a manual — Search. What a site is for — Skim. Shoe size — Scan. Return policy — Search.\n\n**Case study:** about 600 words; people read about 20% (at most 28%). F-pattern = across the top, across lower, down the left.",
+    "resources": [
+      {
+        "label": "Nielsen Norman Group — How Little Do Users Read? (2008)",
+        "url": "https://www.nngroup.com/articles/how-little-do-users-read/"
+      },
+      {
+        "label": "Nielsen Norman Group — F-Shaped Pattern of Reading on the Web",
+        "url": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/"
+      }
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz questions, a word bank on the timetable, fewer race, sort and scenario items. Evidence counts towards **Levels 3–4**.",
+      "core": "Standard version: full race, sort and scenarios, and the make-it-scannable mission. Evidence counts towards **Levels 5–6**.",
+      "extend": "Adds the F-pattern and technology in the case study, 10 key words, a quiz question on web design, and a harder notice to redesign with explanation. Level Up reaches **Level 7**."
+    }
+  }
+}

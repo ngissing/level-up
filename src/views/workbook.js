@@ -50,7 +50,7 @@ const BLOCKS = {
     const v = skill.course.brief.vocab;
     const meanings = shuffle(v.map((x, i) => ({ m: x.meaning, i })));
     return html`${blockTitle(b, 'lucide:book-a')}
-    <div class="wb-match">
+    <div class="wb-match${v.length > 8 ? ' wb-match-tight' : ''}">
       <ul>${v.map((x) => html`<li><b>${x.word}</b><span class="dot"></span></li>`)}</ul>
       <ul>${meanings.map((x) => html`<li><span class="dot"></span>${x.m}</li>`)}</ul>
     </div>
@@ -83,7 +83,7 @@ const BLOCKS = {
     return html`${blockTitle(b, 'lucide:search')}
     <div class="wb-doc">${documentCard(d)}</div>
     ${b.wordBank?.length ? html`<p class="wb-starters"><b>${icon('lucide:sparkles')} Word bank</b>${b.wordBank.map((w) => html`<span>${w}</span>`)}</p>` : ''}
-    <table class="wb-table wb-doc-table"><thead><tr><th>No.</th><th>What is it?</th><th>What does it tell you?</th></tr></thead>
+    <table class="wb-table wb-doc-table"><thead><tr><th>No.</th>${(b.columns || ['What is it?', 'What does it tell you?']).map((c) => html`<th>${c}</th>`)}</tr></thead>
       <tbody>${d.callouts.map((c) => html`<tr><td class="eg">${c.n}</td>${answers ? html`<td>${c.label}</td><td>${c.note}</td>` : html`<td class="blank"></td><td class="blank"></td>`}</tr>`)}</tbody></table>`;
   },
 

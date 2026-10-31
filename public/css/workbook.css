@@ -82,6 +82,8 @@ p { margin: 0 0 .6em; }
 .wb-match li { display: flex; align-items: center; justify-content: space-between; gap: 8px; border: 2px solid var(--ink); border-radius: 10px; padding: 1mm 3mm; font-size: 10pt; min-height: 7mm; }
 .wb-match ul:first-child li { background: var(--zone); color: var(--zone-ink); font-family: var(--display); font-size: 12pt; }
 .wb-match ul:last-child li { justify-content: flex-start; }
+.wb-match-tight ul { gap: 1mm; }
+.wb-match-tight li { min-height: 6.2mm; padding: 0.6mm 3mm; }
 .dot { width: 11px; height: 11px; border-radius: 50%; background: var(--ink); flex: none; }
 
 /* Reading */
@@ -133,6 +135,10 @@ p { margin: 0 0 .6em; }
 .wb-table td + td { border-left: 2px solid var(--ink); }
 .wb-table td.eg { color: #6f6a62; font-style: italic; }
 .wb-table td:first-child { font-weight: 600; background: color-mix(in srgb, var(--zone) 15%, white); }
+/* Three-column tables: a narrow label column, then two answer columns. */
+.wb-table td:first-child:nth-last-child(3) { width: 22%; }
+.wb-table td:first-child:nth-last-child(3) ~ td { width: 39%; }
+.wb-table td.eg:first-child:nth-last-child(3) { font-style: normal; color: inherit; }
 .wb-table td.blank { background-image: repeating-linear-gradient(transparent 0 7.5mm, #d3cdc1 7.5mm calc(7.5mm + 1px)); background-position: 0 5mm; }
 
 /* Flow on paper */

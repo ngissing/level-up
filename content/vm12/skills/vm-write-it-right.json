@@ -1,0 +1,904 @@
+{
+  "id": "vm-write-it-right",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "Your email to a boss says: **“i seen your add.”** Will they want to hire you?",
+      "core": "Your email to a café owner says: **“i seen your add and i have alot of experiance.”** They have twenty other emails. Do they keep reading?"
+    },
+    "why": {
+      "support": "People judge your writing. A few minutes of checking can get you the job.",
+      "core": "People judge your writing before they meet you. A few minutes of planning and checking can be the difference between “delete” and “come in for a trial”.",
+      "extend": "Employers, teachers and clients judge your writing before they meet you. Planning, drafting, revising, editing and proofreading turn a rushed message into one that's clear, correct and taken seriously."
+    },
+    "canDo": {
+      "support": [
+        "I can plan before I write.",
+        "I can fix big things, like order.",
+        "I can fix spelling and full stops.",
+        "I can write a short, correct email."
+      ],
+      "core": [
+        "I can **plan** before I write.",
+        "I can **revise** for big things: ideas, order, what's missing.",
+        "I can **edit** and **proofread** for words, punctuation and spelling.",
+        "I can write a clear, correct email to an employer."
+      ]
+    },
+    "showIt": "Find and fix the mistakes in a job email, then plan, draft and polish your own.",
+    "vocab": [
+      {
+        "word": "draft",
+        "meaning": "a first go at writing — not the final version",
+        "example": "My first draft was messy."
+      },
+      {
+        "word": "revise",
+        "meaning": "change the big things: ideas, order, what's missing",
+        "example": "I revised it to put the main point first."
+      },
+      {
+        "word": "edit",
+        "meaning": "improve sentences and words",
+        "example": "I edited out the slang."
+      },
+      {
+        "word": "proofread",
+        "meaning": "check for spelling, punctuation and typos",
+        "example": "I proofread before I sent it."
+      },
+      {
+        "word": "punctuation",
+        "meaning": "marks like . , ? ! and ’ that help readers",
+        "example": "A question needs a question mark."
+      },
+      {
+        "word": "capital letter",
+        "meaning": "a big letter at the start of sentences and names",
+        "example": "“I” is always a capital letter."
+      },
+      {
+        "word": "paragraph",
+        "meaning": "a group of sentences about one idea",
+        "example": "Start a new paragraph for a new idea.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "sentence",
+        "meaning": "a group of words that makes complete sense",
+        "example": "Each sentence ends with a full stop.",
+        "levels": [
+          "support",
+          "core"
+        ]
+      },
+      {
+        "word": "conventions",
+        "meaning": "the agreed rules for writing",
+        "example": "Follow the conventions of a formal email.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "ambiguous",
+        "meaning": "could mean more than one thing",
+        "example": "The law was ambiguous without the comma.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Write It Right in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Write It Right",
+        "sub": "Draft it, fix it, send it. No cringe.",
+        "icon": "lucide:spell-check",
+        "say": "Write it right. Draft it, fix it, send it. No cringe."
+      },
+      {
+        "kind": "stat",
+        "title": "a missing comma cost a dairy company",
+        "big": "$5 million",
+        "sub": "Oakhurst Dairy, Maine, USA (2018). Source: ABA Journal",
+        "say": "In 2018 a missing comma in a law helped delivery drivers in Maine, in the United States, win a five million dollar settlement.",
+        "vc": [
+          "VM-U1O1-KK7"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Good writing is rewritten",
+        "text": "Nobody gets it right first go. **Plan, draft, then fix.**",
+        "icon": "lucide:repeat",
+        "say": "Good writing isn't written. It's rewritten.",
+        "vc": [
+          "VM-U1O1-KK6"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Plan → Draft → Revise → Edit → Proofread",
+        "steps": [
+          "Plan: who, why, main points",
+          "Draft: get it down",
+          "Revise: order, missing bits",
+          "Edit: words and sentences",
+          "Proofread: spelling and punctuation"
+        ],
+        "say": "Five steps. Plan. Draft. Revise the big things. Edit the sentences. Proofread every word.",
+        "vc": [
+          "VM-U1O1-KK6",
+          "VM-U1O1-KS9"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "!",
+        "pill": "Pro tip",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Read it out loud",
+        "text": "If you stumble, your reader will too.",
+        "icon": "lucide:volume-2",
+        "say": "Read it out loud. If you stumble, a reader will too. Fix that bit.",
+        "vc": [
+          "VM-U1O1-KS10"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "✓",
+        "pill": "Pro tip",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Check the basics",
+        "text": "Capitals, full stops, ? marks — and words spell-check misses (*their / there*).",
+        "icon": "lucide:check-check",
+        "say": "Check the basics. Capital letters, full stops, question marks, and words spell-check misses, like their and there.",
+        "vc": [
+          "VM-U1O1-KK7",
+          "VM-U1O1-KS10"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Fix a messy job email. Then write your own.",
+        "icon": "lucide:send",
+        "say": "Your mission. Fix a messy job email. Then plan, draft and polish your own."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Get it right before you send",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Nobody writes it perfectly the first time. Good writers **fix it before they send it**.\n\nUse five steps:\n\n1. **Plan.** Who is it for? What do you need to say?\n2. **Draft.** Write it down.\n3. **Revise.** Is the main point first? Is anything missing?\n4. **Edit.** Use clear words. No slang.\n5. **Proofread.** Check capitals, full stops and spelling.\n\nSpell-check misses some words, like *their* and *there*.\n\nTip: **read it out loud**. If you get stuck, fix that bit.",
+          "core": "Nobody writes a perfect message first go — not teachers, not journalists, not CEOs. Good writers just **fix it before anyone sees it**.\n\nUse five steps:\n\n1. **Plan.** Who's it for? Why are you writing? Jot your main points.\n2. **Draft.** Get it down. Don't stop to fix things yet.\n3. **Revise.** Look at the big things. Is the main point first? Is anything missing? Is anything repeated?\n4. **Edit.** Improve the sentences. Swap slang for clear words. Split sentences that run on and on.\n5. **Proofread.** Check every word: capital letters, full stops, question marks, apostrophes and spelling.\n\nSpell-check helps, but it misses a lot: *their/there*, *your/you're*, *off/of*. The best trick is to **read it out loud**. If you stumble, fix that bit.\n\nSmall things matter. One missing comma once helped a group of drivers win **$5 million**."
+        },
+        "vc": [
+          "VM-U1O1-KK6",
+          "VM-U1O1-KK7"
+        ],
+        "vcNote": "The five-step writing process and the conventions to check."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The $5 million comma",
+        "icon": "lucide:truck",
+        "body": {
+          "support": "In the United States, a law listed some jobs. These jobs didn't get extra pay for overtime. It said: “packing for shipment or distribution”.\n\nDrivers at **Oakhurst Dairy** said: we don't pack anything, we just deliver. A comma was missing, so the law was not clear.\n\nA court agreed. In 2018 the company agreed to pay the drivers **$5 million**.\n\nOne small comma changed the meaning.",
+          "core": "In Maine, in the United States, a law listed jobs that **didn't** get paid overtime. It included: “packing for shipment or distribution” of food.\n\nDelivery drivers at **Oakhurst Dairy** said they deserved overtime. Their argument was about one missing comma. Without a comma after “shipment”, the law could mean the **packing** of food for shipment or distribution — and the drivers didn't pack anything. They only delivered.\n\nIn 2017 a court agreed the law was unclear. In 2018 the company agreed to pay the drivers **$5 million**.\n\nOne small mark of punctuation changed the meaning — and cost millions."
+        },
+        "source": {
+          "name": "ABA Journal — “Dairy company settles overtime suit that hinged on lack of Oxford comma” (February 2018)",
+          "url": "https://www.abajournal.com/news/article/dairy_company_settles_overtime_suit_that_hinged_on_lack_of_oxford_comma"
+        },
+        "think": {
+          "support": [
+            "What were the drivers arguing about?",
+            "Why does one comma matter?"
+          ],
+          "core": [
+            "What were the drivers arguing about?",
+            "How can one comma change the meaning?",
+            "What does this tell you about proofreading at work?"
+          ]
+        },
+        "vc": [
+          "VM-U1O1-KK7"
+        ],
+        "vcNote": "How a punctuation convention changes meaning."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "A job email that needs fixing",
+      "docTitle": "DRAFT EMAIL",
+      "vc": [
+        "VM-U1O1-KK7",
+        "VM-U1O1-KS10"
+      ],
+      "vcNote": "Spotting and fixing errors in conventions (capitals, spelling, punctuation, sign-off).",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Subject",
+          "value": "job"
+        },
+        {
+          "n": 2,
+          "label": "Greeting",
+          "value": "hey there"
+        },
+        {
+          "n": 3,
+          "label": "Line 1",
+          "value": "i seen your add for a kitchen hand"
+        },
+        {
+          "n": 4,
+          "label": "Line 2",
+          "value": "I have alot of experiance i worked at my uncles cafe"
+        },
+        {
+          "n": 5,
+          "label": "Line 3",
+          "value": "Can I come in for a trial."
+        },
+        {
+          "n": 6,
+          "label": "Sign-off",
+          "value": "Thanks",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Vague subject",
+          "note": "“Kitchen hand position – Jordan Lee”"
+        },
+        {
+          "n": 2,
+          "label": "Too casual",
+          "note": "“Hi [name],” or “Dear Manager,”"
+        },
+        {
+          "n": 3,
+          "label": "Capital, grammar, spelling",
+          "note": "“I saw your ad for a kitchen hand.”"
+        },
+        {
+          "n": 4,
+          "label": "Spelling, run-on, apostrophe",
+          "note": "“I have a lot of experience. I worked at my uncle’s café.”"
+        },
+        {
+          "n": 5,
+          "label": "Question mark",
+          "note": "“Could I come in for a trial?”"
+        },
+        {
+          "n": 6,
+          "label": "No name or contact",
+          "note": "“Thanks, Jordan Lee, 0491 570 006”"
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Plan → Draft → Revise → Edit → Proofread",
+      "steps": [
+        {
+          "title": "Plan",
+          "text": "Who? Why? Main points.",
+          "icon": "lucide:list"
+        },
+        {
+          "title": "Draft",
+          "text": "Get it down.",
+          "icon": "lucide:pen-line"
+        },
+        {
+          "title": "Revise",
+          "text": "Order, missing bits, repeats.",
+          "icon": "lucide:repeat"
+        },
+        {
+          "title": "Edit",
+          "text": "Clear words and sentences.",
+          "icon": "lucide:scissors"
+        },
+        {
+          "title": "Proofread",
+          "text": "Capitals, punctuation, spelling.",
+          "icon": "lucide:check-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What should you do **first**?",
+        "options": [
+          "Plan: who it's for, why, and the main points",
+          "Proofread",
+          "Send it",
+          "Pick a font"
+        ],
+        "answer": 0,
+        "explain": "Planning comes before drafting.",
+        "vc": [
+          "VM-U1O1-KK6"
+        ]
+      },
+      {
+        "q": "You move your main point to the start. Which step is that?",
+        "options": [
+          "Revise",
+          "Proofread",
+          "Plan",
+          "Send"
+        ],
+        "answer": 0,
+        "explain": "Revising is about big changes like order.",
+        "vc": [
+          "VM-U1O1-KK6"
+        ]
+      },
+      {
+        "q": "Which sentence is correct?",
+        "options": [
+          "Could I come in for a trial?",
+          "could i come in for a trial.",
+          "Could I come in for a trial.",
+          "could I come in for a trial"
+        ],
+        "answer": 0,
+        "explain": "Capital letters and a question mark.",
+        "vc": [
+          "VM-U1O1-KK7",
+          "VM-U1O1-KS10"
+        ]
+      },
+      {
+        "q": "Which mistake might spell-check **miss**?",
+        "options": [
+          "“Their going to call me” instead of “They're”",
+          "“experiance” instead of “experience”",
+          "“alot” instead of “a lot”",
+          "“tomorow” instead of “tomorrow”"
+        ],
+        "answer": 0,
+        "explain": "Their/they're are both real words, so spell-check may not catch it.",
+        "vc": [
+          "VM-U1O1-KK7"
+        ]
+      },
+      {
+        "q": "What's the best proofreading trick?",
+        "options": [
+          "Read it out loud",
+          "Read it as fast as possible",
+          "Only check the first line",
+          "Ask spell-check and stop there"
+        ],
+        "answer": 0,
+        "explain": "Reading aloud helps you hear mistakes.",
+        "vc": [
+          "VM-U1O1-KS10"
+        ]
+      },
+      {
+        "q": "How is a text message usually different from a formal letter?",
+        "options": [
+          "Shorter, more casual, fewer conventions like greetings and paragraphs",
+          "It always has a subject line",
+          "It must be handwritten",
+          "There's no difference"
+        ],
+        "answer": 0,
+        "explain": "Different text types have different structures and conventions.",
+        "vc": [
+          "VM-U1O1-KS7"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Fix a job email. Then write your own short email to a boss.",
+      "core": "Fix the mistakes in a job email, then plan, draft and polish your own email to an employer.",
+      "extend": "Fix a job email, then plan, draft, revise, edit and proofread your own — and compare its structure with a text message and a formal letter."
+    },
+    "checklist": [
+      "I finished my workbook pages",
+      "My email has a clear subject, greeting and sign-off",
+      "I checked capitals, punctuation and spelling",
+      "I read it out loud before handing it in"
+    ],
+    "levelUp": "Compare a text message, an email and a formal letter: how are their structure, language and layout different?",
+    "vc": [
+      "VM-U1O1-KS9",
+      "VM-U1O1-KS10"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Get it right before you send",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "List the **five steps**, in order.",
+            "lines": 0,
+            "vc": [
+              "VM-U1O1-KK6"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          },
+          {
+            "q": "What's the difference between **revising** and **proofreading**?",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VM-U1O1-KK6"
+            ]
+          },
+          {
+            "q": "Name **two** mistakes spell-check can miss.",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KK7"
+            ]
+          },
+          {
+            "q": "Why do small mistakes matter more in a job email than in a text to a mate?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS7"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Revise, edit or proofread?",
+        "pagebreak": true,
+        "choices": [
+          "Revise",
+          "Edit",
+          "Proofread"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Which step is each change? Tick one and say why.",
+        "cards": [
+          {
+            "from": "Change",
+            "text": "Move the most important point to the start.",
+            "answer": "Revise",
+            "flags": "Big change to order."
+          },
+          {
+            "from": "Change",
+            "text": "Change “gonna” to “going to”.",
+            "answer": "Edit",
+            "flags": "Better word choice."
+          },
+          {
+            "from": "Change",
+            "text": "Fix “teh” to “the”.",
+            "answer": "Proofread",
+            "flags": "Typo."
+          },
+          {
+            "from": "Change",
+            "text": "Add a missing full stop.",
+            "answer": "Proofread",
+            "flags": "Punctuation."
+          },
+          {
+            "from": "Change",
+            "text": "Add an example to explain what you mean.",
+            "answer": "Revise",
+            "flags": "Adding missing content.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Change",
+            "text": "Split one very long sentence into two.",
+            "answer": "Edit",
+            "flags": "Improving a sentence.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KK6"
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Fix the job email",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a mistake. Use the word bank. Write what's wrong and fix it.",
+          "core": "Each number marks a problem. Write what's wrong and how to fix it."
+        },
+        "columns": [
+          "What's wrong?",
+          "Fix it"
+        ],
+        "wordBank": {
+          "support": [
+            "capital letter",
+            "spelling",
+            "full stop",
+            "question mark",
+            "too casual",
+            "no name"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O1-KK7",
+          "VM-U1O1-KS10"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Fix the sentence",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 20
+        },
+        "instructions": "Rewrite each sentence correctly. The first one is done for you.",
+        "columns": [
+          "Before",
+          "After"
+        ],
+        "rows": [
+          [
+            "me and my mate is going to the job fair tomorow",
+            "My mate and I are going to the job fair tomorrow."
+          ],
+          [
+            "can you tell me what time my shift starts",
+            ""
+          ],
+          [
+            "their is a meeting on monday at 9am",
+            ""
+          ],
+          {
+            "cells": [
+              "I worked at a cafe I made coffee and I cleaned and I served customers",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KK7",
+          "VM-U1O1-KS10"
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Plan → Draft → Revise → Edit → Proofread",
+        "diagram": 1
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the $5 million comma",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the drivers argue the law meant?",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VM-U1O1-KK7"
+            ]
+          },
+          {
+            "q": "How much did the company agree to pay?",
+            "lines": 1
+          },
+          {
+            "q": "What does this case tell you about checking your writing at work?",
+            "lines": 3,
+            "vc": [
+              "VM-U1O1-KK6"
+            ]
+          },
+          {
+            "q": "Write your own sentence that changes meaning when you move or remove a comma.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KK7"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: plan, draft, polish",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write a short email to a local business. Ask about a job. Plan it, write it, then check it.",
+          "core": "Write an email to a local business asking about a casual job or work experience. **Plan** it, **draft** it, then **revise, edit and proofread** it.",
+          "extend": "Write an email to a local business asking about a casual job or work experience. Plan, draft, revise, edit and proofread it, then note two changes you made and why."
+        },
+        "plan": [
+          {
+            "label": "Who's it to? What do you want?",
+            "lines": 2
+          },
+          {
+            "label": "Your main points",
+            "lines": 2
+          }
+        ],
+        "starters": {
+          "support": [
+            "Hi [name],",
+            "I want to ask about…",
+            "I can…",
+            "Could I…?",
+            "Thanks, [name]"
+          ],
+          "core": [
+            "Hi [name],",
+            "I’m writing to ask about…",
+            "I have experience in…",
+            "Could I…?",
+            "Thanks, [name, phone]"
+          ]
+        },
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "clear subject and greeting",
+          "main point first",
+          "capitals and punctuation",
+          "read aloud and fixed"
+        ],
+        "vc": [
+          "VM-U1O1-KK6",
+          "VM-U1O1-KS9",
+          "VM-U1O1-KS10"
+        ],
+        "vcNote": "The whole process: plan, draft, then revise, edit and proofread a real email."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Think about a **text message**, an **email** and a **formal letter**.",
+        "items": [
+          {
+            "q": "How is the **structure** different? (greeting, paragraphs, sign-off)",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS7"
+            ]
+          },
+          {
+            "q": "How is the **language** different?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS7"
+            ]
+          },
+          {
+            "q": "When would you choose each one? Give a real example for each.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can plan before I write.",
+          "I can revise, edit and proofread.",
+          "I can use capitals, punctuation and spelling correctly.",
+          "I can write a clear email to an employer."
+        ],
+        "questions": [
+          "The mistake I make most often:",
+          "My plan to catch it:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the writing process — **plan, draft, revise, edit, proofread** — and apply the conventions of literacy (capitals, punctuation, sentence boundaries, spelling) to a real workplace text type: an email to an employer. The real case is the Oakhurst Dairy “Oxford comma” settlement.",
+    "prep": [
+      "Print workbooks.",
+      "Prepare one of your own messy first drafts to model revising aloud (students love seeing a teacher's mistakes).",
+      "Optional: a real job ad from a local business for the final mission."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Nobody gets it right first go",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** project the messy job email — would you hire this person?",
+          "**Explicit teaching (15 min):** the five steps; model revising and proofreading your own draft aloud.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** Get it right before you send + questions.",
+          "**Exit:** name the step for three changes."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Find and fix",
+        "minutes": 50,
+        "steps": [
+          "**Sort (10 min):** revise, edit or proofread?",
+          "**Model (10 min):** fix the first two errors in the job email.",
+          "**Independent (20 min):** finish Fix the job email and Fix the sentence.",
+          "**Read aloud check (10 min):** pairs read fixes aloud."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Why it matters",
+        "minutes": 50,
+        "steps": [
+          "**Case study (20 min):** the $5 million comma.",
+          "**Plan (15 min):** final mission plan.",
+          "**Draft (15 min):** first draft."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Polish and send",
+        "minutes": 50,
+        "steps": [
+          "**Revise, edit, proofread (20 min):** using the checklist; read aloud to a partner.",
+          "**Level Up (15 min):** fast finishers.",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Plan → Draft → Revise (big) → Edit (sentences) → Proofread (every word).",
+      "Capitals, full stops, question marks, apostrophes; split run-ons.",
+      "Spell-check misses real words used wrongly.",
+      "Read it aloud."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on Fix the job email.",
+        "Fewer sort cards and table rows; shorter email with starters.",
+        "Proofread with a ruler under each line."
+      ],
+      "extend": [
+        "Note two revisions and explain them.",
+        "Compare structure and language of text message, email and letter (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O1-KK6",
+        "evidence": "Names and sequences the five steps; sorts changes by step; shows planning and revision in the final email."
+      },
+      {
+        "vc": "VM-U1O1-KK7",
+        "evidence": "Identifies errors in conventions (capitals, punctuation, spelling, sentence boundaries) and explains how punctuation affects meaning."
+      },
+      {
+        "vc": "VM-U1O1-KS9",
+        "evidence": "Plans, drafts and refines an email to an employer."
+      },
+      {
+        "vc": "VM-U1O1-KS10",
+        "evidence": "Final email and sentence fixes apply conventions accurately."
+      },
+      {
+        "vc": "VM-U1O1-KS7",
+        "evidence": "Level Up: compares the structure, language and presentation of a text message, an email and a formal letter."
+      }
+    ],
+    "answers": "**Revise, edit or proofread?** Move main point — Revise. gonna → going to — Edit. teh → the — Proofread. Missing full stop — Proofread. Add an example — Revise. Split a long sentence — Edit.\n\n**Fix the job email:** 1 vague subject → “Kitchen hand position – [name]”; 2 too casual → “Hi [name],”; 3 → “I saw your ad for a kitchen hand.”; 4 → “I have a lot of experience. I worked at my uncle’s café.”; 5 → “Could I come in for a trial?”; 6 → add name and phone.\n\n**Fix the sentence:** “Can you tell me what time my shift starts?” “There is a meeting on Monday at 9am.” “I worked at a café, where I made coffee, cleaned and served customers.”\n\n**Case study:** the drivers argued the exemption only covered packing (for shipment or distribution), not distributing; the company agreed to pay $5 million (2018).",
+    "resources": [
+      {
+        "label": "ABA Journal — Dairy company settles overtime suit that hinged on lack of Oxford comma (2018)",
+        "url": "https://www.abajournal.com/news/article/dairy_company_settles_overtime_suit_that_hinged_on_lack_of_oxford_comma"
+      },
+      {
+        "label": "Boston.com — Oxford comma dispute is settled as Maine drivers get $5 million (2018)",
+        "url": "https://www.boston.com/news/local-news/2018/02/09/oxford-comma-dispute-is-settled-as-maine-drivers-get-5-million"
+      }
+    ],
+    "levels": {
+      "support": "Simpler article and case, 6 key words, 3-choice quiz questions, a word bank for the job email, fewer sort and table items, and a shorter email with starters.",
+      "core": "Standard version: full sort, job-email fixes, sentence fixes and the email mission.",
+      "extend": "Adds conventions and ambiguity to the vocabulary, a quiz question comparing text types, and noting revisions in the final email."
+    }
+  }
+}

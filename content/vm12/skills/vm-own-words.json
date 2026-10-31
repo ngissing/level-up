@@ -1,0 +1,944 @@
+{
+  "id": "vm-own-words",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "Copy. Paste. Submit. Easy? Not when your teacher asks you to **explain it**.",
+      "core": "Copy. Paste. Submit. Easy — until your teacher asks: **“Can you explain this part to me?”**"
+    },
+    "why": {
+      "support": "You will use other people's information a lot. Say it **in your own words**. Say where it came from. Then it's honest, and it's yours.",
+      "core": "At school, TAFE and work, you'll use other people's information all the time. Saying it **in your own words** — and saying where it came from — shows you understand it, and keeps you out of trouble.",
+      "extend": "At school, TAFE and work you'll constantly use other people's information. Paraphrasing, summarising and acknowledging sources shows you understand it and keeps your work honest."
+    },
+    "canDo": {
+      "support": [
+        "I can take notes using key words.",
+        "I can say an idea in my own words.",
+        "I can give the main idea in a few words.",
+        "I can explain what plagiarism is."
+      ],
+      "core": [
+        "I can take **notes** in key words, not whole sentences.",
+        "I can **paraphrase**: say an idea in my own words.",
+        "I can **summarise**: give the main idea in fewer words.",
+        "I can explain **plagiarism** and say where my information came from."
+      ]
+    },
+    "showIt": "Summarise VCAA's own rules about honest work, in your own words, and acknowledge where they came from.",
+    "vocab": [
+      {
+        "word": "plagiarism",
+        "meaning": "passing off someone else's work as yours",
+        "example": "Copying a website into your assignment is plagiarism."
+      },
+      {
+        "word": "paraphrase",
+        "meaning": "say an idea in your own words",
+        "example": "I paraphrased the article for my notes."
+      },
+      {
+        "word": "summarise",
+        "meaning": "give the main idea in fewer words",
+        "example": "She summarised the report in three sentences."
+      },
+      {
+        "word": "quote",
+        "meaning": "someone's exact words, inside quotation marks",
+        "example": "I used a short quote from the speech."
+      },
+      {
+        "word": "source",
+        "meaning": "where information comes from",
+        "example": "My source was the Fair Work website."
+      },
+      {
+        "word": "acknowledge",
+        "meaning": "say where your information came from",
+        "example": "Always acknowledge your sources."
+      },
+      {
+        "word": "key words",
+        "meaning": "the most important words that carry the meaning",
+        "example": "My notes were just key words.",
+        "levels": [
+          "support",
+          "core"
+        ]
+      },
+      {
+        "word": "copyright",
+        "meaning": "the legal right to control copies of a work",
+        "example": "Music is protected by copyright.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "reference",
+        "meaning": "the details of a source: who, what, when, where",
+        "example": "My reference listed the website and date.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "authentication",
+        "meaning": "checking that work really is the student's own",
+        "example": "Teachers do authentication checks.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "In Your Own Words in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "In Your Own Words",
+        "sub": "Copy-paste gets you caught. Say it your way.",
+        "icon": "lucide:quote",
+        "say": "In your own words. Copy-paste gets you caught. Learn to say it your way."
+      },
+      {
+        "kind": "big",
+        "title": "What is plagiarism?",
+        "text": "Using someone else’s words or ideas **as if they were yours**.",
+        "icon": "lucide:copy-x",
+        "say": "Plagiarism means passing off someone else's work as yours. Copying from a website, a friend or an AI tool and calling it yours all count.",
+        "vc": [
+          "VM-U1O1-KK4"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "The VCAA rule",
+        "text": "“All unacknowledged work submitted” must be **your own**.",
+        "icon": "lucide:scale",
+        "say": "VCAA's rule is simple. All unacknowledged work you hand in must be your own.",
+        "vc": [
+          "VM-U1O1-KK4"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Paraphrase in 5 steps",
+        "steps": [
+          "Read it",
+          "Cover it",
+          "Say it your way",
+          "Write it",
+          "Check the meaning"
+        ],
+        "say": "To paraphrase: read it. Cover it. Say it out loud your way. Write it down. Then check you didn't change the meaning.",
+        "vc": [
+          "VM-U1O1-KK5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "N",
+        "pill": "Know the moves",
+        "pillIcon": "lucide:pen-tool",
+        "title": "Notes",
+        "text": "Key words, not whole sentences.",
+        "icon": "lucide:notebook-pen",
+        "say": "Notes are key words, not sentences. Grab the words that carry the meaning.",
+        "vc": [
+          "VM-U1O1-KK5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "S",
+        "pill": "Know the moves",
+        "pillIcon": "lucide:pen-tool",
+        "title": "Summary",
+        "text": "The main idea in fewer words.",
+        "icon": "lucide:list-collapse",
+        "say": "A summary is the main idea in fewer words. Ask: what's the one thing this is saying?",
+        "vc": [
+          "VM-U1O1-KK5",
+          "VM-U1O1-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "A",
+        "pill": "Know the moves",
+        "pillIcon": "lucide:pen-tool",
+        "title": "Acknowledge",
+        "text": "“According to …” — then say who and where.",
+        "icon": "lucide:at-sign",
+        "say": "Acknowledge. Say where it came from: according to, then the source.",
+        "vc": [
+          "VM-U1O2-KS7"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Summarise VCAA’s rules on honest work — in your own words.",
+        "icon": "lucide:pen-line",
+        "say": "Your mission. Summarise VCAA's rules on honest work, in your own words, and say where they came from."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Make it yours",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "You will read websites and reports for school and work. Using what you read is fine. **Copying it and saying it's yours is not.** That's **plagiarism**.\n\nCopying a website, a friend or an AI tool counts. Changing a few words doesn't fix it.\n\nThere are three honest moves:\n\n1. **Notes.** Write key words, not whole sentences.\n2. **Paraphrase.** Read it. Cover it. Say it your way. Write it down.\n3. **Summarise.** Give the main idea in a few words.\n\nUsing someone's exact words? Put them in **quotation marks**. And say where it came from: *“According to …”*",
+          "core": "You'll read websites, reports and textbooks for assignments, at TAFE and at work. Using what you read is fine — **copying it and pretending it's yours is not**. That's **plagiarism**.\n\nPlagiarism includes copying a website, a friend's work or text from an AI tool and handing it in as your own. Changing a few words doesn't fix it. In VCE, work that can't be shown to be yours is treated as a **breach of the rules**. At work, it can cost you your job.\n\nThere are three honest moves:\n\n1. **Notes.** Write **key words**, not whole sentences. Notes help you remember without copying.\n2. **Paraphrase.** Read it, cover it, say it out loud in your own way, then write it down. Check you kept the meaning.\n3. **Summarise.** Give just the **main idea** in fewer words. Ask: what's the one thing this is saying?\n\nIf you use someone's exact words, put them in **quotation marks**. And always **acknowledge** your source: *“According to the Fair Work Ombudsman, …”*",
+          "extend": "You'll read websites, reports and textbooks for assignments, at TAFE and at work. Using what you read is expected — **presenting it as your own is plagiarism**.\n\nPlagiarism includes copying a website, a friend's work or AI-generated text, and “patchwriting” — swapping a few words but keeping someone else's sentences. In VCE, VCAA's rules require that all unacknowledged work you submit is your own; work that can't be authenticated is treated as a **breach of rules**. In workplaces, plagiarism can end careers.\n\nThe VCAA rules also say what *is* acceptable: using ideas from other sources that you've **transformed** and used in a new context. That's what these moves do:\n\n1. **Notes.** Key words, not sentences, so you're not tempted to copy.\n2. **Paraphrase.** Read, cover, say it your way, write, then check the meaning.\n3. **Summarise.** Reduce a text to its main idea and purpose.\n\nUse **quotation marks** for exact words, and **acknowledge** every source. Images and music are protected by **copyright** too: credit the creator and check you're allowed to use them."
+        },
+        "vc": [
+          "VM-U1O1-KK4",
+          "VM-U1O1-KK5"
+        ],
+        "vcNote": "What plagiarism is and its consequences, and the three honest moves (notes, paraphrase, summarise)."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The speech that copied",
+        "icon": "lucide:mic",
+        "body": {
+          "support": "In 2016, Melania Trump gave a big speech in the United States. People noticed some parts were almost the **same as a speech by Michelle Obama** from 2008.\n\nA speechwriter said it was her mistake. She had copied parts without checking. She said sorry and **offered to quit her job**.\n\nEveryone talked about the copying, not the speech.",
+          "core": "In July 2016, Melania Trump gave a big speech in the United States. Within hours, people noticed something. Some parts were almost the **same as a speech Michelle Obama gave in 2008**.\n\nTwo days later, a speechwriter called Meredith McIver said it was her mistake. Melania had read her parts of Michelle Obama's speech as examples. McIver wrote them into the draft. She didn't check them. She said sorry and **offered to quit her job**.\n\nIt became one of the biggest stories of the week. But it was about the copying, not the speech."
+        },
+        "source": {
+          "name": "PBS NewsHour — “Trump speechwriter apologizes for Melania Trump's speech” (July 2016)",
+          "url": "https://www.pbs.org/newshour/politics/trump-speechwriter-apologizes-melania-trumps-speech"
+        },
+        "think": {
+          "support": [
+            "What was copied?",
+            "What happened next?"
+          ],
+          "core": [
+            "What was copied, and how did it happen?",
+            "What were the consequences?",
+            "How could the speechwriter have avoided it?"
+          ]
+        },
+        "vc": [
+          "VM-U1O1-KK4",
+          "VM-U1O1-KS3"
+        ],
+        "vcNote": "Real ramifications of plagiarism; identifying purpose, audience and context of a speech."
+      },
+      {
+        "title": "VCAA's rules for your own work",
+        "icon": "lucide:scale",
+        "body": {
+          "support": "The **VCAA** runs the VCE, including VCE VM. Its rules say:\n\n- the work you hand in must be **your own**\n- you must **say where your information came from**\n- you can't get too much help\n\nIdeas in **your own words** are OK. **Copying** is not.\n\nIf the school can't tell the work is yours, you have **broken the rules**.",
+          "core": "The **VCAA** runs the VCE. That includes VCE VM. It has rules about work you hand in for school. Here are the main ones.\n\n- The work you hand in must be **your own**. The rule says: “all unacknowledged work submitted is their own”.\n- You must **say where your information came from**. That includes texts and websites.\n- You can't get **too much help** from other people. That includes your teacher.\n\nSo what is OK? You can use ideas from other places. But you must change them into your own work. What is not OK? Copying someone else's work. Copying a sample answer.\n\nWhat if the school can't tell that the work is yours? Then it counts as **breaking the rules**.",
+          "extend": "The **VCAA** runs the VCE, including VCE VM. Its rules for school-based work include these:\n\n- “a student must make sure that all unacknowledged work submitted is their own”\n- a student must **acknowledge all resources used**, such as texts and websites\n- a student must not get **undue assistance**. That means too much help, even from a teacher.\n\nThe rules say some help is fine. You can use ideas from other sources if you have **transformed** them and used them in a new way. Copying someone's work or a sample answer is not fine.\n\nIf any part of the work can't be shown to be yours, it is treated as a **breach of rules**."
+        },
+        "source": {
+          "name": "VCAA Administrative Handbook — authentication rules for school-based assessment",
+          "url": "https://www.vcaa.vic.edu.au/administration/vce-administrative-handbook/satisfactory-vpc-unit-result"
+        },
+        "think": [
+          "Who is this text written for, and why?",
+          "Which kinds of help are OK, and which aren't?"
+        ],
+        "vc": [
+          "VM-U1O1-KS3",
+          "VM-U1O2-KS7"
+        ],
+        "vcNote": "An official text to annotate for purpose, audience and context, then summarise and acknowledge."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "flow",
+      "title": "Paraphrase it: read, cover, say, write",
+      "steps": [
+        {
+          "title": "Read",
+          "text": "Read it twice. What's it really saying?",
+          "icon": "lucide:book-open"
+        },
+        {
+          "title": "Cover & say",
+          "text": "Hide it. Say it out loud your way.",
+          "icon": "lucide:eye-off"
+        },
+        {
+          "title": "Write & check",
+          "text": "Write it down. Check the meaning didn’t change.",
+          "icon": "lucide:pen-line"
+        }
+      ]
+    },
+    {
+      "type": "document",
+      "title": "Anatomy of a source note",
+      "docTitle": "SOURCE NOTE",
+      "vc": [
+        "VM-U1O2-KS7",
+        "VM-U1O2-KK5",
+        "VM-U1O1-KK5"
+      ],
+      "vcNote": "Recording notes, a quote and the details needed to acknowledge a source.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Who wrote it",
+          "value": "Fair Work Ombudsman"
+        },
+        {
+          "n": 2,
+          "label": "Title",
+          "value": "Pay slips"
+        },
+        {
+          "n": 3,
+          "label": "Where",
+          "value": "fairwork.gov.au"
+        },
+        {
+          "n": 4,
+          "label": "When I read it",
+          "value": "3 March 2026"
+        },
+        {
+          "n": 5,
+          "label": "Notes (key words)",
+          "value": "payslip — 1 working day — must show pay, hours, super"
+        },
+        {
+          "n": 6,
+          "label": "Exact quote",
+          "value": "“…within one working day of pay day.”"
+        },
+        {
+          "n": 7,
+          "label": "In my words",
+          "value": "You should get your payslip by the next working day.",
+          "strong": true
+        }
+      ],
+      "note": "Example. Check the real page before you rely on it.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Author or organisation",
+          "note": "Who is responsible for it."
+        },
+        {
+          "n": 2,
+          "label": "Title",
+          "note": "So you (and your reader) can find it."
+        },
+        {
+          "n": 3,
+          "label": "Website or publisher",
+          "note": "Where it lives."
+        },
+        {
+          "n": 4,
+          "label": "Date",
+          "note": "Websites change, so note when you read it."
+        },
+        {
+          "n": 5,
+          "label": "Notes",
+          "note": "Key words only — no copying sentences."
+        },
+        {
+          "n": 6,
+          "label": "Quote",
+          "note": "Exact words go in quotation marks."
+        },
+        {
+          "n": 7,
+          "label": "Paraphrase",
+          "note": "The idea in your own words."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is **plagiarism**?",
+        "options": [
+          "Using someone else's words or ideas as if they were yours",
+          "Using a dictionary",
+          "Writing in pencil",
+          "Reading a website"
+        ],
+        "answer": 0,
+        "explain": "Presenting someone else's work as your own.",
+        "vc": [
+          "VM-U1O1-KK4"
+        ]
+      },
+      {
+        "q": "You change a few words in a paragraph from a website and hand it in. Is that OK?",
+        "options": [
+          "No — it's still plagiarism",
+          "Yes, if you change three words",
+          "Yes, if it's from a government site",
+          "Yes, if you hand it in late"
+        ],
+        "answer": 0,
+        "explain": "Swapping a few words keeps someone else's sentences.",
+        "vc": [
+          "VM-U1O1-KK4"
+        ]
+      },
+      {
+        "q": "What's the best way to take **notes**?",
+        "options": [
+          "Key words, not whole sentences",
+          "Copy every sentence",
+          "Highlight the whole page",
+          "Take a photo and never look at it"
+        ],
+        "answer": 0,
+        "explain": "Key words help you understand without copying.",
+        "vc": [
+          "VM-U1O1-KK5"
+        ]
+      },
+      {
+        "q": "What does a **summary** do?",
+        "options": [
+          "Gives the main idea in fewer words",
+          "Copies the whole text",
+          "Adds your opinion",
+          "Lists every detail"
+        ],
+        "answer": 0,
+        "explain": "A summary is short and keeps the main idea.",
+        "vc": [
+          "VM-U1O1-KK5"
+        ]
+      },
+      {
+        "q": "According to the VCAA rules, which kind of help is **acceptable**?",
+        "options": [
+          "Using ideas you've transformed into your own work, and saying where they came from",
+          "Copying a sample answer",
+          "Having someone else fix your work for you",
+          "Handing in the same work for two subjects"
+        ],
+        "answer": 0,
+        "explain": "Transformed ideas used in a new context are acceptable.",
+        "vc": [
+          "VM-U1O1-KK4",
+          "VM-U1O1-KS3"
+        ]
+      },
+      {
+        "q": "You want to use a song in a video for your class. What should you check?",
+        "options": [
+          "Whether you're allowed to use it, and credit the artist",
+          "Nothing — music online is free",
+          "Only that it's popular",
+          "That the video is short"
+        ],
+        "answer": 0,
+        "explain": "Music is protected by copyright; check permission and give credit.",
+        "vc": [
+          "VM-U1O2-KK5"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write VCAA's rules in your own words for a new student. Say where they came from.",
+      "core": "Summarise VCAA's rules on honest work for a new VM student, in your own words, and acknowledge the source.",
+      "extend": "Summarise VCAA's authentication rules for a new VM student in your own words, quote one line accurately, and acknowledge the source in full."
+    },
+    "checklist": [
+      "I finished my workbook pages",
+      "My summary is in my own words",
+      "It gives the main points, not every detail",
+      "I said where the information came from"
+    ],
+    "levelUp": "Write a full source note (who, title, where, when) for a website you'd use in an assignment, and explain the difference between copyright and plagiarism.",
+    "vc": [
+      "VM-U1O1-KK5",
+      "VM-U1O1-KS3",
+      "VM-U1O2-KS7"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Make it yours",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What is **plagiarism**? Give one example.",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VM-U1O1-KK4"
+            ]
+          },
+          {
+            "q": "What are the **three honest moves**?",
+            "lines": 0,
+            "vc": [
+              "VM-U1O1-KK5"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3"
+            ]
+          },
+          {
+            "q": "What can happen if work can't be shown to be yours?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KK4"
+            ]
+          },
+          {
+            "q": "What does it mean to **transform** an idea from a source?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KK4",
+              "VM-U1O1-KK5"
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "OK or not OK?",
+        "pagebreak": true,
+        "choices": [
+          "OK",
+          "Not OK",
+          "OK if credited"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Tick **OK**, **Not OK** or **OK if credited**. Say why.",
+        "cards": [
+          {
+            "from": "Assignment",
+            "text": "You copy a paragraph from a website straight into your assignment.",
+            "answer": "Not OK",
+            "flags": "Plagiarism — not your own work."
+          },
+          {
+            "from": "Assignment",
+            "text": "You read three websites, then explain the topic in your own words.",
+            "answer": "OK if credited",
+            "flags": "Transformed ideas — still say where they came from."
+          },
+          {
+            "from": "Assignment",
+            "text": "You use one short sentence in quotation marks.",
+            "answer": "OK if credited",
+            "flags": "Quote marks + source."
+          },
+          {
+            "from": "Assignment",
+            "text": "A friend writes your introduction for you.",
+            "answer": "Not OK",
+            "flags": "Undue help from another person."
+          },
+          {
+            "from": "Assignment",
+            "text": "Your teacher gives you general advice and you fix your own work.",
+            "answer": "OK",
+            "flags": "Prompting and general advice is acceptable.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Assignment",
+            "text": "You hand in the same essay for Literacy and Work Related Skills.",
+            "answer": "Not OK",
+            "flags": "Same work can't be submitted twice.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KK4"
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Paraphrase it: read, cover, say, write",
+        "diagram": 0,
+        "pagebreak": true
+      },
+      {
+        "type": "table",
+        "title": "Paraphrase it",
+        "rowHeight": {
+          "support": 30,
+          "core": 27
+        },
+        "instructions": "Use **read, cover, say, write**. Put each sentence in your own words. The first one is done for you.",
+        "columns": [
+          "Original",
+          "In my own words"
+        ],
+        "rows": [
+          [
+            "Employers must give employees a payslip within one working day of pay day.",
+            "Your boss has to give you a payslip by the next working day after you're paid."
+          ],
+          [
+            "Students must acknowledge all resources used, including websites.",
+            ""
+          ],
+          [
+            "Regular breaks improve concentration and reduce mistakes.",
+            ""
+          ],
+          {
+            "cells": [
+              "Short, clear sentences are easier for most readers to understand.",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KK5"
+        ],
+        "vcNote": "Paraphrasing without changing the meaning."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the speech that copied",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What was copied, and how did it happen?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KK4"
+            ]
+          },
+          {
+            "q": "Who was the **audience** for the speech? Why did copying matter so much in that **context**?",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VM-U1O1-KS3"
+            ]
+          },
+          {
+            "q": "Write a **one-sentence summary** of this case.",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KK5"
+            ]
+          },
+          {
+            "q": "What should the speechwriter have done instead?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KK4"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Read and annotate: VCAA's rules",
+        "caseStudy": 1,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Who wrote this text? Who is it for? What is its **purpose**?",
+            "lines": 0,
+            "vc": [
+              "VM-U1O1-KS3"
+            ],
+            "boxes": [
+              "Who wrote it",
+              "Who it's for",
+              "Purpose"
+            ]
+          },
+          {
+            "q": "Take **notes** in key words: what's OK and what's not OK?",
+            "lines": 4,
+            "vc": [
+              "VM-U1O1-KK5"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KS3"
+        ],
+        "vcNote": "Annotating an official text for purpose, audience and context, then taking key-word notes."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: say it your way",
+        "pagebreak": true,
+        "prompt": {
+          "support": "A new student is starting VM. Tell them VCAA's rules in **your own words**. Use about 40 words. Say where the rules come from.",
+          "core": "A new student is starting VCE VM. Write a **summary** of VCAA's rules on honest work for them — in your own words, in about 60 words. Then acknowledge where the rules come from.",
+          "extend": "Write a summary of VCAA's authentication rules for a new VCE VM student (about 80 words): main points only, in your own words, with one short quote in quotation marks. Finish with a full acknowledgement of the source."
+        },
+        "plan": [
+          {
+            "label": "The 3 most important points (key words)",
+            "lines": 3
+          },
+          {
+            "label": "Who it's for and what they need to know",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "Your work must be…",
+            "You need to say…",
+            "It's OK to…",
+            "It's not OK to…",
+            "This is from the VCAA."
+          ],
+          "core": [
+            "In VCE VM, your work must…",
+            "You need to say…",
+            "It's OK to…, but not…",
+            "According to the VCAA, …"
+          ]
+        },
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "my own words",
+          "main points only",
+          "source acknowledged",
+          "checked spelling"
+        ],
+        "vc": [
+          "VM-U1O1-KK5",
+          "VM-U1O1-KS3",
+          "VM-U1O2-KS7"
+        ],
+        "vcNote": "Summarising an official text in own words, with acknowledgement."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Level Up: make a source note",
+        "diagram": 1,
+        "pagebreak": true,
+        "instructions": "Each number marks part of a source note. Write what it is and why it matters. Then make your own on the back of this page for a website you'd use.",
+        "columns": [
+          "What is it?",
+          "Why does it matter?"
+        ],
+        "vc": [
+          "VM-U1O2-KS7",
+          "VM-U1O2-KK5"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "items": [
+          {
+            "q": "What's the difference between **copyright** and **plagiarism**?",
+            "lines": {
+              "support": 2,
+              "core": 3
+            },
+            "levelUp": true,
+            "vc": [
+              "VM-U1O2-KK5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can take notes in key words.",
+          "I can paraphrase an idea.",
+          "I can summarise the main idea.",
+          "I can explain plagiarism and say where my information came from."
+        ],
+        "questions": [
+          "A time I'll use paraphrasing this year:",
+          "What I'll do if I'm not sure how to credit something:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn what plagiarism is and why it matters, then practise the three honest moves: key-word **notes**, **paraphrasing** and **summarising**, plus acknowledging sources. The texts are a real plagiarism case (the 2016 convention speech) and VCAA's own authentication rules, which students annotate, summarise and acknowledge.",
+    "prep": [
+      "Print workbooks.",
+      "Have your school's VCE/VCE VM authentication policy ready to compare with the VCAA rules.",
+      "Decide your school's position on AI tools so you can answer questions consistently."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What counts as copying?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** “Copy, paste, submit” — what happens when your teacher asks you to explain it?",
+          "**Explicit teaching (15 min):** plagiarism; model notes vs copying with a short article.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** Make it yours + questions.",
+          "**Exit:** one OK and one not-OK use of a source."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Paraphrase it",
+        "minutes": 50,
+        "steps": [
+          "**Sort (10 min):** OK or not OK?",
+          "**Model (10 min):** read, cover, say, write — think aloud.",
+          "**Independent (20 min):** Paraphrase it table.",
+          "**Share (10 min):** compare paraphrases; did any change the meaning?"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Real cases, real rules",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** the speech that copied.",
+          "**Annotate (20 min):** VCAA's rules: who, for whom, purpose; key-word notes.",
+          "**Discuss (15 min):** compare with the school policy."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Say it your way",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** summarise a short text in 30 words, then acknowledge it.",
+          "**Write (25 min):** final mission; fast finishers: source note and copyright question.",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Plagiarism = presenting others' words or ideas as your own (including AI text and patchwriting).",
+      "Notes = key words; paraphrase = read, cover, say, write, check; summary = main idea, fewer words.",
+      "Exact words go in quotation marks; always acknowledge sources.",
+      "VCAA: all unacknowledged work must be your own; work that can't be authenticated is a breach of rules."
+    ],
+    "differentiation": {
+      "support": [
+        "Shorter summary (about 40 words) with starters.",
+        "Fewer sort cards and table rows.",
+        "Pair-read the VCAA rules."
+      ],
+      "extend": [
+        "80-word summary with an accurate quote and full acknowledgement.",
+        "Source note and copyright vs plagiarism (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O1-KK4",
+        "evidence": "Explains plagiarism and its consequences (sort, case study, quiz)."
+      },
+      {
+        "vc": "VM-U1O1-KK5",
+        "evidence": "Takes key-word notes, paraphrases without changing meaning, and writes a concise summary."
+      },
+      {
+        "vc": "VM-U1O1-KS3",
+        "evidence": "Identifies purpose, audience and context of the speech and of VCAA's rules through annotation and summary."
+      },
+      {
+        "vc": "VM-U1O2-KK5",
+        "evidence": "Level Up: distinguishes copyright from plagiarism and explains crediting images or music."
+      },
+      {
+        "vc": "VM-U1O2-KS7",
+        "evidence": "Acknowledges sources accurately (final mission, source note)."
+      }
+    ],
+    "answers": "**OK or not OK?** Copy a paragraph — Not OK. Explain in own words from three sites — OK if credited. Short quote in marks — OK if credited. Friend writes intro — Not OK. Teacher's general advice — OK. Same essay twice — Not OK.\n\n**Speech case:** passages matched Michelle Obama's 2008 speech; the speechwriter wrote them in from examples read aloud, apologised and offered to resign.\n\n**VCAA rules (purpose/audience):** written by the VCAA for schools and students, to make sure assessed work is genuinely the student's own.",
+    "resources": [
+      {
+        "label": "VCAA — authentication rules (Administrative Handbook)",
+        "url": "https://www.vcaa.vic.edu.au/administration/vce-administrative-handbook/satisfactory-vpc-unit-result"
+      },
+      {
+        "label": "PBS NewsHour — Trump speechwriter apologizes for Melania Trump's speech (2016)",
+        "url": "https://www.pbs.org/newshour/politics/trump-speechwriter-apologizes-melania-trumps-speech"
+      }
+    ],
+    "levels": {
+      "support": "Simpler article and cases, 6 key words, 3-choice quiz questions, fewer sort and table items, and a 40-word summary with more starters.",
+      "core": "Standard version: full sort, paraphrase table, both cases and a 60-word summary.",
+      "extend": "Adds patchwriting, transformation and copyright to the article, 10 key words, a quiz question on copyright, and an 80-word summary with a quote and full acknowledgement."
+    }
+  }
+}
