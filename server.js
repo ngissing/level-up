@@ -1,5 +1,6 @@
 import express from 'express';
 import path from 'node:path';
+import { readFileSync } from 'node:fs';
 import { db, getSetting, setSetting } from './src/db.js';
 import { html, icon, ROOT_DIR } from './src/html.js';
 import { sessionMiddleware, requireRole, checkPassword, hashPassword, createSession, destroySession, setCookie } from './src/auth.js';
@@ -354,4 +355,5 @@ if (!db.prepare("SELECT 1 FROM users WHERE role = 'admin'").get()) {
 content(); // fail fast on bad content
 
 const port = Number(process.env.PORT || 3000);
-app.listen(port, () => console.log(`Level Up running on http://localhost:${port}`));
+const { version } = JSON.parse(readFileSync(path.join(ROOT_DIR, 'package.json'), 'utf8'));
+app.listen(port, () => console.log(`Level Up v${version} running on http://localhost:${port}  (curriculum: ${content().curriculum.entries.length} official VCAA content descriptions)`));

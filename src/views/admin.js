@@ -96,6 +96,7 @@ export function loginPage(req, { error, next }) {
         <label class="field"><span>Password</span><input name="password" type="password" autocomplete="current-password" required></label>
         <button class="btn btn-zone btn-lg">${icon('lucide:log-in')} Let’s go</button>
         <p class="muted small">No account? Ask your teacher.</p>
+        <p class="muted small version">v${process.env.npm_package_version || ''}</p>
       </form>
     </section>`,
   });
