@@ -1,6 +1,6 @@
-// Imports the OFFICIAL VCE Vocational Major Literacy Study Design (VCAA) into
-// content/vm/curriculum.json: units, areas of study, outcomes, key knowledge and
-// key skills, word for word.
+// Imports the OFFICIAL VCE Vocational Major Literacy Study Design (VCAA): units, areas of
+// study, outcomes, key knowledge and key skills, word for word. Units 1 & 2 go to
+// content/vm12/curriculum.json and Units 3 & 4 to content/vm34/curriculum.json.
 //
 //   npm run import-vm                        downloads the study design from the VCAA website
 //   npm run import-vm -- StudyDesign.docx    uses a copy you've downloaded
@@ -67,14 +67,18 @@ for (const u of units) for (const a of u.areas) {
 }
 if (units.length !== 4 || outcomes.length !== 8) { console.error(`Expected 4 units and 8 outcomes, found ${units.length} and ${outcomes.length}.`); process.exit(1); }
 
-writeFileSync(path.join(ROOT_DIR, 'content', 'vm', 'curriculum.json'), JSON.stringify({
+// Units 1 & 2 and Units 3 & 4 are separate courses (programs vm12 and vm34).
+const meta = {
   source: 'VCE Vocational Major Literacy Study Design (accredited 1 January 2023 – 31 December 2027). © VCAA. Copied word for word from the study design.',
-  url: PAGE,
-  document: URL,
-  documentSha1: createHash('sha1').update(buf).digest('hex'),
-  retrieved: new Date().toISOString().slice(0, 10),
-  verified: true,
-  kind: 'study-design',
-  focusAreas, outcomes, entries,
-}, null, 2));
-console.log(`Imported ${outcomes.length} outcomes, ${entries.filter((e) => e.kind === 'Key knowledge').length} key knowledge and ${entries.filter((e) => e.kind === 'Key skill').length} key skills → content/vm/curriculum.json`);
+  url: PAGE, document: URL, documentSha1: createHash('sha1').update(buf).digest('hex'),
+  retrieved: new Date().toISOString().slice(0, 10), verified: true, kind: 'study-design',
+};
+for (const [program, units] of [['vm12', [1, 2]], ['vm34', [3, 4]]]) {
+  const keep = (x) => units.includes(x.unit);
+  const fa = Object.fromEntries(Object.entries(focusAreas).filter(([k]) => units.includes(Number(k[1]))));
+  writeFileSync(path.join(ROOT_DIR, 'content', program, 'curriculum.json'), JSON.stringify({
+    ...meta, units, focusAreas: fa, outcomes: outcomes.filter(keep), entries: entries.filter(keep),
+  }, null, 2));
+  const e = entries.filter(keep);
+  console.log(`Units ${units.join(' & ')}: ${outcomes.filter(keep).length} outcomes, ${e.filter((x) => x.kind === 'Key knowledge').length} key knowledge, ${e.filter((x) => x.kind === 'Key skill').length} key skills → content/${program}/curriculum.json`);
+}

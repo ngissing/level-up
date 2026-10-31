@@ -6,12 +6,12 @@ import { html, icon, ROOT_DIR } from './src/html.js';
 import { sessionMiddleware, requireRole, checkPassword, hashPassword, createSession, destroySession, setCookie } from './src/auth.js';
 import { getSkill, progressFor, doneSet, skillState, syncBadges, newlyUnlocked, allBadges, STEPS, content, withLevel, audioFor } from './src/content.js';
 import { LEVEL_IDS, normalizeLevel } from './src/levels.js';
-import { PROGRAM_IDS, normalizeProgram } from './src/programs.js';
+import { PROGRAM_IDS, PROGRAMS, normalizeProgram, familyOf } from './src/programs.js';
 import { mapPage, skillPage, badgesPage, myCurriculumPage, readiness, explainer } from './src/views/student.js';
 import { dashboardPage, studentDetailPage, skillsIndexPage, teacherGuidePage, curriculumMapPage } from './src/views/teacher.js';
 import { adminPage, loginPage, passwordPage } from './src/views/admin.js';
 import { workbookPage } from './src/views/workbook.js';
-import { head } from './src/views/layout.js';
+import { head, asset } from './src/views/layout.js';
 
 const app = express();
 app.disable('x-powered-by');
@@ -266,8 +266,8 @@ app.get('/teacher/skill/:id', teacher, (req, res) => {
 app.get('/teacher/skill/:id/explainer', requireRole(), (req, res) => {
   const skill = loadSkill(req, res); if (!skill?.course) return;
   const z = skill.zoneObj;
-  send(res, html`${head(skill.title, ['/css/shared.css', '/css/app.css'])}<body class="board prog-${skill.program}" style="--zone:${z.color};--zone-ink:${z.ink}" data-voice="${getSetting('voice_gender') || 'any'}">
-    <main class="board-main">${explainer(withLevel(skill, levelOf(req)).course.explainer, audioFor(skill.id))}</main><script src="/js/app.js" defer></script></body></html>`);
+  send(res, html`${head(skill.title, ['/css/shared.css', '/css/app.css'])}<body class="board prog-${skill.program} fam-${familyOf(skill.program)}" style="--zone:${z.color};--zone-ink:${z.ink}" data-voice="${getSetting('voice_gender') || 'any'}">
+    <main class="board-main">${explainer(withLevel(skill, levelOf(req)).course.explainer, audioFor(skill.id))}</main><script src="${asset('/js/app.js')}" defer></script></body></html>`);
 });
 
 // ---------- Admin ----------
@@ -385,6 +385,6 @@ app.listen(port, (err) => {
     process.exit(1);
   }
   if (err) { console.error(err); process.exit(1); }
-  console.log(`Level Up v${version} running on http://localhost:${port}  (curricula: ${content('f10').curriculum.entries.length} VC F–10 content descriptions, ${content('vm').curriculum.entries.length} VM Literacy key knowledge/skills)`);
+  console.log(`Level Up v${version} running on http://localhost:${port}  (programs: ${PROGRAM_IDS.map((p) => PROGRAMS[p].short).join(', ')})`);
   console.log('Leave this window open while you use the app. Press Ctrl + C to stop it.');
 });

@@ -3,13 +3,14 @@
 Each mini course is **one JSON file** in its program's folder:
 
 - **Victorian Curriculum F–10:** `content/f10/skills/<skill-id>.json`. Worked example: `spot-the-scam.json`.
-- **VCE VM Literacy:** `content/vm/skills/<skill-id>.json`. Worked example: `vm-first-payslip.json`.
+- **VCE VM Literacy Units 1 & 2:** `content/vm12/skills/<skill-id>.json`. Worked example: `vm-first-payslip.json`.
+- **VCE VM Literacy Units 3 & 4:** `content/vm34/skills/<skill-id>.json`. No worked example yet: copy the Units 1 & 2 one.
 
 The app turns it into the student pages, the explainer, the quiz, the teacher guide and the printable workbook. No code changes are needed. Copy the worked example's shape for the program you're writing for.
 
 ## Workflow (with Claude)
 
-1. Pick the next skill from `docs/COURSE-MAP.md` (F–10) or `docs/COURSE-MAP-VM.md` (VM). Its title, zone, real-life skill and curriculum links already live in that program's `map.json`.
+1. Pick the next skill from `docs/COURSE-MAP.md` (F–10), `docs/COURSE-MAP-VM12.md` or `docs/COURSE-MAP-VM34.md` (VM). Its title, zone, real-life skill and curriculum links already live in that program's `map.json`.
 2. Ask Claude (in this repo) something like:
    > Build the **Say It Right** mini course. Follow `docs/AUTHORING.md` and use `content/f10/skills/spot-the-scam.json` as the model. Keep student text at about Year 4–6 reading level but make it feel grown-up. Use real Australian examples and cite sources.
 3. Check it: `npm run check` (structure, curriculum links, reading level).
@@ -80,7 +81,7 @@ The app turns it into the student pages, the explainer, the quiz, the teacher gu
 - `vc.core`: Level 5–6 codes for everyone else
 - `vc.extend`: Level 6–8 codes for Level Up work
 
-**VM curriculum links** use the key knowledge and key skills of the **VCE VM Literacy Study Design**. They're stored in `content/vm/curriculum.json`, imported word for word with `npm run import-vm`. The ids look like `VM-U1O1-KK3`, meaning Unit 1, Outcome 1, the 3rd key knowledge point (`KS` for key skills), in study-design order. VM has no curriculum levels, so each skill lists:
+**VM curriculum links** use the key knowledge and key skills of the **VCE VM Literacy Study Design**. They're imported word for word with `npm run import-vm`: Units 1 & 2 go to `content/vm12/curriculum.json` and Units 3 & 4 to `content/vm34/curriculum.json`. A VM skill can only link to its own course's units. The ids look like `VM-U1O1-KK3`, meaning Unit 1, Outcome 1, the 3rd key knowledge point (`KS` for key skills), in study-design order. VM has no curriculum levels, so each skill lists:
 
 - `vc.core`: points every student evidences
 - `vc.extend`: points evidenced by Level Up work

@@ -1,0 +1,762 @@
+{
+  "title": "Level Up · VM Literacy Units 1 & 2",
+  "program": "vm12",
+  "baseZone": "vm12-induction",
+  "crossZone": "vm12-capstone",
+  "unlocks": {
+    "_about": "How skills open. Numbers are how many skills must be finished; \"all\" means every skill in that group.",
+    "starters": {
+      "baseCamp": 2
+    },
+    "level2": {
+      "starters": "all"
+    },
+    "boss": {
+      "starters": "all",
+      "level2": 1
+    }
+  },
+  "zones": [
+    {
+      "id": "vm12-induction",
+      "name": "Induction",
+      "icon": "lucide:hard-hat",
+      "color": "#FF8A2A",
+      "ink": "#2A1200",
+      "pitch": "Three core skills for reading and writing at work and in life. Finish any two to open the site.",
+      "units": "Unit 1 · Outcome 1"
+    },
+    {
+      "id": "vm12-toolkit",
+      "name": "Text Toolkit",
+      "icon": "lucide:toolbox",
+      "color": "#F5C542",
+      "ink": "#3A2A00",
+      "pitch": "Every text has a job. Learn how texts are built, who they’re for and how to use them.",
+      "units": "Unit 1 · Outcome 1"
+    },
+    {
+      "id": "vm12-digital",
+      "name": "Digital Life",
+      "icon": "lucide:monitor-smartphone",
+      "color": "#6EC1E4",
+      "ink": "#052433",
+      "pitch": "Websites, podcasts, socials and staying safe online. Make content that works.",
+      "units": "Unit 1 · Outcome 2"
+    },
+    {
+      "id": "vm12-voices",
+      "name": "Issues & Voices",
+      "icon": "lucide:messages-square",
+      "color": "#9FD18B",
+      "ink": "#0E2A12",
+      "pitch": "Who’s saying what, and why? Read opinions closely and spot the angle.",
+      "units": "Unit 2 · Outcome 1"
+    },
+    {
+      "id": "vm12-say",
+      "name": "Have Your Say",
+      "icon": "lucide:mic",
+      "color": "#B79CED",
+      "ink": "#1E0B45",
+      "pitch": "Build an argument, back it up and say it out loud — with confidence.",
+      "units": "Unit 2 · Outcome 2"
+    },
+    {
+      "id": "vm12-capstone",
+      "name": "Capstones",
+      "icon": "lucide:trophy",
+      "color": "#A9B4C4",
+      "ink": "#10141C",
+      "pitch": "Bigger projects that mix two areas. Unlock by going deep in both.",
+      "units": "Across Units 1 & 2"
+    }
+  ],
+  "skills": [
+    {
+      "id": "vm-first-payslip",
+      "zone": "vm12-induction",
+      "tier": 0,
+      "status": "ready",
+      "title": "Your First Payslip",
+      "tagline": "The most important thing your job will ever send you.",
+      "icon": "lucide:receipt-text",
+      "realLife": "Read a payslip, check you’ve been paid right, and know what to do if you haven’t.",
+      "literacy": "Structures and features of a workplace text; purpose, audience and context; annotation; inferring meaning.",
+      "vc": {
+        "core": [
+          "VM-U1O1-KK1",
+          "VM-U1O1-KK2",
+          "VM-U1O1-KS2",
+          "VM-U1O1-KS3",
+          "VM-U1O1-KS4"
+        ],
+        "extend": [
+          "VM-U1O1-KS8",
+          "VM-U1O1-KS6",
+          "VM-U1O2-KS6"
+        ]
+      },
+      "badge": {
+        "name": "Pay Checker",
+        "icon": "lucide:badge-dollar-sign"
+      }
+    },
+    {
+      "id": "vm-own-words",
+      "zone": "vm12-induction",
+      "tier": 0,
+      "status": "planned",
+      "title": "In Your Own Words",
+      "tagline": "Copy-paste gets you caught. Learn to say it your way.",
+      "icon": "lucide:quote",
+      "realLife": "Take notes, paraphrase and summarise so you can use information honestly — at school, at TAFE and at work.",
+      "literacy": "Paraphrasing, note taking and summarising; plagiarism and its consequences.",
+      "vc": {
+        "core": [
+          "VM-U1O1-KK4",
+          "VM-U1O1-KK5",
+          "VM-U1O1-KS3"
+        ],
+        "extend": [
+          "VM-U1O2-KK5",
+          "VM-U1O2-KS7"
+        ]
+      },
+      "badge": {
+        "name": "Straight Shooter",
+        "icon": "lucide:pen-tool"
+      }
+    },
+    {
+      "id": "vm-write-it-right",
+      "zone": "vm12-induction",
+      "tier": 0,
+      "status": "planned",
+      "title": "Write It Right",
+      "tagline": "Draft it, fix it, send it. No cringe.",
+      "icon": "lucide:spell-check",
+      "realLife": "Plan, draft, edit and proofread messages and emails so you come across clearly and professionally.",
+      "literacy": "The writing process (plan, draft, revise, edit, proofread); conventions of literacy.",
+      "vc": {
+        "core": [
+          "VM-U1O1-KK6",
+          "VM-U1O1-KK7",
+          "VM-U1O1-KS9",
+          "VM-U1O1-KS10"
+        ],
+        "extend": [
+          "VM-U1O1-KS7"
+        ]
+      },
+      "badge": {
+        "name": "Sharp Writer",
+        "icon": "lucide:check-check"
+      }
+    },
+    {
+      "id": "vm-text-types",
+      "zone": "vm12-toolkit",
+      "tier": 1,
+      "status": "planned",
+      "title": "Know Your Text Types",
+      "tagline": "Email, report, article, ad — what’s the difference?",
+      "icon": "lucide:files",
+      "realLife": "Recognise common text types at work and in life, and what each one is built to do.",
+      "literacy": "Structures and features of different text types; comparing structure, language and presentation.",
+      "vc": {
+        "core": [
+          "VM-U1O1-KK1",
+          "VM-U1O1-KS1",
+          "VM-U1O1-KS7"
+        ],
+        "extend": [
+          "VM-U1O1-KS8"
+        ]
+      },
+      "badge": {
+        "name": "Text Spotter",
+        "icon": "lucide:scan"
+      }
+    },
+    {
+      "id": "vm-read-the-room",
+      "zone": "vm12-toolkit",
+      "tier": 1,
+      "status": "planned",
+      "title": "Read the Room",
+      "tagline": "Who’s it for? What’s it for? Where will they read it?",
+      "icon": "lucide:users",
+      "realLife": "Work out the purpose, audience and context of anything you read — and write to suit.",
+      "literacy": "How purpose, context and audience shape a text; identifying them through annotation and summary.",
+      "vc": {
+        "core": [
+          "VM-U1O1-KK2",
+          "VM-U1O1-KS3",
+          "VM-U1O1-KS5"
+        ],
+        "extend": [
+          "VM-U1O1-KS8"
+        ]
+      },
+      "badge": {
+        "name": "Room Reader",
+        "icon": "lucide:eye"
+      }
+    },
+    {
+      "id": "vm-pictures-and-sound",
+      "zone": "vm12-toolkit",
+      "tier": 2,
+      "status": "planned",
+      "title": "Pictures & Sound",
+      "tagline": "How films, posters and ads talk without words.",
+      "icon": "lucide:film",
+      "realLife": "Read the images, music and sound in films, posters and videos — not just the words.",
+      "literacy": "Visual and auditory cues; annotating layouts, designs and structures of visual and film texts.",
+      "vc": {
+        "core": [
+          "VM-U1O1-KK3",
+          "VM-U1O1-KS2",
+          "VM-U1O1-KS4"
+        ],
+        "extend": [
+          "VM-U1O1-KS7"
+        ]
+      },
+      "badge": {
+        "name": "Screen Reader",
+        "icon": "lucide:clapperboard"
+      }
+    },
+    {
+      "id": "vm-research-ready",
+      "zone": "vm12-toolkit",
+      "tier": 2,
+      "status": "planned",
+      "title": "Research Ready",
+      "tagline": "Find good info, take good notes, use it honestly.",
+      "icon": "lucide:search",
+      "realLife": "Find reliable information and take notes you can actually use for an assignment or at work.",
+      "literacy": "Identifying reliable sources; note taking and summarising.",
+      "vc": {
+        "core": [
+          "VM-U1O1-KS6",
+          "VM-U1O1-KK5",
+          "VM-U1O1-KS3"
+        ],
+        "extend": [
+          "VM-U1O1-KK4"
+        ]
+      },
+      "badge": {
+        "name": "Researcher",
+        "icon": "lucide:notebook-pen"
+      }
+    },
+    {
+      "id": "vm-tell-it-your-way",
+      "zone": "vm12-toolkit",
+      "tier": 3,
+      "status": "planned",
+      "title": "Tell It Your Way",
+      "tagline": "A reflective journal, a story or a performance — your call.",
+      "icon": "lucide:book-open-text",
+      "realLife": "Create a piece about your own life, interests or pathway, and polish it until it’s right.",
+      "literacy": "Planning, drafting, editing and refining a response; applying the conventions of literacy.",
+      "vc": {
+        "core": [
+          "VM-U1O1-KS9",
+          "VM-U1O1-KK6",
+          "VM-U1O1-KS10"
+        ],
+        "extend": [
+          "VM-U1O1-KK7"
+        ]
+      },
+      "badge": {
+        "name": "Storyteller",
+        "icon": "lucide:pen-line"
+      }
+    },
+    {
+      "id": "vm-lock-it-down",
+      "zone": "vm12-digital",
+      "tier": 1,
+      "status": "planned",
+      "title": "Lock It Down",
+      "tagline": "Passwords, scams and privacy — protect your digital life.",
+      "icon": "lucide:shield-check",
+      "realLife": "Keep your accounts, money and identity safe online.",
+      "literacy": "Features and importance of digital security; safe practices online.",
+      "vc": {
+        "core": [
+          "VM-U1O2-KK4",
+          "VM-U1O2-KK6",
+          "VM-U1O2-KS1"
+        ],
+        "extend": [
+          "VM-U1O2-KS6"
+        ]
+      },
+      "badge": {
+        "name": "Locked Down",
+        "icon": "lucide:lock-keyhole"
+      }
+    },
+    {
+      "id": "vm-website-detective",
+      "zone": "vm12-digital",
+      "tier": 1,
+      "status": "planned",
+      "title": "Website Detective",
+      "tagline": "Is this site legit? How would you know?",
+      "icon": "lucide:scan-search",
+      "realLife": "Work out how a website is built, who it’s for, and whether you can trust it.",
+      "literacy": "Structure, purpose and audience of webpages; comparing and evaluating digital texts.",
+      "vc": {
+        "core": [
+          "VM-U1O2-KK1",
+          "VM-U1O2-KK2",
+          "VM-U1O2-KS4",
+          "VM-U1O2-KS6"
+        ],
+        "extend": [
+          "VM-U1O2-KK3",
+          "VM-U1O1-KS6"
+        ]
+      },
+      "badge": {
+        "name": "Web Detective",
+        "icon": "lucide:search-check"
+      }
+    },
+    {
+      "id": "vm-credit-it",
+      "zone": "vm12-digital",
+      "tier": 2,
+      "status": "planned",
+      "title": "Credit Where It’s Due",
+      "tagline": "Using someone’s music, pic or words? Know the rules.",
+      "icon": "lucide:copyright",
+      "realLife": "Use images, music and information legally and give credit properly.",
+      "literacy": "Copyright and attribution; referencing; using sources to create new content.",
+      "vc": {
+        "core": [
+          "VM-U1O2-KK5",
+          "VM-U1O2-KS7",
+          "VM-U1O2-KS8"
+        ],
+        "extend": [
+          "VM-U2O2-KK4"
+        ]
+      },
+      "badge": {
+        "name": "Fair Player",
+        "icon": "lucide:at-sign"
+      }
+    },
+    {
+      "id": "vm-respect-online",
+      "zone": "vm12-digital",
+      "tier": 2,
+      "status": "planned",
+      "title": "Respect Online",
+      "tagline": "Group chats, comments and calling it out — the right way.",
+      "icon": "lucide:message-circle-heart",
+      "realLife": "Handle group chats, comment sections and online disagreements respectfully.",
+      "literacy": "Respectful digital interactions; etiquette and conventions of discussion.",
+      "vc": {
+        "core": [
+          "VM-U1O2-KK6",
+          "VM-U1O2-KK7",
+          "VM-U1O2-KS3",
+          "VM-U1O2-KS5"
+        ],
+        "extend": [
+          "VM-U2O1-KK6"
+        ]
+      },
+      "badge": {
+        "name": "Good Sport",
+        "icon": "lucide:handshake"
+      }
+    },
+    {
+      "id": "vm-make-a-podcast",
+      "zone": "vm12-digital",
+      "tier": 3,
+      "status": "planned",
+      "title": "Make a Podcast",
+      "tagline": "Plan, script and record an episode people would actually listen to.",
+      "icon": "lucide:podcast",
+      "realLife": "Create a short podcast or video for a community, workplace or vocational audience.",
+      "literacy": "Differences between digital texts; planning, creating and editing digital content for an audience.",
+      "vc": {
+        "core": [
+          "VM-U1O2-KK3",
+          "VM-U1O2-KS2",
+          "VM-U1O2-KS8",
+          "VM-U1O2-KS9"
+        ],
+        "extend": [
+          "VM-U2O2-KK5"
+        ]
+      },
+      "badge": {
+        "name": "On Air",
+        "icon": "lucide:radio"
+      }
+    },
+    {
+      "id": "vm-whos-talking",
+      "zone": "vm12-voices",
+      "tier": 1,
+      "status": "planned",
+      "title": "Who’s Talking?",
+      "tagline": "Every opinion comes from somewhere.",
+      "icon": "lucide:user-search",
+      "realLife": "Work out who is behind an opinion and what they want you to think.",
+      "literacy": "How values, backgrounds, bias and perspective shape what authors and speakers say.",
+      "vc": {
+        "core": [
+          "VM-U2O1-KK3",
+          "VM-U2O1-KK4",
+          "VM-U2O1-KS1"
+        ],
+        "extend": [
+          "VM-U2O1-KK5"
+        ]
+      },
+      "badge": {
+        "name": "Bias Buster",
+        "icon": "lucide:scale"
+      }
+    },
+    {
+      "id": "vm-loaded-words",
+      "zone": "vm12-voices",
+      "tier": 1,
+      "status": "planned",
+      "title": "Loaded Words",
+      "tagline": "Same fact, different words, totally different feeling.",
+      "icon": "lucide:sparkles",
+      "realLife": "Spot how word choices and images push you to feel a certain way.",
+      "literacy": "Language and visuals used to influence; connotations of words.",
+      "vc": {
+        "core": [
+          "VM-U2O1-KK1",
+          "VM-U2O1-KS3",
+          "VM-U2O1-KS4"
+        ],
+        "extend": [
+          "VM-U2O2-KK2"
+        ]
+      },
+      "badge": {
+        "name": "Word Watcher",
+        "icon": "lucide:eye"
+      }
+    },
+    {
+      "id": "vm-check-the-source",
+      "zone": "vm12-voices",
+      "tier": 2,
+      "status": "planned",
+      "title": "Check the Source",
+      "tagline": "Before you share it, back it, or believe it.",
+      "icon": "lucide:badge-check",
+      "realLife": "Find trustworthy information and compare how different sources cover an issue.",
+      "literacy": "Note-taking and annotation of arguments; comparing persuasive texts; reliable sources.",
+      "vc": {
+        "core": [
+          "VM-U2O1-KS2",
+          "VM-U2O1-KS5",
+          "VM-U2O1-KS7"
+        ],
+        "extend": [
+          "VM-U2O2-KS2"
+        ]
+      },
+      "badge": {
+        "name": "Source Checker",
+        "icon": "lucide:shield-question"
+      }
+    },
+    {
+      "id": "vm-how-communities-argue",
+      "zone": "vm12-voices",
+      "tier": 2,
+      "status": "planned",
+      "title": "How Communities Argue",
+      "tagline": "Town halls, comment threads and group chats.",
+      "icon": "lucide:message-circle-more",
+      "realLife": "See how different communities discuss and debate issues, and join in respectfully.",
+      "literacy": "Ways different communities engage in debate or discussion; conventions of discussion.",
+      "vc": {
+        "core": [
+          "VM-U2O1-KK5",
+          "VM-U2O1-KK6",
+          "VM-U2O1-KS8"
+        ],
+        "extend": [
+          "VM-U2O1-KK2"
+        ]
+      },
+      "badge": {
+        "name": "Community Voice",
+        "icon": "lucide:users-round"
+      }
+    },
+    {
+      "id": "vm-compare-the-coverage",
+      "zone": "vm12-voices",
+      "tier": 3,
+      "status": "planned",
+      "title": "Compare the Coverage",
+      "tagline": "One issue, three sources, three different stories.",
+      "icon": "lucide:git-compare",
+      "realLife": "Compare how different sources present the same issue and explain what each is trying to do.",
+      "literacy": "Comparing persuasive texts; identifying main ideas, purpose and audience; using evidence for a view.",
+      "vc": {
+        "core": [
+          "VM-U2O1-KS5",
+          "VM-U2O1-KS2",
+          "VM-U2O1-KS1",
+          "VM-U2O1-KS6"
+        ],
+        "extend": [
+          "VM-U2O1-KS3"
+        ]
+      },
+      "badge": {
+        "name": "Coverage Critic",
+        "icon": "lucide:newspaper"
+      }
+    },
+    {
+      "id": "vm-back-it-up",
+      "zone": "vm12-say",
+      "tier": 1,
+      "status": "planned",
+      "title": "Back It Up",
+      "tagline": "An opinion without evidence is just noise.",
+      "icon": "lucide:layers",
+      "realLife": "Write a clear, logical opinion piece with evidence that convinces people.",
+      "literacy": "Structures of persuasive texts; logic, reasoning and emotion; evidence; sequencing an argument.",
+      "vc": {
+        "core": [
+          "VM-U2O2-KK1",
+          "VM-U2O2-KK3",
+          "VM-U2O2-KS3",
+          "VM-U2O2-KS4"
+        ],
+        "extend": [
+          "VM-U2O2-KS1",
+          "VM-U2O2-KS5"
+        ]
+      },
+      "badge": {
+        "name": "Evidence Pro",
+        "icon": "lucide:file-check"
+      }
+    },
+    {
+      "id": "vm-logic-or-feelings",
+      "zone": "vm12-say",
+      "tier": 1,
+      "status": "planned",
+      "title": "Logic or Feelings?",
+      "tagline": "Are they convincing your head or your heart?",
+      "icon": "lucide:brain",
+      "realLife": "Spot when an argument uses logic, reasoning or emotion — and use them yourself.",
+      "literacy": "How authors and speakers use logic, reasoning and emotion; language and visuals in an argument.",
+      "vc": {
+        "core": [
+          "VM-U2O2-KK3",
+          "VM-U2O2-KK2",
+          "VM-U2O2-KK1"
+        ],
+        "extend": [
+          "VM-U2O2-KS7"
+        ]
+      },
+      "badge": {
+        "name": "Mind Reader",
+        "icon": "lucide:heart"
+      }
+    },
+    {
+      "id": "vm-say-it-like-you-mean-it",
+      "zone": "vm12-say",
+      "tier": 2,
+      "status": "planned",
+      "title": "Say It Like You Mean It",
+      "tagline": "Eye contact, tone and body language that land.",
+      "icon": "lucide:person-standing",
+      "realLife": "Use your voice and body language to get your point across when you speak.",
+      "literacy": "Elements of oral communication; using body language, eye contact, pace and intonation.",
+      "vc": {
+        "core": [
+          "VM-U2O2-KK5",
+          "VM-U2O2-KS6"
+        ],
+        "extend": [
+          "VM-U2O2-KS7"
+        ]
+      },
+      "badge": {
+        "name": "Stage Ready",
+        "icon": "lucide:mic-vocal"
+      }
+    },
+    {
+      "id": "vm-debate-ready",
+      "zone": "vm12-say",
+      "tier": 2,
+      "status": "planned",
+      "title": "Debate Ready",
+      "tagline": "Listen, question, respond — without losing it.",
+      "icon": "lucide:swords",
+      "realLife": "Take part in a discussion or debate: listen, ask good questions and respond with evidence.",
+      "literacy": "Conventions of discussion and debate; active listening and questioning.",
+      "vc": {
+        "core": [
+          "VM-U2O2-KK6",
+          "VM-U2O2-KS9",
+          "VM-U2O2-KS4"
+        ],
+        "extend": [
+          "VM-U2O2-KS5"
+        ]
+      },
+      "badge": {
+        "name": "Debater",
+        "icon": "lucide:gavel"
+      }
+    },
+    {
+      "id": "vm-have-your-say",
+      "zone": "vm12-say",
+      "tier": 3,
+      "status": "planned",
+      "title": "Have Your Say",
+      "tagline": "Stand up and make your point — with proof.",
+      "icon": "lucide:mic",
+      "realLife": "Present your point of view out loud, backed by evidence, and handle questions.",
+      "literacy": "Oral communication; presenting a point of view with evidence; discussion and debate.",
+      "vc": {
+        "core": [
+          "VM-U2O2-KK5",
+          "VM-U2O2-KS4",
+          "VM-U2O2-KS6",
+          "VM-U2O2-KS9"
+        ],
+        "extend": [
+          "VM-U2O2-KS7",
+          "VM-U2O2-KS8"
+        ]
+      },
+      "badge": {
+        "name": "Voice Heard",
+        "icon": "lucide:megaphone"
+      }
+    },
+    {
+      "id": "vm-podcast-an-issue",
+      "zone": "vm12-capstone",
+      "tier": 4,
+      "status": "planned",
+      "title": "Podcast an Issue",
+      "tagline": "Research it, argue it, record it.",
+      "icon": "lucide:podcast",
+      "realLife": "Make a short podcast episode that explores an issue you care about from more than one side.",
+      "literacy": "Creating digital content; presenting a point of view supported by evidence.",
+      "vc": {
+        "core": [
+          "VM-U1O2-KS2",
+          "VM-U2O2-KS4",
+          "VM-U2O2-KS8"
+        ],
+        "extend": [
+          "VM-U2O1-KS5"
+        ]
+      },
+      "badge": {
+        "name": "Podcaster",
+        "icon": "lucide:radio"
+      },
+      "requires": [
+        {
+          "zone": "vm12-digital",
+          "min": 2
+        },
+        {
+          "zone": "vm12-say",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "vm-community-voices-report",
+      "zone": "vm12-capstone",
+      "tier": 4,
+      "status": "planned",
+      "title": "Community Voices Report",
+      "tagline": "Interview your community. Report what you find.",
+      "icon": "lucide:clipboard-list",
+      "realLife": "Interview people in your community about an issue and write up what they think and why.",
+      "literacy": "Purpose and audience of a report; how values and backgrounds shape opinions; reliable sources.",
+      "vc": {
+        "core": [
+          "VM-U1O1-KS9",
+          "VM-U2O1-KK3",
+          "VM-U2O1-KS7"
+        ],
+        "extend": [
+          "VM-U2O1-KS5"
+        ]
+      },
+      "badge": {
+        "name": "Reporter",
+        "icon": "lucide:notebook-tabs"
+      },
+      "requires": [
+        {
+          "zone": "vm12-toolkit",
+          "min": 2
+        },
+        {
+          "zone": "vm12-voices",
+          "min": 2
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "vm12-m-first",
+      "count": 1,
+      "name": "Clocked On",
+      "icon": "lucide:clock"
+    },
+    {
+      "id": "vm12-m-5",
+      "count": 5,
+      "name": "Apprentice",
+      "icon": "lucide:wrench"
+    },
+    {
+      "id": "vm12-m-10",
+      "count": 10,
+      "name": "Tradie",
+      "icon": "lucide:hammer"
+    },
+    {
+      "id": "vm12-m-20",
+      "count": 20,
+      "name": "Site Boss",
+      "icon": "lucide:crown"
+    }
+  ]
+}

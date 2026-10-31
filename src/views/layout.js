@@ -1,7 +1,10 @@
-import { html, icon, raw } from '../html.js';
+import { readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import path from 'node:path';
+import { html, icon, raw, ROOT_DIR } from '../html.js';
 import { LEVELS } from '../levels.js';
 import { getSetting } from '../db.js';
-import { PROGRAMS } from '../programs.js';
+import { PROGRAMS, familyOf } from '../programs.js';
 
 
 const NAV = {
@@ -9,6 +12,15 @@ const NAV = {
   teacher: [['/teacher', 'Dashboard', 'lucide:layout-dashboard'], ['/teacher/skills', 'Mini courses', 'lucide:library'], ['/teacher/curriculum', 'Curriculum map', 'lucide:network']],
   admin: [['/teacher', 'Dashboard', 'lucide:layout-dashboard'], ['/teacher/skills', 'Mini courses', 'lucide:library'], ['/teacher/curriculum', 'Curriculum map', 'lucide:network'], ['/admin', 'Accounts', 'lucide:users']],
 };
+
+// A fingerprint of the CSS and JS, added to their URLs so browsers fetch fresh copies
+// after an update instead of using a cached old version.
+const ASSET_V = (() => {
+  const h = createHash('sha1');
+  for (const f of ['css/shared.css', 'css/app.css', 'css/workbook.css', 'js/app.js']) h.update(readFileSync(path.join(ROOT_DIR, 'public', f)));
+  return h.digest('hex').slice(0, 10);
+})();
+export const asset = (url) => `${url}?v=${ASSET_V}`;
 
 export function head(title, extraCss = []) {
   return html`<!doctype html>
@@ -21,7 +33,7 @@ export function head(title, extraCss = []) {
 <link rel="preload" href="/fonts/bricolage/bricolage-grotesque-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
 <script>try{var t=localStorage.getItem('lu-textsize');if(t)document.documentElement.dataset.textsize=t}catch(e){}</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-${extraCss.map((c) => html`<link rel="stylesheet" href="${c}">`)}
+${extraCss.map((c) => html`<link rel="stylesheet" href="${asset(c)}">`)}
 </head>`;
 }
 
@@ -39,7 +51,7 @@ export function page(req, { title, body, active = '', theme = null, wide = false
   const nav = u ? NAV[u.role] : [];
   const style = theme ? `--zone:${theme.color};--zone-ink:${theme.ink}` : '';
   return html`${head(title, ['/css/shared.css', '/css/app.css'])}
-<body class="role-${u?.role || 'guest'} prog-${prog}" style="${style}" data-voice="${getSetting('voice_gender') || 'any'}" ${u?.role === 'student' ? raw(`data-rl="${u.reading_level}"`) : ''}>
+<body class="role-${u?.role || 'guest'} prog-${prog} fam-${familyOf(prog)}" style="${style}" data-voice="${getSetting('voice_gender') || 'any'}" ${u?.role === 'student' ? raw(`data-rl="${u.reading_level}"`) : ''}>
 <a class="skip" href="#main">Skip to content</a>
 <header class="topbar">
   ${logo()}
@@ -61,7 +73,7 @@ export function page(req, { title, body, active = '', theme = null, wide = false
 </header>
 ${req.flash ? html`<div class="flash flash-${req.flash.type}" role="status">${icon(req.flash.type === 'error' ? 'lucide:circle-alert' : 'lucide:party-popper')}<span>${req.flash.text}</span></div>` : ''}
 <main id="main" class="${wide ? 'wide' : ''}">${body}</main>
-<script src="/js/app.js" defer></script>
+<script src="${asset('/js/app.js')}" defer></script>
 </body></html>`;
 }
 

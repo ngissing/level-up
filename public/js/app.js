@@ -172,6 +172,11 @@
     show(0);
   });
 
+  // ----- Open / close all curriculum cards -----
+  document.querySelectorAll('[data-cards]').forEach((b) => b.addEventListener('click', () => {
+    document.querySelectorAll('details.cm-card').forEach((d) => { d.open = b.dataset.cards === 'open'; });
+  }));
+
   // ----- Confetti for new badges / unlocks -----
   document.querySelectorAll('[data-confetti]').forEach((box) => {
     if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;

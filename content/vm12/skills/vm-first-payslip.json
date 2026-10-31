@@ -902,12 +902,12 @@
         "evidence": "Level Up: evaluates how well a payslip or source serves its purpose and audience."
       },
       {
-        "vc": "VM-U3O1-KK1",
-        "evidence": "Level Up / Extended: explains features of a pay-related official text (tax withheld, super)."
+        "vc": "VM-U1O1-KS6",
+        "evidence": "Level Up: uses a reliable source (the Fair Work Pay Calculator) to find a real minimum rate, and says why it can be trusted."
       },
       {
-        "vc": "VM-U3O1-KS4",
-        "evidence": "Level Up: engages with real technical documentation (Fair Work Pay Calculator) for a real-life situation."
+        "vc": "VM-U1O2-KS6",
+        "evidence": "Level Up: evaluates the reliability of a digital source (an official government calculator vs a forum post or ad)."
       }
     ],
     "levels": {

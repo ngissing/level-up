@@ -2,7 +2,7 @@ import { html, icon, md, mdInline, raw } from '../html.js';
 import { page, sticker, vcChip, empty, initials, levelTag } from './layout.js';
 import { LEVELS, LEVEL_IDS } from '../levels.js';
 import { content, skillList, getSkill, skillState, doneSet, coverage, STEPS, courseFor, vcFor } from '../content.js';
-import { PROGRAMS, PROGRAM_IDS } from '../programs.js';
+import { PROGRAMS, PROGRAM_IDS, familyOf } from '../programs.js';
 import { curriculumGrid } from './student.js';
 import { diagram } from './diagrams.js';
 
@@ -13,10 +13,10 @@ export function programSwitch(program, pathname, { query = {}, counts = null } =
   const qs = (p) => new URLSearchParams({ ...query, program: p }).toString();
   const P = PROGRAMS[program];
   return html`<nav class="prog-switch" aria-label="Program">
-    ${PROGRAM_IDS.map((p) => html`<a href="${pathname}?${qs(p)}" class="prog-tab prog-tab-${p} ${p === program ? 'on' : ''}" ${p === program ? raw('aria-current="page"') : ''}>
+    ${PROGRAM_IDS.map((p) => html`<a href="${pathname}?${qs(p)}" class="prog-tab fam-${familyOf(p)} ${p === program ? 'on' : ''}" ${p === program ? raw('aria-current="page"') : ''}>
       ${icon(PROGRAMS[p].icon)} ${PROGRAMS[p].name}${counts ? html` <small>${counts[p]} students</small>` : ''}</a>`)}
   </nav>
-  <div class="prog-banner prog-banner-${program}" role="note">
+  <div class="prog-banner fam-${familyOf(program)}" role="note">
     ${icon(P.icon, 'prog-banner-ico')}
     <div><span class="kicker">You’re looking at</span><strong>${P.name}</strong><small>${P.curriculumName}</small></div>
   </div>`;
@@ -93,7 +93,7 @@ export function studentDetailPage(req, { student, progress, badges }) {
     <div><p class="eyebrow"><a href="/teacher">${icon('lucide:arrow-left')} Dashboard</a></p>
     <h1><span class="avatar lg">${initials(student.name)}</span> ${student.name}</h1>
     <p class="muted">${student.username} · ${student.class_name || 'No class'} · last login ${student.last_login?.slice(0, 10) || 'never'}</p>
-    <p><span class="prog-tag prog-tag-${program}">${icon(PROGRAMS[program].icon)} ${PROGRAMS[program].name}</span> ${levelTag(student.reading_level)} <span class="muted small">Reading level — students don’t see this. ${req.user.role === 'admin' ? html`Change it under <a href="/admin?role=student">Accounts</a>.` : 'An admin can change it.'}</span></p></div>
+    <p><span class="prog-tag fam-${familyOf(program)}">${icon(PROGRAMS[program].icon)} ${PROGRAMS[program].name}</span> ${levelTag(student.reading_level)} <span class="muted small">Reading level — students don’t see this. ${req.user.role === 'admin' ? html`Change it under <a href="/admin?role=student">Accounts</a>.` : 'An admin can change it.'}</span></p></div>
     <div class="tiles mini"><div class="tile">${icon('lucide:circle-check-big')}<b>${done.size}</b><span>skills</span></div><div class="tile">${icon('lucide:award')}<b>${badges.length}</b><span>badges</span></div></div>
   </section>
 
@@ -234,57 +234,106 @@ function achievementLinks(skill, c) {
   </details>`;
 }
 
+// ---------- Curriculum map ----------
+// Calm, collapsible cards: one per outcome (VM) or sub-strand (F–10), with coverage
+// meters in the header and each curriculum point listed with links to its mini courses.
+function meter(n, total) {
+  const pct = total ? Math.round((n / total) * 100) : 0;
+  return html`<span class="cm-meter" title="${n} of ${total} linked"><i style="width:${pct}%"></i></span>`;
+}
+
+function chips(links) {
+  return html`<div class="cm-chips">${links.map(({ s, kind }) => html`<a class="chip-skill chip-${kind}" href="/teacher/skill/${s.id}" style="--zone:${s.zoneObj.color};--zone-ink:${s.zoneObj.ink}" title="${kind === 'ext' ? 'Level Up work' : kind === 'sup' ? 'Foundation readers' : 'Every student'}">${icon(s.icon)} ${s.title}${kind === 'ext' ? ' ★' : ''}${kind === 'sup' ? ` ${LEVELS.support.symbol}` : ''}</a>`)}</div>`;
+}
+
+function cmItem(e, links, label, title = '') {
+  return html`<li class="cm-item ${links.length ? '' : 'gap'}">
+    <span class="cm-code" title="${title}">${label}</span>
+    <div><p>${e.text}</p>${links.length ? chips(links) : html`<span class="cm-none">Not linked yet</span>`}</div>
+  </li>`;
+}
+
+function cmapHeader(c, { linked, total, noun, legend, jump }) {
+  return html`${programSwitch(c.program, '/teacher/curriculum')}
+  <section class="cmap-head">
+    <div>
+      <h1>Curriculum map</h1>
+      <p class="muted small">${c.curriculum.source} <a href="${c.curriculum.url}" target="_blank" rel="noopener">Source</a> · copied ${c.curriculum.retrieved}</p>
+    </div>
+    <div class="cmap-stat"><b>${linked}<span>/${total}</span></b><small>${noun} linked to a mini course</small>${meter(linked, total)}</div>
+  </section>
+  <div class="cmap-tools">
+    <p class="cmap-legend">${legend}</p>
+    <div class="btn-row"><button type="button" class="btn btn-sm btn-ghost" data-cards="open">${icon('lucide:chevrons-down-up')} Open all</button><button type="button" class="btn btn-sm btn-ghost" data-cards="close">${icon('lucide:chevrons-up-down')} Close all</button></div>
+  </div>
+  ${jump ? html`<nav class="cmap-jump" aria-label="Jump to">${jump}</nav>` : ''}`;
+}
+
+const legendChip = (kind, text) => html`<span class="chip-skill chip-${kind} chip-demo">${text}</span>`;
+
 // VCE VM Literacy: Unit → Outcome → key knowledge / key skills, word for word.
 function studyDesignMapPage(req, c) {
   const entries = c.curriculum.entries;
-  const skillsFor = (id) => skillList(c.program).map((s) => ({ s, core: s.vc.core.includes(id), ext: s.vc.extend.includes(id) })).filter((x) => x.core || x.ext);
-  const covered = entries.filter((e) => skillsFor(e.id).length).length;
-  const row = (e) => { const sk = skillsFor(e.id); return html`<div class="cm-row ${sk.length ? '' : 'gap'}">
-      <div class="cm-level vm-code">${e.kind === 'Key knowledge' ? 'KK' : 'KS'}<small>${e.code}</small></div>
-      <p>${e.text}</p>
-      <div class="cm-skills">${sk.length ? sk.map(({ s, core, ext }) => html`<a class="mini-skill ${ext && !core ? 'ext' : ''}" href="/teacher/skill/${s.id}" style="--zone:${s.zoneObj.color};--zone-ink:${s.zoneObj.ink}">${icon(s.icon)} ${s.title}${ext && !core ? ' ★' : ''}</a>`) : html`<span class="muted">Not yet covered</span>`}</div>
-    </div>`; };
-  const body = html`<section class="page-head"><p class="eyebrow">Curriculum map</p>
-    <h1>VCE VM Literacy <span class="hl">${covered}/${entries.length} key knowledge &amp; skills mapped</span></h1>
-    <p class="lede">Every VM skill links to specific key knowledge (KK) and key skills (KS) in the study design's outcomes. Plain links are evidenced by every student; ★ links by Level Up work. Codes such as <b>U1 O1 KK3</b> mean Unit 1, Outcome 1, the 3rd key knowledge point, in the order the study design lists them.</p>
-    <p class="small muted">${c.curriculum.source} <a href="${c.curriculum.url}" target="_blank" rel="noopener">VCAA study page</a> · copied ${c.curriculum.retrieved}.</p></section>
-  ${programSwitch('vm', '/teacher/curriculum')}
-  ${[1, 2, 3, 4].map((u) => html`<section class="vm-unit">
-    <h2 class="unit-title"><span>Unit ${u}</span></h2>
-    ${c.curriculum.outcomes.filter((o) => o.unit === u).map((o) => html`<section class="cm-sub">
-      <h3 class="section-title"><small>Unit ${o.unit} · Area of Study ${o.outcome} · Outcome ${o.outcome}</small> ${o.title}</h3>
-      <p class="outcome-statement">${o.statement}</p>
-      ${o.options.length ? html`<ul class="outcome-options">${o.options.map((x) => html`<li>${x}</li>`)}</ul>` : ''}
-      <h4 class="kk-head">Key knowledge</h4>
-      <div class="cm-rows">${entries.filter((e) => e.focus === o.id && e.kind === 'Key knowledge').map(row)}</div>
-      <h4 class="kk-head">Key skills</h4>
-      <div class="cm-rows">${entries.filter((e) => e.focus === o.id && e.kind === 'Key skill').map(row)}</div>
-    </section>`)}
-  </section>`)}`;
-  return page(req, { title: 'Curriculum map', body, active: '/teacher/curriculum', wide: true, program: 'vm' });
+  const skills = skillList(c.program);
+  const linksFor = (id) => skills.flatMap((s) => (s.vc.core.includes(id) ? [{ s, kind: 'core' }] : s.vc.extend.includes(id) ? [{ s, kind: 'ext' }] : []));
+  const linked = entries.filter((e) => linksFor(e.id).length).length;
+  const units = [...new Set(c.curriculum.outcomes.map((o) => o.unit))];
+  const card = (o) => {
+    const es = entries.filter((e) => e.focus === o.id);
+    const kk = es.filter((e) => e.kind === 'Key knowledge'), ks = es.filter((e) => e.kind === 'Key skill');
+    const n = (list) => list.filter((e) => linksFor(e.id).length).length;
+    return html`<details class="cm-card" open id="${o.id}">
+      <summary>
+        <span class="cm-card-title"><small>Unit ${o.unit} · Outcome ${o.outcome}</small>${o.title}</span>
+        <span class="cm-card-stats"><span>Key knowledge <b>${n(kk)}/${kk.length}</b>${meter(n(kk), kk.length)}</span><span>Key skills <b>${n(ks)}/${ks.length}</b>${meter(n(ks), ks.length)}</span></span>
+        ${icon('lucide:chevron-down', 'cm-chev')}
+      </summary>
+      <div class="cm-card-body">
+        <p class="cm-outcome">${o.statement}</p>
+        ${o.options.length ? html`<p class="cm-options">${o.options.filter((x) => /^Option/.test(x)).join(' · ')}</p>` : ''}
+        <div class="cm-cols">
+          <div><h4>Key knowledge</h4><ul class="cm-list">${kk.map((e) => cmItem(e, linksFor(e.id), e.code.split(' ').pop(), e.code))}</ul></div>
+          <div><h4>Key skills</h4><ul class="cm-list">${ks.map((e) => cmItem(e, linksFor(e.id), e.code.split(' ').pop(), e.code))}</ul></div>
+        </div>
+      </div>
+    </details>`;
+  };
+  const body = html`${cmapHeader(c, {
+    linked, total: entries.length, noun: 'key knowledge and key skills',
+    legend: html`${legendChip('core', 'Every student')} ${legendChip('ext', 'Level Up work ★')} <span class="cm-none">Not linked yet</span> <span class="muted small">Codes: KK3 = 3rd key knowledge point, KS2 = 2nd key skill, in study-design order.</span>`,
+    jump: html`${c.curriculum.outcomes.map((o) => html`<a href="#${o.id}">U${o.unit} · O${o.outcome}</a>`)}`,
+  })}
+  ${units.map((u) => html`<section class="cm-unit"><h2 class="cm-unit-title">Unit ${u}</h2>${c.curriculum.outcomes.filter((o) => o.unit === u).map(card)}</section>`)}`;
+  return page(req, { title: 'Curriculum map', body, active: '/teacher/curriculum', wide: true, program: c.program });
 }
 
 export function curriculumMapPage(req, program = 'f10') {
   const c = content(program);
   if (c.curriculum.kind === 'study-design') return studyDesignMapPage(req, c);
   const showAll = req.query.levels === 'all';
-  const inRange = (e) => showAll || (e.level >= 3 && e.level <= 10);
-  const bySub = {};
-  for (const e of c.curriculum.entries.filter(inRange)) (bySub[e.focus] ||= []).push(e);
-  const skillsFor = (id) => skillList('f10').map((s) => ({ s, sup: (s.vc.support || []).includes(id), core: s.vc.core.includes(id), ext: s.vc.extend.includes(id) })).filter((x) => x.sup || x.core || x.ext);
-  const shown = c.curriculum.entries.filter(inRange);
-  const covered = shown.filter((e) => skillsFor(e.id).length).length;
-  const body = html`<section class="page-head"><p class="eyebrow">Curriculum map</p>
-    <h1>VC 2.0 English <span class="hl">${covered}/${shown.length} content descriptions mapped</span></h1>
-    <p class="lede">Every skill links to specific content descriptions. ${levelTag('support')} codes are evidenced by Foundation readers, plain codes by everyone at Core, and ★ codes by Level Up work.</p>
-    <p class="small muted">Official text copied from the <a href="${c.curriculum.url}" target="_blank" rel="noopener">VCAA website</a> on ${c.curriculum.retrieved}. ${showAll ? html`Showing all levels. <a href="/teacher/curriculum?program=f10">Show Levels 3–10 only</a>.` : html`Showing Levels 3–10. <a href="/teacher/curriculum?program=f10&amp;levels=all">Show Foundation to Level 2 as well</a>.`}</p></section>
-  ${programSwitch('f10', '/teacher/curriculum')}
-  ${Object.entries(c.curriculum.focusAreas).filter(([key]) => bySub[key]).map(([key, fa]) => html`<section class="cm-sub">
-    <h2 class="section-title"><small>${fa.strand}</small> ${fa.substrand}</h2>
-    <div class="cm-rows">${bySub[key].map((e) => { const sk = skillsFor(e.id); return html`<div class="cm-row ${sk.length ? '' : 'gap'}">
-      <div class="cm-level">${e.level || e.levelId}<small>${e.code}</small></div>
-      <p>${e.text}</p>
-      <div class="cm-skills">${sk.length ? sk.map(({ s, sup, core, ext }) => html`<a class="mini-skill ${ext && !core ? 'ext' : ''}" href="/teacher/skill/${s.id}" style="--zone:${s.zoneObj.color};--zone-ink:${s.zoneObj.ink}">${icon(s.icon)} ${s.title}${sup && !core ? html` <span title="Foundation readers">${LEVELS.support.symbol}</span>` : ''}${ext && !core ? ' ★' : ''}</a>`) : html`<span class="muted">Not yet covered</span>`}</div>
-    </div>`; })}</div></section>`)}`;
+  const shown = c.curriculum.entries.filter((e) => showAll || (e.level >= 3 && e.level <= 10));
+  const skills = skillList(program);
+  const linksFor = (id) => skills.flatMap((s) => (s.vc.core.includes(id) ? [{ s, kind: 'core' }]
+    : (s.vc.support || []).includes(id) ? [{ s, kind: 'sup' }] : s.vc.extend.includes(id) ? [{ s, kind: 'ext' }] : []));
+  const linked = shown.filter((e) => linksFor(e.id).length).length;
+  const strands = [...new Set(Object.values(c.curriculum.focusAreas).map((fa) => fa.strand))];
+  const card = ([key, fa]) => {
+    const es = shown.filter((e) => e.focus === key).sort((a, b) => a.level - b.level);
+    if (!es.length) return '';
+    const n = es.filter((e) => linksFor(e.id).length).length;
+    return html`<details class="cm-card" id="${key}">
+      <summary>
+        <span class="cm-card-title">${fa.substrand}</span>
+        <span class="cm-card-stats"><span>Linked <b>${n}/${es.length}</b>${meter(n, es.length)}</span></span>
+        ${icon('lucide:chevron-down', 'cm-chev')}
+      </summary>
+      <div class="cm-card-body"><ul class="cm-list">${es.map((e) => cmItem(e, linksFor(e.id), html`<b>L${e.level || e.levelId}</b><small>${e.code}</small>`, e.code))}</ul></div>
+    </details>`;
+  };
+  const body = html`${cmapHeader(c, {
+    linked, total: shown.length, noun: showAll ? 'content descriptions (all levels)' : 'content descriptions (Levels 3–10)',
+    legend: html`${legendChip('sup', `Foundation readers ${LEVELS.support.symbol}`)} ${legendChip('core', 'Every student')} ${legendChip('ext', 'Level Up work ★')} <span class="cm-none">Not linked yet</span> ${showAll ? html`<a class="small" href="/teacher/curriculum?program=f10">Show Levels 3–10 only</a>` : html`<a class="small" href="/teacher/curriculum?program=f10&amp;levels=all">Include Foundation to Level 2</a>`}`,
+  })}
+  ${strands.map((st) => html`<section class="cm-unit"><h2 class="cm-unit-title">${st}</h2>${Object.entries(c.curriculum.focusAreas).filter(([, fa]) => fa.strand === st).map(card)}</section>`)}`;
   return page(req, { title: 'Curriculum map', body, active: '/teacher/curriculum', wide: true, program: 'f10' });
 }

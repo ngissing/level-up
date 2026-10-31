@@ -26,7 +26,7 @@ const embedFonts = (css) => css.replace(/url\(\/fonts\/(\w+)\/([\w.-]+)\)/g, (_,
   `url(data:font/woff2;base64,${readFileSync(path.join(ROOT_DIR, 'node_modules', FONT_DIRS[dir], f)).toString('base64')})`);
 const inlineCss = (htmlStr) => htmlStr
   .replace(/<link rel="preload"[^>]*>/g, '')
-  .replace(/<link rel="stylesheet" href="\/css\/([\w-]+\.css)">/g,
+  .replace(/<link rel="stylesheet" href="\/css\/([\w-]+\.css)(?:\?v=\w+)?">/g,
     (_, f) => `<style>${embedFonts(readFileSync(path.join(ROOT_DIR, 'public', 'css', f), 'utf8'))}</style>`);
 
 let chromium;

@@ -36,19 +36,27 @@ prog.run(jay, 'spot-the-scam', 'submitted', all, 4, 5, 'I learned that scammers 
 prog.run(tia, 'spot-the-scam', 'complete', all, 5, 5, 'Two red flags = big warning.', 1, null, new Date().toISOString());
 syncBadges(tia);
 
-// VCE VM Literacy class
+// VCE VM Literacy Units 1 & 2 class
 db.prepare('INSERT OR IGNORE INTO classes (name) VALUES (?)').run('11 VM Literacy');
 const vmClass = db.prepare('SELECT id FROM classes WHERE name = ?').get('11 VM Literacy').id;
 db.prepare('INSERT OR IGNORE INTO class_teachers (class_id, user_id) VALUES (?, ?)').run(vmClass, t);
 const zara = add('Zara Ahmed', 'zara', 'student123', 'student', vmClass);
 const ben = add('Ben Kelly', 'ben', 'student123', 'student', vmClass);
-db.prepare("UPDATE users SET program = 'vm' WHERE id IN (?, ?)").run(zara, ben);
+db.prepare("UPDATE users SET program = 'vm12' WHERE id IN (?, ?)").run(zara, ben);
 setLevel.run('support', zara);
 prog.run(ben, 'vm-first-payslip', 'started', JSON.stringify(['brief', 'watch']), null, null, null, 0, null, null);
 
+// VCE VM Literacy Units 3 & 4 class
+db.prepare('INSERT OR IGNORE INTO classes (name) VALUES (?)').run('12 VM Literacy');
+const vm34Class = db.prepare('SELECT id FROM classes WHERE name = ?').get('12 VM Literacy').id;
+db.prepare('INSERT OR IGNORE INTO class_teachers (class_id, user_id) VALUES (?, ?)').run(vm34Class, t);
+const ella = add('Ella Nguyen', 'ella', 'student123', 'student', vm34Class);
+db.prepare("UPDATE users SET program = 'vm34' WHERE id = ?").run(ella);
+
 console.log(`Seeded. Logins:
   admin   / changeme   (admin)
-  teacher / teacher123 (teacher of "10 Literacy" and "11 VM Literacy")
+  teacher / teacher123 (teacher of "10 Literacy", "11 VM Literacy" and "12 VM Literacy")
   kai, mia, jay, tia / student123 (students)
   Reading levels: kai = Foundation, mia & tia = Core, jay = Extended
-  zara, ben / student123 (VCE VM Literacy students, class "11 VM Literacy"; zara = Foundation, ben = Core)`);
+  zara, ben / student123 (VM Literacy Units 1 & 2, class "11 VM Literacy"; zara = Foundation, ben = Core)
+  ella / student123 (VM Literacy Units 3 & 4, class "12 VM Literacy"; Core)`);

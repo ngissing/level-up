@@ -1,4 +1,4 @@
-// Writes docs/COURSE-MAP.md (F–10) and docs/COURSE-MAP-VM.md (VCE VM Literacy) from content/
+// Writes docs/COURSE-MAP.md (F–10) and docs/COURSE-MAP-VM12.md / -VM34.md (VCE VM Literacy) from content/
 // so the map documents never drift.
 //   npm run map-doc
 import { writeFileSync } from 'node:fs';
@@ -14,7 +14,7 @@ const p = (s = '') => L.push(s);
 
 p('# Level Up Literacy — course map: Victorian Curriculum F–10');
 p();
-p('_Generated from `content/f10/` by `npm run map-doc`. Edit the JSON, not this file. The VCE VM Literacy pathway is in [COURSE-MAP-VM.md](COURSE-MAP-VM.md)._');
+p('_Generated from `content/f10/` by `npm run map-doc`. Edit the JSON, not this file. The VCE VM Literacy pathways are in [COURSE-MAP-VM12.md](COURSE-MAP-VM12.md) (Units 1 & 2) and [COURSE-MAP-VM34.md](COURSE-MAP-VM34.md) (Units 3 & 4)._');
 p();
 p('## The idea');
 p();
@@ -101,18 +101,19 @@ writeFileSync(path.join(ROOT_DIR, 'docs', 'COURSE-MAP.md'), L.join('\n'));
 console.log('wrote docs/COURSE-MAP.md');
 
 // ---------- VCE VM Literacy ----------
-{
-  const v = content('vm');
+for (const program of ['vm12', 'vm34']) {
+  const v = content(program);
+  const name = v.programObj.name;
   const V = [];
   const q = (x = '') => V.push(x);
   const item = (id) => { const e = v.vc[id]; return `${e.code} — ${e.text}`; };
   const tierV = { 0: v.zones[v.baseZone].name, 1: 'Starter', 2: 'Level 2', 3: 'Boss', 4: v.zones[v.crossZone].name };
   const allV = Object.values(v.skills);
-  q('# Level Up · VM Literacy — course map');
+  q(`# Level Up · ${name} — course map`);
   q();
-  q('_Generated from `content/vm/` by `npm run map-doc`. Edit the JSON, not this file._');
+  q(`_Generated from \`content/${program}/\` by \`npm run map-doc\`. Edit the JSON, not this file._`);
   q();
-  q('Mini courses for students enrolled in **VCE Vocational Major Literacy**, linked to the key knowledge (KK) and key skills (KS) of the study design’s eight outcomes. Same structure as the F–10 pathway: Induction → five zones (starters, Level 2, boss) → Capstones. Reading levels work the same way. Codes such as **U1 O1 KK3** mean Unit 1, Outcome 1, 3rd key knowledge point, in study-design order.');
+  q(`Mini courses for students enrolled in **${name}**, linked to the key knowledge (KK) and key skills (KS) of its four outcomes in the VCE Vocational Major Literacy Study Design. Same structure as the F–10 pathway: ${v.zones[v.baseZone].name} → four zones (starters, Level 2, boss) → Capstones. Reading levels work the same way. Codes such as **U1 O1 KK3** mean Unit 1, Outcome 1, 3rd key knowledge point, in study-design order.`);
   q();
   q(`${allV.filter((s) => s.ready).length} of ${allV.length} mini courses built.`);
   q();
@@ -141,6 +142,7 @@ console.log('wrote docs/COURSE-MAP.md');
   q();
   q(`Source: ${v.curriculum.source} Retrieved ${v.curriculum.retrieved} from ${v.curriculum.url}.`);
   q();
-  writeFileSync(path.join(ROOT_DIR, 'docs', 'COURSE-MAP-VM.md'), V.join('\n'));
-  console.log('wrote docs/COURSE-MAP-VM.md');
+  const out = `COURSE-MAP-${program.toUpperCase()}.md`;
+  writeFileSync(path.join(ROOT_DIR, 'docs', out), V.join('\n'));
+  console.log(`wrote docs/${out}`);
 }
