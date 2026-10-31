@@ -1,6 +1,6 @@
 {
   "name": "levelup-literacy",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "private": true,
   "description": "Self-paced literacy mini courses for teens, mapped to the Victorian Curriculum F-10 v2.0 English.",
   "type": "module",
@@ -15,7 +15,8 @@
     "pdf": "node --disable-warning=ExperimentalWarning scripts/workbook-pdf.js",
     "map-doc": "node --disable-warning=ExperimentalWarning scripts/course-map-doc.js",
     "import-vcaa": "node scripts/import-vcaa.js",
-    "voices": "node --disable-warning=ExperimentalWarning scripts/make-voices.js"
+    "voices": "node --disable-warning=ExperimentalWarning scripts/make-voices.js",
+    "live": "bash scripts/live.sh"
   },
   "dependencies": {
     "@fontsource-variable/bricolage-grotesque": "^5.3.0",

@@ -38,6 +38,11 @@ npm run voices
 
 On a Mac, use `export GOOGLE_TTS_API_KEY=...` instead of the first line.
 
+**In GitHub Codespaces:** save the key once as a Codespaces secret instead of typing it each time:
+1. On GitHub, go to your profile picture → **Settings → Codespaces → New secret**.
+2. Name it `GOOGLE_TTS_API_KEY`, paste the key and give it access to the `level-up` repository.
+3. Restart the codespace. Then just run `npm run voices`.
+
 - **Hear the options:** run `npm run voices -- --list` to see the Australian voices available, with their gender. You can listen to them at <https://cloud.google.com/text-to-speech> (“Try it”). To use a particular voice:
 
   ```powershell
