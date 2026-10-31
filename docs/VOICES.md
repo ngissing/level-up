@@ -1,5 +1,12 @@
 # Narration voices
 
+**Which voice is playing?** Look under the explainer's controls. It says either *Recorded voice: en-AU-…* (a Google recording) or *Browser voice: …* (the browser's built-in voice, used when nothing has been recorded).
+
+**Male or female:** an admin chooses this under **Accounts → Settings → Narrator voice**. It applies to:
+- browser voices straight away, e.g. "Google UK English Male" in Chrome or "William (Natural)" in Edge
+- new recordings: run `npm run voices -- --force` after changing it
+
+
 The explainer on each skill's **Watch** step is narrated. There are two ways it can sound.
 
 ## 1. Recorded Google voices (best)
@@ -31,7 +38,7 @@ npm run voices
 
 On a Mac, use `export GOOGLE_TTS_API_KEY=...` instead of the first line.
 
-- **Hear the options:** run `npm run voices -- --list` to see the Australian voices available. You can listen to them at <https://cloud.google.com/text-to-speech> (“Try it”). To use a particular voice:
+- **Hear the options:** run `npm run voices -- --list` to see the Australian voices available, with their gender. You can listen to them at <https://cloud.google.com/text-to-speech> (“Try it”). To use a particular voice:
 
   ```powershell
   $env:TTS_VOICE="en-AU-Neural2-C"
@@ -50,3 +57,9 @@ Without recordings, the app uses the best voice the browser offers. It picks neu
 - **Microsoft Edge** on Windows has free, natural-sounding neural voices, including Australian ones (“Natasha” and “William”, marked *Natural*). They sound far better than the default voices. If your school uses Windows, ask students to open Level Up in Edge.
 - **Chrome** has “Google” online voices (British and US English). They're good, but there's no Australian accent.
 - Read-aloud buttons on readings and key words always use the browser voice.
+
+## Troubleshooting
+
+- **The voice didn't change after re-recording:** check the label under the player. If it says *Browser voice*, the recordings weren't made. Run `npm run voices` again and look for errors. A key is only remembered in the PowerShell window where you set it, so set it again in a new window.
+- **"Set GOOGLE_TTS_API_KEY first":** you haven't set the key in this PowerShell window (see above).
+- **"API key not valid" or "has not been used in project":** the Text-to-Speech API isn't enabled for the key's project, or billing isn't set up yet.

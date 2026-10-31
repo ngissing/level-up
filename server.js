@@ -255,7 +255,7 @@ app.get('/teacher/skill/:id', teacher, (req, res) => {
 app.get('/teacher/skill/:id/explainer', requireRole(), (req, res) => {
   const skill = loadSkill(req, res); if (!skill?.course) return;
   const z = skill.zoneObj;
-  send(res, html`${head(skill.title, ['/css/shared.css', '/css/app.css'])}<body class="board" style="--zone:${z.color};--zone-ink:${z.ink}">
+  send(res, html`${head(skill.title, ['/css/shared.css', '/css/app.css'])}<body class="board" style="--zone:${z.color};--zone-ink:${z.ink}" data-voice="${getSetting('voice_gender') || 'any'}">
     <main class="board-main">${explainer(withLevel(skill, levelOf(req)).course.explainer, audioFor(skill.id))}</main><script src="/js/app.js" defer></script></body></html>`);
 });
 
@@ -266,7 +266,7 @@ app.get('/admin', admin, (req, res) => {
   const users = db.prepare('SELECT * FROM users ORDER BY role, name').all();
   const classes = db.prepare('SELECT c.*, (SELECT COUNT(*) FROM users u WHERE u.class_id = c.id) students FROM classes c ORDER BY name').all()
     .map((c) => ({ ...c, teacherIds: db.prepare('SELECT user_id FROM class_teachers WHERE class_id = ?').all(c.id).map((r) => r.user_id) }));
-  const settings = { require_signoff: getSetting('require_signoff'), quiz_pass_percent: getSetting('quiz_pass_percent'), skip_unwritten: getSetting('skip_unwritten') };
+  const settings = { require_signoff: getSetting('require_signoff'), quiz_pass_percent: getSetting('quiz_pass_percent'), skip_unwritten: getSetting('skip_unwritten'), voice_gender: getSetting('voice_gender') || 'any' };
   send(res, adminPage(req, { users, classes, settings, roleFilter: req.query.role }));
 });
 
@@ -341,6 +341,7 @@ app.post('/admin/users/:id/delete', admin, (req, res) => {
 app.post('/admin/settings', admin, (req, res) => {
   setSetting('require_signoff', req.body.require_signoff ? '1' : '0');
   setSetting('skip_unwritten', req.body.skip_unwritten ? '1' : '0');
+  if (['any', 'female', 'male'].includes(req.body.voice_gender)) setSetting('voice_gender', req.body.voice_gender);
   setSetting('quiz_pass_percent', Math.max(0, Math.min(100, Number(req.body.quiz_pass_percent) || 60)));
   res.flash('ok', 'Settings saved.');
   res.redirect('/admin');

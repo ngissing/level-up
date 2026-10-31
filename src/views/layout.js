@@ -1,5 +1,6 @@
 import { html, icon, raw } from '../html.js';
 import { LEVELS } from '../levels.js';
+import { getSetting } from '../db.js';
 
 const FONTS = 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Lexend:wght@300;400;500;600;700&display=swap';
 
@@ -36,7 +37,7 @@ export function page(req, { title, body, active = '', theme = null, wide = false
   const nav = u ? NAV[u.role] : [];
   const style = theme ? `--zone:${theme.color};--zone-ink:${theme.ink}` : '';
   return html`${head(title, ['/css/shared.css', '/css/app.css'])}
-<body class="role-${u?.role || 'guest'}" style="${style}" ${u?.role === 'student' ? raw(`data-rl="${u.reading_level}"`) : ''}>
+<body class="role-${u?.role || 'guest'}" style="${style}" data-voice="${getSetting('voice_gender') || 'any'}" ${u?.role === 'student' ? raw(`data-rl="${u.reading_level}"`) : ''}>
 <a class="skip" href="#main">Skip to content</a>
 <header class="topbar">
   ${logo()}

@@ -8,9 +8,15 @@
   const pickVoice = () => {
     if (!synth) return;
     const vs = synth.getVoices().filter((v) => v.lang.replace('_', '-').startsWith('en'));
+    // Browsers don't say which voices are male or female, so go by the name.
+    const want = document.body.dataset.voice;
+    const MALE = /\bMale\b|William|James|Ryan|Guy|Christopher|Daniel|George|Thomas|Liam|Mark\b|David|Brian|Eric|Roger|Andrew|Davis|Tony|Jason|Duncan|Elliot|Oliver|Fred|Alex\b|Aaron|Arthur|Gordon|Mitchell|Connor|Noah|Ethan|Luke|Ken\b|Neil/i;
+    const FEMALE = /\bFemale\b|Natasha|Catherine|Karen|Hayley|Libby|Sonia|Aria|Jenny|Zira|Hazel|Susan|Samantha|Moira|Tessa|Fiona|Victoria|Kate|Serena|Annette|Carly|Elsie|Freya|Joanne|Tina|Clara|Emily|Ava\b|Allison|Michelle|Nancy|Sara|Maisie|Abbi|Bella|Hollie|Olivia|Heather|Linda/i;
     const score = (v) => {
       const lang = v.lang.replace('_', '-');
       let n = 0;
+      if (want === 'male') n += MALE.test(v.name) ? 200 : FEMALE.test(v.name) ? -200 : 0;
+      if (want === 'female') n += FEMALE.test(v.name) ? 200 : MALE.test(v.name) ? -200 : 0;
       if (/Natural|Neural/i.test(v.name)) n += 100;
       else if (/Online|Google/i.test(v.name)) n += 60;
       if (lang === 'en-AU') n += 30; else if (lang === 'en-GB') n += 15; else if (lang === 'en-NZ') n += 20;
@@ -80,11 +86,20 @@
     fit(); new ResizeObserver(fit).observe(stage);
 
     const durationFor = (t) => Math.max(3500, t.split(/\s+/).length * 420);
+    const label = ex.querySelector('[data-ex-voice-label]');
+    function showVoice() {
+      if (!label) return;
+      label.textContent = !voiceOn ? 'Voice off'
+        : scenes[i].dataset.audio ? `Recorded voice: ${ex.dataset.recordedVoice || 'Google'}`
+        : voice ? `Browser voice: ${voice.name}` : 'No voice available in this browser';
+    }
+    if (synth) synth.addEventListener?.('voiceschanged', () => setTimeout(showVoice, 0));
     function show(n) {
       i = Math.max(0, Math.min(scenes.length - 1, n));
       scenes.forEach((s, k) => s.classList.toggle('active', k === i));
       bars.forEach((b, k) => { b.classList.toggle('past', k < i); b.querySelector('i').style.width = k < i ? '100%' : '0'; });
       caption.textContent = scenes[i].dataset.say || '';
+      showVoice();
     }
     function tick() {
       const p = Math.min(1, (performance.now() - startT) / dur);
@@ -133,6 +148,7 @@
     vbtn.addEventListener('click', () => {
       voiceOn = synth || hasRecordings ? !voiceOn : false; vbtn.setAttribute('aria-pressed', String(voiceOn));
       if (!voiceOn) { synth?.cancel(); player.pause(); }
+      showVoice();
       if (playing) run();
     });
     document.addEventListener('keydown', (e) => {

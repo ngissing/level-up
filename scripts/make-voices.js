@@ -5,15 +5,18 @@
 //   … npm run voices -- --list                          show the Australian voices your key can use
 //   … npm run voices -- --force                         re-record everything (e.g. after changing voice)
 //   TTS_VOICE=en-AU-Neural2-C npm run voices            pick a specific voice
+//   TTS_GENDER=male npm run voices -- --force           best voice of that gender (default: the admin's
+//                                                       "Narrator voice" setting in Accounts → Settings)
 //
 // Audio is saved to public/audio/<skill>/ with a manifest, so each line is only
 // recorded once (unchanged lines are skipped) and plays instantly in class.
 // Lines are matched by their exact text: edit a "say" line and run this again.
-import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync, unlinkSync } from 'node:fs';
 import path from 'node:path';
 import { ROOT_DIR } from '../src/html.js';
 import { skillList, getSkill, courseFor, lineKey } from '../src/content.js';
 import { LEVEL_IDS } from '../src/levels.js';
+import { getSetting } from '../src/db.js';
 
 const KEY = process.env.GOOGLE_TTS_API_KEY;
 const API = process.env.TTS_API_BASE || 'https://texttospeech.googleapis.com/v1';
@@ -52,9 +55,16 @@ if (args.includes('--list')) {
   for (const v of sorted) console.log(`${v.name.padEnd(28)} ${v.ssmlGender.toLowerCase()}`);
   process.exit(0);
 }
-const voice = process.env.TTS_VOICE || sorted[0]?.name;
+const gender = (process.env.TTS_GENDER || getSetting('voice_gender') || 'any').toLowerCase();
+let voice = process.env.TTS_VOICE;
+if (voice && !sorted.some((v) => v.name === voice)) {
+  console.error(`Voice "${voice}" isn't available. Run "npm run voices -- --list" to see the names you can use.`);
+  process.exit(1);
+}
+voice ||= (sorted.find((v) => gender === 'any' || v.ssmlGender.toLowerCase() === gender) || sorted[0])?.name;
 if (!voice) { console.error(`No ${LANG} voices available to this key.`); process.exit(1); }
-console.log(`Voice: ${voice}`);
+const vinfo = sorted.find((v) => v.name === voice);
+console.log(`Voice: ${voice} (${vinfo?.ssmlGender.toLowerCase()})`);
 
 const ids = args.filter((a) => !a.startsWith('--'));
 const skills = ids.length ? ids.map(getSkill) : skillList().filter((s) => s.ready);
@@ -73,13 +83,17 @@ for (const skill of skills) {
     if (old && !force && old.voice === voice && existsSync(path.join(dir, old.file))) { keep[k] = old; kept++; continue; }
     const body = { input: { text }, voice: { languageCode: LANG, name: voice }, audioConfig: { audioEncoding: 'MP3' } };
     const { audioContent } = await call('text:synthesize', body);
-    const file = `${k}.mp3`;
+    // The voice is part of the filename, so browsers never replay a cached old voice.
+    const file = `${k}-${lineKey(voice).slice(0, 6)}.mp3`;
     writeFileSync(path.join(dir, file), Buffer.from(audioContent, 'base64'));
     keep[k] = { file, voice, text };
     chars += text.length; made++;
     process.stdout.write('.');
   }
   writeFileSync(mfile, JSON.stringify({ voice, lines: keep }, null, 2));
+  // Tidy up recordings that are no longer used (old voice or changed lines).
+  const used = new Set(Object.values(keep).map((l) => l.file));
+  for (const f of readdirSync(dir)) if (f.endsWith('.mp3') && !used.has(f)) unlinkSync(path.join(dir, f));
   console.log(`\n${skill.title}: ${lines.size} lines`);
 }
 console.log(`Recorded ${made} new line(s) (${chars} characters), kept ${kept}. Audio is in public/audio/.`);

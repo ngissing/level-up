@@ -238,7 +238,8 @@ export const lineKey = (text) => createHash('sha1').update(String(text).trim()).
 // Returns a function: narration text -> audio URL (or null if not recorded).
 export function audioFor(skillId) {
   const file = path.join(ROOT_DIR, 'public', 'audio', skillId, 'manifest.json');
-  if (!existsSync(file)) return () => null;
-  const { lines = {} } = JSON.parse(readFileSync(file, 'utf8'));
-  return (text) => { const l = lines[lineKey(text || '')]; return l ? `/audio/${skillId}/${l.file}` : null; };
+  if (!existsSync(file)) return Object.assign(() => null, { voice: null });
+  const { lines = {}, voice = null } = JSON.parse(readFileSync(file, 'utf8'));
+  const fn = (text) => { const l = lines[lineKey(text || '')]; return l ? `/audio/${skillId}/${l.file}` : null; };
+  return Object.assign(fn, { voice });
 }

@@ -539,3 +539,6 @@ body[data-rl="support"] .prose { font-size: 1.22rem; line-height: 1.9; }
 .ach summary { cursor: pointer; font-weight: 600; display: inline-flex; gap: 8px; align-items: center; }
 .ach h4 { font-family: var(--display); margin: 14px 0 4px; }
 .ach li { margin-bottom: 6px; font-size: .92rem; }
+
+.ex-voice { margin: 0; padding: 6px 14px 8px; background: #23222b; color: #a9a5b3; font-size: .78rem; }
+.ex-voice:empty { display: none; }

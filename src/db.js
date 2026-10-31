@@ -75,6 +75,7 @@ CREATE TABLE IF NOT EXISTS settings (
 INSERT OR IGNORE INTO settings (key, value) VALUES ('require_signoff', '1');
 INSERT OR IGNORE INTO settings (key, value) VALUES ('quiz_pass_percent', '60');
 INSERT OR IGNORE INTO settings (key, value) VALUES ('skip_unwritten', '0');
+INSERT OR IGNORE INTO settings (key, value) VALUES ('voice_gender', 'any');
 `);
 
 // Migrations for databases created by earlier versions.

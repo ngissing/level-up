@@ -167,7 +167,7 @@ function scene(s) {
 
 // audio: narration text -> recorded audio URL (from audioFor); falls back to the browser's voice.
 export function explainer(ex, audio = () => null) {
-  return html`<div class="explainer" data-explainer>
+  return html`<div class="explainer" data-explainer ${audio.voice ? raw(`data-recorded-voice="${audio.voice}"`) : ''}>
     <div class="ex-stage">
       ${ex.scenes.map((s, i) => { const a = audio(s.say); return html`<section class="ex-scene ${i === 0 ? 'active' : ''}" data-say="${s.say}" ${a ? raw(`data-audio="${a}"`) : ''}>${scene(s)}</section>`; })}
       <button class="ex-big-play" type="button" data-ex-play aria-label="Play">${icon('lucide:play')}</button>
@@ -181,6 +181,7 @@ export function explainer(ex, audio = () => null) {
       <button type="button" data-ex-cc aria-pressed="true" title="Captions">${icon('lucide:captions')}</button>
       <button type="button" data-ex-voice aria-pressed="true" title="Voice">${icon('lucide:volume-2')}</button>
     </div>
+    <p class="ex-voice" data-ex-voice-label aria-live="polite"></p>
   </div>`;
 }
 
