@@ -43,7 +43,7 @@
 
   // ----- Text size (remembered per device) -----
   const root = document.documentElement;
-  try { const s = localStorage.getItem('lu-textsize'); if (s) root.dataset.textsize = s; } catch {}
+  // (The saved size is applied by a tiny script in <head>, before the page is drawn.)
   document.querySelectorAll('[data-textsize]').forEach((b) => b.addEventListener('click', () => {
     const next = ((Number(root.dataset.textsize) || 0) + 1) % 3;
     root.dataset.textsize = next;
@@ -93,7 +93,7 @@
     let i = 0, playing = false, timer = null, raf = null, voiceOn = !!synth || hasRecordings, startT = 0, dur = 0;
     // Scenes are designed on a 960x540 canvas and scaled to fit, like a video.
     const stage = ex.querySelector('.ex-stage');
-    const fit = () => stage.style.setProperty('--k', stage.clientWidth / 960);
+    const fit = () => { stage.style.setProperty('--k', stage.clientWidth / 960); stage.classList.add('fitted'); };
     fit(); new ResizeObserver(fit).observe(stage);
 
     const durationFor = (t) => Math.max(3500, t.split(/\s+/).length * 420);

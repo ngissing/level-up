@@ -1,6 +1,6 @@
 /* ===== Base ===== */
 *, *::before, *::after { box-sizing: border-box; }
-html { font-size: 100%; -webkit-text-size-adjust: 100%; }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; scrollbar-gutter: stable; } /* stable: pages don't shift sideways when a scrollbar appears */
 html[data-textsize="1"] { font-size: 112.5%; }
 html[data-textsize="2"] { font-size: 125%; }
 body {
@@ -549,3 +549,6 @@ body[data-rl="support"] .prose { font-size: 1.22rem; line-height: 1.9; }
 .jump a:hover { background: var(--lime); }
 .panel[id] { scroll-margin-top: 90px; }
 .panel:target { outline: 4px solid var(--lime); outline-offset: 4px; }
+
+/* Keep explainer scenes hidden until they've been sized to the player (avoids a jump). */
+.ex-stage:not(.fitted) .ex-scene { visibility: hidden; }

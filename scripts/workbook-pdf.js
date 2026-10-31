@@ -21,8 +21,13 @@ const skills = ids.length ? ids.map(getSkill) : skillList().filter((s) => s.read
 const outDir = path.join(ROOT_DIR, 'exports');
 mkdirSync(outDir, { recursive: true });
 
-const inlineCss = (htmlStr) => htmlStr.replace(/<link rel="stylesheet" href="\/css\/([\w-]+\.css)">/g,
-  (_, f) => `<style>${readFileSync(path.join(ROOT_DIR, 'public', 'css', f), 'utf8')}</style>`);
+const FONT_DIRS = { lexend: '@fontsource-variable/lexend/files', bricolage: '@fontsource-variable/bricolage-grotesque/files' };
+const embedFonts = (css) => css.replace(/url\(\/fonts\/(\w+)\/([\w.-]+)\)/g, (_, dir, f) =>
+  `url(data:font/woff2;base64,${readFileSync(path.join(ROOT_DIR, 'node_modules', FONT_DIRS[dir], f)).toString('base64')})`);
+const inlineCss = (htmlStr) => htmlStr
+  .replace(/<link rel="preload"[^>]*>/g, '')
+  .replace(/<link rel="stylesheet" href="\/css\/([\w-]+\.css)">/g,
+    (_, f) => `<style>${embedFonts(readFileSync(path.join(ROOT_DIR, 'public', 'css', f), 'utf8'))}</style>`);
 
 let chromium;
 try { ({ chromium } = createRequire(import.meta.url)('playwright')); }

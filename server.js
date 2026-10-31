@@ -17,6 +17,9 @@ app.disable('x-powered-by');
 app.set('trust proxy', 1);
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(ROOT_DIR, 'public'), { maxAge: '1h' }));
+// Fonts come from npm packages and are served locally (fast, offline-friendly, no layout shift).
+app.use('/fonts/lexend', express.static(path.join(ROOT_DIR, 'node_modules/@fontsource-variable/lexend/files'), { maxAge: '30d', immutable: true }));
+app.use('/fonts/bricolage', express.static(path.join(ROOT_DIR, 'node_modules/@fontsource-variable/bricolage-grotesque/files'), { maxAge: '30d', immutable: true }));
 app.use(sessionMiddleware);
 
 const send = (res, view) => res.type('html').send(String(view));
