@@ -1,0 +1,926 @@
+{
+  "id": "vm-text-types",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "A **recipe**. A **job ad**. A **news story**. A **group chat**. You read each one in a different way.",
+      "core": "Today you might read a **recipe**, a **job ad**, a **news story** and a **group chat**. You read each one differently — even if you've never thought about it."
+    },
+    "why": {
+      "support": "Every type of text has a job. Know the type, and you know where to look.",
+      "core": "Every text type is built for a job. Once you know how a type is put together, you know where to look, what to expect — and how to write one yourself.",
+      "extend": "Every text type is built for a purpose and audience, with its own structure and features. Recognising them lets you read faster, judge whether a text works, and choose the right type when you write."
+    },
+    "canDo": {
+      "support": [
+        "I can name some text types.",
+        "I can say what each one is for.",
+        "I can find parts like headings and steps.",
+        "I can pick the right type for a job."
+      ],
+      "core": [
+        "I can name common **text types** and what each one is for.",
+        "I can spot the **structure** and **features** of a text.",
+        "I can **compare** two text types.",
+        "I can choose the right text type for a job."
+      ]
+    },
+    "showIt": "Annotate a real-world text type, compare two others, and write the same news as two different text types.",
+    "vocab": [
+      {
+        "word": "text type",
+        "meaning": "a kind of text with its own job and shape",
+        "example": "A job ad is a text type."
+      },
+      {
+        "word": "informative",
+        "meaning": "gives you facts or explains something",
+        "example": "A news report is informative."
+      },
+      {
+        "word": "persuasive",
+        "meaning": "tries to make you think or do something",
+        "example": "An ad is persuasive."
+      },
+      {
+        "word": "instructional",
+        "meaning": "tells you how to do something, step by step",
+        "example": "A recipe is instructional."
+      },
+      {
+        "word": "narrative",
+        "meaning": "tells a story",
+        "example": "A short film can be a narrative."
+      },
+      {
+        "word": "structure",
+        "meaning": "how a text is put together, in order",
+        "example": "A recipe's structure is ingredients, then steps."
+      },
+      {
+        "word": "feature",
+        "meaning": "a part that helps a text do its job",
+        "example": "Bold headings are a feature.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "headline",
+        "meaning": "the title of a news story",
+        "example": "The headline was in big letters.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "media release",
+        "meaning": "news an organisation sends to journalists",
+        "example": "The council sent a media release.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "effective",
+        "meaning": "does its job well for its audience",
+        "example": "The poster was effective — everyone came.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Know Your Text Types in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Know Your Text Types",
+        "sub": "Email, report, article, ad — what’s the difference?",
+        "icon": "lucide:files",
+        "say": "Know your text types. Email, report, article, ad. What's the difference?"
+      },
+      {
+        "kind": "big",
+        "title": "Every text has a job",
+        "text": "The **job** decides the **shape**.",
+        "icon": "lucide:wrench",
+        "say": "Every text type has a job. Its job decides its shape.",
+        "vc": [
+          "VM-U1O1-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "I",
+        "pill": "Text job",
+        "pillIcon": "lucide:files",
+        "title": "Inform",
+        "text": "News, reports, notices → facts.",
+        "icon": "lucide:newspaper",
+        "say": "Inform: news, reports, notices. They give you facts.",
+        "vc": [
+          "VM-U1O1-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "P",
+        "pill": "Text job",
+        "pillIcon": "lucide:files",
+        "title": "Persuade",
+        "text": "Ads, opinion pieces, posts → think or do.",
+        "icon": "lucide:megaphone",
+        "say": "Persuade: ads, opinion pieces, posts. They want you to think or do something.",
+        "vc": [
+          "VM-U1O1-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "I",
+        "pill": "Text job",
+        "pillIcon": "lucide:files",
+        "title": "Instruct",
+        "text": "Recipes, manuals, procedures → how, step by step.",
+        "icon": "lucide:list-ordered",
+        "say": "Instruct: recipes, manuals, safety procedures. They tell you how, step by step.",
+        "vc": [
+          "VM-U1O1-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "S",
+        "pill": "Text job",
+        "pillIcon": "lucide:files",
+        "title": "Tell a story",
+        "text": "Films, novels, your mate’s weekend story.",
+        "icon": "lucide:book-open-text",
+        "say": "Tell a story: films, novels, a mate's story about the weekend.",
+        "vc": [
+          "VM-U1O1-KK1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Work out any text",
+        "steps": [
+          "What’s its job?",
+          "Who’s it for?",
+          "How is it set out?",
+          "What kind of words?"
+        ],
+        "say": "To work out a text type, ask: what's its job? Who's it for? How is it set out? What words does it use?",
+        "vc": [
+          "VM-U1O1-KS1",
+          "VM-U1O1-KS7"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Pull apart a text. Compare two. Write the same news two ways.",
+        "icon": "lucide:layers",
+        "say": "Your mission. Pull apart a real-world text, compare two more, then write the same news two ways."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Every text has a job",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A **text** is anything that shares a message. A recipe. A job ad. A film. A sign. Each **text type** has a job.\n\n1. **Inform** — give facts. News, notices, reports.\n2. **Persuade** — make you think or do something. Ads, posts.\n3. **Instruct** — tell you how. Recipes, manuals. Look for numbered steps.\n4. **Tell a story** — films, books, a mate's story.\n\nTo work out a text, ask:\n\n**What's its job? Who's it for? How is it set out?**",
+          "core": "A **text** is anything made to share a message: a recipe, a job ad, a group chat, a film, a safety sign. Each **text type** has a job, and its job decides its shape.\n\n1. **Informative** texts give facts: news reports, notices, workplace reports. Look for headlines, dates and plain, factual words.\n2. **Persuasive** texts want you to think or do something: ads, opinion pieces, posts. Look for strong words, pictures and a call to action.\n3. **Instructional** texts tell you how: recipes, manuals, safety procedures. Look for numbered steps, lists and “doing” words (*mix*, *press*, *wear*).\n4. **Narrative** texts tell a story: films, novels, a mate's story about the weekend. Look for characters, a problem and an ending.\n\nMany everyday texts mix types. An email might inform *and* persuade. A job ad informs you about the job, then persuades you to apply.\n\nTo work out any text, ask: **What's its job? Who's it for? How is it set out? What kind of words does it use?**"
+        },
+        "vc": [
+          "VM-U1O1-KK1",
+          "VM-U1O1-KS1"
+        ],
+        "vcNote": "The four main text jobs, the features to look for, and the four questions for any text."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "One storm, many texts",
+        "icon": "lucide:cloud-lightning",
+        "body": {
+          "support": "The **Bureau of Meteorology** (BoM) tells us about the weather.\n\nWhen a big storm is on the way, BoM uses **lots of types of text**:\n\n- a **forecast** with the facts for each day\n- a **warning** that is short. It says what to do.\n- **posts** with a map or video, for people on their phones\n\nSame storm. Different texts for different jobs.",
+          "core": "The **Bureau of Meteorology** (BoM) is Australia's weather agency. When a storm is coming, it doesn't write just one text. It shares the same news in **different text types**, for different jobs and readers.\n\n- A **forecast** on its website and app gives facts: heat, rain and wind, set out by day.\n- A **warning** is put out when the weather could be dangerous. It's short and urgent. It says what's happening, where, and what to do.\n- **Social media posts** share the key message fast, often with a map or video. They're for people scrolling on their phones.\n\nSame weather. Different jobs, different readers, different shapes."
+        },
+        "source": {
+          "name": "Bureau of Meteorology (bom.gov.au) — forecasts, warnings and social media",
+          "url": "https://www.bom.gov.au"
+        },
+        "think": {
+          "support": [
+            "What does a forecast do?",
+            "Why is a warning short?"
+          ],
+          "core": [
+            "What's the job of a forecast? Of a warning?",
+            "Why would a warning be short and urgent?",
+            "Who reads BoM's social media posts, and how is that different?"
+          ]
+        },
+        "vc": [
+          "VM-U1O1-KS1",
+          "VM-U1O1-KS7"
+        ],
+        "vcNote": "Comparing how the same information is structured and presented in different text types."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a media release",
+      "docTitle": "MEDIA RELEASE",
+      "vc": [
+        "VM-U1O1-KK1"
+      ],
+      "vcNote": "The structure and features of a media release.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Headline",
+          "value": "Northside skate park reopens with new bowl",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Date and place",
+          "value": "14 March 2026 · Northside"
+        },
+        {
+          "n": 3,
+          "label": "First paragraph",
+          "value": "Northside's skate park will reopen this Saturday after a $1.2 million upgrade."
+        },
+        {
+          "n": 4,
+          "label": "Quote",
+          "value": "“It's built with local riders, for local riders,” said the mayor."
+        },
+        {
+          "n": 5,
+          "label": "More details",
+          "value": "Open 7am–9pm daily. Free entry. Helmets required."
+        },
+        {
+          "n": 6,
+          "label": "Contact",
+          "value": "Media: Sam Patel, 03 5550 0000"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Headline",
+          "note": "Grabs attention and sums up the news."
+        },
+        {
+          "n": 2,
+          "label": "Date and place",
+          "note": "When and where it's from."
+        },
+        {
+          "n": 3,
+          "label": "First paragraph",
+          "note": "The most important facts first: who, what, when, where."
+        },
+        {
+          "n": 4,
+          "label": "Quote",
+          "note": "A real person's words — adds voice and authority."
+        },
+        {
+          "n": 5,
+          "label": "Details",
+          "note": "Less important facts come later."
+        },
+        {
+          "n": 6,
+          "label": "Contact",
+          "note": "Who journalists can call for more."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Work out any text",
+      "steps": [
+        {
+          "title": "Job",
+          "text": "Inform, persuade, instruct or tell a story?",
+          "icon": "lucide:wrench"
+        },
+        {
+          "title": "Audience",
+          "text": "Who is it for?",
+          "icon": "lucide:users"
+        },
+        {
+          "title": "Shape",
+          "text": "How is it set out? What words does it use?",
+          "icon": "lucide:layout-template"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is the main job of a **recipe**?",
+        "options": [
+          "To instruct — tell you how to make something",
+          "To persuade you to buy food",
+          "To tell a story",
+          "To give news"
+        ],
+        "answer": 0,
+        "explain": "Recipes are instructional: ingredients, then steps.",
+        "vc": [
+          "VM-U1O1-KK1"
+        ]
+      },
+      {
+        "q": "An ad says: “Get yours today — only $9!” What type of text is it?",
+        "options": [
+          "Persuasive",
+          "Instructional",
+          "Narrative",
+          "A report"
+        ],
+        "answer": 0,
+        "explain": "It wants you to do something.",
+        "vc": [
+          "VM-U1O1-KK1"
+        ]
+      },
+      {
+        "q": "Which feature would you expect in an **instructional** text?",
+        "options": [
+          "Numbered steps",
+          "A headline about a celebrity",
+          "Characters and a plot",
+          "A price and a sale sticker"
+        ],
+        "answer": 0,
+        "explain": "Steps tell you what to do in order.",
+        "vc": [
+          "VM-U1O1-KK1"
+        ]
+      },
+      {
+        "q": "Why does BoM share a storm in several text types?",
+        "options": [
+          "Different readers need the information in different ways",
+          "To fill up its website",
+          "Because it's required to write long texts",
+          "No reason"
+        ],
+        "answer": 0,
+        "explain": "Same information, different jobs and audiences.",
+        "vc": [
+          "VM-U1O1-KS7"
+        ]
+      },
+      {
+        "q": "A job ad tells you about the job, then says “Apply now!” What does this show?",
+        "options": [
+          "Some texts mix types — it informs, then persuades",
+          "It's a narrative",
+          "It's only instructional",
+          "It's not a text"
+        ],
+        "answer": 0,
+        "explain": "Many real texts combine jobs.",
+        "vc": [
+          "VM-U1O1-KS1",
+          "VM-U1O1-KS7"
+        ]
+      },
+      {
+        "q": "A safety poster has tiny text and no pictures. What's the problem?",
+        "options": [
+          "It may not be effective for busy workers who need to see it fast",
+          "It's too persuasive",
+          "It should be a narrative",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Effective texts suit their purpose and audience.",
+        "vc": [
+          "VM-U1O1-KS8"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Label a media release. Then write the same news two ways: a notice and a post.",
+      "core": "Annotate a media release, compare two other text types, then write the same news as two different text types.",
+      "extend": "Annotate a media release, compare two text types, write the same news as two text types — and judge which works better for its audience."
+    },
+    "checklist": [
+      "I finished my workbook pages",
+      "My two texts have different jobs",
+      "Each one has the right features (headings, steps, strong words…)",
+      "I checked spelling and punctuation"
+    ],
+    "levelUp": "Pick a real text you saw this week. Rate how well it does its job for its audience, and explain how you'd improve it.",
+    "vc": [
+      "VM-U1O1-KK1",
+      "VM-U1O1-KS7"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Every text has a job",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name the **four** text jobs.",
+            "lines": 0,
+            "vc": [
+              "VM-U1O1-KK1"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "What features would you expect in an **instructional** text?",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VM-U1O1-KK1"
+            ]
+          },
+          {
+            "q": "What are the **four questions** to ask about any text?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS1"
+            ]
+          },
+          {
+            "q": "Give an example of a text that does **two** jobs.",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS7"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "What's its job?",
+        "pagebreak": true,
+        "choices": [
+          "Inform",
+          "Persuade",
+          "Instruct"
+        ],
+        "reasonLabel": "Clue:",
+        "instructions": "Tick the main job of each text. Write the clue that told you.",
+        "cards": [
+          {
+            "from": "Sign",
+            "text": "Hard hats must be worn beyond this point.",
+            "answer": "Instruct",
+            "flags": "Tells you what to do."
+          },
+          {
+            "from": "Post",
+            "text": "Best burgers in the west 🍔 Come try them this weekend!",
+            "answer": "Persuade",
+            "flags": "“Best”, “come try”."
+          },
+          {
+            "from": "Notice",
+            "text": "The library is closed on Monday 10 June for the public holiday.",
+            "answer": "Inform",
+            "flags": "Facts: what, when."
+          },
+          {
+            "from": "Manual",
+            "text": "1. Unplug the toaster. 2. Let it cool. 3. Empty the crumb tray.",
+            "answer": "Instruct",
+            "flags": "Numbered steps."
+          },
+          {
+            "from": "Report",
+            "text": "Sales rose 12% in March, mostly from online orders.",
+            "answer": "Inform",
+            "flags": "Facts and numbers.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Flyer",
+            "text": "Don't miss out — sign up for footy before 1 Feb and save $50!",
+            "answer": "Persuade",
+            "flags": "“Don't miss out”, a deal.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KK1",
+          "VM-U1O1-KS1"
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a media release",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a part of the media release. Use the word bank. Write what it is.",
+          "core": "Each number marks a part of the media release. Write what it is and why it's there."
+        },
+        "columns": [
+          "What is it?",
+          "Why is it there?"
+        ],
+        "wordBank": {
+          "support": [
+            "headline",
+            "date",
+            "main facts",
+            "quote",
+            "details",
+            "contact"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O1-KK1"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Compare two text types",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 44,
+          "core": 38
+        },
+        "instructions": "Compare a **recipe** and a **job ad**. The first row is done for you.",
+        "columns": [
+          "",
+          "Recipe",
+          "Job ad"
+        ],
+        "rows": [
+          [
+            "Job",
+            "Teach you how to cook something",
+            "Tell you about a job and get you to apply"
+          ],
+          [
+            "Audience",
+            "",
+            ""
+          ],
+          [
+            "Structure",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Language features",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KS7"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: one storm, many texts",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name the three text types BoM uses. What's the job of each?",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VM-U1O1-KS1",
+              "VM-U1O1-KK1"
+            ]
+          },
+          {
+            "q": "Why is a warning short and urgent?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS7"
+            ]
+          },
+          {
+            "q": "Which text type would **you** look at first in a storm, and why?",
+            "lines": 3,
+            "vc": [
+              "VM-U1O1-KS1"
+            ]
+          },
+          {
+            "q": "How well do you think BoM's social media posts do their job? Give reasons.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS8"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Work out any text",
+        "diagram": 1,
+        "pagebreak": true
+      },
+      {
+        "type": "scenarios",
+        "title": "Pick the right text type",
+        "instructions": "Which text type would you use? Say why.",
+        "items": [
+          {
+            "q": "You need to tell your manager you're sick and can't come in.",
+            "lines": {
+              "support": 4,
+              "core": 3,
+              "extend": 3
+            }
+          },
+          {
+            "q": "You need to teach a new worker how to use the coffee machine.",
+            "lines": {
+              "support": 4,
+              "core": 3,
+              "extend": 3
+            }
+          },
+          {
+            "q": "You want the council to fix the lights at the skate park.",
+            "lines": 3,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KK1"
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: same news, two text types",
+        "pagebreak": true,
+        "prompt": {
+          "support": "The skate park opens on Saturday at 7am. Write it two ways: **(1)** a short notice, **(2)** a post to get people to come.",
+          "core": "The skate park reopens on Saturday at 7am, with a new bowl and free entry. Write it as **(1)** a short **notice** for a noticeboard, and **(2)** a **persuasive post** to get people to come.",
+          "extend": "The skate park reopens on Saturday at 7am with a new bowl and free entry. Write it as (1) an informative notice and (2) a persuasive social post. Then explain which features you chose for each, and why."
+        },
+        "plan": [
+          {
+            "label": "(1) Notice — key facts",
+            "lines": 2
+          },
+          {
+            "label": "(2) Post — how will you persuade?",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "(1) Heading: …",
+          "When: … Where: …",
+          "(2) Don’t miss…",
+          "Come and…"
+        ],
+        "lines": {
+          "support": 9,
+          "core": 10
+        },
+        "check": [
+          "two different jobs",
+          "right features for each",
+          "facts are correct",
+          "checked spelling"
+        ],
+        "vc": [
+          "VM-U1O1-KK1",
+          "VM-U1O1-KS7"
+        ],
+        "vcNote": "Creating the same content as two text types with the right features for each."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Pick a real text you saw this week: a poster, an ad, a sign, a webpage or a post.",
+        "items": [
+          {
+            "q": "What text type is it, and who's it for?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS1"
+            ]
+          },
+          {
+            "q": "Rate how well it does its job (1–5). Explain why.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS8"
+            ]
+          },
+          {
+            "q": "How would you make it work better for its audience?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS8"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can name text types and their jobs.",
+          "I can spot structure and features.",
+          "I can compare two text types.",
+          "I can pick the right type for a job."
+        ],
+        "questions": [
+          "A text type I read every day:",
+          "A text type I need to get better at writing:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn that text types are shaped by their **job** (inform, persuade, instruct, tell a story) and audience, and identify the structures and features of common everyday and workplace texts — including a media release. They compare text types and create the same content in two forms.",
+    "prep": [
+      "Print workbooks.",
+      "Collect real everyday texts (a recipe, a job ad, a safety sign, a takeaway menu) for a hook sort.",
+      "Optional: show a real BoM forecast and warning page."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Every text has a job",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** sort a pile of real texts by job.",
+          "**Explicit teaching (10 min):** the four jobs and their features.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** Every text has a job + questions.",
+          "**Sort (10 min):** What's its job?"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Pull it apart",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** annotate the media release headline and first paragraph.",
+          "**Independent (15 min):** finish the annotation.",
+          "**Compare (15 min):** recipe vs job ad table.",
+          "**Case study (10 min):** one storm, many texts."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Same news, two ways",
+        "minutes": 50,
+        "steps": [
+          "**Scenarios (10 min):** pick the right type.",
+          "**Write (25 min):** final mission; fast finishers Level Up.",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Text type = job + audience + shape.",
+      "Inform (facts), persuade (think/do), instruct (steps), narrative (story).",
+      "Many texts mix jobs (a job ad informs then persuades).",
+      "Ask: job? audience? set-out? kind of words?"
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the media release.",
+        "Fewer sort and table items.",
+        "Notice and post can be 2–3 lines each."
+      ],
+      "extend": [
+        "Explain feature choices in the final mission.",
+        "Evaluate a real text's effectiveness (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O1-KK1",
+        "evidence": "Names text types and their structures and features (sort, media release annotation, final mission)."
+      },
+      {
+        "vc": "VM-U1O1-KS1",
+        "evidence": "Reads and understands a range of everyday and workplace texts and their purposes (sort, case study)."
+      },
+      {
+        "vc": "VM-U1O1-KS7",
+        "evidence": "Compares structure, language and presentation of two text types (recipe vs job ad; BoM forecast vs warning)."
+      },
+      {
+        "vc": "VM-U1O1-KS8",
+        "evidence": "Level Up: evaluates how effectively a real text suits its purpose and audience."
+      }
+    ],
+    "answers": "**What's its job?** Hard hats sign — Instruct. Best burgers — Persuade. Library closed — Inform. Toaster steps — Instruct. Sales report — Inform. Footy flyer — Persuade.\n\n**Media release:** 1 headline; 2 date and place; 3 first paragraph (key facts); 4 quote; 5 more details; 6 contact for journalists.\n\n**Case study:** forecast (facts by day), warning (urgent: what, where, what to do), social posts (quick key message with map/video).",
+    "resources": [
+      {
+        "label": "Bureau of Meteorology",
+        "url": "https://www.bom.gov.au"
+      },
+      {
+        "label": "Australian Government Style Manual (writing for different content types)",
+        "url": "https://www.stylemanual.gov.au"
+      }
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz questions, a word bank on the media release, fewer sort and table items, and shorter notice and post.",
+      "core": "Standard version: full sort, media release annotation, recipe vs job ad comparison and the two-text-types mission.",
+      "extend": "Adds media releases and effectiveness to the vocabulary, a quiz question on effectiveness, and explaining feature choices in the final mission."
+    }
+  }
+}

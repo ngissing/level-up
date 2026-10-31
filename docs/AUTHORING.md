@@ -191,7 +191,7 @@ Blocks flow onto A4 sheets. Add `"pagebreak": true` to start a new sheet. The co
 | `questions` / `scenarios` | `title`, `instructions`, `items[{ q, lines, levelUp?, boxes? }]` | Numbered questions with writing lines; `levelUp` items get a ★ box |
 | `phone-annotate` | `title`, `diagram` (index), `instructions` | Phone message with four labelled annotation slots |
 | `sort` | `title`, `instructions`, `cards[{ from, text, answer, flags }]`, optional `choices` (default Scam/Legit/Not sure) and `reasonLabel` | Cards to classify; answers show on the teacher copy |
-| `doc-annotate` | `title`, `diagram` (index of a `document` diagram), `instructions`, optional `wordBank[]` | A document (e.g. payslip) with numbered markers and a table to explain each one |
+| `doc-annotate` | `title`, `diagram` (index of a `document` diagram), `instructions`, optional `wordBank[]` and `columns` (two headings, default “What is it?” / “What does it tell you?”) | A document (e.g. payslip) with numbered markers and a table to explain each one |
 | `case-study` | `title`, `caseStudy` (index), `items[]` | The case study plus questions |
 | `table` | `title`, `instructions`, `columns[]`, `rows[[…]]`, optional `rowHeight` (mm) | Fill-in table; empty strings become ruled cells; row 1 is the worked example |
 | `equation` | `parts[{ icon, title, text }]` | Visual “A + B = C” (e.g. clues + what I know = inference) |

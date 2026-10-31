@@ -1,0 +1,1002 @@
+{
+  "id": "fact-or-fake",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "A photo of the **Pope in a big white puffer jacket** went viral. Lots of people believed it. **It was fake.**",
+      "core": "In March 2023, a photo of the **Pope in a giant white puffer jacket** went viral. Millions of people saw it. Lots of them believed it. **It was never real.**"
+    },
+    "why": {
+      "support": "Anyone can post anything. AI can make fake photos fast. Check before you share.",
+      "core": "Anyone can post anything — and now AI can make fake photos in seconds. If you can check a post before you share it, you won't get fooled, and you won't fool your friends.",
+      "extend": "Anyone can post anything, and AI can now produce convincing fakes in seconds. Checking a claim — who made it, how it's worded, what other sources say — protects you, your friends and your reputation."
+    },
+    "canDo": {
+      "support": [
+        "I can tell a **fact** from an **opinion** or a **feeling**.",
+        "I can spot words that push me.",
+        "I can check who posted something.",
+        "I can decide if I should share it."
+      ],
+      "core": [
+        "I can tell the difference between a **fact**, an **opinion** and a **feeling**.",
+        "I can spot **loaded** words that try to push me one way.",
+        "I can check where a post came from and what other sources say.",
+        "I can decide whether to share — and explain why."
+      ]
+    },
+    "showIt": "Fact-check a real claim using SIFT, then explain whether you'd share it.",
+    "vocab": [
+      {
+        "word": "fact",
+        "meaning": "something that can be checked and proven true",
+        "example": "The pool opens at 6am is a fact."
+      },
+      {
+        "word": "opinion",
+        "meaning": "what someone thinks or believes",
+        "example": "“Pineapple on pizza is gross” is an opinion."
+      },
+      {
+        "word": "source",
+        "meaning": "where information comes from",
+        "example": "The source was a government website."
+      },
+      {
+        "word": "claim",
+        "meaning": "something a person says is true",
+        "example": "The post made a claim about schools closing."
+      },
+      {
+        "word": "viral",
+        "meaning": "shared by lots of people very quickly",
+        "example": "The video went viral overnight."
+      },
+      {
+        "word": "fake",
+        "meaning": "made to look real but not true",
+        "example": "The photo was fake."
+      },
+      {
+        "word": "bias",
+        "meaning": "leaning one way, not being fair to all sides",
+        "example": "The article showed bias against the team.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "objective",
+        "meaning": "sticking to facts, not feelings",
+        "example": "A good news report is objective.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "subjective",
+        "meaning": "based on feelings or opinions",
+        "example": "“The best movie ever” is subjective.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "deepfake",
+        "meaning": "an AI-made fake photo, video or voice",
+        "example": "The video of the singer was a deepfake.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Fact or Fake? in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Fact or Fake?",
+        "sub": "Don’t share it till you check it",
+        "icon": "lucide:badge-alert",
+        "say": "Fact or fake? Don't share it till you check it."
+      },
+      {
+        "kind": "big",
+        "title": "It looked real. It wasn’t.",
+        "text": "The “puffer jacket Pope” photo (2023) was made by **AI** — and fooled millions.",
+        "icon": "lucide:image-off",
+        "say": "In 2023, a photo of the Pope in a huge white puffer jacket fooled millions of people. It was made by AI.",
+        "vc": [
+          "VC2E6LY06",
+          "VC2E7LY04"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Fact, opinion or feeling?",
+        "text": "Facts can be **checked**. Opinions and feelings can’t. Fakes mix them up on purpose.",
+        "icon": "lucide:scale",
+        "say": "Facts can be checked. Opinions are what someone thinks. Feelings are how someone feels. Fake posts mix them up on purpose.",
+        "vc": [
+          "VC2E4LA02",
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "S",
+        "pill": "SIFT",
+        "pillIcon": "lucide:shield-check",
+        "title": "Stop",
+        "text": "Before you like, share or panic — pause.",
+        "icon": "lucide:hand",
+        "say": "Use SIFT. S: stop. Before you react or share, pause."
+      },
+      {
+        "kind": "flag",
+        "letter": "I",
+        "pill": "SIFT",
+        "pillIcon": "lucide:shield-check",
+        "title": "Investigate the source",
+        "text": "Who posted it? Are they real? What do they want?",
+        "icon": "lucide:user-search",
+        "say": "I: investigate the source. Who posted it? Are they who they say they are?",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "F",
+        "pill": "SIFT",
+        "pillIcon": "lucide:shield-check",
+        "title": "Find better coverage",
+        "text": "Search the claim. What do trusted news sites or fact-checkers say?",
+        "icon": "lucide:search",
+        "say": "F: find better coverage. What do other trusted sources say?",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "T",
+        "pill": "SIFT",
+        "pillIcon": "lucide:shield-check",
+        "title": "Trace it back",
+        "text": "Where did the photo or quote first come from?",
+        "icon": "lucide:undo-2",
+        "say": "T: trace it back. Find where the claim, quote or photo first came from.",
+        "vc": [
+          "VC2E8LY05"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Fact-check a real claim. Then decide: share or not?",
+        "icon": "lucide:shield-check",
+        "say": "Your mission. Fact-check a real claim using SIFT. Then decide: share or not?"
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Check before you share",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Every post is made by someone, for a reason. Some posts want to make you angry or scared. Why? Because angry and scared people **share**.\n\nSort what you read:\n\n1. A **fact** can be checked: “The game starts at 7pm.”\n2. An **opinion** is what someone thinks: “It's the best game ever.”\n3. A **feeling** is how someone feels: “I'm so excited!”\n\nFake posts use big words like *shocking* or *banned*. They want you to react fast.\n\nAI can make fake photos too.\n\nBefore you share, use **SIFT**:\n\n**Stop.** **Investigate** who posted it. **Find** what others say. **Trace** where it came from.",
+          "core": "Every post is made by someone, for a reason. Some want to inform you. Some want to sell to you. Some want to make you angry, scared or excited — because angry, scared and excited people **share**.\n\nStart by sorting what you're reading:\n\n1. A **fact** can be checked: “The game starts at 7pm.”\n2. An **opinion** is what someone thinks: “It'll be the best game of the year.”\n3. A **feeling** is how someone feels: “I'm so excited!”\n\nFake posts mix these up. They use **loaded** words — *shocking*, *banned*, *they don't want you to know* — to make an opinion feel like a fact. Fair, **objective** writing sticks to facts. **Subjective** writing is full of feelings and opinions.\n\nPhotos and videos can be faked too. AI tools can now make a realistic picture of anyone, doing anything.\n\nSo before you share, use **SIFT**: **Stop**. **Investigate** the source. **Find** better coverage. **Trace** it back to where it started.",
+          "extend": "Every post is made by someone, for a reason. Some want to inform you. Some want to sell to you. Some want to make you angry, scared or excited — because emotional people **share**.\n\nStart by sorting what you're reading:\n\n1. A **fact** can be checked: “The game starts at 7pm.”\n2. An **opinion** is what someone thinks: “It'll be the best game of the year.”\n3. A **feeling** is how someone feels: “I'm so excited!”\n\nFake or slanted posts blur these. They use **loaded** language — *shocking*, *banned*, *they don't want you to know* — to dress an opinion up as a fact. **Objective** writing sticks to evidence; **subjective** writing is coloured by feelings and opinions. Even real news can show **bias** through what it includes, leaves out, or which quotes it picks.\n\nContext matters too. A post reflects when and why it was made: the puffer-jacket Pope spread in 2023, the year AI image tools went mainstream and most people didn't yet know what they could do.\n\nBefore you share, use **SIFT**: **Stop**. **Investigate** the source. **Find** better coverage. **Trace** claims, quotes and images back to where they started."
+        },
+        "vc": [
+          "VC2E4LA02",
+          "VC2E6LA02",
+          "VC2E6LY08"
+        ],
+        "vcNote": "Fact / opinion / feeling, loaded words, objective vs subjective, and the SIFT steps. The Extended version adds bias and context."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The puffer-jacket Pope",
+        "icon": "lucide:image-off",
+        "body": {
+          "support": "In March 2023, a photo of **Pope Francis** in a big white puffer jacket went viral. Many people thought it was real.\n\nIt was fake. It was made with an **AI tool called Midjourney**.\n\nThere were clues, like blurry hands. But most people didn't look closely. They just shared it.",
+          "core": "In March 2023, an image of **Pope Francis** wearing a long white puffer jacket appeared online. It looked like a real photo. It was shared all over Twitter and TikTok, and many people believed it.\n\nIt wasn't real. Fact-checkers found it had been made with an **AI image tool called Midjourney** and first posted on Reddit.\n\nNBC News called it one of the first times AI-made misinformation spread on a huge scale. Clues were there — blurry hands, odd details — but most people didn't look closely before sharing."
+        },
+        "source": {
+          "name": "Snopes fact-check — “Not a real photo of the Pope in a puffy coat” (March 2023); NBC News (March 2023)",
+          "url": "https://www.snopes.com/fact-check/not-real-photo-pope-in-puffy-coat"
+        },
+        "think": {
+          "support": [
+            "How was the photo made?",
+            "Why did people believe it?"
+          ],
+          "core": [
+            "How was the image made, and where was it first posted?",
+            "Why do you think so many people believed it?",
+            "What clues could have given it away?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY06",
+          "VC2E7LY04",
+          "VC2E8LY07"
+        ],
+        "vcNote": "How a media text reflects its context (2023, new AI tools) and how technology changes how we respond to texts."
+      },
+      {
+        "title": "Australia's fact-checkers",
+        "icon": "lucide:shield-check",
+        "body": {
+          "support": "**AAP FactCheck** is an Australian team. It checks posts and claims that are spreading online.\n\nIt finds where a claim came from. It asks experts. It checks other trusted sources. Then it says if the claim is true or not.\n\nYou can do the same steps yourself.",
+          "core": "**AAP FactCheck** is a team at Australian Associated Press. AAP is a national news agency. The team checks claims that spread online. It checks social media posts, viral videos and what public figures say.\n\nFirst it looks for where a claim came from. Then it asks experts. It also checks what other trusted sources say. Then it shares what it found, with a verdict such as **False** or **Misleading**.\n\nYou can do the same steps yourself. It only takes a few minutes."
+        },
+        "source": {
+          "name": "AAP FactCheck — Australian Associated Press",
+          "url": "https://www.aap.com.au/factcheck/"
+        },
+        "think": [
+          "What steps does AAP FactCheck take?",
+          "Which of those steps could you do on your phone?"
+        ],
+        "vc": [
+          "VC2E6LY08",
+          "VC2E8LY07"
+        ],
+        "vcNote": "Comparing sources and evaluating a claim, like a professional fact-checker."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a dodgy post",
+      "docTitle": "POST",
+      "vc": [
+        "VC2E6LA02",
+        "VC2E8LY05"
+      ],
+      "vcNote": "How word choices and features of a post push a perspective.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Account",
+          "value": "@daily.truth.247 (joined last month)"
+        },
+        {
+          "n": 2,
+          "label": "Opening",
+          "value": "🚨 BREAKING!!! 🚨"
+        },
+        {
+          "n": 3,
+          "label": "Claim",
+          "value": "All schools closing for 4 weeks from Monday!"
+        },
+        {
+          "n": 4,
+          "label": "Push",
+          "value": "Share before they delete this!!"
+        },
+        {
+          "n": 5,
+          "label": "Image",
+          "value": "[photo of an empty classroom]"
+        },
+        {
+          "n": 6,
+          "label": "Shares",
+          "value": "48.2K",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice. Not a real post.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Who posted it?",
+          "note": "A new account with a vague name. Investigate the source."
+        },
+        {
+          "n": 2,
+          "label": "Alarm words",
+          "note": "Built to make you react, not think."
+        },
+        {
+          "n": 3,
+          "label": "Big claim, no source",
+          "note": "Who says? Find better coverage."
+        },
+        {
+          "n": 4,
+          "label": "Pressure to share",
+          "note": "Real news doesn't need you to rush."
+        },
+        {
+          "n": 5,
+          "label": "Image",
+          "note": "Any photo can be used. Trace it back."
+        },
+        {
+          "n": 6,
+          "label": "Lots of shares",
+          "note": "Popular doesn't mean true."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "SIFT before you share",
+      "steps": [
+        {
+          "title": "Stop",
+          "text": "Pause before you react or share.",
+          "icon": "lucide:hand"
+        },
+        {
+          "title": "Investigate",
+          "text": "Who posted it? What do they want?",
+          "icon": "lucide:user-search"
+        },
+        {
+          "title": "Find",
+          "text": "What do trusted sources and fact-checkers say?",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Trace",
+          "text": "Where did the claim or photo start?",
+          "icon": "lucide:undo-2"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which of these is a **fact**?",
+        "options": [
+          "The library closes at 5pm on Fridays",
+          "This is the worst library ever",
+          "I hate going to the library",
+          "Everyone should read more"
+        ],
+        "answer": 0,
+        "explain": "A fact can be checked.",
+        "vc": [
+          "VC2E4LA02"
+        ]
+      },
+      {
+        "q": "A post says “SHOCKING!!! Share before it's deleted!” What's the post trying to do?",
+        "options": [
+          "Make you react and share before you think",
+          "Give you calm, checked facts",
+          "Sell you a library card",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Alarm words and pressure are warning signs.",
+        "vc": [
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "q": "What does the **I** in SIFT stand for?",
+        "options": [
+          "Investigate the source",
+          "Ignore it",
+          "Invite friends",
+          "Instant share"
+        ],
+        "answer": 0,
+        "explain": "Check who posted it and what they want.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "q": "How was the puffer-jacket Pope image made?",
+        "options": [
+          "With an AI image tool",
+          "By a news photographer",
+          "By the Vatican",
+          "With a phone camera"
+        ],
+        "answer": 0,
+        "explain": "Fact-checkers found it was made with Midjourney.",
+        "vc": [
+          "VC2E7LY04"
+        ]
+      },
+      {
+        "q": "A post has 50,000 shares. What does that tell you about whether it's true?",
+        "options": [
+          "Nothing — popular doesn't mean true",
+          "It must be true",
+          "It must be false",
+          "It's definitely from a news site"
+        ],
+        "answer": 0,
+        "explain": "Check the source and other coverage, not the share count.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "q": "Two news sites report the same event. One says “protesters”, the other says “rioters”. What does this show?",
+        "options": [
+          "Word choices can present different perspectives on the same event",
+          "Both are lying",
+          "Spelling mistakes",
+          "Nothing important"
+        ],
+        "answer": 0,
+        "explain": "Language features represent perspectives — compare sources.",
+        "vc": [
+          "VC2E8LY05"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Check a real post using SIFT. Say if you would share it.",
+      "core": "Fact-check a real claim using SIFT, then explain whether you'd share it.",
+      "extend": "Fact-check a real claim using SIFT, compare how two sources present it, and justify whether you'd share it."
+    },
+    "checklist": [
+      "I finished my workbook pages",
+      "I used all four SIFT steps",
+      "I named at least one source I checked",
+      "I explained whether I'd share it, and why"
+    ],
+    "levelUp": "Compare how two news sources report the same event — find the words that show each one's perspective.",
+    "vc": [
+      "VC2E6LY08",
+      "VC2E8LY07"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Check before you share",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Why do some posts try to make you angry or scared?",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VC2E6LA02"
+            ]
+          },
+          {
+            "q": "Write one **fact**, one **opinion** and one **feeling** about your weekend.",
+            "lines": 0,
+            "vc": [
+              "VC2E4LA02"
+            ],
+            "boxes": [
+              "Fact",
+              "Opinion",
+              "Feeling"
+            ]
+          },
+          {
+            "q": "What do the four letters of **SIFT** stand for?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          },
+          {
+            "q": "How can real news show **bias** without telling a lie?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VC2E6LA02",
+              "VC2E8LY05"
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Fact, opinion or feeling?",
+        "pagebreak": true,
+        "choices": [
+          "Fact",
+          "Opinion",
+          "Feeling"
+        ],
+        "reasonLabel": "How can you tell?",
+        "instructions": "Tick **Fact**, **Opinion** or **Feeling** for each sentence. Say how you can tell.",
+        "cards": [
+          {
+            "from": "Post",
+            "text": "The new skate park opens on Saturday at 9am.",
+            "answer": "Fact",
+            "flags": "Can be checked."
+          },
+          {
+            "from": "Post",
+            "text": "This is the best skate park in Victoria.",
+            "answer": "Opinion",
+            "flags": "“Best” is a judgement."
+          },
+          {
+            "from": "Post",
+            "text": "I'm so pumped I can't sleep!!",
+            "answer": "Feeling",
+            "flags": "How someone feels."
+          },
+          {
+            "from": "Comment",
+            "text": "The council spent $1.2 million on it.",
+            "answer": "Fact",
+            "flags": "Can be checked (council records)."
+          },
+          {
+            "from": "Comment",
+            "text": "That money should have gone to the library.",
+            "answer": "Opinion",
+            "flags": "What someone thinks should happen.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Comment",
+            "text": "Honestly it makes me furious.",
+            "answer": "Feeling",
+            "flags": "An emotion.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E4LA02",
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a dodgy post",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a part of the post. Use the word bank. Write what it is.",
+          "core": "Each number marks a part of the post. Write what it is and why it's a warning sign."
+        },
+        "columns": [
+          "What is it?",
+          "Why is it a warning sign?"
+        ],
+        "wordBank": {
+          "support": [
+            "account",
+            "alarm words",
+            "claim",
+            "pressure",
+            "photo",
+            "shares"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LA02",
+          "VC2E8LY05"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the puffer-jacket Pope",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How was the image made, and where was it first posted?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY06"
+            ]
+          },
+          {
+            "q": "Why do you think so many people believed it?",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VC2E6LY06",
+              "VC2E7LY04"
+            ]
+          },
+          {
+            "q": "What could someone have done to check it before sharing? Use SIFT.",
+            "lines": 3,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          },
+          {
+            "q": "Why did this fake spread so well **in 2023** in particular?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E6LY06",
+              "VC2E7LY04"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Take out the spin",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 22
+        },
+        "instructions": "Rewrite each loaded sentence so it's **objective** — just the facts. The first one is done for you.",
+        "columns": [
+          "Loaded (subjective)",
+          "Just the facts (objective)"
+        ],
+        "rows": [
+          [
+            "Greedy council wastes a fortune on useless skate park!",
+            "The council spent $1.2 million on a new skate park."
+          ],
+          [
+            "Heroic local teen saves the day in amazing rescue!",
+            ""
+          ],
+          [
+            "Disaster! Team humiliated in embarrassing loss!",
+            ""
+          ],
+          {
+            "cells": [
+              "Shocking new rule bans phones — students outraged!",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LA02"
+        ],
+        "vcNote": "Recognising subjective language and rewriting it objectively."
+      },
+      {
+        "type": "flow",
+        "title": "SIFT before you share",
+        "diagram": 1
+      },
+      {
+        "type": "scenarios",
+        "title": "What would you do?",
+        "pagebreak": true,
+        "instructions": "Use **SIFT** to explain what you'd do.",
+        "items": [
+          {
+            "q": "A friend shares a video of a celebrity saying something shocking. The voice sounds a bit odd.",
+            "lines": {
+              "support": 4,
+              "core": 3,
+              "extend": 3
+            }
+          },
+          {
+            "q": "A post says a supermarket is giving away $500 gift cards — just click the link.",
+            "lines": {
+              "support": 4,
+              "core": 3,
+              "extend": 3
+            }
+          },
+          {
+            "q": "Two sites report different numbers for the same bushfire. Which do you trust, and how do you decide?",
+            "lines": 3,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LY08",
+          "VC2E8LY07"
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: fact-check it",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Find a real post or claim. Check it with SIFT. Would you share it? Why?",
+          "core": "Find a real claim that's going around (online, in a group chat or in the news). Check it with SIFT. Write what you found and whether you'd share it.",
+          "extend": "Find a real claim that's going around. Check it with SIFT, compare at least two sources, and write a short verdict explaining whether you'd share it — like a fact-checker would."
+        },
+        "plan": [
+          {
+            "label": "The claim (copy it here)",
+            "lines": 2
+          },
+          {
+            "label": "Sources I checked",
+            "lines": 2
+          }
+        ],
+        "starters": {
+          "support": [
+            "The post said…",
+            "It was from…",
+            "Other sites say…",
+            "I would / wouldn't share it because…"
+          ],
+          "core": [
+            "The claim was…",
+            "It was posted by…",
+            "Other sources say…",
+            "I would / wouldn't share it because…"
+          ]
+        },
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "all four SIFT steps",
+          "at least one source named",
+          "a clear verdict",
+          "reasons given"
+        ],
+        "vc": [
+          "VC2E6LY08",
+          "VC2E8LY07"
+        ],
+        "vcNote": "Applying SIFT, comparing sources and evaluating the claim."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Find **two** news reports about the **same** event from different sources.",
+        "items": [
+          {
+            "q": "Copy one sentence from each that describes the same thing differently.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY05"
+            ]
+          },
+          {
+            "q": "Which words show each source's **perspective**? Who do they make look good or bad?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY05"
+            ]
+          },
+          {
+            "q": "Which report do you trust more, and why?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can tell a fact from an opinion or a feeling.",
+          "I can spot loaded words.",
+          "I can check a source and compare coverage.",
+          "I can decide whether to share — and say why."
+        ],
+        "questions": [
+          "Something I'll check before sharing from now on:",
+          "A source I trust, and why:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to separate fact, opinion and feeling, recognise loaded and subjective language, and check claims using **SIFT** (Stop, Investigate the source, Find better coverage, Trace claims to the original — a method developed by Mike Caulfield). The real cases are the AI-generated ‘puffer-jacket Pope’ image (2023) and how AAP FactCheck works.",
+    "prep": [
+      "Print workbooks.",
+      "Find one current, harmless viral claim to model SIFT live (check it yourself first).",
+      "Have AAP FactCheck open to show a real fact-check."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Fact, opinion, feeling",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** show the Pope image — real or fake? Vote, then reveal.",
+          "**Explicit teaching (15 min):** fact / opinion / feeling; model with sentences about a local event.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** Check before you share + questions.",
+          "**Exit:** one of each about today's lunch."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Spot the spin",
+        "minutes": 50,
+        "steps": [
+          "**Sort (10 min):** fact, opinion or feeling.",
+          "**Model (10 min):** annotate the dodgy post together.",
+          "**Independent (15 min):** finish annotating.",
+          "**Table (15 min):** Take out the spin."
+        ]
+      },
+      {
+        "title": "Lesson 3 — SIFT it",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** the puffer-jacket Pope; context and technology.",
+          "**Model SIFT live (15 min):** check a current claim, thinking aloud.",
+          "**Scenarios (20 min):** pairs."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Fact-check it",
+        "minutes": 50,
+        "steps": [
+          "**Write (30 min):** final mission. Fast finishers: Level Up (compare two reports).",
+          "**Share (5 min):** two or three verdicts.",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Facts can be checked; opinions and feelings can't.",
+      "Loaded words and pressure to share are warning signs.",
+      "SIFT: Stop, Investigate, Find better coverage, Trace it back.",
+      "Popular doesn't mean true. AI can fake photos, video and voices."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the post anatomy.",
+        "Fewer sort cards and table rows.",
+        "Model one full SIFT check before students try."
+      ],
+      "extend": [
+        "Compare two reports of the same event and analyse perspective (Level Up).",
+        "Discuss how the 2023 context (new AI tools) shaped the Pope image's spread."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LA02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Correctly sorts sentences into fact, opinion and feeling, and writes one of each."
+      },
+      {
+        "vc": "VC2E4LY09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses questioning to check a claim (SIFT scenarios)."
+      },
+      {
+        "vc": "VC2E6LY08",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Compares information from more than one source to check a claim (scenarios, final mission)."
+      },
+      {
+        "vc": "VC2E6LA02",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Identifies subjective, loaded language and rewrites it objectively (Take out the spin, post anatomy)."
+      },
+      {
+        "vc": "VC2E6LY06",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Explains how the Pope image reflects the context in which it was created and spread."
+      },
+      {
+        "vc": "VC2E8LY05",
+        "evidence": "Level Up: analyses how language features in two reports represent different perspectives."
+      },
+      {
+        "vc": "VC2E7LY04",
+        "evidence": "Explains how technology (AI image tools, social sharing) affects how people read and respond to media texts."
+      },
+      {
+        "vc": "VC2E8LY07",
+        "evidence": "Level Up / final mission: interprets and evaluates claims and sources, and justifies a verdict."
+      }
+    ],
+    "answers": "**Fact, opinion or feeling?** Opens Saturday 9am — Fact. Best skate park — Opinion. So pumped — Feeling. $1.2 million — Fact. Should have gone to the library — Opinion. Makes me furious — Feeling.\n\n**Dodgy post:** 1 new, vague account; 2 alarm words; 3 big claim with no source; 4 pressure to share; 5 any photo can be reused; 6 shares don't prove truth.\n\n**Take out the spin (sample):** “A local teenager helped rescue …”; “The team lost 0–5.”; “A new rule restricts phone use; some students disagree.”\n\n**Case study:** made with Midjourney; first posted on Reddit (March 2023); spread on Twitter/TikTok.",
+    "resources": [
+      {
+        "label": "Snopes — Not a real photo of the Pope in a puffy coat",
+        "url": "https://www.snopes.com/fact-check/not-real-photo-pope-in-puffy-coat"
+      },
+      {
+        "label": "NBC News — AI-generated images of Pope Francis fool the internet",
+        "url": "https://www.nbcnews.com/tech/pope-francis-ai-generated-images-fool-internet-rcna76838"
+      },
+      {
+        "label": "AAP FactCheck",
+        "url": "https://www.aap.com.au/factcheck/"
+      }
+    ],
+    "levels": {
+      "support": "Simpler article and case studies, 6 key words, 3-choice quiz questions, a word bank on the post anatomy, fewer sort, table and scenario items. Evidence counts towards **Levels 3–4**.",
+      "core": "Standard version: full sort, table, scenarios and the fact-check mission. Evidence counts towards **Level 6**.",
+      "extend": "Adds bias and context to the article, 10 key words, a quiz question on perspective and a source-comparison verdict. Level Up reaches **Levels 7–8**."
+    }
+  }
+}

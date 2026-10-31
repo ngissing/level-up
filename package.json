@@ -1,6 +1,6 @@
 {
   "name": "levelup-literacy",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "private": true,
   "description": "Self-paced literacy mini courses for teens, mapped to the Victorian Curriculum F-10 v2.0 English.",
   "type": "module",

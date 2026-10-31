@@ -1,0 +1,1007 @@
+{
+  "id": "say-it-right",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "You need Friday off. You text your mate: **“cant come fri lol”**. Would you send that to your boss? **No way.**",
+      "core": "You need Friday off. You text your mate: **“cant come fri lol”**. Would you send your boss the same thing? Same news. Different person. **Totally different words.**"
+    },
+    "why": {
+      "support": "Your words show how you feel about someone. The right **tone** helps you get what you need.",
+      "core": "The words you choose show how you see someone — and change how they see you. Get the **tone** right and you get the shift swap, the extension, the second chance.",
+      "extend": "Every message signals a relationship. The words, greeting and tone you choose position you — as a mate, a professional, a customer. Choosing them on purpose is how you get taken seriously."
+    },
+    "canDo": {
+      "support": [
+        "I can tell if a message should be **casual** or **formal**.",
+        "I can change some casual words into formal words.",
+        "I can write a short, polite message to a boss or teacher.",
+        "I can check my message before I send it."
+      ],
+      "core": [
+        "I can work out how **formal** a message needs to be: who, why and where.",
+        "I can change a message from **casual** to **formal**, and back.",
+        "I can write a clear, polite message to a boss, teacher or service.",
+        "I can check and fix my message before I hit send."
+      ]
+    },
+    "showIt": "Rewrite the same news for three different people, then write one polished message to a boss or teacher.",
+    "vocab": [
+      {
+        "word": "tone",
+        "meaning": "how a message sounds and feels",
+        "example": "Her tone was friendly but serious."
+      },
+      {
+        "word": "formal",
+        "meaning": "polite, careful words for people in charge",
+        "example": "Use formal words in an email to your boss."
+      },
+      {
+        "word": "casual",
+        "meaning": "relaxed, everyday words for friends and family",
+        "example": "Texts to mates are usually casual."
+      },
+      {
+        "word": "audience",
+        "meaning": "the person or people a message is for",
+        "example": "My audience is the manager."
+      },
+      {
+        "word": "slang",
+        "meaning": "very casual words used by a group",
+        "example": "“Sus” and “lowkey” are slang."
+      },
+      {
+        "word": "greeting",
+        "meaning": "the way you say hello at the start",
+        "example": "“Hi Ms Rossi,” is a good greeting."
+      },
+      {
+        "word": "sign-off",
+        "meaning": "the way you finish a message",
+        "example": "“Thanks, Jordan” is a sign-off.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "proofread",
+        "meaning": "check carefully for mistakes before sending",
+        "example": "Always proofread before you hit send.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "register",
+        "meaning": "the level of formality you choose for a situation",
+        "example": "A job interview needs a formal register.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "relationship",
+        "meaning": "how two people are connected, like workmates",
+        "example": "The relationship changes the words you use.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Say It Right in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Say It Right",
+        "sub": "Text your mate. Email your boss. Know the difference.",
+        "icon": "lucide:messages-square",
+        "say": "Say it right. Text your mate. Email your boss. Know the difference."
+      },
+      {
+        "kind": "message",
+        "title": "Would you send this?",
+        "sender": "To: Boss (Dani)",
+        "text": "hey can u give me fri off? got stuff on lol",
+        "say": "You need Friday off. Would you send your boss this? Hey, can you give me Friday off? Got stuff on, lol. Probably not."
+      },
+      {
+        "kind": "big",
+        "title": "Same message. Different reader.",
+        "text": "Who you’re talking to changes **how** you say it.",
+        "icon": "lucide:users",
+        "say": "Same message, different reader. Who you're talking to changes how you say it.",
+        "vc": [
+          "VC2E4LA01",
+          "VC2E5LA01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Ask yourself",
+        "pillIcon": "lucide:circle-help",
+        "title": "Who?",
+        "text": "A mate? A teacher? A boss? A stranger at a service desk?",
+        "icon": "lucide:user-round",
+        "say": "Ask yourself three questions. One: who? A mate? A teacher? A boss? A stranger at a service desk?",
+        "vc": [
+          "VC2E3LA01",
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Ask yourself",
+        "pillIcon": "lucide:circle-help",
+        "title": "Why?",
+        "text": "Asking for something? Saying sorry? Giving information?",
+        "icon": "lucide:target",
+        "say": "Two: why? Are you asking for something, saying sorry, or giving information?"
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Ask yourself",
+        "pillIcon": "lucide:circle-help",
+        "title": "Where?",
+        "text": "Text, email, phone call or face to face?",
+        "icon": "lucide:mail",
+        "say": "Three: where? A text, an email, a phone call, or face to face?"
+      },
+      {
+        "kind": "steps",
+        "title": "Turn it up: more formal",
+        "steps": [
+          "Use their name and a greeting",
+          "Full words — no slang or emojis",
+          "Say what you need, clearly and politely",
+          "Sign off with your name"
+        ],
+        "say": "To make it more formal: use their name and a greeting. Use full words, no slang or emojis. Say what you need clearly and politely. Sign off with your name.",
+        "vc": [
+          "VC2E5LA01",
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "kind": "stat",
+        "title": "A thumbs-up cost a farmer about $82,000",
+        "big": "👍",
+        "sub": "A Canadian court ruled the emoji meant “I agree”. Source: CTV News, 2023",
+        "say": "In Canada, a court ruled that a farmer's thumbs-up emoji meant he'd agreed to a contract. It cost him about eighty-two thousand dollars."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Rewrite one message for three people. Then write one you’d be proud to send your boss.",
+        "icon": "lucide:send",
+        "say": "Your mission. Rewrite one message for three different people. Then write one you'd be proud to send your boss."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Turn it up, turn it down",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Think of your words like a **volume dial**.\n\nWith mates, you turn it **down**. Short words. Slang. Emojis. That's **casual**.\n\nWith a boss or teacher, you turn it **up**. Full words. A greeting. Please and thanks. That's **formal**.\n\nAsk yourself three questions:\n\n1. **Who** is it for?\n2. **Why** am I writing?\n3. **Where** will they read it?\n\nThe more someone is in charge, the more **formal** you go.\n\nShort replies count too. A 👍 can mean “yes”.\n\nBefore you send, read it again. Fix mistakes.",
+          "core": "Think of your words like a **volume dial**. With your mates, you turn it down: short, relaxed, full of in-jokes and emojis. That's **casual** language. With a boss, a teacher or a stranger at a service desk, you turn it up: full words, a greeting, please and thanks. That's **formal** language.\n\nNeither one is wrong. The trick is choosing the right one. Ask yourself three questions:\n\n1. **Who** am I talking to? How well do I know them? Are they in charge?\n2. **Why** am I writing? Am I asking for something, saying sorry, or giving information?\n3. **Where** will they read it? A text, an email, a phone call?\n\nThe less well you know someone, and the more they have a say over you, the more **formal** you go. A message to your boss about a shift should have a greeting, full words, a clear request and your name at the end.\n\nOne more thing: short replies count. An emoji or a quick “ok” can be taken as a real answer — so think before you send.\n\nBefore you hit send, **proofread**. Read it once more, out loud if you can. Fix spelling, add a greeting, and check it says what you mean.",
+          "extend": "Think of your words like a **volume dial**. With your mates, you turn it down: short, relaxed, full of in-jokes and emojis. That's **casual** language. With a boss, a teacher or a stranger at a service desk, you turn it up: full words, a greeting, please and thanks. That's **formal** language.\n\nNeither one is wrong. The trick is choosing the right one. Ask yourself three questions:\n\n1. **Who** am I talking to? How well do I know them? Are they in charge?\n2. **Why** am I writing? Am I asking for something, saying sorry, or giving information?\n3. **Where** will they read it? A text, an email, a phone call?\n\nThe less well you know someone, and the more they have a say over you, the more **formal** you go. Linguists call this choice your **register**.\n\nYour language also shows who you are. Slang can show you belong to a group; formal language can show you're reliable and serious. Switching between them isn't being fake — it's a skill.\n\nShort replies count. An emoji or a quick “ok” can be taken as a real answer — so think before you send. And before you hit send, **proofread**: cut anything repeated, put the most important point first, and check every word."
+        },
+        "vc": [
+          "VC2E3LA01",
+          "VC2E4LA01",
+          "VC2E5LA01",
+          "VC2E6LA01"
+        ],
+        "vcNote": "The volume-dial idea and the three questions (who, why, where). The Extended version adds how language shows identity."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The 👍 that cost $82,000",
+        "icon": "lucide:thumbs-up",
+        "body": {
+          "support": "A grain buyer in Canada texted a farmer a contract. He wrote: “Please confirm flax contract.”\n\nThe farmer replied with just a **👍**.\n\nLater, there was a fight about the deal. The farmer said 👍 meant “I got your message”. The buyer said it meant “I agree”.\n\nIn 2023 a judge said the 👍 meant **“I agree”**. The farmer had to pay about **$82,000**.\n\nAt work, even a tiny reply can count.",
+          "core": "In 2021, a grain buyer in Canada texted a farmer. He sent a photo of a contract to buy flax. He wrote: “Please confirm flax contract.” The farmer replied with one thing: a **👍 thumbs-up emoji**.\n\nWhen the flax wasn't delivered, the buyer went to court. The farmer said the thumbs-up only meant he had **received** the message — not that he agreed.\n\nIn 2023 a judge ruled that the 👍 **did** mean “I agree”. The farmer was ordered to pay about **$82,000** (Canadian). In 2024, Saskatchewan's Court of Appeal upheld the decision.\n\nThe lesson: at work, even a tiny reply can be taken seriously."
+        },
+        "source": {
+          "name": "CTV News — “Thumbs up emoji costs Sask. farmer $82,000” (July 2023); CBC News on the 2024 appeal",
+          "url": "https://saskatoon.ctvnews.ca/thumbs-up-emoji-costs-sask-farmer-82-000-1.6468402"
+        },
+        "think": {
+          "support": [
+            "What did 👍 mean to the farmer?",
+            "What could he have written instead?"
+          ],
+          "core": [
+            "What did the farmer think 👍 meant? What did the judge decide?",
+            "Why might a boss read a short reply differently from a mate?",
+            "What could the farmer have written instead?"
+          ]
+        },
+        "vc": [
+          "VC2E5LA01",
+          "VC2E6LA01"
+        ],
+        "vcNote": "How the same reply means different things in a casual and a work relationship."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a formal email",
+      "docTitle": "EMAIL",
+      "vc": [
+        "VC2E5LA01",
+        "VC2E6LA01",
+        "VC2E5LY10"
+      ],
+      "vcNote": "Each part of a formal message and why it's there.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "To",
+          "value": "dani.cooper@burgers.example"
+        },
+        {
+          "n": 2,
+          "label": "Subject",
+          "value": "Request: Friday 14 March off"
+        },
+        {
+          "n": 3,
+          "label": "Greeting",
+          "value": "Hi Dani,"
+        },
+        {
+          "n": 4,
+          "label": "Opening",
+          "value": "I’m writing to ask about my Friday shift."
+        },
+        {
+          "n": 5,
+          "label": "Main message",
+          "value": "I have a medical appointment I can’t move."
+        },
+        {
+          "n": 6,
+          "label": "Request",
+          "value": "Could I please swap with Sam, who is free?"
+        },
+        {
+          "n": 7,
+          "label": "Sign-off",
+          "value": "Thanks, Jordan Lee",
+          "strong": true
+        }
+      ],
+      "note": "Example only. Names and business are made up.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Right person",
+          "note": "Send it to the person who can say yes."
+        },
+        {
+          "n": 2,
+          "label": "Clear subject",
+          "note": "They know what it's about before they open it."
+        },
+        {
+          "n": 3,
+          "label": "Greeting with their name",
+          "note": "Polite and personal."
+        },
+        {
+          "n": 4,
+          "label": "Opening",
+          "note": "Gets straight to the point."
+        },
+        {
+          "n": 5,
+          "label": "The reason",
+          "note": "Short and honest. No over-sharing."
+        },
+        {
+          "n": 6,
+          "label": "Clear, polite request",
+          "note": "Please, and a solution if you can."
+        },
+        {
+          "n": 7,
+          "label": "Sign-off",
+          "note": "Thanks and your full name."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Before you send: Who? Why? Where?",
+      "steps": [
+        {
+          "title": "Who?",
+          "text": "How well do you know them? Are they in charge?",
+          "icon": "lucide:user-round"
+        },
+        {
+          "title": "Why?",
+          "text": "Asking, saying sorry or giving information?",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "Where?",
+          "text": "Text, email, call or face to face?",
+          "icon": "lucide:mail"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "You need a day off. Which message is best to send your **boss**?",
+        "options": [
+          "“Hi Dani, could I please have Friday off? I have an appointment. Thanks, Jordan”",
+          "“cant come fri lol”",
+          "“👍”",
+          "Nothing — just don't turn up"
+        ],
+        "answer": 0,
+        "explain": "A greeting, a clear request, please and your name.",
+        "vc": [
+          "VC2E5LA01"
+        ]
+      },
+      {
+        "q": "You're writing to someone you **don't know well** who is **in charge**. What should you do?",
+        "options": [
+          "Make it more formal",
+          "Use more slang",
+          "Use lots of emojis",
+          "Make it as short as possible"
+        ],
+        "answer": 0,
+        "explain": "Less familiar + more in charge = more formal.",
+        "vc": [
+          "VC2E3LA01",
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "q": "What does **tone** mean?",
+        "options": [
+          "How a message sounds and feels",
+          "How long a message is",
+          "What font you use",
+          "How fast you type"
+        ],
+        "answer": 0,
+        "explain": "Tone is how your message comes across."
+      },
+      {
+        "q": "What's the lesson from the 👍 court case?",
+        "options": [
+          "A short, casual reply can still be taken as a serious answer",
+          "Emojis are illegal at work",
+          "Courts don't care about texts",
+          "Always reply with an emoji"
+        ],
+        "answer": 0,
+        "explain": "The judge ruled the thumbs-up meant “I agree”.",
+        "vc": [
+          "VC2E5LA01"
+        ]
+      },
+      {
+        "q": "Which is the best **subject line** for an email to your teacher about a late assignment?",
+        "options": [
+          "Late assignment – Jordan Lee, English",
+          "hey",
+          "URGENT!!!",
+          "(no subject)"
+        ],
+        "answer": 0,
+        "explain": "Clear and specific, so they know what it's about."
+      },
+      {
+        "q": "Why might someone use slang with friends but formal words at work?",
+        "options": [
+          "Language shows the relationship and the role you're in",
+          "Slang is always wrong",
+          "Friends can't understand formal words",
+          "Workplaces ban slang"
+        ],
+        "answer": 0,
+        "explain": "The words you choose signal the relationship and how you want to be seen.",
+        "vc": [
+          "VC2E7LA01",
+          "VC2E8LA01"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Rewrite one message for three people. Then write a short, polite message to a boss or teacher.",
+      "core": "Rewrite one message for three different people, then write a polished message to a boss or teacher.",
+      "extend": "Rewrite one message for three different audiences, explain your language choices, then write and edit a polished message to a boss or teacher."
+    },
+    "checklist": [
+      "I finished my workbook pages",
+      "My formal message has a greeting, a clear request and my name",
+      "I changed my words to suit each person",
+      "I read it again and fixed mistakes"
+    ],
+    "levelUp": "Edit a messy message: cut repeats, put the main point first and swap in better words — then explain how your words show who you are.",
+    "vc": [
+      "VC2E4LY10",
+      "VC2E5LY10",
+      "VC2E5LY11"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Turn it up, turn it down",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What are the **three questions** to ask before you write?",
+            "lines": 0,
+            "vc": [
+              "VC2E3LA01",
+              "VC2E6LA01"
+            ],
+            "boxes": [
+              "Who?",
+              "Why?",
+              "Where?"
+            ]
+          },
+          {
+            "q": "Name **two** differences between casual and formal messages.",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VC2E4LA01",
+              "VC2E5LA01"
+            ]
+          },
+          {
+            "q": "Why could a short reply like “ok” or 👍 cause problems at work?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA01"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "q": "How does the way you talk show **who you are**? Give an example.",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA01"
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Casual or formal?",
+        "pagebreak": true,
+        "choices": [
+          "Casual",
+          "Formal",
+          "Depends"
+        ],
+        "reasonLabel": "Who could it be for?",
+        "instructions": "Tick **Casual**, **Formal** or **Depends**. Then say who it could be sent to.",
+        "cards": [
+          {
+            "from": "Text",
+            "text": "omw!! 5 mins 🏃",
+            "answer": "Casual",
+            "flags": "A mate or family."
+          },
+          {
+            "from": "Email",
+            "text": "Hi Ms Rossi, I'm sorry my assignment is late. Could I please have until Monday? Thanks, Ari",
+            "answer": "Formal",
+            "flags": "A teacher."
+          },
+          {
+            "from": "Text",
+            "text": "Hi Sam, it's Jordan. I can't make my 4pm shift today because I'm sick. Sorry for the short notice.",
+            "answer": "Formal",
+            "flags": "A manager or supervisor."
+          },
+          {
+            "from": "Chat",
+            "text": "lol same 😂",
+            "answer": "Casual",
+            "flags": "Friends."
+          },
+          {
+            "from": "Message",
+            "text": "Thanks for the info, I'll be there at 9.",
+            "answer": "Depends",
+            "flags": "Fine for a coach or a mate — polite but relaxed.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Email",
+            "text": "To whom it may concern, I am writing to apply for the casual crew position.",
+            "answer": "Formal",
+            "flags": "An employer you haven't met.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E3LA01",
+          "VC2E4LA01",
+          "VC2E6LA01"
+        ],
+        "vcNote": "Matching formality to the relationship."
+      },
+      {
+        "type": "table",
+        "title": "Turn it up",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 40,
+          "core": 34
+        },
+        "instructions": "Change each casual message into a **formal** one. The first one is done for you.",
+        "columns": [
+          "Casual (to a mate)",
+          "Formal (to a boss or teacher)"
+        ],
+        "rows": [
+          [
+            "cant come fri lol",
+            "Hi Dani, I’m sorry but I can’t work on Friday. Could someone cover my shift? Thanks, Jordan"
+          ],
+          [
+            "running late sorry!!",
+            ""
+          ],
+          [
+            "can u send the homework?",
+            ""
+          ],
+          {
+            "cells": [
+              "yeah nah that time doesnt work",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E4LA01",
+          "VC2E5LA01",
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a formal email",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a part of the email. Use the word bank. Write what it is.",
+          "core": "Each number marks a part of the email. Write what it is and why it's there."
+        },
+        "wordBank": {
+          "support": [
+            "to",
+            "subject",
+            "greeting",
+            "opening",
+            "reason",
+            "request",
+            "sign-off"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LY10",
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the 👍 that cost $82,000",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the farmer reply with, and what did the judge decide it meant?",
+            "lines": 2
+          },
+          {
+            "q": "Why might a buyer read a 👍 differently from a mate?",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VC2E5LA01",
+              "VC2E6LA01"
+            ]
+          },
+          {
+            "q": "Rewrite the farmer's reply so there could be no confusion.",
+            "lines": 3,
+            "vc": [
+              "VC2E5LY10"
+            ]
+          },
+          {
+            "q": "What does this case show about how **relationships and roles** change what words mean?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LA01"
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Before you send: Who? Why? Where?",
+        "diagram": 1,
+        "pagebreak": true
+      },
+      {
+        "type": "scenarios",
+        "title": "Same news, three people",
+        "instructions": "You **can't make it on Saturday**. Write a short message to each person.",
+        "items": [
+          {
+            "q": "Your best mate (you were going to the footy).",
+            "lines": {
+              "support": 3,
+              "core": 3,
+              "extend": 3
+            }
+          },
+          {
+            "q": "Your manager (you're rostered on).",
+            "lines": {
+              "support": 4,
+              "core": 4,
+              "extend": 3
+            }
+          },
+          {
+            "q": "Your basketball coach (it's a game day).",
+            "lines": {
+              "support": 3,
+              "core": 3,
+              "extend": 3
+            },
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E4LY10",
+          "VC2E5LA01"
+        ],
+        "vcNote": "Adapting one message for different relationships."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: the message you'd be proud to send",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write a short message to a boss or teacher. Ask for something you need. Make it polite.",
+          "core": "Write a message to a boss or teacher. Ask for something you really need — a shift swap, an extension or a reference. Make it clear, polite and **formal**.",
+          "extend": "Write a message to a boss or teacher asking for something you really need. Choose your register on purpose, put the main point first, and edit it until every word earns its place."
+        },
+        "plan": [
+          {
+            "label": "Who is it for? How formal?",
+            "lines": 2
+          },
+          {
+            "label": "What do you want them to do?",
+            "lines": 2
+          }
+        ],
+        "starters": {
+          "support": [
+            "Hi [name],",
+            "Could I please…",
+            "This is because…",
+            "Thank you,"
+          ],
+          "core": [
+            "Hi [name],",
+            "I’m writing to ask…",
+            "This is because…",
+            "Could I please…",
+            "Thanks, [your name]"
+          ]
+        },
+        "lines": {
+          "support": 9,
+          "core": 10
+        },
+        "check": [
+          "greeting with their name",
+          "clear request",
+          "polite",
+          "proofread"
+        ],
+        "vc": [
+          "VC2E4LY10",
+          "VC2E5LY10",
+          "VC2E5LY11"
+        ],
+        "vcNote": "The final message, then the checklist to re-read and edit it."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Edit this message to a manager: “hey so um i was wondering if i could maybe get a different shift because i have footy training on thursday and footy training goes late on thursday so yeah.”",
+        "items": [
+          {
+            "q": "Rewrite it: cut the repeats, put the main point first, and choose better words.",
+            "lines": 6,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY09",
+              "VC2E5LY11"
+            ]
+          },
+          {
+            "q": "What did you change, and why does it work better for a manager?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY09"
+            ]
+          },
+          {
+            "q": "How do the words we choose show **who we are** and **how we see the other person**?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA01",
+              "VC2E8LA01"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can work out how formal a message should be.",
+          "I can change casual words into formal words.",
+          "I can write a clear, polite request.",
+          "I can check and fix my message before sending."
+        ],
+        "questions": [
+          "A message I'll write differently from now on:",
+          "Who I need to be most formal with:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn that language choices depend on **who** they're writing to, **why**, and **where** — and practise turning the “volume” of formality up and down. The core literacy is selecting language for social context and relationships, then creating and editing a short formal message. It's high-relevance for students with part-time jobs or about to start one.",
+    "prep": [
+      "Print workbooks.",
+      "Collect two or three real (anonymised) messages students might send a boss — or use the examples in the workbook.",
+      "Have the explainer ready on the board."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The volume dial",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** project “cant come fri lol” — would you send this to your boss? Why not?",
+          "**Explicit teaching (15 min):** casual vs formal; model Who? Why? Where? with three versions of one message.",
+          "**Watch (5 min):** explainer.",
+          "**Vocab (10 min):** Word Power.",
+          "**Exit:** one casual and one formal way to say “I'm running late”."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Sort and switch",
+        "minutes": 50,
+        "steps": [
+          "**Read (15 min):** “Turn it up, turn it down” + Check your reading.",
+          "**Pairs (15 min):** Casual or formal? sort.",
+          "**Model then independent (20 min):** Turn it up table."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Anatomy and a real case",
+        "minutes": 50,
+        "steps": [
+          "**Explicit teaching (15 min):** label the email anatomy together.",
+          "**Case study (20 min):** the 👍 contract; discuss what it means for work messages.",
+          "**Scenarios (15 min):** same news, three people."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Write it, fix it",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** draft a request on the board, then edit it aloud using the checklist.",
+          "**Write (25 min):** final mission. Fast finishers: Level Up edit.",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Who? Why? Where? decide how formal to be.",
+      "More formal: greeting with name, full words, clear polite request, sign-off.",
+      "Short replies and emojis can be taken as real answers.",
+      "Always re-read and fix before sending."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the email anatomy page.",
+        "Sentence starters for every message; accept 2–3 sentences.",
+        "Fewer sort cards and table rows."
+      ],
+      "extend": [
+        "Explain how slang and formal language express identity and relationships.",
+        "Edit a long, repetitive message for impact (Level Up).",
+        "Compare the same request written for three audiences and justify each choice."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LA01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Sorts messages by formality and names a suitable audience for each."
+      },
+      {
+        "vc": "VC2E4LA01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Changes casual messages into formal ones in the Turn it up table."
+      },
+      {
+        "vc": "VC2E4LY10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Writes short messages for a mate, a manager (and a coach) that suit each person."
+      },
+      {
+        "vc": "VC2E5LA01",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Chooses language that signals the relationship (mate vs manager) in the table, scenarios and final message."
+      },
+      {
+        "vc": "VC2E6LA01",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Explains how formality rises as social distance increases (sort reasons, case-study answers)."
+      },
+      {
+        "vc": "VC2E5LY10",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Final message is sequenced (greeting, purpose, reason, request, sign-off) for its audience."
+      },
+      {
+        "vc": "VC2E5LY11",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Re-reads and edits the final message against the checklist."
+      },
+      {
+        "vc": "VC2E7LA01",
+        "evidence": "Level Up: explains how word choices show identity."
+      },
+      {
+        "vc": "VC2E8LA01",
+        "evidence": "Level Up / case study: explains how relationships and roles shape what words mean."
+      },
+      {
+        "vc": "VC2E7LY09",
+        "evidence": "Level Up: edits a message by removing repetition, reordering and substituting words, and explains the changes."
+      }
+    ],
+    "answers": "**Check your reading:** Who? Why? Where? Casual = short, slang, emojis; formal = greeting, full words, please/thanks, sign-off. Short replies can be taken as agreement.\n\n**Casual or formal?** omw — Casual. Ms Rossi email — Formal. Sick message to Sam — Formal. lol same — Casual. “Thanks for the info” — Depends. “To whom it may concern” — Formal.\n\n**Email anatomy:** 1 recipient; 2 subject; 3 greeting; 4 opening; 5 reason; 6 request; 7 sign-off.\n\n**Case study:** 👍 — the judge decided it meant “I agree”; ordered to pay about $82,000 (Canadian); upheld on appeal in 2024.",
+    "resources": [
+      {
+        "label": "CTV News — Thumbs up emoji costs Sask. farmer $82,000 (2023)",
+        "url": "https://saskatoon.ctvnews.ca/thumbs-up-emoji-costs-sask-farmer-82-000-1.6468402"
+      },
+      {
+        "label": "CBC News — Court of Appeal upholds thumbs-up emoji decision (2024)",
+        "url": "https://amp.cbc.ca/news/canada/saskatchewan/court-of-appeal-thumbs-up-emoji-contract-1.7415247"
+      }
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz questions, a word bank on the email anatomy, fewer sort cards and table rows, and more sentence starters. Evidence counts towards **Levels 3–4**.",
+      "core": "Standard version: 8 key words, full sort and table, three-person scenarios and the final message. Evidence counts towards **Levels 5–6**.",
+      "extend": "Adds register and identity to the article, 10 key words, a quiz question on relationships, an identity question and a harder case-study question. Level Up evidence reaches **Levels 7–8**."
+    }
+  }
+}
