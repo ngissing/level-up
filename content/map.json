@@ -71,19 +71,22 @@
       "literacy": "Reading for purpose and audience; spotting persuasive tricks; reading between the lines (inference).",
       "vc": {
         "support": [
-          "L3-AIE",
-          "L3-TIC",
-          "L4-LIO"
+          "VC2E3LY09",
+          "VC2E4LY09",
+          "VC2E4LA02",
+          "VC2E4LA01"
         ],
         "core": [
-          "L5-AIE",
-          "L5-TIC",
-          "L5-LIO"
+          "VC2E5LY08",
+          "VC2E5LY09",
+          "VC2E5LA01",
+          "VC2E5LY10"
         ],
         "extend": [
-          "L7-AIE",
-          "L8-AIE",
-          "L7-TIC"
+          "VC2E6LY07",
+          "VC2E7LY05",
+          "VC2E7LY07",
+          "VC2E7LY08"
         ]
       },
       "badge": {
@@ -102,15 +105,21 @@
       "realLife": "Choose the right tone and words for who you’re talking to — friends, teachers, bosses, services.",
       "literacy": "Formal and informal language (register); writing short messages for a purpose and audience.",
       "vc": {
+        "support": [
+          "VC2E3LA01",
+          "VC2E4LA01",
+          "VC2E4LY10"
+        ],
         "core": [
-          "L5-LIO",
-          "L5-CT",
-          "L4-LIO"
+          "VC2E5LA01",
+          "VC2E6LA01",
+          "VC2E5LY10",
+          "VC2E5LY11"
         ],
         "extend": [
-          "L7-LIO",
-          "L8-LIO",
-          "L7-CT"
+          "VC2E7LA01",
+          "VC2E8LA01",
+          "VC2E7LY09"
         ]
       },
       "badge": {
@@ -129,14 +138,20 @@
       "realLife": "Skim and scan websites, menus, timetables and signs to find what you need quickly.",
       "literacy": "Skimming and scanning; using headings, tables and links to navigate texts.",
       "vc": {
+        "support": [
+          "VC2E3LA05",
+          "VC2E4LA05",
+          "VC2E4LY09"
+        ],
         "core": [
-          "L5-AIE",
-          "L4-TSO",
-          "L5-TSO"
+          "VC2E5LY09",
+          "VC2E5LA03",
+          "VC2E6LY08"
         ],
         "extend": [
-          "L6-AIE",
-          "L7-TSO"
+          "VC2E7LY07",
+          "VC2E7LA03",
+          "VC2E7LY04"
         ]
       },
       "badge": {
@@ -155,13 +170,17 @@
       "realLife": "Read a payslip: hours, pay rate, gross and net pay, tax and super. Spot mistakes.",
       "literacy": "Reading information in tables; technical vocabulary; checking literal details.",
       "vc": {
+        "support": [
+          "VC2E3LA11",
+          "VC2E4LY09"
+        ],
         "core": [
-          "L5-AIE",
-          "L4-EDI"
+          "VC2E5LA08",
+          "VC2E5LY09"
         ],
         "extend": [
-          "L6-AIE",
-          "L6-TSO"
+          "VC2E7LA08",
+          "VC2E7LY07"
         ]
       },
       "badge": {
@@ -180,13 +199,18 @@
       "realLife": "Compare phone plans and spot what the ads don’t tell you.",
       "literacy": "Comparing information across texts; persuasive language in ads; reading the small print.",
       "vc": {
+        "support": [
+          "VC2E4LA02",
+          "VC2E4LY08"
+        ],
         "core": [
-          "L5-AIE",
-          "L5-TIC"
+          "VC2E5LY08",
+          "VC2E6LA02",
+          "VC2E6LY08"
         ],
         "extend": [
-          "L6-AIE",
-          "L8-AIE"
+          "VC2E7LY05",
+          "VC2E8LY07"
         ]
       },
       "badge": {
@@ -205,14 +229,19 @@
       "realLife": "Make a simple weekly budget and a savings goal you can actually stick to.",
       "literacy": "Reading charts and tables; writing a clear plan with steps (procedural text).",
       "vc": {
+        "support": [
+          "VC2E4LA03",
+          "VC2E4LY10"
+        ],
         "core": [
-          "L5-CT",
-          "L5-TSO",
-          "L5-AIE"
+          "VC2E5LY10",
+          "VC2E5LA03",
+          "VC2E5LA04"
         ],
         "extend": [
-          "L6-CT",
-          "L7-TSO"
+          "VC2E7LY08",
+          "VC2E7LA04",
+          "VC2E7LY06"
         ]
       },
       "badge": {
@@ -231,14 +260,18 @@
       "realLife": "Check if a seller is legit, read reviews critically and know your refund rights.",
       "literacy": "Evaluating reliability of sources; fact versus opinion; persuasive language.",
       "vc": {
+        "support": [
+          "VC2E4LA02",
+          "VC2E4LY09"
+        ],
         "core": [
-          "L6-AIE",
-          "L5-TIC",
-          "L6-LIO"
+          "VC2E6LA02",
+          "VC2E5LA02",
+          "VC2E6LY08"
         ],
         "extend": [
-          "L8-AIE",
-          "L7-LIO"
+          "VC2E8LY05",
+          "VC2E7LA02"
         ]
       },
       "badge": {
@@ -257,15 +290,19 @@
       "realLife": "Read a contract or terms and conditions and work out what you’re really agreeing to.",
       "literacy": "Reading complex texts; technical vocabulary; summarising key points; inference.",
       "vc": {
+        "support": [
+          "VC2E3LA09",
+          "VC2E4LY09"
+        ],
         "core": [
-          "L6-AIE",
-          "L6-EDI",
-          "L6-TSO"
+          "VC2E6LY08",
+          "VC2E5LA08",
+          "VC2E6LA03"
         ],
         "extend": [
-          "L8-AIE",
-          "L8-TSO",
-          "L7-EDI"
+          "VC2E7LY07",
+          "VC2E8LA06",
+          "VC2E7LA08"
         ]
       },
       "badge": {
@@ -284,14 +321,18 @@
       "realLife": "Read job ads, decode the jargon and decide if a job is right for you.",
       "literacy": "Finding key information; technical and workplace vocabulary; inference.",
       "vc": {
+        "support": [
+          "VC2E4LY08",
+          "VC2E3LA11"
+        ],
         "core": [
-          "L5-AIE",
-          "L5-TIC",
-          "L5-EDI"
+          "VC2E5LY08",
+          "VC2E5LY09",
+          "VC2E5LA08"
         ],
         "extend": [
-          "L7-AIE",
-          "L7-EDI"
+          "VC2E7LY07",
+          "VC2E7LA08"
         ]
       },
       "badge": {
@@ -310,14 +351,19 @@
       "realLife": "Read workplace safety signs, instructions and procedures, and ask when unsure.",
       "literacy": "Reading procedural texts; symbols and images in texts; following and writing instructions.",
       "vc": {
+        "support": [
+          "VC2E3LA10",
+          "VC2E4LA03",
+          "VC2E4LA04"
+        ],
         "core": [
-          "L4-TSO",
-          "L5-AIE",
-          "L5-EDI"
+          "VC2E5LA03",
+          "VC2E5LA04",
+          "VC2E5LY10"
         ],
         "extend": [
-          "L6-TSO",
-          "L7-CT"
+          "VC2E7LA03",
+          "VC2E7LY08"
         ]
       },
       "badge": {
@@ -336,14 +382,19 @@
       "realLife": "Write a one-page resume that shows your skills, even with no work experience.",
       "literacy": "Text structure and layout; concise, precise vocabulary; editing for audience.",
       "vc": {
+        "support": [
+          "VC2E4LY10",
+          "VC2E4LY11"
+        ],
         "core": [
-          "L5-CT",
-          "L5-TSO",
-          "L5-EDI"
+          "VC2E5LY10",
+          "VC2E5LY11",
+          "VC2E5LA08",
+          "VC2E6LA03"
         ],
         "extend": [
-          "L7-CT",
-          "L7-TSO"
+          "VC2E7LY08",
+          "VC2E7LY09"
         ]
       },
       "badge": {
@@ -362,14 +413,18 @@
       "realLife": "Handle everyday work talk: shift swaps, calling in sick, asking for help, workplace emails.",
       "literacy": "Formal language and tone; spoken interaction skills; short workplace messages.",
       "vc": {
+        "support": [
+          "VC2E4LY01",
+          "VC2E4LA01"
+        ],
         "core": [
-          "L5-IWO",
-          "L5-LIO",
-          "L5-CT"
+          "VC2E5LY01",
+          "VC2E6LA01",
+          "VC2E6LY01"
         ],
         "extend": [
-          "L7-IWO",
-          "L8-LIO"
+          "VC2E8LA01",
+          "VC2E7LY02"
         ]
       },
       "badge": {
@@ -388,14 +443,18 @@
       "realLife": "Prepare for and answer common interview questions using real examples from your life.",
       "literacy": "Planning and delivering spoken answers; listening; structuring examples (STAR).",
       "vc": {
+        "support": [
+          "VC2E4LY02",
+          "VC2E4LY01"
+        ],
         "core": [
-          "L6-IWO",
-          "L6-CT",
-          "L6-LIO"
+          "VC2E6LY02",
+          "VC2E6LY01"
         ],
         "extend": [
-          "L8-IWO",
-          "L8-LIO"
+          "VC2E7LY02",
+          "VC2E7LA02",
+          "VC2E8LY02"
         ]
       },
       "badge": {
@@ -414,13 +473,19 @@
       "realLife": "Check whether a post, video or news story is real before you believe or share it.",
       "literacy": "Evaluating reliability of sources; comparing information across texts.",
       "vc": {
+        "support": [
+          "VC2E4LA02",
+          "VC2E4LY09"
+        ],
         "core": [
-          "L6-AIE",
-          "L6-TIC"
+          "VC2E6LY08",
+          "VC2E6LA02",
+          "VC2E6LY06"
         ],
         "extend": [
-          "L8-AIE",
-          "L8-TIC"
+          "VC2E8LY05",
+          "VC2E7LY04",
+          "VC2E8LY07"
         ]
       },
       "badge": {
@@ -439,14 +504,18 @@
       "realLife": "Think about who sees your posts and write a profile/bio you’d be happy for a boss to read.",
       "literacy": "Audience and purpose; writing short texts for a public audience.",
       "vc": {
+        "support": [
+          "VC2E3LY08",
+          "VC2E4LY10"
+        ],
         "core": [
-          "L5-TIC",
-          "L5-CT",
-          "L5-LIO"
+          "VC2E5LA01",
+          "VC2E5LY10",
+          "VC2E6LY09"
         ],
         "extend": [
-          "L7-TIC",
-          "L7-CT"
+          "VC2E7LA01",
+          "VC2E7LY04"
         ]
       },
       "badge": {
@@ -465,15 +534,19 @@
       "realLife": "Spot sponsored content and the tricks influencers use to sell to you.",
       "literacy": "Persuasive techniques in multimodal texts; how images and words position viewers.",
       "vc": {
+        "support": [
+          "VC2E3LA10",
+          "VC2E3LY09"
+        ],
         "core": [
-          "L6-TIC",
-          "L6-EDI",
-          "L6-AIE"
+          "VC2E6LY07",
+          "VC2E6LA07",
+          "VC2E6LA02"
         ],
         "extend": [
-          "L8-AIE",
-          "L8-TIC",
-          "L7-EDI"
+          "VC2E7LA07",
+          "VC2E7LY05",
+          "VC2E8LY05"
         ]
       },
       "badge": {
@@ -492,13 +565,19 @@
       "realLife": "Respond to online conflict, stand up for someone, and know when and how to report.",
       "literacy": "Language for respectful disagreement; tone; evaluative language.",
       "vc": {
+        "support": [
+          "VC2E3LA02",
+          "VC2E4LY01"
+        ],
         "core": [
-          "L6-LIO",
-          "L6-IWO"
+          "VC2E6LY01",
+          "VC2E5LA02",
+          "VC2E6LA02"
         ],
         "extend": [
-          "L8-LIO",
-          "L8-IWO"
+          "VC2E8LY01",
+          "VC2E7LA02",
+          "VC2E8LA01"
         ]
       },
       "badge": {
@@ -517,14 +596,19 @@
       "realLife": "Plan, script and storyboard a short video or post that says something useful.",
       "literacy": "Creating multimodal texts; scripting; choosing images, words and sound for an audience.",
       "vc": {
+        "support": [
+          "VC2E4LY10",
+          "VC2E4LA09"
+        ],
         "core": [
-          "L6-CT",
-          "L6-EDI",
-          "L6-IWO"
+          "VC2E6LY09",
+          "VC2E5LA07",
+          "VC2E6LY02"
         ],
         "extend": [
-          "L7-CT",
-          "L8-CT"
+          "VC2E7LY08",
+          "VC2E7LA07",
+          "VC2E8LY08"
         ]
       },
       "badge": {
@@ -543,14 +627,19 @@
       "realLife": "Fill in official forms accurately: bank account, Tax File Number, Medicare.",
       "literacy": "Reading instructions closely; form vocabulary; accurate, legible responses.",
       "vc": {
+        "support": [
+          "VC2E3LA05",
+          "VC2E4LY06",
+          "VC2E4LY04"
+        ],
         "core": [
-          "L4-AIE",
-          "L4-TSO",
-          "L4-EDI"
+          "VC2E5LY06",
+          "VC2E5LA08",
+          "VC2E5LA03"
         ],
         "extend": [
-          "L6-AIE",
-          "L6-TSO"
+          "VC2E7LA08",
+          "VC2E7LY07"
         ]
       },
       "badge": {
@@ -569,14 +658,19 @@
       "realLife": "Plan a trip using maps, timetables and journey-planner apps.",
       "literacy": "Reading tables, maps and symbols; following and giving directions.",
       "vc": {
+        "support": [
+          "VC2E4LA05",
+          "VC2E4LY01",
+          "VC2E4LY09"
+        ],
         "core": [
-          "L4-AIE",
-          "L5-TSO",
-          "L4-IWO"
+          "VC2E6LA07",
+          "VC2E5LY09",
+          "VC2E5LY01"
         ],
         "extend": [
-          "L6-AIE",
-          "L6-TSO"
+          "VC2E7LY07",
+          "VC2E7LY04"
         ]
       },
       "badge": {
@@ -595,14 +689,20 @@
       "realLife": "Read and understand road rules so you’re ready for the learner permit knowledge test.",
       "literacy": "Reading information texts; technical vocabulary; diagrams and signs; answering test questions.",
       "vc": {
+        "support": [
+          "VC2E3LA09",
+          "VC2E3LA11",
+          "VC2E4LY09"
+        ],
         "core": [
-          "L5-AIE",
-          "L5-EDI",
-          "L5-TSO"
+          "VC2E5LY09",
+          "VC2E5LA08",
+          "VC2E5LY06"
         ],
         "extend": [
-          "L7-AIE",
-          "L7-EDI"
+          "VC2E7LY07",
+          "VC2E7LA08",
+          "VC2E7LY06"
         ]
       },
       "badge": {
@@ -621,14 +721,19 @@
       "realLife": "Read medicine labels, book an appointment and find health info you can trust.",
       "literacy": "Reading labels and instructions; evaluating sources; asking clear questions.",
       "vc": {
+        "support": [
+          "VC2E3LA09",
+          "VC2E4LY01",
+          "VC2E4LY09"
+        ],
         "core": [
-          "L5-AIE",
-          "L5-IWO",
-          "L6-AIE"
+          "VC2E5LY01",
+          "VC2E5LA02",
+          "VC2E6LY08"
         ],
         "extend": [
-          "L7-AIE",
-          "L7-IWO"
+          "VC2E8LY05",
+          "VC2E8LY07"
         ]
       },
       "badge": {
@@ -647,14 +752,19 @@
       "realLife": "Find and understand your rights as a young person at work and when renting, and ask for help.",
       "literacy": "Reading legal-style information; summarising; writing a formal request.",
       "vc": {
+        "support": [
+          "VC2E4LY09",
+          "VC2E4LY10"
+        ],
         "core": [
-          "L6-AIE",
-          "L6-CT",
-          "L6-TIC"
+          "VC2E6LY08",
+          "VC2E6LY09",
+          "VC2E6LA01"
         ],
         "extend": [
-          "L8-AIE",
-          "L8-CT"
+          "VC2E8LY07",
+          "VC2E8LY08",
+          "VC2E8LA06"
         ]
       },
       "badge": {
@@ -673,14 +783,20 @@
       "realLife": "Tell a true story from your life in a way that grabs people.",
       "literacy": "Personal recount and narrative; descriptive language; structure (hook, build, ending).",
       "vc": {
+        "support": [
+          "VC2E4LE05",
+          "VC2E4LY10",
+          "VC2E4LY11"
+        ],
         "core": [
-          "L5-CL",
-          "L5-CT",
-          "L5-EDI"
+          "VC2E5LE05",
+          "VC2E5LA06",
+          "VC2E5LY10"
         ],
         "extend": [
-          "L7-CL",
-          "L7-EDI"
+          "VC2E7LE06",
+          "VC2E7LY09",
+          "VC2E8LE05"
         ]
       },
       "badge": {
@@ -699,14 +815,20 @@
       "realLife": "Write an honest review that helps other people decide.",
       "literacy": "Opinions with reasons; evaluative language; persuasive structure.",
       "vc": {
+        "support": [
+          "VC2E3LE02",
+          "VC2E4LA02",
+          "VC2E4LE02"
+        ],
         "core": [
-          "L5-ER",
-          "L5-LIO",
-          "L5-CT"
+          "VC2E5LE02",
+          "VC2E5LA02",
+          "VC2E5LY10"
         ],
         "extend": [
-          "L7-ER",
-          "L7-LIO"
+          "VC2E7LE02",
+          "VC2E7LA02",
+          "VC2E8LE02"
         ]
       },
       "badge": {
@@ -725,14 +847,20 @@
       "realLife": "Unpack the meaning in songs you love and write some lines of your own.",
       "literacy": "Figurative language, imagery, rhythm and rhyme in song lyrics and poetry.",
       "vc": {
+        "support": [
+          "VC2E3LE04",
+          "VC2E4LE04"
+        ],
         "core": [
-          "L6-EX",
-          "L6-ER",
-          "L6-CL"
+          "VC2E5LE04",
+          "VC2E6LE04",
+          "VC2E6LA08",
+          "VC2E6LE05"
         ],
         "extend": [
-          "L7-EX",
-          "L8-EX"
+          "VC2E7LE05",
+          "VC2E8LE05",
+          "VC2E7LE06"
         ]
       },
       "badge": {
@@ -751,14 +879,21 @@
       "realLife": "Write a complaint email or make a call that actually gets results.",
       "literacy": "Persuasive and formal writing; structure (problem, evidence, request); tone.",
       "vc": {
+        "support": [
+          "VC2E4LA01",
+          "VC2E4LA04",
+          "VC2E4LY10"
+        ],
         "core": [
-          "L6-CT",
-          "L6-LIO",
-          "L5-TSO"
+          "VC2E6LA01",
+          "VC2E5LA02",
+          "VC2E6LY09",
+          "VC2E5LY11"
         ],
         "extend": [
-          "L8-CT",
-          "L8-LIO"
+          "VC2E8LA04",
+          "VC2E8LY08",
+          "VC2E7LA02"
         ]
       },
       "badge": {
@@ -777,14 +912,19 @@
       "realLife": "Plan and give a short speech about an issue you care about.",
       "literacy": "Persuasive speaking; structure; persuasive techniques; delivery.",
       "vc": {
+        "support": [
+          "VC2E4LY02",
+          "VC2E3LA02"
+        ],
         "core": [
-          "L6-IWO",
-          "L6-CT",
-          "L6-EDI"
+          "VC2E6LY02",
+          "VC2E6LY01",
+          "VC2E6LA04"
         ],
         "extend": [
-          "L8-IWO",
-          "L8-CT"
+          "VC2E8LY02",
+          "VC2E8LY08",
+          "VC2E8LA02"
         ]
       },
       "badge": {
@@ -813,14 +953,19 @@
         }
       ],
       "vc": {
+        "support": [
+          "VC2E4LY02",
+          "VC2E4LY10"
+        ],
         "core": [
-          "L7-CT",
-          "L7-IWO",
-          "L7-AIE"
+          "VC2E6LY02",
+          "VC2E6LY09",
+          "VC2E6LA01"
         ],
         "extend": [
-          "L8-CT",
-          "L8-IWO"
+          "VC2E7LY02",
+          "VC2E7LY08",
+          "VC2E8LA01"
         ]
       },
       "badge": {
@@ -849,14 +994,19 @@
         }
       ],
       "vc": {
+        "support": [
+          "VC2E4LY09",
+          "VC2E4LY10"
+        ],
         "core": [
-          "L7-AIE",
-          "L7-CT",
-          "L7-TSO"
+          "VC2E6LY08",
+          "VC2E6LY09",
+          "VC2E5LA08"
         ],
         "extend": [
-          "L8-AIE",
-          "L8-CT"
+          "VC2E7LY07",
+          "VC2E8LA06",
+          "VC2E7LY08"
         ]
       },
       "badge": {
@@ -885,14 +1035,19 @@
         }
       ],
       "vc": {
+        "support": [
+          "VC2E4LY10",
+          "VC2E4LY02"
+        ],
         "core": [
-          "L7-CT",
-          "L7-IWO",
-          "L7-LIO"
+          "VC2E6LY07",
+          "VC2E6LY09",
+          "VC2E6LY02"
         ],
         "extend": [
-          "L8-CT",
-          "L8-TIC"
+          "VC2E7LY08",
+          "VC2E7LA07",
+          "VC2E8LY02"
         ]
       },
       "badge": {
@@ -921,15 +1076,19 @@
         }
       ],
       "vc": {
+        "support": [
+          "VC2E4LY10",
+          "VC2E4LY02"
+        ],
         "core": [
-          "L7-CT",
-          "L7-TIC",
-          "L7-IWO"
+          "VC2E6LY09",
+          "VC2E6LY07",
+          "VC2E6LY02"
         ],
         "extend": [
-          "L8-CT",
-          "L8-TIC",
-          "L8-IWO"
+          "VC2E8LY08",
+          "VC2E8LY05",
+          "VC2E8LY02"
         ]
       },
       "badge": {

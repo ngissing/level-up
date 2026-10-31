@@ -55,15 +55,14 @@ Change the admin password straight away, or set `ADMIN_PASSWORD` before the firs
 | `npm run check` | Validate all content and estimate reading levels |
 | `npm run pdf [-- <skill-id>] [-- --answers]` | Export A4 workbook PDFs to `exports/` (needs Playwright). Warns on page overflow. |
 | `npm run map-doc` | Regenerate `docs/COURSE-MAP.md` from the content |
-| `npm run build-curriculum` | Rebuild `content/curriculum.json` |
-| `npm run import-vcaa -- <file.docx>` | Import the official VCAA English curriculum and write a comparison report (`docs/CURRICULUM-CHECK.md`) |
+| `npm run import-vcaa` | Re-import the official VC 2.0 English curriculum from the VCAA website (or from a saved copy of the page) |
 
 ## Project layout
 
 ```
 content/
   map.json              zones, 32 skills, VC links, badges, milestones
-  curriculum.json       VC 2.0 English reference (Levels 3–8, paraphrased; verify!)
+  curriculum.json       official VC 2.0 English F–10 (imported from the VCAA site)
   skills/<id>.json      one file per mini course (spot-the-scam is the worked example)
 src/
   content.js            loading, unlock rules, badges, curriculum coverage
@@ -77,6 +76,6 @@ docs/
 
 ## Before using with real students
 
-- **Verify the curriculum links.** `content/curriculum.json` was written without access to the VCAA site. The wording is paraphrased and the codes are provisional. Download the official *English – Curriculum* Word document from <https://f10.vcaa.vic.edu.au/learning-areas/english/english/curriculum>. Then run `npm run import-vcaa -- path/to/file.docx` and check `docs/CURRICULUM-CHECK.md`.
+- **Curriculum:** every code and description is copied word for word from the VCAA website (see `content/curriculum.json` for the date). If the VCAA updates the curriculum, run `npm run import-vcaa`, then `npm run check`.
 - **Hosting and privacy.** The app stores student names, usernames and progress in `data/levelup.db`. Host it somewhere your school approves, behind HTTPS. Set `NODE_ENV=production` for secure cookies, and set `BASE_URL` (e.g. `https://levelup.yourschool.vic.edu.au`) so workbook QR codes point to the right place. Back up `data/`.
 - Run `npm run check` and print a workbook before each new course goes live.

@@ -63,14 +63,20 @@ Each mini course is **one JSON file**: `content/skills/<skill-id>.json`. The app
     "overview": "markdown", "prep": [""], "keyPoints": [""],
     "lessons": [{ "title": "", "minutes": 50, "steps": ["markdown"] }],
     "differentiation": { "support": [""], "extend": [""] },
-    "lookFors": [{ "vc": "L5-AIE", "evidence": "what you'd see in the workbook" }],
+    "lookFors": [{ "vc": "VC2E5LY09", "evidence": "what you'd see in the workbook" }],
     "answers": "markdown — printed on the teacher answer copy",
     "resources": [{ "label": "", "url": "" }]
   }
 }
 ```
 
-Curriculum ids look like `L5-AIE` = Level 5, Literacy › Analysing, interpreting and evaluating. The full list is in `content/curriculum.json`. Focus keys: `TIC` Texts in context · `IWO` Interacting with others · `AIE` Analysing, interpreting and evaluating · `CT` Creating texts · `LIO` Language for interacting with others · `TSO` Text structure and organisation · `EDI` Language for expressing and developing ideas · `ER` Engaging with and responding to literature · `EX` Examining literature · `CL` Creating literature.
+Curriculum links use the **official content description codes** from the VCAA, such as `VC2E5LY09`. They're stored in `content/curriculum.json`, imported word for word with `npm run import-vcaa`. In `content/map.json` each skill lists three sets of codes:
+
+- `vc.support`: Level 3–4 codes for Foundation readers
+- `vc.core`: Level 5–6 codes for everyone else
+- `vc.extend`: Level 6–8 codes for Level Up work
+
+Read the code's exact wording (the teacher **Curriculum map** page lists them all) and choose codes the workbook genuinely gives evidence for.
 
 ### Reading levels
 

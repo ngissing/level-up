@@ -372,21 +372,27 @@ export function badgesPage(req, { earned }) {
   return page(req, { title: 'Badges', body, active: '/badges' });
 }
 
-export function curriculumGrid(cov, { compact = false } = {}) {
+export const GRID_LEVELS = [3, 4, 5, 6, 7, 8, 9, 10];
+
+// Staff view: sub-strands × levels. Each cell holds every official content description
+// at that level; a cell lights up when the student has evidence for any of them.
+export function curriculumGrid(cov, { levels = GRID_LEVELS } = {}) {
   const c = content();
-  const levels = [3, 4, 5, 6, 7, 8];
-  return html`<div class="vc-grid-wrap"><table class="vc-grid ${compact ? 'compact' : ''}">
+  return html`<div class="vc-grid-wrap"><table class="vc-grid">
     <thead><tr><th scope="col">Strand › sub-strand</th>${levels.map((l) => html`<th scope="col">Level ${l}</th>`)}</tr></thead>
-    <tbody>${Object.entries(c.curriculum.focusAreas).map(([key, fa]) => html`<tr>
+    <tbody>${Object.entries(c.curriculum.focusAreas).map(([key, fa]) => {
+      const row = levels.map((l) => c.curriculum.entries.filter((e) => e.level === l && e.focus === key));
+      if (row.every((x) => !x.length)) return '';
+      return html`<tr>
       <th scope="row"><small>${fa.strand}</small>${fa.substrand}</th>
-      ${levels.map((l) => {
-        const e = c.vc[`L${l}-${key}`];
-        if (!e) return html`<td class="na"></td>`;
-        const hits = cov[e.id] || [];
-        return html`<td class="${hits.length ? 'hit' : ''}" title="${e.code}: ${e.text}${hits.length ? '\nShown in: ' + hits.map((h) => h.skill.title).join(', ') : ''}">
-          ${hits.length ? html`${icon('lucide:check')}<span>${hits.length}</span>` : ''}</td>`;
+      ${row.map((es) => {
+        if (!es.length) return html`<td class="na"></td>`;
+        const hit = es.filter((e) => cov[e.id]);
+        const tip = es.map((e) => `${cov[e.id] ? '✓' : '·'} ${e.code}: ${e.text}${cov[e.id] ? ' — ' + cov[e.id].map((h) => h.skill.title).join(', ') : ''}`).join('\n');
+        return html`<td class="${hit.length ? 'hit' : ''}" title="${tip}">${hit.length ? html`${icon('lucide:check')}<span>${hit.length}/${es.length}</span>` : html`<span class="cd-n">${es.length}</span>`}</td>`;
       })}
-    </tr>`)}</tbody>
+    </tr>`;
+    })}</tbody>
   </table></div>`;
 }
 

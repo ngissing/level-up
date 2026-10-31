@@ -531,3 +531,11 @@ body[data-rl="support"] .prose { font-size: 1.22rem; line-height: 1.9; }
 .level-card h3 small { display: block; font-family: var(--body); font-size: .8rem; font-weight: 500; color: var(--muted); margin-top: 4px; }
 .level-card p, .level-card ul { font-size: .92rem; }
 .hero-card .kicker { margin-top: 4px; }
+
+.vc-grid td .cd-n { font-size: .75rem; color: #b0a999; }
+.vc-grid td.hit span { font-size: .8rem; margin-left: 2px; }
+.cd-text { margin: 4px 0 0; }
+.ach { margin-top: 18px; border-top: 2px dashed #d6d0c4; padding-top: 12px; }
+.ach summary { cursor: pointer; font-weight: 600; display: inline-flex; gap: 8px; align-items: center; }
+.ach h4 { font-family: var(--display); margin: 14px 0 4px; }
+.ach li { margin-bottom: 6px; font-size: .92rem; }

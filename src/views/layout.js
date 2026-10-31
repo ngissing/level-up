@@ -71,9 +71,9 @@ export function sticker(ic, { color = '#C6F432', ink = '#111', size = 'md', cls 
 // hideLevel: students never see curriculum level numbers (they would reveal reading level).
 export function vcChip(entry, { extend = false, hideLevel = false } = {}) {
   if (!entry) return '';
-  return html`<span class="vc-chip ${extend ? 'vc-ext' : ''}" title="${hideLevel ? '' : entry.text}">
-    ${hideLevel ? '' : html`<b>L${entry.level}</b> `}${entry.strand} › ${entry.substrand}${extend ? html` <em>Level Up</em>` : ''}
-  </span>`;
+  return hideLevel
+    ? html`<span class="vc-chip ${extend ? 'vc-ext' : ''}">${entry.strand} › ${entry.substrand}${extend ? html` <em>Level Up</em>` : ''}</span>`
+    : html`<span class="vc-chip ${extend ? 'vc-ext' : ''}" title="${entry.code}: ${entry.text}"><b>${entry.code}</b> ${entry.substrand}${extend ? html` <em>Level Up</em>` : ''}</span>`;
 }
 
 export function readAloud(targetSelector, label = 'Read to me') {

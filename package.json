@@ -14,7 +14,6 @@
     "check": "node --disable-warning=ExperimentalWarning scripts/check-content.js",
     "pdf": "node --disable-warning=ExperimentalWarning scripts/workbook-pdf.js",
     "map-doc": "node --disable-warning=ExperimentalWarning scripts/course-map-doc.js",
-    "build-curriculum": "node scripts/build-curriculum.mjs",
     "import-vcaa": "node scripts/import-vcaa.js"
   },
   "dependencies": {

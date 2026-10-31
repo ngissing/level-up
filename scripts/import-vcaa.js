@@ -1,102 +1,102 @@
-// Imports the OFFICIAL Victorian Curriculum F–10 v2.0 English content descriptions
-// from a VCAA document, and reports how our curriculum links compare.
+// Imports the OFFICIAL Victorian Curriculum F–10 Version 2.0 English from the VCAA website.
 //
-//   npm run import-vcaa -- path/to/English-Curriculum.docx   (.docx, .html or .txt)
-//   npm run import-vcaa -- --fetch     (downloads from the VCAA site; needs network access to f10.vcaa.vic.edu.au)
+//   npm run import-vcaa                         downloads https://f10.vcaa.vic.edu.au/learning-areas/english/english/curriculum
+//   npm run import-vcaa -- saved-page.html      uses a copy of that page saved from a browser ("Save page as… HTML")
 //
-// Writes:
-//   content/vcaa-english.json   every content description found: code, level, strand, sub-strand, exact text
-//   docs/CURRICULUM-CHECK.md    our paraphrased entries side by side with the official text
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+// The VCAA page embeds the curriculum as structured data (levels → strands → sub-strands →
+// content descriptions, elaborations and achievement standards). This script copies it word
+// for word into content/curriculum.json. Nothing is paraphrased.
+import { readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
+import { execFileSync } from 'node:child_process';
 import { ROOT_DIR } from '../src/html.js';
 
-const SOURCES = [
-  'https://f10.vcaa.vic.edu.au/sites/default/files/2025-07/English%20%E2%80%93%20Curriculum.docx',
-  'https://f10.vcaa.vic.edu.au/sites/default/files/2025-02/English%20%E2%80%93%20Curriculum.docx',
-];
-const STRANDS = { LA: 'Language', LE: 'Literature', LY: 'Literacy' };
-const SUBSTRANDS = [
-  'Language for interacting with others', 'Text structure and organisation', 'Language for expressing and developing ideas',
-  'Phonological and phonemic awareness', 'Literature and contexts', 'Engaging with and responding to literature',
-  'Examining literature', 'Creating literature', 'Texts in context', 'Interacting with others',
-  'Analysing, interpreting and evaluating', 'Creating texts', 'Phonic and word knowledge',
-];
-const CODE = /\(?\b(VC2E(F|10|[1-9])(LA|LE|LY)(\d{2}))\b\)?(?!_)/;
+const URL = 'https://f10.vcaa.vic.edu.au/learning-areas/english/english/curriculum';
+const STRAND_KEY = { Language: 'LA', Literature: 'LE', Literacy: 'LY' };
 
-async function load(arg) {
-  if (arg === '--fetch') {
-    for (const url of SOURCES) {
-      try {
-        const res = await fetch(url);
-        if (!res.ok) { console.warn(`  ${res.status} ${url}`); continue; }
-        const buf = Buffer.from(await res.arrayBuffer());
-        mkdirSync(path.join(ROOT_DIR, 'data'), { recursive: true });
-        writeFileSync(path.join(ROOT_DIR, 'data', 'vcaa-english.docx'), buf);
-        console.log('Downloaded', url);
-        return { text: await docxText(buf), source: url };
-      } catch (e) { console.warn(`  could not reach ${url}: ${e.cause?.code || e.message}`); }
-    }
-    throw new Error('Could not download from the VCAA site. Allow f10.vcaa.vic.edu.au in the network settings, or download the file yourself and pass its path.');
+async function getPage(arg) {
+  if (arg) return readFileSync(arg, 'utf8');
+  try {
+    const res = await fetch(URL);
+    if (res.ok) return await res.text();
+    throw new Error(`HTTP ${res.status}`);
+  } catch (e) {
+    // Node's fetch ignores HTTPS_PROXY; curl doesn't.
+    try { return execFileSync('curl', ['-sSfL', '-m', '60', URL], { encoding: 'utf8', maxBuffer: 64 << 20 }); }
+    catch { throw new Error(`Could not download ${URL} (${e.message}). Check the network allows f10.vcaa.vic.edu.au, or save the page from a browser and pass its path.`); }
   }
-  const buf = readFileSync(arg);
-  if (arg.endsWith('.docx')) return { text: await docxText(buf), source: path.basename(arg) };
-  let text = buf.toString('utf8');
-  if (/\.html?$/.test(arg)) text = text.replace(/<(br|\/p|\/div|\/li|\/td|\/tr|\/h\d)[^>]*>/gi, '\n').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&');
-  return { text, source: path.basename(arg) };
 }
 
-async function docxText(buf) {
-  const mammoth = (await import('mammoth')).default;
-  return (await mammoth.extractRawText({ buffer: buf })).value;
-}
+const strip = (h = '') => h.replace(/<br\s*\/?>/gi, '\n').replace(/<\/p>/gi, '\n').replace(/<[^>]+>/g, '')
+  .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#39;|&rsquo;/g, '’')
+  .replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim();
 
-function parse(text) {
-  const lines = text.split(/\r?\n/).map((l) => l.replace(/\s+/g, ' ').trim()).filter(Boolean);
-  const found = new Map();
-  let sub = null;
-  lines.forEach((line, i) => {
-    const s = SUBSTRANDS.find((x) => line.toLowerCase() === x.toLowerCase() || line.toLowerCase().startsWith(x.toLowerCase() + ' '));
-    if (s && !CODE.test(line)) sub = s;
-    const m = line.match(CODE);
-    if (!m) return;
-    const [, code, lvl, strandKey] = m;
-    // Text is either on the same line before the code, or on the line(s) just above it.
-    let t = line.slice(0, m.index).trim();
-    if (t.length < 15) {
-      for (let k = i - 1; k >= 0 && k >= i - 3; k--) { if (CODE.test(lines[k]) || SUBSTRANDS.includes(lines[k])) break; t = lines[k] + (t ? ' ' + t : ''); if (t.length > 40) break; }
+const levelNum = (id) => (/^\d+$/.test(id) ? Number(id) : 0);
+
+let html;
+try { html = await getPage(process.argv[2]); } catch (e) { console.error(e.message); process.exit(1); }
+const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+if (!m) { console.error('This doesn’t look like the VCAA English curriculum page (no embedded data found).'); process.exit(1); }
+const levels = JSON.parse(m[1]).props.pageProps.additionalContent.curriculum.pathways[0].curriculum;
+
+const entries = [];
+const byUuid = {};
+const standards = {};
+for (const lv of levels) {
+  for (const strand of lv.contentDescriptionsContent) {
+    for (const sub of strand.subStrands) {
+      for (const cd of sub.contentDescriptions) {
+        const e = {
+          id: cd.code, code: cd.code, levelId: lv.id, levelName: lv.level, level: levelNum(lv.id),
+          strand: strand.title, substrand: sub.title, text: cd.contentDescription.trim(),
+          elaborations: (cd.elaborations || []).map((x) => strip(x.elaborationText)).filter(Boolean),
+        };
+        entries.push(e);
+        byUuid[cd.id] = e.code;
+      }
     }
-    t = t.replace(/[\s(]+$/, '').trim();
-    if (!found.has(code) || found.get(code).text.length < t.length) {
-      found.set(code, { code, level: lvl === 'F' ? 0 : Number(lvl), strand: STRANDS[strandKey], substrand: sub, text: t });
-    }
-  });
-  return [...found.values()].sort((a, b) => a.level - b.level || a.code.localeCompare(b.code));
+  }
+  // Achievement standard, by language mode, with the content descriptions each sentence draws on.
+  standards[lv.id] = {
+    intro: strip(lv.achievementStandardContent),
+    modes: (lv.modes || []).map((md) => ({
+      mode: md.title,
+      extracts: [...(md.content || '').matchAll(/<a [^>]*name="([^"]+)"[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/g)].map(([, name, href, body]) => ({
+        id: name, text: strip(body), codes: href.split(';').map((s) => s.replace(/^&amp;|^&/, '').trim()).filter(Boolean).map((u) => byUuid[u]).filter(Boolean),
+      })),
+    })),
+  };
 }
 
-const arg = process.argv[2];
-if (!arg) { console.log('Usage: npm run import-vcaa -- <file.docx|file.html|file.txt>   or   npm run import-vcaa -- --fetch'); process.exit(1); }
-let text, source;
-try { ({ text, source } = await load(arg)); } catch (e) { console.error(e.message); process.exit(1); }
-const official = parse(text);
-if (!official.length) { console.error('No VC2E… codes found. Is this the VCAA English curriculum document?'); process.exit(1); }
-
-writeFileSync(path.join(ROOT_DIR, 'content', 'vcaa-english.json'), JSON.stringify({
-  source, importedAt: new Date().toISOString(), count: official.length, contentDescriptions: official,
-}, null, 2));
-console.log(`Found ${official.length} content descriptions (${[...new Set(official.map((o) => o.level))].map((l) => l || 'F').join(', ')}) → content/vcaa-english.json`);
-
-// Side-by-side report against our paraphrased entries.
-const ours = JSON.parse(readFileSync(path.join(ROOT_DIR, 'content', 'curriculum.json'), 'utf8'));
-const out = ['# Curriculum check', '', `Official source: ${source} (imported ${new Date().toISOString().slice(0, 10)}).`, '',
-  'Each of our paraphrased entries is listed with the official content descriptions for the same level, strand and sub-strand.', ''];
-let missingSub = 0;
-for (const e of ours.entries) {
-  const match = official.filter((o) => o.level === e.level && o.strand === e.strand && (!o.substrand || o.substrand === e.substrand));
-  out.push(`## ${e.id} — Level ${e.level} ${e.strand} › ${e.substrand}`, '', `**Ours (paraphrased, ${e.code}):** ${e.text}`, '');
-  if (match.length) for (const o of match) out.push(`- **${o.code}** ${o.text}${o.substrand ? '' : ' _(sub-strand not detected)_'}`);
-  else { out.push('- ⚠️ No official content description found for this level / sub-strand.'); missingSub++; }
-  out.push('');
+// Sub-strand keys used by the app (stable short names for grids and filters).
+const SUBKEY = {
+  'Language for interacting with others': 'LIO', 'Text structure and organisation': 'TSO', 'Language for expressing and developing ideas': 'EDI',
+  'Phonological and phonemic awareness': 'PPA', 'Literature and contexts': 'LC', 'Engaging with and responding to literature': 'ER',
+  'Examining literature': 'EX', 'Creating literature': 'CL', 'Interacting with others': 'IWO', 'Phonic and word knowledge': 'PWK',
+  'Word knowledge': 'WK', 'Building fluency and making meaning': 'BFM', 'Texts in context': 'TIC', 'Analysing, interpreting and evaluating': 'AIE', 'Creating texts': 'CT',
+};
+const found = {};
+for (const e of entries) {
+  e.focus = SUBKEY[e.substrand] || e.substrand.replace(/[^A-Za-z]/g, '').slice(0, 6).toUpperCase();
+  found[e.focus] ||= { strand: e.strand, substrand: e.substrand };
 }
-writeFileSync(path.join(ROOT_DIR, 'docs', 'CURRICULUM-CHECK.md'), out.join('\n'));
-console.log(`Report → docs/CURRICULUM-CHECK.md (${missingSub} of our entries had no official match)`);
+// Order sub-strands as the VCAA does: by strand, then in the order they appear in the levels the app uses most.
+const STRAND_ORDER = ['Language', 'Literature', 'Literacy'];
+const firstSeen = (k) => entries.findIndex((e) => e.focus === k && e.level >= 3);
+const focusAreas = Object.fromEntries(Object.entries(found).sort(([a, x], [b, y]) =>
+  STRAND_ORDER.indexOf(x.strand) - STRAND_ORDER.indexOf(y.strand) || (firstSeen(a) < 0 ? 1e9 : firstSeen(a)) - (firstSeen(b) < 0 ? 1e9 : firstSeen(b))));
+const unknownCodes = entries.filter((e) => !new RegExp(`^VC2E${e.levelId.replace(/^FL/, 'F')}${STRAND_KEY[e.strand]}\\d{2}$`).test(e.code));
+
+const out = {
+  source: 'Victorian Curriculum F–10 Version 2.0 — English. © VCAA. Copied word for word from the VCAA website.',
+  url: URL,
+  retrieved: new Date().toISOString().slice(0, 10),
+  verified: true,
+  focusAreas,
+  levels: levels.map((l) => ({ id: l.id, name: l.level })),
+  achievementStandards: standards,
+  entries,
+};
+writeFileSync(path.join(ROOT_DIR, 'content', 'curriculum.json'), JSON.stringify(out, null, 2));
+console.log(`Imported ${entries.length} content descriptions across ${levels.length} levels → content/curriculum.json`);
+if (unknownCodes.length) console.log(`  note: ${unknownCodes.length} codes don’t follow the usual pattern: ${unknownCodes.slice(0, 5).map((e) => e.code).join(', ')}…`);

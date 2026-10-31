@@ -154,10 +154,11 @@ export function teacherGuidePage(req, skill) {
       <h3>Literacy focus</h3><p>${skill.literacy}</p></section>
 
     <section class="panel"><h2>${icon('lucide:graduation-cap')} Curriculum links & what to look for</h2>
-      <p class="verify">${icon('lucide:triangle-alert')} Codes and wording are paraphrased from VC 2.0 English and still need checking against the VCAA site.</p>
+      <p class="small muted">Official Victorian Curriculum F–10 Version 2.0 English, copied from the <a href="${c.curriculum.url}" target="_blank" rel="noopener">VCAA website</a> on ${c.curriculum.retrieved}.</p>
       <table class="table"><thead><tr><th>Victorian Curriculum</th><th>Evidence to look for</th></tr></thead><tbody>
-      ${lookFors.map((l) => { const e = c.vc[l.vc]; return html`<tr><td>${vcChip(e, { extend: skill.vc.extend.includes(l.vc) })}<p class="small">${e.code} — ${e.text}</p></td><td>${l.levels ? html`${l.levels.map((x) => levelTag(x))} ` : ''}${l.evidence}</td></tr>`; })}
-      </tbody></table></section>
+      ${lookFors.map((l) => { const e = c.vc[l.vc]; return html`<tr><td><b>${e.code}</b> <span class="muted small">Level ${e.level} · ${e.strand} › ${e.substrand}</span><p class="small cd-text">${e.text}</p></td><td>${l.levels ? html`${l.levels.map((x) => levelTag(x))} ` : html`<span class="lvl-chip">${icon('lucide:star')} Level Up</span> `}${l.evidence}</td></tr>`; })}
+      </tbody></table>
+      ${achievementLinks(skill, c)}</section>
 
     ${levelNotes ? html`<section class="panel"><h2>${icon('lucide:layers')} Reading levels</h2>
       <p>Each student gets the version that matches the reading level an admin has set for them. Students never see the level name.</p>
@@ -187,23 +188,42 @@ export function teacherGuidePage(req, skill) {
   return page(req, { title: `${skill.title} — teacher guide`, body, theme: z, active: '/teacher/skills' });
 }
 
+// Sentences of the achievement standard that draw on this skill's content descriptions.
+function achievementLinks(skill, c) {
+  const codes = new Set([...(skill.vc.support || []), ...skill.vc.core, ...skill.vc.extend]);
+  const byLevel = {};
+  for (const [lv, std] of Object.entries(c.curriculum.achievementStandards)) {
+    for (const m of std.modes) for (const x of m.extracts) {
+      const hit = x.codes.filter((k) => codes.has(k));
+      if (hit.length) (byLevel[lv] ||= []).push({ mode: m.mode, text: x.text, hit });
+    }
+  }
+  const levels = Object.keys(byLevel).sort((a, b) => Number(a) - Number(b));
+  if (!levels.length) return '';
+  return html`<details class="ach"><summary>${icon('lucide:target')} Achievement standard sentences this skill gives evidence for</summary>
+    ${levels.map((lv) => html`<h4>Level ${lv}</h4><ul>${byLevel[lv].map((x) => html`<li><b>${x.mode}:</b> ${x.text} <span class="muted small">(${x.hit.join(', ')})</span></li>`)}</ul>`)}
+  </details>`;
+}
+
 export function curriculumMapPage(req) {
   const c = content();
+  const showAll = req.query.levels === 'all';
+  const inRange = (e) => showAll || (e.level >= 3 && e.level <= 10);
   const bySub = {};
-  for (const e of c.curriculum.entries) (bySub[e.focus] ||= []).push(e);
-  const skillsFor = (id) => skillList().map((s) => ({ s, core: s.vc.core.includes(id) || (s.vc.support || []).includes(id), ext: s.vc.extend.includes(id) })).filter((x) => x.core || x.ext);
-  const total = c.curriculum.entries.length;
-  const covered = c.curriculum.entries.filter((e) => skillsFor(e.id).length).length;
+  for (const e of c.curriculum.entries.filter(inRange)) (bySub[e.focus] ||= []).push(e);
+  const skillsFor = (id) => skillList().map((s) => ({ s, sup: (s.vc.support || []).includes(id), core: s.vc.core.includes(id), ext: s.vc.extend.includes(id) })).filter((x) => x.sup || x.core || x.ext);
+  const shown = c.curriculum.entries.filter(inRange);
+  const covered = shown.filter((e) => skillsFor(e.id).length).length;
   const body = html`<section class="page-head"><p class="eyebrow">Curriculum map</p>
-    <h1>VC 2.0 English <span class="hl">${covered}/${total} focus points mapped</span></h1>
-    <p class="lede">Every skill links to Victorian Curriculum F–10 Version 2.0 English content (Levels 3–8). <b>Core</b> links are what every student shows; <b>Level Up</b> links are evidenced by the extension tasks.</p>
-    <p class="verify">${icon('lucide:triangle-alert')} ${c.curriculum.note}</p></section>
-  ${Object.entries(c.curriculum.focusAreas).map(([key, fa]) => html`<section class="cm-sub">
+    <h1>VC 2.0 English <span class="hl">${covered}/${shown.length} content descriptions mapped</span></h1>
+    <p class="lede">Every skill links to specific content descriptions. ${levelTag('support')} codes are evidenced by Foundation readers, plain codes by everyone at Core, and ★ codes by Level Up work.</p>
+    <p class="small muted">Official text copied from the <a href="${c.curriculum.url}" target="_blank" rel="noopener">VCAA website</a> on ${c.curriculum.retrieved}. ${showAll ? html`Showing all levels. <a href="/teacher/curriculum">Show Levels 3–10 only</a>.` : html`Showing Levels 3–10. <a href="/teacher/curriculum?levels=all">Show Foundation to Level 2 as well</a>.`}</p></section>
+  ${Object.entries(c.curriculum.focusAreas).filter(([key]) => bySub[key]).map(([key, fa]) => html`<section class="cm-sub">
     <h2 class="section-title"><small>${fa.strand}</small> ${fa.substrand}</h2>
-    <div class="cm-rows">${(bySub[key] || []).map((e) => { const sk = skillsFor(e.id); return html`<div class="cm-row ${sk.length ? '' : 'gap'}">
-      <div class="cm-level">L${e.level}<small>${e.code}${e.verified ? '' : '?'}</small></div>
+    <div class="cm-rows">${bySub[key].map((e) => { const sk = skillsFor(e.id); return html`<div class="cm-row ${sk.length ? '' : 'gap'}">
+      <div class="cm-level">${e.level || e.levelId}<small>${e.code}</small></div>
       <p>${e.text}</p>
-      <div class="cm-skills">${sk.length ? sk.map(({ s, ext }) => html`<a class="mini-skill ${ext ? 'ext' : ''}" href="/teacher/skill/${s.id}" style="--zone:${s.zoneObj.color};--zone-ink:${s.zoneObj.ink}">${icon(s.icon)} ${s.title}${ext ? ' ★' : ''}</a>`) : html`<span class="muted">Not yet covered</span>`}</div>
+      <div class="cm-skills">${sk.length ? sk.map(({ s, sup, core, ext }) => html`<a class="mini-skill ${ext && !core ? 'ext' : ''}" href="/teacher/skill/${s.id}" style="--zone:${s.zoneObj.color};--zone-ink:${s.zoneObj.ink}">${icon(s.icon)} ${s.title}${sup && !core ? html` <span title="Foundation readers">${LEVELS.support.symbol}</span>` : ''}${ext && !core ? ' ★' : ''}</a>`) : html`<span class="muted">Not yet covered</span>`}</div>
     </div>`; })}</div></section>`)}`;
   return page(req, { title: 'Curriculum map', body, active: '/teacher/curriculum', wide: true });
 }

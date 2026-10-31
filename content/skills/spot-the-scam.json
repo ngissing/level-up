@@ -873,38 +873,80 @@
     },
     "lookFors": [
       {
-        "vc": "L3-AIE",
+        "vc": "VC2E3LY09",
         "levels": [
           "support"
         ],
-        "evidence": "Identifies what a message wants the reader to do and finds at least two red flags in the sort and annotation tasks."
+        "evidence": "Says what each message in the sort wants the reader to do and who it is for, pointing to words or images in it."
       },
       {
-        "vc": "L4-LIO",
+        "vc": "VC2E4LY09",
         "levels": [
           "support"
         ],
-        "evidence": "Warning message uses a friendly, clear tone for the person it is written to."
+        "evidence": "Works out what a scam message really means (inference table, quiz question 5)."
       },
       {
-        "vc": "L5-AIE",
-        "evidence": "Correctly infers intent in the inference table and the quiz; explains why a message is a scam using text evidence."
+        "vc": "VC2E4LA02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Separates the feelings a scam stirs up (Reaction) from the facts it states."
       },
       {
-        "vc": "L5-TIC",
-        "evidence": "Identifies purpose and audience for scam and legitimate messages; explains why ‘Hi Mum’ targeted parents."
+        "vc": "VC2E4LA01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Writes the warning message in a friendly, clear tone that suits the person it is for."
       },
       {
-        "vc": "L5-LIO",
-        "evidence": "Final message uses a tone that suits the chosen audience (e.g. warm and clear for a grandparent)."
+        "vc": "VC2E5LY08",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Explains the features (urgency, emotion, request, odd details) that make a scam work on its audience — annotation and sort tasks."
       },
       {
-        "vc": "L7-AIE",
-        "evidence": "Level Up: explains how specific word choices (urgency, emoji, ‘Mum’) create a reaction."
+        "vc": "VC2E5LY09",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Infers intent from clues and evaluates whether a message can be trusted (inference table, scenarios, quiz)."
       },
       {
-        "vc": "L8-AIE",
-        "evidence": "Level Up: evaluates how a scam positions its reader; constructs a scam text using deliberate techniques."
+        "vc": "VC2E5LA01",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Chooses language for the warning message that suits the relationship (e.g. warm and clear for a grandparent)."
+      },
+      {
+        "vc": "VC2E5LY10",
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "evidence": "Final mission: a sequenced warning message that suits its purpose and audience."
+      },
+      {
+        "vc": "VC2E6LY07",
+        "evidence": "Level Up: explains how the structure and language of a scam work together to influence the reader."
+      },
+      {
+        "vc": "VC2E7LY05",
+        "evidence": "Level Up: analyses how specific word choices (urgency, emoji, “Mum”) shape meaning for a chosen audience."
+      },
+      {
+        "vc": "VC2E7LY07",
+        "evidence": "Level Up / Extended: uses inferring and questioning to analyse what a message is really doing (e.g. why “Hi Mum” not “Hello”)."
+      },
+      {
+        "vc": "VC2E7LY08",
+        "evidence": "Level Up: writes a scam text for a specific audience, deliberately choosing language to persuade — then labels the techniques."
       }
     ],
     "answers": "**Check your reading:** purpose = to get your money, info or a click. Flags = Rush, Reaction, Request, Random. Big feelings stop careful thinking. The number in the message might belong to the scammer.\n\n**Find the red flags:** Unknown number (Random); “dropped my phone 😩” (Reaction); “pay this bill” (Request); “today… Pls hurry” (Rush).\n\n**Scam or legit?** AusPost — Scam. Coach Dan — Legit. PS5 — Scam. myGov — Not sure/depends (legit only if the student requested a code; never share it). Job offer — Scam. Mum — Legit.\n\n**Case study:** 1,150+ people, $2.6 million (Jan–Jul 2022); audience = parents/grandparents (mostly over 55); it works because it triggers love/worry (reaction) and urgency.\n\n**Read between the lines (sample):** “Only 2 hours left” → don’t take time to think or check. “Account will be locked” → be scared so you click without checking. “No experience needed” → too good to be true; they want something from you.",
@@ -923,9 +965,9 @@
       }
     ],
     "levels": {
-      "support": "Shorter, simpler article and case studies (about Years 3–4 reading level). 6 key words. Quiz questions have 3 choices, not 4. Fewer workbook items, bigger text and writing lines, more sentence starters. The explainer voice is slower. Evidence counts towards **Level 3–4** curriculum.",
-      "core": "The standard version (about Years 5–6 reading level). 8 key words, 5 quiz questions, full workbook. Evidence counts towards **Level 5** curriculum, with Level Up tasks reaching Level 7–8.",
-      "extend": "Adds a paragraph on *why* scams work (positioning, credibility), 2 extra key words, a 6th quiz question, extra analysis questions and an extra scenario. The final task asks students to persuade with evidence. Level Up tasks are evidence for **Level 7–8**."
+      "support": "Shorter, simpler article and case studies (about Years 3–4 reading level). 6 key words. Quiz questions have 3 choices, not 4. Fewer workbook items, bigger text and writing lines, more sentence starters. The explainer voice is slower. Evidence counts towards **Levels 3–4**.",
+      "core": "The standard version (about Years 5–6 reading level). 8 key words, 5 quiz questions, full workbook. Evidence counts towards **Level 5**; Level Up tasks reach **Levels 6–7**.",
+      "extend": "Adds a paragraph on *why* scams work (positioning, credibility), 2 extra key words, a 6th quiz question, extra analysis questions and an extra scenario. The final task asks students to persuade with evidence. Level Up work is evidence for **Levels 6–7**."
     }
   }
 }

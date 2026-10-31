@@ -6,7 +6,7 @@ import { ROOT_DIR } from '../src/html.js';
 import { content, requirements } from '../src/content.js';
 
 const c = content();
-const vc = (id) => { const e = c.vc[id]; return `L${e.level} ${e.substrand}`; };
+const vc = (id) => { const e = c.vc[id]; return `${e.code} (${e.substrand})`; };
 const tierName = { 0: 'Base Camp', 1: 'Starter', 2: 'Level 2', 3: 'Boss', 4: 'Crossroads' };
 const L = [];
 const p = (s = '') => L.push(s);
@@ -39,7 +39,9 @@ p('  - Boss skill: finish 1 level-2 skill in the same zone.');
 p('  - Crossroads: finish 2 skills in each of the two named zones.');
 p('  - While courses are still being written, a rule never asks for more skills than are actually built, so students are never stuck behind an unwritten course.');
 p('- **Badges:** one per skill, an *Explorer* and a *Master* badge per zone, *Base Camp Cleared*, and milestones at 1, 5, 10 and 20 skills.');
-p('- **Two levels inside every skill.** Core tasks target about Level 4–6. *Level Up* tasks (marked ★ in workbooks) stretch to Level 7–8. Core VC links count as soon as a skill is signed off; Level Up links count only when the teacher confirms the extension work.');
+p('- **Reading levels.** An admin sets each student’s reading level (▲ Foundation, Years 3–4 · ■ Core, Years 5–6 · ● Extended, Year 7+). Each mini course is written at all three levels, and students never see theirs.');
+p('- **Curriculum evidence follows the level.** Foundation readers evidence the Level 3–4 content descriptions; everyone else evidences the Core (Level 5–6) codes. *Level Up* tasks (★ in workbooks) evidence the Level 6–8 codes once the teacher confirms that work.');
+p('- **Official curriculum.** All codes and wording come word for word from the VCAA website (`npm run import-vcaa`).');
 p();
 p('## What is inside every mini course');
 p();
@@ -67,32 +69,32 @@ for (const z of c.map.zones) {
   p();
   p(`_${z.pitch}_`);
   p();
-  p('| Skill | Tier | Real-life skill | Literacy focus | VC core | VC Level Up | Unlocks after | Badge | Status |');
-  p('|---|---|---|---|---|---|---|---|---|');
+  p('| Skill | Tier | Real-life skill | Literacy focus | VC ▲ Foundation | VC Core | VC ★ Level Up | Unlocks after | Badge | Status |');
+  p('|---|---|---|---|---|---|---|---|---|---|');
   for (const s of all.filter((x) => x.zone === z.id)) {
     const req = requirements(s).filter((r) => r.text !== 'Finish 2 Base Camp skills' || s.tier === 1).map((r) => r.text).join('; ') || '—';
-    p(`| **${s.title}** | ${tierName[s.tier]} | ${s.realLife} | ${s.literacy} | ${s.vc.core.map(vc).join('<br>')} | ${s.vc.extend.map(vc).join('<br>')} | ${req} | ${s.badge.name} | ${s.ready ? '✅ built' : 'planned'} |`);
+    p(`| **${s.title}** | ${tierName[s.tier]} | ${s.realLife} | ${s.literacy} | ${(s.vc.support || []).map(vc).join('<br>')} | ${s.vc.core.map(vc).join('<br>')} | ${s.vc.extend.map(vc).join('<br>')} | ${req} | ${s.badge.name} | ${s.ready ? '✅ built' : 'planned'} |`);
   }
   p();
 }
 
-p('## Curriculum coverage (Levels 3–8)');
+p('## Curriculum coverage (Levels 3–10)');
 p();
-p('Each cell lists how many skills address that sub-strand at that level (core + Level Up).');
+p('Each cell shows how many of the official content descriptions at that level and sub-strand are linked to at least one skill.');
 p();
-const levels = [3, 4, 5, 6, 7, 8];
+const levels = [3, 4, 5, 6, 7, 8, 9, 10];
 p(`| Strand › sub-strand | ${levels.map((l) => `L${l}`).join(' | ')} |`);
 p(`|---|${levels.map(() => '---').join('|')}|`);
 for (const [key, fa] of Object.entries(c.curriculum.focusAreas)) {
   p(`| ${fa.strand} › ${fa.substrand} | ${levels.map((l) => {
-    const id = `L${l}-${key}`;
-    if (!c.vc[id]) return '·';
-    const n = all.filter((s) => s.vc.core.includes(id) || s.vc.extend.includes(id)).length;
-    return n ? String(n) : '0';
+    const es = c.curriculum.entries.filter((e) => e.level === l && e.focus === key);
+    if (!es.length) return '·';
+    const n = es.filter((e) => all.some((s) => [...(s.vc.support || []), ...s.vc.core, ...s.vc.extend].includes(e.id))).length;
+    return `${n}/${es.length}`;
   }).join(' | ')} |`);
 }
 p();
-p(`> ⚠️ ${c.curriculum.note}`);
+p(`Source: ${c.curriculum.source} Retrieved ${c.curriculum.retrieved} from ${c.curriculum.url}.`);
 p();
 writeFileSync(path.join(ROOT_DIR, 'docs', 'COURSE-MAP.md'), L.join('\n'));
 console.log('wrote docs/COURSE-MAP.md');
