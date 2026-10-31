@@ -17,6 +17,10 @@ Built for disengaged 14–17 year olds who read at about Year 3–7 level. Stude
 
 Your test accounts and progress stay in that codespace until you delete it.
 
+## Host it for real classes
+
+See [docs/RAILWAY.md](docs/RAILWAY.md) to put Level Up on the internet with Railway.
+
 ## Quick start (on your own computer)
 
 ```bash
