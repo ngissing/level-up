@@ -552,3 +552,64 @@ body[data-rl="support"] .prose { font-size: 1.22rem; line-height: 1.9; }
 
 /* Keep explainer scenes hidden until they've been sized to the player (avoids a jump). */
 .ex-stage:not(.fitted) .ex-scene { visibility: hidden; }
+
+/* ===== Programs ===== */
+/* VCE VM Literacy: "hi-vis" scheme — concrete and blueprint grid, charcoal header with a
+   hazard stripe, safety-orange accents. Clearly different from the F–10 cream and lime. */
+body.prog-vm {
+  --paper: #e3e6ea;
+  --lime: #ff8a2a;
+  --zone: #ff8a2a;
+  --zone-ink: #2a1200;
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(rgba(27, 31, 36, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(27, 31, 36, .07) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+body.prog-vm .topbar { background: #1b1f24; }
+body.prog-vm .topbar::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -8px; height: 8px;
+  background: repeating-linear-gradient(-45deg, #ff8a2a 0 14px, #1b1f24 14px 28px);
+}
+body.prog-vm .logo-mark { background: #ff8a2a; border-color: #fff; }
+body.prog-vm .mainnav a.on { background: #ff8a2a; color: #1b1f24; }
+body.prog-vm .meter span { background: repeating-linear-gradient(-45deg, #ff8a2a 0 10px, #e5701a 10px 20px); }
+body.prog-vm main { padding-top: 40px; }
+body.prog-vm .flash { margin-top: 24px; }
+.prog-chip {
+  display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 6px;
+  background: #ff8a2a; color: #1b1f24; font: 800 .85rem var(--display); letter-spacing: .04em; text-transform: uppercase;
+  border: 2px solid #fff; transform: rotate(-2deg);
+}
+
+/* Program switch and banner (teacher and admin pages) */
+.prog-switch { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 0; }
+.prog-tab { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border: var(--bw) solid var(--ink); border-bottom: 0; border-radius: 14px 14px 0 0; text-decoration: none; font-weight: 600; background: #fff; opacity: .7; }
+.prog-tab small { font-weight: 400; color: var(--muted); }
+.prog-tab.on { opacity: 1; }
+.prog-tab-f10.on { background: #c6f432; }
+.prog-tab-vm.on { background: #ff8a2a; }
+.prog-banner { display: flex; gap: 16px; align-items: center; padding: 16px 20px; border: var(--bw) solid var(--ink); border-radius: 0 var(--r) var(--r) var(--r); box-shadow: var(--shadow); margin-bottom: 28px; }
+.prog-banner > div { display: grid; }
+.prog-banner strong { font-family: var(--display); font-size: 1.6rem; line-height: 1.1; }
+.prog-banner small { color: inherit; opacity: .8; }
+.prog-banner-ico { width: 42px; height: 42px; flex: none; }
+.prog-banner-f10 { background: #f2fbd6; }
+.prog-banner-vm { background: #1b1f24; color: #fff; border-color: #1b1f24; position: relative; overflow: hidden; }
+.prog-banner-vm::after { content: ""; position: absolute; right: 0; top: 0; bottom: 0; width: 90px; background: repeating-linear-gradient(-45deg, #ff8a2a 0 14px, #1b1f24 14px 28px); }
+.prog-banner-vm .prog-banner-ico { color: #ff8a2a; }
+.prog-tag { display: inline-flex; align-items: center; gap: 6px; font-size: .78rem; font-weight: 700; padding: 2px 10px; border-radius: 6px; border: 2px solid var(--ink); }
+.prog-tag-f10 { background: #c6f432; } .prog-tag-vm { background: #ff8a2a; }
+.prog-select-vm { background: #ffe3cc; }
+
+/* VM curriculum map */
+.vm-unit { margin-top: 30px; }
+.unit-title { font-size: 2rem; display: flex; align-items: center; gap: 14px; }
+.unit-title span { background: #1b1f24; color: #ff8a2a; padding: 6px 18px; border-radius: 8px; }
+.unit-title::after { content: ""; flex: 1; height: 10px; background: repeating-linear-gradient(-45deg, #ff8a2a 0 10px, transparent 10px 20px); border-radius: 4px; }
+.outcome-statement { background: #fff; border-left: 6px solid #ff8a2a; padding: 10px 14px; border-radius: 0 10px 10px 0; font-weight: 500; max-width: 90ch; }
+.outcome-options { font-size: .92rem; color: var(--muted); }
+.kk-head { font-family: var(--display); margin: 16px 0 8px; text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; }
+.cm-level.vm-code { font-size: 1.1rem; }
+.outcome-grid td { width: 22%; }

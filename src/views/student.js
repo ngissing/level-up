@@ -1,5 +1,6 @@
 import { html, icon, md, mdInline, raw } from '../html.js';
 import { page, sticker, vcChip, readAloud, sayButton, empty } from './layout.js';
+import { PROGRAMS } from '../programs.js';
 import { diagram, phone } from './diagrams.js';
 import {
   content, skillList, zoneSkills, skillState, doneSet, requirements, allBadges, coverage, STEPS, audioFor, readUnits,
@@ -33,14 +34,15 @@ function node(skill, progress, done) {
 }
 
 export function mapPage(req, { progress, newBadges, unlocked }) {
-  const c = content();
+  const c = content(req.user.program);
   const done = doneSet(progress);
-  const all = skillList();
+  const all = skillList(c.program);
+  const base = c.zones[c.baseZone], cross = c.zones[c.crossZone];
   const nextUp = all.filter((s) => ['started', 'open'].includes(skillState(s, progress, done)))
     .sort((a, b) => (progress[b.id] ? 1 : 0) - (progress[a.id] ? 1 : 0)).slice(0, 4);
   const badgeCount = req.badgeCount || 0;
   const first = req.user.name.split(' ')[0];
-  const zones = c.map.zones.filter((z) => !['basecamp', 'crossroads'].includes(z.id));
+  const zones = c.map.zones.filter((z) => ![c.baseZone, c.crossZone].includes(z.id));
   const tierLabel = ['', 'Starters', 'Level 2', 'Boss level'];
 
   const body = html`
@@ -71,12 +73,12 @@ export function mapPage(req, { progress, newBadges, unlocked }) {
     <div class="next-grid">${nextUp.map((s) => node(s, progress, done))}</div>
   </section>` : ''}
 
-  <section class="zone-band" style="--zone:${c.zones.basecamp.color};--zone-ink:${c.zones.basecamp.ink}">
+  <section class="zone-band" style="--zone:${base.color};--zone-ink:${base.ink}">
     <header class="zone-head">
-      ${sticker(c.zones.basecamp.icon, { color: c.zones.basecamp.color, ink: c.zones.basecamp.ink, size: 'lg' })}
-      <div><h2>Base Camp</h2><p>${c.zones.basecamp.pitch}</p></div>
+      ${sticker(base.icon, { color: base.color, ink: base.ink, size: 'lg' })}
+      <div><h2>${base.name}</h2><p>${base.pitch}</p></div>
     </header>
-    <div class="band-nodes">${zoneSkills('basecamp').map((s) => node(s, progress, done))}</div>
+    <div class="band-nodes">${zoneSkills(c.baseZone).map((s) => node(s, progress, done))}</div>
   </section>
 
   <div class="trail-arrow" aria-hidden="true">${icon('lucide:arrow-down')}<span>then choose your zone</span>${icon('lucide:arrow-down')}</div>
@@ -103,12 +105,12 @@ export function mapPage(req, { progress, newBadges, unlocked }) {
     })}
   </section>
 
-  <section class="zone-band crossroads" style="--zone:${c.zones.crossroads.color};--zone-ink:${c.zones.crossroads.ink}">
+  <section class="zone-band crossroads" style="--zone:${cross.color};--zone-ink:${cross.ink}">
     <header class="zone-head">
-      ${sticker(c.zones.crossroads.icon, { color: c.zones.crossroads.color, ink: c.zones.crossroads.ink, size: 'lg' })}
-      <div><h2>Crossroads</h2><p>${c.zones.crossroads.pitch}</p></div>
+      ${sticker(cross.icon, { color: cross.color, ink: cross.ink, size: 'lg' })}
+      <div><h2>${cross.name}</h2><p>${cross.pitch}</p></div>
     </header>
-    <div class="band-nodes four">${zoneSkills('crossroads').map((s) => node(s, progress, done))}</div>
+    <div class="band-nodes four">${zoneSkills(c.crossZone).map((s) => node(s, progress, done))}</div>
   </section>`;
   return page(req, { title: 'Map', body, active: '/map', wide: true });
 }
@@ -159,7 +161,7 @@ function scene(s) {
     case 'message': return html`<div class="sc sc-message"><h3>${s.title}</h3>${phone({ sender: s.sender, text: s.text })}</div>`;
     case 'stat': return html`<div class="sc sc-stat"><b>${s.big}</b><h3>${s.title}</h3><p>${s.sub}</p></div>`;
     case 'big': return html`<div class="sc sc-big">${icon(s.icon, 'sc-ico')}<h3>${s.title}</h3><p>${mdInline(s.text)}</p></div>`;
-    case 'flag': return html`<div class="sc sc-flag"><span class="flag-letter">${s.letter}</span><div><span class="flag-pill">${icon('lucide:flag')} Red flag</span><h3>${s.title}</h3><p>${s.text}</p></div>${icon(s.icon, 'sc-ico')}</div>`;
+    case 'flag': return html`<div class="sc sc-flag"><span class="flag-letter">${s.letter}</span><div><span class="flag-pill">${icon(s.pillIcon || 'lucide:flag')} ${s.pill || 'Red flag'}</span><h3>${s.title}</h3><p>${s.text}</p></div>${icon(s.icon, 'sc-ico')}</div>`;
     case 'steps': return html`<div class="sc sc-steps"><h3>${s.title}</h3><ol>${s.steps.map((x) => html`<li>${x}</li>`)}</ol></div>`;
     case 'end': return html`<div class="sc sc-end">${icon(s.icon, 'sc-ico')}<h3>${s.title}</h3><p>${s.text}</p></div>`;
     default: return html`<div class="sc"><h3>${s.title}</h3></div>`;
@@ -307,7 +309,7 @@ function dedupe(ids, c) {
 export function skillPage(req, { skill, progress, step, quizResult, passPct }) {
   const student = req.user.role === 'student';
   const z = skill.zoneObj;
-  const c = content();
+  const c = content(skill.program);
   const p = progress[skill.id];
   const done = doneSet(progress);
   const st = skillState(skill, progress, done);
@@ -321,8 +323,8 @@ export function skillPage(req, { skill, progress, step, quizResult, passPct }) {
       </div>
       <aside class="hero-card">
         <p><span class="kicker">${icon('lucide:hand-heart')} Real-life skill</span>${skill.realLife}</p>
-        <p><span class="kicker">${icon('lucide:graduation-cap')} Victorian Curriculum</span></p>
-        <div class="vc-list">${(student ? dedupe(skill.vcNow.core, c) : skill.vcNow.core.map((id) => c.vc[id])).map((e) => vcChip(e, { hideLevel: student }))}${(student ? dedupe(skill.vcNow.extend, c) : skill.vcNow.extend.map((id) => c.vc[id])).map((e) => vcChip(e, { extend: true, hideLevel: student }))}</div>
+        <p><span class="kicker">${icon('lucide:graduation-cap')} ${PROGRAMS[skill.program].name}</span></p>
+        <div class="vc-list">${(student ? dedupe(skill.vcNow.core, c) : skill.vcNow.core.map((id) => c.vc[id])).map((e) => vcChip(e, { hideLevel: student }))}${(student ? dedupe(skill.vcNow.extend, c).filter((e) => !dedupe(skill.vcNow.core, c).some((x) => x.substrand === e.substrand)) : skill.vcNow.extend.map((id) => c.vc[id])).map((e) => vcChip(e, { extend: true, hideLevel: student }))}</div>
       </aside>
     </div>
   </section>`;
@@ -356,13 +358,13 @@ export function skillPage(req, { skill, progress, step, quizResult, passPct }) {
     }[step] || (() => '');
     body = html`${hero}<div class="skill-layout">${stepNav(skill, p, step)}<div class="step-body">${stepBody()}</div></div>`;
   }
-  return page(req, { title: skill.title, body, theme: z, active: '/map' });
+  return page(req, { title: skill.title, body, theme: z, active: '/map', program: skill.program });
 }
 
 // ---------------- Badges & curriculum ----------------
 
 export function badgesPage(req, { earned }) {
-  const all = allBadges();
+  const all = allBadges(req.user.program);
   const groups = [['skill', 'Skill badges'], ['zone', 'Zone badges'], ['milestone', 'Milestones']];
   const body = html`<section class="page-head"><p class="eyebrow">Trophy cabinet</p><h1>Badges <span class="hl">${earned.size} / ${all.length}</span></h1></section>
   ${groups.map(([k, label]) => html`<h2 class="section-title">${label}</h2>
@@ -381,8 +383,9 @@ export const GRID_LEVELS = [3, 4, 5, 6, 7, 8, 9, 10];
 
 // Staff view: sub-strands × levels. Each cell holds every official content description
 // at that level; a cell lights up when the student has evidence for any of them.
-export function curriculumGrid(cov, { levels = GRID_LEVELS } = {}) {
-  const c = content();
+export function curriculumGrid(cov, { levels = GRID_LEVELS, program = 'f10' } = {}) {
+  const c = content(program);
+  if (c.curriculum.kind === 'study-design') return outcomeGrid(cov, c);
   return html`<div class="vc-grid-wrap"><table class="vc-grid">
     <thead><tr><th scope="col">Strand › sub-strand</th>${levels.map((l) => html`<th scope="col">Level ${l}</th>`)}</tr></thead>
     <tbody>${Object.entries(c.curriculum.focusAreas).map(([key, fa]) => {
@@ -401,9 +404,27 @@ export function curriculumGrid(cov, { levels = GRID_LEVELS } = {}) {
   </table></div>`;
 }
 
-export function myCurriculumPage(req, { progress, level }) {
-  const c = content();
-  const cov = coverage(progress, level);
+// Staff view for a study design (VCE VM): one row per outcome, key knowledge and key skills.
+function outcomeGrid(cov, c) {
+  const cell = (es) => {
+    const hit = es.filter((e) => cov[e.id]);
+    const tip = es.map((e) => `${cov[e.id] ? '✓' : '·'} ${e.code}: ${e.text}${cov[e.id] ? ' — ' + cov[e.id].map((h) => h.skill.title).join(', ') : ''}`).join('\n');
+    return html`<td class="${hit.length ? 'hit' : ''}" title="${tip}">${hit.length ? icon('lucide:check') : ''}<span class="${hit.length ? '' : 'cd-n'}">${hit.length}/${es.length}</span></td>`;
+  };
+  return html`<div class="vc-grid-wrap"><table class="vc-grid outcome-grid">
+    <thead><tr><th scope="col">Unit › outcome</th><th scope="col">Key knowledge</th><th scope="col">Key skills</th></tr></thead>
+    <tbody>${c.curriculum.outcomes.map((o) => {
+      const es = c.curriculum.entries.filter((e) => e.focus === o.id);
+      return html`<tr><th scope="row"><small>Unit ${o.unit} · Outcome ${o.outcome}</small>${o.title}</th>
+        ${cell(es.filter((e) => e.kind === 'Key knowledge'))}${cell(es.filter((e) => e.kind === 'Key skill'))}</tr>`;
+    })}</tbody>
+  </table></div>`;
+}
+
+export function myCurriculumPage(req, { progress, level, program = 'f10' }) {
+  const c = content(program);
+  const cov = coverage(progress, level, program);
+  const sd = c.curriculum.kind === 'study-design';
   // Students see sub-strands, not curriculum levels (levels would reveal their reading level).
   const bySub = {};
   for (const [id, hits] of Object.entries(cov)) {
@@ -415,10 +436,10 @@ export function myCurriculumPage(req, { progress, level }) {
   const areas = Object.entries(c.curriculum.focusAreas);
   const body = html`<section class="page-head"><p class="eyebrow">My Curriculum</p>
     <h1>What you’ve <span class="hl">shown you can do</span></h1>
-    <p class="lede">Every skill links to the Victorian Curriculum for English. Here’s what your finished skills count towards.</p></section>
+    <p class="lede">${sd ? 'Every skill links to the outcomes in VCE VM Literacy. Here’s what your finished skills count towards.' : 'Every skill links to the Victorian Curriculum for English. Here’s what your finished skills count towards.'}</p></section>
   ${Object.keys(bySub).length ? '' : empty('Finish your first skill and it will show up here.', 'lucide:graduation-cap')}
-  ${['Literacy', 'Language', 'Literature'].map((strand) => html`
-    <h2 class="section-title">${icon(strand === 'Literacy' ? 'lucide:book-open' : strand === 'Language' ? 'lucide:message-square-quote' : 'lucide:feather')} ${strand}</h2>
+  ${(sd ? [...new Set(Object.values(c.curriculum.focusAreas).map((fa) => fa.strand))] : ['Literacy', 'Language', 'Literature']).map((strand) => html`
+    <h2 class="section-title">${icon(sd ? 'lucide:layers' : strand === 'Literacy' ? 'lucide:book-open' : strand === 'Language' ? 'lucide:message-square-quote' : 'lucide:feather')} ${strand}</h2>
     <div class="mc-grid">${areas.filter(([, fa]) => fa.strand === strand).map(([key, fa]) => {
       const hits = [...(bySub[key]?.values() || [])];
       return html`<div class="mc-card ${hits.length ? 'hit' : ''}">

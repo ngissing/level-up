@@ -81,6 +81,7 @@ INSERT OR IGNORE INTO settings (key, value) VALUES ('voice_gender', 'any');
 // Migrations for databases created by earlier versions.
 const cols = (t) => db.prepare(`PRAGMA table_info(${t})`).all().map((c) => c.name);
 if (!cols('users').includes('reading_level')) db.exec("ALTER TABLE users ADD COLUMN reading_level TEXT NOT NULL DEFAULT 'core'");
+if (!cols('users').includes('program')) db.exec("ALTER TABLE users ADD COLUMN program TEXT NOT NULL DEFAULT 'f10'");
 
 export const getSetting = (k) => db.prepare('SELECT value FROM settings WHERE key = ?').get(k)?.value;
 export const setSetting = (k, v) =>

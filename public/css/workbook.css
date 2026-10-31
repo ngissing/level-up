@@ -115,7 +115,7 @@ p { margin: 0 0 .6em; }
 
 /* Sort */
 .wb-sort { display: grid; grid-template-columns: 1fr 1fr; gap: 4.5mm; }
-.sort-card { border: 2.5px solid var(--ink); border-radius: 14px; padding: 4mm; display: flex; flex-direction: column; gap: 3mm; min-height: 70mm; box-shadow: 3px 3px 0 var(--ink); }
+.sort-card { border: 2.5px solid var(--ink); border-radius: 14px; padding: 4mm; display: flex; flex-direction: column; gap: 3mm; min-height: 60mm; box-shadow: 3px 3px 0 var(--ink); }
 .sort-top { display: flex; align-items: center; gap: 6px; }
 .sort-n { display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--zone); border: 2px solid var(--ink); font-weight: 700; font-size: 9pt; }
 .sort-from { font-weight: 600; font-size: 9.5pt; display: flex; align-items: center; gap: 4px; }
@@ -129,7 +129,7 @@ p { margin: 0 0 .6em; }
 /* Table */
 .wb-table { width: 100%; border-collapse: separate; border-spacing: 0; border: 2.5px solid var(--ink); border-radius: 14px; overflow: hidden; }
 .wb-table th { background: var(--ink); color: #fff; font-family: var(--display); text-align: left; padding: 2.5mm 4mm; font-size: 11pt; }
-.wb-table td { border-top: 2px solid var(--ink); padding: 3mm 4mm; height: 30mm; vertical-align: top; font-size: 11pt; width: 50%; }
+.wb-table td { border-top: 2px solid var(--ink); padding: 3mm 4mm; height: var(--row-h, 30mm); vertical-align: top; font-size: 11pt; width: 50%; }
 .wb-table td + td { border-left: 2px solid var(--ink); }
 .wb-table td.eg { color: #6f6a62; font-style: italic; }
 .wb-table td:first-child { font-weight: 600; background: color-mix(in srgb, var(--zone) 15%, white); }
@@ -215,3 +215,21 @@ body.rl-support .sheet { font-size: 12.5pt; }
 body.rl-support .lines span { height: 9.5mm; }
 body.rl-support .wb-article { font-size: 12pt; line-height: 1.65; }
 body.rl-support .sort-msg { font-size: 13pt; }
+
+/* VCE VM Literacy workbooks: concrete cover and hazard-stripe details */
+body.prog-vm .cover { background: #eef0f2; }
+body.prog-vm .cover-brand .logo-mark { background: #ff8a2a; }
+body.prog-vm .cover::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 9mm; z-index: 2; background: repeating-linear-gradient(-45deg, #ff8a2a 0 6mm, #1b1f24 6mm 12mm); }
+body.prog-vm .cover-inner { padding-top: 18mm; }
+body.prog-vm .sheet-foot { border-top: 3px solid #ff8a2a; }
+body.prog-vm .wb-hook { background: #1b1f24; }
+.wb-doc { display: flex; justify-content: center; margin-bottom: 4mm; }
+.wb-doc .doc-card { max-width: 150mm; width: 150mm; font-size: 9.5pt; padding-top: 10px; padding-bottom: 8px; }
+.wb-doc .doc-row { padding: 3px 0; }
+.wb-doc-table td { height: 9.5mm; }
+.wb-doc-table td.eg { width: 12mm; text-align: center; font-weight: 700; font-style: normal; }
+body.rl-support .wb-doc .doc-card { font-size: 9.5pt; }
+body.rl-support .wb-doc-table td { height: 8mm; }
+.wb-doc-table td { padding-top: 1.5mm; padding-bottom: 1.5mm; }
+body.answers .wb-doc-table td { font-size: 8.5pt; line-height: 1.3; padding-top: 1mm; padding-bottom: 1mm; height: auto; }
+body.answers .wb-doc .doc-card { font-size: 8.5pt; }

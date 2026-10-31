@@ -1,9 +1,10 @@
 // Validates content/ and estimates reading level of student-facing text.
 //   npm run check
 import { content, courseFor } from '../src/content.js';
+import { PROGRAM_IDS, PROGRAMS } from '../src/programs.js';
 import { LEVEL_IDS, LEVELS } from '../src/levels.js';
 
-const BLOCKS = ['cover', 'goals', 'vocab-match', 'reading', 'questions', 'scenarios', 'phone-annotate', 'sort', 'case-study',
+const BLOCKS = ['cover', 'goals', 'vocab-match', 'reading', 'questions', 'scenarios', 'phone-annotate', 'doc-annotate', 'sort', 'case-study',
   'table', 'equation', 'flow', 'write', 'levelup-draw', 'reflect', 'signoff'];
 const SCENES = ['title', 'message', 'stat', 'big', 'flag', 'steps', 'end'];
 // Rough reading-level ceilings per version (Flesch–Kincaid grade).
@@ -29,14 +30,21 @@ function fkGrade(text) {
   return 0.39 * (words.length / sentences) + 11.8 * (syl / words.length) - 15.59;
 }
 
-const c = content();
+const seenIds = new Map();
+for (const program of PROGRAM_IDS) {
+const c = content(program);
 const vcIds = new Set(Object.keys(c.vc));
-console.log(`Map: ${c.map.zones.length} zones, ${Object.keys(c.skills).length} skills`);
+console.log(`\n===== ${PROGRAMS[program].name}: ${c.map.zones.length} zones, ${Object.keys(c.skills).length} skills =====`);
+for (const z of [c.baseZone, c.crossZone]) if (!c.zones[z]) err(program, `map.json names zone "${z}" but it doesn't exist`);
+for (const id of [...Object.keys(c.skills), ...Object.keys(c.zones), ...c.milestones.map((m) => m.id)]) {
+  if (seenIds.has(id) && seenIds.get(id) !== program) err(id, `id is used in both ${seenIds.get(id)} and ${program} — ids must be unique across programs`);
+  seenIds.set(id, program);
+}
 
 for (const s of Object.values(c.skills)) {
   for (const id of [...s.vc.core, ...s.vc.extend, ...(s.vc.support || [])]) if (!vcIds.has(id)) err(s.id, `unknown VC id ${id}`);
   if (!c.zones[s.zone]) err(s.id, `unknown zone ${s.zone}`);
-  if (s.status === 'ready' && !s.course) err(s.id, 'status is "ready" but content/skills/<id>.json is missing');
+  if (s.status === 'ready' && !s.course) err(s.id, `status is "ready" but content/${program}/skills/${s.id}.json is missing`);
   if (!s.course) continue;
 
   console.log(`\n${s.title} (${s.id})`);
@@ -69,6 +77,7 @@ for (const s of Object.values(c.skills)) {
     console.log(`     ${flag} reading level ${g.toFixed(1)} (aim ≤ ${TARGET[level]}) — ${label}`);
   }
   }
+}
 }
 console.log(`\n${errors} error(s), ${warnings} warning(s).`);
 process.exit(errors ? 1 : 0);

@@ -1,6 +1,6 @@
-# Level Up Literacy — course map
+# Level Up Literacy — course map: Victorian Curriculum F–10
 
-_Generated from `content/` by `npm run map-doc`. Edit the JSON, not this file._
+_Generated from `content/f10/` by `npm run map-doc`. Edit the JSON, not this file. The VCE VM Literacy pathway is in [COURSE-MAP-VM.md](COURSE-MAP-VM.md)._
 
 ## The idea
 

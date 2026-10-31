@@ -6,6 +6,7 @@ import { html, icon, ROOT_DIR } from './src/html.js';
 import { sessionMiddleware, requireRole, checkPassword, hashPassword, createSession, destroySession, setCookie } from './src/auth.js';
 import { getSkill, progressFor, doneSet, skillState, syncBadges, newlyUnlocked, allBadges, STEPS, content, withLevel, audioFor } from './src/content.js';
 import { LEVEL_IDS, normalizeLevel } from './src/levels.js';
+import { PROGRAM_IDS, normalizeProgram } from './src/programs.js';
 import { mapPage, skillPage, badgesPage, myCurriculumPage, readiness, explainer } from './src/views/student.js';
 import { dashboardPage, studentDetailPage, skillsIndexPage, teacherGuidePage, curriculumMapPage } from './src/views/teacher.js';
 import { adminPage, loginPage, passwordPage } from './src/views/admin.js';
@@ -26,6 +27,8 @@ const send = (res, view) => res.type('html').send(String(view));
 const passPct = () => Number(getSetting('quiz_pass_percent') || 60);
 // Students always get their own reading level; staff can preview any level with ?level=.
 const levelOf = (req) => (req.user.role === 'student' ? req.user.reading_level : LEVEL_IDS.includes(req.query.level) ? req.query.level : 'core');
+// Staff pages pick a program with ?program= (default: Victorian Curriculum F–10).
+const programOf = (req) => (req.user.role === 'student' ? req.user.program : PROGRAM_IDS.includes(req.query.program) ? req.query.program : 'f10');
 const baseUrl = (req) => process.env.BASE_URL || `${req.protocol}://${req.get('host')}`;
 
 // ---------- Auth ----------
@@ -67,7 +70,7 @@ const student = requireRole('student', 'teacher', 'admin');
 app.get('/map', student, (req, res) => {
   const progress = progressFor(req.user.id);
   const unseen = db.prepare('SELECT badge_id FROM badges WHERE user_id = ? AND seen = 0').all(req.user.id).map((r) => r.badge_id);
-  const badgeDefs = Object.fromEntries(allBadges().map((b) => [b.id, b]));
+  const badgeDefs = Object.fromEntries(allBadges(req.user.program).map((b) => [b.id, b]));
   req.badgeCount = db.prepare('SELECT COUNT(*) n FROM badges WHERE user_id = ?').get(req.user.id).n;
   const unlocked = (req.cookies.lu_unlocked || '').split(',').filter(Boolean).map(getSkill).filter(Boolean);
   if (unlocked.length) setCookie(res, 'lu_unlocked', '', 0);
@@ -76,7 +79,8 @@ app.get('/map', student, (req, res) => {
 
 function loadSkill(req, res) {
   const skill = getSkill(req.params.id);
-  if (!skill) { res.status(404).send('Skill not found'); return null; }
+  // Students only see skills from the program they're enrolled in.
+  if (!skill || (req.user.role === 'student' && skill.program !== req.user.program)) { res.status(404).send('Skill not found'); return null; }
   return skill;
 }
 
@@ -167,7 +171,7 @@ app.get('/badges', student, (req, res) => {
   db.prepare('UPDATE badges SET seen = 1 WHERE user_id = ?').run(req.user.id);
 });
 
-app.get('/my-curriculum', student, (req, res) => send(res, myCurriculumPage(req, { progress: progressFor(req.user.id), level: levelOf(req) })));
+app.get('/my-curriculum', student, (req, res) => send(res, myCurriculumPage(req, { progress: progressFor(req.user.id), level: levelOf(req), program: programOf(req) })));
 
 // ---------- Workbooks (any logged-in user) ----------
 app.get('/workbook/:id', requireRole(), async (req, res) => {
@@ -191,12 +195,14 @@ function teacherClasses(user) {
     : db.prepare('SELECT c.* FROM classes c JOIN class_teachers t ON t.class_id = c.id WHERE t.user_id = ? ORDER BY c.name').all(user.id);
 }
 
-function studentsFor(user, classId) {
+function studentsFor(user, classId, program = null) {
   const classes = teacherClasses(user);
   const ids = classId ? classes.filter((c) => String(c.id) === String(classId)).map((c) => c.id) : classes.map((c) => c.id);
-  if (user.role === 'admin' && !classId) return db.prepare("SELECT * FROM users WHERE role = 'student' ORDER BY name").all();
-  if (!ids.length) return [];
-  return db.prepare(`SELECT * FROM users WHERE role = 'student' AND class_id IN (${ids.map(() => '?').join(',')}) ORDER BY name`).all(...ids);
+  let rows;
+  if (user.role === 'admin' && !classId) rows = db.prepare("SELECT * FROM users WHERE role = 'student' ORDER BY name").all();
+  else if (!ids.length) rows = [];
+  else rows = db.prepare(`SELECT * FROM users WHERE role = 'student' AND class_id IN (${ids.map(() => '?').join(',')}) ORDER BY name`).all(...ids);
+  return program ? rows.filter((s) => s.program === program) : rows;
 }
 
 function canSee(user, studentId) {
@@ -205,14 +211,16 @@ function canSee(user, studentId) {
 
 app.get('/teacher', teacher, (req, res) => {
   const classes = teacherClasses(req.user);
-  const students = studentsFor(req.user, req.query.class);
+  const program = programOf(req);
+  const students = studentsFor(req.user, req.query.class, program);
   const ids = students.map((s) => s.id);
   const progressByUser = Object.fromEntries(ids.map((id) => [id, progressFor(id)]));
-  const queue = ids.length ? db.prepare(`SELECT p.*, u.name FROM progress p JOIN users u ON u.id = p.user_id
+  const queue = ids.length ? db.prepare(`SELECT p.*, u.name, u.program FROM progress p JOIN users u ON u.id = p.user_id
     WHERE p.status = 'submitted' AND p.user_id IN (${ids.map(() => '?').join(',')}) ORDER BY p.submitted_at`).all(...ids) : [];
   const weekCount = ids.length ? db.prepare(`SELECT COUNT(*) n FROM progress WHERE status = 'complete' AND completed_at > datetime('now', '-7 days')
     AND user_id IN (${ids.map(() => '?').join(',')})`).get(...ids).n : 0;
-  send(res, dashboardPage(req, { students, queue, classes, classId: req.query.class, progressByUser, weekCount }));
+  const counts = Object.fromEntries(PROGRAM_IDS.map((p) => [p, studentsFor(req.user, req.query.class, p).length]));
+  send(res, dashboardPage(req, { students, queue, classes, classId: req.query.class, progressByUser, weekCount, program, counts }));
 });
 
 app.post('/teacher/signoff', teacher, (req, res) => {
@@ -248,8 +256,8 @@ app.get('/teacher/student/:id', teacher, (req, res) => {
   send(res, studentDetailPage(req, { student: s, progress: progressFor(s.id), badges }));
 });
 
-app.get('/teacher/skills', teacher, (req, res) => send(res, skillsIndexPage(req)));
-app.get('/teacher/curriculum', teacher, (req, res) => send(res, curriculumMapPage(req)));
+app.get('/teacher/skills', teacher, (req, res) => send(res, skillsIndexPage(req, programOf(req))));
+app.get('/teacher/curriculum', teacher, (req, res) => send(res, curriculumMapPage(req, programOf(req))));
 app.get('/teacher/skill/:id', teacher, (req, res) => {
   const skill = loadSkill(req, res); if (!skill) return;
   if (!skill.course) return res.redirect('/teacher/skills');
@@ -258,7 +266,7 @@ app.get('/teacher/skill/:id', teacher, (req, res) => {
 app.get('/teacher/skill/:id/explainer', requireRole(), (req, res) => {
   const skill = loadSkill(req, res); if (!skill?.course) return;
   const z = skill.zoneObj;
-  send(res, html`${head(skill.title, ['/css/shared.css', '/css/app.css'])}<body class="board" style="--zone:${z.color};--zone-ink:${z.ink}" data-voice="${getSetting('voice_gender') || 'any'}">
+  send(res, html`${head(skill.title, ['/css/shared.css', '/css/app.css'])}<body class="board prog-${skill.program}" style="--zone:${z.color};--zone-ink:${z.ink}" data-voice="${getSetting('voice_gender') || 'any'}">
     <main class="board-main">${explainer(withLevel(skill, levelOf(req)).course.explainer, audioFor(skill.id))}</main><script src="/js/app.js" defer></script></body></html>`);
 });
 
@@ -273,16 +281,17 @@ app.get('/admin', admin, (req, res) => {
   send(res, adminPage(req, { users, classes, settings, roleFilter: req.query.role }));
 });
 
-function addUser({ name, username, password, role = 'student', class_id = null, reading_level = 'core' }) {
-  db.prepare('INSERT INTO users (name, username, password_hash, role, class_id, must_change_pw, reading_level) VALUES (?, ?, ?, ?, ?, 1, ?)')
-    .run(name.trim(), username.trim().toLowerCase(), hashPassword(password), role, class_id || null, reading_level);
+function addUser({ name, username, password, role = 'student', class_id = null, reading_level = 'core', program = 'f10' }) {
+  db.prepare('INSERT INTO users (name, username, password_hash, role, class_id, must_change_pw, reading_level, program) VALUES (?, ?, ?, ?, ?, 1, ?, ?)')
+    .run(name.trim(), username.trim().toLowerCase(), hashPassword(password), role, class_id || null, reading_level, program);
 }
 
 app.post('/admin/users', admin, (req, res) => {
   const { name, username, password, role, class_id } = req.body;
   if (!['student', 'teacher', 'admin'].includes(role)) return res.status(400).send('Bad role');
   const reading_level = normalizeLevel(req.body.reading_level) || 'core';
-  try { addUser({ name, username, password, role, class_id: class_id ? Number(class_id) : null, reading_level }); res.flash('ok', `Added ${name}.`); }
+  const program = normalizeProgram(req.body.program) || 'f10';
+  try { addUser({ name, username, password, role, class_id: class_id ? Number(class_id) : null, reading_level, program }); res.flash('ok', `Added ${name}.`); }
   catch { res.flash('error', `Username “${username}” is already taken.`); }
   res.redirect('/admin');
 });
@@ -291,17 +300,18 @@ app.post('/admin/bulk', admin, (req, res) => {
   let added = 0; const problems = [];
   for (const line of String(req.body.csv || '').split(/\r?\n/)) {
     if (!line.trim()) continue;
-    const [name, username, password, className, levelText] = line.split(',').map((x) => (x || '').trim());
+    const [name, username, password, className, levelText, programText] = line.split(',').map((x) => (x || '').trim());
     const reading_level = normalizeLevel(levelText);
-    if (!name || !username || !password || !reading_level) { problems.push(line); continue; }
+    const program = normalizeProgram(programText);
+    if (!name || !username || !password || !reading_level || !program) { problems.push(line); continue; }
     let classId = null;
     if (className) {
       db.prepare('INSERT OR IGNORE INTO classes (name) VALUES (?)').run(className);
       classId = db.prepare('SELECT id FROM classes WHERE name = ?').get(className).id;
     }
-    try { addUser({ name, username, password, class_id: classId, reading_level }); added++; } catch { problems.push(line); }
+    try { addUser({ name, username, password, class_id: classId, reading_level, program }); added++; } catch { problems.push(line); }
   }
-  res.flash(problems.length ? 'error' : 'ok', `Added ${added} student${added === 1 ? '' : 's'}.${problems.length ? ` Skipped ${problems.length} line(s): ${problems.map((l) => `“${l}”`).join(', ')} (missing info, unknown reading level, or username taken).` : ''}`);
+  res.flash(problems.length ? 'error' : 'ok', `Added ${added} student${added === 1 ? '' : 's'}.${problems.length ? ` Skipped ${problems.length} line(s): ${problems.map((l) => `“${l}”`).join(', ')} (missing info, unknown reading level or program, or username taken).` : ''}`);
   res.redirect('/admin');
 });
 
@@ -320,6 +330,12 @@ app.post('/admin/classes/:id/teachers', admin, (req, res) => {
 
 app.post('/admin/users/:id/class', admin, (req, res) => {
   db.prepare('UPDATE users SET class_id = ? WHERE id = ?').run(req.body.class_id ? Number(req.body.class_id) : null, Number(req.params.id));
+  res.redirect(req.get('referer') || '/admin');
+});
+
+app.post('/admin/users/:id/program', admin, (req, res) => {
+  const program = normalizeProgram(req.body.program);
+  if (program) db.prepare('UPDATE users SET program = ? WHERE id = ?').run(program, Number(req.params.id));
   res.redirect(req.get('referer') || '/admin');
 });
 
@@ -357,7 +373,7 @@ if (!db.prepare("SELECT 1 FROM users WHERE role = 'admin'").get()) {
   addUser({ name: 'Admin', username: 'admin', password: process.env.ADMIN_PASSWORD || 'changeme', role: 'admin' });
   console.log('Created admin account: admin / ' + (process.env.ADMIN_PASSWORD ? '(ADMIN_PASSWORD)' : 'changeme'));
 }
-content(); // fail fast on bad content
+PROGRAM_IDS.forEach((p) => content(p)); // fail fast on bad content
 
 const port = Number(process.env.PORT || 3000);
 const { version } = JSON.parse(readFileSync(path.join(ROOT_DIR, 'package.json'), 'utf8'));
@@ -369,6 +385,6 @@ app.listen(port, (err) => {
     process.exit(1);
   }
   if (err) { console.error(err); process.exit(1); }
-  console.log(`Level Up v${version} running on http://localhost:${port}  (curriculum: ${content().curriculum.entries.length} official VCAA content descriptions)`);
+  console.log(`Level Up v${version} running on http://localhost:${port}  (curricula: ${content('f10').curriculum.entries.length} VC F–10 content descriptions, ${content('vm').curriculum.entries.length} VM Literacy key knowledge/skills)`);
   console.log('Leave this window open while you use the app. Press Ctrl + C to stop it.');
 });

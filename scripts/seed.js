@@ -1,4 +1,4 @@
-// Demo data: one teacher, one class, four students at different points.
+// Demo data: one teacher, an F–10 class with four students and a VCE VM Literacy class with two.
 // Usage: npm run seed   (safe to re-run; skips existing usernames)
 import { db } from '../src/db.js';
 import { hashPassword } from '../src/auth.js';
@@ -36,8 +36,19 @@ prog.run(jay, 'spot-the-scam', 'submitted', all, 4, 5, 'I learned that scammers 
 prog.run(tia, 'spot-the-scam', 'complete', all, 5, 5, 'Two red flags = big warning.', 1, null, new Date().toISOString());
 syncBadges(tia);
 
+// VCE VM Literacy class
+db.prepare('INSERT OR IGNORE INTO classes (name) VALUES (?)').run('11 VM Literacy');
+const vmClass = db.prepare('SELECT id FROM classes WHERE name = ?').get('11 VM Literacy').id;
+db.prepare('INSERT OR IGNORE INTO class_teachers (class_id, user_id) VALUES (?, ?)').run(vmClass, t);
+const zara = add('Zara Ahmed', 'zara', 'student123', 'student', vmClass);
+const ben = add('Ben Kelly', 'ben', 'student123', 'student', vmClass);
+db.prepare("UPDATE users SET program = 'vm' WHERE id IN (?, ?)").run(zara, ben);
+setLevel.run('support', zara);
+prog.run(ben, 'vm-first-payslip', 'started', JSON.stringify(['brief', 'watch']), null, null, null, 0, null, null);
+
 console.log(`Seeded. Logins:
   admin   / changeme   (admin)
-  teacher / teacher123 (teacher, class "10 Literacy")
+  teacher / teacher123 (teacher of "10 Literacy" and "11 VM Literacy")
   kai, mia, jay, tia / student123 (students)
-  Reading levels: kai = Foundation, mia & tia = Core, jay = Extended`);
+  Reading levels: kai = Foundation, mia & tia = Core, jay = Extended
+  zara, ben / student123 (VCE VM Literacy students, class "11 VM Literacy"; zara = Foundation, ben = Core)`);

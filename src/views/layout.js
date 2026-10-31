@@ -1,6 +1,7 @@
 import { html, icon, raw } from '../html.js';
 import { LEVELS } from '../levels.js';
 import { getSetting } from '../db.js';
+import { PROGRAMS } from '../programs.js';
 
 
 const NAV = {
@@ -31,15 +32,18 @@ export function logo() {
   </a>`;
 }
 
-export function page(req, { title, body, active = '', theme = null, wide = false }) {
+// program: which program's colour scheme to use. Students always get their own.
+export function page(req, { title, body, active = '', theme = null, wide = false, program = null }) {
   const u = req.user;
+  const prog = (u?.role === 'student' ? u.program : program) || 'f10';
   const nav = u ? NAV[u.role] : [];
   const style = theme ? `--zone:${theme.color};--zone-ink:${theme.ink}` : '';
   return html`${head(title, ['/css/shared.css', '/css/app.css'])}
-<body class="role-${u?.role || 'guest'}" style="${style}" data-voice="${getSetting('voice_gender') || 'any'}" ${u?.role === 'student' ? raw(`data-rl="${u.reading_level}"`) : ''}>
+<body class="role-${u?.role || 'guest'} prog-${prog}" style="${style}" data-voice="${getSetting('voice_gender') || 'any'}" ${u?.role === 'student' ? raw(`data-rl="${u.reading_level}"`) : ''}>
 <a class="skip" href="#main">Skip to content</a>
 <header class="topbar">
   ${logo()}
+  ${prog !== 'f10' ? html`<span class="prog-chip" title="${PROGRAMS[prog].curriculumName}">${icon(PROGRAMS[prog].icon)} ${PROGRAMS[prog].short}</span>` : ''}
   ${u ? html`<nav class="mainnav" aria-label="Main">
     ${nav.map(([href, label, ic]) => html`<a href="${href}" class="${active === href ? 'on' : ''}">${icon(ic)}<span>${label}</span></a>`)}
   </nav>
