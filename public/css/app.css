@@ -542,3 +542,10 @@ body[data-rl="support"] .prose { font-size: 1.22rem; line-height: 1.9; }
 
 .ex-voice { margin: 0; padding: 6px 14px 8px; background: #23222b; color: #a9a5b3; font-size: .78rem; }
 .ex-voice:empty { display: none; }
+
+.jump { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 24px; }
+.jump a { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; background: #fff; border: 2px solid var(--ink); border-radius: 999px; text-decoration: none; font-weight: 600; box-shadow: 2px 2px 0 var(--ink); }
+.jump a small { font-weight: 400; color: var(--muted); }
+.jump a:hover { background: var(--lime); }
+.panel[id] { scroll-margin-top: 90px; }
+.panel:target { outline: 4px solid var(--lime); outline-offset: 4px; }

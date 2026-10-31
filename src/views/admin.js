@@ -11,8 +11,15 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
     <p class="lede">Students can’t sign themselves up — add them here. Give each student a simple password; they’ll be asked to change it the first time they log in.</p>
     <div class="callout-box">${icon('lucide:layers')}<div><strong>Reading levels</strong><p>Each student has a reading level. It changes the wording, the length and the scaffolds of every mini course: the brief, the readings, the quiz, the explainer voice speed and the printed workbook. Students never see their level. ${LEVEL_IDS.map((l) => html`<b>${LEVELS[l].symbol} ${LEVELS[l].label}</b> ${LEVELS[l].years}. `)}</p></div></div></section>
 
+  <nav class="jump" aria-label="On this page">
+    <a href="#add">${icon('lucide:user-plus')} Add people</a>
+    <a href="#classes">${icon('lucide:school')} Classes</a>
+    <a href="#settings">${icon('lucide:settings')} Settings <small>(narrator voice, sign-off, preview mode)</small></a>
+    <a href="#people">${icon('lucide:users')} Everyone</a>
+  </nav>
+
   <div class="admin-grid">
-    <section class="panel">
+    <section class="panel" id="add">
       <h2>${icon('lucide:user-plus')} Add one person</h2>
       <form method="post" action="/admin/users" class="form-grid">
         <label class="field"><span>Full name</span><input name="name" required></label>
@@ -35,7 +42,7 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
       </form>
     </section>
 
-    <section class="panel">
+    <section class="panel" id="classes">
       <h2>${icon('lucide:school')} Classes</h2>
       <form method="post" action="/admin/classes" class="inline-form">
         <input name="name" placeholder="New class name" required><button class="btn btn-ink btn-sm">${icon('lucide:plus')} Create</button>
@@ -49,7 +56,7 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
       </li>`)}</ul>
     </section>
 
-    <section class="panel">
+    <section class="panel" id="settings">
       <h2>${icon('lucide:settings')} Settings</h2>
       <form method="post" action="/admin/settings" class="form-grid">
         <label class="check"><input type="checkbox" name="require_signoff" value="1" ${settings.require_signoff === '1' ? raw('checked') : ''}><span>Teacher must sign off a skill before it counts (recommended)</span></label>
@@ -62,7 +69,7 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
     </section>
   </div>
 
-  <section class="panel">
+  <section class="panel" id="people">
     <div class="row"><h2>${icon('lucide:users')} People (${shown.length})</h2>
       <nav class="pills">${[['', 'All'], ['student', 'Students'], ['teacher', 'Teachers'], ['admin', 'Admins']].map(([r, l]) => html`<a href="/admin${r ? '?role=' + r : ''}" class="${(roleFilter || '') === r ? 'on' : ''}">${l}</a>`)}</nav></div>
     <table class="table">
