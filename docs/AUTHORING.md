@@ -15,9 +15,10 @@ The app turns it into the student pages, the explainer, the quiz, the teacher gu
    > Build the **Say It Right** mini course. Follow `docs/AUTHORING.md` and use `content/f10/skills/spot-the-scam.json` as the model. Keep student text at about Year 4–6 reading level but make it feel grown-up. Use real Australian examples and cite sources.
 3. Check it: `npm run check` (structure, curriculum links, reading level).
 4. Print it: `npm run pdf -- say-it-right`. The exporter warns if any workbook page overflows. Fix overflows by adding `"pagebreak": true` or reducing `lines`.
-5. Set `"status": "ready"` for that skill in the program's `map.json`. It goes live on the map straight away; no restart is needed.
-6. Record the narration: `npm run voices -- <skill-id>` (see `docs/VOICES.md`).
-7. Regenerate the map document: `npm run map-doc`.
+5. Make sure every curriculum code in the skill's `map.json` entry is tagged somewhere in the course (see "Tagging where each curriculum point is taught" below).
+6. Set `"status": "ready"` for that skill in the program's `map.json`. It goes live on the map straight away; no restart is needed.
+7. Record the narration: `npm run voices -- <skill-id>` (see `docs/VOICES.md`).
+8. Regenerate the map document: `npm run map-doc`.
 
 ## House rules
 
@@ -89,6 +90,29 @@ The app turns it into the student pages, the explainer, the quiz, the teacher gu
 Leave out `vc.support`. Reading levels still change the wording and scaffolds.
 
 Read the exact wording (the teacher **Curriculum map** page lists everything for both programs) and choose items the workbook genuinely gives evidence for.
+
+### Tagging where each curriculum point is taught
+
+The teacher **Curriculum map** has a **Where?** button on every linked point. It opens a pop-up listing exactly where each mini course teaches and assesses that point, including workbook pages and question numbers for each reading level. It's built from `vc` tags inside the course file, so tag as you write.
+
+Add `"vc": [codes]` to any of the following, and optionally a short `"vcNote"` saying which part:
+- explainer scenes
+- articles and case studies
+- diagrams
+- quiz questions
+- workbook blocks, or single questions inside a block's `items`
+- `show` (the final task)
+
+```jsonc
+{ "type": "table", "title": "Read between the lines", "vc": ["VC2E5LY09", "VC2E7LY07"],
+  "vcNote": "Inferring what a message really means." }
+```
+
+```jsonc
+"articles": [{ "title": "…", "body": "…", "vc": ["VC2E5LY08"], "vcNote": "The numbered list of 4 red flags." }]
+```
+
+Only tag codes the skill links to in `map.json`. `npm run check` flags unknown codes and codes the skill isn't linked to. Page numbers are worked out automatically for each reading-level version, so never write them in by hand.
 
 ### Reading levels
 

@@ -8,6 +8,7 @@ Self-paced literacy mini courses for disengaged 14–17 year olds who read at ab
   The two VM programs are separate courses (taken in different years) that share the VM "hi-vis" colour family. An admin sets each student's program. The app is Node 22 + Express + built-in `node:sqlite`, with server-rendered HTML (tagged templates in `src/views`). There is no front-end framework or build step.
 
 - **Content, not code:** mini courses are JSON in `content/<program>/skills/<id>.json`. The map, zones, unlocks and badges live in `content/<program>/map.json`, and the curriculum in `content/<program>/curriculum.json`. Skill, zone and milestone ids must be unique across programs (VM ids start with `vm-`). Follow `docs/AUTHORING.md` when writing a course and copy the shape of `spot-the-scam.json`.
+- Tag course parts with `"vc": [codes]` (+ optional `"vcNote"`) so the curriculum map's **Where?** pop-up can show exactly where each point is taught (see AUTHORING.md). Never hard-code workbook page numbers; they're computed per reading level.
 - After changing content, run `npm run check`, `npm run pdf -- <id>` (watch for overflow warnings) and `npm run map-doc`.
 - Student-facing text: short sentences, everyday words, grown-up tone, Australian context. Real case studies only, with a source URL. Never invent statistics.
 - Curriculum: both curriculum files are **official** and imported word for word. Never edit or paraphrase them by hand.

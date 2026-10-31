@@ -1,7 +1,7 @@
 import { html, icon, md, mdInline, raw } from '../html.js';
 import { page, sticker, vcChip, empty, initials, levelTag } from './layout.js';
 import { LEVELS, LEVEL_IDS } from '../levels.js';
-import { content, skillList, getSkill, skillState, doneSet, coverage, STEPS, courseFor, vcFor } from '../content.js';
+import { content, skillList, getSkill, skillState, doneSet, coverage, STEPS, courseFor, vcFor, evidenceFor } from '../content.js';
 import { PROGRAMS, PROGRAM_IDS, familyOf } from '../programs.js';
 import { curriculumGrid } from './student.js';
 import { diagram } from './diagrams.js';
@@ -246,11 +246,59 @@ function chips(links) {
   return html`<div class="cm-chips">${links.map(({ s, kind }) => html`<a class="chip-skill chip-${kind}" href="/teacher/skill/${s.id}" style="--zone:${s.zoneObj.color};--zone-ink:${s.zoneObj.ink}" title="${kind === 'ext' ? 'Level Up work' : kind === 'sup' ? 'Foundation readers' : 'Every student'}">${icon(s.icon)} ${s.title}${kind === 'ext' ? ' ★' : ''}${kind === 'sup' ? ` ${LEVELS.support.symbol}` : ''}</a>`)}</div>`;
 }
 
-function cmItem(e, links, label, title = '') {
+function cmItem(e, links, label, title = '', program = 'f10') {
+  const url = `/teacher/where?program=${program}&id=${encodeURIComponent(e.id)}`;
   return html`<li class="cm-item ${links.length ? '' : 'gap'}">
     <span class="cm-code" title="${title}">${label}</span>
-    <div><p>${e.text}</p>${links.length ? chips(links) : html`<span class="cm-none">Not linked yet</span>`}</div>
+    <div><p>${e.text}</p>${links.length ? html`<div class="cm-links">${chips(links)}<a class="where-btn" href="${url}" data-where="${url}" title="Where exactly is this taught and assessed?">${icon('lucide:map-pin')} Where?</a></div>` : html`<span class="cm-none">Not linked yet</span>`}</div>
   </li>`;
+}
+
+const STEP_ICON = { watch: 'lucide:play', read: 'lucide:book-open', see: 'lucide:eye', check: 'lucide:circle-help', workbook: 'lucide:notebook-pen', show: 'lucide:send' };
+const STEP_LABEL = { watch: 'Watch', read: 'Read', see: 'See it', check: 'Quick check', workbook: 'Workbook', show: 'Show it' };
+
+// Where one curriculum point is taught and assessed, in every linked mini course (staff only).
+export function whereContent(c, id) {
+  const e = c.vc[id];
+  if (!e) return html`<p>Unknown curriculum point.</p>`;
+  const linked = skillList(c.program).flatMap((s) => (s.vc.core.includes(id) ? [{ s, kind: 'core' }]
+    : (s.vc.support || []).includes(id) ? [{ s, kind: 'sup' }] : s.vc.extend.includes(id) ? [{ s, kind: 'ext' }] : []));
+  const kindLabel = { core: 'Every student', sup: `${LEVELS.support.symbol} Foundation readers`, ext: '★ Level Up work' };
+  const whereCell = (byLevel) => {
+    const present = LEVEL_IDS.filter((l) => byLevel[l]);
+    const same = present.length === LEVEL_IDS.length && present.every((l) => byLevel[l].where === byLevel[present[0]].where);
+    if (same) return html`<span class="w-where">${byLevel[present[0]].where || '✓'}</span>`;
+    return html`${present.map((l) => html`<span class="w-where" title="${LEVELS[l].label} version">${LEVELS[l].symbol} ${byLevel[l].where || '✓'}</span>`)}${present.length < LEVEL_IDS.length ? html`<small class="muted"> (not in ${LEVEL_IDS.filter((l) => !byLevel[l]).map((l) => LEVELS[l].symbol).join(' ')})</small>` : ''}`;
+  };
+  return html`<header class="w-head">
+      <span class="w-code">${e.code}</span>
+      <span class="muted small">${vcWhere(e)}</span>
+      <p class="w-text">${e.text}</p>
+    </header>
+    ${linked.length ? linked.map(({ s, kind }) => {
+      const ev = evidenceFor(s, id);
+      const lvl = kind === 'sup' ? 'support' : 'core';
+      return html`<section class="w-skill" style="--zone:${s.zoneObj.color};--zone-ink:${s.zoneObj.ink}">
+        <h3>${sticker(s.icon, { color: s.zoneObj.color, ink: s.zoneObj.ink, size: 'sm' })} <span>${s.title}</span> <span class="chip-skill chip-${kind} chip-demo">${kindLabel[kind]}</span></h3>
+        ${!s.ready ? html`<p class="muted small">This mini course hasn’t been written yet. It’s planned to give evidence for this point through: ${s.literacy}</p>` : html`
+          ${ev.look.map((l) => html`<p class="w-look">${icon('lucide:eye')} <span><b>Look for:</b> ${l.evidence}</span></p>`)}
+          ${ev.places.length ? html`<table class="w-table"><thead><tr><th>Step</th><th>What</th><th>Where (▲ ■ ● = reading-level versions)</th></tr></thead><tbody>
+            ${ev.places.map((pl) => {
+              const pageLevel = pl.byLevel[lvl] ? lvl : LEVEL_IDS.find((l) => pl.byLevel[l]);
+              const href = pl.step === 'workbook' ? `/workbook/${s.id}?level=${pageLevel}#page-${pl.byLevel[pageLevel].page}` : `/skill/${s.id}?step=${pl.step}&level=${pageLevel}`;
+              return html`<tr>
+                <td><span class="w-step">${icon(STEP_ICON[pl.step])} ${STEP_LABEL[pl.step]}</span></td>
+                <td><a href="${href}" target="_blank" rel="noopener"><b>${pl.title}</b></a>${pl.note ? html`<br><small class="muted">${pl.note}</small>` : ''}</td>
+                <td>${whereCell(pl.byLevel)}</td></tr>`;
+            })}</tbody></table>` : html`<p class="muted small">No specific parts of this course are tagged for this point yet.</p>`}`}
+      </section>`;
+    }) : html`<p class="muted">No mini course links to this point yet.</p>`}`;
+}
+
+export function wherePage(req, c, id) {
+  const body = html`<p class="eyebrow"><a href="/teacher/curriculum?program=${c.program}">${icon('lucide:arrow-left')} Curriculum map</a></p>
+    <section class="panel where-panel">${whereContent(c, id)}</section>`;
+  return page(req, { title: 'Where it’s taught', body, active: '/teacher/curriculum', program: c.program });
 }
 
 function cmapHeader(c, { linked, total, noun, legend, jump }) {
@@ -266,7 +314,11 @@ function cmapHeader(c, { linked, total, noun, legend, jump }) {
     <p class="cmap-legend">${legend}</p>
     <div class="btn-row"><button type="button" class="btn btn-sm btn-ghost" data-cards="open">${icon('lucide:chevrons-down-up')} Open all</button><button type="button" class="btn btn-sm btn-ghost" data-cards="close">${icon('lucide:chevrons-up-down')} Close all</button></div>
   </div>
-  ${jump ? html`<nav class="cmap-jump" aria-label="Jump to">${jump}</nav>` : ''}`;
+  ${jump ? html`<nav class="cmap-jump" aria-label="Jump to">${jump}</nav>` : ''}
+  <dialog class="where-modal" id="where-modal" aria-label="Where it’s taught">
+    <button type="button" class="where-close" data-where-close aria-label="Close">${icon('lucide:x')}</button>
+    <div class="where-body" data-where-body></div>
+  </dialog>`;
 }
 
 const legendChip = (kind, text) => html`<span class="chip-skill chip-${kind} chip-demo">${text}</span>`;
@@ -292,8 +344,8 @@ function studyDesignMapPage(req, c) {
         <p class="cm-outcome">${o.statement}</p>
         ${o.options.length ? html`<p class="cm-options">${o.options.filter((x) => /^Option/.test(x)).join(' · ')}</p>` : ''}
         <div class="cm-cols">
-          <div><h4>Key knowledge</h4><ul class="cm-list">${kk.map((e) => cmItem(e, linksFor(e.id), e.code.split(' ').pop(), e.code))}</ul></div>
-          <div><h4>Key skills</h4><ul class="cm-list">${ks.map((e) => cmItem(e, linksFor(e.id), e.code.split(' ').pop(), e.code))}</ul></div>
+          <div><h4>Key knowledge</h4><ul class="cm-list">${kk.map((e) => cmItem(e, linksFor(e.id), e.code.split(' ').pop(), e.code, c.program))}</ul></div>
+          <div><h4>Key skills</h4><ul class="cm-list">${ks.map((e) => cmItem(e, linksFor(e.id), e.code.split(' ').pop(), e.code, c.program))}</ul></div>
         </div>
       </div>
     </details>`;
@@ -327,7 +379,7 @@ export function curriculumMapPage(req, program = 'f10') {
         <span class="cm-card-stats"><span>Linked <b>${n}/${es.length}</b>${meter(n, es.length)}</span></span>
         ${icon('lucide:chevron-down', 'cm-chev')}
       </summary>
-      <div class="cm-card-body"><ul class="cm-list">${es.map((e) => cmItem(e, linksFor(e.id), html`<b>L${e.level || e.levelId}</b><small>${e.code}</small>`, e.code))}</ul></div>
+      <div class="cm-card-body"><ul class="cm-list">${es.map((e) => cmItem(e, linksFor(e.id), html`<b>L${e.level || e.levelId}</b><small>${e.code}</small>`, e.code, program))}</ul></div>
     </details>`;
   };
   const body = html`${cmapHeader(c, {

@@ -177,6 +177,26 @@
     document.querySelectorAll('details.cm-card').forEach((d) => { d.open = b.dataset.cards === 'open'; });
   }));
 
+  // ----- "Where?" pop-up on the curriculum map (staff) -----
+  const modal = document.getElementById('where-modal');
+  if (modal) {
+    const bodyEl = modal.querySelector('[data-where-body]');
+    document.addEventListener('click', async (e) => {
+      const btn = e.target.closest('[data-where]');
+      if (!btn) return;
+      e.preventDefault();
+      bodyEl.innerHTML = '<p class="muted">Loading…</p>';
+      modal.showModal();
+      try {
+        const res = await fetch(btn.dataset.where, { headers: { 'X-Fragment': '1' } });
+        bodyEl.innerHTML = res.ok ? await res.text() : '<p>Couldn’t load this. Try opening the link in a new tab.</p>';
+      } catch { bodyEl.innerHTML = '<p>Couldn’t load this. Check your connection.</p>'; }
+    });
+    modal.querySelector('[data-where-close]').addEventListener('click', () => modal.close());
+    // Click outside the box closes it.
+    modal.addEventListener('click', (e) => { if (e.target === modal) modal.close(); });
+  }
+
   // ----- Confetti for new badges / unlocks -----
   document.querySelectorAll('[data-confetti]').forEach((box) => {
     if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;

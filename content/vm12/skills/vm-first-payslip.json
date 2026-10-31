@@ -115,7 +115,12 @@
         "title": "A payslip is a text",
         "text": "It has a **purpose** (show what you earned), an **audience** (you) and a **structure** you can learn.",
         "icon": "lucide:file-text",
-        "say": "A payslip is a text, like any other. It has a purpose: to show what you earned. It has an audience: you. And it has a structure you can learn to read."
+        "say": "A payslip is a text, like any other. It has a purpose: to show what you earned. It has an audience: you. And it has a structure you can learn to read.",
+        "vc": [
+          "VM-U1O1-KK1",
+          "VM-U1O1-KK2"
+        ],
+        "vcNote": "“A payslip is a text”: purpose, audience and structure."
       },
       {
         "kind": "stat",
@@ -133,7 +138,11 @@
           "Gross → tax → net",
           "Super: paid to your fund"
         ],
-        "say": "Read it top to bottom. Who paid you, and when. Your hours times your rate. Gross pay, minus tax, equals net pay. And super, paid into your fund."
+        "say": "Read it top to bottom. Who paid you, and when. Your hours times your rate. Gross pay, minus tax, equals net pay. And super, paid into your fund.",
+        "vc": [
+          "VM-U1O1-KK1"
+        ],
+        "vcNote": "Reading a payslip top to bottom."
       },
       {
         "kind": "flag",
@@ -143,7 +152,10 @@
         "title": "Gross vs net",
         "text": "Gross = before anything comes out. Net = what lands in your bank.",
         "icon": "lucide:arrow-down-to-line",
-        "say": "Know the words. Gross pay is your pay before anything comes out. Net pay is what lands in your bank."
+        "say": "Know the words. Gross pay is your pay before anything comes out. Net pay is what lands in your bank.",
+        "vc": [
+          "VM-U1O1-KK1"
+        ]
       },
       {
         "kind": "flag",
@@ -193,7 +205,13 @@
         "body": {
           "support": "Every job comes with a **payslip**. It might be paper, an email or an app. Read it!\n\nA payslip is a **text**. Its **purpose** is to show what you earned. Its **audience** is you.\n\nRead it from top to bottom:\n\n1. **Who and when** — your boss's business and the days you're paid for.\n2. **Hours × rate** — how many hours, and how much per hour.\n3. **Gross pay** — your pay before anything comes out.\n4. **Tax** — money sent to the tax office for you.\n5. **Net pay** — the money in your bank.\n6. **Super** — extra money for later. It goes to your super fund.\n\nYou must get a payslip within **one working day** of payday. Something wrong? Check your hours. Then ask your boss, in writing. Still stuck? Call Fair Work.",
           "core": "Every job comes with a **payslip**. It might be paper, an email or a page in an app. It's easy to ignore. Don't.\n\nA payslip is a **text**, just like a news article or an ad. It has a **purpose**: to show what you earned and how it was worked out. It has an **audience**: you (and the tax office). And it has a **structure** that's nearly the same everywhere.\n\nRead it from top to bottom:\n\n1. **Who and when** — your employer's name and ABN, your name, the **pay period** (the days it covers) and the **pay date**.\n2. **Earnings** — your hours, your **rate** per hour, and the amount. Weekend or late hours may have a higher **penalty rate**.\n3. **Gross pay** — the total before anything is taken out.\n4. **Deductions** — usually **tax withheld**, which your employer sends to the ATO for you.\n5. **Net pay** — what actually goes into your bank.\n6. **Super** — extra money your employer pays into your super fund. From 1 July 2025 it's **12%** of your ordinary earnings.\n\nBy law, you must get a payslip within **one working day** of payday. If something looks wrong, check your own record of your hours first. Then ask your manager — politely and in writing, so there's a record. If that doesn't fix it, the Fair Work Ombudsman can help."
-        }
+        },
+        "vc": [
+          "VM-U1O1-KK1",
+          "VM-U1O1-KK2",
+          "VM-U1O1-KS3"
+        ],
+        "vcNote": "Paragraph 2 (purpose, audience, structure) and the numbered walk-through of a payslip."
       }
     ],
     "caseStudies": [
@@ -219,7 +237,12 @@
             "Why might young workers be more likely to be underpaid?",
             "What's one thing on a payslip you could check to spot underpayment?"
           ]
-        }
+        },
+        "vc": [
+          "VM-U1O1-KS3",
+          "VM-U1O1-KS4"
+        ],
+        "vcNote": "Inferring why young workers are over-represented."
       },
       {
         "title": "Super just went up",
@@ -345,7 +368,12 @@
           "label": "Super",
           "note": "Extra money paid into your super fund, not your bank. It's yours for later."
         }
-      ]
+      ],
+      "vc": [
+        "VM-U1O1-KK1",
+        "VM-U1O1-KS2"
+      ],
+      "vcNote": "Each numbered part of the payslip and what it tells you."
     },
     {
       "type": "flow",
@@ -380,7 +408,10 @@
           "Your hourly rate"
         ],
         "answer": 0,
-        "explain": "Gross is the total before anything comes out. Net is what you take home."
+        "explain": "Gross is the total before anything comes out. Net is what you take home.",
+        "vc": [
+          "VM-U1O1-KK1"
+        ]
       },
       {
         "q": "Your payslip says 18 hours, but you worked 22. What should you do **first**?",
@@ -427,7 +458,10 @@
           "The ATO will fix it"
         ],
         "answer": 0,
-        "explain": "Without hours and a rate, you can't check the maths — that's a missing piece of information you need."
+        "explain": "Without hours and a rate, you can't check the maths — that's a missing piece of information you need.",
+        "vc": [
+          "VM-U1O1-KS4"
+        ]
       },
       {
         "q": "Who is the main **audience** of a payslip, and how does that shape it?",
@@ -441,6 +475,9 @@
         "explain": "It's written for the worker, so its structure walks you from hours and rate to gross, deductions and net.",
         "levels": [
           "extend"
+        ],
+        "vc": [
+          "VM-U1O1-KK2"
         ]
       }
     ]
@@ -457,7 +494,11 @@
       "My email asks for a clear fix",
       "My email is polite and checked for spelling and punctuation"
     ],
-    "levelUp": "Find the minimum pay rate for your age in a job you want, using the Fair Work Pay Calculator, and explain how you found it."
+    "levelUp": "Find the minimum pay rate for your age in a job you want, using the Fair Work Pay Calculator, and explain how you found it.",
+    "vc": [
+      "VM-U1O1-KK2"
+    ],
+    "vcNote": "The email: language chosen for a workplace audience and purpose."
   },
   "workbook": {
     "pages": [
@@ -492,21 +533,32 @@
             "lines": {
               "support": 3,
               "core": 2
-            }
+            },
+            "vc": [
+              "VM-U1O1-KS3",
+              "VM-U1O1-KK2"
+            ]
           },
           {
             "q": "Who is the **audience** of a payslip?",
             "lines": {
               "support": 2,
               "core": 1
-            }
+            },
+            "vc": [
+              "VM-U1O1-KS3",
+              "VM-U1O1-KK2"
+            ]
           },
           {
             "q": "What is the difference between **gross** and **net** pay?",
             "lines": {
               "support": 3,
               "core": 2
-            }
+            },
+            "vc": [
+              "VM-U1O1-KK1"
+            ]
           },
           {
             "q": "Why should you ask about a pay problem **in writing**?",
@@ -515,6 +567,9 @@
             "levels": [
               "core",
               "extend"
+            ],
+            "vc": [
+              "VM-U1O1-KS4"
             ]
           }
         ]
@@ -539,7 +594,12 @@
             "super"
           ],
           "core": []
-        }
+        },
+        "vc": [
+          "VM-U1O1-KK1",
+          "VM-U1O1-KS2"
+        ],
+        "vcNote": "Annotating each structural feature of the payslip."
       },
       {
         "type": "sort",
@@ -597,7 +657,10 @@
             ]
           }
         ],
-        "reasonLabel": "Why:"
+        "reasonLabel": "Why:",
+        "vc": [
+          "VM-U1O1-KS4"
+        ]
       },
       {
         "type": "case-study",
@@ -607,7 +670,10 @@
         "items": [
           {
             "q": "How much did the Fair Work Ombudsman recover, and for how many workers?",
-            "lines": 2
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS3"
+            ]
           },
           {
             "q": "Which age group was over-represented in reports?",
@@ -618,7 +684,10 @@
           },
           {
             "q": "Why do you think young workers are more likely to be underpaid?",
-            "lines": 3
+            "lines": 3,
+            "vc": [
+              "VM-U1O1-KS4"
+            ]
           },
           {
             "q": "The writer says the money came back “because someone noticed”. What can you **infer** about why reading payslips matters?",
@@ -627,6 +696,10 @@
             "levels": [
               "core",
               "extend"
+            ],
+            "vc": [
+              "VM-U1O1-KS4",
+              "VM-U1O1-KS8"
             ]
           }
         ]
@@ -677,7 +750,11 @@
           "support": 30,
           "core": 24,
           "extend": 20
-        }
+        },
+        "vc": [
+          "VM-U1O1-KK1"
+        ],
+        "vcNote": "Reading the earnings table and checking the totals."
       },
       {
         "type": "flow",
@@ -718,6 +795,9 @@
               "extend": 3
             }
           }
+        ],
+        "vc": [
+          "VM-U1O1-KS4"
         ]
       },
       {
@@ -764,6 +844,9 @@
           "gives the details",
           "asks for a fix",
           "polite and proofread"
+        ],
+        "vc": [
+          "VM-U1O1-KK2"
         ]
       },
       {
@@ -775,17 +858,28 @@
           {
             "q": "Pick a job you'd like. What is the minimum hourly rate for someone your age?",
             "lines": 2,
-            "levelUp": true
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS6"
+            ]
           },
           {
             "q": "How did you find it? List the steps, and explain why this source is reliable.",
             "lines": 4,
-            "levelUp": true
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS6",
+              "VM-U1O2-KS6",
+              "VM-U1O1-KS8"
+            ]
           },
           {
             "q": "Explain super to a younger brother, sister or friend in three sentences.",
             "lines": 4,
-            "levelUp": true
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KK2"
+            ]
           }
         ]
       },

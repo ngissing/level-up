@@ -4,7 +4,7 @@ import QRCode from 'qrcode';
 import { html, icon, md, mdInline, raw } from '../html.js';
 import { head, sticker } from './layout.js';
 import { phone, flow, documentCard } from './diagrams.js';
-import { content } from '../content.js';
+import { content, workbookSheets } from '../content.js';
 import { LEVELS } from '../levels.js';
 import { PROGRAMS, familyOf } from '../programs.js';
 
@@ -181,7 +181,7 @@ function shapes(color) {
 function cover(skill, c, qr) {
   const z = skill.zoneObj;
   const pages = skill.course.workbook.pages.filter((p) => p.title && p.type !== 'cover');
-  return html`<section class="sheet cover">
+  return html`<section class="sheet cover" id="page-1">
     ${shapes(z.color)}
     <div class="cover-inner">
       <div class="cover-brand"><span class="logo-mark">${icon('lucide:chevrons-up')}</span> ${brand(skill)} <span class="cover-zone">${icon(z.icon)} ${z.name}</span></div>
@@ -203,7 +203,7 @@ const brand = (skill) => (familyOf(skill.program) === 'vm' ? `Level Up · ${PROG
 function sheet(skill, n, inner) {
   const z = skill.zoneObj;
   const mark = LEVELS[skill.level]?.symbol || '';
-  return html`<section class="sheet">
+  return html`<section class="sheet" id="page-${n}">
     <header class="sheet-head"><span class="sh-ico">${icon(skill.icon)}</span><b>${skill.title}</b><span class="sh-zone">${z.name}</span><span class="sh-name">Name <i></i></span></header>
     <div class="sheet-body">${inner}</div>
     <footer class="sheet-foot"><span>${icon('lucide:chevrons-up')} ${brand(skill)} <i class="ver" title="Version">${mark}</i></span><span>${n}</span></footer>
@@ -216,14 +216,7 @@ export async function workbookPage(req, skill, { answers = false, baseUrl = '' }
   const qr = baseUrl ? await QRCode.toString(`${baseUrl}/skill/${skill.id}?step=watch`, { type: 'svg', margin: 0, color: { dark: '#111111', light: '#ffffff' } }) : null;
   const ctx = { skill, c, answers };
 
-  // Group blocks into sheets.
-  const sheets = [];
-  let cur = null;
-  for (const b of skill.course.workbook.pages) {
-    if (b.type === 'cover') continue;
-    if (!cur || b.pagebreak) { cur = []; sheets.push(cur); }
-    cur.push(b);
-  }
+  const sheets = workbookSheets(skill.course);
   const body = sheets.map((blocks, i) => sheet(skill, i + 2, blocks.map((b) => html`<div class="wb-block blk-${b.type}">${BLOCKS[b.type] ? BLOCKS[b.type](b, ctx) : html`<p>Unknown block: ${b.type}</p>`}</div>`)));
   if (answers) {
     body.push(sheet(skill, sheets.length + 2, html`<h2 class="wb-h"><span class="wb-h-ico">${icon('lucide:key-round')}</span>Answers (teacher copy)</h2><div class="wb-article">${md(skill.course.teacher.answers)}</div>`));

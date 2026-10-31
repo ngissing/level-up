@@ -645,3 +645,29 @@ body.fam-vm .flash { margin-top: 24px; }
 .chip-skill.chip-sup { background: #fff3ee; color: var(--ink); }
 .chip-demo { --zone: #e4ecff; --zone-ink: var(--ink); }
 @media (max-width: 900px) { .cm-cols { grid-template-columns: 1fr; } .cm-card > summary { flex-wrap: wrap; } .cm-card-stats { justify-content: flex-start; } }
+
+/* "Where?" pop-up (curriculum map, staff only) */
+.cm-links { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+.where-btn { display: inline-flex; align-items: center; gap: 3px; font-size: .72rem; font-weight: 600; color: var(--muted); text-decoration: none; padding: 1px 6px; border-radius: 6px; }
+.where-btn .ico { width: 12px; height: 12px; }
+.where-btn:hover { color: var(--ink); background: #f1ece2; }
+.where-modal { width: min(860px, calc(100vw - 32px)); max-height: calc(100vh - 48px); border: var(--bw) solid var(--ink); border-radius: var(--r); box-shadow: var(--shadow-lg); padding: 0; background: #fff; color: var(--ink); }
+.where-modal::backdrop { background: rgba(21, 20, 27, .45); }
+.where-body { padding: 22px 24px 24px; overflow: auto; max-height: calc(100vh - 52px); }
+.where-close { position: sticky; float: right; top: 10px; margin: 10px 10px 0 0; display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; border: 2px solid var(--ink); background: #fff; cursor: pointer; z-index: 2; }
+.w-head { border-bottom: 2px solid #ece6da; padding-bottom: 12px; margin-bottom: 14px; padding-right: 40px; }
+.w-code { display: inline-block; font-family: var(--display); font-weight: 800; font-size: 1.2rem; margin-right: 10px; }
+.w-text { margin: 6px 0 0; font-size: 1.02rem; font-weight: 500; }
+.w-skill { margin-top: 16px; }
+.w-skill h3 { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 1.1rem; margin-bottom: 8px; }
+.w-look { display: flex; gap: 8px; align-items: flex-start; background: #fff7d6; border-radius: 10px; padding: 8px 12px; font-size: .9rem; margin: 0 0 10px; }
+.w-look .ico { margin-top: 3px; }
+.w-table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+.w-table th { text-align: left; font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 2px solid var(--ink); padding: 6px 8px; }
+.w-table td { padding: 8px; border-bottom: 1px solid #efe9de; vertical-align: top; }
+.w-table a { color: inherit; }
+.w-step { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; font-weight: 600; }
+.w-where { display: inline-block; white-space: nowrap; background: #f1ece2; border-radius: 6px; padding: 1px 7px; margin: 0 4px 3px 0; font-variant-numeric: tabular-nums; }
+.where-panel .w-head { padding-right: 0; }
+.preview-bar { display: flex; align-items: center; gap: 8px; background: var(--ink); color: #fff; border-radius: 10px; padding: 8px 14px; margin-bottom: 14px; font-size: .9rem; }
+.preview-bar a { color: var(--lime); }
