@@ -1,0 +1,823 @@
+{
+  "title": "Level Up · VM Literacy Units 3 & 4",
+  "program": "vm34",
+  "baseZone": "vm34-induction",
+  "crossZone": "vm34-capstone",
+  "unlocks": {
+    "_about": "How skills open. Numbers are how many skills must be finished; \"all\" means every skill in that group.",
+    "starters": {
+      "baseCamp": 2
+    },
+    "level2": {
+      "starters": "all"
+    },
+    "boss": {
+      "starters": "all",
+      "level2": 1
+    }
+  },
+  "zones": [
+    {
+      "id": "vm34-induction",
+      "name": "Site Induction",
+      "icon": "lucide:hard-hat",
+      "color": "#FF8A2A",
+      "ink": "#2A1200",
+      "pitch": "Three starting skills for the documents and messages of work and adult life. Finish any two to open the site.",
+      "units": "Units 3 & 4"
+    },
+    {
+      "id": "vm34-docs",
+      "name": "Real-World Docs",
+      "icon": "lucide:folder-open",
+      "color": "#9FD18B",
+      "ink": "#0E2A12",
+      "pitch": "Tax, insurance, charters and fine print. The paperwork of adult life, decoded.",
+      "units": "Unit 3 · Outcome 1"
+    },
+    {
+      "id": "vm34-job",
+      "name": "On the Job",
+      "icon": "lucide:wrench",
+      "color": "#E8806F",
+      "ink": "#2B0700",
+      "pitch": "Rights, reports, procedures and safety talks. Read and write like a pro at work.",
+      "units": "Unit 3 · Outcome 2"
+    },
+    {
+      "id": "vm34-advocate",
+      "name": "Advocate",
+      "icon": "lucide:megaphone",
+      "color": "#B79CED",
+      "ink": "#1E0B45",
+      "pitch": "Brand yourself, back a cause and pitch an idea to the people who matter.",
+      "units": "Unit 4 · Outcome 1"
+    },
+    {
+      "id": "vm34-speak",
+      "name": "Speak Up",
+      "icon": "lucide:presentation",
+      "color": "#6EC1E4",
+      "ink": "#052433",
+      "pitch": "Plan, back up and deliver a presentation that advises or advocates.",
+      "units": "Unit 4 · Outcome 2"
+    },
+    {
+      "id": "vm34-capstone",
+      "name": "Capstones",
+      "icon": "lucide:trophy",
+      "color": "#A9B4C4",
+      "ink": "#10141C",
+      "pitch": "Big real-world projects that mix two areas. Unlock by going deep in both.",
+      "units": "Across Units 3 & 4"
+    }
+  ],
+  "skills": [
+    {
+      "id": "vm-find-it-in-the-manual",
+      "zone": "vm34-induction",
+      "tier": 0,
+      "status": "planned",
+      "title": "Find It in the Manual",
+      "tagline": "Contents, headings, index — find the answer fast.",
+      "icon": "lucide:book-marked",
+      "realLife": "Find what you need in manuals, handbooks and long documents without reading every page.",
+      "literacy": "Key elements of complex technical documents: contents, headings, sub-headings, indexes.",
+      "vc": {
+        "core": [
+          "VM-U3O1-KS3",
+          "VM-U3O1-KK2",
+          "VM-U3O1-KS1"
+        ],
+        "extend": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      "badge": {
+        "name": "Manual Master",
+        "icon": "lucide:list-tree"
+      }
+    },
+    {
+      "id": "vm-workplace-messages",
+      "zone": "vm34-induction",
+      "tier": 0,
+      "status": "planned",
+      "title": "Workplace Messages",
+      "tagline": "Rosters, shift swaps and emails to the boss.",
+      "icon": "lucide:mail",
+      "realLife": "Read and write the everyday messages that keep a workplace running.",
+      "literacy": "Structure and characteristics of organisational texts; conventions of literacy.",
+      "vc": {
+        "core": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KK3",
+          "VM-U3O2-KS6"
+        ],
+        "extend": [
+          "VM-U3O2-KS3"
+        ]
+      },
+      "badge": {
+        "name": "Team Player",
+        "icon": "lucide:users"
+      }
+    },
+    {
+      "id": "vm-brand-you",
+      "zone": "vm34-induction",
+      "tier": 0,
+      "status": "planned",
+      "title": "Brand You",
+      "tagline": "What do people find when they look you up?",
+      "icon": "lucide:id-card",
+      "realLife": "Build a personal brand for jobs, apprenticeships or your own side hustle.",
+      "literacy": "Language choices for audience and purpose; layout, design and structure of promotional texts.",
+      "vc": {
+        "core": [
+          "VM-U4O1-KK1",
+          "VM-U4O1-KS1",
+          "VM-U4O1-KS2"
+        ],
+        "extend": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      "badge": {
+        "name": "Brand Builder",
+        "icon": "lucide:star"
+      }
+    },
+    {
+      "id": "vm-tax-time",
+      "zone": "vm34-docs",
+      "tier": 1,
+      "status": "planned",
+      "title": "Tax Time",
+      "tagline": "TFNs, tax returns and myGov — without the stress.",
+      "icon": "lucide:landmark",
+      "realLife": "Understand tax forms and advice so you can sort your tax with confidence.",
+      "literacy": "Structures and features of tax forms and advice; reading and inferring from official texts.",
+      "vc": {
+        "core": [
+          "VM-U3O1-KK1",
+          "VM-U3O1-KS2",
+          "VM-U3O1-KS4"
+        ],
+        "extend": [
+          "VM-U3O1-KK2"
+        ]
+      },
+      "badge": {
+        "name": "Tax Ready",
+        "icon": "lucide:calculator"
+      }
+    },
+    {
+      "id": "vm-speak-their-language",
+      "zone": "vm34-docs",
+      "tier": 1,
+      "status": "planned",
+      "title": "Speak Their Language",
+      "tagline": "Every workplace has its own words. Learn to crack them.",
+      "icon": "lucide:languages",
+      "realLife": "Understand the jargon, acronyms and style of different organisations and industries.",
+      "literacy": "How organisations, groups and businesses develop their own use of language.",
+      "vc": {
+        "core": [
+          "VM-U3O1-KK3",
+          "VM-U3O1-KS2",
+          "VM-U3O1-KS6"
+        ],
+        "extend": [
+          "VM-U3O1-KK4"
+        ]
+      },
+      "badge": {
+        "name": "Jargon Cracker",
+        "icon": "lucide:key-round"
+      }
+    },
+    {
+      "id": "vm-insurance-decoded",
+      "zone": "vm34-docs",
+      "tier": 2,
+      "status": "planned",
+      "title": "Insurance Decoded",
+      "tagline": "What are you actually covered for?",
+      "icon": "lucide:umbrella",
+      "realLife": "Read insurance forms and documents for cars, phones and renting.",
+      "literacy": "Features of insurance forms; key elements of complex texts; inferring meaning.",
+      "vc": {
+        "core": [
+          "VM-U3O1-KK1",
+          "VM-U3O1-KK2",
+          "VM-U3O1-KS2"
+        ],
+        "extend": [
+          "VM-U3O1-KS5"
+        ]
+      },
+      "badge": {
+        "name": "Covered",
+        "icon": "lucide:shield"
+      }
+    },
+    {
+      "id": "vm-rules-of-the-club",
+      "zone": "vm34-docs",
+      "tier": 2,
+      "status": "planned",
+      "title": "Rules of the Club",
+      "tagline": "Community charters, codes of conduct and team rules.",
+      "icon": "lucide:scroll-text",
+      "realLife": "Read the charters and codes of conduct of clubs, workplaces and community groups — and what they mean for you.",
+      "literacy": "Structures and features of community charters; engaging with real-life documentation; discussion.",
+      "vc": {
+        "core": [
+          "VM-U3O1-KK1",
+          "VM-U3O1-KS4",
+          "VM-U3O1-KS6"
+        ],
+        "extend": [
+          "VM-U3O1-KK3"
+        ]
+      },
+      "badge": {
+        "name": "Club Captain",
+        "icon": "lucide:shield-check"
+      }
+    },
+    {
+      "id": "vm-compare-the-deals",
+      "zone": "vm34-docs",
+      "tier": 3,
+      "status": "planned",
+      "title": "Compare the Deals",
+      "tagline": "Bank accounts, phone plans, rentals — which one wins?",
+      "icon": "lucide:git-compare",
+      "realLife": "Compare documents that do the same job and decide which gives you the best information and deal.",
+      "literacy": "Comparing and contrasting texts with similar purposes; evaluating how well they inform.",
+      "vc": {
+        "core": [
+          "VM-U3O1-KS5",
+          "VM-U3O1-KS1",
+          "VM-U3O1-KS7"
+        ],
+        "extend": [
+          "VM-U3O1-KK2"
+        ]
+      },
+      "badge": {
+        "name": "Deal Maker",
+        "icon": "lucide:trophy"
+      }
+    },
+    {
+      "id": "vm-rights-at-work",
+      "zone": "vm34-job",
+      "tier": 1,
+      "status": "planned",
+      "title": "Rights at Work",
+      "tagline": "Know what you’re owed — and what you owe.",
+      "icon": "lucide:scale",
+      "realLife": "Read information about your rights and responsibilities at work and find reliable help.",
+      "literacy": "Structure, language, purpose and audience of informational texts about rights and responsibilities.",
+      "vc": {
+        "core": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS1",
+          "VM-U3O2-KS2"
+        ],
+        "extend": [
+          "VM-U3O2-KK3"
+        ]
+      },
+      "badge": {
+        "name": "Rights Ready",
+        "icon": "lucide:gavel"
+      }
+    },
+    {
+      "id": "vm-incident-report",
+      "zone": "vm34-job",
+      "tier": 1,
+      "status": "planned",
+      "title": "Write an Incident Report",
+      "tagline": "Something went wrong. Write it down properly.",
+      "icon": "lucide:triangle-alert",
+      "realLife": "Write a clear, factual incident report like the ones used on worksites, in kitchens and in shops.",
+      "literacy": "Structure and language of organisational texts; purpose and audience; conventions of literacy.",
+      "vc": {
+        "core": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS6"
+        ],
+        "extend": [
+          "VM-U3O2-KS4"
+        ]
+      },
+      "badge": {
+        "name": "Reporter",
+        "icon": "lucide:clipboard-pen"
+      }
+    },
+    {
+      "id": "vm-write-the-procedure",
+      "zone": "vm34-job",
+      "tier": 2,
+      "status": "planned",
+      "title": "Write the Procedure",
+      "tagline": "If it’s not written down, it didn’t happen.",
+      "icon": "lucide:list-ordered",
+      "realLife": "Write clear step-by-step instructions with visuals that someone new could follow.",
+      "literacy": "Creating procedural and instructional content for a workplace audience.",
+      "vc": {
+        "core": [
+          "VM-U3O2-KS4",
+          "VM-U3O2-KK3",
+          "VM-U3O2-KS6"
+        ],
+        "extend": [
+          "VM-U3O2-KS3"
+        ]
+      },
+      "badge": {
+        "name": "Step Master",
+        "icon": "lucide:footprints"
+      }
+    },
+    {
+      "id": "vm-toolbox-talk",
+      "zone": "vm34-job",
+      "tier": 2,
+      "status": "planned",
+      "title": "Toolbox Talk",
+      "tagline": "Run a five-minute safety briefing like a site boss.",
+      "icon": "lucide:construction",
+      "realLife": "Give and listen to a workplace safety briefing.",
+      "literacy": "Oral communication; conventions of discussion; explaining the purpose of informational texts.",
+      "vc": {
+        "core": [
+          "VM-U3O2-KK4",
+          "VM-U3O2-KK5",
+          "VM-U3O2-KS5",
+          "VM-U3O2-KS1"
+        ],
+        "extend": [
+          "VM-U3O2-KS4"
+        ]
+      },
+      "badge": {
+        "name": "Safety Lead",
+        "icon": "lucide:hard-hat"
+      }
+    },
+    {
+      "id": "vm-induction-pack",
+      "zone": "vm34-job",
+      "tier": 3,
+      "status": "planned",
+      "title": "Make an Induction Pack",
+      "tagline": "Welcome the next new starter — properly.",
+      "icon": "lucide:package-open",
+      "realLife": "Create an induction brochure, set of instructions or vlog for a real or realistic workplace.",
+      "literacy": "Creating organisational, informational and procedural texts for a workplace audience.",
+      "vc": {
+        "core": [
+          "VM-U3O2-KS4",
+          "VM-U3O2-KK1",
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS3"
+        ],
+        "extend": [
+          "VM-U3O2-KS2"
+        ]
+      },
+      "badge": {
+        "name": "Onboarder",
+        "icon": "lucide:door-open"
+      }
+    },
+    {
+      "id": "vm-why-ads-work",
+      "zone": "vm34-advocate",
+      "tier": 1,
+      "status": "planned",
+      "title": "Why Ads Work",
+      "tagline": "They’re not selling a product. They’re selling a feeling.",
+      "icon": "lucide:tv",
+      "realLife": "Work out how promotional material gets you to buy, join or care.",
+      "literacy": "Visual cues and presentation; evaluating promotional and influential material.",
+      "vc": {
+        "core": [
+          "VM-U4O1-KK2",
+          "VM-U4O1-KS3",
+          "VM-U4O1-KS5"
+        ],
+        "extend": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      "badge": {
+        "name": "Ad Expert",
+        "icon": "lucide:scan-eye"
+      }
+    },
+    {
+      "id": "vm-one-message-many-platforms",
+      "zone": "vm34-advocate",
+      "tier": 1,
+      "status": "planned",
+      "title": "One Message, Many Platforms",
+      "tagline": "Same cause on a poster, a webpage and a reel.",
+      "icon": "lucide:layout-grid",
+      "realLife": "Compare how the same message is presented on different platforms, and pick the right one for your audience.",
+      "literacy": "Structures and features of advocacy texts across platforms; layout and design; communication techniques.",
+      "vc": {
+        "core": [
+          "VM-U4O1-KK4",
+          "VM-U4O1-KS1",
+          "VM-U4O1-KS2"
+        ],
+        "extend": [
+          "VM-U4O1-KS5"
+        ]
+      },
+      "badge": {
+        "name": "Platform Pro",
+        "icon": "lucide:share-2"
+      }
+    },
+    {
+      "id": "vm-promote-a-cause",
+      "zone": "vm34-advocate",
+      "tier": 2,
+      "status": "planned",
+      "title": "Promote a Cause",
+      "tagline": "Back a local group and get people on board.",
+      "icon": "lucide:heart-handshake",
+      "realLife": "Create a brochure, webpage or social post that advocates for a community group you care about.",
+      "literacy": "Structures and features of advocacy texts; designing influential material; drafting and editing.",
+      "vc": {
+        "core": [
+          "VM-U4O1-KK4",
+          "VM-U4O1-KS4",
+          "VM-U4O1-KS6"
+        ],
+        "extend": [
+          "VM-U4O1-KS5"
+        ]
+      },
+      "badge": {
+        "name": "Advocate",
+        "icon": "lucide:hand-heart"
+      }
+    },
+    {
+      "id": "vm-pitch-it",
+      "zone": "vm34-advocate",
+      "tier": 2,
+      "status": "planned",
+      "title": "Pitch It",
+      "tagline": "Sixty seconds to sell your idea.",
+      "icon": "lucide:rocket",
+      "realLife": "Pitch a product or idea out loud to an audience that matters.",
+      "literacy": "Oral communication; communication techniques for different settings; promotional content.",
+      "vc": {
+        "core": [
+          "VM-U4O1-KK3",
+          "VM-U4O1-KS4",
+          "VM-U4O1-KS2"
+        ],
+        "extend": [
+          "VM-U4O2-KK2"
+        ]
+      },
+      "badge": {
+        "name": "Pitch Perfect",
+        "icon": "lucide:zap"
+      }
+    },
+    {
+      "id": "vm-build-a-brand",
+      "zone": "vm34-advocate",
+      "tier": 3,
+      "status": "planned",
+      "title": "Build a Brand",
+      "tagline": "Logo, slogan, posts — one clear message.",
+      "icon": "lucide:sparkles",
+      "realLife": "Create a set of promotional material for yourself, a product or a community group, with one clear message.",
+      "literacy": "Designing influential material; language, visuals and audience; evaluating appeal; drafting and revising.",
+      "vc": {
+        "core": [
+          "VM-U4O1-KS4",
+          "VM-U4O1-KK1",
+          "VM-U4O1-KK2",
+          "VM-U4O1-KS6"
+        ],
+        "extend": [
+          "VM-U4O1-KS5"
+        ]
+      },
+      "badge": {
+        "name": "Brand Boss",
+        "icon": "lucide:crown"
+      }
+    },
+    {
+      "id": "vm-know-your-audience",
+      "zone": "vm34-speak",
+      "tier": 1,
+      "status": "planned",
+      "title": "Know Your Audience",
+      "tagline": "The same talk lands differently for different crowds.",
+      "icon": "lucide:users",
+      "realLife": "Choose words and examples that suit the people you’re speaking to.",
+      "literacy": "How language choice influences an audience; logic, reasoning and emotion.",
+      "vc": {
+        "core": [
+          "VM-U4O2-KK2",
+          "VM-U4O2-KK3"
+        ],
+        "extend": [
+          "VM-U4O2-KS5"
+        ]
+      },
+      "badge": {
+        "name": "Crowd Reader",
+        "icon": "lucide:ear"
+      }
+    },
+    {
+      "id": "vm-plan-your-talk",
+      "zone": "vm34-speak",
+      "tier": 1,
+      "status": "planned",
+      "title": "Plan Your Talk",
+      "tagline": "Hook, main points, wrap-up. Done.",
+      "icon": "lucide:list-ordered",
+      "realLife": "Plan a talk so it flows: a clear start, connected points and a strong finish.",
+      "literacy": "Sequencing and structuring oral content; signalling connections between ideas.",
+      "vc": {
+        "core": [
+          "VM-U4O2-KS1",
+          "VM-U4O2-KS3"
+        ],
+        "extend": [
+          "VM-U4O2-KS8"
+        ]
+      },
+      "badge": {
+        "name": "Planner",
+        "icon": "lucide:map"
+      }
+    },
+    {
+      "id": "vm-back-your-advice",
+      "zone": "vm34-speak",
+      "tier": 2,
+      "status": "planned",
+      "title": "Back Your Advice",
+      "tagline": "Facts, sources and credit where it’s due.",
+      "icon": "lucide:file-check",
+      "realLife": "Find evidence for the advice you give, and credit your sources properly.",
+      "literacy": "Providing evidence; copyright and attribution; referencing.",
+      "vc": {
+        "core": [
+          "VM-U4O2-KS2",
+          "VM-U4O2-KK4",
+          "VM-U4O2-KS6"
+        ],
+        "extend": [
+          "VM-U4O2-KS5"
+        ]
+      },
+      "badge": {
+        "name": "Fact Backer",
+        "icon": "lucide:library"
+      }
+    },
+    {
+      "id": "vm-nail-the-delivery",
+      "zone": "vm34-speak",
+      "tier": 2,
+      "status": "planned",
+      "title": "Nail the Delivery",
+      "tagline": "Voice, pace, eye contact — practise like a pro.",
+      "icon": "lucide:mic",
+      "realLife": "Rehearse and deliver a talk with confident voice and body language, and take questions.",
+      "literacy": "Elements of oral communication; body language, eye contact, pace and intonation; discussion.",
+      "vc": {
+        "core": [
+          "VM-U4O2-KK1",
+          "VM-U4O2-KS4",
+          "VM-U4O2-KK5",
+          "VM-U4O2-KS7"
+        ],
+        "extend": [
+          "VM-U4O2-KS5"
+        ]
+      },
+      "badge": {
+        "name": "Smooth Talker",
+        "icon": "lucide:mic-vocal"
+      }
+    },
+    {
+      "id": "vm-speak-up",
+      "zone": "vm34-speak",
+      "tier": 3,
+      "status": "planned",
+      "title": "Speak Up: Your Presentation",
+      "tagline": "Your topic. Your voice. Your showcase.",
+      "icon": "lucide:presentation",
+      "realLife": "Plan and deliver an informative or instructional presentation on civic participation or managing everyday life.",
+      "literacy": "Structuring oral content to advise or advocate; evidence; delivery; evaluating your own work.",
+      "vc": {
+        "core": [
+          "VM-U4O2-KS1",
+          "VM-U4O2-KS2",
+          "VM-U4O2-KS4",
+          "VM-U4O2-KK1"
+        ],
+        "extend": [
+          "VM-U4O2-KS5",
+          "VM-U4O2-KS6",
+          "VM-U4O2-KK3"
+        ]
+      },
+      "badge": {
+        "name": "Showcase",
+        "icon": "lucide:award"
+      }
+    },
+    {
+      "id": "vm-job-ready-kit",
+      "zone": "vm34-capstone",
+      "tier": 4,
+      "status": "planned",
+      "title": "Job-Ready Kit",
+      "tagline": "Resume, cover email and pitch — ready to send.",
+      "icon": "lucide:briefcase",
+      "realLife": "Put together a complete application for a real job or apprenticeship.",
+      "literacy": "Creating workplace texts and promotional material about yourself for a specific audience.",
+      "vc": {
+        "core": [
+          "VM-U4O1-KS4",
+          "VM-U3O2-KS4",
+          "VM-U3O2-KK2"
+        ],
+        "extend": [
+          "VM-U4O2-KS4"
+        ]
+      },
+      "badge": {
+        "name": "Hired",
+        "icon": "lucide:badge-check"
+      },
+      "requires": [
+        {
+          "zone": "vm34-job",
+          "min": 2
+        },
+        {
+          "zone": "vm34-advocate",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "vm-adulting-admin",
+      "zone": "vm34-capstone",
+      "tier": 4,
+      "status": "planned",
+      "title": "Adulting Admin",
+      "tagline": "myGov, banking and bills — all sorted.",
+      "icon": "lucide:folder-check",
+      "realLife": "Set up and manage the accounts and paperwork of independent life.",
+      "literacy": "Accessing and using real-life documents; digital security.",
+      "vc": {
+        "core": [
+          "VM-U3O1-KS4",
+          "VM-U3O1-KS1",
+          "VM-U3O1-KK1"
+        ],
+        "extend": [
+          "VM-U3O1-KS5"
+        ]
+      },
+      "badge": {
+        "name": "Sorted",
+        "icon": "lucide:check-circle"
+      },
+      "requires": [
+        {
+          "zone": "vm34-docs",
+          "min": 2
+        },
+        {
+          "zone": "vm34-job",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "vm-workplace-explainer",
+      "zone": "vm34-capstone",
+      "tier": 4,
+      "status": "planned",
+      "title": "Workplace Explainer Video",
+      "tagline": "Teach a work skill in under three minutes.",
+      "icon": "lucide:clapperboard",
+      "realLife": "Script and make a short explainer video about a task in a workplace you know.",
+      "literacy": "Creating digital and instructional content for a workplace audience.",
+      "vc": {
+        "core": [
+          "VM-U3O2-KS4",
+          "VM-U3O2-KS1",
+          "VM-U4O2-KS1"
+        ],
+        "extend": [
+          "VM-U4O2-KS4"
+        ]
+      },
+      "badge": {
+        "name": "Director",
+        "icon": "lucide:video"
+      },
+      "requires": [
+        {
+          "zone": "vm34-job",
+          "min": 2
+        },
+        {
+          "zone": "vm34-speak",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "vm-community-campaign",
+      "zone": "vm34-capstone",
+      "tier": 4,
+      "status": "planned",
+      "title": "Community Campaign",
+      "tagline": "Pick an issue. Build a campaign. Make it count.",
+      "icon": "lucide:flag",
+      "realLife": "Run a mini campaign on a local issue: an argument, a post and a short speech.",
+      "literacy": "Arguing a point of view with evidence; designing advocacy material.",
+      "vc": {
+        "core": [
+          "VM-U4O1-KS4",
+          "VM-U4O1-KK4"
+        ],
+        "extend": [
+          "VM-U4O2-KS2"
+        ]
+      },
+      "badge": {
+        "name": "Campaigner",
+        "icon": "lucide:hand-fist"
+      },
+      "requires": [
+        {
+          "zone": "vm34-advocate",
+          "min": 2
+        },
+        {
+          "zone": "vm34-speak",
+          "min": 2
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "vm34-m-first",
+      "count": 1,
+      "name": "Clocked On",
+      "icon": "lucide:clock"
+    },
+    {
+      "id": "vm34-m-5",
+      "count": 5,
+      "name": "Apprentice",
+      "icon": "lucide:wrench"
+    },
+    {
+      "id": "vm34-m-10",
+      "count": 10,
+      "name": "Tradie",
+      "icon": "lucide:hammer"
+    },
+    {
+      "id": "vm34-m-20",
+      "count": 20,
+      "name": "Site Boss",
+      "icon": "lucide:crown"
+    }
+  ]
+}

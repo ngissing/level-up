@@ -217,12 +217,12 @@ body.rl-support .wb-article { font-size: 12pt; line-height: 1.65; }
 body.rl-support .sort-msg { font-size: 13pt; }
 
 /* VCE VM Literacy workbooks: concrete cover and hazard-stripe details */
-body.prog-vm .cover { background: #eef0f2; }
-body.prog-vm .cover-brand .logo-mark { background: #ff8a2a; }
-body.prog-vm .cover::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 9mm; z-index: 2; background: repeating-linear-gradient(-45deg, #ff8a2a 0 6mm, #1b1f24 6mm 12mm); }
-body.prog-vm .cover-inner { padding-top: 18mm; }
-body.prog-vm .sheet-foot { border-top: 3px solid #ff8a2a; }
-body.prog-vm .wb-hook { background: #1b1f24; }
+body.fam-vm .cover { background: #eef0f2; }
+body.fam-vm .cover-brand .logo-mark { background: #ff8a2a; }
+body.fam-vm .cover::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 9mm; z-index: 2; background: repeating-linear-gradient(-45deg, #ff8a2a 0 6mm, #1b1f24 6mm 12mm); }
+body.fam-vm .cover-inner { padding-top: 18mm; }
+body.fam-vm .sheet-foot { border-top: 3px solid #ff8a2a; }
+body.fam-vm .wb-hook { background: #1b1f24; }
 .wb-doc { display: flex; justify-content: center; margin-bottom: 4mm; }
 .wb-doc .doc-card { max-width: 150mm; width: 150mm; font-size: 9.5pt; padding-top: 10px; padding-bottom: 8px; }
 .wb-doc .doc-row { padding: 3px 0; }

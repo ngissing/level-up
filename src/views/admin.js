@@ -1,7 +1,7 @@
 import { html, icon, raw } from '../html.js';
 import { page } from './layout.js';
 import { LEVELS, LEVEL_IDS } from '../levels.js';
-import { PROGRAMS, PROGRAM_IDS } from '../programs.js';
+import { PROGRAMS, PROGRAM_IDS, familyOf } from '../programs.js';
 
 export function adminPage(req, { users, classes, settings, roleFilter }) {
   const teachers = users.filter((u) => u.role !== 'student');
@@ -80,7 +80,7 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
       <tbody>${shown.map((u) => html`<tr>
         <td>${u.name}</td><td><code>${u.username}</code></td><td>${u.role}</td>
         <td><form method="post" action="/admin/users/${u.id}/class" class="inline-form"><select name="class_id" onchange="this.form.submit()">${classOpts(u.class_id)}</select></form></td>
-        <td>${u.role === 'student' ? html`<form method="post" action="/admin/users/${u.id}/program" class="inline-form"><select name="program" onchange="this.form.submit()" aria-label="Program for ${u.name}" class="prog-select prog-select-${u.program}">${programOpts(u.program)}</select></form>` : html`<span class="muted">—</span>`}</td>
+        <td>${u.role === 'student' ? html`<form method="post" action="/admin/users/${u.id}/program" class="inline-form"><select name="program" onchange="this.form.submit()" aria-label="Program for ${u.name}" class="prog-select fam-${familyOf(u.program)}">${programOpts(u.program)}</select></form>` : html`<span class="muted">—</span>`}</td>
         <td>${u.role === 'student' ? html`<form method="post" action="/admin/users/${u.id}/level" class="inline-form"><select name="reading_level" onchange="this.form.submit()" aria-label="Reading level for ${u.name}">${levelOpts(u.reading_level, false)}</select></form>` : html`<span class="muted">—</span>`}</td>
         <td>${u.last_login?.slice(0, 10) || '—'}</td>
         <td><form method="post" action="/admin/users/${u.id}/password" class="inline-form"><input name="password" placeholder="new password" minlength="4" required size="10"><button class="btn btn-sm btn-ghost">Set</button></form></td>

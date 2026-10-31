@@ -6,6 +6,7 @@ import { head, sticker } from './layout.js';
 import { phone, flow, documentCard } from './diagrams.js';
 import { content } from '../content.js';
 import { LEVELS } from '../levels.js';
+import { PROGRAMS, familyOf } from '../programs.js';
 
 const lines = (n, cls = '') => html`<div class="lines ${cls}">${Array.from({ length: n }, () => html`<span></span>`)}</div>`;
 const lvl = () => html`<span class="wb-lvl">${icon('lucide:star')} Level Up</span>`;
@@ -38,7 +39,7 @@ const BLOCKS = {
       <div class="wb-card"><h3>${icon('lucide:circle-check')} By the end I can…</h3>
         <ul class="wb-tick">${br.canDo.map((x) => html`<li><span class="tickbox"></span><span>${mdInline(x)}</span></li>`)}</ul></div>
       <div class="wb-card wb-card-zone"><h3>${icon('lucide:target')} How I’ll show it</h3><p>${br.showIt}</p>
-        <h3>${icon('lucide:graduation-cap')} ${skill.program === 'vm' ? 'VCE VM Literacy' : 'Victorian Curriculum'}</h3>
+        <h3>${icon('lucide:graduation-cap')} ${familyOf(skill.program) === 'vm' ? 'VCE VM Literacy' : 'Victorian Curriculum'}</h3>
         <ul class="wb-vc">${[...new Set(skill.vcNow.core.map((id) => c.vc[id].substrand))].map((sub) => html`<li>${sub}</li>`)}</ul>
         <p class="wb-small">${icon('lucide:star')} Level Up tasks stretch you further.</p>
       </div>
@@ -197,7 +198,7 @@ function cover(skill, c, qr) {
   </section>`;
 }
 
-const brand = (skill) => (skill.program === 'vm' ? 'Level Up · VM Literacy' : 'Level Up Literacy');
+const brand = (skill) => (familyOf(skill.program) === 'vm' ? `Level Up · ${PROGRAMS[skill.program].short}` : 'Level Up Literacy');
 
 function sheet(skill, n, inner) {
   const z = skill.zoneObj;
@@ -229,7 +230,7 @@ export async function workbookPage(req, skill, { answers = false, baseUrl = '' }
   }
 
   return html`${head(`${skill.title} workbook`, ['/css/shared.css', '/css/workbook.css'])}
-  <body style="--zone:${z.color};--zone-ink:${z.ink}" class="${answers ? 'answers' : ''} rl-${skill.level} prog-${skill.program}">
+  <body style="--zone:${z.color};--zone-ink:${z.ink}" class="${answers ? 'answers' : ''} rl-${skill.level} prog-${skill.program} fam-${familyOf(skill.program)}">
     <div class="print-bar no-print">
       <span>${icon('lucide:notebook-pen')} <b>${skill.title}</b> workbook${answers ? ' — teacher answer copy' : ''} · ${sheets.length + 1 + (answers ? 1 : 0)} A4 pages${req?.user && req.user.role !== 'student' ? ` · ${LEVELS[skill.level].symbol} ${LEVELS[skill.level].label} version` : ''}</span>
       <button onclick="window.print()">${icon('lucide:printer')} Print / Save as PDF</button>

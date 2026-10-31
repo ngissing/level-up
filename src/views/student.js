@@ -83,7 +83,7 @@ export function mapPage(req, { progress, newBadges, unlocked }) {
 
   <div class="trail-arrow" aria-hidden="true">${icon('lucide:arrow-down')}<span>then choose your zone</span>${icon('lucide:arrow-down')}</div>
 
-  <section class="zones">
+  <section class="zones" style="--zones:${zones.length}">
     ${zones.map((z) => {
       const zs = zoneSkills(z.id);
       const n = zs.filter((s) => done.has(s.id)).length;
