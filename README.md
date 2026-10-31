@@ -4,7 +4,15 @@ Self-paced literacy **mini courses** for teenagers, each linking part of the **V
 
 Built for disengaged 14–17 year olds who read at about Year 3–7 level. Students pick their own path through a skill map, earn badges and unlock new skills. Every skill comes with a printable workbook (the main evidence of learning) and a teacher guide.
 
-## Quick start
+## Try it in GitHub Codespaces (nothing to install)
+
+1. On the repository page, click **Code → Codespaces → Create codespace on main**.
+2. Wait a minute or two. Level Up installs and starts itself, then opens in a new tab. If the tab doesn't open, go to the **Ports** tab and click the globe icon next to port 3000.
+3. Each time you reopen the codespace, it fetches the latest version first. If it's already open when an update arrives, press **Ctrl + C** in its terminal and run `npm run live`.
+
+Your test accounts and progress stay in that codespace until you delete it.
+
+## Quick start (on your own computer)
 
 ```bash
 npm install
@@ -51,6 +59,7 @@ Change the admin password straight away, or set `ADMIN_PASSWORD` before the firs
 | | |
 |---|---|
 | `npm start` / `npm run dev` | Run the app (dev restarts on code changes; content changes are picked up live) |
+| `npm run live` | Fetch the latest version, install anything new, and start (what Codespaces runs automatically) |
 | `npm run seed` | Demo data |
 | `npm run check` | Validate all content and estimate reading levels |
 | `npm run pdf [-- <skill-id>] [-- --answers]` | Export A4 workbook PDFs to `exports/` (needs Playwright). Warns on page overflow. |
