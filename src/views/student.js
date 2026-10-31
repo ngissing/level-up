@@ -2,7 +2,7 @@ import { html, icon, md, mdInline, raw } from '../html.js';
 import { page, sticker, vcChip, readAloud, empty } from './layout.js';
 import { diagram, phone } from './diagrams.js';
 import {
-  content, skillList, zoneSkills, skillState, doneSet, requirements, allBadges, coverage, STEPS,
+  content, skillList, zoneSkills, skillState, doneSet, requirements, allBadges, coverage, STEPS, audioFor,
 } from '../content.js';
 
 const STATE_LABEL = {
@@ -24,7 +24,7 @@ function node(skill, progress, done) {
     ${sticker(st === 'locked' ? 'lucide:lock' : skill.icon, { color: st === 'locked' ? '#d9d4ca' : z.color, ink: st === 'locked' ? '#6b665e' : z.ink })}
     <span class="node-text">
       <strong>${skill.title}</strong>
-      <small>${st === 'locked' ? reqs.map((r) => r.text).join(' · ') : skill.tagline}</small>
+      <small>${st === 'locked' ? reqs[0]?.text : skill.tagline}</small>
     </span>
     <span class="node-state">${icon(STATE_ICON[st])}${st === 'started' ? `${stepsDone} of ${STEPS.length} steps` : STATE_LABEL[st]}</span>`;
   return clickable
@@ -165,10 +165,11 @@ function scene(s) {
   }
 }
 
-export function explainer(ex) {
+// audio: narration text -> recorded audio URL (from audioFor); falls back to the browser's voice.
+export function explainer(ex, audio = () => null) {
   return html`<div class="explainer" data-explainer>
     <div class="ex-stage">
-      ${ex.scenes.map((s, i) => html`<section class="ex-scene ${i === 0 ? 'active' : ''}" data-say="${s.say}">${scene(s)}</section>`)}
+      ${ex.scenes.map((s, i) => { const a = audio(s.say); return html`<section class="ex-scene ${i === 0 ? 'active' : ''}" data-say="${s.say}" ${a ? raw(`data-audio="${a}"`) : ''}>${scene(s)}</section>`; })}
       <button class="ex-big-play" type="button" data-ex-play aria-label="Play">${icon('lucide:play')}</button>
     </div>
     <div class="ex-caption" aria-live="polite"></div>
@@ -188,7 +189,7 @@ function watchStep(skill) {
   return html`<div class="panel">
     <h2>${ex.title}</h2>
     <p class="muted">Press play. It reads itself out loud — turn captions on or off with ${icon('lucide:captions')}.</p>
-    ${explainer(ex)}
+    ${explainer(ex, audioFor(skill.id))}
     ${ex.videoUrl ? html`<h3>Bonus video</h3><div class="video-wrap"><iframe src="${ex.videoUrl}" title="Video" allowfullscreen loading="lazy"></iframe></div>` : ''}
     <details class="transcript"><summary>${icon('lucide:file-text')} Read the script</summary>
       <ol>${ex.scenes.map((s) => html`<li>${s.say}</li>`)}</ol>

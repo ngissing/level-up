@@ -3,10 +3,21 @@
 (() => {
   const synth = 'speechSynthesis' in window ? window.speechSynthesis : null;
   let voice = null;
+  // Prefer neural voices: Edge's free "Natural" voices, then Google's online voices,
+  // then any Australian, British or other English voice.
   const pickVoice = () => {
     if (!synth) return;
-    const vs = synth.getVoices();
-    voice = vs.find((v) => v.lang === 'en-AU') || vs.find((v) => v.lang.startsWith('en-GB')) || vs.find((v) => v.lang.startsWith('en')) || null;
+    const vs = synth.getVoices().filter((v) => v.lang.replace('_', '-').startsWith('en'));
+    const score = (v) => {
+      const lang = v.lang.replace('_', '-');
+      let n = 0;
+      if (/Natural|Neural/i.test(v.name)) n += 100;
+      else if (/Online|Google/i.test(v.name)) n += 60;
+      if (lang === 'en-AU') n += 30; else if (lang === 'en-GB') n += 15; else if (lang === 'en-NZ') n += 20;
+      if (v.localService === false) n += 5;
+      return n;
+    };
+    voice = vs.sort((a, b) => score(b) - score(a))[0] || null;
   };
   if (synth) { pickVoice(); synth.onvoiceschanged = pickVoice; }
 
@@ -60,7 +71,9 @@
     const scenes = [...ex.querySelectorAll('.ex-scene')];
     const bars = [...ex.querySelectorAll('.ex-progress span')];
     const caption = ex.querySelector('.ex-caption');
-    let i = 0, playing = false, timer = null, raf = null, voiceOn = !!synth, startT = 0, dur = 0;
+    const player = new Audio();
+    const hasRecordings = scenes.some((sc) => sc.dataset.audio);
+    let i = 0, playing = false, timer = null, raf = null, voiceOn = !!synth || hasRecordings, startT = 0, dur = 0;
     // Scenes are designed on a 960x540 canvas and scaled to fit, like a video.
     const stage = ex.querySelector('.ex-stage');
     const fit = () => stage.style.setProperty('--k', stage.clientWidth / 960);
@@ -83,10 +96,20 @@
       if (i < scenes.length - 1) { show(i + 1); run(); } else { stop(); bars.forEach((b) => b.classList.add('past')); }
     }
     function run() {
-      clearTimeout(timer); cancelAnimationFrame(raf);
+      clearTimeout(timer); cancelAnimationFrame(raf); player.pause(); player.onended = null;
       const text = scenes[i].dataset.say || '';
       dur = durationFor(text); startT = performance.now(); tick();
-      if (voiceOn) {
+      const rec = scenes[i].dataset.audio;
+      if (voiceOn && rec) {
+        // Recorded narration (Google natural voice). Foundation readers hear it a little slower.
+        synth?.cancel();
+        player.src = rec;
+        player.playbackRate = baseRate < 0.9 ? 0.9 : 1;
+        player.onended = () => { timer = setTimeout(advance, 600); };
+        player.onloadedmetadata = () => { if (isFinite(player.duration)) { dur = player.duration * 1000 / player.playbackRate; startT = performance.now(); } };
+        player.onerror = () => { player.onerror = null; delete scenes[i].dataset.audio; run(); };
+        player.play().catch(() => { timer = setTimeout(advance, dur); });
+      } else if (voiceOn) {
         let ended = false;
         speak(text, { onend: () => { if (!ended) { ended = true; timer = setTimeout(advance, 700); } } });
         // Safety net if the speech engine never fires onend.
@@ -96,7 +119,7 @@
       }
     }
     function play() { playing = true; ex.classList.add('playing', 'started'); if (i === scenes.length - 1) show(0); run(); }
-    function stop() { playing = false; ex.classList.remove('playing'); clearTimeout(timer); cancelAnimationFrame(raf); synth?.cancel(); }
+    function stop() { playing = false; ex.classList.remove('playing'); clearTimeout(timer); cancelAnimationFrame(raf); synth?.cancel(); player.pause(); }
 
     ex.querySelector('[data-ex-play]').addEventListener('click', play);
     ex.querySelector('[data-ex-toggle]').addEventListener('click', () => (playing ? stop() : play()));
@@ -106,10 +129,10 @@
       const on = ex.classList.toggle('no-cc'); e.currentTarget.setAttribute('aria-pressed', String(!on));
     });
     const vbtn = ex.querySelector('[data-ex-voice]');
-    if (!synth) vbtn.setAttribute('aria-pressed', 'false');
+    if (!voiceOn) vbtn.setAttribute('aria-pressed', 'false');
     vbtn.addEventListener('click', () => {
-      voiceOn = synth ? !voiceOn : false; vbtn.setAttribute('aria-pressed', String(voiceOn));
-      if (!voiceOn) synth?.cancel();
+      voiceOn = synth || hasRecordings ? !voiceOn : false; vbtn.setAttribute('aria-pressed', String(voiceOn));
+      if (!voiceOn) { synth?.cancel(); player.pause(); }
       if (playing) run();
     });
     document.addEventListener('keydown', (e) => {

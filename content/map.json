@@ -1,5 +1,18 @@
 {
   "title": "Level Up Literacy",
+  "unlocks": {
+    "_about": "How skills open. Numbers are how many skills must be finished; \"all\" means every skill in that group.",
+    "starters": {
+      "baseCamp": 2
+    },
+    "level2": {
+      "starters": "all"
+    },
+    "boss": {
+      "starters": "all",
+      "level2": 1
+    }
+  },
   "zones": [
     {
       "id": "basecamp",

@@ -32,12 +32,12 @@ p('                CROSSROADS  (4 capstones that need 2 skills in each of two zo
 p('```');
 p();
 p('- **Hybrid tree, not a straight line.** A small core (Base Camp) gives everyone the same toolkit: reading for purpose, choosing the right tone, finding information fast. After that it is a choose-your-own-adventure: students open any zone and move through it at their own pace.');
-p('- **Unlock rules** (in `src/content.js`):');
+p('- **Unlock rules** (set in `content/map.json` → `unlocks`):');
 p('  - Starter skills: finish 2 Base Camp skills.');
-p('  - Level-2 skills: finish 1 starter in the same zone.');
-p('  - Boss skill: finish 1 level-2 skill in the same zone.');
+p('  - Level-2 skills: finish **both** starters in that zone.');
+p('  - Boss skill: finish both starters **and** a level-2 skill in that zone.');
 p('  - Crossroads: finish 2 skills in each of the two named zones.');
-p('  - While courses are still being written, a rule never asks for more skills than are actually built, so students are never stuck behind an unwritten course.');
+p('  - Unwritten skills block the way like any other. An admin can turn on *preview mode* to skip them while courses are being built.');
 p('- **Badges:** one per skill, an *Explorer* and a *Master* badge per zone, *Base Camp Cleared*, and milestones at 1, 5, 10 and 20 skills.');
 p('- **Reading levels.** An admin sets each student’s reading level (▲ Foundation, Years 3–4 · ■ Core, Years 5–6 · ● Extended, Year 7+). Each mini course is written at all three levels, and students never see theirs.');
 p('- **Curriculum evidence follows the level.** Foundation readers evidence the Level 3–4 content descriptions; everyone else evidences the Core (Level 5–6) codes. *Level Up* tasks (★ in workbooks) evidence the Level 6–8 codes once the teacher confirms that work.');

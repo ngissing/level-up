@@ -26,7 +26,7 @@ Change the admin password straight away, or set `ADMIN_PASSWORD` before the firs
 
 **Students**
 - **Skill map:** Base Camp (3 core skills) → 5 zones (Money Moves, Work Ready, Digital Life, Get Sorted, Your Voice) → Crossroads capstones. Students choose the order.
-- **Mini course steps:** Mission brief → Watch (self-narrating animated explainer with captions) → Read (article and real case studies) → See it (diagrams) → Workbook → Quick check → Show it.
+- **Mini course steps:** Mission brief → Watch (narrated animated explainer with captions, recorded with Google’s natural voices) → Read (article and real case studies) → See it (diagrams) → Workbook → Quick check → Show it.
 - **Read-aloud** on every text, a text-size toggle, and key words that read themselves out.
 - **Badges** for each skill, zone and milestone.
 - **My Curriculum** shows which parts of the VC they've shown.
@@ -44,7 +44,7 @@ Change the admin password straight away, or set `ADMIN_PASSWORD` before the firs
 - Set each student's **reading level** (▲ Foundation, Years 3–4 · ■ Core, Years 5–6 · ● Extended, Year 7+). It changes the wording, length and scaffolds of every part of a mini course, and which curriculum level the work evidences. Students never see their level.
 - Students set their own password at first login.
 - Classes, teacher assignment, password resets.
-- Settings: require teacher sign-off, and the quiz pass mark.
+- Settings: require teacher sign-off, the quiz pass mark, and **preview mode** (lets unwritten skills be skipped while you build the course; keep it off for real classes).
 
 ## Commands
 
@@ -55,6 +55,7 @@ Change the admin password straight away, or set `ADMIN_PASSWORD` before the firs
 | `npm run check` | Validate all content and estimate reading levels |
 | `npm run pdf [-- <skill-id>] [-- --answers]` | Export A4 workbook PDFs to `exports/` (needs Playwright). Warns on page overflow. |
 | `npm run map-doc` | Regenerate `docs/COURSE-MAP.md` from the content |
+| `npm run voices` | Record explainer narration with Google’s natural Australian voices (one-time setup: `docs/VOICES.md`) |
 | `npm run import-vcaa` | Re-import the official VC 2.0 English curriculum from the VCAA website (or from a saved copy of the page) |
 
 ## Project layout

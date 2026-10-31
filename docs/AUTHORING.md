@@ -12,7 +12,8 @@ Each mini course is **one JSON file**: `content/skills/<skill-id>.json`. The app
 3. Check it: `npm run check` (structure, curriculum links, reading level).
 4. Print it: `npm run pdf -- say-it-right`. The exporter warns if any workbook page overflows. Fix overflows by adding `"pagebreak": true` or reducing `lines`.
 5. Set `"status": "ready"` for that skill in `content/map.json`. It goes live on the map straight away; no restart is needed.
-6. Regenerate the map document: `npm run map-doc`.
+6. Record the narration: `npm run voices -- <skill-id>` (see `docs/VOICES.md`).
+7. Regenerate the map document: `npm run map-doc`.
 
 ## House rules
 
@@ -134,7 +135,7 @@ Check all three versions:
 | `steps` | `title`, `steps[]` | a short procedure |
 | `end` | `title`, `text`, `icon` | “your mission” call to action |
 
-Every scene needs `say`: the narration, written to be **heard**. Keep it to 1–3 short sentences.
+Every scene needs `say`: the narration, written to be **heard**. Keep it to 1–3 short sentences. After writing or changing narration, run `npm run voices` to record it with a natural Google voice (see `docs/VOICES.md`).
 
 ### Diagram types
 

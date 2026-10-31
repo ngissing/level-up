@@ -2,9 +2,10 @@
 // unlocks and badges. Content lives in /content as JSON so new mini courses
 // can be authored (with Claude) and dropped in without touching code.
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { ROOT_DIR } from './html.js';
-import { db } from './db.js';
+import { db, getSetting } from './db.js';
 import { LEVEL_IDS, DEFAULT_LEVEL } from './levels.js';
 
 const CONTENT = path.join(ROOT_DIR, 'content');
@@ -99,32 +100,37 @@ export function vcFor(skill, level = DEFAULT_LEVEL) {
 }
 
 // ---------- Unlock rules ----------
-// tier 0  Base Camp: always open
-// tier 1  zone starters: complete 2 Base Camp skills
-// tier 2  complete 1 tier-1 skill in the same zone
-// tier 3  zone "boss": complete 1 tier-2 skill in the same zone
-// tier 4  Crossroads: explicit `requires` [{zone, min}]
-// While courses are still being written, a rule never asks for more skills
-// than are actually available (status "ready") in that group.
+// Set in content/map.json → "unlocks":
+//   tier 0  Base Camp: always open
+//   tier 1  zone starters: finish `starters.baseCamp` Base Camp skills
+//   tier 2  level 2: finish `level2.starters` starters in the same zone
+//   tier 3  boss: finish `boss.starters` starters and `boss.level2` level-2 skills in the zone
+//   tier 4  Crossroads: explicit `requires` [{zone, min}]
+// Unwritten skills block the way like any other, unless an admin turns on
+// "preview mode", which skips skills that aren't written yet.
+const count = (n, ids) => (n === 'all' ? ids.length : Math.min(Number(n) || 0, ids.length));
+const words = (n, total, noun) => (n === total ? (total === 2 ? `both ${noun}s` : total === 1 ? `the ${noun}` : `all ${total} ${noun}s`) : `${n} ${noun}${n === 1 ? '' : 's'}`);
+
 export function requirements(skill) {
   const c = content();
-  const group = (ids, min, text) => {
+  const rules = c.map.unlocks || {};
+  const preview = getSetting('skip_unwritten') === '1';
+  const group = (ids, n, noun, where) => {
+    const min = count(n, ids);
     const ready = ids.filter((id) => c.skills[id].ready).length;
-    return { ids, min: Math.min(min, ready), text };
+    return { ids, min: preview ? Math.min(min, ready) : min, text: `Finish ${words(min, ids.length, noun)}${where}` };
   };
   const inZone = (zone, tier) => zoneSkills(zone).filter((s) => tier === undefined || s.tier === tier).map((s) => s.id);
   const zname = skill.zoneObj.name;
-  // Every rule includes Base Camp, so skills never open early while their
-  // own prerequisites are still unwritten.
-  const base = group(inZone('basecamp'), 2, 'Finish 2 Base Camp skills');
+  const base = group(inZone('basecamp'), rules.starters?.baseCamp ?? 2, 'Base Camp skill', '');
+  const starters = (n) => group(inZone(skill.zone, 1), n, 'starter', ` in ${zname}`);
   switch (skill.tier) {
     case 0: return [];
     case 1: return [base];
-    case 2: return [base, group(inZone(skill.zone, 1), 1, `Finish 1 starter skill in ${zname}`)];
-    case 3: return [base, group(inZone(skill.zone, 2), 1, `Finish a level-2 skill in ${zname}`)];
+    case 2: return [base, starters(rules.level2?.starters ?? 'all')];
+    case 3: return [base, starters(rules.boss?.starters ?? 'all'), group(inZone(skill.zone, 2), rules.boss?.level2 ?? 1, 'level-2 skill', ` in ${zname}`)];
     default:
-      return [base, ...(skill.requires || []).map((r) =>
-        group(inZone(r.zone), r.min, `Finish ${r.min} skills in ${c.zones[r.zone].name}`))];
+      return [base, ...(skill.requires || []).map((r) => group(inZone(r.zone), r.min, 'skill', ` in ${c.zones[r.zone].name}`))];
   }
 }
 
@@ -225,3 +231,14 @@ export const STEPS = [
   { id: 'check', label: 'Quick check', icon: 'lucide:circle-help' },
   { id: 'show', label: 'Show it', icon: 'lucide:send' },
 ];
+
+// ---------- Recorded narration (scripts/make-voices.js) ----------
+export const lineKey = (text) => createHash('sha1').update(String(text).trim()).digest('hex').slice(0, 16);
+
+// Returns a function: narration text -> audio URL (or null if not recorded).
+export function audioFor(skillId) {
+  const file = path.join(ROOT_DIR, 'public', 'audio', skillId, 'manifest.json');
+  if (!existsSync(file)) return () => null;
+  const { lines = {} } = JSON.parse(readFileSync(file, 'utf8'));
+  return (text) => { const l = lines[lineKey(text || '')]; return l ? `/audio/${skillId}/${l.file}` : null; };
+}
