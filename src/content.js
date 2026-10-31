@@ -7,42 +7,50 @@ import path from 'node:path';
 import { ROOT_DIR } from './html.js';
 import { db, getSetting } from './db.js';
 import { LEVEL_IDS, DEFAULT_LEVEL } from './levels.js';
+import { PROGRAMS, PROGRAM_IDS, DEFAULT_PROGRAM } from './programs.js';
 
 const CONTENT = path.join(ROOT_DIR, 'content');
-let cache = null;
-let cacheStamp = 0;
+const caches = {};
 
-function stamp() {
+function stamp(dir) {
   // Cheap change detection so edited content shows up without a restart.
   let t = 0;
-  for (const f of ['map.json', 'curriculum.json']) t = Math.max(t, statSync(path.join(CONTENT, f)).mtimeMs);
-  const dir = path.join(CONTENT, 'skills');
-  for (const f of readdirSync(dir)) t = Math.max(t, statSync(path.join(dir, f)).mtimeMs);
+  for (const f of ['map.json', 'curriculum.json']) t = Math.max(t, statSync(path.join(dir, f)).mtimeMs);
+  const skills = path.join(dir, 'skills');
+  if (existsSync(skills)) for (const f of readdirSync(skills)) t = Math.max(t, statSync(path.join(skills, f)).mtimeMs);
   return t;
 }
 
-export function content() {
-  const s = stamp();
-  if (cache && s === cacheStamp) return cache;
-  const map = JSON.parse(readFileSync(path.join(CONTENT, 'map.json'), 'utf8'));
-  const curriculum = JSON.parse(readFileSync(path.join(CONTENT, 'curriculum.json'), 'utf8'));
+// One program's content: content/<program>/{map.json, curriculum.json, skills/}.
+export function content(program = DEFAULT_PROGRAM) {
+  if (!PROGRAMS[program]) program = DEFAULT_PROGRAM;
+  const dir = path.join(CONTENT, program);
+  const s = stamp(dir);
+  if (caches[program]?.stamp === s) return caches[program];
+  const map = JSON.parse(readFileSync(path.join(dir, 'map.json'), 'utf8'));
+  const curriculum = JSON.parse(readFileSync(path.join(dir, 'curriculum.json'), 'utf8'));
   const vc = Object.fromEntries(curriculum.entries.map((e) => [e.id, e]));
   const zones = Object.fromEntries(map.zones.map((z) => [z.id, z]));
   const skills = {};
   for (const sk of map.skills) {
-    const file = path.join(CONTENT, 'skills', `${sk.id}.json`);
+    const file = path.join(dir, 'skills', `${sk.id}.json`);
     const course = existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : null;
-    skills[sk.id] = { ...sk, zoneObj: zones[sk.zone], course, ready: sk.status === 'ready' && !!course };
+    skills[sk.id] = { ...sk, program, zoneObj: zones[sk.zone], course, ready: sk.status === 'ready' && !!course };
   }
-  cache = { map, curriculum, vc, zones, skills, milestones: map.milestones };
+  caches[program] = {
+    program, programObj: PROGRAMS[program], map, curriculum, vc, zones, skills, milestones: map.milestones,
+    baseZone: map.baseZone || 'basecamp', crossZone: map.crossZone || 'crossroads', stamp: s,
+  };
   levelCache?.clear();
-  cacheStamp = s;
-  return cache;
+  return caches[program];
 }
 
-export const skillList = () => Object.values(content().skills);
-export const getSkill = (id) => content().skills[id];
+export const allPrograms = () => PROGRAM_IDS.map((p) => content(p));
+// Skill, zone and badge ids are unique across programs, so lookups can search them all.
+export const skillList = (program) => (program ? Object.values(content(program).skills) : allPrograms().flatMap((c) => Object.values(c.skills)));
+export const getSkill = (id) => allPrograms().find((c) => c.skills[id])?.skills[id];
 export const zoneSkills = (zone) => skillList().filter((s) => s.zone === zone);
+export const vcEntry = (id) => allPrograms().find((c) => c.vc[id])?.vc[id];
 
 // ---------- Reading levels ----------
 // Any value in a course file can be written per level:
@@ -84,7 +92,7 @@ function adapt(course, level) {
 var levelCache = new Map(); // var: content() may run before this line on first import
 export function courseFor(skill, level = DEFAULT_LEVEL) {
   if (!skill.course) return null;
-  const key = `${skill.id}|${level}|${cacheStamp}`;
+  const key = `${skill.id}|${level}|${content(skill.program).stamp}`;
   if (!levelCache.has(key)) levelCache.set(key, adapt(resolveLevel(skill.course, level), level));
   return levelCache.get(key);
 }
@@ -100,7 +108,7 @@ export function vcFor(skill, level = DEFAULT_LEVEL) {
 }
 
 // ---------- Unlock rules ----------
-// Set in content/map.json → "unlocks":
+// Set in content/<program>/map.json → "unlocks":
 //   tier 0  Base Camp: always open
 //   tier 1  zone starters: finish `starters.baseCamp` Base Camp skills
 //   tier 2  level 2: finish `level2.starters` starters in the same zone
@@ -112,7 +120,7 @@ const count = (n, ids) => (n === 'all' ? ids.length : Math.min(Number(n) || 0, i
 const words = (n, total, noun) => (n === total ? (total === 2 ? `both ${noun}s` : total === 1 ? `the ${noun}` : `all ${total} ${noun}s`) : `${n} ${noun}${n === 1 ? '' : 's'}`);
 
 export function requirements(skill) {
-  const c = content();
+  const c = content(skill.program);
   const rules = c.map.unlocks || {};
   const preview = getSetting('skip_unwritten') === '1';
   const group = (ids, n, noun, where) => {
@@ -122,7 +130,7 @@ export function requirements(skill) {
   };
   const inZone = (zone, tier) => zoneSkills(zone).filter((s) => tier === undefined || s.tier === tier).map((s) => s.id);
   const zname = skill.zoneObj.name;
-  const base = group(inZone('basecamp'), rules.starters?.baseCamp ?? 2, 'Base Camp skill', '');
+  const base = group(inZone(c.baseZone), rules.starters?.baseCamp ?? 2, `${c.zones[c.baseZone].name} skill`, '');
   const starters = (n) => group(inZone(skill.zone, 1), n, 'starter', ` in ${zname}`);
   switch (skill.tier) {
     case 0: return [];
@@ -160,40 +168,42 @@ export function skillState(skill, progress, done = doneSet(progress)) {
 }
 
 // ---------- Badges ----------
-export function allBadges() {
-  const c = content();
+export function allBadges(program = DEFAULT_PROGRAM) {
+  const c = content(program);
   const out = [];
-  for (const s of skillList()) out.push({ id: `skill:${s.id}`, name: s.badge.name, icon: s.badge.icon, color: s.zoneObj.color, ink: s.zoneObj.ink, kind: 'skill', desc: `Complete “${s.title}”` });
+  for (const s of Object.values(c.skills)) out.push({ id: `skill:${s.id}`, name: s.badge.name, icon: s.badge.icon, color: s.zoneObj.color, ink: s.zoneObj.ink, kind: 'skill', desc: `Complete “${s.title}”` });
   for (const z of c.map.zones) {
-    if (z.id === 'basecamp' || z.id === 'crossroads') continue;
+    if (z.id === c.baseZone || z.id === c.crossZone) continue;
     out.push({ id: `explore:${z.id}`, name: `${z.name} Explorer`, icon: z.icon, color: z.color, ink: z.ink, kind: 'zone', desc: `Finish your first ${z.name} skill` });
     out.push({ id: `master:${z.id}`, name: `${z.name} Master`, icon: 'lucide:crown', color: z.color, ink: z.ink, kind: 'zone', desc: `Finish every ${z.name} skill` });
   }
-  out.push({ id: 'basecamp', name: 'Base Camp Cleared', icon: 'lucide:tent', color: c.zones.basecamp.color, ink: c.zones.basecamp.ink, kind: 'zone', desc: 'Finish all Base Camp skills' });
+  const bz = c.zones[c.baseZone];
+  out.push({ id: c.baseZone, name: `${bz.name} Cleared`, icon: bz.icon, color: bz.color, ink: bz.ink, kind: 'zone', desc: `Finish all ${bz.name} skills` });
   for (const m of c.milestones) out.push({ id: m.id, name: m.name, icon: m.icon, color: '#111', ink: '#fff', kind: 'milestone', desc: `Finish ${m.count} skill${m.count > 1 ? 's' : ''}` });
   return out;
 }
 
-export function earnedBadgeIds(done) {
-  const c = content();
-  const ids = [...done].map((id) => `skill:${id}`);
+export function earnedBadgeIds(done, program = DEFAULT_PROGRAM) {
+  const c = content(program);
+  const mine = new Set([...done].filter((id) => c.skills[id]));
+  const ids = [...mine].map((id) => `skill:${id}`);
   for (const z of c.map.zones) {
-    const zs = zoneSkills(z.id);
-    const n = zs.filter((s) => done.has(s.id)).length;
-    if (z.id === 'basecamp') { if (n === zs.length) ids.push('basecamp'); continue; }
-    if (z.id === 'crossroads') continue;
+    const zs = Object.values(c.skills).filter((s) => s.zone === z.id);
+    const n = zs.filter((s) => mine.has(s.id)).length;
+    if (z.id === c.baseZone) { if (n === zs.length) ids.push(z.id); continue; }
+    if (z.id === c.crossZone) continue;
     if (n >= 1) ids.push(`explore:${z.id}`);
     if (n === zs.length) ids.push(`master:${z.id}`);
   }
-  for (const m of c.milestones) if (done.size >= m.count) ids.push(m.id);
+  for (const m of c.milestones) if (mine.size >= m.count) ids.push(m.id);
   return ids;
 }
 
-// Awards any newly earned badges; returns the new badge ids.
+// Awards any newly earned badges (in every program); returns the new badge ids.
 export function syncBadges(userId) {
   const done = doneSet(progressFor(userId));
   const have = new Set(db.prepare('SELECT badge_id FROM badges WHERE user_id = ?').all(userId).map((r) => r.badge_id));
-  const fresh = earnedBadgeIds(done).filter((id) => !have.has(id));
+  const fresh = PROGRAM_IDS.flatMap((p) => earnedBadgeIds(done, p)).filter((id) => !have.has(id));
   const ins = db.prepare('INSERT OR IGNORE INTO badges (user_id, badge_id) VALUES (?, ?)');
   for (const id of fresh) ins.run(userId, id);
   return fresh;
@@ -202,14 +212,14 @@ export function syncBadges(userId) {
 // Skills that became available because `skillId` was completed.
 export function newlyUnlocked(done, skillId) {
   const before = new Set(done); before.delete(skillId);
-  return skillList().filter((s) => !isUnlocked(s, before) && isUnlocked(s, done));
+  return skillList(getSkill(skillId)?.program).filter((s) => !isUnlocked(s, before) && isUnlocked(s, done));
 }
 
 // ---------- Curriculum coverage ----------
 // Core VC links count once a skill is complete; extension links count when
 // the teacher confirms the Level Up work.
-export function coverage(progress, level = DEFAULT_LEVEL) {
-  const c = content();
+export function coverage(progress, level = DEFAULT_LEVEL, program = DEFAULT_PROGRAM) {
+  const c = content(program);
   const cov = {};
   for (const p of Object.values(progress)) {
     if (p.status !== 'complete') continue;

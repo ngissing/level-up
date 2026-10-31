@@ -3,7 +3,7 @@
 import QRCode from 'qrcode';
 import { html, icon, md, mdInline, raw } from '../html.js';
 import { head, sticker } from './layout.js';
-import { phone, flow } from './diagrams.js';
+import { phone, flow, documentCard } from './diagrams.js';
 import { content } from '../content.js';
 import { LEVELS } from '../levels.js';
 
@@ -38,7 +38,7 @@ const BLOCKS = {
       <div class="wb-card"><h3>${icon('lucide:circle-check')} By the end I can…</h3>
         <ul class="wb-tick">${br.canDo.map((x) => html`<li><span class="tickbox"></span><span>${mdInline(x)}</span></li>`)}</ul></div>
       <div class="wb-card wb-card-zone"><h3>${icon('lucide:target')} How I’ll show it</h3><p>${br.showIt}</p>
-        <h3>${icon('lucide:graduation-cap')} Victorian Curriculum</h3>
+        <h3>${icon('lucide:graduation-cap')} ${skill.program === 'vm' ? 'VCE VM Literacy' : 'Victorian Curriculum'}</h3>
         <ul class="wb-vc">${[...new Set(skill.vcNow.core.map((id) => c.vc[id].substrand))].map((sub) => html`<li>${sub}</li>`)}</ul>
         <p class="wb-small">${icon('lucide:star')} Level Up tasks stretch you further.</p>
       </div>
@@ -76,13 +76,23 @@ const BLOCKS = {
     <p class="wb-q">Pick one red flag. Why would it work on someone?</p>${lines(5)}`;
   },
 
+  // A document with numbered markers and a table to explain each one.
+  'doc-annotate'(b, { skill, answers }) {
+    const d = skill.course.diagrams[b.diagram || 0];
+    return html`${blockTitle(b, 'lucide:search')}
+    <div class="wb-doc">${documentCard(d)}</div>
+    ${b.wordBank?.length ? html`<p class="wb-starters"><b>${icon('lucide:sparkles')} Word bank</b>${b.wordBank.map((w) => html`<span>${w}</span>`)}</p>` : ''}
+    <table class="wb-table wb-doc-table"><thead><tr><th>No.</th><th>What is it?</th><th>What does it tell you?</th></tr></thead>
+      <tbody>${d.callouts.map((c) => html`<tr><td class="eg">${c.n}</td>${answers ? html`<td>${c.label}</td><td>${c.note}</td>` : html`<td class="blank"></td><td class="blank"></td>`}</tr>`)}</tbody></table>`;
+  },
+
   sort(b, { answers }) {
     return html`${blockTitle(b, 'lucide:shuffle')}
     <div class="wb-sort">${b.cards.map((card, i) => html`<div class="sort-card">
       <div class="sort-top"><span class="sort-n">${i + 1}</span><span class="sort-from">${icon('lucide:message-circle')} ${card.from}</span></div>
       <p class="sort-msg">${card.text}</p>
-      <div class="sort-ticks">${['Scam', 'Legit', 'Not sure'].map((t) => html`<span class="${answers && card.answer === t ? 'ans' : ''}"><i class="tickbox"></i>${t}</span>`)}</div>
-      <div class="sort-flags"><b>Red flags:</b>${answers ? html`<em class="ans-text">${card.flags}</em>` : html`<span class="line"></span>`}</div>
+      <div class="sort-ticks">${(b.choices || ['Scam', 'Legit', 'Not sure']).map((t) => html`<span class="${answers && card.answer === t ? 'ans' : ''}"><i class="tickbox"></i>${t}</span>`)}</div>
+      <div class="sort-flags"><b>${b.reasonLabel || 'Red flags:'}</b>${answers ? html`<em class="ans-text">${card.flags}</em>` : html`<span class="line"></span>`}</div>
     </div>`)}</div>`;
   },
 
@@ -95,7 +105,7 @@ const BLOCKS = {
 
   table(b) {
     return html`${blockTitle(b, 'lucide:table')}
-    <table class="wb-table"><thead><tr>${b.columns.map((col) => html`<th>${col}</th>`)}</tr></thead>
+    <table class="wb-table" ${b.rowHeight ? raw(`style="--row-h:${Number(b.rowHeight)}mm"`) : ''}><thead><tr>${b.columns.map((col) => html`<th>${col}</th>`)}</tr></thead>
     <tbody>${b.rows.map((row) => (Array.isArray(row) ? row : row.cells)).map((r, i) => html`<tr>${r.map((cell) => html`<td class="${cell ? (i === 0 ? 'eg' : '') : 'blank'}">${cell ? mdInline(cell) : ''}</td>`)}</tr>`)}</tbody></table>`;
   },
 
@@ -173,7 +183,7 @@ function cover(skill, c, qr) {
   return html`<section class="sheet cover">
     ${shapes(z.color)}
     <div class="cover-inner">
-      <div class="cover-brand"><span class="logo-mark">${icon('lucide:chevrons-up')}</span> Level Up Literacy <span class="cover-zone">${icon(z.icon)} ${z.name}</span></div>
+      <div class="cover-brand"><span class="logo-mark">${icon('lucide:chevrons-up')}</span> ${brand(skill)} <span class="cover-zone">${icon(z.icon)} ${z.name}</span></div>
       ${sticker(skill.icon, { color: z.color, ink: z.ink, size: 'xxl', cls: 'cover-sticker' })}
       <h1>${skill.title}</h1>
       <p class="cover-tag">${skill.tagline}</p>
@@ -187,18 +197,20 @@ function cover(skill, c, qr) {
   </section>`;
 }
 
+const brand = (skill) => (skill.program === 'vm' ? 'Level Up · VM Literacy' : 'Level Up Literacy');
+
 function sheet(skill, n, inner) {
   const z = skill.zoneObj;
   const mark = LEVELS[skill.level]?.symbol || '';
   return html`<section class="sheet">
     <header class="sheet-head"><span class="sh-ico">${icon(skill.icon)}</span><b>${skill.title}</b><span class="sh-zone">${z.name}</span><span class="sh-name">Name <i></i></span></header>
     <div class="sheet-body">${inner}</div>
-    <footer class="sheet-foot"><span>${icon('lucide:chevrons-up')} Level Up Literacy <i class="ver" title="Version">${mark}</i></span><span>${n}</span></footer>
+    <footer class="sheet-foot"><span>${icon('lucide:chevrons-up')} ${brand(skill)} <i class="ver" title="Version">${mark}</i></span><span>${n}</span></footer>
   </section>`;
 }
 
 export async function workbookPage(req, skill, { answers = false, baseUrl = '' } = {}) {
-  const c = content();
+  const c = content(skill.program);
   const z = skill.zoneObj;
   const qr = baseUrl ? await QRCode.toString(`${baseUrl}/skill/${skill.id}?step=watch`, { type: 'svg', margin: 0, color: { dark: '#111111', light: '#ffffff' } }) : null;
   const ctx = { skill, c, answers };
@@ -217,7 +229,7 @@ export async function workbookPage(req, skill, { answers = false, baseUrl = '' }
   }
 
   return html`${head(`${skill.title} workbook`, ['/css/shared.css', '/css/workbook.css'])}
-  <body style="--zone:${z.color};--zone-ink:${z.ink}" class="${answers ? 'answers' : ''} rl-${skill.level}">
+  <body style="--zone:${z.color};--zone-ink:${z.ink}" class="${answers ? 'answers' : ''} rl-${skill.level} prog-${skill.program}">
     <div class="print-bar no-print">
       <span>${icon('lucide:notebook-pen')} <b>${skill.title}</b> workbook${answers ? ' — teacher answer copy' : ''} · ${sheets.length + 1 + (answers ? 1 : 0)} A4 pages${req?.user && req.user.role !== 'student' ? ` · ${LEVELS[skill.level].symbol} ${LEVELS[skill.level].label} version` : ''}</span>
       <button onclick="window.print()">${icon('lucide:printer')} Print / Save as PDF</button>

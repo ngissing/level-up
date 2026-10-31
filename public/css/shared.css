@@ -117,3 +117,22 @@
   background: var(--sun); color: var(--ink); border: 2px solid var(--ink); border-radius: 999px; padding: 1px 8px;
 }
 .lvl-chip .ico, .wb-lvl .ico { fill: currentColor; }
+
+/* Document diagram (payslips, forms) */
+.doc-card { background: #fff; border: var(--bw) solid var(--ink); border-radius: 10px; box-shadow: var(--shadow); padding: 14px 16px 12px 34px; min-width: 280px; max-width: 460px; font-size: .9rem; position: relative; }
+.doc-title { font-family: var(--display); font-weight: 800; letter-spacing: .12em; font-size: 1.1rem; border-bottom: 3px solid var(--ink); padding-bottom: 6px; margin-bottom: 8px; }
+.doc-row { display: flex; justify-content: space-between; gap: 14px; padding: 5px 0; border-bottom: 1px dashed #cfc8bb; position: relative; }
+.doc-row.rule { border-top: 2px solid var(--ink); }
+.doc-row.strong { font-weight: 700; font-size: 1.05em; background: #fff6cf; margin: 0 -8px; padding: 6px 8px; }
+.doc-label { color: #4a4640; }
+.doc-value { text-align: right; font-variant-numeric: tabular-nums; }
+.doc-table-wrap { position: relative; margin: 8px 0; }
+.doc-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+.doc-table th { text-align: left; border-bottom: 2px solid var(--ink); padding: 4px; }
+.doc-table td { padding: 4px; border-bottom: 1px solid #e3ddd1; font-variant-numeric: tabular-nums; }
+.doc-table td:not(:first-child), .doc-table th:not(:first-child) { text-align: right; }
+.doc-n { position: absolute; left: -30px; top: 50%; transform: translateY(-50%); display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--ink); color: #fff; font: 700 .72rem var(--body); }
+.doc-table-wrap > .doc-n { top: 14px; transform: none; }
+.doc-note { font-size: .75rem; color: var(--muted); margin: 8px 0 0; }
+
+.doc-anatomy { align-items: flex-start; }

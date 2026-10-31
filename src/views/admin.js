@@ -1,11 +1,13 @@
 import { html, icon, raw } from '../html.js';
 import { page } from './layout.js';
 import { LEVELS, LEVEL_IDS } from '../levels.js';
+import { PROGRAMS, PROGRAM_IDS } from '../programs.js';
 
 export function adminPage(req, { users, classes, settings, roleFilter }) {
   const teachers = users.filter((u) => u.role !== 'student');
   const shown = roleFilter ? users.filter((u) => u.role === roleFilter) : users;
   const levelOpts = (sel, long = true) => LEVEL_IDS.map((l) => html`<option value="${l}" ${sel === l ? raw('selected') : ''}>${LEVELS[l].symbol} ${LEVELS[l].label}${long ? ` — ${LEVELS[l].years}` : ''}</option>`);
+  const programOpts = (sel) => PROGRAM_IDS.map((p) => html`<option value="${p}" ${sel === p ? raw('selected') : ''}>${PROGRAMS[p].name}</option>`);
   const classOpts = (sel) => html`<option value="">—</option>${classes.map((c) => html`<option value="${c.id}" ${String(sel) === String(c.id) ? raw('selected') : ''}>${c.name}</option>`)}`;
   const body = html`<section class="page-head"><p class="eyebrow">Admin</p><h1>Accounts & classes</h1>
     <p class="lede">Students can’t sign themselves up — add them here. Give each student a simple password; they’ll be asked to change it the first time they log in.</p>
@@ -27,6 +29,7 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
         <label class="field"><span>Starting password</span><input name="password" required minlength="4" autocomplete="off"></label>
         <label class="field"><span>Role</span><select name="role"><option>student</option><option>teacher</option><option>admin</option></select></label>
         <label class="field"><span>Class</span><select name="class_id">${classOpts('')}</select></label>
+        <label class="field"><span>Program (students only)</span><select name="program">${programOpts('f10')}</select></label>
         <label class="field"><span>Reading level (students only — they never see it)</span><select name="reading_level">${levelOpts('core')}</select></label>
         <button class="btn btn-ink">${icon('lucide:plus')} Add</button>
       </form>
@@ -35,9 +38,9 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
     <section class="panel">
       <h2>${icon('lucide:sheet')} Add a whole class</h2>
       <form method="post" action="/admin/bulk">
-        <label class="field"><span>One per line: <code>name, username, password, class, reading level</code></span>
-          <textarea name="csv" rows="6" placeholder="Jordan Smith, jsmith, tiger42, 10 Literacy, foundation&#10;Ari Nguyen, anguyen, comet77, 10 Literacy, core"></textarea></label>
-        <p class="muted small">Classes that don’t exist yet are created. Everyone added here is a student. Reading level can be <code>foundation</code> (Years 3–4), <code>core</code> (Years 5–6) or <code>extended</code> (Year 7+); leave it blank for core.</p>
+        <label class="field"><span>One per line: <code>name, username, password, class, reading level, program</code></span>
+          <textarea name="csv" rows="6" placeholder="Jordan Smith, jsmith, tiger42, 10 Literacy, foundation&#10;Ari Nguyen, anguyen, comet77, 11 VM, core, vm"></textarea></label>
+        <p class="muted small">Classes that don’t exist yet are created. Everyone added here is a student. Reading level can be <code>foundation</code> (Years 3–4), <code>core</code> (Years 5–6) or <code>extended</code> (Year 7+); leave it blank for core. Program can be <code>vm</code> (VCE VM Literacy) or <code>f10</code> (Victorian Curriculum); leave it blank for F–10.</p>
         <button class="btn btn-ink">${icon('lucide:upload')} Add students</button>
       </form>
     </section>
@@ -73,10 +76,11 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
     <div class="row"><h2>${icon('lucide:users')} People (${shown.length})</h2>
       <nav class="pills">${[['', 'All'], ['student', 'Students'], ['teacher', 'Teachers'], ['admin', 'Admins']].map(([r, l]) => html`<a href="/admin${r ? '?role=' + r : ''}" class="${(roleFilter || '') === r ? 'on' : ''}">${l}</a>`)}</nav></div>
     <table class="table">
-      <thead><tr><th>Name</th><th>Username</th><th>Role</th><th>Class</th><th>Reading level</th><th>Last login</th><th>Reset password</th><th></th></tr></thead>
+      <thead><tr><th>Name</th><th>Username</th><th>Role</th><th>Class</th><th>Program</th><th>Reading level</th><th>Last login</th><th>Reset password</th><th></th></tr></thead>
       <tbody>${shown.map((u) => html`<tr>
         <td>${u.name}</td><td><code>${u.username}</code></td><td>${u.role}</td>
         <td><form method="post" action="/admin/users/${u.id}/class" class="inline-form"><select name="class_id" onchange="this.form.submit()">${classOpts(u.class_id)}</select></form></td>
+        <td>${u.role === 'student' ? html`<form method="post" action="/admin/users/${u.id}/program" class="inline-form"><select name="program" onchange="this.form.submit()" aria-label="Program for ${u.name}" class="prog-select prog-select-${u.program}">${programOpts(u.program)}</select></form>` : html`<span class="muted">—</span>`}</td>
         <td>${u.role === 'student' ? html`<form method="post" action="/admin/users/${u.id}/level" class="inline-form"><select name="reading_level" onchange="this.form.submit()" aria-label="Reading level for ${u.name}">${levelOpts(u.reading_level, false)}</select></form>` : html`<span class="muted">—</span>`}</td>
         <td>${u.last_login?.slice(0, 10) || '—'}</td>
         <td><form method="post" action="/admin/users/${u.id}/password" class="inline-form"><input name="password" placeholder="new password" minlength="4" required size="10"><button class="btn btn-sm btn-ghost">Set</button></form></td>

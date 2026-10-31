@@ -1,19 +1,20 @@
-// Writes docs/COURSE-MAP.md from content/ so the map document never drifts.
+// Writes docs/COURSE-MAP.md (F–10) and docs/COURSE-MAP-VM.md (VCE VM Literacy) from content/
+// so the map documents never drift.
 //   npm run map-doc
 import { writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { ROOT_DIR } from '../src/html.js';
 import { content, requirements } from '../src/content.js';
 
-const c = content();
+const c = content('f10');
 const vc = (id) => { const e = c.vc[id]; return `${e.code} (${e.substrand})`; };
 const tierName = { 0: 'Base Camp', 1: 'Starter', 2: 'Level 2', 3: 'Boss', 4: 'Crossroads' };
 const L = [];
 const p = (s = '') => L.push(s);
 
-p('# Level Up Literacy — course map');
+p('# Level Up Literacy — course map: Victorian Curriculum F–10');
 p();
-p('_Generated from `content/` by `npm run map-doc`. Edit the JSON, not this file._');
+p('_Generated from `content/f10/` by `npm run map-doc`. Edit the JSON, not this file. The VCE VM Literacy pathway is in [COURSE-MAP-VM.md](COURSE-MAP-VM.md)._');
 p();
 p('## The idea');
 p();
@@ -98,3 +99,48 @@ p(`Source: ${c.curriculum.source} Retrieved ${c.curriculum.retrieved} from ${c.c
 p();
 writeFileSync(path.join(ROOT_DIR, 'docs', 'COURSE-MAP.md'), L.join('\n'));
 console.log('wrote docs/COURSE-MAP.md');
+
+// ---------- VCE VM Literacy ----------
+{
+  const v = content('vm');
+  const V = [];
+  const q = (x = '') => V.push(x);
+  const item = (id) => { const e = v.vc[id]; return `${e.code} — ${e.text}`; };
+  const tierV = { 0: v.zones[v.baseZone].name, 1: 'Starter', 2: 'Level 2', 3: 'Boss', 4: v.zones[v.crossZone].name };
+  const allV = Object.values(v.skills);
+  q('# Level Up · VM Literacy — course map');
+  q();
+  q('_Generated from `content/vm/` by `npm run map-doc`. Edit the JSON, not this file._');
+  q();
+  q('Mini courses for students enrolled in **VCE Vocational Major Literacy**, linked to the key knowledge (KK) and key skills (KS) of the study design’s eight outcomes. Same structure as the F–10 pathway: Induction → five zones (starters, Level 2, boss) → Capstones. Reading levels work the same way. Codes such as **U1 O1 KK3** mean Unit 1, Outcome 1, 3rd key knowledge point, in study-design order.');
+  q();
+  q(`${allV.filter((s) => s.ready).length} of ${allV.length} mini courses built.`);
+  q();
+  for (const z of v.map.zones) {
+    q(`## ${z.name} (${z.units})`);
+    q();
+    q(`_${z.pitch}_`);
+    q();
+    q('| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |');
+    q('|---|---|---|---|---|---|---|---|');
+    for (const s of allV.filter((x) => x.zone === z.id)) {
+      q(`| **${s.title}** | ${tierV[s.tier]} | ${s.realLife} | ${s.literacy} | ${s.vc.core.map(item).join('<br>')} | ${s.vc.extend.map(item).join('<br>')} | ${s.badge.name} | ${s.ready ? '✅ built' : 'planned'} |`);
+    }
+    q();
+  }
+  q('## Coverage by outcome');
+  q();
+  q('| Outcome | Key knowledge linked | Key skills linked |');
+  q('|---|---|---|');
+  const used = new Set(allV.flatMap((s) => [...s.vc.core, ...s.vc.extend]));
+  for (const o of v.curriculum.outcomes) {
+    const es = v.curriculum.entries.filter((e) => e.focus === o.id);
+    const frac = (k) => { const x = es.filter((e) => e.kind === k); return `${x.filter((e) => used.has(e.id)).length}/${x.length}`; };
+    q(`| Unit ${o.unit}, Outcome ${o.outcome}: ${o.title} | ${frac('Key knowledge')} | ${frac('Key skill')} |`);
+  }
+  q();
+  q(`Source: ${v.curriculum.source} Retrieved ${v.curriculum.retrieved} from ${v.curriculum.url}.`);
+  q();
+  writeFileSync(path.join(ROOT_DIR, 'docs', 'COURSE-MAP-VM.md'), V.join('\n'));
+  console.log('wrote docs/COURSE-MAP-VM.md');
+}

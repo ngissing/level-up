@@ -5,7 +5,7 @@
 //
 // The VCAA page embeds the curriculum as structured data (levels → strands → sub-strands →
 // content descriptions, elaborations and achievement standards). This script copies it word
-// for word into content/curriculum.json. Nothing is paraphrased.
+// for word into content/f10/curriculum.json. Nothing is paraphrased.
 import { readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
@@ -97,6 +97,6 @@ const out = {
   achievementStandards: standards,
   entries,
 };
-writeFileSync(path.join(ROOT_DIR, 'content', 'curriculum.json'), JSON.stringify(out, null, 2));
-console.log(`Imported ${entries.length} content descriptions across ${levels.length} levels → content/curriculum.json`);
+writeFileSync(path.join(ROOT_DIR, 'content', 'f10', 'curriculum.json'), JSON.stringify(out, null, 2));
+console.log(`Imported ${entries.length} content descriptions across ${levels.length} levels → content/f10/curriculum.json`);
 if (unknownCodes.length) console.log(`  note: ${unknownCodes.length} codes don’t follow the usual pattern: ${unknownCodes.slice(0, 5).map((e) => e.code).join(', ')}…`);
