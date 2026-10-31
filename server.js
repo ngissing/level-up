@@ -358,4 +358,14 @@ content(); // fail fast on bad content
 
 const port = Number(process.env.PORT || 3000);
 const { version } = JSON.parse(readFileSync(path.join(ROOT_DIR, 'package.json'), 'utf8'));
-app.listen(port, () => console.log(`Level Up v${version} running on http://localhost:${port}  (curriculum: ${content().curriculum.entries.length} official VCAA content descriptions)`));
+app.listen(port, (err) => {
+  if (err?.code === 'EADDRINUSE') {
+    console.error(`\nCan't start: port ${port} is already in use. Another copy of Level Up (maybe an older version)`);
+    console.error('is probably still running in another PowerShell/Terminal window. Press Ctrl + C in that window');
+    console.error(`(or close it), then run "npm start" here again. Or use a different port: $env:PORT=${port + 1}; npm start\n`);
+    process.exit(1);
+  }
+  if (err) { console.error(err); process.exit(1); }
+  console.log(`Level Up v${version} running on http://localhost:${port}  (curriculum: ${content().curriculum.entries.length} official VCAA content descriptions)`);
+  console.log('Leave this window open while you use the app. Press Ctrl + C to stop it.');
+});
