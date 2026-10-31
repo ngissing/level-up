@@ -8,7 +8,7 @@ import { getSkill, progressFor, doneSet, skillState, syncBadges, newlyUnlocked, 
 import { LEVEL_IDS, normalizeLevel } from './src/levels.js';
 import { PROGRAM_IDS, PROGRAMS, normalizeProgram, familyOf } from './src/programs.js';
 import { mapPage, skillPage, badgesPage, myCurriculumPage, readiness, explainer } from './src/views/student.js';
-import { dashboardPage, studentDetailPage, skillsIndexPage, teacherGuidePage, curriculumMapPage } from './src/views/teacher.js';
+import { dashboardPage, studentDetailPage, skillsIndexPage, teacherGuidePage, curriculumMapPage, whereContent, wherePage } from './src/views/teacher.js';
 import { adminPage, loginPage, passwordPage } from './src/views/admin.js';
 import { workbookPage } from './src/views/workbook.js';
 import { head, asset } from './src/views/layout.js';
@@ -258,6 +258,13 @@ app.get('/teacher/student/:id', teacher, (req, res) => {
 
 app.get('/teacher/skills', teacher, (req, res) => send(res, skillsIndexPage(req, programOf(req))));
 app.get('/teacher/curriculum', teacher, (req, res) => send(res, curriculumMapPage(req, programOf(req))));
+// Where one curriculum point is taught and assessed. The curriculum map loads it into a pop-up.
+app.get('/teacher/where', teacher, (req, res) => {
+  const c = content(programOf(req));
+  const id = String(req.query.id || '');
+  if (req.get('X-Fragment')) return send(res, whereContent(c, id));
+  send(res, wherePage(req, c, id));
+});
 app.get('/teacher/skill/:id', teacher, (req, res) => {
   const skill = loadSkill(req, res); if (!skill) return;
   if (!skill.course) return res.redirect('/teacher/skills');

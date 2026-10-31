@@ -1,6 +1,7 @@
 import { html, icon, md, mdInline, raw } from '../html.js';
 import { page, sticker, vcChip, readAloud, sayButton, empty } from './layout.js';
 import { PROGRAMS } from '../programs.js';
+import { LEVELS, LEVEL_IDS } from '../levels.js';
 import { diagram, phone } from './diagrams.js';
 import {
   content, skillList, zoneSkills, skillState, doneSet, requirements, allBadges, coverage, STEPS, audioFor, readUnits,
@@ -308,6 +309,7 @@ function dedupe(ids, c) {
 
 export function skillPage(req, { skill, progress, step, quizResult, passPct }) {
   const student = req.user.role === 'student';
+  const doneBtn = (stepId, label) => (student ? doneButton(skill, stepId, label) : '');
   const z = skill.zoneObj;
   const c = content(skill.program);
   const p = progress[skill.id];
@@ -330,14 +332,15 @@ export function skillPage(req, { skill, progress, step, quizResult, passPct }) {
   </section>`;
 
   let body;
-  if (st === 'locked' || st === 'soon') {
+  // Staff can preview any written course, whatever its lock state.
+  if ((st === 'locked' || st === 'soon') && (student || !skill.course)) {
     const reqs = requirements(skill);
     body = html`${hero}<div class="panel center-panel">
       ${icon(st === 'locked' ? 'lucide:lock' : 'lucide:hammer', 'big-ico')}
       <h2>${st === 'locked' ? 'Locked for now' : 'Coming soon'}</h2>
       ${st === 'locked' ? html`<p>To unlock this skill:</p><ul>${reqs.map((r) => html`<li>${r.text}</li>`)}</ul>` : html`<p>This mini course is still being built. It will cover: ${skill.literacy}</p>`}
       <a class="btn btn-ink" href="/map">${icon('lucide:map')} Back to the map</a></div>`;
-  } else if (!p) {
+  } else if (!p && student) {
     body = html`${hero}<div class="panel start-panel">
       <div>
         <h2>Ready?</h2>
@@ -348,15 +351,18 @@ export function skillPage(req, { skill, progress, step, quizResult, passPct }) {
     </div>`;
   } else {
     const stepBody = {
-      brief: () => html`${briefStep(skill)}${doneButton(skill, 'brief', 'Got it — next')}`,
-      watch: () => html`${watchStep(skill)}${doneButton(skill, 'watch')}`,
-      read: () => html`${readStep(skill)}${doneButton(skill, 'read')}`,
-      see: () => html`${seeStep(skill)}${doneButton(skill, 'see')}`,
-      workbook: () => html`${workbookStep(skill)}${doneButton(skill, 'workbook', 'I’ve done my workbook pages')}`,
+      brief: () => html`${briefStep(skill)}${doneBtn('brief', 'Got it — next')}`,
+      watch: () => html`${watchStep(skill)}${doneBtn('watch')}`,
+      read: () => html`${readStep(skill)}${doneBtn('read')}`,
+      see: () => html`${seeStep(skill)}${doneBtn('see')}`,
+      workbook: () => html`${workbookStep(skill)}${doneBtn('workbook', 'I’ve done my workbook pages')}`,
       check: () => checkStep(skill, p, quizResult),
-      show: () => showStep(skill, p, readiness(skill, p, passPct)),
+      show: () => (student ? showStep(skill, p, readiness(skill, p, passPct))
+        : html`<div class="panel"><h2>Show it</h2><div class="callout-box">${icon('lucide:target')}<div><strong>Final task</strong><p>${skill.course.show.task}</p></div></div><ul>${skill.course.show.checklist.map((x) => html`<li>${x}</li>`)}</ul><p><b>Level Up:</b> ${skill.course.show.levelUp}</p></div>`),
     }[step] || (() => '');
-    body = html`${hero}<div class="skill-layout">${stepNav(skill, p, step)}<div class="step-body">${stepBody()}</div></div>`;
+    // Staff see a preview: no progress is saved, and they can switch reading-level version.
+    const previewBar = student ? '' : html`<div class="preview-bar">${icon('lucide:eye')} <span>Teacher preview of the <b>${LEVELS[skill.level].symbol} ${LEVELS[skill.level].label}</b> version. Nothing is saved. Switch: ${LEVEL_IDS.map((l) => html`<a href="/skill/${skill.id}?step=${step}&level=${l}">${LEVELS[l].symbol} ${LEVELS[l].label}</a> `)}</span></div>`;
+    body = html`${hero}${previewBar}<div class="skill-layout">${stepNav(skill, p, step)}<div class="step-body">${stepBody()}</div></div>`;
   }
   return page(req, { title: skill.title, body, theme: z, active: '/map', program: skill.program });
 }

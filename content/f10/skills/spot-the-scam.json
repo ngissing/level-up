@@ -131,7 +131,12 @@
         "title": "Scammers are writers",
         "text": "Every scam has a **purpose**: get your money, your info or your click. And an **audience**: you.",
         "icon": "lucide:pen-line",
-        "say": "Here's the secret. Scammers are writers. Every scam has a purpose: to get your money, your information, or your click. And every scam has an audience. You."
+        "say": "Here's the secret. Scammers are writers. Every scam has a purpose: to get your money, your information, or your click. And every scam has an audience. You.",
+        "vc": [
+          "VC2E3LY09",
+          "VC2E5LY08"
+        ],
+        "vcNote": "Introduces purpose and audience: “Scammers are writers.”"
       },
       {
         "kind": "flag",
@@ -139,7 +144,11 @@
         "title": "Rush",
         "text": "“Pay today.” “Only 2 hours left!” They rush you so you don’t stop and think.",
         "icon": "lucide:timer",
-        "say": "Red flag one. Rush. Pay today. Only two hours left. They rush you so you don't stop and think."
+        "say": "Red flag one. Rush. Pay today. Only two hours left. They rush you so you don't stop and think.",
+        "vc": [
+          "VC2E5LY08",
+          "VC2E6LY07"
+        ]
       },
       {
         "kind": "flag",
@@ -147,7 +156,13 @@
         "title": "Reaction",
         "text": "They make you feel something big — scared, excited, or sorry for someone.",
         "icon": "lucide:heart-crack",
-        "say": "Red flag two. Reaction. They try to make you feel something big. Scared. Excited. Or sorry for someone."
+        "say": "Red flag two. Reaction. They try to make you feel something big. Scared. Excited. Or sorry for someone.",
+        "vc": [
+          "VC2E4LA02",
+          "VC2E5LY08",
+          "VC2E6LY07"
+        ],
+        "vcNote": "The Reaction flag: feelings versus facts."
       },
       {
         "kind": "flag",
@@ -155,7 +170,11 @@
         "title": "Request",
         "text": "They ask for money, a code, a password, or a click on a link.",
         "icon": "lucide:hand-coins",
-        "say": "Red flag three. Request. They ask you for money, a code, a password, or to click a link."
+        "say": "Red flag three. Request. They ask you for money, a code, a password, or to click a link.",
+        "vc": [
+          "VC2E5LY08",
+          "VC2E6LY07"
+        ]
       },
       {
         "kind": "flag",
@@ -163,7 +182,11 @@
         "title": "Random",
         "text": "Unknown number. Weird link. Doesn’t use your name. Something feels off.",
         "icon": "lucide:shuffle",
-        "say": "Red flag four. Random. An unknown number. A weird link. They don't use your name. Something just feels off."
+        "say": "Red flag four. Random. An unknown number. A weird link. They don't use your name. Something just feels off.",
+        "vc": [
+          "VC2E5LY08",
+          "VC2E6LY07"
+        ]
       },
       {
         "kind": "steps",
@@ -197,7 +220,14 @@
           "support": "Every message is **written by someone, for a reason**. A text from your coach tells you about training. An ad wants you to buy. A scam wants to **trick you**.\n\nScammers think about **who** will read the message. They think about **what** they want you to do. Then they pick words to make you act fast.\n\nMost scams use **4 red flags**:\n\n1. **Rush** — “Do it now!”\n2. **Reaction** — They make you scared, excited or sad.\n3. **Request** — They want money, a code or a click.\n4. **Random** — Something is odd. A number you don’t know. A strange link.\n\nTwo or more red flags? **Watch out.**\n\nWhat should you do? **Stop. Check. Protect.** Don’t reply. Check with the real person or company. Use a number you **already** have. Then block it and tell someone.",
           "core": "Every message you get was **written by someone, for a reason**. A text from your coach tells you when training is on. An ad tries to make you buy something. A scam tries to **trick you**.\n\nScammers are good writers. They think hard about **who will read the message** (the audience) and **what they want the reader to do** (the purpose). Then they choose words that push you to act fast.\n\nMost scams use the same four tricks. We call them the **4 red flags**:\n\n1. **Rush** — “Act now!” “Last chance!” They don’t want you to have time to think.\n2. **Reaction** — They make you feel scared, excited or sorry for someone. Big feelings switch off careful thinking.\n3. **Request** — They want something: money, a gift card, a code, your password, or a click.\n4. **Random** — Something doesn’t fit. A number you don’t know. A strange link. Spelling that’s a bit off. They don’t use your name.\n\nOne red flag doesn’t always mean scam. Your mate might really be in a rush! But **two or more red flags is a big warning**.\n\nThe best move? **Stop. Check. Protect.** Don’t reply to the message. Check by contacting the person or company another way — use a number or app you *already* have, not the one in the message. Then block, report and tell someone.",
           "extend": "Every message you get was **written by someone, for a reason**. A text from your coach tells you when training is on. An ad tries to make you buy something. A scam tries to **trick you**.\n\nScammers are good writers. They think hard about **who will read the message** (the audience) and **what they want the reader to do** (the purpose). Then they choose words that push you to act fast.\n\nMost scams use the same four tricks. We call them the **4 red flags**:\n\n1. **Rush** — “Act now!” “Last chance!” They don’t want you to have time to think.\n2. **Reaction** — They make you feel scared, excited or sorry for someone. Big feelings switch off careful thinking.\n3. **Request** — They want something: money, a gift card, a code, your password, or a click.\n4. **Random** — Something doesn’t fit. A number you don’t know. A strange link. Spelling that’s a bit off. They don’t use your name.\n\nOne red flag doesn’t always mean scam. Your mate might really be in a rush! But **two or more red flags is a big warning**.\n\nThe best move? **Stop. Check. Protect.** Don’t reply to the message. Check by contacting the person or company another way — use a number or app you *already* have, not the one in the message. Then block, report and tell someone.\n\n**Why it works.** Scammers use the same techniques as advertisers: urgency, emotive language and a clear call to action. Some scams copy the logo, layout and tone of real companies so the message looks *credible*. Reading critically means asking not just *what* a message says, but *how* it is trying to position you — and who benefits if you do what it asks."
-        }
+        },
+        "vc": [
+          "VC2E3LY09",
+          "VC2E5LY08",
+          "VC2E4LA02",
+          "VC2E6LY07"
+        ],
+        "vcNote": "Paragraphs 1–2 (purpose and audience) and the numbered list of 4 red flags; the Extended version adds “Why it works” (positioning)."
       }
     ],
     "caseStudies": [
@@ -228,7 +258,13 @@
             "Why do you think it worked so well on parents?",
             "The scammers chose “Hi Mum”, not “Hello”. Why does that small choice matter?"
           ]
-        }
+        },
+        "vc": [
+          "VC2E3LY09",
+          "VC2E5LY09",
+          "VC2E7LY07"
+        ],
+        "vcNote": "Who the scam targeted, and why it worked on them."
       },
       {
         "title": "“Earn $500 a day liking videos”",
@@ -244,6 +280,10 @@
         "think": [
           "What is the purpose of this message?",
           "Why would a scammer pay you a little bit first?"
+        ],
+        "vc": [
+          "VC2E5LY09",
+          "VC2E7LY07"
         ]
       }
     ]
@@ -275,7 +315,12 @@
           "label": "“today… Pls hurry”",
           "note": "No time to stop and check."
         }
-      ]
+      ],
+      "vc": [
+        "VC2E5LY08",
+        "VC2E6LY07"
+      ],
+      "vcNote": "Each callout links a word choice to the effect on the reader."
     },
     {
       "type": "flow",
@@ -313,7 +358,11 @@
           "To sell you something real"
         ],
         "answer": 1,
-        "explain": "Scammers write with one purpose: get something from you."
+        "explain": "Scammers write with one purpose: get something from you.",
+        "vc": [
+          "VC2E3LY09",
+          "VC2E5LY08"
+        ]
       },
       {
         "q": "“Claim your prize in the next 2 hours!” Which red flag is this?",
@@ -324,7 +373,10 @@
           "None — this is fine"
         ],
         "answer": 0,
-        "explain": "A short time limit is a Rush flag. They don’t want you to think."
+        "explain": "A short time limit is a Rush flag. They don’t want you to think.",
+        "vc": [
+          "VC2E5LY08"
+        ]
       },
       {
         "q": "A text says it’s from your bank and asks for your password. What should you do?",
@@ -335,7 +387,10 @@
           "Forward it to your friends"
         ],
         "answer": 2,
-        "explain": "Check using a contact you already trust — never the link or number in the message."
+        "explain": "Check using a contact you already trust — never the link or number in the message.",
+        "vc": [
+          "VC2E5LY09"
+        ]
       },
       {
         "q": "Who were most of the people tricked by the ‘Hi Mum’ scam?",
@@ -346,7 +401,10 @@
           "Business owners"
         ],
         "answer": 1,
-        "explain": "The ACCC said most victims were parents and grandparents over 55."
+        "explain": "The ACCC said most victims were parents and grandparents over 55.",
+        "vc": [
+          "VC2E3LY09"
+        ]
       },
       {
         "q": {
@@ -360,7 +418,12 @@
           "It is an ad"
         ],
         "answer": 1,
-        "explain": "Nothing proves who it is. The writer wants money before you check — that’s the inference."
+        "explain": "Nothing proves who it is. The writer wants money before you check — that’s the inference.",
+        "vc": [
+          "VC2E4LY09",
+          "VC2E5LY09",
+          "VC2E7LY07"
+        ]
       },
       {
         "q": "Some scam texts copy the logo and tone of real companies. Why?",
@@ -374,6 +437,10 @@
         "explain": "Copying a real brand makes the message look credible — a technique advertisers use too.",
         "levels": [
           "extend"
+        ],
+        "vc": [
+          "VC2E6LY07",
+          "VC2E7LY05"
         ]
       }
     ]
@@ -390,7 +457,12 @@
       "My warning message tells them what to do (Stop. Check. Protect.)",
       "I used the right tone for my audience"
     ],
-    "levelUp": "Think like a scammer: write your own fake scam text and label the 4 red flags you used."
+    "levelUp": "Think like a scammer: write your own fake scam text and label the 4 red flags you used.",
+    "vc": [
+      "VC2E4LA01",
+      "VC2E5LA01",
+      "VC2E5LY10"
+    ]
   },
   "workbook": {
     "pages": [
@@ -429,6 +501,9 @@
             "q": "Pick **one** other word. Explain it in your own words, as if to a younger student.",
             "lines": 2
           }
+        ],
+        "vc": [
+          "VC2E7LY05"
         ]
       },
       {
@@ -447,7 +522,11 @@
             "lines": {
               "support": 3,
               "core": 2
-            }
+            },
+            "vc": [
+              "VC2E3LY09",
+              "VC2E5LY08"
+            ]
           },
           {
             "q": "List the **4 red flags**.",
@@ -467,7 +546,10 @@
             "lines": {
               "support": 3,
               "core": 2
-            }
+            },
+            "vc": [
+              "VC2E4LA02"
+            ]
           },
           {
             "q": "Why should you check using a number you **already** have, not the one in the message?",
@@ -479,6 +561,10 @@
             "levels": [
               "core",
               "extend"
+            ],
+            "vc": [
+              "VC2E5LY09",
+              "VC2E7LY07"
             ]
           },
           {
@@ -487,6 +573,9 @@
             "levelUp": true,
             "levels": [
               "extend"
+            ],
+            "vc": [
+              "VC2E7LY05"
             ]
           }
         ],
@@ -500,7 +589,11 @@
         "title": "Find the red flags",
         "diagram": 0,
         "pagebreak": true,
-        "instructions": "Circle each red flag in the message. Label it: **Rush**, **Reaction**, **Request** or **Random**. Then explain one."
+        "instructions": "Circle each red flag in the message. Label it: **Rush**, **Reaction**, **Request** or **Random**. Then explain one.",
+        "vc": [
+          "VC2E5LY08",
+          "VC2E6LY07"
+        ]
       },
       {
         "type": "sort",
@@ -552,6 +645,11 @@
             "answer": "Legit",
             "flags": "None — saved contact, normal request"
           }
+        ],
+        "vc": [
+          "VC2E3LY09",
+          "VC2E5LY08",
+          "VC2E5LY09"
         ]
       },
       {
@@ -572,7 +670,10 @@
             "lines": {
               "core": 2,
               "extend": 2
-            }
+            },
+            "vc": [
+              "VC2E3LY09"
+            ]
           },
           {
             "q": {
@@ -582,7 +683,11 @@
             "lines": {
               "core": 3,
               "extend": 2
-            }
+            },
+            "vc": [
+              "VC2E4LA02",
+              "VC2E6LY07"
+            ]
           },
           {
             "q": "Who in **your** life could this scam target? How could you help them?",
@@ -590,7 +695,10 @@
               "core": 3,
               "extend": 2
             },
-            "levelUp": true
+            "levelUp": true,
+            "vc": [
+              "VC2E5LY09"
+            ]
           },
           {
             "q": "The scammers wrote “Hi Mum”, not “Hello”. Why does that small choice matter?",
@@ -601,6 +709,10 @@
             "levelUp": true,
             "levels": [
               "extend"
+            ],
+            "vc": [
+              "VC2E7LY05",
+              "VC2E7LY07"
             ]
           }
         ]
@@ -646,7 +758,13 @@
             ]
           }
         ],
-        "pagebreak": true
+        "pagebreak": true,
+        "vc": [
+          "VC2E4LY09",
+          "VC2E5LY09",
+          "VC2E7LY07"
+        ],
+        "vcNote": "Inferring what a message really means."
       },
       {
         "type": "equation",
@@ -666,7 +784,12 @@
             "title": "Inference",
             "text": "what the writer really wants"
           }
-        ]
+        ],
+        "vc": [
+          "VC2E4LY09",
+          "VC2E5LY09"
+        ],
+        "name": "Clues + what I know = inference"
       },
       {
         "type": "flow",
@@ -718,6 +841,9 @@
               "extend"
             ]
           }
+        ],
+        "vc": [
+          "VC2E5LY09"
         ]
       },
       {
@@ -776,14 +902,25 @@
             "right tone for my audience",
             "uses a fact or real example"
           ]
-        }
+        },
+        "vc": [
+          "VC2E4LA01",
+          "VC2E5LA01",
+          "VC2E5LY10"
+        ],
+        "vcNote": "The final mission: a warning message written for a chosen audience."
       },
       {
         "type": "levelup-draw",
         "title": "Level Up: think like a scammer",
         "prompt": "Write your own fake scam text in the phone. Then label the **4 red flags** you used around it.",
         "phone": true,
-        "pagebreak": true
+        "pagebreak": true,
+        "vc": [
+          "VC2E7LY08",
+          "VC2E7LY05"
+        ],
+        "vcNote": "Writing a scam text on purpose and labelling the techniques."
       },
       {
         "type": "reflect",

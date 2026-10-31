@@ -63,6 +63,18 @@ for (const s of Object.values(c.skills)) {
     if ('caseStudy' in b && !k.read.caseStudies[b.caseStudy]) err(s.id, `workbook ${b.type}: no case study ${b.caseStudy}`);
   }
   for (const l of k.teacher?.lookFors || []) if (!vcIds.has(l.vc)) err(s.id, `teacher lookFor: unknown VC id ${l.vc}`);
+  // "Where" tags: every vc tag inside the course must be a real id that the skill links to.
+  const linked = new Set([...(s.vc.support || []), ...s.vc.core, ...s.vc.extend]);
+  const walk = (o, at) => {
+    if (Array.isArray(o)) return o.forEach((x, i) => walk(x, `${at}[${i}]`));
+    if (!o || typeof o !== 'object') return;
+    if (Array.isArray(o.vc)) for (const id of o.vc) {
+      if (!vcIds.has(id)) err(tag, `${at}: unknown vc tag ${id}`);
+      else if (!linked.has(id)) warn(tag, `${at}: tagged ${id}, but the skill isn't linked to it in map.json`);
+    }
+    for (const [key, v] of Object.entries(o)) if (key !== 'vc') walk(v, `${at}.${key}`);
+  };
+  if (level === 'core') walk(k, 'course');
   for (const cs of k.read?.caseStudies || []) if (!cs.source?.url) warn(s.id, `case study "${cs.title}" has no source URL — real cases need a source`);
 
   const texts = [['mission brief', [k.brief.hook, k.brief.why].join(' ')],

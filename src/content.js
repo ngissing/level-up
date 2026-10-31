@@ -285,3 +285,55 @@ export function speechLines(course, { explainerOnly = false } = {}) {
   const u = readUnits(course);
   return [...lines, u.brief, ...Object.values(u.vocab), ...u.articles, ...u.cases, ...u.quiz];
 }
+
+// ---------- Workbook pages ----------
+// Blocks flow onto A4 sheets; a block with `pagebreak` starts a new one. Page 1 is the cover.
+export function workbookSheets(course) {
+  const sheets = [];
+  let cur = null;
+  for (const b of course.workbook.pages) {
+    if (b.type === 'cover') continue;
+    if (!cur || b.pagebreak) { cur = []; sheets.push(cur); }
+    cur.push(b);
+  }
+  return sheets;
+}
+
+// ---------- Where a curriculum point is evidenced (staff only) ----------
+// Any part of a course can carry `"vc": [ids]` (and an optional `"vcNote"`): explainer scenes,
+// articles, case studies, diagrams, quiz questions, workbook blocks and their items, and `show`.
+const BLOCK_NAMES = { goals: 'Your mission', 'vocab-match': 'Word Power', signoff: 'Teacher check', equation: 'Diagram', cover: 'Cover' };
+
+function locationsIn(course, id) {
+  const has = (x) => Array.isArray(x?.vc) && x.vc.includes(id);
+  const out = [];
+  course.explainer.scenes.forEach((s, i) => has(s) && out.push({ key: `watch:${i}`, step: 'watch', what: 'Explainer', title: `Scene ${i + 1}: ${s.title}`, note: s.vcNote }));
+  course.read.articles.forEach((a, i) => has(a) && out.push({ key: `article:${i}`, step: 'read', what: 'Reading', title: a.title, note: a.vcNote }));
+  course.read.caseStudies.forEach((c, i) => has(c) && out.push({ key: `case:${i}`, step: 'read', what: 'Case study', title: c.title, note: c.vcNote }));
+  course.diagrams.forEach((d, i) => has(d) && out.push({ key: `diagram:${i}`, step: 'see', what: 'Diagram', title: d.title, note: d.vcNote }));
+  const qs = course.quiz.questions.map((q, i) => (has(q) ? i + 1 : null)).filter(Boolean);
+  if (qs.length) out.push({ key: 'quiz', step: 'check', what: 'Quick check', title: 'Questions', where: `Q${qs.join(', Q')}` });
+  workbookSheets(course).forEach((blocks, si) => blocks.forEach((b, bi) => {
+    const items = (b.items || []).map((it, k) => (has(it) ? k + 1 : null)).filter(Boolean);
+    if (!has(b) && !items.length) return;
+    out.push({ key: `wb:${b.type}:${b.title || bi}`, step: 'workbook', what: 'Workbook', title: b.title || b.name || BLOCK_NAMES[b.type] || b.type,
+      where: `p.${si + 2}${items.length ? ` · Q${items.join(', Q')}` : ''}`, page: si + 2, note: b.vcNote });
+  }));
+  if (has(course.show)) out.push({ key: 'show', step: 'show', what: 'Show it', title: 'Final task', note: course.show.vcNote });
+  return out;
+}
+
+// For one skill and one curriculum point: the teacher's look-for note, and every place
+// in the course that gives evidence for it, with where it sits in each reading-level version.
+export function evidenceFor(skill, id) {
+  const look = (skill.course?.teacher?.lookFors || []).filter((l) => l.vc === id);
+  if (!skill.course) return { look, places: [] };
+  const merged = new Map();
+  for (const level of LEVEL_IDS) {
+    for (const loc of locationsIn(courseFor(skill, level), id)) {
+      if (!merged.has(loc.key)) merged.set(loc.key, { ...loc, byLevel: {} });
+      merged.get(loc.key).byLevel[level] = { where: loc.where || '', page: loc.page };
+    }
+  }
+  return { look, places: [...merged.values()] };
+}
