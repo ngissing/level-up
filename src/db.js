@@ -3,7 +3,11 @@ import path from 'node:path';
 import { mkdirSync } from 'node:fs';
 import { ROOT_DIR } from './html.js';
 
-const file = process.env.DB_FILE || path.join(ROOT_DIR, 'data', 'levelup.db');
+// Where the database lives. On Railway, attach a volume and it's used automatically,
+// so accounts and progress survive redeploys. DB_FILE overrides everything.
+const file = process.env.DB_FILE
+  || (process.env.RAILWAY_VOLUME_MOUNT_PATH && path.join(process.env.RAILWAY_VOLUME_MOUNT_PATH, 'levelup.db'))
+  || path.join(ROOT_DIR, 'data', 'levelup.db');
 mkdirSync(path.dirname(file), { recursive: true });
 
 export const db = new DatabaseSync(file);

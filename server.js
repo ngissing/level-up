@@ -37,6 +37,9 @@ app.get('/', (req, res) => {
   res.redirect(req.user.role === 'student' ? '/map' : '/teacher');
 });
 
+// Health check for hosting platforms (Railway checks this before switching to a new version).
+app.get('/healthz', (req, res) => res.type('text').send('ok'));
+
 app.get('/login', (req, res) => send(res, loginPage(req, { next: req.query.next })));
 app.post('/login', (req, res) => {
   const { username = '', password = '', next = '' } = req.body;
@@ -375,8 +378,13 @@ app.post('/admin/settings', admin, (req, res) => {
 
 app.use((req, res) => res.status(404).type('html').send(`<p style="font-family:sans-serif;padding:2rem">Page not found. <a href="/">Go home</a></p>`));
 
-// First run: make sure there's an admin.
+// First run: make sure there's an admin. A public site never gets the default password.
+const hosted = process.env.NODE_ENV === 'production' || !!process.env.RAILWAY_ENVIRONMENT_NAME;
 if (!db.prepare("SELECT 1 FROM users WHERE role = 'admin'").get()) {
+  if (hosted && !process.env.ADMIN_PASSWORD) {
+    console.error('\nFirst run on a hosted site: set the ADMIN_PASSWORD variable (the first admin\'s password), then redeploy.\n');
+    process.exit(1);
+  }
   addUser({ name: 'Admin', username: 'admin', password: process.env.ADMIN_PASSWORD || 'changeme', role: 'admin' });
   console.log('Created admin account: admin / ' + (process.env.ADMIN_PASSWORD ? '(ADMIN_PASSWORD)' : 'changeme'));
 }

@@ -35,7 +35,7 @@ export function parseCookies(header = '') {
   }));
 }
 
-const cookieBase = () => `Path=/; HttpOnly; SameSite=Lax${process.env.NODE_ENV === 'production' ? '; Secure' : ''}`;
+const cookieBase = () => `Path=/; HttpOnly; SameSite=Lax${process.env.NODE_ENV === 'production' || process.env.RAILWAY_ENVIRONMENT_NAME ? '; Secure' : ''}`;
 
 export function setCookie(res, name, value, maxAgeSec) {
   const prev = res.getHeader('Set-Cookie') || [];
