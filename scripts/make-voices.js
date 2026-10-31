@@ -4,6 +4,7 @@
 //   GOOGLE_TTS_API_KEY=… npm run voices -- spot-the-scam
 //   … npm run voices -- --list                          show the Australian voices your key can use
 //   … npm run voices -- --force                         re-record everything (e.g. after changing voice)
+//   … npm run voices -- --explainer-only                only the Watch narration (fewer characters)
 //   TTS_VOICE=en-AU-Neural2-C npm run voices            pick a specific voice
 //   TTS_GENDER=male npm run voices -- --force           best voice of that gender (default: the admin's
 //                                                       "Narrator voice" setting in Accounts → Settings)
@@ -14,9 +15,9 @@
 import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync, unlinkSync } from 'node:fs';
 import path from 'node:path';
 import { ROOT_DIR } from '../src/html.js';
-import { skillList, getSkill, courseFor, lineKey } from '../src/content.js';
+import { skillList, getSkill, courseFor, lineKey, speechLines } from '../src/content.js';
 import { LEVEL_IDS } from '../src/levels.js';
-import { getSetting } from '../src/db.js';
+import { getSetting, setSetting } from '../src/db.js';
 
 const KEY = process.env.GOOGLE_TTS_API_KEY;
 const API = process.env.TTS_API_BASE || 'https://texttospeech.googleapis.com/v1';
@@ -75,7 +76,7 @@ for (const skill of skills) {
   mkdirSync(dir, { recursive: true });
   const mfile = path.join(dir, 'manifest.json');
   const manifest = existsSync(mfile) ? JSON.parse(readFileSync(mfile, 'utf8')) : { lines: {} };
-  const lines = new Set(LEVEL_IDS.flatMap((l) => courseFor(skill, l).explainer.scenes.map((s) => s.say).filter(Boolean)));
+  const lines = new Set(LEVEL_IDS.flatMap((l) => speechLines(courseFor(skill, l), { explainerOnly: args.includes('--explainer-only') })));
   const keep = {};
   for (const text of lines) {
     const k = lineKey(text);
@@ -97,3 +98,10 @@ for (const skill of skills) {
   console.log(`\n${skill.title}: ${lines.size} lines`);
 }
 console.log(`Recorded ${made} new line(s) (${chars} characters), kept ${kept}. Audio is in public/audio/.`);
+// Make unrecorded bits (browser voice) match the recorded voice's gender.
+const g = vinfo?.ssmlGender?.toLowerCase();
+if (['male', 'female'].includes(g) && getSetting('voice_gender') !== g) {
+  setSetting('voice_gender', g);
+  console.log(`Narrator voice setting is now "${g}" so the browser voice matches when there is no recording.`);
+}
+console.log('Refresh the page in the browser to hear it.');

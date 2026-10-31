@@ -243,3 +243,35 @@ export function audioFor(skillId) {
   const fn = (text) => { const l = lines[lineKey(text || '')]; return l ? `/audio/${skillId}/${l.file}` : null; };
   return Object.assign(fn, { voice });
 }
+
+// ---------- Read-aloud text ----------
+// The exact words each read-aloud button speaks. Used both to render the
+// buttons and by scripts/make-voices.js, so recordings always match.
+export const plainText = (md = '') => String(md)
+  .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+  .replace(/[*_`#>]/g, '')
+  .replace(/^\s*\d+\.\s+/gm, '')
+  .replace(/^\s*[-•]\s+/gm, '')
+  .replace(/\s*\n+\s*/g, ' ')
+  .replace(/\s{2,}/g, ' ')
+  .trim();
+
+export function readUnits(course) {
+  const b = course.brief;
+  return {
+    brief: [plainText(b.hook), 'Why this matters.', plainText(b.why), 'By the end you can:', ...b.canDo.map(plainText),
+      'How you’ll show it.', plainText(b.showIt)].join(' '),
+    vocab: Object.fromEntries(b.vocab.map((v) => [v.word, `${v.word}. ${v.meaning}.`])),
+    articles: course.read.articles.map((a) => `${a.title}. ${plainText(a.body)}`),
+    cases: course.read.caseStudies.map((cs) => `${cs.title}. ${plainText(cs.body)} Think about it. ${cs.think.map(plainText).join(' ')}`),
+    quiz: course.quiz.questions.map((q) => `${plainText(q.q)} Is it: ${q.options.map(plainText).join('? Or ')}?`),
+  };
+}
+
+// Every line that can be spoken in a course: explainer narration plus read-aloud text.
+export function speechLines(course, { explainerOnly = false } = {}) {
+  const lines = course.explainer.scenes.map((s) => s.say).filter(Boolean);
+  if (explainerOnly) return lines;
+  const u = readUnits(course);
+  return [...lines, u.brief, ...Object.values(u.vocab), ...u.articles, ...u.cases, ...u.quiz];
+}

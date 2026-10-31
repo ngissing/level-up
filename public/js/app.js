@@ -53,12 +53,23 @@
   // ----- Read-aloud buttons -----
   let speakingBtn = null;
   const stopSpeaking = () => { synth?.cancel(); speakingBtn?.classList.remove('speaking'); speakingBtn = null; };
+  const clip = new Audio();
   document.addEventListener('click', (e) => {
-    const btn = e.target.closest('[data-read],[data-say]');
+    const btn = e.target.closest('button[data-read],button[data-say]');
     if (!btn) return;
+    if (speakingBtn === btn) { stopSpeaking(); clip.pause(); return; }
+    stopSpeaking(); clip.pause();
+    // A recording made with npm run voices sounds best; otherwise use the browser's voice.
+    if (btn.dataset.audio) {
+      speakingBtn = btn; btn.classList.add('speaking');
+      clip.src = btn.dataset.audio;
+      clip.playbackRate = baseRate < 0.9 ? 0.9 : 1;
+      clip.onended = clip.onpause = () => { btn.classList.remove('speaking'); if (speakingBtn === btn) speakingBtn = null; };
+      clip.onerror = () => { delete btn.dataset.audio; btn.classList.remove('speaking'); speakingBtn = null; btn.click(); };
+      clip.play().catch(() => {});
+      return;
+    }
     if (!synth) { alert('Read-aloud isn’t available in this browser.'); return; }
-    if (speakingBtn === btn) { stopSpeaking(); return; }
-    stopSpeaking();
     let text = btn.dataset.say;
     if (btn.dataset.read) {
       const target = document.querySelector(btn.dataset.read);

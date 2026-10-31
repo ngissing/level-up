@@ -77,8 +77,13 @@ export function vcChip(entry, { extend = false, hideLevel = false } = {}) {
     : html`<span class="vc-chip ${extend ? 'vc-ext' : ''}" title="${entry.code}: ${entry.text}"><b>${entry.code}</b> ${entry.substrand}${extend ? html` <em>Level Up</em>` : ''}</span>`;
 }
 
-export function readAloud(targetSelector, label = 'Read to me') {
-  return html`<button class="read-btn" type="button" data-read="${targetSelector}">${icon('lucide:volume-2')}<span>${label}</span></button>`;
+// text: exactly what to say; audio: a recorded version of that text (if made with npm run voices).
+export function readAloud(text, audioUrl, label = 'Read to me') {
+  return html`<button class="read-btn" type="button" data-say="${text}" ${audioUrl ? raw(`data-audio="${audioUrl}"`) : ''}>${icon('lucide:volume-2')}<span>${label}</span></button>`;
+}
+
+export function sayButton(text, audioUrl, label) {
+  return html`<button class="say" type="button" data-say="${text}" ${audioUrl ? raw(`data-audio="${audioUrl}"`) : ''} aria-label="${label}">${icon('lucide:volume-2')}</button>`;
 }
 
 export const empty = (text, ic = 'lucide:inbox') => html`<div class="empty">${icon(ic)}<p>${text}</p></div>`;

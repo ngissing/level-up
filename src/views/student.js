@@ -1,8 +1,8 @@
 import { html, icon, md, mdInline, raw } from '../html.js';
-import { page, sticker, vcChip, readAloud, empty } from './layout.js';
+import { page, sticker, vcChip, readAloud, sayButton, empty } from './layout.js';
 import { diagram, phone } from './diagrams.js';
 import {
-  content, skillList, zoneSkills, skillState, doneSet, requirements, allBadges, coverage, STEPS, audioFor,
+  content, skillList, zoneSkills, skillState, doneSet, requirements, allBadges, coverage, STEPS, audioFor, readUnits,
 } from '../content.js';
 
 const STATE_LABEL = {
@@ -136,8 +136,9 @@ function doneButton(skill, step, label = 'Done — next step') {
 
 function briefStep(skill) {
   const b = skill.course.brief;
+  const u = readUnits(skill.course), audio = audioFor(skill.id);
   return html`<div class="panel" id="read-brief">
-    <div class="panel-tools">${readAloud('#read-brief')}</div>
+    <div class="panel-tools">${readAloud(u.brief, audio(u.brief))}</div>
     <div class="hook">${icon('lucide:smartphone', 'hook-ico')}<div>${md(b.hook)}</div></div>
     <h2>Why this matters</h2>
     ${md(b.why)}
@@ -145,7 +146,7 @@ function briefStep(skill) {
     <ul class="can-do">${b.canDo.map((x) => html`<li>${icon('lucide:circle-check')}<span>${mdInline(x)}</span></li>`)}</ul>
     <h2>Words you’ll need</h2>
     <div class="vocab-grid">${b.vocab.map((v) => html`<div class="vocab-card">
-      <button class="say" type="button" data-say="${v.word}. ${v.meaning}." aria-label="Say ${v.word}">${icon('lucide:volume-2')}</button>
+      ${sayButton(u.vocab[v.word], audio(u.vocab[v.word]), `Say ${v.word}`)}
       <strong>${v.word}</strong><p>${v.meaning}</p><em>${v.example}</em>
     </div>`)}</div>
     <div class="callout-box">${icon('lucide:target')}<div><strong>How you’ll show it</strong><p>${b.showIt}</p><small>Time: about ${skill.course.duration}</small></div></div>
@@ -200,16 +201,17 @@ function watchStep(skill) {
 
 function readStep(skill) {
   const r = skill.course.read;
+  const u = readUnits(skill.course), audio = audioFor(skill.id);
   return html`<div class="panel">
     ${r.articles.map((a, i) => html`<article class="reading" id="article-${i}">
-      <header><span class="kicker">${icon('lucide:book-open')} Reading · ${a.minutes} min</span>${readAloud('#article-' + i)}</header>
+      <header><span class="kicker">${icon('lucide:book-open')} Reading · ${a.minutes} min</span>${readAloud(u.articles[i], audio(u.articles[i]))}</header>
       <h2>${a.title}</h2>
       <div class="prose">${md(a.body)}</div>
     </article>`)}
     <h2 class="section-title">${icon('lucide:newspaper')} Real cases</h2>
     <div class="case-grid">
     ${r.caseStudies.map((cs, i) => html`<article class="case" id="case-${i}">
-      <header>${sticker(cs.icon, { size: 'sm' })}<span class="kicker">Case study</span>${readAloud('#case-' + i, 'Read')}</header>
+      <header>${sticker(cs.icon, { size: 'sm' })}<span class="kicker">Case study</span>${readAloud(u.cases[i], audio(u.cases[i]), 'Read')}</header>
       <h3>${cs.title}</h3>
       <div class="prose">${md(cs.body)}</div>
       <div class="think"><strong>${icon('lucide:lightbulb')} Think about it</strong><ul>${cs.think.map((t) => html`<li>${t}</li>`)}</ul></div>
@@ -243,6 +245,7 @@ function workbookStep(skill) {
 
 function checkStep(skill, p, result) {
   const qs = skill.course.quiz.questions;
+  const u = readUnits(skill.course), audio = audioFor(skill.id);
   return html`<div class="panel">
     <h2>Quick check</h2>
     <p class="muted">${qs.length} questions. Get most of them right to tick this off. You can try again as many times as you like.</p>
@@ -251,7 +254,7 @@ function checkStep(skill, p, result) {
       ${qs.map((q, i) => {
         const r = result?.[i];
         return html`<fieldset class="q ${r ? (r.correct ? 'q-right' : 'q-wrong') : ''}">
-          <legend><span class="q-n">${i + 1}</span>${mdInline(q.q)} <button class="say" type="button" data-say="${q.q.replace(/\*/g, '')}" aria-label="Read question">${icon('lucide:volume-2')}</button></legend>
+          <legend><span class="q-n">${i + 1}</span>${mdInline(q.q)} ${sayButton(u.quiz[i], audio(u.quiz[i]), 'Read question and answers')}</legend>
           ${q.options.map((o, j) => html`<label class="opt ${r && j === q.answer ? 'opt-answer' : ''}">
             <input type="radio" name="q${i}" value="${j}" required ${r && r.chosen === j ? raw('checked') : ''}><span>${o}</span></label>`)}
           ${r ? html`<p class="explain">${icon(r.correct ? 'lucide:circle-check' : 'lucide:info')} ${q.explain}</p>` : ''}
