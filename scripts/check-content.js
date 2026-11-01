@@ -2,13 +2,13 @@
 //   npm run check
 import { content, courseFor } from '../src/content.js';
 import { PROGRAM_IDS, PROGRAMS } from '../src/programs.js';
-import { LEVEL_IDS, LEVELS } from '../src/levels.js';
+import { LEVEL_IDS, LEVELS, levelInfo } from '../src/levels.js';
 
 const BLOCKS = ['cover', 'goals', 'vocab-match', 'reading', 'questions', 'scenarios', 'phone-annotate', 'doc-annotate', 'sort', 'case-study',
-  'table', 'equation', 'flow', 'write', 'levelup-draw', 'reflect', 'signoff'];
+  'table', 'equation', 'flow', 'write', 'do-it', 'storyboard', 'levelup-draw', 'reflect', 'signoff'];
 const SCENES = ['title', 'message', 'stat', 'big', 'flag', 'steps', 'end'];
-// Rough reading-level ceilings per version (Flesch–Kincaid grade).
-const TARGET = { support: 4.5, core: 6.5, extend: 8.5 };
+// Rough reading-level ceilings per version (Flesch–Kincaid grade) come from src/levels.js,
+// and can differ by program (VPC aims at Years 5, 7 and 9).
 
 let errors = 0, warnings = 0;
 const err = (id, m) => { errors++; console.log(`  ✗ ${id}: ${m}`); };
@@ -84,9 +84,10 @@ for (const s of Object.values(c.skills)) {
     if (typeof t !== 'string') { err(tag, `${label} did not resolve to text`); continue; }
     const g = fkGrade(t);
     if (g === null) continue;
-    const flag = g > TARGET[level] ? '!' : '✓';
+    const target = levelInfo(level, program).target;
+    const flag = g > target ? '!' : '✓';
     if (flag === '!') warnings++;
-    console.log(`     ${flag} reading level ${g.toFixed(1)} (aim ≤ ${TARGET[level]}) — ${label}`);
+    console.log(`     ${flag} reading level ${g.toFixed(1)} (aim ≤ ${target}) — ${label}`);
   }
   }
 }

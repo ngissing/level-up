@@ -1,10 +1,13 @@
-// Writes docs/COURSE-MAP.md (F–10) and docs/COURSE-MAP-VM12.md / -VM34.md (VCE VM Literacy) from content/
+// Writes docs/COURSE-MAP.md (F–10), docs/COURSE-MAP-VM12.md / -VM34.md (VCE VM Literacy) and
+// docs/COURSE-MAP-VPC.md (VPC Literacy) from content/
 // so the map documents never drift.
 //   npm run map-doc
 import { writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { ROOT_DIR } from '../src/html.js';
 import { content, requirements } from '../src/content.js';
+import { PROGRAMS } from '../src/programs.js';
+import { LEVEL_IDS, LEVELS, levelInfo } from '../src/levels.js';
 
 const c = content('f10');
 const vc = (id) => { const e = c.vc[id]; return `${e.code} (${e.substrand})`; };
@@ -100,8 +103,10 @@ p();
 writeFileSync(path.join(ROOT_DIR, 'docs', 'COURSE-MAP.md'), L.join('\n'));
 console.log('wrote docs/COURSE-MAP.md');
 
-// ---------- VCE VM Literacy ----------
-for (const program of ['vm12', 'vm34']) {
+// ---------- Study designs: VCE VM Literacy and VPC Literacy ----------
+for (const program of ['vm12', 'vm34', 'vpc']) {
+  const P = PROGRAMS[program];
+  const [K1, K2] = P.kinds;
   const v = content(program);
   const name = v.programObj.name;
   const V = [];
@@ -113,7 +118,14 @@ for (const program of ['vm12', 'vm34']) {
   q();
   q(`_Generated from \`content/${program}/\` by \`npm run map-doc\`. Edit the JSON, not this file._`);
   q();
-  q(`Mini courses for students enrolled in **${name}**, linked to the key knowledge (KK) and key skills (KS) of its four outcomes in the VCE Vocational Major Literacy Study Design. Same structure as the F–10 pathway: ${v.zones[v.baseZone].name} → four zones (starters, Level 2, boss) → Capstones. Reading levels work the same way. Codes such as **U1 O1 KK3** mean Unit 1, Outcome 1, 3rd key knowledge point, in study-design order.`);
+  const midZones = v.map.zones.length - 2;
+  if (program === 'vpc') {
+    q(`Mini courses for students enrolled in **${name}**, linked to the learning goals (LG) and applications (AP) of the seven modules in the Victorian Pathways Certificate Literacy Curriculum Design. The units are standalone and can be done in any order, so VPC is one pathway: ${v.zones[v.baseZone].name} → ${midZones} zones, one per module (starters, Level 2, boss) → ${v.zones[v.crossZone].name} (Unit 4's negotiated project). Every course is hands-on: it ends with a real-world **Do it** task. Codes such as **U1 M1 AP3** mean Unit 1, Module 1, 3rd application, in curriculum order.`);
+    q();
+    q(`Reading levels work the same way as F–10 and VM, but aim higher: ${LEVEL_IDS.map((l) => `${LEVELS[l].symbol} ${LEVELS[l].label} ${levelInfo(l, program).years}`).join(', ')}.`);
+  } else {
+    q(`Mini courses for students enrolled in **${name}**, linked to the key knowledge (KK) and key skills (KS) of its four outcomes in the VCE Vocational Major Literacy Study Design. Same structure as the F–10 pathway: ${v.zones[v.baseZone].name} → four zones (starters, Level 2, boss) → Capstones. Reading levels work the same way. Codes such as **U1 O1 KK3** mean Unit 1, Outcome 1, 3rd key knowledge point, in study-design order.`);
+  }
   q();
   q(`${allV.filter((s) => s.ready).length} of ${allV.length} mini courses built.`);
   q();
@@ -122,22 +134,22 @@ for (const program of ['vm12', 'vm34']) {
     q();
     q(`_${z.pitch}_`);
     q();
-    q('| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |');
+    q(`| Skill | Tier | Real-life skill | Literacy focus | ${K1.plural} / ${K2.plural.toLowerCase()} | ★ Level Up | Badge | Status |`);
     q('|---|---|---|---|---|---|---|---|');
     for (const s of allV.filter((x) => x.zone === z.id)) {
       q(`| **${s.title}** | ${tierV[s.tier]} | ${s.realLife} | ${s.literacy} | ${s.vc.core.map(item).join('<br>')} | ${s.vc.extend.map(item).join('<br>')} | ${s.badge.name} | ${s.ready ? '✅ built' : 'planned'} |`);
     }
     q();
   }
-  q('## Coverage by outcome');
+  q(`## Coverage by ${P.part.toLowerCase()}`);
   q();
-  q('| Outcome | Key knowledge linked | Key skills linked |');
+  q(`| ${P.part} | ${K1.plural} linked | ${K2.plural} linked |`);
   q('|---|---|---|');
   const used = new Set(allV.flatMap((s) => [...s.vc.core, ...s.vc.extend]));
   for (const o of v.curriculum.outcomes) {
     const es = v.curriculum.entries.filter((e) => e.focus === o.id);
     const frac = (k) => { const x = es.filter((e) => e.kind === k); return `${x.filter((e) => used.has(e.id)).length}/${x.length}`; };
-    q(`| Unit ${o.unit}, Outcome ${o.outcome}: ${o.title} | ${frac('Key knowledge')} | ${frac('Key skill')} |`);
+    q(`| Unit ${o.unit}, ${P.part} ${o.outcome}: ${o.title} | ${frac(K1.kind)} | ${frac(K2.kind)} |`);
   }
   q();
   q(`Source: ${v.curriculum.source} Retrieved ${v.curriculum.retrieved} from ${v.curriculum.url}.`);

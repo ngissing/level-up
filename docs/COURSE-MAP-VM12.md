@@ -10,7 +10,7 @@ Mini courses for students enrolled in **VCE VM Literacy Units 1 & 2**, linked to
 
 _Three core skills for reading and writing at work and in life. Finish any two to open the site._
 
-| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |
+| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
 | **Your First Payslip** | Induction | Read a payslip, check you’ve been paid right, and know what to do if you haven’t. | Structures and features of a workplace text; purpose, audience and context; annotation; inferring meaning. | U1 O1 KK1 — structures and features of a range of different text types such as narrative, informative, persuasive, instructional, letters, media articles and releases, film, email, digital messaging and workplace reports<br>U1 O1 KK2 — ways in which purpose, context and audience influence the structure and language of different text types<br>U1 O1 KS2 — use the skills of annotation to identify the layouts, designs and structural elements of print, visual and film texts<br>U1 O1 KS3 — identify, through annotations and summaries, the purpose, audience and context of different text types<br>U1 O1 KS4 — infer the meaning of content from the context | U1 O1 KS8 — evaluate the effectiveness of content in terms of purpose and audience<br>U1 O1 KS6 — identify reliable sources to be used for research<br>U1 O2 KS6 — critically evaluate the reliability and effectiveness of a range of digital texts | Pay Checker | ✅ built |
 | **In Your Own Words** | Induction | Take notes, paraphrase and summarise so you can use information honestly — at school, at TAFE and at work. | Paraphrasing, note taking and summarising; plagiarism and its consequences. | U1 O1 KK4 — plagiarism and its ramifications<br>U1 O1 KK5 — the uses of paraphrasing, note taking and summarising<br>U1 O1 KS3 — identify, through annotations and summaries, the purpose, audience and context of different text types | U1 O2 KK5 — the principles of copyright and the conventions of attribution<br>U1 O2 KS7 — apply the conventions of referencing and acknowledge attribution, where applicable | Straight Shooter | ✅ built |
@@ -20,7 +20,7 @@ _Three core skills for reading and writing at work and in life. Finish any two t
 
 _Every text has a job. Learn how texts are built, who they’re for and how to use them._
 
-| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |
+| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
 | **Know Your Text Types** | Starter | Recognise common text types at work and in life, and what each one is built to do. | Structures and features of different text types; comparing structure, language and presentation. | U1 O1 KK1 — structures and features of a range of different text types such as narrative, informative, persuasive, instructional, letters, media articles and releases, film, email, digital messaging and workplace reports<br>U1 O1 KS1 — read, watch, listen to and understand a range of text types for a variety of audiences and purposes<br>U1 O1 KS7 — compare the structure, language and presentation of different text types | U1 O1 KS8 — evaluate the effectiveness of content in terms of purpose and audience | Text Spotter | ✅ built |
 | **Read the Room** | Starter | Work out the purpose, audience and context of anything you read — and write to suit. | How purpose, context and audience shape a text; identifying them through annotation and summary. | U1 O1 KK2 — ways in which purpose, context and audience influence the structure and language of different text types<br>U1 O1 KS3 — identify, through annotations and summaries, the purpose, audience and context of different text types<br>U1 O1 KS5 — listen and contribute to small group and whole class discussions | U1 O1 KS8 — evaluate the effectiveness of content in terms of purpose and audience | Room Reader | planned |
@@ -32,7 +32,7 @@ _Every text has a job. Learn how texts are built, who they’re for and how to u
 
 _Websites, podcasts, socials and staying safe online. Make content that works._
 
-| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |
+| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
 | **Lock It Down** | Starter | Keep your accounts, money and identity safe online. | Features and importance of digital security; safe practices online. | U1 O2 KK4 — the features and importance of digital security<br>U1 O2 KK6 — safe and respectful practices in the digital world<br>U1 O2 KS1 — read, watch, listen to and understand digital texts | U1 O2 KS6 — critically evaluate the reliability and effectiveness of a range of digital texts | Locked Down | planned |
 | **Website Detective** | Starter | Work out how a website is built, who it’s for, and whether you can trust it. | Structure, purpose and audience of webpages; comparing and evaluating digital texts. | U1 O2 KK1 — the structure of different webpages and digital texts<br>U1 O2 KK2 — the purpose, audience and types of different digital texts<br>U1 O2 KS4 — compare and contrast online digital texts<br>U1 O2 KS6 — critically evaluate the reliability and effectiveness of a range of digital texts | U1 O2 KK3 — the differences between digital texts such as webpages, podcasts and social media<br>U1 O1 KS6 — identify reliable sources to be used for research | Web Detective | planned |
@@ -44,7 +44,7 @@ _Websites, podcasts, socials and staying safe online. Make content that works._
 
 _Who’s saying what, and why? Read opinions closely and spot the angle._
 
-| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |
+| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
 | **Who’s Talking?** | Starter | Work out who is behind an opinion and what they want you to think. | How values, backgrounds, bias and perspective shape what authors and speakers say. | U2 O1 KK3 — how the values and backgrounds of authors and speakers may influence opinions<br>U2 O1 KK4 — ways in which bias and perspective can influence authors, speakers and audiences<br>U2 O1 KS1 — identify the purpose and intended audience of written, spoken and multimedia persuasive and influential texts | U2 O1 KK5 — ways in which different communities engage in debate or discussion | Bias Buster | planned |
 | **Loaded Words** | Starter | Spot how word choices and images push you to feel a certain way. | Language and visuals used to influence; connotations of words. | U2 O1 KK1 — language and visuals used to influence an audience<br>U2 O1 KS3 — identify and explain how language and visuals are used to influence an audience<br>U2 O1 KS4 — infer meaning from persuasive and influential content, including being able to identify the connotations of words | U2 O2 KK2 — language and visuals that contribute to the effectiveness of an argument | Word Watcher | planned |
@@ -56,7 +56,7 @@ _Who’s saying what, and why? Read opinions closely and spot the angle._
 
 _Build an argument, back it up and say it out loud — with confidence._
 
-| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |
+| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
 | **Back It Up** | Starter | Write a clear, logical opinion piece with evidence that convinces people. | Structures of persuasive texts; logic, reasoning and emotion; evidence; sequencing an argument. | U2 O2 KK1 — the different structures of written, spoken and multimedia persuasive and influential content<br>U2 O2 KK3 — the way authors and speakers use logic, reasoning and emotion to influence the audience<br>U2 O2 KS3 — sequence and structure persuasive texts to present a point of view logically<br>U2 O2 KS4 — provide evidence and argue a point of view persuasively | U2 O2 KS1 — draft, revise and edit persuasive responses to issues<br>U2 O2 KS5 — present related pieces of information within a text, signalling these connections with appropriate semantic clues | Evidence Pro | planned |
 | **Logic or Feelings?** | Starter | Spot when an argument uses logic, reasoning or emotion — and use them yourself. | How authors and speakers use logic, reasoning and emotion; language and visuals in an argument. | U2 O2 KK3 — the way authors and speakers use logic, reasoning and emotion to influence the audience<br>U2 O2 KK2 — language and visuals that contribute to the effectiveness of an argument<br>U2 O2 KK1 — the different structures of written, spoken and multimedia persuasive and influential content | U2 O2 KS7 — critically evaluate own work | Mind Reader | planned |
@@ -68,7 +68,7 @@ _Build an argument, back it up and say it out loud — with confidence._
 
 _Bigger projects that mix two areas. Unlock by going deep in both._
 
-| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |
+| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
 | **Podcast an Issue** | Capstones | Make a short podcast episode that explores an issue you care about from more than one side. | Creating digital content; presenting a point of view supported by evidence. | U1 O2 KS2 — plan, create and edit a range of digital texts appropriate to audience and purpose<br>U2 O2 KS4 — provide evidence and argue a point of view persuasively<br>U2 O2 KS8 — apply the conventions of referencing and acknowledge attribution, where applicable | U2 O1 KS5 — compare and contrast how ideas and issues are presented in different persuasive text types | Podcaster | planned |
 | **Community Voices Report** | Capstones | Interview people in your community about an issue and write up what they think and why. | Purpose and audience of a report; how values and backgrounds shape opinions; reliable sources. | U1 O1 KS9 — plan, create, draft, edit and refine a range of individual responses to different text types<br>U2 O1 KK3 — how the values and backgrounds of authors and speakers may influence opinions<br>U2 O1 KS7 — identify reliable and trustworthy sources for research | U2 O1 KS5 — compare and contrast how ideas and issues are presented in different persuasive text types | Reporter | planned |

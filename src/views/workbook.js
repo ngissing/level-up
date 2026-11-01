@@ -39,7 +39,7 @@ const BLOCKS = {
       <div class="wb-card"><h3>${icon('lucide:circle-check')} By the end I can…</h3>
         <ul class="wb-tick">${br.canDo.map((x) => html`<li><span class="tickbox"></span><span>${mdInline(x)}</span></li>`)}</ul></div>
       <div class="wb-card wb-card-zone"><h3>${icon('lucide:target')} How I’ll show it</h3><p>${br.showIt}</p>
-        <h3>${icon('lucide:graduation-cap')} ${familyOf(skill.program) === 'vm' ? 'VCE VM Literacy' : 'Victorian Curriculum'}</h3>
+        <h3>${icon('lucide:graduation-cap')} ${PROGRAMS[skill.program].curriculumShort}</h3>
         <ul class="wb-vc">${[...new Set(skill.vcNow.core.map((id) => c.vc[id].substrand))].map((sub) => html`<li>${sub}</li>`)}</ul>
         <p class="wb-small">${icon('lucide:star')} Level Up tasks stretch you further.</p>
       </div>
@@ -128,6 +128,31 @@ const BLOCKS = {
     ${b.check ? html`<p class="wb-check">${icon('lucide:list-checks')} <b>Check:</b> ${b.check.map((x) => html`<span><i class="tickbox"></i>${x}</span>`)}</p>` : ''}`;
   },
 
+  // Hands-on task done in the real world (VPC courses end with one). Steps tick off,
+  // with an optional photo/sketch box, notes and how the student is showing it.
+  'do-it'(b, { answers }) {
+    const ev = b.evidence || ['Photo or screenshot', 'Recording', 'Teacher saw it'];
+    return html`<div class="wb-doit">
+      <div class="doit-banner">${icon('lucide:hammer')} HANDS-ON${b.where ? html` · ${b.where}` : ''}</div>
+      ${blockTitle(b, 'lucide:hand-metal')}
+      ${b.need?.length ? html`<p class="doit-need"><b>${icon('lucide:package')} You need:</b>${b.need.map((x) => html`<span>${mdInline(x)}</span>`)}</p>` : ''}
+      <ol class="doit-steps">${b.steps.map((s, i) => html`<li><span class="doit-n">${i + 1}</span><span>${mdInline(s)}</span><i class="tickbox"></i></li>`)}</ol>
+      ${b.photo ? html`<div class="doit-photo" style="height:${Number(b.photo)}mm"><span>${icon('lucide:camera')} ${b.photoLabel || 'Stick a photo here, or sketch what you made'}</span></div>` : ''}
+      ${(b.notes || []).map((n) => html`<p class="wb-q">${mdInline(n.label)}</p>${answers && n.answer ? html`<p class="ans-text">${n.answer}</p>` : lines(n.lines || 2)}`)}
+      <div class="doit-evidence"><b>How I’m showing it:</b>${ev.map((e) => html`<span><i class="tickbox"></i>${e}</span>`)}<span class="doit-init">Teacher initials <i class="line"></i></span></div>
+    </div>`;
+  },
+
+  // Storyboard frames to sketch a video or ad: a box per shot, then what we see and hear.
+  storyboard(b) {
+    const n = b.frames || 6;
+    return html`${blockTitle(b, 'lucide:clapperboard')}
+    <div class="wb-story" style="--cols:${b.columns || 3}">${Array.from({ length: n }, (_, i) => html`<div class="story-frame">
+      <div class="story-box" style="height:${Number(b.boxHeight || 32)}mm"><span class="story-n">${i + 1}</span>${b.hints?.[i] ? html`<small>${b.hints[i]}</small>` : ''}</div>
+      ${(b.rows || ['We see', 'We hear']).map((r) => html`<div class="story-row"><b>${r}:</b><i class="line"></i></div>`)}
+    </div>`)}</div>`;
+  },
+
   'levelup-draw'(b) {
     return html`<div class="wb-levelup">
       <div class="lvl-banner">${icon('lucide:star')} LEVEL UP CHALLENGE ${icon('lucide:star')}</div>
@@ -150,12 +175,13 @@ const BLOCKS = {
     ${b.questions.map((q) => html`<p class="wb-q">${q}</p>${lines(2)}`)}`;
   },
 
-  signoff() {
+  signoff(b, { skill }) {
+    const handsOn = skill.course.workbook.pages.some((p) => p.type === 'do-it');
     return html`<div class="wb-signoff">
       <h3>${icon('lucide:badge-check')} Teacher check</h3>
       <div class="so-grid">
         <span><i class="tickbox"></i> Workbook complete</span>
-        <span><i class="tickbox"></i> Final mission done</span>
+        <span><i class="tickbox"></i> ${handsOn ? 'Hands-on task done' : 'Final mission done'}</span>
         <span><i class="tickbox"></i> Level Up done ★</span>
       </div>
       <div class="so-row"><span>Comment:</span><span class="line"></span></div>
@@ -198,7 +224,7 @@ function cover(skill, c, qr) {
   </section>`;
 }
 
-const brand = (skill) => (familyOf(skill.program) === 'vm' ? `Level Up · ${PROGRAMS[skill.program].short}` : 'Level Up Literacy');
+const brand = (skill) => (skill.program !== 'f10' ? `Level Up · ${PROGRAMS[skill.program].short}` : 'Level Up Literacy');
 
 function sheet(skill, n, inner) {
   const z = skill.zoneObj;

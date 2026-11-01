@@ -1,9 +1,10 @@
 # Level Up Literacy
 
-Self-paced literacy **mini courses** for teenagers, each linking curriculum to a real-life skill: spot a scam, read a payslip, pass the L-plate test, nail an interview. There are two programs, each with its own pathway and colour scheme:
+Self-paced literacy **mini courses** for teenagers, each linking curriculum to a real-life skill: spot a scam, read a payslip, pass the L-plate test, nail an interview. There are three kinds of program, each with its own pathway and colour scheme:
 
 - **Victorian Curriculum F–10 (v2.0) English**
 - **VCE VM Literacy Units 1 & 2**, and separately **VCE VM Literacy Units 3 & 4**, built on the VCE Vocational Major Literacy Study Design 2023–2027. They're separate courses because students take them in different years.
+- **VPC Literacy** (Units 1–4), built on the Victorian Pathways Certificate Literacy Curriculum Design 2023–2027. It's one course because the units are standalone and can be done in any order. VPC courses are hands-on: each ends with a real-world **Do it** task. Reading levels aim at Years 5, 7 and 9.
 
 An admin enrols each student in one program.
 
@@ -34,17 +35,18 @@ You need Node.js 22.13 or later (it uses the built-in `node:sqlite`).
 | Login | Password | Role |
 |---|---|---|
 | `admin` | `changeme` | Admin: accounts, classes, settings |
-| `teacher` | `teacher123` | Teacher of “10 Literacy”, “11 VM Literacy” and “12 VM Literacy” (after `npm run seed`) |
+| `teacher` | `teacher123` | Teacher of “10 Literacy”, “11 VM Literacy”, “12 VM Literacy” and “VPC Literacy” (after `npm run seed`) |
 | `kai`, `mia`, `jay`, `tia` | `student123` | F–10 students at different stages (Kai is Foundation, Jay is Extended, Mia and Tia are Core) |
 | `zara`, `ben` | `student123` | VM Literacy Units 1 & 2 students (Zara is Foundation, Ben is Core and partway through Your First Payslip) |
 | `ella` | `student123` | VM Literacy Units 3 & 4 student (Core) |
+| `noah`, `lia` | `student123` | VPC Literacy students (Noah is Foundation, Lia is Core) |
 
 Change the admin password straight away, or set `ADMIN_PASSWORD` before the first run.
 
 ## What's in it
 
 **Students**
-- **Skill map:** Base Camp (3 core skills) → 5 zones (Money Moves, Work Ready, Digital Life, Get Sorted, Your Voice) → Crossroads capstones. VM Units 1 & 2 students get Induction → Text Toolkit, Digital Life, Issues & Voices, Have Your Say → Capstones. VM Units 3 & 4 students get Site Induction → Real-World Docs, On the Job, Advocate, Speak Up → Capstones. Both VM courses use a "hi-vis" colour scheme. Students choose the order.
+- **Skill map:** Base Camp (3 core skills) → 5 zones (Money Moves, Work Ready, Digital Life, Get Sorted, Your Voice) → Crossroads capstones. VM Units 1 & 2 students get Induction → Text Toolkit, Digital Life, Issues & Voices, Have Your Say → Capstones. VM Units 3 & 4 students get Site Induction → Real-World Docs, On the Job, Advocate, Speak Up → Capstones. Both VM courses use a "hi-vis" colour scheme. VPC students get The Workshop → Everyday Texts, Online & Safe, Issues & Voices, Speak Up, Out & About, Next Steps (one zone per module) → Your Project (Unit 4), in a teal "workshop" colour scheme. Students choose the order.
 - **Mini course steps:** Mission brief → Watch (narrated animated explainer with captions, recorded with Google’s natural voices) → Read (article and real case studies) → See it (diagrams) → Workbook → Quick check → Show it.
 - **Read-aloud** on every text, a text-size toggle, and key words that read themselves out.
 - **Badges** for each skill, zone and milestone.
@@ -74,10 +76,11 @@ Change the admin password straight away, or set `ADMIN_PASSWORD` before the firs
 | `npm run seed` | Demo data |
 | `npm run check` | Validate all content and estimate reading levels |
 | `npm run pdf [-- <skill-id>] [-- --answers]` | Export A4 workbook PDFs to `exports/` (needs Playwright). Warns on page overflow. |
-| `npm run map-doc` | Regenerate `docs/COURSE-MAP.md` (F–10), `docs/COURSE-MAP-VM12.md` and `docs/COURSE-MAP-VM34.md` (VM) from the content |
+| `npm run map-doc` | Regenerate `docs/COURSE-MAP.md` (F–10), `docs/COURSE-MAP-VM12.md` and `docs/COURSE-MAP-VM34.md` (VM) and `docs/COURSE-MAP-VPC.md` (VPC) from the content |
 | `npm run voices` | Record explainer narration with Google’s natural Australian voices (one-time setup: `docs/VOICES.md`) |
 | `npm run import-vcaa` | Re-import the official VC 2.0 English curriculum from the VCAA website (or from a saved copy of the page) |
 | `npm run import-vm` | Re-import the VCE VM Literacy Study Design from the VCAA website (or from a downloaded .docx) |
+| `npm run import-vpc` | Re-import the VPC Literacy Curriculum Design from the VCAA website (or from a downloaded .docx) |
 
 ## Project layout
 
@@ -89,6 +92,7 @@ content/
     skills/<id>.json    one file per mini course (spot-the-scam is the worked example)
   vm12/                 VCE VM Literacy Units 1 & 2 (same layout; vm-first-payslip is the worked example)
   vm34/                 VCE VM Literacy Units 3 & 4 (same layout)
+  vpc/                  VPC Literacy Units 1–4 (same layout; vpc-read-the-label is the worked example)
 src/
   content.js            loading, unlock rules, badges, curriculum coverage
   views/                server-rendered pages (student, teacher, admin, workbook)
@@ -98,6 +102,7 @@ docs/
   COURSE-MAP.md         the F–10 map (generated)
   COURSE-MAP-VM12.md    the VM Units 1 & 2 map (generated)
   COURSE-MAP-VM34.md    the VM Units 3 & 4 map (generated)
+  COURSE-MAP-VPC.md     the VPC Literacy map (generated)
   AUTHORING.md          how to build the next mini course (with Claude)
 ```
 

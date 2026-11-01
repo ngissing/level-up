@@ -1,0 +1,948 @@
+{
+  "id": "vpc-read-the-label",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), plus a supermarket or pantry hunt",
+  "brief": {
+    "hook": {
+      "support": "Two cereals. Same price. One says **“LITE!”**. One has **4 stars**. Which one do you pick?",
+      "core": "You're in the supermarket. Two cereals, same price. One shouts **“LITE!”** on the front. The other has **4 stars** in a little box. Which one do you grab?"
+    },
+    "why": {
+      "support": "Every packet is a text. The front sells it. The back tells you what is inside. Know where to look and you can choose fast.",
+      "core": "Every packet is a text. The front is there to sell it to you. The back tells you what's really inside. If you know where to look, you can choose food that suits you — in seconds.",
+      "extend": "Every packet is a text with two audiences: the front is designed to sell, the back is designed (and legally required) to inform. Reading both quickly lets you make choices that suit your health, your budget and your allergies."
+    },
+    "canDo": {
+      "support": [
+        "I can find the main parts of a label.",
+        "I can find one fact fast.",
+        "I can break up a long word to read it.",
+        "I can pick the better product and say why."
+      ],
+      "core": [
+        "I can find the main **parts of a food label** and say what each one is for.",
+        "I can **scan** a label to find one fact fast.",
+        "I can work out **tricky label words** by breaking them up.",
+        "I can **compare** two products and explain my choice."
+      ]
+    },
+    "showIt": "Compare two real packets from home or the shop, choose one, and back up your choice with facts from the labels.",
+    "vocab": [
+      {
+        "word": "label",
+        "meaning": "the words and pictures on a packet that tell you about the product",
+        "example": "The label says it has nuts."
+      },
+      {
+        "word": "ingredients",
+        "meaning": "everything that goes into the food, from most to least",
+        "example": "Oats are the first ingredient."
+      },
+      {
+        "word": "serve",
+        "meaning": "the amount the company says one person eats at once",
+        "example": "One serve is 40 grams."
+      },
+      {
+        "word": "per 100 g",
+        "meaning": "the amount in every 100 grams, so you can compare fairly",
+        "example": "Check sugar per 100 g."
+      },
+      {
+        "word": "use-by date",
+        "meaning": "the last day the food is safe to eat",
+        "example": "Throw the milk out after the use-by date."
+      },
+      {
+        "word": "best-before date",
+        "meaning": "the food is best before this day, but may still be OK after",
+        "example": "The chips were past best-before but fine."
+      },
+      {
+        "word": "allergen",
+        "meaning": "a food that makes some people very sick, like peanuts",
+        "example": "Peanuts are a common allergen.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "nutrition panel",
+        "meaning": "the table that shows what is in the food",
+        "example": "The nutrition panel shows the sugar.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "claim",
+        "meaning": "words on the front that make the food sound good",
+        "example": "“High in fibre” is a claim.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "sodium",
+        "meaning": "the part of salt that the label counts",
+        "example": "This soup is high in sodium.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Read the Label in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Read the Label",
+        "sub": "Everything you need is on the pack.",
+        "icon": "lucide:package-search",
+        "say": "Read the label. Everything you need is on the pack, if you know where to look."
+      },
+      {
+        "kind": "big",
+        "title": "Front sells. Back tells.",
+        "text": "A packet has **two jobs** and **two audiences**.",
+        "icon": "lucide:package",
+        "say": "A packet is a text. The front is there to sell. The back is there to tell.",
+        "vc": [
+          "VPC-U1M1-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "★",
+        "pill": "Label part",
+        "pillIcon": "lucide:tag",
+        "title": "Health stars",
+        "text": "½ to 5 stars. Compare like with like.",
+        "icon": "lucide:star",
+        "say": "The Health Star Rating. Half a star up to five. More stars means a healthier choice, but only compare similar foods.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Label part",
+        "pillIcon": "lucide:tag",
+        "title": "Ingredients",
+        "text": "Listed from most to least.",
+        "icon": "lucide:list",
+        "say": "Ingredients are listed from the most to the least. The first one is what you get most of.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "%",
+        "pill": "Label part",
+        "pillIcon": "lucide:tag",
+        "title": "Nutrition panel",
+        "text": "Compare using **per 100 g**.",
+        "icon": "lucide:table",
+        "say": "The nutrition panel. Use the per 100 gram column to compare two products fairly.",
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "!",
+        "pill": "Label part",
+        "pillIcon": "lucide:tag",
+        "title": "Use-by vs best-before",
+        "text": "Use-by = safety. Best-before = quality.",
+        "icon": "lucide:calendar-clock",
+        "say": "Dates. Use-by means safety: don't eat it after. Best-before means quality: it may still be fine.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Scan it fast",
+        "steps": [
+          "Know what you want",
+          "Find the right part",
+          "Finger along the row",
+          "Check it"
+        ],
+        "say": "To scan a label fast: know what you're looking for, find the right part, run your finger along, then check.",
+        "vc": [
+          "VPC-U1M1-AP3"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Two real packets. Compare. Choose. Prove it.",
+        "icon": "lucide:shopping-basket",
+        "say": "Your mission. Grab two real packets, compare them, and choose the one that suits you, with proof."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Labels are texts too",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A food packet is a text. It talks to **two kinds of reader**.\n\nThe **front** is for shoppers walking past. It is bright. It wants to sell.\n\nThe **back** is there to tell you facts.\n\n1. **Health stars.** Half a star up to 5. More stars is healthier. Only compare foods that are alike.\n2. **Ingredients.** The list goes from the most to the least.\n3. **Nutrition panel.** A table of what is inside. Use the **per 100 g** column to compare.\n4. **Allergens.** Look for the word **“Contains”**.\n5. **Dates.** **Use-by** is about safety. **Best-before** is about how good it tastes.\n\nYou don't read a label from top to bottom. You **scan** for the part you need.",
+          "core": "A food packet is a text with **two audiences**. The front is for the shopper walking past: bright colours, a big name and **claims** like “high in fibre”. Its job is to sell. The back and sides are there to inform, and the law says certain facts must be there.\n\n1. **Health Star Rating.** From half a star up to five. More stars means a healthier choice, but only compare **similar** foods, like cereal with cereal.\n2. **Ingredients.** Listed from the **most to the least**. If sugar is near the start, there's a lot of it.\n3. **Nutrition panel.** A table of what's inside, per serve and **per 100 g**. Use per 100 g to compare two products fairly, because serve sizes are different.\n4. **Allergens.** Foods like peanuts, milk, egg and wheat must be shown. Many packs have a **“Contains:”** line.\n5. **Dates.** A **use-by** date is about safety: don't eat it after that day. A **best-before** date is about quality: it may still be fine after.\n\nYou don't read a label from top to bottom. You **scan** it: decide what you need, go straight to that part, and check.",
+          "extend": "A food packet is a text written for **two audiences** with two purposes. The front targets a shopper who will glance at it for a second or two: colour, branding and **claims** such as “high in fibre” are designed to persuade. The back and sides inform, and food standards law requires certain information to be there.\n\n1. **Health Star Rating.** A rating from half a star to five that summarises the overall nutrition of a packaged food. It's only useful when comparing **similar** products.\n2. **Ingredients.** Listed in order of weight, from most to least, so the first few tell you what you're mostly eating.\n3. **Nutrition information panel.** Average amounts per serve and **per 100 g**. Serve sizes vary between brands, so per 100 g is the fair comparison.\n4. **Allergens.** Common allergens such as peanuts, milk, egg and wheat must be declared, often in a **“Contains:”** statement.\n5. **Dates.** A **use-by** date is a safety limit; a **best-before** date is a quality guide.\n\nSkilled readers don't read labels in order. They **scan** with a purpose: decide what they need, locate the right section, and check the detail."
+        },
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-LG2",
+          "VPC-U1M1-AP3"
+        ],
+        "vcNote": "Structures and features of an everyday informative text (food label), its two audiences and purposes, and how to scan it."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The Health Star Rating",
+        "icon": "lucide:star",
+        "body": {
+          "support": "Food labels can be hard to read fast. So the government made a shortcut. It is called the **Health Star Rating**. It started in **2014**.\n\nIt goes from **half a star to 5 stars**. More stars means a healthier choice.\n\nThe rule: only compare foods that are **alike**. A cereal with a cereal. Not a cereal with a yoghurt.\n\nIt is **voluntary**. That means companies can choose not to use it. So some packets don't have stars.",
+          "core": "Food labels can be hard to read in a hurry. So the Australian, state and territory and New Zealand governments built a shortcut: the **Health Star Rating**. It started in **June 2014**.\n\nThe rating goes from **half a star to five stars**. It's worked out from what's in 100 g or 100 mL of the food: things like energy, saturated fat, sugar and sodium, and also fibre, protein, and fruit, vegetables, nuts and legumes.\n\nThe official advice is to compare **similar** foods, found in the same part of the supermarket. Compare a cereal with a cereal, not a cereal with a yoghurt.\n\nIt has limits. The system is **voluntary**, so not every product shows it. And it doesn't count everything, like vitamins or how the food was made.",
+          "extend": "Nutrition panels are dense, and shoppers make decisions in seconds. To bridge that gap, the Australian, state and territory and New Zealand governments introduced the **Health Star Rating** system in **June 2014**.\n\nThe rating runs from **half a star to five stars** and is calculated per 100 g or 100 mL. It weighs energy, saturated fat, sugar and sodium against positive components such as fibre, protein, and fruit, vegetables, nuts and legumes.\n\nThe official guidance is to use it only to compare **similar** products from the same part of the supermarket.\n\nThe system has limits. It is **voluntary**, so many products don't display it, and it doesn't account for everything, such as vitamins and minerals or how a food is processed. It's a shortcut, not the whole story."
+        },
+        "source": {
+          "name": "Health Star Rating System (healthstarrating.gov.au) — For shoppers; How ratings are calculated",
+          "url": "https://www.healthstarrating.gov.au/shoppers"
+        },
+        "think": {
+          "support": [
+            "Why was the star rating made?",
+            "Why compare foods that are alike?"
+          ],
+          "core": [
+            "Who made the Health Star Rating, and why?",
+            "Why should you only compare similar foods?",
+            "What does “voluntary” mean, and why does it matter?"
+          ]
+        },
+        "vc": [
+          "VPC-U1M1-LG2",
+          "VPC-U1M1-AP1"
+        ],
+        "vcNote": "How an informative feature is designed for a specific audience (busy shoppers) and purpose."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a food label",
+      "docTitle": "CRUNCH OATS — 500 g (EXAMPLE)",
+      "vc": [
+        "VPC-U1M1-LG1"
+      ],
+      "vcNote": "The structures and features of a food label.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Claim (front)",
+          "value": "“High in fibre!”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Health Star Rating",
+          "value": "★★★½ (3.5 stars)"
+        },
+        {
+          "n": 3,
+          "label": "Ingredients",
+          "value": "Wholegrain oats (60%), sugar, wheat flakes, honey, salt"
+        },
+        {
+          "n": 4,
+          "label": "Nutrition panel",
+          "value": "Sugars: 9.6 g per serve (40 g) · 24 g per 100 g"
+        },
+        {
+          "n": 5,
+          "label": "Allergens",
+          "value": "Contains: wheat, gluten"
+        },
+        {
+          "n": 6,
+          "label": "Date",
+          "value": "Best before 12 MAR 27"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Claim",
+          "note": "Words on the front to make it sound good. Check them on the back."
+        },
+        {
+          "n": 2,
+          "label": "Health stars",
+          "note": "A quick guide. Compare with similar foods."
+        },
+        {
+          "n": 3,
+          "label": "Ingredients",
+          "note": "Most to least: oats first, then sugar."
+        },
+        {
+          "n": 4,
+          "label": "Nutrition panel",
+          "note": "Use per 100 g to compare products fairly."
+        },
+        {
+          "n": 5,
+          "label": "Allergens",
+          "note": "Tells people with allergies what's inside."
+        },
+        {
+          "n": 6,
+          "label": "Best-before",
+          "note": "About quality, not safety."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Scan a label fast",
+      "steps": [
+        {
+          "title": "Know",
+          "text": "What do I need to find?",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "Find",
+          "text": "Which part of the label has it?",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Check",
+          "text": "Finger along the row. Right column?",
+          "icon": "lucide:check-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Ingredients are listed…",
+        "options": [
+          "From most to least",
+          "In ABC order",
+          "From cheapest to dearest",
+          "In any order"
+        ],
+        "answer": 0,
+        "explain": "The first ingredient is what there's most of.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "Which column should you use to compare two products fairly?",
+        "options": [
+          "Per 100 g",
+          "Per serve",
+          "The biggest number",
+          "The front of the pack"
+        ],
+        "answer": 0,
+        "explain": "Serve sizes differ between brands; per 100 g is the same for both.",
+        "vc": [
+          "VPC-U1M1-AP3"
+        ]
+      },
+      {
+        "q": "Milk is two days past its **use-by** date. What should you do?",
+        "options": [
+          "Throw it out — use-by is about safety",
+          "Drink it — dates don't matter",
+          "Drink it if it looks fine",
+          "Freeze it and drink it later"
+        ],
+        "answer": 0,
+        "explain": "Use-by is a safety limit.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "Why is the front of a packet bright and loud?",
+        "options": [
+          "Its job is to sell to shoppers walking past",
+          "It's required by law",
+          "To list the ingredients",
+          "To show the use-by date"
+        ],
+        "answer": 0,
+        "explain": "The front and back have different purposes and audiences.",
+        "vc": [
+          "VPC-U1M1-LG2"
+        ]
+      },
+      {
+        "q": "Which two foods is it fair to compare with the Health Star Rating?",
+        "options": [
+          "Two breakfast cereals",
+          "A cereal and a yoghurt",
+          "A drink and a pie",
+          "Chips and an apple"
+        ],
+        "answer": 0,
+        "explain": "Only compare similar foods.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "A cereal says “high in fibre” but sugar is the second ingredient. What does this show?",
+        "options": [
+          "A front claim doesn't tell the whole story",
+          "The claim is illegal",
+          "There's no sugar",
+          "Fibre and sugar are the same"
+        ],
+        "answer": 0,
+        "explain": "Check claims against the back of the pack.",
+        "vc": [
+          "VPC-U1M1-AP1"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Get two real packets that are alike. Pick one. Use the labels to say why.",
+      "core": "Compare two real packets of the same kind of food. Choose one, and back up your choice with facts from both labels.",
+      "extend": "Compare two real packets of the same kind of food, choose one for a specific person (you, a little brother, someone with an allergy), and justify your choice with evidence from both labels."
+    },
+    "checklist": [
+      "I compared two real packets",
+      "I filled in the label table",
+      "I chose one and gave reasons from the labels",
+      "I can show my teacher (photo or the packets)"
+    ],
+    "levelUp": "Explain your choice to a small group. Use at least two facts from the labels, and listen to someone who chose differently.",
+    "vc": [
+      "VPC-U1M1-LG1",
+      "VPC-U1M1-AP3"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Labels are texts too",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Who is the **front** of a packet for? Who is the **back** for?",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VPC-U1M1-LG2"
+            ]
+          },
+          {
+            "q": "Ingredients are listed in what order?",
+            "lines": 1,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ]
+          },
+          {
+            "q": "What's the difference between **use-by** and **best-before**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ]
+          },
+          {
+            "q": "Why compare products **per 100 g** instead of per serve?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP3"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a food label",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a part of the label. Use the word bank. Write what it is.",
+          "core": "Each number marks a part of the label. Write what it is and what it tells you."
+        },
+        "columns": [
+          "What is it?",
+          "What does it tell you?"
+        ],
+        "wordBank": {
+          "support": [
+            "claim",
+            "health stars",
+            "ingredients",
+            "nutrition panel",
+            "allergens",
+            "best-before"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Race the label: use the label above and time yourself!",
+        "items": [
+          {
+            "q": "How much **sugar** is in **100 g** of Crunch Oats?",
+            "lines": 1
+          },
+          {
+            "q": "What is the **second** ingredient? What does that tell you?",
+            "lines": 1
+          },
+          {
+            "q": "Can someone with a **wheat** allergy eat it? How do you know?",
+            "lines": 1,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-AP3"
+        ],
+        "vcNote": "Scanning a familiar text for key information."
+      },
+      {
+        "type": "table",
+        "title": "Crack the word",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Label words can look scary. Break each one into parts you know. The first one is done for you.",
+        "columns": [
+          "Word",
+          "Break it up",
+          "What I think it means"
+        ],
+        "rows": [
+          [
+            "wholegrain",
+            "whole + grain",
+            "the whole grain is used, not just part"
+          ],
+          [
+            "unsweetened",
+            "",
+            ""
+          ],
+          [
+            "saturated",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "carbohydrate",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "preservative",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-AP2"
+        ],
+        "vcNote": "Using word families and letter patterns to decode label words."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the Health Star Rating",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Who made the Health Star Rating, and when did it start?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG2"
+            ]
+          },
+          {
+            "q": "Why should you only compare **similar** foods?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ]
+          },
+          {
+            "q": "The system is **voluntary**. What does that mean for shoppers?",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          },
+          {
+            "q": "Who do you think the star rating is designed for? Is it a good design for them? Why?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "My label hunt",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 17,
+          "core": 15
+        },
+        "instructions": "Get **two real packets of the same kind of food** (two cereals, two drinks, two snack bars). Fill in the table from the labels.",
+        "columns": [
+          "",
+          "Packet 1",
+          "Packet 2"
+        ],
+        "rows": [
+          [
+            "Product name",
+            "",
+            ""
+          ],
+          [
+            "Health stars (if shown)",
+            "",
+            ""
+          ],
+          [
+            "Sugars per 100 g",
+            "",
+            ""
+          ],
+          [
+            "First ingredient",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Sodium per 100 g",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          [
+            "Allergens (“Contains:”)",
+            "",
+            ""
+          ],
+          [
+            "Use-by or best-before?",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VPC-U1M1-AP3",
+          "VPC-U1M1-LG1"
+        ],
+        "vcNote": "Scanning real labels to locate and record key information."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: choose and prove it",
+        "pagebreak": true,
+        "where": "at home or at the shops",
+        "instructions": "Use your two packets and your table to make a real choice.",
+        "need": [
+          "two real packets",
+          "your label table",
+          "a phone camera (optional)"
+        ],
+        "steps": {
+          "support": [
+            "Put the two packets side by side.",
+            "Find a claim on the front of each one.",
+            "Check the back. Is the claim true?",
+            "Pick the better packet for you.",
+            "Take a photo, or show your teacher."
+          ],
+          "core": [
+            "Lay the two packets side by side.",
+            "Look at the **front** of each. Write down one claim.",
+            "Check the claim against the **back**. Is it the whole story?",
+            "Decide who the food is for: you, a family member, or someone with an allergy.",
+            "Choose the better packet for that person.",
+            "Take a photo of both packets, or show your teacher."
+          ]
+        },
+        "photo": {
+          "support": 31,
+          "core": 29
+        },
+        "photoLabel": "Stick a photo of your two packets here, or sketch them",
+        "notes": [
+          {
+            "label": "A claim on the front, and what the back really says:",
+            "lines": 2
+          },
+          {
+            "label": {
+              "support": "I chose … because …",
+              "core": "I chose … because … (use **two facts** from the labels):"
+            },
+            "lines": {
+              "support": 4,
+              "core": 4
+            }
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-LG2",
+          "VPC-U1M1-AP1",
+          "VPC-U1M1-LG1"
+        ],
+        "vcNote": "Hands-on: comparing real everyday texts and explaining how each part is designed for its audience and purpose."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Talk it through in a small group. Each person shares the packet they chose.",
+        "items": [
+          {
+            "q": "What was your choice, and which **two facts** from the labels back it up?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP6"
+            ]
+          },
+          {
+            "q": "Someone chose differently. What was their reason? Did it change your mind?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP6"
+            ]
+          },
+          {
+            "q": "How is the **front** of your packet designed to sell to its audience? Think colours, pictures and words.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can name the parts of a food label.",
+          "I can scan a label for one fact.",
+          "I can break up a tricky word.",
+          "I can compare two products and explain my choice."
+        ],
+        "questions": [
+          "Something I'll check on labels from now on:",
+          "Someone I could help with this:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn that a food label is an everyday text with two audiences and purposes (the front sells, the back informs), name its features, scan it for key information and decode tricky label words. The hands-on task has them compare two real packets and justify a choice with evidence. The case study is the government's Health Star Rating system.",
+    "prep": [
+      "Print workbooks.",
+      "Collect empty packets (cereal boxes, drink bottles, snack bars, yoghurt tubs). Ask students to bring two of the same kind from home.",
+      "Optional: plan a short walk to a local supermarket, or set the label hunt as homework.",
+      "Have the Health Star Rating “For shoppers” page ready to show."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Front sells, back tells",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** hold up two cereals. Vote: which is healthier? Reveal the backs.",
+          "**Explicit teaching (10 min):** the parts of a label and their jobs; model scanning with a think-aloud.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** Labels are texts too + questions.",
+          "**Practise (10 min):** annotate the label."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Scan it, crack it",
+        "minutes": 50,
+        "steps": [
+          "**Race the label (10 min):** timed scanning questions; discuss strategies.",
+          "**Decoding (15 min):** model breaking up “unsweetened”; students do Crack the word in pairs.",
+          "**Case study (15 min):** the Health Star Rating.",
+          "**Set up (10 min):** explain the label hunt; check everyone has two packets."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Choose and prove it",
+        "minutes": 50,
+        "steps": [
+          "**Hands-on (25 min):** label hunt table and Do it page with real packets.",
+          "**Talk (10 min):** small-group Level Up discussion.",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "The front sells, the back informs: two audiences, two purposes.",
+      "Ingredients are listed most to least.",
+      "Compare per 100 g, not per serve.",
+      "Use-by = safety; best-before = quality.",
+      "Scan with a purpose: know, find, check."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the label annotation.",
+        "Fewer rows in Crack the word and the label table.",
+        "Pair students for the label hunt."
+      ],
+      "extend": [
+        "Choose for a specific person (e.g. someone with an allergy) and justify it.",
+        "Analyse how the front of the pack is designed to persuade."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U1M1-LG1",
+        "evidence": "Identifies and describes the parts of a food label and what each is for (annotation, label hunt table)."
+      },
+      {
+        "vc": "VPC-U1M1-LG2",
+        "evidence": "Explains that the front and back of a packet are written for different purposes and audiences (reading questions, Do it page)."
+      },
+      {
+        "vc": "VPC-U1M1-AP2",
+        "evidence": "Breaks unfamiliar label words into known parts to work out their meaning (Crack the word)."
+      },
+      {
+        "vc": "VPC-U1M1-AP3",
+        "evidence": "Scans a label quickly to locate specific information (Race the label, label hunt)."
+      },
+      {
+        "vc": "VPC-U1M1-AP1",
+        "evidence": "Level Up: explains how the front of a packet is designed to sell to its audience."
+      },
+      {
+        "vc": "VPC-U1M1-AP6",
+        "evidence": "Level Up: shares a choice in a small group using evidence from the labels and responds to a different view."
+      }
+    ],
+    "answers": "**Label:** 1 claim (front); 2 Health Star Rating; 3 ingredients (most to least); 4 nutrition panel (per serve and per 100 g); 5 allergens; 6 best-before date (quality).\n\n**Race the label:** 24 g of sugar per 100 g; sugar is the second ingredient, so there's a lot of it; no — it contains wheat (allergen line).\n\n**Crack the word (sample):** un + sweet + ened = no sugar added to sweeten it; saturate(d) = full of / soaked (a type of fat); carbo + hydrate = carbohydrates (sugars and starches); preserve + ative = something added to make food last longer.",
+    "resources": [
+      {
+        "label": "Health Star Rating — For shoppers",
+        "url": "https://www.healthstarrating.gov.au/shoppers"
+      },
+      {
+        "label": "Health Star Rating — How ratings are calculated",
+        "url": "https://www.healthstarrating.gov.au/about/how-ratings-are-calculated"
+      },
+      {
+        "label": "Food Standards Australia New Zealand — Labelling",
+        "url": "https://www.foodstandards.gov.au/consumer/labelling"
+      }
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: simpler article and case study, 6 key words, 3-choice quiz, word bank on the label, fewer table rows and shorter Do it steps.",
+      "core": "Aimed at about Year 7 reading: the standard version with the full label annotation, Crack the word, label hunt and Do it task.",
+      "extend": "Aimed at about Year 9 reading: richer article and case study, extra vocabulary (claims, sodium), a quiz question on persuasive claims, and choosing for a specific person."
+    }
+  }
+}

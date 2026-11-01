@@ -5,12 +5,13 @@ Each mini course is **one JSON file** in its program's folder:
 - **Victorian Curriculum F–10:** `content/f10/skills/<skill-id>.json`. Worked example: `spot-the-scam.json`.
 - **VCE VM Literacy Units 1 & 2:** `content/vm12/skills/<skill-id>.json`. Worked example: `vm-first-payslip.json`.
 - **VCE VM Literacy Units 3 & 4:** `content/vm34/skills/<skill-id>.json`. No worked example yet: copy the Units 1 & 2 one.
+- **VPC Literacy:** `content/vpc/skills/<skill-id>.json`. Worked example: `vpc-read-the-label.json`. Every VPC course is hands-on: end it with a `do-it` block (see Workbook blocks).
 
 The app turns it into the student pages, the explainer, the quiz, the teacher guide and the printable workbook. No code changes are needed. Copy the worked example's shape for the program you're writing for.
 
 ## Workflow (with Claude)
 
-1. Pick the next skill from `docs/COURSE-MAP.md` (F–10), `docs/COURSE-MAP-VM12.md` or `docs/COURSE-MAP-VM34.md` (VM). Its title, zone, real-life skill and curriculum links already live in that program's `map.json`.
+1. Pick the next skill from `docs/COURSE-MAP.md` (F–10), `docs/COURSE-MAP-VM12.md` or `docs/COURSE-MAP-VM34.md` (VM), or `docs/COURSE-MAP-VPC.md` (VPC). Its title, zone, real-life skill and curriculum links already live in that program's `map.json`.
 2. Ask Claude (in this repo) something like:
    > Build the **Say It Right** mini course. Follow `docs/AUTHORING.md` and use `content/f10/skills/spot-the-scam.json` as the model. Keep student text at about Year 4–6 reading level but make it feel grown-up. Use real Australian examples and cite sources.
 3. Check it: `npm run check` (structure, curriculum links, reading level).
@@ -89,6 +90,8 @@ The app turns it into the student pages, the explainer, the quiz, the teacher gu
 
 Leave out `vc.support`. Reading levels still change the wording and scaffolds.
 
+**VPC curriculum links** use the learning goals and applications of the **VPC Literacy Curriculum Design**, imported word for word with `npm run import-vpc` into `content/vpc/curriculum.json`. The ids look like `VPC-U1M1-AP3`, meaning Unit 1, Module 1, the 3rd application (`LG` for learning goals), in curriculum order. Like VM, use `vc.core` and `vc.extend` only. The curriculum design is built on applied learning, so every VPC course should include a real-world `do-it` task and give students a choice of how to show it (photo, recording, teacher observation).
+
 Read the exact wording (the teacher **Curriculum map** page lists everything for both programs) and choose items the workbook genuinely gives evidence for.
 
 ### Tagging where each curriculum point is taught
@@ -121,6 +124,8 @@ An admin sets each student's reading level, and students never see it:
 - **▲ Foundation** (`support`): reads at about Years 3–4
 - **■ Core** (`core`): reads at about Years 5–6
 - **● Extended** (`extend`): reads at about Year 7 and up
+
+A program can aim the same three levels higher. **VPC Literacy** aims at about **Year 5** (▲), **Year 7** (■) and **Year 9** (●), and `npm run check` uses those targets for VPC courses (set in `src/programs.js`). VPC students are the same age as everyone else, so keep the grown-up tone at every level.
 
 Write one course file. Any value can be split by level, and levels you leave out fall back to `core`:
 
@@ -197,6 +202,8 @@ Blocks flow onto A4 sheets. Add `"pagebreak": true` to start a new sheet. The co
 | `equation` | `parts[{ icon, title, text }]` | Visual “A + B = C” (e.g. clues + what I know = inference) |
 | `flow` | `title`, `diagram` (index) | The flow diagram |
 | `write` | `title`, `prompt`, `plan[{ label, lines }]`, `starters[]`, `lines`, `check[]` | Extended writing with planning boxes, sentence starters and a self-check |
+| `do-it` | `title`, `instructions`, `steps[]`, optional `where`, `need[]`, `photo` (box height in mm), `photoLabel`, `notes[{ label, lines, answer }]`, `evidence[]` | **Hands-on task** done in the real world: tick-off steps, a photo/sketch box, notes, and how the student is showing it (photo, recording, teacher saw it) with teacher initials. VPC courses end with one, and the sign-off box then says “Hands-on task done”. |
+| `storyboard` | `title`, `instructions`, optional `frames` (default 6), `columns` (3), `boxHeight` (mm), `hints[]`, `rows[]` (default “We see”, “We hear”) | Storyboard frames for planning a video or ad |
 | `levelup-draw` | `title`, `prompt` | ★ Level Up challenge with a blank phone and annotation slots |
 | `reflect` | `title`, `rate[]`, `questions[]` | Self-assessment faces + reflection lines |
 | `signoff` | — | Teacher check box |

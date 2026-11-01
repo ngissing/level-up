@@ -53,10 +53,20 @@ db.prepare('INSERT OR IGNORE INTO class_teachers (class_id, user_id) VALUES (?, 
 const ella = add('Ella Nguyen', 'ella', 'student123', 'student', vm34Class);
 db.prepare("UPDATE users SET program = 'vm34' WHERE id = ?").run(ella);
 
+// VPC Literacy class (levels aim at Years 5, 7 and 9)
+db.prepare('INSERT OR IGNORE INTO classes (name) VALUES (?)').run('VPC Literacy');
+const vpcClass = db.prepare('SELECT id FROM classes WHERE name = ?').get('VPC Literacy').id;
+db.prepare('INSERT OR IGNORE INTO class_teachers (class_id, user_id) VALUES (?, ?)').run(vpcClass, t);
+const noah = add('Noah Taylor', 'noah', 'student123', 'student', vpcClass);
+const lia = add('Lia Fonoti', 'lia', 'student123', 'student', vpcClass);
+db.prepare("UPDATE users SET program = 'vpc' WHERE id IN (?, ?)").run(noah, lia);
+setLevel.run('support', noah);
+
 console.log(`Seeded. Logins:
   admin   / changeme   (admin)
-  teacher / teacher123 (teacher of "10 Literacy", "11 VM Literacy" and "12 VM Literacy")
+  teacher / teacher123 (teacher of "10 Literacy", "11 VM Literacy", "12 VM Literacy" and "VPC Literacy")
   kai, mia, jay, tia / student123 (students)
   Reading levels: kai = Foundation, mia & tia = Core, jay = Extended
   zara, ben / student123 (VM Literacy Units 1 & 2, class "11 VM Literacy"; zara = Foundation, ben = Core)
-  ella / student123 (VM Literacy Units 3 & 4, class "12 VM Literacy"; Core)`);
+  ella / student123 (VM Literacy Units 3 & 4, class "12 VM Literacy"; Core)
+  noah, lia / student123 (VPC Literacy, class "VPC Literacy"; noah = Foundation, lia = Core)`);

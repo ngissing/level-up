@@ -1,6 +1,6 @@
 import { html, icon, raw } from '../html.js';
 import { page } from './layout.js';
-import { LEVELS, LEVEL_IDS } from '../levels.js';
+import { LEVELS, LEVEL_IDS, levelInfo } from '../levels.js';
 import { PROGRAMS, PROGRAM_IDS, familyOf } from '../programs.js';
 
 export function adminPage(req, { users, classes, settings, roleFilter }) {
@@ -11,7 +11,7 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
   const classOpts = (sel) => html`<option value="">—</option>${classes.map((c) => html`<option value="${c.id}" ${String(sel) === String(c.id) ? raw('selected') : ''}>${c.name}</option>`)}`;
   const body = html`<section class="page-head"><p class="eyebrow">Admin</p><h1>Accounts & classes</h1>
     <p class="lede">Students can’t sign themselves up — add them here. Give each student a simple password; they’ll be asked to change it the first time they log in.</p>
-    <div class="callout-box">${icon('lucide:layers')}<div><strong>Reading levels</strong><p>Each student has a reading level. It changes the wording, the length and the scaffolds of every mini course: the brief, the readings, the quiz, the explainer voice speed and the printed workbook. Students never see their level. ${LEVEL_IDS.map((l) => html`<b>${LEVELS[l].symbol} ${LEVELS[l].label}</b> ${LEVELS[l].years}. `)}</p></div></div></section>
+    <div class="callout-box">${icon('lucide:layers')}<div><strong>Reading levels</strong><p>Each student has a reading level. It changes the wording, the length and the scaffolds of every mini course: the brief, the readings, the quiz, the explainer voice speed and the printed workbook. Students never see their level. ${LEVEL_IDS.map((l) => html`<b>${LEVELS[l].symbol} ${LEVELS[l].label}</b> ${LEVELS[l].years}. `)}${PROGRAM_IDS.filter((p) => PROGRAMS[p].levels).map((p) => html`<br>In <b>${PROGRAMS[p].name}</b> the same levels aim higher: ${LEVEL_IDS.map((l) => `${LEVELS[l].symbol} ${levelInfo(l, p).years.replace(/^reads at /, '')}`).join(' · ')}.`)}</p></div></div></section>
 
   <nav class="jump" aria-label="On this page">
     <a href="#add">${icon('lucide:user-plus')} Add people</a>
@@ -40,7 +40,7 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
       <form method="post" action="/admin/bulk">
         <label class="field"><span>One per line: <code>name, username, password, class, reading level, program</code></span>
           <textarea name="csv" rows="6" placeholder="Jordan Smith, jsmith, tiger42, 10 Literacy, foundation&#10;Ari Nguyen, anguyen, comet77, 11 VM, core, vm"></textarea></label>
-        <p class="muted small">Classes that don’t exist yet are created. Everyone added here is a student. Reading level can be <code>foundation</code> (Years 3–4), <code>core</code> (Years 5–6) or <code>extended</code> (Year 7+); leave it blank for core. Program can be <code>vm</code> (VCE VM Literacy) or <code>f10</code> (Victorian Curriculum); leave it blank for F–10.</p>
+        <p class="muted small">Classes that don’t exist yet are created. Everyone added here is a student. Reading level can be <code>foundation</code>, <code>core</code> or <code>extended</code> (Years 3–4, 5–6 and 7+; in VPC Literacy, Years 5, 7 and 9); leave it blank for core. Program can be <code>f10</code> (Victorian Curriculum), <code>vm12</code> or <code>vm34</code> (VCE VM Literacy Units 1 & 2 or 3 & 4) or <code>vpc</code> (VPC Literacy); leave it blank for F–10.</p>
         <button class="btn btn-ink">${icon('lucide:upload')} Add students</button>
       </form>
     </section>
@@ -81,7 +81,7 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
         <td>${u.name}</td><td><code>${u.username}</code></td><td>${u.role}</td>
         <td><form method="post" action="/admin/users/${u.id}/class" class="inline-form"><select name="class_id" onchange="this.form.submit()">${classOpts(u.class_id)}</select></form></td>
         <td>${u.role === 'student' ? html`<form method="post" action="/admin/users/${u.id}/program" class="inline-form"><select name="program" onchange="this.form.submit()" aria-label="Program for ${u.name}" class="prog-select fam-${familyOf(u.program)}">${programOpts(u.program)}</select></form>` : html`<span class="muted">—</span>`}</td>
-        <td>${u.role === 'student' ? html`<form method="post" action="/admin/users/${u.id}/level" class="inline-form"><select name="reading_level" onchange="this.form.submit()" aria-label="Reading level for ${u.name}">${levelOpts(u.reading_level, false)}</select></form>` : html`<span class="muted">—</span>`}</td>
+        <td>${u.role === 'student' ? html`<form method="post" action="/admin/users/${u.id}/level" class="inline-form"><select name="reading_level" onchange="this.form.submit()" aria-label="Reading level for ${u.name}">${levelOpts(u.reading_level, false)}</select>${PROGRAMS[u.program]?.levels ? html` <small class="muted">${levelInfo(u.reading_level, u.program).years.replace(/^reads at /, '')}</small>` : ''}</form>` : html`<span class="muted">—</span>`}</td>
         <td>${u.last_login?.slice(0, 10) || '—'}</td>
         <td><form method="post" action="/admin/users/${u.id}/password" class="inline-form"><input name="password" placeholder="new password" minlength="4" required size="10"><button class="btn btn-sm btn-ghost">Set</button></form></td>
         <td>${u.id !== req.user.id ? html`<form method="post" action="/admin/users/${u.id}/delete" onsubmit="return confirm('Delete ${u.name} and all their progress?')"><button class="btn btn-sm btn-danger" aria-label="Delete ${u.name}">${icon('lucide:trash-2')}</button></form>` : ''}</td>
