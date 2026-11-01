@@ -190,6 +190,10 @@ export function teacherGuidePage(req, skill) {
         <p class="small"><b>Curriculum evidenced:</b></p><div class="vc-list">${v.core.map((id) => vcChip(c.vc[id]))}${l === 'extend' ? v.extend.map((id) => vcChip(c.vc[id], { extend: true })) : ''}</div>
       </div>`; })}</div></section>` : ''}
 
+    ${t.realityCheck?.length ? html`<section class="panel reality"><h2>${icon('lucide:clipboard-check')} Classroom reality check</h2>
+      <p class="small muted">What to know before you teach this: time, kit, sensitivities and what tends to go wrong.</p>
+      <ul>${t.realityCheck.map((x) => html`<li>${mdInline(x)}</li>`)}</ul></section>` : ''}
+
     <section class="panel"><h2>${icon('lucide:package')} Prep</h2><ul>${t.prep.map((p) => html`<li>${mdInline(p)}</li>`)}</ul>
       <h2>${icon('lucide:key')} Key teaching points</h2><ul class="keypoints">${t.keyPoints.map((p) => html`<li>${p}</li>`)}</ul></section>
 

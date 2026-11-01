@@ -1,0 +1,932 @@
+{
+  "id": "vpc-body-talk",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with phones or a camera",
+  "brief": {
+    "hook": {
+      "support": "Think of someone great to listen to. Now think of someone boring. They might say the same words. The difference is **how** they say them.",
+      "core": "Think of someone who's great to listen to — a coach, a YouTuber, a teacher. Now think of someone who sends you to sleep. They might be saying the same words. The difference is **how** they say it: where they look, how they stand, how fast they talk."
+    },
+    "why": {
+      "support": "In a job interview or a meeting, people judge you fast. Before your words, they notice your eyes, hands and voice. You can control those.",
+      "core": "In a job interview, a team meeting or a debate, people decide whether to trust you in seconds — often before they've judged your words. You can't control everything, but you **can** control your eyes, your hands, your pace and your voice.",
+      "extend": "Listeners judge confidence fast, often from delivery rather than content. Body language, eye contact, gesture, pace and tone can back up your message or undercut it. You can practise, film and improve them."
+    },
+    "canDo": {
+      "support": [
+        "I can name five ways my body and voice talk.",
+        "I can mark a cue card.",
+        "I can film myself and find one thing to fix.",
+        "I can use my body and voice when I give my opinion."
+      ],
+      "core": [
+        "I can name **five delivery tools**: stance, eye contact, gestures, pace and tone.",
+        "I can **plan** my delivery on a cue card.",
+        "I can **film myself** and spot what to improve.",
+        "I can use my body and voice **on purpose** when I give my opinion."
+      ]
+    },
+    "showIt": "Film yourself giving a 60-second opinion twice — before and after practising — and show what changed.",
+    "vocab": [
+      {
+        "word": "body language",
+        "meaning": "what your body says without words",
+        "example": "Crossed arms is body language."
+      },
+      {
+        "word": "eye contact",
+        "meaning": "looking at the people you're talking to",
+        "example": "Good eye contact shows confidence."
+      },
+      {
+        "word": "gesture",
+        "meaning": "a hand or arm movement that adds meaning",
+        "example": "She used a gesture to show three points."
+      },
+      {
+        "word": "pace",
+        "meaning": "how fast or slow you talk",
+        "example": "Slow your pace for the big point."
+      },
+      {
+        "word": "tone",
+        "meaning": "how your voice sounds: excited, serious, calm",
+        "example": "Her tone was calm but firm."
+      },
+      {
+        "word": "pause",
+        "meaning": "a short stop on purpose",
+        "example": "Pause before your main point."
+      },
+      {
+        "word": "stance",
+        "meaning": "how you stand",
+        "example": "A steady stance looks confident.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "cue card",
+        "meaning": "a small card with your key points and reminders",
+        "example": "My cue card said “SLOW” in red.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "intonation",
+        "meaning": "how your voice goes up and down",
+        "example": "Flat intonation sounds bored.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "credibility",
+        "meaning": "how much people believe and trust you",
+        "example": "Good evidence builds credibility.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Body Talk in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Body Talk",
+        "sub": "What your body says before you open your mouth.",
+        "icon": "lucide:person-standing",
+        "say": "Body talk. What your body says before you open your mouth."
+      },
+      {
+        "kind": "big",
+        "title": "Words + body + voice",
+        "text": "They **watch** and **listen**, not just hear.",
+        "icon": "lucide:eye",
+        "say": "People hear your words. But they watch your body and listen to your voice too.",
+        "vc": [
+          "VPC-U2M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Delivery tool",
+        "pillIcon": "lucide:person-standing",
+        "title": "Stance",
+        "text": "Feet steady. No swaying.",
+        "icon": "lucide:person-standing",
+        "say": "Stance. Feet steady, shoulders relaxed. No swaying.",
+        "vc": [
+          "VPC-U2M2-AP5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Delivery tool",
+        "pillIcon": "lucide:person-standing",
+        "title": "Eye contact",
+        "text": "Look up. Look around.",
+        "icon": "lucide:eye",
+        "say": "Eye contact. Look at people, not the floor or your notes. Move around the room.",
+        "vc": [
+          "VPC-U2M2-AP5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Delivery tool",
+        "pillIcon": "lucide:person-standing",
+        "title": "Gestures",
+        "text": "Show it with your hands.",
+        "icon": "lucide:hand",
+        "say": "Gestures. Use your hands to show what you mean. Then let them rest.",
+        "vc": [
+          "VPC-U2M2-AP5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Delivery tool",
+        "pillIcon": "lucide:person-standing",
+        "title": "Pace + pauses",
+        "text": "Slow for big points. Pause.",
+        "icon": "lucide:timer",
+        "say": "Pace and pauses. Slow down for big points. A pause makes people listen.",
+        "vc": [
+          "VPC-U2M2-AP5",
+          "VPC-U2M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Delivery tool",
+        "pillIcon": "lucide:person-standing",
+        "title": "Tone",
+        "text": "Up, down, and on purpose.",
+        "icon": "lucide:audio-lines",
+        "say": "Tone. Let your voice go up and down. Match it to what you're saying.",
+        "vc": [
+          "VPC-U2M2-AP5",
+          "VPC-U2M2-LG3"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Film. Practise. Film again.",
+        "icon": "lucide:video",
+        "say": "Your mission. Film yourself twice. Practise in between. See the difference."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Five tools you always carry",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "When you speak, people get three things: your **words**, your **body** and your **voice**.\n\nYou have five tools:\n\n1. **Stance.** Stand still on both feet. Don't sway.\n2. **Eye contact.** Look at people. Not the floor.\n3. **Gestures.** Use your hands to show what you mean. Then let them rest.\n4. **Pace.** Slow down for big points. **Pause** before them.\n5. **Tone.** Let your voice go up and down. A flat voice sounds bored.\n\nYou can get better at this. **Film yourself.** Watch it. Change one thing. Try again.",
+          "core": "When you give your opinion out loud, your audience gets three things at once: your **words**, your **body** and your **voice**. If they don't match, people believe the body and voice.\n\nYou carry five delivery tools everywhere:\n\n1. **Stance.** Stand steady with your weight on both feet. Swaying and shuffling look nervous.\n2. **Eye contact.** Look at people, not the floor or your notes. Move your eyes around the group.\n3. **Gestures.** Use your hands to show meaning: count off three points, show something big. Then rest them, not in your pockets.\n4. **Pace and pauses.** Nerves make you rush. Slow down for your most important point, and **pause** before it.\n5. **Tone.** Let your voice rise and fall. A flat voice sounds bored, even when you're not.\n\nDelivery is a **skill**, not a personality. The fastest way to improve is to **film yourself**, watch it back, change **one** thing, and try again. Everyone hates watching themselves at first. Do it anyway.",
+          "extend": "When you present an opinion aloud, your audience receives three channels at once: **verbal** (your words), **visual** (your body) and **vocal** (your voice). When they conflict — confident words, nervous body — audiences tend to trust the body and voice.\n\nFive delivery tools are always available:\n\n1. **Stance**: grounded, balanced posture signals confidence; swaying or shifting signals nerves.\n2. **Eye contact**: sustained, shared around the room, it builds connection and credibility.\n3. **Gesture**: purposeful hand movements (counting points, showing scale) reinforce meaning. Fidgeting distracts from it.\n4. **Pace and pause**: nerves speed you up. Deliberately slowing for key points, and pausing before them, signals importance.\n5. **Intonation**: variation in pitch and emphasis carries emotion and meaning. A monotone undercuts even a strong argument.\n\nDelivery is a trainable skill, not a fixed trait. The most effective practice is deliberate: film, review against criteria, change one thing, repeat."
+        },
+        "vc": [
+          "VPC-U2M2-LG3",
+          "VPC-U2M2-AP5"
+        ],
+        "vcNote": "Using body language, eye contact, gesture, pace and intonation deliberately."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The debate people watched — and the one they heard",
+        "icon": "lucide:tv",
+        "body": {
+          "support": "In **1960**, two men running for US president had a debate. It was the first one on **TV**. Some people listened on the **radio** instead.\n\nNixon had been sick. He looked pale and sweaty. Kennedy looked calm and looked at the camera.\n\nA famous story says: people on **TV** thought Kennedy won, but people on **radio** thought Nixon won.\n\nIn 2003, a researcher tested it. People who **watched** were more likely to say Kennedy won. But people who only **listened** also picked Kennedy more.\n\nSo how you look matters. But famous stories need checking too.",
+          "core": "On **26 September 1960**, US presidential candidates **John F. Kennedy** and **Richard Nixon** held the first presidential debate shown on **TV**. Many people also listened on **radio**.\n\nNixon had been sick. He looked pale and sweaty and glanced away from the camera. Kennedy looked calm, tanned and spoke straight to viewers.\n\nA famous story grew: **TV viewers** thought Kennedy won, but **radio listeners** thought Nixon won. It's repeated everywhere. But it rests mostly on **one small poll**.\n\nIn 2003, a researcher, **James Druckman**, tested it. He showed some people the debate on video and played others only the sound. The video group was **more likely** to say Kennedy won. But **both groups** picked Kennedy more often.\n\nSo: how you look and sound does seem to matter. But even famous stories need checking.",
+          "extend": "On **26 September 1960**, **John F. Kennedy** and **Richard Nixon** took part in the first US presidential debate shown on **TV**. Millions watched; others listened on **radio**.\n\nNixon had been sick. He looked pale and sweaty, and often looked away from the camera. Kennedy looked calm and spoke straight to viewers.\n\nA famous claim followed: **TV viewers** thought Kennedy won, while **radio listeners** backed Nixon. It's repeated in textbooks and training courses. Yet it rests mostly on one poll with only a small group of radio listeners.\n\nIn 2003, the researcher **James Druckman** tested the idea. He showed some people the video and played others only the sound. Viewers were clearly **more likely** to rate Kennedy the winner, so image seemed to matter. But **both** groups preferred Kennedy, which doesn't fit the strong version of the story.\n\nTwo lessons follow. Delivery shapes how people judge a speaker. And good stories about persuasion need checking like any other evidence."
+        },
+        "source": {
+          "name": "OUPblog — “Substance, style, and myth in the Kennedy–Nixon debates” (2015); Druckman, “The Power of Television Images”, Journal of Politics (2003)",
+          "url": "https://blog.oup.com/2015/09/kennedy-nixon-debates/"
+        },
+        "think": {
+          "support": [
+            "How did they look?",
+            "What did the test find?"
+          ],
+          "core": [
+            "How did each speaker look and sound?",
+            "What does the famous story claim, and what did the 2003 test find?",
+            "What does this tell you about delivery — and about checking stories?"
+          ]
+        },
+        "vc": [
+          "VPC-U2M2-LG3"
+        ],
+        "vcNote": "Evidence about how body language and delivery influence an audience."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a cue card",
+      "docTitle": "CUE CARD: “OUR SCHOOL NEEDS LONGER LUNCH” (EXAMPLE)",
+      "vc": [
+        "VPC-U2M2-AP5",
+        "VPC-U2M2-LG3"
+      ],
+      "vcNote": "Planning deliberate delivery: marking pace, pauses, gestures and eye contact on notes.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Opener",
+          "value": "Hands up if you've ever eaten lunch in four minutes. [LOOK UP]"
+        },
+        {
+          "n": 2,
+          "label": "Main point",
+          "value": "We need 45 minutes, not 35. [SLOW]",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Reasons",
+          "value": "Three reasons: queues, sport, and a real break. [3 FINGERS]"
+        },
+        {
+          "n": 4,
+          "label": "Pause mark",
+          "value": "… // …"
+        },
+        {
+          "n": 5,
+          "label": "Ending",
+          "value": "Ten more minutes. That's all we're asking. [EYES ON EACH SIDE OF ROOM]"
+        },
+        {
+          "n": 6,
+          "label": "Reminder",
+          "value": "FEET STILL · BREATHE"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Eye contact cue",
+          "note": "Look up from the card to start."
+        },
+        {
+          "n": 2,
+          "label": "Pace cue",
+          "note": "Slow down for the main point."
+        },
+        {
+          "n": 3,
+          "label": "Gesture cue",
+          "note": "Count the reasons on your fingers."
+        },
+        {
+          "n": 4,
+          "label": "Pause",
+          "note": "// means stop for a beat."
+        },
+        {
+          "n": 5,
+          "label": "Eye contact (whole room)",
+          "note": "Include everyone at the end."
+        },
+        {
+          "n": 6,
+          "label": "Stance reminder",
+          "note": "A note to yourself for nerves."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Five delivery tools",
+      "steps": [
+        {
+          "title": "Stance",
+          "text": "Steady on both feet.",
+          "icon": "lucide:person-standing"
+        },
+        {
+          "title": "Eyes",
+          "text": "Look up and around.",
+          "icon": "lucide:eye"
+        },
+        {
+          "title": "Gestures",
+          "text": "Show it, then rest.",
+          "icon": "lucide:hand"
+        },
+        {
+          "title": "Pace",
+          "text": "Slow + pause for big points.",
+          "icon": "lucide:timer"
+        },
+        {
+          "title": "Tone",
+          "text": "Up and down, on purpose.",
+          "icon": "lucide:audio-lines"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Nerves usually make people…",
+        "options": [
+          "Talk too fast",
+          "Talk too slowly",
+          "Stand too still",
+          "Look up too much"
+        ],
+        "answer": 0,
+        "explain": "Slow down on purpose.",
+        "vc": [
+          "VPC-U2M2-AP5"
+        ]
+      },
+      {
+        "q": "What does a **pause** before your main point do?",
+        "options": [
+          "Makes people pay attention",
+          "Shows you forgot",
+          "Wastes time",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Silence signals importance.",
+        "vc": [
+          "VPC-U2M2-AP5",
+          "VPC-U2M2-LG3"
+        ]
+      },
+      {
+        "q": "Where should your eyes mostly be?",
+        "options": [
+          "On the people listening",
+          "On the floor",
+          "On your notes",
+          "On the ceiling"
+        ],
+        "answer": 0,
+        "explain": "Eye contact builds trust.",
+        "vc": [
+          "VPC-U2M2-AP5"
+        ]
+      },
+      {
+        "q": "What did the 2003 test of the Kennedy–Nixon debate find?",
+        "options": [
+          "Watchers were more likely to pick Kennedy, but both groups picked Kennedy more",
+          "Radio listeners all picked Nixon",
+          "Nobody noticed any difference",
+          "The debate never happened"
+        ],
+        "answer": 0,
+        "explain": "Image mattered, but the famous story is exaggerated.",
+        "vc": [
+          "VPC-U2M2-LG3"
+        ]
+      },
+      {
+        "q": "What's the best way to improve your delivery?",
+        "options": [
+          "Film yourself, change one thing, try again",
+          "Never practise",
+          "Read your notes word for word",
+          "Talk faster"
+        ],
+        "answer": 0,
+        "explain": "Deliberate practice works.",
+        "vc": [
+          "VPC-U2M2-AP5"
+        ]
+      },
+      {
+        "q": "Confident words, nervous body. What do audiences tend to believe?",
+        "options": [
+          "The body and voice",
+          "The words",
+          "Neither",
+          "Whoever is louder"
+        ],
+        "answer": 0,
+        "explain": "Mixed signals undercut your message.",
+        "vc": [
+          "VPC-U2M2-LG3"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Film yourself giving your opinion for 1 minute. Practise. Film it again. Show what got better.",
+      "core": "Film yourself giving a 60-second opinion twice — before and after practising with a cue card — and show what changed.",
+      "extend": "Film a 60-second opinion twice, before and after deliberate practice, and explain how you used each delivery tool to support your message."
+    },
+    "checklist": [
+      "I made a cue card with delivery marks",
+      "I filmed Take 1 and Take 2",
+      "I rated both takes on the five tools",
+      "I can show one clear improvement"
+    ],
+    "levelUp": "In a small group discussion, use your delivery tools on purpose while you share and back up your opinion. An observer gives you feedback.",
+    "vc": [
+      "VPC-U2M2-AP5",
+      "VPC-U2M2-LG3"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Five tools you always carry",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name the **five** delivery tools.",
+            "lines": 0,
+            "vc": [
+              "VPC-U2M2-AP5"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          },
+          {
+            "q": "If your words and your body don't match, which do people believe?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-LG3"
+            ]
+          },
+          {
+            "q": "What's the fastest way to get better?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-AP5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Helps or hurts?",
+        "pagebreak": true,
+        "choices": [
+          "Helps",
+          "Hurts"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Tick whether each thing helps or hurts when you give your opinion. Say why.",
+        "cards": [
+          {
+            "from": "Delivery",
+            "text": "Reading every word off your phone",
+            "answer": "Hurts",
+            "flags": "No eye contact."
+          },
+          {
+            "from": "Delivery",
+            "text": "Pausing before your main point",
+            "answer": "Helps",
+            "flags": "Makes people listen."
+          },
+          {
+            "from": "Delivery",
+            "text": "Hands in pockets the whole time",
+            "answer": "Hurts",
+            "flags": "Looks closed off."
+          },
+          {
+            "from": "Delivery",
+            "text": "Counting your three reasons on your fingers",
+            "answer": "Helps",
+            "flags": "Gesture shows structure."
+          },
+          {
+            "from": "Delivery",
+            "text": "Swaying side to side",
+            "answer": "Hurts",
+            "flags": "Looks nervous.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Delivery",
+            "text": "Looking at each side of the room",
+            "answer": "Helps",
+            "flags": "Everyone feels included.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U2M2-AP5"
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a cue card",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a cue. Use the word bank. Write what it tells the speaker to do.",
+          "core": "Each number marks a delivery cue. Write what it tells the speaker to do, and why."
+        },
+        "columns": [
+          "What's the cue?",
+          "Why does it help?"
+        ],
+        "wordBank": {
+          "support": [
+            "look up",
+            "slow down",
+            "gesture",
+            "pause",
+            "look around",
+            "stand still"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U2M2-AP5",
+          "VPC-U2M2-LG3"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the debate people watched",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How did Nixon and Kennedy look and sound?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-LG3"
+            ]
+          },
+          {
+            "q": "What does the famous story say? What did the 2003 test find?",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VPC-U2M2-LG3"
+            ]
+          },
+          {
+            "q": "What's **one** lesson for you when you speak?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-AP5"
+            ]
+          },
+          {
+            "q": "Why is it worth checking famous stories, even ones in textbooks?",
+            "lines": 3,
+            "levelUp": true,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Make your cue card",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Pick an opinion you care about. Plan **1 minute**. Mark where to pause, slow down, look up and use your hands.",
+          "core": "Pick an opinion you care about: school, sport, music, your town, a rule you'd change. Plan **60 seconds** on a cue card, and mark **where** you'll pause, slow down, look up and gesture.",
+          "extend": "Choose an opinion and a real audience. Plan 60 seconds with a clear point and two reasons, and mark deliberate delivery choices (pace, pauses, gesture, eye contact, emphasis) that suit that audience."
+        },
+        "plan": [
+          {
+            "label": "My opinion (one sentence):",
+            "lines": 1
+          },
+          {
+            "label": "Two reasons:",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "Hands up if…",
+          "I think… because…",
+          "[PAUSE]",
+          "[SLOW]",
+          "[LOOK UP]"
+        ],
+        "lines": {
+          "support": 11,
+          "core": 12
+        },
+        "check": [
+          "opinion + reasons",
+          "pause marks",
+          "slow marks",
+          "gesture + eye-contact cues"
+        ],
+        "vc": [
+          "VPC-U2M2-LG3"
+        ],
+        "vcNote": "Planning deliberate delivery choices when discussing an opinion."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: film it twice",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Film **Take 1** with no practice. Practise with your cue card. Film **Take 2**. Rate both takes (1 = needs work, 3 = nailed it).",
+        "need": [
+          "your cue card",
+          "a phone or camera",
+          "a partner (optional)"
+        ],
+        "steps": {
+          "support": [
+            "Film **Take 1** straight away.",
+            "Watch it. Pick **one** thing to fix.",
+            "Practise 3 times.",
+            "Film **Take 2**.",
+            "Rate both takes below."
+          ],
+          "core": [
+            "Film **Take 1**: give your 60-second opinion straight away.",
+            "Watch it back. Pick the **one** tool that needs the most work.",
+            "Practise 3 times with your cue card. Focus on that one tool.",
+            "Film **Take 2**.",
+            "Watch both. Rate each tool in the table below.",
+            "Show your teacher both takes, or tell them what changed."
+          ]
+        },
+        "notes": [
+          {
+            "label": "The biggest change between my two takes, and how I did it:",
+            "lines": {
+              "support": 3,
+              "core": 3
+            }
+          }
+        ],
+        "evidence": [
+          "Both videos",
+          "Teacher saw it",
+          "Partner's feedback"
+        ],
+        "vc": [
+          "VPC-U2M2-AP5",
+          "VPC-U2M2-LG3"
+        ],
+        "vcNote": "Hands-on: filming, reviewing and deliberately improving delivery."
+      },
+      {
+        "type": "table",
+        "title": "Rate your takes",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 32,
+          "core": 30
+        },
+        "instructions": "Rate each tool for both takes: **1** = needs work, **2** = OK, **3** = nailed it. Add one note about what changed.",
+        "columns": [
+          "Tool",
+          "Take 1 → Take 2",
+          "What changed?"
+        ],
+        "rows": [
+          [
+            "Stance",
+            "2 → 3",
+            "Stopped swaying — feet still"
+          ],
+          [
+            "Eye contact",
+            "",
+            ""
+          ],
+          [
+            "Gestures",
+            "",
+            ""
+          ],
+          [
+            "Pace + pauses",
+            "",
+            ""
+          ],
+          [
+            "Tone",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VPC-U2M2-AP5"
+        ],
+        "vcNote": "Reviewing delivery against criteria."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: group discussion",
+        "pagebreak": true,
+        "instructions": "Join a group of 3–4. Discuss a question your teacher gives you. One person observes and gives each speaker feedback.",
+        "items": [
+          {
+            "q": "What was your point, and what **evidence** did you use?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M2-AP6"
+            ]
+          },
+          {
+            "q": "Which delivery tool did you use on purpose? What did the observer notice?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M2-AP6",
+              "VPC-U2M2-LG3"
+            ]
+          },
+          {
+            "q": "How did you respond when someone disagreed?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M2-AP6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can name the five delivery tools.",
+          "I can mark a cue card.",
+          "I can film myself and improve.",
+          "I can use my body and voice on purpose."
+        ],
+        "questions": [
+          "My best delivery tool:",
+          "The one I'll keep practising:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn five delivery tools (stance, eye contact, gesture, pace and pauses, tone) and use them deliberately when giving an opinion. They mark up a cue card, film themselves before and after practice, and rate the change. The case study is the 1960 Kennedy–Nixon TV debate, including the 2003 experiment that tested the famous story.",
+    "prep": [
+      "Print workbooks.",
+      "Check your school's rules on students filming each other; students can film themselves only, or use school devices.",
+      "Find a quiet space for filming (corridors, breakout rooms).",
+      "Optional: a 60-second clip of a confident speaker and a nervous one to compare."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The tools",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** teacher gives the same 30-second message twice, badly then well. What changed?",
+          "**Explicit teaching (10 min):** the five tools.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** helps or hurts."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan it",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** Kennedy–Nixon (show a short clip if available).",
+          "**Annotate (10 min):** the cue card.",
+          "**Model (5 min):** mark up your own cue card aloud.",
+          "**Write (20 min):** students' cue cards; film Take 1 before the end."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Film it twice",
+        "minutes": 50,
+        "steps": [
+          "**Practise + Take 2 (25 min).**",
+          "**Level Up (15 min):** group discussion with an observer.",
+          "**Check & reflect (10 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Words + body + voice.",
+      "Stance, eyes, gestures, pace and pauses, tone.",
+      "Slow down and pause for the big point.",
+      "Film, change one thing, film again."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the cue card.",
+        "Fewer sort cards.",
+        "30 seconds instead of 60."
+      ],
+      "extend": [
+        "Tailor delivery to a named audience.",
+        "Lead or observe the group discussion (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U2M2-LG3",
+        "evidence": "Uses body language, eye contact, gestures, pace and intonation deliberately (cue card, Take 2)."
+      },
+      {
+        "vc": "VPC-U2M2-AP5",
+        "evidence": "Shows appropriate delivery when presenting an opinion; rates and improves it (Do it page)."
+      },
+      {
+        "vc": "VPC-U2M2-AP6",
+        "evidence": "Level Up: participates in a small-group discussion using evidence and deliberate delivery."
+      }
+    ],
+    "answers": "**Sort:** reading off phone — hurts; pausing — helps; hands in pockets — hurts; counting reasons — helps; swaying — hurts; looking around the room — helps.\n\n**Cue card:** 1 look up (eye contact); 2 slow down (pace); 3 count on fingers (gesture); 4 pause; 5 eye contact across the room; 6 stance/breathing reminder.\n\n**Case study:** Nixon pale, sweaty, glancing away; Kennedy calm, looked at camera. Story: TV viewers picked Kennedy, radio listeners Nixon. 2003 test: video viewers more likely to pick Kennedy, but both groups favoured Kennedy, so the strong story is exaggerated.",
+    "resources": [
+      {
+        "label": "OUPblog — Substance, style, and myth in the Kennedy–Nixon debates (2015)",
+        "url": "https://blog.oup.com/2015/09/kennedy-nixon-debates/"
+      },
+      {
+        "label": "Druckman (2003), The Power of Television Images — Journal of Politics (PDF)",
+        "url": "https://faculty.wcas.northwestern.edu/jnd260/pub/Druckman%20JOP%202003.pdf"
+      }
+    ],
+    "realityCheck": [
+      "**Filming yourself is the hardest ask in this course.** Many students will refuse at first. Offer options: film alone, audio only, or perform for you privately. Never show videos to the class without permission.",
+      "**Anxiety is real.** For some students, speaking up is genuinely distressing. Keep the stakes low (60 seconds, one improvement) and praise the improvement, not the polish.",
+      "**Cultural differences matter.** Eye contact norms vary across cultures, including for some First Nations students. Frame the tools as choices for this audience, not rules about right and wrong.",
+      "**The case study is American and from 1960.** It lands better with a 1-minute clip, and the twist that the famous story is exaggerated usually gets a reaction.",
+      "**Works in a real class:** yes. It's VPC at its best: practical, visible improvement in one lesson. Allow time; filming always takes longer than planned."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: simpler article and case study, 6 key words, 3-choice quiz, word bank, fewer sort cards, and a 30-second option.",
+      "core": "Aimed at about Year 7 reading: the standard version with sort, cue card, Kennedy–Nixon case and the film-it-twice task.",
+      "extend": "Aimed at about Year 9 reading: verbal/visual/vocal channels, intonation and credibility, delivery tailored to a named audience, and the group discussion."
+    }
+  }
+}

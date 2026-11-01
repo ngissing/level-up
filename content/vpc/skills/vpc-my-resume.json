@@ -1,0 +1,941 @@
+{
+  "id": "vpc-my-resume",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You hand your resume to a busy café manager. How long do they look at it? One study says: **about seven seconds**.",
+      "core": "You hand your resume to a café manager in the middle of the lunch rush. How long do they look at it before deciding? One study says: **about seven seconds**."
+    },
+    "why": {
+      "support": "A resume is the first thing a boss reads about you. It needs to be clear, true, correct and easy to read fast.",
+      "core": "A resume is the first piece of your writing an employer sees. It doesn't need fancy words. It needs to be clear, honest, correct and easy to scan, so the important things jump out in seconds.",
+      "extend": "A resume is a structured workplace document with conventions employers expect: predictable sections, scannable layout, specific evidence of skills, and flawless spelling. Getting those conventions right shows reliability before you've said a word."
+    },
+    "canDo": {
+      "support": [
+        "I can name the parts of a resume.",
+        "I can turn what I've done into skills.",
+        "I can make my resume easy to read.",
+        "I can build a real resume."
+      ],
+      "core": [
+        "I can name the **sections** of a resume and what goes in each.",
+        "I can turn things I've done into **skills** an employer wants.",
+        "I can make my resume **easy to scan** and **error-free**.",
+        "I can **build** a real one-page resume and test it."
+      ]
+    },
+    "showIt": "Build your own one-page resume, test it with the 7-second test, and improve it with feedback.",
+    "vocab": [
+      {
+        "word": "resume",
+        "meaning": "a short document about your skills and experience, for jobs",
+        "example": "I handed in my resume."
+      },
+      {
+        "word": "experience",
+        "meaning": "things you've done, like jobs, volunteering or sport",
+        "example": "My experience includes coaching juniors."
+      },
+      {
+        "word": "skill",
+        "meaning": "something you can do well",
+        "example": "Teamwork is a skill."
+      },
+      {
+        "word": "reference",
+        "meaning": "someone an employer can call to ask about you",
+        "example": "My coach is my reference."
+      },
+      {
+        "word": "heading",
+        "meaning": "a title for each part",
+        "example": "Use bold headings."
+      },
+      {
+        "word": "contact details",
+        "meaning": "how to reach you: phone and email",
+        "example": "Put your contact details at the top."
+      },
+      {
+        "word": "action verb",
+        "meaning": "a doing word that starts a point, like served or organised",
+        "example": "“Served customers” starts with an action verb.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "tailor",
+        "meaning": "change something to suit a specific job",
+        "example": "Tailor your resume to each ad.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "availability",
+        "meaning": "the days and times you can work",
+        "example": "My availability is after school and weekends.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "recruiter",
+        "meaning": "someone whose job is to find workers",
+        "example": "The recruiter scanned it in seconds.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "My Resume in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "My Resume",
+        "sub": "One page that opens doors.",
+        "icon": "lucide:file-user",
+        "say": "My resume. One page that opens doors."
+      },
+      {
+        "kind": "big",
+        "title": "Seconds, not minutes",
+        "text": "Make it **scannable**.",
+        "icon": "lucide:timer",
+        "say": "Employers scan resumes fast. Yours needs to work in seconds.",
+        "vc": [
+          "VPC-U3M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Section",
+        "pillIcon": "lucide:file-user",
+        "title": "Contact",
+        "text": "Name, phone, sensible email.",
+        "icon": "lucide:phone",
+        "say": "Contact details at the top. A sensible email address.",
+        "vc": [
+          "VPC-U3M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Section",
+        "pillIcon": "lucide:file-user",
+        "title": "Profile",
+        "text": "Two lines. Who + what you want.",
+        "icon": "lucide:user",
+        "say": "A short profile. Two lines on who you are and what you want.",
+        "vc": [
+          "VPC-U3M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Section",
+        "pillIcon": "lucide:file-user",
+        "title": "Skills + experience",
+        "text": "**Served. Coached. Organised.**",
+        "icon": "lucide:list-checks",
+        "say": "Skills and experience. Jobs, volunteering, sport, school roles. Start each point with an action verb.",
+        "vc": [
+          "VPC-U3M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Section",
+        "pillIcon": "lucide:file-user",
+        "title": "Education + references",
+        "text": "Ask your references first.",
+        "icon": "lucide:graduation-cap",
+        "say": "Education, and references. Ask people first.",
+        "vc": [
+          "VPC-U3M2-LG3"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Polish",
+        "steps": [
+          "One page",
+          "Clear headings",
+          "Same style",
+          "Zero typos"
+        ],
+        "say": "Then the polish. One page, clear headings, same style throughout, zero spelling mistakes.",
+        "vc": [
+          "VPC-U3M2-AP4"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Build it. Test it. Fix it.",
+        "icon": "lucide:file-check",
+        "say": "Your mission. Build your real resume, then test it in seven seconds."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "A resume that works in seconds",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A **resume** shows an employer what you can do. Keep it to **one page**.\n\nIt has these parts, in order:\n\n1. **Contact.** Name, phone, a sensible email.\n2. **Profile.** Two lines about you and the job you want.\n3. **Skills.** Like *teamwork* or *serving customers*.\n4. **Experience.** Jobs, but also **sport**, **volunteering** and **school jobs**. Start each point with a doing word: *Served. Coached.*\n5. **Education.** Your school and any certificates.\n6. **References.** People who can say you're good. Ask them first.\n\nUse clear headings. Check your spelling. You don't need a photo.",
+          "core": "A **resume** is a short document that shows an employer what you can do. For your first jobs, aim for **one page**.\n\nMost resumes use the same **sections**, in this order:\n\n1. **Contact details.** Name, phone, and an email that sounds grown-up (*first.last@*, not *partyking07@*).\n2. **Profile.** Two lines: who you are and what work you're after.\n3. **Skills.** Things like *customer service*, *teamwork*, *cash handling*. Only ones you can back up.\n4. **Experience.** Jobs, but also **volunteering**, **sport**, **school leadership** and **helping in a family business**. Start each point with an **action verb**: *Served*, *Coached*, *Organised*.\n5. **Education.** Your school, year level and any certificates (first aid, a VET course).\n6. **References.** People who can vouch for you, like a coach or employer. Ask them first.\n\nThen polish: **clear headings**, the same font and date style all the way through, and **no spelling mistakes**. In Australia you don't need a photo, your age or your date of birth.\n\nEmployers scan fast. Make the important things easy to spot.",
+          "extend": "A **resume** is a structured workplace document, and employers expect its conventions. For early-career roles, **one page** is standard.\n\nThe usual sections:\n\n1. **Contact details**: name, phone and a professional email address.\n2. **Profile**: a two-line summary of who you are and the work you're seeking, ideally tailored to the job.\n3. **Key skills**: specific, honest and backed by evidence elsewhere on the page.\n4. **Experience**: paid work, but also **volunteering**, **sport**, **leadership** and **family business**. Each point starts with an **action verb** and, where possible, a result: *Coached 12 under-10s; team made the finals.*\n5. **Education and training**: school, year level, certificates (first aid, VET units).\n6. **References**: people who have agreed to vouch for you, or “available on request”.\n\nPresentation carries meaning: consistent headings, fonts and date formats signal care, and a single spelling error can signal the opposite. Australian resumes don't need a photo, age or date of birth.\n\nBecause recruiters scan quickly, design for the scan: headings and job titles should carry the key information on their own."
+        },
+        "vc": [
+          "VPC-U3M2-LG3",
+          "VPC-U3M2-AP4"
+        ],
+        "vcNote": "The requirements and conventions of a resume (workplace documentation)."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The seven-second scan",
+        "icon": "lucide:eye",
+        "body": {
+          "support": "A jobs website called **Ladders** studied how people read resumes. In **2018**, it found they spent about **7 seconds** on a first look.\n\nCameras tracked where their eyes went. They looked at **job titles** and **headings** first. Messy resumes turned them off.\n\nSome experts say the study didn't share enough details. So 7 seconds isn't a rule.\n\nBut the big idea makes sense. Busy people **scan** first. Put your best stuff where they'll see it.",
+          "core": "**Ladders**, a US jobs website, studied how recruiters read resumes. In **2012** it reported that recruiters spent about **six seconds** on a first look. In **2018** it ran the study again: about **7.4 seconds**.\n\nIn the second study, recruiters were timed without knowing it. Then **eye-tracking** cameras showed where their eyes went. They looked at **job titles** and **headings** first. Messy layouts with no clear headings turned them off.\n\nSome experts say the study left out important details, like how many recruiters took part and what jobs they were hiring for. So **7.4 seconds** isn't a rule.\n\nBut the main idea makes sense: busy people **scan** first. If your best stuff is buried, they might never see it.",
+          "extend": "**Ladders**, a US careers site, published widely shared research on how recruiters read resumes. Its **2012** study reported an initial screen of about **six seconds**; a **2018** follow-up reported about **7.4 seconds**.\n\nThe 2018 study had two stages: recruiters were timed, without knowing it, as they sorted a stack of resumes, and then **eye-tracking** recorded where they looked in a lab. They focused on **job titles** and **headings**, and were put off by layouts without clear sections or with text that didn't draw the eye down the page.\n\nCritics point out that the published report leaves out key details, such as how many recruiters took part, their experience, and the kinds of roles involved. Some see it as partly a marketing piece. So the exact figure shouldn't be treated as fact.\n\nStill, the core finding fits common sense and other advice: first reads are fast and selective. A resume should be designed for the scan."
+        },
+        "source": {
+          "name": "HR Dive — “Eye-tracking study shows recruiters look at resumes for 7 seconds” (2018); criticism in ERE, “Is the 6-second resume scan a myth?”",
+          "url": "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/"
+        },
+        "think": {
+          "support": [
+            "What do people look at first?",
+            "What will you change on your resume?"
+          ],
+          "core": [
+            "What did the study find recruiters look at first?",
+            "Why shouldn't we treat “7.4 seconds” as a fact?",
+            "What does this mean for how you lay out your resume?"
+          ]
+        },
+        "vc": [
+          "VPC-U3M2-LG3"
+        ],
+        "vcNote": "Researching what employers expect from a resume, and judging the evidence."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a one-page resume",
+      "docTitle": "RILEY NGUYEN — RESUME (EXAMPLE)",
+      "vc": [
+        "VPC-U3M2-LG3"
+      ],
+      "vcNote": "The sections and conventions of a resume.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Contact",
+          "value": "0491 570 006 · riley.nguyen@email.example · Dandenong"
+        },
+        {
+          "n": 2,
+          "label": "Profile",
+          "value": "Reliable Year 11 VPC student looking for casual work in hospitality."
+        },
+        {
+          "n": 3,
+          "label": "Skills",
+          "value": "Customer service · Teamwork · Cash handling · Food safety basics"
+        },
+        {
+          "n": 4,
+          "label": "Experience",
+          "value": "Volunteer, community BBQ (2025–now): Served 100+ customers each event; handled cash.",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Education",
+          "value": "Year 11 VPC, Northside College · First Aid certificate (2026)"
+        },
+        {
+          "n": 6,
+          "label": "References",
+          "value": "Available on request"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Contact details",
+          "note": "Phone and a sensible email, at the top."
+        },
+        {
+          "n": 2,
+          "label": "Profile",
+          "note": "Two lines: who + what work."
+        },
+        {
+          "n": 3,
+          "label": "Skills",
+          "note": "Short and honest. Backed up below."
+        },
+        {
+          "n": 4,
+          "label": "Experience",
+          "note": "Action verbs + detail. Volunteering counts!"
+        },
+        {
+          "n": 5,
+          "label": "Education",
+          "note": "School, year, certificates."
+        },
+        {
+          "n": 6,
+          "label": "References",
+          "note": "People who agreed to vouch for you."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Build it, test it",
+      "steps": [
+        {
+          "title": "Gather",
+          "text": "Everything you've done.",
+          "icon": "lucide:list"
+        },
+        {
+          "title": "Draft",
+          "text": "Sections + action verbs.",
+          "icon": "lucide:pen-line"
+        },
+        {
+          "title": "7-second test",
+          "text": "What does a stranger remember?",
+          "icon": "lucide:timer"
+        },
+        {
+          "title": "Polish",
+          "text": "One page, same style, zero typos.",
+          "icon": "lucide:sparkles"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which email is best for a resume?",
+        "options": [
+          "riley.nguyen@email.com",
+          "partyking07@email.com",
+          "xX_riley_Xx@email.com",
+          "bigboss@email.com"
+        ],
+        "answer": 0,
+        "explain": "Keep it sensible.",
+        "vc": [
+          "VPC-U3M2-AP4"
+        ]
+      },
+      {
+        "q": "Which counts as **experience**?",
+        "options": [
+          "All of these",
+          "Volunteering at a BBQ",
+          "Coaching juniors",
+          "Helping in a family shop"
+        ],
+        "answer": 0,
+        "explain": "It's not only paid jobs.",
+        "vc": [
+          "VPC-U3M2-LG3"
+        ]
+      },
+      {
+        "q": "Which experience point is strongest?",
+        "options": [
+          "Coached 12 under-10s every Saturday",
+          "I did coaching",
+          "Coaching",
+          "Sometimes helped with kids"
+        ],
+        "answer": 0,
+        "explain": "Action verb + detail.",
+        "vc": [
+          "VPC-U3M2-LG3",
+          "VPC-U3M2-AP4"
+        ]
+      },
+      {
+        "q": "What did the Ladders study say recruiters look at first?",
+        "options": [
+          "Job titles and headings",
+          "Photos",
+          "The font",
+          "The last line"
+        ],
+        "answer": 0,
+        "explain": "Design for the scan.",
+        "vc": [
+          "VPC-U3M2-LG3"
+        ]
+      },
+      {
+        "q": "Before you list someone as a reference, you should…",
+        "options": [
+          "Ask them first",
+          "Just add them",
+          "Pay them",
+          "Use a celebrity"
+        ],
+        "answer": 0,
+        "explain": "Always ask.",
+        "vc": [
+          "VPC-U3M2-LG3"
+        ]
+      },
+      {
+        "q": "Why treat “7.4 seconds” carefully?",
+        "options": [
+          "The study left out key details about how it was done",
+          "It's from 1960",
+          "Recruiters don't read",
+          "It's definitely false"
+        ],
+        "answer": 0,
+        "explain": "Judge the evidence, keep the idea.",
+        "vc": [
+          "VPC-U3M2-LG3"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Make your own one-page resume. Test it with a partner. Fix it.",
+      "core": "Build your own one-page resume, test it with the 7-second test, and improve it with feedback.",
+      "extend": "Build a one-page resume tailored to a real job ad, test it with the 7-second test and feedback from an adult, and revise it to a polished final copy."
+    },
+    "checklist": [
+      "My resume has all six sections",
+      "Experience points start with action verbs",
+      "I did the 7-second test and made changes",
+      "It's one page with no spelling mistakes"
+    ],
+    "levelUp": "Find a real job ad. Tailor your profile and skills to it, and decode any jargon in the ad.",
+    "vc": [
+      "VPC-U3M2-LG3",
+      "VPC-U3M2-AP4"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: A resume that works in seconds",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "List the **six sections** of a resume.",
+            "lines": 0,
+            "vc": [
+              "VPC-U3M2-LG3"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ]
+          },
+          {
+            "q": "What counts as experience, apart from paid jobs?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M2-LG3"
+            ]
+          },
+          {
+            "q": "What three things don't you need on an Australian resume?",
+            "lines": 1,
+            "vc": [
+              "VPC-U3M2-LG3"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a resume",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a section. Use the word bank. Write what it is.",
+          "core": "Each number marks a section. Write what it is and what makes it good."
+        },
+        "columns": [
+          "What is it?",
+          "What makes it good?"
+        ],
+        "wordBank": {
+          "support": [
+            "contact",
+            "profile",
+            "skills",
+            "experience",
+            "education",
+            "references"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U3M2-LG3"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Keep or cut?",
+        "pagebreak": true,
+        "choices": [
+          "Keep",
+          "Cut"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Would you keep each line on a resume, or cut it? Say why.",
+        "cards": [
+          {
+            "from": "Resume",
+            "text": "Email: partyking07@email.com",
+            "answer": "Cut",
+            "flags": "Use a sensible email."
+          },
+          {
+            "from": "Resume",
+            "text": "Captain, under-17 football team (2025)",
+            "answer": "Keep",
+            "flags": "Leadership + teamwork."
+          },
+          {
+            "from": "Resume",
+            "text": "Photo of me at the beach",
+            "answer": "Cut",
+            "flags": "Not needed in Australia."
+          },
+          {
+            "from": "Resume",
+            "text": "First Aid certificate (2026)",
+            "answer": "Keep",
+            "flags": "Useful and specific."
+          },
+          {
+            "from": "Resume",
+            "text": "Hobbies: sleeping, scrolling",
+            "answer": "Cut",
+            "flags": "Doesn't help — or say something better.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Resume",
+            "text": "Helped in family takeaway shop on weekends",
+            "answer": "Keep",
+            "flags": "Real work experience!",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U3M2-LG3"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Make it sound like a skill",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 18,
+          "core": 16
+        },
+        "instructions": "Rewrite each line so it starts with an **action verb** and gives detail. The first one is done for you.",
+        "columns": [
+          "Before",
+          "After"
+        ],
+        "rows": [
+          [
+            "I did the till.",
+            "Handled cash and card payments at a busy weekend market."
+          ],
+          [
+            "I helped with little kids at footy.",
+            ""
+          ],
+          [
+            "I mow lawns for neighbours.",
+            ""
+          ],
+          {
+            "cells": [
+              "I look after my younger brothers after school.",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U3M2-LG3",
+          "VPC-U3M2-AP4"
+        ],
+        "vcNote": "Drafting resume content with correct sentence structure."
+      },
+      {
+        "type": "table",
+        "title": "Crack the jargon",
+        "rowHeight": {
+          "support": 16,
+          "core": 14
+        },
+        "instructions": "Job ads and resumes use short forms and jargon. Break each one up or look it up. The first one is done for you.",
+        "columns": [
+          "Word",
+          "Break it up / what it stands for",
+          "What it means"
+        ],
+        "rows": [
+          [
+            "WWCC",
+            "Working With Children Check",
+            "A check you need to work with kids"
+          ],
+          [
+            "casual",
+            "",
+            ""
+          ],
+          [
+            "availability",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "RSA",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "proficient",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U3M2-AP2"
+        ],
+        "vcNote": "Decoding workplace words using word parts and letter patterns."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the seven-second scan",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did recruiters look at first?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M2-LG3"
+            ]
+          },
+          {
+            "q": "Why shouldn't we treat “7.4 seconds” as an exact fact?",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VPC-U3M2-LG3"
+            ]
+          },
+          {
+            "q": "What will you change about your resume because of this?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M2-LG3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: build it and test it",
+        "pagebreak": true,
+        "where": "on a computer, plus a partner",
+        "instructions": "Build your real resume (a template from Youth Central or your school is fine). Then test it.",
+        "need": [
+          "a computer or the school resume template",
+          "your gathered experience",
+          "a partner + an adult to give feedback"
+        ],
+        "steps": {
+          "support": [
+            "Write down everything you've done.",
+            "Fill in the six sections.",
+            "**7-second test:** a partner looks for 7 seconds. What do they remember?",
+            "Ask an adult to check it.",
+            "Fix the mistakes. Print it."
+          ],
+          "core": [
+            "Gather everything: jobs, volunteering, sport, school roles, certificates.",
+            "Draft all six sections. Start experience points with action verbs.",
+            "**7-second test:** a partner looks for 7 seconds, then turns it over. What do they remember?",
+            "Move your best stuff to where they looked.",
+            "Get feedback from an adult (teacher, parent, boss, coach).",
+            "Fix every error. Print or save your final one-page copy."
+          ]
+        },
+        "notes": [
+          {
+            "label": "In the 7-second test, my partner remembered:",
+            "lines": 2
+          },
+          {
+            "label": "Feedback I got, and what I changed:",
+            "lines": {
+              "support": 3,
+              "core": 3
+            }
+          }
+        ],
+        "evidence": [
+          "Printed resume",
+          "Teacher saw it",
+          "Feedback from an adult"
+        ],
+        "vc": [
+          "VPC-U3M2-LG3",
+          "VPC-U3M2-AP4"
+        ],
+        "vcNote": "Hands-on: planning, drafting, testing and completing a real resume."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Find a **real** job ad you could apply for (Seek, Indeed, a sign in a shop window).",
+        "items": [
+          {
+            "q": "Copy two things the ad asks for. Where does your resume show them?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M2-LG3"
+            ]
+          },
+          {
+            "q": "Rewrite your profile so it fits this job.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M2-LG3",
+              "VPC-U3M2-AP4"
+            ]
+          },
+          {
+            "q": "Any jargon in the ad? What does it mean?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M2-AP2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can name the sections of a resume.",
+          "I can turn what I've done into skills.",
+          "I can make it scannable and error-free.",
+          "I built a real resume."
+        ],
+        "questions": [
+          "Where I'll send my resume first:",
+          "Someone who could be my reference:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the requirements and conventions of a resume (sections, scannable layout, action verbs, consistency, accuracy), turn their real experience into skills, decode workplace jargon, and build and test their own one-page resume. The case study is the Ladders eye-tracking study (about 7 seconds), including criticism of its method.",
+    "prep": [
+      "Print workbooks.",
+      "Have a resume template ready (Youth Central has Victorian ones; your school may have its own).",
+      "Book computers for lesson 3.",
+      "Optional: a local employer or careers adviser to give feedback."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What goes in",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** the 7-second test on two sample resumes. What did you remember?",
+          "**Explicit teaching (10 min):** six sections; action verbs.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Annotate (10 min):** Riley's resume."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Make it sound like you",
+        "minutes": 50,
+        "steps": [
+          "**Sort (10 min):** keep or cut.",
+          "**Rewrite (15 min):** make it sound like a skill.",
+          "**Jargon (10 min):** crack the jargon.",
+          "**Case study (15 min):** the seven-second scan; discuss trusting statistics."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Build it, test it",
+        "minutes": 50,
+        "steps": [
+          "**Hands-on (30 min):** build the resume, 7-second test, feedback.",
+          "**Level Up (10 min):** tailor to a real ad.",
+          "**Check & reflect (10 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Six sections, one page.",
+      "Experience includes volunteering, sport, school and family business.",
+      "Action verb + detail.",
+      "Design for a fast scan; zero typos."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and rows.",
+        "Fill-in template."
+      ],
+      "extend": [
+        "Tailor to a real job ad.",
+        "Judge the study's evidence (case study)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U3M2-LG3",
+        "evidence": "Understands the requirements of a resume and plans, drafts and completes one (annotation, Do it page)."
+      },
+      {
+        "vc": "VPC-U3M2-AP4",
+        "evidence": "Applies sentence structure, punctuation and spelling conventions (rewrites, final resume)."
+      },
+      {
+        "vc": "VPC-U3M2-AP2",
+        "evidence": "Decodes workplace jargon and acronyms (Crack the jargon, Level Up)."
+      }
+    ],
+    "answers": "**Resume:** 1 contact details; 2 profile; 3 skills; 4 experience (action verbs, volunteering counts); 5 education and certificates; 6 references.\n\n**Keep or cut:** party email — cut; football captain — keep; beach photo — cut; first aid — keep; sleeping/scrolling — cut; family takeaway — keep.\n\n**Jargon:** casual = paid by the hour, no guaranteed hours, higher hourly rate (casual loading); availability = days/times you can work; RSA = Responsible Service of Alcohol (a certificate needed to serve alcohol); proficient = skilled, competent.",
+    "resources": [
+      {
+        "label": "Youth Central (Victorian Government) — How to write a resume",
+        "url": "https://www.youthcentral.vic.gov.au/jobs-and-careers/applying-for-jobs/how-to-write-a-resume"
+      },
+      {
+        "label": "HR Dive — Eye-tracking study shows recruiters look at resumes for 7 seconds (2018)",
+        "url": "https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/"
+      },
+      {
+        "label": "ERE — Is the 6-second resume scan a myth?",
+        "url": "https://www.ere.net/articles/is-the-6-second-resume-scan-a-myth"
+      }
+    ],
+    "realityCheck": [
+      "**“I've got nothing to put on it.”** You'll hear this a lot. Spend real time on the gathering step: sport, caring for siblings, family business, gaming communities, school jobs. Everyone has something.",
+      "**Personal details stay private.** Students will type real phone numbers and addresses. Remind them not to post resumes publicly; suburb only, not a full street address, is fine.",
+      "**Some students carry heavy responsibilities** (carers, working in a family business). Treat these as the strengths they are.",
+      "**Device time is the bottleneck.** Formatting eats time. Use a template so lesson 3 is about content and testing, not fonts.",
+      "**Works in a real class:** absolutely. Students leave with a real document they can use this week, which is the most motivating outcome in the set. It pairs well with Job Hunt and Apply for Real."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: simpler article and case study, 6 key words, 3-choice quiz, word bank, fewer sort cards and rows, and a fill-in template.",
+      "core": "Aimed at about Year 7 reading: the standard version with annotation, keep or cut, skill rewrites, jargon, the case study and building a real resume.",
+      "extend": "Aimed at about Year 9 reading: richer conventions, judging the study's evidence, tailoring to a real job ad, and adult feedback."
+    }
+  }
+}

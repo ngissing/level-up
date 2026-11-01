@@ -1,0 +1,911 @@
+{
+  "id": "phone-plan-showdown",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Two phone plans. One says **“UNLIMITED! $35!”** The other says **$40 a month**. Most people pick the first one. Many end up paying more.",
+      "core": "Two phone plans. One shouts **“UNLIMITED DATA! $35!”** The other just says **$40 a month**. Most people grab the first one. By the end of the year, most people have paid more."
+    },
+    "why": {
+      "support": "Phone ads have big print and small print. The big print grabs you. The small print is the real deal. Read both and keep your money.",
+      "core": "Phone and internet companies spend a lot on ads. The big print is written to grab you. The small print is where the real deal is. If you can read both, you keep your money.",
+      "extend": "Telcos compete hard, and their ads are carefully written: the headline sells, and the conditions sit in the fine print. Comparing plans means reading past the persuasive language, finding the facts, and working out the true cost over time."
+    },
+    "canDo": {
+      "support": [
+        "I can tell facts from sales talk.",
+        "I can find the catch in the small print.",
+        "I can work out what a plan costs in a year.",
+        "I can pick the better plan and say why."
+      ],
+      "core": [
+        "I can tell the **facts** in an ad from the **sales talk**.",
+        "I can find the **catch** in the small print.",
+        "I can work out the **real cost** of a plan over a year.",
+        "I can **compare** two plans and explain which is better for someone."
+      ]
+    },
+    "showIt": "Compare two plans, work out what each really costs, and write a recommendation for a friend.",
+    "vocab": [
+      {
+        "word": "plan",
+        "meaning": "what you pay each month and what you get for it",
+        "example": "My plan is $40 a month."
+      },
+      {
+        "word": "data",
+        "meaning": "how much internet you can use, measured in GB",
+        "example": "I used 20 GB of data this month."
+      },
+      {
+        "word": "small print",
+        "meaning": "the tiny words in an ad that tell you the conditions",
+        "example": "The small print said the price goes up."
+      },
+      {
+        "word": "contract",
+        "meaning": "an agreement that locks you in for a set time",
+        "example": "It's a 12-month contract."
+      },
+      {
+        "word": "fact",
+        "meaning": "something that can be checked and proven",
+        "example": "$40 a month is a fact."
+      },
+      {
+        "word": "opinion",
+        "meaning": "what someone thinks — it can't be proven",
+        "example": "“Best network” is an opinion."
+      },
+      {
+        "word": "conditions",
+        "meaning": "rules that apply to a deal",
+        "example": "Conditions: price only for the first 6 months.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "bias",
+        "meaning": "leaning one way, not giving the full picture",
+        "example": "The ad is biased — it only shows the good parts.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "misleading",
+        "meaning": "giving the wrong idea, even if each word is true",
+        "example": "The ad was misleading about speed.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "objective",
+        "meaning": "based on facts, not feelings",
+        "example": "A price list is objective.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Phone Plan Showdown in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Phone Plan Showdown",
+        "sub": "Which deal is actually the best deal?",
+        "icon": "lucide:smartphone",
+        "say": "Phone plan showdown. Which deal is actually the best deal?"
+      },
+      {
+        "kind": "big",
+        "title": "Big print sells. Small print tells.",
+        "text": "The **headline** grabs you. The **small print** is the deal.",
+        "icon": "lucide:megaphone",
+        "say": "Every phone ad has two parts. The big print sells. The small print tells.",
+        "vc": [
+          "VC2E5LY08",
+          "VC2E4LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "O",
+        "pill": "Check",
+        "pillIcon": "lucide:search-check",
+        "title": "Opinions",
+        "text": "“Best!” “Amazing!” Can’t be proven.",
+        "icon": "lucide:message-circle",
+        "say": "Spot the opinions. Best network. Amazing value. These can't be checked.",
+        "vc": [
+          "VC2E4LA02",
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "F",
+        "pill": "Check",
+        "pillIcon": "lucide:search-check",
+        "title": "Facts",
+        "text": "Price. Data. Contract. Can be checked.",
+        "icon": "lucide:check-check",
+        "say": "Find the facts. Price, data, contract length. These can be checked.",
+        "vc": [
+          "VC2E4LA02",
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "!",
+        "pill": "Check",
+        "pillIcon": "lucide:search-check",
+        "title": "The catch",
+        "text": "Price goes up? Speed drops? Locked in?",
+        "icon": "lucide:triangle-alert",
+        "say": "Find the catch. A price that goes up. Data that slows down. A contract that locks you in.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Compare like a pro",
+        "steps": [
+          "Cost for 12 months",
+          "What you really get",
+          "The catch",
+          "What suits me?"
+        ],
+        "say": "To compare, work out the cost for a whole year, check what you really get, then decide what suits you.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Compare. Find the catch. Recommend.",
+        "icon": "lucide:search-check",
+        "say": "Your mission. Compare two plans, find the catch, and tell a friend which one to choose."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Read the deal, not the ad",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A phone ad wants you to sign up. It puts the good bits in big print.\n\nIt uses two kinds of words:\n\n- **Facts** you can check. *$35 a month.*\n- **Opinions** you can't check. *Best network!*\n\nThe **small print** has the rules. Look for these catches:\n\n1. **The price goes up.** *$35 for 6 months, then $55.*\n2. **The speed drops.** Unlimited data might get slow.\n3. **You're locked in.** You may have to pay to leave.\n\nTo compare two plans, work out the cost for **a whole year**. Then pick the one that suits you.",
+          "core": "A phone plan ad is a **persuasive text**. Its job is to get you to sign up, so it puts the best bits in big, bright print.\n\nThe ad mixes two kinds of language:\n\n- **Facts** you can check: *$35 a month*, *40 GB*, *12-month contract*.\n- **Opinions** you can't check: *best network*, *amazing value*, *you'll love it*.\n\nThe **small print** is where the conditions live. Look for three common catches:\n\n1. **The price goes up.** *$35/month for the first 6 months, then $55.*\n2. **The speed drops.** *Unlimited data* might slow right down after a set amount.\n3. **You're locked in.** A **contract** can mean a fee if you leave early.\n\nTo compare two plans fairly, work out the **cost for a whole year**, not just one month. Then ask what you really get, what the catch is, and which plan suits the person who'll use it.",
+          "extend": "A phone plan ad is a **persuasive text**: everything in it is designed to make you sign up. The headline shows off the best features, and the conditions get pushed into the fine print.\n\nThe ad mixes **objective** language (*$35 a month*, *40 GB*) with **subjective** language (*best network*, *amazing value*). Only the objective claims can be checked. The subjective ones are there to create a feeling.\n\nThree catches turn up again and again in the fine print:\n\n1. **Starter prices**: a low price for a few months, then a higher one.\n2. **Speed limits**: “unlimited” data that slows right down after a cap.\n3. **Lock-in**: a contract with fees for leaving early.\n\nA fair comparison works out the **total cost over twelve months**, checks what's included, and weighs it against the needs of the person using it."
+        },
+        "vc": [
+          "VC2E5LY08",
+          "VC2E4LA02",
+          "VC2E6LA02",
+          "VC2E7LY05"
+        ],
+        "vcNote": "Features of persuasive ads, fact vs opinion (objective vs subjective language), and reading conditions."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The NBN speeds that weren't",
+        "icon": "lucide:wifi",
+        "body": {
+          "support": "Internet companies sold plans with speeds like **“up to 100”**. Lots of people paid extra. But their internet could never go that fast.\n\nThe **ACCC** looks out for shoppers in Australia. It made the companies give money back. Telstra gave refunds to **42,000** people.\n\nIn 2022, a court made **Telstra, Optus and TPG** pay **$33.5 million** in fines. They agreed their ads were wrong.\n\nThe lesson: a number in an ad is a promise. Check what you really get.",
+          "core": "For years, internet companies sold home plans with speeds like **“up to 100”**. Lots of people paid extra for the fast speed. But many of their connections could never go that fast.\n\nThe **ACCC** is the government body that looks out for shoppers. In 2017 and 2018 it made Telstra, Optus, TPG and others offer fixes and money back. Telstra alone gave refunds to **42,000** people.\n\nIn 2022, a court ordered **Telstra, Optus and TPG** to pay **$33.5 million** in fines. The companies agreed that what they said about top speeds was false or misleading.\n\nThe lesson: a number in an ad is only a promise. Check what you will really get.",
+          "extend": "For years, internet companies sold home plans by their top speeds, such as **“up to 100 Mbps”**. Many customers paid more for the fast tiers, even though their connection could never reach those speeds.\n\nThe **ACCC**, the national consumer watchdog, stepped in during 2017 and 2018. Telstra, Optus, TPG and others agreed to offer fixes and refunds. Telstra's refunds alone went to about **42,000** customers.\n\nIn 2022 the Federal Court ordered **Telstra ($15 million), Optus ($13.5 million) and TPG ($5 million)** to pay fines totalling **$33.5 million**. The companies admitted their claims about top speeds were false or misleading. They had no good system for telling customers when those speeds couldn't be reached.\n\nA number in an ad is a claim, not a promise. Smart readers ask: when is this actually true?"
+        },
+        "source": {
+          "name": "ACCC — “Telcos to pay a total of $33.5 million for misleading statements about NBN maximum speeds” (2022); ACCC refund updates",
+          "url": "https://www.accc.gov.au/media-release/telcos-to-pay-a-total-of-335-million-for-misleading-statements-about-nbn-maximum-speeds"
+        },
+        "think": {
+          "support": [
+            "What went wrong?",
+            "What will you check next time?"
+          ],
+          "core": [
+            "What did the ads promise, and what did customers actually get?",
+            "Who stepped in, and what happened?",
+            "What will you check next time you see “up to” in an ad?"
+          ]
+        },
+        "vc": [
+          "VC2E6LA02",
+          "VC2E6LY08"
+        ],
+        "vcNote": "Bias in persuasive texts and comparing an ad's claims with evidence."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a phone plan ad",
+      "docTitle": "PLAN A — “MEGA UNLIMITED” (EXAMPLE)",
+      "vc": [
+        "VC2E5LY08",
+        "VC2E4LY08"
+      ],
+      "vcNote": "The features of a persuasive ad and where the conditions are.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Headline",
+          "value": "UNLIMITED DATA! Australia’s best deal!",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Big price",
+          "value": "$35/month*"
+        },
+        {
+          "n": 3,
+          "label": "Small print: price",
+          "value": "*$35 for the first 6 months, then $55/month"
+        },
+        {
+          "n": 4,
+          "label": "Small print: data",
+          "value": "After 40 GB, speed slows to 1.5 Mbps"
+        },
+        {
+          "n": 5,
+          "label": "Small print: contract",
+          "value": "12-month contract. Fee if you leave early."
+        },
+        {
+          "n": 6,
+          "label": "Call to action",
+          "value": "Sign up today — offer ends Sunday!"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Headline (opinion)",
+          "note": "“Best deal” can't be proven. It's there to grab you."
+        },
+        {
+          "n": 2,
+          "label": "Big price",
+          "note": "The star at the end means: read the conditions."
+        },
+        {
+          "n": 3,
+          "label": "Price goes up",
+          "note": "It's $55 for half the year."
+        },
+        {
+          "n": 4,
+          "label": "Speed drops",
+          "note": "“Unlimited” — but slow after 40 GB."
+        },
+        {
+          "n": 5,
+          "label": "Locked in",
+          "note": "You pay to leave early."
+        },
+        {
+          "n": 6,
+          "label": "Hurry!",
+          "note": "A deadline rushes you."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Compare like a pro",
+      "steps": [
+        {
+          "title": "Year cost",
+          "text": "Work out 12 months, not 1.",
+          "icon": "lucide:calculator"
+        },
+        {
+          "title": "What you get",
+          "text": "Data, speed, extras.",
+          "icon": "lucide:package"
+        },
+        {
+          "title": "The catch",
+          "text": "Price rise? Slow-down? Lock-in?",
+          "icon": "lucide:triangle-alert"
+        },
+        {
+          "title": "Decide",
+          "text": "What suits the person using it?",
+          "icon": "lucide:user-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is a **fact** you can check?",
+        "options": [
+          "$40 a month for 30 GB",
+          "Australia's best network",
+          "You'll love it",
+          "Amazing value"
+        ],
+        "answer": 0,
+        "explain": "Price and data can be checked.",
+        "vc": [
+          "VC2E4LA02",
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "q": "An ad says **$35/month***. What should the star make you do?",
+        "options": [
+          "Read the small print",
+          "Sign up fast",
+          "Ignore it",
+          "Call a friend"
+        ],
+        "answer": 0,
+        "explain": "The star points to conditions.",
+        "vc": [
+          "VC2E5LY08"
+        ]
+      },
+      {
+        "q": "Plan A is $35 a month for 6 months, then $55. What does it cost for a year?",
+        "options": [
+          "$540",
+          "$420",
+          "$660",
+          "$35"
+        ],
+        "answer": 0,
+        "explain": "6 × $35 + 6 × $55 = $210 + $330 = $540.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "q": "What did the ACCC find about NBN speed ads?",
+        "options": [
+          "Many customers couldn't get the speeds they paid for",
+          "The ads were too boring",
+          "Speeds were faster than promised",
+          "Nothing was wrong"
+        ],
+        "answer": 0,
+        "explain": "The companies admitted the claims were false or misleading.",
+        "vc": [
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "q": "Why does an ad say “Offer ends Sunday!”?",
+        "options": [
+          "To rush you so you don't compare",
+          "Because it's the law",
+          "To be helpful",
+          "It's a fact about the weather"
+        ],
+        "answer": 0,
+        "explain": "Deadlines create pressure.",
+        "vc": [
+          "VC2E5LY08"
+        ]
+      },
+      {
+        "q": "“Up to 100 Mbps” is an example of…",
+        "options": [
+          "A claim that is only true in the best conditions",
+          "A guarantee",
+          "An opinion with no number",
+          "A contract"
+        ],
+        "answer": 0,
+        "explain": "“Up to” means maximum, not typical.",
+        "vc": [
+          "VC2E7LY05"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Compare two plans. Work out the cost for a year. Tell a friend which one to pick and why.",
+      "core": "Compare two plans, work out the cost for a year, find the catch, and write a recommendation for a friend.",
+      "extend": "Compare two plans, calculate their 12-month cost, identify the persuasive language and the catch, and write a recommendation for a specific friend, justified with facts."
+    },
+    "checklist": [
+      "I filled in the comparison table",
+      "I worked out the cost for a year",
+      "I found the catch in each plan",
+      "My recommendation uses facts, not just opinions"
+    ],
+    "levelUp": "Find a real phone plan ad. Show how its words and pictures are designed to persuade, and say what a buyer should check.",
+    "vc": [
+      "VC2E6LY08",
+      "VC2E5LY08"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Read the deal, not the ad",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What's the difference between a **fact** and an **opinion** in an ad? Give an example of each.",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VC2E4LA02",
+              "VC2E6LA02"
+            ]
+          },
+          {
+            "q": "Name the **three catches** to look for.",
+            "lines": 0,
+            "vc": [
+              "VC2E6LY08"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3"
+            ]
+          },
+          {
+            "q": "Why compare the cost for a **year**, not a month?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a phone plan ad",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the ad. Use the word bank. Write what it is.",
+          "core": "Each number marks part of the ad. Write what it is and what it's really telling you."
+        },
+        "columns": [
+          "What is it?",
+          "What's it really saying?"
+        ],
+        "wordBank": {
+          "support": [
+            "opinion",
+            "big price",
+            "price goes up",
+            "speed drops",
+            "locked in",
+            "hurry"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LY08",
+          "VC2E4LY08"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Fact or opinion?",
+        "pagebreak": true,
+        "choices": [
+          "Fact",
+          "Opinion"
+        ],
+        "reasonLabel": "How do you know?",
+        "instructions": "Tick whether each line from a phone ad is a fact or an opinion. Say how you know.",
+        "cards": [
+          {
+            "from": "Ad",
+            "text": "40 GB of data each month",
+            "answer": "Fact",
+            "flags": "You can check it."
+          },
+          {
+            "from": "Ad",
+            "text": "Australia's best network",
+            "answer": "Opinion",
+            "flags": "Best by whose measure?"
+          },
+          {
+            "from": "Ad",
+            "text": "12-month contract",
+            "answer": "Fact",
+            "flags": "It's in the terms."
+          },
+          {
+            "from": "Ad",
+            "text": "You'll never want to switch!",
+            "answer": "Opinion",
+            "flags": "A feeling, not a fact."
+          },
+          {
+            "from": "Ad",
+            "text": "Amazing value for families",
+            "answer": "Opinion",
+            "flags": "“Amazing” can't be proven.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Ad",
+            "text": "Price rises to $55 after 6 months",
+            "answer": "Fact",
+            "flags": "Stated in the conditions.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E4LA02",
+          "VC2E6LA02"
+        ],
+        "vcNote": "Distinguishing objective (fact) from subjective (opinion) language."
+      },
+      {
+        "type": "table",
+        "title": "Showdown: Plan A vs Plan B",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 18
+        },
+        "instructions": "Plan A is the ad you annotated. **Plan B: $40 a month, 30 GB, no contract, unused data rolls over.** Fill in the table.",
+        "columns": [
+          "",
+          "Plan A",
+          "Plan B"
+        ],
+        "rows": [
+          [
+            "Price per month",
+            "$35, then $55 after 6 months",
+            "$40"
+          ],
+          [
+            "Cost for 12 months",
+            "",
+            ""
+          ],
+          [
+            "Data",
+            "",
+            ""
+          ],
+          [
+            "The catch",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Opinion words in the ad",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          [
+            "Better for…",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LY08",
+          "VC2E5LY08"
+        ],
+        "vcNote": "Comparing information across two texts."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the NBN speeds that weren't",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the ads promise? What did many customers get?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LA02"
+            ]
+          },
+          {
+            "q": "Who is the ACCC, and what did it do?",
+            "lines": 2
+          },
+          {
+            "q": "What does **“up to”** really mean in an ad?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          },
+          {
+            "q": "The companies said their statements were misleading. How can an ad mislead without telling a lie?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY05"
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: recommend a plan",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Your friend **Jaz** uses about **25 GB** a month. Jaz wants to save money. Write Jaz a message. Say which plan to pick and why.",
+          "core": "Your friend **Jaz** uses about **25 GB** a month, wants to save money, and might move overseas in 8 months. Write Jaz a message recommending Plan A or Plan B. Use **facts** to back it up.",
+          "extend": "Your friend **Jaz** uses about **25 GB** a month, is on a tight budget, and may move overseas in 8 months. Write Jaz a recommendation. Use facts from both plans, explain the catch in the one you reject, and keep opinion words to a minimum."
+        },
+        "plan": [
+          {
+            "label": "Which plan, and the main reason:",
+            "lines": 2
+          },
+          {
+            "label": "Facts that back it up:",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "Hey Jaz, I'd go with…",
+          "Over a year, Plan A costs…",
+          "The catch with … is…",
+          "Because you might move…"
+        ],
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "says which plan",
+          "uses at least two facts",
+          "explains a catch",
+          "suits Jaz's needs"
+        ],
+        "vc": [
+          "VC2E6LY08",
+          "VC2E5LY08"
+        ],
+        "vcNote": "Writing a recommendation using facts compared across two texts."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Find a **real** phone or internet plan ad (online, on a bus stop, on TV).",
+        "items": [
+          {
+            "q": "Copy two persuasive words or phrases. What feeling are they trying to create?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY05"
+            ]
+          },
+          {
+            "q": "What do the pictures or colours add to the message?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY05"
+            ]
+          },
+          {
+            "q": "What should a buyer check before signing up? Where would they find it?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can tell facts from sales talk.",
+          "I can find the catch in the small print.",
+          "I can work out the cost for a year.",
+          "I can compare plans and recommend one."
+        ],
+        "questions": [
+          "A deal I'll check more carefully now:",
+          "Something I'd tell a younger brother or sister:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students read phone plan ads as persuasive texts: separating objective (fact) from subjective (opinion) language, finding the conditions in the small print, and comparing two plans by their 12-month cost. The case study is the ACCC's action over misleading NBN speed claims. The final task is a recommendation to a friend backed by facts.",
+    "prep": [
+      "Print workbooks.",
+      "Optional: screenshot two real current plans from provider websites (prices change often).",
+      "Calculators for the 12-month cost."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Big print sells",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show two real plan ads. Vote: which is cheaper? Don't reveal yet.",
+          "**Explicit teaching (10 min):** fact vs opinion; the three catches.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** Read the deal + questions.",
+          "**Annotate (10 min):** the Plan A ad."
+        ]
+      },
+      {
+        "title": "Lesson 2 — The showdown",
+        "minutes": 50,
+        "steps": [
+          "**Sort (10 min):** Fact or opinion?",
+          "**Model (10 min):** calculate Plan A's 12-month cost aloud.",
+          "**Compare (15 min):** the showdown table.",
+          "**Case study (15 min):** NBN speeds. Reveal the hook answer."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Recommend it",
+        "minutes": 50,
+        "steps": [
+          "**Write (25 min):** recommendation to Jaz.",
+          "**Level Up (10 min):** real ad analysis for fast finishers.",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Ads mix facts (checkable) and opinions (feelings).",
+      "The small print holds the conditions.",
+      "Three catches: price rises, speed drops, lock-in.",
+      "Compare the 12-month cost."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards.",
+        "Calculator and a worked example for the yearly cost."
+      ],
+      "extend": [
+        "Explain how an ad can mislead without lying.",
+        "Analyse a real ad's language and images (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LA02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Sorts ad lines into fact and opinion (sort)."
+      },
+      {
+        "vc": "VC2E4LY08",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Labels the features of a phone plan ad (annotation)."
+      },
+      {
+        "vc": "VC2E5LY08",
+        "evidence": "Explains how features of the ad (headline, star, deadline) serve its purpose (annotation, showdown table)."
+      },
+      {
+        "vc": "VC2E6LA02",
+        "evidence": "Distinguishes objective from subjective language and recognises bias (sort, case study)."
+      },
+      {
+        "vc": "VC2E6LY08",
+        "evidence": "Compares information across two plans and summarises it into a recommendation (showdown table, final mission)."
+      },
+      {
+        "vc": "VC2E7LY05",
+        "evidence": "Level Up: analyses how language shapes meaning for an audience in a real ad."
+      },
+      {
+        "vc": "VC2E8LY07",
+        "evidence": "Level Up: infers what a buyer should check and where to find it."
+      }
+    ],
+    "answers": "**Ad:** 1 headline (opinion); 2 big price with a star; 3 price rises to $55 after 6 months; 4 speed slows after 40 GB; 5 12-month contract, exit fee; 6 deadline to rush you.\n\n**Fact or opinion:** 40 GB — fact; best network — opinion; 12-month contract — fact; never want to switch — opinion; amazing value — opinion; price rises to $55 — fact.\n\n**Showdown:** Plan A 12 months = 6 × $35 + 6 × $55 = **$540**. Plan B = 12 × $40 = **$480**. Plan A: 40 GB then slow; catch = price rise, lock-in. Plan B: 30 GB, no contract, rollover. **For Jaz** (25 GB, might move in 8 months): Plan B — cheaper over a year, enough data, and no exit fee when Jaz moves.",
+    "resources": [
+      {
+        "label": "ACCC — Telcos to pay $33.5 million for misleading NBN speed claims (2022)",
+        "url": "https://www.accc.gov.au/media-release/telcos-to-pay-a-total-of-335-million-for-misleading-statements-about-nbn-maximum-speeds"
+      },
+      {
+        "label": "ACCC — NBN customers urged to check refunds",
+        "url": "https://www.accc.gov.au/media-release/nbn-customers-urged-to-check-if-theyre-entitled-to-a-refund"
+      },
+      {
+        "label": "ACCC — Phone and internet consumer rights",
+        "url": "https://www.accc.gov.au/consumers/internet-landline-and-mobile-phones"
+      }
+    ],
+    "realityCheck": [
+      "**Money can be sensitive.** Some students don't have a plan of their own, or their family is under financial stress. Keep it about the fictional Jaz, and don't ask students to share their own bills.",
+      "**The maths is light but real.** The 12-month cost trips up some students. Model one calculation and allow calculators: it's literacy, not a maths test.",
+      "**Real plans change monthly.** If you use real ads for the hook or Level Up, screenshot them the week you teach.",
+      "**Most engaging bit:** the hook vote and the reveal that the “cheaper” plan costs $60 more. Leave time for that discussion.",
+      "**Timing:** three 50-minute lessons is realistic. If you only have two, set the Level Up for home and do the case study as a whole-class read."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the ad, fewer sort cards and a shorter recommendation.",
+      "core": "Standard version: annotation, fact/opinion sort, Plan A vs Plan B showdown and a recommendation to Jaz.",
+      "extend": "Adds objective/subjective and misleading to the vocabulary, a quiz question on “up to”, a case-study question on misleading without lying, and a stricter recommendation (minimise opinion words)."
+    }
+  }
+}

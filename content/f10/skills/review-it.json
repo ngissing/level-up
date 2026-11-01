@@ -1,0 +1,910 @@
+{
+  "id": "review-it",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Before you watch a show or buy a game, you check reviews. Some help you. Others just say **“10/10 best ever!!!”** and tell you nothing.",
+      "core": "Before you watch a show, buy a game or try a new burger place, you probably check the reviews. Some reviews help you decide in ten seconds. Others just say **“10/10 best ever!!!”** and tell you nothing."
+    },
+    "why": {
+      "support": "A good review is an opinion **with reasons**. It says what is good, what is not, and who will like it. Then people trust you.",
+      "core": "A good review is an opinion **with reasons**. It tells people what's good, what's not, and who'll like it. Write reviews like that and people trust you — whether it's a game, a film or a café.",
+      "extend": "A strong review is a short piece of evaluation: a clear judgement, backed by specific evidence, using precise language about how the text works. It's the same skill you'll use to argue a point at work or justify a decision."
+    },
+    "canDo": {
+      "support": [
+        "I can give an opinion and a reason.",
+        "I can use words like plot and character.",
+        "I can set out a review in the right order.",
+        "I can write a review that helps someone."
+      ],
+      "core": [
+        "I can give an **opinion with reasons**, not just “it's good”.",
+        "I can use words like **plot, character, pacing** and **soundtrack** to explain why.",
+        "I can follow the **structure** of a review.",
+        "I can write an honest review that helps someone decide."
+      ]
+    },
+    "showIt": "Write an honest review of a film, show, game, song or book you know well, with reasons and examples.",
+    "vocab": [
+      {
+        "word": "review",
+        "meaning": "a piece of writing that says how good something is and why",
+        "example": "I read a review before I bought the game."
+      },
+      {
+        "word": "opinion",
+        "meaning": "what you think about something",
+        "example": "My opinion is that the ending was rushed."
+      },
+      {
+        "word": "reason",
+        "meaning": "why you think something",
+        "example": "My reason is that it skipped the big fight."
+      },
+      {
+        "word": "plot",
+        "meaning": "what happens in a story",
+        "example": "The plot has a huge twist."
+      },
+      {
+        "word": "character",
+        "meaning": "a person (or creature) in a story",
+        "example": "The main character is funny."
+      },
+      {
+        "word": "verdict",
+        "meaning": "your final judgement",
+        "example": "Verdict: 4 stars."
+      },
+      {
+        "word": "pacing",
+        "meaning": "how fast or slow a story moves",
+        "example": "The pacing drags in the middle.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "spoiler",
+        "meaning": "telling people what happens before they see it",
+        "example": "No spoilers, please!",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "evaluate",
+        "meaning": "judge how good something is, with evidence",
+        "example": "Evaluate the game, don't just rate it.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "genre",
+        "meaning": "a type of story, like horror or comedy",
+        "example": "Fans of the genre will love it.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Review It in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Review It",
+        "sub": "Rate games, films and food like a critic.",
+        "icon": "lucide:star",
+        "say": "Review it. Rate games, films and food like a critic."
+      },
+      {
+        "kind": "big",
+        "title": "Opinion + reason + example",
+        "text": "**It's good** → **It's good because…** → **for example…**",
+        "icon": "lucide:message-square-quote",
+        "say": "An opinion on its own is just noise. Add a reason and an example, and people listen.",
+        "vc": [
+          "VC2E5LA02",
+          "VC2E4LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "W",
+        "pill": "Critic tool",
+        "pillIcon": "lucide:star",
+        "title": "Critic words",
+        "text": "Plot. Character. Pacing. Soundtrack.",
+        "icon": "lucide:book-open",
+        "say": "Use the right words. Plot, character, setting, pacing, soundtrack, gameplay. They show you know what you're talking about.",
+        "vc": [
+          "VC2E5LE02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "F",
+        "pill": "Critic tool",
+        "pillIcon": "lucide:star",
+        "title": "Be fair",
+        "text": "Good **and** not so good.",
+        "icon": "lucide:scale",
+        "say": "Be fair. Say what's good and what isn't. No review is all ten out of ten.",
+        "vc": [
+          "VC2E7LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "S",
+        "pill": "Critic tool",
+        "pillIcon": "lucide:star",
+        "title": "No spoilers",
+        "text": "Enough to decide. Not the ending.",
+        "icon": "lucide:eye-off",
+        "say": "No spoilers. Tell people enough to decide, not the ending.",
+        "vc": [
+          "VC2E5LE02"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "The shape of a review",
+        "steps": [
+          "Verdict",
+          "What it’s about",
+          "The good",
+          "The not so good",
+          "Who it’s for"
+        ],
+        "say": "Most reviews follow the same shape. Verdict, what it's about, the good, the not so good, and who it's for.",
+        "vc": [
+          "VC2E5LY10",
+          "VC2E4LE02"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Honest. Specific. Helpful.",
+        "icon": "lucide:pen-line",
+        "say": "Your mission. Review something you know well, honestly, so it helps someone decide."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "What makes a review worth reading",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A **review** says how good something is and **why**. It could be a film, a game, a song or a café.\n\nA good review gives **reasons**:\n\n- *It's boring.* (No reason. Not helpful.)\n- *It's boring because the middle is slow.* (Better.)\n- *It's boring because the middle is slow. Nothing happens for 20 minutes.* (Best!)\n\nUse critic words: **plot**, **character**, **setting**, **music**.\n\nA review has a shape:\n\n1. **Verdict** — your rating.\n2. **What it's about** — no spoilers!\n3. **The good.**\n4. **The not so good.**\n5. **Who will like it.**\n\nBe **honest**. If everything gets 5 stars, stars mean nothing.",
+          "core": "A **review** is a short piece of writing that judges something — a film, game, song, book or café — and says **why**.\n\nThe big difference between a useless review and a good one is **reasons**:\n\n- **Bare opinion:** *It's boring.*\n- **Opinion + reason:** *It's boring because the middle drags.*\n- **Opinion + reason + example:** *It's boring because the middle drags — there's a 20-minute training montage where nothing happens.*\n\nCritics use **precise words** about how the text works: **plot**, **character**, **setting**, **pacing**, **soundtrack**, **visuals** or, for games, **gameplay** and **controls**.\n\nMost reviews follow the same shape:\n\n1. **Verdict** — your overall judgement, up front.\n2. **What it's about** — a quick summary, with **no spoilers**.\n3. **The good** — with examples.\n4. **The not so good** — be fair.\n5. **Who it's for** — *If you liked…, you'll like this.*\n\nThe best reviews are **honest**. If everything gets five stars, the stars mean nothing.",
+          "extend": "A **review** is a short piece of evaluation. It makes a judgement about a work and **backs it up** with evidence.\n\nThe gap between a throwaway comment and a useful review is the backing:\n\n- **Bare claim:** *It's boring.*\n- **Claim + reason:** *It's boring because the middle drags.*\n- **Claim + reason + evidence:** *The middle drags. A twenty-minute training montage adds nothing to the plot or the characters.*\n\nCritics use **metalanguage**: exact words for how a text works, like **plot**, **character**, **setting**, **pacing**, **tone**, **soundtrack**, or **gameplay** for games. Judging words (*gripping*, *clumsy*, *forgettable*) only convince when an example backs them up.\n\nMost reviews follow the same shape: verdict, a summary with no spoilers, strengths, weaknesses, and who it's for.\n\nAbove all, a review is a promise of honesty. When reviews are faked or filtered, every reader is misled."
+        },
+        "vc": [
+          "VC2E5LA02",
+          "VC2E5LE02",
+          "VC2E4LE02",
+          "VC2E7LA02",
+          "VC2E4LA02"
+        ],
+        "vcNote": "Opinions with reasons and evidence; metalanguage; the structure of a review."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The reviews that went missing",
+        "icon": "lucide:message-square-x",
+        "body": {
+          "support": "**Meriton** runs apartments for travellers. After a stay, a website called **TripAdvisor** emailed guests to ask for a review.\n\nFor almost a year, Meriton staff hid the emails of guests who might write a **bad review**. Those guests never got asked. So only the happy guests wrote reviews.\n\nThe **ACCC** looks out for shoppers. It took Meriton to court. In **2018**, the court made Meriton pay **$3 million**.\n\nWhy? People trusted the reviews. But the reviews didn't show the whole truth.",
+          "core": "**Meriton** is a big Australian company that runs serviced apartments. After guests stayed, **TripAdvisor** emailed them asking for a review.\n\nFrom **November 2014 to October 2015**, Meriton staff changed or hid the email addresses of guests they thought might leave a **bad review**. So those guests never got the email, and never wrote the review. The good reviews kept coming.\n\nThe **ACCC**, which protects shoppers, took Meriton to court. The court found Meriton had misled people. In **2018** it ordered Meriton to pay **$3 million**.\n\nWhy does it matter? People booked rooms trusting the reviews. But the reviews didn't show the full picture.",
+          "extend": "**Meriton**, a major Australian property company, operates serviced apartments. After each stay, **TripAdvisor** emailed guests inviting them to post a review.\n\nFrom **November 2014 to October 2015**, Meriton staff changed or hid the email addresses of guests they thought would complain. Those guests never got the invitation. Good reviews kept coming; bad ones were quietly filtered out.\n\nThe **ACCC** took the case to the Federal Court, which found Meriton had misled people. In **2018** Meriton was ordered to pay **$3 million** in penalties, and was barred from filtering the guest emails it sent to TripAdvisor for three years. The ACCC called it a first-of-its-kind case.\n\nNo review was faked, yet readers were still misled. Honesty in reviews isn't only about what's written. It's also about whose voices get heard."
+        },
+        "source": {
+          "name": "ACCC — “Meriton to pay $3 million for misleading consumers on TripAdvisor” (2018)",
+          "url": "https://www.accc.gov.au/media-release/meriton-to-pay-3-million-for-misleading-consumers-on-tripadvisor"
+        },
+        "think": {
+          "support": [
+            "What did Meriton do?",
+            "Why was it unfair?"
+          ],
+          "core": [
+            "What did Meriton do, and why was it a problem?",
+            "How were travellers misled, even though no review was fake?",
+            "Why do honest reviews matter to everyone?"
+          ]
+        },
+        "vc": [
+          "VC2E5LA02"
+        ],
+        "vcNote": "Why reviews need to be honest and representative: authoritative sources and differing opinions."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a review",
+      "docTitle": "REVIEW: “NIGHT SHIFT” (GAME) ★★★★☆ — EXAMPLE",
+      "vc": [
+        "VC2E5LE02",
+        "VC2E4LE02"
+      ],
+      "vcNote": "The structure and language features of a review.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Verdict",
+          "value": "A tense, clever horror game with one big flaw.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "What it's about",
+          "value": "You work nights at a servo where things go wrong after 2 am."
+        },
+        {
+          "n": 3,
+          "label": "The good",
+          "value": "The soundtrack is mostly silence, so every creak makes you jump."
+        },
+        {
+          "n": 4,
+          "label": "The not so good",
+          "value": "The controls feel slow when you need to run."
+        },
+        {
+          "n": 5,
+          "label": "Who it's for",
+          "value": "If you liked Five Nights at Freddy's, play this — with the lights on."
+        },
+        {
+          "n": 6,
+          "label": "Rating",
+          "value": "4 out of 5"
+        }
+      ],
+      "note": "Made-up game, for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Verdict",
+          "note": "Overall judgement first."
+        },
+        {
+          "n": 2,
+          "label": "Summary",
+          "note": "Enough to decide — no spoilers."
+        },
+        {
+          "n": 3,
+          "label": "Strength + reason",
+          "note": "Says what works and why (soundtrack → tension)."
+        },
+        {
+          "n": 4,
+          "label": "Weakness",
+          "note": "Fair, specific criticism."
+        },
+        {
+          "n": 5,
+          "label": "Audience",
+          "note": "Tells you who will like it."
+        },
+        {
+          "n": 6,
+          "label": "Rating",
+          "note": "Matches the words above."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "The shape of a review",
+      "steps": [
+        {
+          "title": "Verdict",
+          "text": "Your judgement, up front.",
+          "icon": "lucide:gavel"
+        },
+        {
+          "title": "About",
+          "text": "Quick summary, no spoilers.",
+          "icon": "lucide:info"
+        },
+        {
+          "title": "Good / not so good",
+          "text": "Reasons + examples.",
+          "icon": "lucide:scale"
+        },
+        {
+          "title": "Who for",
+          "text": "If you liked… you'll like this.",
+          "icon": "lucide:users"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is the most helpful review line?",
+        "options": [
+          "The pacing drags — nothing happens for the first 20 minutes.",
+          "It's bad.",
+          "10/10!!!",
+          "I didn't like it."
+        ],
+        "answer": 0,
+        "explain": "Opinion + reason + example.",
+        "vc": [
+          "VC2E5LA02",
+          "VC2E4LA02"
+        ]
+      },
+      {
+        "q": "What is a **spoiler**?",
+        "options": [
+          "Telling people what happens before they see it",
+          "A bad review",
+          "A rating",
+          "The main character"
+        ],
+        "answer": 0,
+        "explain": "Reviews should help people decide, not ruin the ending.",
+        "vc": [
+          "VC2E5LE02"
+        ]
+      },
+      {
+        "q": "What usually comes **first** in a review?",
+        "options": [
+          "The verdict",
+          "The ending",
+          "The price of popcorn",
+          "A spoiler"
+        ],
+        "answer": 0,
+        "explain": "Lead with your judgement.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "q": "What did Meriton do?",
+        "options": [
+          "Stopped some unhappy guests from being asked to review",
+          "Wrote fake five-star reviews",
+          "Paid guests for reviews",
+          "Deleted TripAdvisor"
+        ],
+        "answer": 0,
+        "explain": "It masked guests' emails so they weren't invited to review.",
+        "vc": [
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "q": "Which word is **metalanguage** a critic would use?",
+        "options": [
+          "Pacing",
+          "Awesome",
+          "Stuff",
+          "Thing"
+        ],
+        "answer": 0,
+        "explain": "Pacing names how a story works.",
+        "vc": [
+          "VC2E5LE02"
+        ]
+      },
+      {
+        "q": "Why should a fair review include a weakness?",
+        "options": [
+          "It shows you've judged it carefully, so readers trust you",
+          "To be mean",
+          "Because it's required by law",
+          "It shouldn't"
+        ],
+        "answer": 0,
+        "explain": "Balance builds credibility.",
+        "vc": [
+          "VC2E7LA02"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Review a film, show, game or song you know. Give your rating, the good, the not so good, and who will like it.",
+      "core": "Write an honest review of a film, show, game, song or book you know well. Use the review structure, critic words, and reasons with examples.",
+      "extend": "Write a review of a text you know well that substantiates every judgement with specific evidence, uses precise metalanguage, and acknowledges a view different from yours."
+    },
+    "checklist": [
+      "I gave a verdict and a rating",
+      "I used reasons and examples, not just “good” or “bad”",
+      "I used at least two critic words",
+      "I said who it's for — and no spoilers"
+    ],
+    "levelUp": "Find a professional review of the same thing. Where do you agree and disagree? Whose reasons are stronger?",
+    "vc": [
+      "VC2E5LY10",
+      "VC2E5LE02"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: What makes a review worth reading",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What's the difference between a **bare opinion** and a helpful one?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA02",
+              "VC2E4LA02"
+            ]
+          },
+          {
+            "q": "List **four critic words** from the article.",
+            "lines": 0,
+            "vc": [
+              "VC2E5LE02"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "Why should a review be honest?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Bare opinion or backed up?",
+        "pagebreak": true,
+        "choices": [
+          "Bare opinion",
+          "Backed up"
+        ],
+        "reasonLabel": "Fix or reason:",
+        "instructions": "Tick whether each line is a bare opinion or backed up. If it's bare, add a reason.",
+        "cards": [
+          {
+            "from": "Review",
+            "text": "Worst movie ever.",
+            "answer": "Bare opinion",
+            "flags": "Add why: e.g. the plot makes no sense."
+          },
+          {
+            "from": "Review",
+            "text": "The jokes land because the characters actually react to each other.",
+            "answer": "Backed up",
+            "flags": "Reason given."
+          },
+          {
+            "from": "Review",
+            "text": "The burger was huge but the bun went soggy in five minutes.",
+            "answer": "Backed up",
+            "flags": "Specific detail."
+          },
+          {
+            "from": "Review",
+            "text": "This song slaps.",
+            "answer": "Bare opinion",
+            "flags": "Add why: the beat, the lyrics?"
+          },
+          {
+            "from": "Review",
+            "text": "The open world looks great, but the map is confusing.",
+            "answer": "Backed up",
+            "flags": "Strength and weakness.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Review",
+            "text": "Everyone should watch it.",
+            "answer": "Bare opinion",
+            "flags": "Who exactly, and why?",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LA02",
+          "VC2E4LA02"
+        ],
+        "vcNote": "Moving beyond bare assertions."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a review",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the review. Use the word bank. Write what it is.",
+          "core": "Each number marks part of the review. Write what it is and what it does for the reader."
+        },
+        "columns": [
+          "What is it?",
+          "What does it do for the reader?"
+        ],
+        "wordBank": {
+          "support": [
+            "verdict",
+            "summary",
+            "the good",
+            "the not so good",
+            "who it's for",
+            "rating"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LE02",
+          "VC2E4LE02"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Upgrade the opinion",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 34,
+          "core": 30
+        },
+        "instructions": "Upgrade each bare opinion with a **reason** and an **example**. Use a critic word. The first one is done for you.",
+        "columns": [
+          "Bare opinion",
+          "Upgraded: reason + example"
+        ],
+        "rows": [
+          [
+            "The ending was bad.",
+            "The ending felt rushed: the villain is beaten in one minute after two hours of build-up."
+          ],
+          [
+            "The game is fun.",
+            ""
+          ],
+          [
+            "The song is sad.",
+            ""
+          ],
+          {
+            "cells": [
+              "The main character is annoying.",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LE02",
+          "VC2E7LA02",
+          "VC2E3LE02"
+        ],
+        "vcNote": "Substantiating opinions with reasons, evidence and metalanguage."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the reviews that went missing",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did Meriton staff do with some guests' emails?",
+            "lines": 2
+          },
+          {
+            "q": "No review was fake. So why did the court say people were misled?",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VC2E5LA02"
+            ]
+          },
+          {
+            "q": "How can you tell if online reviews might not be the whole story?",
+            "lines": 3,
+            "vc": [
+              "VC2E5LA02"
+            ]
+          },
+          {
+            "q": "Should businesses be allowed to reply to bad reviews? Give a reason and an example.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA02"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: write your review",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Review a film, show, game, song or food place you know. Make it honest and helpful.",
+          "core": "Review a film, show, game, song, book or food place you know well. Make it honest and helpful.",
+          "extend": "Review a film, show, game, song or book you know well. Back every judgement with specific evidence, use precise critic words, and acknowledge what someone who disagrees might say."
+        },
+        "plan": [
+          {
+            "label": "What I'm reviewing + my verdict:",
+            "lines": 1
+          },
+          {
+            "label": "The good (reason + example):",
+            "lines": 2
+          },
+          {
+            "label": "The not so good (reason + example):",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "Verdict:",
+          "It's about…",
+          "What works is… For example,…",
+          "The weak spot is…",
+          "If you liked…, you'll…"
+        ],
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "verdict + rating",
+          "reasons and examples",
+          "two critic words",
+          "who it's for",
+          "no spoilers"
+        ],
+        "vc": [
+          "VC2E5LY10",
+          "VC2E5LE02",
+          "VC2E3LE02"
+        ],
+        "vcNote": "Creating a review with a clear structure for its audience."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Find a professional review of the same thing (a newspaper, a game site, a YouTube critic).",
+        "items": [
+          {
+            "q": "Where do you **agree**? Where do you **disagree**?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LE02"
+            ]
+          },
+          {
+            "q": "Copy two **evaluative** words or phrases the critic uses. Are they backed up?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA02"
+            ]
+          },
+          {
+            "q": "Whose reasons are stronger, yours or theirs? Why?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LE02",
+              "VC2E8LE02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can give an opinion with reasons.",
+          "I can use critic words.",
+          "I can follow the structure of a review.",
+          "I can write an honest, helpful review."
+        ],
+        "questions": [
+          "Something I'll review next:",
+          "A review that helped me decide:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn that a review is an evaluative text: a verdict substantiated by reasons and examples, using metalanguage about plot, character, pacing and sound. They upgrade bare opinions, annotate a review's structure, and write their own review of a text they know well. The case study is the ACCC's $3 million case against Meriton for filtering who could post TripAdvisor reviews.",
+    "prep": [
+      "Print workbooks.",
+      "Collect 2–3 short real reviews (film, game, food) at different quality levels. Rotten Tomatoes snippets or Google reviews work well.",
+      "Check students' choices of text to review are school-appropriate."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Opinions with reasons",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show a useless review and a useful one for the same thing. Which would you trust?",
+          "**Explicit teaching (10 min):** opinion → reason → example; critic words.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** bare or backed up?"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Shape and honesty",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the Night Shift review.",
+          "**Upgrade (15 min):** model one aloud, then pairs.",
+          "**Case study (20 min):** Meriton; discuss whether online reviews can be trusted.",
+          "**Choose (5 min):** pick what you'll review."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write it",
+        "minutes": 50,
+        "steps": [
+          "**Write (25 min):** final mission. Option: read reviews aloud in pairs.",
+          "**Level Up (10 min):** compare with a professional review.",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Opinion + reason + example.",
+      "Use critic words (metalanguage).",
+      "Verdict → about → good → not so good → who it's for.",
+      "Honest reviews only help if they're the whole picture."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and rows.",
+        "Review a song or food place (shorter, familiar)."
+      ],
+      "extend": [
+        "Acknowledge an opposing view in the review.",
+        "Compare with a professional critic (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LE02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Gives reasons for personal preferences, linked to their own experience (upgrade table, review)."
+      },
+      {
+        "vc": "VC2E4LA02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Distinguishes opinions from facts and feelings (sort)."
+      },
+      {
+        "vc": "VC2E4LE02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Describes how structure and language features affect the reader (annotation)."
+      },
+      {
+        "vc": "VC2E5LE02",
+        "evidence": "Forms and shares an opinion using metalanguage (upgrade table, final review)."
+      },
+      {
+        "vc": "VC2E5LA02",
+        "evidence": "Moves beyond bare assertions; recognises why representative sources matter (sort, case study)."
+      },
+      {
+        "vc": "VC2E5LY10",
+        "evidence": "Creates a structured review for an audience (final mission)."
+      },
+      {
+        "vc": "VC2E7LE02",
+        "evidence": "Level Up: identifies agreement and difference with a professional review and justifies a response."
+      },
+      {
+        "vc": "VC2E7LA02",
+        "evidence": "Uses and evaluates the language of evaluation and substantiation (upgrade table, Level Up)."
+      },
+      {
+        "vc": "VC2E8LE02",
+        "evidence": "Level Up: explores opinions about the features that shape a text's style."
+      }
+    ],
+    "answers": "**Sort:** Worst movie ever — bare; jokes land because… — backed; burger huge but bun soggy — backed; song slaps — bare; open world/map — backed; everyone should watch — bare.\n\n**Review annotation:** 1 verdict; 2 spoiler-free summary; 3 strength with reason (silence → tension); 4 weakness; 5 audience/recommendation; 6 rating.\n\n**Case study:** staff masked emails of guests likely to complain, so they weren't invited to review; readers saw a filtered, overly positive picture, so they were misled even though no review was fake.",
+    "resources": [
+      {
+        "label": "ACCC — Meriton to pay $3 million for misleading consumers on TripAdvisor (2018)",
+        "url": "https://www.accc.gov.au/media-release/meriton-to-pay-3-million-for-misleading-consumers-on-tripadvisor"
+      },
+      {
+        "label": "ACCC — Online reviews: a guide for business and review platforms",
+        "url": "https://www.accc.gov.au/business/advertising-and-promotions/online-reviews"
+      }
+    ],
+    "realityCheck": [
+      "**Students love this one.** It's their own taste, and every student has something they're an expert in. That makes it a strong starter for reluctant writers.",
+      "**Watch the choice of text.** Some students will pick M or R-rated films or games. Decide your rule in advance, e.g. it must be OK to talk about in class.",
+      "**The literary codes are real, but light.** It counts as responding to literary texts if they review a film, show, game story, song or book. A café review practises the skills but is weaker evidence for the Literature codes, so steer students towards a text.",
+      "**The case study is about businesses, not teens.** It connects well if you open with “have you ever trusted reviews to pick something?”",
+      "**Works in a real class:** yes, with almost no prep. Reading reviews aloud in pairs is a quick, low-stakes speaking task too."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank, fewer sort cards and rows; reviewing a song or food place is fine.",
+      "core": "Standard version: sort, annotation, upgrade table, Meriton case study and a structured review of a text.",
+      "extend": "Adds evaluate and genre, a quiz question on balance, acknowledging an opposing view, and comparing with a professional review."
+    }
+  }
+}

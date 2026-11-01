@@ -1,0 +1,930 @@
+{
+  "id": "safety-first",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Your first shift. It's busy and loud. There are signs everywhere. Someone says, “Grab the cleaner from out the back.” Which one? Do you need gloves?",
+      "core": "Your first shift. The boss is busy, the place is loud, and there are signs everywhere. Someone says, “Just grab the cleaner from out the back.” Which bottle? Gloves? What does that yellow triangle mean?"
+    },
+    "why": {
+      "support": "New workers are keen and in a hurry. That's when people get hurt. Safety signs and steps are texts that keep you safe. Read them fast and right.",
+      "core": "Young workers are new, keen and often in a hurry — and that's when people get hurt. Safety signs and procedures are texts written to keep you in one piece. Reading them fast and right is a real-life skill.",
+      "extend": "New workers are injured at higher rates than experienced ones, often because nobody explained the risks or they didn't feel able to ask. Safety signs and procedures are carefully designed texts: their colours, symbols, order and wording all do a job."
+    },
+    "canDo": {
+      "support": [
+        "I can tell what a safety sign means.",
+        "I can follow safety steps in order.",
+        "I can use words like first, then and if.",
+        "I can write steps for a job I know."
+      ],
+      "core": [
+        "I can read **safety signs** by their colour and shape.",
+        "I can follow a **safe work procedure** step by step.",
+        "I can use words like **first, then, if** and **before** to make steps clear.",
+        "I can write a short procedure for a job I know."
+      ]
+    },
+    "showIt": "Write a safe work procedure, with a sign, for a real job you know.",
+    "vocab": [
+      {
+        "word": "hazard",
+        "meaning": "something that could hurt you",
+        "example": "Wet floors are a hazard."
+      },
+      {
+        "word": "procedure",
+        "meaning": "a set of steps for doing a job safely",
+        "example": "Follow the procedure for the fryer."
+      },
+      {
+        "word": "PPE",
+        "meaning": "safety gear you wear, like gloves or goggles",
+        "example": "Put on your PPE first."
+      },
+      {
+        "word": "warning",
+        "meaning": "a message that tells you about danger",
+        "example": "The warning sign was yellow."
+      },
+      {
+        "word": "symbol",
+        "meaning": "a picture that stands for something",
+        "example": "The flame symbol means it can catch fire."
+      },
+      {
+        "word": "supervisor",
+        "meaning": "the person in charge who checks your work",
+        "example": "Ask your supervisor if you're not sure."
+      },
+      {
+        "word": "mandatory",
+        "meaning": "you must do it",
+        "example": "Ear protection is mandatory here.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "prohibited",
+        "meaning": "not allowed",
+        "example": "Phones are prohibited near the machine.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "risk",
+        "meaning": "how likely it is that a hazard will hurt someone",
+        "example": "Rushing raises the risk.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "induction",
+        "meaning": "training on your first day at a new workplace",
+        "example": "The induction showed us the exits.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Safety First in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Safety First at Work",
+        "sub": "Signs, steps and staying in one piece.",
+        "icon": "lucide:hard-hat",
+        "say": "Safety first at work. Signs, steps and staying in one piece."
+      },
+      {
+        "kind": "big",
+        "title": "Colours and shapes",
+        "text": "Read a sign in **one second**.",
+        "icon": "lucide:triangle-alert",
+        "say": "Safety signs talk in colours and shapes, so you can read them in a second.",
+        "vc": [
+          "VC2E3LA10",
+          "VC2E5LA03"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "✕",
+        "pill": "Sign",
+        "pillIcon": "lucide:triangle-alert",
+        "title": "Red: don’t",
+        "text": "Red circle + line = **not allowed**.",
+        "icon": "lucide:ban",
+        "say": "Red circle with a line. Don't do it.",
+        "vc": [
+          "VC2E3LA10"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "!",
+        "pill": "Sign",
+        "pillIcon": "lucide:triangle-alert",
+        "title": "Blue: must",
+        "text": "Blue circle = **you must**.",
+        "icon": "lucide:hard-hat",
+        "say": "Blue circle. You must do it, like wear ear protection.",
+        "vc": [
+          "VC2E3LA10"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "▲",
+        "pill": "Sign",
+        "pillIcon": "lucide:triangle-alert",
+        "title": "Yellow: warning",
+        "text": "Yellow triangle = **danger nearby**.",
+        "icon": "lucide:triangle-alert",
+        "say": "Yellow triangle. Warning. Danger nearby.",
+        "vc": [
+          "VC2E3LA10"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "+",
+        "pill": "Sign",
+        "pillIcon": "lucide:triangle-alert",
+        "title": "Green: safe",
+        "text": "Green = **first aid, exits**.",
+        "icon": "lucide:cross",
+        "say": "Green. Safety and emergency, like first aid and exits.",
+        "vc": [
+          "VC2E3LA10"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Order words",
+        "steps": [
+          "First…",
+          "Then…",
+          "Before…",
+          "If …, stop."
+        ],
+        "say": "Procedures use order words. First, then, before, after. And if words: if it's hot, stop.",
+        "vc": [
+          "VC2E4LA04",
+          "VC2E5LA04"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Write the procedure. Make the sign. Always ask.",
+        "icon": "lucide:clipboard-check",
+        "say": "Your mission. Write a safe work procedure, with a sign, for a job you know. And remember: if you're not sure, ask."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Signs and steps that keep you safe",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Workplaces have **signs** and **steps** to keep you safe.\n\n**Signs** use colours and shapes:\n\n- **Red circle with a line**: not allowed.\n- **Blue circle**: you **must** do it.\n- **Yellow triangle**: **danger** nearby.\n- **Green**: first aid and exits.\n\nA **procedure** is a list of safe steps. It has a title. It tells you what gear to wear. Then it has numbered steps.\n\nThe steps use order words: *first*, *then*, *after*. They use **if** words too: *If the oil spits, step back.*\n\nThe big rule: **if you're not sure, ask.**",
+          "core": "Workplaces use two kinds of safety text: **signs** and **procedures**.\n\n**Signs** are built to be read in a second, so they use colour and shape:\n\n- **Red circle with a line**: not allowed (*No smoking*).\n- **Blue circle**: you **must** do this (*Wear ear protection*).\n- **Yellow triangle**: **warning**, there's a hazard nearby (*Hot surface*).\n- **Green**: safety and emergency (*First aid*, *Exit*).\n\nA **procedure** tells you how to do a job safely. Most follow the same stages: a **title**, the **PPE** you need, the **hazards**, then numbered **steps**.\n\nThe steps use **order words** like *first*, *then*, *before* and *after*, so you know the sequence. They also use **if** words: *If the oil spits, step back.* Those are the steps that save fingers.\n\nAnd the most important rule isn't on any sign: **if you're not sure, ask.** You have the right to be trained and supervised.",
+          "extend": "Workplaces rely on two kinds of safety text: **signs** and **procedures**.\n\n**Signs** are designed to be understood in a glance, so they use a standard code of colour and shape:\n\n- **Red circle with a diagonal line**: prohibited (*No smoking*).\n- **Blue circle**: mandatory (*Wear ear protection*).\n- **Yellow triangle**: warning, a hazard is present (*Hot surface*).\n- **Green**: safe conditions and emergency information (*First aid*, *Exit*).\n\nA **safe work procedure** is organised into predictable stages: title, PPE, hazards, then numbered steps. Its language is precise and cohesive. Time connectives (*first*, *before*, *once*) set the sequence, and conditional connectives (*if*, *unless*, *when*) mark the moments where you must stop or change what you're doing.\n\nNone of this works if workers feel unable to speak up. Under Victorian law, employers must provide training and supervision, and you are entitled to ask."
+        },
+        "vc": [
+          "VC2E5LA03",
+          "VC2E4LA03",
+          "VC2E4LA04",
+          "VC2E5LA04",
+          "VC2E3LA10"
+        ],
+        "vcNote": "How safety signs use images and colour, and how procedures are staged and sequenced with connectives."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Two injuries in one day",
+        "icon": "lucide:hard-hat",
+        "body": {
+          "support": "In 2022, **WorkSafe Victoria** told the story of a **16-year-old apprentice**.\n\nOn a building site, he was hurt **two times in one day**. Another worker fired a **nail gun**. The nail went into the apprentice's head. He was in hospital for a week.\n\nThe company did not report it. It even **hid the nail guns** from the safety inspectors.\n\nA court fined the company **$130,000**.\n\nYoung workers must be trained and watched over. And they have the right to speak up.",
+          "core": "In December 2022, **WorkSafe Victoria** reported a court case about a **16-year-old apprentice carpenter**.\n\nOn a building site in Glen Waverley, the apprentice was hurt **twice in one day**. In the second incident, he and a more experienced worker were at opposite ends of a doorframe. The other worker fired a **nail gun**. The nail went into the apprentice's forehead and through his skull. He spent a week in hospital.\n\nThe company didn't report either injury, which the law says it must. It was found guilty of **eight charges**. These included not having a safe way of working, and **hiding the nail guns** from inspectors. It was fined **$130,000**.\n\nWorkSafe's message: young workers need training, supervision and a safe system of work — and they have the right to speak up.",
+          "extend": "In December 2022, **WorkSafe Victoria** reported the result of a court case about a **16-year-old apprentice carpenter**.\n\nOn a Glen Waverley building site, the apprentice was injured **twice in one day**. In the second incident, he and a more experienced worker were at opposite ends of a doorframe. The other worker fired a **nail gun**. The nail went into the apprentice's forehead and through his skull. He spent a week in hospital.\n\nNeither incident was reported to WorkSafe, as the law requires. The company was convicted on **eight charges**. They included failing to provide a safe system of work, and getting in the way of the inquiry by **hiding the nail guns** from inspectors. It was fined **$130,000**.\n\nThe case shows why procedures, supervision and reporting exist. Each one could have stopped an injury."
+        },
+        "source": {
+          "name": "WorkSafe Victoria — “$130,000 fine after nail penetrates teen's skull” (December 2022)",
+          "url": "https://www.worksafe.vic.gov.au/news/2022-12/130000-fine-after-nail-penetrates-teens-skull"
+        },
+        "think": {
+          "support": [
+            "What went wrong?",
+            "What could have stopped it?"
+          ],
+          "core": [
+            "What went wrong, and what could have stopped it?",
+            "Why does reporting an injury matter?",
+            "What would you do if you felt unsafe at work?"
+          ]
+        },
+        "vc": [
+          "VC2E5LA03"
+        ],
+        "vcNote": "Why procedures and safe systems of work matter; a real Victorian case."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a safe work procedure",
+      "docTitle": "SAFE WORK PROCEDURE: EMPTYING THE DEEP FRYER",
+      "vc": [
+        "VC2E5LA03",
+        "VC2E4LA03"
+      ],
+      "vcNote": "The stages and features of a procedural text.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "PPE",
+          "value": "Heat-proof gloves, apron, closed shoes"
+        },
+        {
+          "n": 2,
+          "label": "Hazards",
+          "value": "Hot oil (burns), slippery floor"
+        },
+        {
+          "n": 3,
+          "label": "Step 1",
+          "value": "First, turn the fryer off and wait 2 hours for the oil to cool."
+        },
+        {
+          "n": 4,
+          "label": "Step 2",
+          "value": "Before you drain it, put the oil container under the tap."
+        },
+        {
+          "n": 5,
+          "label": "Step 3",
+          "value": "If any oil spills, stop and put out a wet-floor sign.",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Step 4",
+          "value": "After draining, tell your supervisor it's done."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "PPE",
+          "note": "Gear to put on before you start."
+        },
+        {
+          "n": 2,
+          "label": "Hazards",
+          "note": "What could hurt you."
+        },
+        {
+          "n": 3,
+          "label": "Order word: first",
+          "note": "Sets the order. “Wait 2 hours” is exact."
+        },
+        {
+          "n": 4,
+          "label": "Order word: before",
+          "note": "Do this before the next step."
+        },
+        {
+          "n": 5,
+          "label": "If word",
+          "note": "Tells you when to stop and what to do."
+        },
+        {
+          "n": 6,
+          "label": "Report back",
+          "note": "Closes the job safely."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Before you start any job",
+      "steps": [
+        {
+          "title": "Read",
+          "text": "Signs and the procedure.",
+          "icon": "lucide:book-open"
+        },
+        {
+          "title": "Gear up",
+          "text": "Put on the PPE.",
+          "icon": "lucide:hard-hat"
+        },
+        {
+          "title": "Check",
+          "text": "Hazards? Anything wrong?",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Ask",
+          "text": "Not sure? Ask before you start.",
+          "icon": "lucide:message-circle-question"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "A **blue circle** sign means…",
+        "options": [
+          "You must do this",
+          "Danger nearby",
+          "Not allowed",
+          "First aid"
+        ],
+        "answer": 0,
+        "explain": "Blue circle = mandatory.",
+        "vc": [
+          "VC2E3LA10"
+        ]
+      },
+      {
+        "q": "A **yellow triangle** sign means…",
+        "options": [
+          "Warning: a hazard is nearby",
+          "You must do this",
+          "Exit",
+          "Not allowed"
+        ],
+        "answer": 0,
+        "explain": "Yellow triangle = warning.",
+        "vc": [
+          "VC2E3LA10"
+        ]
+      },
+      {
+        "q": "Which word shows **order** in a procedure?",
+        "options": [
+          "Before",
+          "Hot",
+          "Gloves",
+          "Fryer"
+        ],
+        "answer": 0,
+        "explain": "Before, first, then, after = order words.",
+        "vc": [
+          "VC2E4LA04",
+          "VC2E5LA04"
+        ]
+      },
+      {
+        "q": "“**If** the oil spits, step back.” Why use **if**?",
+        "options": [
+          "It tells you when to stop or change what you're doing",
+          "It sounds polite",
+          "It makes it longer",
+          "It's a hazard"
+        ],
+        "answer": 0,
+        "explain": "If-steps are where you react to danger.",
+        "vc": [
+          "VC2E5LA04"
+        ]
+      },
+      {
+        "q": "In the WorkSafe case, what did the company do after the injuries?",
+        "options": [
+          "Didn't report them and hid the nail guns",
+          "Called WorkSafe straight away",
+          "Gave the apprentice a raise",
+          "Wrote a new procedure"
+        ],
+        "answer": 0,
+        "explain": "Both incidents went unreported.",
+        "vc": [
+          "VC2E5LA03"
+        ]
+      },
+      {
+        "q": "Why put **PPE** near the start of a procedure?",
+        "options": [
+          "You need it on before you begin",
+          "It's the least important",
+          "It's the hazard",
+          "It doesn't matter where"
+        ],
+        "answer": 0,
+        "explain": "Procedures are staged in the order you need them.",
+        "vc": [
+          "VC2E7LA03"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write safe steps for a job you know. Add the gear, the hazards and a sign.",
+      "core": "Write a safe work procedure for a job you know, with PPE, hazards, ordered steps, an “if” step and a safety sign.",
+      "extend": "Write a safe work procedure for a job you know, using clear stages, time and conditional connectives, and a safety sign that matches the standard colours and shapes."
+    },
+    "checklist": [
+      "My procedure has a title, PPE and hazards",
+      "My steps are numbered and use order words",
+      "I included at least one “if” step",
+      "I drew a sign with the right colour and shape"
+    ],
+    "levelUp": "Find a real safety sign or poster at school or work. Explain how its colours, pictures and words work together, and how you'd improve it.",
+    "vc": [
+      "VC2E5LY10",
+      "VC2E5LA03"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Signs and steps that keep you safe",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What do the four colours of safety sign mean?",
+            "lines": 0,
+            "vc": [
+              "VC2E3LA10"
+            ],
+            "boxes": [
+              "Red",
+              "Blue",
+              "Yellow",
+              "Green"
+            ]
+          },
+          {
+            "q": "What are the **stages** of a safe work procedure?",
+            "lines": 2,
+            "vc": [
+              "VC2E4LA03",
+              "VC2E5LA03"
+            ]
+          },
+          {
+            "q": "Why do procedures use **if** words?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA04"
+            ]
+          },
+          {
+            "q": "What's the most important safety rule that isn't on a sign?",
+            "lines": 1
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Read the sign",
+        "pagebreak": true,
+        "choices": [
+          "Must",
+          "Don't",
+          "Warning",
+          "Safe"
+        ],
+        "reasonLabel": "Clue:",
+        "instructions": "Each card describes a sign. Tick what kind of sign it is. Write the clue (colour or shape).",
+        "cards": [
+          {
+            "from": "Sign",
+            "text": "Blue circle with a picture of goggles",
+            "answer": "Must",
+            "flags": "Blue circle."
+          },
+          {
+            "from": "Sign",
+            "text": "Red circle with a line through a phone",
+            "answer": "Don't",
+            "flags": "Red circle + line."
+          },
+          {
+            "from": "Sign",
+            "text": "Yellow triangle with a flame",
+            "answer": "Warning",
+            "flags": "Yellow triangle."
+          },
+          {
+            "from": "Sign",
+            "text": "Green square with a white cross",
+            "answer": "Safe",
+            "flags": "Green = first aid."
+          },
+          {
+            "from": "Sign",
+            "text": "Yellow triangle with a lightning bolt",
+            "answer": "Warning",
+            "flags": "Electrical hazard.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Sign",
+            "text": "Blue circle with a picture of ear muffs",
+            "answer": "Must",
+            "flags": "Wear hearing protection.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E3LA10"
+        ],
+        "vcNote": "How images, colour and shape carry meaning in safety signs."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a safe work procedure",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the procedure. Use the word bank. Write what it is.",
+          "core": "Each number marks part of the procedure. Write what it is and why it's there."
+        },
+        "columns": [
+          "What is it?",
+          "Why is it there?"
+        ],
+        "wordBank": {
+          "support": [
+            "PPE",
+            "hazards",
+            "first",
+            "before",
+            "if",
+            "report back"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LA03",
+          "VC2E4LA03",
+          "VC2E5LA04"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Join it up",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "instructions": "These steps are jumbled and vague. Rewrite each one using an **order word** or an **if** word. The first one is done for you.",
+        "columns": [
+          "Vague step",
+          "Clear step with an order or if word"
+        ],
+        "rows": [
+          [
+            "Gloves. Then the oven.",
+            "First, put on oven gloves. Then open the oven."
+          ],
+          [
+            "Unplug it. The toaster's stuck.",
+            ""
+          ],
+          [
+            "Ladder wobbly — don't climb.",
+            ""
+          ],
+          {
+            "cells": [
+              "Spill on floor, put sign out, mop.",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E4LA04",
+          "VC2E5LA04"
+        ],
+        "vcNote": "Using temporal and conditional connectives to sequence instructions."
+      },
+      {
+        "type": "flow",
+        "title": "Before you start any job",
+        "diagram": 1
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: two injuries in one day",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What happened to the apprentice?",
+            "lines": 2
+          },
+          {
+            "q": "What did the company do wrong **after** the injuries?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA03"
+            ]
+          },
+          {
+            "q": "Write one **if** step that could have prevented the nail gun injury.",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VC2E5LA04"
+            ]
+          },
+          {
+            "q": "If you were asked to do something unsafe at work, what would you say? Write the actual words.",
+            "lines": 3,
+            "levelUp": true,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: write a safe work procedure",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Pick a job you know. A kettle. Mowing. Cleaning. Write safe steps for someone new.",
+          "core": "Pick a job you know: using a kettle, mowing the lawn, cleaning with bleach, using a sandwich press, a job from sport or part-time work. Write a safe work procedure for someone new.",
+          "extend": "Pick a job you know well. Write a safe work procedure for a new worker, with clear stages, precise steps, time and conditional connectives, and a sign that fits the standard colours and shapes."
+        },
+        "plan": [
+          {
+            "label": "Title + PPE:",
+            "lines": 1
+          },
+          {
+            "label": "Hazards:",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "1. First,",
+          "2. Before you…",
+          "3. If…, stop and…",
+          "4. After…",
+          "Sign:"
+        ],
+        "lines": {
+          "support": 6,
+          "core": 7
+        },
+        "check": [
+          "title, PPE, hazards",
+          "numbered steps",
+          "order words",
+          "an “if” step"
+        ],
+        "vc": [
+          "VC2E5LY10",
+          "VC2E5LA04",
+          "VC2E7LY08"
+        ],
+        "vcNote": "Creating a procedural text with sequenced stages; adding a visual sign (extend: multimodal elements)."
+      },
+      {
+        "type": "storyboard",
+        "title": "Draw your sign",
+        "pagebreak": true,
+        "frames": 1,
+        "columns": 1,
+        "boxHeight": 70,
+        "rows": [
+          "It means"
+        ],
+        "instructions": "Draw the safety sign for your procedure. Use the right **colour** and **shape**.",
+        "vc": [
+          "VC2E7LY08",
+          "VC2E3LA10"
+        ],
+        "vcNote": "Creating a visual (multimodal) element to convey safety information."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "items": [
+          {
+            "q": "Find a real safety sign or poster at school or work. How do the colours, pictures and words work together?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA03"
+            ]
+          },
+          {
+            "q": "How would you make it clearer for a new worker your age?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can read safety signs by colour and shape.",
+          "I can follow a procedure in order.",
+          "I can use order and if words.",
+          "I can write a safe work procedure."
+        ],
+        "questions": [
+          "A sign I'll notice from now on:",
+          "What I'd say if I felt unsafe at work:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students read safety signs (colour and shape as visual language) and safe work procedures (staged procedural texts that use time and conditional connectives), then write their own procedure with a sign. The case study is a WorkSafe Victoria prosecution after a 16-year-old apprentice was injured twice in one day.",
+    "prep": [
+      "Print workbooks (colour printing helps for signs, or have coloured pencils).",
+      "Optional: photograph real signs around the school (science lab, canteen, workshop).",
+      "Optional: invite a VET, trades or canteen staff member to show a real procedure."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Signs",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** sign walk around the school, or a slideshow of real signs. What does each one want?",
+          "**Explicit teaching (10 min):** the four sign types.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** Read the sign."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Steps",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** the fryer procedure; model stages and connectives.",
+          "**Join it up (10 min):** rewrite vague steps.",
+          "**Case study (20 min):** read, discuss rights and reporting.",
+          "**Exit (5 min):** one thing you'd say if asked to do something unsafe."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write it",
+        "minutes": 50,
+        "steps": [
+          "**Plan + write (25 min):** final mission.",
+          "**Sign + Level Up (10 min).**",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Red circle = must not, blue circle = must, yellow triangle = warning, green = safety and emergency.",
+      "Procedures have stages: title, PPE, hazards, steps.",
+      "Order words sequence; if words mark when to stop.",
+      "You have the right to training, supervision and to ask."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and rows.",
+        "Shorter procedure (4 steps)."
+      ],
+      "extend": [
+        "Precise stages and connectives; multimodal sign.",
+        "Evaluate and improve a real safety poster."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LA10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Explains how a sign's colour, shape and picture carry meaning (sort, sign drawing)."
+      },
+      {
+        "vc": "VC2E4LA03",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Names the stages of a procedure (reading questions, annotation)."
+      },
+      {
+        "vc": "VC2E4LA04",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses temporal and conditional connectives to sequence steps (Join it up)."
+      },
+      {
+        "vc": "VC2E5LA03",
+        "evidence": "Describes how a procedural text is organised into stages for its purpose (annotation, case study)."
+      },
+      {
+        "vc": "VC2E5LA04",
+        "evidence": "Sequences steps cohesively, giving prominence to key actions (Join it up, final mission)."
+      },
+      {
+        "vc": "VC2E5LY10",
+        "evidence": "Creates a sequenced procedure suited to a new worker (final mission)."
+      },
+      {
+        "vc": "VC2E7LA03",
+        "evidence": "Level Up: explains how a real safety text is structured for its purpose."
+      },
+      {
+        "vc": "VC2E7LY08",
+        "evidence": "Combines words and a sign (multimodal) to convey safety information (final mission, sign)."
+      }
+    ],
+    "answers": "**Signs:** goggles (blue) — must; phone with line (red) — must not; flame (yellow) — warning; white cross (green) — first aid; lightning (yellow) — warning (electrical); ear muffs (blue) — must.\n\n**Procedure:** 1 PPE; 2 hazards; 3 order word “first” with an exact time; 4 order word “before”; 5 conditional “if” step; 6 report back.\n\n**Join it up (samples):** If the toaster is stuck, first unplug it. / If the ladder is wobbly, don't climb it — tell your supervisor. / If there's a spill, first put out a wet-floor sign, then mop it up.",
+    "resources": [
+      {
+        "label": "WorkSafe Victoria — $130,000 fine after nail penetrates teen's skull (2022)",
+        "url": "https://www.worksafe.vic.gov.au/news/2022-12/130000-fine-after-nail-penetrates-teens-skull"
+      },
+      {
+        "label": "WorkSafe Victoria — Young workers",
+        "url": "https://www.worksafe.vic.gov.au/young-workers"
+      },
+      {
+        "label": "WorkSafe Victoria — Plumber fined after driving ute with teen in toolbox (2024)",
+        "url": "https://www.worksafe.vic.gov.au/news/2024-10/plumber-fined-after-driving-ute-teen-toolbox"
+      }
+    ],
+    "realityCheck": [
+      "**The case study is confronting.** A nail through a 16-year-old's skull will hit hard, especially for students who work on sites or have family who've been hurt. Read it as a class, keep the focus on what should have happened, and give a heads-up beforehand.",
+      "**Students with jobs are your experts.** Many 14–17 year olds work in fast food, retail or on farms. Let them name real hazards; it makes the writing task authentic.",
+      "**Colour matters.** Sign meaning depends on colour. Black-and-white printing makes the sort harder, so use colour, coloured pencils or the app.",
+      "**Speaking up is the real outcome.** The “What would you say?” question is worth discussing aloud: many young workers don't feel they can say no.",
+      "**Works in a real class:** yes. It's practical, local and low-tech. The final mission doubles as useful work-experience prep."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank, fewer sort cards and rows, and a 4-step procedure.",
+      "core": "Standard version: sign sort, procedure annotation, Join it up, case study and a written procedure with a sign.",
+      "extend": "Adds mandatory/prohibited, risk and induction to the vocabulary, a quiz question on staging, and a multimodal sign plus evaluation of a real safety poster."
+    }
+  }
+}
