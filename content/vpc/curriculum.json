@@ -1,0 +1,1007 @@
+{
+  "source": "Victorian Pathways Certificate Literacy Curriculum Design (accredited 1 January 2023 – 31 December 2027). © VCAA. Copied word for word from the curriculum design.",
+  "url": "https://www.vcaa.vic.edu.au/curriculum/vpc-curriculum/vpc-curriculum-designs/vpc-literacy/vpc-literacy-curriculum-design",
+  "document": "https://www.vcaa.vic.edu.au/sites/default/files/Documents/VictorianPathwaysCertificate/vpcliteracy/VPCLiteracyCurriculumDesign.docx",
+  "documentSha1": "467282bdfa9ae0eca907d7b8cfc0001724646d22",
+  "retrieved": "2026-11-01",
+  "verified": true,
+  "kind": "study-design",
+  "units": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "focusAreas": {
+    "U1M1": {
+      "strand": "Unit 1",
+      "substrand": "Module 1: Literacy for personal use"
+    },
+    "U1M2": {
+      "strand": "Unit 1",
+      "substrand": "Module 2: Understanding and creating digital texts"
+    },
+    "U2M1": {
+      "strand": "Unit 2",
+      "substrand": "Module 1: Exploring and understanding issues and voices"
+    },
+    "U2M2": {
+      "strand": "Unit 2",
+      "substrand": "Module 2: Informed discussion"
+    },
+    "U3M1": {
+      "strand": "Unit 3",
+      "substrand": "Module 1: Literacy for civic participation"
+    },
+    "U3M2": {
+      "strand": "Unit 3",
+      "substrand": "Module 2: Literacy for pathways and further learning"
+    },
+    "U4M1": {
+      "strand": "Unit 4",
+      "substrand": "Module 1: Negotiated project"
+    }
+  },
+  "outcomes": [
+    {
+      "id": "U1M1",
+      "unit": 1,
+      "outcome": 1,
+      "goal": "1.1",
+      "title": "Literacy for personal use",
+      "statement": "On completion of this module the student should be able to:",
+      "options": [],
+      "assessment": [
+        "a recorded reflection",
+        "a reflective journal",
+        "a response to structured questions",
+        "a record and reflection of the presentations of guest speaker/s",
+        "a video, podcast or oral presentation",
+        "a digital presentation",
+        "a visual presentation, such as a graphic organiser, concept/mind map or annotated poster"
+      ],
+      "description": [
+        "The purpose of this module is to enable students to develop their knowledge and skills to read and write simple or short texts. Texts should be chosen from a range of local and global perspectives including First Nations peoples’ and multi-cultural perspectives and should include film, TV, online videos, song, poetry, biographies, digital content and social media, and other texts of interest to the cohort. Through discussions and class activities students will develop their understanding of the structures and features of these text types, and examine how these are influenced by purpose, context and audience.",
+        "Students will read, view and listen to texts produced for a variety of purposes, from everyday texts written for enjoyment or information to texts written for specific workplaces or educational settings. With support, students will develop their understanding of the purposes and key ideas within texts. They will develop their understanding and knowledge of the layout and format of a range of texts and will also develop their skills in the use of indexes, headings, subheadings, chapter titles and blurbs to locate and extract information.",
+        "In their study of visual and film texts, students will examine how purpose, language and structure influence the audience and their understanding of the content of a text."
+      ]
+    },
+    {
+      "id": "U1M2",
+      "unit": 1,
+      "outcome": 2,
+      "goal": "1.2",
+      "title": "Understanding and creating digital texts",
+      "statement": "On completion of this module the student should be able to:",
+      "options": [],
+      "assessment": [
+        "a recorded reflection",
+        "a reflective journal",
+        "a response to structured questions",
+        "a record and reflection of the presentations of guest speaker/s",
+        "a video, podcast or oral presentation",
+        "a digital presentation",
+        "a visual presentation, such as a graphic organiser, concept/mind map or annotated poster"
+      ],
+      "description": [
+        "The purpose of this module is to enable students to develop capacity to engage with, understand and respond to digital texts, including webpages for vocational and workplace settings, podcasts and social media. Students will identify and explain the structure of a variety of digital platforms, as well as the types and purposes of different digital texts. Students will discuss the reliability and effectiveness of digital sites and content in connecting with audiences and delivering a message.",
+        "Students will read, view and interact with different digital texts, and participate in learning activities to develop capacity to explore and discuss impact. They will identify the ways a visitor will encounter and experience digital texts, considering purpose and the social and workplace values associated with them.",
+        "As a part of this exploration of the digital world, students will participate and engage in learning practices that will equip them to deal safely and respectfully with others in the digital and virtual world."
+      ]
+    },
+    {
+      "id": "U2M1",
+      "unit": 2,
+      "outcome": 1,
+      "goal": "2.1",
+      "title": "Exploring and understanding issues and voices",
+      "statement": "On completion of this module the student should be able to:",
+      "options": [],
+      "assessment": [
+        "a research task",
+        "a record of discussion or debate",
+        "a presentation of a case study",
+        "a video, podcast, vlog or oral presentation",
+        "a digital presentation",
+        "participation in a debate",
+        "participation on a Q & A panel",
+        "an animation with voice over",
+        "an advertisement"
+      ],
+      "description": [
+        "The purpose of this module is to enable students to engage in issues that create discussion and debate in a community of which they are part. Students will consider the values that underpin different communities and how these values create different opinions and perspectives. Students will read, view and listen to a range of diverse opinions and consider the language and purpose of the content, and how these change depending on the audience and context.",
+        "Students will engage with a range of content from print, visual, aural and multimodal sources. Selection of suitable material should take into consideration the interests and abilities of the student cohort and respond to the content that students typically read, including social media, and content from vocational and workplace settings. Students will discuss and debate how personal and vested interests affect personal responses to an issue."
+      ]
+    },
+    {
+      "id": "U2M2",
+      "unit": 2,
+      "outcome": 2,
+      "goal": "2.2",
+      "title": "Informed discussion",
+      "statement": "On completion of this module the student should be able to:",
+      "options": [],
+      "assessment": [
+        "a research task",
+        "a record of discussion or debate",
+        "a presentation of a case study",
+        "a video, podcast, vlog or oral presentation",
+        "a digital presentation",
+        "participation in a debate",
+        "participation on a Q & A panel",
+        "an animation with voice over",
+        "an advertisement"
+      ],
+      "description": [
+        "This module enables students to practice and participate in debate, either in print, orally or via a digital platform. Students will consider personal perspectives of community and workplace issues and develop logical responses to these debates in a respectful and thoughtful manner, supported by evidence."
+      ]
+    },
+    {
+      "id": "U3M1",
+      "unit": 3,
+      "outcome": 1,
+      "goal": "3.1",
+      "title": "Literacy for civic participation",
+      "statement": "On completion of this module the student should be able to:",
+      "options": [],
+      "assessment": [
+        "a research task",
+        "a collection of annotations and/or notes",
+        "a recorded reflection",
+        "a reflective journal",
+        "a response to structured questions",
+        "a record of interviews with members of the community and class",
+        "a digital presentation",
+        "a visual presentation, such as a graphic organiser, concept/mind map or annotated poster"
+      ],
+      "description": [
+        "This module enables students to develop the skills and knowledge required to understand and complete a range of familiar and less familiar activities for civic participation purposes. Selection of suitable texts should take into consideration the interests and abilities of the student cohort and the information that students typically need for learning, employment and vocational activities. Students will engage with a range of texts and information including timetables, forms, government documentation and contracts, in print and digital forms, and locate information, identify the audience and purpose of the text and develop the skills necessary to complete documentation."
+      ]
+    },
+    {
+      "id": "U3M2",
+      "unit": 3,
+      "outcome": 2,
+      "goal": "3.2",
+      "title": "Literacy for pathways and further learning",
+      "statement": "On completion of this module the student should be able to:",
+      "options": [],
+      "assessment": [
+        "a research task",
+        "a collection of annotations and/or notes",
+        "a recorded reflection",
+        "a reflective journal",
+        "a response to structured questions",
+        "a record of interviews with members of the community and class",
+        "a digital presentation",
+        "a visual presentation, such as a graphic organiser, concept/mind map or annotated poster"
+      ],
+      "description": [
+        "This module enables students to develop the skills and knowledge to investigate pathway options and plan skill development in order to move into further training or employment. Students will research and identify possible pathways and plan, document and monitor progress towards achieving personal goals."
+      ]
+    },
+    {
+      "id": "U4M1",
+      "unit": 4,
+      "outcome": 1,
+      "goal": "4.1",
+      "title": "Negotiated project",
+      "statement": "On completion of this module the student should be able to:",
+      "options": [],
+      "assessment": [
+        "a video, podcast or oral presentation with reflective journal",
+        "a digital presentation with reflective journal"
+      ],
+      "description": [
+        "In this module, students will develop a range of written and oral communication skills through practical application in an activity around a specific content area. Content for the unit can be drawn from any area of learner interest or aspirations. Students will be encouraged to connect this area of study to learning in Unit 4 of Work Related Skills. This project needs to be developed in consultation with the teacher and should focus on an area of student interest with a clearly stated vocational or personal focus.",
+        "The project must have an actionable goal. The project can be completed either individually or as a member of a group focusing on the following areas of skill development: collaboration, problem solving, communication, self-management, planning and organising, initiative and learning."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "VPC-U1M1-LG1",
+      "code": "U1 M1 LG1",
+      "unit": 1,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 1 · Module 1",
+      "substrand": "Literacy for personal use",
+      "focus": "U1M1",
+      "level": null,
+      "text": "identify and describe the structures and features of a range of different text types such as short narratives, informative and instructional texts, letters, emails, media and social media posts and film"
+    },
+    {
+      "id": "VPC-U1M1-LG2",
+      "code": "U1 M1 LG2",
+      "unit": 1,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 1 · Module 1",
+      "substrand": "Literacy for personal use",
+      "focus": "U1M1",
+      "level": null,
+      "text": "develop and demonstrate an understanding that texts are created for different purposes and audiences"
+    },
+    {
+      "id": "VPC-U1M1-LG3",
+      "code": "U1 M1 LG3",
+      "unit": 1,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 1 · Module 1",
+      "substrand": "Literacy for personal use",
+      "focus": "U1M1",
+      "level": null,
+      "text": "create a range of material for specific audiences and purposes"
+    },
+    {
+      "id": "VPC-U1M1-AP1",
+      "code": "U1 M1 AP1",
+      "unit": 1,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 1",
+      "substrand": "Literacy for personal use",
+      "focus": "U1M1",
+      "level": null,
+      "text": "explain how a variety of written, spoken, visual and multimedia texts have been designed for different audiences and purposes"
+    },
+    {
+      "id": "VPC-U1M1-AP2",
+      "code": "U1 M1 AP2",
+      "unit": 1,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 1",
+      "substrand": "Literacy for personal use",
+      "focus": "U1M1",
+      "level": null,
+      "text": "apply de-coding and meaning-making strategies such as knowledge of everyday word families and phonic and visual letter patterns to make sense of texts"
+    },
+    {
+      "id": "VPC-U1M1-AP3",
+      "code": "U1 M1 AP3",
+      "unit": 1,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 1",
+      "substrand": "Literacy for personal use",
+      "focus": "U1M1",
+      "level": null,
+      "text": "skim and scan familiar texts to identify the main ideas and key information in the text"
+    },
+    {
+      "id": "VPC-U1M1-AP4",
+      "code": "U1 M1 AP4",
+      "unit": 1,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 1",
+      "substrand": "Literacy for personal use",
+      "focus": "U1M1",
+      "level": null,
+      "text": "create written, digital and multimedia texts demonstrating simple planning, drafting and editing processes"
+    },
+    {
+      "id": "VPC-U1M1-AP5",
+      "code": "U1 M1 AP5",
+      "unit": 1,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 1",
+      "substrand": "Literacy for personal use",
+      "focus": "U1M1",
+      "level": null,
+      "text": "begin to understand plagiarism and demonstrate methods used to avoid it"
+    },
+    {
+      "id": "VPC-U1M1-AP6",
+      "code": "U1 M1 AP6",
+      "unit": 1,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 1",
+      "substrand": "Literacy for personal use",
+      "focus": "U1M1",
+      "level": null,
+      "text": "listen and participate effectively in small group and whole class discussions and attempt to use appropriate evidence to support personal points of view"
+    },
+    {
+      "id": "VPC-U1M1-AP7",
+      "code": "U1 M1 AP7",
+      "unit": 1,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 1",
+      "substrand": "Literacy for personal use",
+      "focus": "U1M1",
+      "level": null,
+      "text": "apply the conventions of literacy, including sentence structure, paragraphing, punctuation and spelling"
+    },
+    {
+      "id": "VPC-U1M2-LG1",
+      "code": "U1 M2 LG1",
+      "unit": 1,
+      "outcome": 2,
+      "kind": "Learning goal",
+      "strand": "Unit 1 · Module 2",
+      "substrand": "Understanding and creating digital texts",
+      "focus": "U1M2",
+      "level": null,
+      "text": "engage with, understand and create a range of digital texts for different audiences and purposes"
+    },
+    {
+      "id": "VPC-U1M2-LG2",
+      "code": "U1 M2 LG2",
+      "unit": 1,
+      "outcome": 2,
+      "kind": "Learning goal",
+      "strand": "Unit 1 · Module 2",
+      "substrand": "Understanding and creating digital texts",
+      "focus": "U1M2",
+      "level": null,
+      "text": "explain the layout of different digital platforms and applications, identifying key features and trustworthiness in relation to audience and purpose"
+    },
+    {
+      "id": "VPC-U1M2-LG3",
+      "code": "U1 M2 LG3",
+      "unit": 1,
+      "outcome": 2,
+      "kind": "Learning goal",
+      "strand": "Unit 1 · Module 2",
+      "substrand": "Understanding and creating digital texts",
+      "focus": "U1M2",
+      "level": null,
+      "text": "recognise and utilise the features of digital security to engage safely, respectfully and effectively in the digital world"
+    },
+    {
+      "id": "VPC-U1M2-AP1",
+      "code": "U1 M2 AP1",
+      "unit": 1,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 2",
+      "substrand": "Understanding and creating digital texts",
+      "focus": "U1M2",
+      "level": null,
+      "text": "read, watch and listen to a variety of written, spoken and multimedia digital texts that have been designed for different audiences and purposes, identifying the main ideas and key information presented"
+    },
+    {
+      "id": "VPC-U1M2-AP2",
+      "code": "U1 M2 AP2",
+      "unit": 1,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 2",
+      "substrand": "Understanding and creating digital texts",
+      "focus": "U1M2",
+      "level": null,
+      "text": "apply de-coding and meaning-making strategies such as knowledge of everyday word families and phonic and visual letter patterns to make sense of digital content"
+    },
+    {
+      "id": "VPC-U1M2-AP3",
+      "code": "U1 M2 AP3",
+      "unit": 1,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 2",
+      "substrand": "Understanding and creating digital texts",
+      "focus": "U1M2",
+      "level": null,
+      "text": "produce digital texts using information from familiar sources for a range of audiences and purposes demonstrating simple planning, researching, drafting and editing processes"
+    },
+    {
+      "id": "VPC-U1M2-AP4",
+      "code": "U1 M2 AP4",
+      "unit": 1,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 2",
+      "substrand": "Understanding and creating digital texts",
+      "focus": "U1M2",
+      "level": null,
+      "text": "identify how language and tone choices relate to purpose and audience and begin to recognise that digital texts and content may have different levels of reliability"
+    },
+    {
+      "id": "VPC-U1M2-AP5",
+      "code": "U1 M2 AP5",
+      "unit": 1,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 2",
+      "substrand": "Understanding and creating digital texts",
+      "focus": "U1M2",
+      "level": null,
+      "text": "listen and participate effectively in small group and whole class discussions and attempt to use appropriate evidence to support personal points of view"
+    },
+    {
+      "id": "VPC-U1M2-AP6",
+      "code": "U1 M2 AP6",
+      "unit": 1,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 2",
+      "substrand": "Understanding and creating digital texts",
+      "focus": "U1M2",
+      "level": null,
+      "text": "begin to understand plagiarism and demonstrate methods used to avoid it"
+    },
+    {
+      "id": "VPC-U1M2-AP7",
+      "code": "U1 M2 AP7",
+      "unit": 1,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 1 · Module 2",
+      "substrand": "Understanding and creating digital texts",
+      "focus": "U1M2",
+      "level": null,
+      "text": "apply the conventions of literacy, including sentence structure, paragraphing, punctuation and spelling"
+    },
+    {
+      "id": "VPC-U2M1-LG1",
+      "code": "U2 M1 LG1",
+      "unit": 2,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 2 · Module 1",
+      "substrand": "Exploring and understanding issues and voices",
+      "focus": "U2M1",
+      "level": null,
+      "text": "identify the main ideas and arguments in persuasive and influential content, noting the differences between fact and opinion"
+    },
+    {
+      "id": "VPC-U2M1-LG2",
+      "code": "U2 M1 LG2",
+      "unit": 2,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 2 · Module 1",
+      "substrand": "Exploring and understanding issues and voices",
+      "focus": "U2M1",
+      "level": null,
+      "text": "explain how language and visuals are used to influence an audience"
+    },
+    {
+      "id": "VPC-U2M1-LG3",
+      "code": "U2 M1 LG3",
+      "unit": 2,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 2 · Module 1",
+      "substrand": "Exploring and understanding issues and voices",
+      "focus": "U2M1",
+      "level": null,
+      "text": "identify how bias and perspective influence a speaker, author and audience"
+    },
+    {
+      "id": "VPC-U2M1-AP1",
+      "code": "U2 M1 AP1",
+      "unit": 2,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 1",
+      "substrand": "Exploring and understanding issues and voices",
+      "focus": "U2M1",
+      "level": null,
+      "text": "read, watch and listen to a variety of persuasive and influential written, spoken and multimedia texts that have been designed for different audiences and purposes, identifying the main ideas and key information presented"
+    },
+    {
+      "id": "VPC-U2M1-AP2",
+      "code": "U2 M1 AP2",
+      "unit": 2,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 1",
+      "substrand": "Exploring and understanding issues and voices",
+      "focus": "U2M1",
+      "level": null,
+      "text": "apply de-coding and meaning-making strategies such as knowledge of everyday word families and phonic and visual letter patterns to make sense of persuasive and influential content"
+    },
+    {
+      "id": "VPC-U2M1-AP3",
+      "code": "U2 M1 AP3",
+      "unit": 2,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 1",
+      "substrand": "Exploring and understanding issues and voices",
+      "focus": "U2M1",
+      "level": null,
+      "text": "identify how language and tone choices relate to purpose and audience"
+    },
+    {
+      "id": "VPC-U2M1-AP4",
+      "code": "U2 M1 AP4",
+      "unit": 2,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 1",
+      "substrand": "Exploring and understanding issues and voices",
+      "focus": "U2M1",
+      "level": null,
+      "text": "demonstrate some awareness of how content may reflect the author's position and begin to recognise bias"
+    },
+    {
+      "id": "VPC-U2M1-AP5",
+      "code": "U2 M1 AP5",
+      "unit": 2,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 1",
+      "substrand": "Exploring and understanding issues and voices",
+      "focus": "U2M1",
+      "level": null,
+      "text": "listen and participate effectively in small group and whole class discussions and attempt to use appropriate evidence to support personal points of view"
+    },
+    {
+      "id": "VPC-U2M1-AP6",
+      "code": "U2 M1 AP6",
+      "unit": 2,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 1",
+      "substrand": "Exploring and understanding issues and voices",
+      "focus": "U2M1",
+      "level": null,
+      "text": "apply the conventions of literacy, including sentence structure, paragraphing, punctuation and spelling"
+    },
+    {
+      "id": "VPC-U2M2-LG1",
+      "code": "U2 M2 LG1",
+      "unit": 2,
+      "outcome": 2,
+      "kind": "Learning goal",
+      "strand": "Unit 2 · Module 2",
+      "substrand": "Informed discussion",
+      "focus": "U2M2",
+      "level": null,
+      "text": "influence a specific audience through a variety of language devices"
+    },
+    {
+      "id": "VPC-U2M2-LG2",
+      "code": "U2 M2 LG2",
+      "unit": 2,
+      "outcome": 2,
+      "kind": "Learning goal",
+      "strand": "Unit 2 · Module 2",
+      "substrand": "Informed discussion",
+      "focus": "U2M2",
+      "level": null,
+      "text": "lead a discussion where they respond to the opinions of others in oral form using active listening and questioning techniques"
+    },
+    {
+      "id": "VPC-U2M2-LG3",
+      "code": "U2 M2 LG3",
+      "unit": 2,
+      "outcome": 2,
+      "kind": "Learning goal",
+      "strand": "Unit 2 · Module 2",
+      "substrand": "Informed discussion",
+      "focus": "U2M2",
+      "level": null,
+      "text": "use body language, eye-contact, gestures, pace and intonation deliberately when discussing opinions"
+    },
+    {
+      "id": "VPC-U2M2-AP1",
+      "code": "U2 M2 AP1",
+      "unit": 2,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 2",
+      "substrand": "Informed discussion",
+      "focus": "U2M2",
+      "level": null,
+      "text": "plan, edit and respond to a variety of persuasive and influential written, spoken, visual, digital and multimedia texts that have been designed for different audiences and purposes, identifying the main ideas and key information presented"
+    },
+    {
+      "id": "VPC-U2M2-AP2",
+      "code": "U2 M2 AP2",
+      "unit": 2,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 2",
+      "substrand": "Informed discussion",
+      "focus": "U2M2",
+      "level": null,
+      "text": "apply de-coding and meaning-making strategies such as knowledge of everyday word families and phonic and visual letter patterns to make sense of persuasive and influential content"
+    },
+    {
+      "id": "VPC-U2M2-AP3",
+      "code": "U2 M2 AP3",
+      "unit": 2,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 2",
+      "substrand": "Informed discussion",
+      "focus": "U2M2",
+      "level": null,
+      "text": "identify how language and tone choices relate to purpose and audience"
+    },
+    {
+      "id": "VPC-U2M2-AP4",
+      "code": "U2 M2 AP4",
+      "unit": 2,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 2",
+      "substrand": "Informed discussion",
+      "focus": "U2M2",
+      "level": null,
+      "text": "sequence and structure persuasive and influential texts and content to express a point of view logically using evidence to support points"
+    },
+    {
+      "id": "VPC-U2M2-AP5",
+      "code": "U2 M2 AP5",
+      "unit": 2,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 2",
+      "substrand": "Informed discussion",
+      "focus": "U2M2",
+      "level": null,
+      "text": "use body language, eye-contact, gestures, pace and intonation appropriately when presenting opinions"
+    },
+    {
+      "id": "VPC-U2M2-AP6",
+      "code": "U2 M2 AP6",
+      "unit": 2,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 2",
+      "substrand": "Informed discussion",
+      "focus": "U2M2",
+      "level": null,
+      "text": "listen and participate effectively in small group and whole class discussion and attempt to use appropriate evidence to support personal points of view"
+    },
+    {
+      "id": "VPC-U2M2-AP7",
+      "code": "U2 M2 AP7",
+      "unit": 2,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 2",
+      "substrand": "Informed discussion",
+      "focus": "U2M2",
+      "level": null,
+      "text": "begin to understand plagiarism and demonstrate methods used to avoid it"
+    },
+    {
+      "id": "VPC-U2M2-AP8",
+      "code": "U2 M2 AP8",
+      "unit": 2,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 2 · Module 2",
+      "substrand": "Informed discussion",
+      "focus": "U2M2",
+      "level": null,
+      "text": "apply the conventions of literacy, including sentence structure, paragraphing, punctuation and spelling"
+    },
+    {
+      "id": "VPC-U3M1-LG1",
+      "code": "U3 M1 LG1",
+      "unit": 3,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 3 · Module 1",
+      "substrand": "Literacy for civic participation",
+      "focus": "U3M1",
+      "level": null,
+      "text": "identify reliable agencies within the government and non-government spheres who provide information to facilitate participation in civic life"
+    },
+    {
+      "id": "VPC-U3M1-LG2",
+      "code": "U3 M1 LG2",
+      "unit": 3,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 3 · Module 1",
+      "substrand": "Literacy for civic participation",
+      "focus": "U3M1",
+      "level": null,
+      "text": "skim and scan informational documents to determine relevance for deeper reading"
+    },
+    {
+      "id": "VPC-U3M1-LG3",
+      "code": "U3 M1 LG3",
+      "unit": 3,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 3 · Module 1",
+      "substrand": "Literacy for civic participation",
+      "focus": "U3M1",
+      "level": null,
+      "text": "summarise and paraphrase information and instructions into sequential points that enable them to complete activities related to civic participation"
+    },
+    {
+      "id": "VPC-U3M1-AP1",
+      "code": "U3 M1 AP1",
+      "unit": 3,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 3 · Module 1",
+      "substrand": "Literacy for civic participation",
+      "focus": "U3M1",
+      "level": null,
+      "text": "access and read a range of informative and instructional written, spoken, visual, digital and multimedia texts that have been designed for different audiences and purposes, identifying the main ideas and key information presented"
+    },
+    {
+      "id": "VPC-U3M1-AP2",
+      "code": "U3 M1 AP2",
+      "unit": 3,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 3 · Module 1",
+      "substrand": "Literacy for civic participation",
+      "focus": "U3M1",
+      "level": null,
+      "text": "source and complete a range of documentation from community, vocational, workplace and government organisations"
+    },
+    {
+      "id": "VPC-U3M1-AP3",
+      "code": "U3 M1 AP3",
+      "unit": 3,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 3 · Module 1",
+      "substrand": "Literacy for civic participation",
+      "focus": "U3M1",
+      "level": null,
+      "text": "apply de-coding and meaning-making strategies such as knowledge of everyday word families and phonic and visual letter patterns to make sense of informative and instructional content"
+    },
+    {
+      "id": "VPC-U3M1-AP4",
+      "code": "U3 M1 AP4",
+      "unit": 3,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 3 · Module 1",
+      "substrand": "Literacy for civic participation",
+      "focus": "U3M1",
+      "level": null,
+      "text": "listen and participate effectively in small group and whole class discussions to communicate, collaborate and problem solve when undertaking civic participation tasks"
+    },
+    {
+      "id": "VPC-U3M1-AP5",
+      "code": "U3 M1 AP5",
+      "unit": 3,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 3 · Module 1",
+      "substrand": "Literacy for civic participation",
+      "focus": "U3M1",
+      "level": null,
+      "text": "apply the conventions of literacy, including sentence structure, paragraphing, punctuation and spelling"
+    },
+    {
+      "id": "VPC-U3M2-LG1",
+      "code": "U3 M2 LG1",
+      "unit": 3,
+      "outcome": 2,
+      "kind": "Learning goal",
+      "strand": "Unit 3 · Module 2",
+      "substrand": "Literacy for pathways and further learning",
+      "focus": "U3M2",
+      "level": null,
+      "text": "identify documents that are required for future learning and work opportunities"
+    },
+    {
+      "id": "VPC-U3M2-LG2",
+      "code": "U3 M2 LG2",
+      "unit": 3,
+      "outcome": 2,
+      "kind": "Learning goal",
+      "strand": "Unit 3 · Module 2",
+      "substrand": "Literacy for pathways and further learning",
+      "focus": "U3M2",
+      "level": null,
+      "text": "locate the sources of information they need through research methodology and review the accuracy and validity of the information"
+    },
+    {
+      "id": "VPC-U3M2-LG3",
+      "code": "U3 M2 LG3",
+      "unit": 3,
+      "outcome": 2,
+      "kind": "Learning goal",
+      "strand": "Unit 3 · Module 2",
+      "substrand": "Literacy for pathways and further learning",
+      "focus": "U3M2",
+      "level": null,
+      "text": "research and understand the requirements of workplace and further learning documentation and plan, draft, create and/or complete the required documents"
+    },
+    {
+      "id": "VPC-U3M2-AP1",
+      "code": "U3 M2 AP1",
+      "unit": 3,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 3 · Module 2",
+      "substrand": "Literacy for pathways and further learning",
+      "focus": "U3M2",
+      "level": null,
+      "text": "research and locate a variety of informative written, spoken, visual, digital and multimedia texts related to future employment or learning aspirations"
+    },
+    {
+      "id": "VPC-U3M2-AP2",
+      "code": "U3 M2 AP2",
+      "unit": 3,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 3 · Module 2",
+      "substrand": "Literacy for pathways and further learning",
+      "focus": "U3M2",
+      "level": null,
+      "text": "apply de-coding and meaning-making strategies such as knowledge of everyday word families and phonic and visual letter patterns to make sense of content"
+    },
+    {
+      "id": "VPC-U3M2-AP3",
+      "code": "U3 M2 AP3",
+      "unit": 3,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 3 · Module 2",
+      "substrand": "Literacy for pathways and further learning",
+      "focus": "U3M2",
+      "level": null,
+      "text": "listen and participate effectively in small group and whole class discussions to communicate, collaborate and problem solve in order to complete documentation"
+    },
+    {
+      "id": "VPC-U3M2-AP4",
+      "code": "U3 M2 AP4",
+      "unit": 3,
+      "outcome": 2,
+      "kind": "Application",
+      "strand": "Unit 3 · Module 2",
+      "substrand": "Literacy for pathways and further learning",
+      "focus": "U3M2",
+      "level": null,
+      "text": "apply the conventions of literacy, including sentence structure, paragraphing, punctuation and spelling"
+    },
+    {
+      "id": "VPC-U4M1-LG1",
+      "code": "U4 M1 LG1",
+      "unit": 4,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 4 · Module 1",
+      "substrand": "Negotiated project",
+      "focus": "U4M1",
+      "level": null,
+      "text": "communicate effectively with the teacher as demonstrated by negotiation of a topic of choice for a major presentation"
+    },
+    {
+      "id": "VPC-U4M1-LG2",
+      "code": "U4 M1 LG2",
+      "unit": 4,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 4 · Module 1",
+      "substrand": "Negotiated project",
+      "focus": "U4M1",
+      "level": null,
+      "text": "provide a sample plan of the content and direction of a presentation including use of body language learnt in Unit 2"
+    },
+    {
+      "id": "VPC-U4M1-LG3",
+      "code": "U4 M1 LG3",
+      "unit": 4,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 4 · Module 1",
+      "substrand": "Negotiated project",
+      "focus": "U4M1",
+      "level": null,
+      "text": "refine the plan after consultation and gaining feedback from peers on the effectiveness of the plan"
+    },
+    {
+      "id": "VPC-U4M1-LG4",
+      "code": "U4 M1 LG4",
+      "unit": 4,
+      "outcome": 1,
+      "kind": "Learning goal",
+      "strand": "Unit 4 · Module 1",
+      "substrand": "Negotiated project",
+      "focus": "U4M1",
+      "level": null,
+      "text": "complete an informative oral presentation on the individual or group project that showcases reflections and review of learning, utilising a digital, multimodal or visual platform for support"
+    },
+    {
+      "id": "VPC-U4M1-AP1",
+      "code": "U4 M1 AP1",
+      "unit": 4,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 4 · Module 1",
+      "substrand": "Negotiated project",
+      "focus": "U4M1",
+      "level": null,
+      "text": "reflect on areas of personal interest and develop a focus for a project working either individually or collaborating in a group"
+    },
+    {
+      "id": "VPC-U4M1-AP2",
+      "code": "U4 M1 AP2",
+      "unit": 4,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 4 · Module 1",
+      "substrand": "Negotiated project",
+      "focus": "U4M1",
+      "level": null,
+      "text": "research and locate a variety of informative written, spoken and multimedia texts related to future employment, learning aspirations or community groups being investigated for this project and keep annotations and summaries for portfolio presentation"
+    },
+    {
+      "id": "VPC-U4M1-AP3",
+      "code": "U4 M1 AP3",
+      "unit": 4,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 4 · Module 1",
+      "substrand": "Negotiated project",
+      "focus": "U4M1",
+      "level": null,
+      "text": "apply de-coding and meaning-making strategies such as knowledge of everyday word families and phonic and visual letter patterns to make sense of information relating to future learning, employment aspirations or community groups being investigated for this project"
+    },
+    {
+      "id": "VPC-U4M1-AP4",
+      "code": "U4 M1 AP4",
+      "unit": 4,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 4 · Module 1",
+      "substrand": "Negotiated project",
+      "focus": "U4M1",
+      "level": null,
+      "text": "listen and participate effectively in small group and whole class discussions to communicate, collaborate and problem solve in order to complete a portfolio of evidence and relevant documentation"
+    },
+    {
+      "id": "VPC-U4M1-AP5",
+      "code": "U4 M1 AP5",
+      "unit": 4,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 4 · Module 1",
+      "substrand": "Negotiated project",
+      "focus": "U4M1",
+      "level": null,
+      "text": "sequence and structure information logically to engage an audience"
+    },
+    {
+      "id": "VPC-U4M1-AP6",
+      "code": "U4 M1 AP6",
+      "unit": 4,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 4 · Module 1",
+      "substrand": "Negotiated project",
+      "focus": "U4M1",
+      "level": null,
+      "text": "use body language, eye-contact, gestures, pace and intonation appropriately when presenting orally"
+    },
+    {
+      "id": "VPC-U4M1-AP7",
+      "code": "U4 M1 AP7",
+      "unit": 4,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 4 · Module 1",
+      "substrand": "Negotiated project",
+      "focus": "U4M1",
+      "level": null,
+      "text": "explain plagiarism and demonstrate methods used to avoid it"
+    },
+    {
+      "id": "VPC-U4M1-AP8",
+      "code": "U4 M1 AP8",
+      "unit": 4,
+      "outcome": 1,
+      "kind": "Application",
+      "strand": "Unit 4 · Module 1",
+      "substrand": "Negotiated project",
+      "focus": "U4M1",
+      "level": null,
+      "text": "apply the conventions of literacy, including sentence structure, paragraphing, punctuation and spelling"
+    }
+  ]
+}

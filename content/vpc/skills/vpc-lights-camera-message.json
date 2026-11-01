@@ -1,0 +1,919 @@
+{
+  "id": "vpc-lights-camera-message",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours), including filming",
+  "brief": {
+    "hook": {
+      "support": "In 2012, a funny cartoon song went around the world. People watched to the end. Then they found out what it was: a **train safety ad** from Melbourne.",
+      "core": "In 2012, a catchy cartoon song about silly ways to die got stuck in heads all over the world. Most people watched it to the end before they realised what it really was: a **train safety ad** from Melbourne."
+    },
+    "why": {
+      "support": "Ads and videos are made for a reason. Every picture, sound and word has a job. Spot the jobs, and you can make your own.",
+      "core": "Ads, trailers and TikToks are made on purpose, for a particular audience. Every shot, sound and word has a job. Once you can see the jobs, you can't be fooled as easily — and you can make your own.",
+      "extend": "Ads, trailers and short videos are built for a purpose and an audience. Shots, sound and words are chosen to shape how you feel. See the choices, and you can make them too."
+    },
+    "canDo": {
+      "support": [
+        "I can say what an ad is for and who it is for.",
+        "I can spot how pictures, sound and words help.",
+        "I can plan an ad in a storyboard.",
+        "I can film or act out my ad."
+      ],
+      "core": [
+        "I can work out the **purpose** and **audience** of an ad.",
+        "I can explain how **pictures, sound and words** do their job.",
+        "I can **plan and storyboard** an ad for a real audience.",
+        "I can **film or perform** my ad and check if the message landed."
+      ]
+    },
+    "showIt": "Storyboard and film (or act out) a 30-second safety ad for people your age, then check whether they got the message.",
+    "vocab": [
+      {
+        "word": "purpose",
+        "meaning": "the reason a text was made",
+        "example": "The purpose of the ad is to keep people safe."
+      },
+      {
+        "word": "audience",
+        "meaning": "the people a text is made for",
+        "example": "The audience is teens who catch the train."
+      },
+      {
+        "word": "message",
+        "meaning": "the main idea the makers want you to get",
+        "example": "The message is: stand behind the yellow line."
+      },
+      {
+        "word": "hook",
+        "meaning": "the start that grabs your attention",
+        "example": "The hook was a funny song."
+      },
+      {
+        "word": "storyboard",
+        "meaning": "a plan for a video, drawn shot by shot",
+        "example": "We drew six boxes for our storyboard."
+      },
+      {
+        "word": "call to action",
+        "meaning": "what the ad tells you to do",
+        "example": "“Be safe around trains” is the call to action."
+      },
+      {
+        "word": "shot",
+        "meaning": "one piece of film, like a close-up or a wide view",
+        "example": "A close-up shot shows a face.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "soundtrack",
+        "meaning": "the music and sounds in a video",
+        "example": "The soundtrack was cheerful.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "tone",
+        "meaning": "the feeling of a text: funny, serious, scary",
+        "example": "The tone was funny, then serious.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "slogan",
+        "meaning": "a short, catchy line people remember",
+        "example": "“Slip, slop, slap” is a slogan.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Lights, Camera, Message in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Lights, Camera, Message",
+        "sub": "Every ad is made on purpose, for someone.",
+        "icon": "lucide:clapperboard",
+        "say": "Lights, camera, message. Every ad is made on purpose, for someone."
+      },
+      {
+        "kind": "big",
+        "title": "Purpose + audience",
+        "text": "**What’s it for? Who’s it for?**",
+        "icon": "lucide:target",
+        "say": "Ask two questions first. What's it for? Who's it for?",
+        "vc": [
+          "VPC-U1M1-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "P",
+        "pill": "Film tool",
+        "pillIcon": "lucide:clapperboard",
+        "title": "Pictures",
+        "text": "Close-up = feeling. Wide = place.",
+        "icon": "lucide:camera",
+        "say": "Pictures. Close-ups show feelings. Wide shots show where we are. Colours set the mood.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "S",
+        "pill": "Film tool",
+        "pillIcon": "lucide:clapperboard",
+        "title": "Sound",
+        "text": "Music, voices, effects.",
+        "icon": "lucide:music",
+        "say": "Sound. Music, voices and sound effects tell you how to feel, sometimes before you notice.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "W",
+        "pill": "Film tool",
+        "pillIcon": "lucide:clapperboard",
+        "title": "Words",
+        "text": "Text on screen. Slogan. Call to action.",
+        "icon": "lucide:type",
+        "say": "Words. Text on screen, a slogan and a call to action that tells you what to do.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "The shape of an ad",
+        "steps": [
+          "Hook",
+          "Build",
+          "Message",
+          "Call to action"
+        ],
+        "say": "Most ads follow the same shape. Hook, build, message, call to action.",
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP1"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Plan it. Film it. Test it on your audience.",
+        "icon": "lucide:video",
+        "say": "Your mission. Storyboard and film a 30-second ad for people your age, then check they got the message."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How an ad gets its message across",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "An ad is a **film text**. It has a **purpose**. Maybe to sell. Maybe to warn. It is made for an **audience**.\n\nEverything in it is chosen.\n\n1. **Pictures.** A **close-up** shows a face. A **wide shot** shows the place.\n2. **Sound.** Music tells you how to feel.\n3. **Words.** Words on screen. A **call to action** tells you what to do.\n4. **Shape.** A **hook** to grab you. Then the **message**. Then the call to action.\n\nAn ad for teens might be funny and fast. An ad for older people might be slow and calm.\n\nAsk: **What is it for? Who is it for? How do the pictures, sound and words help?**",
+          "core": "An ad is a **film text** with a clear **purpose** — to sell, to warn, to change what you do — and a clear **audience**. Everything in it is a choice.\n\n1. **Pictures.** A **close-up** shows a face and a feeling. A **wide shot** shows the place. Bright colours feel fun; dark colours feel serious.\n2. **Sound.** Music tells you how to feel. A voice-over explains. A sudden sound effect makes you jump.\n3. **Words.** Text on screen, a catchy **slogan**, and a **call to action**: the thing they want you to do.\n4. **Structure.** Most ads follow a shape: a **hook** in the first few seconds, a **build**, the **message**, then the **call to action**.\n\nThe makers think hard about the audience. An ad for teens might use humour, music and fast cuts. An ad for older people might be slower and calmer.\n\nTo pull an ad apart, ask: **What's it for? Who's it for? How do the pictures, sound and words help?**",
+          "extend": "An advertisement is a **film text** constructed for a specific **purpose** — to sell, to warn, to change behaviour — and a specific **audience**. Nothing in it is accidental.\n\n1. **Visuals.** Shot types position the viewer: a **close-up** builds emotion, a **wide shot** establishes setting. Colour, lighting and editing pace set the **tone**.\n2. **Sound.** Music cues emotion, voice-over explains, and sound effects create surprise or tension.\n3. **Language.** On-screen text, a memorable **slogan**, and a **call to action** that tells the audience what to do.\n4. **Structure.** Most ads hook the viewer in the first few seconds, build interest, deliver the message, then close with the call to action.\n\nThese choices depend on the audience. A campaign aimed at teenagers might use humour, music and rapid editing; one for older viewers might be slower and more direct.\n\nTo analyse an ad, ask: **What is its purpose? Who is the audience? How do visuals, sound, language and structure work together?**"
+        },
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-LG2",
+          "VPC-U1M1-AP1"
+        ],
+        "vcNote": "How purpose, language and structure in film texts influence an audience."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Dumb Ways to Die",
+        "icon": "lucide:train-front",
+        "body": {
+          "support": "In **2012**, **Metro Trains Melbourne** made a safety ad. It did not look like a safety ad.\n\nIt was a cartoon song called **Dumb Ways to Die**. Cute characters died in silly ways. The song was catchy.\n\nAt the end came the real message: be safe around **trains**.\n\nPeople all over the world shared it, because it was funny. In 2013 it won big awards for ads.\n\nThe makers knew their audience. Young people often ignore serious safety ads. So they hid the message in something fun.",
+          "core": "In **November 2012**, **Metro Trains Melbourne** released a safety campaign made by the ad agency **McCann Melbourne**. It didn't look like a safety ad at all.\n\nIt was a cartoon music video called **Dumb Ways to Die**. Cute, colourful characters met silly ends to a catchy song. Only near the end did the real message arrive: some of the dumbest ways to die are around trains. Then came the call to action: **be safe around trains**.\n\nIt spread around the world online, and people shared it because it was funny, not because it was a warning. In 2013 it won **five Grand Prix awards** at the Cannes Lions, one of the world's biggest advertising festivals.\n\nThe makers knew their audience: young people who tune out serious safety messages. So they hid the message inside something people *wanted* to watch.",
+          "extend": "In **November 2012**, **Metro Trains Melbourne** launched a rail safety campaign made by the agency **McCann Melbourne**. It took an unexpected approach. Instead of scary warnings, it was a cartoon music video: **Dumb Ways to Die**.\n\nColourful characters met absurd ends to a cheerful, catchy song. Only towards the end did the real subject appear — dangerous behaviour around trains — followed by the call to action: **be safe around trains**.\n\nThe video spread internationally because audiences enjoyed it and chose to share it. In 2013 it won **five Grand Prix awards** at the Cannes Lions, a major world advertising festival.\n\nIt was made for young people, who often ignore serious safety ads. By hiding the warning inside something fun, the makers turned viewers into people who spread the message."
+        },
+        "source": {
+          "name": "Campaign Brief — “Australian Campaigns of the Decade: Metro Trains ‘Dumb Ways to Die’ (2012) via McCann Melbourne”; Mumbrella (Cannes Lions 2013)",
+          "url": "https://campaignbrief.com/australian-campaigns-of-the-decade-metro-trains-dumb-ways-to-die-2012-via-mccann-melbourne/"
+        },
+        "think": {
+          "support": [
+            "What was the ad for?",
+            "Why was it funny?"
+          ],
+          "core": [
+            "What was the purpose, and who was the audience?",
+            "Why make a safety ad funny?",
+            "When does the real message arrive, and why then?"
+          ]
+        },
+        "vc": [
+          "VPC-U1M1-LG2",
+          "VPC-U1M1-AP1"
+        ],
+        "vcNote": "How a real film text was designed for its purpose and audience."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of an ad",
+      "docTitle": "AD PLAN: “LID ON” (EXAMPLE)",
+      "vc": [
+        "VPC-U1M1-LG1",
+        "VPC-U1M1-LG2"
+      ],
+      "vcNote": "The purpose, audience and features of a film text.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Purpose",
+          "value": "Get teens to wear a helmet on bikes and scooters"
+        },
+        {
+          "n": 2,
+          "label": "Audience",
+          "value": "14–17 year olds who ride"
+        },
+        {
+          "n": 3,
+          "label": "Hook (0–3 sec)",
+          "value": "Close-up: a watermelon drops and smashes"
+        },
+        {
+          "n": 4,
+          "label": "Sound",
+          "value": "Upbeat song, then sudden silence"
+        },
+        {
+          "n": 5,
+          "label": "Words on screen",
+          "value": "“Your head isn’t a watermelon.”",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Call to action",
+          "value": "Lid on. Every ride."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Purpose",
+          "note": "What the ad wants to change."
+        },
+        {
+          "n": 2,
+          "label": "Audience",
+          "note": "Who it's made for."
+        },
+        {
+          "n": 3,
+          "label": "Hook",
+          "note": "Grabs attention in the first seconds."
+        },
+        {
+          "n": 4,
+          "label": "Sound",
+          "note": "Silence after music makes you pay attention."
+        },
+        {
+          "n": 5,
+          "label": "Slogan / words",
+          "note": "Short, funny and easy to remember."
+        },
+        {
+          "n": 6,
+          "label": "Call to action",
+          "note": "Tells you exactly what to do."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "The shape of an ad",
+      "steps": [
+        {
+          "title": "Hook",
+          "text": "Grab them in 3 seconds.",
+          "icon": "lucide:magnet"
+        },
+        {
+          "title": "Build",
+          "text": "Keep them watching.",
+          "icon": "lucide:trending-up"
+        },
+        {
+          "title": "Message",
+          "text": "The one idea they must get.",
+          "icon": "lucide:message-square"
+        },
+        {
+          "title": "Call to action",
+          "text": "What should they do now?",
+          "icon": "lucide:megaphone"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What was the purpose of Dumb Ways to Die?",
+        "options": [
+          "To get people to be safe around trains",
+          "To sell a song",
+          "To advertise cartoons",
+          "To teach music"
+        ],
+        "answer": 0,
+        "explain": "It was a rail safety campaign from Metro Trains Melbourne.",
+        "vc": [
+          "VPC-U1M1-LG2"
+        ]
+      },
+      {
+        "q": "A **close-up** shot is good for showing…",
+        "options": [
+          "A face and a feeling",
+          "Where we are",
+          "The whole city",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Close-ups show emotion; wide shots show place.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "What is a **call to action**?",
+        "options": [
+          "What the ad tells you to do",
+          "The first shot",
+          "The music",
+          "The price"
+        ],
+        "answer": 0,
+        "explain": "E.g. “Be safe around trains.”",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "Why did the makers make a safety ad funny?",
+        "options": [
+          "Young people often ignore serious safety ads",
+          "Funny ads are cheaper",
+          "It was a mistake",
+          "Trains are funny"
+        ],
+        "answer": 0,
+        "explain": "They designed it for their audience.",
+        "vc": [
+          "VPC-U1M1-AP1"
+        ]
+      },
+      {
+        "q": "Which comes first in most ads?",
+        "options": [
+          "The hook",
+          "The call to action",
+          "The credits",
+          "The slogan"
+        ],
+        "answer": 0,
+        "explain": "Hook → build → message → call to action.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "An ad for nursing homes and an ad for skate shoes would probably differ because…",
+        "options": [
+          "Their audiences want and respond to different things",
+          "One is a film and one isn't",
+          "Old people don't watch ads",
+          "They'd be the same"
+        ],
+        "answer": 0,
+        "explain": "Purpose and audience shape every choice.",
+        "vc": [
+          "VPC-U1M1-LG2"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan a short safety ad in 6 boxes. Film it or act it. Ask 3 people what the message was.",
+      "core": "Storyboard and film (or act out) a 30-second safety ad for people your age. Show it to people from your audience and check they got the message.",
+      "extend": "Storyboard and film (or perform) a 30-second safety ad for a specific audience. Test it on that audience, and explain how your choices of pictures, sound and words suited them."
+    },
+    "checklist": [
+      "I chose a purpose and an audience",
+      "My storyboard has a hook, a message and a call to action",
+      "I filmed or performed my ad",
+      "I asked people from my audience what the message was"
+    ],
+    "levelUp": "In a group, watch three ads from the class. Decide which works best for teens, and back it up with evidence from the ads.",
+    "vc": [
+      "VPC-U1M1-LG3",
+      "VPC-U1M1-LG1"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How an ad gets its message across",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What are the **three questions** to ask about any ad?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG2"
+            ]
+          },
+          {
+            "q": "What's the difference between a **close-up** and a **wide shot**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ]
+          },
+          {
+            "q": "Name the **four parts** of the shape of most ads.",
+            "lines": 0,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "Why might an ad for teens look different from an ad for older people?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of an ad",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of an ad plan. Use the word bank. Write what it is.",
+          "core": "Each number marks part of an ad plan. Write what it is and why it's there."
+        },
+        "columns": [
+          "What is it?",
+          "Why is it there?"
+        ],
+        "wordBank": {
+          "support": [
+            "purpose",
+            "audience",
+            "hook",
+            "sound",
+            "slogan",
+            "call to action"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-LG2"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Pull apart a real ad",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 30,
+          "core": 26
+        },
+        "instructions": "Watch **Dumb Ways to Die** (or an ad your teacher picks). Fill in the table. The first row is done for you.",
+        "columns": [
+          "",
+          "What I noticed",
+          "Why it works"
+        ],
+        "rows": [
+          [
+            "Purpose",
+            "Get people to be safe around trains",
+            "It's funny, so people watch it all"
+          ],
+          [
+            "Audience",
+            "",
+            ""
+          ],
+          [
+            "Hook",
+            "",
+            ""
+          ],
+          [
+            "Pictures",
+            "",
+            ""
+          ],
+          [
+            "Sound",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Words on screen",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          [
+            "Call to action",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VPC-U1M1-AP1",
+          "VPC-U1M1-LG1"
+        ],
+        "vcNote": "Explaining how a film text is designed for its audience and purpose."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Dumb Ways to Die",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Who made the ad, and what was it for?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG2"
+            ]
+          },
+          {
+            "q": "Why do you think they made a safety message funny?",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          },
+          {
+            "q": "Why does the real message come near the **end**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ]
+          },
+          {
+            "q": "Would this ad work for your grandparents? Why or why not?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-LG2"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Plan your ad",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Pick a safety message for people your age. A helmet. Sun safety. Phones and roads. Plan a short ad.",
+          "core": "Pick a safety message for people **your age**: wear a helmet, slip slop slap, swim between the flags, no phone when crossing the road, or your own idea. Plan a 30-second ad.",
+          "extend": "Choose a safety message and a specific audience of people your age. Plan a 30-second ad, and note how each choice (pictures, sound, words, tone) suits that audience."
+        },
+        "plan": [
+          {
+            "label": "Purpose: I want them to…",
+            "lines": 1
+          },
+          {
+            "label": "Audience: it's for…",
+            "lines": 1
+          },
+          {
+            "label": "Hook (first 3 seconds):",
+            "lines": 1
+          },
+          {
+            "label": "Call to action:",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Close-up of…",
+          "Wide shot of…",
+          "Music:",
+          "Words on screen:"
+        ],
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "purpose",
+          "audience",
+          "hook",
+          "call to action"
+        ],
+        "vc": [
+          "VPC-U1M1-LG3"
+        ],
+        "vcNote": "Planning a text for a specific audience and purpose."
+      },
+      {
+        "type": "storyboard",
+        "title": "Storyboard it",
+        "pagebreak": true,
+        "frames": 6,
+        "boxHeight": {
+          "support": 52,
+          "core": 52
+        },
+        "instructions": "Sketch your ad in 6 shots (stick figures are fine). Write what we **see** and **hear** in each.",
+        "hints": [
+          "Hook",
+          "",
+          "",
+          "Message",
+          "",
+          "Call to action"
+        ],
+        "vc": [
+          "VPC-U1M1-LG3"
+        ],
+        "vcNote": "Storyboarding a film text."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: film it and test it",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Make your ad real, then check whether your audience got the message.",
+        "need": [
+          "your storyboard",
+          "a phone (or a live audience)",
+          "1–3 helpers"
+        ],
+        "steps": {
+          "support": [
+            "Film each shot, or act it out.",
+            "Keep it short: about 30 seconds.",
+            "Show it to 3 people your age.",
+            "Ask: “What was the message?”",
+            "Write what they said."
+          ],
+          "core": [
+            "Film each shot on a phone, or rehearse it to act out live.",
+            "Keep it to about **30 seconds**.",
+            "Show it to **3 people** from your audience.",
+            "Ask each one: “What was the message? What should you do?”",
+            "Write down what they said.",
+            "Change one thing to make it work better."
+          ]
+        },
+        "photo": {
+          "support": 28,
+          "core": 28
+        },
+        "photoLabel": "Stick a still from your ad here (or a photo of you filming)",
+        "notes": [
+          {
+            "label": "What did your audience say the message was? Did it match yours?",
+            "lines": {
+              "support": 3,
+              "core": 3
+            }
+          },
+          {
+            "label": "One thing I'd change, and why:",
+            "lines": 2
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-LG2"
+        ],
+        "vcNote": "Hands-on: creating a film text for a specific audience and testing whether the message landed."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "In a small group, watch three ads from your class.",
+        "items": [
+          {
+            "q": "Which ad works best for **teens**? Give **two pieces of evidence** from the ad.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP6"
+            ]
+          },
+          {
+            "q": "Someone in your group disagreed. What was their view and evidence?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP6"
+            ]
+          },
+          {
+            "q": "How did the **sound** change the way you felt about one of the ads?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can work out an ad's purpose and audience.",
+          "I can explain how pictures, sound and words help.",
+          "I can plan and storyboard an ad.",
+          "I can film or act out an ad and test it."
+        ],
+        "questions": [
+          "An ad I'll never watch the same way again:",
+          "What I'd film next time:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students analyse how a film text (an ad) uses pictures, sound, words and structure to reach a specific audience for a specific purpose, using Metro Trains Melbourne's “Dumb Ways to Die”. They then plan, storyboard and film (or perform) their own 30-second safety ad for people their age and test whether the message landed.",
+    "prep": [
+      "Print workbooks.",
+      "Queue the official Dumb Ways to Die video (Metro Trains Melbourne's YouTube channel) and preview it. It's a cartoon, but it's about deaths: check it suits your students.",
+      "Have a few other short ads ready for comparison.",
+      "Check your school's rules on filming and sharing student videos; acting live is a fine alternative."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Pull it apart",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** play Dumb Ways to Die without saying what it is. When did they realise?",
+          "**Explicit teaching (10 min):** purpose, audience, pictures, sound, words, structure.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** How an ad gets its message across + questions.",
+          "**Analyse (15 min):** rewatch and fill in Pull apart a real ad."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan it",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** Anatomy of an ad.",
+          "**Case study (10 min):** Dumb Ways to Die.",
+          "**Model (10 min):** plan an ad on the board with the class.",
+          "**Plan + storyboard (20 min):** students plan and storyboard their own."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Film it and test it",
+        "minutes": 50,
+        "steps": [
+          "**Hands-on (30 min):** film or rehearse; test on 3 people.",
+          "**Level Up (10 min):** group viewing and discussion.",
+          "**Check & reflect (10 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Ask: what's it for? who's it for?",
+      "Pictures, sound, words and structure all do a job.",
+      "Hook → build → message → call to action.",
+      "Test your text on its real audience."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer rows in the analysis table.",
+        "Act the ad out instead of filming it."
+      ],
+      "extend": [
+        "Explain how each choice suits the audience.",
+        "Lead the group comparison (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U1M1-LG1",
+        "evidence": "Identifies and describes the features of a film text: shots, sound, words and structure (annotation, analysis table)."
+      },
+      {
+        "vc": "VPC-U1M1-LG2",
+        "evidence": "Explains that an ad is made for a purpose and audience (reading questions, case study, Do it page)."
+      },
+      {
+        "vc": "VPC-U1M1-LG3",
+        "evidence": "Creates an ad for a specific audience and purpose (plan, storyboard, filmed or performed ad)."
+      },
+      {
+        "vc": "VPC-U1M1-AP1",
+        "evidence": "Explains how Dumb Ways to Die was designed for its audience (analysis table, case study)."
+      },
+      {
+        "vc": "VPC-U1M1-AP6",
+        "evidence": "Level Up: takes part in a group discussion and supports a view with evidence from the ads."
+      }
+    ],
+    "answers": "**Ad plan:** 1 purpose; 2 audience; 3 hook (first 3 seconds); 4 sound (music then silence); 5 slogan / words on screen; 6 call to action.\n\n**Pull apart (sample):** audience — young people around trains; hook — catchy song and cute characters; pictures — bright colours, simple cartoon; sound — cheerful, catchy song; call to action — be safe around trains.\n\n**Case study:** Metro Trains Melbourne, made by McCann Melbourne, released November 2012; purpose: rail safety; funny because young audiences tune out serious warnings; message at the end so people watch it all.",
+    "resources": [
+      {
+        "label": "Campaign Brief — Australian Campaigns of the Decade: Dumb Ways to Die",
+        "url": "https://campaignbrief.com/australian-campaigns-of-the-decade-metro-trains-dumb-ways-to-die-2012-via-mccann-melbourne/"
+      },
+      {
+        "label": "Mumbrella — Dumb Ways to Die takes out the PR Lions Grand Prix (2013)",
+        "url": "https://mumbrella.com.au/dumb-ways-to-die-takes-out-the-pr-lion-grand-prix-161821"
+      }
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: simpler article and case study, 6 key words, 3-choice quiz, word bank, fewer rows in the analysis table and shorter Do it steps.",
+      "core": "Aimed at about Year 7 reading: the standard version with annotation, analysis table, plan, storyboard and filmed ad.",
+      "extend": "Aimed at about Year 9 reading: richer article (tone, editing pace), extra vocabulary (tone, slogan), and explaining how each choice suits the audience."
+    }
+  }
+}

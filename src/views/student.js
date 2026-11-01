@@ -84,7 +84,7 @@ export function mapPage(req, { progress, newBadges, unlocked }) {
 
   <div class="trail-arrow" aria-hidden="true">${icon('lucide:arrow-down')}<span>then choose your zone</span>${icon('lucide:arrow-down')}</div>
 
-  <section class="zones" style="--zones:${zones.length}">
+  <section class="zones" style="--zones:${zones.length > 5 ? Math.ceil(zones.length / 2) : zones.length}">
     ${zones.map((z) => {
       const zs = zoneSkills(z.id);
       const n = zs.filter((s) => done.has(s.id)).length;
@@ -242,7 +242,7 @@ function workbookStep(skill) {
       </div>
     </div>
     <h3>What’s inside</h3>
-    <ol class="wb-list">${pages.map((p) => html`<li>${p.title || p.type}${p.items?.some((i) => i.levelUp) || p.type.startsWith('levelup') ? html` <span class="lvl-chip">${icon('lucide:star')} Level Up</span>` : ''}</li>`)}</ol>
+    <ol class="wb-list">${pages.map((p) => html`<li>${p.title || { goals: 'Your mission', 'vocab-match': 'Word Power' }[p.type] || p.type}${p.items?.some((i) => i.levelUp) || p.type.startsWith('levelup') ? html` <span class="lvl-chip">${icon('lucide:star')} Level Up</span>` : ''}${p.type === 'do-it' ? html` <span class="lvl-chip doit-chip">${icon('lucide:hand-metal')} Hands-on</span>` : ''}</li>`)}</ol>
   </div>`;
 }
 
@@ -270,6 +270,7 @@ function checkStep(skill, p, result) {
 
 function showStep(skill, p, ready) {
   const s = skill.course.show;
+  const handsOn = skill.course.workbook.pages.find((x) => x.type === 'do-it');
   if (p?.status === 'submitted') {
     return html`<div class="panel center-panel">${icon('lucide:hourglass', 'big-ico')}<h2>Sent to your teacher</h2><p>Your teacher will check your workbook and sign it off. Pick another skill from the map while you wait!</p><a class="btn btn-ink" href="/map">${icon('lucide:map')} Back to the map</a></div>`;
   }
@@ -279,7 +280,7 @@ function showStep(skill, p, ready) {
   return html`<div class="panel">
     ${p?.teacher_comment ? html`<div class="callout-box warn">${icon('lucide:message-circle')}<div><strong>Your teacher says</strong><p>${p.teacher_comment}</p></div></div>` : ''}
     <h2>Show it</h2>
-    <div class="callout-box">${icon('lucide:target')}<div><strong>Your final task</strong><p>${s.task}</p><small>Do this in your workbook (page “Final mission”).</small></div></div>
+    <div class="callout-box">${icon('lucide:target')}<div><strong>Your final task</strong><p>${s.task}</p><small>${handsOn ? `Do it for real, then record it in your workbook (page “${handsOn.title}”).` : 'Do this in your workbook (page “Final mission”).'}</small></div></div>
     ${ready.missing.length ? html`<div class="callout-box warn">${icon('lucide:list-todo')}<div><strong>Before you send it in, finish:</strong><ul>${ready.missing.map((m) => html`<li>${m}</li>`)}</ul></div></div>` : ''}
     <form method="post" action="/skill/${skill.id}/submit" class="show-form">
       <fieldset><legend>Tick each one</legend>
@@ -410,19 +411,20 @@ export function curriculumGrid(cov, { levels = GRID_LEVELS, program = 'f10' } = 
   </table></div>`;
 }
 
-// Staff view for a study design (VCE VM): one row per outcome, key knowledge and key skills.
+// Staff view for a study design: one row per outcome (VM) or module (VPC), one column per kind of point.
 function outcomeGrid(cov, c) {
+  const P = PROGRAMS[c.program];
   const cell = (es) => {
     const hit = es.filter((e) => cov[e.id]);
     const tip = es.map((e) => `${cov[e.id] ? '✓' : '·'} ${e.code}: ${e.text}${cov[e.id] ? ' — ' + cov[e.id].map((h) => h.skill.title).join(', ') : ''}`).join('\n');
     return html`<td class="${hit.length ? 'hit' : ''}" title="${tip}">${hit.length ? icon('lucide:check') : ''}<span class="${hit.length ? '' : 'cd-n'}">${hit.length}/${es.length}</span></td>`;
   };
   return html`<div class="vc-grid-wrap"><table class="vc-grid outcome-grid">
-    <thead><tr><th scope="col">Unit › outcome</th><th scope="col">Key knowledge</th><th scope="col">Key skills</th></tr></thead>
+    <thead><tr><th scope="col">Unit › ${P.part.toLowerCase()}</th>${P.kinds.map((k) => html`<th scope="col">${k.plural}</th>`)}</tr></thead>
     <tbody>${c.curriculum.outcomes.map((o) => {
       const es = c.curriculum.entries.filter((e) => e.focus === o.id);
-      return html`<tr><th scope="row"><small>Unit ${o.unit} · Outcome ${o.outcome}</small>${o.title}</th>
-        ${cell(es.filter((e) => e.kind === 'Key knowledge'))}${cell(es.filter((e) => e.kind === 'Key skill'))}</tr>`;
+      return html`<tr><th scope="row"><small>Unit ${o.unit} · ${P.part} ${o.outcome}</small>${o.title}</th>
+        ${P.kinds.map((k) => cell(es.filter((e) => e.kind === k.kind)))}</tr>`;
     })}</tbody>
   </table></div>`;
 }
@@ -442,7 +444,7 @@ export function myCurriculumPage(req, { progress, level, program = 'f10' }) {
   const areas = Object.entries(c.curriculum.focusAreas);
   const body = html`<section class="page-head"><p class="eyebrow">My Curriculum</p>
     <h1>What you’ve <span class="hl">shown you can do</span></h1>
-    <p class="lede">${sd ? 'Every skill links to the outcomes in VCE VM Literacy. Here’s what your finished skills count towards.' : 'Every skill links to the Victorian Curriculum for English. Here’s what your finished skills count towards.'}</p></section>
+    <p class="lede">${sd ? `Every skill links to the ${PROGRAMS[program].part.toLowerCase()}s in ${PROGRAMS[program].curriculumShort}. Here’s what your finished skills count towards.` : 'Every skill links to the Victorian Curriculum for English. Here’s what your finished skills count towards.'}</p></section>
   ${Object.keys(bySub).length ? '' : empty('Finish your first skill and it will show up here.', 'lucide:graduation-cap')}
   ${(sd ? [...new Set(Object.values(c.curriculum.focusAreas).map((fa) => fa.strand))] : ['Literacy', 'Language', 'Literature']).map((strand) => html`
     <h2 class="section-title">${icon(sd ? 'lucide:layers' : strand === 'Literacy' ? 'lucide:book-open' : strand === 'Language' ? 'lucide:message-square-quote' : 'lucide:feather')} ${strand}</h2>

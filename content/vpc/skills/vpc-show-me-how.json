@@ -1,0 +1,875 @@
+{
+  "id": "vpc-show-me-how",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), including a live test",
+  "brief": {
+    "hook": {
+      "support": "Ever built something and had screws left over? Bad instructions are a pain. Good ones feel easy. Someone wrote them.",
+      "core": "Ever built flat-pack furniture and ended up with spare screws and a wobbly shelf? Bad instructions waste time, money and patience. Good ones feel easy — and someone had to write them."
+    },
+    "why": {
+      "support": "You follow steps every day. Sometimes you teach someone else. If they can follow your steps without help, you nailed it.",
+      "core": "At work and at home you'll follow instructions every day, and sometimes you'll be the one teaching. If someone can follow your steps without asking you a single question, you've nailed it.",
+      "extend": "Instructions are everywhere at work: safety procedures, recipes, closing the till. Writing them well means thinking like your reader — what they know, and what they'll get wrong."
+    },
+    "canDo": {
+      "support": [
+        "I can say what good instructions have.",
+        "I can plan and write steps.",
+        "I can start each step with a doing word.",
+        "I can test my steps on a real person."
+      ],
+      "core": [
+        "I can name the **features** of good instructions.",
+        "I can **plan, draft and fix** a set of steps.",
+        "I can write each step as a clear **sentence** that starts with a doing word.",
+        "I can **test** my instructions on a real person and improve them."
+      ]
+    },
+    "showIt": "Write a how-to for something you can do, test it on a partner who follows it exactly, then fix it.",
+    "vocab": [
+      {
+        "word": "instructions",
+        "meaning": "steps that tell you how to do something",
+        "example": "The instructions were easy to follow."
+      },
+      {
+        "word": "step",
+        "meaning": "one action in a set of instructions",
+        "example": "Step 3 says to add the cheese."
+      },
+      {
+        "word": "doing word",
+        "meaning": "a word for an action, like cut, press or mix",
+        "example": "“Press” is a doing word."
+      },
+      {
+        "word": "sequence",
+        "meaning": "the order that things happen in",
+        "example": "Get the sequence right or it won't work."
+      },
+      {
+        "word": "draft",
+        "meaning": "a first go at writing — not the final version",
+        "example": "My draft had six steps."
+      },
+      {
+        "word": "test",
+        "meaning": "try something out to see if it works",
+        "example": "We tested the steps on a friend."
+      },
+      {
+        "word": "materials",
+        "meaning": "the things you need before you start",
+        "example": "The materials are bread, cheese and butter.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "edit",
+        "meaning": "fix and improve your writing",
+        "example": "I edited step 2 to make it clearer.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "audience",
+        "meaning": "the person or people a text is for",
+        "example": "My audience is someone who has never cooked.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "precise",
+        "meaning": "exact, with nothing left to guess",
+        "example": "“Two slices” is more precise than “some”.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Show Me How in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Show Me How",
+        "sub": "If someone can follow your steps, you’ve nailed it.",
+        "icon": "lucide:list-ordered",
+        "say": "Show me how. If someone can follow your steps, you've nailed it."
+      },
+      {
+        "kind": "big",
+        "title": "One job",
+        "text": "Get it done **right, first time**.",
+        "icon": "lucide:target",
+        "say": "Instructions have one job: get someone to do something right, first time.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Feature",
+        "pillIcon": "lucide:list-ordered",
+        "title": "Title + you need",
+        "text": "Say what it is. List what you need.",
+        "icon": "lucide:package",
+        "say": "Start with a title that says what you'll make, and a list of what you need.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Feature",
+        "pillIcon": "lucide:list-ordered",
+        "title": "Numbered steps",
+        "text": "In order. One action each.",
+        "icon": "lucide:list-ordered",
+        "say": "Number your steps, in order. One action per step.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Feature",
+        "pillIcon": "lucide:list-ordered",
+        "title": "Doing words",
+        "text": "**Cut. Press. Wait.** Be exact.",
+        "icon": "lucide:hand",
+        "say": "Start each step with a doing word. Cut. Press. Wait. Be exact: two slices, not some.",
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP7"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Make it work",
+        "steps": [
+          "Plan",
+          "Draft",
+          "Test",
+          "Fix"
+        ],
+        "say": "Then plan, draft, test on a real person, and fix what went wrong.",
+        "vc": [
+          "VPC-U1M1-AP4"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Write it. Test it. Fix it.",
+        "icon": "lucide:clipboard-check",
+        "say": "Your mission. Write a how-to for something you can do, then watch someone follow it exactly."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "What makes instructions work",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Instructions have one job. Help someone do it right, the first time.\n\nGood instructions have:\n\n1. **A title.** *How to make a cheese toastie.*\n2. **What you need.** A list of things to get first.\n3. **Steps with numbers.** In order. One action in each step.\n4. **A doing word first.** *Cut. Spread. Press.*\n5. **Exact words.** *Two slices*, not *some bread*.\n6. **Pictures and warnings.** *Careful: hot!*\n\nThe secret? **Test it.** Give your steps to someone. Watch. Don't help. If they get stuck, fix that step.",
+          "core": "Instructions are a **text type** with one job: help someone do something right, the first time. Good ones share the same features.\n\n1. **A clear title.** Say what you'll make or do: *How to make a cheese toastie*.\n2. **What you need.** List the materials and tools before the steps, so nobody gets halfway and stops.\n3. **Numbered steps in order.** One action per step. If the order matters (and it usually does), the numbers show it.\n4. **Start with a doing word.** *Cut*, *spread*, *press*, *wait*. It tells the reader exactly what to do.\n5. **Be precise.** *Two slices* beats *some bread*. *For 3 minutes* beats *for a bit*.\n6. **Pictures and warnings.** A photo or diagram can save a hundred words. A warning (*Careful: hot!*) keeps people safe.\n\nThe secret? **Test it.** Give your instructions to someone who has never done the task. Watch, and don't help. Every time they get stuck, you've found a step to fix.",
+          "extend": "Instructions (or procedures) are a **text type** designed for one purpose: to get a reader to complete a task correctly, first time, without help. Effective instructions share recognisable features.\n\n1. **A specific title** that names the outcome: *How to make a cheese toastie*.\n2. **Materials and equipment** listed up front, so the reader can prepare.\n3. **Numbered, sequential steps**, each containing a single action.\n4. **Imperative verbs** (commands) at the start of each step: *cut*, *spread*, *press*.\n5. **Precise language**: quantities, times and positions, so nothing is left to guess.\n6. **Visuals and warnings**, which often communicate faster and more safely than words.\n\nWriters rarely get instructions right in one go, because they know the task too well and skip “obvious” steps. That's why professionals **test** them on real users: watch silently, note every hesitation, and revise."
+        },
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP4"
+        ],
+        "vcNote": "Structures and features of instructional texts, and testing and revising them."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The Exact Instructions Challenge",
+        "icon": "lucide:sandwich",
+        "body": {
+          "support": "In 2017, a YouTuber called **Josh Darnit** made a video. It went viral.\n\nHis two kids wrote steps for making a **peanut butter and jam sandwich**. Josh did **exactly** what the words said. Nothing more.\n\nIt went badly. The steps said to put peanut butter on the bread. So he put the whole jar on the bread!\n\nThe kids rewrote their steps again and again.\n\nIt is funny. But it shows something real. When you know a task well, you skip steps. Your reader can't read your mind.",
+          "core": "In 2017, a YouTuber called **Josh Darnit** posted a video that went viral. His two kids had to write instructions for making a **peanut butter and jam sandwich**. Josh would then follow them **exactly** — doing only what the words said.\n\nIt went badly. When the instructions said to put peanut butter on the bread, he put the whole jar on the bread. When they said to spread it, he used his hand. The kids rewrote their instructions again and again, getting more and more frustrated.\n\nIt looks like a joke, but teachers around the world use the same challenge. It shows something real: you know a task so well that you skip steps. Your reader can't read your mind.",
+          "extend": "In 2017, YouTuber **Josh Darnit** posted a video that spread fast online. His two children wrote instructions for making a **peanut butter and jam sandwich**. He then followed them exactly, doing only what the words said.\n\nThe results were chaos. “Put peanut butter on the bread” got the whole jar placed on a slice. “Spread it” was done with his hand. The kids rewrote their steps again and again, and got more and more frustrated.\n\nThe “exact instructions” challenge is now a common classroom activity. It shows a real problem in writing for an audience. When you know a task well, you skip steps that seem obvious to you. They are not obvious to your reader."
+        },
+        "source": {
+          "name": "Scary Mommy — “Josh Darnit’s peanut butter and jelly video”; KTAR News (11 February 2017)",
+          "url": "https://www.scarymommy.com/josh-darnit-peanut-butter-jelly-video"
+        },
+        "think": {
+          "support": [
+            "Why did the steps go wrong?",
+            "What would you change?"
+          ],
+          "core": [
+            "Why did the kids' instructions fail?",
+            "What does this show about writing for someone else?",
+            "How could they have tested their steps sooner?"
+          ]
+        },
+        "vc": [
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP1"
+        ],
+        "vcNote": "Writing for a specific audience; why testing and revising matters."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a how-to",
+      "docTitle": "HOW TO MAKE A CHEESE TOASTIE",
+      "vc": [
+        "VPC-U1M1-LG1"
+      ],
+      "vcNote": "The structures and features of an instructional text.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "You need",
+          "value": "2 slices of bread, 2 slices of cheese, butter, sandwich press"
+        },
+        {
+          "n": 2,
+          "label": "Step 1",
+          "value": "Turn on the sandwich press and wait 3 minutes."
+        },
+        {
+          "n": 3,
+          "label": "Step 2",
+          "value": "Spread butter on one side of each slice."
+        },
+        {
+          "n": 4,
+          "label": "Step 3",
+          "value": "Put the cheese between the slices, butter side out."
+        },
+        {
+          "n": 5,
+          "label": "Warning",
+          "value": "Careful: the press is hot!",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Step 4",
+          "value": "Cook for 3–4 minutes, until golden."
+        }
+      ],
+      "note": "Example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "You need",
+          "note": "Everything to get before you start."
+        },
+        {
+          "n": 2,
+          "label": "Doing word + time",
+          "note": "“Turn on” and “wait 3 minutes” — exact."
+        },
+        {
+          "n": 3,
+          "label": "One action",
+          "note": "Each step does one thing."
+        },
+        {
+          "n": 4,
+          "label": "Precise detail",
+          "note": "“Butter side out” stops a mistake."
+        },
+        {
+          "n": 5,
+          "label": "Warning",
+          "note": "Keeps the reader safe."
+        },
+        {
+          "n": 6,
+          "label": "How you know it's done",
+          "note": "“Until golden” tells you when to stop."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Plan → Draft → Test → Fix",
+      "steps": [
+        {
+          "title": "Plan",
+          "text": "What? Who for? What do they need?",
+          "icon": "lucide:lightbulb"
+        },
+        {
+          "title": "Draft",
+          "text": "Number the steps. Doing word first.",
+          "icon": "lucide:pen-line"
+        },
+        {
+          "title": "Test",
+          "text": "Someone follows it exactly. You watch.",
+          "icon": "lucide:eye"
+        },
+        {
+          "title": "Fix",
+          "text": "Rewrite every step that went wrong.",
+          "icon": "lucide:wrench"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What should come **before** the steps?",
+        "options": [
+          "A list of what you need",
+          "The ending",
+          "Your name",
+          "A warning about everything"
+        ],
+        "answer": 0,
+        "explain": "Get the materials first so nobody stops halfway.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "Which step is clearest?",
+        "options": [
+          "Spread butter on one side of each slice.",
+          "Do the butter.",
+          "Put some butter on.",
+          "Butter it like normal."
+        ],
+        "answer": 0,
+        "explain": "It starts with a doing word and is exact.",
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP7"
+        ]
+      },
+      {
+        "q": "Why number the steps?",
+        "options": [
+          "To show the order",
+          "To make it look longer",
+          "Because it's the law",
+          "So it rhymes"
+        ],
+        "answer": 0,
+        "explain": "Order matters in instructions.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "What went wrong in the Exact Instructions Challenge?",
+        "options": [
+          "The kids skipped steps that seemed obvious to them",
+          "Josh couldn't read",
+          "They had no bread",
+          "The video was fake"
+        ],
+        "answer": 0,
+        "explain": "Experts skip steps; readers can't read your mind.",
+        "vc": [
+          "VPC-U1M1-LG3"
+        ]
+      },
+      {
+        "q": "Your partner gets stuck on step 3. What should you do?",
+        "options": [
+          "Rewrite step 3 so it's clearer",
+          "Tell them what you meant",
+          "Start again from scratch",
+          "Ignore it"
+        ],
+        "answer": 0,
+        "explain": "Fix the text, not the reader.",
+        "vc": [
+          "VPC-U1M1-AP4"
+        ]
+      },
+      {
+        "q": "Instructions for a 10-year-old and for a chef would be different because…",
+        "options": [
+          "They have different knowledge, so they need different detail",
+          "Chefs don't read",
+          "Kids don't need steps",
+          "They'd be the same"
+        ],
+        "answer": 0,
+        "explain": "Write for your audience.",
+        "vc": [
+          "VPC-U1M1-AP1"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write steps for something you can do. A partner follows them. Then fix them.",
+      "core": "Write a how-to for something you can do. Test it on a partner who follows it exactly, then fix it.",
+      "extend": "Write a how-to for something you can do, for a specific reader. Test it on a partner who follows it exactly, revise it, and explain how you changed it for your audience."
+    },
+    "checklist": [
+      "My how-to has a title, a “you need” list and numbered steps",
+      "Each step starts with a doing word",
+      "A partner tested it and I watched",
+      "I fixed the steps that went wrong"
+    ],
+    "levelUp": "Find a real set of instructions (a manual, a recipe or a video). Compare it with yours: which works better for its audience, and why?",
+    "vc": [
+      "VPC-U1M1-LG3",
+      "VPC-U1M1-AP4"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: What makes instructions work",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name **four** features of good instructions.",
+            "lines": 0,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "Why should each step start with a **doing word**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ]
+          },
+          {
+            "q": "What's the secret to good instructions, and why does it work?",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VPC-U1M1-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a how-to",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a feature. Use the word bank. Write what it is.",
+          "core": "Each number marks a feature. Write what it is and why it helps the reader."
+        },
+        "columns": [
+          "What is it?",
+          "Why does it help?"
+        ],
+        "wordBank": {
+          "support": [
+            "you need",
+            "doing word",
+            "one action",
+            "exact detail",
+            "warning",
+            "when to stop"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Clear or not clear?",
+        "pagebreak": true,
+        "choices": [
+          "Clear",
+          "Not clear"
+        ],
+        "reasonLabel": "Fix:",
+        "instructions": "Tick if each step is clear. If not, write a better one.",
+        "cards": [
+          {
+            "from": "Step",
+            "text": "Put the bread in.",
+            "answer": "Not clear",
+            "flags": "Put 2 slices of bread in the toaster."
+          },
+          {
+            "from": "Step",
+            "text": "Press the green button on the left.",
+            "answer": "Clear",
+            "flags": "Already clear — doing word and exact."
+          },
+          {
+            "from": "Step",
+            "text": "Wait a bit.",
+            "answer": "Not clear",
+            "flags": "Wait 2 minutes."
+          },
+          {
+            "from": "Step",
+            "text": "Do the rest like normal.",
+            "answer": "Not clear",
+            "flags": "Say each step."
+          },
+          {
+            "from": "Step",
+            "text": "Fold the paper in half, long edge to long edge.",
+            "answer": "Clear",
+            "flags": "Exact.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Step",
+            "text": "Add some water and mix it and then put it in the oven.",
+            "answer": "Not clear",
+            "flags": "Split into 3 steps with amounts.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-AP7",
+          "VPC-U1M1-LG1"
+        ],
+        "vcNote": "Clear sentence structure in instructions."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the Exact Instructions Challenge",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the kids have to do, and what did their dad do?",
+            "lines": 2
+          },
+          {
+            "q": "Why did their instructions fail?",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VPC-U1M1-LG3"
+            ]
+          },
+          {
+            "q": "Rewrite this step so it can't go wrong: *Put the peanut butter on the bread.*",
+            "lines": 3,
+            "vc": [
+              "VPC-U1M1-AP7"
+            ]
+          },
+          {
+            "q": "What does this case show about writing for someone who isn't you?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Draft your how-to",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Pick something you can do. A snack. A game trick. Tying a tie. Write the steps for someone new.",
+          "core": "Pick something **you** can do: make a snack, change a bike tube, tie a tie, set up a phone, a dance move, a game trick. Write a how-to for someone who has never done it.",
+          "extend": "Choose a task you can do well and a specific reader who has never done it. Write a how-to that this person could follow without asking you anything."
+        },
+        "plan": [
+          {
+            "label": "Title: How to …",
+            "lines": 1
+          },
+          {
+            "label": "You need:",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "1. Get…",
+          "2. Put…",
+          "3. Press…",
+          "4. Wait…",
+          "Careful:"
+        ],
+        "lines": {
+          "support": 9,
+          "core": 10
+        },
+        "check": [
+          "title",
+          "you need list",
+          "numbered steps",
+          "doing word first",
+          "exact amounts and times"
+        ],
+        "vc": [
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-AP7"
+        ],
+        "vcNote": "Planning and drafting an instructional text for a specific audience."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: the test drive",
+        "pagebreak": true,
+        "where": "in class",
+        "instructions": "Your partner follows your how-to **exactly**. You watch. No talking, no pointing!",
+        "need": [
+          "your draft how-to",
+          "a partner",
+          "the things the task needs (or act it out)"
+        ],
+        "steps": {
+          "support": [
+            "Give your partner your steps. Don't talk.",
+            "They do only what each step says.",
+            "Watch. Put a dot where they get stuck.",
+            "Fix the steps with a dot.",
+            "Test it again."
+          ],
+          "core": [
+            "Give your partner your how-to. Say nothing else.",
+            "They do **only** what each step says, in order.",
+            "Watch. Put a dot next to any step where they get stuck or go wrong.",
+            "Swap and test your partner's how-to.",
+            "Rewrite every step that had a dot.",
+            "Test it again. Did it work this time?"
+          ]
+        },
+        "photo": {
+          "support": 32,
+          "core": 30
+        },
+        "photoLabel": "Stick a photo of the test (or the finished thing) here",
+        "notes": [
+          {
+            "label": "Where did they get stuck, and why?",
+            "lines": 2
+          },
+          {
+            "label": "Write one step **before** and **after** you fixed it:",
+            "lines": {
+              "support": 3,
+              "core": 3
+            }
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-LG3"
+        ],
+        "vcNote": "Hands-on: testing instructions on a real reader, then editing and redrafting."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Find a real set of instructions: a manual, a recipe, a game guide or a how-to video.",
+        "items": [
+          {
+            "q": "What's it for, and who is the audience?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          },
+          {
+            "q": "Compare it with your how-to. Which works better for its audience? Why?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          },
+          {
+            "q": "Pick one thing it does well that you'll use next time.",
+            "lines": 2,
+            "levelUp": true
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can name the features of good instructions.",
+          "I can plan, draft and fix my steps.",
+          "I can write clear steps with doing words.",
+          "I can test my steps on a real person."
+        ],
+        "questions": [
+          "The hardest part of writing clear steps:",
+          "Where I'll use this at work or home:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the structures and features of instructional texts (title, materials, numbered steps, imperative verbs, precise detail, warnings), then plan, draft and edit a how-to for something they can do. The hands-on test drive has a partner follow it literally while the writer watches, then revise. The case study is the viral “Exact Instructions Challenge”.",
+    "prep": [
+      "Print workbooks.",
+      "Optional: show the Exact Instructions Challenge video (preview first; it's on YouTube).",
+      "Gather simple materials for test drives (paper for folding, Lego, bread and spreads if your school allows food), or let students act tasks out.",
+      "Have a real manual or recipe for comparison."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What makes instructions work",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** you follow a student's spoken instructions to draw a shape or fold a paper plane, literally. Laugh, then discuss.",
+          "**Explicit teaching (10 min):** the features of instructions, using the toastie how-to.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** What makes instructions work + questions.",
+          "**Annotate (10 min):** Anatomy of a how-to."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Clear steps",
+        "minutes": 50,
+        "steps": [
+          "**Sort (10 min):** Clear or not clear?",
+          "**Case study (15 min):** Exact Instructions Challenge.",
+          "**Model (10 min):** think aloud while planning and drafting a how-to.",
+          "**Draft (15 min):** students draft their own."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Test drive",
+        "minutes": 50,
+        "steps": [
+          "**Hands-on (25 min):** test drives in pairs, then revise and retest.",
+          "**Level Up (10 min):** compare with a real set of instructions.",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Instructions have one job: get it done right, first time.",
+      "Title, you need, numbered steps, doing word first, precise detail, warnings.",
+      "Experts skip steps — test on a real reader.",
+      "Fix the text, not the reader."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards.",
+        "Choose a short task (4–5 steps)."
+      ],
+      "extend": [
+        "Write for a named reader and explain how that changed the steps.",
+        "Compare with a professional text (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U1M1-LG1",
+        "evidence": "Identifies and describes the features of instructions (annotation, reading questions)."
+      },
+      {
+        "vc": "VPC-U1M1-LG3",
+        "evidence": "Creates a how-to for a specific reader (draft, test drive)."
+      },
+      {
+        "vc": "VPC-U1M1-AP4",
+        "evidence": "Shows planning, drafting and editing: before-and-after steps on the Do it page."
+      },
+      {
+        "vc": "VPC-U1M1-AP7",
+        "evidence": "Writes clear, correctly punctuated imperative sentences (sort fixes, draft)."
+      },
+      {
+        "vc": "VPC-U1M1-AP1",
+        "evidence": "Level Up: compares their how-to with a real one and explains which suits its audience better."
+      }
+    ],
+    "answers": "**How-to:** 1 you need (materials); 2 doing word + exact time; 3 one action per step; 4 precise detail (butter side out); 5 warning; 6 how you know it's done (until golden).\n\n**Clear or not clear?** Put the bread in — not clear (Put 2 slices of bread in the toaster). Press the green button on the left — clear. Wait a bit — not clear (Wait 2 minutes). Do the rest like normal — not clear. Fold the paper in half… — clear. Add some water… — not clear (split into steps with amounts).\n\n**Case study rewrite (sample):** Use a knife to scoop a spoonful of peanut butter, then spread it evenly over one side of one slice.",
+    "resources": [
+      {
+        "label": "Scary Mommy — Josh Darnit’s peanut butter and jelly video",
+        "url": "https://www.scarymommy.com/josh-darnit-peanut-butter-jelly-video"
+      },
+      {
+        "label": "KTAR News — Family fails at sandwich making in Exact Instructions Challenge (2017)",
+        "url": "https://ktar.com/uncategorized/youtube-family-fails-at-sandwich-making-in-exact-instructions-challenge"
+      }
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: simpler article and case study, 6 key words, 3-choice quiz, word bank, fewer sort cards and a shorter test drive.",
+      "core": "Aimed at about Year 7 reading: the standard version with the annotation, sort, draft and full test drive.",
+      "extend": "Aimed at about Year 9 reading: richer article (imperative verbs, sequencing), extra vocabulary (audience, precise), and writing for a named reader."
+    }
+  }
+}

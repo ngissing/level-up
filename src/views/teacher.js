@@ -1,6 +1,6 @@
 import { html, icon, md, mdInline, raw } from '../html.js';
 import { page, sticker, vcChip, empty, initials, levelTag } from './layout.js';
-import { LEVELS, LEVEL_IDS } from '../levels.js';
+import { LEVELS, LEVEL_IDS, levelInfo } from '../levels.js';
 import { content, skillList, getSkill, skillState, doneSet, coverage, STEPS, courseFor, vcFor, evidenceFor } from '../content.js';
 import { PROGRAMS, PROGRAM_IDS, familyOf } from '../programs.js';
 import { curriculumGrid } from './student.js';
@@ -75,7 +75,7 @@ export function dashboardPage(req, { students, queue, classes, classId, progress
     <tbody>${students.map((st) => {
       const prog = progressByUser[st.id] || {};
       const done = doneSet(prog);
-      return html`<tr><th><a href="/teacher/student/${st.id}"><span class="avatar sm">${initials(st.name)}</span>${st.name}${levelTag(st.reading_level, { short: true })}</a></th>
+      return html`<tr><th><a href="/teacher/student/${st.id}"><span class="avatar sm">${initials(st.name)}</span>${st.name}${levelTag(st.reading_level, { short: true, program: st.program })}</a></th>
         ${skills.map((s) => { const state = skillState(s, prog, done); return html`<td><span class="dot dot-${state}" title="${s.title}: ${DOT[state]}" style="--zone:${s.zoneObj.color}"></span></td>`; })}
         <td><b>${done.size}</b></td></tr>`;
     })}</tbody></table></div>
@@ -93,7 +93,7 @@ export function studentDetailPage(req, { student, progress, badges }) {
     <div><p class="eyebrow"><a href="/teacher">${icon('lucide:arrow-left')} Dashboard</a></p>
     <h1><span class="avatar lg">${initials(student.name)}</span> ${student.name}</h1>
     <p class="muted">${student.username} · ${student.class_name || 'No class'} · last login ${student.last_login?.slice(0, 10) || 'never'}</p>
-    <p><span class="prog-tag fam-${familyOf(program)}">${icon(PROGRAMS[program].icon)} ${PROGRAMS[program].name}</span> ${levelTag(student.reading_level)} <span class="muted small">Reading level — students don’t see this. ${req.user.role === 'admin' ? html`Change it under <a href="/admin?role=student">Accounts</a>.` : 'An admin can change it.'}</span></p></div>
+    <p><span class="prog-tag fam-${familyOf(program)}">${icon(PROGRAMS[program].icon)} ${PROGRAMS[program].name}</span> ${levelTag(student.reading_level, { program })} <span class="muted small">Reading level — students don’t see this. ${req.user.role === 'admin' ? html`Change it under <a href="/admin?role=student">Accounts</a>.` : 'An admin can change it.'}</span></p></div>
     <div class="tiles mini"><div class="tile">${icon('lucide:circle-check-big')}<b>${done.size}</b><span>skills</span></div><div class="tile">${icon('lucide:award')}<b>${badges.length}</b><span>badges</span></div></div>
   </section>
 
@@ -145,7 +145,7 @@ export function skillsIndexPage(req, program = 'f10') {
   return page(req, { title: 'Mini courses', body, active: '/teacher/skills', wide: true, program });
 }
 
-const printButtons = (skill, answers = false) => html`${LEVEL_IDS.map((l) => html`<a class="btn btn-sm ${answers ? 'btn-ghost' : 'btn-ink'}" href="/workbook/${skill.id}?level=${l}${answers ? '&answers=1' : ''}" target="_blank" title="${LEVELS[l].years}">${icon(answers ? 'lucide:key-round' : 'lucide:printer')} ${LEVELS[l].symbol} ${LEVELS[l].label}</a>`)}`;
+const printButtons = (skill, answers = false) => html`${LEVEL_IDS.map((l) => html`<a class="btn btn-sm ${answers ? 'btn-ghost' : 'btn-ink'}" href="/workbook/${skill.id}?level=${l}${answers ? '&answers=1' : ''}" target="_blank" title="${levelInfo(l, skill.program).years}">${icon(answers ? 'lucide:key-round' : 'lucide:printer')} ${LEVELS[l].symbol} ${LEVELS[l].label}</a>`)}`;
 
 // Where a curriculum item sits: "Level 5 · Literacy › …" (F–10) or "Unit 1 · Outcome 1 · Key skill — …" (VM).
 const vcWhere = (e) => (e.level != null ? `Level ${e.level} · ${e.strand} › ${e.substrand}` : `${e.strand} · ${e.kind} — ${e.substrand}`);
@@ -178,14 +178,14 @@ export function teacherGuidePage(req, skill) {
     <section class="panel"><h2>${icon('lucide:graduation-cap')} Curriculum links & what to look for</h2>
       <p class="small muted">Official text: ${c.curriculum.source} <a href="${c.curriculum.url}" target="_blank" rel="noopener">Source</a>, copied ${c.curriculum.retrieved}.</p>
       <table class="table"><thead><tr><th>${PROGRAMS[skill.program].name}</th><th>Evidence to look for</th></tr></thead><tbody>
-      ${lookFors.map((l) => { const e = c.vc[l.vc]; return html`<tr><td><b>${e.code}</b> <span class="muted small">${vcWhere(e)}</span><p class="small cd-text">${e.text}</p></td><td>${l.levels ? html`${l.levels.map((x) => levelTag(x))} ` : html`<span class="lvl-chip">${icon('lucide:star')} Level Up</span> `}${l.evidence}</td></tr>`; })}
+      ${lookFors.map((l) => { const e = c.vc[l.vc]; return html`<tr><td><b>${e.code}</b> <span class="muted small">${vcWhere(e)}</span><p class="small cd-text">${e.text}</p></td><td>${l.levels ? html`${l.levels.map((x) => levelTag(x, { program: skill.program }))} ` : html`<span class="lvl-chip">${icon('lucide:star')} Level Up</span> `}${l.evidence}</td></tr>`; })}
       </tbody></table>
       ${achievementLinks(skill, c)}</section>
 
     ${levelNotes ? html`<section class="panel"><h2>${icon('lucide:layers')} Reading levels</h2>
       <p>Each student gets the version that matches the reading level an admin has set for them. Students never see the level name.</p>
       <div class="levels-grid">${LEVEL_IDS.map((l) => { const v = vcFor(skill, l); return html`<div class="level-card rl-${l}">
-        <h3>${LEVELS[l].symbol} ${LEVELS[l].label} <small>${LEVELS[l].years}</small></h3>
+        <h3>${LEVELS[l].symbol} ${LEVELS[l].label} <small>${levelInfo(l, skill.program).years}</small></h3>
         ${md(levelNotes[l] || '')}
         <p class="small"><b>Curriculum evidenced:</b></p><div class="vc-list">${v.core.map((id) => vcChip(c.vc[id]))}${l === 'extend' ? v.extend.map((id) => vcChip(c.vc[id], { extend: true })) : ''}</div>
       </div>`; })}</div></section>` : ''}
@@ -210,14 +210,19 @@ export function teacherGuidePage(req, skill) {
   return page(req, { title: `${skill.title} — teacher guide`, body, theme: z, active: '/teacher/skills', program: skill.program });
 }
 
+// VPC modules state "the student should be able to:" followed by the learning goals.
+const goalList = (c, o) => (o.statement.endsWith(':')
+  ? html`<ul>${c.curriculum.entries.filter((e) => e.focus === o.id && e.kind === PROGRAMS[c.program].kinds[0].kind).map((e) => html`<li>${e.text}</li>`)}</ul>` : '');
+
 // Sentences of the achievement standard that draw on this skill's content descriptions.
 function achievementLinks(skill, c) {
   const codes = new Set([...(skill.vc.support || []), ...skill.vc.core, ...skill.vc.extend]);
   if (c.curriculum.kind === 'study-design') {
     const outs = c.curriculum.outcomes.filter((o) => [...codes].some((id) => c.vc[id]?.focus === o.id));
-    return html`<details class="ach" open><summary>${icon('lucide:target')} Outcomes this skill gives evidence for</summary>
-      <ul>${outs.map((o) => html`<li><b>Unit ${o.unit}, Outcome ${o.outcome} — ${o.title}:</b> ${o.statement}</li>`)}</ul>
-      <p class="small muted">Satisfactory completion is a school judgement against the whole outcome; this skill is one piece of evidence towards it.</p>
+    const P = PROGRAMS[skill.program];
+    return html`<details class="ach" open><summary>${icon('lucide:target')} ${P.part}s this skill gives evidence for</summary>
+      <ul>${outs.map((o) => html`<li><b>Unit ${o.unit}, ${P.part} ${o.outcome} — ${o.title}:</b> ${o.statement}${goalList(c, o)}</li>`)}</ul>
+      <p class="small muted">Satisfactory completion is a school judgement against the whole ${P.part.toLowerCase()}; this skill is one piece of evidence towards it.</p>
     </details>`;
   }
   const byLevel = {};
@@ -323,8 +328,10 @@ function cmapHeader(c, { linked, total, noun, legend, jump }) {
 
 const legendChip = (kind, text) => html`<span class="chip-skill chip-${kind} chip-demo">${text}</span>`;
 
-// VCE VM Literacy: Unit → Outcome → key knowledge / key skills, word for word.
+// Study designs, word for word. VCE VM: Unit → Outcome → key knowledge / key skills.
+// VPC: Unit → Module → learning goals / applications (plus the suggested assessment tasks).
 function studyDesignMapPage(req, c) {
+  const P = PROGRAMS[c.program];
   const entries = c.curriculum.entries;
   const skills = skillList(c.program);
   const linksFor = (id) => skills.flatMap((s) => (s.vc.core.includes(id) ? [{ s, kind: 'core' }] : s.vc.extend.includes(id) ? [{ s, kind: 'ext' }] : []));
@@ -332,28 +339,28 @@ function studyDesignMapPage(req, c) {
   const units = [...new Set(c.curriculum.outcomes.map((o) => o.unit))];
   const card = (o) => {
     const es = entries.filter((e) => e.focus === o.id);
-    const kk = es.filter((e) => e.kind === 'Key knowledge'), ks = es.filter((e) => e.kind === 'Key skill');
+    const groups = P.kinds.map((k) => ({ ...k, es: es.filter((e) => e.kind === k.kind) }));
     const n = (list) => list.filter((e) => linksFor(e.id).length).length;
     return html`<details class="cm-card" open id="${o.id}">
       <summary>
-        <span class="cm-card-title"><small>Unit ${o.unit} · Outcome ${o.outcome}</small>${o.title}</span>
-        <span class="cm-card-stats"><span>Key knowledge <b>${n(kk)}/${kk.length}</b>${meter(n(kk), kk.length)}</span><span>Key skills <b>${n(ks)}/${ks.length}</b>${meter(n(ks), ks.length)}</span></span>
+        <span class="cm-card-title"><small>Unit ${o.unit} · ${P.part} ${o.outcome}</small>${o.title}</span>
+        <span class="cm-card-stats">${groups.map((g) => html`<span>${g.plural} <b>${n(g.es)}/${g.es.length}</b>${meter(n(g.es), g.es.length)}</span>`)}</span>
         ${icon('lucide:chevron-down', 'cm-chev')}
       </summary>
       <div class="cm-card-body">
         <p class="cm-outcome">${o.statement}</p>
         ${o.options.length ? html`<p class="cm-options">${o.options.filter((x) => /^Option/.test(x)).join(' · ')}</p>` : ''}
         <div class="cm-cols">
-          <div><h4>Key knowledge</h4><ul class="cm-list">${kk.map((e) => cmItem(e, linksFor(e.id), e.code.split(' ').pop(), e.code, c.program))}</ul></div>
-          <div><h4>Key skills</h4><ul class="cm-list">${ks.map((e) => cmItem(e, linksFor(e.id), e.code.split(' ').pop(), e.code, c.program))}</ul></div>
+          ${groups.map((g) => html`<div><h4>${g.plural}</h4><ul class="cm-list">${g.es.map((e) => cmItem(e, linksFor(e.id), e.code.split(' ').pop(), e.code, c.program))}</ul></div>`)}
         </div>
+        ${o.assessment?.length ? html`<details class="cm-assess"><summary>${icon('lucide:clipboard-list')} Suggested assessment tasks (from the curriculum design)</summary><ul>${o.assessment.map((t) => html`<li>${t}</li>`)}</ul></details>` : ''}
       </div>
     </details>`;
   };
   const body = html`${cmapHeader(c, {
-    linked, total: entries.length, noun: 'key knowledge and key skills',
-    legend: html`${legendChip('core', 'Every student')} ${legendChip('ext', 'Level Up work ★')} <span class="cm-none">Not linked yet</span> <span class="muted small">Codes: KK3 = 3rd key knowledge point, KS2 = 2nd key skill, in study-design order.</span>`,
-    jump: html`${c.curriculum.outcomes.map((o) => html`<a href="#${o.id}">U${o.unit} · O${o.outcome}</a>`)}`,
+    linked, total: entries.length, noun: P.kinds.map((k) => k.plural.toLowerCase()).join(' and '),
+    legend: html`${legendChip('core', 'Every student')} ${legendChip('ext', 'Level Up work ★')} <span class="cm-none">Not linked yet</span> <span class="muted small">Codes: ${P.kinds.map((k) => k.help).join(', ')}, in curriculum order.</span>`,
+    jump: html`${c.curriculum.outcomes.map((o) => html`<a href="#${o.id}">U${o.unit} · ${P.partAbbr}${o.outcome}</a>`)}`,
   })}
   ${units.map((u) => html`<section class="cm-unit"><h2 class="cm-unit-title">Unit ${u}</h2>${c.curriculum.outcomes.filter((o) => o.unit === u).map(card)}</section>`)}`;
   return page(req, { title: 'Curriculum map', body, active: '/teacher/curriculum', wide: true, program: c.program });

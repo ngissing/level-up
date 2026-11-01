@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { html, icon, raw, ROOT_DIR } from '../html.js';
-import { LEVELS } from '../levels.js';
+import { LEVELS, levelInfo } from '../levels.js';
 import { getSetting } from '../db.js';
 import { PROGRAMS, familyOf } from '../programs.js';
 
@@ -105,8 +105,8 @@ export const empty = (text, ic = 'lucide:inbox') => html`<div class="empty">${ic
 export { raw };
 
 // Staff-only reading level tag.
-export function levelTag(id, { short = false } = {}) {
-  const l = LEVELS[id] || LEVELS.core;
+export function levelTag(id, { short = false, program } = {}) {
+  const l = levelInfo(id, program);
   return short
     ? html`<span class="rl-sym" title="Reading level: ${l.label} (${l.years})">${l.symbol}</span>`
     : html`<span class="rl rl-${l.id}" title="${l.years}">${l.symbol} ${l.label}</span>`;

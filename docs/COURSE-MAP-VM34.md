@@ -10,7 +10,7 @@ Mini courses for students enrolled in **VCE VM Literacy Units 3 & 4**, linked to
 
 _Three starting skills for the documents and messages of work and adult life. Finish any two to open the site._
 
-| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |
+| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
 | **Find It in the Manual** | Site Induction | Find what you need in manuals, handbooks and long documents without reading every page. | Key elements of complex technical documents: contents, headings, sub-headings, indexes. | U3 O1 KS3 — identify key elements of complex, technical documents, including tables of contents, headings, sub-headings, paragraphs and indexes to locate relevant information<br>U3 O1 KK2 — key elements of specific complex texts<br>U3 O1 KS1 — access relevant texts via the internet or other means | U3 O1 KS4 — engage with commonly encountered and technical documentation for a specific workplace, vocational setting or real-life situation | Manual Master | planned |
 | **Workplace Messages** | Site Induction | Read and write the everyday messages that keep a workplace running. | Structure and characteristics of organisational texts; conventions of literacy. | U3 O2 KK1 — the structure and language of different organisational, informational and procedural texts<br>U3 O2 KK3 — the characteristics of organisational, informational and procedural texts<br>U3 O2 KS6 — apply the conventions of literacy, including sentence structure, paragraphing, punctuation and spelling | U3 O2 KS3 — recognise key elements of organisational, informational and procedural texts including table of contents, headings, sub-headings, paragraphs and indexes to locate relevant information | Team Player | planned |
@@ -20,7 +20,7 @@ _Three starting skills for the documents and messages of work and adult life. Fi
 
 _Tax, insurance, charters and fine print. The paperwork of adult life, decoded._
 
-| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |
+| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
 | **Tax Time** | Starter | Understand tax forms and advice so you can sort your tax with confidence. | Structures and features of tax forms and advice; reading and inferring from official texts. | U3 O1 KK1 — the structures and features of different texts such as reports, tax forms and advice, insurance forms, community charters and promotional texts<br>U3 O1 KS2 — read, infer and create meaning from texts<br>U3 O1 KS4 — engage with commonly encountered and technical documentation for a specific workplace, vocational setting or real-life situation | U3 O1 KK2 — key elements of specific complex texts | Tax Ready | planned |
 | **Speak Their Language** | Starter | Understand the jargon, acronyms and style of different organisations and industries. | How organisations, groups and businesses develop their own use of language. | U3 O1 KK3 — the way different organisations, groups and businesses develop their own use of language<br>U3 O1 KS2 — read, infer and create meaning from texts<br>U3 O1 KS6 — listen and contribute to small group and whole class discussions | U3 O1 KK4 — the elements of oral communication, including eye contact, tone, body language and intonation | Jargon Cracker | planned |
@@ -32,7 +32,7 @@ _Tax, insurance, charters and fine print. The paperwork of adult life, decoded._
 
 _Rights, reports, procedures and safety talks. Read and write like a pro at work._
 
-| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |
+| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
 | **Rights at Work** | Starter | Read information about your rights and responsibilities at work and find reliable help. | Structure, language, purpose and audience of informational texts about rights and responsibilities. | U3 O2 KK1 — the structure and language of different organisational, informational and procedural texts<br>U3 O2 KK2 — the purpose and intended audience of the text<br>U3 O2 KS1 — explain the purpose and intended audience of instructional, procedural and informational texts<br>U3 O2 KS2 — identify where to seek reliable and accurate sources of information | U3 O2 KK3 — the characteristics of organisational, informational and procedural texts | Rights Ready | planned |
 | **Write an Incident Report** | Starter | Write a clear, factual incident report like the ones used on worksites, in kitchens and in shops. | Structure and language of organisational texts; purpose and audience; conventions of literacy. | U3 O2 KK1 — the structure and language of different organisational, informational and procedural texts<br>U3 O2 KK2 — the purpose and intended audience of the text<br>U3 O2 KS6 — apply the conventions of literacy, including sentence structure, paragraphing, punctuation and spelling | U3 O2 KS4 — create informative, procedural and instructional content for a chosen organisation or workplace taking into account the audience and purpose | Reporter | planned |
@@ -44,7 +44,7 @@ _Rights, reports, procedures and safety talks. Read and write like a pro at work
 
 _Brand yourself, back a cause and pitch an idea to the people who matter._
 
-| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |
+| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
 | **Why Ads Work** | Starter | Work out how promotional material gets you to buy, join or care. | Visual cues and presentation; evaluating promotional and influential material. | U4 O1 KK2 — the impact of visual cues and presentation in influencing an audience<br>U4 O1 KS3 — read, understand and infer meaning and context by evaluating promotional and influential material<br>U4 O1 KS5 — critically evaluate the appeal and effectiveness of influential or promotional material from different individuals or organisations, considering purpose and the social and workplace values associated with them | U4 O1 KK4 — the structures and features of different influential and advocational texts, including webpages, brochures and social media | Ad Expert | planned |
 | **One Message, Many Platforms** | Starter | Compare how the same message is presented on different platforms, and pick the right one for your audience. | Structures and features of advocacy texts across platforms; layout and design; communication techniques. | U4 O1 KK4 — the structures and features of different influential and advocational texts, including webpages, brochures and social media<br>U4 O1 KS1 — identify the layout, design and structural elements of a variety of written, digital and visual texts<br>U4 O1 KS2 — identify appropriate communication techniques for different settings and contexts | U4 O1 KS5 — critically evaluate the appeal and effectiveness of influential or promotional material from different individuals or organisations, considering purpose and the social and workplace values associated with them | Platform Pro | planned |
@@ -56,7 +56,7 @@ _Brand yourself, back a cause and pitch an idea to the people who matter._
 
 _Plan, back up and deliver a presentation that advises or advocates._
 
-| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |
+| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
 | **Know Your Audience** | Starter | Choose words and examples that suit the people you’re speaking to. | How language choice influences an audience; logic, reasoning and emotion. | U4 O2 KK2 — the way language choice can influence an audience<br>U4 O2 KK3 — the way authors and speakers use logic, reasoning and emotion to influence their audience | U4 O2 KS5 — critically evaluate own work | Crowd Reader | planned |
 | **Plan Your Talk** | Starter | Plan a talk so it flows: a clear start, connected points and a strong finish. | Sequencing and structuring oral content; signalling connections between ideas. | U4 O2 KS1 — sequence and structure oral content to advocate or present advice to an audience<br>U4 O2 KS3 — present related pieces of information within a text, signalling these connections with appropriate semantic clues | U4 O2 KS8 — apply the conventions of literacy, including sentence structure, paragraphing, punctuation and spelling | Planner | planned |
@@ -68,7 +68,7 @@ _Plan, back up and deliver a presentation that advises or advocates._
 
 _Big real-world projects that mix two areas. Unlock by going deep in both._
 
-| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / skills | ★ Level Up | Badge | Status |
+| Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
 | **Job-Ready Kit** | Capstones | Put together a complete application for a real job or apprenticeship. | Creating workplace texts and promotional material about yourself for a specific audience. | U4 O1 KS4 — design and create influential or promotional material appropriate for context and audience<br>U3 O2 KS4 — create informative, procedural and instructional content for a chosen organisation or workplace taking into account the audience and purpose<br>U3 O2 KK2 — the purpose and intended audience of the text | U4 O2 KS4 — use body language, eye-contact, gestures, pace and intonation appropriately | Hired | planned |
 | **Adulting Admin** | Capstones | Set up and manage the accounts and paperwork of independent life. | Accessing and using real-life documents; digital security. | U3 O1 KS4 — engage with commonly encountered and technical documentation for a specific workplace, vocational setting or real-life situation<br>U3 O1 KS1 — access relevant texts via the internet or other means<br>U3 O1 KK1 — the structures and features of different texts such as reports, tax forms and advice, insurance forms, community charters and promotional texts | U3 O1 KS5 — compare and contrast texts designed for similar purposes, evaluating their effectiveness in delivering information | Sorted | planned |

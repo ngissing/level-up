@@ -156,6 +156,32 @@ p { margin: 0 0 .6em; }
 .wb-check span { display: flex; align-items: center; }
 
 /* Level up */
+/* Storyboard */
+.wb-story { display: grid; grid-template-columns: repeat(var(--cols, 3), 1fr); gap: 4mm; }
+.story-frame { display: grid; gap: 1.5mm; }
+.story-box { border: 2.5px solid var(--ink); border-radius: 10px; background: #fff; position: relative; display: grid; place-items: end start; padding: 2mm; }
+.story-box small { color: #8a847a; font-size: 8.5pt; font-style: italic; }
+.story-n { position: absolute; top: -2.5mm; left: -2.5mm; width: 7mm; height: 7mm; border-radius: 50%; background: var(--zone); color: var(--zone-ink); border: 2px solid var(--ink); display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 9pt; }
+.story-row { display: flex; gap: 2mm; align-items: flex-end; font-size: 9pt; height: 6.5mm; }
+.story-row .line { flex: 1; border-bottom: 1.3px solid #b9b2a5; display: block; height: 100%; }
+/* Hands-on "Do it" task (VPC) */
+.wb-doit { border: 3px solid var(--ink); background: color-mix(in srgb, var(--zone) 12%, white); border-radius: 18px; padding: 5mm 5mm 4mm; position: relative; box-shadow: 4px 4px 0 var(--ink); margin-top: 4mm; }
+.doit-banner { position: absolute; top: -4mm; left: 6mm; transform: rotate(-1.5deg); background: var(--zone); color: var(--zone-ink); border: 2.5px solid var(--ink); border-radius: 6px; padding: 1mm 4mm; font-family: var(--display); font-weight: 800; font-size: 9.5pt; letter-spacing: .08em; display: inline-flex; gap: 2mm; align-items: center; }
+.wb-doit .wb-h { margin-top: 1mm; }
+.doit-need { display: flex; flex-wrap: wrap; gap: 2mm; align-items: center; font-size: 10pt; margin: 0 0 3mm; }
+.doit-need b { display: inline-flex; gap: 4px; align-items: center; margin-right: 1mm; }
+.doit-need span { border: 2px dashed var(--ink); border-radius: 6px; padding: .4mm 2.5mm; background: #fff; }
+.doit-steps { list-style: none; margin: 0 0 3mm; padding: 0; display: grid; gap: 1.8mm; }
+.doit-steps li { display: grid; grid-template-columns: 7mm 1fr auto; gap: 3mm; align-items: center; background: #fff; border: 2px solid var(--ink); border-radius: 10px; padding: 1.6mm 3mm; font-size: 10.5pt; }
+.doit-steps .tickbox { width: 16px; height: 16px; margin: 0; }
+.doit-n { width: 6.5mm; height: 6.5mm; border-radius: 50%; background: var(--ink); color: #fff; display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 9pt; }
+.doit-photo { border: 2.5px dashed var(--ink); border-radius: 12px; background: #fff repeating-linear-gradient(45deg, transparent 0 6mm, rgba(0,0,0,.035) 6mm 12mm); display: grid; place-items: center; margin-bottom: 3mm; }
+.doit-photo span { display: inline-flex; gap: 2mm; align-items: center; color: #6f6a62; font-size: 10pt; background: #fff; padding: 1mm 3mm; border-radius: 999px; }
+.doit-evidence { display: flex; flex-wrap: wrap; gap: 3mm 5mm; align-items: center; font-size: 9.5pt; border-top: 2px dashed var(--ink); padding-top: 2.5mm; margin-top: 2mm; }
+.doit-evidence span { display: inline-flex; align-items: center; }
+.doit-init { margin-left: auto; gap: 2mm; }
+.doit-init .line { display: inline-block; width: 22mm; border-bottom: 1.5px solid var(--ink); height: 4mm; }
+body.rl-support .doit-steps li { font-size: 11.5pt; }
 .wb-levelup { border: 3px dashed #b38600; background: #fff8db; border-radius: 18px; padding: 4mm 5mm; position: relative; }
 .lvl-banner { position: absolute; top: -4mm; left: 50%; transform: translateX(-50%) rotate(-1.5deg); background: var(--sun); border: 2.5px solid var(--ink); border-radius: 999px; padding: 1mm 5mm; font-family: var(--display); font-weight: 800; font-size: 10pt; letter-spacing: .08em; white-space: nowrap; display: flex; gap: 6px; align-items: center; box-shadow: 2px 2px 0 var(--ink); }
 .lvl-banner .ico { fill: currentColor; }
@@ -229,6 +255,15 @@ body.fam-vm .cover::before { content: ""; position: absolute; left: 0; right: 0;
 body.fam-vm .cover-inner { padding-top: 18mm; }
 body.fam-vm .sheet-foot { border-top: 3px solid #ff8a2a; }
 body.fam-vm .wb-hook { background: #1b1f24; }
+/* VPC Literacy: kraft "workshop" cover with a ruler strip, teal accents. */
+body.fam-vpc .cover { background-color: #f3ead8; background-image: radial-gradient(circle, rgba(74, 52, 18, .16) 0.5mm, transparent 0.7mm); background-size: 7mm 7mm; }
+body.fam-vpc .cover-brand .logo-mark { background: #2ed3c6; }
+body.fam-vpc .cover::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 9mm; z-index: 2;
+  background: repeating-linear-gradient(90deg, #0e3b43 0 0.5mm, transparent 0.5mm 3mm) top left / 100% 3mm no-repeat,
+    repeating-linear-gradient(90deg, #0e3b43 0 0.6mm, transparent 0.6mm 15mm) top left / 100% 5mm no-repeat, #2ed3c6; }
+body.fam-vpc .cover-inner { padding-top: 18mm; }
+body.fam-vpc .sheet-foot { border-top: 3px solid #2ed3c6; }
+body.fam-vpc .wb-hook { background: #0e3b43; }
 .wb-doc { display: flex; justify-content: center; margin-bottom: 4mm; }
 .wb-doc .doc-card { max-width: 150mm; width: 150mm; font-size: 9.5pt; padding-top: 10px; padding-bottom: 8px; }
 .wb-doc .doc-row { padding: 3px 0; }

@@ -1,0 +1,872 @@
+{
+  "title": "Level Up · VPC Literacy",
+  "program": "vpc",
+  "baseZone": "vpc-workshop",
+  "crossZone": "vpc-project",
+  "unlocks": {
+    "_about": "How skills open. Numbers are how many skills must be finished; \"all\" means every skill in that group.",
+    "starters": {
+      "baseCamp": 2
+    },
+    "level2": {
+      "starters": "all"
+    },
+    "boss": {
+      "starters": "all",
+      "level2": 1
+    }
+  },
+  "zones": [
+    {
+      "id": "vpc-workshop",
+      "name": "The Workshop",
+      "icon": "lucide:wrench",
+      "color": "#2ED3C6",
+      "ink": "#04302C",
+      "pitch": "Three hands-on starters. Read real stuff, make real stuff. Finish any two to open the rest.",
+      "units": "Unit 1 · Module 1"
+    },
+    {
+      "id": "vpc-everyday",
+      "name": "Everyday Texts",
+      "icon": "lucide:newspaper",
+      "color": "#FFB547",
+      "ink": "#3A2300",
+      "pitch": "Stories, letters, songs and books. Work out what they’re for — then make your own.",
+      "units": "Unit 1 · Module 1"
+    },
+    {
+      "id": "vpc-online",
+      "name": "Online & Safe",
+      "icon": "lucide:shield-check",
+      "color": "#7CB8FF",
+      "ink": "#071E3D",
+      "pitch": "Websites, apps and socials. Find your way, check what’s true and keep your stuff safe.",
+      "units": "Unit 1 · Module 2"
+    },
+    {
+      "id": "vpc-voices",
+      "name": "Issues & Voices",
+      "icon": "lucide:messages-square",
+      "color": "#FF8FA3",
+      "ink": "#3D0712",
+      "pitch": "Who’s trying to convince you, and how? Spot the angle and the tricks.",
+      "units": "Unit 2 · Module 1"
+    },
+    {
+      "id": "vpc-speak",
+      "name": "Speak Up",
+      "icon": "lucide:mic",
+      "color": "#B79CED",
+      "ink": "#1E0B45",
+      "pitch": "Say what you think, listen properly and run a good discussion.",
+      "units": "Unit 2 · Module 2"
+    },
+    {
+      "id": "vpc-civic",
+      "name": "Out & About",
+      "icon": "lucide:map-pinned",
+      "color": "#9FD18B",
+      "ink": "#0E2A12",
+      "pitch": "Timetables, forms and the places that help. Get real-world stuff done.",
+      "units": "Unit 3 · Module 1"
+    },
+    {
+      "id": "vpc-next",
+      "name": "Next Steps",
+      "icon": "lucide:signpost",
+      "color": "#FFE066",
+      "ink": "#3A3000",
+      "pitch": "Jobs, courses and applications. Get your paperwork ready for what’s next.",
+      "units": "Unit 3 · Module 2"
+    },
+    {
+      "id": "vpc-project",
+      "name": "Your Project",
+      "icon": "lucide:hammer",
+      "color": "#C9B79C",
+      "ink": "#2A1E0B",
+      "pitch": "Pick something you care about, plan it, and show it off. Unlock it by speaking up and planning ahead.",
+      "units": "Unit 4 · Module 1"
+    }
+  ],
+  "skills": [
+    {
+      "id": "vpc-read-the-label",
+      "zone": "vpc-workshop",
+      "tier": 0,
+      "status": "ready",
+      "title": "Read the Label",
+      "tagline": "Everything you need is on the pack — if you know where to look.",
+      "icon": "lucide:package-search",
+      "realLife": "Find what matters on real food and product labels, compare two products and choose the better one for you.",
+      "literacy": "Structures and features of informative texts; purpose and audience; skimming and scanning; working out tricky words.",
+      "vc": {
+        "core": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-LG2",
+          "VPC-U1M1-AP2",
+          "VPC-U1M1-AP3"
+        ],
+        "extend": [
+          "VPC-U1M1-AP6",
+          "VPC-U1M1-AP1"
+        ]
+      },
+      "badge": {
+        "name": "Label Reader",
+        "icon": "lucide:scan-search"
+      }
+    },
+    {
+      "id": "vpc-show-me-how",
+      "zone": "vpc-workshop",
+      "tier": 0,
+      "status": "ready",
+      "title": "Show Me How",
+      "tagline": "If someone can follow your steps, you’ve nailed it.",
+      "icon": "lucide:list-ordered",
+      "realLife": "Write clear step-by-step instructions for something you can do, then test them on a real person.",
+      "literacy": "Structures and features of instructional texts; planning, drafting and editing; sentence structure and punctuation.",
+      "vc": {
+        "core": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-AP7"
+        ],
+        "extend": [
+          "VPC-U1M1-AP1"
+        ]
+      },
+      "badge": {
+        "name": "Instructor",
+        "icon": "lucide:clipboard-check"
+      }
+    },
+    {
+      "id": "vpc-lights-camera-message",
+      "zone": "vpc-workshop",
+      "tier": 0,
+      "status": "ready",
+      "title": "Lights, Camera, Message",
+      "tagline": "How a 3-minute cartoon got millions of people to listen.",
+      "icon": "lucide:clapperboard",
+      "realLife": "Pull apart a real public-safety ad, then storyboard your own 30-second ad for people your age.",
+      "literacy": "How film texts use purpose, language and structure to influence an audience; creating a text for a specific audience.",
+      "vc": {
+        "core": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-LG2",
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP1"
+        ],
+        "extend": [
+          "VPC-U1M1-AP6"
+        ]
+      },
+      "badge": {
+        "name": "Director",
+        "icon": "lucide:video"
+      }
+    },
+    {
+      "id": "vpc-whats-the-story",
+      "zone": "vpc-everyday",
+      "tier": 1,
+      "status": "planned",
+      "title": "What’s the Story?",
+      "tagline": "Songs, shorts and stories all follow a shape.",
+      "icon": "lucide:book-open-text",
+      "realLife": "Spot how a song, short film or story is put together, and why it hits the way it does.",
+      "literacy": "Structures and features of short narratives, song and poetry; purpose and audience.",
+      "vc": {
+        "core": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP1"
+        ],
+        "extend": [
+          "VPC-U1M1-AP6"
+        ]
+      },
+      "badge": {
+        "name": "Story Spotter",
+        "icon": "lucide:music"
+      }
+    },
+    {
+      "id": "vpc-letters-that-work",
+      "zone": "vpc-everyday",
+      "tier": 1,
+      "status": "planned",
+      "title": "Letters That Work",
+      "tagline": "The right email gets you the right answer.",
+      "icon": "lucide:mail",
+      "realLife": "Write a letter or email that gets something done: a refund, a question answered, a time changed.",
+      "literacy": "Structures and features of letters and emails; creating texts for a specific audience; literacy conventions.",
+      "vc": {
+        "core": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-AP7"
+        ],
+        "extend": [
+          "VPC-U1M1-AP1"
+        ]
+      },
+      "badge": {
+        "name": "Letter Writer",
+        "icon": "lucide:send"
+      }
+    },
+    {
+      "id": "vpc-find-it-in-the-book",
+      "zone": "vpc-everyday",
+      "tier": 2,
+      "status": "planned",
+      "title": "Find It in the Book",
+      "tagline": "Contents, index, headings, blurb: shortcuts to the good bit.",
+      "icon": "lucide:book-marked",
+      "realLife": "Use the contents, index, headings and blurb of a real manual or book to find what you need in under a minute.",
+      "literacy": "Using indexes, headings, subheadings, chapter titles and blurbs to locate information; skimming and scanning.",
+      "vc": {
+        "core": [
+          "VPC-U1M1-AP3",
+          "VPC-U1M1-LG1"
+        ],
+        "extend": [
+          "VPC-U1M1-AP2"
+        ]
+      },
+      "badge": {
+        "name": "Shortcut Finder",
+        "icon": "lucide:bookmark"
+      }
+    },
+    {
+      "id": "vpc-make-a-zine",
+      "zone": "vpc-everyday",
+      "tier": 3,
+      "status": "planned",
+      "title": "Make a Zine",
+      "tagline": "Fold it, fill it, hand it out.",
+      "icon": "lucide:scissors",
+      "realLife": "Make a small folded magazine about something you know a lot about, for a real reader.",
+      "literacy": "Planning, drafting and editing a text for an audience; avoiding plagiarism; literacy conventions.",
+      "vc": {
+        "core": [
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-AP5",
+          "VPC-U1M1-AP7"
+        ],
+        "extend": [
+          "VPC-U1M1-AP1"
+        ]
+      },
+      "badge": {
+        "name": "Zine Maker",
+        "icon": "lucide:book-copy"
+      }
+    },
+    {
+      "id": "vpc-lock-it-down",
+      "zone": "vpc-online",
+      "tier": 1,
+      "status": "planned",
+      "title": "Lock It Down",
+      "tagline": "Your accounts are worth protecting.",
+      "icon": "lucide:lock-keyhole",
+      "realLife": "Set up strong passwords and two-step login on a real account, and know what to do if you’re hacked.",
+      "literacy": "Recognising and using the features of digital security; reading digital instructions.",
+      "vc": {
+        "core": [
+          "VPC-U1M2-LG3",
+          "VPC-U1M2-AP1"
+        ],
+        "extend": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      "badge": {
+        "name": "Locksmith",
+        "icon": "lucide:key-round"
+      }
+    },
+    {
+      "id": "vpc-website-tour",
+      "zone": "vpc-online",
+      "tier": 1,
+      "status": "planned",
+      "title": "Website Tour",
+      "tagline": "Menus, search and footers: find anything on any site.",
+      "icon": "lucide:panels-top-left",
+      "realLife": "Find your way around a real workplace or service website fast, and explain how it’s set out.",
+      "literacy": "The layout and key features of digital platforms; main ideas and key information in digital texts.",
+      "vc": {
+        "core": [
+          "VPC-U1M2-LG2",
+          "VPC-U1M2-AP1",
+          "VPC-U1M2-AP2"
+        ],
+        "extend": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      "badge": {
+        "name": "Navigator",
+        "icon": "lucide:compass"
+      }
+    },
+    {
+      "id": "vpc-can-you-trust-it",
+      "zone": "vpc-online",
+      "tier": 2,
+      "status": "planned",
+      "title": "Can You Trust It?",
+      "tagline": "Not everything online is what it says.",
+      "icon": "lucide:badge-check",
+      "realLife": "Check whether a website, post or video is reliable before you use it or share it.",
+      "literacy": "Trustworthiness of digital content; how language and tone relate to purpose and audience.",
+      "vc": {
+        "core": [
+          "VPC-U1M2-LG2",
+          "VPC-U1M2-AP4"
+        ],
+        "extend": [
+          "VPC-U1M2-AP5"
+        ]
+      },
+      "badge": {
+        "name": "Truth Checker",
+        "icon": "lucide:shield-question"
+      }
+    },
+    {
+      "id": "vpc-make-a-reel",
+      "zone": "vpc-online",
+      "tier": 3,
+      "status": "planned",
+      "title": "Make a How-To Reel",
+      "tagline": "Teach something in 60 seconds.",
+      "icon": "lucide:smartphone",
+      "realLife": "Plan, film and edit a short how-to video for a real audience, with captions people can read.",
+      "literacy": "Creating digital texts for an audience; planning, researching, drafting and editing; avoiding plagiarism.",
+      "vc": {
+        "core": [
+          "VPC-U1M2-LG1",
+          "VPC-U1M2-AP3",
+          "VPC-U1M2-AP6",
+          "VPC-U1M2-AP7"
+        ],
+        "extend": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      "badge": {
+        "name": "Creator",
+        "icon": "lucide:film"
+      }
+    },
+    {
+      "id": "vpc-fact-or-opinion",
+      "zone": "vpc-voices",
+      "tier": 1,
+      "status": "planned",
+      "title": "Fact or Opinion?",
+      "tagline": "Know the difference and nobody can spin you.",
+      "icon": "lucide:scale",
+      "realLife": "Sort the facts from the opinions in a real post or news story about something local.",
+      "literacy": "Main ideas and arguments in persuasive content; the difference between fact and opinion.",
+      "vc": {
+        "core": [
+          "VPC-U2M1-LG1",
+          "VPC-U2M1-AP1",
+          "VPC-U2M1-AP2"
+        ],
+        "extend": [
+          "VPC-U2M1-AP5"
+        ]
+      },
+      "badge": {
+        "name": "Fact Finder",
+        "icon": "lucide:search-check"
+      }
+    },
+    {
+      "id": "vpc-ad-tricks",
+      "zone": "vpc-voices",
+      "tier": 1,
+      "status": "planned",
+      "title": "Ad Tricks",
+      "tagline": "Every word and picture in an ad has a job.",
+      "icon": "lucide:megaphone",
+      "realLife": "Pull apart real ads to show how words, pictures and sounds are used to get you to buy or act.",
+      "literacy": "How language and visuals are used to influence an audience; language and tone.",
+      "vc": {
+        "core": [
+          "VPC-U2M1-LG2",
+          "VPC-U2M1-AP3"
+        ],
+        "extend": [
+          "VPC-U2M1-AP4"
+        ]
+      },
+      "badge": {
+        "name": "Trick Spotter",
+        "icon": "lucide:eye"
+      }
+    },
+    {
+      "id": "vpc-whose-side",
+      "zone": "vpc-voices",
+      "tier": 2,
+      "status": "planned",
+      "title": "Whose Side Are They On?",
+      "tagline": "Who’s talking changes what they say.",
+      "icon": "lucide:users",
+      "realLife": "Compare what two people or groups say about the same issue, and work out why they see it differently.",
+      "literacy": "How bias and perspective influence a speaker, author and audience; recognising bias.",
+      "vc": {
+        "core": [
+          "VPC-U2M1-LG3",
+          "VPC-U2M1-AP4"
+        ],
+        "extend": [
+          "VPC-U2M1-AP5"
+        ]
+      },
+      "badge": {
+        "name": "Angle Spotter",
+        "icon": "lucide:git-compare"
+      }
+    },
+    {
+      "id": "vpc-issue-panel",
+      "zone": "vpc-voices",
+      "tier": 3,
+      "status": "planned",
+      "title": "Issue Panel",
+      "tagline": "Run a Q&A on something your community cares about.",
+      "icon": "lucide:presentation",
+      "realLife": "Research a local issue and run a short Q&A panel where each side gets a fair go.",
+      "literacy": "Main ideas and arguments; bias and perspective; discussion using evidence; literacy conventions.",
+      "vc": {
+        "core": [
+          "VPC-U2M1-LG1",
+          "VPC-U2M1-LG3",
+          "VPC-U2M1-AP5",
+          "VPC-U2M1-AP6"
+        ],
+        "extend": [
+          "VPC-U2M1-AP4"
+        ]
+      },
+      "badge": {
+        "name": "Panel Host",
+        "icon": "lucide:mic-vocal"
+      }
+    },
+    {
+      "id": "vpc-body-talk",
+      "zone": "vpc-speak",
+      "tier": 1,
+      "status": "planned",
+      "title": "Body Talk",
+      "tagline": "What your body says before you open your mouth.",
+      "icon": "lucide:person-standing",
+      "realLife": "Practise eye contact, gestures, pace and tone, and see the difference on video.",
+      "literacy": "Using body language, eye contact, gestures, pace and intonation when presenting opinions.",
+      "vc": {
+        "core": [
+          "VPC-U2M2-LG3",
+          "VPC-U2M2-AP5"
+        ],
+        "extend": [
+          "VPC-U2M2-AP6"
+        ]
+      },
+      "badge": {
+        "name": "Body Talker",
+        "icon": "lucide:hand"
+      }
+    },
+    {
+      "id": "vpc-listen-up",
+      "zone": "vpc-speak",
+      "tier": 1,
+      "status": "planned",
+      "title": "Listen Up",
+      "tagline": "Good listeners ask the best questions.",
+      "icon": "lucide:ear",
+      "realLife": "Use active listening and good questions to keep a conversation going and show you understand.",
+      "literacy": "Active listening and questioning techniques; participating in small-group discussion.",
+      "vc": {
+        "core": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-AP6"
+        ],
+        "extend": [
+          "VPC-U2M2-AP3"
+        ]
+      },
+      "badge": {
+        "name": "Listener",
+        "icon": "lucide:message-circle-question"
+      }
+    },
+    {
+      "id": "vpc-make-your-case",
+      "zone": "vpc-speak",
+      "tier": 2,
+      "status": "planned",
+      "title": "Make Your Case",
+      "tagline": "Point, proof, punch.",
+      "icon": "lucide:gavel",
+      "realLife": "Plan and give a short speech that convinces a real audience to do something, backed by evidence.",
+      "literacy": "Influencing an audience with language devices; sequencing and structuring a persuasive text with evidence.",
+      "vc": {
+        "core": [
+          "VPC-U2M2-LG1",
+          "VPC-U2M2-AP4",
+          "VPC-U2M2-AP1",
+          "VPC-U2M2-AP7",
+          "VPC-U2M2-AP8"
+        ],
+        "extend": [
+          "VPC-U2M2-AP3",
+          "VPC-U2M2-AP2"
+        ]
+      },
+      "badge": {
+        "name": "Persuader",
+        "icon": "lucide:flame"
+      }
+    },
+    {
+      "id": "vpc-run-the-room",
+      "zone": "vpc-speak",
+      "tier": 3,
+      "status": "planned",
+      "title": "Run the Room",
+      "tagline": "Lead a discussion everyone gets a say in.",
+      "icon": "lucide:users-round",
+      "realLife": "Lead a real group discussion or debate: open it, keep it fair, respond to others and wrap it up.",
+      "literacy": "Leading a discussion with active listening and questioning; body language; structuring a point of view with evidence.",
+      "vc": {
+        "core": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-LG3",
+          "VPC-U2M2-AP4",
+          "VPC-U2M2-AP5"
+        ],
+        "extend": [
+          "VPC-U2M2-LG1"
+        ]
+      },
+      "badge": {
+        "name": "Room Runner",
+        "icon": "lucide:crown"
+      }
+    },
+    {
+      "id": "vpc-get-there",
+      "zone": "vpc-civic",
+      "tier": 1,
+      "status": "planned",
+      "title": "Get There",
+      "tagline": "Timetables and maps, sorted.",
+      "icon": "lucide:bus",
+      "realLife": "Plan a real trip on public transport using timetables and a journey planner, and write the steps down.",
+      "literacy": "Skimming and scanning informational documents; summarising instructions into sequential points.",
+      "vc": {
+        "core": [
+          "VPC-U3M1-LG2",
+          "VPC-U3M1-AP1"
+        ],
+        "extend": [
+          "VPC-U3M1-LG3"
+        ]
+      },
+      "badge": {
+        "name": "Navigator",
+        "icon": "lucide:route"
+      }
+    },
+    {
+      "id": "vpc-fill-the-form",
+      "zone": "vpc-civic",
+      "tier": 1,
+      "status": "planned",
+      "title": "Fill the Form",
+      "tagline": "Get it right the first time.",
+      "icon": "lucide:file-pen-line",
+      "realLife": "Fill in a real form correctly: read the instructions, gather what you need and check before you submit.",
+      "literacy": "Sourcing and completing documentation; summarising instructions into steps; literacy conventions.",
+      "vc": {
+        "core": [
+          "VPC-U3M1-AP2",
+          "VPC-U3M1-AP5",
+          "VPC-U3M1-LG3"
+        ],
+        "extend": [
+          "VPC-U3M1-AP3"
+        ]
+      },
+      "badge": {
+        "name": "Form Filler",
+        "icon": "lucide:clipboard-pen"
+      }
+    },
+    {
+      "id": "vpc-who-can-help",
+      "zone": "vpc-civic",
+      "tier": 2,
+      "status": "planned",
+      "title": "Who Can Help?",
+      "tagline": "The right place to ask saves hours.",
+      "icon": "lucide:life-buoy",
+      "realLife": "Find the right government or community service for a real problem, and work out how to contact them.",
+      "literacy": "Identifying reliable government and non-government agencies; reading informative texts for key information.",
+      "vc": {
+        "core": [
+          "VPC-U3M1-LG1",
+          "VPC-U3M1-AP1"
+        ],
+        "extend": [
+          "VPC-U3M1-AP4"
+        ]
+      },
+      "badge": {
+        "name": "Connector",
+        "icon": "lucide:handshake"
+      }
+    },
+    {
+      "id": "vpc-sort-it-out",
+      "zone": "vpc-civic",
+      "tier": 3,
+      "status": "planned",
+      "title": "Sort It Out",
+      "tagline": "Big life admin, one step at a time.",
+      "icon": "lucide:list-checks",
+      "realLife": "Take a real piece of life admin — like getting your Learner permit — from start to finish, step by step.",
+      "literacy": "Reliable agencies; skimming and scanning for relevance; summarising and paraphrasing instructions; completing documentation.",
+      "vc": {
+        "core": [
+          "VPC-U3M1-LG1",
+          "VPC-U3M1-LG2",
+          "VPC-U3M1-LG3",
+          "VPC-U3M1-AP2"
+        ],
+        "extend": [
+          "VPC-U3M1-AP4"
+        ]
+      },
+      "badge": {
+        "name": "Life Admin Pro",
+        "icon": "lucide:badge-check"
+      }
+    },
+    {
+      "id": "vpc-job-hunt",
+      "zone": "vpc-next",
+      "tier": 1,
+      "status": "planned",
+      "title": "Job Hunt",
+      "tagline": "Read a job ad like an employer wrote it — because they did.",
+      "icon": "lucide:briefcase",
+      "realLife": "Find real job ads you could apply for and work out exactly what each one is asking for.",
+      "literacy": "Documents required for work opportunities; reading informative texts about employment.",
+      "vc": {
+        "core": [
+          "VPC-U3M2-LG1",
+          "VPC-U3M2-AP1"
+        ],
+        "extend": [
+          "VPC-U3M2-AP3"
+        ]
+      },
+      "badge": {
+        "name": "Job Hunter",
+        "icon": "lucide:search"
+      }
+    },
+    {
+      "id": "vpc-my-resume",
+      "zone": "vpc-next",
+      "tier": 1,
+      "status": "planned",
+      "title": "My Resume",
+      "tagline": "One page that opens doors.",
+      "icon": "lucide:file-user",
+      "realLife": "Build a real one-page resume you’d be happy to hand to an employer.",
+      "literacy": "Requirements of workplace documentation; planning, drafting and creating a resume; literacy conventions.",
+      "vc": {
+        "core": [
+          "VPC-U3M2-LG3",
+          "VPC-U3M2-AP4"
+        ],
+        "extend": [
+          "VPC-U3M2-AP2"
+        ]
+      },
+      "badge": {
+        "name": "Resume Ready",
+        "icon": "lucide:file-check"
+      }
+    },
+    {
+      "id": "vpc-check-the-course",
+      "zone": "vpc-next",
+      "tier": 2,
+      "status": "planned",
+      "title": "Check the Course",
+      "tagline": "Know what you’re signing up for.",
+      "icon": "lucide:graduation-cap",
+      "realLife": "Research a real TAFE course or apprenticeship and check the information is accurate and up to date.",
+      "literacy": "Locating sources through research; reviewing the accuracy and validity of information.",
+      "vc": {
+        "core": [
+          "VPC-U3M2-LG2",
+          "VPC-U3M2-AP1"
+        ],
+        "extend": [
+          "VPC-U3M2-AP3"
+        ]
+      },
+      "badge": {
+        "name": "Course Checker",
+        "icon": "lucide:school"
+      }
+    },
+    {
+      "id": "vpc-apply-for-real",
+      "zone": "vpc-next",
+      "tier": 3,
+      "status": "planned",
+      "title": "Apply for Real",
+      "tagline": "Application in, interview ready.",
+      "icon": "lucide:send",
+      "realLife": "Complete a real application and practise a mock interview with feedback.",
+      "literacy": "Requirements of workplace and further-learning documents; completing documents; discussion and problem solving.",
+      "vc": {
+        "core": [
+          "VPC-U3M2-LG1",
+          "VPC-U3M2-LG3",
+          "VPC-U3M2-AP3",
+          "VPC-U3M2-AP4"
+        ],
+        "extend": [
+          "VPC-U3M2-LG2"
+        ]
+      },
+      "badge": {
+        "name": "Applicant",
+        "icon": "lucide:award"
+      }
+    },
+    {
+      "id": "vpc-pitch-your-project",
+      "zone": "vpc-project",
+      "tier": 4,
+      "status": "planned",
+      "title": "Pitch Your Project",
+      "tagline": "Pick it. Plan it. Pitch it.",
+      "icon": "lucide:lightbulb",
+      "realLife": "Choose a project you care about, agree on it with your teacher, plan it and improve the plan with feedback.",
+      "literacy": "Negotiating a topic; planning a presentation; refining a plan after feedback; researching and annotating sources.",
+      "vc": {
+        "core": [
+          "VPC-U4M1-LG1",
+          "VPC-U4M1-LG2",
+          "VPC-U4M1-LG3",
+          "VPC-U4M1-AP1",
+          "VPC-U4M1-AP2"
+        ],
+        "extend": [
+          "VPC-U4M1-AP4"
+        ]
+      },
+      "badge": {
+        "name": "Project Lead",
+        "icon": "lucide:rocket"
+      },
+      "requires": [
+        {
+          "zone": "vpc-speak",
+          "min": 2
+        },
+        {
+          "zone": "vpc-next",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "vpc-showcase",
+      "zone": "vpc-project",
+      "tier": 4,
+      "status": "planned",
+      "title": "Showcase Day",
+      "tagline": "Show what you made and what you learnt.",
+      "icon": "lucide:presentation",
+      "realLife": "Give an informative presentation about your project, with slides, video or visuals, and reflect on what you learnt.",
+      "literacy": "Informative oral presentation with digital support; sequencing information; body language; avoiding plagiarism; literacy conventions.",
+      "vc": {
+        "core": [
+          "VPC-U4M1-LG4",
+          "VPC-U4M1-AP5",
+          "VPC-U4M1-AP6",
+          "VPC-U4M1-AP7",
+          "VPC-U4M1-AP8"
+        ],
+        "extend": [
+          "VPC-U4M1-AP3",
+          "VPC-U4M1-AP4"
+        ]
+      },
+      "badge": {
+        "name": "Showcaser",
+        "icon": "lucide:trophy"
+      },
+      "requires": [
+        {
+          "zone": "vpc-speak",
+          "min": 2
+        },
+        {
+          "zone": "vpc-online",
+          "min": 2
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "vpc-m-first",
+      "count": 1,
+      "name": "Sleeves Rolled Up",
+      "icon": "lucide:hand-metal"
+    },
+    {
+      "id": "vpc-m-5",
+      "count": 5,
+      "name": "Handy",
+      "icon": "lucide:wrench"
+    },
+    {
+      "id": "vpc-m-10",
+      "count": 10,
+      "name": "Maker",
+      "icon": "lucide:hammer"
+    },
+    {
+      "id": "vpc-m-20",
+      "count": 20,
+      "name": "Master Builder",
+      "icon": "lucide:crown"
+    }
+  ]
+}
