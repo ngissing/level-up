@@ -38,13 +38,21 @@ export function flow(d) {
 // A workplace document (payslip, form, notice) with numbered markers.
 // d: { docTitle, sections: [{ n?, label, value, strong? } | { table: { n?, columns, rows } }], callouts: [{ n, label, note }] }
 export function documentCard(d, { numbers = true } = {}) {
-  const mark = (n) => (numbers && n ? html`<span class="doc-n">${n}</span>` : '');
-  return html`<div class="doc-card">
+  // Rows are a grid: [number] [label] [value]. Money and other plain numbers right-align like a
+  // real payslip; words left-align so long values wrap neatly.
+  const hasN = numbers && d.sections.some((s) => s.n || s.table?.n);
+  const mark = (n) => (!hasN ? '' : n ? html`<span class="doc-n">${n}</span>` : html`<span class="doc-n-gap"></span>`);
+  const isNum = (v) => /^([−+-]?\$?[\d.,]+( ?(%|GB|Mbps|kg|g|mL|L|hrs?|hours))?|p(age|\.) ?\d+)$/i.test(String(v ?? '').trim());
+  // Label column: wide enough for this document's longest (non-number) label, so labels don't wrap
+  // needlessly, the values line up, and it's capped in CSS so values keep room.
+  const longest = Math.max(0, ...d.sections.filter((s) => !s.table && !isNum(s.value)).map((s) => String(s.label ?? '').length));
+  const lw = Math.min(16, Math.max(6.5, longest * 0.58)).toFixed(1);
+  return html`<div class="doc-card ${hasN ? 'has-n' : ''}" style="--lw:${lw}em">
     <div class="doc-title">${d.docTitle}</div>
     ${d.sections.map((s) => (s.table
       ? html`<div class="doc-table-wrap">${mark(s.table.n)}<table class="doc-table"><thead><tr>${s.table.columns.map((c) => html`<th>${c}</th>`)}</tr></thead>
           <tbody>${s.table.rows.map((r) => html`<tr>${r.map((c) => html`<td>${c}</td>`)}</tr>`)}</tbody></table></div>`
-      : html`<div class="doc-row ${s.strong ? 'strong' : ''} ${s.rule ? 'rule' : ''}">${mark(s.n)}<span class="doc-label">${s.label}</span><span class="doc-value">${s.value}</span></div>`))}
+      : html`<div class="doc-row ${s.strong ? 'strong' : ''} ${s.rule ? 'rule' : ''} ${isNum(s.value) ? 'is-num' : ''}">${mark(s.n)}<span class="doc-label">${s.label}</span><span class="doc-value ${isNum(s.value) ? 'num' : ''}">${s.value}</span></div>`))}
     ${d.note ? html`<p class="doc-note">${d.note}</p>` : ''}
   </div>`;
 }
