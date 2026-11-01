@@ -16,21 +16,21 @@ const VPC_KINDS = [
 
 export const PROGRAMS = {
   f10: {
-    id: 'f10', family: 'f10', name: 'Victorian Curriculum F–10', short: 'F–10', curriculumShort: 'Victorian Curriculum',
+    id: 'f10', family: 'f10', name: 'Victorian Curriculum F–10', short: 'F–10', tab: 'F–10 English', curriculumShort: 'Victorian Curriculum',
     curriculumName: 'Victorian Curriculum F–10 Version 2.0 — English', icon: 'lucide:book-open-check',
   },
   vm12: {
-    id: 'vm12', family: 'vm', units: [1, 2], name: 'VCE VM Literacy Units 1 & 2', short: 'VM Literacy 1 & 2', curriculumShort: 'VCE VM Literacy',
+    id: 'vm12', family: 'vm', units: [1, 2], name: 'VCE VM Literacy Units 1 & 2', short: 'VM Literacy 1 & 2', tab: 'VM Units 1 & 2', curriculumShort: 'VCE VM Literacy',
     curriculumName: 'VCE Vocational Major Literacy Study Design (2023–2027) — Units 1 and 2', icon: 'lucide:hard-hat',
     part: 'Outcome', partAbbr: 'O', kinds: VM_KINDS,
   },
   vm34: {
-    id: 'vm34', family: 'vm', units: [3, 4], name: 'VCE VM Literacy Units 3 & 4', short: 'VM Literacy 3 & 4', curriculumShort: 'VCE VM Literacy',
+    id: 'vm34', family: 'vm', units: [3, 4], name: 'VCE VM Literacy Units 3 & 4', short: 'VM Literacy 3 & 4', tab: 'VM Units 3 & 4', curriculumShort: 'VCE VM Literacy',
     curriculumName: 'VCE Vocational Major Literacy Study Design (2023–2027) — Units 3 and 4', icon: 'lucide:hard-hat',
     part: 'Outcome', partAbbr: 'O', kinds: VM_KINDS,
   },
   vpc: {
-    id: 'vpc', family: 'vpc', units: [1, 2, 3, 4], name: 'VPC Literacy', short: 'VPC Literacy', curriculumShort: 'VPC Literacy',
+    id: 'vpc', family: 'vpc', units: [1, 2, 3, 4], name: 'VPC Literacy', short: 'VPC Literacy', tab: 'VPC Literacy', curriculumShort: 'VPC Literacy',
     curriculumName: 'Victorian Pathways Certificate Literacy Curriculum Design (2023–2027) — Units 1 to 4', icon: 'lucide:wrench',
     part: 'Module', partAbbr: 'M', kinds: VPC_KINDS,
     levels: {
