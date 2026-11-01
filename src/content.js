@@ -110,7 +110,7 @@ export function vcFor(skill, level = DEFAULT_LEVEL) {
 // ---------- Unlock rules ----------
 // Set in content/<program>/map.json → "unlocks":
 //   tier 0  Base Camp: always open
-//   tier 1  zone starters: finish `starters.baseCamp` Base Camp skills
+//   tier 1  zone starters: finish `starters.baseCamp` skills in the base zone (e.g. Base Camp)
 //   tier 2  level 2: finish `level2.starters` starters in the same zone
 //   tier 3  boss: finish `boss.starters` starters and `boss.level2` level-2 skills in the zone
 //   tier 4  Crossroads: explicit `requires` [{zone, min}]
@@ -130,7 +130,7 @@ export function requirements(skill) {
   };
   const inZone = (zone, tier) => zoneSkills(zone).filter((s) => tier === undefined || s.tier === tier).map((s) => s.id);
   const zname = skill.zoneObj.name;
-  const base = group(inZone(c.baseZone), rules.starters?.baseCamp ?? 2, `${c.zones[c.baseZone].name} skill`, '');
+  const base = group(inZone(c.baseZone), rules.starters?.baseCamp ?? 2, 'skill', ` in ${c.zones[c.baseZone].name}`);
   const starters = (n) => group(inZone(skill.zone, 1), n, 'starter', ` in ${zname}`);
   switch (skill.tier) {
     case 0: return [];

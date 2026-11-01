@@ -37,7 +37,7 @@ p('```');
 p();
 p('- **Hybrid tree, not a straight line.** A small core (Base Camp) gives everyone the same toolkit: reading for purpose, choosing the right tone, finding information fast. After that it is a choose-your-own-adventure: students open any zone and move through it at their own pace.');
 p('- **Unlock rules** (set in `content/map.json` → `unlocks`):');
-p('  - Starter skills: finish 2 Base Camp skills.');
+p('  - Starter skills: finish 2 skills in Base Camp.');
 p('  - Level-2 skills: finish **both** starters in that zone.');
 p('  - Boss skill: finish both starters **and** a level-2 skill in that zone.');
 p('  - Crossroads: finish 2 skills in each of the two named zones.');
@@ -76,7 +76,7 @@ for (const z of c.map.zones) {
   p('| Skill | Tier | Real-life skill | Literacy focus | VC ▲ Foundation | VC Core | VC ★ Level Up | Unlocks after | Badge | Status |');
   p('|---|---|---|---|---|---|---|---|---|---|');
   for (const s of all.filter((x) => x.zone === z.id)) {
-    const req = requirements(s).filter((r) => r.text !== 'Finish 2 Base Camp skills' || s.tier === 1).map((r) => r.text).join('; ') || '—';
+    const req = requirements(s).filter((r) => r.text !== 'Finish 2 skills in Base Camp' || s.tier === 1).map((r) => r.text).join('; ') || '—';
     p(`| **${s.title}** | ${tierName[s.tier]} | ${s.realLife} | ${s.literacy} | ${(s.vc.support || []).map(vc).join('<br>')} | ${s.vc.core.map(vc).join('<br>')} | ${s.vc.extend.map(vc).join('<br>')} | ${req} | ${s.badge.name} | ${s.ready ? '✅ built' : 'planned'} |`);
   }
   p();
