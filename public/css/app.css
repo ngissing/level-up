@@ -225,6 +225,7 @@ a.node:hover { transform: translate(-2px, -2px) rotate(-.4deg); box-shadow: var(
 .steps a.done .step-n { background: var(--zone); }
 .steps a.done .step-n .ico { width: 16px; height: 16px; stroke-width: 3; }
 .step-ico { opacity: .7; }
+.steps-now { display: none; }
 .done-form { display: flex; justify-content: flex-end; margin: -6px 0 30px; }
 .panel-tools { display: flex; justify-content: flex-end; margin-bottom: 8px; }
 
@@ -258,20 +259,24 @@ a.node:hover { transform: translate(-2px, -2px) rotate(-.4deg); box-shadow: var(
 .ex-scene.active .sc > *:nth-child(4) { animation-delay: .45s; }
 @keyframes pop { from { opacity: 0; transform: translateY(20px) scale(.92); } to { opacity: 1; transform: none; } }
 .sc { position: relative; text-align: center; display: grid; justify-items: center; gap: 2%; width: 100%; }
-.sc h3 { font-size: 52px; font-weight: 800; margin: 0; }
-.sc p { font-size: 26px; max-width: 30ch; margin: 0; font-weight: 500; }
-.sc-ico { width: 96px; height: 96px; stroke-width: 2.2; }
+.sc h3 { font-size: 64px; font-weight: 800; margin: 0; line-height: 1.05; }
+.sc p { font-size: 31px; max-width: 32ch; margin: 0; font-weight: 500; line-height: 1.3; }
+.sc-title .sticker { transform: scale(1.3); margin-bottom: 18px; }
+.sc-ico { width: 120px; height: 120px; stroke-width: 2.2; }
 .sc-message { grid-template-columns: auto auto; align-items: center; gap: 6%; }
 .ex-caption { font-size: 1.05rem; }
 .sc-message .phone { transform: rotate(3deg); width: 300px; font-size: 16px; }
 .sc-message .bubble { font-size: 19px; }
 .sc-stat b { white-space: nowrap; font-family: var(--display); font-size: 106px; line-height: .9; background: #fff; border: var(--bw) solid var(--ink); padding: 2% 4%; border-radius: 20px; box-shadow: var(--shadow-lg); transform: rotate(-2deg); }
-.sc-stat p { font-size: 19px; max-width: 50ch; }
+.sc-stat p { font-size: 22px; max-width: 50ch; }
 .sc-flag { grid-template-columns: auto 1fr auto; text-align: left; justify-items: start; align-items: center; gap: 5%; }
-.flag-letter { font-family: var(--display); font-weight: 800; font-size: 160px; line-height: .8; background: var(--coral); color: var(--ink); border: 4px solid var(--ink); border-radius: 26px; padding: 2% 6%; box-shadow: var(--shadow-lg); transform: rotate(-4deg); }
-.flag-pill { display: inline-flex; gap: 6px; align-items: center; background: var(--ink); color: #fff; border-radius: 999px; padding: 2px 12px; font-weight: 700; text-transform: uppercase; font-size: 14px; letter-spacing: .08em; margin-bottom: 8px; }
+.flag-letter { font-family: var(--display); font-weight: 800; font-size: 170px; line-height: .8; background: var(--coral); color: var(--ink); border: 4px solid var(--ink); border-radius: 26px; padding: 2% 6%; box-shadow: var(--shadow-lg); transform: rotate(-4deg); }
+.flag-pill { display: inline-flex; gap: 6px; align-items: center; background: var(--ink); color: #fff; border-radius: 999px; padding: 2px 12px; font-weight: 700; text-transform: uppercase; font-size: 19px; letter-spacing: .08em; margin-bottom: 10px; padding: 4px 16px; }
 .sc-steps ol { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; counter-reset: s; }
-.sc-steps li { counter-increment: s; background: #fff; border: var(--bw) solid var(--ink); border-radius: 14px; padding: 10px 24px; font-size: 25px; font-weight: 600; box-shadow: var(--shadow); text-align: left; }
+.sc-steps li { counter-increment: s; background: #fff; border: var(--bw) solid var(--ink); border-radius: 14px; padding: 10px 24px; font-size: 29px; font-weight: 600; box-shadow: var(--shadow); text-align: left; }
+/* Five or more steps: a little tighter so they still fit the frame. */
+.sc-steps ol:has(li:nth-child(5)) { gap: 8px; }
+.sc-steps ol:has(li:nth-child(5)) li { font-size: 25px; padding: 7px 22px; }
 .sc-steps li::before { content: counter(s); display: inline-grid; place-items: center; width: 1.6em; height: 1.6em; border-radius: 50%; background: var(--ink); color: #fff; margin-right: 10px; }
 .ex-big-play { position: absolute; inset: 0; margin: auto; width: 96px; height: 96px; border-radius: 50%; background: var(--ink); color: #fff; border: 4px solid #fff; display: grid; place-items: center; cursor: pointer; z-index: 3; box-shadow: 0 0 0 6px rgba(0,0,0,.15); }
 .ex-big-play .ico { width: 42px; height: 42px; fill: #fff; margin-left: 6px; }
@@ -323,7 +328,14 @@ body.board { background: var(--ink); }
 /* Quiz */
 .quiz { display: grid; gap: 16px; }
 .q { border: 2px solid var(--ink); border-radius: var(--r); padding: 14px 18px 16px; margin: 0; background: #fff; }
-.q legend { display: flex; align-items: center; gap: 10px; font-weight: 600; padding: 0 6px; font-size: 1.08rem; }
+.q { min-width: 0; }
+/* The question sits inside its box (not on the border), so long questions wrap cleanly. */
+.q legend { float: left; width: 100%; display: flex; align-items: flex-start; gap: 10px; font-weight: 600; padding: 0 0 4px; font-size: 1.08rem; }
+.q legend + * { clear: both; }
+.q legend .q-n { margin-top: 1px; }
+.q legend .say-btn, .q legend button { margin-left: auto; flex: none; }
+.q-text { min-width: 0; overflow-wrap: anywhere; }
+.opt span { min-width: 0; overflow-wrap: anywhere; }
 .q-n { display: grid; place-items: center; width: 30px; height: 30px; flex: none; border-radius: 50%; background: var(--ink); color: #fff; font-size: .85rem; }
 .opt { display: flex; gap: 10px; align-items: center; padding: 10px 12px; border: 2px solid #d6d0c4; border-radius: 12px; margin-top: 8px; cursor: pointer; }
 .opt:hover { border-color: var(--ink); }
@@ -336,7 +348,7 @@ body.board { background: var(--ink); }
 .best { display: inline-flex; gap: 8px; align-items: center; background: var(--sun); border: 2px solid var(--ink); border-radius: 999px; padding: 4px 14px; }
 
 .show-form { display: grid; gap: 14px; margin-top: 10px; }
-.show-form fieldset { border: 2px solid var(--ink); border-radius: var(--r-sm); padding: 8px 16px; }
+.show-form fieldset { min-width: 0; border: 2px solid var(--ink); border-radius: var(--r-sm); padding: 8px 16px; }
 .check.levelup { background: #fff7d6; border: 2px dashed #b38600; border-radius: var(--r-sm); padding: 10px 14px; }
 .t-comment { background: #fff3c4; border: 2px solid var(--ink); border-radius: var(--r-sm); padding: 10px 14px; margin: 10px 0; }
 
@@ -461,13 +473,22 @@ section.panel > .table, .panel .table { margin-top: 10px; }
 @media (max-width: 1180px) {
   .zones { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
+/* Tablets and small laptops: the menu gets its own row under the logo, so nothing is cut off. */
+@media (max-width: 1100px) {
+  .topbar { flex-wrap: wrap; row-gap: 8px; }
+  .mainnav { order: 3; flex-basis: 100%; margin: 0; }
+}
 @media (max-width: 900px) {
   .zones { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .band-nodes, .band-nodes.four { grid-template-columns: 1fr 1fr; }
   .skill-layout { grid-template-columns: 1fr; }
-  .steps { position: static; overflow-x: auto; }
-  .steps ol { display: flex; }
-  .steps a span:not(.step-n) { white-space: nowrap; }
+  /* Phones and tablets: all seven steps as one row of numbers, with the current step named above. */
+  .steps { position: static; }
+  .steps-now { display: block; margin: 0 0 8px; font-size: .95rem; }
+  .steps ol { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; }
+  .steps a { justify-content: center; padding: 6px 0; }
+  .steps a .step-ico, .steps a > span:not(.step-n) { display: none; }
+  .steps a.on .step-n { background: var(--ink); color: #fff; }
   .skill-hero-grid, .map-hero, .login, .two-col { grid-template-columns: 1fr; }
   .login-art { padding: 70px 0 40px; }
 }

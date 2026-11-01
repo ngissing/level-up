@@ -118,9 +118,25 @@ export function mapPage(req, { progress, newBadges, unlocked }) {
 
 // ---------------- Skill (mini course) ----------------
 
+// Staff see the exact curriculum codes, grouped under their sub-strand / outcome / module so the
+// name isn't repeated on every chip. Hover a code for its full wording.
+function staffVcList(skill, c) {
+  const groups = new Map();
+  for (const [ids, ext] of [[skill.vcNow.core, false], [skill.vcNow.extend, true]]) for (const id of ids) {
+    const e = c.vc[id]; if (!e) continue;
+    if (!groups.has(e.substrand)) groups.set(e.substrand, []);
+    groups.get(e.substrand).push({ e, ext });
+  }
+  return html`<div class="vc-groups">${[...groups].map(([sub, list]) => html`<div class="vc-group"><span class="vc-group-name">${sub}</span>
+    <span class="vc-codes">${list.map(({ e, ext }) => html`<span class="vc-chip vc-code ${ext ? 'vc-ext' : ''}" title="${e.code}: ${e.text}"><b>${e.code}</b>${ext ? html` <em>★</em>` : ''}</span>`)}</span></div>`)}
+    <p class="vc-key small muted">Hover a code to read it. ★ = Level Up work.</p></div>`;
+}
+
 function stepNav(skill, p, step) {
   const doneSteps = new Set(p?.steps || []);
+  const cur = STEPS.findIndex((s) => s.id === step);
   return html`<nav class="steps" aria-label="Mission steps">
+    <p class="steps-now">Step ${cur + 1} of ${STEPS.length} · <b>${STEPS[cur]?.label || ''}</b></p>
     <ol>${STEPS.map((s, i) => html`<li>
       <a href="/skill/${skill.id}?step=${s.id}" class="${s.id === step ? 'on' : ''} ${doneSteps.has(s.id) ? 'done' : ''}" ${s.id === step ? raw('aria-current="step"') : ''}>
         <span class="step-n">${doneSteps.has(s.id) ? icon('lucide:check') : i + 1}</span>
@@ -257,7 +273,7 @@ function checkStep(skill, p, result) {
       ${qs.map((q, i) => {
         const r = result?.[i];
         return html`<fieldset class="q ${r ? (r.correct ? 'q-right' : 'q-wrong') : ''}">
-          <legend><span class="q-n">${i + 1}</span>${mdInline(q.q)} ${sayButton(u.quiz[i], audio(u.quiz[i]), 'Read question and answers')}</legend>
+          <legend><span class="q-n">${i + 1}</span><span class="q-text">${mdInline(q.q)}</span> ${sayButton(u.quiz[i], audio(u.quiz[i]), 'Read question and answers')}</legend>
           ${q.options.map((o, j) => html`<label class="opt ${r && j === q.answer ? 'opt-answer' : ''}">
             <input type="radio" name="q${i}" value="${j}" required ${r && r.chosen === j ? raw('checked') : ''}><span>${o}</span></label>`)}
           ${r ? html`<p class="explain">${icon(r.correct ? 'lucide:circle-check' : 'lucide:info')} ${q.explain}</p>` : ''}
@@ -327,7 +343,9 @@ export function skillPage(req, { skill, progress, step, quizResult, passPct }) {
       <aside class="hero-card">
         <p><span class="kicker">${icon('lucide:hand-heart')} Real-life skill</span>${skill.realLife}</p>
         <p><span class="kicker">${icon('lucide:graduation-cap')} ${PROGRAMS[skill.program].name}</span></p>
-        <div class="vc-list">${(student ? dedupe(skill.vcNow.core, c) : skill.vcNow.core.map((id) => c.vc[id])).map((e) => vcChip(e, { hideLevel: student }))}${(student ? dedupe(skill.vcNow.extend, c).filter((e) => !dedupe(skill.vcNow.core, c).some((x) => x.substrand === e.substrand)) : skill.vcNow.extend.map((id) => c.vc[id])).map((e) => vcChip(e, { extend: true, hideLevel: student }))}</div>
+        ${student
+          ? html`<div class="vc-list">${dedupe(skill.vcNow.core, c).map((e) => vcChip(e, { hideLevel: true }))}${dedupe(skill.vcNow.extend, c).filter((e) => !dedupe(skill.vcNow.core, c).some((x) => x.substrand === e.substrand)).map((e) => vcChip(e, { extend: true, hideLevel: true }))}</div>`
+          : staffVcList(skill, c)}
       </aside>
     </div>
   </section>`;

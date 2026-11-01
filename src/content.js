@@ -74,6 +74,19 @@ export function resolveLevel(v, level) {
   return v;
 }
 
+// A fixed shuffle seeded by text, so every student sees the same order (and a teacher can say
+// "question 3, option C") but the right answer isn't always in the same place.
+function seededOrder(n, seed) {
+  let h = 2166136261;
+  for (const ch of seed) h = Math.imul(h ^ ch.charCodeAt(0), 16777619) >>> 0;
+  const idx = [...Array(n).keys()];
+  for (let i = n - 1; i > 0; i--) {
+    h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0; h = (h ^ (h >>> 13)) >>> 0;
+    const j = h % (i + 1); [idx[i], idx[j]] = [idx[j], idx[i]];
+  }
+  return idx;
+}
+
 // Automatic adjustments that don't need authoring.
 function adapt(course, level) {
   if (level === 'support') {
@@ -85,6 +98,17 @@ function adapt(course, level) {
       q.answer = keep.indexOf(q.answer);
       q.options = keep.map((i) => q.options[i]);
     }
+  }
+  // Authors usually write the right answer first; shuffle so it isn't always option A.
+  // "All of these"-style options stay last. Add "keepOrder": true to a question to opt out.
+  for (const q of course.quiz?.questions || []) {
+    if (q.keepOrder) continue;
+    const idx = q.options.map((o, i) => i);
+    const last = idx.filter((i) => /^(all|none|both) of\b/i.test(String(q.options[i])));
+    const mix = idx.filter((i) => !last.includes(i));
+    const order = seededOrder(mix.length, String(q.q)).map((k) => mix[k]).concat(last);
+    q.answer = order.indexOf(q.answer);
+    q.options = order.map((i) => q.options[i]);
   }
   return course;
 }
