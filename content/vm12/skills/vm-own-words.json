@@ -531,7 +531,10 @@
             ]
           },
           {
-            "q": "What can happen if work can't be shown to be yours?",
+            "q": {
+              "core": "What can happen if work can't be shown to be yours?",
+              "support": "Does changing a few words stop it being plagiarism? Why?"
+            },
             "lines": 2,
             "vc": [
               "VM-U1O1-KK4"
@@ -673,7 +676,10 @@
             ]
           },
           {
-            "q": "Who was the **audience** for the speech? Why did copying matter so much in that **context**?",
+            "q": {
+              "core": "Who was the **audience** for the speech? Why did copying matter so much in that **context**?",
+              "support": "Why did people care so much about the copying?"
+            },
             "lines": {
               "support": 3,
               "core": 3
@@ -790,7 +796,7 @@
         "title": "Level Up: make a source note",
         "diagram": 1,
         "pagebreak": true,
-        "instructions": "Each number marks part of a source note. Write what it is and why it matters. Then make your own on the back of this page for a website you'd use.",
+        "instructions": "Each number marks part of a source note. Write what it is and why it matters. Then make your own source note, on a separate sheet, for a website you'd use.",
         "columns": [
           "What is it?",
           "Why does it matter?"

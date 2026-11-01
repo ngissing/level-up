@@ -201,7 +201,7 @@
           "extend": 5
         },
         "body": {
-          "support": "When you speak, people get three things: your **words**, your **body** and your **voice**.\n\nYou have five tools:\n\n1. **Stance.** Stand still on both feet. Don't sway.\n2. **Eye contact.** Look at people. Not the floor.\n3. **Gestures.** Use your hands to show what you mean. Then let them rest.\n4. **Pace.** Slow down for big points. **Pause** before them.\n5. **Tone.** Let your voice go up and down. A flat voice sounds bored.\n\nYou can get better at this. **Film yourself.** Watch it. Change one thing. Try again.",
+          "support": "When you speak, people get three things: your **words**, your **body** and your **voice**. If they don't match, people believe your body and voice.\n\nYou have five tools:\n\n1. **Stance.** Stand still on both feet. Don't sway.\n2. **Eye contact.** Look at people. Not the floor.\n3. **Gestures.** Use your hands to show what you mean. Then let them rest.\n4. **Pace.** Slow down for big points. **Pause** before them.\n5. **Tone.** Let your voice go up and down. A flat voice sounds bored.\n\nYou can get better at this. **Film yourself.** Watch it. Change one thing. Try again.",
           "core": "When you give your opinion out loud, your audience gets three things at once: your **words**, your **body** and your **voice**. If they don't match, people believe the body and voice.\n\nYou carry five delivery tools everywhere:\n\n1. **Stance.** Stand steady with your weight on both feet. Swaying and shuffling look nervous.\n2. **Eye contact.** Look at people, not the floor or your notes. Move your eyes around the group.\n3. **Gestures.** Use your hands to show meaning: count off three points, show something big. Then rest them, not in your pockets.\n4. **Pace and pauses.** Nerves make you rush. Slow down for your most important point, and **pause** before it.\n5. **Tone.** Let your voice rise and fall. A flat voice sounds bored, even when you're not.\n\nDelivery is a **skill**, not a personality. The fastest way to improve is to **film yourself**, watch it back, change **one** thing, and try again. Everyone hates watching themselves at first. Do it anyway.",
           "extend": "When you present an opinion aloud, your audience receives three channels at once: **verbal** (your words), **visual** (your body) and **vocal** (your voice). When they conflict — confident words, nervous body — audiences tend to trust the body and voice.\n\nFive delivery tools are always available:\n\n1. **Stance**: grounded, balanced posture signals confidence; swaying or shifting signals nerves.\n2. **Eye contact**: sustained, shared around the room, it builds connection and credibility.\n3. **Gesture**: purposeful hand movements (counting points, showing scale) reinforce meaning. Fidgeting distracts from it.\n4. **Pace and pause**: nerves speed you up. Deliberately slowing for key points, and pausing before them, signals importance.\n5. **Intonation**: variation in pitch and emphasis carries emotion and meaning. A monotone undercuts even a strong argument.\n\nDelivery is a trainable skill, not a fixed trait. The most effective practice is deliberate: film, review against criteria, change one thing, repeat."
         },
@@ -612,7 +612,10 @@
         "pagebreak": true,
         "items": [
           {
-            "q": "How did Nixon and Kennedy look and sound?",
+            "q": {
+              "core": "How did Nixon and Kennedy look and sound?",
+              "support": "How did Nixon and Kennedy look on TV?"
+            },
             "lines": 2,
             "vc": [
               "VPC-U2M2-LG3"
@@ -692,7 +695,7 @@
         "title": "Do it: film it twice",
         "pagebreak": true,
         "where": "in class or at home",
-        "instructions": "Film **Take 1** with no practice. Practise with your cue card. Film **Take 2**. Rate both takes (1 = needs work, 3 = nailed it).",
+        "instructions": "Film **Take 1** with no practice. Practise with your cue card. Film **Take 2**. Then rate both takes on the **Rate your takes** page.",
         "need": [
           "your cue card",
           "a phone or camera",
@@ -704,14 +707,14 @@
             "Watch it. Pick **one** thing to fix.",
             "Practise 3 times.",
             "Film **Take 2**.",
-            "Rate both takes below."
+            "Rate both takes on the **Rate your takes** page."
           ],
           "core": [
             "Film **Take 1**: give your 60-second opinion straight away.",
             "Watch it back. Pick the **one** tool that needs the most work.",
             "Practise 3 times with your cue card. Focus on that one tool.",
             "Film **Take 2**.",
-            "Watch both. Rate each tool in the table below.",
+            "Watch both. Rate each tool on the **Rate your takes** page.",
             "Show your teacher both takes, or tell them what changed."
           ]
         },

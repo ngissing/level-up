@@ -188,9 +188,9 @@
           "extend": 5
         },
         "body": {
-          "support": "Every workplace runs on short messages. Each one has a job.\n\n1. **Rosters** say who works when. Find your name. Check the **date** and **times**.\n2. **Notices** tell everyone something. The key fact goes first.\n3. **Requests** ask for something, like a swap. Say **what**, **when** and **why**. Offer a fix: *Jo can cover.*\n4. **Handover notes** tell the next shift what they need. Use: **Done**, **Not done**, **Watch out**.\n\nGood work messages are **short**, **clear**, **polite** and **spelled right**.",
+          "support": "Every workplace runs on short messages. Each one has a job.\n\n1. **Rosters** say who works when. Find your name. Check the **date** and **times**.\n2. **Notices** tell everyone something. The key fact goes first.\n3. **Requests** ask for something, like a swap. Say **what**, **when** and **why**. Offer a fix: *Jo can cover.*\n4. **Handover notes** tell the next shift what they need. Use: **Done**, **Not done**, **Watch out**.\n\nGood work messages are **short**, **clear**, **polite** and **spelled right**. Save slang for your mates. A message to your boss shows them what you're like.",
           "core": "Every workplace runs on short texts. They're called **organisational texts**, and each has a job.\n\n1. **Rosters** tell you who works when. Find your name, run along the row, and check the **date** and **times**. Read the notes at the bottom too, like *Swaps must be approved by Friday*.\n2. **Notices** tell everyone something. Good ones put the key fact first: *The cool room is broken. Don't use it until Monday.*\n3. **Requests** ask for something, like a shift swap. A request that gets a yes says **what**, **when** and **why**, and offers a fix: *Jo can cover.*\n4. **Handover notes** pass on what the next shift needs. Use three headings: **Done**, **Not done**, **Watch out**.\n\nAll good workplace messages are **short**, **specific** (dates, times, names), **polite** and **spelled right**. Save the slang for your mates. A message to your manager is a small piece of your reputation.",
-          "extend": "Workplaces run on a family of short, practical texts called **organisational texts**. Each has a shape you can recognise, because each does one job.\n\n1. **Rosters** are tables: names down the side, days across the top, times in the cells. The notes at the bottom often hold the rules, like swap deadlines and who approves changes.\n2. **Notices** put the key fact first, then the detail and an action.\n3. **Requests**, like a shift swap, work when they're specific (what, when, why) and solve the manager's problem for them (*Jo has agreed to cover*).\n4. **Handover notes** pass the job from one shift to the next. A reliable shape is **Done / Not done / Watch out**, with names and times.\n\nThey all share the same features: short, exact, polite and correctly written. In some workplaces, a vague handover isn't just sloppy. It's dangerous."
+          "extend": "Workplaces run on a family of short, practical texts called **organisational texts**. Each has a shape you can recognise, because each does one job.\n\n1. **Rosters** are tables: names down the side, days across the top, times in the cells. The notes at the bottom often hold the rules, like swap deadlines and who approves changes.\n2. **Notices** put the key fact first, then the detail and an action.\n3. **Requests**, like a shift swap, work when they're specific (what, when, why) and solve the manager's problem for them (*Jo has agreed to cover*).\n4. **Handover notes** pass the job from one shift to the next. A reliable shape is **Done / Not done / Watch out**, with names and times.\n\nThey all share the same features: short, exact, polite and correctly written. Save slang for your mates: a message to a manager is part of your reputation. In some workplaces, a vague handover isn't just sloppy. It's dangerous."
         },
         "vc": [
           "VM-U3O2-KK1",
@@ -543,7 +543,7 @@
             "lines": 1
           },
           {
-            "q": "Sam wants Sunday off. Who else is on Sunday? Could they swap?",
+            "q": "Sam wants Sunday off. Who is **not** working on Sunday and could cover?",
             "lines": 1,
             "levels": [
               "core",
@@ -670,9 +670,9 @@
         "title": "Final mission: swap and hand over",
         "pagebreak": true,
         "prompt": {
-          "support": "**(1)** Write to Priya. Ask to swap your Saturday shift with Sam. **(2)** Write a handover note at the end of your shift.",
-          "core": "You work at Bean There Café (or your own job). **(1)** You need Saturday off for a family event. Write to Priya to swap with Sam. **(2)** At the end of your Friday shift, write a handover note for the next person.",
-          "extend": "Using Bean There Café or your own workplace: **(1)** write a swap request that solves the manager's problem for them; **(2)** write a handover note that would let a stranger carry on safely."
+          "support": "You are **Alex** on the café roster. **(1)** Write to Priya. Ask to swap your Saturday shift with someone who isn't working that day. **(2)** Write a handover note at the end of your Friday shift.",
+          "core": "You work at Bean There Café as **Alex** (or use your own job). **(1)** You need Saturday off for a family event. Use the roster to find someone who isn't working on Saturday, and write to Priya to swap with them. **(2)** At the end of your Friday shift, write a handover note for the next person.",
+          "extend": "Using Bean There Café as **Alex**, or your own workplace: **(1)** use the roster to plan a Saturday swap, and write a request that solves the manager's problem for them; **(2)** write a handover note for the end of your Friday shift that would let a stranger carry on safely."
         },
         "plan": [
           {
@@ -687,7 +687,7 @@
         "starters": [
           "Hi Priya,",
           "Could I swap…",
-          "… has agreed to…",
+          "Jo has agreed to…",
           "DONE:",
           "NOT DONE:",
           "WATCH OUT:"
@@ -831,7 +831,7 @@
         "evidence": "Level Up: uses headings and contents to locate rules in a real workplace document."
       }
     ],
-    "answers": "**Roster:** Thursday — Jo 4–9. Sunday — Jo and Sam 9–3, so Alex could cover if available (Alex is off). Jo's Thursday is 5 hours, so no break (breaks apply to shifts **over** 5 hours).\n\n**Annotation:** 1 dates/week; 2 roster table; 3 swap rule (Priya, Friday 12 pm); 4 break rule; 5 contact.\n\n**Sort:** cant come tmrw — unclear; sick + Jo can cover — clear; did stuff — unclear; DONE/NOT DONE/WATCH OUT — clear; can I get Saturday — unclear; cool room notice — clear.\n\n**Piper Alpha handover (sample):** DONE: PSV removed from pump A, blank fitted (not leak-tested). NOT DONE: PSV refit. WATCH OUT: do NOT start pump A until the PSV is back and tested.",
+    "answers": "**Roster:** Thursday — Jo 4–9. Sunday — Alex isn't working, so Alex could cover Sam's 9–3. Jo's Thursday is 5 hours, so no break (breaks apply to shifts **over** 5 hours).\n\n**Annotation:** 1 dates/week; 2 roster table; 3 swap rule (Priya, Friday 12 pm); 4 break rule and who to contact.\n\n**Final mission:** Alex works Sat 8–2. Jo is the only one not working Saturday, so Alex should ask to swap with Jo, before Friday 12 pm.\n\n**Sort:** cant come tmrw — unclear; sick + Jo can cover — clear; did stuff — unclear; DONE/NOT DONE/WATCH OUT — clear; can I get Saturday — unclear; cool room notice — clear.\n\n**Piper Alpha handover (sample):** DONE: PSV removed from pump A, blank fitted (not leak-tested). NOT DONE: PSV refit. WATCH OUT: do NOT start pump A until the PSV is back and tested.",
     "resources": [
       {
         "label": "The Chemical Engineer — Piper Alpha: The Disaster in Detail",

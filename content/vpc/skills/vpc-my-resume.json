@@ -716,7 +716,10 @@
             ]
           },
           {
-            "q": "Why shouldn't we treat “7.4 seconds” as an exact fact?",
+            "q": {
+              "core": "Why shouldn't we treat “7.4 seconds” as an exact fact?",
+              "support": "Why isn't “7 seconds” a rule?"
+            },
             "lines": {
               "support": 3,
               "core": 3

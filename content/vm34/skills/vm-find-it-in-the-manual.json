@@ -519,9 +519,10 @@
         ],
         "wordBank": {
           "support": [
-            "section",
+            "section heading",
             "numbered section",
             "sub-section",
+            "another section",
             "index",
             "glossary"
           ],

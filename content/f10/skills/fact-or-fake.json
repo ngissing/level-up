@@ -638,7 +638,10 @@
         "pagebreak": true,
         "items": [
           {
-            "q": "How was the image made, and where was it first posted?",
+            "q": {
+              "core": "How was the image made, and where was it first posted?",
+              "support": "How was the image made?"
+            },
             "lines": 2,
             "vc": [
               "VC2E6LY06"

@@ -498,7 +498,10 @@
             ]
           },
           {
-            "q": "What are the **four questions** to ask about any text?",
+            "q": {
+              "core": "What are the **four questions** to ask about any text?",
+              "support": "What **three questions** can you ask to work out any text?"
+            },
             "lines": 2,
             "vc": [
               "VM-U1O1-KS1"
