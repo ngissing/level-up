@@ -1,8 +1,8 @@
-// Demo data: one teacher, an F–10 class with four students and a VCE VM Literacy class with two.
+// Demo data: one teacher, demo classes for every program, and students at different stages.
 // Usage: npm run seed   (safe to re-run; skips existing usernames)
 import { db } from '../src/db.js';
 import { hashPassword } from '../src/auth.js';
-import { syncBadges, STEPS } from '../src/content.js';
+import { syncBadges, STEPS, content, courseFor } from '../src/content.js';
 
 const add = (name, username, password, role, classId = null) => {
   if (db.prepare('SELECT 1 FROM users WHERE username = ?').get(username)) return db.prepare('SELECT id FROM users WHERE username = ?').get(username).id;
@@ -62,6 +62,29 @@ const lia = add('Lia Fonoti', 'lia', 'student123', 'student', vpcClass);
 db.prepare("UPDATE users SET program = 'vpc' WHERE id IN (?, ?)").run(noah, lia);
 setLevel.run('support', noah);
 
+// One student per program who has finished every course in the starting zone (Base Camp, Induction,
+// Site Induction, The Workshop), so the next zones are open to explore. Re-running seed adds any
+// starting-zone courses written since.
+const finishedBase = [
+  ['Ruby Walsh', 'ruby', 'f10', '10 Literacy'],
+  ['Liam Brooks', 'liam', 'vm12', '11 VM Literacy'],
+  ['Amira Hassan', 'amira', 'vm34', '12 VM Literacy'],
+  ['Cooper Reid', 'cooper', 'vpc', 'VPC Literacy'],
+];
+for (const [name, username, program, className] of finishedBase) {
+  const cls = db.prepare('SELECT id FROM classes WHERE name = ?').get(className).id;
+  const id = add(name, username, 'student123', 'student', cls);
+  db.prepare('UPDATE users SET program = ? WHERE id = ?').run(program, id);
+  const c = content(program);
+  const done = Object.values(c.skills).filter((s) => s.zone === c.baseZone && s.ready);
+  done.forEach((s, i) => {
+    const n = courseFor(s, 'core').quiz.questions.length;
+    const day = new Date(Date.now() - (done.length - i) * 86400000).toISOString();
+    prog.run(id, s.id, 'complete', all, n, n, `Finished ${s.title}. The workbook helped me most.`, 0, day, day);
+  });
+  syncBadges(id);
+}
+
 console.log(`Seeded. Logins:
   admin   / changeme   (admin)
   teacher / teacher123 (teacher of "10 Literacy", "11 VM Literacy", "12 VM Literacy" and "VPC Literacy")
@@ -69,4 +92,6 @@ console.log(`Seeded. Logins:
   Reading levels: kai = Foundation, mia & tia = Core, jay = Extended
   zara, ben / student123 (VM Literacy Units 1 & 2, class "11 VM Literacy"; zara = Foundation, ben = Core)
   ella / student123 (VM Literacy Units 3 & 4, class "12 VM Literacy"; Core)
-  noah, lia / student123 (VPC Literacy, class "VPC Literacy"; noah = Foundation, lia = Core)`);
+  noah, lia / student123 (VPC Literacy, class "VPC Literacy"; noah = Foundation, lia = Core)
+  Finished the starting zone (next zones open), all Core, password student123:
+    ruby (F–10) · liam (VM 1 & 2) · amira (VM 3 & 4) · cooper (VPC)`);
