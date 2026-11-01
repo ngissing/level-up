@@ -191,18 +191,24 @@ const BLOCKS = {
 };
 
 function shapes(color) {
-  // Decorative shapes for the cover (drawn inline so they always print).
+  // Decorative shapes for the cover (drawn inline so they always print). These only use areas the
+  // text never reaches: the top-right corner, the gap beside the icon sticker, and the bottom edge
+  // (behind the white contents boxes). Marks beside the title live in coverMarks(), in the flow.
   return html`<svg class="cover-shapes" viewBox="0 0 600 840" aria-hidden="true">
-    <circle cx="520" cy="110" r="150" fill="${color}" opacity=".9"/>
-    <circle cx="520" cy="110" r="150" fill="none" stroke="#111" stroke-width="5"/>
-    <path d="M-20 700 C 80 640, 160 760, 260 700 S 440 640, 620 720 L 620 860 L -20 860 Z" fill="${color}" stroke="#111" stroke-width="5"/>
-    <g fill="#111"><path d="M90 150 l10 25 l25 10 l-25 10 l-10 25 l-10 -25 l-25 -10 l25 -10z"/>
-    <path d="M480 250 l7 17 l17 7 l-17 7 l-7 17 l-7 -17 l-17 -7 l17 -7z"/></g>
-    <g fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"><path d="M250 70 q 20 -20 40 0 t 40 0 t 40 0"/>
-    <path d="M540 560 l30 30 M570 560 l-30 30"/></g>
-    <g fill="#111">${Array.from({ length: 30 }, (_, i) => html`<circle cx="${380 + (i % 6) * 22}" cy="${330 + Math.floor(i / 6) * 22}" r="3.5"/>`)}</g>
+    <circle data-mark="big circle" cx="545" cy="95" r="140" fill="${color}" opacity=".9"/>
+    <circle data-mark="big circle" cx="545" cy="95" r="140" fill="none" stroke="#111" stroke-width="5"/>
+    <path data-mark="wave" d="M-20 700 C 80 640, 160 760, 260 700 S 440 640, 620 720 L 620 860 L -20 860 Z" fill="${color}" stroke="#111" stroke-width="5"/>
+    <path data-mark="star" fill="#111" d="M300 125 l10 25 l25 10 l-25 10 l-10 25 l-10 -25 l-25 -10 l25 -10z"/>
+    <path data-mark="squiggle" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round" d="M215 215 q 20 -20 40 0 t 40 0 t 40 0"/>
   </svg>`;
 }
+
+// Marks beside the title. They sit in their own column, so the title text can never run into them.
+const coverMarks = () => html`<svg class="cover-marks" viewBox="0 0 120 140" aria-hidden="true">
+  <path data-mark="cross" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round" d="M12 10 l22 22 M34 10 l-22 22"/>
+  <path data-mark="star" fill="#111" d="M98 2 l7 17 l17 7 l-17 7 l-7 17 l-7 -17 l-17 -7 l17 -7z"/>
+  <g data-mark="dot grid" fill="#111">${Array.from({ length: 30 }, (_, i) => html`<circle cx="${8 + (i % 6) * 20.5}" cy="${58 + Math.floor(i / 6) * 19}" r="3.5"/>`)}</g>
+</svg>`;
 
 function cover(skill, c, qr) {
   const z = skill.zoneObj;
@@ -212,9 +218,14 @@ function cover(skill, c, qr) {
     <div class="cover-inner">
       <div class="cover-brand"><span class="logo-mark">${icon('lucide:chevrons-up')}</span> ${brand(skill)} <span class="cover-zone">${icon(z.icon)} ${z.name}</span></div>
       ${sticker(skill.icon, { color: z.color, ink: z.ink, size: 'xxl', cls: 'cover-sticker' })}
-      <h1>${skill.title}</h1>
-      <p class="cover-tag">${skill.tagline}</p>
-      <p class="cover-real">${icon('lucide:hand-heart')} <span><b>Real-life skill:</b> ${skill.realLife}</span></p>
+      <div class="cover-title">
+        <div class="cover-text">
+          <h1>${skill.title}</h1>
+          <p class="cover-tag">${skill.tagline}</p>
+          <p class="cover-real">${icon('lucide:hand-heart')} <span><b>Real-life skill:</b> ${skill.realLife}</span></p>
+        </div>
+        ${coverMarks()}
+      </div>
       <div class="cover-fields"><label>Name<span></span></label><label>Class<span></span></label><label>Started<span></span></label></div>
       <div class="cover-bottom">
         <div class="cover-contents"><b>Inside</b><ol>${pages.map((p) => html`<li>${p.title}</li>`)}</ol></div>
