@@ -1,0 +1,858 @@
+{
+  "id": "vm-workplace-messages",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "The roster comes out. A mate wants to swap shifts. The boss texts: “can u do sat?” Workplaces run on short messages. When they are unclear, things go wrong.",
+      "core": "A roster comes out on Thursday. A mate asks to swap shifts. Your manager texts: “can u do sat?” And at the end of your shift you're meant to leave a handover note. Every workplace runs on short messages like these. When they're unclear, things go wrong."
+    },
+    "why": {
+      "support": "Read the roster right and you turn up on time. Write a clear message and you get a yes. Leave a good note and the next person is safe.",
+      "core": "Getting workplace messages right is half of being reliable. Read the roster properly and you turn up on time. Write a clear swap request and it gets approved. Leave a good handover and the next shift is safe.",
+      "extend": "Workplaces run on short texts: rosters, notices, requests, handovers. Read them right and write them clearly, and a team can rely on you. In some jobs, it's a safety issue."
+    },
+    "canDo": {
+      "support": [
+        "I can read a roster.",
+        "I can say what makes a work message clear.",
+        "I can ask to swap a shift.",
+        "I can write a handover note."
+      ],
+      "core": [
+        "I can read a **roster** and find my shifts fast.",
+        "I can name the **features** of clear workplace messages.",
+        "I can write a **shift-swap request** that gets a yes.",
+        "I can write a **handover note** the next person can act on."
+      ]
+    },
+    "showIt": "Write a shift-swap request and a handover note for a real or realistic job.",
+    "vocab": [
+      {
+        "word": "roster",
+        "meaning": "a timetable that shows who works when",
+        "example": "My name's on the roster for Saturday."
+      },
+      {
+        "word": "shift",
+        "meaning": "a set time you work",
+        "example": "My shift is 4 till 9."
+      },
+      {
+        "word": "swap",
+        "meaning": "trade a shift with someone",
+        "example": "Can I swap my Sunday with Jo?"
+      },
+      {
+        "word": "handover",
+        "meaning": "passing on what the next person needs to know",
+        "example": "I left a handover note for the night shift."
+      },
+      {
+        "word": "notice",
+        "meaning": "a message to everyone at work",
+        "example": "The notice says the freezer is broken."
+      },
+      {
+        "word": "approve",
+        "meaning": "say yes to something officially",
+        "example": "The manager has to approve the swap."
+      },
+      {
+        "word": "deadline",
+        "meaning": "the latest time something must be done",
+        "example": "The deadline for swaps is Friday.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "action",
+        "meaning": "something someone has to do",
+        "example": "Action: call the fridge repairer.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "organisational text",
+        "meaning": "a text a workplace uses to run itself",
+        "example": "Rosters and policies are organisational texts.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "permit",
+        "meaning": "written permission to do a risky job",
+        "example": "No one can start without a permit.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Workplace Messages in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Workplace Messages",
+        "sub": "Rosters, shift swaps and emails to the boss.",
+        "icon": "lucide:messages-square",
+        "say": "Workplace messages. Rosters, shift swaps and emails to the boss."
+      },
+      {
+        "kind": "big",
+        "title": "Short and clear",
+        "text": "Clear = things move. Unclear = chaos.",
+        "icon": "lucide:zap",
+        "say": "Workplaces run on short messages. Clear ones keep things moving. Unclear ones cause chaos.",
+        "vc": [
+          "VM-U3O2-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "R",
+        "pill": "Message",
+        "pillIcon": "lucide:messages-square",
+        "title": "Rosters",
+        "text": "Name → row → date → times.",
+        "icon": "lucide:calendar-days",
+        "say": "Rosters. Find your name, run along the row, check the date and the times.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "?",
+        "pill": "Message",
+        "pillIcon": "lucide:messages-square",
+        "title": "Requests",
+        "text": "What + when + why + a fix.",
+        "icon": "lucide:message-circle-question",
+        "say": "Requests. Say what you want, when, why, and offer a fix. Like who can cover.",
+        "vc": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "H",
+        "pill": "Message",
+        "pillIcon": "lucide:messages-square",
+        "title": "Handovers",
+        "text": "Done. Not done. Watch out.",
+        "icon": "lucide:clipboard-list",
+        "say": "Handovers. What's done, what's not, what to watch out for.",
+        "vc": [
+          "VM-U3O2-KK3"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Before you send",
+        "steps": [
+          "Clear?",
+          "Complete?",
+          "Polite?",
+          "Spelled right?"
+        ],
+        "say": "Before you hit send: is it clear, is it complete, is it polite, is it spelled right?",
+        "vc": [
+          "VM-U3O2-KS6"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "A swap that gets a yes. A handover that works.",
+        "icon": "lucide:send",
+        "say": "Your mission. Write a shift swap that gets a yes, and a handover that keeps people safe."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "The messages that run a workplace",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Every workplace runs on short messages. Each one has a job.\n\n1. **Rosters** say who works when. Find your name. Check the **date** and **times**.\n2. **Notices** tell everyone something. The key fact goes first.\n3. **Requests** ask for something, like a swap. Say **what**, **when** and **why**. Offer a fix: *Jo can cover.*\n4. **Handover notes** tell the next shift what they need. Use: **Done**, **Not done**, **Watch out**.\n\nGood work messages are **short**, **clear**, **polite** and **spelled right**. Save slang for your mates. A message to your boss shows them what you're like.",
+          "core": "Every workplace runs on short texts. They're called **organisational texts**, and each has a job.\n\n1. **Rosters** tell you who works when. Find your name, run along the row, and check the **date** and **times**. Read the notes at the bottom too, like *Swaps must be approved by Friday*.\n2. **Notices** tell everyone something. Good ones put the key fact first: *The cool room is broken. Don't use it until Monday.*\n3. **Requests** ask for something, like a shift swap. A request that gets a yes says **what**, **when** and **why**, and offers a fix: *Jo can cover.*\n4. **Handover notes** pass on what the next shift needs. Use three headings: **Done**, **Not done**, **Watch out**.\n\nAll good workplace messages are **short**, **specific** (dates, times, names), **polite** and **spelled right**. Save the slang for your mates. A message to your manager is a small piece of your reputation.",
+          "extend": "Workplaces run on a family of short, practical texts called **organisational texts**. Each has a shape you can recognise, because each does one job.\n\n1. **Rosters** are tables: names down the side, days across the top, times in the cells. The notes at the bottom often hold the rules, like swap deadlines and who approves changes.\n2. **Notices** put the key fact first, then the detail and an action.\n3. **Requests**, like a shift swap, work when they're specific (what, when, why) and solve the manager's problem for them (*Jo has agreed to cover*).\n4. **Handover notes** pass the job from one shift to the next. A reliable shape is **Done / Not done / Watch out**, with names and times.\n\nThey all share the same features: short, exact, polite and correctly written. Save slang for your mates: a message to a manager is part of your reputation. In some workplaces, a vague handover isn't just sloppy. It's dangerous."
+        },
+        "vc": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KK3"
+        ],
+        "vcNote": "The structure, language and characteristics of organisational texts."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Piper Alpha: the message that didn't get through",
+        "icon": "lucide:flame",
+        "body": {
+          "support": "**Piper Alpha** was an oil and gas platform in the sea near Scotland. On **6 July 1988**, it blew up. **167 people died.**\n\nThat day, workers took a **safety part** off a pump to fix it. They left a note on paper. But the night shift **never saw it**.\n\nThat night, another pump broke. The night shift turned on the pump that was being fixed. Gas leaked out and exploded.\n\nAn inquiry said the way shifts passed on information **did not work**.\n\nOne missing message was part of what went wrong.",
+          "core": "**Piper Alpha** was an oil and gas platform in the North Sea, off Scotland. On **6 July 1988**, it exploded. **167 people died.**\n\nThat day, the day shift took a **safety valve** off one of two pumps for repairs. They covered the hole with a metal plate, but it wasn't tight. The **paperwork** for that job wasn't kept with the paperwork for the pump, so the night shift didn't know the valve was missing.\n\nThat night, the other pump broke down. The night shift started the pump that was being repaired. Gas leaked out and exploded.\n\nAn inquiry led by **Lord Cullen** found that the system of written permits wasn't working, and that there was no clear way to hand over between shifts. It made **106 recommendations** that changed offshore safety.\n\nOne missing piece of information, passed between shifts, was part of what went wrong.",
+          "extend": "**Piper Alpha** was an oil and gas production platform in the North Sea, off Scotland. On **6 July 1988**, a series of explosions and fires destroyed it. **167 people died.**\n\nDuring the day shift, a **pressure safety valve** was removed from one of two condensate pumps for maintenance, and the opening was sealed with a blank plate that was not leak-tested. The permit for that valve work was not kept with the permit for the pump itself, so the night shift did not know the valve was missing.\n\nWhen the second pump failed that night, the crew restarted the pump under repair. Gas escaped and ignited.\n\nThe public inquiry led by **Lord Cullen** found that the permit-to-work system was inadequate and routinely departed from, and that there was no clear procedure for shift handover. Its **106 recommendations** reshaped offshore safety regulation.\n\nThe disaster had many causes. But it shows, at the highest stakes, that organisational texts — permits, logs, handovers — are only as good as the systems that make sure the right person reads them."
+        },
+        "source": {
+          "name": "The Chemical Engineer — “Piper Alpha: The Disaster in Detail” (Institution of Chemical Engineers)",
+          "url": "https://www.thechemicalengineer.com/features/piper-alpha-the-disaster-in-detail/"
+        },
+        "think": {
+          "support": [
+            "What message was missed?",
+            "What should a handover say?"
+          ],
+          "core": [
+            "What information didn't reach the night shift?",
+            "What does a good handover need to include?",
+            "How could the paperwork have been organised better?"
+          ]
+        },
+        "vc": [
+          "VM-U3O2-KK3"
+        ],
+        "vcNote": "Why handovers and permits (organisational texts) matter: a historic safety case."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a roster",
+      "docTitle": "BEAN THERE CAFÉ — ROSTER, WEEK OF 3 MARCH (EXAMPLE)",
+      "vc": [
+        "VM-U3O2-KK1",
+        "VM-U3O2-KS3"
+      ],
+      "vcNote": "The structure and key elements of a roster.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Week",
+          "value": "Mon 3 Mar – Sun 9 Mar"
+        },
+        {
+          "table": {
+            "n": 2,
+            "columns": [
+              "Name",
+              "Thu",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "rows": [
+              [
+                "Alex",
+                "—",
+                "4–9",
+                "8–2",
+                "—"
+              ],
+              [
+                "Jo",
+                "4–9",
+                "—",
+                "—",
+                "9–3"
+              ],
+              [
+                "Sam",
+                "—",
+                "—",
+                "2–7",
+                "9–3"
+              ]
+            ]
+          }
+        },
+        {
+          "n": 3,
+          "label": "Rule",
+          "value": "Swaps must be approved by Priya by Friday 12 pm.",
+          "strong": true
+        },
+        {
+          "n": 4,
+          "label": "Breaks",
+          "value": "30-min unpaid break on shifts over 5 hours · Questions? Text Priya"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Dates",
+          "note": "Check it's the right week."
+        },
+        {
+          "n": 2,
+          "label": "Table",
+          "note": "Names down, days across. Run along your row."
+        },
+        {
+          "n": 3,
+          "label": "Swap rule",
+          "note": "Who approves, and the deadline."
+        },
+        {
+          "n": 4,
+          "label": "Breaks + contact",
+          "note": "Rules that affect your pay, and who to ask."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "A handover that works",
+      "steps": [
+        {
+          "title": "Done",
+          "text": "What's finished, with times.",
+          "icon": "lucide:check-check"
+        },
+        {
+          "title": "Not done",
+          "text": "What the next person must do.",
+          "icon": "lucide:list-todo"
+        },
+        {
+          "title": "Watch out",
+          "text": "Anything broken, risky or odd.",
+          "icon": "lucide:triangle-alert"
+        },
+        {
+          "title": "Who",
+          "text": "Your name, and who to call.",
+          "icon": "lucide:user"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "On the café roster, when does **Alex** work on **Saturday**?",
+        "options": [
+          "8 am – 2 pm",
+          "4 – 9 pm",
+          "2 – 7 pm",
+          "Alex isn't working"
+        ],
+        "answer": 0,
+        "explain": "Run along Alex's row to Sat.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "q": "Who has to approve a shift swap, and by when?",
+        "options": [
+          "Priya, by Friday 12 pm",
+          "Jo, by Sunday",
+          "Anyone, any time",
+          "No one"
+        ],
+        "answer": 0,
+        "explain": "It's in the notes at the bottom of the roster.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "q": "Which swap request is most likely to get a yes?",
+        "options": [
+          "Hi Priya, could I swap my Sat 8–2 with Sam's Sun 9–3? Sam has agreed. Thanks, Alex",
+          "cant do sat sorry",
+          "Can someone do my shift?",
+          "Sat is bad for me"
+        ],
+        "answer": 0,
+        "explain": "What + when + a fix + polite.",
+        "vc": [
+          "VM-U3O2-KK3",
+          "VM-U3O2-KS6"
+        ]
+      },
+      {
+        "q": "What are the three headings of a good handover note?",
+        "options": [
+          "Done, Not done, Watch out",
+          "Hi, Bye, Thanks",
+          "Start, Middle, End",
+          "Who, Why, How"
+        ],
+        "answer": 0,
+        "explain": "They tell the next person exactly what they need.",
+        "vc": [
+          "VM-U3O2-KK3"
+        ]
+      },
+      {
+        "q": "At Piper Alpha, what did the night shift not know?",
+        "options": [
+          "A safety valve had been removed from the pump",
+          "The time",
+          "Who their boss was",
+          "That it was night"
+        ],
+        "answer": 0,
+        "explain": "The paperwork didn't reach them.",
+        "vc": [
+          "VM-U3O2-KK3"
+        ]
+      },
+      {
+        "q": "Why put the most important fact **first** in a notice?",
+        "options": [
+          "Busy readers may only read the first line",
+          "It looks nicer",
+          "It's a rule of spelling",
+          "It doesn't matter"
+        ],
+        "answer": 0,
+        "explain": "Front-load key information.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write a message to swap a shift. Then write a handover note with Done, Not done and Watch out.",
+      "core": "Write a shift-swap request and a handover note for a real or realistic job, using clear structure and correct conventions.",
+      "extend": "Write a shift-swap request and a handover note for a real or realistic job, each with a structure fit for its purpose, precise detail and correct conventions."
+    },
+    "checklist": [
+      "My swap request says what, when, why and offers a fix",
+      "My handover uses Done / Not done / Watch out",
+      "Both have names, dates and times",
+      "I checked spelling and punctuation"
+    ],
+    "levelUp": "Use the headings and contents of a real workplace document (a staff handbook or the Fair Work rosters page) to find the rules about rosters or swaps.",
+    "vc": [
+      "VM-U3O2-KK3",
+      "VM-U3O2-KS6"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: The messages that run a workplace",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name the **four** kinds of workplace message.",
+            "lines": 0,
+            "vc": [
+              "VM-U3O2-KK1"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "What does a request need to get a yes?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK3"
+            ]
+          },
+          {
+            "q": "Why save slang for your mates?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a roster",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the roster. Use the word bank. Write what it is.",
+          "core": "Each number marks part of the roster. Write what it is and how it helps you."
+        },
+        "columns": [
+          "What is it?",
+          "How does it help you?"
+        ],
+        "wordBank": {
+          "support": [
+            "dates",
+            "table",
+            "swap rule",
+            "breaks + contact"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KS3"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Read the roster",
+        "items": [
+          {
+            "q": "Who works on **Thursday**, and when?",
+            "lines": 1
+          },
+          {
+            "q": "Sam wants Sunday off. Who is **not** working on Sunday and could cover?",
+            "lines": 1,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "q": "Jo's Thursday shift is 5 hours. Does Jo get a break? How do you know?",
+            "lines": 1
+          }
+        ],
+        "vc": [
+          "VM-U3O2-KK1"
+        ],
+        "vcNote": "Locating information in a roster."
+      },
+      {
+        "type": "sort",
+        "title": "Would you approve this?",
+        "pagebreak": true,
+        "choices": [
+          "Clear",
+          "Unclear"
+        ],
+        "reasonLabel": "What's missing?",
+        "instructions": "You're the manager. Tick whether each message is clear. If not, say what's missing.",
+        "cards": [
+          {
+            "from": "Text",
+            "text": "cant come tmrw",
+            "answer": "Unclear",
+            "flags": "Which shift? Why? Who covers?"
+          },
+          {
+            "from": "Text",
+            "text": "Hi Priya, I'm sick and can't do my Fri 4–9. Jo can cover — is that OK? Alex",
+            "answer": "Clear",
+            "flags": "What, when, why, a fix."
+          },
+          {
+            "from": "Note",
+            "text": "Did stuff. Fridge is weird.",
+            "answer": "Unclear",
+            "flags": "What stuff? Weird how?"
+          },
+          {
+            "from": "Note",
+            "text": "DONE: floors, bins. NOT DONE: milk order. WATCH OUT: cool room at 9°C — told Priya 8:40 pm.",
+            "answer": "Clear",
+            "flags": "Done / not done / watch out."
+          },
+          {
+            "from": "Email",
+            "text": "Hey, can I get Saturday?",
+            "answer": "Unclear",
+            "flags": "Saturday off or on? Which date?",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Notice",
+            "text": "Cool room broken — don't use until Monday. Use the bar fridge.",
+            "answer": "Clear",
+            "flags": "Key fact first + action.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U3O2-KK3",
+          "VM-U3O2-KS6"
+        ],
+        "vcNote": "Characteristics of effective organisational texts."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Piper Alpha",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What information didn't reach the night shift?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK3"
+            ]
+          },
+          {
+            "q": "Write the handover note that **should** have been left, using Done / Not done / Watch out.",
+            "lines": {
+              "support": 4,
+              "core": 4,
+              "extend": 3
+            },
+            "vc": [
+              "VM-U3O2-KK3",
+              "VM-U3O2-KS6"
+            ]
+          },
+          {
+            "q": "What did the inquiry find about shift handovers?",
+            "lines": 2
+          },
+          {
+            "q": "Think of a job you know. What could go wrong if a handover was missed?",
+            "lines": {
+              "core": 3,
+              "extend": 2
+            },
+            "levelUp": true,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: swap and hand over",
+        "pagebreak": true,
+        "prompt": {
+          "support": "You are **Alex** on the café roster. **(1)** Write to Priya. Ask to swap your Saturday shift with someone who isn't working that day. **(2)** Write a handover note at the end of your Friday shift.",
+          "core": "You work at Bean There Café as **Alex** (or use your own job). **(1)** You need Saturday off for a family event. Use the roster to find someone who isn't working on Saturday, and write to Priya to swap with them. **(2)** At the end of your Friday shift, write a handover note for the next person.",
+          "extend": "Using Bean There Café as **Alex**, or your own workplace: **(1)** use the roster to plan a Saturday swap, and write a request that solves the manager's problem for them; **(2)** write a handover note for the end of your Friday shift that would let a stranger carry on safely."
+        },
+        "plan": [
+          {
+            "label": "(1) Swap: what, when, why, fix",
+            "lines": 2
+          },
+          {
+            "label": "(2) Handover: done / not done / watch out",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "Hi Priya,",
+          "Could I swap…",
+          "Jo has agreed to…",
+          "DONE:",
+          "NOT DONE:",
+          "WATCH OUT:"
+        ],
+        "lines": {
+          "support": 9,
+          "core": 10
+        },
+        "check": [
+          "names, dates, times",
+          "polite",
+          "a fix offered",
+          "Done / Not done / Watch out",
+          "spelling and punctuation"
+        ],
+        "vc": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KS6"
+        ],
+        "vcNote": "Creating organisational texts with the right structure and conventions."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Open a real workplace document: a staff handbook from your job, or the Fair Work Ombudsman's page on rosters (fairwork.gov.au).",
+        "items": [
+          {
+            "q": "Which **headings** or **contents** did you use to find the rules about rosters or swaps?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O2-KS3"
+            ]
+          },
+          {
+            "q": "What's one rule you found? Write it in your own words.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O2-KS3"
+            ]
+          },
+          {
+            "q": "How long did it take? What would have made it faster?",
+            "lines": 2,
+            "levelUp": true
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can read a roster.",
+          "I know what makes a work message clear.",
+          "I can write a swap request.",
+          "I can write a handover note."
+        ],
+        "questions": [
+          "A message I'll write differently now:",
+          "Where I'd use a handover note:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students read and write the short organisational texts that run workplaces: rosters, notices, requests and handover notes. They learn each text's structure and characteristics (front-loaded, specific, polite, correct). The case study is the 1988 Piper Alpha disaster, where a shift handover and permit failure was a major contributing cause.",
+    "prep": [
+      "Print workbooks.",
+      "Optional: ask students with jobs to bring (or screenshot, with names removed) a real roster or work group-chat message.",
+      "Read the case study first and decide how to frame it (see the reality check)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Read the roster",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show a real-looking unclear manager text. What would you reply?",
+          "**Explicit teaching (10 min):** four organisational texts and their characteristics.",
+          "**Watch (5 min):** explainer.",
+          "**Read (10 min):** article + questions.",
+          "**Roster (15 min):** annotate and answer questions."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Clear or not?",
+        "minutes": 50,
+        "steps": [
+          "**Sort (15 min):** would you approve this? Discuss what's missing.",
+          "**Case study (25 min):** Piper Alpha; write the handover that should have been left.",
+          "**Exit (10 min):** one rule for a good handover."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write them",
+        "minutes": 50,
+        "steps": [
+          "**Model (5 min):** write a swap request live.",
+          "**Write (25 min):** final mission.",
+          "**Check & reflect (20 min):** Level Up for fast finishers, quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Workplaces run on short organisational texts.",
+      "Rosters: name → row → date → times → notes.",
+      "Requests: what, when, why + a fix.",
+      "Handover: Done / Not done / Watch out."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the roster.",
+        "Fewer sort cards.",
+        "Frames for both messages."
+      ],
+      "extend": [
+        "Messages that solve the manager's problem.",
+        "Navigate a real workplace document (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O2-KK1",
+        "evidence": "Explains the structure and language of rosters, notices and requests (annotation, roster questions)."
+      },
+      {
+        "vc": "VM-U3O2-KK3",
+        "evidence": "Identifies the characteristics of clear organisational texts (sort, case study)."
+      },
+      {
+        "vc": "VM-U3O2-KS6",
+        "evidence": "Applies conventions in a swap request and handover note (final mission)."
+      },
+      {
+        "vc": "VM-U3O2-KS3",
+        "evidence": "Level Up: uses headings and contents to locate rules in a real workplace document."
+      }
+    ],
+    "answers": "**Roster:** Thursday — Jo 4–9. Sunday — Alex isn't working, so Alex could cover Sam's 9–3. Jo's Thursday is 5 hours, so no break (breaks apply to shifts **over** 5 hours).\n\n**Annotation:** 1 dates/week; 2 roster table; 3 swap rule (Priya, Friday 12 pm); 4 break rule and who to contact.\n\n**Final mission:** Alex works Sat 8–2. Jo is the only one not working Saturday, so Alex should ask to swap with Jo, before Friday 12 pm.\n\n**Sort:** cant come tmrw — unclear; sick + Jo can cover — clear; did stuff — unclear; DONE/NOT DONE/WATCH OUT — clear; can I get Saturday — unclear; cool room notice — clear.\n\n**Piper Alpha handover (sample):** DONE: PSV removed from pump A, blank fitted (not leak-tested). NOT DONE: PSV refit. WATCH OUT: do NOT start pump A until the PSV is back and tested.",
+    "resources": [
+      {
+        "label": "The Chemical Engineer — Piper Alpha: The Disaster in Detail",
+        "url": "https://www.thechemicalengineer.com/features/piper-alpha-the-disaster-in-detail/"
+      },
+      {
+        "label": "Fair Work Ombudsman — Rosters",
+        "url": "https://www.fairwork.gov.au/employment-conditions/hours-of-work-breaks-and-rosters/rosters"
+      }
+    ],
+    "realityCheck": [
+      "**The case study is heavy.** 167 people died. Some students may have family who work on mines, rigs or sites. Frame it calmly as a real reason handovers matter, and keep the discussion on systems, not blame.",
+      "**It's a lot of industry detail.** Words like condensate pump and permit-to-work can lose students. The support version keeps it simple; with others, sketch the two pumps on the board.",
+      "**Students with jobs are gold here.** Real rosters and group-chat messages (names removed) make it authentic. Students without jobs can use the café.",
+      "**The roster maths catches people.** “Over 5 hours” vs “5 hours” is a nice close-reading moment; expect debate.",
+      "**Works in a real class:** yes. It's short, practical and immediately useful for anyone with a part-time job. It's a good first VM Units 3 & 4 course."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank, fewer sort cards, and frames for both messages.",
+      "core": "Standard version: roster annotation and questions, sort, Piper Alpha handover rewrite, swap request and handover note.",
+      "extend": "Adds organisational text and permit, a quiz question on front-loading, messages that solve the manager's problem, and navigating a real workplace document."
+    }
+  }
+}

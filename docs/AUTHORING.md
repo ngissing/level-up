@@ -27,6 +27,7 @@ The app turns it into the student pages, the explainer, the quiz, the teacher gu
 - **Relevance first.** Hook with a situation a teen will actually meet this year: a text message, a payslip, a job ad, a group chat.
 - **Real cases only.** Every case study needs a `source` with a URL. Don't make up statistics. If you can't verify a number, leave it out.
 - **Workbook = evidence.** The workbook is the main way students show learning. Include a final task that gives evidence for each **core** VC link, and at least one ★ Level Up task for the **extend** links.
+- **Reality check.** Add `teacher.realityCheck`: 3–6 honest notes on what it takes to run the course in a real class (time, devices, permissions, sensitive content, what usually goes wrong, and a fallback). It shows in the teacher guide.
 - **Teacher still teaches.** `teacher.lessons` should include explicit teaching (model → guided → independent), not just “students complete the workbook”.
 - **Respectful tone.** No baby talk, no slang overload, no shaming. Students are the experts and protectors, not victims.
 

@@ -676,7 +676,10 @@
             ]
           },
           {
-            "q": "Which age group was over-represented in reports?",
+            "q": {
+              "core": "Which age group was over-represented in reports?",
+              "support": "Which age group reported a lot of problems?"
+            },
             "lines": {
               "support": 2,
               "core": 1
@@ -708,7 +711,7 @@
         "type": "table",
         "title": "Do the maths",
         "pagebreak": true,
-        "instructions": "Check Jordan's payslip (page 5). Work out each line. The first one is done for you.",
+        "instructions": "Check Jordan's payslip on your “Read the payslip” page. Work out each line. The first one is done for you.",
         "columns": [
           "Check",
           "Your working"

@@ -495,7 +495,10 @@
             ]
           },
           {
-            "q": "Name **two** mistakes spell-check can miss.",
+            "q": {
+              "core": "Name **two** mistakes spell-check can miss.",
+              "support": "Name one mistake spell-check can miss."
+            },
             "lines": 2,
             "vc": [
               "VM-U1O1-KK7"

@@ -1,0 +1,898 @@
+{
+  "id": "vm-lock-it-down",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "In 2022, millions of Australians got bad news. Their details might have been stolen. They didn't click anything. They were just customers of a phone company.",
+      "core": "In 2022, millions of Australians got the same message: **your personal details may have been stolen**. They hadn't clicked anything. They'd just been customers of a phone company."
+    },
+    "why": {
+      "support": "You can't stop a company getting hacked. But you can make your accounts hard to break into. And you can know what to do if it goes wrong.",
+      "core": "You can't stop a company getting hacked. But you **can** make your own accounts hard to break into, spot the scams that follow, and know exactly what to do if something goes wrong.",
+      "extend": "Your email, bank and socials hold your identity, your money and your name. Staying safe is mostly a few habits: long passphrases, two-step login, updates and a healthy suspicion. Plus a plan for when something goes wrong."
+    },
+    "canDo": {
+      "support": [
+        "I can say why online safety matters.",
+        "I can make a strong password.",
+        "I can spot a fake message.",
+        "I know what to do if I'm hacked."
+      ],
+      "core": [
+        "I can explain why **digital security** matters.",
+        "I can make a strong **passphrase** and turn on **two-step login**.",
+        "I can spot a **phishing** message.",
+        "I can follow a plan if an account is **hacked**."
+      ]
+    },
+    "showIt": "Do a security check-up on your own accounts, then make a short security guide for younger students.",
+    "vocab": [
+      {
+        "word": "password",
+        "meaning": "a secret word or phrase that opens an account",
+        "example": "Never share your password."
+      },
+      {
+        "word": "passphrase",
+        "meaning": "a password made of several random words",
+        "example": "purple-tractor-ocean-biscuit is a passphrase."
+      },
+      {
+        "word": "two-step login",
+        "meaning": "a second check, like a code on your phone",
+        "example": "Two-step login stopped the hacker."
+      },
+      {
+        "word": "phishing",
+        "meaning": "a fake message that tries to trick you into giving away details",
+        "example": "That email was phishing."
+      },
+      {
+        "word": "data breach",
+        "meaning": "when a company's stored information is stolen or leaked",
+        "example": "The data breach exposed phone numbers."
+      },
+      {
+        "word": "hacked",
+        "meaning": "when someone breaks into your account",
+        "example": "My Insta got hacked."
+      },
+      {
+        "word": "update",
+        "meaning": "a new version of software that fixes problems",
+        "example": "Install updates — they fix security holes.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "identity theft",
+        "meaning": "when someone uses your details to pretend to be you",
+        "example": "They used her licence for identity theft.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "multi-factor authentication",
+        "meaning": "proving it's you in more than one way",
+        "example": "Multi-factor authentication is two-step login.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "credential",
+        "meaning": "the details you log in with",
+        "example": "Never type your credentials into a link from a text.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Lock It Down in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Lock It Down",
+        "sub": "Passwords, scams and privacy.",
+        "icon": "lucide:lock-keyhole",
+        "say": "Lock it down. Passwords, scams and privacy. Protect your digital life."
+      },
+      {
+        "kind": "big",
+        "title": "Email = master key",
+        "text": "Protect **email** first.",
+        "icon": "lucide:key-round",
+        "say": "Your email is the master key. Get into it, and you can reset everything else.",
+        "vc": [
+          "VM-U1O2-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Lock",
+        "pillIcon": "lucide:lock",
+        "title": "Passphrase",
+        "text": "**purple-tractor-ocean-biscuit**",
+        "icon": "lucide:text-cursor-input",
+        "say": "Use a passphrase. Four or more random words. Long beats clever.",
+        "vc": [
+          "VM-U1O2-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Lock",
+        "pillIcon": "lucide:lock",
+        "title": "Two-step login",
+        "text": "Password **+** code on your phone.",
+        "icon": "lucide:smartphone",
+        "say": "Turn on two-step login. Even if someone steals your password, they still can't get in.",
+        "vc": [
+          "VM-U1O2-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Lock",
+        "pillIcon": "lucide:lock",
+        "title": "Update",
+        "text": "Updates fix holes.",
+        "icon": "lucide:refresh-cw",
+        "say": "Update your phone and apps. Updates fix security holes.",
+        "vc": [
+          "VM-U1O2-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Lock",
+        "pillIcon": "lucide:lock",
+        "title": "Don’t take the bait",
+        "text": "Urgent + link = **stop**.",
+        "icon": "lucide:fish",
+        "say": "Be suspicious of urgent messages with links. That's how phishing works.",
+        "vc": [
+          "VM-U1O2-KK6",
+          "VM-U1O2-KS1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "If you’re hacked",
+        "steps": [
+          "Change",
+          "Lock",
+          "Check",
+          "Report"
+        ],
+        "say": "If you're hacked: change the password, turn on two-step login, check what changed, and report it.",
+        "vc": [
+          "VM-U1O2-KK6"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Check-up. Then teach it.",
+        "icon": "lucide:shield-check",
+        "say": "Your mission. Check your own accounts, then make a guide that helps someone younger stay safe."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Four habits that keep you safe",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Most accounts get hacked because of weak passwords or a bad click. Four habits stop most of it.\n\n1. **Use a passphrase.** Four random words, like *purple-tractor-ocean-biscuit*. Long and easy to remember. Use a different one for each account.\n2. **Turn on two-step login.** You type your password. Then a code from your phone. A stolen password alone won't work.\n3. **Update** your phone and apps. Updates fix holes.\n4. **Don't take the bait.** Fake messages say *Hurry! Click here!* Don't click. Open the real app yourself.\n\nProtect your **email** first. It can reset all your other accounts.\n\nIf you're hacked: **change** the password, **turn on** two-step login, **check** what changed, and **report** it.",
+          "core": "Most accounts aren't hacked by genius hackers. They're broken into because of weak passwords, reused passwords, or a click on the wrong link. Four habits stop most of it.\n\n1. **Use passphrases.** Four or more random words, like *purple-tractor-ocean-biscuit*. They're long, which makes them hard to crack, and easy to remember. Use a different one for each important account.\n2. **Turn on two-step login.** After your password, you also enter a code from your phone or an app. A stolen password alone won't work.\n3. **Update.** Phone and app updates fix security holes. Turn on automatic updates.\n4. **Don't take the bait.** **Phishing** messages pretend to be your bank, a delivery company or a friend. They're urgent and they want you to click a link or share a code. Go to the app or website yourself instead.\n\nProtect your **email** first. Whoever controls your email can reset almost every other account.\n\nIf you're hacked: **change** the password, **turn on** two-step login, **check** what's been changed or sent, and **report** it to the platform. Big cases can go to ReportCyber at cyber.gov.au.",
+          "extend": "Most account takeovers aren't clever. They use weak or reused passwords, old software, and people clicking in a hurry. Four habits shut most of those doors.\n\n1. **Passphrases.** A string of four or more random words (*purple-tractor-ocean-biscuit*) is long enough to resist guessing and easy to remember. Use a unique one for every important account, or a password manager to keep track.\n2. **Multi-factor authentication** (two-step login). A second check, like an app code, means a stolen password isn't enough.\n3. **Updates.** Most updates fix security holes, so turning on automatic updates is cheap protection.\n4. **Suspicion.** **Phishing** messages pretend to be brands or friends, rush you, and push you to a link or a code. Never act from the message itself. Go to the real app or site.\n\nProtect your **email** first: it's the reset key for nearly everything else.\n\nIf an account is compromised: change the password, enable two-step login, review what's been changed or sent, and report it to the platform. Serious cases can be reported to ReportCyber (cyber.gov.au)."
+        },
+        "vc": [
+          "VM-U1O2-KK4",
+          "VM-U1O2-KK6",
+          "VM-U1O2-KS1"
+        ],
+        "vcNote": "The features and importance of digital security, and safe practices."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The Optus data breach",
+        "icon": "lucide:shield-alert",
+        "body": {
+          "support": "In **September 2022**, a phone company called **Optus** was hacked. The details of millions of customers were stolen.\n\nIt was things like names, birthdays, phone numbers and emails. For some people, it was also their **address** and **licence number**.\n\nThe customers did nothing wrong. But they had to protect themselves. Some got new licences. They watched their bank accounts. And they looked out for **scam texts**.\n\nThe lesson: you can't stop a company being hacked. But you can lock down your own accounts.",
+          "core": "In **September 2022**, the phone company **Optus** said it had been hacked. The details of millions of customers, past and present, had been taken. Up to about **9.8 million** people were caught up.\n\nFor most, it was names, birthdays, phone numbers and emails. For some, it was also **home addresses** and **licence or passport numbers**.\n\nThe customers had done nothing wrong. But they still had to protect themselves. Some got new licences. They watched their bank accounts. And they looked out for **scam calls and texts** that used the news to trick them.\n\nThe lesson: you can't control what a company does with your data. You **can** lock down your own accounts, and be extra careful with messages after a breach.",
+          "extend": "In **September 2022**, the phone company **Optus** said it had been hit by a cyberattack. The personal details of up to about **9.8 million** current and former customers were taken.\n\nFor most people, the stolen data was names, birthdays, phone numbers and emails. For some, it also included **home addresses** and **licence or passport numbers**. Those are the details criminals need to steal an identity.\n\nThe customers had done nothing wrong, yet they had to do the clean-up. Many replaced their licences, and some states paid for this. People checked their bank accounts and dodged a wave of **scam calls and texts** that used the news.\n\nThe breach started a national debate about how much data companies should keep. For each of us, it showed that security is shared. Companies must protect our data, but our own habits limit the damage when they fail."
+        },
+        "source": {
+          "name": "2022 Optus data breach — summary with sources (Wikipedia); Queensland Government cyber security case study",
+          "url": "https://en.wikipedia.org/wiki/2022_Optus_data_breach"
+        },
+        "think": {
+          "support": [
+            "What was stolen?",
+            "What did people have to do?"
+          ],
+          "core": [
+            "What was stolen, and why does it matter?",
+            "What did customers have to do afterwards?",
+            "Why do scams often follow a data breach?"
+          ]
+        },
+        "vc": [
+          "VM-U1O2-KK4",
+          "VM-U1O2-KS1"
+        ],
+        "vcNote": "Why digital security matters: a real Australian breach."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a phishing message",
+      "docTitle": "SMS FROM: AusPost-Delivery (EXAMPLE)",
+      "vc": [
+        "VM-U1O2-KS1",
+        "VM-U1O2-KK6"
+      ],
+      "vcNote": "Reading a digital text for the features of phishing.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Sender",
+          "value": "AusPost-Delivery (not a saved contact)"
+        },
+        {
+          "n": 2,
+          "label": "Urgency",
+          "value": "FINAL NOTICE: your parcel will be returned today!",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Request",
+          "value": "Pay a $2.99 redelivery fee to keep your parcel."
+        },
+        {
+          "n": 4,
+          "label": "Link",
+          "value": "auspost-redeliver.help/pay"
+        },
+        {
+          "n": 5,
+          "label": "Asks for",
+          "value": "Card number and the code we text you"
+        },
+        {
+          "n": 6,
+          "label": "Timing",
+          "value": "Arrived when you weren't expecting a parcel"
+        }
+      ],
+      "note": "Made-up example for practice. Real Australia Post texts never ask you to pay this way.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Fake sender",
+          "note": "Anyone can set a sender name."
+        },
+        {
+          "n": 2,
+          "label": "Urgency",
+          "note": "Rushing you so you don't think."
+        },
+        {
+          "n": 3,
+          "label": "Small payment",
+          "note": "Small amounts feel safe — it's your card they want."
+        },
+        {
+          "n": 4,
+          "label": "Odd link",
+          "note": "Not the real website address."
+        },
+        {
+          "n": 5,
+          "label": "Asks for a code",
+          "note": "Never share a login or payment code."
+        },
+        {
+          "n": 6,
+          "label": "Out of the blue",
+          "note": "You weren't expecting anything."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "If you're hacked",
+      "steps": [
+        {
+          "title": "Change",
+          "text": "New passphrase, from a safe device.",
+          "icon": "lucide:key-round"
+        },
+        {
+          "title": "Lock",
+          "text": "Turn on two-step login.",
+          "icon": "lucide:lock"
+        },
+        {
+          "title": "Check",
+          "text": "Recovery email, posts, messages, payments.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Report",
+          "text": "To the platform; big cases to ReportCyber.",
+          "icon": "lucide:flag"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is the strongest password?",
+        "options": [
+          "purple-tractor-ocean-biscuit",
+          "Password123!",
+          "Fluffy2009",
+          "qwerty"
+        ],
+        "answer": 0,
+        "explain": "Long random words beat short clever ones.",
+        "vc": [
+          "VM-U1O2-KK4"
+        ]
+      },
+      {
+        "q": "Why turn on **two-step login**?",
+        "options": [
+          "A stolen password isn't enough to get in",
+          "It makes your phone faster",
+          "It's required to use apps",
+          "It hides your posts"
+        ],
+        "answer": 0,
+        "explain": "The second factor blocks the thief.",
+        "vc": [
+          "VM-U1O2-KK4"
+        ]
+      },
+      {
+        "q": "Which account should you protect first?",
+        "options": [
+          "Your email",
+          "Your gaming account",
+          "Your music app",
+          "Your weather app"
+        ],
+        "answer": 0,
+        "explain": "Email can reset everything else.",
+        "vc": [
+          "VM-U1O2-KK4"
+        ]
+      },
+      {
+        "q": "A text says your parcel will be returned unless you pay $2.99 now. What should you do?",
+        "options": [
+          "Don't click — check in the real app or website",
+          "Pay quickly — it's cheap",
+          "Reply STOP",
+          "Forward it to friends"
+        ],
+        "answer": 0,
+        "explain": "Urgency + link + payment = phishing.",
+        "vc": [
+          "VM-U1O2-KK6",
+          "VM-U1O2-KS1"
+        ]
+      },
+      {
+        "q": "After the Optus breach, why did people need to watch out for scams?",
+        "options": [
+          "Scammers use breach news to trick people",
+          "The breach fixed itself",
+          "Optus sent scams",
+          "Scams stopped"
+        ],
+        "answer": 0,
+        "explain": "Scams often follow big news.",
+        "vc": [
+          "VM-U1O2-KK4"
+        ]
+      },
+      {
+        "q": "Two websites give opposite password advice. Which is more reliable?",
+        "options": [
+          "The Australian Cyber Security Centre",
+          "A random blog with no author",
+          "A comment on a video",
+          "An ad for a VPN"
+        ],
+        "answer": 0,
+        "explain": "Check who's behind the advice.",
+        "vc": [
+          "VM-U1O2-KS6"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Check your own accounts. Then make a short guide to help a younger student stay safe online.",
+      "core": "Do a security check-up on your own accounts, then make a short guide (poster, post or slide) that teaches younger students four habits to stay safe.",
+      "extend": "Complete a security check-up and action plan, then create a short digital guide for younger students that explains the four habits and what to do if hacked, citing a reliable source."
+    },
+    "checklist": [
+      "I did the security check-up (without sharing passwords)",
+      "My guide covers the four habits",
+      "My guide says what to do if you're hacked",
+      "It's clear and right for younger students"
+    ],
+    "levelUp": "Compare security advice from two websites. Which is more reliable and why?",
+    "vc": [
+      "VM-U1O2-KK6",
+      "VM-U1O2-KK4"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Four habits that keep you safe",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name the **four habits**.",
+            "lines": 0,
+            "vc": [
+              "VM-U1O2-KK4"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "Why protect your **email** first?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK4"
+            ]
+          },
+          {
+            "q": "What should you do if you're hacked?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Strong or weak?",
+        "pagebreak": true,
+        "choices": [
+          "Strong",
+          "Weak"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Tick whether each password or habit is strong or weak. Say why. (Never write your real password!)",
+        "cards": [
+          {
+            "from": "Password",
+            "text": "Fluffy2009",
+            "answer": "Weak",
+            "flags": "Pet name + year: easy to guess."
+          },
+          {
+            "from": "Password",
+            "text": "purple-tractor-ocean-biscuit",
+            "answer": "Strong",
+            "flags": "Long, random words."
+          },
+          {
+            "from": "Habit",
+            "text": "Same password for email, Insta and gaming",
+            "answer": "Weak",
+            "flags": "One leak opens everything."
+          },
+          {
+            "from": "Habit",
+            "text": "Two-step login on email",
+            "answer": "Strong",
+            "flags": "Stolen password isn't enough."
+          },
+          {
+            "from": "Password",
+            "text": "Password123!",
+            "answer": "Weak",
+            "flags": "One of the most common passwords.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Habit",
+            "text": "Ignoring update reminders for months",
+            "answer": "Weak",
+            "flags": "Security holes stay open.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O2-KK4"
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a phishing message",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a warning sign. Use the word bank. Write what it is.",
+          "core": "Each number marks a warning sign. Write what it is and why it's suspicious."
+        },
+        "columns": [
+          "Warning sign",
+          "Why it's suspicious"
+        ],
+        "wordBank": {
+          "support": [
+            "fake sender",
+            "hurry",
+            "small payment",
+            "odd link",
+            "asks for a code",
+            "not expecting it"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O2-KS1",
+          "VM-U1O2-KK6"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the Optus data breach",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What kinds of information were taken?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS1"
+            ]
+          },
+          {
+            "q": "Customers did nothing wrong. What did they still have to do?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK4"
+            ]
+          },
+          {
+            "q": "Why do scams often follow a big data breach?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK6"
+            ]
+          },
+          {
+            "q": "Should companies keep less of our data? Give a reason.",
+            "lines": 3,
+            "levelUp": true,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "My security check-up",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 17,
+          "core": 15
+        },
+        "instructions": "Check your own accounts. **Don't write any passwords or codes here.** Fill in what you do now, and your plan.",
+        "columns": [
+          "",
+          "What I do now",
+          "My plan"
+        ],
+        "rows": [
+          [
+            "Email has a unique passphrase",
+            "",
+            ""
+          ],
+          [
+            "Two-step login on email",
+            "",
+            ""
+          ],
+          [
+            "Two-step login on socials",
+            "",
+            ""
+          ],
+          [
+            "Phone and apps update automatically",
+            "",
+            ""
+          ],
+          [
+            "Recovery email/phone is up to date",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Lock screen PIN or face/fingerprint",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O2-KK4",
+          "VM-U1O2-KK6"
+        ],
+        "vcNote": "Applying digital security features to your own accounts."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: a guide for younger students",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Plan a short poster or post. Teach **Year 7s** the four habits and what to do if they're hacked.",
+          "core": "Plan a short guide — a poster, an Instagram-style post or one slide — that teaches **Year 7s** the four habits and what to do if they're hacked.",
+          "extend": "Plan a short digital guide for Year 7s: the four habits, the hacked plan, and one reliable source they can check. Choose words and layout that suit 12-year-olds."
+        },
+        "plan": [
+          {
+            "label": "Headline that grabs Year 7s:",
+            "lines": 1
+          },
+          {
+            "label": "Four habits (short!):",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "Your email is…",
+          "Turn on…",
+          "If you get a text saying…",
+          "If you're hacked, first…"
+        ],
+        "lines": {
+          "support": 6,
+          "core": 7
+        },
+        "check": [
+          "four habits",
+          "hacked plan",
+          "short and clear",
+          "suits Year 7s"
+        ],
+        "vc": [
+          "VM-U1O2-KK6",
+          "VM-U1O2-KK4"
+        ],
+        "vcNote": "Creating a digital text about safe practices for a specific audience."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Find password or security advice on **two** websites (for example cyber.gov.au and a blog or video).",
+        "items": [
+          {
+            "q": "Who is behind each one? How can you tell?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O2-KS6"
+            ]
+          },
+          {
+            "q": "Do they agree? Where do they disagree?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O2-KS6"
+            ]
+          },
+          {
+            "q": "Which is more reliable, and why?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O2-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can explain why digital security matters.",
+          "I can make a passphrase and use two-step login.",
+          "I can spot phishing.",
+          "I know what to do if I'm hacked."
+        ],
+        "questions": [
+          "One thing I changed on my accounts:",
+          "Someone I'll help with this:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the features and importance of digital security (passphrases, two-step login, updates, phishing) and safe practices online, read a phishing text closely, complete a private security check-up, and create a guide for younger students. The case study is the 2022 Optus data breach.",
+    "prep": [
+      "Print workbooks.",
+      "Check your school's ICT policy on students changing account settings during class.",
+      "Optional: have the Australian Cyber Security Centre's “Protect yourself” pages open (cyber.gov.au)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Why it matters",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** the Optus breach headline. Who got a letter? (Many families did.)",
+          "**Explicit teaching (10 min):** the four habits; email as master key.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** strong or weak."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Spot it, check it",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** phishing SMS; share real scam texts students have received (no personal info).",
+          "**Case study (15 min):** Optus.",
+          "**Check-up (20 min):** private security check-up on their own phones/accounts."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Teach it",
+        "minutes": 50,
+        "steps": [
+          "**Plan + make (25 min):** the guide for Year 7s (paper or Canva).",
+          "**Level Up (10 min):** compare two sources.",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Protect email first.",
+      "Passphrases, two-step login, updates, scepticism.",
+      "Urgent + link = stop.",
+      "Hacked: change, lock, check, report."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and check-up rows.",
+        "Poster instead of a digital post."
+      ],
+      "extend": [
+        "Cite a reliable source in the guide.",
+        "Compare two sources' reliability (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O2-KK4",
+        "evidence": "Explains the features and importance of digital security (reading, sort, check-up)."
+      },
+      {
+        "vc": "VM-U1O2-KK6",
+        "evidence": "Describes and applies safe practices, including the hacked plan (check-up, guide)."
+      },
+      {
+        "vc": "VM-U1O2-KS1",
+        "evidence": "Reads a digital text closely to identify phishing features (annotation, case study)."
+      },
+      {
+        "vc": "VM-U1O2-KS6",
+        "evidence": "Level Up: evaluates the reliability of two sources of security advice."
+      }
+    ],
+    "answers": "**Sort:** Fluffy2009 — weak; purple-tractor… — strong; same password everywhere — weak; two-step on email — strong; Password123! — weak; ignoring updates — weak.\n\n**Phishing SMS:** 1 fake sender name; 2 urgency; 3 small payment to get card details; 4 lookalike link; 5 asks for a one-time code; 6 unexpected.\n\n**Case study:** names, DOBs, phone numbers, emails; for some, addresses and licence/passport numbers. Customers replaced IDs, watched accounts and avoided scams; scammers exploit the news and the stolen details.",
+    "resources": [
+      {
+        "label": "Australian Cyber Security Centre — Protect yourself",
+        "url": "https://www.cyber.gov.au/protect-yourself"
+      },
+      {
+        "label": "ReportCyber",
+        "url": "https://www.cyber.gov.au/report-and-recover/report"
+      },
+      {
+        "label": "2022 Optus data breach (Wikipedia, with sources)",
+        "url": "https://en.wikipedia.org/wiki/2022_Optus_data_breach"
+      },
+      {
+        "label": "Scamwatch",
+        "url": "https://www.scamwatch.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Privacy first.** The check-up must stay private: never ask students to show passwords, codes or settings. Say this out loud before they start.",
+      "**School devices and policies.** Students may not be allowed to change settings on school devices or be on their phones. Check your policy; the check-up can be done at home and discussed next lesson.",
+      "**Some students will have been hacked or scammed.** It can be embarrassing. Make it normal (“it happens to adults all the time”) and offer the hacked plan privately.",
+      "**Most engaging part:** students sharing real scam texts they've had. You'll get plenty. Keep personal details out.",
+      "**Works in a real class:** yes. It's highly relevant and the outcome is a real behaviour change. Give it all three lessons; the check-up and guide are where the learning sticks."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank, fewer sort cards and check-up rows, and a poster guide.",
+      "core": "Standard version: sort, phishing annotation, Optus case study, private check-up and a guide for Year 7s.",
+      "extend": "Adds multi-factor authentication and credentials, a source-reliability quiz question, citing a source in the guide, and comparing two sources."
+    }
+  }
+}

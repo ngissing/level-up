@@ -472,7 +472,7 @@
       "id": "vpc-body-talk",
       "zone": "vpc-speak",
       "tier": 1,
-      "status": "planned",
+      "status": "ready",
       "title": "Body Talk",
       "tagline": "What your body says before you open your mouth.",
       "icon": "lucide:person-standing",
@@ -574,7 +574,7 @@
       "id": "vpc-get-there",
       "zone": "vpc-civic",
       "tier": 1,
-      "status": "planned",
+      "status": "ready",
       "title": "Get There",
       "tagline": "Timetables and maps, sorted.",
       "icon": "lucide:bus",
@@ -590,7 +590,7 @@
         ]
       },
       "badge": {
-        "name": "Navigator",
+        "name": "Trip Planner",
         "icon": "lucide:route"
       }
     },
@@ -697,7 +697,7 @@
       "id": "vpc-my-resume",
       "zone": "vpc-next",
       "tier": 1,
-      "status": "planned",
+      "status": "ready",
       "title": "My Resume",
       "tagline": "One page that opens doors.",
       "icon": "lucide:file-user",

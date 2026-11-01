@@ -61,6 +61,14 @@ for (const s of Object.values(c.skills)) {
     if ('diagram' in b && !k.diagrams[b.diagram]) err(s.id, `workbook ${b.type}: no diagram ${b.diagram}`);
     if ('article' in b && !k.read.articles[b.article]) err(s.id, `workbook ${b.type}: no article ${b.article}`);
     if ('caseStudy' in b && !k.read.caseStudies[b.caseStudy]) err(s.id, `workbook ${b.type}: no case study ${b.caseStudy}`);
+    // Workbook page numbers change with reading level, so never hard-code them; and double-sided printing
+    // means "the back of this page" is another workbook page.
+    const bt = JSON.stringify(b);
+    const ref = bt.match(/\bpage \d+\b|back of this page|over the page/i);
+    if (ref) warn(tag, `workbook ${b.type} "${b.title || ''}": says "${ref[0]}" — refer to the page by its title instead`);
+    if (b.type === 'doc-annotate' && Array.isArray(b.wordBank) && b.wordBank.length && k.diagrams[b.diagram || 0]?.callouts && b.wordBank.length !== k.diagrams[b.diagram || 0].callouts.length) {
+      warn(tag, `workbook doc-annotate "${b.title}": word bank has ${b.wordBank.length} words for ${k.diagrams[b.diagram || 0].callouts.length} numbered parts`);
+    }
   }
   for (const l of k.teacher?.lookFors || []) if (!vcIds.has(l.vc)) err(s.id, `teacher lookFor: unknown VC id ${l.vc}`);
   // "Where" tags: every vc tag inside the course must be a real id that the skill links to.

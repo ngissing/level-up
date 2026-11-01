@@ -1,0 +1,834 @@
+{
+  "id": "vpc-get-there",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), plus an optional real trip",
+  "brief": {
+    "hook": {
+      "support": "Since **1 January 2026**, if you're under 18 in Victoria, trains, trams and buses are **free** with a Youth myki. But you still need to know how to get there.",
+      "core": "Since **1 January 2026**, anyone in Victoria under 18 can catch trains, trams and buses **for free** with a Youth myki. Free travel only helps if you can work out how to get there, and back."
+    },
+    "why": {
+      "support": "Getting yourself to work, TAFE or a mate's place, on time, is a big step. It's mostly reading: apps, timetables and maps.",
+      "core": "Getting yourself to a job, TAFE or a mate's place on time, without a lift, is a big step. It's mostly reading: apps, timetables, maps and notices about changes.",
+      "extend": "Independent travel opens up work, training and social life. Doing it well is a literacy task: skimming a journey planner for the options that matter, scanning for times and platforms, judging which notices affect you, and turning it all into steps you can follow."
+    },
+    "canDo": {
+      "support": [
+        "I can find trip options in an app.",
+        "I can find times and stops.",
+        "I can tell if a change affects my trip.",
+        "I can write my trip as steps."
+      ],
+      "core": [
+        "I can **skim** a journey planner to find the options that suit me.",
+        "I can **scan** for times, stops and platforms.",
+        "I can tell which **service changes** affect my trip.",
+        "I can write my trip as **clear steps** and actually do it."
+      ]
+    },
+    "showIt": "Plan a real trip on public transport with a journey planner, write it as clear steps, and (if you can) do it.",
+    "vocab": [
+      {
+        "word": "journey planner",
+        "meaning": "an app or website that works out your trip",
+        "example": "The journey planner gave me three options."
+      },
+      {
+        "word": "timetable",
+        "meaning": "a table of the times a service runs",
+        "example": "The timetable says the bus comes at 8:14."
+      },
+      {
+        "word": "stop",
+        "meaning": "where a bus or tram picks people up",
+        "example": "Get off at stop 12."
+      },
+      {
+        "word": "platform",
+        "meaning": "where you wait for a train",
+        "example": "My train leaves from platform 2."
+      },
+      {
+        "word": "transfer",
+        "meaning": "changing from one service to another",
+        "example": "There's one transfer, at the station."
+      },
+      {
+        "word": "myki",
+        "meaning": "the card you use on Victorian public transport",
+        "example": "Touch on your myki."
+      },
+      {
+        "word": "disruption",
+        "meaning": "a change because of works or problems",
+        "example": "There's a disruption on the weekend.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "relevant",
+        "meaning": "connected to what you need",
+        "example": "Only one notice was relevant to me.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "skim",
+        "meaning": "read fast to get the main idea",
+        "example": "Skim the options first.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "scan",
+        "meaning": "look fast for one detail",
+        "example": "Scan for the platform number.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Get There in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Get There",
+        "sub": "Timetables and maps, sorted.",
+        "icon": "lucide:bus",
+        "say": "Get there. Timetables and maps, sorted."
+      },
+      {
+        "kind": "big",
+        "title": "Free travel",
+        "text": "Free ride. **You** do the reading.",
+        "icon": "lucide:ticket",
+        "say": "Under 18 in Victoria? Public transport is free with a Youth myki. Now you just need to read the plan.",
+        "vc": [
+          "VPC-U3M1-AP1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Step",
+        "pillIcon": "lucide:route",
+        "title": "Skim the options",
+        "text": "On time? Fewest changes?",
+        "icon": "lucide:list",
+        "say": "Skim the options. Which one gets you there on time, with the fewest changes?",
+        "vc": [
+          "VPC-U3M1-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Step",
+        "pillIcon": "lucide:route",
+        "title": "Scan the details",
+        "text": "Times. Stops. Platforms. Direction.",
+        "icon": "lucide:search",
+        "say": "Scan the details. Times, stop numbers, platforms, which direction.",
+        "vc": [
+          "VPC-U3M1-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Step",
+        "pillIcon": "lucide:route",
+        "title": "Check changes",
+        "text": "Your line? Your day?",
+        "icon": "lucide:triangle-alert",
+        "say": "Check for disruptions. Only the ones on your line and your day matter.",
+        "vc": [
+          "VPC-U3M1-LG2",
+          "VPC-U3M1-AP1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Step",
+        "pillIcon": "lucide:route",
+        "title": "Write the steps",
+        "text": "Walk → catch → get off → change.",
+        "icon": "lucide:list-ordered",
+        "say": "Write it as steps. Walk to, catch, get off at, change to. Then you're not relying on your phone battery.",
+        "vc": [
+          "VPC-U3M1-LG3"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Plan it. Write it. Ride it.",
+        "icon": "lucide:map-pinned",
+        "say": "Your mission. Plan a real trip, write the steps, and if you can, go and do it."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Read your way there",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Planning a trip is a reading job.\n\n1. **Use a planner.** The Transport Victoria app, or Google Maps. Type where you're going and **when you need to get there**.\n2. **Skim the options.** Pick one that gets you there **on time** with the **fewest changes**.\n3. **Scan the details.** Find the **time**, the **stop**, the **platform** and the **direction**.\n4. **Check for changes.** Only look at **your line** and **your day**.\n5. **Write the steps down.** *Walk to stop 12. Catch the 901 at 8:14.* Then a flat phone won't stop you.\n\nUnder 18? Travel is **free** with a **Youth myki**. Still **touch on**.",
+          "core": "Planning a trip on public transport is a reading job. Here's how to do it fast.\n\n1. **Ask the planner.** Use the Transport Victoria app or website (or Google Maps). Type **where from**, **where to** and **when you need to arrive**, not just when you'll leave.\n2. **Skim the options.** You'll get a list. Skim for the ones that get you there **on time**, with the **fewest changes** and the least walking.\n3. **Scan the details.** Open your pick and scan for the exact **times**, **stop numbers**, **platforms** and **direction** (*towards City* or *towards Frankston*). One wrong direction can cost you an hour.\n4. **Check for disruptions.** Works and problems are listed as **service changes**. Most won't matter. Look only for **your line**, **your day** and **your time**.\n5. **Write it down as steps.** *Walk to stop 12. Catch the 901 at 8:14. Get off at the station.* If your phone dies, you can still get there.\n\nUnder 18? You travel **free** with a **Youth myki**. You still need to **touch on**.",
+          "extend": "Planning a trip on public transport is a series of reading decisions.\n\n1. **Query the planner.** In the Transport Victoria app or website (or Google Maps), set origin, destination and **arrival time**. Planning backwards from when you must arrive builds in a buffer.\n2. **Skim for relevance.** The planner returns several options. Skim them against your criteria: arrival time, number of transfers, walking distance and cost or accessibility needs.\n3. **Scan for precise details.** Times, stop numbers, platforms and **direction of travel** are where errors happen. Check each one.\n4. **Filter disruptions.** Service-change notices are long and mostly irrelevant to you. Decide what's relevant by line, date and time, then read those notices in full.\n5. **Summarise as sequential steps.** Paraphrasing the plan into short instructions (*Walk to stop 12; catch the 901 at 8:14*) makes it portable and checkable, and works when your battery doesn't.\n\nSince 1 January 2026, under-18s travel free with a **Youth myki**, but still need to touch on."
+        },
+        "vc": [
+          "VPC-U3M1-LG2",
+          "VPC-U3M1-AP1",
+          "VPC-U3M1-LG3"
+        ],
+        "vcNote": "Skimming and scanning informational texts for relevance; summarising into sequential steps."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Free travel for under-18s",
+        "icon": "lucide:ticket",
+        "body": {
+          "support": "On **1 January 2026**, Victoria made public transport **free for under-18s**. Trains, trams and buses, every day, all over the state.\n\nYou need a **Youth myki**. It costs **$5**. You can buy it online or at a station with staff. It works until you turn 18.\n\nThis helps young people get to school, TAFE, work and sport without a lift. But you still need to read the app and the timetable.",
+          "core": "On **1 January 2026**, the Victorian Government made public transport **free for everyone under 18**, every day, on trains, trams and buses across the state.\n\nTo use it, young people need a **Youth myki**. It costs **$5** and can be bought online on the Transport Victoria website or at staffed stations. It stays valid until you turn 18.\n\nIt works on metro and regional services. On booked V/Line trips, you use the card number. On regional buses that don't use myki, you show the card.\n\nThe change matters for young people getting to school, TAFE, work and sport without a lift. But free travel only helps if you can read the planner, the timetable and the service changes.",
+          "extend": "From **1 January 2026**, the Victorian Government made public transport **free for everyone under 18**, every day, on trains, trams and buses across the state.\n\nYou need a **Youth myki**. It costs **$5** online through Transport Victoria or at staffed stations, and it works until you turn 18. It covers city and country services. For booked V/Line trips you use the card number. On country buses that don't take myki, you show the card.\n\nThe change removes cost as a barrier to getting to school, work and sport. But it doesn't remove the reading barrier. Reading journey planners, timetables and notices about changes is what turns free travel into real independence."
+        },
+        "source": {
+          "name": "Premier of Victoria — “One Million Young Victorians Now Travelling For Free” (1 January 2026)",
+          "url": "https://www.premier.vic.gov.au/one-million-young-victorians-now-travelling-free"
+        },
+        "think": {
+          "support": [
+            "Who travels free?",
+            "What card do you need?"
+          ],
+          "core": [
+            "Who can travel free, and what do they need?",
+            "Where can you get a Youth myki?",
+            "Why does reading matter even when travel is free?"
+          ]
+        },
+        "vc": [
+          "VPC-U3M1-AP1"
+        ],
+        "vcNote": "A current government change, read from an official informational text."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a journey plan",
+      "docTitle": "JOURNEY PLAN: NORTHSIDE SC → KANGAN TAFE (EXAMPLE)",
+      "vc": [
+        "VPC-U3M1-LG2",
+        "VPC-U3M1-AP1"
+      ],
+      "vcNote": "Scanning a journey planner result for key details.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Arrive by",
+          "value": "9:15 am, Tuesday"
+        },
+        {
+          "n": 2,
+          "label": "Leave",
+          "value": "8:08 am — 54 min, 1 change"
+        },
+        {
+          "n": 3,
+          "label": "Step 1",
+          "value": "Walk 6 min to Stop 12, Main St"
+        },
+        {
+          "n": 4,
+          "label": "Step 2",
+          "value": "Bus 901 towards Station, 8:14 → 8:29"
+        },
+        {
+          "n": 5,
+          "label": "Step 3",
+          "value": "Train, Platform 2, towards City, 8:36 → 9:02"
+        },
+        {
+          "n": 6,
+          "label": "Service change",
+          "value": "Weekend only: buses replace trains Sat–Sun",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Arrive-by time",
+          "note": "Plan backwards from when you must be there."
+        },
+        {
+          "n": 2,
+          "label": "Summary",
+          "note": "Leave time, trip length, number of changes."
+        },
+        {
+          "n": 3,
+          "label": "Walking leg",
+          "note": "Stop number and street."
+        },
+        {
+          "n": 4,
+          "label": "Bus + direction",
+          "note": "Route number and which way it's going."
+        },
+        {
+          "n": 5,
+          "label": "Platform + direction",
+          "note": "The details people get wrong."
+        },
+        {
+          "n": 6,
+          "label": "Disruption",
+          "note": "Weekend only — not relevant on Tuesday."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Plan a trip",
+      "steps": [
+        {
+          "title": "Ask",
+          "text": "From, to, arrive by.",
+          "icon": "lucide:map-pin"
+        },
+        {
+          "title": "Skim",
+          "text": "On time? Fewest changes?",
+          "icon": "lucide:list"
+        },
+        {
+          "title": "Scan",
+          "text": "Times, stops, platform, direction.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Check",
+          "text": "Changes on my line and day?",
+          "icon": "lucide:triangle-alert"
+        },
+        {
+          "title": "Write",
+          "text": "Steps I can follow offline.",
+          "icon": "lucide:list-ordered"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Why plan with an **arrive-by** time?",
+        "options": [
+          "So you get there on time, with a buffer",
+          "It's faster to type",
+          "Leave times are always wrong",
+          "No reason"
+        ],
+        "answer": 0,
+        "explain": "Plan backwards from when you must be there.",
+        "vc": [
+          "VPC-U3M1-AP1"
+        ]
+      },
+      {
+        "q": "In the example, which **platform** is the train on?",
+        "options": [
+          "Platform 2",
+          "Platform 12",
+          "Platform 901",
+          "Platform 1"
+        ],
+        "answer": 0,
+        "explain": "Scan the train step.",
+        "vc": [
+          "VPC-U3M1-LG2"
+        ]
+      },
+      {
+        "q": "The plan is for **Tuesday**. Does the service change matter?",
+        "options": [
+          "No — it's weekends only",
+          "Yes — always",
+          "Only if it rains",
+          "Yes — buses replace trains every day"
+        ],
+        "answer": 0,
+        "explain": "Check your line and your day.",
+        "vc": [
+          "VPC-U3M1-LG2"
+        ]
+      },
+      {
+        "q": "Who can travel free in Victoria since 1 January 2026?",
+        "options": [
+          "People under 18 with a Youth myki",
+          "Everyone",
+          "Only school students in uniform",
+          "Only people in Melbourne"
+        ],
+        "answer": 0,
+        "explain": "Statewide, with a Youth myki.",
+        "vc": [
+          "VPC-U3M1-AP1"
+        ]
+      },
+      {
+        "q": "Why write your trip as steps?",
+        "options": [
+          "You can follow it even if your phone dies",
+          "It's required",
+          "It's faster than the app",
+          "To show your teacher only"
+        ],
+        "answer": 0,
+        "explain": "Portable and checkable.",
+        "vc": [
+          "VPC-U3M1-LG3"
+        ]
+      },
+      {
+        "q": "Ten service-change notices are listed. What's the smartest way to read them?",
+        "options": [
+          "Skim for your line, day and time, then read those fully",
+          "Read every one in full",
+          "Ignore all of them",
+          "Read only the first"
+        ],
+        "answer": 0,
+        "explain": "Decide relevance first.",
+        "vc": [
+          "VPC-U3M1-LG2"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan a real trip with an app. Write the steps. Do the trip if you can.",
+      "core": "Plan a real trip on public transport with a journey planner, check for disruptions, write it as clear steps, and do the trip if you can.",
+      "extend": "Plan a real trip to somewhere useful for your future, evaluate the options, check relevant disruptions, summarise the plan as clear sequential steps, and complete the trip if you can."
+    },
+    "checklist": [
+      "I used a real journey planner",
+      "I wrote down times, stops, platforms and direction",
+      "I checked for service changes",
+      "My steps are clear enough for someone else to follow"
+    ],
+    "levelUp": "Read the official instructions for getting a Youth myki and rewrite them as 4 short steps for a friend.",
+    "vc": [
+      "VPC-U3M1-LG2",
+      "VPC-U3M1-AP1",
+      "VPC-U3M1-LG3"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Read your way there",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What three things do you type into a journey planner?",
+            "lines": 0,
+            "vc": [
+              "VPC-U3M1-AP1"
+            ],
+            "boxes": [
+              "From",
+              "To",
+              "Arrive by"
+            ]
+          },
+          {
+            "q": "What should you **skim** the options for?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-LG2"
+            ]
+          },
+          {
+            "q": "Which details should you **scan** for? Why do they matter?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-LG2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a journey plan",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the plan. Use the word bank. Write what it is.",
+          "core": "Each number marks part of the plan. Write what it is and what it tells you."
+        },
+        "columns": [
+          "What is it?",
+          "What does it tell you?"
+        ],
+        "wordBank": {
+          "support": [
+            "arrive by",
+            "summary",
+            "walk",
+            "bus",
+            "train",
+            "change"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U3M1-LG2",
+          "VPC-U3M1-AP1"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Does it affect my trip?",
+        "pagebreak": true,
+        "choices": [
+          "Affects my trip",
+          "Doesn't"
+        ],
+        "reasonLabel": "Clue:",
+        "instructions": "Your trip: **Tuesday, 8:08 am**, Bus 901 then the train towards City. Skim each notice. Does it affect you?",
+        "cards": [
+          {
+            "from": "Notice",
+            "text": "Buses replace trains on your line, Sat 10 – Sun 11 May.",
+            "answer": "Doesn't",
+            "flags": "Weekend only."
+          },
+          {
+            "from": "Notice",
+            "text": "Bus 901: stop 12 closed Tues–Thurs for roadworks. Use stop 14.",
+            "answer": "Affects my trip",
+            "flags": "My bus, my day."
+          },
+          {
+            "from": "Notice",
+            "text": "Tram route 86: delays in the city tonight.",
+            "answer": "Doesn't",
+            "flags": "Different service."
+          },
+          {
+            "from": "Notice",
+            "text": "Trains towards City: 10-minute delays 7–9 am weekdays this week.",
+            "answer": "Affects my trip",
+            "flags": "My line, my time."
+          },
+          {
+            "from": "Notice",
+            "text": "Station lift out of order until Friday.",
+            "answer": "Doesn't",
+            "flags": "Only if you need the lift.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Notice",
+            "text": "Bus 903 runs every 20 minutes during school holidays.",
+            "answer": "Doesn't",
+            "flags": "Different bus.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U3M1-LG2"
+        ],
+        "vcNote": "Skimming notices to decide relevance before deeper reading."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: free travel for under-18s",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Who can travel free, and from when?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-AP1"
+            ]
+          },
+          {
+            "q": "What card do you need, how much is it, and where do you get it?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-AP1"
+            ]
+          },
+          {
+            "q": "Where would you go that you can't easily get to now?",
+            "lines": 2
+          },
+          {
+            "q": "Free travel doesn't solve everything. What else stops young people getting around?",
+            "lines": 3,
+            "levelUp": true,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: plan a real trip",
+        "pagebreak": true,
+        "where": "with the Transport Victoria app or website",
+        "instructions": "Pick somewhere **useful** — a TAFE, a job, Centrelink, a library, the beach. Plan the trip from school or home.",
+        "need": [
+          "a phone or computer",
+          "a real destination",
+          "an arrive-by time"
+        ],
+        "steps": {
+          "support": [
+            "Type **from**, **to** and **arrive by**.",
+            "Pick one option.",
+            "Find the times, stops and platform.",
+            "Check for changes.",
+            "Write your steps below.",
+            "Do the trip if you can."
+          ],
+          "core": [
+            "Enter **from**, **to** and an **arrive-by** time in the planner.",
+            "Skim the options. Pick one and say why.",
+            "Scan your option: times, stop numbers, platform, direction.",
+            "Check **service changes** for your line and day.",
+            "Write the trip as steps below.",
+            "If you can, **do the trip** (with your teacher or family) and tick what went to plan."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Where to, and why I chose that option:",
+            "lines": {
+              "support": 1,
+              "core": 2
+            }
+          },
+          {
+            "label": "My steps (walk → catch → get off → change):",
+            "lines": {
+              "support": 4,
+              "core": 5
+            }
+          },
+          {
+            "label": "Service changes I checked:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Screenshot of plan",
+          "Did the trip",
+          "Teacher saw it"
+        ],
+        "vc": [
+          "VPC-U3M1-AP1",
+          "VPC-U3M1-LG3",
+          "VPC-U3M1-LG2"
+        ],
+        "vcNote": "Hands-on: using a real journey planner and summarising the plan into sequential steps."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Find the official instructions for getting a **Youth myki** (Transport Victoria website).",
+        "items": [
+          {
+            "q": "Rewrite the instructions as **4 short steps** for a friend.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M1-LG3"
+            ]
+          },
+          {
+            "q": "What did you leave out, and why?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M1-LG3"
+            ]
+          },
+          {
+            "q": "What's one question the official page didn't answer?",
+            "lines": 2,
+            "levelUp": true
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can skim trip options.",
+          "I can scan for times, stops and platforms.",
+          "I can tell which changes affect me.",
+          "I can write my trip as steps."
+        ],
+        "questions": [
+          "Somewhere I'll travel to on my own now:",
+          "One thing I'll always check before a trip:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students plan real public transport trips: querying a journey planner, skimming options for relevance, scanning for precise details (times, stops, platforms, direction), filtering service-change notices, and summarising the plan as sequential steps. The case study is Victoria's free public transport for under-18s from 1 January 2026.",
+    "prep": [
+      "Print workbooks.",
+      "Check the Transport Victoria app or website (previously PTV) the week you teach; names and layouts change.",
+      "Optional: arrange a short supervised trip (excursion permission) to a TAFE, library or job service.",
+      "Find a real current service-change notice to show."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Read the plan",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** who's caught public transport on their own? Who's got a Youth myki?",
+          "**Explicit teaching (10 min):** skim vs scan; arrive-by planning.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Annotate (10 min):** the journey plan."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Is it relevant?",
+        "minutes": 50,
+        "steps": [
+          "**Sort (15 min):** does it affect my trip?",
+          "**Case study (15 min):** free travel for under-18s.",
+          "**Model (20 min):** plan a real trip live on the projector, thinking aloud."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Plan a real trip",
+        "minutes": 50,
+        "steps": [
+          "**Hands-on (30 min):** Do it page.",
+          "**Level Up (10 min):** Youth myki instructions in 4 steps.",
+          "**Check & reflect (10 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Plan with an arrive-by time.",
+      "Skim options; scan details.",
+      "Only notices for your line, day and time matter.",
+      "Write steps that work offline."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards.",
+        "Plan a short trip with one service."
+      ],
+      "extend": [
+        "Compare options against several criteria.",
+        "Summarise official instructions (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U3M1-LG2",
+        "evidence": "Skims and scans planner results and notices to decide what's relevant (annotation, sort)."
+      },
+      {
+        "vc": "VPC-U3M1-AP1",
+        "evidence": "Accesses and reads real informative and instructional texts (case study, Do it page)."
+      },
+      {
+        "vc": "VPC-U3M1-LG3",
+        "evidence": "Summarises a journey plan or official instructions into sequential steps (Do it, Level Up)."
+      }
+    ],
+    "answers": "**Journey plan:** 1 arrive-by time; 2 summary (leave, duration, changes); 3 walk to stop 12; 4 bus 901 towards Station; 5 train, platform 2, towards City; 6 weekend-only service change (not relevant on Tuesday).\n\n**Sort:** weekend buses replace trains — doesn't; stop 12 closed Tue–Thu — affects; tram 86 — doesn't; trains towards City delays 7–9 am — affects; lift out of order — doesn't (unless you need it); bus 903 holidays — doesn't.\n\n**Case study:** under-18s, from 1 January 2026, statewide; Youth myki, $5, online (Transport Victoria) or staffed stations; valid until 18.",
+    "resources": [
+      {
+        "label": "Premier of Victoria — One Million Young Victorians Now Travelling For Free (1 Jan 2026)",
+        "url": "https://www.premier.vic.gov.au/one-million-young-victorians-now-travelling-free"
+      },
+      {
+        "label": "Transport Victoria (journey planner, myki, service changes)",
+        "url": "https://transport.vic.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Rural and regional students** may have few services. The skills still apply (V/Line, regional buses, school buses), but pick realistic destinations, and expect “there's no bus” to be a real answer worth discussing.",
+      "**Doing the trip is the best part — and the hardest to organise.** An excursion needs permission and supervision. If you can't, the planning alone still meets the learning goals; ask students to do it with family.",
+      "**Some students already travel independently;** others never have. Pair them up: experienced travellers make great guides.",
+      "**Check the details.** Youth myki rules, prices and the website name may change. Check Transport Victoria the week you teach.",
+      "**Accessibility:** for students with disability or anxiety about travel, include lift and accessibility info in the planning, and don't force a trip.",
+      "**Works in a real class:** yes. It's very concrete, and the free-travel change makes it immediately useful for VPC students."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: simpler article and case study, 6 key words, 3-choice quiz, word bank, fewer sort cards, and a one-service trip.",
+      "core": "Aimed at about Year 7 reading: the standard version with annotation, relevance sort, case study and planning a real trip.",
+      "extend": "Aimed at about Year 9 reading: planning backwards with criteria, skim/scan vocabulary, a quiz question on filtering notices, and summarising official instructions."
+    }
+  }
+}

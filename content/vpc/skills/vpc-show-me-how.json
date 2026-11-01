@@ -482,7 +482,10 @@
             ]
           },
           {
-            "q": "Why should each step start with a **doing word**?",
+            "q": {
+              "core": "Why should each step start with a **doing word**?",
+              "extend": "Why should each step start with an **imperative verb** (a doing word)?"
+            },
             "lines": 2,
             "vc": [
               "VPC-U1M1-LG1"

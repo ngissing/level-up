@@ -710,3 +710,7 @@ body.fam-vpc .prog-chip { background: #2ed3c6; color: #0e3b43; transform: rotate
 .where-panel .w-head { padding-right: 0; }
 .preview-bar { display: flex; align-items: center; gap: 8px; background: var(--ink); color: #fff; border-radius: 10px; padding: 8px 14px; margin-bottom: 14px; font-size: .9rem; }
 .preview-bar a { color: var(--lime); }
+
+/* Teacher guide: classroom reality check */
+.panel.reality { border-style: dashed; background: #fffaf0; }
+.panel.reality li { margin-bottom: 6px; }

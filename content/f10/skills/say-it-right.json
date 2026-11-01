@@ -661,6 +661,10 @@
         "vc": [
           "VC2E5LY10",
           "VC2E6LA01"
+        ],
+        "columns": [
+          "What is it?",
+          "Why is it there?"
         ]
       },
       {

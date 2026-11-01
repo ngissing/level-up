@@ -138,7 +138,7 @@ const BLOCKS = {
       ${b.need?.length ? html`<p class="doit-need"><b>${icon('lucide:package')} You need:</b>${b.need.map((x) => html`<span>${mdInline(x)}</span>`)}</p>` : ''}
       <ol class="doit-steps">${b.steps.map((s, i) => html`<li><span class="doit-n">${i + 1}</span><span>${mdInline(s)}</span><i class="tickbox"></i></li>`)}</ol>
       ${b.photo ? html`<div class="doit-photo" style="height:${Number(b.photo)}mm"><span>${icon('lucide:camera')} ${b.photoLabel || 'Stick a photo here, or sketch what you made'}</span></div>` : ''}
-      ${(b.notes || []).map((n) => html`<p class="wb-q">${mdInline(n.label)}</p>${answers && n.answer ? html`<p class="ans-text">${n.answer}</p>` : lines(n.lines || 2)}`)}
+      ${(b.notes || []).map((n) => html`<p class="wb-q">${mdInline(n.label)}</p>${answers && n.answer ? html`<p class="ans-text">${n.answer}</p>` : lines(n.lines ?? 2)}`)}
       <div class="doit-evidence"><b>How I’m showing it:</b>${ev.map((e) => html`<span><i class="tickbox"></i>${e}</span>`)}<span class="doit-init">Teacher initials <i class="line"></i></span></div>
     </div>`;
   },

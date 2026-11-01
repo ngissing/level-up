@@ -1,0 +1,891 @@
+{
+  "id": "vm-back-it-up",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "Since **December 2025**, kids under 16 in Australia can't have accounts on TikTok, Snapchat or Instagram. Some people love the rule. Some people hate it. What do **you** think? Can you back it up?",
+      "core": "Since **December 2025**, kids under 16 in Australia can't have accounts on TikTok, Snapchat, Instagram and other big apps. Some say it's the best thing the government has done for young people. Others say it's a mess. What do **you** think? Can you prove it?"
+    },
+    "why": {
+      "support": "Everyone has opinions. The people who change minds back them up. They give reasons and proof, in a clear order.",
+      "core": "Everyone has opinions. The people who change minds back them up. They give reasons and proof, in a clear order. That works at work, at a council meeting and in a job interview.",
+      "extend": "An opinion without evidence is easy to ignore. One that's logical, backed by good evidence and fair to the other side is hard to brush off."
+    },
+    "canDo": {
+      "support": [
+        "I can set out an opinion piece in order.",
+        "I can spot logic and emotion.",
+        "I can back up a point with proof.",
+        "I can write my opinion with reasons."
+      ],
+      "core": [
+        "I can set out a **persuasive text**: contention, arguments, rebuttal, conclusion.",
+        "I can tell when a writer uses **logic** or **emotion**.",
+        "I can back up each point with **evidence**.",
+        "I can write an opinion piece that's hard to argue with."
+      ]
+    },
+    "showIt": "Write an opinion piece on the under-16 social media law (or another issue), with evidence for each point and a rebuttal.",
+    "vocab": [
+      {
+        "word": "opinion piece",
+        "meaning": "writing that argues for a point of view",
+        "example": "She wrote an opinion piece for the local paper."
+      },
+      {
+        "word": "contention",
+        "meaning": "the main point you're arguing",
+        "example": "My contention is that the ban should stay."
+      },
+      {
+        "word": "argument",
+        "meaning": "a reason that supports your contention",
+        "example": "My first argument is about sleep."
+      },
+      {
+        "word": "evidence",
+        "meaning": "facts, examples or expert views that prove a point",
+        "example": "Give evidence, not just feelings."
+      },
+      {
+        "word": "logic",
+        "meaning": "reasons that make sense step by step",
+        "example": "Her logic was hard to argue with."
+      },
+      {
+        "word": "emotion",
+        "meaning": "words that make people feel something",
+        "example": "The story used emotion to get sympathy."
+      },
+      {
+        "word": "rebuttal",
+        "meaning": "answering the other side's argument",
+        "example": "In my rebuttal I showed why they're wrong.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "connective",
+        "meaning": "a joining word like however, therefore or furthermore",
+        "example": "Use connectives to link your points.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "credible",
+        "meaning": "believable and trustworthy",
+        "example": "A government website is a credible source.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "counterargument",
+        "meaning": "the strongest point for the other side",
+        "example": "Deal with the counterargument head-on.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Back It Up in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Back It Up",
+        "sub": "An opinion without evidence is just noise.",
+        "icon": "lucide:file-check",
+        "say": "Back it up. An opinion without evidence is just noise."
+      },
+      {
+        "kind": "big",
+        "title": "The shape",
+        "text": "Contention → arguments → rebuttal → conclusion.",
+        "icon": "lucide:layout-list",
+        "say": "A persuasive piece has a shape. Say what you think, prove it, deal with the other side, finish strong.",
+        "vc": [
+          "VM-U2O2-KK1",
+          "VM-U2O2-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "L",
+        "pill": "Tool",
+        "pillIcon": "lucide:wrench",
+        "title": "Logic",
+        "text": "If this, then that.",
+        "icon": "lucide:brain",
+        "say": "Logic. Reasons that make sense, one step at a time.",
+        "vc": [
+          "VM-U2O2-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "E",
+        "pill": "Tool",
+        "pillIcon": "lucide:wrench",
+        "title": "Emotion",
+        "text": "Makes them **feel**. Needs facts too.",
+        "icon": "lucide:heart",
+        "say": "Emotion. Stories and words that make people feel something. Powerful — but it needs facts behind it.",
+        "vc": [
+          "VM-U2O2-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "P",
+        "pill": "Tool",
+        "pillIcon": "lucide:wrench",
+        "title": "Evidence",
+        "text": "Facts. Examples. Experts.",
+        "icon": "lucide:file-search",
+        "say": "Evidence. Facts, examples, expert views. This is what makes people believe you.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Every point",
+        "steps": [
+          "Point",
+          "Proof",
+          "Explain",
+          "Link"
+        ],
+        "say": "For each point: say it, prove it, explain it, link it back.",
+        "vc": [
+          "VM-U2O2-KS3",
+          "VM-U2O2-KS5"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Pick a side. Back it up.",
+        "icon": "lucide:megaphone",
+        "say": "Your mission. Pick a side on the under-16 social media law, and back it up."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to argue so people listen",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A good opinion piece has a clear **shape**:\n\n1. **Hook.** Grab attention.\n2. **Contention.** Say what you think in one sentence.\n3. **Arguments.** Two or three reasons. For each one: say the **point**, give **proof**, and **explain** it.\n4. **Rebuttal.** Say what the other side thinks. Then say why they're wrong.\n5. **Conclusion.** Sum it up. Tell people what to do.\n\nWriters use **logic** (reasons that make sense) and **emotion** (words that make you feel). Emotion is strong. But you need **evidence** too.\n\nJoining words help: *firstly*, *also*, *however*, *so*.",
+          "core": "A good opinion piece has a clear **structure**:\n\n1. **Headline and hook.** Grab attention: a question, a shocking fact, a quick story.\n2. **Contention.** One sentence that says what you think: *The under-16 ban should stay.*\n3. **Arguments.** Two or three reasons. For each one: make the **point**, give **proof**, **explain** why it matters, and **link** back to your contention.\n4. **Rebuttal.** Name the strongest point for the other side, then answer it.\n5. **Conclusion.** Sum up, and tell readers what to do.\n\nWriters persuade with **logic** (reasons that follow step by step) and **emotion** (words and stories that make you feel). Emotion is powerful, but without **evidence** it falls apart.\n\n**Connectives** hold it together: *firstly*, *furthermore*, *however*, *as a result*, *therefore*. They show the reader how one idea leads to the next.",
+          "extend": "A persuasive text works when its **structure** leads the reader to the conclusion:\n\n1. **Headline and hook**: a question, a striking fact or a quick story.\n2. **Contention**: one clear sentence that states your position.\n3. **Arguments**: two or three, each built as point, then evidence, then why it matters, then a link back.\n4. **Rebuttal**: state the best point for the other side fairly, then answer it.\n5. **Conclusion**: restate your view and tell people what to do.\n\nWriters mix **logic** (reasons that follow step by step), **emotion** (words and stories that make you feel) and **credibility** (evidence from trusted sources). Emotion can move people, but a doubtful reader will brush it off without evidence.\n\n**Connectives** show how ideas fit together: *firstly* (order), *furthermore* (adding), *however* (contrast), *as a result* (cause), *therefore* (conclusion). They help the reader follow your thinking."
+        },
+        "vc": [
+          "VM-U2O2-KK1",
+          "VM-U2O2-KK3",
+          "VM-U2O2-KS3",
+          "VM-U2O2-KS5"
+        ],
+        "vcNote": "Structures of persuasive texts; logic, reasoning and emotion; connectives signalling relationships between ideas."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The under-16 social media law",
+        "icon": "lucide:smartphone",
+        "body": {
+          "support": "In **2024**, Australia made a new law. You must be **16** to have a social media account. It started on **10 December 2025**.\n\nApps like **TikTok, Snapchat and Instagram** must stop under-16s having accounts. If they don't, the **companies** get big fines. Kids and parents don't get in trouble.\n\nPeople still argue about it:\n\n- **For:** it stops bullying and harmful stuff. It helps parents say no.\n- **Against:** kids can get around it. Checking ages is a **privacy** worry. Some kids lose friends and support.\n\nBoth sides want young people safe. They just disagree on how.",
+          "core": "In **late November 2024**, Australia's Parliament passed a law setting a **minimum age of 16** for social media accounts. It took effect on **10 December 2025**.\n\nPlatforms like **TikTok, Snapchat, Instagram, Facebook, YouTube and X** must take reasonable steps to stop under-16s having accounts. If they don't, the **platforms** face big fines. Kids and parents don't get punished.\n\nIt was a world first, and people still argue about it:\n\n- **Supporters** say it protects young people from bullying, harmful content and apps made to be hard to put down. It backs up parents who want to say no.\n- **Critics** say it's easy to get around. They say age checks are a **privacy** worry. And it cuts some young people off from friends and support.\n\nBoth sides want young people to be safe. They disagree on how.",
+          "extend": "In **late November 2024**, federal Parliament passed a law setting a **minimum age of 16** for accounts on major social media platforms. It took effect on **10 December 2025**.\n\nPlatforms such as **TikTok, Snapchat, Instagram, Facebook, YouTube and X** must take reasonable steps to stop under-16s holding accounts. Platforms that fail face heavy fines. Young people and parents face no penalty.\n\nThe law was a world first, and people still argue about it:\n\n- **Supporters** say it protects young people from bullying, harmful content and apps built to be hard to put down. It also backs up parents who want to say no.\n- **Critics** say it's easy to get around, that age checks put everyone's **privacy** at risk, and that it cuts some young people off from friends and support. That hits hardest for those who feel alone where they live.\n\nBoth sides say they're acting for young people. They disagree on what works. That makes it a great topic for an argument built on evidence."
+        },
+        "source": {
+          "name": "eSafety Commissioner — Social media age restrictions; Online Safety Amendment (Social Media Minimum Age) Act 2024 (summary with sources)",
+          "url": "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions"
+        },
+        "think": {
+          "support": [
+            "What does the law say?",
+            "What do the two sides think?"
+          ],
+          "core": [
+            "What does the law require, and of whom?",
+            "What's the strongest argument for it? Against it?",
+            "Which arguments use logic, and which use emotion?"
+          ]
+        },
+        "vc": [
+          "VM-U2O2-KK3",
+          "VM-U2O2-KS4"
+        ],
+        "vcNote": "A real, current issue with arguments on both sides to evaluate and use as evidence."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of an opinion piece",
+      "docTitle": "“TURN THE LIGHTS ON AT THE SKATE PARK” (EXAMPLE)",
+      "vc": [
+        "VM-U2O2-KK1",
+        "VM-U2O2-KS3"
+      ],
+      "vcNote": "The structure of a persuasive text.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "value": "Picture this: it's 5:30 pm in June and the park is pitch black."
+        },
+        {
+          "n": 2,
+          "label": "Contention",
+          "value": "Council should install lights at Northside Skate Park.",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Argument + evidence",
+          "value": "Firstly, it's dark by 5:30 pm in winter, so the park sits empty right when school finishes."
+        },
+        {
+          "n": 4,
+          "label": "Emotion",
+          "value": "Young people deserve a safe place to go after school."
+        },
+        {
+          "n": 5,
+          "label": "Rebuttal",
+          "value": "Some say lights cost too much. However, the council lit the tennis courts last year."
+        },
+        {
+          "n": 6,
+          "label": "Call to action",
+          "value": "Sign the petition at the library by Friday."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "Grabs the reader with a picture."
+        },
+        {
+          "n": 2,
+          "label": "Contention",
+          "note": "One clear sentence: what I want."
+        },
+        {
+          "n": 3,
+          "label": "Argument + evidence",
+          "note": "Point + proof, linked with “Firstly”."
+        },
+        {
+          "n": 4,
+          "label": "Emotion",
+          "note": "Makes readers care."
+        },
+        {
+          "n": 5,
+          "label": "Rebuttal",
+          "note": "Names the other side, then answers it (“However”)."
+        },
+        {
+          "n": 6,
+          "label": "Call to action",
+          "note": "Tells readers exactly what to do."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Build every point",
+      "steps": [
+        {
+          "title": "Point",
+          "text": "One clear reason.",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "Proof",
+          "text": "A fact, example or expert.",
+          "icon": "lucide:file-search"
+        },
+        {
+          "title": "Explain",
+          "text": "Why it matters.",
+          "icon": "lucide:lightbulb"
+        },
+        {
+          "title": "Link",
+          "text": "Back to your contention.",
+          "icon": "lucide:link"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is a **contention**?",
+        "options": [
+          "The main point you're arguing",
+          "A fact",
+          "The conclusion only",
+          "A question"
+        ],
+        "answer": 0,
+        "explain": "One clear sentence stating your position.",
+        "vc": [
+          "VM-U2O2-KK1"
+        ]
+      },
+      {
+        "q": "Which is an appeal to **emotion**?",
+        "options": [
+          "Imagine your little sister crying alone at night because of cruel comments.",
+          "The law took effect on 10 December 2025.",
+          "Therefore, platforms must check ages.",
+          "Firstly, the law applies to platforms."
+        ],
+        "answer": 0,
+        "explain": "It makes the reader feel.",
+        "vc": [
+          "VM-U2O2-KK3"
+        ]
+      },
+      {
+        "q": "What does a **rebuttal** do?",
+        "options": [
+          "Answers the other side's argument",
+          "Repeats your contention",
+          "Adds a hook",
+          "Lists your sources"
+        ],
+        "answer": 0,
+        "explain": "Name it, then answer it.",
+        "vc": [
+          "VM-U2O2-KK1",
+          "VM-U2O2-KS3"
+        ]
+      },
+      {
+        "q": "Under the law, who can be fined?",
+        "options": [
+          "The platforms",
+          "Kids under 16",
+          "Parents",
+          "Schools"
+        ],
+        "answer": 0,
+        "explain": "Penalties fall on the platforms.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "q": "Which connective signals a **contrast**?",
+        "options": [
+          "However",
+          "Firstly",
+          "Furthermore",
+          "Also"
+        ],
+        "answer": 0,
+        "explain": "However = the other side.",
+        "vc": [
+          "VM-U2O2-KS5"
+        ]
+      },
+      {
+        "q": "Why is an argument with only emotion weak?",
+        "options": [
+          "A sceptical reader will dismiss it without evidence",
+          "Emotion is never allowed",
+          "It's too short",
+          "It has no hook"
+        ],
+        "answer": 0,
+        "explain": "Logic and evidence make it stick.",
+        "vc": [
+          "VM-U2O2-KK3"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write your opinion on the under-16 law. Give two reasons with proof. Say what the other side thinks and answer it.",
+      "core": "Write an opinion piece on the under-16 social media law (or another issue your teacher approves), with a contention, two evidenced arguments, a rebuttal and a call to action.",
+      "extend": "Write, revise and edit an opinion piece on the under-16 social media law that combines logic, emotion and credible evidence, uses connectives to signal the argument's structure, and rebuts the strongest counterargument."
+    },
+    "checklist": [
+      "I have a clear contention",
+      "Each argument has proof",
+      "I answered the other side",
+      "I used connectives and checked my spelling"
+    ],
+    "levelUp": "Swap with a partner. Use their feedback to revise one paragraph, and underline every connective you used.",
+    "vc": [
+      "VM-U2O2-KS4",
+      "VM-U2O2-KS3"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to argue so people listen",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "List the **five parts** of an opinion piece.",
+            "lines": 0,
+            "vc": [
+              "VM-U2O2-KK1"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          },
+          {
+            "q": "What's the difference between **logic** and **emotion**?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK3"
+            ]
+          },
+          {
+            "q": "Why do you need **evidence**, not just emotion?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Logic or emotion?",
+        "pagebreak": true,
+        "choices": [
+          "Logic",
+          "Emotion"
+        ],
+        "reasonLabel": "Clue:",
+        "instructions": "Tick whether each line mostly uses logic or emotion. Write the clue.",
+        "cards": [
+          {
+            "from": "Line",
+            "text": "Platforms, not kids, get fined — so kids won't get in trouble.",
+            "answer": "Logic",
+            "flags": "Reason → result."
+          },
+          {
+            "from": "Line",
+            "text": "Every night, kids lie awake scrolling, scared of what's being said about them.",
+            "answer": "Emotion",
+            "flags": "A picture that makes you feel."
+          },
+          {
+            "from": "Line",
+            "text": "If age checks need ID, everyone's privacy is at risk, not just kids'.",
+            "answer": "Logic",
+            "flags": "If…, then…"
+          },
+          {
+            "from": "Line",
+            "text": "Taking away their friends is cruel.",
+            "answer": "Emotion",
+            "flags": "“Cruel” — a feeling word."
+          },
+          {
+            "from": "Line",
+            "text": "The law took effect on 10 December 2025, so we can now check what's changed.",
+            "answer": "Logic",
+            "flags": "Fact → next step.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Line",
+            "text": "Our kids deserve a childhood, not a screen.",
+            "answer": "Emotion",
+            "flags": "Slogan-style.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O2-KK3"
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of an opinion piece",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the opinion piece. Use the word bank. Write what it is.",
+          "core": "Each number marks part of the opinion piece. Write what it is and what it does."
+        },
+        "columns": [
+          "What is it?",
+          "What does it do?"
+        ],
+        "wordBank": {
+          "support": [
+            "hook",
+            "contention",
+            "argument + proof",
+            "emotion",
+            "rebuttal",
+            "call to action"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U2O2-KK1",
+          "VM-U2O2-KS3",
+          "VM-U2O2-KS5"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the under-16 social media law",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What does the law require, and who gets fined?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS4"
+            ]
+          },
+          {
+            "q": "Write the **strongest** argument **for** the law, in your own words.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK3"
+            ]
+          },
+          {
+            "q": "Write the **strongest** argument **against** it.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK3"
+            ]
+          },
+          {
+            "q": "What evidence would you need to know if the law is working?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS4"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Plan your arguments",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "Pick your side. Plan two arguments and your rebuttal using **point, proof, explain**.",
+        "columns": [
+          "",
+          "Point + proof",
+          "Explain (why it matters)"
+        ],
+        "rows": [
+          [
+            "Argument 1",
+            "",
+            ""
+          ],
+          [
+            "Argument 2",
+            "",
+            ""
+          ],
+          [
+            "The other side says…",
+            "",
+            ""
+          ],
+          [
+            "My rebuttal",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U2O2-KS3",
+          "VM-U2O2-KS4"
+        ],
+        "vcNote": "Sequencing a persuasive argument and matching evidence to each point."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: your opinion piece",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write your opinion: **Should the under-16 social media law stay?** Give two reasons and answer the other side.",
+          "core": "Write an opinion piece for your local paper: **Should the under-16 social media law stay?** (Or another issue your teacher approves.)",
+          "extend": "Write an opinion piece for your local paper: **Should the under-16 social media law stay?** Use logic, emotion and credible evidence; signal your structure with connectives; and rebut the strongest counterargument."
+        },
+        "plan": [
+          {
+            "label": "Headline + hook:",
+            "lines": 1
+          },
+          {
+            "label": "Contention (one sentence):",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Firstly,",
+          "Furthermore,",
+          "Some people argue… However,",
+          "As a result,",
+          "Therefore,"
+        ],
+        "lines": {
+          "support": 11,
+          "core": 13
+        },
+        "check": [
+          "contention",
+          "two arguments with proof",
+          "rebuttal",
+          "connectives",
+          "call to action"
+        ],
+        "vc": [
+          "VM-U2O2-KS4",
+          "VM-U2O2-KS3",
+          "VM-U2O2-KS5",
+          "VM-U2O2-KS1"
+        ],
+        "vcNote": "Creating a structured persuasive text with evidence."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: revise it",
+        "pagebreak": true,
+        "instructions": "Swap with a partner. Give each other feedback, then revise.",
+        "items": [
+          {
+            "q": "Partner feedback: which argument is **strongest**? Which needs **more proof**?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS1"
+            ]
+          },
+          {
+            "q": "Rewrite your weakest paragraph using the feedback.",
+            "lines": 6,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS1"
+            ]
+          },
+          {
+            "q": "Underline every connective in your piece. Which one shows the **turn** to the other side?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can set out a persuasive text.",
+          "I can spot logic and emotion.",
+          "I can back up points with evidence.",
+          "I can write an opinion piece."
+        ],
+        "questions": [
+          "An issue I'd like to argue next:",
+          "Where I'll use this outside school:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the structure of persuasive texts (hook, contention, arguments, rebuttal, call to action), how writers use logic, reasoning and emotion, and how connectives signal the argument. They plan and write an opinion piece on Australia's under-16 social media minimum age law, using evidence and a rebuttal, then revise with peer feedback.",
+    "prep": [
+      "Print workbooks.",
+      "Read the eSafety Commissioner's page on social media age restrictions, which is current and official.",
+      "Find 1–2 short opinion pieces from both sides (news sites, The Conversation) as model texts and evidence sources.",
+      "Decide whether students may choose another issue."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The shape of an argument",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** quick vote: should the under-16 law stay? Move to sides of the room.",
+          "**Explicit teaching (10 min):** structure; logic vs emotion.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** logic or emotion."
+        ]
+      },
+      {
+        "title": "Lesson 2 — The issue",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** skate park opinion piece.",
+          "**Case study (20 min):** read; list arguments for and against on the board.",
+          "**Evidence hunt (20 min):** students find 2 pieces of evidence from credible sources (eSafety, news)."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write it",
+        "minutes": 50,
+        "steps": [
+          "**Plan (15 min):** arguments table; model one point-proof-explain.",
+          "**Write (30 min):** opinion piece.",
+          "**Exit (5 min):** highlight your contention."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Revise it",
+        "minutes": 50,
+        "steps": [
+          "**Peer feedback + revise (25 min):** Level Up.",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off.",
+          "**Optional (10 min):** read the strongest pieces aloud from each side."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Contention → arguments (point, proof, explain, link) → rebuttal → conclusion.",
+      "Logic, emotion and evidence work together.",
+      "Connectives signal structure.",
+      "Answer the other side's best point."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards.",
+        "Paragraph frames and a shorter piece."
+      ],
+      "extend": [
+        "Credible evidence with sources named.",
+        "Draft–revise–edit with peer feedback (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U2O2-KK1",
+        "evidence": "Identifies the structure of persuasive texts (annotation, reading questions)."
+      },
+      {
+        "vc": "VM-U2O2-KK3",
+        "evidence": "Distinguishes logic, reasoning and emotion, and uses them (sort, case study, opinion piece)."
+      },
+      {
+        "vc": "VM-U2O2-KS3",
+        "evidence": "Sequences and structures the opinion piece logically (plan, final piece)."
+      },
+      {
+        "vc": "VM-U2O2-KS4",
+        "evidence": "Provides evidence and argues a point of view persuasively (final piece)."
+      },
+      {
+        "vc": "VM-U2O2-KS1",
+        "evidence": "Level Up: drafts, revises and edits using peer feedback."
+      },
+      {
+        "vc": "VM-U2O2-KS5",
+        "evidence": "Level Up: uses connectives to signal relationships between ideas."
+      }
+    ],
+    "answers": "**Sort:** platforms get fined… — logic; kids lie awake… — emotion; if age checks need ID… — logic; taking away friends is cruel — emotion; took effect… so we can check — logic; childhood not a screen — emotion.\n\n**Opinion piece annotation:** 1 hook (image); 2 contention; 3 argument + evidence with “Firstly”; 4 emotional appeal; 5 rebuttal with “However”; 6 call to action.\n\n**Case study:** platforms must take reasonable steps to stop under-16s having accounts; penalties fall on platforms, not kids or parents. Accept any well-explained for/against arguments.",
+    "resources": [
+      {
+        "label": "eSafety Commissioner — Social media age restrictions",
+        "url": "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions"
+      },
+      {
+        "label": "Online Safety Amendment (Social Media Minimum Age) Act 2024 (summary with sources)",
+        "url": "https://en.wikipedia.org/wiki/Online_Safety_Amendment_(Social_Media_Minimum_Age)_Act_2024"
+      }
+    ],
+    "realityCheck": [
+      "**It's current and contested — that's the point.** Many VM students are 16–17, so the law doesn't apply to them directly, but most have younger siblings and strong views. Expect energy.",
+      "**Keep it balanced.** Don't signal your own view. Mark the quality of the argument, not the side. Say this explicitly; it frees up students who disagree with the room.",
+      "**Evidence is the hard part.** Students will want to use statistics they can't source. Insist on named sources and point them to eSafety and reputable news. Unsourced numbers don't count.",
+      "**Check for currency.** Details such as which platforms are covered may change. Check eSafety's page the week you teach.",
+      "**Some students may be affected personally,** e.g. they rely on online communities for support. Allow an alternative issue if needed.",
+      "**Works in a real class:** yes. Four lessons is realistic for drafting plus revising; three is possible if revision is homework."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank, paragraph frames and a shorter opinion piece.",
+      "core": "Standard version: logic/emotion sort, annotation, case study, argument plan, opinion piece.",
+      "extend": "Adds credible and counterargument, a quiz question on evidence, credible sources in the piece, and peer-feedback revision."
+    }
+  }
+}

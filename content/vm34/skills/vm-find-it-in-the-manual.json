@@ -1,0 +1,869 @@
+{
+  "id": "vm-find-it-in-the-manual",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "Your pay rate and your break rules are written down. But the document is 80 pages long. Nobody reads it all. Smart people know how to **find** the part they need.",
+      "core": "Your pay rate, your break rules, what to do if you're injured — it's all written down somewhere. The problem? It's in a document that's 80 pages long. Nobody reads it cover to cover. The people who get paid right know how to **find** the bit they need."
+    },
+    "why": {
+      "support": "Long documents have shortcuts: contents, headings, numbers and an index. Use them and you can find answers in minutes.",
+      "core": "Manuals, handbooks, awards and policies are built with shortcuts: contents pages, headings, numbered sections and indexes. Learn to use them and you can answer almost any work question in a couple of minutes.",
+      "extend": "Awards and manuals are built to be searched, not read. Their contents, sections and index are a map. Using it well can decide whether you get paid right."
+    },
+    "canDo": {
+      "support": [
+        "I can name the parts of a long document.",
+        "I can use the contents and index.",
+        "I can pick the best way to find something.",
+        "I can find my pay rate online."
+      ],
+      "core": [
+        "I can name the **key parts** of a long technical document.",
+        "I can use the **contents**, **headings** and **index** to find information fast.",
+        "I can choose the **right tool** for the question.",
+        "I can find my **award** and minimum pay rate online."
+      ]
+    },
+    "showIt": "Use the Fair Work website to find the award and minimum pay rate for a job you have or want.",
+    "vocab": [
+      {
+        "word": "contents page",
+        "meaning": "a list of sections at the start, with page numbers",
+        "example": "The contents page says pay is on page 7."
+      },
+      {
+        "word": "heading",
+        "meaning": "a title for a section",
+        "example": "Look for the heading “Breaks”."
+      },
+      {
+        "word": "sub-heading",
+        "meaning": "a smaller title inside a section",
+        "example": "Under Pay, there's a sub-heading for weekends."
+      },
+      {
+        "word": "index",
+        "meaning": "an A–Z list of topics at the back",
+        "example": "The index says uniforms are on page 4."
+      },
+      {
+        "word": "award",
+        "meaning": "the legal rules for minimum pay and conditions in an industry",
+        "example": "Check the Retail Award for your pay rate."
+      },
+      {
+        "word": "keyword",
+        "meaning": "an important word you search for",
+        "example": "My keyword was “Saturday”."
+      },
+      {
+        "word": "section",
+        "meaning": "a numbered part of a document, like 2.3",
+        "example": "Section 2.3 covers penalty rates.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "penalty rate",
+        "meaning": "higher pay for weekends, nights or public holidays",
+        "example": "Sunday has a penalty rate.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "glossary",
+        "meaning": "a list of special words and what they mean",
+        "example": "The glossary explains “casual loading”.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "word": "cross-reference",
+        "meaning": "a note that sends you to another part",
+        "example": "“See clause 15” is a cross-reference.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Find It in the Manual in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Find It in the Manual",
+        "sub": "Contents, headings, index — find it fast.",
+        "icon": "lucide:list-tree",
+        "say": "Find it in the manual. Contents, headings, index. Find the answer fast."
+      },
+      {
+        "kind": "big",
+        "title": "Built to be searched",
+        "text": "Don't read it all. **Find** it.",
+        "icon": "lucide:search",
+        "say": "Long documents aren't meant to be read cover to cover. They're built to be searched.",
+        "vc": [
+          "VM-U3O1-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "C",
+        "pill": "Shortcut",
+        "pillIcon": "lucide:list-tree",
+        "title": "Contents",
+        "text": "The big map, at the front.",
+        "icon": "lucide:list",
+        "say": "The contents page. The big map, at the front.",
+        "vc": [
+          "VM-U3O1-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2.3",
+        "pill": "Shortcut",
+        "pillIcon": "lucide:list-tree",
+        "title": "Headings + numbers",
+        "text": "2 → 2.1 → 2.3",
+        "icon": "lucide:heading",
+        "say": "Headings and numbers. Section 2, then 2.1, 2.2. Smaller and smaller.",
+        "vc": [
+          "VM-U3O1-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "A–Z",
+        "pill": "Shortcut",
+        "pillIcon": "lucide:list-tree",
+        "title": "Index",
+        "text": "Exact topics, A to Z.",
+        "icon": "lucide:book-a",
+        "say": "The index. A to Z at the back, for exact topics.",
+        "vc": [
+          "VM-U3O1-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "⌘F",
+        "pill": "Shortcut",
+        "pillIcon": "lucide:list-tree",
+        "title": "Search",
+        "text": "**Ctrl + F** finds any word.",
+        "icon": "lucide:search",
+        "say": "Online, use search. Control F finds a word on the page.",
+        "vc": [
+          "VM-U3O1-KS1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Find it fast",
+        "steps": [
+          "Question",
+          "Keyword",
+          "Shortcut",
+          "Check"
+        ],
+        "say": "Know your question, pick your keyword, use the right shortcut, then check you've got the right bit.",
+        "vc": [
+          "VM-U3O1-KS3"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Find your award. Find your rate.",
+        "icon": "lucide:badge-dollar-sign",
+        "say": "Your mission. Find the award and the minimum pay rate for a job you want."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to find anything in a long document",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Long documents can be **lots of pages**. Nobody reads them all. They have shortcuts.\n\n1. **Contents.** At the front. A list of sections and pages.\n2. **Headings.** Titles for each part. Numbers help: **2** is Pay, **2.3** is Weekend pay.\n3. **Index.** At the back. Topics from A to Z.\n4. **Search.** Online, press **Ctrl + F**. Type a **keyword**.\n\nThe method:\n\n- Know your **question**.\n- Pick a **keyword**.\n- Use a **shortcut**.\n- **Check** you found the right part.",
+          "core": "Manuals, staff handbooks, awards and policies can be **dozens of pages** long. Nobody reads them from start to finish. They're built with shortcuts so you can jump to what you need.\n\n1. **Contents page.** At the front. It lists each section and its page. Use it when you know the **general topic** (*Pay*).\n2. **Headings and numbered sections.** Big topics have headings; smaller parts have **sub-headings**. Numbers show how they fit: section **2** is Pay, **2.3** is Penalty rates.\n3. **Index.** At the back, A to Z. Use it for an **exact** topic (*uniform*, *first aid*).\n4. **Glossary.** Explains special words, like *casual loading*.\n5. **Search.** In a PDF or webpage, press **Ctrl + F** (or **Cmd + F** on a Mac) and type a **keyword**.\n\nThe method: work out your **question**, pick a **keyword**, use the **right shortcut**, skim the section, and **check** it actually answers your question. Watch for notes like *see section 4.2* — they send you to the rest of the answer.",
+          "extend": "Technical documents such as awards, manuals, handbooks and policies are long by necessity. They have to cover every case. So they're designed for **navigation**, not cover-to-cover reading.\n\n1. **Table of contents**: the document's top-level map. Best when you know the general topic.\n2. **Numbered headings and sub-headings**: a hierarchy (2 → 2.3 → 2.3.1) that shows how topics nest and lets other parts refer to them.\n3. **Index**: alphabetical entries pointing to exact pages or clauses. Best for a specific term.\n4. **Glossary or definitions**: the meaning of technical terms. In awards, definitions can change your entitlements, so always check them.\n5. **Search** (Ctrl/Cmd + F): fast, but only finds the exact word you type. Try synonyms.\n\nAn efficient method: frame the question, choose keywords, pick the right tool, skim the section, then **follow cross-references** (*see clause 15*) before you decide. Many mistakes come from reading one clause and missing the exception two pages later."
+        },
+        "vc": [
+          "VM-U3O1-KS3",
+          "VM-U3O1-KK2",
+          "VM-U3O1-KS1"
+        ],
+        "vcNote": "Key elements of complex technical documents and how to use them to locate information."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The $300 million mistake",
+        "icon": "lucide:badge-dollar-sign",
+        "body": {
+          "support": "In **2019**, **Woolworths** said it had underpaid about **5,700** of its store managers. It could be up to **$300 million**.\n\nThe managers got a yearly salary. It was meant to cover their extra hours and weekend work. The rules for this are in a long document called the **Retail Award**.\n\nBut nobody checked the hours against the award. Many managers were paid less than they should have been.\n\nThe lesson: **find your award, and check your pay.**",
+          "core": "In **October 2019**, **Woolworths** said it had underpaid about **5,700** of its store staff on salaries. Most were department managers. The total could be up to **$300 million**.\n\nThese managers got a yearly salary. It was meant to cover everything the **Retail Award** said they were owed, like overtime and weekend rates. But the company didn't check their hours against the award. For many, the salary didn't cover what they were owed.\n\nThe award is a long document. The rules were all in there. The problem was that nobody checked them against the hours people really worked.\n\nFor workers, the lesson is simple: **find your award, and check your pay against it.**",
+          "extend": "In **October 2019**, **Woolworths** announced it had underpaid about **5,700** salaried store staff, mostly department managers. The total could be up to **$300 million**.\n\nThe managers were on yearly salaries that were meant to cover everything the **General Retail Industry Award** said they were owed, including overtime and weekend rates. But the company had not properly recorded or checked their hours against the award. For many, the salary fell short.\n\nThe Fair Work Ombudsman later took Woolworths to court. The Federal Court found the company had not kept the records it was required to keep.\n\nThe award's rules were never secret. They were written down. The failure was in checking the document carefully against real hours worked. For workers, the lesson is to find your award, read the parts that apply to you, and check your pay."
+        },
+        "source": {
+          "name": "The Conversation — “No, a complex system is not to blame for corporate wage theft” (2019); HRM Online; Fair Work Ombudsman",
+          "url": "https://theconversation.com/no-a-complex-system-is-not-to-blame-for-corporate-wage-theft-126279"
+        },
+        "think": {
+          "support": [
+            "What went wrong?",
+            "How can you check your pay?"
+          ],
+          "core": [
+            "What went wrong at Woolworths?",
+            "Where were the rules written down?",
+            "How could a worker check their own pay?"
+          ]
+        },
+        "vc": [
+          "VM-U3O1-KK2",
+          "VM-U3O1-KS4"
+        ],
+        "vcNote": "Why engaging carefully with technical workplace documents (awards) matters."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a staff handbook",
+      "docTitle": "FRESHMART STAFF HANDBOOK — CONTENTS (EXAMPLE)",
+      "vc": [
+        "VM-U3O1-KS3",
+        "VM-U3O1-KK2"
+      ],
+      "vcNote": "The key elements of a long technical document.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "1  Your first week",
+          "value": "page 3"
+        },
+        {
+          "n": 2,
+          "label": "2  Pay and payslips",
+          "value": "page 7"
+        },
+        {
+          "n": 3,
+          "label": "   2.3  Penalty rates (weekends, public holidays)",
+          "value": "page 9"
+        },
+        {
+          "n": 4,
+          "label": "3  Rosters, breaks and leave",
+          "value": "page 12"
+        },
+        {
+          "n": 5,
+          "label": "Index: Breaks — see 3.2 · First aid — 4.1 · Uniform — 1.4",
+          "value": "page 30"
+        },
+        {
+          "n": 6,
+          "label": "Glossary: casual, penalty rate, roster",
+          "value": "page 32"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Section heading",
+          "note": "A big topic with its page."
+        },
+        {
+          "n": 2,
+          "label": "Numbered section",
+          "note": "Section 2 = all about pay."
+        },
+        {
+          "n": 3,
+          "label": "Sub-section",
+          "note": "2.3 sits inside section 2."
+        },
+        {
+          "n": 4,
+          "label": "Another section",
+          "note": "Rosters and breaks are here."
+        },
+        {
+          "n": 5,
+          "label": "Index",
+          "note": "A–Z at the back. “See 3.2” is a cross-reference."
+        },
+        {
+          "n": 6,
+          "label": "Glossary",
+          "note": "Explains special words."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Find it fast",
+      "steps": [
+        {
+          "title": "Question",
+          "text": "What exactly do I need?",
+          "icon": "lucide:circle-help"
+        },
+        {
+          "title": "Keyword",
+          "text": "One or two words to look for.",
+          "icon": "lucide:key"
+        },
+        {
+          "title": "Shortcut",
+          "text": "Contents, index or Ctrl + F.",
+          "icon": "lucide:list-tree"
+        },
+        {
+          "title": "Check",
+          "text": "Does it answer it? Any “see…”?",
+          "icon": "lucide:check-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "You want to know about **uniforms**. Which shortcut is quickest?",
+        "options": [
+          "The index",
+          "Reading from page 1",
+          "The cover",
+          "The glossary"
+        ],
+        "answer": 0,
+        "explain": "Index = exact topics, A to Z.",
+        "vc": [
+          "VM-U3O1-KS3"
+        ]
+      },
+      {
+        "q": "In the handbook, what does **2.3** tell you?",
+        "options": [
+          "It's a part inside section 2",
+          "It's page 23",
+          "It's the 23rd rule",
+          "It's a phone number"
+        ],
+        "answer": 0,
+        "explain": "Numbers show how sections nest.",
+        "vc": [
+          "VM-U3O1-KS3"
+        ]
+      },
+      {
+        "q": "Where are **penalty rates** in the FreshMart handbook?",
+        "options": [
+          "Section 2.3, page 9",
+          "Section 1, page 3",
+          "The glossary",
+          "Section 4"
+        ],
+        "answer": 0,
+        "explain": "Contents → Pay → 2.3.",
+        "vc": [
+          "VM-U3O1-KS3"
+        ]
+      },
+      {
+        "q": "What does Ctrl + F do on a webpage?",
+        "options": [
+          "Finds a word on the page",
+          "Closes the page",
+          "Prints it",
+          "Makes text bigger"
+        ],
+        "answer": 0,
+        "explain": "It searches the page for your keyword.",
+        "vc": [
+          "VM-U3O1-KS1"
+        ]
+      },
+      {
+        "q": "Why did Woolworths underpay its managers?",
+        "options": [
+          "It didn't properly check hours against the award",
+          "The award was secret",
+          "Managers asked for less",
+          "It was a bank error"
+        ],
+        "answer": 0,
+        "explain": "The rules were there; the checking wasn't.",
+        "vc": [
+          "VM-U3O1-KK2"
+        ]
+      },
+      {
+        "q": "A clause says “see clause 15”. What should you do?",
+        "options": [
+          "Read clause 15 before deciding",
+          "Ignore it",
+          "Stop reading",
+          "Search the internet"
+        ],
+        "answer": 0,
+        "explain": "Cross-references often hold exceptions.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Use the Fair Work website. Find the award and the pay rate for a job you want.",
+      "core": "Use the Fair Work website to find the award and the minimum hourly rate for a job you have or want, and record how you found it.",
+      "extend": "Use the Fair Work website to find the award for a job you have or want, the minimum rate for your age and type of work, one penalty rate and one other condition — recording the navigation steps you used."
+    },
+    "checklist": [
+      "I found the right award",
+      "I found the minimum hourly rate for my age",
+      "I wrote down how I found it (headings, search…)",
+      "I checked it answered my question"
+    ],
+    "levelUp": "Find one penalty rate (e.g. Saturday or Sunday) and one other rule in the award. Explain where it was and how you found it.",
+    "vc": [
+      "VM-U3O1-KS1",
+      "VM-U3O1-KS3",
+      "VM-U3O1-KS4"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to find anything in a long document",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "When should you use the **contents**? When should you use the **index**?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS3"
+            ]
+          },
+          {
+            "q": "What does a number like **2.3** tell you?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KK2"
+            ]
+          },
+          {
+            "q": "What are the steps of the method?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a staff handbook",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the handbook. Use the word bank. Write what it is.",
+          "core": "Each number marks part of the handbook. Write what it is and when you'd use it."
+        },
+        "columns": [
+          "What is it?",
+          "When would you use it?"
+        ],
+        "wordBank": {
+          "support": [
+            "section heading",
+            "numbered section",
+            "sub-section",
+            "another section",
+            "index",
+            "glossary"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U3O1-KS3",
+          "VM-U3O1-KK2"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Handbook hunt: use the handbook above",
+        "items": [
+          {
+            "q": "Which page tells you about **weekend pay**? How did you find it?",
+            "lines": 1
+          },
+          {
+            "q": "Where would you look up **first aid**? Which shortcut did you use?",
+            "lines": 1
+          },
+          {
+            "q": "What does “Breaks — **see 3.2**” mean?",
+            "lines": 1,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U3O1-KS3"
+        ],
+        "vcNote": "Using contents, headings and index to locate information."
+      },
+      {
+        "type": "table",
+        "title": "Pick the right tool",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 17,
+          "core": 15
+        },
+        "instructions": "For each question, choose the best tool — **contents**, **index**, **glossary** or **Ctrl + F** — and say why. The first is done for you.",
+        "columns": [
+          "Question",
+          "Best tool",
+          "Why?"
+        ],
+        "rows": [
+          [
+            "What does “casual loading” mean?",
+            "Glossary",
+            "It explains special words"
+          ],
+          [
+            "Where's the section on leave?",
+            "",
+            ""
+          ],
+          [
+            "Is “ladder” mentioned anywhere in this 60-page PDF?",
+            "",
+            ""
+          ],
+          [
+            "Where is “uniform” in the handbook?",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "What are the main parts of this manual?",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U3O1-KS3",
+          "VM-U3O1-KK2"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the $300 million mistake",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Who was underpaid, and by how much (up to)?",
+            "lines": 2
+          },
+          {
+            "q": "Where were the rules about their pay written down?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KK2"
+            ]
+          },
+          {
+            "q": "What went wrong?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          },
+          {
+            "q": "Why might a worker not check their award? What would make it easier?",
+            "lines": 3,
+            "levelUp": true,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: find your award and your rate",
+        "pagebreak": true,
+        "where": "online",
+        "instructions": "Go to **fairwork.gov.au** and use **Find my award** and the **pay guides**. Record what you find and **how** you found it.",
+        "need": [
+          "a device with internet",
+          "a job you have or want",
+          "your age"
+        ],
+        "steps": {
+          "support": [
+            "Go to fairwork.gov.au. Find **Find my award**.",
+            "Answer the questions. Write the **award name**.",
+            "Open the **pay guide**.",
+            "Find the rate for **your age**.",
+            "Check the date on the guide."
+          ],
+          "core": [
+            "Go to fairwork.gov.au. Find **Find my award** (use the menu or search).",
+            "Answer the questions for your job. Write down the **award name**.",
+            "Open the **pay guide** for that award.",
+            "Use **Ctrl + F** or the headings to find the rate for **your age** and type of work (casual?).",
+            "Find one **penalty rate**, like Saturday or Sunday.",
+            "Check: is this rate up to date? Look for the date on the guide."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Job + award name:",
+            "lines": 1
+          },
+          {
+            "label": "Minimum hourly rate for my age (and casual or not):",
+            "lines": 1
+          },
+          {
+            "label": "A penalty rate I found:",
+            "lines": 1,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "label": "How I found it (which headings, links or keywords):",
+            "lines": {
+              "support": 3,
+              "core": 2
+            }
+          }
+        ],
+        "evidence": [
+          "Screenshot",
+          "Teacher saw it",
+          "Written steps"
+        ],
+        "vc": [
+          "VM-U3O1-KS1",
+          "VM-U3O1-KS4",
+          "VM-U3O1-KS3"
+        ],
+        "vcNote": "Hands-on: accessing a real technical document online and locating specific information."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "instructions": "Go deeper in your award or pay guide.",
+        "items": [
+          {
+            "q": "Find one **other condition** (breaks, minimum shift length, uniforms). Which clause or section is it in?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          },
+          {
+            "q": "Did you hit any **cross-references** (“see clause…”)? What did they add?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS3"
+            ]
+          },
+          {
+            "q": "Explain to a friend, in 3 steps, how to check if they're being paid right.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can name the parts of a long document.",
+          "I can use contents, headings and index.",
+          "I can pick the right tool.",
+          "I can find my award and pay rate."
+        ],
+        "questions": [
+          "Something I'll check in my own award:",
+          "A long document I'll tackle differently now:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the key elements of complex technical documents (contents, numbered headings, sub-headings, index, glossary, cross-references, search) and use them to locate information quickly. They practise on a made-up staff handbook, then navigate the real Fair Work website to find their own award and minimum pay rate. The case study is Woolworths' 2019 underpayment of about 5,700 salaried staff.",
+    "prep": [
+      "Print workbooks.",
+      "Book devices with internet.",
+      "Check fairwork.gov.au's **Find my award** and **pay guides** the week you teach; the layout and rates change each July.",
+      "Have one award or pay guide ready to model (e.g. General Retail Industry Award)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The shortcuts",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** hand out a thick manual or PDF. Race: find the warranty / break rules. Who used which shortcut?",
+          "**Explicit teaching (10 min):** contents, numbered headings, index, glossary, search.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Annotate (10 min):** the handbook."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Pick the tool",
+        "minutes": 50,
+        "steps": [
+          "**Handbook hunt (10 min).**",
+          "**Pick the right tool (15 min).**",
+          "**Case study (15 min):** Woolworths.",
+          "**Model (10 min):** live navigation of Find my award with think-aloud."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Find your award",
+        "minutes": 50,
+        "steps": [
+          "**Hands-on (25 min):** Do it page.",
+          "**Level Up (10 min).**",
+          "**Check & reflect (15 min):** quick check, reflection, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Long documents are built to be searched, not read.",
+      "Contents for topics, index for exact terms, glossary for meanings, Ctrl + F online.",
+      "Numbers show how sections nest.",
+      "Follow cross-references before deciding."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer rows in Pick the right tool.",
+        "Pair up for the Fair Work task."
+      ],
+      "extend": [
+        "Find a penalty rate and another condition.",
+        "Explain the method to someone else (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O1-KS3",
+        "evidence": "Uses contents, headings, sub-headings and indexes to locate information (annotation, handbook hunt, tool table)."
+      },
+      {
+        "vc": "VM-U3O1-KK2",
+        "evidence": "Describes the key elements of a complex technical text (reading, annotation)."
+      },
+      {
+        "vc": "VM-U3O1-KS1",
+        "evidence": "Accesses a relevant real document online (Do it page)."
+      },
+      {
+        "vc": "VM-U3O1-KS4",
+        "evidence": "Engages with real workplace documentation (award/pay guide) for a specific situation (Do it, Level Up)."
+      }
+    ],
+    "answers": "**Handbook:** 1 section heading; 2 numbered section (Pay); 3 sub-section 2.3 inside section 2; 4 section 3 (rosters, breaks, leave); 5 index with a cross-reference; 6 glossary.\n\n**Hunt:** weekend pay — page 9 (contents → 2 Pay → 2.3); first aid — index → 4.1; “see 3.2” = go to section 3.2 for breaks.\n\n**Tools:** leave — contents; ladder in 60-page PDF — Ctrl + F; uniform — index; main parts — contents.\n\n**Case study:** about 5,700 salaried staff, up to $300 million; rules in the General Retail Industry Award; hours weren't properly recorded/checked against the award.",
+    "resources": [
+      {
+        "label": "Fair Work Ombudsman — Find my award",
+        "url": "https://www.fairwork.gov.au/employment-conditions/awards/find-my-award"
+      },
+      {
+        "label": "Fair Work Ombudsman — Pay guides",
+        "url": "https://www.fairwork.gov.au/pay-and-wages/minimum-wages/pay-guides"
+      },
+      {
+        "label": "The Conversation — No, a complex system is not to blame for corporate wage theft (2019)",
+        "url": "https://theconversation.com/no-a-complex-system-is-not-to-blame-for-corporate-wage-theft-126279"
+      }
+    ],
+    "realityCheck": [
+      "**Needs devices and internet.** The Do it task is the core. Without devices, print one pay guide's contents and a few pages and do it on paper.",
+      "**The Fair Work site changes.** Menu names and pay rates update (rates every 1 July). Walk through it yourself the week before.",
+      "**Award jargon is hard.** Pay guides use terms like “casual loading” and “junior rates”. Model one search aloud, and let students pair up.",
+      "**Pay can be personal.** Some students may discover they're underpaid. That's a real outcome, so have the Fair Work contact info ready and handle it privately.",
+      "**Works in a real class:** yes, and it's one of the most practically valuable courses for 17-year-olds with jobs. Budget the full third lesson for the online task."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank, fewer table rows and shorter Fair Work steps.",
+      "core": "Standard version: annotation, handbook hunt, pick the right tool, Woolworths case and the Fair Work award task.",
+      "extend": "Adds glossary and cross-reference, a quiz question on cross-references, finding a penalty rate and another condition, and explaining the method."
+    }
+  }
+}
