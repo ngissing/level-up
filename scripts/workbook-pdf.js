@@ -29,6 +29,36 @@ const inlineCss = (htmlStr) => htmlStr
   .replace(/<link rel="stylesheet" href="\/css\/([\w-]+\.css)(?:\?v=\w+)?">/g,
     (_, f) => `<style>${embedFonts(readFileSync(path.join(ROOT_DIR, 'public', 'css', f), 'utf8'))}</style>`);
 
+// Runs in the page: tests each decorative shape's real outline (not its bounding box) against the
+// cover's text lines and boxes. The wave is meant to sit behind the bottom boxes, so it only counts for text.
+function coverClashes() {
+  const sheet = document.querySelector('.sheet.cover'); if (!sheet) return [];
+  const targets = [];
+  const walk = document.createTreeWalker(sheet, NodeFilter.SHOW_TEXT);
+  for (let n; (n = walk.nextNode());) {
+    const el = n.parentElement;
+    if (!n.textContent.trim() || el.closest('svg, .cover-real, .cover-contents, .cover-qr, .cover-zone')) continue;
+    const r = document.createRange(); r.selectNodeContents(n);
+    for (const q of r.getClientRects()) targets.push({ rect: q, what: `"${n.textContent.trim().slice(0, 30)}"`, text: true });
+  }
+  for (const el of sheet.querySelectorAll('.cover-fields span, .cover-real, .cover-contents, .cover-qr, .cover-sticker, .cover-zone, .logo-mark')) {
+    targets.push({ rect: el.getBoundingClientRect(), what: `the ${el.className.split(' ')[0] || 'name field'} box`, text: false });
+  }
+  const found = new Set();
+  for (const svg of sheet.querySelectorAll('.cover-shapes, .cover-marks')) {
+    const inv = svg.getScreenCTM().inverse(); const pt = svg.createSVGPoint();
+    const shapes = [...svg.querySelectorAll('circle, path')].map((el) => ({ el, cs: getComputedStyle(el), name: el.closest('[data-mark]')?.dataset.mark || 'shape' }));
+    for (const t of targets) for (let x = t.rect.left; x <= t.rect.right; x += 3) for (let y = t.rect.top; y <= t.rect.bottom; y += 3) {
+      const p = new DOMPoint(x, y).matrixTransform(inv); pt.x = p.x; pt.y = p.y;
+      for (const { el, cs, name } of shapes) {
+        if (name === 'wave' && !t.text) continue;
+        if ((cs.fill !== 'none' && el.isPointInFill(pt)) || (cs.stroke !== 'none' && el.isPointInStroke(pt))) found.add(`${name} → ${t.what}`);
+      }
+    }
+  }
+  return [...found];
+}
+
 let chromium;
 try { ({ chromium } = createRequire(import.meta.url)('playwright')); }
 catch { console.error('PDF export needs Playwright: run  npm i -D playwright && npx playwright install chromium'); process.exit(1); }
@@ -46,6 +76,9 @@ for (const base of skills) for (const level of levels) {
   const over = await page.evaluate(() => [...document.querySelectorAll('.sheet-body')]
     .map((b, i) => (b.scrollHeight > b.clientHeight + 2 ? i + 2 : null)).filter(Boolean));
   if (over.length) { overflowed++; console.warn(`  ! ${skill.id} (${level}): page(s) ${over.join(', ')} overflow — content will be cut off`); }
+  // Flag cover decorations (dots, stars, cross, squiggle, circle) that sit behind text or touch a box.
+  const clash = await page.evaluate(coverClashes);
+  if (clash.length) { overflowed++; console.warn(`  ! ${skill.id} (${level}): cover decoration overlaps ${clash.join('; ')}`); }
   const file = path.join(outDir, `${skill.id}-${level}${answers ? '-answers' : ''}.pdf`);
   await page.pdf({ path: file, format: 'A4', printBackground: true, preferCSSPageSize: true });
   console.log('wrote', path.relative(ROOT_DIR, file));
