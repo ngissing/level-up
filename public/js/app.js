@@ -213,3 +213,9 @@
     }
   });
 })();
+
+// Program tabs scroll sideways on narrow screens: bring the selected one into view.
+for (const nav of document.querySelectorAll('.prog-switch')) {
+  const on = nav.querySelector('.prog-tab.on');
+  if (on && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = on.offsetLeft - nav.offsetLeft - 12;
+}
