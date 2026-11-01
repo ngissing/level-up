@@ -40,6 +40,7 @@ You need Node.js 22.13 or later (it uses the built-in `node:sqlite`).
 | `zara`, `ben` | `student123` | VM Literacy Units 1 & 2 students (Zara is Foundation, Ben is Core and partway through Your First Payslip) |
 | `ella` | `student123` | VM Literacy Units 3 & 4 student (Core) |
 | `noah`, `lia` | `student123` | VPC Literacy students (Noah is Foundation, Lia is Core) |
+| `ruby`, `liam`, `amira`, `cooper` | `student123` | Have finished their program's starting zone, so the next zones are open: Ruby (F–10 Base Camp), Liam (VM 1 & 2 Induction), Amira (VM 3 & 4 Site Induction), Cooper (VPC The Workshop). All Core. |
 
 Change the admin password straight away, or set `ADMIN_PASSWORD` before the first run.
 
