@@ -13,8 +13,8 @@ export function programSwitch(program, pathname, { query = {}, counts = null } =
   const qs = (p) => new URLSearchParams({ ...query, program: p }).toString();
   const P = PROGRAMS[program];
   return html`<nav class="prog-switch" aria-label="Program">
-    ${PROGRAM_IDS.map((p) => html`<a href="${pathname}?${qs(p)}" class="prog-tab fam-${familyOf(p)} ${p === program ? 'on' : ''}" ${p === program ? raw('aria-current="page"') : ''}>
-      ${icon(PROGRAMS[p].icon)} ${PROGRAMS[p].name}${counts ? html` <small>${counts[p]} students</small>` : ''}</a>`)}
+    ${PROGRAM_IDS.map((p) => html`<a href="${pathname}?${qs(p)}" class="prog-tab fam-${familyOf(p)} ${p === program ? 'on' : ''}" ${p === program ? raw('aria-current="page"') : ''} title="${PROGRAMS[p].name}${counts ? ` · ${counts[p]} student${counts[p] === 1 ? '' : 's'}` : ''}">
+      ${icon(PROGRAMS[p].icon)} <span>${PROGRAMS[p].tab}</span>${counts ? html`<small class="prog-count" aria-label="${counts[p]} students">${icon('lucide:users')}${counts[p]}</small>` : ''}</a>`)}
   </nav>
   <div class="prog-banner fam-${familyOf(program)}" role="note">
     ${icon(P.icon, 'prog-banner-ico')}

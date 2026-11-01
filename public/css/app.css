@@ -599,9 +599,13 @@ body.fam-vpc .prog-chip { background: #2ed3c6; color: #0e3b43; transform: rotate
 }
 
 /* Program switch and banner (teacher and admin pages) */
-.prog-switch { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 0; }
+/* One row of tabs; on narrow screens they scroll sideways instead of wrapping. */
+.prog-switch { display: flex; flex-wrap: nowrap; gap: 6px; margin: 4px 0 0; overflow-x: auto; scrollbar-width: thin; }
 .prog-tab { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border: var(--bw) solid var(--ink); border-bottom: 0; border-radius: 14px 14px 0 0; text-decoration: none; font-weight: 600; background: #fff; opacity: .7; }
-.prog-tab small { font-weight: 400; color: var(--muted); }
+.prog-tab { flex: none; white-space: nowrap; padding: 9px 14px; }
+.prog-tab .ico { flex: none; }
+.prog-count { display: inline-flex; align-items: center; gap: 3px; font-size: .78rem; font-weight: 700; color: var(--ink); background: rgba(255, 255, 255, .75); border: 2px solid var(--ink); border-radius: 999px; padding: 0 7px 0 5px; line-height: 1.5; }
+.prog-count .ico { width: 12px; height: 12px; }
 .prog-tab.on { opacity: 1; }
 .prog-tab.fam-f10.on { background: #c6f432; }
 .prog-tab.fam-vm.on { background: #ff8a2a; }
