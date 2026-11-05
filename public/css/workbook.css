@@ -91,6 +91,8 @@ p { margin: 0 0 .6em; }
 .wb-article p, .wb-article ol { margin: 0 0 2.5mm; }
 .wb-article ol { padding-left: 18px; }
 .wb-article strong { background: color-mix(in srgb, var(--zone) 50%, white); padding: 0 2px; border-radius: 3px; }
+/* Keep each bullet point in one column of two-column text. */
+.wb-case li { break-inside: avoid; }
 .wb-case { background: #fffaf0; border: 2.5px solid var(--ink); border-radius: 14px; padding: 4mm 5mm; font-size: 10.5pt; column-count: 2; column-gap: 6mm; margin-bottom: 3mm; }
 .wb-case p { margin-bottom: 2mm; }
 .wb-source { font-size: 8pt; color: #6f6a62; }
@@ -102,7 +104,7 @@ p { margin: 0 0 .6em; }
 .wb-qs > li > p { font-weight: 500; margin-bottom: 1mm; }
 .wb-qs > li.is-lvl { background: #fff8db; border: 2px dashed #b38600; border-radius: 12px; padding: 2.5mm 3mm 2mm 13mm; }
 .wb-qs > li.is-lvl::before { left: 3mm; top: 2.5mm; background: var(--sun); color: var(--ink); border: 2px solid var(--ink); }
-.wb-boxes { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin-top: 1mm; }
+.wb-boxes { display: grid; grid-template-columns: repeat(var(--n, 4), 1fr); gap: 3mm; margin-top: 1mm; }
 .wb-boxes div { border: 2.5px solid var(--ink); border-radius: 12px; height: 12mm; display: flex; align-items: flex-start; padding: 1.5mm 2.5mm; }
 .wb-boxes b { font-family: var(--display); font-size: 16pt; color: var(--coral); line-height: 1; }
 
@@ -116,14 +118,15 @@ p { margin: 0 0 .6em; }
 .wb-annotate.small .phone { width: 58mm; }
 
 /* Sort */
-.wb-sort { display: grid; grid-template-columns: 1fr 1fr; gap: 4.5mm; }
+.wb-sort { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4.5mm; }
 .sort-card { border: 2.5px solid var(--ink); border-radius: 14px; padding: 4mm; display: flex; flex-direction: column; gap: 3mm; min-height: 60mm; box-shadow: 3px 3px 0 var(--ink); }
 .sort-top { display: flex; align-items: center; gap: 6px; }
 .sort-n { display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--zone); border: 2px solid var(--ink); font-weight: 700; font-size: 9pt; }
 .sort-from { font-weight: 600; font-size: 9.5pt; display: flex; align-items: center; gap: 4px; }
 .sort-msg { background: #eceae4; border-radius: 14px 14px 14px 4px; padding: 3mm 4mm; font-size: 12pt; margin: 0; flex: 1; }
-.sort-ticks { display: flex; gap: 4mm; font-size: 10pt; font-weight: 600; }
-.sort-ticks span { display: flex; align-items: center; }
+/* Choices wrap onto a second line rather than pushing the card off the page. */
+.sort-ticks { display: flex; flex-wrap: wrap; gap: 1.5mm 4mm; font-size: 10pt; font-weight: 600; }
+.sort-ticks span { display: flex; align-items: center; white-space: nowrap; }
 .sort-ticks .ans .tickbox { background: var(--coral); }
 .sort-flags { display: flex; gap: 6px; align-items: flex-end; font-size: 9.5pt; }
 .ans-text { color: #c2410c; font-style: normal; font-weight: 600; }
