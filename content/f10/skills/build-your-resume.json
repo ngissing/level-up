@@ -1,0 +1,935 @@
+{
+  "id": "build-your-resume",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "“Send us your resume.” You've never had a job. What do you write? More than you think. Sport. Helping out. Looking after family.",
+      "core": "“Send us your resume.” You're 15. You've never had a job. What could you possibly put on one page? More than you think: the canteen roster, the netball team, the little brothers you mind after school, the market stall you help on."
+    },
+    "why": {
+      "support": "An employer sees your resume first. It shows you're reliable. You don't need a job to write one. Turn what you already do into skills.",
+      "core": "A resume is the first thing an employer sees. It has to show, on one page, that you're reliable, you can learn and you'll turn up. You don't need work experience to do that. You need to turn the things you already do into skills, in words an employer understands.",
+      "extend": "A resume is a tightly structured persuasive text read in moments by a stranger who must decide whether to call you. For a first job, the craft is translation: turning school, sport, family responsibilities and volunteering into precise, honest evidence of the qualities employers want."
+    },
+    "canDo": {
+      "support": [
+        "I can set out a one-page resume.",
+        "I can turn what I do into skills.",
+        "I can use strong words.",
+        "I can check my resume with a list."
+      ],
+      "core": [
+        "I can set out a **one-page resume** with the right sections.",
+        "I can turn things I do into **skills**, using strong verbs.",
+        "I can choose **precise words** that an employer understands.",
+        "I can **edit** my resume with a checklist."
+      ]
+    },
+    "showIt": "Write an honest one-page resume, then edit it with a partner using the checklist.",
+    "vocab": [
+      {
+        "word": "resume",
+        "meaning": "one page that tells an employer about you",
+        "example": "I emailed my resume to the café."
+      },
+      {
+        "word": "skill",
+        "meaning": "something you can do well",
+        "example": "Talking to customers is a skill."
+      },
+      {
+        "word": "experience",
+        "meaning": "things you've done that taught you something",
+        "example": "Volunteering counts as experience."
+      },
+      {
+        "word": "referee",
+        "meaning": "someone who can tell an employer what you're like",
+        "example": "My netball coach is my referee."
+      },
+      {
+        "word": "objective",
+        "meaning": "one or two lines on the job you want",
+        "example": "My objective is a casual job in retail."
+      },
+      {
+        "word": "action verb",
+        "meaning": "a doing word that starts a line, like served or organised",
+        "example": "“Served customers” starts with an action verb."
+      },
+      {
+        "word": "tailor",
+        "meaning": "change your resume to fit a job",
+        "example": "I tailored my resume for the café job.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "honest",
+        "meaning": "true, with nothing made up",
+        "example": "Everything on my resume is honest.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Build Your Resume in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Build Your Resume",
+        "sub": "One page that gets you the call.",
+        "icon": "lucide:file-user",
+        "say": "Build your resume. One page that gets you the call."
+      },
+      {
+        "kind": "big",
+        "title": "More than you think",
+        "text": "Sport · School · Family · Helping out",
+        "icon": "lucide:sparkles",
+        "say": "No job yet? You still have skills. Sport, school, family and helping out all count.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "The sections",
+        "steps": [
+          "Contact",
+          "Objective",
+          "Skills",
+          "Experience",
+          "Education",
+          "Referees"
+        ],
+        "say": "A first resume has the same sections every time. Contact, objective, skills, experience, education, referees.",
+        "vc": [
+          "VC2E6LA03"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Tip",
+        "pillIcon": "lucide:file-user",
+        "title": "Action verbs",
+        "text": "**Served** · **Organised** · **Trained**",
+        "icon": "lucide:zap",
+        "say": "Start each line with an action verb. Served. Organised. Trained. Looked after.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Tip",
+        "pillIcon": "lucide:file-user",
+        "title": "Prove it",
+        "text": "*every Saturday for two years*",
+        "icon": "lucide:search-check",
+        "say": "Add a detail that proves it. How often, how many, how long.",
+        "vc": [
+          "VC2E5LA08",
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Tip",
+        "pillIcon": "lucide:file-user",
+        "title": "One page",
+        "text": "Short. Clear. **One page.**",
+        "icon": "lucide:file",
+        "say": "Keep it to one page. Short lines. No fancy fonts.",
+        "vc": [
+          "VC2E6LA03"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Keep it honest",
+        "text": "Strong, **not** false.",
+        "icon": "lucide:shield-check",
+        "say": "Everything must be true. Make real things sound strong. Never make things up.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Write it. Check it. Send it.",
+        "icon": "lucide:file-user",
+        "say": "Your mission. Write your one-page resume. Then edit it with a partner."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "A resume with no experience",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Employers want to know three things. Will you **turn up**? Can you **learn**? Will you **get on** with people?\n\nA first resume has six **sections**:\n\n1. **Contact**: name, phone, email.\n2. **Objective**: the job you want, in one line.\n3. **Skills**: things you can do well.\n4. **Experience**: things you've done. School, sport, helping out, family.\n5. **Education**: your school and year.\n6. **Referees**: two people who know you, like a coach. **Ask them first.**\n\nTurn what you do into skills. *I play netball* becomes *Team member, netball, every Saturday.*\n\nStart with a **doing word**: *served*, *helped*, *trained*.\n\nKeep it **true**. Never make things up.",
+          "core": "Employers hiring for a first job aren't expecting years of experience. They want to know three things: Will you **turn up**? Can you **learn**? Will you **get on** with people? Your resume answers those questions on **one page**.\n\nMost first resumes have six **sections**, in this order:\n\n1. **Contact**: your name, phone number, email and suburb. Use a sensible email address.\n2. **Objective**: one or two lines about the job you want. *A reliable, friendly Year 10 student looking for casual weekend work in hospitality.*\n3. **Skills**: four to six skills, each with a short example.\n4. **Experience**: anything that taught you something, paid or not. School roles, sport, volunteering, helping in a family business, looking after siblings.\n5. **Education**: your school and year level, plus any certificates (first aid, food handling).\n6. **Referees**: two people who know you, like a coach or teacher (not family). **Ask them first.**\n\nThe secret is **translation**. *I play netball* becomes *Team member, Under-17 netball, every Saturday for three years.* Start lines with **action verbs** (*served*, *organised*, *trained*, *looked after*) and add a **detail** that proves it: how often, how many, how long.\n\nKeep it **honest**. Make true things sound strong, but never invent jobs, qualifications or referees. Employers check, and lying can cost you far more than the job.\n\nFinally, **tailor** it. Read the job ad again and make sure your resume shows the essentials it asks for.",
+          "extend": "Employers hiring for first jobs aren't looking for experience. They want evidence that you're reliable, willing to learn and good with people. Your resume has to show that on **one page**.\n\nMost first resumes follow six conventional **sections**:\n\n1. **Contact**: name, phone, a professional email, suburb.\n2. **Objective**: one or two lines, tailored to the job.\n3. **Skills**: four to six, each with a short example.\n4. **Experience**: paid or unpaid. School roles, sport, volunteering, family business and caring all count.\n5. **Education**: school, year level and certificates (first aid, food handling).\n6. **Referees**: two people who aren't family, asked first.\n\nThe core skill is **translation**: turning everyday activity into precise evidence. Start entries with **action verbs**, and add numbers where you can (*every Saturday for three years*, *a team of 12*). Cut repetition and vague words like *stuff* or *helped out*.\n\nKeep it **honest**. Presenting real experience strongly is good practice. Inventing roles, qualifications or referees is deception, and it can have serious consequences.\n\nFinally, **tailor** each version to the job ad, putting its essential criteria first."
+        },
+        "vc": [
+          "VC2E6LA03",
+          "VC2E5LY10",
+          "VC2E5LA08",
+          "VC2E4LY10"
+        ],
+        "vcNote": "The stages and conventions of a resume; precise vocabulary (action verbs, detail); tailoring to an audience."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The resume that went to court",
+        "icon": "lucide:gavel",
+        "body": {
+          "support": "A woman named **Veronica Theriault** got a big government job in South Australia. It paid about **$270,000** a year.\n\nBut her resume was full of **lies**. Fake study. Fake jobs. She even **pretended to be her own referee** on the phone!\n\nAfter about a **month**, they found out. She lost the job.\n\nIn **2019**, a court sent her to **jail** for 25 months.\n\nThe lesson: employers **check**. Make true things sound good. Never make things up.",
+          "core": "In **2017**, a woman named **Veronica Theriault** got a top job in the South Australian Government. It paid about **$270,000** a year.\n\nShe got it with a resume full of lies. It had **fake qualifications**, a made-up work history and false references. When the department rang her referee, she **pretended to be the referee** herself and gave herself a glowing review.\n\nAbout a **month** after she started, the department found out something was wrong. She was dismissed.\n\nShe pleaded guilty to deception and other charges. In **December 2019**, she was sentenced to **25 months in jail**.\n\nIt's an extreme case. But the lesson works at every level: employers **check**. Make true things sound strong, and you'll never have to worry about what they find.",
+          "extend": "In **2017**, **Veronica Theriault** became chief information officer in South Australia's **Department of Premier and Cabinet**. The role paid around **$270,000** a year.\n\nHer application used fake qualifications, a made-up work history and false references. When the department checked, she **pretended to be her own referee** and praised herself.\n\nWithin about a **month**, the department found problems and dismissed her. She pleaded guilty to deception and other charges. In **December 2019**, she was sentenced to **25 months' jail**.\n\nThe case is extreme, but it marks a line every resume writer should understand. Presenting real experience strongly is expected. Making things up is deception. Employers check, and the cost of being caught can be far worse than missing out on the job."
+        },
+        "source": {
+          "name": "Lawpath — “Recent case shows lying on your resume can do more than just get you fired”",
+          "url": "https://lawpath.com.au/blog/recent-case-shows-lying-on-your-resume-can-do-more-than-just-get-you-fired"
+        },
+        "think": {
+          "support": [
+            "What did she lie about?",
+            "Why should a resume be true?"
+          ],
+          "core": [
+            "What did she lie about, and how was she caught?",
+            "What's the difference between making something sound strong and making it up?",
+            "What could you honestly say instead of exaggerating?"
+          ]
+        },
+        "vc": [
+          "VC2E5LY10",
+          "VC2E7LY08"
+        ],
+        "vcNote": "A real Australian case: the boundary between persuasive framing and dishonesty in a resume."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a first resume",
+      "docTitle": "RESUME: SAM NGUYEN (EXAMPLE)",
+      "vc": [
+        "VC2E6LA03",
+        "VC2E5LA08",
+        "VC2E5LY10"
+      ],
+      "vcNote": "The stages, layout and precise language of a first resume.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Contact",
+          "value": "0412 345 678 · sam.nguyen@email.com · Corio, VIC"
+        },
+        {
+          "n": 2,
+          "label": "Objective",
+          "value": "Reliable, friendly Year 10 student looking for casual weekend work in hospitality.",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Skills",
+          "value": "Customer service: served customers at the school canteen, two lunchtimes a week."
+        },
+        {
+          "n": 4,
+          "label": "Experience",
+          "value": "Team member, Under-17 netball, every Saturday for three years. Helped coach the Under-10s in 2025."
+        },
+        {
+          "n": 5,
+          "label": "Education",
+          "value": "Year 10, local secondary college. First aid certificate (2025)."
+        },
+        {
+          "n": 6,
+          "label": "Referees",
+          "value": "Ms J. Patel, netball coach, 0400 111 222 (asked first)",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Contact",
+          "note": "Phone, a sensible email, suburb."
+        },
+        {
+          "n": 2,
+          "label": "Objective",
+          "note": "One line. Fits the job."
+        },
+        {
+          "n": 3,
+          "label": "Skill + proof",
+          "note": "Action verb, then a detail."
+        },
+        {
+          "n": 4,
+          "label": "Experience",
+          "note": "Unpaid counts. “Three years” shows you're reliable."
+        },
+        {
+          "n": 5,
+          "label": "Education",
+          "note": "School, year and certificates."
+        },
+        {
+          "n": 6,
+          "label": "Referee",
+          "note": "Not family. Always ask first."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Turn it into a skill",
+      "steps": [
+        {
+          "title": "What I do",
+          "text": "I mind my little brothers after school.",
+          "icon": "lucide:house"
+        },
+        {
+          "title": "The skill",
+          "text": "Responsible. Good with kids.",
+          "icon": "lucide:sparkles"
+        },
+        {
+          "title": "On my resume",
+          "text": "Look after two younger siblings, three afternoons a week.",
+          "icon": "lucide:file-user"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "You've never had a job. What can go under **experience**?",
+        "options": [
+          "Sport, school roles, volunteering and helping family",
+          "Nothing: leave it blank",
+          "Make up a job",
+          "Your favourite TV shows"
+        ],
+        "answer": 0,
+        "explain": "Unpaid experience counts.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "q": "Which line is strongest?",
+        "options": [
+          "Served customers at the school canteen, two lunchtimes a week.",
+          "I did stuff at the canteen.",
+          "Canteen.",
+          "I'm good with people I think."
+        ],
+        "answer": 0,
+        "explain": "Action verb + detail that proves it.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "q": "Who's the best **referee**?",
+        "options": [
+          "Your netball coach (after you've asked)",
+          "Your mum",
+          "Your best friend",
+          "A celebrity"
+        ],
+        "answer": 0,
+        "explain": "Not family, and always ask first.",
+        "vc": [
+          "VC2E6LA03"
+        ]
+      },
+      {
+        "q": "How long should a first resume be?",
+        "options": [
+          "One page",
+          "Five pages",
+          "Half a line",
+          "As long as possible"
+        ],
+        "answer": 0,
+        "explain": "Short and clear wins.",
+        "vc": [
+          "VC2E6LA03"
+        ]
+      },
+      {
+        "q": "What happened to the woman in the case study?",
+        "options": [
+          "She was jailed for lying on her resume",
+          "She got a promotion",
+          "Nothing: nobody checked",
+          "She won an award"
+        ],
+        "answer": 0,
+        "explain": "Employers check. Keep it honest.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "q": "What does it mean to **tailor** a resume?",
+        "options": [
+          "Change it to fit the job you're applying for",
+          "Print it on fancy paper",
+          "Make it longer",
+          "Add a photo"
+        ],
+        "answer": 0,
+        "explain": "Put the ad's essentials first.",
+        "vc": [
+          "VC2E7LY08"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Which edit improves the line “Helped out with helping at the market stall”?",
+        "options": [
+          "Served customers and handled cash at a weekend market stall",
+          "Helped out a lot at the market",
+          "Market stall helper person",
+          "Did market things"
+        ],
+        "answer": 0,
+        "explain": "Remove repetition; choose precise words.",
+        "vc": [
+          "VC2E7LY09"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write a one-page resume. Use the six sections. Then check it with a partner.",
+      "core": "Write an honest one-page resume with contact, objective, skills, experience, education and referees, then edit it with a partner using the checklist.",
+      "extend": "Write an honest one-page resume tailored to a real job ad, choosing and ordering content for that employer, then refine it by removing repetition and sharpening word choices."
+    },
+    "checklist": [
+      "All six sections, in order",
+      "Every line starts with an action verb or is a clear heading",
+      "Each skill has a detail that proves it",
+      "Everything is true",
+      "Referees asked first",
+      "Fits on one page"
+    ],
+    "levelUp": "Tailor your resume to a real job ad: put its essentials first and explain each change you made.",
+    "vc": [
+      "VC2E5LY10",
+      "VC2E5LY11",
+      "VC2E6LA03"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: A resume with no experience",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What **three things** does an employer want to know?",
+            "lines": 0,
+            "vc": [
+              "VC2E5LY10"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3"
+            ]
+          },
+          {
+            "q": "List the **six sections** of a first resume, in order.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LA03"
+            ]
+          },
+          {
+            "q": "Why should you **ask** someone before you list them as a referee?",
+            "lines": 1
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a first resume",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a section. Use the word bank. Write why it works.",
+          "core": "Each number marks a section of the resume. Write what it is and why it works."
+        },
+        "columns": [
+          "Which section?",
+          "Why does it work?"
+        ],
+        "wordBank": {
+          "support": [
+            "contact",
+            "objective",
+            "skills",
+            "experience",
+            "education",
+            "referees"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LA03",
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Life → skills",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 18
+        },
+        "instructions": "Turn each everyday thing into a resume line. Start with an **action verb** and add a **detail**. The first one is done for you. Then add two of your own.",
+        "columns": [
+          "What I do",
+          "The skill it shows",
+          "Resume line"
+        ],
+        "rows": [
+          [
+            "I mind my little brothers after school.",
+            "Responsible, caring",
+            "Look after two younger siblings, three afternoons a week."
+          ],
+          [
+            "I play footy every weekend.",
+            "",
+            ""
+          ],
+          [
+            "I help at my aunty's market stall.",
+            "",
+            ""
+          ],
+          [
+            "(your own)",
+            "",
+            ""
+          ],
+          [
+            "(your own)",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E5LY10",
+          "VC2E4LY10",
+          "VC2E5LA08"
+        ],
+        "vcNote": "Selecting and elaborating relevant ideas for an employer audience."
+      },
+      {
+        "type": "table",
+        "title": "Power it up",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 16
+        },
+        "instructions": "These lines are weak. Rewrite each with an action verb and a detail. The first one is done for you.",
+        "columns": [
+          "Weak",
+          "Strong"
+        ],
+        "rows": [
+          [
+            "Did stuff at the canteen.",
+            "Served customers and handled cash at the school canteen."
+          ],
+          [
+            "Good with computers.",
+            ""
+          ],
+          [
+            "Helped at the swimming carnival.",
+            ""
+          ],
+          {
+            "cells": [
+              "I was in charge of some kids at camp.",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LA08",
+          "VC2E4LY11"
+        ],
+        "vcNote": "Choosing precise vocabulary; re-reading and editing by substituting words."
+      },
+      {
+        "type": "flow",
+        "title": "Turn it into a skill",
+        "diagram": 1
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the resume that went to court",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did she lie about, and how did she try to hide it?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY10"
+            ]
+          },
+          {
+            "q": "What's the difference between making something **sound strong** and **making it up**? Give an example.",
+            "lines": 3,
+            "vc": [
+              "VC2E5LY10",
+              "VC2E7LY08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: my resume",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "Write your one-page resume. Use your lines from Life → skills and Power it up. (Type it up afterwards if you can.)",
+        "columns": [
+          "Section",
+          "What I'll write"
+        ],
+        "rows": [
+          [
+            "Example: objective",
+            "Reliable, friendly Year 10 student looking for casual weekend work in hospitality."
+          ],
+          [
+            "Contact",
+            ""
+          ],
+          [
+            "Objective",
+            ""
+          ],
+          [
+            "Skills (with proof)",
+            ""
+          ],
+          [
+            "Experience",
+            ""
+          ],
+          [
+            "Education",
+            ""
+          ],
+          [
+            "Referees (asked first)",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E5LY10",
+          "VC2E6LA03",
+          "VC2E4LY10"
+        ],
+        "vcNote": "Creating a staged, conventional workplace text for a specific audience."
+      },
+      {
+        "type": "table",
+        "title": "Edit with a partner",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 16
+        },
+        "instructions": "Swap with a partner. Tick each one, and suggest one fix. Then fix your own.",
+        "columns": [
+          "Checklist",
+          "Yes / no",
+          "One suggestion"
+        ],
+        "rows": [
+          [
+            "All six sections, in order",
+            "",
+            ""
+          ],
+          [
+            "Lines start with action verbs",
+            "",
+            ""
+          ],
+          [
+            "Each skill has proof",
+            "",
+            ""
+          ],
+          [
+            "Everything is true",
+            "",
+            ""
+          ],
+          [
+            "Referees asked first",
+            "",
+            ""
+          ],
+          [
+            "Fits on one page",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E5LY11",
+          "VC2E4LY11"
+        ],
+        "vcNote": "Re-reading and editing texts using agreed criteria."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Pick a real job ad (from Crack the Job Ad, or a new one). Tailor your resume: what will you put **first**, and what will you **cut**? Explain each change.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY08"
+            ]
+          },
+          {
+            "q": "Find one line with **repetition** or a vague word (*stuff*, *things*, *helped out*). Rewrite it, and explain why it's better.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can set out a one-page resume.",
+          "I can turn what I do into skills.",
+          "I can use precise words.",
+          "I can edit with a checklist."
+        ],
+        "questions": [
+          "The skill I didn't know I had:",
+          "Where I'll send my resume first:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students write an honest one-page first resume. They learn its six conventional sections and how to translate everyday activities (sport, school roles, family responsibilities, volunteering) into skills, using action verbs and proving detail. The case study is the South Australian chief information officer jailed in 2019 for a fraudulent resume, which marks the line between strong framing and fabrication. Students peer-edit with a checklist, and the Level Up tailors the resume to a real job ad.",
+    "prep": [
+      "Have a word-processing template ready if students will type their resume (one page, a plain font).",
+      "Optional: bring a real (anonymised) first resume, or your own from when you started.",
+      "Remind students to ask referees before listing them; a coach or teacher is ideal."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The sections",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** “You've got nothing to put on a resume.” Challenge: list everything you do in a week.",
+          "**Explicit teaching (10 min):** the six sections, using the model resume.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a first resume."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Translate it",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** turn one of your own activities into a resume line, thinking aloud.",
+          "**Life → skills (20 min).**",
+          "**Power it up (10 min).**",
+          "**Case study (10 min):** the resume that went to court. Strong vs false."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write it",
+        "minutes": 50,
+        "steps": [
+          "**Write (35 min):** final mission. Type it up if possible.",
+          "**Conference (ongoing):** check honesty and proof.",
+          "**Exit (5 min):** read your objective to a partner."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Edit and tailor",
+        "minutes": 50,
+        "steps": [
+          "**Edit with a partner (20 min).**",
+          "**Revise (15 min).**",
+          "**Level Up, reflect (15 min):** tailor to a real ad; quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Employers want to know: will you turn up, can you learn, will you get on with people?",
+      "Six sections: contact, objective, skills, experience, education, referees.",
+      "Translate everyday activities into skills: action verb + detail.",
+      "Keep it honest; employers check.",
+      "One page; tailor it to each job."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer table rows.",
+        "The final mission table works as a template."
+      ],
+      "extend": [
+        "Tailor to a real ad and justify the choices (Level Up).",
+        "Edit for repetition and precision."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LY10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Writes resume entries with relevant, linked ideas for an employer (Life → skills, final mission)."
+      },
+      {
+        "vc": "VC2E4LY11",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Re-reads and edits by adding, deleting or replacing words (Power it up, Edit with a partner)."
+      },
+      {
+        "vc": "VC2E5LY10",
+        "evidence": "Creates a resume with relevant, elaborated and sequenced content for its purpose and audience (final mission)."
+      },
+      {
+        "vc": "VC2E5LY11",
+        "evidence": "Edits own and others' resumes against agreed criteria (Edit with a partner)."
+      },
+      {
+        "vc": "VC2E5LA08",
+        "evidence": "Chooses precise verbs and proving detail (Life → skills, Power it up)."
+      },
+      {
+        "vc": "VC2E6LA03",
+        "evidence": "Explains and uses the conventional stages of a resume (annotation, Check your reading, final mission)."
+      },
+      {
+        "vc": "VC2E7LY08",
+        "evidence": "Level Up: selects and orders content for a specific employer and job ad."
+      },
+      {
+        "vc": "VC2E7LY09",
+        "evidence": "Level Up: removes repetition and refines word choices, and explains why."
+      }
+    ],
+    "answers": "**Three things:** will you turn up; can you learn; will you get on with people. **Sections:** contact, objective, skills, experience, education, referees. Ask referees first so they're ready and willing.\n\n**Resume:** 1 contact; 2 objective (one line, fits the job); 3 skill + proof; 4 experience (unpaid counts; duration shows reliability); 5 education + certificates; 6 referee (not family, asked first).\n\n**Life → skills (samples):** footy — teamwork, commitment: *Team member, Under-17 footy, every weekend for four years*; market stall — customer service, cash handling: *Served customers and handled cash at a weekend market stall.*\n\n**Power it up (samples):** *Use Word, Google Docs and Canva to create school assignments and posters.* / *Marked lanes and timed races at the school swimming carnival.* / *Supervised a group of six Year 7 students on school camp.*\n\n**Case study:** fake qualifications, invented work history, false references; she impersonated her referee. Strong: *Served customers two lunchtimes a week*; made up: *Café supervisor* when you never were.",
+    "resources": [
+      {
+        "label": "Lawpath — Lying on your resume can do more than just get you fired",
+        "url": "https://lawpath.com.au/blog/recent-case-shows-lying-on-your-resume-can-do-more-than-just-get-you-fired"
+      },
+      {
+        "label": "Youth Central — How to write a resume",
+        "url": "https://www.youthcentral.vic.gov.au/jobs-and-careers/applying-for-jobs/how-to-write-a-resume"
+      }
+    ],
+    "realityCheck": [
+      "**“I've got nothing to write.”** Every student has something. Start by listing a normal week together; caring roles, part-time family work and sport are gold.",
+      "**Handle home lives with care.** Some students' responsibilities (caring for a parent, working in a family business) are private. They choose what goes on the page.",
+      "**Referees matter.** Students often list friends or family. Explain why a coach, teacher or manager is better, and have them ask first.",
+      "**The case study involves an adult's crime.** The court took her mental health into account at sentencing. Keep the discussion on the lesson (honesty, and that employers check), not on mocking her.",
+      "**Works in a real class:** yes. Students leave with a usable document, and it pairs naturally with Crack the Job Ad (before) and Nail the Interview (after)."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer rows, and the final table as a template.",
+      "core": "Standard version: six sections, resume annotation, Life → skills, Power it up, the fake resume case, a one-page resume and a peer edit.",
+      "extend": "Adds tailor and honest to the vocabulary, quiz questions on tailoring and editing, and Level Ups on tailoring to a real ad and removing repetition."
+    }
+  }
+}

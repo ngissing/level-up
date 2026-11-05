@@ -1,0 +1,938 @@
+{
+  "id": "crack-the-job-ad",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "“Casual team member. Fast-paced. Flexible availability essential.” You read the job ad three times. What does it mean? Is it for you?",
+      "core": "“Casual team member. Fast-paced environment. Flexible availability essential. RSA desirable. Award rates + super.” You've read it three times. Is it for you? Would you even get it? And what's “flexible availability” really asking?"
+    },
+    "why": {
+      "support": "Job ads use their own words. Learn them and you can tell fast what a job is, if you can apply, and if the ad is fake.",
+      "core": "Job ads are written in their own code. Once you can crack it, you can tell in a minute what a job really involves, whether you can apply, and how to make your application fit. You can also spot the fake ones, which are built to trick people looking for their first job.",
+      "extend": "Job ads are short texts with their own words, structure and hidden meanings. Decoding them fast lets you judge fit, tailor your application and avoid scam ads aimed at young jobseekers."
+    },
+    "canDo": {
+      "support": [
+        "I can find the main parts of a job ad.",
+        "I can explain words like casual and super.",
+        "I can say what an ad really wants.",
+        "I can spot a fake job ad."
+      ],
+      "core": [
+        "I can find the key parts of a job ad: **role, pay, hours, essential, desirable, how to apply**.",
+        "I can explain **job ad words** like casual, award rate and super.",
+        "I can work out what an ad **really** means.",
+        "I can spot a **scam job ad**."
+      ]
+    },
+    "showIt": "Decode a real job ad, decide whether you'd apply, and explain why.",
+    "vocab": [
+      {
+        "word": "casual",
+        "meaning": "work with no set hours; paid a bit more per hour, but no paid holidays or sick days",
+        "example": "She has a casual job at the bakery."
+      },
+      {
+        "word": "award rate",
+        "meaning": "the lowest pay the law allows for that job",
+        "example": "The ad pays award rates."
+      },
+      {
+        "word": "super",
+        "meaning": "money your employer saves for you for when you retire",
+        "example": "They pay super on top of your wage."
+      },
+      {
+        "word": "essential",
+        "meaning": "you must have it to get the job",
+        "example": "A licence is essential."
+      },
+      {
+        "word": "desirable",
+        "meaning": "it would help, but you can still apply without it",
+        "example": "Barista skills are desirable."
+      },
+      {
+        "word": "availability",
+        "meaning": "the days and times you can work",
+        "example": "My availability is weekends."
+      },
+      {
+        "word": "shortlisted",
+        "meaning": "picked for the next step, like an interview",
+        "example": "Only shortlisted people get a call.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "scam",
+        "meaning": "a trick to steal your money or details",
+        "example": "The “job” was a scam.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Crack the Job Ad in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Crack the Job Ad",
+        "sub": "What do they actually want?",
+        "icon": "lucide:briefcase",
+        "say": "Crack the job ad. What do they actually want?"
+      },
+      {
+        "kind": "big",
+        "title": "Same parts, every time",
+        "text": "Role · Pay · Hours · **Essential** · Desirable · Apply",
+        "icon": "lucide:scan-text",
+        "say": "Every job ad has the same parts. Learn where they are, and you can read one in a minute.",
+        "vc": [
+          "VC2E5LY08",
+          "VC2E4LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "!",
+        "pill": "Key words",
+        "pillIcon": "lucide:briefcase",
+        "title": "Essential",
+        "text": "**Must** have it.",
+        "icon": "lucide:circle-check",
+        "say": "Essential means you must have it. If you don't, you probably won't get the job.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "+",
+        "pill": "Key words",
+        "pillIcon": "lucide:briefcase",
+        "title": "Desirable",
+        "text": "**Nice** to have.",
+        "icon": "lucide:circle-plus",
+        "say": "Desirable means it would help. You can still apply without it.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "?",
+        "pill": "Key words",
+        "pillIcon": "lucide:briefcase",
+        "title": "Read between the lines",
+        "text": "*Fast-paced* = **busy**",
+        "icon": "lucide:search",
+        "say": "Some words mean more than they say. Fast-paced means busy. Flexible availability means they might call you in at short notice.",
+        "vc": [
+          "VC2E5LY09",
+          "VC2E3LA11"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Spot the scam",
+        "text": "Big pay + easy tasks + **pay to start** = scam",
+        "icon": "lucide:shield-alert",
+        "say": "Job scams are growing. In 2024, Australians reported losing 13.7 million dollars to them. Red flags: big pay for easy tasks, chat apps, and paying to start.",
+        "vc": [
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Crack any ad",
+        "steps": [
+          "Role + pay + hours",
+          "Essential vs desirable",
+          "Read between the lines",
+          "Red flags?",
+          "Decide"
+        ],
+        "say": "To crack any job ad: find the role and pay, check the essentials, read between the lines, then decide."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Find it. Crack it. Decide.",
+        "icon": "lucide:briefcase",
+        "say": "Your mission. Find a real job ad, crack it, and decide if you'd apply."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to read a job ad",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Most job ads have **six parts**.\n\n1. **The role.** The job and if it's **casual**. Casual means no set hours.\n2. **The pay.** *Award rates* means the lowest pay the law allows. **Super** is money saved for when you retire.\n3. **The hours.** When they need you.\n4. **Essential.** What you **must** have.\n5. **Desirable.** What would **help**. You can still apply.\n6. **How to apply.** What to send, where, and by when.\n\nSome words have a hidden meaning. *Fast-paced* means busy.\n\nWatch for **fake ads**. Big pay for easy work? A chat app? Paying to start? It's a scam. A real boss pays **you**.",
+          "core": "Job ads look different, but nearly all have the same **six parts**. Learn where to find them and you can read an ad in a minute.\n\n1. **The role.** The job title and the kind of work: **casual**, part-time or full-time. Casual means no set hours. You're usually paid a bit more per hour, but you don't get paid holidays or sick days.\n2. **The pay.** It might be a dollar amount, or **award rates + super**. An **award rate** is the lowest pay the law allows for that job. **Super** is money your employer saves for you for when you retire.\n3. **The hours.** When they need you. If the ad says *weekends only* and you play footy on Saturdays, it's not for you.\n4. **Essential.** What you **must** have: maybe being 15 or over, a Working with Children Check, or being able to work Saturday mornings.\n5. **Desirable.** What would **help**: experience, a food handling certificate. You can still apply without these.\n6. **How to apply.** What to send (a resume, a short message), where to send it, and the **closing date**.\n\nJob ads also use **code words**. *Fast-paced* means busy. *Flexible availability* means they might call you in at short notice. *Team player* means you'll work closely with others. Reading between the lines tells you what the job is really like.\n\nFinally, watch for **scams**. Fake job ads promise big pay for easy work, move you to chat apps like WhatsApp, or ask you to pay money to start. A real employer pays you, not the other way around.\n\nAnd know your rights: an unpaid **trial** is only allowed if it's short, supervised and just to show your skills. If you're doing real work, you should be paid.",
+          "extend": "Job ads vary in style, but most share **six parts**. Knowing them lets you find key information fast.\n\n1. **The role**: title and type of work. **Casual** work has no set hours. Casuals are usually paid a higher hourly rate instead of paid leave.\n2. **The pay**: a figure, or **award rates + super**. The **award** sets the legal minimum for the job. **Super** is what your employer pays into your retirement savings.\n3. **The hours**: when you'll be needed.\n4. **Essential criteria**: non-negotiable requirements, such as a minimum age, a Working with Children Check or specific availability.\n5. **Desirable criteria**: advantages, not requirements. Don't talk yourself out of applying because you don't meet them all.\n6. **How to apply**: documents, method and **closing date**.\n\nAds also use stock phrases that soften the truth. *Fast-paced environment* signals pressure. *Flexible availability* can mean shifts at short notice. *Competitive pay* tells you nothing specific. Inferring what's implied is part of reading the ad.\n\nFinally, judge reliability. Scam ads offer unusually high pay for simple tasks, move contact to messaging apps, or ask for payment to start. Under Fair Work rules, an unpaid trial must be short, supervised and only to show skills. Real work must be paid."
+        },
+        "vc": [
+          "VC2E5LY08",
+          "VC2E4LY08",
+          "VC2E5LA08",
+          "VC2E3LA11",
+          "VC2E5LY09"
+        ],
+        "vcNote": "The characteristic features of a job advertisement; technical workplace vocabulary; inferring implied meanings."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The job that cost money",
+        "icon": "lucide:shield-alert",
+        "body": {
+          "support": "Fake job ads are a big problem. In **2024**, people in Australia lost **$13.7 million** to job scams.\n\nYoung people are often the target. Students looking for part-time work are hit hard.\n\nHere's how it works. A “boss” messages you on an app. They offer good money for easy tasks, like liking videos. Then they say you have to **pay** to earn more. You never get the money back.\n\nThe government took down more than **1,850 fake job ads** in six months.\n\nThe warning signs: pay that's too good, jobs that are too easy, chat apps, and being asked to **pay**.",
+          "core": "Job scams are one of the fastest-growing scams in Australia. In **2023**, Australians reported losing **$24.3 million** to them, up **151%** from the year before. In **2024**, Scamwatch got more than **3,000 reports**, with losses of **$13.7 million**.\n\nScamwatch says these scams hit people aged **18 to 44** the hardest, including **students looking for part-time work**.\n\nA common trick is the **task scam**. A “recruiter” messages you, often on WhatsApp or social media. They offer good pay for easy online tasks, like rating products or liking videos. At first you might even get a small payment. Then they say you need to pay money to unlock bigger earnings. The money never comes back.\n\nThe government's **National Anti-Scam Centre** set up a team to fight job scams. Between **September 2024 and March 2025**, it had more than **1,850 fake job ads** and **29,000 scam social media accounts** taken down.\n\nThe warning signs are in the text: pay that's too good, tasks that are too easy, a chat app instead of a real application, and any request for **you** to pay **them**.",
+          "extend": "Job scams have grown fast in Australia. Reported losses reached **$24.3 million** in **2023**, up **151%** on 2022. In **2024**, Scamwatch received more than **3,000 reports**, with **$13.7 million** lost.\n\nScamwatch data show these scams disproportionately affect Australians aged **18 to 44**, including **students seeking part-time work**.\n\nThe most common type is the **task-based scam**. A fake recruiter, usually on a messaging app or social media, offers generous pay for simple online tasks. Small early payments build trust. Then victims are told to deposit money to unlock bigger earnings, which never arrive.\n\nIn response, the **National Anti-Scam Centre** formed a job scam fusion cell. Between **September 2024 and March 2025**, it removed more than **29,000 scam social media accounts** and **1,850 fake job ads**.\n\nThe red flags are in the text: pay that's too good, vague or trivial duties, informal contact, and any request for the worker to pay the employer."
+        },
+        "source": {
+          "name": "Scamwatch — “Fusion cell disrupts scam job networks targeting Australians” (2025)",
+          "url": "https://www.scamwatch.gov.au/about-us/news-and-alerts/fusion-cell-disrupts-scam-job-networks-targeting-australians"
+        },
+        "think": {
+          "support": [
+            "What are the warning signs?",
+            "What would you do?"
+          ],
+          "core": [
+            "What are the red flags in a scam job ad?",
+            "Why might students looking for part-time work be targeted?",
+            "What would you do if a “recruiter” messaged you?"
+          ]
+        },
+        "vc": [
+          "VC2E5LY09",
+          "VC2E7LY07"
+        ],
+        "vcNote": "Evaluating the reliability of job ads using real scam data."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a job ad",
+      "docTitle": "CASUAL KITCHEN HAND — BEAN THERE CAFÉ, GEELONG (EXAMPLE)",
+      "vc": [
+        "VC2E5LY08",
+        "VC2E5LA08",
+        "VC2E4LY08"
+      ],
+      "vcNote": "The parts and specialist vocabulary of a job advertisement.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Role",
+          "value": "Casual kitchen hand",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Pay",
+          "value": "Award rates + super"
+        },
+        {
+          "n": 3,
+          "label": "Hours",
+          "value": "Weekends and school holidays, 10–20 hours a week"
+        },
+        {
+          "n": 4,
+          "label": "Essential",
+          "value": "Available Saturday and Sunday mornings. Able to work in a fast-paced kitchen."
+        },
+        {
+          "n": 5,
+          "label": "Desirable",
+          "value": "Food handling certificate. Previous kitchen experience."
+        },
+        {
+          "n": 6,
+          "label": "How to apply",
+          "value": "Email your resume and a short message to the manager by Friday 14 March. Only shortlisted applicants will be contacted.",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Role",
+          "note": "Casual: no set hours, no paid leave."
+        },
+        {
+          "n": 2,
+          "label": "Pay",
+          "note": "The legal minimum for the job, plus super."
+        },
+        {
+          "n": 3,
+          "label": "Hours",
+          "note": "Check they fit your life."
+        },
+        {
+          "n": 4,
+          "label": "Essential",
+          "note": "Must have. “Fast-paced” = busy."
+        },
+        {
+          "n": 5,
+          "label": "Desirable",
+          "note": "Helps, but you can apply without it."
+        },
+        {
+          "n": 6,
+          "label": "How to apply",
+          "note": "What, how and by when. Silence may mean no."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Should I apply?",
+      "steps": [
+        {
+          "title": "Fit",
+          "text": "Do the hours and place work for me?",
+          "icon": "lucide:calendar-check"
+        },
+        {
+          "title": "Essential",
+          "text": "Do I have every essential?",
+          "icon": "lucide:circle-check"
+        },
+        {
+          "title": "Legit",
+          "text": "Any red flags? Real business?",
+          "icon": "lucide:shield-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "The ad says **desirable: barista experience**. You've never made a coffee. Should you apply?",
+        "options": [
+          "Yes: desirable means it helps, but it's not a must",
+          "No: you need it",
+          "Only if you lie",
+          "Only if you pay for a course first"
+        ],
+        "answer": 0,
+        "explain": "Desirable = nice to have. Essential = must have.",
+        "vc": [
+          "VC2E5LA08",
+          "VC2E3LA11"
+        ]
+      },
+      {
+        "q": "What does **casual** mean in a job ad?",
+        "options": [
+          "No set hours, usually a bit more pay per hour, no paid leave",
+          "Wear casual clothes",
+          "Only work when you feel like it",
+          "Unpaid"
+        ],
+        "answer": 0,
+        "explain": "Casual is an employment type with a specific meaning.",
+        "vc": [
+          "VC2E5LA08",
+          "VC2E3LA11"
+        ]
+      },
+      {
+        "q": "An ad says **fast-paced environment**. What does that really mean?",
+        "options": [
+          "It's busy",
+          "It's a running job",
+          "It's a short job",
+          "You'll be paid fast"
+        ],
+        "answer": 0,
+        "explain": "Reading between the lines.",
+        "vc": [
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "q": "Which is a **red flag** for a scam job ad?",
+        "options": [
+          "You have to pay money to start",
+          "You email a resume by a closing date",
+          "The pay is award rates + super",
+          "It lists essential skills"
+        ],
+        "answer": 0,
+        "explain": "A real employer pays you, not the other way around.",
+        "vc": [
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "q": "Who did Scamwatch say job scams hit hardest?",
+        "options": [
+          "People aged 18 to 44, including students looking for part-time work",
+          "People over 80",
+          "Only business owners",
+          "Nobody: they're rare"
+        ],
+        "answer": 0,
+        "explain": "$13.7 million was reported lost in 2024.",
+        "vc": [
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "q": "Where would you find **when** to apply by?",
+        "options": [
+          "How to apply (the closing date)",
+          "The role",
+          "The pay",
+          "Desirable"
+        ],
+        "answer": 0,
+        "explain": "How to apply = what, how and by when.",
+        "vc": [
+          "VC2E5LY08",
+          "VC2E4LY08"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "“Competitive pay” tells you…",
+        "options": [
+          "Nothing specific: it's vague",
+          "The exact hourly rate",
+          "That it's award rates",
+          "That it's unpaid"
+        ],
+        "answer": 0,
+        "explain": "Some phrases sound good but carry little information.",
+        "vc": [
+          "VC2E7LY07"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Find a real job ad. Fill in the decoder. Say if you'd apply and why.",
+      "core": "Find a real job ad, decode its six parts and any code words or red flags, and decide whether you'd apply, with reasons.",
+      "extend": "Decode a real job ad, infer what its phrasing implies about the job, evaluate its reliability, and write a short, reasoned decision about whether to apply."
+    },
+    "checklist": [
+      "I found the role, pay and hours",
+      "I separated essential from desirable",
+      "I explained one code word",
+      "I checked for red flags",
+      "I decided, with reasons"
+    ],
+    "levelUp": "Compare two ads for similar jobs. Which tells you more, and which would you apply for? Summarise each in one sentence.",
+    "vc": [
+      "VC2E5LY08",
+      "VC2E5LY09",
+      "VC2E5LA08"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to read a job ad",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What's the difference between **essential** and **desirable**?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA08",
+              "VC2E3LA11"
+            ]
+          },
+          {
+            "q": "What does **award rates + super** mean?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA08"
+            ]
+          },
+          {
+            "q": "Name **two** red flags for a scam job ad.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a job ad",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the ad. Use the word bank. Write what it tells you.",
+          "core": "Each number marks a part of the ad. Write what it is and what it tells you."
+        },
+        "columns": [
+          "What is it?",
+          "What does it tell you?"
+        ],
+        "wordBank": {
+          "support": [
+            "role",
+            "pay",
+            "hours",
+            "essential",
+            "desirable",
+            "how to apply"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LY08",
+          "VC2E4LY08",
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Read between the lines",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 16
+        },
+        "instructions": "Job ads use code words. Write what each one **really** means. The first one is done for you.",
+        "columns": [
+          "The ad says…",
+          "It really means…"
+        ],
+        "rows": [
+          [
+            "Fast-paced environment",
+            "It's busy. You'll need to work quickly."
+          ],
+          [
+            "Flexible availability",
+            ""
+          ],
+          [
+            "Team player",
+            ""
+          ],
+          [
+            "Immediate start",
+            ""
+          ],
+          {
+            "cells": [
+              "Competitive pay",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "Only shortlisted applicants will be contacted",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LY09",
+          "VC2E3LA11",
+          "VC2E7LA08"
+        ],
+        "vcNote": "Inferring implied meanings; words with everyday and workplace meanings."
+      },
+      {
+        "type": "sort",
+        "title": "Real or scam?",
+        "pagebreak": true,
+        "choices": [
+          "Looks real",
+          "Red flag"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is a line from a job ad. Tick whether it looks real, or is a red flag.",
+        "cards": [
+          {
+            "from": "Job ad",
+            "text": "Earn $500 a day liking videos from your phone!",
+            "answer": "Red flag",
+            "flags": "Huge pay for an easy task."
+          },
+          {
+            "from": "Job ad",
+            "text": "Casual. Award rates + super. Saturday mornings.",
+            "answer": "Looks real",
+            "flags": "Clear role, pay and hours."
+          },
+          {
+            "from": "Job ad",
+            "text": "Message me on WhatsApp to start today.",
+            "answer": "Red flag",
+            "flags": "A chat app, no real application."
+          },
+          {
+            "from": "Job ad",
+            "text": "Email your resume to the manager by Friday 14 March.",
+            "answer": "Looks real",
+            "flags": "A real application process."
+          },
+          {
+            "from": "Job ad",
+            "text": "Pay a $50 starter fee to unlock your first tasks.",
+            "answer": "Red flag",
+            "flags": "You should never pay to work.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Job ad",
+            "text": "Unpaid trial: work every shift for your first two weeks.",
+            "answer": "Red flag",
+            "flags": "Real work must be paid.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LY09"
+        ],
+        "vcNote": "Evaluating the reliability of information in job ads."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the job that cost money",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How does a **task scam** work? Explain it in your own words.",
+            "lines": 3,
+            "vc": [
+              "VC2E5LY09",
+              "VC2E7LY07"
+            ]
+          },
+          {
+            "q": "Why might students looking for part-time work be targeted?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          },
+          {
+            "q": "A “recruiter” messages you about a job. What would you do?",
+            "lines": 2
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: crack a real job ad",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 16
+        },
+        "instructions": "Find a real job ad (on a job site, a shop window or a noticeboard, or one your teacher gives you). Fill in the decoder. The first row shows an example.",
+        "columns": [
+          "Part",
+          "What the ad says"
+        ],
+        "rows": [
+          [
+            "Example: job and employer",
+            "Kitchen hand at Bean There Café"
+          ],
+          [
+            "Job and employer",
+            ""
+          ],
+          [
+            "Casual, part-time or full-time?",
+            ""
+          ],
+          [
+            "Pay",
+            ""
+          ],
+          [
+            "Hours",
+            ""
+          ],
+          [
+            "Essential",
+            ""
+          ],
+          [
+            "Desirable",
+            ""
+          ],
+          [
+            "How to apply, and by when",
+            ""
+          ],
+          [
+            "Code words, and what they mean",
+            ""
+          ],
+          [
+            "Red flags?",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E5LY08",
+          "VC2E5LA08",
+          "VC2E5LY09"
+        ],
+        "vcNote": "Locating and interpreting the features of a real job advertisement."
+      },
+      {
+        "type": "flow",
+        "title": "Should I apply?",
+        "diagram": 1,
+        "pagebreak": true
+      },
+      {
+        "type": "questions",
+        "title": "Would I apply?",
+        "items": [
+          {
+            "q": "Would you apply for this job? Give **two reasons**, using the ad.",
+            "lines": 4,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find a **second** ad for a similar job. Summarise each ad in **one sentence**.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY07"
+            ]
+          },
+          {
+            "q": "Which ad tells you more? Which would you apply for, and why? Quote words from both.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY07",
+              "VC2E7LA08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find the six parts of a job ad.",
+          "I can explain job ad words.",
+          "I can read between the lines.",
+          "I can spot a scam job ad."
+        ],
+        "questions": [
+          "A job I'd love to apply for:",
+          "One job ad word I'll never forget:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the six conventional parts of a job advertisement (role, pay, hours, essential, desirable, how to apply), its specialist vocabulary (casual, award rate, super, shortlisted) and its code words (fast-paced, flexible availability), then evaluate reliability using real Scamwatch data on job scams. The final task decodes a real ad and makes a reasoned decision about applying.",
+    "prep": [
+      "Print 6–8 real, current job ads suitable for 14–17 year olds (fast food, retail, cafés, supermarkets, sport), in case devices or job sites are blocked.",
+      "Check job sites are reachable on school devices, or plan to use the printouts.",
+      "Optional: a local employer or careers adviser can talk about what they look for in applications."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The parts",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** project a real job ad. What does it want? Would you get it?",
+          "**Explicit teaching (10 min):** the six parts and key words, modelled on the café ad.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a job ad."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Between the lines",
+        "minutes": 50,
+        "steps": [
+          "**Read between the lines (15 min).** Discuss: what is the ad not saying?",
+          "**Real or scam? (10 min).**",
+          "**Case study (20 min):** the job that cost money. What would you do?",
+          "**Exit (5 min):** one red flag you'll remember."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Crack a real one",
+        "minutes": 50,
+        "steps": [
+          "**Find (10 min):** a real ad on a job site or from the printouts.",
+          "**Decoder (20 min):** final mission.",
+          "**Decide (10 min):** Would I apply?",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Six parts: role, pay, hours, essential, desirable, how to apply.",
+      "Essential = must have; desirable = helps, but you can still apply.",
+      "Casual: no set hours, higher hourly rate, no paid leave. Award rate = legal minimum. Super = retirement savings.",
+      "Read between the lines: fast-paced = busy.",
+      "Scam red flags: too-good pay, easy tasks, chat apps, paying to start. Unpaid trials must be short, supervised and only to show skills."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer rows and sort cards.",
+        "Choose from the teacher's printed ads."
+      ],
+      "extend": [
+        "Compare and summarise two ads (Level Up).",
+        "Discuss words with everyday and workplace meanings (casual, super, award)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LY08",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Identifies the features of a job ad that serve its purpose and audience (annotation, decoder)."
+      },
+      {
+        "vc": "VC2E3LA11",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Explains workplace vocabulary and words with different meanings in different contexts (Check your reading, Read between the lines)."
+      },
+      {
+        "vc": "VC2E5LY08",
+        "evidence": "Explains how a job ad's features meet its purpose and audience (annotation, decoder)."
+      },
+      {
+        "vc": "VC2E5LY09",
+        "evidence": "Uses comprehension strategies to infer and evaluate information, including reliability (Read between the lines, sort, case study, Would I apply?)."
+      },
+      {
+        "vc": "VC2E5LA08",
+        "evidence": "Uses and explains specialist terms precisely: casual, award rate, super, essential, desirable (Check your reading, decoder)."
+      },
+      {
+        "vc": "VC2E7LY07",
+        "evidence": "Level Up / case study: analyses and summarises the information in job ads."
+      },
+      {
+        "vc": "VC2E7LA08",
+        "evidence": "Explains terms with both everyday and workplace meanings (Read between the lines, Level Up)."
+      }
+    ],
+    "answers": "**Check your reading:** essential = must have; desirable = helps but not required. Award rates = the legal minimum pay for the job; super = money your employer saves for your retirement. Red flags: very high pay for easy tasks, chat apps, paying to start.\n\n**Job ad:** 1 role (casual: no set hours, no paid leave); 2 pay (award minimum + super); 3 hours; 4 essential (fast-paced = busy); 5 desirable; 6 how to apply (closing date; no reply may mean no).\n\n**Read between the lines (samples):** flexible availability — they may call you in at short notice; team player — you'll work closely with others; immediate start — they need someone now; competitive pay — vague, tells you nothing specific; only shortlisted contacted — if you don't hear back, you didn't get to the next step.\n\n**Sort:** $500 a day — red flag; casual award rates — looks real; WhatsApp — red flag; email by Friday — looks real; starter fee — red flag; two-week unpaid trial — red flag.\n\n**Case study:** a fake recruiter offers pay for easy online tasks, may pay a little at first, then asks you to deposit money to earn more, which you never get back; students want flexible, easy work and may be less experienced; don't pay, don't share details, check the business independently, report it to Scamwatch.",
+    "resources": [
+      {
+        "label": "Scamwatch — Fusion cell disrupts scam job networks (2025)",
+        "url": "https://www.scamwatch.gov.au/about-us/news-and-alerts/fusion-cell-disrupts-scam-job-networks-targeting-australians"
+      },
+      {
+        "label": "ACCC — National Anti-Scam Centre fusion cell on job scams",
+        "url": "https://www.accc.gov.au/media-release/second-national-anti-scam-centre-fusion-cell-to-tackle-job-and-employment-scams"
+      },
+      {
+        "label": "Fair Work Ombudsman — Unpaid trials",
+        "url": "https://www.fairwork.gov.au/pay/unpaid-work/unpaid-trials"
+      },
+      {
+        "label": "Young Workers Centre (Victoria) — Unpaid trials",
+        "url": "https://www.youngworkers.org.au/unpaid_trials"
+      }
+    ],
+    "realityCheck": [
+      "**Job sites can be blocked or overwhelming.** Have printed ads ready, and choose roles 14–17 year olds can actually get.",
+      "**Pay rules are complex.** Keep to the basics (award minimum, casual vs permanent) and point students to the Fair Work Ombudsman's Pay Calculator rather than quoting rates, which change every year.",
+      "**Some students already have jobs.** Use them as experts: what did their job ad say, and what was the job really like?",
+      "**Scams are personal for some families.** Someone may have been caught. Keep it practical, not judgemental.",
+      "**Works in a real class:** yes. It's quick, relevant and leads straight into Build Your Resume and Nail the Interview."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer rows and sort cards, and the teacher's printed ads.",
+      "core": "Standard version: six parts of a job ad, annotation, code words, real-or-scam sort, the Scamwatch job scam case, and decoding a real ad with a reasoned decision.",
+      "extend": "Adds shortlisted and scam to the vocabulary, a quiz question on vague phrases, and a Level Up comparing and summarising two real ads."
+    }
+  }
+}

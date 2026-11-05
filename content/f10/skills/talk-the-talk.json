@@ -1,0 +1,959 @@
+{
+  "id": "talk-the-talk",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "It's 6 am. You're sick. Your shift starts at 9. Do you text or call your boss? What do you say?",
+      "core": "It's 6 am. You've been sick all night and your shift starts at 9. Your manager has never seen you sick before. Do you text? Call? What do you even say? And what about the message from your manager last night at 10:30: do you have to answer it?"
+    },
+    "why": {
+      "support": "Lots of problems at work are about talking. A sick day nobody knew about. A swap that wasn't OK'd. A question you didn't ask. Know what to say, and you'll be trusted.",
+      "core": "Most problems at work aren't about the work. They're about talk: a sick day nobody was told about, a shift swap that wasn't approved, a question you were too nervous to ask. Knowing what to say, how formal to be and when to put it in writing makes you the worker everyone trusts.",
+      "extend": "Workplace communication runs on unwritten rules: how formal to be with whom, what must be in writing, and when you're expected to respond. Mastering them protects your job, your relationships and your rights, including the right not to be on call when you're not being paid."
+    },
+    "canDo": {
+      "support": [
+        "I can call in sick the right way.",
+        "I can ask to swap a shift.",
+        "I can ask a question at work.",
+        "I can talk to my boss politely."
+      ],
+      "core": [
+        "I can **call in sick** clearly, early and politely.",
+        "I can ask for a **shift swap** the right way, and get it in writing.",
+        "I can **ask questions** and check instructions at work.",
+        "I can change how **formal** I am for a mate, a workmate or a manager."
+      ]
+    },
+    "showIt": "Write three workplace messages (calling in sick, a shift swap, a question to your manager), then role-play one as a conversation.",
+    "vocab": [
+      {
+        "word": "manager",
+        "meaning": "the person in charge of your shifts",
+        "example": "Message your manager if you're running late."
+      },
+      {
+        "word": "shift",
+        "meaning": "the hours you work on a day",
+        "example": "My shift is 4 to 9 pm."
+      },
+      {
+        "word": "roster",
+        "meaning": "the list of who works when",
+        "example": "Check the roster on Sunday."
+      },
+      {
+        "word": "swap",
+        "meaning": "trade a shift with someone else",
+        "example": "Can I swap my Saturday shift?"
+      },
+      {
+        "word": "formal",
+        "meaning": "polite and careful",
+        "example": "Use formal language with your manager."
+      },
+      {
+        "word": "in writing",
+        "meaning": "written down, in a message or email, so there's a record",
+        "example": "Get the swap approved in writing."
+      },
+      {
+        "word": "clarify",
+        "meaning": "check you've understood",
+        "example": "Can I clarify which tables you mean?",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "right to disconnect",
+        "meaning": "your right not to answer work messages after hours, in most cases",
+        "example": "It covers late-night texts.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Talk the Talk at Work in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Talk the Talk at Work",
+        "sub": "Calling in sick, swaps and asking questions.",
+        "icon": "lucide:messages-square",
+        "say": "Talk the talk at work. Calling in sick, swapping shifts, and asking questions."
+      },
+      {
+        "kind": "big",
+        "title": "Four rules",
+        "text": "**Early · Clear · Polite · In writing**",
+        "icon": "lucide:list-checks",
+        "say": "Four rules for talking at work. Early. Clear. Polite. In writing.",
+        "vc": [
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Situation",
+        "pillIcon": "lucide:briefcase",
+        "title": "Calling in sick",
+        "text": "Early. Say when you'll be back.",
+        "icon": "lucide:thermometer",
+        "say": "Calling in sick. Tell your manager as early as you can, before your shift. Say you can't work, and when you think you'll be back. Follow your workplace's rules: some want a call, not a text.",
+        "vc": [
+          "VC2E4LY01",
+          "VC2E5LY01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Situation",
+        "pillIcon": "lucide:briefcase",
+        "title": "Shift swaps",
+        "text": "Find a swap. **Get it approved.**",
+        "icon": "lucide:repeat",
+        "say": "Shift swaps. Find someone to swap with, then ask your manager to approve it. Get the yes in writing.",
+        "vc": [
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Situation",
+        "pillIcon": "lucide:briefcase",
+        "title": "Asking questions",
+        "text": "*Just to check, you mean…?*",
+        "icon": "lucide:circle-help",
+        "say": "Asking questions. If you're not sure, ask. Then check: just to clarify, you mean...?",
+        "vc": [
+          "VC2E5LY01",
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Situation",
+        "pillIcon": "lucide:briefcase",
+        "title": "Messaging the boss",
+        "text": "Hi · the point · thanks",
+        "icon": "lucide:mail",
+        "say": "Messaging your manager. Greeting, the point, a thank you. No slang, no lol.",
+        "vc": [
+          "VC2E6LA01",
+          "VC2E4LA01"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "The right to disconnect",
+        "text": "Off the clock? You can usually **switch off**.",
+        "icon": "lucide:moon",
+        "say": "Australian workers now have a right to disconnect. You can usually ignore work messages outside your working hours, unless that's unreasonable.",
+        "vc": [
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Three messages. One role-play.",
+        "icon": "lucide:messages-square",
+        "say": "Your mission. Write three workplace messages, then role-play one with a partner."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to talk at work",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "At work, how you say things matters. Four rules: be **early**, be **clear**, be **polite**, and get it **in writing**.\n\n**Calling in sick.** Tell your manager **early**, before your shift. Say you're sick. Say when you'll be back. Some workplaces want a call, not a text.\n\n**Swapping shifts.** Find someone to swap with. Then ask your manager to OK it. Keep the message.\n\n**Asking questions.** Not sure? Ask! Then check: *So you want me to…?*\n\n**Messaging your manager.** Say hi. Get to the point. Say thanks. No slang.\n\n- To a mate: *cant come 2day sick*\n- To a manager: *Hi Sarah, it's Jordan. I'm sick and can't come to my shift today. Sorry.*\n\nWhen you're not at work, you usually don't have to answer work messages.",
+          "core": "At work, how you say something matters as much as what you say. Four rules cover most situations: be **early**, be **clear**, be **polite**, and get important things **in writing**.\n\n**Calling in sick.** Tell your manager **as early as you can**, before your shift starts. Say who you are, that you're unwell and can't work, and when you think you'll be back. Follow your workplace's rules: many want a phone call, not a text. Your employer can ask for evidence, like a medical certificate, even for one day. (If you're **casual**, you usually don't get paid for sick days, but you still need to tell them.)\n\n**Shift swaps.** Find a workmate who can take your shift first. Then ask your manager to **approve** the swap, and keep the reply. If it isn't approved and nobody turns up, it's your name on the roster.\n\n**Asking questions.** Nobody expects a new worker to know everything. If you're not sure, ask. Then **check** you've got it: *Just to clarify, you want the tables wiped before the chairs go up?* It's much better than guessing wrong.\n\n**Messaging your manager.** Use a greeting, get to the point, and say thanks. Save the slang, emojis and *lol* for your mates. Compare:\n\n- *cant come 2day sick* (to a mate, fine)\n- *Hi Sarah, it's Jordan. I'm unwell and can't make my 4 pm shift today. I expect to be back on Thursday. Sorry for the short notice.* (to a manager)\n\nOne more thing: Australian workers now have a **right to disconnect**. Outside your working hours, you can usually choose not to read or reply to work messages, unless refusing would be unreasonable.",
+          "extend": "Talking at work comes down to timing, clarity, tone and keeping records. Four principles cover most situations: **early**, **clear**, **polite** and **in writing**.\n\n**Calling in sick.** Under Fair Work rules, you must tell your employer as soon as you reasonably can, ideally before the shift. Say you're unwell, you can't work, and when you expect to be back. Use the channel your workplace requires (often a call). Employers can ask for evidence, like a medical certificate, even for one day. **Casual** employees usually have no paid sick leave, but they still need to give notice.\n\n**Shift swaps.** Arrange cover first, then seek your manager's approval, and keep the written confirmation. Until it's approved, the shift is still yours.\n\n**Asking questions.** Clarifying is a professional skill, not a weakness. Say instructions back in your own words (*Just to clarify, you'd like…?*) to catch mistakes early.\n\n**Messaging your manager.** Formality shows respect: a greeting, a clear purpose and a polite close. Language that's fine with mates (*cant come 2day*) reads very differently to the person who sets your shifts.\n\nFinally, since 2024 Australian employees have had a **right to disconnect**. Outside working hours, they can refuse to read or reply to work contact, unless refusing is unreasonable."
+        },
+        "vc": [
+          "VC2E6LA01",
+          "VC2E4LA01",
+          "VC2E5LY01",
+          "VC2E4LY01"
+        ],
+        "vcNote": "Workplace interaction: formality and social distance, clarifying and paraphrasing, and gathering information to carry out tasks."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The right to switch off",
+        "icon": "lucide:moon",
+        "body": {
+          "support": "Some bosses send messages late at night. Lots of workers felt they had to reply.\n\nIn **2024**, the law changed. Now there is a **right to disconnect**. It started in **2024** for most workplaces. It started in **2025** for small businesses.\n\nIt means: when you're not at work, you **don't have to reply** to work messages. Unless it would be unreasonable.\n\nA text at 10:30 pm about tomorrow's shift? You can reply in the morning.\n\nIf there's a problem, talk to your boss first. The **Fair Work Commission** can help too.",
+          "core": "For years, lots of workers felt they had to answer their boss's messages any time: at dinner, late at night, on days off.\n\nIn **2024**, the law changed. Australia brought in a **right to disconnect**. It started on **26 August 2024** for most workplaces, and on **26 August 2025** for small businesses (those with fewer than 15 employees).\n\nIt means that outside your working hours, you can **refuse to read or reply** to work calls, messages and emails, **unless refusing would be unreasonable**.\n\nWhat's unreasonable depends on things like why they're contacting you, how urgent it is, whether you're paid to be available, and your role. A message at 10:30 pm asking you to cover tomorrow's shift? You can reply in the morning. A real emergency might be different.\n\nThe **Fair Work Ombudsman** says the first step is for workers and employers to talk it through. If that doesn't work, the **Fair Work Commission** can help sort it out.",
+          "extend": "Smartphones blurred the line between work and home for many workers. Messages arrived at dinner, late at night and on days off, with an unspoken expectation of a quick reply.\n\nIn **2024**, federal Parliament added a **right to disconnect** to the *Fair Work Act*. It began on **26 August 2024** for most employers. It reached small businesses (fewer than 15 employees) on **26 August 2025**.\n\nOutside working hours, employees may **refuse to read or reply** to work contact, unless refusing is **unreasonable**. That depends on things like how urgent the contact is, whether the worker is paid to be on call, their role and their situation.\n\nThe Fair Work Ombudsman encourages workers and employers to sort out disagreements at work first. If they can't, the **Fair Work Commission** can help.\n\nThe law shows that workplace communication carries power: who can contact whom, when, and whether they expect an answer."
+        },
+        "source": {
+          "name": "Fair Work Ombudsman — “Small business employees now have the right to disconnect” (August 2025)",
+          "url": "https://www.fairwork.gov.au/newsroom/media-releases/2025-media-releases/august-2025/20250826-right-to-disconnect-starts-for-small-business-employees-media-release"
+        },
+        "think": {
+          "support": [
+            "What is the right to disconnect?",
+            "When would you reply?"
+          ],
+          "core": [
+            "What does the right to disconnect let you do?",
+            "When might refusing to reply be unreasonable?",
+            "How would you reply to a late-night message the next morning?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY01",
+          "VC2E8LA01"
+        ],
+        "vcNote": "A real change to Australian workplace law about communication, roles and expectations."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a shift-swap message",
+      "docTitle": "MESSAGE TO MANAGER: SHIFT SWAP (EXAMPLE)",
+      "vc": [
+        "VC2E6LA01",
+        "VC2E4LA01",
+        "VC2E4LY01"
+      ],
+      "vcNote": "The structure and formality of a workplace request.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Greeting",
+          "value": "Hi Sarah,"
+        },
+        {
+          "n": 2,
+          "label": "Who",
+          "value": "It's Jordan from the Saturday kitchen team."
+        },
+        {
+          "n": 3,
+          "label": "The request",
+          "value": "Could I swap my Saturday 10 am–3 pm shift with Mia's Sunday 10 am–3 pm shift?",
+          "strong": true
+        },
+        {
+          "n": 4,
+          "label": "Done the work",
+          "value": "Mia has already said yes."
+        },
+        {
+          "n": 5,
+          "label": "Reason (short)",
+          "value": "I have a school sports carnival on Saturday."
+        },
+        {
+          "n": 6,
+          "label": "Close",
+          "value": "Please let me know if that's OK. Thanks, Jordan",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Greeting",
+          "note": "Friendly but polite."
+        },
+        {
+          "n": 2,
+          "label": "Who",
+          "note": "Managers get lots of messages."
+        },
+        {
+          "n": 3,
+          "label": "Request",
+          "note": "Exact days and times."
+        },
+        {
+          "n": 4,
+          "label": "Cover sorted",
+          "note": "You've solved the problem first."
+        },
+        {
+          "n": 5,
+          "label": "Reason",
+          "note": "Short. No life story needed."
+        },
+        {
+          "n": 6,
+          "label": "Close",
+          "note": "Asks for approval. Polite thanks."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Calling in sick",
+      "steps": [
+        {
+          "title": "Early",
+          "text": "Before your shift. As soon as you know.",
+          "icon": "lucide:alarm-clock"
+        },
+        {
+          "title": "Clear",
+          "text": "You're unwell, you can't work, when you'll be back.",
+          "icon": "lucide:message-circle"
+        },
+        {
+          "title": "Follow up",
+          "text": "Evidence if they ask. Check the roster.",
+          "icon": "lucide:file-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "You wake up sick. Your shift is at 9 am. When should you tell your manager?",
+        "options": [
+          "As early as you can, before your shift",
+          "After your shift starts",
+          "Tomorrow",
+          "Only if they ask"
+        ],
+        "answer": 0,
+        "explain": "Early gives them time to find cover.",
+        "vc": [
+          "VC2E4LY01"
+        ]
+      },
+      {
+        "q": "Which message suits a **manager**?",
+        "options": [
+          "Hi Sarah, it's Jordan. I'm unwell and can't make my 4 pm shift today.",
+          "cant come 2day sick lol",
+          "not coming",
+          "sick. bye"
+        ],
+        "answer": 0,
+        "explain": "Greeting, who, the point, politely.",
+        "vc": [
+          "VC2E6LA01",
+          "VC2E4LA01"
+        ]
+      },
+      {
+        "q": "Before you ask your manager about a shift swap, you should…",
+        "options": [
+          "Find someone who can take your shift",
+          "Just not turn up",
+          "Post it in the group chat and leave it",
+          "Change the roster yourself"
+        ],
+        "answer": 0,
+        "explain": "Solve the problem first, then ask for approval.",
+        "vc": [
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "q": "Your supervisor explains something quickly and you're not sure. What do you say?",
+        "options": [
+          "“Just to check, you want me to…?”",
+          "Nothing: guess",
+          "“Whatever.”",
+          "“I'll work it out later.”"
+        ],
+        "answer": 0,
+        "explain": "Clarifying beats guessing.",
+        "vc": [
+          "VC2E5LY01",
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "q": "Your manager texts at 10:30 pm about tomorrow. Under the right to disconnect, you…",
+        "options": [
+          "can usually reply in the morning",
+          "must reply straight away",
+          "must call them back now",
+          "should block them"
+        ],
+        "answer": 0,
+        "explain": "Unless refusing would be unreasonable.",
+        "vc": [
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "q": "Why get a shift swap approved **in writing**?",
+        "options": [
+          "So there's a record if there's a mix-up",
+          "Because it's more fun",
+          "So you can share it online",
+          "It doesn't matter"
+        ],
+        "answer": 0,
+        "explain": "Written approval protects you.",
+        "vc": [
+          "VC2E6LA01"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Why might the same request sound different to a workmate and a manager?",
+        "options": [
+          "Language changes with the relationship and role",
+          "Managers can't read slang",
+          "Workmates don't need to know",
+          "It shouldn't"
+        ],
+        "answer": 0,
+        "explain": "Language shapes, and shows, relationships and roles.",
+        "vc": [
+          "VC2E8LA01"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write three short messages to a manager: sick, a swap and a question. Then act one out with a partner.",
+      "core": "Write three workplace messages (calling in sick, a shift swap, and a question to your manager) at the right level of formality, then role-play one as a conversation.",
+      "extend": "Write three workplace messages with formality suited to the relationship, then deliver one as a formal spoken conversation, clarifying and responding to questions."
+    },
+    "checklist": [
+      "Each message has a greeting, the point and a thank you",
+      "My sick message says when I'll be back",
+      "My swap message names the person covering",
+      "My question is clear and specific",
+      "I role-played one out loud"
+    ],
+    "levelUp": "Write the same request to a workmate and to your manager. Explain what the differences show about your relationship with each.",
+    "vc": [
+      "VC2E6LA01",
+      "VC2E5LY01",
+      "VC2E4LA01"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to talk at work",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Write the **four rules**.",
+            "lines": 0,
+            "vc": [
+              "VC2E6LA01"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "What three things should you say when you call in sick?",
+            "lines": 2,
+            "vc": [
+              "VC2E4LY01"
+            ]
+          },
+          {
+            "q": "Why should you find someone to cover **before** asking for a swap?",
+            "lines": 1
+          },
+          {
+            "q": "What is the **right to disconnect**?",
+            "lines": 1,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a shift-swap message",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the message. Use the word bank. Write why it helps.",
+          "core": "Each number marks part of the message. Write what it is and why it helps."
+        },
+        "columns": [
+          "What is it?",
+          "Why does it help?"
+        ],
+        "wordBank": {
+          "support": [
+            "greeting",
+            "who",
+            "request",
+            "cover sorted",
+            "reason",
+            "close"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LA01",
+          "VC2E4LA01"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Mate or manager?",
+        "pagebreak": true,
+        "choices": [
+          "To a mate",
+          "To a manager"
+        ],
+        "reasonLabel": "Clue:",
+        "instructions": "Who was each message written for? Tick one, and write the clue.",
+        "cards": [
+          {
+            "from": "Message",
+            "text": "cant come 2nite, sick 🤒",
+            "answer": "To a mate",
+            "flags": "Slang, emoji, no greeting."
+          },
+          {
+            "from": "Message",
+            "text": "Hi Sarah, I'm unwell and can't make my 4 pm shift today.",
+            "answer": "To a manager",
+            "flags": "Greeting, clear, polite."
+          },
+          {
+            "from": "Message",
+            "text": "yo can u take my sat??",
+            "answer": "To a mate",
+            "flags": "Casual."
+          },
+          {
+            "from": "Message",
+            "text": "Could I please swap my Saturday shift with Mia's Sunday shift?",
+            "answer": "To a manager",
+            "flags": "Polite request."
+          },
+          {
+            "from": "Message",
+            "text": "Thanks for showing me the till today, I really appreciate it.",
+            "answer": "To a manager",
+            "flags": "Polite and specific.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Message",
+            "text": "lol the boss was so stressed today",
+            "answer": "To a mate",
+            "flags": "Don't send this to the boss!",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LA01",
+          "VC2E4LA01"
+        ],
+        "vcNote": "Recognising how language changes with formality and social distance."
+      },
+      {
+        "type": "table",
+        "title": "Fix the message",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 18
+        },
+        "instructions": "Rewrite each message so it's right for a **manager**. The first one is done for you.",
+        "columns": [
+          "Too casual",
+          "For your manager"
+        ],
+        "rows": [
+          [
+            "cant come in sick",
+            "Hi Sarah, it's Jordan. I'm unwell and can't make my shift today. I'll let you know about tomorrow."
+          ],
+          [
+            "wat time do i start sat",
+            ""
+          ],
+          [
+            "can someone do my shift thx",
+            ""
+          ],
+          {
+            "cells": [
+              "im gonna be late lol traffic",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LA01",
+          "VC2E4LA01"
+        ],
+        "vcNote": "Adjusting language for a more formal workplace relationship."
+      },
+      {
+        "type": "flow",
+        "title": "Calling in sick",
+        "diagram": 1
+      },
+      {
+        "type": "scenarios",
+        "title": "What would you say?",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Your supervisor shows you how to clean the coffee machine, fast. You missed a step. What do you say?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY01",
+              "VC2E4LY01"
+            ]
+          },
+          {
+            "q": "A customer asks you something you don't know. What do you say to them, and to your supervisor?",
+            "lines": 2,
+            "vc": [
+              "VC2E4LY01"
+            ]
+          },
+          {
+            "q": "Your manager asks you to stay two hours longer, but your last bus leaves soon. What do you say?",
+            "lines": 3,
+            "vc": [
+              "VC2E6LY01"
+            ]
+          },
+          {
+            "q": "Your manager says: *“Can you do the bins and the back storeroom before close?”* Repeat it back to check.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY01"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LY01"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the right to switch off",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What does the right to disconnect let workers do?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY01"
+            ]
+          },
+          {
+            "q": "Your manager messages at 10:30 pm: *“Can you cover tomorrow 7 am?”* Write the reply you'd send **the next morning**.",
+            "lines": 3,
+            "vc": [
+              "VC2E6LA01"
+            ]
+          },
+          {
+            "q": "When might refusing to reply be **unreasonable**?",
+            "lines": 2,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: three messages",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 40,
+          "core": 38
+        },
+        "instructions": "Write each message to your manager. Use a greeting, the point and a thank you.",
+        "columns": [
+          "Situation",
+          "My message"
+        ],
+        "rows": [
+          [
+            "Example: running late",
+            "Hi Sarah, it's Jordan. My bus has broken down, so I'll be about 20 minutes late. Sorry about that. See you soon."
+          ],
+          [
+            "Calling in sick (say when you'll be back)",
+            ""
+          ],
+          [
+            "Asking for a shift swap (say who will cover)",
+            ""
+          ],
+          [
+            "Asking a question about your roster or a task",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LA01",
+          "VC2E4LA01",
+          "VC2E4LY01"
+        ],
+        "vcNote": "Writing short workplace messages at the right level of formality."
+      },
+      {
+        "type": "questions",
+        "title": "Role-play it",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "With a partner, act out **calling in sick** as a phone call. One of you is the manager. Swap. What did you say, and what did the manager ask?",
+            "lines": 3,
+            "vc": [
+              "VC2E5LY01",
+              "VC2E6LY01",
+              "VC2E7LY02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "items": [
+          {
+            "q": "Write the **same** request (asking for more shifts) to a workmate and to your manager. What do the differences show about each relationship?",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LA01"
+            ]
+          },
+          {
+            "q": "Plan and say out loud a short, formal request to your manager for more shifts over the holidays. Use formal language and a calm voice. What made it sound professional?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can call in sick the right way.",
+          "I can ask for a shift swap.",
+          "I can ask questions at work.",
+          "I can change how formal I am."
+        ],
+        "questions": [
+          "The workplace message I'll find hardest:",
+          "One thing I'll say differently at work now:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the everyday talk of a workplace: calling in sick, arranging and getting approval for shift swaps, asking and clarifying questions, and messaging a manager at the right level of formality. They study the right to disconnect (in force from 2024, and for small businesses from 2025), write three workplace messages and role-play a sick call.",
+    "prep": [
+      "Find out which students have jobs. They're your experts on how their workplace handles sick calls and swaps (apps, group chats, calls).",
+      "Optional: invite a local employer or a manager from a fast food or retail chain to say what they wish new workers knew.",
+      "Note: Make the Call covers phone call structure; this course is about workplace relationships and messages."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The four rules",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** the 6 am sick scenario. Students write what they'd send, then compare.",
+          "**Explicit teaching (10 min):** early, clear, polite, in writing; model a sick message and a swap message.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a shift-swap message."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Formality",
+        "minutes": 50,
+        "steps": [
+          "**Mate or manager? (10 min).**",
+          "**Fix the message (15 min).** Read rewrites aloud.",
+          "**What would you say? (20 min):** in pairs, act out each scenario.",
+          "**Exit (5 min):** one clarifying sentence you'll use."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Rights and messages",
+        "minutes": 50,
+        "steps": [
+          "**Case study (20 min):** the right to switch off. Discuss what's unreasonable.",
+          "**Final mission (25 min):** three messages.",
+          "**Exit (5 min):** swap and check a partner's sick message."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Role-play",
+        "minutes": 50,
+        "steps": [
+          "**Role-play it (20 min):** sick calls in pairs, then swap.",
+          "**Level Up (20 min).**",
+          "**Reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Early, clear, polite, in writing.",
+      "Calling in sick: before your shift; you're unwell, can't work, when you'll be back; evidence if asked. Casuals usually aren't paid for sick days.",
+      "Shift swaps: find cover first, then get approval, and keep it.",
+      "Clarify instructions by repeating them back.",
+      "Right to disconnect: outside working hours, you can usually choose not to reply, unless that's unreasonable."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and rows.",
+        "A scripted role-play."
+      ],
+      "extend": [
+        "Explain how language reflects workplace roles (Level Up).",
+        "Deliver a formal spoken request."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LY01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Gathers and gives the information needed to carry out workplace tasks (scenarios, final mission)."
+      },
+      {
+        "vc": "VC2E4LA01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses language suited to formal and informal workplace relationships (sort, Fix the message)."
+      },
+      {
+        "vc": "VC2E5LY01",
+        "evidence": "Uses paraphrasing and questioning to clarify meaning (scenarios, role-play)."
+      },
+      {
+        "vc": "VC2E6LA01",
+        "evidence": "Varies language as formality and social distance change (sort, Fix the message, final mission)."
+      },
+      {
+        "vc": "VC2E6LY01",
+        "evidence": "Uses interaction skills with awareness of formality when responding to requests and questions (scenarios, case study, role-play)."
+      },
+      {
+        "vc": "VC2E8LA01",
+        "evidence": "Level Up: explains how language shapes and reflects workplace relationships and roles."
+      },
+      {
+        "vc": "VC2E7LY02",
+        "evidence": "Level Up / role-play: delivers a structured, formal spoken request using appropriate voice."
+      }
+    ],
+    "answers": "**Four rules:** early, clear, polite, in writing. Sick call: you're unwell and can't work, and when you'll be back (and who you are). Find cover first so the manager only has to approve. Right to disconnect: outside working hours you can usually refuse to read or reply to work contact unless that's unreasonable.\n\n**Swap message:** 1 greeting; 2 who; 3 the request with exact times; 4 cover sorted; 5 short reason; 6 close asking for approval.\n\n**Sort:** sick emoji — mate; Hi Sarah unwell — manager; yo take my sat — mate; could I please swap — manager; thanks for the till — manager; boss was stressed — mate.\n\n**Fix the message (samples):** *Hi Sarah, could you please confirm what time I start on Saturday? Thanks, Jordan.* / *Hi Sarah, I can't make my Saturday shift. I'm asking around for someone to cover and will let you know.* / *Hi Sarah, I'm stuck in traffic and will be about 15 minutes late. Sorry.*\n\n**Case study reply (sample):** *Hi Sarah, sorry, I only just saw this. I can't do 7 am today, but I'm free from 12 if that helps.*",
+    "resources": [
+      {
+        "label": "Fair Work Ombudsman — Right to disconnect for small business employees (2025)",
+        "url": "https://www.fairwork.gov.au/newsroom/media-releases/2025-media-releases/august-2025/20250826-right-to-disconnect-starts-for-small-business-employees-media-release"
+      },
+      {
+        "label": "Fair Work Ombudsman — Notice and medical certificates",
+        "url": "https://www.fairwork.gov.au/leave/sick-and-carers-leave/paid-sick-and-carers-leave/notice-and-medical-certificates"
+      },
+      {
+        "label": "Young Workers Centre (Victoria)",
+        "url": "https://www.youngworkers.org.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Workplaces differ.** Many use rostering apps or group chats; some insist on a phone call. Teach the principles and tell students to follow their workplace's rules.",
+      "**Students with jobs are gold.** Ask them how their workplace handles sick calls and swaps, and what went wrong for them early on.",
+      "**Some students face unfair treatment at work.** If a student describes being pressured, underpaid or unsafe, point them to the Fair Work Ombudsman or the Young Workers Centre, and follow your school's wellbeing process.",
+      "**The right to disconnect has limits.** It's not a right to ignore your boss: refusal can be unreasonable. Keep the nuance.",
+      "**Works in a real class:** yes. It's quick, practical and immediately useful for any student with a casual job."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and rows, and a scripted role-play.",
+      "core": "Standard version: four rules, shift-swap message annotation, mate-or-manager sort, Fix the message, spoken scenarios, the right to disconnect, three messages and a role-play.",
+      "extend": "Adds clarify and right to disconnect to the vocabulary, a quiz question on language and roles, and Level Ups on relationships and a formal spoken request."
+    }
+  }
+}
