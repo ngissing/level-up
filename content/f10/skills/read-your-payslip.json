@@ -1,0 +1,1048 @@
+{
+  "id": "read-your-payslip",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Payday! **$254.20** is in your bank. You worked four shifts. Is that right? Your payslip tells you, if you can read it.",
+      "core": "Payday. **$254.20** lands in your account. You worked four shifts, including a Saturday. Is that right? Most people just shrug and spend it. But the answer is right there on your payslip, if you know how to read it."
+    },
+    "why": {
+      "support": "A payslip uses pay words like **gross** and **net**. Learn them. Then you can check your pay in a minute and catch mistakes.",
+      "core": "A payslip is a short text full of pay words: **gross**, **net**, **rate**, **loading**, **super**. Some of them mean something different from what they mean in everyday life. Once you can read them, you can check every payslip in a minute and catch mistakes before they cost you. Young workers get underpaid more than most. Checking is how you stop it.",
+      "extend": "A payslip is a compact technical text. Its vocabulary (gross, net, loading, penalty, super) often has a different meaning outside work. Reading it closely, checking the details and inferring what's missing lets you catch underpayments early, which matters, because young casual workers are often the ones underpaid."
+    },
+    "canDo": {
+      "support": [
+        "I can find the main parts of a payslip.",
+        "I can explain words like gross and net.",
+        "I can check my hours and pay.",
+        "I can spot a mistake and ask about it."
+      ],
+      "core": [
+        "I can find the key parts of a **payslip**.",
+        "I can explain **pay words** like gross, net, rate, loading and super.",
+        "I can **check** my hours, rate and maths.",
+        "I can **spot a mistake** and ask about it politely."
+      ]
+    },
+    "showIt": "Check a payslip line by line, explain what each part means, and write a polite message about a mistake.",
+    "vocab": [
+      {
+        "word": "payslip",
+        "meaning": "a record of what you were paid, and how",
+        "example": "My payslip came by email."
+      },
+      {
+        "word": "gross pay",
+        "meaning": "your total pay before anything is taken out",
+        "example": "My gross pay was $254.20."
+      },
+      {
+        "word": "net pay",
+        "meaning": "the pay that goes into your bank, after tax",
+        "example": "My net pay was the same, because no tax was taken."
+      },
+      {
+        "word": "pay rate",
+        "meaning": "how much you earn for each hour",
+        "example": "My pay rate is $16.40 an hour."
+      },
+      {
+        "word": "penalty rate",
+        "meaning": "a higher rate for times like weekends",
+        "example": "Saturday has a penalty rate."
+      },
+      {
+        "word": "super",
+        "meaning": "money your employer pays into a fund for when you're older",
+        "example": "I'll get super once I work more hours."
+      },
+      {
+        "word": "casual loading",
+        "meaning": "extra pay casuals get instead of paid leave",
+        "example": "My rate includes casual loading.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "year to date (YTD)",
+        "meaning": "the total since 1 July",
+        "example": "My YTD pay is $1,486.40.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Read Your Payslip in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Read Your Payslip",
+        "sub": "Did you get paid right? Find out.",
+        "icon": "lucide:receipt-text",
+        "say": "Read your payslip. Did you get paid right?"
+      },
+      {
+        "kind": "big",
+        "title": "It's the law",
+        "text": "A payslip within **1 working day** of payday",
+        "icon": "lucide:scale",
+        "say": "Your employer must give you a payslip within one working day of payday. On paper, by email, or in an app.",
+        "vc": [
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "G",
+        "pill": "Pay words",
+        "pillIcon": "lucide:receipt-text",
+        "title": "Gross",
+        "text": "**Before** anything comes out",
+        "icon": "lucide:coins",
+        "say": "Gross pay is your total pay, before anything is taken out. Nothing to do with gross food.",
+        "vc": [
+          "VC2E5LA08",
+          "VC2E3LA11"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "N",
+        "pill": "Pay words",
+        "pillIcon": "lucide:receipt-text",
+        "title": "Net",
+        "text": "What lands in your **bank**",
+        "icon": "lucide:landmark",
+        "say": "Net pay is what lands in your bank, after tax. Think of what's caught in the net.",
+        "vc": [
+          "VC2E5LA08",
+          "VC2E3LA11"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "×",
+        "pill": "Check it",
+        "pillIcon": "lucide:calculator",
+        "title": "Hours × rate",
+        "text": "Weekends often pay **more**",
+        "icon": "lucide:calculator",
+        "say": "Hours times rate. Check your hours match what you really worked. Weekends and late nights often pay more: a penalty rate.",
+        "vc": [
+          "VC2E5LY09",
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "S",
+        "pill": "Check it",
+        "pillIcon": "lucide:calculator",
+        "title": "Super at $0?",
+        "text": "Under 18: only in weeks over **30 hours**",
+        "icon": "lucide:piggy-bank",
+        "say": "Super. If you're under 18, your employer only has to pay super in weeks you work more than 30 hours. So zero super might be right.",
+        "vc": [
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Check every payslip",
+        "steps": [
+          "Hours",
+          "Rate",
+          "Maths",
+          "Ask"
+        ],
+        "say": "To check any payslip: check your hours, check your rate, check the maths, then ask if something's wrong."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Read it. Check it. Ask about it.",
+        "icon": "lucide:receipt-text",
+        "say": "Your mission. Check a payslip line by line, and write a polite message about a mistake."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to read your payslip",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Every time you're paid, you must get a **payslip** within **one working day**. It uses **pay words**.\n\n**Top:** your boss's business, your name, and the days you're being paid for.\n\n**Hours × rate.** Check your hours. Weekends often pay more. That's a **penalty rate**.\n\n**Gross pay.** Not yuck! It means your **total** pay, before anything comes out.\n\n**Tax.** Some money may go to the tax office. Many students pay little or none.\n\n**Net pay.** What goes into your **bank**.\n\n**Super.** Money saved for when you're older. If you're **under 18**, your boss only pays it in weeks you work **more than 30 hours**.\n\nSomething wrong? Check your hours. Then ask your manager, politely. The **Fair Work Ombudsman** can help for free.",
+          "core": "Every time you're paid, your employer must give you a **payslip** within **one working day**. It might be paper, an email or a page in an app. It's a short text, but it's packed with **pay words**. Some of them mean something different at work from what they mean everywhere else.\n\n**Who and when.** At the top: the employer's name and **ABN**, your name, the **pay period** (the days it covers) and the **pay date**.\n\n**Hours × rate.** Each line shows hours, a **pay rate** and an amount. Check the hours match what you really worked. Weekends, late nights and public holidays often pay more. That's a **penalty rate**. If you're **casual**, your rate usually includes a **casual loading**: extra pay instead of paid holidays and sick days. Under most awards it's 25%.\n\n**Gross pay.** Not gross as in disgusting! **Gross** means your total pay, **before** anything comes out.\n\n**Tax.** Some pay may be taken out as **tax** and sent to the tax office for you. How much depends on what you earn and the form you filled in when you started. Many students working a few shifts have little or none taken.\n\n**Net pay.** What actually lands in your bank: gross pay minus tax.\n\n**Super.** Money your employer pays into a super fund for when you're older. It's usually **12%** on top of your pay. But if you're **under 18**, your employer only has to pay it in weeks you work **more than 30 hours**. So $0 super can be right.\n\n**Year to date (YTD).** Your total since 1 July.\n\nIf something looks wrong, check your own record of your hours. Then ask your manager, politely and in writing. Still stuck? The **Fair Work Ombudsman** can help, for free.",
+          "extend": "By law, your employer must give you a **payslip** within **one working day** of payday. Whether paper, email or app, it's a dense technical text, and several of its terms have different meanings outside the workplace.\n\n**Identifying details.** Employer name and **ABN**, employee name, **pay period** and **pay date**. These are legally required.\n\n**Earnings.** Each line multiplies hours by a **rate**. Verify the hours against your own record. Many awards set **penalty rates** for weekends, nights and public holidays. Casual rates usually include a **casual loading** (25% under most awards), which compensates for not getting paid leave.\n\n**Gross pay.** The total earned before deductions. In this context, *gross* means *whole*, not *disgusting*.\n\n**Tax withheld.** An amount sent to the ATO on your behalf. It depends on your income and on your tax file number declaration. Many students working a few shifts have little or none withheld.\n\n**Net pay.** Gross minus deductions: what reaches your account.\n\n**Super.** The super guarantee is **12%** of ordinary earnings, paid into your fund. For employees **under 18**, though, it's only required in weeks they work **more than 30 hours**. A $0 super line may be correct.\n\n**Year to date (YTD).** Cumulative totals since 1 July.\n\nIf something doesn't add up, compare it with your own records, raise it with your manager in writing, and contact the **Fair Work Ombudsman** if it isn't resolved."
+        },
+        "vc": [
+          "VC2E5LA08",
+          "VC2E3LA11",
+          "VC2E5LY09",
+          "VC2E4LY09",
+          "VC2E7LA08"
+        ],
+        "vcNote": "Technical pay vocabulary, including words with everyday and workplace meanings; reading and checking the parts of a payslip."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The bakery that didn't pay up",
+        "icon": "lucide:croissant",
+        "body": {
+          "support": "A teenager worked as a casual at a bakery in Brisbane.\n\nA **Fair Work** inspector checked the pay. The inspector believed the worker was paid too little. The **pay rate** was too low. Evening and weekend **penalty rates** were missing.\n\nThe inspector told the business to pay the money back. The business didn't.\n\nSo Fair Work took them to **court**. Then the worker got paid.\n\nIn **2020**, the court fined the business and its manager **$26,460**.\n\nAll of these problems show up on a payslip. That's why it pays to check.",
+          "core": "A teenager had a casual job as a shop assistant at a bakery in Mount Ommaney, in Brisbane.\n\nAn inspector from the **Fair Work Ombudsman** looked into the pay. The inspector believed the worker had been paid too little. The problems were with the basic **pay rate**, the **casual loading**, and the **penalty rates** for evenings and weekends.\n\nThe inspector gave the business a **compliance notice**. That's an official order. It told the business to work out what it owed the worker and pay it back.\n\nThe business didn't do it.\n\nSo the Fair Work Ombudsman took it to **court**. Only then was the worker paid what they were owed.\n\nIn **December 2020**, the court fined the company **$22,050**, and its manager **$4,410**. That's **$26,460** in total. The judge said they had deliberately ignored their obligations.\n\nEvery problem in this case shows up on a payslip: the rate, the loading, and weekend hours paid at the wrong rate. Knowing what to look for is the first step to getting it fixed.",
+          "extend": "A teenager worked as a casual shop assistant at a bakery in Mount Ommaney, Brisbane.\n\nA **Fair Work Ombudsman** inspector believed the worker had been underpaid under the retail award. Three things were wrong: the minimum wage, the **casual loading**, and the **penalty rates** for evening and weekend work.\n\nThe inspector issued a **compliance notice**. This formal direction required the business to calculate what it owed and back-pay it. The business did not comply.\n\nThe Fair Work Ombudsman went to court. Only then was the worker back-paid.\n\nIn **December 2020**, the Federal Circuit Court fined the company **$22,050** and its manager **$4,410**: **$26,460** in total. The judge found they had deliberately ignored their legal obligations.\n\nEvery part of this underpayment (rate, loading, penalty rates) shows up on a payslip. A worker who knows how to read one can spot it. Close reading is the first line of defence."
+        },
+        "source": {
+          "name": "Fair Work Ombudsman — “Brisbane bakery penalised in court” (December 2020)",
+          "url": "https://www.fairwork.gov.au/newsroom/media-releases/2020-media-releases/december-2020/20201224-t-sons-penalty-media-release"
+        },
+        "think": {
+          "support": [
+            "What was wrong with the pay?",
+            "How could a payslip show it?"
+          ],
+          "core": [
+            "Which parts of the pay were wrong?",
+            "How could the worker have spotted them on a payslip?",
+            "Why do you think the business ignored the compliance notice?"
+          ]
+        },
+        "vc": [
+          "VC2E5LY09",
+          "VC2E7LY07"
+        ],
+        "vcNote": "Inferring and evaluating information in a real underpayment case, and connecting it to the payslip."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a payslip",
+      "docTitle": "PAYSLIP — FRESH MART, BALLARAT (EXAMPLE)",
+      "vc": [
+        "VC2E5LA08",
+        "VC2E5LY09",
+        "VC2E4LY09"
+      ],
+      "vcNote": "The parts and technical vocabulary of a payslip.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Employer",
+          "value": "Fresh Mart Pty Ltd · ABN 98 765 432 109"
+        },
+        {
+          "label": "Employee",
+          "value": "Ari Thompson · 16 · casual"
+        },
+        {
+          "n": 2,
+          "label": "Pay period / Pay date",
+          "value": "3–16 March · paid 18 March"
+        },
+        {
+          "table": {
+            "n": 3,
+            "columns": [
+              "Earnings",
+              "Hours",
+              "Rate",
+              "Amount"
+            ],
+            "rows": [
+              [
+                "Ordinary (incl. casual loading)",
+                "8.0",
+                "$16.40",
+                "$131.20"
+              ],
+              [
+                "Saturday",
+                "6.0",
+                "$20.50",
+                "$123.00"
+              ]
+            ]
+          }
+        },
+        {
+          "n": 4,
+          "label": "Gross pay",
+          "value": "$254.20",
+          "rule": true
+        },
+        {
+          "n": 5,
+          "label": "Tax withheld",
+          "value": "$0.00"
+        },
+        {
+          "n": 6,
+          "label": "Net pay (to your bank)",
+          "value": "$254.20",
+          "strong": true
+        },
+        {
+          "n": 7,
+          "label": "Super",
+          "value": "$0.00 (under 18, 30 hours or less a week)"
+        },
+        {
+          "n": 8,
+          "label": "Gross pay year to date",
+          "value": "$1,486.40"
+        }
+      ],
+      "note": "Made-up example. Real rates depend on your award, your age and your job.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Employer and ABN",
+          "note": "Who's paying you. It must be on there."
+        },
+        {
+          "n": 2,
+          "label": "Pay period and date",
+          "note": "Which days, and when you were paid."
+        },
+        {
+          "n": 3,
+          "label": "Hours × rate",
+          "note": "Check the hours. Saturday pays more."
+        },
+        {
+          "n": 4,
+          "label": "Gross",
+          "note": "Total, before anything comes out."
+        },
+        {
+          "n": 5,
+          "label": "Tax",
+          "note": "Sent to the tax office. Here, none."
+        },
+        {
+          "n": 6,
+          "label": "Net",
+          "note": "What lands in your bank."
+        },
+        {
+          "n": 7,
+          "label": "Super",
+          "note": "$0 is right: under 18, not over 30 hours a week."
+        },
+        {
+          "n": 8,
+          "label": "Year to date",
+          "note": "Total since 1 July."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Check every payslip",
+      "steps": [
+        {
+          "title": "Hours",
+          "text": "Do they match what I worked?",
+          "icon": "lucide:clock"
+        },
+        {
+          "title": "Rate",
+          "text": "Right rate? Weekends higher?",
+          "icon": "lucide:badge-dollar-sign"
+        },
+        {
+          "title": "Maths",
+          "text": "Hours × rate. Gross − tax = net.",
+          "icon": "lucide:calculator"
+        },
+        {
+          "title": "Ask",
+          "text": "Something wrong? Ask, in writing.",
+          "icon": "lucide:message-square"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "On a payslip, what does **gross pay** mean?",
+        "options": [
+          "Your total pay before anything is taken out",
+          "Pay that's disgusting",
+          "Pay after tax",
+          "Your pay for the whole year"
+        ],
+        "answer": 0,
+        "explain": "Gross = the whole amount, before deductions.",
+        "vc": [
+          "VC2E5LA08",
+          "VC2E3LA11"
+        ]
+      },
+      {
+        "q": "What does **net pay** mean?",
+        "options": [
+          "What goes into your bank after tax",
+          "Pay for working at a fish shop",
+          "Your pay before tax",
+          "Your super"
+        ],
+        "answer": 0,
+        "explain": "Gross − tax = net.",
+        "vc": [
+          "VC2E5LA08",
+          "VC2E3LA11"
+        ]
+      },
+      {
+        "q": "How soon must you get your payslip?",
+        "options": [
+          "Within one working day of payday",
+          "Within a month",
+          "Only if you ask",
+          "At the end of the year"
+        ],
+        "answer": 0,
+        "explain": "It's the law.",
+        "vc": [
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "q": "Ari is 16 and works about 14 hours a week. Their super is **$0**. Is that right?",
+        "options": [
+          "Yes: under 18s get super only in weeks they work more than 30 hours",
+          "No: everyone gets super",
+          "No: it should be $100",
+          "Only if they ask"
+        ],
+        "answer": 0,
+        "explain": "Super for under 18s depends on hours in a week.",
+        "vc": [
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "q": "You worked **10 hours** at **$16.40**. Your gross pay says **$146.00**. What should you do?",
+        "options": [
+          "Check it: 10 × $16.40 = $164.00, so ask your manager",
+          "Nothing: close enough",
+          "Quit",
+          "Post about it online"
+        ],
+        "answer": 0,
+        "explain": "Check the maths, then ask politely, in writing.",
+        "vc": [
+          "VC2E5LY09",
+          "VC2E4LY09"
+        ]
+      },
+      {
+        "q": "What's a **penalty rate**?",
+        "options": [
+          "A higher rate for times like weekends or late nights",
+          "A fine for being late",
+          "Tax",
+          "A lower rate for new workers"
+        ],
+        "answer": 0,
+        "explain": "In pay, *penalty* means extra for the employer to pay, not a punishment for you.",
+        "vc": [
+          "VC2E5LA08",
+          "VC2E7LA08"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "In the bakery case, what happened after the business ignored the compliance notice?",
+        "options": [
+          "The Fair Work Ombudsman took it to court, and the worker was back-paid",
+          "Nothing",
+          "The worker had to pay a fine",
+          "The bakery closed"
+        ],
+        "answer": 0,
+        "explain": "The court later fined the company and manager $26,460.",
+        "vc": [
+          "VC2E7LY07"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Check a payslip. Say what each part means. Write a polite message about a mistake.",
+      "core": "Check a payslip line by line, explain what each part means, and write a polite message to a manager about a mistake.",
+      "extend": "Analyse a payslip line by line, verify the calculations, explain its technical terms, and write a clear, polite written query about a discrepancy."
+    },
+    "checklist": [
+      "I found the employer, pay period and pay date",
+      "I checked the hours and rate",
+      "I checked the maths",
+      "I explained gross, net and super",
+      "I wrote a polite message about a mistake"
+    ],
+    "levelUp": "Explain to a younger worker why their super might be $0, and when that would change. Then explain two pay words that mean something different outside work.",
+    "vc": [
+      "VC2E5LA08",
+      "VC2E5LY09"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to read your payslip",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What's the difference between **gross pay** and **net pay**?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA08",
+              "VC2E3LA11"
+            ]
+          },
+          {
+            "q": "How soon must you get your payslip?",
+            "lines": 1,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          },
+          {
+            "q": "Why might a 16-year-old's payslip show **$0 super**?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a payslip",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the payslip. Use the word bank. Write what it tells you.",
+          "core": "Each number marks part of the payslip. Write what it is and what it tells you."
+        },
+        "columns": [
+          "What is it?",
+          "What does it tell you?"
+        ],
+        "wordBank": {
+          "support": [
+            "employer",
+            "pay period",
+            "hours",
+            "gross",
+            "tax",
+            "net",
+            "super",
+            "YTD"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LA08",
+          "VC2E5LY09",
+          "VC2E4LY09"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Pay words",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 18,
+          "core": 14
+        },
+        "instructions": "Some pay words mean something different in everyday life. Write both meanings. The first one is done for you.",
+        "columns": [
+          "Word",
+          "Everyday meaning",
+          "Payslip meaning"
+        ],
+        "rows": [
+          [
+            "Gross",
+            "Disgusting, yuck",
+            "Total pay, before anything comes out"
+          ],
+          [
+            "Net",
+            "",
+            ""
+          ],
+          [
+            "Rate",
+            "",
+            ""
+          ],
+          [
+            "Penalty",
+            "",
+            ""
+          ],
+          [
+            "Super",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Loading",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E3LA11",
+          "VC2E5LA08",
+          "VC2E7LA08"
+        ],
+        "vcNote": "Words with everyday and technical meanings; precise specialist vocabulary."
+      },
+      {
+        "type": "flow",
+        "title": "Check every payslip",
+        "diagram": 1
+      },
+      {
+        "type": "sort",
+        "title": "Looks right or check it?",
+        "pagebreak": true,
+        "choices": [
+          "Looks right",
+          "Check it"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is something on Ari's payslip. Tick whether it looks right, or needs checking. Say why.",
+        "cards": [
+          {
+            "from": "Ari's payslip",
+            "text": "8 hours at $16.40 = $131.20",
+            "answer": "Looks right",
+            "flags": "8 × 16.40 = 131.20."
+          },
+          {
+            "from": "Ari's payslip",
+            "text": "Ari worked 6 hours on Saturday. They're paid at the ordinary rate.",
+            "answer": "Check it",
+            "flags": "Saturdays often pay more."
+          },
+          {
+            "from": "Ari's payslip",
+            "text": "Payday was Monday. The payslip came the next Friday.",
+            "answer": "Check it",
+            "flags": "Must come within 1 working day."
+          },
+          {
+            "from": "Ari's payslip",
+            "text": "Super: $0. Ari is 16 and works about 14 hours a week.",
+            "answer": "Looks right",
+            "flags": "Under 18 and under 30 hours a week."
+          },
+          {
+            "from": "Ari's payslip",
+            "text": "Gross $254.20. Tax $0. Net $234.20.",
+            "answer": "Check it",
+            "flags": "Gross − tax should equal net.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Ari's payslip",
+            "text": "There's no employer name or ABN on it.",
+            "answer": "Check it",
+            "flags": "Payslips must show these.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LY09",
+          "VC2E4LY09"
+        ],
+        "vcNote": "Monitoring and checking literal details; inferring what's missing."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the bakery that didn't pay up",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "Which parts of the worker's pay were wrong?",
+              "core": "Which **three** parts of the worker's pay did the inspector believe were wrong?"
+            },
+            "lines": 2,
+            "vc": [
+              "VC2E5LY09",
+              "VC2E7LY07"
+            ]
+          },
+          {
+            "q": "Where on a payslip could the worker have spotted each problem?",
+            "lines": 3,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          },
+          {
+            "q": "What's a **compliance notice**? Explain it in your own words.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: check a payslip",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 16,
+          "core": 14
+        },
+        "instructions": {
+          "support": "Check a payslip: yours, or one your teacher gives you. The first row shows an example.",
+          "core": "Check a real payslip: your own, a family member's (with permission, and cover private details) or the one your teacher gives you. The first row shows an example."
+        },
+        "columns": [
+          "Part",
+          "What it says",
+          "Does it look right?"
+        ],
+        "rows": [
+          [
+            "Example: Gross pay",
+            "$254.20",
+            "Yes: $131.20 + $123.00"
+          ],
+          [
+            "Employer and ABN",
+            "",
+            ""
+          ],
+          [
+            "Pay period and pay date",
+            "",
+            ""
+          ],
+          [
+            "Hours and rate(s)",
+            "",
+            ""
+          ],
+          [
+            "Gross pay",
+            "",
+            ""
+          ],
+          [
+            "Tax withheld",
+            "",
+            ""
+          ],
+          [
+            "Net pay",
+            "",
+            ""
+          ],
+          [
+            "Super",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Year to date",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LY09",
+          "VC2E5LA08",
+          "VC2E4LY09"
+        ],
+        "vcNote": "Reading and checking the details of a real payslip."
+      },
+      {
+        "type": "write",
+        "title": "Ask about a mistake",
+        "pagebreak": true,
+        "prompt": {
+          "core": "Ari's Saturday hours were paid at the ordinary rate. Write a short, polite message to the manager, Sam, asking about it.",
+          "extend": "Ari's Saturday hours were paid at the ordinary rate. Write a short, polite written query to the manager, Sam. Be specific: give the pay period, the hours and what you think should have happened."
+        },
+        "plan": [
+          {
+            "label": "What's wrong (pay period, hours)",
+            "lines": 1
+          },
+          {
+            "label": "What I'd like to happen",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "Hi Sam,",
+            "I checked my payslip for…",
+            "My Saturday hours…",
+            "Could you please check?",
+            "Thanks, Ari"
+          ],
+          "core": [
+            "Hi Sam,",
+            "I was checking my payslip for…",
+            "I worked … hours on Saturday, but…",
+            "Could you please check…",
+            "Thanks, Ari"
+          ]
+        },
+        "lines": {
+          "support": 5,
+          "core": 6
+        },
+        "check": [
+          "polite greeting",
+          "the pay period and hours",
+          "what looks wrong",
+          "a clear, polite request"
+        ],
+        "vc": [
+          "VC2E5LY09",
+          "VC2E5LA08"
+        ],
+        "vcNote": "Writing a short, precise workplace query using the payslip's technical terms."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "A 15-year-old friend asks why their super is $0. In **two or three sentences**, explain why, and when it would change.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY07"
+            ]
+          },
+          {
+            "q": "Pick **two** pay words (from gross, net, penalty, loading, super). Explain how the meaning changes between everyday life and a payslip, and why that could confuse a new worker.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find the parts of a payslip.",
+          "I can explain pay words.",
+          "I can check my hours, rate and maths.",
+          "I can ask about a mistake."
+        ],
+        "questions": [
+          "One thing I'll check on every payslip:",
+          "A pay word I'll remember:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to read a payslip as a technical text: its required parts (employer and ABN, pay period, pay date, hours × rate, gross, tax, net, super, year to date) and its vocabulary, including words with different everyday meanings (gross, net, penalty, loading, super). They check details and calculations, connect what they learn to a real Fair Work Ombudsman case in which a teenage casual was underpaid, and write a polite query about a mistake.",
+    "prep": [
+      "Make or download a sample payslip (the Fair Work Ombudsman has a template) for students who don't have one. Never ask students to bring a payslip in; offer it as an option, with private details covered.",
+      "Check the Fair Work Pay Calculator is reachable on school devices.",
+      "Optional: ask students with jobs to share (anonymously) what their payslips look like: app, email or paper."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The parts",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show the $254.20 payslip. Is it right? How would you know?",
+          "**Explicit teaching (10 min):** the parts, modelled on Ari's payslip.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a payslip."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Check it",
+        "minutes": 50,
+        "steps": [
+          "**Pay words (15 min).** Discuss: why might *penalty* confuse a new worker?",
+          "**Looks right or check it? (15 min).** Do the maths together on the first card.",
+          "**Case study (20 min):** the bakery that didn't pay up."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Your payslip",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (20 min):** check a real or sample payslip.",
+          "**Ask about a mistake (15 min).** Share two strong messages.",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "You must get a payslip within one working day of payday.",
+      "Gross = total before deductions; net = what reaches your bank.",
+      "Hours × rate: check the hours; weekends, nights and public holidays often attract penalty rates; casual rates usually include a 25% loading.",
+      "Super is usually 12%, but under-18s only get it in weeks they work more than 30 hours.",
+      "If something's wrong: check your records, ask in writing, then contact the Fair Work Ombudsman."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer rows and sort cards.",
+        "Use the teacher's sample payslip; sentence starters for the message."
+      ],
+      "extend": [
+        "Explain super for under-18s to a younger worker (Level Up).",
+        "Analyse how everyday and technical meanings can mislead (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LA11",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Explains pay vocabulary and how words change meaning in context (Pay words, Check your reading)."
+      },
+      {
+        "vc": "VC2E4LY09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses comprehension strategies to build literal and inferred meaning from a payslip (annotation, sort, final mission)."
+      },
+      {
+        "vc": "VC2E5LA08",
+        "evidence": "Uses and explains specialist pay terms precisely: gross, net, rate, penalty rate, loading, super (Pay words, annotation, message)."
+      },
+      {
+        "vc": "VC2E5LY09",
+        "evidence": "Monitors and evaluates information to check a payslip and spot errors (sort, case study, final mission)."
+      },
+      {
+        "vc": "VC2E7LA08",
+        "evidence": "Explains terms with both everyday and technical meanings (Pay words, Level Up)."
+      },
+      {
+        "vc": "VC2E7LY07",
+        "evidence": "Summarises information for a specific reader (Level Up: explaining super to a younger worker; case study)."
+      }
+    ],
+    "answers": "**Check your reading:** gross = total before anything is taken out; net = what goes into your bank after tax. Within one working day of payday. Under 18s only get super in weeks they work more than 30 hours.\n\n**Payslip:** 1 employer and ABN; 2 pay period and pay date; 3 hours × rate (Saturday pays more); 4 gross; 5 tax withheld (none here); 6 net; 7 super ($0 is correct); 8 year to date.\n\n**Pay words (samples):** net — a mesh for catching things / pay after tax; rate — speed or score / pay per hour; penalty — a punishment / a higher rate the employer pays for some times; super — great / retirement savings; loading — putting things in / extra pay casuals get instead of paid leave.\n\n**Sort:** 8 × $16.40 — looks right; Saturday at the ordinary rate — check it; payslip late — check it; $0 super — looks right; net $234.20 — check it (should be $254.20); no employer or ABN — check it.\n\n**Case study:** basic pay rate, casual loading, evening and weekend penalty rates; on the hours × rate lines (rate too low, no weekend rate); a compliance notice is an official order to work out and pay back what's owed.",
+    "resources": [
+      {
+        "label": "Fair Work Ombudsman — Pay slips",
+        "url": "https://www.fairwork.gov.au/pay-and-wages/paying-wages/pay-slips"
+      },
+      {
+        "label": "Fair Work Pay Calculator",
+        "url": "https://calculate.fairwork.gov.au"
+      },
+      {
+        "label": "Fair Work Ombudsman — Brisbane bakery penalised in court (2020)",
+        "url": "https://www.fairwork.gov.au/newsroom/media-releases/2020-media-releases/december-2020/20201224-t-sons-penalty-media-release"
+      },
+      {
+        "label": "ATO — Work out if you have to pay super (under-18 rule)",
+        "url": "https://www.ato.gov.au/businesses-and-organisations/super-for-employers/work-out-if-you-have-to-pay-super"
+      },
+      {
+        "label": "The Conversation — The Fair Work Commission has abolished junior rates of pay for most over 18s (2026)",
+        "url": "https://theconversation.com/the-fair-work-commission-has-abolished-junior-rates-of-pay-for-most-over-18s-its-a-positive-step-275439"
+      }
+    ],
+    "realityCheck": [
+      "**Payslips are private.** Never require students to bring one. The sample payslip does the job.",
+      "**Rates change.** Pay rates change every July, and junior rates are changing: in March 2026 the Fair Work Commission decided to phase out junior rates for most 18–20 year olds under the retail, fast food and pharmacy awards. The change is provisionally due to start from December 2026, and under-18 rates are unchanged. Don't quote real rates; send students to the Pay Calculator.",
+      "**Some students are already being underpaid.** If a student thinks they are, the Fair Work Ombudsman (13 13 94) and the Young Workers Centre can help, and contact can be anonymous.",
+      "**Maths anxiety.** The maths is just multiplying and subtracting. Calculators are fine; the literacy is in knowing what to check.",
+      "**Works in a real class:** yes. It's short and practical, and it follows straight on from Work Ready."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer rows and sort cards, sample payslip and sentence starters.",
+      "core": "Standard version: payslip anatomy, pay words with everyday and technical meanings, a looks-right-or-check-it sort, the bakery case, checking a real or sample payslip, and a polite query.",
+      "extend": "Adds casual loading and year to date to the vocabulary, a quiz question on the case, a more specific written query, and Level Ups summarising the super rule and analysing technical meanings."
+    }
+  }
+}
