@@ -1,0 +1,1092 @@
+{
+  "id": "make-the-call",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours), with a phone or a partner",
+  "brief": {
+    "hook": {
+      "support": "Your phone rings. You don't know the number. You don't answer. Then you hear the voicemail. It's the job you applied for! They want you to call back today.",
+      "core": "Your phone rings. Unknown number. You let it go to voicemail. Then you listen to the message: it's the place you applied to for a job. They want you to call back. Today."
+    },
+    "why": {
+      "support": "Lots of people get nervous on the phone. But some things need a call. The doctor. A job. An emergency. Every call follows a pattern. Learn it, and calls get easier.",
+      "core": "Lots of people find phone calls stressful, at any age. But some things still need a call: booking the doctor, chasing a job, sorting a problem, and emergencies. A call is just a short spoken text with a pattern. Learn the pattern, and the nerves shrink.",
+      "extend": "Phone calls make many people anxious, partly because there's no time to draft and no face to read. But appointments, jobs, complaints and emergencies still run on calls. A call is a short, structured spoken text, and knowing its pattern — and how to use your voice — puts you in control."
+    },
+    "canDo": {
+      "support": [
+        "I can plan a call in four steps.",
+        "I can repeat details back to check them.",
+        "I can speak slowly and clearly.",
+        "I can leave a voicemail and call 000."
+      ],
+      "core": [
+        "I can plan a call in **four steps**: who, why, check, close.",
+        "I can **ask questions** and **repeat details back** to check them.",
+        "I can use my **voice** clearly: pace, volume, and spelling things out.",
+        "I can leave a clear **voicemail** and know what to say in a **000** call."
+      ]
+    },
+    "showIt": "Plan, practise and make (or role-play) a real call and a voicemail, and plan what you'd say in a 000 call.",
+    "vocab": [
+      {
+        "word": "receptionist",
+        "meaning": "the person who answers the phone at a clinic or business",
+        "example": "The receptionist booked me in."
+      },
+      {
+        "word": "appointment",
+        "meaning": "a set time to see someone",
+        "example": "My appointment is at 3:30.",
+        "levels": [
+          "support",
+          "core"
+        ]
+      },
+      {
+        "word": "voicemail",
+        "meaning": "a recorded message you leave when nobody answers",
+        "example": "I left a voicemail for the manager."
+      },
+      {
+        "word": "repeat back",
+        "meaning": "say the details again to check you got them right",
+        "example": "Repeat back the day and time."
+      },
+      {
+        "word": "formal",
+        "meaning": "polite and careful, for people you don't know well",
+        "example": "Use formal words when you call a business."
+      },
+      {
+        "word": "emergency",
+        "meaning": "when someone is in danger right now and needs help fast",
+        "example": "Call 000 in an emergency."
+      },
+      {
+        "word": "clarify",
+        "meaning": "make something clear, often by asking a question",
+        "example": "Can I clarify: is that Tuesday?",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "call-taker",
+        "meaning": "the person who answers a 000 call",
+        "example": "The call-taker told him to start CPR.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "tone",
+        "meaning": "the feeling your voice gives, like calm, friendly or cross",
+        "example": "Keep your tone calm, even if you're annoyed.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Make the Call in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Make the Call",
+        "sub": "Book it, ask it, sort it — out loud.",
+        "icon": "lucide:phone-call",
+        "say": "Make the call. Book it, ask it, sort it, out loud."
+      },
+      {
+        "kind": "big",
+        "title": "Every call has a pattern",
+        "text": "**Who · Why · Check · Close**",
+        "icon": "lucide:list-checks",
+        "say": "A phone call is a short spoken text, and it has a pattern. Four steps: who, why, check, close.",
+        "vc": [
+          "VC2E5LY02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Step",
+        "pillIcon": "lucide:phone",
+        "title": "Who",
+        "text": "“Hi, my name is Jordan Lee.”",
+        "icon": "lucide:user",
+        "say": "Step one. Say who you are. Hi, my name is Jordan Lee.",
+        "vc": [
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Step",
+        "pillIcon": "lucide:phone",
+        "title": "Why",
+        "text": "“I'm calling to book an appointment, please.”",
+        "icon": "lucide:message-circle",
+        "say": "Step two. Say why you're calling, in one sentence. I'm calling to book an appointment, please.",
+        "vc": [
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Step",
+        "pillIcon": "lucide:phone",
+        "title": "Check",
+        "text": "“So that's **Tuesday at 3:45**?”",
+        "icon": "lucide:repeat",
+        "say": "Step three. Check. Ask your questions, and repeat the details back. So that's Tuesday at three forty-five?",
+        "vc": [
+          "VC2E5LY01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Step",
+        "pillIcon": "lucide:phone",
+        "title": "Close",
+        "text": "“Great, thanks for your help. Bye.”",
+        "icon": "lucide:circle-check",
+        "say": "Step four. Close. Thank them, and say goodbye.",
+        "vc": [
+          "VC2E5LY01"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Use your voice",
+        "text": "**Slow** · **Clear** · Spell it · Numbers in groups",
+        "icon": "lucide:mic",
+        "say": "Your voice does the work. Slow down. Speak up. Spell tricky names, and say numbers in small groups.",
+        "vc": [
+          "VC2E5LY02"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Calling 000",
+        "text": "Service · **Where** · Stay on the line",
+        "icon": "lucide:siren",
+        "say": "In an emergency, call triple zero. Say police, fire or ambulance. Say where you are. Stay on the line, and do what they tell you.",
+        "vc": [
+          "VC2E5LY01"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Plan it. Practise it. Make the call.",
+        "icon": "lucide:phone-call",
+        "say": "Your mission. Plan it, practise it, and make the call."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Every call has a pattern",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Are you nervous on the phone? Lots of people are. But most calls have the same **four steps**.\n\n1. **Who.** Say your name. *Hi, my name is Jordan.*\n2. **Why.** Say why you are calling. *I'm calling to book an appointment.*\n3. **Check.** Answer their questions. Ask yours. Then say the details back. *So that's Tuesday at 3:45?*\n4. **Close.** Say thanks and bye.\n\nTalk **slowly**. Say numbers in small groups. Spell names that are tricky.\n\nIn a **voicemail**, say your name and number. Say why you called. Then say your number again.\n\nIn an **emergency**, call **000**. They will ask: *Police, fire or ambulance?* Then tell them **where you are**. **Stay on the line.** Do what they tell you.",
+          "core": "If phone calls make you nervous, you're not alone. The good news: most calls follow the same **four steps**, so you can plan them.\n\n1. **Who.** Say your name first: *Hi, my name is Jordan Lee.*\n2. **Why.** Say why you're calling in one sentence: *I'm calling to book an appointment, please.* or *I'm calling about the job ad for a kitchen hand.*\n3. **Check.** Answer their questions and ask yours. Then **repeat back** the important details: *So that's Tuesday the 12th at 3:45?* This is how you catch mistakes before they matter.\n4. **Close.** Thank them and say goodbye: *Great, thanks for your help. Bye.*\n\nYour **voice** does a lot of the work. Speak a little slower than normal. Say numbers in small groups: *0412 / 345 / 678*. Spell tricky names: *That's Siobhan: S-I-O-B-H-A-N.*\n\n**Voicemail** has its own pattern: your **name**, your **number** (slowly), **why** you called, what you'd like them to **do**, then your **number again**.\n\n**Emergency calls (000)** are different, and you don't need to plan them, because the call-taker leads. After a recorded message, they'll ask: *Police, fire or ambulance?* Then they'll ask where you are. Give the **state and suburb or town**, then the street address, or the nearest cross street or landmark. **Stay on the line** until they tell you to hang up. They may tell you what to do while help is on the way.",
+          "extend": "Phone anxiety is common, partly because a call gives you no time to draft and no face to read. The fix is structure: most calls follow the same **four steps**, so you can plan them.\n\n1. **Who.** Identify yourself first: *Hi, my name is Jordan Lee.*\n2. **Why.** State your purpose in one sentence: *I'm calling about the kitchen hand job advertised on your website.*\n3. **Check.** Answer and ask questions, then **paraphrase** the key details back: *So that's a trial shift Thursday at four, wearing black, and I ask for Mel?* Repeating back is how professionals catch errors.\n4. **Close.** Confirm the next step, thank them and end the call politely.\n\nYour **voice** carries meaning: pace, volume and **tone**. Slow down slightly, group numbers (*0412 / 345 / 678*), and spell names. Match your **formality** to the listener: a receptionist or manager gets *Could I please…*, not *Yeah, can I…*\n\n**Voicemails** follow a pattern too: name, number (slowly), purpose, the action you want, and the number again.\n\n**Emergency calls (000)** reverse the pattern, because the call-taker leads. After a recorded message, they'll ask *Police, fire or ambulance?*, then where you are: give the **state and suburb or town**, then the address, cross street or landmark. **Stay on the line** until you're told to hang up, and follow their instructions while help is on the way."
+        },
+        "vc": [
+          "VC2E5LY01",
+          "VC2E5LY02",
+          "VC2E6LA01",
+          "VC2E4LY01"
+        ],
+        "vcNote": "The structure of a phone call and a voicemail; questioning and repeating back to clarify; features of voice and formality."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Sam stayed on the line",
+        "icon": "lucide:siren",
+        "body": {
+          "support": "In 2024, **Sam** was 16. He lives in **Warrnambool**.\n\nOne morning, Sam heard loud, strange snoring from his brother **Ryan's** room. Ryan's heart had stopped working properly.\n\nSam **called 000**. The call-taker told him to do **CPR**. Sam had learnt CPR at school.\n\nSam kept going for about **10 minutes**. Then the paramedics came.\n\nAmbulance Victoria said Sam **saved his brother's life**.\n\nSam made the call. He **stayed on the line**. He **did what the call-taker said**.",
+          "core": "One morning in 2024, **Sam Bellman**, a 16-year-old student at Warrnambool College, heard strange, loud snoring coming from his brother **Ryan's** room. Something was very wrong. Ryan had gone into **cardiac arrest**: his heart had stopped working properly.\n\nSam **called 000**. The call-taker told him to start **CPR** (pushing hard and fast on the chest). Sam had learnt CPR at school not long before.\n\nHe kept going for about **10 minutes**, until paramedics arrived. Ambulance Victoria said he did **“high quality CPR”**, and that he saved his brother's life.\n\nSam didn't need a perfect script. He needed to make the call, answer the questions, **stay on the line** and **do what the call-taker said**.",
+          "extend": "In 2024, **Sam Bellman**, a 16-year-old Warrnambool College student, heard what he described as “death-like” snoring from his brother **Ryan's** room one morning. Ryan had gone into **cardiac arrest**.\n\nSam **called 000**, and the call-taker instructed him to begin **CPR**. He had learnt the technique at school only recently. Sam kept up chest compressions for about **10 minutes** until paramedics arrived; Ambulance Victoria described it as **“high quality CPR”** and credited him with saving Ryan's life.\n\nThe case flips the usual pattern of a phone call. Sam didn't need to plan or perform. The call-taker led; Sam's job was to give clear answers, **stay on the line**, listen closely and **follow spoken instructions** under enormous pressure."
+        },
+        "source": {
+          "name": "Ambulance Victoria — “Warrnambool teen's quick thinking saves his brother's life” (June 2024)",
+          "url": "https://ambulance.vic.gov.au/warrnambool-teens-quick-thinking-saves-his-brothers-life"
+        },
+        "think": {
+          "support": [
+            "What did Sam do?",
+            "Why did he stay on the line?"
+          ],
+          "core": [
+            "What did Sam do, step by step?",
+            "Why did staying on the line matter?",
+            "What could you do now so you'd be ready?"
+          ]
+        },
+        "vc": [
+          "VC2E5LY01",
+          "VC2E4LY01"
+        ],
+        "vcNote": "Listening to and acting on spoken instructions in a real emergency call."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a phone call",
+      "docTitle": "CALL PLAN: BOOKING A DOCTOR (EXAMPLE)",
+      "vc": [
+        "VC2E5LY01",
+        "VC2E6LA01",
+        "VC2E5LY02"
+      ],
+      "vcNote": "The stages of a phone call, and the language for each.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Who",
+          "value": "“Hi, my name is Jordan Lee.”"
+        },
+        {
+          "n": 2,
+          "label": "Why",
+          "value": "“I'm calling to book an appointment with a doctor, please.”"
+        },
+        {
+          "n": 3,
+          "label": "Answer",
+          "value": "“My date of birth is the 3rd of May, 2010. I'm free after 3:30 on weekdays.”"
+        },
+        {
+          "n": 4,
+          "label": "Ask",
+          "value": "“Do I need to bring my Medicare card?”"
+        },
+        {
+          "n": 5,
+          "label": "Repeat back",
+          "value": "“So that's Tuesday the 12th at 3:45, with Dr Nguyen?”",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Close",
+          "value": "“Great, thanks for your help. Bye.”"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Who",
+          "note": "Your name first, so they know who's calling."
+        },
+        {
+          "n": 2,
+          "label": "Why",
+          "note": "One sentence. Formal: “I'm calling to…, please.”"
+        },
+        {
+          "n": 3,
+          "label": "Answer",
+          "note": "Have the details ready before you call."
+        },
+        {
+          "n": 4,
+          "label": "Ask",
+          "note": "Your own questions. Write them down first."
+        },
+        {
+          "n": 5,
+          "label": "Repeat back",
+          "note": "Check the day, time and name. Catch mistakes now."
+        },
+        {
+          "n": 6,
+          "label": "Close",
+          "note": "Polite and short."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Leave a voicemail",
+      "steps": [
+        {
+          "title": "Who",
+          "text": "Your name and number (slowly).",
+          "icon": "lucide:user"
+        },
+        {
+          "title": "Why",
+          "text": "Why you called, in one sentence.",
+          "icon": "lucide:message-circle"
+        },
+        {
+          "title": "What next",
+          "text": "What you'd like them to do.",
+          "icon": "lucide:phone-forwarded"
+        },
+        {
+          "title": "Number again",
+          "text": "Say it slowly, in small groups.",
+          "icon": "lucide:repeat"
+        }
+      ]
+    },
+    {
+      "type": "document",
+      "title": "Calling 000",
+      "docTitle": "000: WHAT THEY'LL ASK",
+      "vc": [
+        "VC2E4LY01",
+        "VC2E5LY01"
+      ],
+      "vcNote": "Answering a call-taker's questions clearly in an emergency.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "First",
+          "value": "“Emergency. Police, fire or ambulance?”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Where (1)",
+          "value": "Which state, and which suburb or town?"
+        },
+        {
+          "n": 3,
+          "label": "Where (2)",
+          "value": "The street number and name, or the nearest cross street or landmark"
+        },
+        {
+          "n": 4,
+          "label": "What",
+          "value": "What happened? Is the person awake? Are they breathing?"
+        },
+        {
+          "n": 5,
+          "label": "Phone",
+          "value": "The number you're calling from"
+        },
+        {
+          "n": 6,
+          "label": "Stay on the line",
+          "value": "Don't hang up until they tell you to. Do what they say.",
+          "strong": true
+        }
+      ],
+      "note": "What call-takers usually ask, in roughly this order. Questions vary with the emergency.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "The service",
+          "note": "Say just one word: police, fire or ambulance."
+        },
+        {
+          "n": 2,
+          "label": "State + suburb",
+          "note": "So you're connected to the right place."
+        },
+        {
+          "n": 3,
+          "label": "Exact place",
+          "note": "No address? Use a cross street or landmark. The Emergency+ app can help."
+        },
+        {
+          "n": 4,
+          "label": "What happened",
+          "note": "Short, clear answers."
+        },
+        {
+          "n": 5,
+          "label": "Your number",
+          "note": "So they can call back if you get cut off."
+        },
+        {
+          "n": 6,
+          "label": "Stay on",
+          "note": "They may tell you what to do until help arrives."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What should you say **first** on a call to a business?",
+        "options": [
+          "Who you are",
+          "Why you're annoyed",
+          "Your address",
+          "Goodbye"
+        ],
+        "answer": 0,
+        "explain": "Start with your name: Hi, my name is…",
+        "vc": [
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "q": "Why **repeat the details back** (*So that's Tuesday at 3:45?*)?",
+        "options": [
+          "To check you got them right",
+          "To fill the silence",
+          "To make the call longer",
+          "Because they asked you to"
+        ],
+        "answer": 0,
+        "explain": "Repeating back catches mistakes before they matter.",
+        "vc": [
+          "VC2E5LY01"
+        ]
+      },
+      {
+        "q": "In a voicemail, how should you say your phone number?",
+        "options": [
+          "Slowly, in small groups, and twice",
+          "Fast, once",
+          "Don't leave it",
+          "Only at the start"
+        ],
+        "answer": 0,
+        "explain": "Slowly, in groups, at the start and the end.",
+        "vc": [
+          "VC2E5LY02"
+        ]
+      },
+      {
+        "q": "You call 000. What will they ask first?",
+        "options": [
+          "Police, fire or ambulance?",
+          "Your full name",
+          "Your date of birth",
+          "Your Medicare number"
+        ],
+        "answer": 0,
+        "explain": "Then they'll ask where you are.",
+        "vc": [
+          "VC2E4LY01"
+        ]
+      },
+      {
+        "q": "When should you hang up on a 000 call?",
+        "options": [
+          "When the call-taker tells you to",
+          "As soon as you've said the address",
+          "After 30 seconds",
+          "When you feel calmer"
+        ],
+        "answer": 0,
+        "explain": "Stay on the line. They may give you instructions.",
+        "vc": [
+          "VC2E5LY01"
+        ]
+      },
+      {
+        "q": "What did Sam do after he called 000?",
+        "options": [
+          "Followed the call-taker's instructions and did CPR",
+          "Hung up and waited outside",
+          "Called his friends",
+          "Drove his brother to hospital"
+        ],
+        "answer": 0,
+        "explain": "He listened and acted on spoken instructions for about 10 minutes.",
+        "vc": [
+          "VC2E5LY01"
+        ]
+      },
+      {
+        "q": "Which is the most **formal** way to start?",
+        "options": [
+          "Could I please speak to the manager?",
+          "Is the boss there?",
+          "Put the manager on.",
+          "Manager around?"
+        ],
+        "answer": 0,
+        "explain": "Formal language suits people you don't know well.",
+        "vc": [
+          "VC2E6LA01"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan and make a call (or act one out). Use the four steps. Leave a voicemail too.",
+      "core": "Plan, practise and make (or role-play) a real call and a voicemail, using who, why, check, close, and plan what you'd say in a 000 call.",
+      "extend": "Plan, practise and make (or role-play) a real call and a voicemail, adjusting your formality and tone for the listener; then evaluate your recording and say what you'd change."
+    },
+    "checklist": [
+      "I said who I am and why I'm calling",
+      "I asked at least one question",
+      "I repeated the key details back",
+      "I spoke slowly and clearly",
+      "My voicemail had my name, number (twice) and reason"
+    ],
+    "levelUp": "Make two versions of the same call — to a friend's parent and to a business — and explain how your words and tone changed.",
+    "vc": [
+      "VC2E5LY02",
+      "VC2E5LY01",
+      "VC2E6LY01"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Every call has a pattern",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Write the **four steps** of a phone call.",
+            "lines": 0,
+            "vc": [
+              "VC2E5LY02"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "What should a **voicemail** include?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY02"
+            ]
+          },
+          {
+            "q": "In a 000 call, what will they ask first? What comes next?",
+            "lines": 2,
+            "vc": [
+              "VC2E4LY01"
+            ]
+          },
+          {
+            "q": "Why should you stay on the line in an emergency?",
+            "lines": 1
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a phone call",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the call. Use the word bank. Write why it helps.",
+          "core": "Each number marks a part of the call. Write which step it is and why it helps."
+        },
+        "columns": [
+          "Which step?",
+          "Why does it help?"
+        ],
+        "wordBank": {
+          "support": [
+            "who",
+            "why",
+            "answer",
+            "ask",
+            "repeat back",
+            "close"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LY01",
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Make it phone-ready",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 18
+        },
+        "instructions": "These lines are unclear or too casual for a call to a business. Rewrite each one so it's **clear** and **polite**. The first one is done for you.",
+        "columns": [
+          "What they said",
+          "Better on the phone"
+        ],
+        "rows": [
+          [
+            "Yeah um I need like a doctor thing?",
+            "Hi, my name is Jordan. I'm calling to book an appointment with a doctor, please."
+          ],
+          [
+            "Wait what? Huh?",
+            ""
+          ],
+          [
+            "*says their phone number really fast*",
+            ""
+          ],
+          {
+            "cells": [
+              "Is the boss there?",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "I rang before and NOBODY did anything!",
+              ""
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LA01",
+          "VC2E6LY01",
+          "VC2E3LA01"
+        ],
+        "vcNote": "Choosing formal, clear language for a phone call; clarifying politely."
+      },
+      {
+        "type": "scenarios",
+        "title": "Check it: repeat it back",
+        "pagebreak": {
+          "support": false,
+          "core": false,
+          "extend": true
+        },
+        "items": [
+          {
+            "q": "The receptionist says: *“We've got the 14th at quarter past three, or the 16th at ten to nine.”* Choose one, and write what you'd say to check it.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY01"
+            ]
+          },
+          {
+            "q": "A manager says: *“Come in Thursday for a trial shift. Wear black. Ask for Mel.”* Repeat it back in one sentence.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY01",
+              "VC2E4LY01"
+            ]
+          },
+          {
+            "q": "You didn't catch the manager's name. What do you say?",
+            "lines": 1,
+            "vc": [
+              "VC2E6LY01"
+            ]
+          },
+          {
+            "q": "A voicemail says: *“Hi, it's Priya from Fresh Cuts, can you call me back on oh-four-one-two…”* and cuts out. What do you do?",
+            "lines": 2,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LY01"
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Leave a voicemail",
+        "diagram": 1,
+        "pagebreak": true
+      },
+      {
+        "type": "questions",
+        "title": "Write your voicemail",
+        "items": [
+          {
+            "q": "You missed a call about a job you applied for. Write the voicemail you'd leave. Use the four parts.",
+            "lines": {
+              "support": 8,
+              "core": 9
+            },
+            "vc": [
+              "VC2E5LY02",
+              "VC2E4LY02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Plan a 000 call",
+        "diagram": 2,
+        "pagebreak": true,
+        "instructions": "Practise what you'd say if there was an emergency **at school**. Use the school's address, not your home address. **Never call 000 to practise.**",
+        "columns": [
+          "What do they want to know?",
+          "What would you say?"
+        ],
+        "vc": [
+          "VC2E4LY01",
+          "VC2E5LY01"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Sam stayed on the line",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did Sam do, step by step?",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VC2E4LY01"
+            ]
+          },
+          {
+            "q": "Why did it matter that he stayed on the line?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY01"
+            ]
+          },
+          {
+            "q": "What could **you** do now, so you'd be ready to make a call like Sam's?",
+            "lines": 2
+          },
+          {
+            "q": "Sam's call was led by the call-taker. How is that different from a call you make to a business?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VC2E6LY01"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: make the call",
+        "pagebreak": true,
+        "where": "in class with a partner, or a real call with your teacher's OK",
+        "instructions": "Plan a call, practise it out loud, then make it. A role-play with a partner counts. Record it if you can.",
+        "need": [
+          "your call plan",
+          "a phone, or a partner to play the receptionist"
+        ],
+        "steps": {
+          "support": [
+            "Choose your call.",
+            "Plan it below.",
+            "Practise it out loud.",
+            "Make the call, or act it out.",
+            "Leave a voicemail (act it out).",
+            "Listen back."
+          ],
+          "core": [
+            "Choose your call: book an appointment, ask about a job or shift, or ask a business a question.",
+            "Plan it below: who, why, what you'll ask, and how you'll close.",
+            "Practise it out loud once.",
+            "Make the call (or role-play it). Record it if you can.",
+            "Role-play leaving your voicemail too.",
+            "Listen back. Rate yourself on the checklist."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Who:",
+            "lines": 1
+          },
+          {
+            "label": "Why:",
+            "lines": 1
+          },
+          {
+            "label": "What I'll ask, and what I'll repeat back:",
+            "lines": 2
+          },
+          {
+            "label": "Close:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Recording",
+          "Teacher saw it",
+          "Partner's feedback"
+        ],
+        "vc": [
+          "VC2E5LY02",
+          "VC2E5LY01",
+          "VC2E6LY01",
+          "VC2E4LY02"
+        ],
+        "vcNote": "Hands-on: planning, delivering and reviewing a real or role-played call, using features of voice and clarifying questions."
+      },
+      {
+        "type": "questions",
+        "title": "How did the call go?",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Tick what you did: said who I am · said why · asked a question · repeated back · spoke slowly · closed politely. What went best?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY02"
+            ]
+          },
+          {
+            "q": "What's **one** thing you'd do differently next time?",
+            "lines": 2
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "items": [
+          {
+            "q": "Write the opening of the **same** call twice: once to a friend's parent, once to a business. What changed in your words and your tone?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY02"
+            ]
+          },
+          {
+            "q": "Record a 30-second voicemail for a job you'd love. Play it back. How did your pace, volume and tone help you sound ready for the job?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can plan a call in four steps.",
+          "I can repeat details back to check them.",
+          "I can speak slowly and clearly on the phone.",
+          "I can leave a voicemail and call 000."
+        ],
+        "questions": [
+          "How I felt before my call, and after:",
+          "A call I'm going to make this month:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn that a phone call is a short, structured spoken text (who, why, check, close), practise clarifying and repeating back, adjust formality for the listener, and use their voice clearly. They write a voicemail, plan a 000 call using the school's address, and study a real Warrnambool case where a 16-year-old called 000 and followed the call-taker's CPR instructions. The final task is a real or role-played call.",
+    "prep": [
+      "Arrange with the school office for staff to play receptionist for short role-play calls (by far the best option). Or pair students.",
+      "Decide how calls will be recorded (school devices, voice memo) and where recordings are stored.",
+      "Optional: install the Emergency+ app on a class device to show how it finds your location.",
+      "Print the school's address for the 000 page."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The pattern",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** play (or act out) a bad call and a good call to a business. What made the difference?",
+          "**Explicit teaching (10 min):** model the four steps with the call plan, thinking aloud about formality and repeating back.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a phone call."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Voice and checking",
+        "minutes": 50,
+        "steps": [
+          "**Voice warm-up (10 min):** say a phone number fast, then in groups. Spell your name aloud. What's easier to catch?",
+          "**Make it phone-ready (15 min):** rewrite and read aloud.",
+          "**Check it: repeat it back (15 min):** in pairs, one reads the receptionist line, one responds.",
+          "**Voicemail (10 min):** write and say it aloud."
+        ]
+      },
+      {
+        "title": "Lesson 3 — 000",
+        "minutes": 50,
+        "steps": [
+          "**Explicit teaching (10 min):** what a 000 call-taker asks, and why location comes first. Show the Emergency+ app.",
+          "**Plan a 000 call (15 min):** using the school's address. Practise with a pretend phone only.",
+          "**Case study (20 min):** Sam stayed on the line. Discuss: what would you need to know to do what Sam did?",
+          "**Exit (5 min):** the cross street or landmark nearest your home (not the address)."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Make the call",
+        "minutes": 50,
+        "steps": [
+          "**Plan + practise (15 min):** Do it page.",
+          "**Calls (25 min):** role-plays with the office or a partner; record if possible.",
+          "**Review + reflect (10 min):** How did the call go?, quick check, request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Every call has a pattern: who, why, check, close.",
+      "Repeat back the key details to catch mistakes.",
+      "Slow down; group numbers; spell names.",
+      "Match formality to the listener.",
+      "000: police, fire or ambulance; then where you are; stay on the line and follow instructions."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the call annotation.",
+        "Fewer rows and scenarios.",
+        "Sentence starters for the voicemail.",
+        "A partner or the teacher can be the first role-play."
+      ],
+      "extend": [
+        "Adjust formality and tone for two different listeners (Level Up).",
+        "Evaluate your own recording for pace, volume and tone."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LY01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Gathers and gives the information needed to carry out a task in a call, including a 000 plan (Check it, Plan a 000 call)."
+      },
+      {
+        "vc": "VC2E4LY02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Delivers a structured call or voicemail using features of voice (Do it, voicemail)."
+      },
+      {
+        "vc": "VC2E3LA01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses turn-taking and polite conventions suited to a formal call (Make it phone-ready, Do it)."
+      },
+      {
+        "vc": "VC2E5LY01",
+        "evidence": "Uses questioning and repeating back (paraphrasing) to clarify details (Check it, Do it, case study)."
+      },
+      {
+        "vc": "VC2E6LY01",
+        "evidence": "Shows awareness of formality when questioning and clarifying (Make it phone-ready, Do it)."
+      },
+      {
+        "vc": "VC2E5LY02",
+        "evidence": "Delivers a structured call and voicemail for a purpose, using pace, volume and clarity (Do it, voicemail)."
+      },
+      {
+        "vc": "VC2E6LA01",
+        "evidence": "Adjusts language as formality and social distance change (Make it phone-ready, call annotation)."
+      },
+      {
+        "vc": "VC2E7LY02",
+        "evidence": "Level Up: records a formal voicemail and evaluates features of voice."
+      },
+      {
+        "vc": "VC2E8LY02",
+        "evidence": "Level Up: delivers the same call for informal and formal listeners and explains the changes."
+      }
+    ],
+    "answers": "**Four steps:** who, why, check, close. **Voicemail:** name, number (slowly), why you called, what you'd like them to do, number again. **000:** police, fire or ambulance; then where you are (state and suburb or town, then address, cross street or landmark); stay on the line because they may give instructions and need to keep in touch.\n\n**Call plan:** 1 who; 2 why; 3 answer (details ready); 4 ask; 5 repeat back (check day, time, name); 6 close.\n\n**Make it phone-ready (samples):** Sorry, could you say that again, please? / My number is 0412 345 678 (slowly, in groups). / Could I please speak to the manager? / I called on Monday about my order and haven't heard back. Could you help me with that, please?\n\n**Check it:** e.g. *Could I please have the 14th at quarter past three? So that's the 14th at 3:15?* / *So that's Thursday, wearing black, and I ask for Mel?* / *Sorry, could I get your name again, please?* / Call the business's number from its website, or wait and listen for a second message.\n\n**Case study:** Sam called 000, answered the questions, followed the call-taker's instruction to do CPR for about 10 minutes until paramedics arrived. Staying on the line meant he got instructions and help could find them.",
+    "resources": [
+      {
+        "label": "Ambulance Victoria — Warrnambool teen's quick thinking saves his brother's life (2024)",
+        "url": "https://ambulance.vic.gov.au/warrnambool-teens-quick-thinking-saves-his-brothers-life"
+      },
+      {
+        "label": "Triple Zero — How to call 000",
+        "url": "https://www.triplezero.gov.au/triple-zero/How-to-Call-000"
+      },
+      {
+        "label": "Triple Zero Victoria — Making a Triple Zero (000) call",
+        "url": "https://www.triplezero.vic.gov.au/making-triple-zero-000-call"
+      },
+      {
+        "label": "Triple Zero — Emergency+ and other smartphone apps",
+        "url": "https://www.triplezero.gov.au/triple-zero/smartphone-applications"
+      },
+      {
+        "label": "healthdirect — Calling triple zero",
+        "url": "https://www.healthdirect.gov.au/calling-triple-zero"
+      }
+    ],
+    "realityCheck": [
+      "**Phone anxiety is real.** For some students this is the hardest course on the map. Never force a real call: a role-play counts as evidence, and they can work up to a real one.",
+      "**Never practise by dialling 000.** Use a pretend phone. Use the school's address on the 000 page, not home addresses, for privacy.",
+      "**The best partner is the school office.** A short, prearranged role-play with a real receptionist is authentic and safe. Ask them first: it takes about two minutes a student.",
+      "**The case study involves a cardiac arrest.** Some students may have lived through a family emergency. Give a heads-up, and keep the focus on what Sam did well.",
+      "**Access matters.** Students with hearing or speech differences can use the 106 text emergency service and the National Relay Service; students with family members who don't speak English can say *Police*, *Fire* or *Ambulance* and stay on the line for an interpreter.",
+      "**Works in a real class:** yes. Low-tech, and the payoff is immediate: students often make a real call they've been avoiding."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the call annotation, fewer rows and scenarios, and shorter Do it steps.",
+      "core": "Standard version: call pattern, call annotation, phone-ready rewrites, repeat-back scenarios, voicemail, a 000 plan, a real case, and a real or role-played call.",
+      "extend": "Adds clarify, call-taker and tone to the vocabulary, a formality quiz question, an extra rewrite, and a Level Up on adjusting formality and tone for two listeners."
+    }
+  }
+}

@@ -1,0 +1,917 @@
+{
+  "id": "vpc-get-on-the-roll",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "An election is coming. You will be 18 in time to vote. But you are not on the roll. If you don't enrol in time, you can't vote.",
+      "core": "There's an election coming. Your mates are arguing about it in the group chat. You'll be 18 in time to vote, but you're not on the roll. If the roll closes before you enrol, you miss out."
+    },
+    "why": {
+      "support": "Voting gives you a say. You can **enrol from 16**. Then you are ready at 18. It's a short online form. You just need the right website and the right details.",
+      "core": "Voting is how you get a say in who runs the country, the state and your local council. In Australia, you can **enrol from 16**, so you're ready the moment you turn 18. Enrolling is a short online form, but you have to find the right website, read the instructions and get the details right.",
+      "extend": "Voting is compulsory for adult citizens in Australia, but you can only vote if you're enrolled. You can **enrol from 16**, so you're ready at 18. Getting it right means finding the official agency, reading its instructions closely and completing a government document accurately: civic literacy you'll use for the rest of your life."
+    },
+    "canDo": {
+      "support": [
+        "I can find the right website for voting.",
+        "I can follow the steps to enrol.",
+        "I can fill in the form correctly.",
+        "I can help a friend enrol."
+      ],
+      "core": [
+        "I can name the **official agencies** that run elections, and spot unreliable election info.",
+        "I can turn the enrolment **instructions** into clear steps.",
+        "I can fill in an **enrolment form** correctly.",
+        "I can help others work out how to get on the roll."
+      ]
+    },
+    "showIt": "Enrol (if you're eligible and want to) or complete a practice enrolment form, and help plan a way to get more young people on the roll.",
+    "vocab": [
+      {
+        "word": "enrol",
+        "meaning": "put your name on the list of voters",
+        "example": "You can enrol to vote at 16."
+      },
+      {
+        "word": "electoral roll",
+        "meaning": "the official list of people who can vote",
+        "example": "My name is on the electoral roll."
+      },
+      {
+        "word": "AEC",
+        "meaning": "Australian Electoral Commission: runs federal elections",
+        "example": "The AEC website has the enrolment form."
+      },
+      {
+        "word": "eligible",
+        "meaning": "allowed to, because you meet the rules",
+        "example": "At 16, you're eligible to enrol."
+      },
+      {
+        "word": "compulsory",
+        "meaning": "you must do it, by law",
+        "example": "Voting is compulsory at 18."
+      },
+      {
+        "word": "evidence of identity",
+        "meaning": "something that proves who you are, like a Medicare card",
+        "example": "I used my Medicare card as evidence of identity."
+      },
+      {
+        "word": "declaration",
+        "meaning": "a statement you sign to say something is true",
+        "example": "Sign the declaration at the end.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "VEC",
+        "meaning": "Victorian Electoral Commission: runs Victorian elections",
+        "example": "Check the VEC website.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Get on the Roll in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Get on the Roll",
+        "sub": "Enrol at 16. Be ready at 18.",
+        "icon": "lucide:vote",
+        "say": "Get on the roll. Enrol at 16. Be ready to vote at 18."
+      },
+      {
+        "kind": "stat",
+        "big": "160,000",
+        "title": "young Australians (18–24) weren't on the roll",
+        "sub": "AEC, April 2025: youth enrolment 92.0%",
+        "say": "Before the 2025 federal election, 92 percent of young Australians aged 18 to 24 were enrolled to vote. That still left about 160,000 who weren't.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Who runs elections?",
+        "text": "**AEC** = federal · **VEC** = Victoria",
+        "icon": "lucide:landmark",
+        "say": "Elections are run by independent agencies. The AEC runs federal elections. The VEC runs Victorian state and council elections. Their websites are where you get the facts.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Step",
+        "pillIcon": "lucide:vote",
+        "title": "Check",
+        "text": "Australian citizen · **16 or older**",
+        "icon": "lucide:circle-check",
+        "say": "Step one. Check you're eligible. You need to be an Australian citizen, and 16 or older.",
+        "vc": [
+          "VPC-U3M1-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Step",
+        "pillIcon": "lucide:vote",
+        "title": "ID",
+        "text": "Medicare card · licence · passport · citizenship no.",
+        "icon": "lucide:id-card",
+        "say": "Step two. Get your ID ready. A Medicare card, driver licence, Australian passport or citizenship number. Or someone who's enrolled can confirm who you are.",
+        "vc": [
+          "VPC-U3M1-AP2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Step",
+        "pillIcon": "lucide:vote",
+        "title": "Fill it in",
+        "text": "**aec.gov.au/enrol** · one form, all elections",
+        "icon": "lucide:file-text",
+        "say": "Step three. Fill in the form on the official AEC website. One form covers federal, state and council elections in Victoria.",
+        "vc": [
+          "VPC-U3M1-AP2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Step",
+        "pillIcon": "lucide:vote",
+        "title": "Update",
+        "text": "Moved? **Update it.**",
+        "icon": "lucide:refresh-cw",
+        "say": "Step four. Keep it up to date. Moved house? Changed your name? Update your enrolment.",
+        "vc": [
+          "VPC-U3M1-LG3"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Get on the roll. Bring a mate.",
+        "icon": "lucide:vote",
+        "say": "Your mission. Get on the roll, or practise the form, and help more young people get on it too."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to get on the roll",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Elections are run by special groups. The **AEC** runs federal elections. The **VEC** runs Victorian elections. Their websites end in **.gov.au**. They are the best place to get the facts.\n\nTo vote, your name must be on the **electoral roll**. That's the list of voters.\n\nVoting is **compulsory** at 18. That means you must vote. But first you must **enrol**.\n\nYou can **enrol from 16**. Then you're ready at 18.\n\nTo enrol at **aec.gov.au/enrol**:\n\n1. **Check** you are an Australian citizen and 16 or older.\n2. **Get your ID ready.** A Medicare card works.\n3. **Fill in the form.** Your name, birthday and address.\n4. **Sign** to say it's true.\n\nMoved house? **Update** it.\n\nHeard something about voting in a group chat? Check the AEC website.",
+          "core": "In Australia, elections are run by independent agencies, not by politicians. The **AEC** (Australian Electoral Commission) runs federal elections. The **VEC** (Victorian Electoral Commission) runs state and council elections in Victoria. Their websites end in **.gov.au**. They're the best place for election facts: dates, how to enrol, where to vote.\n\nTo vote, your name has to be on the **electoral roll**: the official list of voters. Voting at federal elections has been **compulsory** since 1924. If you don't vote and have no good reason, you can be fined. But you can only vote if you've **enrolled**.\n\nHere's the good part: you can **enrol from 16**. Then you're ready to vote as soon as you turn 18. In Victoria, **one form** enrols you for federal, state and council elections.\n\nTo enrol online at **aec.gov.au/enrol**:\n\n1. **Check you're eligible**: an Australian citizen, aged 16 or older.\n2. **Get your evidence of identity ready**: a Medicare card, driver licence, Australian passport or citizenship number. If you don't have any, someone who is already enrolled can confirm who you are.\n3. **Fill in the form**: your full name, date of birth and the address where you live now.\n4. **Sign the declaration** to say it's all true.\n\nAfter that, keep it **up to date**. If you move house or change your name, update your enrolment.\n\nBe careful where you get election information. Rumours spread fast in group chats and on social media. If it's about how, when or where to vote, check the AEC or VEC website.",
+          "extend": "Australian elections are run by independent agencies, not by governments or parties. The **AEC** (Australian Electoral Commission) runs federal elections and referendums. The **VEC** (Victorian Electoral Commission) runs state and council elections in Victoria. Their official websites are the sources to trust for dates, enrolment and voting.\n\nYou can only vote if your name is on the **electoral roll**. Enrolling and voting are both **compulsory** for eligible adults. Federal voting has been compulsory since 1924, and not voting without a valid reason can bring a fine.\n\nYou can **enrol from 16**, so you're ready to vote at 18. In Victoria, a single enrolment covers federal, state and council elections.\n\nTo enrol online at **aec.gov.au/enrol**:\n\n1. **Check you're eligible**: an Australian citizen, aged 16 or over.\n2. **Prepare evidence of identity**: a Medicare card, driver licence, Australian passport or citizenship number. Or an enrolled person can confirm who you are.\n3. **Complete the form** carefully: full legal name, date of birth and the address where you live.\n4. **Sign the declaration** that it's all true.\n\nThen keep it **up to date** when you move or change your name.\n\nFalse claims about voting spread fast. For how, when or where to vote, trust the AEC or VEC."
+        },
+        "vc": [
+          "VPC-U3M1-LG1",
+          "VPC-U3M1-LG3",
+          "VPC-U3M1-AP2"
+        ],
+        "vcNote": "Reliable agencies for civic participation; instructions for completing a government document."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The missing young voters",
+        "icon": "lucide:vote",
+        "body": {
+          "support": "Before the 2025 election, the AEC counted who was on the roll. Almost everyone was: **98.2%**.\n\nBut young people aged **18 to 24** were behind. Only **92%** were on the roll.\n\nThat means about **160,000** young people could not vote. They were not on the roll.\n\nMore young people are enrolling every year. In 2021 it was **84.5%**. In 2024 it was **90.2%**.\n\nThe easy fix? Enrol at 16 or 17. Then you're ready at 18.",
+          "core": "Before every federal election, the AEC reports how many people are enrolled. In April 2025, before that year's election, it announced a **record**: **98.2%** of eligible Australians were on the roll.\n\nBut one group was behind: young people aged **18 to 24**. Their enrolment rate was **92.0%**.\n\nThat sounds high. But the AEC's own figures showed about **1,991,700** young people aged 18 to 24 who could enrol, and about **1,831,800** who had. That's roughly **160,000 young Australians** who couldn't vote, because they weren't on the roll.\n\nThe youth rate has been rising: it was **84.5%** in June 2021 and **90.2%** in June 2024. Every year, more young people are getting on the roll before they turn 18.\n\nThe easiest way not to be one of the missing? Enrol at 16 or 17. Then you're on the roll, ready to vote, the moment you turn 18.",
+          "extend": "Before each federal election, the AEC publishes enrolment statistics. In April 2025 it announced a **record national enrolment rate of 98.2%**, the third election in a row to set a record.\n\nOne group lagged: Australians aged **18 to 24**, with an enrolment rate of **92.0%**. The AEC's table put the eligible population of young people at about **1,991,700**, with about **1,831,800** enrolled. The gap is roughly **160,000 young people** without a vote.\n\nThe trend is improving. Youth enrolment was **84.5%** at June 2021 and **90.2%** at June 2024. Enrolling at 16 or 17, before you're eligible to vote, is one reason more young people are on the roll when an election is called.\n\nThe statistics raise a civic question worth discussing: why are young people the least likely to be enrolled, and whose job is it to change that?"
+        },
+        "source": {
+          "name": "Australian Electoral Commission — “Record enrolment ahead of 2025 federal election” (11 April 2025)",
+          "url": "https://aec.gov.au/media/2025/04-11.htm"
+        },
+        "think": {
+          "support": [
+            "Why aren't some young people on the roll?",
+            "How could we help?"
+          ],
+          "core": [
+            "Why might young people be less likely to be enrolled?",
+            "Is 92% a good result? Explain.",
+            "What could help more young people get on the roll?"
+          ]
+        },
+        "vc": [
+          "VPC-U3M1-LG1",
+          "VPC-U3M1-AP4"
+        ],
+        "vcNote": "Interpreting official data from a reliable government agency about civic participation."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of an enrolment form",
+      "docTitle": "ENROL TO VOTE: KEY PARTS (PRACTICE)",
+      "vc": [
+        "VPC-U3M1-AP2",
+        "VPC-U3M1-LG3"
+      ],
+      "vcNote": "The parts of a government form and what each one asks for.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Eligibility",
+          "value": "Are you an Australian citizen? Are you 16 or older?"
+        },
+        {
+          "n": 2,
+          "label": "Your name",
+          "value": "Your full name, as it is on your ID"
+        },
+        {
+          "n": 3,
+          "label": "Date of birth",
+          "value": "Day / month / year"
+        },
+        {
+          "n": 4,
+          "label": "Where you live",
+          "value": "The address where you live now"
+        },
+        {
+          "n": 5,
+          "label": "Evidence of identity",
+          "value": "Medicare card, driver licence, Australian passport or citizenship number, or an enrolled person who can confirm who you are",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Declaration",
+          "value": "Sign to say everything on the form is true.",
+          "strong": true
+        }
+      ],
+      "note": "A simplified practice version of the parts of a real enrolment form. Enrol for real at aec.gov.au/enrol.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Eligibility",
+          "note": "Check you're allowed to enrol before you start."
+        },
+        {
+          "n": 2,
+          "label": "Full name",
+          "note": "Match your ID exactly. No nicknames."
+        },
+        {
+          "n": 3,
+          "label": "Date of birth",
+          "note": "Check the order: day, then month, then year."
+        },
+        {
+          "n": 4,
+          "label": "Address",
+          "note": "Where you live now. This decides where you vote."
+        },
+        {
+          "n": 5,
+          "label": "Evidence of identity",
+          "note": "Proves who you are. Have it ready."
+        },
+        {
+          "n": 6,
+          "label": "Declaration",
+          "note": "Your signature says it's true. Only sign if it is."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Check election info",
+      "steps": [
+        {
+          "title": "Who said it?",
+          "text": "An official agency, or a post, a mate or a party?",
+          "icon": "lucide:circle-help"
+        },
+        {
+          "title": "Find it",
+          "text": "Look it up on the AEC or VEC website.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Match?",
+          "text": "If they don't match, trust the official site.",
+          "icon": "lucide:circle-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Who runs **federal** elections in Australia?",
+        "options": [
+          "The Australian Electoral Commission (AEC)",
+          "The Prime Minister",
+          "Your local council",
+          "Political parties"
+        ],
+        "answer": 0,
+        "explain": "Independent agencies run elections. The VEC runs Victorian ones.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "q": "From what age can you **enrol** to vote?",
+        "options": [
+          "16",
+          "14",
+          "18",
+          "21"
+        ],
+        "answer": 0,
+        "explain": "Enrol at 16 so you're ready to vote at 18.",
+        "vc": [
+          "VPC-U3M1-LG3"
+        ]
+      },
+      {
+        "q": "Which can you use as **evidence of identity** when you enrol?",
+        "options": [
+          "A Medicare card",
+          "A school report",
+          "A phone bill",
+          "A library card"
+        ],
+        "answer": 0,
+        "explain": "Medicare card, driver licence, Australian passport or citizenship number.",
+        "vc": [
+          "VPC-U3M1-AP2"
+        ]
+      },
+      {
+        "q": "A group chat says the election has moved to a different day. What do you do?",
+        "options": [
+          "Check the AEC or VEC website",
+          "Believe it and tell everyone",
+          "Ignore all election news",
+          "Ask the group chat again"
+        ],
+        "answer": 0,
+        "explain": "For how, when and where to vote, trust the official agency.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "q": "What should you do if you **move house**?",
+        "options": [
+          "Update your enrolment",
+          "Nothing: it updates itself",
+          "Enrol again from scratch",
+          "Stop voting"
+        ],
+        "answer": 0,
+        "explain": "Keep your enrolment up to date.",
+        "vc": [
+          "VPC-U3M1-LG3"
+        ]
+      },
+      {
+        "q": "Before the 2025 election, about how many young Australians aged 18–24 were **not** enrolled?",
+        "options": [
+          "About 160,000",
+          "About 1,600",
+          "About 16,000,000",
+          "None"
+        ],
+        "answer": 0,
+        "explain": "Youth enrolment was 92.0%, the lowest of any age group.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "q": "Why does the form ask you to sign a **declaration**?",
+        "options": [
+          "To confirm the information is true",
+          "To join a political party",
+          "To get a discount",
+          "To choose who you vote for"
+        ],
+        "answer": 0,
+        "explain": "Your signature confirms the details are true.",
+        "vc": [
+          "VPC-U3M1-AP2"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Enrol (if you can and want to), or fill in a practice form. Then help your group plan how to get more young people enrolled.",
+      "core": "Enrol to vote (if you're eligible and want to) or complete a practice enrolment form, and help your group plan a way to get more young people on the roll.",
+      "extend": "Enrol (if eligible and you choose to) or complete a practice enrolment form, then lead or contribute to a group plan, based on the AEC data, to increase youth enrolment at your school."
+    },
+    "checklist": [
+      "I found the official AEC website",
+      "I turned the instructions into steps",
+      "I completed the form (real or practice) correctly",
+      "I helped my group make a plan"
+    ],
+    "levelUp": "Skim the AEC enrolment page and find three facts a Year 10 student would need. Then write a one-paragraph guide in your own words.",
+    "vc": [
+      "VPC-U3M1-AP2",
+      "VPC-U3M1-LG3",
+      "VPC-U3M1-AP4"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to get on the roll",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Who runs each kind of election?",
+            "lines": 0,
+            "vc": [
+              "VPC-U3M1-LG1"
+            ],
+            "boxes": [
+              "Federal",
+              "Victorian state",
+              "Local council"
+            ]
+          },
+          {
+            "q": "From what age can you enrol? Why is it a good idea to enrol early?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-LG3"
+            ]
+          },
+          {
+            "q": "Name **two** things you can use as evidence of identity.",
+            "lines": 1,
+            "vc": [
+              "VPC-U3M1-AP2"
+            ]
+          },
+          {
+            "q": "Where should you check if you hear something about the election in a group chat?",
+            "lines": 1,
+            "vc": [
+              "VPC-U3M1-LG1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Reliable or check it?",
+        "pagebreak": true,
+        "choices": [
+          "Reliable",
+          "Check it"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is a place you might get election information. Tick whether it's **reliable**, or whether you should **check it** on an official site.",
+        "cards": [
+          {
+            "from": "Website",
+            "text": "aec.gov.au",
+            "answer": "Reliable",
+            "flags": "The official federal election agency."
+          },
+          {
+            "from": "Group chat",
+            "text": "A forwarded message: “The election's been moved to Sunday!”",
+            "answer": "Check it",
+            "flags": "A rumour. Check the AEC."
+          },
+          {
+            "from": "Website",
+            "text": "vec.vic.gov.au",
+            "answer": "Reliable",
+            "flags": "The official Victorian election agency."
+          },
+          {
+            "from": "Social media",
+            "text": "A video saying “You can vote by text message this year.”",
+            "answer": "Check it",
+            "flags": "Not true: check the official site."
+          },
+          {
+            "from": "Flyer",
+            "text": "A political party's flyer about how to vote",
+            "answer": "Check it",
+            "flags": "It wants your vote: check the facts.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Website",
+            "text": "Youth Central (the Victorian Government's site for young people)",
+            "answer": "Reliable",
+            "flags": "An official government site.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U3M1-LG1"
+        ],
+        "vcNote": "Identifying reliable government agencies and sources for civic participation."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of an enrolment form",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the form. Use the word bank. Write one thing to get right.",
+          "core": "Each number marks part of the form. Write what it asks for, and one thing to get right."
+        },
+        "columns": [
+          "What does it ask for?",
+          "One thing to get right"
+        ],
+        "wordBank": {
+          "support": [
+            "eligibility",
+            "full name",
+            "date of birth",
+            "address",
+            "ID",
+            "sign"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U3M1-AP2"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Turn it into steps",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 16
+        },
+        "instructions": "Rewrite these instructions as **numbered steps** someone could tick off. The first one is done for you. — *“To enrol you must be an Australian citizen aged 16 or over. Before you start, have your Medicare card, driver licence, Australian passport or citizenship number ready, or ask someone who is enrolled to confirm your identity. Complete the online form at aec.gov.au/enrol with your full name, date of birth and current address, then sign the declaration. Remember to update your enrolment if you move.”*",
+        "columns": [
+          "Step",
+          "What to do"
+        ],
+        "rows": [
+          [
+            "1",
+            "Check you're an Australian citizen and 16 or older."
+          ],
+          [
+            "2",
+            ""
+          ],
+          [
+            "3",
+            ""
+          ],
+          [
+            "4",
+            ""
+          ],
+          {
+            "cells": [
+              "5",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U3M1-LG3"
+        ],
+        "vcNote": "Summarising and paraphrasing instructions into sequential points to complete a civic task."
+      },
+      {
+        "type": "flow",
+        "title": "Check election info",
+        "diagram": 1
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the missing young voters",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the AEC find about young people aged 18–24?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-LG1"
+            ]
+          },
+          {
+            "q": "Why do you think young people are the least likely to be enrolled?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-AP4"
+            ]
+          },
+          {
+            "q": "Why is the AEC a reliable source for these numbers?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-LG1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Group plan: get more young people on the roll",
+        "items": [
+          {
+            "q": "In a group, plan **one** way to help more students at your school get on the roll (a poster, a lunchtime stall, a message to Year 10s). What's your idea?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-AP4"
+            ]
+          },
+          {
+            "q": "What part did **you** do in the discussion? What idea did you add or improve?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: get on the roll (or practise)",
+        "pagebreak": true,
+        "where": "on the AEC website, in class or at home",
+        "instructions": {
+          "support": "If you can and want to, enrol for real at aec.gov.au/enrol. If not, fill in a practice form. Both count.",
+          "core": "If you're an Australian citizen aged 16 or over and you want to, **enrol for real** at aec.gov.au/enrol. Otherwise, complete a **practice form** your teacher gives you. Either way counts."
+        },
+        "need": [
+          "your evidence of identity (for a real enrolment)",
+          "a device, or a printed practice form"
+        ],
+        "steps": {
+          "support": [
+            "Check if you can enrol.",
+            "Get your ID ready.",
+            "Fill in the form (real or practice).",
+            "Check every detail.",
+            "Show your teacher, or tell them you did it."
+          ],
+          "core": [
+            "Check you're eligible. Not eligible yet? Use the practice form.",
+            "Already enrolled? Use the AEC's “check my enrolment” page instead.",
+            "Have your evidence of identity ready.",
+            "Fill in the form, using your steps from “Turn it into steps”.",
+            "Check every detail before you sign or submit.",
+            "Show your teacher your practice form, or tell them you've enrolled. Keep your details private."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Which did I do? (real, practice, or checked my enrolment):",
+            "lines": 1
+          },
+          {
+            "label": "The trickiest part of the form, and how I got it right:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Teacher saw it",
+          "Practice form",
+          "Told my teacher I enrolled"
+        ],
+        "vc": [
+          "VPC-U3M1-AP2",
+          "VPC-U3M1-LG3"
+        ],
+        "vcNote": "Hands-on: sourcing and completing a real (or practice) government document."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "**Skim** the AEC's enrolment page. Which parts did you skip, and which did you read closely? Why?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M1-LG2"
+            ]
+          },
+          {
+            "q": "Write a one-paragraph guide for Year 10 students: why and how to enrol at 16. Use your own words and only facts from the AEC.",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M1-LG3",
+              "VPC-U3M1-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find the official agencies that run elections.",
+          "I can turn instructions into steps.",
+          "I can fill in an enrolment form correctly.",
+          "I can help others get on the roll."
+        ],
+        "questions": [
+          "Something about voting I didn't know before:",
+          "When I'll enrol (or check my enrolment):"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students identify the official agencies that run elections (AEC and VEC), sort reliable and unreliable sources of election information, annotate the parts of an enrolment form, turn enrolment instructions into numbered steps, and interpret AEC data showing that about 160,000 young Australians aged 18–24 weren't enrolled before the 2025 election. They plan, as a group, a way to boost enrolment at school, and enrol for real (if eligible and they choose to) or complete a practice form.",
+    "prep": [
+      "Print practice copies of the parts of an enrolment form, or use the workbook page. Don't collect real forms or personal details.",
+      "Check the AEC enrol page and “check my enrolment” page are reachable on school devices.",
+      "Check whether an election is coming up: if so, find the close-of-rolls date on the AEC or VEC site."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Who runs elections?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show a (made-up) group chat rumour about an election. How would you check it?",
+          "**Explicit teaching (10 min):** AEC vs VEC; what the roll is; enrolling from 16. Model finding the enrol page from a search, and spotting the official .gov.au site.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Sort (10 min):** Reliable or check it?"
+        ]
+      },
+      {
+        "title": "Lesson 2 — The form",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** Anatomy of an enrolment form.",
+          "**Turn it into steps (15 min):** model the first step, then students finish.",
+          "**Case study (20 min):** the missing young voters. Discuss the data."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Do it",
+        "minutes": 50,
+        "steps": [
+          "**Group plan (15 min):** one idea to boost enrolment at school.",
+          "**Do it (25 min):** real enrolment (optional, private) or practice form.",
+          "**Reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "The AEC runs federal elections; the VEC runs Victorian state and council elections.",
+      "You can enrol from 16, so you're ready to vote at 18.",
+      "In Victoria, one form enrols you for federal, state and council elections.",
+      "Evidence of identity: Medicare card, driver licence, Australian passport or citizenship number, or an enrolled person who confirms who you are.",
+      "Check election information on the official sites."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the form annotation.",
+        "Fewer sort cards and steps.",
+        "Shorter Do it steps."
+      ],
+      "extend": [
+        "Skim and scan the real AEC page (Level Up).",
+        "Write a guide for younger students using only AEC facts."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U3M1-LG1",
+        "evidence": "Identifies the AEC and VEC as reliable agencies and separates them from unreliable sources (Check your reading, sort, case study)."
+      },
+      {
+        "vc": "VPC-U3M1-AP2",
+        "evidence": "Sources and completes a real or practice enrolment form accurately (form annotation, Do it)."
+      },
+      {
+        "vc": "VPC-U3M1-LG3",
+        "evidence": "Summarises and paraphrases enrolment instructions into sequential steps (Turn it into steps, Do it)."
+      },
+      {
+        "vc": "VPC-U3M1-AP4",
+        "evidence": "Participates in the group plan to increase youth enrolment, listening and adding ideas (Group plan, teacher observation)."
+      },
+      {
+        "vc": "VPC-U3M1-LG2",
+        "evidence": "Level Up: skims and scans the AEC page to decide what to read closely."
+      }
+    ],
+    "answers": "**Check your reading:** federal — AEC; Victorian state — VEC; local council — VEC. Enrol from 16, so you're ready to vote at 18 and don't miss out. Evidence of identity: Medicare card, driver licence, Australian passport, citizenship number (or an enrolled person confirms who you are). Check the AEC or VEC website.\n\n**Sort:** aec.gov.au — reliable; group chat rumour — check it; vec.vic.gov.au — reliable; vote by text — check it (it isn't true); party flyer — check it; Youth Central — reliable.\n\n**Form:** 1 eligibility; 2 full name matching ID; 3 date of birth in the right order; 4 current address; 5 evidence of identity; 6 declaration (only sign if it's true).\n\n**Steps (sample):** 1 Check you're an Australian citizen aged 16+. 2 Get your evidence of identity ready (or someone enrolled to confirm who you are). 3 Go to aec.gov.au/enrol and fill in your full name, date of birth and current address. 4 Sign the declaration. 5 Update your enrolment if you move.\n\n**Case study:** youth enrolment was 92.0% (lowest of any group), about 160,000 not enrolled; possible reasons include not knowing you can enrol early, moving house often, not seeing it as urgent; the AEC runs the roll and publishes official data.",
+    "resources": [
+      {
+        "label": "AEC — Enrol to vote",
+        "url": "https://www.aec.gov.au/enrol/"
+      },
+      {
+        "label": "AEC — Record enrolment ahead of 2025 federal election (April 2025)",
+        "url": "https://aec.gov.au/media/2025/04-11.htm"
+      },
+      {
+        "label": "AEC — Evidence of identity and enrolment information",
+        "url": "https://aec.gov.au/community/enrol.htm"
+      },
+      {
+        "label": "AEC — Compulsory voting backgrounder",
+        "url": "https://aec.gov.au/About_AEC/Publications/Backgrounders/compulsory-voting.htm"
+      },
+      {
+        "label": "AEC — Victorian enrolment form (federal, state and local)",
+        "url": "https://aec.gov.au/Enrol/files/er016w-vic.pdf"
+      },
+      {
+        "label": "Victorian Electoral Commission",
+        "url": "https://www.vec.vic.gov.au/"
+      },
+      {
+        "label": "Youth Central (Victorian Government)",
+        "url": "https://www.youthcentral.vic.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Not every student can enrol.** Students who aren't Australian citizens can't enrol, and you shouldn't put anyone on the spot. Everyone can complete the practice form, and that fully counts.",
+      "**Keep enrolment private.** Never collect students' real details or screenshots of their enrolment. A student telling you they enrolled is enough.",
+      "**Stay politically neutral.** The course is about the process, not parties or issues. Follow your school's guidance on political neutrality.",
+      "**The detail.** The AEC allows enrolment from 16 for federal elections; the Victorian form notes that state enrolment starts at 17. One form covers both, so “enrol at 16” is the right message.",
+      "**Works in a real class:** yes. It's short, practical and genuinely useful. Students who enrol often leave the lesson having done something adult for the first time."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, a word bank on the form, fewer sort cards and steps, and shorter Do it steps.",
+      "core": "Standard version: agencies, reliable-source sort, enrolment form annotation, instructions into steps, AEC data case study, group plan and a real or practice enrolment.",
+      "extend": "Adds a declaration quiz question, skimming and scanning the real AEC page, and writing a guide for Year 10s using only AEC facts."
+    }
+  }
+}

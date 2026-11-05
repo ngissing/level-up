@@ -1,0 +1,1002 @@
+{
+  "id": "odds-against-you",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "It's the footy. The ad break starts. Mates on a couch. A loud crowd. A phone full of odds. You're too young to bet. So why does the ad feel like it's for you?",
+      "core": "It's the last quarter. Your team is two points down. The ad break starts: mates on a couch, a roaring crowd, a phone glowing with odds. “Back your knowledge.” You're not even allowed to bet. So why does the ad feel like it's talking to you?"
+    },
+    "why": {
+      "support": "Betting ads are made very carefully. Every picture, sound and word is there to sell a feeling. Loot boxes in games do it too. When you can see the tricks, they work less.",
+      "core": "Betting ads are some of the most carefully made texts you'll see. Every picture, sound and word is chosen to sell you a feeling, not just a bet. Loot boxes in games use a lot of the same tricks. Once you can see how they work, they lose their grip.",
+      "extend": "Wagering ads are some of the most carefully built persuasive texts in Australian media. Images, sound, sequence and language link betting with belonging, skill and excitement. Loot boxes borrow the same design. Analysing them is a defence."
+    },
+    "canDo": {
+      "support": [
+        "I can spot the tricks in a betting ad.",
+        "I can say how the sound and pictures make me feel.",
+        "I can tell a fact from a feeling.",
+        "I can make an honest ad."
+      ],
+      "core": [
+        "I can spot the **four tricks** in betting ads.",
+        "I can explain how **pictures, sound and order** make me feel something.",
+        "I can tell **facts** from **feelings and opinions**.",
+        "I can make an **honest ad** that uses the same tricks."
+      ]
+    },
+    "showIt": "Pull apart a betting ad or a loot box, then storyboard an honest ad for younger students.",
+    "vocab": [
+      {
+        "word": "odds",
+        "meaning": "the chance of something happening, shown as a number",
+        "example": "The odds on the Swans were $2.05."
+      },
+      {
+        "word": "persuade",
+        "meaning": "get someone to think or do something",
+        "example": "The ad tries to persuade you to bet."
+      },
+      {
+        "word": "target audience",
+        "meaning": "the people an ad is really aimed at",
+        "example": "Young men who love sport are a target audience."
+      },
+      {
+        "word": "tagline",
+        "meaning": "a short line said or shown at the end of an ad",
+        "example": "The tagline was in tiny print."
+      },
+      {
+        "word": "loot box",
+        "meaning": "a paid in-game prize with a random reward",
+        "example": "He spent $20 on loot boxes."
+      },
+      {
+        "word": "subjective",
+        "meaning": "based on feelings or opinions, not facts",
+        "example": "“The best night ever” is subjective.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "objective",
+        "meaning": "based on facts you can check",
+        "example": "“You must be 18 to bet” is objective.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "normalise",
+        "meaning": "make something seem normal",
+        "example": "Ads can normalise betting on sport.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "The Odds Are Against You in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "The Odds Are Against You",
+        "sub": "See the tricks that sell a bet.",
+        "icon": "lucide:dices",
+        "say": "The odds are against you. Betting ads and loot boxes, and the tricks that sell a bet."
+      },
+      {
+        "kind": "stat",
+        "big": "81%",
+        "title": "of young people could name a betting brand",
+        "sub": "111 Victorians aged 11–16, surveyed at basketball venues (Nyemcsok and others, 2018)",
+        "say": "In a Victorian study, 81 percent of young people aged 11 to 16 could name a betting brand. None of them were old enough to bet.",
+        "vc": [
+          "VC2E3LY09"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "They sell a feeling",
+        "text": "Belonging. Being clever. **The rush.**",
+        "icon": "lucide:heart",
+        "say": "Betting ads don't really sell odds. They sell a feeling: being one of the mates, being clever, the rush of winning.",
+        "vc": [
+          "VC2E6LY07"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Trick",
+        "pillIcon": "lucide:dices",
+        "title": "Mates",
+        "text": "Betting = **what fans like you do**.",
+        "icon": "lucide:users",
+        "say": "Trick one. Mates. Friends, footy, team colours. The message: betting is what fans like you do.",
+        "vc": [
+          "VC2E6LY07"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Trick",
+        "pillIcon": "lucide:dices",
+        "title": "Power words",
+        "text": "*Easy. In seconds. Back your knowledge.*",
+        "icon": "lucide:zap",
+        "say": "Trick two. Power words. Easy. In seconds. Back your knowledge. You're in control.",
+        "vc": [
+          "VC2E3LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Trick",
+        "pillIcon": "lucide:dices",
+        "title": "Sound and speed",
+        "text": "Fast beat. Crowd roar. **Slow-mo win.**",
+        "icon": "lucide:volume-2",
+        "say": "Trick three. Sound and speed. Fast music, a roaring crowd, a slow-motion goal. Your heart races before you read a word.",
+        "vc": [
+          "VC2E5LA07",
+          "VC2E4LA09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Trick",
+        "pillIcon": "lucide:dices",
+        "title": "Tiny print",
+        "text": "*Chances are you're about to lose.*",
+        "icon": "lucide:search",
+        "say": "Trick four. Tiny print. The warning comes last, small and fast. Chances are you're about to lose.",
+        "vc": [
+          "VC2E4LA09"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Loot boxes too",
+        "text": "Flashes. Sounds. **Nearly!**",
+        "icon": "lucide:gift",
+        "say": "Loot boxes use the same tricks: bright flashes, exciting sounds, and the feeling you nearly got the rare one.",
+        "vc": [
+          "VC2E5LA07"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Pull it apart. Make an honest one.",
+        "icon": "lucide:clapperboard",
+        "say": "Your mission. Pull apart an ad, then make an honest one, using the same tricks to tell the truth."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How a betting ad works",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "You must be **18** to bet in Australia. But sport is full of betting ads. They use **four tricks**.\n\n1. **Mates.** Friends, footy and team colours. The ad says: betting is what fans like you do.\n2. **Power words.** *Easy. In seconds. Back your knowledge.* These words make betting sound simple and smart.\n3. **Sound and speed.** Fast music. A loud crowd. A slow-motion goal. You see the win. You never see the losses.\n4. **Tiny print.** Ads must show a warning, like *Chances are you're about to lose.* Look how small and fast it is.\n\n**Loot boxes** in games use tricks too. Bright flashes. Exciting sounds. The feeling that you *nearly* got the rare one.\n\nThe rules are changing. From **2027**, betting ads can't use famous sports stars or influencers.",
+          "core": "You have to be **18** to bet in Australia. But if you watch sport, you've seen hundreds of betting ads. They're built with great care, and they use the same **four tricks** again and again.\n\n1. **Mates.** Friends on a couch, team colours, a big game. Researchers who studied 85 Australian betting ads found that **mateship** and **sports-fan rituals** were the most common ways ads tried to appeal to people. The message: betting is just what fans like you do.\n2. **Power words.** *Easy. In seconds. Back your knowledge. You're in control.* These words make betting sound simple and smart, as if knowing your footy means you'll win.\n3. **Sound and speed.** Fast music, a roaring crowd, a slow-motion goal, mates jumping up cheering. The **order** of the shots matters too: you see the win, but never the losses.\n4. **Tiny print.** Since 2023, betting ads have had to show warnings like *Chances are you're about to lose* or *You win some. You lose more.* Look at how big, how fast and how late they appear.\n\n**Loot boxes** in games use similar tricks: flashing lights, exciting sounds and the feeling that you *nearly* got the rare item. Since September 2024, new games in Australia with paid loot boxes get at least an **M** rating, and games with gambling you can play get **R 18+**.\n\nThe rules are changing. In 2023, a federal parliamentary inquiry said Australia should ban online gambling ads completely. That hasn't happened, but from **2027**, betting ads can't use famous sports stars, celebrities or influencers.",
+          "extend": "Gambling is legal only for adults in Australia, yet anyone who watches sport encounters a constant stream of wagering advertising. These ads are carefully constructed, and a few techniques recur.\n\n1. **Mates.** A 2016 analysis of 85 Australian sports betting ads found that **mateship** and **sports-fan rituals** were the most common appeals, alongside winning, social status, thrill, and power and control. The effect is to **normalise** betting as part of being a fan.\n2. **Power words.** The language of evaluation is turned up to full volume: *easy*, *in seconds*, *back your knowledge*. It frames betting as a skill you control, not a game of chance.\n3. **Sound and speed.** Music, crowd noise, slow motion and editing shape your emotional response before you process a word. The **sequence** matters: the ad shows the win and skips the losses.\n4. **Tiny print.** Since 2023, wagering ads must rotate warnings such as *Chances are you're about to lose*. How large, how long and where they appear changes how much they're noticed.\n\n**Loot boxes** borrow the same design. Since September 2024, new games in Australia with paid loot boxes receive at least an **M** classification, and those with interactive simulated gambling, **R 18+**.\n\nRegulation is contested. A 2023 parliamentary inquiry recommended a full ban on online gambling ads. The government chose narrower limits instead, including a ban, from 2027, on gambling ads featuring notable people such as athletes, celebrities and influencers."
+        },
+        "vc": [
+          "VC2E6LY07",
+          "VC2E3LA02",
+          "VC2E5LA07",
+          "VC2E4LA09"
+        ],
+        "vcNote": "How language, images, sound and sequence in betting ads work together to engage and influence an audience."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Too young to bet, old enough to remember",
+        "icon": "lucide:dices",
+        "body": {
+          "support": "In 2018, researchers asked **111 young people** about betting ads. They were **11 to 16** years old. They were at basketball courts in Victoria.\n\n- **81%** could name a betting brand.\n- Many remembered the brands' **colours**.\n- About **1 in 5** said they would bet when they turned 18.\n\nNone of them were old enough to bet. But they still remembered the ads.\n\nThat's how strong a good ad is. It sticks, even if it's not meant for you.",
+          "core": "In 2018, researchers surveyed **111 young people aged 11 to 16** at community basketball venues in Victoria. They asked what they remembered about sports betting ads.\n\n- **81%** could name at least one betting brand.\n- Many remembered details: the brands' **colours**, and the ways the ads tried to appeal to them.\n- **About 1 in 5 (22.5%)** said they planned to bet when they turned 18. Boys were more likely to say this than girls.\n\nNone of these young people were allowed to bet. The ads were meant for adults. But the researchers found that the rules at the time didn't stop young people from seeing and remembering them.\n\nThat's the power of a well-made ad. You don't have to want it, or even be allowed it, for it to stick.",
+          "extend": "In 2018, a research team led by Nyemcsok surveyed **111 young people aged 11 to 16** at community basketball venues in Victoria. They asked what the young people remembered about sports betting ads, and what they thought of them.\n\n- **81.1%** could name at least one sports betting brand.\n- Many knew the brands' distinctive features, such as their **colours**, and the **appeal strategies** the ads used.\n- **22.5%** said they planned to bet on sport at 18. Boys were much more likely to say so than girls.\n\nThe authors concluded that the rules at the time didn't seem to work. They weren't stopping young people from seeing and remembering gambling ads.\n\nThe study raises a question about audience. A text can be aimed at one group (adult sports fans) and still reach another group powerfully: their younger brothers, sisters and kids."
+        },
+        "source": {
+          "name": "Nyemcsok and others (2018), “Young people's recall and perceptions of gambling advertising and intentions to gamble on sport”, Journal of Behavioral Addictions",
+          "url": "https://espace.curtin.edu.au/handle/20.500.11937/74401"
+        },
+        "think": {
+          "support": [
+            "What did they remember?",
+            "Why did the ads stick?"
+          ],
+          "core": [
+            "What did the young people remember?",
+            "Who were the ads meant for? Who else saw them?",
+            "Why do you think the ads stuck?"
+          ]
+        },
+        "vc": [
+          "VC2E3LY09",
+          "VC2E6LY07",
+          "VC2E8LY05"
+        ],
+        "vcNote": "A real Victorian study: how persuasive texts reach and influence an audience beyond their stated target."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a betting ad",
+      "docTitle": "AD SCRIPT: “GAME DAY” (MADE-UP EXAMPLE)",
+      "vc": [
+        "VC2E5LA07",
+        "VC2E4LA09",
+        "VC2E6LY07"
+      ],
+      "vcNote": "How images, sound, sequence and words in an ad are chosen to persuade.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Shot 1",
+          "value": "Four mates on a couch, all in team colours, footy on TV"
+        },
+        {
+          "n": 2,
+          "label": "Sound",
+          "value": "Crowd roar, fast drumbeat getting louder"
+        },
+        {
+          "n": 3,
+          "label": "Voiceover",
+          "value": "“Back your knowledge. Bet in seconds.”",
+          "strong": true
+        },
+        {
+          "n": 4,
+          "label": "Shot 2",
+          "value": "Close-up: a phone fills the screen, odds glowing green"
+        },
+        {
+          "n": 5,
+          "label": "Shot 3",
+          "value": "Slow-motion goal. The mates jump up, cheering"
+        },
+        {
+          "n": 6,
+          "label": "End card",
+          "value": "Small white text, 3 seconds: Chances are you're about to lose."
+        }
+      ],
+      "note": "Made-up example for practice. No real brand.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Mates",
+          "note": "Betting = what fans like you do."
+        },
+        {
+          "n": 2,
+          "label": "Sound",
+          "note": "Builds excitement before any words."
+        },
+        {
+          "n": 3,
+          "label": "Power words",
+          "note": "Skill (knowledge) + easy (in seconds)."
+        },
+        {
+          "n": 4,
+          "label": "Framing",
+          "note": "The phone is big and bright: the thing that matters."
+        },
+        {
+          "n": 5,
+          "label": "Sequence",
+          "note": "We see the win. We never see the losses."
+        },
+        {
+          "n": 6,
+          "label": "Tiny print",
+          "note": "The warning: small, short, at the end."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Pull apart any ad",
+      "steps": [
+        {
+          "title": "Watch",
+          "text": "With the sound off. What do you see? What's biggest?",
+          "icon": "lucide:eye"
+        },
+        {
+          "title": "Listen",
+          "text": "Now with sound. How does it make you feel?",
+          "icon": "lucide:volume-2"
+        },
+        {
+          "title": "Ask",
+          "text": "What's it really selling? What's left out?",
+          "icon": "lucide:circle-help"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What did researchers find was the **most common** way betting ads appealed to people?",
+        "options": [
+          "Mateship and sports-fan rituals",
+          "Showing the odds clearly",
+          "Explaining the risks",
+          "Showing people losing"
+        ],
+        "answer": 0,
+        "explain": "Mates, team colours and game day rituals.",
+        "vc": [
+          "VC2E6LY07"
+        ]
+      },
+      {
+        "q": "“**Back your knowledge.**” What does this line suggest?",
+        "options": [
+          "Betting is a skill you can control",
+          "Betting is a game of chance",
+          "You should study harder",
+          "You'll probably lose"
+        ],
+        "answer": 0,
+        "explain": "It makes betting sound like skill, not chance.",
+        "vc": [
+          "VC2E3LA02"
+        ]
+      },
+      {
+        "q": "Why does a betting ad show a **slow-motion goal** and mates cheering?",
+        "options": [
+          "To make you feel the rush of winning",
+          "To explain the rules",
+          "To show what happens when you lose",
+          "To fill time"
+        ],
+        "answer": 0,
+        "explain": "The sequence shows the win and skips the losses.",
+        "vc": [
+          "VC2E5LA07"
+        ]
+      },
+      {
+        "q": "Which statement is **objective** (a fact you can check)?",
+        "options": [
+          "You must be 18 to bet in Australia",
+          "Game day is better with a bet",
+          "Feel the rush",
+          "The best odds in town"
+        ],
+        "answer": 0,
+        "explain": "Objective = a checkable fact. The others are feelings or opinions.",
+        "vc": [
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "q": "In the 2018 Victorian study, how many young people could name a betting brand?",
+        "options": [
+          "81%",
+          "8%",
+          "18%",
+          "100%"
+        ],
+        "answer": 0,
+        "explain": "81% of 111 people aged 11–16.",
+        "vc": [
+          "VC2E3LY09"
+        ]
+      },
+      {
+        "q": "From 2027, betting ads in Australia can't feature…",
+        "options": [
+          "Famous sports stars, celebrities and influencers",
+          "Sport",
+          "Phones",
+          "Team colours"
+        ],
+        "answer": 0,
+        "explain": "The new rules ban notable people from gambling ads.",
+        "vc": [
+          "VC2E6LY07"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Why might the warning appear **small, fast and at the end**?",
+        "options": [
+          "So it's less likely to be noticed than the exciting parts",
+          "Because it's the most important part",
+          "Because viewers like it",
+          "So it's easier to read"
+        ],
+        "answer": 0,
+        "explain": "Size, timing and placement change what we notice (salience).",
+        "vc": [
+          "VC2E7LA07",
+          "VC2E4LA09"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Find the tricks in a betting ad. Then plan an honest ad for younger students. Use pictures and sound.",
+      "core": "Pull apart a betting ad or a loot box, then storyboard an honest ad for younger students that uses pictures, sound and order to tell the truth.",
+      "extend": "Analyse a real betting ad or loot box, then storyboard an honest counter-ad for Year 7s that deliberately uses images, sound and sequence to create a different perspective, and explain your choices."
+    },
+    "checklist": [
+      "I named at least three tricks in a real ad or loot box",
+      "My storyboard has at least 4 frames",
+      "I planned what we see and what we hear in each frame",
+      "My ad tells the truth about the odds",
+      "I explained one choice I made"
+    ],
+    "levelUp": "Compare a real betting ad with your honest ad. How do images and sound create a different perspective in each?",
+    "vc": [
+      "VC2E6LY09",
+      "VC2E5LA07",
+      "VC2E6LY07"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How a betting ad works",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name the **four tricks**.",
+            "lines": 0,
+            "vc": [
+              "VC2E6LY07"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "Why do you think betting ads show **mates** so often?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY07"
+            ]
+          },
+          {
+            "q": "What do you **see** in an ad, and what's **left out**?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA07"
+            ]
+          },
+          {
+            "q": "How are **loot boxes** like betting ads?",
+            "lines": 1
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a betting ad",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the ad. Use the word bank. Write how it makes you feel.",
+          "core": "Each number marks part of the ad. Write which trick it is and how it makes the viewer feel."
+        },
+        "columns": [
+          "Which trick?",
+          "How does it make the viewer feel?"
+        ],
+        "wordBank": {
+          "support": [
+            "mates",
+            "sound",
+            "power words",
+            "framing",
+            "order",
+            "tiny print"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LA07",
+          "VC2E4LA09",
+          "VC2E6LY07"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Fact or feeling?",
+        "pagebreak": true,
+        "choices": [
+          "Fact",
+          "Feeling or opinion"
+        ],
+        "reasonLabel": "Clue:",
+        "instructions": "Each line could appear in or about a betting ad. Tick whether it's a **fact** you can check, or a **feeling or opinion**. Write the clue.",
+        "cards": [
+          {
+            "from": "Ad",
+            "text": "Feel the rush every weekend.",
+            "answer": "Feeling or opinion",
+            "flags": "“Feel the rush” is a feeling."
+          },
+          {
+            "from": "Law",
+            "text": "You must be 18 or over to bet in Australia.",
+            "answer": "Fact",
+            "flags": "You can check it."
+          },
+          {
+            "from": "Ad",
+            "text": "The best odds in the game!",
+            "answer": "Feeling or opinion",
+            "flags": "“Best” is an opinion."
+          },
+          {
+            "from": "Odds board",
+            "text": "Lions $1.80 · Swans $2.05",
+            "answer": "Fact",
+            "flags": "Numbers you can check."
+          },
+          {
+            "from": "Ad",
+            "text": "Game day is better with a bet.",
+            "answer": "Feeling or opinion",
+            "flags": "“Better” is an opinion.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Game rating",
+            "text": "New games with paid loot boxes get at least an M rating.",
+            "answer": "Fact",
+            "flags": "A rule you can check.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LA02"
+        ],
+        "vcNote": "Telling objective (checkable) language from subjective language in persuasive texts."
+      },
+      {
+        "type": "table",
+        "title": "Turn it down",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 18
+        },
+        "instructions": "Ads turn the language **up**. Turn it **down**: rewrite each line so it's honest. The first one is done for you.",
+        "columns": [
+          "What the ad says",
+          "Turned down (honest)"
+        ],
+        "rows": [
+          [
+            "Massive wins every weekend!",
+            "Some people win sometimes. Most people lose more than they win."
+          ],
+          [
+            "Bet in seconds!",
+            ""
+          ],
+          [
+            "Back your knowledge!",
+            ""
+          ],
+          {
+            "cells": [
+              "Never miss the action. Get on now!",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E3LA02",
+          "VC2E6LA02"
+        ],
+        "vcNote": "Varying the language of evaluation and emotion to be more or less forceful."
+      },
+      {
+        "type": "flow",
+        "title": "Pull apart any ad",
+        "diagram": 1
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: too young to bet, old enough to remember",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the young people in the study remember?",
+            "lines": 2,
+            "vc": [
+              "VC2E3LY09"
+            ]
+          },
+          {
+            "q": "Who were the ads meant for? Who else saw them?",
+            "lines": 2,
+            "vc": [
+              "VC2E3LY09",
+              "VC2E6LY07"
+            ]
+          },
+          {
+            "q": "Why do you think the ads stuck in their heads?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY07"
+            ]
+          },
+          {
+            "q": "From 2027, ads can't use famous sports stars or influencers. Do you think that will change what young people remember? Give a reason.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY05"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Pull apart a real one",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Your teacher will show you a real betting ad, or a game with loot boxes. What is it, and where would you see it?",
+            "lines": 1
+          },
+          {
+            "q": "Watch it with the **sound off**. What's the biggest or brightest thing you see? Why?",
+            "lines": 2,
+            "vc": [
+              "VC2E4LA09"
+            ]
+          },
+          {
+            "q": "Now with **sound**. How does the sound make you feel?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA07"
+            ]
+          },
+          {
+            "q": "Which of the four tricks can you find? Give an example of each.",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VC2E6LY07"
+            ]
+          },
+          {
+            "q": "What's it **really** selling? What's left out?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "storyboard",
+        "title": "Final mission: storyboard an honest ad",
+        "pagebreak": true,
+        "frames": {
+          "support": 4,
+          "core": 6
+        },
+        "columns": {
+          "support": 2,
+          "core": 3
+        },
+        "boxHeight": {
+          "support": 44,
+          "core": 38
+        },
+        "rows": [
+          "We see",
+          "We hear"
+        ],
+        "hints": [
+          "Use the same tricks (mates, sound, order, words), but tell the truth",
+          "Who is it for? Year 7s",
+          "End with a clear message"
+        ],
+        "instructions": {
+          "support": "Make an honest ad for **Year 7s** about betting or loot boxes. Draw each shot. Write what we see and hear.",
+          "core": "Make an **honest ad** about betting or loot boxes for **Year 7 students**. Use the same tricks the real ads use (pictures, sound, order and words) but make them tell the truth. Draw or describe each shot.",
+          "extend": "Storyboard an honest counter-ad for **Year 7 students** about betting or loot boxes. Use images, sound and sequence deliberately to create a different perspective from the real ads."
+        },
+        "vc": [
+          "VC2E6LY09",
+          "VC2E5LA07"
+        ],
+        "vcNote": "Creating a multimodal persuasive text, sequencing images and sound for an audience and purpose."
+      },
+      {
+        "type": "questions",
+        "title": "Explain your choices",
+        "items": [
+          {
+            "q": "Pick **one** shot. Why did you choose that picture and that sound? How should it make a Year 7 feel?",
+            "lines": 3,
+            "vc": [
+              "VC2E6LY09",
+              "VC2E5LA07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Compare the real ad and your honest ad. How do the images and sound create a **different perspective** in each? Give one example from each.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA07"
+            ]
+          },
+          {
+            "q": "A 2023 inquiry said all online gambling ads should be banned. The government chose smaller limits instead. Which do you think is better? Back your view with evidence from this course.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY05"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can spot the four tricks in a betting ad.",
+          "I can explain how pictures, sound and order persuade.",
+          "I can tell a fact from a feeling.",
+          "I can make an honest ad."
+        ],
+        "questions": [
+          "Next time I see a betting ad, I'll notice:",
+          "Something I'd tell a younger kid about loot boxes:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students analyse how sports betting ads and loot boxes persuade: appeals to mateship and fandom, forceful evaluative language, and the use of images, sound and sequence (what's large, what's heard, what's shown and what's left out). They separate objective from subjective language, study a real Victorian study of young people's recall of betting brands, and storyboard an honest counter-ad for Year 7 students. The course includes current Australian rules: mandatory warning taglines (2023), loot box classification (2024) and the ban on notable people in gambling ads (from 2027).",
+    "prep": [
+      "Choose **one or two current betting ads** (TV or the brands' official video channels) to show in class, and a game with paid loot boxes (video clip of an opening, not a live purchase). Watch them first. Rules change from 2027, so newer ads will look different.",
+      "Don't ask students to visit betting sites or apps.",
+      "Check your school's wellbeing team knows the course is running, in case it prompts a disclosure.",
+      "Print the storyboard page on A3 if you can."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The four tricks",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show a real betting ad with the sound off, then on. What changed?",
+          "**Explicit teaching (10 min):** the four tricks, modelled on the made-up ad script. Think aloud about framing, sound and sequence.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a betting ad."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Words and facts",
+        "minutes": 50,
+        "steps": [
+          "**Explicit teaching (10 min):** objective vs subjective language; turning evaluative language up and down.",
+          "**Sort + Turn it down (20 min).**",
+          "**Case study (20 min):** too young to bet. Discuss: who is the real audience of an ad?"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Pull apart a real one",
+        "minutes": 50,
+        "steps": [
+          "**Guided analysis (25 min):** a second real ad or a loot box opening; students work through Pull apart a real one in pairs.",
+          "**Plan (25 min):** start the storyboard. Model one frame: what we see, what we hear."
+        ]
+      },
+      {
+        "title": "Lesson 4 — The honest ad",
+        "minutes": 50,
+        "steps": [
+          "**Storyboard (25 min).** Optional: film it on a phone.",
+          "**Explain your choices (10 min).**",
+          "**Share, Level Up, reflect (15 min):** gallery walk; quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Betting ads sell a feeling: belonging, skill, excitement.",
+      "Four tricks: mates, power words, sound and speed, tiny print.",
+      "Sequence matters: ads show the win and skip the losses.",
+      "Objective language can be checked; subjective language is feeling or opinion.",
+      "Loot boxes use the same design; new games with paid loot boxes are rated at least M."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the ad annotation.",
+        "Fewer sort cards and table rows.",
+        "A 4-frame storyboard with larger boxes."
+      ],
+      "extend": [
+        "Analyse how images and sound create a perspective (Level Up).",
+        "Evaluate the government's response against the inquiry's recommendation, using evidence."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LA02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Rewrites forceful ad language to be less forceful and more honest (Turn it down)."
+      },
+      {
+        "vc": "VC2E4LA09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Explains how framing, what's biggest, and sound make parts of an ad stand out (ad annotation, Pull apart a real one)."
+      },
+      {
+        "vc": "VC2E3LY09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Identifies who an ad is aimed at and who else it reaches (case study, Check your reading)."
+      },
+      {
+        "vc": "VC2E5LA07",
+        "evidence": "Explains how the order of shots and the sound in an ad affect meaning (annotation, Pull apart a real one, storyboard)."
+      },
+      {
+        "vc": "VC2E6LY07",
+        "evidence": "Analyses how structure and language features in betting ads engage and influence an audience (Check your reading, case study, Pull apart a real one)."
+      },
+      {
+        "vc": "VC2E6LA02",
+        "evidence": "Distinguishes objective from subjective language and recognises bias (Fact or feeling?, Turn it down)."
+      },
+      {
+        "vc": "VC2E6LY09",
+        "evidence": "Creates a multimodal counter-ad for a specific audience and purpose (storyboard, Explain your choices)."
+      },
+      {
+        "vc": "VC2E7LA07",
+        "evidence": "Level Up: explains how images and sound create a perspective in a real ad and in their own."
+      },
+      {
+        "vc": "VC2E8LY05",
+        "evidence": "Level Up / case study: evaluates how persuasive texts represent betting, and argues a view on regulation using evidence."
+      }
+    ],
+    "answers": "**Four tricks:** mates, power words, sound and speed, tiny print.\n\n**Ad script:** 1 mates (belonging, betting is what fans do); 2 sound (excitement); 3 power words (betting sounds like skill and easy); 4 framing (the phone and odds are the most important thing); 5 sequence (shows the win, never the loss); 6 tiny print (the warning is easy to miss).\n\n**Fact or feeling:** feel the rush — feeling; 18 or over — fact; best odds — opinion; odds board — fact; better with a bet — opinion; loot box rating — fact.\n\n**Turn it down (samples):** You can place a bet quickly, which also makes it easy to lose money quickly. / Knowing your footy doesn't stop you losing; results come down to chance. / You don't need to bet to enjoy the game.\n\n**Case study:** brands, colours and appeal strategies; meant for adults, but seen by young people at home and at sport; repetition, sport, colours and humour make them memorable.",
+    "resources": [
+      {
+        "label": "Nyemcsok and others (2018): Young people's recall and perceptions of gambling advertising",
+        "url": "https://espace.curtin.edu.au/handle/20.500.11937/74401"
+      },
+      {
+        "label": "Deans and others (2016): content analysis of 85 Australian sports wagering ads",
+        "url": "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-016-2849-8"
+      },
+      {
+        "label": "Parliament of Australia (2023): “You win some, you lose more” inquiry report",
+        "url": "https://apo.org.au/node/333550"
+      },
+      {
+        "label": "ACMA (2026): new rules prohibiting notable people in gambling advertising",
+        "url": "https://www.acma.gov.au/articles/2026-10/acma-publishes-initial-industry-guidance-new-rules-prohibiting-notable-people-gambling-advertising"
+      },
+      {
+        "label": "B&T: “Gamble responsibly” tagline dropped for new warnings (2023)",
+        "url": "https://www.bandt.com.au/gamble-responsibly-tagline-to-be-dropped-from-all-advertising/"
+      },
+      {
+        "label": "Australian Classification: game guidelines for gambling-like content",
+        "url": "https://www.classification.gov.au/sites/default/files/documents/game-guidelines-for-gambling-like-content-fact-sheet.pdf"
+      },
+      {
+        "label": "Gambler's Help Victoria (Youthline 1800 262 376)",
+        "url": "https://responsiblegambling.vic.gov.au/about-us/contact-us"
+      }
+    ],
+    "realityCheck": [
+      "**Some students live with gambling harm.** A parent, sibling or the student themselves may gamble. Never ask students to share their own or their family's betting. Keep the focus on the ads. Gambler's Help Youthline (under 25) is **1800 262 376**, 24/7; the statewide Gambler's Help line is **1800 858 858**.",
+      "**Loot boxes are personal.** Many students buy them. Avoid shaming; analyse the design, not the buyer.",
+      "**Choose the ads yourself.** Use official ads from TV or the brands' video channels, watched beforehand. Don't send students to betting sites or apps.",
+      "**The rules are moving.** From 2027, ads can't use notable people, so the ads you show may change. That's a good discussion in itself: what will the ads use instead?",
+      "**Works in a real class:** yes. Footy and gaming fans are often the most engaged; they know these ads by heart. The honest-ad storyboard can become a short film for younger students."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 5 key words, 3-choice quiz, word bank on the ad annotation, fewer sort cards and rows, and a 4-frame storyboard.",
+      "core": "Standard version: four tricks, ad script annotation, fact-or-feeling sort, Turn it down, a real study, analysis of a real ad, and a 6-frame honest-ad storyboard.",
+      "extend": "Adds normalise to the vocabulary, quiz questions on regulation and salience, and Level Ups on perspective and on evaluating gambling ad regulation with evidence."
+    }
+  }
+}

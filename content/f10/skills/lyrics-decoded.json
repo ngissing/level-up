@@ -1,0 +1,940 @@
+{
+  "id": "lyrics-decoded",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours), with a speaker for music",
+  "brief": {
+    "hook": {
+      "support": "You know a song by heart. Then one day you really hear the words. The song means something new. Songwriters hide big ideas in small words.",
+      "core": "You've sung along to a song a hundred times. Then one day you actually hear a line, and the whole song changes. That happy-sounding track? It's about something that hurts. That's what songwriters do: they hide big ideas in small words."
+    },
+    "why": {
+      "support": "Songs are poems with a beat. They use pictures, sounds and repeated lines. Many tell a true story. Learn to decode them, then write your own.",
+      "core": "Songs are poems with a beat. They use the same tools writers use (pictures, sounds, repetition and voice) and they often carry a story about a time, a place or a people. Learning to decode them makes you a sharper listener, and gives you tools to write your own.",
+      "extend": "Song lyrics are compressed literary texts: they layer imagery, sound, repetition and voice over music, and often carry history and identity. Decoding them develops the same analytical skills as studying poetry, with texts you already care about."
+    },
+    "canDo": {
+      "support": [
+        "I can find the hook and the rhyme in a song.",
+        "I can spot a simile and a metaphor.",
+        "I can say what a song is really about.",
+        "I can write some lines of my own."
+      ],
+      "core": [
+        "I can find the **hook**, **rhyme**, **imagery** and **voice** in a song.",
+        "I can explain the difference between a **simile** and a **metaphor**.",
+        "I can explain how a song connects to its **history and culture**.",
+        "I can write a verse of my own using these tools."
+      ]
+    },
+    "showIt": "Decode the song “Treaty” and a song you choose, then write a verse of your own.",
+    "vocab": [
+      {
+        "word": "lyrics",
+        "meaning": "the words of a song",
+        "example": "I know all the lyrics."
+      },
+      {
+        "word": "hook",
+        "meaning": "the catchy line that keeps coming back",
+        "example": "The hook is stuck in my head."
+      },
+      {
+        "word": "verse",
+        "meaning": "a part of a song that tells more of the story",
+        "example": "The second verse explains what happened."
+      },
+      {
+        "word": "rhyme",
+        "meaning": "words that end with the same sound",
+        "example": "Sand and land rhyme."
+      },
+      {
+        "word": "simile",
+        "meaning": "comparing two things using “like” or “as”",
+        "example": "Her voice was like thunder."
+      },
+      {
+        "word": "metaphor",
+        "meaning": "saying something IS something else, to compare them",
+        "example": "This town is a cage."
+      },
+      {
+        "word": "imagery",
+        "meaning": "words that make a picture in your head",
+        "example": "The imagery made me see the ocean.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "protest song",
+        "meaning": "a song that speaks up against something unfair",
+        "example": "“Treaty” is a protest song.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Lyrics Decoded in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Lyrics Decoded",
+        "sub": "What's that song really about?",
+        "icon": "lucide:music",
+        "say": "Lyrics decoded. What's that song really about?"
+      },
+      {
+        "kind": "big",
+        "title": "Five tools",
+        "text": "**Hook · Rhyme · Pictures · Voice · Story**",
+        "icon": "lucide:list-music",
+        "say": "Songs are poems with a beat. Songwriters use five tools. Hook, rhyme, pictures, voice and story.",
+        "vc": [
+          "VC2E6LE04"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Tool",
+        "pillIcon": "lucide:music",
+        "title": "Hook",
+        "text": "Repeated = **important**.",
+        "icon": "lucide:repeat",
+        "say": "The hook is the line that keeps coming back. Whatever a song repeats is what it wants you to remember.",
+        "vc": [
+          "VC2E3LE04",
+          "VC2E6LE04"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Tool",
+        "pillIcon": "lucide:music",
+        "title": "Rhyme and rhythm",
+        "text": "Sounds that **stick**.",
+        "icon": "lucide:audio-lines",
+        "say": "Rhyme and rhythm. The beat of the words. Rhyme ties ideas together and makes lines stick.",
+        "vc": [
+          "VC2E3LE04",
+          "VC2E5LE04"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Tool",
+        "pillIcon": "lucide:music",
+        "title": "Pictures",
+        "text": "Simile: **like** thunder. Metaphor: this town **is** a cage.",
+        "icon": "lucide:image",
+        "say": "Pictures. A simile compares using like or as. A metaphor says one thing is another.",
+        "vc": [
+          "VC2E6LA08",
+          "VC2E5LE04"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Tool",
+        "pillIcon": "lucide:music",
+        "title": "Voice",
+        "text": "Who's singing? To **whom**?",
+        "icon": "lucide:mic",
+        "say": "Voice. Who is singing, and who are they singing to? I, you, we and they tell you a lot.",
+        "vc": [
+          "VC2E6LE04"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Tool",
+        "pillIcon": "lucide:music",
+        "title": "Story",
+        "text": "**When**, **where**, **why**?",
+        "icon": "lucide:book-open",
+        "say": "Story. When and why was the song written? The history behind a song can change what it means.",
+        "vc": [
+          "VC2E5LE01"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "“Treaty”",
+        "text": "A dance track. A **protest**. A **promise**.",
+        "icon": "lucide:music-4",
+        "say": "Treaty, by Yothu Yindi, sounds like a party. But it's a protest about a promise that wasn't kept. And it was the first pop song sung in a Yolngu language.",
+        "vc": [
+          "VC2E5LE01",
+          "VC2E4LE01"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Decode two songs. Write your own verse.",
+        "icon": "lucide:pen-line",
+        "say": "Your mission. Decode Treaty and a song you love. Then write a verse of your own."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How songs make meaning",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A song is a poem with a beat. Every line has a job. Songs use **five tools**.\n\n1. **Hook.** The catchy line that comes back again and again. What a song repeats is what it wants you to remember.\n2. **Rhyme and rhythm.** Rhyme is when words end the same: *sand* and *land*. Rhythm is the beat of the words.\n3. **Pictures.** A **simile** uses *like* or *as*: *her voice was like thunder*. A **metaphor** says one thing *is* another: *this town is a cage*.\n4. **Voice.** Who is singing? Who are they singing to? Look for *I*, *you* and *we*.\n5. **Story.** When and why was the song written? The story behind it can change what it means.\n\nListen once to enjoy it. Then read the words. Ask: what is it **really** about?",
+          "core": "A song is a poem with a beat. Songwriters have only a few minutes to make you feel something, so every line has a job. Most songs use **five tools**.\n\n1. **Hook.** The catchy line that keeps coming back, usually in the chorus. Repetition tells you what matters most: whatever a song repeats is what it wants you to remember.\n2. **Rhyme and rhythm.** Rhyme ties lines together (*sand* / *land*). Rhythm is the beat of the words. Some words even sound like what they mean: *bang*, *crash*, *whisper*.\n3. **Pictures.** Songwriters use **imagery** to make you see things. A **simile** compares two things using *like* or *as*: *her voice was like thunder*. A **metaphor** says one thing *is* another: *this town is a cage*. **Personification** gives human actions to things: *the city never sleeps*.\n4. **Voice.** Who is singing, and who to? *I* feels personal. *You* points at someone. *We* brings people together, and *they* can make someone the outsider.\n5. **Story.** Every song comes from a time and place. Knowing **when, where and why** it was written can change what it means. A happy beat can carry an angry message.\n\nTo decode a song, listen once just to enjoy it. Then read the lyrics and look for the five tools. Ask: what is this song **really** about?",
+          "extend": "Song lyrics are compressed poetry: in three or four minutes, a songwriter has to create an image, a mood and an idea, often over music that pulls in its own direction. Most songs draw on **five tools**.\n\n1. **Hook.** The repeated line or phrase, usually the chorus. Repetition creates emphasis: it signals the song's central idea and makes it memorable.\n2. **Rhyme and rhythm.** Rhyme binds lines and ideas together; rhythm and stress shape how lines feel. Onomatopoeia and sound patterns (*bang*, *whisper*) add texture.\n3. **Imagery.** Figurative language creates pictures and feelings: **simile** (*like thunder*), **metaphor** (*this town is a cage*), **personification** (*the city never sleeps*) and hyperbole (*I waited a million years*).\n4. **Voice.** The pronouns tell you about relationships and power: *I* is personal, *you* addresses or accuses, *we* builds a group, *they* marks outsiders.\n5. **Context.** Songs are shaped by when, where and why they were written. Context can reveal that a cheerful song carries protest, grief or pride, and the gap between music and message is itself a device.\n\nDecode in layers: first listen for feeling, then read for devices, then research context. The question is always: what is this song **really** about, and how does it get there?"
+        },
+        "vc": [
+          "VC2E3LE04",
+          "VC2E5LE04",
+          "VC2E6LE04",
+          "VC2E6LA08"
+        ],
+        "vcNote": "Literary devices in song lyrics: repetition, rhyme, rhythm, imagery (simile, metaphor, personification), voice and context."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "A song about a promise",
+        "icon": "lucide:music-4",
+        "body": {
+          "support": "**Yothu Yindi** is a band. It had **Yolŋu** (Aboriginal) and non-Aboriginal members.\n\nIn **1988**, the Prime Minister made a promise. He said there would be a **treaty** by **1990**. A treaty is an agreement. It didn't happen.\n\nSo the band wrote a song. It is called **“Treaty”**. It came out in **1991**. It sounds like a party. But it is a **protest song** about a broken promise.\n\nIt was the **first pop song sung in a Yolŋu language**. It got to **number 11** on the charts. It won **Song of the Year**.\n\nIn **2025**, Victoria made a treaty with First Peoples. At the party to celebrate, the band played “Treaty”.",
+          "core": "**Yothu Yindi** brought together **Yolŋu** (Aboriginal) musicians from Yirrkala, in Arnhem Land, and **balanda** (non-Aboriginal) musicians.\n\nIn **1988**, Aboriginal leaders gave Prime Minister Bob Hawke a statement asking for their rights to be recognised. Hawke said there would be a **treaty** by **1990**. A treaty is a formal agreement. It didn't happen.\n\nSo Yothu Yindi wrote a song about it, with help from Paul Kelly and Peter Garrett. **“Treaty”** came out in **1991**. It sounds like a party, with a dance beat and a big chorus. But it's a **protest song** about a broken promise.\n\nIt was the **first pop song sung in a Yolŋu language**. A remix got to **number 11** on the charts. No song by an Aboriginal band had done that before. In 1992 it won **Song of the Year** at the ARIA Awards.\n\nIn **2025**, Victoria became the first place in Australia to make a treaty with First Peoples into law. At the concert to celebrate, in December 2025, Yothu Yindi closed the night with “Treaty”.",
+          "extend": "**Yothu Yindi** brought together **Yolŋu** musicians from Yirrkala, in north-east Arnhem Land, and **balanda** (non-Aboriginal) musicians. Its music fused rock and pop with Yolŋu song traditions.\n\nIn **1988**, at the Barunga Festival, Aboriginal leaders gave Prime Minister Bob Hawke the **Barunga Statement**. It called for their rights to be recognised. Hawke responded that there would be a **treaty** by **1990**. The promise wasn't kept.\n\nThe band answered with **“Treaty”** (1991), written with Paul Kelly and Peter Garrett. It's a dance track with a pointed political message. It was the **first pop song sung in a Yolŋu Matha language**. A remix reached **number 11**: the first song by an Aboriginal band to reach the mainstream Australian singles chart. It won **Song of the Year** at the 1992 ARIA Awards.\n\nThe song's story didn't end there. In **2025**, Victoria became the first Australian state to make a treaty with First Peoples into law. At the December 2025 concert marking its start, Yothu Yindi closed the night with “Treaty”, more than thirty years after the promise it protested."
+        },
+        "source": {
+          "name": "National Film and Sound Archive — “Treaty”, Yothu Yindi; SBS News (December 2025)",
+          "url": "https://www.nfsa.gov.au/collection/curated/treaty-yothu-yindi"
+        },
+        "think": {
+          "support": [
+            "What promise is the song about?",
+            "Why does it sound like a party?"
+          ],
+          "core": [
+            "What promise is the song about?",
+            "Why might a protest song have a happy dance beat?",
+            "Why does it matter that it's sung in two languages?"
+          ]
+        },
+        "vc": [
+          "VC2E5LE01",
+          "VC2E4LE01",
+          "VC2E7LE01"
+        ],
+        "vcNote": "A song by Aboriginal artists and its historical, cultural and social context."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "flow",
+      "title": "Decode any song",
+      "steps": [
+        {
+          "title": "Listen",
+          "text": "Once, just to enjoy it. How does it make you feel?",
+          "icon": "lucide:headphones"
+        },
+        {
+          "title": "Read",
+          "text": "The lyrics. Find the five tools.",
+          "icon": "lucide:scan-text"
+        },
+        {
+          "title": "Research",
+          "text": "When, where and why was it written?",
+          "icon": "lucide:search"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What's the **hook** in a song?",
+        "options": [
+          "The catchy line that keeps coming back",
+          "The first word",
+          "The guitar solo",
+          "The song's title on Spotify"
+        ],
+        "answer": 0,
+        "explain": "Repeated = what the song wants you to remember.",
+        "vc": [
+          "VC2E3LE04"
+        ]
+      },
+      {
+        "q": "“Her voice was **like** thunder.” This is a…",
+        "options": [
+          "Simile",
+          "Metaphor",
+          "Rhyme",
+          "Hook"
+        ],
+        "answer": 0,
+        "explain": "Like or as = simile.",
+        "vc": [
+          "VC2E5LE04",
+          "VC2E6LA08"
+        ]
+      },
+      {
+        "q": "“This town **is** a cage.” This is a…",
+        "options": [
+          "Metaphor",
+          "Simile",
+          "Chorus",
+          "Onomatopoeia"
+        ],
+        "answer": 0,
+        "explain": "Saying one thing is another = metaphor.",
+        "vc": [
+          "VC2E5LE04",
+          "VC2E6LA08"
+        ]
+      },
+      {
+        "q": "What promise is “Treaty” about?",
+        "options": [
+          "A 1988 promise of a treaty by 1990 that wasn't kept",
+          "A promise to build a stadium",
+          "A record deal",
+          "A promise to tour"
+        ],
+        "answer": 0,
+        "explain": "Bob Hawke said there would be a treaty by 1990.",
+        "vc": [
+          "VC2E5LE01"
+        ]
+      },
+      {
+        "q": "Why might a protest song have a **happy dance beat**?",
+        "options": [
+          "So more people listen, and the message hits harder",
+          "Because protest songs must be happy",
+          "To hide that it's a protest from everyone",
+          "It doesn't matter"
+        ],
+        "answer": 0,
+        "explain": "The gap between music and message is a device too.",
+        "vc": [
+          "VC2E6LE04"
+        ]
+      },
+      {
+        "q": "“The city never **sleeps**.” This is…",
+        "options": [
+          "Personification",
+          "A simile",
+          "A rhyme",
+          "A hook"
+        ],
+        "answer": 0,
+        "explain": "Giving a human action to a thing.",
+        "vc": [
+          "VC2E6LA08"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "In 2025, what happened in Victoria?",
+        "options": [
+          "It became the first place in Australia to make a treaty with First Peoples law",
+          "Treaty was released",
+          "Yothu Yindi formed",
+          "The Barunga Statement was written"
+        ],
+        "answer": 0,
+        "explain": "Yothu Yindi played “Treaty” at the celebration concert.",
+        "vc": [
+          "VC2E5LE01",
+          "VC2E7LE01"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Decode “Treaty” and a song you like. Then write some lines of your own with a hook and a rhyme.",
+      "core": "Decode “Treaty” and a song you choose using the five tools, then write a verse of your own with a hook, rhyme and a simile or metaphor.",
+      "extend": "Decode “Treaty” and a song you choose, explaining how devices and context create layers of meaning, then write a verse that deliberately experiments with devices you found."
+    },
+    "checklist": [
+      "I found the hook, rhyme, imagery and voice in both songs",
+      "I explained what “Treaty” is really about, and its history",
+      "My verse has a hook line I repeat",
+      "My verse has a rhyme",
+      "My verse has a simile or metaphor"
+    ],
+    "levelUp": "Explain how the music and the message of “Treaty” work together (or against each other) to create layers of meaning.",
+    "vc": [
+      "VC2E6LE05",
+      "VC2E6LE04",
+      "VC2E5LE01"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How songs make meaning",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name the **five tools**.",
+            "lines": 0,
+            "vc": [
+              "VC2E6LE04"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          },
+          {
+            "q": "What's the difference between a **simile** and a **metaphor**? Give an example of each.",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VC2E5LE04",
+              "VC2E6LA08"
+            ]
+          },
+          {
+            "q": "Why does a song repeat its hook?",
+            "lines": 1,
+            "vc": [
+              "VC2E3LE04"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Name the tool",
+        "pagebreak": true,
+        "choices": [
+          "Simile",
+          "Metaphor",
+          "Personification",
+          "Sound or repetition"
+        ],
+        "reasonLabel": "Clue:",
+        "instructions": "Each line is from a made-up song. Tick the tool it uses. Write the clue.",
+        "cards": [
+          {
+            "from": "Line",
+            "text": "Your words hit like a cold wind.",
+            "answer": "Simile",
+            "flags": "“like”."
+          },
+          {
+            "from": "Line",
+            "text": "This town is a cage.",
+            "answer": "Metaphor",
+            "flags": "“is” a cage."
+          },
+          {
+            "from": "Line",
+            "text": "The city never sleeps.",
+            "answer": "Personification",
+            "flags": "A city can't sleep."
+          },
+          {
+            "from": "Line",
+            "text": "Bang, crash, the door slams shut.",
+            "answer": "Sound or repetition",
+            "flags": "Words that sound like the noise."
+          },
+          {
+            "from": "Line",
+            "text": "Run, run, run away, run.",
+            "answer": "Sound or repetition",
+            "flags": "Repeated word.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Line",
+            "text": "My heart is a phone on 1%.",
+            "answer": "Metaphor",
+            "flags": "Heart “is” a phone.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LE04",
+          "VC2E6LA08",
+          "VC2E4LE04"
+        ],
+        "vcNote": "Identifying figurative language and sound devices."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: a song about a promise",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What promise is the song about, and what happened to it?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LE01"
+            ]
+          },
+          {
+            "q": "Why might Yothu Yindi have made a protest song that sounds like a party?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LE04"
+            ]
+          },
+          {
+            "q": "Why does it matter that the song is sung in a Yolŋu language as well as English?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LE01",
+              "VC2E4LE01"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Decode any song",
+        "diagram": 0,
+        "pagebreak": true
+      },
+      {
+        "type": "table",
+        "title": "Decode “Treaty”",
+        "rowHeight": {
+          "support": 24,
+          "core": 20
+        },
+        "instructions": "Listen to “Treaty” (your teacher will play the official video). Read the lyrics and translations from your teacher or the SBS lyrics page. Find each tool. The first one is started for you.",
+        "columns": [
+          "Tool",
+          "Where in the song?",
+          "What does it make you think or feel?"
+        ],
+        "rows": [
+          [
+            "Hook",
+            "The chorus repeats the word “treaty”.",
+            "It's the one thing they want: they keep saying it so you can't forget."
+          ],
+          [
+            "Two languages",
+            "",
+            ""
+          ],
+          [
+            "Picture: promises like “writing in the sand”",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Voice: who's singing to whom?",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "Music vs message",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LE04",
+          "VC2E5LE04",
+          "VC2E5LE01"
+        ],
+        "vcNote": "Explaining how sound, imagery, voice and context create meaning in a song by Aboriginal artists."
+      },
+      {
+        "type": "table",
+        "title": "Decode your song",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 20
+        },
+        "instructions": "Choose a song you love (one your teacher would be OK with). Read the lyrics and find the tools.",
+        "columns": [
+          "Tool",
+          "Example from the song",
+          "What it makes you think or feel"
+        ],
+        "rows": [
+          [
+            "Hook",
+            "",
+            ""
+          ],
+          [
+            "Rhyme",
+            "",
+            ""
+          ],
+          [
+            "Picture (simile or metaphor)",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Voice",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "What it's really about",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LE04",
+          "VC2E6LA08",
+          "VC2E3LE04"
+        ],
+        "vcNote": "Applying the five tools to a self-chosen song."
+      },
+      {
+        "type": "questions",
+        "title": "My song, in one sentence",
+        "items": [
+          {
+            "q": "Song and artist:",
+            "lines": 1
+          },
+          {
+            "q": "What is this song **really** about? Write one sentence.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LE04"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: write your own verse",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write some lines about something you care about. A place. A person. Something unfair. Use a hook and a rhyme.",
+          "core": "Write a verse and a chorus about something you care about: a place, a person, a promise, something unfair, or something you're proud of. Use the tools.",
+          "extend": "Write a verse and a chorus about something you care about. Experiment with at least two devices you found in “Treaty” or your own song, and make the music you imagine either match or deliberately clash with the message."
+        },
+        "plan": [
+          {
+            "label": "My topic, and the feeling:",
+            "lines": 1
+          },
+          {
+            "label": "My hook line:",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Verse:",
+          "Chorus (with your hook):",
+          "My simile or metaphor:"
+        ],
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "a hook I repeat",
+          "a rhyme",
+          "a simile or metaphor",
+          "a clear voice (I, you or we)"
+        ],
+        "vc": [
+          "VC2E6LE05",
+          "VC2E6LA08",
+          "VC2E7LE06"
+        ],
+        "vcNote": "Creating lyrics that experiment with vocabulary and literary devices (extend: experimenting with devices found in other texts)."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How do the music and the message of “Treaty” work together, or against each other? How does that create **layers of meaning**?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LE05"
+            ]
+          },
+          {
+            "q": "How does knowing the song's history (the 1988 promise, Yolŋu culture, the 2025 treaty) change your response to it?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LE01"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find the hook, rhyme, pictures and voice in a song.",
+          "I can tell a simile from a metaphor.",
+          "I can explain a song's history and what it's really about.",
+          "I can write my own verse."
+        ],
+        "questions": [
+          "A song I'll listen to differently now:",
+          "The best line I wrote:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn five tools of song lyrics (hook and repetition, rhyme and rhythm, imagery including simile, metaphor and personification, voice, and story or context), decode Yothu Yindi's “Treaty” (1991) in its historical and cultural context, decode a song of their choice, and write a verse and chorus of their own. The case study links the song to Bob Hawke's 1988 treaty promise and to Victoria's 2025 treaty.",
+    "prep": [
+      "Find the official “Treaty” video (the band's official channel) and the SBS page with the lyrics and translations. Don't hand out full lyrics of commercial songs beyond what your school's copyright licence allows; project them instead.",
+      "Talk to your school's Koorie Engagement Support Officer (KESO) or local Aboriginal community contacts about the unit, especially if you have Aboriginal students.",
+      "Ask students to bring (or name) a school-appropriate song for Decode your song. Have a few clean options ready.",
+      "A speaker for music."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Five tools",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** play a well-known upbeat song with a sad or serious message. Reveal what it's really about.",
+          "**Explicit teaching (10 min):** the five tools, modelled on the made-up lines.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Sort (10 min):** Name the tool."
+        ]
+      },
+      {
+        "title": "Lesson 2 — “Treaty”",
+        "minutes": 50,
+        "steps": [
+          "**Listen (5 min):** “Treaty”, official video, just for enjoyment.",
+          "**Case study (15 min):** the 1988 promise, the band, the 2025 treaty.",
+          "**Guided decoding (25 min):** Decode “Treaty” together, with lyrics and translations projected. Think aloud about the music vs message.",
+          "**Exit (5 min):** one sentence: what is “Treaty” really about?"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Your song",
+        "minutes": 50,
+        "steps": [
+          "**Decode your song (25 min):** independent, with headphones if possible.",
+          "**Pair share (10 min):** play a 20-second clip, explain one tool.",
+          "**Plan (15 min):** final mission topic, feeling and hook."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Write your verse",
+        "minutes": 50,
+        "steps": [
+          "**Write (25 min):** final mission.",
+          "**Read or perform (15 min):** volunteers only; spoken, rapped or sung.",
+          "**Level Up, check, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Five tools: hook, rhyme and rhythm, pictures (imagery), voice, story (context).",
+      "Simile uses like or as; a metaphor says one thing is another; personification gives human actions to things.",
+      "What a song repeats is what it wants you to remember.",
+      "“Treaty” (1991) protests the unkept 1988 promise of a treaty by 1990; it was the first pop song sung in a Yolŋu Matha language.",
+      "A happy beat can carry a serious message; the gap is a device."
+    ],
+    "differentiation": {
+      "support": [
+        "Fewer sort cards and table rows.",
+        "Boxes and sentence starters.",
+        "Lines rather than a full verse and chorus."
+      ],
+      "extend": [
+        "Explain layers of meaning from music vs message (Level Up).",
+        "Experiment deliberately with devices found in other songs."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LE04",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Identifies rhythm, repetition and sound devices and says how they affect the listener (sort, Decode your song)."
+      },
+      {
+        "vc": "VC2E4LE04",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Explores how literary devices and wordplay shape meaning (sort, Check your reading)."
+      },
+      {
+        "vc": "VC2E4LE01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Recognises the ideas in a song by Aboriginal artists and connects them to other songs (case study, Decode “Treaty”)."
+      },
+      {
+        "vc": "VC2E5LE04",
+        "evidence": "Compares the effects of simile, metaphor, personification and sound devices (sort, Decode tables)."
+      },
+      {
+        "vc": "VC2E6LE04",
+        "evidence": "Explains how songwriters use sound and imagery to create meaning and effect (Decode “Treaty”, Decode your song)."
+      },
+      {
+        "vc": "VC2E6LA08",
+        "evidence": "Examines and uses figurative language: similes, metaphors, personification, hyperbole (sort, final mission)."
+      },
+      {
+        "vc": "VC2E6LE05",
+        "evidence": "Creates a verse and chorus that experiment with vocabulary and literary devices (final mission)."
+      },
+      {
+        "vc": "VC2E5LE01",
+        "evidence": "Identifies how “Treaty” represents historical, cultural and social context (case study, Decode “Treaty”)."
+      },
+      {
+        "vc": "VC2E7LE05",
+        "evidence": "Level Up: explains how devices, and music vs message, create layers of meaning."
+      },
+      {
+        "vc": "VC2E7LE01",
+        "evidence": "Level Up: explores how the song's historical and cultural context shapes its point of view and their response."
+      },
+      {
+        "vc": "VC2E7LE06",
+        "evidence": "Experiments with devices encountered in other songs in their own verse (final mission, extended)."
+      }
+    ],
+    "answers": "**Five tools:** hook, rhyme and rhythm, pictures (imagery), voice, story (context). Simile compares using like or as; metaphor says one thing is another. Songs repeat the hook to make the key idea memorable.\n\n**Sort:** cold wind — simile; cage — metaphor; city never sleeps — personification; bang, crash — sound; run, run — repetition; phone on 1% — metaphor.\n\n**Case study:** Hawke's 1988 promise of a treaty by 1990, which wasn't kept; a party sound draws more listeners and contrasts with an angry message; singing in a Yolŋu language asserts culture and identity and reaches Yolŋu listeners.\n\n**Decode “Treaty” (guide):** two languages — English and Yolŋu Matha, showing two cultures and asserting Yolŋu identity; promises like writing in the sand — promises that wash away and don't last; voice — the band (we / our) speaking to politicians and the country; music vs message — upbeat dance music carrying a protest, which makes it catchy and impossible to ignore.",
+    "resources": [
+      {
+        "label": "National Film and Sound Archive — “Treaty”, Yothu Yindi",
+        "url": "https://www.nfsa.gov.au/collection/curated/treaty-yothu-yindi"
+      },
+      {
+        "label": "Australian Screen — “Treaty” (1991) notes",
+        "url": "https://aso.gov.au/titles/music/treaty/notes/"
+      },
+      {
+        "label": "SBS News — Read the lyrics of Yothu Yindi song “Treaty” (with translations)",
+        "url": "https://www.sbs.com.au/news/article/read-the-lyrics-of-yothu-yindi-song-treaty/imxnzetmx"
+      },
+      {
+        "label": "SBS News — Celebrations as Victorian Treaty becomes law (December 2025)",
+        "url": "https://www.sbs.com.au/news/article/celebrations-kick-off-as-victorias-first-nations-treaty-becomes-law/ufnxc0u17"
+      },
+      {
+        "label": "Parliament of Victoria — Statewide Treaty Bill passed (2025)",
+        "url": "https://www.parliament.vic.gov.au/news/society/treaty-bill-passed/"
+      }
+    ],
+    "realityCheck": [
+      "**Cultural care matters.** This course centres a song by Aboriginal artists. Involve your KESO or local community where you can. Some members of Yothu Yindi have passed away, and some communities avoid naming or showing people who have died, so the student text names the band, not its members. Check local protocols before showing photos or videos.",
+      "**Treaty is a current political issue.** Victoria's treaty is law, and not everyone supports it. Keep to the facts in the course, let students form their own views, and follow your school's guidance on contested issues.",
+      "**Copyright.** Project lyrics rather than copying full song lyrics, and use the SBS page for “Treaty”. Students' own songs should be school-appropriate; clean versions exist for most.",
+      "**Writing lyrics can feel exposing.** Make performing optional. Many students will happily rap or speak a verse they would never sing.",
+      "**Extension text:** Archie Roach's “Took the Children Away” (1990) is a powerful companion song about the Stolen Generations. It deals with trauma, so prepare students and involve your KESO.",
+      "**Works in a real class:** yes. Music is a strong hook for disengaged readers, and Decode your song gives every student a text they actually care about."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, fewer sort cards and table rows, and lines rather than a full verse and chorus.",
+      "core": "Standard version: five tools, figurative language sort, the “Treaty” case study and decoding table, a self-chosen song, and an original verse and chorus.",
+      "extend": "Adds imagery and protest song to the vocabulary, quiz questions on personification and the 2025 treaty, and Level Ups on layers of meaning and context."
+    }
+  }
+}
