@@ -1,0 +1,960 @@
+{
+  "id": "nail-the-interview",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), including mock interviews",
+  "brief": {
+    "hook": {
+      "support": "“Tell me about a time you worked in a team.” Your mind goes blank. You say, “Um… I don't know.” Later you remember: you play footy every Saturday!",
+      "core": "“Tell me about a time you worked in a team.” Your mind goes blank. You've never had a job. You say, “Um… I don't know?” Ten minutes later, walking out, you remember: you've played in a team every Saturday for three years."
+    },
+    "why": {
+      "support": "Employers care most about **attitude**. But you have to show it. Use real stories. Speak clearly. Ask a question. You can practise all of it.",
+      "core": "Employers hiring young people care most about **attitude**. But they can't see your attitude unless you show it, with real examples, a clear voice and good questions. An interview is a short spoken performance you can prepare for. Prepare three stories, and you'll never go blank again.",
+      "extend": "Interviews reward preparation more than personality. Employers hiring young people say attitude matters most. But you have to demonstrate it, with clear examples, confident delivery and good questions. Treat the interview as a spoken text you plan. Then nerves become a performance you control."
+    },
+    "canDo": {
+      "support": [
+        "I can get ready for an interview.",
+        "I can answer with a real story.",
+        "I can speak clearly and look up.",
+        "I can ask a question at the end."
+      ],
+      "core": [
+        "I can prepare for an interview: the **job**, the **business** and **three stories**.",
+        "I can answer questions using **STAR**: situation, task, action, result.",
+        "I can use my **voice and body** to come across well.",
+        "I can **ask good questions** and follow up afterwards."
+      ]
+    },
+    "showIt": "Do a mock interview using STAR answers, ask a question, and send a thank-you message.",
+    "vocab": [
+      {
+        "word": "interview",
+        "meaning": "a meeting where an employer asks questions to see if you suit the job",
+        "example": "My interview is on Tuesday at 4."
+      },
+      {
+        "word": "interviewer",
+        "meaning": "the person asking the questions",
+        "example": "The interviewer smiled and shook my hand."
+      },
+      {
+        "word": "attitude",
+        "meaning": "how you act and think about work",
+        "example": "Employers said attitude matters most."
+      },
+      {
+        "word": "example",
+        "meaning": "a real story that shows something is true",
+        "example": "Give an example of when you helped someone."
+      },
+      {
+        "word": "STAR",
+        "meaning": "situation, task, action, result: a way to tell a short story",
+        "example": "My STAR answer was about footy."
+      },
+      {
+        "word": "availability",
+        "meaning": "the days and times you can work",
+        "example": "Be honest about your availability."
+      },
+      {
+        "word": "follow up",
+        "meaning": "contact them after, to say thanks",
+        "example": "I followed up with a thank-you email.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "first impression",
+        "meaning": "what someone thinks of you in the first few seconds",
+        "example": "Being on time makes a good first impression.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Nail the Interview in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Nail the Interview",
+        "sub": "Walk in nervous. Walk out confident.",
+        "icon": "lucide:handshake",
+        "say": "Nail the interview. Walk in nervous. Walk out confident."
+      },
+      {
+        "kind": "stat",
+        "big": "6 in 10",
+        "title": "employers hired a young person for their attitude",
+        "sub": "Jobs and Skills Australia, 2025",
+        "say": "In a national survey, six in ten employers who hired a young person said it was because of their attitude. More than experience.",
+        "vc": [
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Prepare",
+        "text": "The ad · The business · **Three stories**",
+        "icon": "lucide:notebook-pen",
+        "say": "Get ready. Re-read the ad. Learn about the business. Prepare three stories from your life.",
+        "vc": [
+          "VC2E6LY02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "S",
+        "pill": "STAR",
+        "pillIcon": "lucide:star",
+        "title": "Situation + Task",
+        "text": "Where? What needed doing?",
+        "icon": "lucide:map-pin",
+        "say": "Situation. Where were you? Task. What needed doing?",
+        "vc": [
+          "VC2E6LY02",
+          "VC2E4LY02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "A",
+        "pill": "STAR",
+        "pillIcon": "lucide:star",
+        "title": "Action",
+        "text": "What **you** did.",
+        "icon": "lucide:hand",
+        "say": "Action. What did you do? This is the biggest part. Say I, not we.",
+        "vc": [
+          "VC2E6LY02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "R",
+        "pill": "STAR",
+        "pillIcon": "lucide:star",
+        "title": "Result",
+        "text": "What happened. What you learnt.",
+        "icon": "lucide:trophy",
+        "say": "Result. What happened? What did you learn?",
+        "vc": [
+          "VC2E6LY02"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Show it",
+        "text": "Smile · Look up · Ask if unsure",
+        "icon": "lucide:smile",
+        "say": "Your voice and body count. Smile. Look up. Speak clearly. If you don't understand a question, ask.",
+        "vc": [
+          "VC2E6LY01",
+          "VC2E4LY02"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Finish strong",
+        "steps": [
+          "Ask a question",
+          "Thank them",
+          "Follow up the same day"
+        ],
+        "say": "At the end, ask a question. Then send a thank-you message the same day."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Three stories. One interview. One thank-you.",
+        "icon": "lucide:handshake",
+        "say": "Your mission. Prepare three STAR stories, do a mock interview, and send a thank-you."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to nail an interview",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "An interview is a talk where a boss sees if you'd be good at the job. For a first job, they want to see your **attitude**. Are you keen? Reliable? Friendly?\n\n**Before.** Read the job ad again. Look up the business. Plan three stories from your life: working in a team, fixing a problem, being reliable.\n\n**During.** Use **STAR** to tell a story:\n\n- **Situation**: where you were.\n- **Task**: what needed doing.\n- **Action**: what **you** did.\n- **Result**: what happened.\n\nSmile. Look up. Speak clearly. Not sure what they mean? Ask!\n\nAt the end, ask them a question: *What training do new staff get?*\n\n**After.** Send a short thank-you message.",
+          "core": "An interview is a short conversation where an employer works out if you'll be good at the job. For a first job, they're not expecting experience. They want to see your **attitude**: keen, reliable and friendly. Your job is to **show** it.\n\n**Before.** Re-read the job ad, and look up the business: what it sells, who its customers are. Plan how you'll get there and arrive 10 minutes early. Then prepare **three stories** from your life: a time you worked in a **team**, a time you solved a **problem**, and a time you were **reliable**.\n\n**During.** Most questions are about you, the job, or *a time when…*. Answer *a time when* questions with **STAR**:\n\n- **Situation**: where you were. *At netball last season…*\n- **Task**: what needed doing. *Our coach was sick for a game…*\n- **Action**: what **you** did. This is the biggest part. *I organised the warm-up and the positions…*\n- **Result**: what happened, or what you learnt. *We played well, and I learnt I can lead under pressure.*\n\nYour **voice and body** matter too: a smile, eye contact, sitting up, speaking clearly. If you don't understand a question, it's fine to ask: *Sorry, do you mean…?* Be honest about your **availability**.\n\nAt the end, they'll usually ask, *Do you have any questions?* Always have one ready: *What would a normal shift look like?* or *What training do new staff get?*\n\n**After.** Send a short **thank-you** message the same day. It's polite, and it reminds them of you.",
+          "extend": "A job interview is a structured spoken exchange. The employer tests whether your attitude, skills and availability fit the role. For entry-level jobs, they aren't mainly looking for experience. They want evidence of the right **attitude**: reliability, willingness to learn and good communication.\n\n**Before.** Re-read the job ad's essential criteria, research the business, and plan your travel. Prepare **three stories** you can adapt: teamwork, problem-solving and reliability.\n\n**During.** Behavioural questions (*Tell me about a time when…*) reward the **STAR** structure:\n\n- **Situation**: brief context.\n- **Task**: the goal or challenge.\n- **Action**: your specific actions, the heart of the answer, in the first person.\n- **Result**: the outcome, and ideally what you learnt.\n\nBack up your claims. *I'm reliable* is just a claim. *I haven't missed a Saturday training session in three years* is evidence. Delivery matters too: posture, eye contact, pace and a warm, clear voice. If a question is unclear, ask. Clarifying is a strength. Be honest about availability.\n\nPrepare questions of your own; they signal genuine interest.\n\n**After.** A brief, prompt thank-you message reinforces a positive impression."
+        },
+        "vc": [
+          "VC2E6LY02",
+          "VC2E6LY01",
+          "VC2E4LY02",
+          "VC2E7LA02"
+        ],
+        "vcNote": "Preparing and structuring spoken answers (STAR); features of voice; clarifying; substantiating claims."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "What employers really want",
+        "icon": "lucide:users",
+        "body": {
+          "support": "**Jobs and Skills Australia** is a government group that studies jobs. In **2025**, it asked lots of employers about hiring young people.\n\nWhat it found:\n\n- More than half of employers had young people apply.\n- **82%** of those employers hired at least one young person.\n- **Six in ten** said they hired them because of their **attitude**.\n- Not many said it was because of experience.\n\nSo attitude matters most! But you have to **show** it. Be on time. Smile. Listen. Tell real stories.",
+          "core": "**Jobs and Skills Australia** is a government agency. It studies jobs and skills. It surveys Australian employers. In **2025**, it shared what employers said about hiring young people aged **15 to 24**.\n\nHere's what it found:\n\n- **58%** of employers had young people apply for a job in the previous year.\n- Of those employers, **82%** hired at least one young person.\n- They were asked **why** they hired them. **Six in ten** said the young person had **the right attitude**.\n- Far fewer said **experience** (19%) or **good communication** (18%).\n\nSo the top reason wasn't experience. It was attitude.\n\nThe catch: an interviewer can't see attitude unless you **show** it. Turn up early. Smile. Listen. Tell real stories about times you were reliable and worked hard. That's how they see and hear your attitude.",
+          "extend": "**Jobs and Skills Australia** is a federal government agency. It runs a regular survey of Australian employers about hiring. In **2025**, it published what employers said about applicants aged **15 to 24**.\n\n- **58%** of employers reported having young applicants in the previous 12 months.\n- Of those, **82%** hired at least one young person.\n- Asked why, about **six in ten** said the young person had **the right attitude**. Far fewer named **relevant experience** (19%) or **good communication skills** (18%).\n\nMany young jobseekers assume that having no experience rules them out. This data suggests otherwise. For many employers, attitude decides it.\n\nBut nobody can see attitude directly. Interviewers judge it from what you do: arriving on time, listening, showing interest. They also judge it from the evidence in your answers. That's why clear, specific examples matter. They turn a vague quality into something real."
+        },
+        "source": {
+          "name": "Jobs and Skills Australia — “Employers' experiences of young job applicants” (2025)",
+          "url": "https://www.jobsandskills.gov.au/data/recruitment-experiences-and-outlook-survey/research-articles/employers-experiences-young-job-applicants"
+        },
+        "think": {
+          "support": [
+            "What matters most to employers?",
+            "How can you show it?"
+          ],
+          "core": [
+            "What did employers say mattered most?",
+            "Why might attitude matter more than experience for a first job?",
+            "How can you show attitude in an interview?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY01",
+          "VC2E7LA02"
+        ],
+        "vcNote": "Real Australian data on what employers value, and how to provide evidence of it in speech."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a STAR answer",
+      "docTitle": "QUESTION: “TELL ME ABOUT A TIME YOU WORKED IN A TEAM.” (EXAMPLE)",
+      "vc": [
+        "VC2E6LY02",
+        "VC2E7LA02"
+      ],
+      "vcNote": "The structure of a spoken interview answer and how it substantiates a claim.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Situation",
+          "value": "“Last season, I played netball in an Under-17 team.”"
+        },
+        {
+          "n": 2,
+          "label": "Task",
+          "value": "“Our coach was sick. Nobody ran the warm-up.”"
+        },
+        {
+          "n": 3,
+          "label": "Action",
+          "value": "“I led the warm-up and checked positions.”",
+          "strong": true
+        },
+        {
+          "n": 4,
+          "label": "Result",
+          "value": "“We were ready on time, and we won by two goals.”"
+        },
+        {
+          "n": 5,
+          "label": "What I learnt",
+          "value": "“I learnt I can stay calm under pressure.”"
+        },
+        {
+          "n": 6,
+          "label": "Link to the job",
+          "value": "“I think that would help on a busy Saturday shift here.”",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Situation",
+          "note": "Short. Where and when."
+        },
+        {
+          "n": 2,
+          "label": "Task",
+          "note": "What needed doing."
+        },
+        {
+          "n": 3,
+          "label": "Action",
+          "note": "The biggest part. “I”, not “we”."
+        },
+        {
+          "n": 4,
+          "label": "Result",
+          "note": "What happened."
+        },
+        {
+          "n": 5,
+          "label": "Learnt",
+          "note": "Shows you reflect."
+        },
+        {
+          "n": 6,
+          "label": "Link",
+          "note": "Connects your story to their job."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Before, during, after",
+      "steps": [
+        {
+          "title": "Before",
+          "text": "The ad, the business, three stories.",
+          "icon": "lucide:notebook-pen"
+        },
+        {
+          "title": "During",
+          "text": "Smile, use STAR, ask a question.",
+          "icon": "lucide:message-circle"
+        },
+        {
+          "title": "After",
+          "text": "Say thanks, the same day.",
+          "icon": "lucide:mail-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "In the Jobs and Skills Australia research, what did most employers say was the reason they hired a young person?",
+        "options": [
+          "The right attitude",
+          "Lots of experience",
+          "Good marks",
+          "Who their parents were"
+        ],
+        "answer": 0,
+        "explain": "About six in ten said attitude.",
+        "vc": [
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "q": "What does the **A** in STAR stand for?",
+        "options": [
+          "Action: what you did",
+          "Answer",
+          "Attitude",
+          "Ask"
+        ],
+        "answer": 0,
+        "explain": "Situation, Task, Action, Result.",
+        "vc": [
+          "VC2E6LY02"
+        ]
+      },
+      {
+        "q": "Which is the **biggest** part of a STAR answer?",
+        "options": [
+          "Action",
+          "Situation",
+          "Task",
+          "The greeting"
+        ],
+        "answer": 0,
+        "explain": "Spend most of your answer on what you did.",
+        "vc": [
+          "VC2E6LY02"
+        ]
+      },
+      {
+        "q": "You don't understand a question. What do you do?",
+        "options": [
+          "Ask: “Sorry, do you mean…?”",
+          "Guess and hope",
+          "Stay silent",
+          "Change the subject"
+        ],
+        "answer": 0,
+        "explain": "Clarifying is a strength.",
+        "vc": [
+          "VC2E6LY01",
+          "VC2E4LY01"
+        ]
+      },
+      {
+        "q": "At the end they ask, “Do you have any questions?” What's best?",
+        "options": [
+          "“What training do new staff get?”",
+          "“No.”",
+          "“How much is the pay?” and nothing else",
+          "“Can I go now?”"
+        ],
+        "answer": 0,
+        "explain": "A good question shows you're interested.",
+        "vc": [
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "q": "When should you send a thank-you message?",
+        "options": [
+          "The same day",
+          "Never",
+          "Next month",
+          "Only if you get the job"
+        ],
+        "answer": 0,
+        "explain": "It's polite and reminds them of you.",
+        "vc": [
+          "VC2E6LY02"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Which answer **substantiates** the claim “I'm reliable”?",
+        "options": [
+          "“I haven't missed a Saturday training in three years.”",
+          "“I'm super reliable, trust me.”",
+          "“Everyone says I'm reliable.”",
+          "“I'm reliable, I think.”"
+        ],
+        "answer": 0,
+        "explain": "Evidence turns a claim into proof.",
+        "vc": [
+          "VC2E7LA02"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan three short stories. Do a practice interview. Ask a question at the end. Write a thank-you.",
+      "core": "Prepare three STAR stories, do a mock interview (answering questions clearly and asking one of your own), then write a thank-you message.",
+      "extend": "Prepare three adaptable STAR stories with substantiated claims, deliver a mock interview using formal language and controlled voice, respond to unexpected questions, and evaluate a recording of your performance."
+    },
+    "checklist": [
+      "I prepared three STAR stories",
+      "I answered with real examples",
+      "I spoke clearly and looked up",
+      "I asked if I didn't understand",
+      "I asked a question at the end",
+      "I wrote a thank-you message"
+    ],
+    "levelUp": "Record your mock interview. Watch it back and evaluate two things you'd keep and two you'd change, with evidence.",
+    "vc": [
+      "VC2E6LY02",
+      "VC2E6LY01",
+      "VC2E4LY02"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to nail an interview",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What does **STAR** stand for?",
+            "lines": 0,
+            "vc": [
+              "VC2E6LY02"
+            ],
+            "boxes": [
+              "S",
+              "T",
+              "A",
+              "R"
+            ]
+          },
+          {
+            "q": "What **three stories** should you prepare?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY02"
+            ]
+          },
+          {
+            "q": "Write one question you could ask at the end of an interview.",
+            "lines": 1,
+            "vc": [
+              "VC2E6LY01"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a STAR answer",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the answer. Use the word bank. Write why it helps.",
+          "core": "Each number marks part of the answer. Write which part it is and why it helps."
+        },
+        "columns": [
+          "Which part?",
+          "Why does it help?"
+        ],
+        "wordBank": {
+          "support": [
+            "situation",
+            "task",
+            "action",
+            "result",
+            "learnt",
+            "link to job"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LY02",
+          "VC2E7LA02"
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Before, during, after",
+        "diagram": 1,
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Strong or weak?",
+        "pagebreak": true,
+        "choices": [
+          "Strong",
+          "Weak"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is an interview answer. Tick whether it's strong or weak, and say why.",
+        "cards": [
+          {
+            "from": "“Tell me about yourself.”",
+            "text": "“Um, I don't know. I'm just normal.”",
+            "answer": "Weak",
+            "flags": "Nothing they can remember."
+          },
+          {
+            "from": "“Tell me about yourself.”",
+            "text": "“I'm in Year 10. I play netball every Saturday and help coach the juniors. I'm keen to start my first job.”",
+            "answer": "Strong",
+            "flags": "Short, real, keen."
+          },
+          {
+            "from": "“Why do you want to work here?”",
+            "text": "“For the money.”",
+            "answer": "Weak",
+            "flags": "Honest, but shows no interest in them."
+          },
+          {
+            "from": "“Why do you want to work here?”",
+            "text": "“I've shopped here for years and the staff are always friendly. I'd like to be part of that.”",
+            "answer": "Strong",
+            "flags": "Shows they researched and care."
+          },
+          {
+            "from": "“Any questions for us?”",
+            "text": "“No.”",
+            "answer": "Weak",
+            "flags": "Missed chance.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "“Any questions for us?”",
+            "text": "“What does a normal shift look like for a new starter?”",
+            "answer": "Strong",
+            "flags": "Shows interest.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LY01",
+          "VC2E7LA02"
+        ],
+        "vcNote": "Evaluating spoken answers for clarity, evidence and audience."
+      },
+      {
+        "type": "flow",
+        "title": "Before, during, after",
+        "diagram": 1,
+        "levels": [
+          "support"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Prepare three stories",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 32,
+          "core": 30
+        },
+        "instructions": "Plan a STAR story for each question. Use dot points, not full sentences. The first one is started for you.",
+        "columns": [
+          "A time you…",
+          "Situation + task",
+          "Action: what I did",
+          "Result: what happened"
+        ],
+        "rows": [
+          [
+            "Example: worked in a team",
+            "Netball final, coach was sick",
+            "Led the warm-up, checked positions",
+            "Ready on time, won by two"
+          ],
+          [
+            "Worked in a team",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Solved a problem",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Were reliable",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LY02",
+          "VC2E4LY02",
+          "VC2E7LA02"
+        ],
+        "vcNote": "Planning structured spoken responses with substantiating detail."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: what employers really want",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did most employers say was the reason they hired a young person?",
+            "lines": 1,
+            "vc": [
+              "VC2E6LY01"
+            ]
+          },
+          {
+            "q": "Name **three** ways you can show attitude in an interview.",
+            "lines": 3,
+            "vc": [
+              "VC2E6LY01",
+              "VC2E7LA02"
+            ]
+          },
+          {
+            "q": {
+              "support": "You want to say *“I'm a hard worker.”* Write a real example from your life that shows it.",
+              "core": "Turn the claim *“I'm a hard worker”* into **evidence** from your own life."
+            },
+            "lines": 2,
+            "vc": [
+              "VC2E7LA02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: the mock interview",
+        "pagebreak": true,
+        "where": "in class with a partner, a teacher, or a visiting employer",
+        "instructions": {
+          "support": "Do a 5-minute practice interview. Record it if you can.",
+          "core": "Do a 5-minute mock interview. Your interviewer asks 4 questions from the list in step 1. Record it if you can."
+        },
+        "need": [
+          "your three stories",
+          "an interviewer",
+          "a phone to record (optional)"
+        ],
+        "steps": {
+          "support": [
+            "Your interviewer asks 4 of these: Tell me about yourself. Why do you want to work here? Tell me about a time you worked in a team. What days can you work?",
+            "Greet them.",
+            "Answer with your stories.",
+            "Ask if you don't understand.",
+            "Ask your own question.",
+            "Get feedback."
+          ],
+          "core": [
+            "Your interviewer picks 4: Tell me about yourself. Why do you want to work here? Tell me about a time you worked in a team. What would you do if a customer was rude to you? What's your availability?",
+            "Walk in, greet them and shake hands (or wave, if that suits).",
+            "Answer each question. Use STAR for “a time when” questions.",
+            "If you don't understand a question, ask.",
+            "Ask your own question at the end.",
+            "Get feedback from your interviewer."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My interviewer said I did well at:",
+            "lines": 1
+          },
+          {
+            "label": "Next time I'll:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Recording",
+          "Teacher saw it",
+          "Interviewer's feedback"
+        ],
+        "vc": [
+          "VC2E6LY02",
+          "VC2E6LY01",
+          "VC2E4LY02",
+          "VC2E4LY01"
+        ],
+        "vcNote": "Hands-on: delivering structured spoken answers and interacting with an interviewer."
+      },
+      {
+        "type": "questions",
+        "title": "Follow up: the thank-you",
+        "items": [
+          {
+            "q": {
+              "support": "Write a short thank-you message (2 or 3 sentences).",
+              "core": "Write a short thank-you message (3 sentences) to send after your interview."
+            },
+            "lines": {
+              "support": 2,
+              "core": 3
+            },
+            "vc": [
+              "VC2E6LY02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Watch the recording of your mock interview. Name **two** things you'd keep and **two** you'd change. Use evidence (what you said or did).",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY02",
+              "VC2E7LA02"
+            ]
+          },
+          {
+            "q": "Some first jobs start with a **group interview** or a quick **phone call**. How would you change your language and voice for each, compared with a one-on-one interview?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can prepare for an interview.",
+          "I can answer with STAR.",
+          "I can use my voice and body well.",
+          "I can ask questions and follow up."
+        ],
+        "questions": [
+          "My best STAR story is about:",
+          "How I'll feel walking into my next interview:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The boss level of Work Ready. Students prepare for a job interview: researching the job and business, planning three STAR stories (situation, task, action, result), substantiating claims with evidence, using voice and body well, clarifying questions and asking their own. The case study is Jobs and Skills Australia's 2025 research, where about six in ten employers who hired a young person said it was because of their attitude. The final task is a mock interview and a thank-you message.",
+    "prep": [
+      "Line up interviewers: teachers, office staff, older students or (best) local employers. Five minutes each.",
+      "Print the question list and a simple feedback slip.",
+      "Decide how recordings will be made and stored."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Before",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** ask a student, without warning, “Tell me about a time you worked in a team.” Then ask the class what would help.",
+          "**Explicit teaching (10 min):** before, during, after; STAR modelled on the netball answer.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a STAR answer."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Stories",
+        "minutes": 50,
+        "steps": [
+          "**Strong or weak? (10 min).**",
+          "**Prepare three stories (25 min).** Conference with students as they work.",
+          "**Case study (15 min):** what employers really want. Turn claims into evidence."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Practise",
+        "minutes": 50,
+        "steps": [
+          "**Model (5 min):** you be interviewed by a student.",
+          "**Pair practice (30 min):** rotate interviewer and interviewee; use the question list.",
+          "**Thank-you message (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 4 — Mock interviews",
+        "minutes": 50,
+        "steps": [
+          "**Mock interviews (35 min):** with visiting interviewers if possible.",
+          "**Level Up, reflect (15 min):** review recordings; quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Employers hiring young people value attitude highly; show it with evidence.",
+      "Prepare the ad, the business, three stories and the route.",
+      "STAR: situation, task, action (the biggest part), result.",
+      "Smile, look up, speak clearly, clarify if unsure, ask a question.",
+      "Send a thank-you the same day."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards.",
+        "A partner interviewer they know; dot-point stories."
+      ],
+      "extend": [
+        "Substantiate every claim with evidence.",
+        "Evaluate a recording; adapt for group and phone interviews (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LY02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Delivers structured answers using features of voice (mock interview)."
+      },
+      {
+        "vc": "VC2E4LY01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses interaction skills to answer and ask questions (mock interview)."
+      },
+      {
+        "vc": "VC2E6LY02",
+        "evidence": "Delivers structured spoken answers to an interviewer, with appropriate voice (STAR stories, mock interview)."
+      },
+      {
+        "vc": "VC2E6LY01",
+        "evidence": "Uses interaction skills and awareness of formality: clarifying, supporting answers and asking questions (sort, mock interview, case study)."
+      },
+      {
+        "vc": "VC2E7LY02",
+        "evidence": "Level Up: evaluates a recording of a formal spoken performance."
+      },
+      {
+        "vc": "VC2E7LA02",
+        "evidence": "Substantiates claims with evidence (case study, STAR answer annotation, Level Up)."
+      },
+      {
+        "vc": "VC2E8LY02",
+        "evidence": "Level Up: adapts language and voice for group, phone and one-on-one interviews."
+      }
+    ],
+    "answers": "**STAR:** situation, task, action, result. **Three stories:** teamwork, solving a problem, being reliable. **Questions to ask (samples):** What does a normal shift look like? What training do new staff get?\n\n**STAR answer:** 1 situation; 2 task; 3 action (the biggest part, in the first person); 4 result; 5 what I learnt; 6 link to the job.\n\n**Sort:** “I'm just normal” — weak; Year 10, netball, keen — strong; “for the money” — weak; shopped here, friendly staff — strong; “No” — weak; normal shift question — strong.\n\n**Case study:** the right attitude (about six in ten); show attitude by arriving early, smiling, listening, giving real examples, asking a question; evidence sample: *I've worked every Saturday at the market stall for a year without missing a day.*",
+    "resources": [
+      {
+        "label": "Jobs and Skills Australia — Employers' experiences of young job applicants (2025)",
+        "url": "https://www.jobsandskills.gov.au/data/recruitment-experiences-and-outlook-survey/research-articles/employers-experiences-young-job-applicants"
+      },
+      {
+        "label": "Jobs and Skills Australia — New research reveals trends in youth employment",
+        "url": "https://www.jobsandskills.gov.au/news/new-research-reveals-trends-youth-employment"
+      },
+      {
+        "label": "Youth Central — Dealing with inappropriate interview questions",
+        "url": "https://www.youthcentral.vic.gov.au/jobs/job-interviews/dealing-inappropriate-interview-questions"
+      },
+      {
+        "label": "Victorian Equal Opportunity and Human Rights Commission — Age discrimination",
+        "url": "https://www.humanrights.vic.gov.au/for-individuals/age/"
+      }
+    ],
+    "realityCheck": [
+      "**Nerves are the main barrier.** Practise in low-stakes pairs first, and let students choose who interviews them for the final.",
+      "**Visiting employers transform it.** Even two local managers for a lesson make the task real, and sometimes lead to actual jobs.",
+      "**Inappropriate questions.** Students should know some questions (about religion, family plans, ethnicity) shouldn't be asked; Youth Central's guide explains what to do. Mention it without scaring them.",
+      "**Cultural differences.** Eye contact and handshakes vary across cultures. Teach them as Australian workplace norms, not moral rules, and accept respectful alternatives.",
+      "**Works in a real class:** yes. It's the natural finale to Work Ready, using the job ad, the resume and workplace talk together."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards, dot-point stories and a familiar interviewer.",
+      "core": "Standard version: before/during/after, STAR answer annotation, strong-or-weak sort, three prepared stories, the Jobs and Skills Australia case, a mock interview and a thank-you message.",
+      "extend": "Adds follow up and first impression to the vocabulary, a quiz question on substantiating claims, and Level Ups evaluating a recording and adapting for group and phone interviews."
+    }
+  }
+}
