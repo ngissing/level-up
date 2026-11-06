@@ -1,0 +1,1093 @@
+{
+  "id": "l-plate-ready",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "*You are turning right. A car is coming the other way. What must you do?* You pick B. Wrong! You read too fast. On the real test, you need 25 out of 32.",
+      "core": "Question 14: *You are turning right at an intersection with no signs. A car is coming the other way and going straight. What must you do?* You're sure it's B. It's not. You read the question too fast, and missed one word. On the real test, you need 25 out of 32 to pass."
+    },
+    "why": {
+      "support": "The learner test is a **reading** test. It uses road words and rule words like **must** and **must not**. Read carefully and you'll pass.",
+      "core": "The Learner Permit Test is a **reading** test as much as a driving one. It's full of technical words (*give way*, *merge*, *BAC*), rule words like **must**, **must not** and **may**, and diagrams you have to picture. Read carefully, and you'll pass. Then the rules you learn keep you, and your mates, alive.",
+      "extend": "The Learner Permit Test assesses close reading: technical vocabulary, the precise force of modal verbs, conditional situations and diagrams. Reading strategically improves your score, and understanding the cause-and-effect reasoning behind each rule makes you a safer driver."
+    },
+    "canDo": {
+      "support": [
+        "I can read and explain road rules.",
+        "I know must, must not and may.",
+        "I can read signs by shape and colour.",
+        "I can use a strategy for test questions."
+      ],
+      "core": [
+        "I can read the **road rules** and explain what they mean.",
+        "I can tell **must**, **must not** and **may** apart in a rule.",
+        "I can read **signs** by their shape and colour.",
+        "I can use a **strategy** to answer test questions, and explain why a rule exists."
+      ]
+    },
+    "showIt": "Take the official practice Learner Permit Test using a reading strategy, review your mistakes using the rules, and explain why one rule exists.",
+    "vocab": [
+      {
+        "word": "learner permit",
+        "meaning": "lets you learn to drive with a supervisor (your Ls)",
+        "example": "I got my learner permit at 16."
+      },
+      {
+        "word": "supervising driver",
+        "meaning": "a full-licence holder who sits next to a learner",
+        "example": "Mum is my supervising driver."
+      },
+      {
+        "word": "give way",
+        "meaning": "let another vehicle or person go first",
+        "example": "Give way to the car going straight."
+      },
+      {
+        "word": "intersection",
+        "meaning": "a place where roads meet or cross",
+        "example": "Slow down at the intersection."
+      },
+      {
+        "word": "BAC",
+        "meaning": "blood alcohol concentration: the alcohol in your blood",
+        "example": "Learners must have a BAC of zero."
+      },
+      {
+        "word": "log book",
+        "meaning": "a record of your supervised driving hours",
+        "example": "I log my hours in the app."
+      },
+      {
+        "word": "merge",
+        "meaning": "join a lane of traffic smoothly",
+        "example": "Merge into the left lane."
+      },
+      {
+        "word": "demerit points",
+        "meaning": "penalty points you get for breaking road rules",
+        "example": "Speeding can cost you demerit points.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "L-Plate Ready in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "L-Plate Ready",
+        "sub": "Get ready for your learner permit test.",
+        "icon": "lucide:car",
+        "say": "L-plate ready. Get ready for your learner permit test."
+      },
+      {
+        "kind": "big",
+        "title": "The test",
+        "text": "32 questions · **25** to pass",
+        "icon": "lucide:clipboard-check",
+        "say": "In Victoria, the learner permit test has thirty-two questions. You need seventy-eight per cent to pass: that's twenty-five right.",
+        "vc": [
+          "VC2E5LY06"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "M",
+        "pill": "Rule words",
+        "pillIcon": "lucide:scale",
+        "title": "Must, must not, may",
+        "text": "Have to · **Not allowed** · Allowed",
+        "icon": "lucide:scale",
+        "say": "Must means you have to. Must not means you're not allowed. May means you're allowed, but don't have to.",
+        "vc": [
+          "VC2E3LA09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "!",
+        "pill": "Rule words",
+        "pillIcon": "lucide:scale",
+        "title": "Small words matter",
+        "text": "*unless* · *except* · *never*",
+        "icon": "lucide:search",
+        "say": "Read every word. Unless, except, always and never can change the whole answer.",
+        "vc": [
+          "VC2E5LY06",
+          "VC2E4LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "◆",
+        "pill": "Signs",
+        "pillIcon": "lucide:triangle-alert",
+        "title": "Shape + colour",
+        "text": "Yellow diamond = **warning**",
+        "icon": "lucide:triangle-alert",
+        "say": "Signs speak in shapes and colours. A yellow diamond warns you. A red circle tells you what you can't do.",
+        "vc": [
+          "VC2E3LA11",
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "L",
+        "pill": "On your Ls",
+        "pillIcon": "lucide:car",
+        "title": "The rules on your Ls",
+        "text": "Plates · Supervisor · **Zero BAC** · No phone",
+        "icon": "lucide:car",
+        "say": "On your Ls: L plates front and back. A supervising driver with a full licence. Zero alcohol. No phone at all, not even hands-free.",
+        "vc": [
+          "VC2E3LA09",
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Rules save lives",
+        "text": "**19%** fewer serious crashes",
+        "icon": "lucide:shield-check",
+        "say": "The rules work. Victoria's graduated licensing system was evaluated in 2017. First-year P-platers were nineteen per cent less likely to have a fatal or serious crash.",
+        "vc": [
+          "VC2E7LY06"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Read it. Picture it. Pass it.",
+        "icon": "lucide:car",
+        "say": "Your mission. Take the official practice test using a reading strategy, then explain why one rule exists."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to get your Ls",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "In Victoria, you can get your **learner permit** at **16**. First, you pass the **Learner Permit Test**. It has **32 questions**. You need **25 right** to pass.\n\n**Read the handbook.** It's called *Road to Solo Driving*. Use the headings. Study the pictures.\n\n**Learn the rule words.**\n\n- **Must** = you **have to**.\n- **Must not** = you're **not allowed**.\n- **May** = you're **allowed**.\n\n**Learn the signs.** A **yellow diamond** is a warning. A **red circle** tells you what you can't do.\n\n**Test strategy.**\n\n1. Read the **whole** question.\n2. Find the **key words**.\n3. **Picture** it.\n4. Cross out wrong answers.\n\n**On your Ls:** L plates front and back. A supervising driver. **Zero** alcohol. **No phone**, not even hands-free. Under 21? Log **120 hours**, with **20 at night**.",
+          "core": "In Victoria, you can get your **learner permit** at **16**. First, you pass the **Learner Permit Test**: **32 questions** on the road rules. You need **78%** (25 right). VicRoads has a free practice test.\n\n**Read the handbook.** The questions come from the road rules in the official handbook, *Road to Solo Driving*. Don't read it like a novel. Use the headings to find a topic, read one section at a time, and study the diagrams.\n\n**Learn the rule words.**\n\n- **Must** means you **have to**. *You must give way to pedestrians.*\n- **Must not** means you're **not allowed**. *You must not use a mobile phone.*\n- **May** means you're **allowed**, but you don't have to.\n\nSmall words like *unless*, *except*, *always* and *never* can change the whole answer.\n\n**Learn the sign language.** Signs speak in shapes and colours. A **red octagon** means stop. A **yellow diamond** warns you of something ahead. A **red circle** tells you what you can't do. A **green rectangle** gives directions.\n\n**Use a test strategy.**\n\n1. Read the **whole** question, slowly.\n2. Find the **key words**: *must*, *turning right*, *unless*.\n3. **Picture** the situation, or look closely at the diagram.\n4. Read **every** option. Cross out the ones that are clearly wrong.\n5. Choose the answer that matches the rule.\n\n**Once you've got your Ls,** the rules are strict. You **must** display **L plates** on the front and back. You **must** have a **supervising driver** with a full licence. Your **BAC** must be **zero**. You **must not** use a phone at all, not even hands-free. And if you're under 21, you **must** log **120 hours** of supervised driving, including **20 at night**, before your P test.",
+          "extend": "In Victoria, you're eligible for a **learner permit** at **16**, after passing the **Learner Permit Test**: **32 questions** on the road rules, with a pass mark of **78%** (25 correct). VicRoads' free practice test is modelled on the real one.\n\n**Read the handbook strategically.** Questions come from the official handbook, *Road to Solo Driving*. Use the headings to find topics. Read one section at a time. Treat diagrams as part of the text, because many questions depend on them.\n\n**Read the modal verbs precisely.**\n\n- **Must** creates an **obligation**: *You must give way to pedestrians.*\n- **Must not** creates a **prohibition**: *You must not use a mobile phone.*\n- **May** grants **permission**.\n\nConditional and absolute words (*unless*, *except*, *always*, *never*) often decide the answer.\n\n**Read signs as a visual code.** Shape and colour signal function: a **red octagon** (stop), **yellow diamonds** (warnings), **red circles** (prohibitions) and **green rectangles** (direction).\n\n**Use a test strategy.** Read the whole question. Find the key words. Picture the situation, or study the diagram. Cross out options that can't be right. Then choose the answer that matches the rule.\n\n**On your Ls,** conditions are strict: **L plates** front and back, a **supervising driver** with a full licence, a **zero BAC**, and **no phone use at all**, including hands-free. Learners under 21 must also log **120 hours** of supervised driving, including **20 at night**, before the probationary licence test. Each rule exists because of a known risk, and understanding the cause makes it easier to follow."
+        },
+        "vc": [
+          "VC2E3LA09",
+          "VC2E5LA08",
+          "VC2E3LA11",
+          "VC2E5LY06",
+          "VC2E4LY09",
+          "VC2E5LY09"
+        ],
+        "vcNote": "Reading road rules: modal verbs of obligation, prohibition and permission; technical vocabulary; signs as a visual code; reading test questions accurately."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Do the rules really work?",
+        "icon": "lucide:shield-check",
+        "body": {
+          "support": "In **2007**, Victoria made new rules for new drivers. It's why learners log 120 hours.\n\nIn **2017**, a study checked if the rules worked.\n\nWhat it found:\n\n- New P-platers were **19% less likely** to have a serious crash.\n- New P-platers can only carry **one** passenger aged 16 to 22. Crashes with two or more young passengers dropped by **70%**.\n\nBut **speeding** and **phone** offences went **up**.\n\nSo the rules work, but only if drivers follow them.",
+          "core": "In **2007**, Victoria brought in tougher rules for new drivers, called the **Graduated Licensing System**. It's the reason learners under 21 have to log 120 hours of driving, and why new P-platers can't carry a car full of friends.\n\nSo, do the rules work? In **2017**, the government released an **evaluation**: a study that checked what had happened since the rules began.\n\nHere's what it found:\n\n- P-platers in their **first year** of driving were **19% less likely** to have a crash where someone was killed or seriously injured.\n- The rule that limits new P-platers to **one passenger aged 16 to 22** made a big difference. Crashes while carrying **two or more** young passengers dropped by **70%**.\n\nBut it wasn't all good news. The study also found that **speeding** and **mobile phone** offences went **up** among P-platers.\n\nSo the rules save lives, but only when drivers follow them. Every rule in the handbook is there because of a real risk.",
+          "extend": "In **2007**, Victoria introduced a **Graduated Licensing System** (GLS) for new drivers. It includes the 120 hours of supervised driving for learners under 21. It also limits first-year P-platers to one passenger aged 16 to 22.\n\nIn **2017**, an **evaluation** of the system was released.\n\n- First-year P-platers were **19% less likely** to be in a crash where someone was killed or seriously injured.\n- After the **one-passenger** rule, crashes with two or more young passengers fell by **70%**.\n\nThe evaluation also found that **speeding** and **mobile phone** offences had **increased** among P-platers. It said more work was needed for older new drivers.\n\nThe evidence links specific rules to specific effects: fewer young passengers led to fewer crashes with young passengers. It also shows that a rule only reduces risk when people follow it."
+        },
+        "source": {
+          "name": "TAC — “Young drivers safer with graduated licensing” (2017)",
+          "url": "https://www.tac.vic.gov.au/about-the-tac/media-room/news-and-events/2017/young-drivers-safer-with-graduated-licensing"
+        },
+        "think": {
+          "support": [
+            "What did the study find?",
+            "Why might friends in the car make crashes more likely?"
+          ],
+          "core": [
+            "What did the study find about new P-platers?",
+            "Why might carrying lots of friends make a crash more likely?",
+            "Why do you think speeding and phone offences went up?"
+          ]
+        },
+        "vc": [
+          "VC2E7LY06",
+          "VC2E5LY09"
+        ],
+        "vcNote": "Cause and effect: linking road rules to real evaluated outcomes."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a test question",
+      "docTitle": "PRACTICE QUESTION (EXAMPLE)",
+      "vc": [
+        "VC2E5LY06",
+        "VC2E3LA09",
+        "VC2E4LY09"
+      ],
+      "vcNote": "How a test question is built, and where to read closely.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Situation",
+          "value": "You are turning right at an intersection with no signs or traffic lights."
+        },
+        {
+          "n": 2,
+          "label": "Detail",
+          "value": "A car is coming from the opposite direction and going straight ahead."
+        },
+        {
+          "n": 3,
+          "label": "Question",
+          "value": "What must you do?",
+          "strong": true
+        },
+        {
+          "label": "A",
+          "value": "Turn first, because you got there first."
+        },
+        {
+          "n": 4,
+          "label": "B",
+          "value": "Give way to the car going straight ahead.",
+          "strong": true
+        },
+        {
+          "label": "C",
+          "value": "Sound your horn and turn."
+        },
+        {
+          "n": 5,
+          "label": "D",
+          "value": "Turn, as long as you've indicated."
+        }
+      ],
+      "note": "Made-up practice question. B is correct: when turning right, you give way to oncoming traffic going straight.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Situation",
+          "note": "Picture it: where are you?"
+        },
+        {
+          "n": 2,
+          "label": "Key detail",
+          "note": "Who else is there, and where are they going?"
+        },
+        {
+          "n": 3,
+          "label": "Rule word",
+          "note": "“Must”: what does the rule say?"
+        },
+        {
+          "n": 4,
+          "label": "Correct answer",
+          "note": "Matches the rule: give way."
+        },
+        {
+          "n": 5,
+          "label": "Trap",
+          "note": "Sounds sensible, but indicating doesn't give you right of way."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Answer any test question",
+      "steps": [
+        {
+          "title": "Read",
+          "text": "The whole question, slowly.",
+          "icon": "lucide:book-open"
+        },
+        {
+          "title": "Key words",
+          "text": "Must? Unless? Turning which way?",
+          "icon": "lucide:highlighter"
+        },
+        {
+          "title": "Picture it",
+          "text": "Imagine it, or study the diagram.",
+          "icon": "lucide:eye"
+        },
+        {
+          "title": "Cross out",
+          "text": "Remove wrong answers, then choose.",
+          "icon": "lucide:x"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "In a road rule, what does **must not** mean?",
+        "options": [
+          "You're not allowed to",
+          "You should, if you can",
+          "You're allowed to",
+          "It doesn't matter"
+        ],
+        "answer": 0,
+        "explain": "Must = have to. Must not = not allowed. May = allowed.",
+        "vc": [
+          "VC2E3LA09"
+        ]
+      },
+      {
+        "q": "What must a learner driver's **BAC** be?",
+        "options": [
+          "Zero",
+          "Under 0.05",
+          "Under 0.02",
+          "Anything, if supervised"
+        ],
+        "answer": 0,
+        "explain": "Learners must have zero alcohol in their blood.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "q": "Can a learner use a phone **hands-free** while driving?",
+        "options": [
+          "No: learners must not use a phone at all",
+          "Yes, always",
+          "Yes, at red lights",
+          "Only for music"
+        ],
+        "answer": 0,
+        "explain": "Not even hands-free.",
+        "vc": [
+          "VC2E3LA09",
+          "VC2E5LY06"
+        ]
+      },
+      {
+        "q": "What does a **yellow diamond** sign usually mean?",
+        "options": [
+          "A warning about something ahead",
+          "Stop",
+          "Directions",
+          "Parking"
+        ],
+        "answer": 0,
+        "explain": "Shape and colour tell you the kind of sign.",
+        "vc": [
+          "VC2E3LA11",
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "q": "You're turning right. A car is coming the other way, going straight. What must you do?",
+        "options": [
+          "Give way to it",
+          "Go first",
+          "Sound your horn",
+          "Speed up"
+        ],
+        "answer": 0,
+        "explain": "Read the whole question and picture it.",
+        "vc": [
+          "VC2E5LY06",
+          "VC2E4LY09"
+        ]
+      },
+      {
+        "q": "How many supervised hours must a learner under 21 log?",
+        "options": [
+          "120, including 20 at night",
+          "50",
+          "120, all in daylight",
+          "None"
+        ],
+        "answer": 0,
+        "explain": "In a log book or the app.",
+        "vc": [
+          "VC2E5LY06"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "In the 2017 evaluation, what happened after new P-platers were limited to one young passenger?",
+        "options": [
+          "Crashes with two or more young passengers fell by 70%",
+          "Nothing changed",
+          "Crashes went up",
+          "P-platers stopped driving"
+        ],
+        "answer": 0,
+        "explain": "A rule linked to a clear effect.",
+        "vc": [
+          "VC2E7LY06"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Take the practice test. Use the strategy. Check your mistakes. Say why one rule exists.",
+      "core": "Take the official practice Learner Permit Test using a reading strategy, review your mistakes using the rules, and explain why one rule exists.",
+      "extend": "Complete the official practice test using a reading strategy, analyse each error by its cause (vocabulary, modal verb, key word or diagram), and explain the cause-and-effect reasoning behind one road rule using evidence."
+    },
+    "checklist": [
+      "I used the strategy on every question",
+      "I recorded my score",
+      "I checked each wrong answer against the rule",
+      "I worked out why I got it wrong",
+      "I explained why one rule exists"
+    ],
+    "levelUp": "Summarise one section of the handbook in three dot points, then write a tricky test question about it for a partner.",
+    "vc": [
+      "VC2E5LY06",
+      "VC2E3LA09",
+      "VC2E7LY06"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to get your Ls",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "How many questions are on the Learner Permit Test, and how many do you need right?",
+            "lines": 1,
+            "vc": [
+              "VC2E5LY06"
+            ]
+          },
+          {
+            "q": "Name **three** rules you must follow on your Ls.",
+            "lines": 2,
+            "vc": [
+              "VC2E3LA09",
+              "VC2E5LA08"
+            ]
+          },
+          {
+            "q": "What are the **four** steps of the test strategy?",
+            "lines": 2,
+            "vc": [
+              "VC2E4LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Must, must not or may?",
+        "pagebreak": true,
+        "choices": [
+          "Must",
+          "Must not",
+          "May"
+        ],
+        "reasonLabel": "In plain words:",
+        "instructions": "Each card is a rule for learner drivers in Victoria. Tick **must**, **must not** or **may**. Then say what it means in plain words.",
+        "cards": [
+          {
+            "from": "Learner rule",
+            "text": "Display L plates on the front and back of the car.",
+            "answer": "Must",
+            "flags": "You have to."
+          },
+          {
+            "from": "Learner rule",
+            "text": "Use a mobile phone while driving, even hands-free.",
+            "answer": "Must not",
+            "flags": "Not allowed at all."
+          },
+          {
+            "from": "Learner rule",
+            "text": "Drive at night, with a supervising driver.",
+            "answer": "May",
+            "flags": "Allowed. You need night hours!"
+          },
+          {
+            "from": "Learner rule",
+            "text": "Have a supervising driver with a full licence next to you.",
+            "answer": "Must",
+            "flags": "Every time."
+          },
+          {
+            "from": "Learner rule",
+            "text": "Drive with any alcohol in your blood.",
+            "answer": "Must not",
+            "flags": "BAC must be zero.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Learner rule",
+            "text": "Log 120 hours (if you're under 21) before your P test.",
+            "answer": "Must",
+            "flags": "Including 20 at night.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E3LA09",
+          "VC2E5LY06"
+        ],
+        "vcNote": "How modal verbs signal obligation, prohibition and permission in rules."
+      },
+      {
+        "type": "table",
+        "title": "Sign language",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 20
+        },
+        "instructions": "Signs speak in shapes and colours. Write what each kind of sign means, and give an example. The first one is done for you.",
+        "columns": [
+          "Shape and colour",
+          "What kind of sign?",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Yellow diamond",
+            "A warning",
+            "Sharp curve ahead"
+          ],
+          [
+            "Red octagon",
+            "",
+            ""
+          ],
+          [
+            "Red and white upside-down triangle",
+            "",
+            ""
+          ],
+          [
+            "Red circle with a line through it",
+            "",
+            ""
+          ],
+          [
+            "Green rectangle",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "White rectangle with black writing",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E3LA11",
+          "VC2E5LA08"
+        ],
+        "vcNote": "Signs as a visual code; technical vocabulary."
+      },
+      {
+        "type": "table",
+        "title": "Road words",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Some road words mean something special on the road. Write what each means. The first one is done for you.",
+        "columns": [
+          "Road word",
+          "What it means on the road"
+        ],
+        "rows": [
+          [
+            "Give way",
+            "Let another vehicle or person go first."
+          ],
+          [
+            "Merge",
+            ""
+          ],
+          [
+            "Intersection",
+            ""
+          ],
+          [
+            "Overtake",
+            ""
+          ],
+          {
+            "cells": [
+              "Supervising driver",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "Demerit points",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LA08",
+          "VC2E7LA08",
+          "VC2E3LA11"
+        ],
+        "vcNote": "Specialist road vocabulary, including words with everyday and technical meanings."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a test question",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the question. Use the word bank. How does it help?",
+          "core": "Each number marks part of the question. Write what it is and how it helps you get the answer right."
+        },
+        "columns": [
+          "What is it?",
+          "How does it help?"
+        ],
+        "wordBank": {
+          "support": [
+            "situation",
+            "key detail",
+            "rule word",
+            "correct answer",
+            "trap"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LY06",
+          "VC2E3LA09",
+          "VC2E4LY09"
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Answer any test question",
+        "diagram": 1,
+        "pagebreak": true
+      },
+      {
+        "type": "questions",
+        "title": "Practice questions",
+        "instructions": "Use the strategy. Circle your answer, then write the **key word** that helped you.",
+        "items": [
+          {
+            "q": "A friend texts you while you're driving on your Ls. You **may**: **A** read it at a red light · **B** reply hands-free · **C** not use your phone at all · **D** read it under 40 km/h.",
+            "lines": 1,
+            "vc": [
+              "VC2E3LA09",
+              "VC2E5LY06"
+            ]
+          },
+          {
+            "q": "What **must** a learner's BAC be? **A** under 0.05 · **B** zero · **C** under 0.02 · **D** any, if supervised.",
+            "lines": 1,
+            "vc": [
+              "VC2E5LA08"
+            ]
+          },
+          {
+            "q": "A sign is a red circle with a line through a U-shaped arrow. It means: **A** U-turns allowed · **B** no U-turns · **C** U-turn ahead · **D** roundabout ahead.",
+            "lines": 1,
+            "vc": [
+              "VC2E3LA11"
+            ]
+          },
+          {
+            "q": "A learner under 21 must log: **A** 50 hours · **B** 120 hours, including 20 at night · **C** 120 hours in daylight · **D** no hours.",
+            "lines": 1,
+            "vc": [
+              "VC2E5LY06"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: do the rules really work?",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Write **two** things the 2017 study found.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          },
+          {
+            "q": "Why might carrying lots of friends make a crash more likely? Explain the **cause** and the **effect**.",
+            "lines": 3,
+            "vc": [
+              "VC2E7LY06"
+            ]
+          },
+          {
+            "q": "Speeding and phone offences went **up**. What does that tell you about rules?",
+            "lines": 2,
+            "vc": [
+              "VC2E7LY06",
+              "VC2E5LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: take the practice test",
+        "pagebreak": true,
+        "where": "in class or at home, on the VicRoads website",
+        "instructions": "Take the free VicRoads practice Learner Permit Test. Use the strategy on every question.",
+        "need": [
+          "a device with internet",
+          "the VicRoads practice test"
+        ],
+        "steps": {
+          "support": [
+            "Open the VicRoads practice test.",
+            "Use the strategy on every question.",
+            "Write down your score.",
+            "Check the wrong answers.",
+            "Try again."
+          ],
+          "core": [
+            "Open the VicRoads practice Learner Permit Test.",
+            "Answer every question using the strategy: read, key words, picture it, cross out.",
+            "Write down your score.",
+            "For each wrong answer, find the rule (in the handbook or online) and work out **why** you got it wrong.",
+            "Retake the test. Did your score go up?"
+          ]
+        },
+        "notes": [
+          {
+            "label": "Score, first try:",
+            "lines": 1
+          },
+          {
+            "label": "One question I got wrong, and why (word, rule, diagram or rushing?):",
+            "lines": 2
+          },
+          {
+            "label": "Score, second try:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Screenshot of score",
+          "Teacher saw it",
+          "Both scores recorded"
+        ],
+        "vc": [
+          "VC2E5LY06",
+          "VC2E5LY09",
+          "VC2E4LY09"
+        ],
+        "vcNote": "Hands-on: applying a reading strategy to the official practice test and analysing errors."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: why does this rule exist?",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Choose **one** rule for learners. What does it say? Why does it exist? What could happen if you broke it?",
+          "core": "Choose **one** rule for learner or P-plate drivers. Explain what it says, **why** it exists, and what could happen if people didn't follow it.",
+          "extend": "Choose one rule for learner or probationary drivers. Explain the rule in plain English, the risk it addresses, and the cause-and-effect chain if it's ignored. Use evidence from the case study or another reliable source."
+        },
+        "plan": [
+          {
+            "label": "The rule",
+            "lines": 1
+          },
+          {
+            "label": "The risk it stops",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "The rule says…",
+            "It exists because…",
+            "If you broke it…"
+          ],
+          "core": [
+            "The rule says…",
+            "It exists because…",
+            "If people didn't follow it…",
+            "The evidence shows…"
+          ]
+        },
+        "lines": {
+          "support": 7,
+          "core": 8
+        },
+        "check": [
+          "the rule in plain words",
+          "why it exists",
+          "what could happen (cause and effect)",
+          "evidence or an example"
+        ],
+        "vc": [
+          "VC2E7LY06",
+          "VC2E5LY09",
+          "VC2E5LA08"
+        ],
+        "vcNote": "Explaining the cause-and-effect reasoning behind a rule."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Choose one section of the road rules handbook. Summarise it in **three dot points**.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY07"
+            ]
+          },
+          {
+            "q": "Write your own tricky test question about that section, with four options. Use a key word (like *unless* or *must*) that changes the answer. Test it on a partner.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA08",
+              "VC2E3LA09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can read and explain road rules.",
+          "I know must, must not and may.",
+          "I can read signs by shape and colour.",
+          "I can use a test strategy."
+        ],
+        "questions": [
+          "My practice test score:",
+          "The rule I'll never forget:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students prepare for the Victorian Learner Permit Test as a close-reading task: modal verbs of obligation, prohibition and permission (must, must not, may), technical road vocabulary, signs as a visual code of shape and colour, and a strategy for reading multiple-choice questions (read the whole stem, find key words, picture it, eliminate). They take the official VicRoads practice test, analyse their errors, and explain the cause and effect behind a rule, using the 2017 evaluation of Victoria's Graduated Licensing System.",
+    "prep": [
+      "Check the VicRoads practice Learner Permit Test is reachable on school devices.",
+      "Have a copy of the *Road to Solo Driving* handbook (or the relevant online sections) for students to check answers.",
+      "Some students may not be allowed, or able, to drive soon. The test is still a strong close-reading task."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The rules",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** the turning-right question. Who got it right? What word mattered?",
+          "**Explicit teaching (10 min):** must, must not, may; small words like unless and except.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Must, must not or may? (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Signs and words",
+        "minutes": 50,
+        "steps": [
+          "**Sign language (15 min).**",
+          "**Road words (10 min).**",
+          "**Anatomy of a test question (15 min).** Model the strategy aloud.",
+          "**Practice questions (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — The test",
+        "minutes": 50,
+        "steps": [
+          "**Do it (35 min):** take the practice test, review errors, retake.",
+          "**Case study (15 min):** do the rules really work?"
+        ]
+      },
+      {
+        "title": "Lesson 4 — Why rules exist",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (30 min):** why does this rule exist?",
+          "**Level Up, reflect (20 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Learner permit from 16; the test has 32 questions and a 78% pass mark (25 correct).",
+      "Must = obligation; must not = prohibition; may = permission. Watch unless, except, always, never.",
+      "Signs: red octagon = stop; yellow diamond = warning; red circle = prohibition; green = direction.",
+      "Strategy: read the whole question, find key words, picture it, eliminate, choose.",
+      "On your Ls: L plates front and back, supervising driver with a full licence, zero BAC, no phone at all; under 21, log 120 hours including 20 at night."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and table rows.",
+        "Read practice questions aloud together before students answer."
+      ],
+      "extend": [
+        "Analyse errors by cause (vocabulary, modal, key word, diagram).",
+        "Write a tricky test question (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LA09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Explains how must, must not and may show obligation and permission (sort, practice questions)."
+      },
+      {
+        "vc": "VC2E3LA11",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses and explains road vocabulary and sign meanings (Sign language, Road words)."
+      },
+      {
+        "vc": "VC2E4LY09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses comprehension strategies, such as visualising and questioning, to answer test questions (annotation, Do it)."
+      },
+      {
+        "vc": "VC2E5LY09",
+        "evidence": "Evaluates information and options to choose the correct answer and analyse errors (Do it, case study)."
+      },
+      {
+        "vc": "VC2E5LA08",
+        "evidence": "Uses specialist road terms precisely: give way, merge, BAC, supervising driver (Road words, final mission)."
+      },
+      {
+        "vc": "VC2E5LY06",
+        "evidence": "Reads test questions accurately, re-reading and self-correcting (practice questions, Do it)."
+      },
+      {
+        "vc": "VC2E7LY07",
+        "evidence": "Level Up: summarises a handbook section."
+      },
+      {
+        "vc": "VC2E7LA08",
+        "evidence": "Explains road terms with everyday and technical meanings (Road words, Level Up question)."
+      },
+      {
+        "vc": "VC2E7LY06",
+        "evidence": "Explains the cause and effect behind a rule, using evidence (case study, final mission)."
+      }
+    ],
+    "answers": "**Check your reading:** 32 questions; 25 correct (78%). Rules: L plates front and back, supervising driver, zero BAC, no phone, log hours. Strategy: read the whole question, find key words, picture it, cross out wrong answers.\n\n**Sort:** L plates — must; phone — must not; night driving — may; supervising driver — must; any alcohol — must not; 120 hours — must.\n\n**Signs:** red octagon — stop; upside-down triangle — give way; red circle with a line — something you must not do (e.g. no U-turn); green rectangle — directions; white rectangle with black writing — a regulatory rule (e.g. keep left).\n\n**Road words (samples):** merge — join a lane smoothly; intersection — where roads meet or cross; overtake — pass another vehicle; supervising driver — a full-licence holder sitting with the learner; demerit points — penalty points for offences.\n\n**Test question:** 1 situation; 2 key detail; 3 rule word (must); 4 correct answer (give way); 5 trap (indicating doesn't give right of way).\n\n**Practice questions:** C (key words: may, phone); B (must, zero); B (red circle with a line = not allowed); B (under 21, 120, night).\n\n**Case study:** first-year P-platers 19% less likely to have a fatal or serious crash; crashes with two or more peer passengers fell 70%; friends can distract, encourage risk-taking and add pressure; rules only work when followed.",
+    "resources": [
+      {
+        "label": "VicRoads — Practice learner permit test",
+        "url": "https://www.vicroads.vic.gov.au/licences/your-ls/get-your-ls/lpt"
+      },
+      {
+        "label": "Transport Victoria — Learner and probationary driver road rules",
+        "url": "https://transport.vic.gov.au/road-and-active-transport/road-rules-and-safety/learner-and-probationary-driver-road-rules"
+      },
+      {
+        "label": "Youth Central — Getting your Ls",
+        "url": "https://www.youthcentral.vic.gov.au/driving-and-public-transport/getting-your-ls"
+      },
+      {
+        "label": "Youth Central — Driving on your Ls",
+        "url": "https://www.youthcentral.vic.gov.au/driving-and-public-transport/driving-your-ls"
+      },
+      {
+        "label": "TAC — Young drivers safer with graduated licensing (2017)",
+        "url": "https://www.tac.vic.gov.au/about-the-tac/media-room/news-and-events/2017/young-drivers-safer-with-graduated-licensing"
+      },
+      {
+        "label": "VicRoads — GLS evaluation summary (2017)",
+        "url": "https://www.vicroads.vic.gov.au/~/media/files/documents/safety-and-road-rules/gls-evaluation-media-summary-2-pages.pdf?la=en"
+      }
+    ],
+    "realityCheck": [
+      "**Not everyone will drive soon.** Cost, family circumstances or disability can make it a long way off. Frame the test as a close-reading challenge first.",
+      "**Rules change.** Check Transport Victoria and VicRoads pages before teaching; this course was written in 2026.",
+      "**Road trauma can be personal.** Some students have lost family or friends on the roads. Mention it before the case study, and keep it factual.",
+      "**Supervisors matter.** Students without a licensed adult at home may need help finding supervised hours. Some councils and community groups run L2P mentor programs.",
+      "**Works in a real class:** yes. Students care about getting their Ls, and the practice test gives instant, honest feedback."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and rows, practice questions read aloud, and sentence starters.",
+      "core": "Standard version: must/must not/may sort, sign language, road words, test question anatomy, practice questions, the 2017 GLS evaluation, the official practice test with error review, and explaining why a rule exists.",
+      "extend": "Adds demerit points to the vocabulary, a quiz question on the passenger rule's effect, error analysis by cause, an evidence-based explanation, and Level Ups summarising the handbook and writing a test question."
+    }
+  }
+}

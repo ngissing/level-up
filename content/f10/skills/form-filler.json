@@ -1,0 +1,1058 @@
+{
+  "id": "form-filler",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "First job! The boss gives you forms. Tiny boxes. BLOCK LETTERS. *If no, go to Question 9.* One mistake and your pay could be late.",
+      "core": "You've got your first job. The manager hands you a pile of forms: a **tax file number declaration**, **bank details**, **super**. There are tiny boxes, BLOCK LETTERS, and a line that says *If no, go to Question 9*. Get one detail wrong and your first pay could be late, or taxed at almost half."
+    },
+    "why": {
+      "support": "Forms have rules. They tell you how to answer and where to go next. Learn the rules. Then you can fill in any form, right the first time.",
+      "core": "Forms are texts with their own rules. They tell you **how** to answer (black pen, block letters, one box only) and **where** to go next. Once you can read those rules, forms stop being scary. Filling them in accurately, and spelling your details right, is how you get your Medicare card, your tax file number and your pay without delays.",
+      "extend": "Forms are highly structured texts: their layout, instructions and navigation words control how you respond. Reading them closely, using precise form vocabulary and checking your answers before you sign means your applications go through first time, and your personal information stays safe."
+    },
+    "canDo": {
+      "support": [
+        "I can follow a form's instructions.",
+        "I can explain form words.",
+        "I can fill in a form and spell it right.",
+        "I can check my form before I sign."
+      ],
+      "core": [
+        "I can follow a form's **instructions** and **navigation** (like *go to Question 9*).",
+        "I can explain **form words** like family name, residential address and declaration.",
+        "I can fill in a form **accurately**, with correct spelling.",
+        "I can **check** my answers and tell a **real** form from a fake one."
+      ]
+    },
+    "showIt": "Fill in a real or practice form accurately, check it with a partner, and fix any mistakes before you sign.",
+    "vocab": [
+      {
+        "word": "family name",
+        "meaning": "your last name, or surname",
+        "example": "My family name is Nguyen."
+      },
+      {
+        "word": "given names",
+        "meaning": "your first name and any middle names",
+        "example": "My given names are Mai Linh."
+      },
+      {
+        "word": "date of birth (DOB)",
+        "meaning": "the day you were born, often written DD/MM/YYYY",
+        "example": "My DOB is 07/03/2010."
+      },
+      {
+        "word": "residential address",
+        "meaning": "where you actually live",
+        "example": "A PO box is not a residential address."
+      },
+      {
+        "word": "postal address",
+        "meaning": "where your mail goes",
+        "example": "My postal address is the same."
+      },
+      {
+        "word": "declaration",
+        "meaning": "a statement that says your answers are true",
+        "example": "I signed the declaration."
+      },
+      {
+        "word": "applicant",
+        "meaning": "the person filling in the form to ask for something",
+        "example": "The applicant must be 15 or older.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "proof of identity",
+        "meaning": "documents that show who you are, like a birth certificate",
+        "example": "Bring two proof of identity documents.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Form Filler in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Form Filler",
+        "sub": "Bank accounts, TFNs and Medicare cards — done right.",
+        "icon": "lucide:clipboard-pen",
+        "say": "Form filler. Bank accounts, tax file numbers and Medicare cards, done right."
+      },
+      {
+        "kind": "big",
+        "title": "Read the rules first",
+        "text": "Black pen · **BLOCK LETTERS** · One box",
+        "icon": "lucide:list-checks",
+        "say": "Every form starts with instructions. Black pen. Block letters. Tick one box. Read them first.",
+        "vc": [
+          "VC2E5LY06",
+          "VC2E3LA05"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "→",
+        "pill": "Form rules",
+        "pillIcon": "lucide:clipboard-pen",
+        "title": "Follow the arrows",
+        "text": "*If no, go to Q9*",
+        "icon": "lucide:corner-down-right",
+        "say": "Forms tell you where to go. If no, go to question nine. Skip what doesn't apply.",
+        "vc": [
+          "VC2E3LA05",
+          "VC2E5LA03"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "A",
+        "pill": "Form words",
+        "pillIcon": "lucide:book-open",
+        "title": "Family vs given",
+        "text": "Family = **last** · Given = **first**",
+        "icon": "lucide:id-card",
+        "say": "Family name means your last name. Given names means your first and middle names.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "B",
+        "pill": "Form words",
+        "pillIcon": "lucide:book-open",
+        "title": "Two addresses",
+        "text": "Where you **live** · Where mail **goes**",
+        "icon": "lucide:house",
+        "say": "Residential address is where you live. Postal address is where your mail goes. A post office box can't be your home.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "C",
+        "pill": "Form words",
+        "pillIcon": "lucide:book-open",
+        "title": "Check, then sign",
+        "text": "Re-read · Fix · **Sign**",
+        "icon": "lucide:pen-line",
+        "say": "The declaration says everything is true. Re-read every answer before you sign.",
+        "vc": [
+          "VC2E5LY06",
+          "VC2E4LY06"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Real or fake?",
+        "text": "Look for **.gov.au**",
+        "icon": "lucide:shield-check",
+        "say": "Real government sites end in dot gov dot au. In one year, more than six thousand scams pretended to be myGov.",
+        "vc": [
+          "VC2E5LY06"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Read it. Fill it. Check it. Sign it.",
+        "icon": "lucide:clipboard-pen",
+        "say": "Your mission. Fill in a form accurately, check it with a partner, and fix mistakes before you sign."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to fill in a form",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Around 15, you'll fill in forms for a **tax file number** (TFN), a **bank account** and your own **Medicare card**. They all follow the same rules.\n\n**1. Read the rules first.** *Black pen. BLOCK LETTERS. One box only.*\n\n**2. Follow the arrows.** *If no, go to Question 9.* Skip what doesn't apply. Leave **Office use only** blank.\n\n**3. Know the words.**\n\n- **Family name** = last name. **Given names** = first and middle names.\n- **Date of birth**: DD/MM/YYYY, like 07/03/2010.\n- **Residential address** = where you live. **Postal address** = where your mail goes.\n\n**4. Spell it right.** Check your name and address.\n\n**5. Check, then sign.** The **declaration** says it's all true.\n\nGive your TFN to your boss. If you don't, almost half your pay goes in tax!\n\nReal government websites end in **.gov.au**.",
+          "core": "Around 15, the forms start: a **tax file number** (TFN) for your first job, a **bank account** for your pay, your own **Medicare card**. Forms can look scary, but they all follow the same rules.\n\n**1. Read the instructions first.** Most forms start with rules: *Use a black pen. Print in BLOCK LETTERS. Mark one box only.* Online forms mark the questions you must answer with a star (*).\n\n**2. Follow the navigation.** Forms are split into **sections** and numbered **questions**. Some questions send you somewhere else: *If no, go to Question 9.* Skip the questions that don't apply to you. Leave anything marked **Office use only** blank.\n\n**3. Know the form words.**\n\n- **Family name** is your last name. **Given names** are your first and middle names.\n- **Date of birth** is often written DD/MM/YYYY, like 07/03/2010.\n- Your **residential address** is where you actually live. Your **postal address** is where your mail goes.\n\n**4. Spell it right.** Your name, address and school must match your other documents exactly. Check tricky words like *February* and *address*.\n\n**5. Check before you sign.** The **declaration** says everything you wrote is true. Re-read every answer, fix mistakes neatly, and then sign and date it.\n\n**Three forms you'll meet soon:**\n\n- **TFN.** It's free from the ATO. Give it to your employer, or they must take out tax at the top rate: almost half your pay.\n- **Medicare.** At 15, you can get your own Medicare card through myGov or a form.\n- **Bank account.** You'll need to prove who you are, often with ID documents.\n\nFinally, make sure the form is **real**. Government websites end in **.gov.au**, and applying for a TFN never costs money.",
+          "extend": "From about 15, official forms become part of life: a **tax file number** (TFN) for employment, a **bank account** for wages, and your own **Medicare card**. Each is a structured text whose conventions govern how you respond.\n\n**1. Read the instructions.** Forms open with response rules: *black pen, BLOCK LETTERS, mark one box*. Online forms flag mandatory fields, often with an asterisk.\n\n**2. Use the navigation.** Sections and numbered questions organise the form. Conditional instructions (*If no, go to Question 9*) route you past questions that don't apply. Never complete **Office use only** sections.\n\n**3. Use form vocabulary precisely.**\n\n- **Family name** (surname) and **given names** (first and middle).\n- **Date of birth** in the requested format, often DD/MM/YYYY.\n- **Residential** (where you live) versus **postal** address (where mail is delivered).\n\n**4. Spell accurately.** Details must match your other identity documents exactly.\n\n**5. Verify before you sign.** The **declaration** is a legal statement that your information is true and correct. Re-read, correct neatly, then sign and date.\n\n**Three forms you'll meet soon:**\n\n- **TFN.** Free from the ATO. Without it, employers must withhold tax at the top rate (47%).\n- **Medicare.** From 15, you can get your own card via myGov or form MS011.\n- **Bank account.** Banks must verify your identity.\n\nFinally, verify the form itself. Government sites end in **.gov.au**, and the ATO never charges to apply for a TFN."
+        },
+        "vc": [
+          "VC2E3LA05",
+          "VC2E5LA03",
+          "VC2E5LA08",
+          "VC2E5LY06",
+          "VC2E4LY06"
+        ],
+        "vcNote": "Layout and navigation features of forms; form vocabulary; reading accurately and re-reading to self-correct."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The sign-in page that wasn't real",
+        "icon": "lucide:shield-alert",
+        "body": {
+          "support": "**myGov** is a government website. You sign in by typing your details.\n\nIn **2024**, the government warned about **fake myGov websites**. Scammers sent texts with links to fake sign-in pages. People typed in their details. The scammers stole them.\n\nIn one year, there were **more than 6,000** scams pretending to be myGov.\n\nThe advice:\n\n- myGov will **never** text you a link to sign in.\n- Type **my.gov.au** yourself.\n- Real government sites end in **.gov.au**.\n\nOnly fill in a form if it's real.",
+          "core": "**myGov** is the government website where you can see your Medicare, tax and Centrelink details. Signing in means typing your details into a form.\n\nIn **April 2024**, the government warned Australians about **fake myGov websites**. Scammers sent emails and texts with links to pages that looked exactly like the real myGov sign-in form. When people typed in their details, the scammers captured them. They could then use those details to commit tax and refund fraud in someone else's name.\n\nThe government said Services Australia and its partners had responded to **more than 6,000 scams** pretending to be myGov in the previous year.\n\nIts advice was simple:\n\n- The ATO and myGov will **never** send you an email or text with a link to sign in.\n- Type **my.gov.au** yourself, or use the myGov app.\n- Real government websites end in **.gov.au**.\n\nA form is only safe to fill in if it's **real**. Checking where it came from is part of reading it.",
+          "extend": "**myGov** is the government portal for Medicare, tax and Centrelink services. Signing in means entering personal details into an online form.\n\nIn **April 2024**, the federal government warned of a high volume of reports about **fake myGov websites**. Scam emails and texts linked to convincing copies of the myGov sign-in page. Details entered there were captured and could be used for tax and refund fraud in the victims' names.\n\nThe government reported that Services Australia and its partners had responded to **more than 6,000 scams** impersonating myGov in the previous year.\n\nIts guidance:\n\n- The ATO and myGov will **never** send an email or text containing a sign-in link.\n- Navigate to **my.gov.au** directly, or use the myGov app.\n- Official government websites end in **.gov.au**.\n\nEvaluating a form's source is as important as completing it accurately. The safest form is one you reached yourself."
+        },
+        "source": {
+          "name": "Treasury ministers — “Government warns of malicious myGov scammers” (April 2024)",
+          "url": "https://ministers.treasury.gov.au/ministers/stephen-jones-2022/media-releases/government-warns-malicious-mygov-scammers"
+        },
+        "think": {
+          "support": [
+            "How did the fake pages trick people?",
+            "What should you check?"
+          ],
+          "core": [
+            "How did the fake myGov pages trick people?",
+            "What should you check before you fill in an online form?",
+            "Why would scammers want your sign-in details?"
+          ]
+        },
+        "vc": [
+          "VC2E5LY06",
+          "VC2E7LY07"
+        ],
+        "vcNote": "Reading a real government warning and applying it to online forms."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a form",
+      "docTitle": "NEW ACCOUNT APPLICATION — SAVVY BANK (EXAMPLE)",
+      "vc": [
+        "VC2E3LA05",
+        "VC2E5LA03",
+        "VC2E5LA08"
+      ],
+      "vcNote": "The layout, navigation features and vocabulary of a form.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Instructions",
+          "value": "Use a black pen and BLOCK LETTERS. Mark one box with ✗.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Q1 Family name",
+          "value": "NGUYEN"
+        },
+        {
+          "label": "Q2 Given names",
+          "value": "MAI LINH"
+        },
+        {
+          "n": 3,
+          "label": "Q3 Date of birth (DD/MM/YYYY)",
+          "value": "07/03/2010"
+        },
+        {
+          "n": 4,
+          "label": "Q4 Residential address (no PO box)",
+          "value": "14 WATTLE ST, BENDIGO VIC 3550"
+        },
+        {
+          "label": "Q5 Postal address",
+          "value": "✗ Same as residential address"
+        },
+        {
+          "n": 5,
+          "label": "Q6 Do you have a tax file number?",
+          "value": "☐ Yes  ✗ No → go to Q8"
+        },
+        {
+          "n": 6,
+          "label": "Declaration",
+          "value": "I declare my answers are true and correct. Signed: M. Nguyen · 12/02/2026",
+          "strong": true
+        },
+        {
+          "n": 7,
+          "label": "Office use only",
+          "value": "(leave blank)"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Instructions",
+          "note": "How to answer. Read them first."
+        },
+        {
+          "n": 2,
+          "label": "Family and given names",
+          "note": "Last name, then first and middle names."
+        },
+        {
+          "n": 3,
+          "label": "Date format",
+          "note": "Day, month, year. Two, two, four digits."
+        },
+        {
+          "n": 4,
+          "label": "Residential address",
+          "note": "Where you live. Not a PO box."
+        },
+        {
+          "n": 5,
+          "label": "Navigation",
+          "note": "“No” means skip to Question 8."
+        },
+        {
+          "n": 6,
+          "label": "Declaration",
+          "note": "You're saying it's all true. Check first."
+        },
+        {
+          "n": 7,
+          "label": "Office use only",
+          "note": "Not for you. Leave it blank."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Fill it in right",
+      "steps": [
+        {
+          "title": "Read",
+          "text": "Instructions first.",
+          "icon": "lucide:book-open"
+        },
+        {
+          "title": "Fill",
+          "text": "Block letters. Follow the arrows.",
+          "icon": "lucide:pen-line"
+        },
+        {
+          "title": "Check",
+          "text": "Re-read every answer.",
+          "icon": "lucide:search-check"
+        },
+        {
+          "title": "Sign",
+          "text": "Only when it's all true.",
+          "icon": "lucide:signature"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "On a form, what's your **family name**?",
+        "options": [
+          "Your last name (surname)",
+          "Your first name",
+          "Your mum's name",
+          "Your nickname"
+        ],
+        "answer": 0,
+        "explain": "Family name = surname.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "q": "The form says **DD/MM/YYYY**. You were born on 7 March 2010. What do you write?",
+        "options": [
+          "07/03/2010",
+          "03/07/2010",
+          "2010/03/07",
+          "7/3/10"
+        ],
+        "answer": 0,
+        "explain": "Day, month, year: two, two, four.",
+        "vc": [
+          "VC2E5LY06",
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "q": "Q6 says: *If no, go to Question 8*. You answer **No**. What next?",
+        "options": [
+          "Skip Question 7 and go to Question 8",
+          "Answer Question 7",
+          "Stop filling in the form",
+          "Go back to Question 1"
+        ],
+        "answer": 0,
+        "explain": "Navigation words route you through the form.",
+        "vc": [
+          "VC2E3LA05",
+          "VC2E5LA03"
+        ]
+      },
+      {
+        "q": "What should you write in a box marked **Office use only**?",
+        "options": [
+          "Nothing: leave it blank",
+          "Your name",
+          "N/A",
+          "Your signature"
+        ],
+        "answer": 0,
+        "explain": "It's for the people processing the form.",
+        "vc": [
+          "VC2E3LA05"
+        ]
+      },
+      {
+        "q": "Which spelling is correct?",
+        "options": [
+          "February",
+          "Febuary",
+          "Feburary",
+          "Febrary"
+        ],
+        "answer": 0,
+        "explain": "There's an *r* after the *b*: Feb-ru-ary.",
+        "vc": [
+          "VC2E4LY04"
+        ]
+      },
+      {
+        "q": "What happens if you don't give your employer your **TFN**?",
+        "options": [
+          "They must take out tax at the top rate, almost half your pay",
+          "Nothing",
+          "You don't get paid at all",
+          "You pay less tax"
+        ],
+        "answer": 0,
+        "explain": "Apply for a TFN for free with the ATO.",
+        "vc": [
+          "VC2E5LY06"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "A **declaration** on a form is…",
+        "options": [
+          "a statement that your information is true and correct",
+          "a type of address",
+          "a question you can skip",
+          "a box for the office"
+        ],
+        "answer": 0,
+        "explain": "It has a legal meaning, so check before you sign.",
+        "vc": [
+          "VC2E7LA08"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Fill in a practice form. Check it with a partner. Fix mistakes. Then sign.",
+      "core": "Fill in a real or practice form accurately, check it with a partner, and fix any mistakes before you sign.",
+      "extend": "Complete a real or practice form accurately and legibly, peer-check it against the form's instructions, correct errors, and explain the meaning of its declaration."
+    },
+    "checklist": [
+      "I read the instructions first",
+      "I followed the navigation (go to…)",
+      "I used block letters and the right date format",
+      "My spelling is correct",
+      "I left office use only blank",
+      "A partner checked it before I signed"
+    ],
+    "levelUp": "Explain to a friend, in two or three sentences, what they're agreeing to when they sign a declaration.",
+    "vc": [
+      "VC2E5LY06",
+      "VC2E5LA08",
+      "VC2E3LA05"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to fill in a form",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What's the difference between a **residential** and a **postal** address?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA08"
+            ]
+          },
+          {
+            "q": "Write your own date of birth in **DD/MM/YYYY** format.",
+            "lines": 1,
+            "vc": [
+              "VC2E5LY06"
+            ]
+          },
+          {
+            "q": "Why should you re-read a form before you sign the **declaration**?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY06",
+              "VC2E4LY06"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a form",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the form. Use the word bank. What does it tell you to do?",
+          "core": "Each number marks part of Mai's form. Write what it is and what it tells you to do."
+        },
+        "columns": [
+          "What is it?",
+          "What does it tell you to do?"
+        ],
+        "wordBank": {
+          "support": [
+            "instructions",
+            "names",
+            "date",
+            "address",
+            "navigation",
+            "declaration",
+            "office use"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E3LA05",
+          "VC2E5LA03",
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Looks right or fix it?",
+        "pagebreak": true,
+        "choices": [
+          "Looks right",
+          "Fix it"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is an answer on Jordan's form. The form says *black pen, BLOCK LETTERS, DD/MM/YYYY*. Tick whether it looks right, or needs fixing.",
+        "cards": [
+          {
+            "from": "Q1 Family name",
+            "text": "jordan",
+            "answer": "Fix it",
+            "flags": "Not block letters, and it's a first name."
+          },
+          {
+            "from": "Q3 Date of birth",
+            "text": "21/11/2009",
+            "answer": "Looks right",
+            "flags": "DD/MM/YYYY."
+          },
+          {
+            "from": "Q4 Residential address",
+            "text": "PO BOX 52, SHEPPARTON VIC 3630",
+            "answer": "Fix it",
+            "flags": "A PO box isn't where you live."
+          },
+          {
+            "from": "Q5 Postal address",
+            "text": "✗ Same as residential address",
+            "answer": "Looks right",
+            "flags": "Ticked, so no need to write it again."
+          },
+          {
+            "from": "Office use only",
+            "text": "N/A",
+            "answer": "Fix it",
+            "flags": "Leave it blank.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Q3 Date of birth",
+            "text": "2009/11/21",
+            "answer": "Fix it",
+            "flags": "Wrong order: should be DD/MM/YYYY.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LY06",
+          "VC2E4LY06",
+          "VC2E3LA05"
+        ],
+        "vcNote": "Monitoring accuracy against a form's instructions."
+      },
+      {
+        "type": "table",
+        "title": "Spell it right",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 17,
+          "core": 15
+        },
+        "instructions": "These words are often misspelt on forms. Write the correct spelling and a tip to remember it. The first one is done for you.",
+        "columns": [
+          "Misspelt",
+          "Correct",
+          "Tip to remember it"
+        ],
+        "rows": [
+          [
+            "Febuary",
+            "February",
+            "Say it slowly: Feb-ru-ary."
+          ],
+          [
+            "adress",
+            "",
+            ""
+          ],
+          [
+            "signiture",
+            "",
+            ""
+          ],
+          [
+            "seperate",
+            "",
+            ""
+          ],
+          [
+            "Wenesday",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "occured",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "recieve",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E4LY04"
+        ],
+        "vcNote": "Spelling generalisations, double letters and word families in common form words."
+      },
+      {
+        "type": "table",
+        "title": "Form words",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 17,
+          "core": 15,
+          "extend": 14
+        },
+        "instructions": "Write what each form word means in your own words. The first one is done for you.",
+        "columns": [
+          "Form word",
+          "What it means"
+        ],
+        "rows": [
+          [
+            "Given names",
+            "My first name and any middle names"
+          ],
+          [
+            "Family name",
+            ""
+          ],
+          [
+            "Applicant",
+            ""
+          ],
+          [
+            "Declaration",
+            ""
+          ],
+          [
+            "If applicable",
+            ""
+          ],
+          {
+            "cells": [
+              "Proof of identity",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "Certified copy",
+              "Hint: certified by whom?"
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LA08",
+          "VC2E7LA08"
+        ],
+        "vcNote": "Specialist form vocabulary, including words with everyday and technical meanings."
+      },
+      {
+        "type": "flow",
+        "title": "Fill it in right",
+        "diagram": 1
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the sign-in page that wasn't real",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How did the fake myGov pages trick people?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY06"
+            ]
+          },
+          {
+            "q": "Name **two** things you should check before you fill in an online form.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY06",
+              "VC2E7LY07"
+            ]
+          },
+          {
+            "q": "You get a text: *Your Medicare refund is ready. Sign in here: mygov-refund.com*. What do you do?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY06"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: fill in a form",
+        "pagebreak": true,
+        "rowHeight": 16,
+        "instructions": {
+          "support": "Fill in this form. Use your details, or a made-up person's. **BLOCK LETTERS. Dates as DD/MM/YYYY.**",
+          "core": "Fill in this practice form. Use your own details, or a made-up person's. **Use BLOCK LETTERS and a black pen. Write dates as DD/MM/YYYY.**"
+        },
+        "columns": [
+          "Question",
+          "Answer"
+        ],
+        "rows": [
+          [
+            "Example: Q0 Favourite food",
+            "HOT CHIPS"
+          ],
+          [
+            "Q1 Family name",
+            ""
+          ],
+          [
+            "Q2 Given names",
+            ""
+          ],
+          [
+            "Q3 Date of birth (DD/MM/YYYY)",
+            ""
+          ],
+          [
+            "Q4 Residential address",
+            ""
+          ],
+          [
+            "Q5 Postal address (or: same as Q4)",
+            ""
+          ],
+          [
+            "Q6 Mobile number",
+            ""
+          ],
+          [
+            "Q7 Do you have a tax file number? (Yes / No. If no, go to Q9)",
+            ""
+          ],
+          [
+            "Q8 Tax file number (leave blank in class!)",
+            ""
+          ],
+          [
+            "Q9 Signature",
+            ""
+          ],
+          [
+            "Q10 Date (DD/MM/YYYY)",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E5LY06",
+          "VC2E4LY04",
+          "VC2E3LA05"
+        ],
+        "vcNote": "Completing a form accurately and legibly, following its instructions and navigation."
+      },
+      {
+        "type": "questions",
+        "title": "Check it with a partner",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Swap with a partner. Use the form's instructions to check every answer. Write any problems you find.",
+            "lines": 3,
+            "vc": [
+              "VC2E5LY06",
+              "VC2E4LY06"
+            ]
+          },
+          {
+            "q": "Fix the problems neatly. What did you fix, and why?",
+            "lines": 2,
+            "vc": [
+              "VC2E4LY06"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "items": [
+          {
+            "q": "In two or three sentences, explain to a friend what they're agreeing to when they sign a **declaration**, and why it matters.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY07",
+              "VC2E7LA08"
+            ]
+          },
+          {
+            "q": "*Certified*, *declaration* and *applicant* all have special meanings on forms. Pick one. How is its form meaning different from how people use it every day?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can follow a form's instructions.",
+          "I can explain form words.",
+          "I can fill in a form and spell it right.",
+          "I can check a form before I sign."
+        ],
+        "questions": [
+          "A form I need to fill in soon:",
+          "My number one form tip:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to read forms as structured texts: instructions (black pen, block letters, mark one box), navigation (sections, numbered questions, conditional *go to* instructions, office use only), and form vocabulary (family and given names, date formats, residential and postal addresses, declaration, applicant, proof of identity). They practise accurate spelling of common form words, check answers against instructions, and learn to verify that an online form is genuine, using the government's 2024 warning about fake myGov sign-in pages.",
+    "prep": [
+      "Print a real form for practice if you like (for example, Medicare's MS011, or a TFN declaration). Forms are free to download from Services Australia and the ATO.",
+      "Tell students they can use made-up details in the practice form. Never collect real TFNs.",
+      "Black pens for the final mission."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The rules",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** hand out a real form. What's confusing? What would happen if you got it wrong?",
+          "**Explicit teaching (10 min):** instructions, navigation, form words; model on Mai's form.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a form."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Get it right",
+        "minutes": 50,
+        "steps": [
+          "**Looks right or fix it? (10 min).**",
+          "**Spell it right (10 min).** Teach one spelling rule (double letters, *i before e* exceptions).",
+          "**Form words (10 min).**",
+          "**Case study (20 min):** the sign-in page that wasn't real."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Fill it in",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (20 min):** fill in the practice form (or a real one).",
+          "**Check it with a partner (15 min).**",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Read the instructions first: pen, BLOCK LETTERS, mark one box, required fields.",
+      "Follow navigation (*If no, go to…*); skip what doesn't apply; leave office use only blank.",
+      "Family name = surname; given names = first and middle; dates in the format asked; residential ≠ postal.",
+      "Spell details exactly as on your other documents.",
+      "Re-read before signing the declaration: it says everything is true.",
+      "TFN applications are free; give your TFN to your employer or 47% tax is withheld. Own Medicare card from 15. Real government sites end in .gov.au."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and spelling words.",
+        "Partner-check with a checklist."
+      ],
+      "extend": [
+        "Explain a declaration's meaning (Level Up).",
+        "Compare everyday and form meanings of certified, declaration and applicant."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LA05",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Identifies the purpose of layout features and navigation words in forms (annotation, sort, final mission)."
+      },
+      {
+        "vc": "VC2E4LY06",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Reads forms accurately, re-reading and self-correcting (sort, partner check)."
+      },
+      {
+        "vc": "VC2E4LY04",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Spells common form words correctly using spelling patterns (Spell it right, final mission)."
+      },
+      {
+        "vc": "VC2E5LY06",
+        "evidence": "Reads increasingly complex forms accurately, re-reading and self-correcting (sort, final mission, partner check)."
+      },
+      {
+        "vc": "VC2E5LA08",
+        "evidence": "Uses and explains form vocabulary precisely (Form words, annotation, Check your reading)."
+      },
+      {
+        "vc": "VC2E5LA03",
+        "evidence": "Describes how forms are organised into sections and stages (annotation, navigation questions)."
+      },
+      {
+        "vc": "VC2E7LA08",
+        "evidence": "Explains form terms that have everyday and technical meanings (Form words, Level Up)."
+      },
+      {
+        "vc": "VC2E7LY07",
+        "evidence": "Summarises what a declaration means for a reader (Level Up, case study)."
+      }
+    ],
+    "answers": "**Check your reading:** residential = where you live; postal = where your mail goes. Re-read because the declaration says it's all true and correct.\n\n**Form:** 1 instructions; 2 family and given names; 3 date format DD/MM/YYYY; 4 residential address (not a PO box); 5 navigation (No → go to Q8); 6 declaration; 7 office use only (leave blank).\n\n**Sort:** jordan — fix (block letters; a given name in the family name box); 21/11/2009 — looks right; PO box as residential — fix; same as residential — looks right; N/A in office use — fix (leave blank); 2009/11/21 — fix (wrong order).\n\n**Spelling:** address (double d, double s), signature (sign + ature), separate (there's *a rat* in sep-a-rate), Wednesday (Wed-nes-day), occurred (double c, double r), receive (*i before e except after c*).\n\n**Form words (samples):** family name — surname; applicant — the person asking for something; declaration — a statement that your answers are true; if applicable — only if it applies to you; proof of identity — documents that show who you are; certified copy — a copy an authorised person (like a pharmacist or JP) has checked against the original.\n\n**Case study:** fake pages looked like the real sign-in form and captured details; check the web address ends in .gov.au and that you got there yourself, not from a link; don't click: type my.gov.au yourself or use the app, and report it.",
+    "resources": [
+      {
+        "label": "Treasury ministers — Government warns of malicious myGov scammers (April 2024)",
+        "url": "https://ministers.treasury.gov.au/ministers/stephen-jones-2022/media-releases/government-warns-malicious-mygov-scammers"
+      },
+      {
+        "label": "Services Australia — Get your own Medicare card (15 or older)",
+        "url": "https://www.servicesaustralia.gov.au/have-your-own-medicare-card-and-number-if-youre-15-or-older-and-enrolled-medicare"
+      },
+      {
+        "label": "ATO — Tax file number",
+        "url": "https://www.ato.gov.au/tfn"
+      },
+      {
+        "label": "Services Australia — Scams and identity theft",
+        "url": "https://www.servicesaustralia.gov.au/scams-and-identity-theft"
+      }
+    ],
+    "realityCheck": [
+      "**Privacy first.** Never collect real TFNs or ask students to share their address aloud. Made-up details are fine for practice.",
+      "**Forms are very real for some students.** Some already handle forms for their families, including for parents with limited English. Treat them as experts.",
+      "**Processes change.** TFN and Medicare application steps change often. Check the ATO and Services Australia pages before you teach, rather than relying on the details here.",
+      "**Handwriting matters.** Block letters are a skill. Give students time to practise before the final mission.",
+      "**Works in a real class:** yes. It's short and practical, and pairs well with Read Your Payslip and Crack the Job Ad."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and spelling words, and a partner checklist.",
+      "core": "Standard version: form anatomy, looks-right-or-fix-it sort, spelling, form words, the fake myGov case, a practice form and partner check.",
+      "extend": "Adds applicant and proof of identity to the vocabulary, a quiz question on declarations, certified copy in the form words, and Level Ups explaining a declaration and technical meanings."
+    }
+  }
+}
