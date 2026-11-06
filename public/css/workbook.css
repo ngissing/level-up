@@ -144,6 +144,9 @@ p { margin: 0 0 .6em; }
 /* Flow on paper */
 .blk-flow .flow-step { padding: 4mm; box-shadow: 3px 3px 0 var(--ink); }
 .blk-flow .flow-step strong { font-size: 17pt; }
+.blk-flow .flow:has(.flow-step:nth-of-type(4)) .flow-step { padding: 3mm 2mm; }
+.blk-flow .flow:has(.flow-step:nth-of-type(4)) .flow-step strong { font-size: 12.5pt; }
+.blk-flow .flow:has(.flow-step:nth-of-type(4)) .flow-step p { font-size: 9.5pt; }
 
 /* Write */
 .wb-plan { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin: 2mm 0 3mm; }

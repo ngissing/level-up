@@ -813,8 +813,8 @@
           {
             "q": "What's the difference between **copyright** and **plagiarism**?",
             "lines": {
-              "support": 2,
-              "core": 3
+              "core": 2,
+              "support": 2
             },
             "levelUp": true,
             "vc": [

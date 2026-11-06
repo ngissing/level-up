@@ -96,20 +96,43 @@
 .callout-n { display: grid; place-items: center; flex: none; width: 28px; height: 28px; border-radius: 50%; background: var(--ink); color: #fff; font-weight: 700; font-size: 0.85rem; }
 
 /* Flow diagram */
-.flow { display: flex; align-items: stretch; gap: 10px; margin: 0; flex-wrap: wrap; }
+.flow { display: flex; align-items: stretch; gap: 10px; margin: 0; flex-wrap: nowrap; }
 .flow-step {
-  flex: 1 1 160px; background: #fff; border: var(--bw) solid var(--ink); border-radius: var(--r);
+  flex: 1 1 0; min-width: 0; background: #fff; border: var(--bw) solid var(--ink); border-radius: var(--r);
   box-shadow: var(--shadow); padding: 16px; text-align: center;
 }
 .flow-step:nth-of-type(1) { background: var(--f-rush); }
 .flow-step:nth-of-type(2) { background: var(--sun); }
 .flow-step:nth-of-type(3) { background: var(--lime); }
+.flow-step:nth-of-type(4) { background: #8fd3ff; }
+.flow-step:nth-of-type(5) { background: #c9b6f5; }
+/* Four or five steps still fit on one row: a little more compact. */
+.flow:has(.flow-step:nth-of-type(4)) { gap: 6px; }
+.flow:has(.flow-step:nth-of-type(4)) .flow-step { padding: 12px 8px; }
+.flow:has(.flow-step:nth-of-type(4)) .flow-step strong { font-size: clamp(.95rem, 1.75vw, 1.25rem); }
+.flow:has(.flow-step:nth-of-type(4)) .flow-step p { font-size: .9rem; }
+.flow:has(.flow-step:nth-of-type(4)) .flow-arrow .ico { width: 22px; height: 22px; }
 .flow-step strong { display: block; font-family: var(--display); font-size: 1.6rem; font-weight: 800; }
 .flow-step p { margin: 6px 0 0; }
 .flow-icon { display: inline-grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; background: #fff; border: var(--bw) solid var(--ink); margin-bottom: 6px; }
 .flow-icon .ico { width: 24px; height: 24px; }
 .flow-arrow { display: grid; place-items: center; }
 .flow-arrow .ico { width: 30px; height: 30px; stroke-width: 3; }
+/* Phones: one column, arrows pointing down between the steps. */
+@media screen and (max-width: 640px) {
+  .flow { flex-direction: column; flex-wrap: nowrap; gap: 4px; }
+  .flow-step { width: 100%; }
+  .flow-arrow { padding: 2px 0; }
+  .flow-arrow .ico { transform: rotate(90deg); width: 26px; height: 26px; }
+}
+/* Four or more steps need more room, so they stack a little sooner. */
+@media screen and (max-width: 780px) {
+  .flow:has(.flow-step:nth-of-type(4)) { flex-direction: column; gap: 4px; }
+  .flow:has(.flow-step:nth-of-type(4)) .flow-step { width: 100%; padding: 12px 16px; }
+  .flow:has(.flow-step:nth-of-type(4)) .flow-step strong { font-size: 1.3rem; }
+  .flow:has(.flow-step:nth-of-type(4)) .flow-arrow { padding: 2px 0; }
+  .flow:has(.flow-step:nth-of-type(4)) .flow-arrow .ico { transform: rotate(90deg); }
+}
 
 .lvl-chip, .wb-lvl {
   display: inline-flex; align-items: center; gap: 4px; white-space: nowrap;
@@ -119,20 +142,37 @@
 .lvl-chip .ico, .wb-lvl .ico { fill: currentColor; }
 
 /* Document diagram (payslips, forms) */
-.doc-card { background: #fff; border: var(--bw) solid var(--ink); border-radius: 10px; box-shadow: var(--shadow); padding: 14px 16px 12px 34px; min-width: 280px; max-width: 460px; font-size: .9rem; position: relative; }
+.doc-card { background: #fff; border: var(--bw) solid var(--ink); border-radius: 10px; box-shadow: var(--shadow); padding: 14px 16px 12px; min-width: 280px; max-width: 480px; font-size: .9rem; position: relative; }
 .doc-title { font-family: var(--display); font-weight: 800; letter-spacing: .12em; font-size: 1.1rem; border-bottom: 3px solid var(--ink); padding-bottom: 6px; margin-bottom: 8px; }
-.doc-row { display: flex; justify-content: space-between; gap: 14px; padding: 5px 0; border-bottom: 1px dashed #cfc8bb; position: relative; }
+/* Each row: [number] [label] [value]. --lw is set per document from its longest label. */
+.doc-row { display: grid; grid-template-columns: min(var(--lw, 9em), 45%) 1fr; column-gap: 14px; align-items: baseline; padding: 5px 0; border-bottom: 1px dashed #cfc8bb; }
+.has-n .doc-row { grid-template-columns: 22px min(var(--lw, 9em), 45%) 1fr; column-gap: 10px; }
+/* A plain number needs little room, so its label can take the rest. */
+.doc-row.is-num { grid-template-columns: 1fr auto; }
+.has-n .doc-row.is-num { grid-template-columns: 22px 1fr auto; }
 .doc-row.rule { border-top: 2px solid var(--ink); }
-.doc-row.strong { font-weight: 700; font-size: 1.05em; background: #fff6cf; margin: 0 -8px; padding: 6px 8px; }
+.doc-row.strong { font-weight: 700; font-size: 1.05em; background: #fff6cf; margin: 0 -8px; padding: 6px 8px; border-radius: 4px; }
 .doc-label { color: #4a4640; }
-.doc-value { text-align: right; font-variant-numeric: tabular-nums; }
-.doc-table-wrap { position: relative; margin: 8px 0; }
+.doc-value { text-align: left; overflow-wrap: anywhere; }
+.doc-value.num { text-align: right; font-variant-numeric: tabular-nums; }
+.doc-table-wrap { margin: 8px 0; }
+.has-n .doc-table-wrap { display: grid; grid-template-columns: 22px 1fr; column-gap: 10px; align-items: start; }
 .doc-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
 .doc-table th { text-align: left; border-bottom: 2px solid var(--ink); padding: 4px; }
 .doc-table td { padding: 4px; border-bottom: 1px solid #e3ddd1; font-variant-numeric: tabular-nums; }
 .doc-table td:not(:first-child), .doc-table th:not(:first-child) { text-align: right; }
-.doc-n { position: absolute; left: -30px; top: 50%; transform: translateY(-50%); display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--ink); color: #fff; font: 700 .72rem var(--body); }
-.doc-table-wrap > .doc-n { top: 14px; transform: none; }
+.doc-n { align-self: center; display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--ink); color: #fff; font: 700 .72rem var(--body); font-variant-numeric: normal; }
+.doc-table-wrap > .doc-n { align-self: start; margin-top: 4px; }
+/* Phones: the label sits above its value. */
+@media screen and (max-width: 520px) {
+  .doc-card { min-width: 0; }
+  .doc-row, .doc-row.is-num { grid-template-columns: 1fr; row-gap: 1px; }
+  .has-n .doc-row, .has-n .doc-row.is-num { grid-template-columns: 22px 1fr; }
+  .has-n .doc-row .doc-n, .has-n .doc-row .doc-n-gap { grid-row: span 2; align-self: start; margin-top: 2px; }
+  .has-n .doc-row > .doc-label, .has-n .doc-row > .doc-value { grid-column: 2; }
+  .doc-label { font-size: .88em; }
+  .doc-value.num { text-align: left; }
+}
 .doc-note { font-size: .75rem; color: var(--muted); margin: 8px 0 0; }
 
 .doc-anatomy { align-items: flex-start; }
