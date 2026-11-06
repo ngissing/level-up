@@ -1,0 +1,967 @@
+{
+  "id": "tell-your-story",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "Everyone has a story only they can tell. A first day. A night the power went out. A lost dog. You don't need a big life. You need one moment, told well.",
+      "core": "Everyone has a story nobody else could tell: the night the power went out, a first shift, the day a dog went missing, the moment you realised something had changed. You don't need a dramatic life. You need one moment, told well."
+    },
+    "why": {
+      "support": "True stories help people connect. They are in songs, podcasts and job interviews. Good stories have a shape. Learn it, and any moment can be worth telling.",
+      "core": "True stories are how people connect. They're in speeches, job interviews, songs, podcasts and the ABC's Heywire competition. A good story has a shape and a few simple tools, and once you know them, you can make any moment worth listening to.",
+      "extend": "Personal narrative sits behind job interviews, speeches, applications, songs and podcasts. Its power comes from craft: a clear shape, precise detail and a voice that sounds like you. Learning that craft turns ordinary experience into writing other people want to read."
+    },
+    "canDo": {
+      "support": [
+        "I can plan a story with a beginning, middle and end.",
+        "I can add detail to a noun.",
+        "I can use the senses.",
+        "I can fix my story by cutting and adding."
+      ],
+      "core": [
+        "I can shape a true story: **hook, build, turn, land**.",
+        "I can **grow a noun** to make a person, place or thing come alive.",
+        "I can **show, not tell**, using the senses.",
+        "I can **edit** my story by cutting, adding and moving words."
+      ]
+    },
+    "showIt": "Write a true story from your life (250 to 400 words), then edit it to make it stronger.",
+    "vocab": [
+      {
+        "word": "recount",
+        "meaning": "a true story about something that happened",
+        "example": "She wrote a recount of her first day at work."
+      },
+      {
+        "word": "hook",
+        "meaning": "the first line that grabs the reader",
+        "example": "My hook starts in the middle of the action."
+      },
+      {
+        "word": "detail",
+        "meaning": "a small, exact fact that helps the reader picture it",
+        "example": "The detail about the cold chips made it real."
+      },
+      {
+        "word": "senses",
+        "meaning": "sight, sound, smell, taste and touch",
+        "example": "Use the senses to show the place."
+      },
+      {
+        "word": "dialogue",
+        "meaning": "the words people say in a story",
+        "example": "One line of dialogue can show a whole person."
+      },
+      {
+        "word": "edit",
+        "meaning": "change your writing to make it better",
+        "example": "I edited my story and cut the boring bit."
+      },
+      {
+        "word": "noun group",
+        "meaning": "a noun and the words that add to it",
+        "example": "“My uncle's rusty white ute” is a noun group.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "tone",
+        "meaning": "the feeling of the writing, like funny, tense or sad",
+        "example": "The tone changed when the phone rang.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Tell Your Story in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Tell Your Story",
+        "sub": "Your life is worth writing about.",
+        "icon": "lucide:pen-line",
+        "say": "Tell your story. Your life is worth writing about."
+      },
+      {
+        "kind": "big",
+        "title": "One moment",
+        "text": "Not your whole life. **One moment.**",
+        "icon": "lucide:clock",
+        "say": "You don't need a dramatic life. You need one moment, told well.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Shape",
+        "pillIcon": "lucide:pen-line",
+        "title": "Hook",
+        "text": "Start **in the moment**.",
+        "icon": "lucide:zap",
+        "say": "Hook. Start in the middle of the moment, not at the beginning of the day.",
+        "vc": [
+          "VC2E5LY10",
+          "VC2E4LY10"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Shape",
+        "pillIcon": "lucide:pen-line",
+        "title": "Build",
+        "text": "Details. **Senses.** Be there.",
+        "icon": "lucide:eye",
+        "say": "Build. What happened? Use details and the senses so the reader is there with you.",
+        "vc": [
+          "VC2E5LE05"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Shape",
+        "pillIcon": "lucide:pen-line",
+        "title": "Turn",
+        "text": "The moment it **changed**.",
+        "icon": "lucide:git-branch",
+        "say": "Turn. The moment something changed. A surprise, a choice, a mistake.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Shape",
+        "pillIcon": "lucide:pen-line",
+        "title": "Land",
+        "text": "What it **meant**.",
+        "icon": "lucide:flag",
+        "say": "Land. End with what it meant to you, in a line or two. Don't explain everything.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Grow the noun",
+        "text": "a car → **my uncle's rusty white ute**",
+        "icon": "lucide:sprout",
+        "say": "Grow the noun. A car becomes my uncle's rusty white ute with one headlight.",
+        "vc": [
+          "VC2E5LA06"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Show, don't tell",
+        "text": "*I was nervous* → *my hands wouldn't stop shaking*",
+        "icon": "lucide:hand",
+        "say": "Show, don't tell. Instead of I was nervous, try: my hands wouldn't stop shaking.",
+        "vc": [
+          "VC2E5LE05"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Write it. Then cut, add, move.",
+        "icon": "lucide:pen-line",
+        "say": "Your mission. Write a true story from your life. Then edit it: cut one thing, add one thing, move one thing."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How a true story works",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A good true story is about **one moment**. It has four parts.\n\n1. **Hook.** Start in the middle of the moment. *The power went out in the middle of dinner.*\n2. **Build.** Say what happened. Use **details**. Use your **senses**: see, hear, smell, feel.\n3. **Turn.** The moment it changed.\n4. **Land.** Say what it meant to you. Keep it short.\n\n**Grow the noun.** *A car* is plain. *My uncle's old white ute* is better.\n\n**Show, don't tell.** Don't say *I was nervous*. Say *my hands were shaking*.\n\nThen **edit**. Read it out loud. Cut a boring bit. Add a detail.",
+          "core": "A good true story isn't about your whole life. It's about **one moment**. Most good stories have four parts.\n\n1. **Hook.** Start in the middle of the moment, not at the start of the day. *The power went out halfway through my brother's birthday dinner.* is stronger than *On Saturday I woke up at 8.*\n2. **Build.** Tell what happened, with **details** and the **senses**: what you saw, heard, smelled, felt. One line of **dialogue** can show a whole person.\n3. **Turn.** The moment something changed: a surprise, a choice, a mistake, a realisation.\n4. **Land.** End with what it meant to you, in a line or two. Trust the reader. You don't need to explain everything.\n\nTwo tools make any story stronger.\n\n**Grow the noun.** Add words to a noun to make it exact. *A car* tells the reader nothing. *My uncle's rusty white ute with one headlight* tells them a lot.\n\n**Show, don't tell.** Instead of naming a feeling, show what it looked like. *I was nervous* becomes *my hands wouldn't stop shaking.*\n\nThen **edit**. Read your story out loud. Cut the boring bits. Add one detail. Move a sentence if it works better somewhere else. Even professional writers do this many times.",
+          "extend": "Personal narrative works when it's focused: not a life, but **one moment** seen clearly. Most strong stories follow a four-part shape.\n\n1. **Hook.** Open *in medias res*, in the middle of the action. *The power went out halfway through my brother's birthday dinner* drops the reader straight in; *On Saturday I woke up at 8* makes them wait.\n2. **Build.** Develop the moment with precise **detail**, sensory language and, where it helps, a line of **dialogue**, which can reveal a character faster than description.\n3. **Turn.** The point of change: a surprise, a decision, a mistake, a realisation. It's what makes a recount a story.\n4. **Land.** Close with reflection, briefly. A resonant final line usually beats a summary.\n\nTwo language tools add power. **Expanded noun groups** make description exact: *my uncle's rusty white ute with one headlight*. **Showing rather than telling** lets readers infer feelings from actions and images: *my hands wouldn't stop shaking*. Sentence patterns shape **tone** too: short sentences build tension; longer ones slow things down.\n\nFinally, **edit** in layers: read aloud, remove repetition, refine word choices, reorder for impact."
+        },
+        "vc": [
+          "VC2E5LY10",
+          "VC2E5LE05",
+          "VC2E5LA06",
+          "VC2E4LY11"
+        ],
+        "vcNote": "Structure of a personal recount (hook, build, turn, land); expanded noun groups; sensory detail; editing."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Real stories, real audience",
+        "icon": "lucide:radio",
+        "body": {
+          "support": "Every year, the ABC runs a competition called **Heywire**. It's for young people aged **16 to 22** who live in the country.\n\nYou send in a **true story** about your life. You can write it. Or you can make a video, a recording or photos.\n\nWinners work with the ABC to share their story across Australia. They also win a trip to **Canberra**.\n\nYour story can be about anything. Work. Sport. Family. Your town. It works when it is **honest** and full of **real detail**.",
+          "core": "Every year, the ABC runs a competition called **Heywire**. It's for young people aged **16 to 22** who live in **regional, rural or remote** Australia.\n\nThe rules are simple. Send in a **true story** about your life and the place where you live. You can write it, or tell it with **audio, video or photos**. You don't need to be a writer.\n\nEach ABC regional station picks a winner for its area. Winners work with ABC producers to share their story around the country. They also win a free trip to Canberra for the **Heywire Regional Youth Summit**. There, they meet other winners and share ideas for their communities.\n\nYour story can be about anything in your life: work, sport, family, your town, or a hard time and how you got through it. It doesn't need to be dramatic. It needs to be **one moment, told honestly, with real detail**.",
+          "extend": "Each year, the ABC's **Heywire** competition invites young people aged **16 to 22** from **regional, rural and remote** Australia to share a **true story**. It can be about their life and the place they live. Entries can be written, or told through audio, video or photos.\n\nEvery ABC regional station selects a winner. Winners work with ABC producers to develop their stories and share them nationally. They also attend the **Heywire Regional Youth Summit** in Canberra, where they work on ideas for issues facing young people in their communities.\n\nHeywire is a useful model for personal narrative. It asks for exactly what good stories need: a specific moment, an honest voice and precise detail. A story doesn't have to be extraordinary to work. It has to be told well."
+        },
+        "source": {
+          "name": "ABC — Heywire",
+          "url": "https://www.abc.net.au/heywire"
+        },
+        "think": {
+          "support": [
+            "Who can enter Heywire?",
+            "What story could you tell?"
+          ],
+          "core": [
+            "Why might the ABC want true stories from young people in the country?",
+            "What makes an everyday story worth sharing?",
+            "What would you tell, and how: writing, audio, video or photos?"
+          ]
+        },
+        "vc": [
+          "VC2E5LY10",
+          "VC2E8LE05"
+        ],
+        "vcNote": "A real audience and purpose for personal narrative."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a true story",
+      "docTitle": "THE NIGHT THE POWER WENT OUT (MADE-UP EXAMPLE)",
+      "vc": [
+        "VC2E5LY10",
+        "VC2E5LA06",
+        "VC2E5LE05"
+      ],
+      "vcNote": "The shape and language features of a personal narrative.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "value": "The power went out halfway through my brother's birthday dinner.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Grow the noun",
+          "value": "Mum lit the stubby green candle from the kitchen drawer."
+        },
+        {
+          "n": 3,
+          "label": "Senses",
+          "value": "We could hear the fridge go quiet and the rain on the tin roof."
+        },
+        {
+          "n": 4,
+          "label": "Dialogue",
+          "value": "“Well,” said Dad, “I guess we're singing in the dark.”"
+        },
+        {
+          "n": 5,
+          "label": "Turn",
+          "value": "Then my brother laughed for the first time in weeks."
+        },
+        {
+          "n": 6,
+          "label": "Land",
+          "value": "I don't remember the cake. I remember that laugh.",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "Starts in the moment."
+        },
+        {
+          "n": 2,
+          "label": "Grow the noun",
+          "note": "Not “a candle”: a stubby green one from the drawer."
+        },
+        {
+          "n": 3,
+          "label": "Senses",
+          "note": "Sound puts us in the room."
+        },
+        {
+          "n": 4,
+          "label": "Dialogue",
+          "note": "One line shows Dad's humour."
+        },
+        {
+          "n": 5,
+          "label": "Turn",
+          "note": "The moment it changed. “In weeks” hints at a hard time."
+        },
+        {
+          "n": 6,
+          "label": "Land",
+          "note": "Short. Shows what mattered, without explaining it all."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Edit in three moves",
+      "steps": [
+        {
+          "title": "Cut",
+          "text": "One boring or repeated bit.",
+          "icon": "lucide:scissors"
+        },
+        {
+          "title": "Add",
+          "text": "One detail or sense.",
+          "icon": "lucide:plus"
+        },
+        {
+          "title": "Move",
+          "text": "One sentence that works better somewhere else.",
+          "icon": "lucide:move"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is the strongest **hook**?",
+        "options": [
+          "The power went out halfway through my brother's birthday dinner.",
+          "On Saturday I woke up at 8.",
+          "This is a story about my weekend.",
+          "I am going to tell you about a night."
+        ],
+        "answer": 0,
+        "explain": "Start in the middle of the moment.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "q": "Which is a **grown noun**?",
+        "options": [
+          "My uncle's rusty white ute with one headlight",
+          "A car",
+          "It",
+          "The thing"
+        ],
+        "answer": 0,
+        "explain": "Adding words to a noun makes it exact.",
+        "vc": [
+          "VC2E5LA06"
+        ]
+      },
+      {
+        "q": "Which line **shows** instead of tells?",
+        "options": [
+          "My hands wouldn't stop shaking.",
+          "I was nervous.",
+          "I felt bad.",
+          "It was a scary time."
+        ],
+        "answer": 0,
+        "explain": "Show the feeling through what happens.",
+        "vc": [
+          "VC2E5LE05"
+        ]
+      },
+      {
+        "q": "What's the **turn** in a story?",
+        "options": [
+          "The moment something changed",
+          "The first line",
+          "The title",
+          "The last word"
+        ],
+        "answer": 0,
+        "explain": "A surprise, a choice, a mistake, a realisation.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "q": "Who can enter the ABC's **Heywire** competition?",
+        "options": [
+          "Young people aged 16–22 in regional, rural or remote Australia",
+          "Anyone in a capital city",
+          "Only professional writers",
+          "Only people over 25"
+        ],
+        "answer": 0,
+        "explain": "True stories about life and the place you live.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "q": "Which edit makes a story **stronger**?",
+        "options": [
+          "Cutting a boring bit and adding one detail",
+          "Adding the whole day before it",
+          "Explaining the ending three times",
+          "Making every sentence the same length"
+        ],
+        "answer": 0,
+        "explain": "Cut, add, move.",
+        "vc": [
+          "VC2E4LY11",
+          "VC2E7LY09"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Why might a writer use **very short sentences** at a tense moment?",
+        "options": [
+          "They speed up the pace and build tension",
+          "They're easier to spell",
+          "They make the story longer",
+          "They're required in recounts"
+        ],
+        "answer": 0,
+        "explain": "Sentence patterns create tone.",
+        "vc": [
+          "VC2E8LE05"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write a true story about one moment in your life. Give it a hook, a middle, a turn and an end. Then cut one thing and add one thing.",
+      "core": "Write a true story from your life (250 to 400 words) with a hook, build, turn and land, then edit it by cutting, adding and moving.",
+      "extend": "Write a true story (300 to 450 words) that uses structure, precise detail and sentence patterns deliberately to create tone and voice, then edit it in layers and explain your changes."
+    },
+    "checklist": [
+      "My story is about one moment",
+      "It has a hook, build, turn and land",
+      "I grew at least two nouns",
+      "I showed a feeling instead of naming it",
+      "I edited it: cut, added and moved"
+    ],
+    "levelUp": "Borrow a technique from a story, song or podcast you love (a repeated line, an image, starting with dialogue) and use it in your story. Explain what it adds.",
+    "vc": [
+      "VC2E5LY10",
+      "VC2E5LE05",
+      "VC2E5LA06",
+      "VC2E4LY11"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How a true story works",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name the **four parts** of a true story.",
+            "lines": 0,
+            "vc": [
+              "VC2E5LY10",
+              "VC2E4LY10"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "What does **grow the noun** mean? Give an example.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA06"
+            ]
+          },
+          {
+            "q": "Change *I was happy* into a line that **shows** it.",
+            "lines": {
+              "support": 2,
+              "core": 2
+            },
+            "vc": [
+              "VC2E5LE05"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a true story",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a line from the story. Use the word bank. Write what it does.",
+          "core": "Each number marks a line from a true story. Write which tool it is, and what it does for the reader."
+        },
+        "columns": [
+          "Which tool?",
+          "What does it do for the reader?"
+        ],
+        "wordBank": {
+          "support": [
+            "hook",
+            "grow the noun",
+            "senses",
+            "dialogue",
+            "turn",
+            "land"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LY10",
+          "VC2E5LA06",
+          "VC2E5LE05"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Grow the noun",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 16
+        },
+        "instructions": "Grow each noun so the reader can picture it exactly. The first one is done for you.",
+        "columns": [
+          "Plain noun",
+          "Grown noun"
+        ],
+        "rows": [
+          [
+            "a dog",
+            "our neighbour's huge, slobbery dog called Biscuit"
+          ],
+          [
+            "the car",
+            ""
+          ],
+          [
+            "a room",
+            ""
+          ],
+          {
+            "cells": [
+              "my shoes",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LA06"
+        ],
+        "vcNote": "Expanding noun groups to give a fuller description."
+      },
+      {
+        "type": "table",
+        "title": "Show, don't tell",
+        "rowHeight": {
+          "support": 22,
+          "core": 18
+        },
+        "instructions": "Rewrite each line so it **shows** the feeling or the place. The first one is done for you.",
+        "columns": [
+          "Tell",
+          "Show"
+        ],
+        "rows": [
+          [
+            "I was nervous.",
+            "My hands wouldn't stop shaking."
+          ],
+          [
+            "I was happy.",
+            ""
+          ],
+          [
+            "It was cold.",
+            ""
+          ],
+          {
+            "cells": [
+              "The house was messy.",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LE05",
+          "VC2E4LE05"
+        ],
+        "vcNote": "Experimenting with vocabulary and description to show feelings and settings."
+      },
+      {
+        "type": "questions",
+        "title": "Find your story",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Write a few words for each one that comes to mind: a **first time**, a time you were **scared**, a **place** that matters, a **person** who changed something, a time you **got it wrong**.",
+            "lines": 4
+          },
+          {
+            "q": "Circle one. What's the **moment**, the exact minute, you'll write about?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY10"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: real stories, real audience",
+        "caseStudy": 0,
+        "items": [
+          {
+            "q": "What makes an everyday story worth sharing?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY10"
+            ]
+          },
+          {
+            "q": "How would you tell your story: writing, audio, video or photos? Why?",
+            "lines": 2
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: write your true story",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write the story of your moment. Use the four parts. Add details. Show a feeling.",
+          "core": "Write the true story of the moment you chose (250 to 400 words). Use the four parts. Grow at least two nouns, use the senses, and show at least one feeling.",
+          "extend": "Write the true story of your moment (300 to 450 words). Shape it with the four parts, use precise detail and sensory language, and vary your sentence patterns on purpose to create tone."
+        },
+        "plan": [
+          {
+            "label": "Hook (first line):",
+            "lines": 1
+          },
+          {
+            "label": "Turn (the moment it changed):",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Hook:",
+          "Build: I could hear / see / smell…",
+          "Turn: Then…",
+          "Land:"
+        ],
+        "lines": {
+          "support": 13,
+          "core": 16
+        },
+        "check": [
+          "hook",
+          "build",
+          "turn",
+          "land",
+          "2 grown nouns",
+          "a feeling shown"
+        ],
+        "vc": [
+          "VC2E5LY10",
+          "VC2E5LE05",
+          "VC2E5LA06",
+          "VC2E7LE06"
+        ],
+        "vcNote": "Creating a sequenced personal narrative with figurative language and description (extend: experimenting with literary devices)."
+      },
+      {
+        "type": "questions",
+        "title": "Keep writing",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Keep going here if you need more space.",
+            "lines": {
+              "support": 18,
+              "core": 22
+            }
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Edit it: cut, add, move",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 22
+        },
+        "instructions": "Read your story out loud. Then make three edits. Write what you changed.",
+        "columns": [
+          "Move",
+          "Before",
+          "After"
+        ],
+        "rows": [
+          [
+            "Cut (a boring or repeated bit)",
+            "",
+            ""
+          ],
+          [
+            "Add (a detail or sense)",
+            "",
+            ""
+          ],
+          [
+            "Move (a sentence to a better spot)",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E4LY11",
+          "VC2E7LY09"
+        ],
+        "vcNote": "Re-reading and editing for meaning by adding, deleting and moving words (extend: removing repetition, reordering for impact)."
+      },
+      {
+        "type": "flow",
+        "title": "Edit in three moves",
+        "diagram": 1
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Borrow a technique from a story, song or podcast you love (a repeated line, a strong image, starting with dialogue). Use it in your story. What does it add?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LE06"
+            ]
+          },
+          {
+            "q": "Find one place where your **sentence lengths** change. How does that change the **tone** (faster, slower, tense, calm)?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LE05"
+            ]
+          },
+          {
+            "q": "Explain your best edit. Why is the new version better?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can shape a true story.",
+          "I can grow a noun.",
+          "I can show, not tell.",
+          "I can edit my story."
+        ],
+        "questions": [
+          "The best line in my story:",
+          "Who I'd want to read it, and why:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students write a personal narrative about one moment from their own lives, using a four-part shape (hook, build, turn, land), expanded noun groups, sensory detail and showing rather than telling, then edit it by cutting, adding and moving. The case study is the ABC's Heywire competition, which gives regional students aged 16–22 a real audience for true stories.",
+    "prep": [
+      "Write your own short true story (or use the made-up model) to model with. Students engage far more when you go first.",
+      "Check the ABC Heywire site for current competition dates if your students are regional and 16 or older.",
+      "Decide where finished stories go: a class anthology, a display, a recording, or Heywire."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The shape",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** tell (don't read) a short true story of your own. Ask: where did it start? Where did it change?",
+          "**Explicit teaching (10 min):** hook, build, turn, land, using the model story.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a true story."
+        ]
+      },
+      {
+        "title": "Lesson 2 — The tools",
+        "minutes": 50,
+        "steps": [
+          "**Explicit teaching (10 min):** grow the noun; show, don't tell. Model live on the board.",
+          "**Tables (20 min):** Grow the noun; Show, don't tell.",
+          "**Find your story (15 min):** brainstorm, choose one moment.",
+          "**Case study (5 min):** real stories, real audience."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write",
+        "minutes": 50,
+        "steps": [
+          "**Plan (10 min):** hook and turn.",
+          "**Write (35 min):** final mission. Conference with students as they write.",
+          "**Exit (5 min):** read your hook to a partner."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Edit",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** edit a paragraph of your own story aloud: cut, add, move.",
+          "**Edit it (20 min).**",
+          "**Share, Level Up, reflect (20 min):** read-aloud volunteers; quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "One moment, not a whole life.",
+      "Hook, build, turn, land.",
+      "Grow the noun to make description exact.",
+      "Show feelings through actions and senses.",
+      "Edit: cut, add, move."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer table rows.",
+        "Sentence starters; a shorter story is fine."
+      ],
+      "extend": [
+        "Vary sentence patterns deliberately for tone (Level Up).",
+        "Borrow a technique from another text and explain its effect."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LE05",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Develops a storyline with setting and characters using language features from model texts (final mission, Show, don't tell)."
+      },
+      {
+        "vc": "VC2E4LY10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Creates a narrative with linked ideas for an audience (final mission)."
+      },
+      {
+        "vc": "VC2E4LY11",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Re-reads and edits by adding, deleting or moving words (Edit it)."
+      },
+      {
+        "vc": "VC2E5LE05",
+        "evidence": "Experiments with vocabulary, description and figurative language in their own narrative (Show, don't tell, final mission)."
+      },
+      {
+        "vc": "VC2E5LA06",
+        "evidence": "Expands noun groups for fuller description (Grow the noun, final mission)."
+      },
+      {
+        "vc": "VC2E5LY10",
+        "evidence": "Creates a sequenced narrative using an appropriate structure (annotation, final mission)."
+      },
+      {
+        "vc": "VC2E7LE06",
+        "evidence": "Level Up: experiments with a literary device borrowed from another text."
+      },
+      {
+        "vc": "VC2E7LY09",
+        "evidence": "Level Up / Edit it: removes repetition and reorders or substitutes words for impact, and explains why."
+      },
+      {
+        "vc": "VC2E8LE05",
+        "evidence": "Level Up: explains how sentence patterns create tone and voice in their story."
+      }
+    ],
+    "answers": "**Four parts:** hook, build, turn, land. **Grow the noun:** add words to a noun to make it exact (*a car* → *my uncle's rusty white ute*). **Show happy (sample):** *I couldn't stop grinning the whole way home.*\n\n**Model story:** 1 hook (starts in the moment); 2 grow the noun (stubby green candle); 3 senses (sound: fridge, rain); 4 dialogue (shows Dad's humour); 5 turn (the laugh; *in weeks* hints at a hard time); 6 land (what mattered, without over-explaining).\n\n**Samples:** the car → *Mum's dusty silver hatchback with the cracked windscreen*; a room → *the tiny back room that always smelled of wet towels*; It was cold → *My breath hung in the air and my fingers went numb.*",
+    "resources": [
+      {
+        "label": "ABC Heywire",
+        "url": "https://www.abc.net.au/heywire"
+      },
+      {
+        "label": "ABC Heywire competition (dates and how to enter)",
+        "url": "https://www.abc.net.au/heywire/competition"
+      }
+    ],
+    "realityCheck": [
+      "**True stories can go deep.** Some students will choose painful moments. Tell everyone up front: choose a story you're happy for your teacher to read, and you never have to share it with the class. If a story raises a safety concern, follow your school's child-safety and reporting obligations.",
+      "**“Nothing's ever happened to me.”** You'll hear this. Small moments work best: a first shift, a lost phone, a meal, a long drive. Model with a small story of your own.",
+      "**Writing volume is a barrier.** Let students draft by voice (recording, speech-to-text) and edit the transcript. The craft is the same.",
+      "**Real audience lifts quality.** A class anthology, a display or a Heywire entry (for regional students aged 16–22) changes how hard students try.",
+      "**Works in a real class:** yes. It's low-tech and personal, and many students produce their best writing of the year when it's about their own lives."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer table rows, and a shorter story with starters.",
+      "core": "Standard version: four-part shape, model story annotation, grow the noun, show don't tell, Heywire case study, a 250–400 word true story and a cut-add-move edit.",
+      "extend": "Adds noun group and tone to the vocabulary, a quiz question on sentence patterns, a longer story using sentence patterns deliberately, and Level Ups on borrowing techniques and explaining edits."
+    }
+  }
+}

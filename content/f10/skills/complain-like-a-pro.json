@@ -1,0 +1,988 @@
+{
+  "id": "complain-like-a-pro",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "You saved up for new headphones. Two weeks later, one side stops working. The shop says, “No refunds.” That's not true! So what do you write?",
+      "core": "You saved for three months for new headphones. Two weeks later, the left side stops working. The shop says, “Sorry, no refunds.” Is that true? (It isn't.) And what do you write to get your money back?"
+    },
+    "why": {
+      "support": "The law protects you when something you buy is broken. But shops don't always say so. A clear, calm email is the best way to get it fixed. Shouting doesn't work.",
+      "core": "Australian law gives you rights when something you buy is faulty. But businesses don't always tell you that, and some say things that aren't true. A clear, calm, formal complaint, with the facts and a request, is the fastest way to get it fixed. Shouting doesn't work. A good email usually does.",
+      "extend": "Consumer law gives you strong rights, but rights only matter if you can assert them. A well-structured, formal complaint that states the facts, cites the law and makes a specific request is far more effective than an angry message, and it creates a written record if you need to escalate."
+    },
+    "canDo": {
+      "support": [
+        "I can write a complaint in four parts.",
+        "I can sound polite but firm.",
+        "I can say what the law says about broken things.",
+        "I can check my complaint with a list."
+      ],
+      "core": [
+        "I can write a complaint with a **problem, evidence, request and deadline**.",
+        "I can make my tone **formal and firm**, not rude or weak.",
+        "I can explain my **consumer rights**: repair, replace or refund.",
+        "I can **edit** my complaint using a checklist."
+      ]
+    },
+    "showIt": "Write a formal complaint email about a real or realistic problem, then edit it with a partner using the checklist.",
+    "vocab": [
+      {
+        "word": "complaint",
+        "meaning": "telling a business what went wrong and asking for a fix",
+        "example": "I sent a complaint about my phone."
+      },
+      {
+        "word": "faulty",
+        "meaning": "broken or not working properly",
+        "example": "The charger was faulty."
+      },
+      {
+        "word": "refund",
+        "meaning": "getting your money back",
+        "example": "I asked for a refund."
+      },
+      {
+        "word": "receipt",
+        "meaning": "proof that you paid",
+        "example": "Keep your receipt."
+      },
+      {
+        "word": "formal",
+        "meaning": "polite and careful, for people you don't know",
+        "example": "Use formal language in a complaint."
+      },
+      {
+        "word": "evidence",
+        "meaning": "facts that prove what you're saying",
+        "example": "Photos are good evidence."
+      },
+      {
+        "word": "consumer guarantee",
+        "meaning": "your legal right that what you buy works",
+        "example": "The consumer guarantee says it must work.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "escalate",
+        "meaning": "take a complaint to the next level",
+        "example": "If they don't reply, escalate it.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Complain Like a Pro in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Complain Like a Pro",
+        "sub": "Get your money back. Get it fixed.",
+        "icon": "lucide:megaphone",
+        "say": "Complain like a pro. Get your money back. Get it fixed."
+      },
+      {
+        "kind": "big",
+        "title": "You have rights",
+        "text": "**Repair · Replace · Refund**",
+        "icon": "lucide:scale",
+        "say": "If something you buy is faulty, Australian law says you can get a repair, a replacement or a refund. A no refunds sign doesn't change that.",
+        "vc": [
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Part",
+        "pillIcon": "lucide:megaphone",
+        "title": "Problem",
+        "text": "What, when, what went wrong.",
+        "icon": "lucide:triangle-alert",
+        "say": "Part one. The problem. What you bought, when, and what went wrong.",
+        "vc": [
+          "VC2E4LA04",
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Part",
+        "pillIcon": "lucide:megaphone",
+        "title": "Evidence",
+        "text": "Receipt · photos · **the law**",
+        "icon": "lucide:file-check",
+        "say": "Part two. Evidence. Your receipt, order number, photos and the law.",
+        "vc": [
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Part",
+        "pillIcon": "lucide:megaphone",
+        "title": "Request",
+        "text": "Say **exactly** what you want.",
+        "icon": "lucide:hand",
+        "say": "Part three. Request. Say exactly what you want: a repair, a replacement or a refund.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Part",
+        "pillIcon": "lucide:megaphone",
+        "title": "Deadline",
+        "text": "Reply by **a set date**.",
+        "icon": "lucide:calendar-check",
+        "say": "Part four. Deadline. Ask for a reply by a set date, like ten business days.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Formal and firm",
+        "text": "Not rude. Not sorry. **Firm.**",
+        "icon": "lucide:mic",
+        "say": "Tone matters. Formal and firm wins. Rude, or too sorry, loses.",
+        "vc": [
+          "VC2E6LA01",
+          "VC2E4LA01"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Problem. Evidence. Request. Deadline.",
+        "icon": "lucide:mail-check",
+        "say": "Your mission. Write a complaint that gets results. Then check it with a partner."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to complain and win",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "The law says the things you buy must **work** and be **safe**. This is the **Australian Consumer Law**. A *No refunds* sign doesn't change it.\n\n- **Big problem?** You can choose a **refund** or a **new one**.\n- **Small problem?** The shop can **fix** it.\n- **Changed your mind?** The shop doesn't have to give a refund.\n\nThe best way to complain is to write an email. It has four parts:\n\n1. **Problem.** What you bought, when, and what went wrong.\n2. **Evidence.** Your receipt and photos.\n3. **Request.** What you want: fix it, swap it, or a refund.\n4. **Deadline.** Ask them to reply by a date.\n\nBe **polite but firm**. Don't be rude. Don't say sorry too much.\n\nNo luck? You can get help from **Consumer Affairs Victoria**.",
+          "core": "Under the **Australian Consumer Law**, the things you buy must work, be safe and match how they were described. These are called **consumer guarantees**. They apply whether you bought it in a shop or online, and a sign that says *No refunds* doesn't cancel them.\n\n- If it's a **major problem** (it's unsafe, it doesn't work and can't easily be fixed, or it's very different from the description), you can choose a **refund** or a **replacement**.\n- If it's a **minor problem**, the business can choose to **repair** it.\n- If you just **changed your mind**, you don't have a right to a refund (but some shops give one anyway).\n\nThe best way to start is a written **complaint**, usually an email. It gives you a record. A strong complaint has four parts:\n\n1. **Problem.** What you bought, when, and what went wrong. Use time words: *On 3 March I bought… After two weeks…*\n2. **Evidence.** Your receipt or order number, photos, and the law: *Under the Australian Consumer Law…*\n3. **Request.** Exactly what you want: a repair, a replacement or a refund.\n4. **Deadline.** *Please reply by 20 March.* (About 10 business days is reasonable.)\n\nYour **tone** should be **formal and firm**. Rude messages get ignored. Overly sorry ones get brushed off.\n\nIf the business won't help, you can **escalate**: contact **Consumer Affairs Victoria**, which can help both sides reach an agreement. If that fails, **VCAT** (a tribunal) can make the business fix it.",
+          "extend": "The **Australian Consumer Law** gives every buyer **consumer guarantees**. Goods must be of acceptable quality, safe, fit for purpose and as described. The guarantees apply in shops and online, including overseas businesses selling to Australians. A *No refunds* sign or a warranty can't take them away.\n\n- **Major failure** (unsafe, very different from the description, or broken and not easily fixed): you choose a **refund** or **replacement**.\n- **Minor failure**: the business may **repair** it, within a reasonable time.\n- A **change of mind** isn't covered.\n\nAssert your rights in writing. A strong complaint is structured and cohesive:\n\n1. **Problem**: what happened, in order, with dates.\n2. **Evidence**: receipts, order numbers, photos, past contact, and the consumer guarantee.\n3. **Request**: one specific fix.\n4. **Deadline**: a fair reply date, like 10 business days.\n\nThe **tone** should be formal, calm and firm: judgements backed by evidence, not emotion. If the business won't fix it, **escalate** to **Consumer Affairs Victoria**, which can help both sides agree. After that, **VCAT** can make orders the business must follow."
+        },
+        "vc": [
+          "VC2E5LA02",
+          "VC2E4LA04",
+          "VC2E6LA01",
+          "VC2E6LY09"
+        ],
+        "vcNote": "The structure and language of a formal complaint, supported by authoritative sources (consumer law); formality and tone."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Game over for “no refunds”",
+        "icon": "lucide:gamepad-2",
+        "body": {
+          "support": "Some gamers bought games from the **PlayStation Store** that didn't work. They asked for a refund.\n\nSony's staff told them things that **weren't true**:\n\n- *No refund after you download it.*\n- *No refund after 14 days.*\n- One person was offered **PlayStation credit**, not money.\n\nThe **ACCC** took Sony to court. The ACCC is the group that protects shoppers. In **2020**, Sony had to pay **$3.5 million**.\n\nIn **2016**, **Steam** was fined **$3 million** for the same kind of thing.\n\nThe lesson: a business saying *no* doesn't make it true.",
+          "core": "Between **2017 and 2019**, some Australian gamers bought games from the **PlayStation Store** that didn't work properly. When they asked for refunds, Sony's staff told them things that weren't true:\n\n- *No refund once you've downloaded the game.*\n- *No refund after 14 days.*\n- *A refund needs the game developer's OK.*\n- One person was offered **PlayStation credit** instead of their money back.\n\nThe **ACCC**, the government's consumer watchdog, took Sony to court. In **June 2020**, the court ordered Sony to pay a **$3.5 million penalty** for misleading people about their rights. Sony admitted it had broken the law.\n\nIt wasn't the first time. In **2016**, the court ordered **Valve**, the company behind **Steam**, to pay **$3 million** for misleading Australian gamers about refunds.\n\nThe lesson: a business telling you *no* doesn't make it true. Know your rights, and put your complaint in writing.",
+          "extend": "Between **October 2017 and May 2019**, PlayStation Store staff gave Australians false information when they asked for refunds for faulty games. Customers were told there was no refund **once a game was downloaded**, or **after 14 days**. One was told a refund needed the **developer's approval**. Another was offered only **PlayStation currency**.\n\nThe **ACCC** took Sony to court, and Sony admitted it had broken the law. In **June 2020**, the Federal Court ordered a **$3.5 million penalty** for misleading people about their consumer rights.\n\nThis followed the ACCC's case against **Valve**, which runs **Steam**. In 2016, Valve was ordered to pay **$3 million**. That case also made it clear that overseas digital businesses selling to Australians must follow Australian consumer law.\n\nBoth cases show a gap between what businesses say and what the law requires. A buyer who knows the guarantee, and can state it clearly in writing, is in a much stronger position."
+        },
+        "source": {
+          "name": "ACCC — “Sony to pay $3.5 million penalty for misrepresenting PlayStation gamers' rights” (June 2020)",
+          "url": "https://www.accc.gov.au/media-release/sony-to-pay-35-million-penalty-for-misrepresenting-playstation-gamers-rights"
+        },
+        "think": {
+          "support": [
+            "What wasn't true?",
+            "What would you do?"
+          ],
+          "core": [
+            "What did Sony's staff tell people that wasn't true?",
+            "Why might a business say “no refunds” even when it's wrong?",
+            "What would you write if it happened to you?"
+          ]
+        },
+        "vc": [
+          "VC2E5LA02",
+          "VC2E8LY08"
+        ],
+        "vcNote": "A real Australian case: why knowing consumer rights and citing them in writing matters."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a complaint email",
+      "docTitle": "EMAIL: REFUND REQUEST (EXAMPLE)",
+      "vc": [
+        "VC2E6LY09",
+        "VC2E4LA04",
+        "VC2E5LA02",
+        "VC2E6LA01"
+      ],
+      "vcNote": "The structure, connectives, evidence and formal tone of a complaint.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Subject",
+          "value": "Refund request: faulty headphones, order #48213",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Problem",
+          "value": "On 3 March I bought SoundMax headphones from your website. After two weeks, the left side stopped working."
+        },
+        {
+          "n": 3,
+          "label": "Evidence",
+          "value": "My order number and a photo are attached. Under the Australian Consumer Law, products must be of acceptable quality."
+        },
+        {
+          "n": 4,
+          "label": "Request",
+          "value": "As this is a major problem, I would like a full refund of $89."
+        },
+        {
+          "n": 5,
+          "label": "Deadline",
+          "value": "Please reply by 20 March."
+        },
+        {
+          "n": 6,
+          "label": "Close",
+          "value": "Thank you for your help. Kind regards, Jordan Lee, 0412 345 678",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Subject line",
+          "note": "Says what it's about and has the order number."
+        },
+        {
+          "n": 2,
+          "label": "Problem",
+          "note": "What, when, what went wrong. Time words: on, after."
+        },
+        {
+          "n": 3,
+          "label": "Evidence",
+          "note": "Proof, plus the law. Not just “I'm angry”."
+        },
+        {
+          "n": 4,
+          "label": "Request",
+          "note": "One clear thing you want."
+        },
+        {
+          "n": 5,
+          "label": "Deadline",
+          "note": "A reasonable date to reply."
+        },
+        {
+          "n": 6,
+          "label": "Close",
+          "note": "Polite, with your contact details."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "If they say no",
+      "steps": [
+        {
+          "title": "The business",
+          "text": "Complain in writing. Keep copies.",
+          "icon": "lucide:store"
+        },
+        {
+          "title": "Consumer Affairs Victoria",
+          "text": "Can help you both reach an agreement.",
+          "icon": "lucide:landmark"
+        },
+        {
+          "title": "VCAT",
+          "text": "A tribunal that can make the business fix it.",
+          "icon": "lucide:scale"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Your new phone won't turn on at all after a week. Under the consumer guarantees you can usually…",
+        "options": [
+          "Choose a refund or a replacement",
+          "Only get it repaired",
+          "Get nothing: you've used it",
+          "Get nothing without a warranty"
+        ],
+        "answer": 0,
+        "explain": "A product that doesn't work and can't easily be fixed is a major problem.",
+        "vc": [
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "q": "You buy shoes, then decide you don't like the colour. Do you have a right to a refund?",
+        "options": [
+          "No: change of mind isn't covered",
+          "Yes, always",
+          "Only if you shout",
+          "Only online"
+        ],
+        "answer": 0,
+        "explain": "Some shops give one anyway, but it's not a legal right.",
+        "vc": [
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "q": "Which is the best **request** in a complaint?",
+        "options": [
+          "I would like a full refund of $89.",
+          "Do something about this.",
+          "I'm very upset.",
+          "Fix it or else."
+        ],
+        "answer": 0,
+        "explain": "One clear, specific request.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "q": "Which line has the right **tone**?",
+        "options": [
+          "I would like this resolved by 20 March.",
+          "This is the WORST shop ever!!!",
+          "Sorry, it's probably my fault, but…",
+          "u guys stuffed up"
+        ],
+        "answer": 0,
+        "explain": "Formal and firm.",
+        "vc": [
+          "VC2E6LA01",
+          "VC2E4LA01"
+        ]
+      },
+      {
+        "q": "What did the court order Sony to pay in 2020?",
+        "options": [
+          "$3.5 million",
+          "$35",
+          "Nothing",
+          "$350"
+        ],
+        "answer": 0,
+        "explain": "For misleading gamers about refunds for faulty games.",
+        "vc": [
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "q": "The business ignores your complaint. Where can you go next in Victoria?",
+        "options": [
+          "Consumer Affairs Victoria",
+          "The police",
+          "Your school",
+          "Nowhere"
+        ],
+        "answer": 0,
+        "explain": "Then VCAT if needed.",
+        "vc": [
+          "VC2E6LY09"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Why does citing the Australian Consumer Law make a complaint stronger?",
+        "options": [
+          "It backs your claim with an authority, not just your opinion",
+          "It makes it longer",
+          "It sounds angry",
+          "It's required by email providers"
+        ],
+        "answer": 0,
+        "explain": "Evaluation is stronger when it's substantiated.",
+        "vc": [
+          "VC2E7LA02",
+          "VC2E8LA04"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write a complaint email in four parts. Then check it with a partner.",
+      "core": "Write a formal complaint email about a real or realistic problem, with a problem, evidence, request and deadline, then edit it with a partner using the checklist.",
+      "extend": "Write a formal complaint that is cohesive and substantiated (dated sequence, evidence, the relevant consumer guarantee, a specific remedy and a deadline), then edit it against criteria and draft the escalation to Consumer Affairs Victoria."
+    },
+    "checklist": [
+      "Clear subject line",
+      "Problem with dates and time words",
+      "Evidence, including the law",
+      "One clear request",
+      "A deadline",
+      "Formal and firm tone throughout"
+    ],
+    "levelUp": "The business ignores you. Write a short message to Consumer Affairs Victoria summarising what happened, using your evidence.",
+    "vc": [
+      "VC2E6LY09",
+      "VC2E5LY11",
+      "VC2E6LA01"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to complain and win",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Write the **four parts** of a strong complaint.",
+            "lines": 0,
+            "vc": [
+              "VC2E6LY09"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "What can you ask for if something has a **major** problem? A **minor** one?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA02"
+            ]
+          },
+          {
+            "q": "Why should a complaint be **written** down?",
+            "lines": 1
+          },
+          {
+            "q": "Who can help if the business won't?",
+            "lines": 1,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Major, minor or not covered?",
+        "pagebreak": true,
+        "choices": [
+          "Major",
+          "Minor",
+          "Not covered"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Decide what kind of problem each one usually is. Write why. (Every case is different, so think about what's most likely.)",
+        "cards": [
+          {
+            "from": "Problem",
+            "text": "Your new heater gives off sparks.",
+            "answer": "Major",
+            "flags": "Unsafe."
+          },
+          {
+            "from": "Problem",
+            "text": "A button comes loose on a new jacket.",
+            "answer": "Minor",
+            "flags": "Easy to fix."
+          },
+          {
+            "from": "Problem",
+            "text": "You decide you don't like the colour of your new shoes.",
+            "answer": "Not covered",
+            "flags": "Change of mind."
+          },
+          {
+            "from": "Problem",
+            "text": "A “waterproof” watch fills with water in the shower.",
+            "answer": "Major",
+            "flags": "Not as described."
+          },
+          {
+            "from": "Problem",
+            "text": "A game you paid for won't load at all, even after updates.",
+            "answer": "Major",
+            "flags": "Doesn't work; can't be fixed.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Problem",
+            "text": "You find it cheaper at another shop the next day.",
+            "answer": "Not covered",
+            "flags": "Nothing's wrong with it.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LA02"
+        ],
+        "vcNote": "Using an authoritative source (consumer guarantees) to judge a claim."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a complaint email",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the email. Use the word bank. Write why it works.",
+          "core": "Each number marks part of the email. Write which part it is and why it works."
+        },
+        "columns": [
+          "Which part?",
+          "Why does it work?"
+        ],
+        "wordBank": {
+          "support": [
+            "subject",
+            "problem",
+            "evidence",
+            "request",
+            "deadline",
+            "close"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LY09",
+          "VC2E4LA04",
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Fix the tone",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 20
+        },
+        "instructions": "These lines are too rude, too sorry or too casual. Rewrite each one so it's **formal and firm**. The first one is done for you.",
+        "columns": [
+          "Too rude, sorry or casual",
+          "Formal and firm"
+        ],
+        "rows": [
+          [
+            "This is the WORST shop ever!!! Give me my money back NOW!",
+            "I would like a full refund, please. I've attached my receipt."
+          ],
+          [
+            "Sorry to bother you, it's probably my fault, but…",
+            ""
+          ],
+          [
+            "u guys sent me the wrong thing",
+            ""
+          ],
+          {
+            "cells": [
+              "If you don't fix this I'll tell everyone online!!",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LA01",
+          "VC2E4LA01"
+        ],
+        "vcNote": "Adjusting language for formality and social distance."
+      },
+      {
+        "type": "flow",
+        "title": "If they say no",
+        "diagram": 1
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: game over for “no refunds”",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did Sony's staff tell people that wasn't true?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA02"
+            ]
+          },
+          {
+            "q": "Why might a business say “no refunds” even when it's wrong?",
+            "lines": 2
+          },
+          {
+            "q": "Write the **evidence** sentence a gamer could use in their complaint.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA02",
+              "VC2E6LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: write your complaint",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write a complaint email. Use a real problem, or choose one: broken headphones, a game that won't load, a cracked phone case. Use the four parts.",
+          "core": "Write a complaint email about a real problem you've had, or choose one: headphones that stopped working after two weeks; a pizza delivered an hour late and cold; a game that won't load; a phone case that cracked on day one. Use all four parts.",
+          "extend": "Write a formal complaint about a real problem (or one of the options). Make it cohesive: sequence the events with dates, support your claim with evidence and the relevant consumer guarantee, make one specific request and set a deadline."
+        },
+        "plan": [
+          {
+            "label": "Subject line:",
+            "lines": 1
+          },
+          {
+            "label": "What I want (my request):",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Dear …,",
+          "On … I bought …",
+          "After …,",
+          "Under the Australian Consumer Law, …",
+          "I would like …",
+          "Please reply by …",
+          "Kind regards,"
+        ],
+        "lines": {
+          "support": 9,
+          "core": 11
+        },
+        "check": [
+          "subject",
+          "problem + dates",
+          "evidence + the law",
+          "one request",
+          "deadline",
+          "formal, firm tone"
+        ],
+        "vc": [
+          "VC2E6LY09",
+          "VC2E4LY10",
+          "VC2E4LA04",
+          "VC2E8LA04"
+        ],
+        "vcNote": "Creating a formal persuasive text with a clear structure and connectives (extend: cohesion through evidence and substantiation)."
+      },
+      {
+        "type": "table",
+        "title": "Edit with a partner",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 16
+        },
+        "instructions": "Swap complaints with a partner. Tick each part they got right, and suggest one fix. Then make the fixes to your own email.",
+        "columns": [
+          "Checklist",
+          "Yes / no",
+          "One suggestion"
+        ],
+        "rows": [
+          [
+            "Clear subject line",
+            "",
+            ""
+          ],
+          [
+            "Problem with dates",
+            "",
+            ""
+          ],
+          [
+            "Evidence (receipt, photo, the law)",
+            "",
+            ""
+          ],
+          [
+            "One clear request",
+            "",
+            ""
+          ],
+          [
+            "Deadline",
+            "",
+            ""
+          ],
+          [
+            "Formal and firm tone",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E5LY11"
+        ],
+        "vcNote": "Re-reading and editing texts using agreed criteria."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "The business ignores you. Write a short message to **Consumer Affairs Victoria** summarising what happened, with your evidence, in 4 to 5 sentences.",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY08",
+              "VC2E8LA04"
+            ]
+          },
+          {
+            "q": "Which words in your complaint **evaluate** (judge) and which **substantiate** (back it up)? Give one of each.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can write a complaint in four parts.",
+          "I can make my tone formal and firm.",
+          "I can explain repair, replace or refund.",
+          "I can edit using a checklist."
+        ],
+        "questions": [
+          "Something I've bought that I could have complained about:",
+          "The line in my complaint I'm proudest of:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn their consumer guarantee rights under the Australian Consumer Law (repair, replace or refund; major vs minor problems; change of mind not covered) and write a formal complaint email with a problem, evidence, request and deadline, in a formal and firm tone. They study the ACCC's case against Sony over PlayStation game refunds, and peer-edit using a checklist. The Level Up drafts an escalation to Consumer Affairs Victoria.",
+    "prep": [
+      "Bring (or describe) a real faulty product story of your own. Students love hearing that teachers complain too.",
+      "Optional: show the ACCC's Repair, Replace, Refund page and Consumer Affairs Victoria's sample letters.",
+      "Decide whether students will actually send their complaint (only if it's real, and their choice)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Your rights",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** the headphones scenario. Vote: does the shop have to give a refund?",
+          "**Explicit teaching (10 min):** consumer guarantees; major vs minor; change of mind.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Sort (10 min):** Major, minor or not covered?"
+        ]
+      },
+      {
+        "title": "Lesson 2 — The complaint",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** Anatomy of a complaint email. Model how time words and evidence make it hard to ignore.",
+          "**Fix the tone (15 min).** Read rewrites aloud: rude vs sorry vs firm.",
+          "**Case study (20 min):** game over for no refunds."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write it",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** write the first two parts of a complaint live.",
+          "**Write (30 min):** final mission.",
+          "**Exit (10 min):** read your request and deadline to a partner."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Edit and escalate",
+        "minutes": 50,
+        "steps": [
+          "**Edit with a partner (20 min).**",
+          "**Revise (10 min).**",
+          "**Level Up, reflect (20 min):** escalation to Consumer Affairs Victoria; quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Consumer guarantees: products must work, be safe and match the description. A no refunds sign doesn't cancel them.",
+      "Major problem: you choose refund or replacement. Minor: the business may repair. Change of mind isn't covered.",
+      "A strong complaint: problem, evidence, request, deadline.",
+      "Formal and firm, not rude or overly sorry.",
+      "Escalate: the business, then Consumer Affairs Victoria, then VCAT."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the email annotation.",
+        "Fewer sort cards and rows.",
+        "Sentence starters for every part."
+      ],
+      "extend": [
+        "Make it cohesive and substantiated (Level Up).",
+        "Draft the escalation to Consumer Affairs Victoria."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LA01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses language that suits a formal relationship with a business (Fix the tone, final mission)."
+      },
+      {
+        "vc": "VC2E4LA04",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Sequences the problem with time words and connectives (email annotation, final mission)."
+      },
+      {
+        "vc": "VC2E4LY10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Writes a persuasive complaint with linked ideas for a business audience (final mission)."
+      },
+      {
+        "vc": "VC2E6LA01",
+        "evidence": "Adjusts formality and tone for a business audience (Fix the tone, final mission)."
+      },
+      {
+        "vc": "VC2E5LA02",
+        "evidence": "Moves beyond bare assertion by citing evidence and the Australian Consumer Law (sort, annotation, case study, final mission)."
+      },
+      {
+        "vc": "VC2E6LY09",
+        "evidence": "Creates an organised complaint for its purpose and audience (final mission)."
+      },
+      {
+        "vc": "VC2E5LY11",
+        "evidence": "Re-reads and edits using agreed criteria (Edit with a partner)."
+      },
+      {
+        "vc": "VC2E8LA04",
+        "evidence": "Extended: strengthens cohesion with a dated sequence, evidence and substantiation (final mission, Level Up)."
+      },
+      {
+        "vc": "VC2E8LY08",
+        "evidence": "Level Up: writes an escalation that reports events and advances a position."
+      },
+      {
+        "vc": "VC2E7LA02",
+        "evidence": "Level Up: identifies the language of evaluation and substantiation in their own complaint."
+      }
+    ],
+    "answers": "**Four parts:** problem, evidence, request, deadline. Major: you choose a refund or replacement; minor: the business can repair. Written down so you have a record. Consumer Affairs Victoria (then VCAT).\n\n**Sort:** sparks — major (unsafe); loose button — minor; colour — not covered (change of mind); waterproof watch — major (not as described); game won't load — major; cheaper elsewhere — not covered. Every case depends on the facts.\n\n**Email:** 1 subject; 2 problem (time words); 3 evidence and the law; 4 request; 5 deadline; 6 polite close with contact details.\n\n**Fix the tone (samples):** I'm writing about a problem with my order. / I received the wrong item. Please send the correct one. / If this isn't resolved by 20 March, I'll contact Consumer Affairs Victoria.\n\n**Case study:** no refund once downloaded, or after 14 days; needed developer approval; credit instead of money. Possible reasons: to save money, or staff not knowing the law. Evidence sentence: *Under the Australian Consumer Law, a game that doesn't work must be refunded or replaced.*",
+    "resources": [
+      {
+        "label": "ACCC — Sony to pay $3.5 million penalty (2020)",
+        "url": "https://www.accc.gov.au/media-release/sony-to-pay-35-million-penalty-for-misrepresenting-playstation-gamers-rights"
+      },
+      {
+        "label": "SBS — Valve loses appeal over $3m ACCC fine",
+        "url": "https://www.sbs.com.au/news/valve-loses-appeal-over-3m-accc-fine"
+      },
+      {
+        "label": "ACCC — Repair, replace, refund, cancel",
+        "url": "https://www.accc.gov.au/consumers/problem-with-a-product-or-service-you-bought/repair-replace-refund-cancel"
+      },
+      {
+        "label": "ACCC — Contacting a business to fix a problem",
+        "url": "https://www.accc.gov.au/consumers/problem-with-a-product-or-service-you-bought/contacting-a-business-to-fix-a-problem"
+      },
+      {
+        "label": "Consumer Affairs Victoria — Contact us",
+        "url": "https://www.consumer.vic.gov.au/contact-us"
+      },
+      {
+        "label": "Victoria Legal Aid — Consumer complaints",
+        "url": "https://www.legalaid.vic.gov.au/consumer-complaints"
+      }
+    ],
+    "realityCheck": [
+      "**Real problems make the best writing.** Most students have a story (a broken phone, a late delivery, a game that won't work). Let them write about it, and send it only if they want to.",
+      "**Keep the law simple.** Major vs minor depends on the facts of each case. Teach the principle and point students to the ACCC's Repair, Replace, Refund page rather than giving rulings.",
+      "**Tone is the hard part.** Students tend to swing between rude and apologetic. Reading rewrites aloud makes the difference obvious.",
+      "**Links to other courses:** students who'd rather call can use Make the Call first, then follow up in writing. A complaint is also a step up from the Review It course's evaluative language.",
+      "**Works in a real class:** yes. It's practical and gets results, and students are often surprised to find they're owed a refund."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and rows, and starters for every part.",
+      "core": "Standard version: consumer guarantees, major/minor sort, complaint email annotation, Fix the tone, the Sony case, a four-part complaint and a peer edit.",
+      "extend": "Adds consumer guarantee and escalate to the vocabulary, quiz questions on escalation and substantiation, a cohesive substantiated complaint, and Level Ups on escalation and evaluative language."
+    }
+  }
+}

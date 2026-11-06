@@ -1,0 +1,969 @@
+{
+  "id": "speak-up",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), including delivery",
+  "brief": {
+    "hook": {
+      "support": "Something bugs you. The bus never comes. There's nowhere to hang out. You tell your mates. What if you told the people who could change it?",
+      "core": "There's something that bugs you: the bus that never comes, nowhere to go on a Friday night, a rule that makes no sense. You complain to your mates. But what if you said it out loud, to the people who could actually change it?"
+    },
+    "why": {
+      "support": "Speeches can change things. Young people in Victoria do it at Youth Parliament every year. A good speech has a clear point, real proof, and a voice people listen to.",
+      "core": "Speeches change things. Young people in Victoria write and debate their own laws at Youth Parliament every year, and some of their ideas have become real. A good speech isn't about being loud or fancy. It's about a clear point, real proof and a voice people want to listen to.",
+      "extend": "Spoken persuasion is how ideas move from complaint to change: in councils, parliaments, workplaces and communities. Young Victorians debate their own bills at Youth Parliament every year, and some have shaped real policy. A strong speech combines structure, evidence, deliberate language and controlled delivery for a specific audience."
+    },
+    "canDo": {
+      "support": [
+        "I can plan a short speech in four parts.",
+        "I can repeat a line to make it stick.",
+        "I can speak slowly and clearly.",
+        "I can answer a question about my speech."
+      ],
+      "core": [
+        "I can plan a speech: **hook, point, proof, push**.",
+        "I can use **repetition** and **strong words** on purpose.",
+        "I can deliver it with **pace, pauses, volume and eye contact**.",
+        "I can **answer questions** about my speech."
+      ]
+    },
+    "showIt": "Write and give a 2-minute speech about an issue you care about, to your class or another real audience, and answer questions.",
+    "vocab": [
+      {
+        "word": "issue",
+        "meaning": "a problem people care about and disagree on",
+        "example": "Nowhere for teens to hang out is a big issue in our town."
+      },
+      {
+        "word": "persuade",
+        "meaning": "get someone to agree with you or do something",
+        "example": "She persuaded the council to listen."
+      },
+      {
+        "word": "audience",
+        "meaning": "the people listening to you",
+        "example": "Know your audience before you speak."
+      },
+      {
+        "word": "evidence",
+        "meaning": "facts, examples or stories that back up your point",
+        "example": "My evidence was a photo of the broken bus shelter."
+      },
+      {
+        "word": "call to action",
+        "meaning": "telling the audience exactly what to do next",
+        "example": "My call to action was: sign the petition."
+      },
+      {
+        "word": "pause",
+        "meaning": "a short stop when you speak, to let a point sink in",
+        "example": "Pause after your biggest line."
+      },
+      {
+        "word": "repetition",
+        "meaning": "saying a word or line again on purpose",
+        "example": "The repetition made the speech stick.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "rebuttal",
+        "meaning": "answering someone who disagrees with you",
+        "example": "My rebuttal used the bus timetable.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Speak Up in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Speak Up",
+        "sub": "Say something that matters — out loud.",
+        "icon": "lucide:megaphone",
+        "say": "Speak up. Say something that matters, out loud."
+      },
+      {
+        "kind": "big",
+        "title": "Four parts",
+        "text": "**Hook · Point · Proof · Push**",
+        "icon": "lucide:list-checks",
+        "say": "A great speech has four parts. Hook, point, proof, push.",
+        "vc": [
+          "VC2E6LY02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Part",
+        "pillIcon": "lucide:megaphone",
+        "title": "Hook",
+        "text": "A question, a picture, a story.",
+        "icon": "lucide:zap",
+        "say": "Hook. Grab them in the first ten seconds. A question, a picture, a short story.",
+        "vc": [
+          "VC2E6LY02",
+          "VC2E4LY02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Part",
+        "pillIcon": "lucide:megaphone",
+        "title": "Point",
+        "text": "One clear sentence.",
+        "icon": "lucide:target",
+        "say": "Point. Say what you want, in one clear sentence.",
+        "vc": [
+          "VC2E6LY02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Part",
+        "pillIcon": "lucide:megaphone",
+        "title": "Proof",
+        "text": "Reasons + **evidence**.",
+        "icon": "lucide:file-check",
+        "say": "Proof. Two or three reasons, each with evidence: a fact, an example or a story.",
+        "vc": [
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Part",
+        "pillIcon": "lucide:megaphone",
+        "title": "Push",
+        "text": "A **call to action**.",
+        "icon": "lucide:hand",
+        "say": "Push. End with a call to action. Tell the audience exactly what to do.",
+        "vc": [
+          "VC2E6LY02"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Say it again",
+        "text": "*We want a place. We want a voice. We want a chance.*",
+        "icon": "lucide:repeat",
+        "say": "Repetition makes a speech stick. We want a place. We want a voice. We want a chance.",
+        "vc": [
+          "VC2E6LA04"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Deliver it",
+        "text": "Slow · **Pause** · Look up · Loud enough",
+        "icon": "lucide:mic",
+        "say": "Delivery is half the speech. Slow down. Pause after your big lines. Look up. Speak to the back of the room.",
+        "vc": [
+          "VC2E6LY02",
+          "VC2E4LY02"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Pick it. Write it. Say it.",
+        "icon": "lucide:megaphone",
+        "say": "Your mission. Pick an issue you care about. Write a two-minute speech. Then give it, and answer questions."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to give a speech people remember",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "You don't need to be loud to give a good speech. You need a shape.\n\n1. **Hook.** Grab them fast. Ask a question. Tell a short story.\n2. **Point.** Say what you want in one sentence.\n3. **Proof.** Give two or three reasons. Back them up with facts or stories.\n4. **Push.** Tell them what to do: *Sign the petition.*\n\n**Tools:**\n\n- **Say it again.** Repeat a line: *We want a place. We want a voice.*\n- **Strong words.** *Unfair* is stronger than *annoying*.\n- **Your voice.** Go slow. **Pause** after big lines. Look up.\n\nPeople might ask questions after. Listen. Then answer with your proof.",
+          "core": "You don't need to be loud, confident or a good writer to give a great speech. You need a clear shape and a few tools.\n\n**The shape: hook, point, proof, push.**\n\n1. **Hook.** Grab the audience in the first ten seconds. Ask a question (*Who here has ever been told to move on?*), paint a picture, or tell a ten-second story.\n2. **Point.** Say what you want in one sentence: *Our town needs a skate park.*\n3. **Proof.** Give two or three reasons, and back each one with **evidence**: a fact, an example, a photo, or a short true story.\n4. **Push.** End with a **call to action**: exactly what you want the audience to do. *Sign the petition before Friday.*\n\n**The tools.**\n\n- **Repetition.** Repeat a word or line on purpose, often in threes: *We want a place. We want a voice. We want a chance.* It ties the speech together and makes it stick.\n- **Strong words, at the right strength.** *Unfair* is stronger than *annoying*. *Outrageous* is stronger again. Choose the strength that suits your audience. Too strong, and people stop listening.\n- **Delivery.** Slow down: nerves make everyone speed up. **Pause** after your big lines. Look up from your cue card. Speak to the back of the room.\n\nAfterwards, people may **ask questions** or disagree. Listen to the whole question, say it back if you need to, then answer with your evidence. That's where you win people over.",
+          "extend": "Effective speeches aren't about volume or polish. They're about structure, deliberate language and controlled delivery, shaped for a specific audience.\n\n**Structure: hook, point, proof, push.**\n\n1. **Hook.** Earn attention in the first ten seconds with a rhetorical question, a vivid image or a brief anecdote.\n2. **Point.** State your position in one clear sentence.\n3. **Proof.** Develop two or three reasons, each substantiated with **evidence**: facts, examples, images or testimony.\n4. **Push.** Close with a specific **call to action**.\n\n**Language.**\n\n- **Repetition** builds cohesion and rhythm. A tricolon (*We want a place. We want a voice. We want a chance.*) is memorable because of its pattern.\n- **Evaluative language** comes in strengths: *annoying*, *unfair*, *outrageous*. Calibrating it to your audience matters. A council meeting needs firmer, more formal language than a class debate.\n- **Figurative language** can add layers: *This car park is our only living room.*\n\n**Delivery.** Control pace, use pauses for emphasis, make eye contact and project your voice.\n\n**Interaction.** Questions and objections are an opportunity. Listen fully, paraphrase if needed, then respond with evidence. A good **rebuttal** acknowledges the other view before answering it."
+        },
+        "vc": [
+          "VC2E6LY02",
+          "VC2E6LA04",
+          "VC2E3LA02",
+          "VC2E6LY01",
+          "VC2E4LY02"
+        ],
+        "vcNote": "The structure, language features and delivery of a persuasive spoken text; responding to questions."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "A speech that rode the bus",
+        "icon": "lucide:bus",
+        "body": {
+          "support": "Every year, young people in Victoria go to **Youth Parliament**. They write their own laws. They give speeches for and against them. Then they vote.\n\nIn **2024**, a team wrote a law about **public transport**. They said transport should be fair for young people. Their law passed. It was given to the Victorian Government.\n\nIn **2025**, the government said public transport would be **free for under 18s** from **2026**. Now it is.\n\nThe YMCA says the idea started at Youth Parliament. The government hasn't said that. But the young people got their idea heard, and it came true.",
+          "core": "Every year, the **YMCA Victoria Youth Parliament** lets young Victorians write their own laws, called **bills**. They debate them in Parliament House in Melbourne. Teams give speeches for and against each bill, then vote.\n\nIn **2024**, a team from the **Boroondara Youth Hub** wrote the **Student Public Transport Concession Bill**. They argued that public transport should be fair for children and teens. The bill passed. In **July 2024**, it was handed to the Victorian Government with the other bills that passed.\n\nIn **May 2025**, the government announced that public transport would be **free for everyone under 18**, everywhere in Victoria, from **1 January 2026**. Under-18s now travel free on trains, trams and buses with a Youth myki card.\n\nDid the bill cause the change? The YMCA says the policy traces back to that bill. The government hasn't said so. Big decisions usually have many causes. But the young people who spoke up got their idea in front of decision-makers, and it became real.",
+          "extend": "Each year, the **YMCA Victoria Youth Parliament** invites young Victorians to draft laws (**bills**) and debate them in Parliament House, Melbourne. Teams argue for and against each bill in formal speeches, then vote.\n\nIn **2024**, the **Boroondara Youth Hub** team wrote the **Student Public Transport Concession Bill**. It argued for fair access to transport for young people. It passed, and was presented to the State Government in **July 2024**.\n\nIn **May 2025**, the Victorian Government announced that public transport would be **free for everyone under 18** from **1 January 2026**, funded in that year's state budget.\n\nDid the bill cause the policy? The YMCA says the policy traces back to it; the government hasn't credited it. Most policies have many influences. But the case shows what structured, evidence-based speaking can do. It puts young people's arguments on the record, in front of decision-makers."
+        },
+        "source": {
+          "name": "YMCA Victoria — “Youth Parliament policy becomes reality: free public transport for under 18s” (May 2025); Premier of Victoria media release",
+          "url": "https://victoria.ymca.org.au/news-and-events/2025/05/20/youth-parliament-free-transport-under-18s"
+        },
+        "think": {
+          "support": [
+            "What did the team want?",
+            "What issue would you speak about?"
+          ],
+          "core": [
+            "What did the team argue for?",
+            "Did their speech cause the change? What's the evidence either way?",
+            "What issue would you write a bill about?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY01",
+          "VC2E8LY08"
+        ],
+        "vcNote": "A real Victorian example of young people raising an issue through formal speech, and weighing evidence about its impact."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a speech",
+      "docTitle": "SPEECH: “GIVE US SOMEWHERE TO GO” (MADE-UP EXAMPLE)",
+      "vc": [
+        "VC2E6LY02",
+        "VC2E6LA04",
+        "VC2E3LA02"
+      ],
+      "vcNote": "The structure and language features of a persuasive speech.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "value": "“Who here has ever been told to move on?”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Point",
+          "value": "“Our town needs a skate park.”"
+        },
+        {
+          "n": 3,
+          "label": "Proof (example)",
+          "value": "“Right now, we skate in the supermarket car park, dodging cars every night.”"
+        },
+        {
+          "n": 4,
+          "label": "Proof (fact)",
+          "value": "“The only free indoor space, the library, shuts at 5.”"
+        },
+        {
+          "n": 5,
+          "label": "Repetition",
+          "value": "“We want a place. We want a voice. We want a chance.”"
+        },
+        {
+          "n": 6,
+          "label": "Push",
+          "value": "“Sign our petition to the council before Friday.”",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "A question the audience answers in their heads."
+        },
+        {
+          "n": 2,
+          "label": "Point",
+          "note": "One clear sentence."
+        },
+        {
+          "n": 3,
+          "label": "Proof: example",
+          "note": "A picture of the problem."
+        },
+        {
+          "n": 4,
+          "label": "Proof: fact",
+          "note": "Something you can check."
+        },
+        {
+          "n": 5,
+          "label": "Repetition",
+          "note": "A pattern of three. It sticks."
+        },
+        {
+          "n": 6,
+          "label": "Push",
+          "note": "Exactly what to do, and by when."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Answer a question",
+      "steps": [
+        {
+          "title": "Listen",
+          "text": "To the whole question. Don't jump in.",
+          "icon": "lucide:ear"
+        },
+        {
+          "title": "Check",
+          "text": "“So you're asking…?”",
+          "icon": "lucide:repeat"
+        },
+        {
+          "title": "Answer",
+          "text": "Short, with your evidence.",
+          "icon": "lucide:message-circle"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is the best **hook**?",
+        "options": [
+          "Who here has ever been told to move on?",
+          "Hi, my speech is about skate parks.",
+          "Today I will talk about something.",
+          "Um, so, yeah."
+        ],
+        "answer": 0,
+        "explain": "A question pulls the audience in.",
+        "vc": [
+          "VC2E6LY02",
+          "VC2E4LY02"
+        ]
+      },
+      {
+        "q": "What is a **call to action**?",
+        "options": [
+          "Telling the audience exactly what to do next",
+          "Your first line",
+          "A loud voice",
+          "A list of facts"
+        ],
+        "answer": 0,
+        "explain": "The push at the end.",
+        "vc": [
+          "VC2E6LY02"
+        ]
+      },
+      {
+        "q": "“We want a place. We want a voice. We want a chance.” This uses…",
+        "options": [
+          "Repetition",
+          "A statistic",
+          "A hook",
+          "A rebuttal"
+        ],
+        "answer": 0,
+        "explain": "Repeating a pattern makes it stick.",
+        "vc": [
+          "VC2E6LA04"
+        ]
+      },
+      {
+        "q": "Which word is **strongest**?",
+        "options": [
+          "Outrageous",
+          "Annoying",
+          "Unfair",
+          "Not ideal"
+        ],
+        "answer": 0,
+        "explain": "Choose the strength that suits your audience.",
+        "vc": [
+          "VC2E3LA02"
+        ]
+      },
+      {
+        "q": "Someone asks a question you didn't quite catch. What do you do?",
+        "options": [
+          "Check: “So you're asking…?”",
+          "Ignore it",
+          "Talk about something else",
+          "Say “no comment”"
+        ],
+        "answer": 0,
+        "explain": "Paraphrase to clarify, then answer.",
+        "vc": [
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "q": "In 2026, what became free for under-18s in Victoria?",
+        "options": [
+          "Public transport",
+          "School uniforms",
+          "Driving lessons",
+          "Phones"
+        ],
+        "answer": 0,
+        "explain": "A 2024 Youth Parliament bill argued for it.",
+        "vc": [
+          "VC2E6LY01"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "“This car park is our only living room.” What does the metaphor do?",
+        "options": [
+          "Shows the car park is the only place teens have, in a way people feel",
+          "Gives a statistic",
+          "Tells people to sign",
+          "Asks a question"
+        ],
+        "answer": 0,
+        "explain": "Figurative language can add layers to an argument.",
+        "vc": [
+          "VC2E8LA02"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write and give a short speech about something you care about. Use the four parts. Answer one question.",
+      "core": "Write and give a 2-minute speech about an issue you care about, with a hook, point, proof and push, then answer questions from your audience.",
+      "extend": "Write and deliver a 2–3 minute speech on an issue for a specific audience, using deliberate structure, repetition, calibrated evaluative language and figurative language, then respond to questions and at least one objection."
+    },
+    "checklist": [
+      "My speech has a hook, point, proof and push",
+      "I used evidence for each reason",
+      "I used repetition on purpose",
+      "I spoke slowly, paused and looked up",
+      "I answered at least one question"
+    ],
+    "levelUp": "Rewrite your opening for two audiences (your class, and the local council) and explain what you changed and why.",
+    "vc": [
+      "VC2E6LY02",
+      "VC2E6LY01",
+      "VC2E6LA04"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to give a speech people remember",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Write the **four parts** of a speech.",
+            "lines": 0,
+            "vc": [
+              "VC2E6LY02"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "Why does **repetition** help a speech?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LA04"
+            ]
+          },
+          {
+            "q": "Name two things that make your **delivery** better.",
+            "lines": 1,
+            "vc": [
+              "VC2E4LY02",
+              "VC2E6LY02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a speech",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the speech. Use the word bank. Write why it works.",
+          "core": "Each number marks part of the speech. Write which part or tool it is, and why it works."
+        },
+        "columns": [
+          "Which part or tool?",
+          "Why does it work?"
+        ],
+        "wordBank": {
+          "support": [
+            "hook",
+            "point",
+            "proof",
+            "proof",
+            "repetition",
+            "push"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LY02",
+          "VC2E6LA04"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Word strength",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 16
+        },
+        "instructions": "Put each set of words in order, from **mildest** to **strongest**. Then choose the one you'd use for the audience given. The first one is done for you.",
+        "columns": [
+          "Words",
+          "Mildest → strongest",
+          "For this audience I'd use…"
+        ],
+        "rows": [
+          [
+            "unfair · annoying · outrageous",
+            "annoying → unfair → outrageous",
+            "The council: unfair (strong, but they'll still listen)."
+          ],
+          [
+            "good · amazing · great",
+            "",
+            ""
+          ],
+          [
+            "worried · terrified · scared",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "needs fixing · a disaster · a problem",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E3LA02"
+        ],
+        "vcNote": "Varying the language of evaluation and emotion to be more or less forceful."
+      },
+      {
+        "type": "questions",
+        "title": "Pick your issue",
+        "items": [
+          {
+            "q": "What bugs you? List three issues at your school, in your town or in the world.",
+            "lines": 3
+          },
+          {
+            "q": "Circle one. Who could actually change it? That's your **audience**.",
+            "lines": 1,
+            "vc": [
+              "VC2E6LY02"
+            ]
+          },
+          {
+            "q": "Write your **point** in one sentence.",
+            "lines": 1,
+            "vc": [
+              "VC2E6LY02"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LY02"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: a speech that rode the bus",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the Youth Parliament team argue for?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY01"
+            ]
+          },
+          {
+            "q": "Did their bill cause the change? What's the evidence for and against?",
+            "lines": 3,
+            "vc": [
+              "VC2E6LY01",
+              "VC2E8LY08"
+            ]
+          },
+          {
+            "q": "What would **your** bill be about?",
+            "lines": 1
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: write your speech",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write a short speech on your issue. Use the four parts. Give a reason with proof. Repeat one line.",
+          "core": "Write a 2-minute speech (about 250 to 300 words) on your issue, for your audience. Use the four parts, give evidence for each reason, and repeat one line on purpose.",
+          "extend": "Write a 2–3 minute speech on your issue for a specific audience. Use the four-part structure, substantiate each reason, use repetition and at least one metaphor or simile deliberately, and include a short rebuttal of an objection."
+        },
+        "plan": [
+          {
+            "label": "Hook:",
+            "lines": 1
+          },
+          {
+            "label": "Point (one sentence):",
+            "lines": 1
+          },
+          {
+            "label": "Proof 1 + evidence:",
+            "lines": 1
+          },
+          {
+            "label": "Proof 2 + evidence:",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Who here has ever…?",
+          "I believe that…",
+          "For example,…",
+          "We want… We want… We want…",
+          "So today I'm asking you to…"
+        ],
+        "lines": {
+          "support": 11,
+          "core": 13,
+          "extend": 12
+        },
+        "check": [
+          "hook",
+          "point",
+          "proof + evidence",
+          "repetition",
+          "push"
+        ],
+        "vc": [
+          "VC2E6LY02",
+          "VC2E6LA04",
+          "VC2E8LY08",
+          "VC2E8LA02"
+        ],
+        "vcNote": "Creating a structured persuasive spoken text (extend: raising an issue with deliberate language, including figurative language in evaluation)."
+      },
+      {
+        "type": "questions",
+        "title": "Keep writing",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Keep going here if you need more space.",
+            "lines": {
+              "support": 8,
+              "core": 10
+            }
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Get ready for questions",
+        "items": [
+          {
+            "q": "Write **two questions** someone might ask you, and how you'd answer each one with evidence.",
+            "lines": 4,
+            "vc": [
+              "VC2E6LY01"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: give your speech",
+        "pagebreak": true,
+        "where": "in class, at assembly, or to another real audience",
+        "instructions": "Make a cue card (key words only, not the whole speech). Practise twice. Then give your speech and answer questions.",
+        "need": [
+          "your cue card",
+          "a timer",
+          "a partner to give feedback"
+        ],
+        "steps": {
+          "support": [
+            "Make a cue card with key words.",
+            "Practise out loud twice.",
+            "Give your speech. Look up.",
+            "Answer one question.",
+            "Get feedback from a partner."
+          ],
+          "core": [
+            "Turn your speech into a cue card: just key words for each part.",
+            "Practise out loud twice. Time it: about 2 minutes.",
+            "Mark two places to **pause**.",
+            "Give your speech. Look up from your card.",
+            "Answer at least one question: listen, check, answer.",
+            "Get feedback from your partner on the voice check below."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Voice check: my partner circles what I did well. Slow enough · paused · looked up · loud enough · answered with evidence",
+            "lines": 1
+          },
+          {
+            "label": "My partner said the best part was:",
+            "lines": 1
+          },
+          {
+            "label": "Next time I'll:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Recording",
+          "Teacher saw it",
+          "Partner's feedback"
+        ],
+        "vc": [
+          "VC2E6LY02",
+          "VC2E4LY02",
+          "VC2E6LY01"
+        ],
+        "vcNote": "Hands-on: delivering a structured speech using features of voice, and responding to questions."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Rewrite your **opening** two ways: for your class, and for the local council. What changed: your words, your tone, how formal you were?",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY02"
+            ]
+          },
+          {
+            "q": "Write one **metaphor or simile** that makes your argument hit harder. Explain what it adds.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LA02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can plan a speech in four parts.",
+          "I can use repetition and strong words on purpose.",
+          "I can deliver a speech clearly.",
+          "I can answer questions about my speech."
+        ],
+        "questions": [
+          "How I felt before my speech, and after:",
+          "An issue I might speak up about for real:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The boss level of Your Voice. Students plan, write and deliver a 2-minute persuasive speech on an issue they care about, using a four-part structure (hook, point, proof, push), deliberate repetition, calibrated evaluative language and controlled delivery, then answer questions. The case study is the 2024 YMCA Victoria Youth Parliament bill on student public transport and the 2026 free public transport policy for under-18s.",
+    "prep": [
+      "Book time for every student to speak (about 3 minutes each, including questions), or set up recordings if live speaking isn't possible for some students.",
+      "Optional: show a short real speech by a young person and pause after the hook.",
+      "If your students want a real audience, look into YMCA Victoria Youth Parliament, your local council's youth advisory group, or a school assembly."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The shape",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** give a 30-second speech yourself, badly (no hook, no point). Then again, well. What changed?",
+          "**Explicit teaching (10 min):** hook, point, proof, push, using the model speech.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a speech."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Language and issue",
+        "minutes": 50,
+        "steps": [
+          "**Word strength (15 min):** discuss: why might *outrageous* lose a council audience?",
+          "**Pick your issue (15 min).**",
+          "**Case study (20 min):** a speech that rode the bus. Weigh the evidence: did the bill cause the change?"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write and rehearse",
+        "minutes": 50,
+        "steps": [
+          "**Write (30 min):** final mission. Conference with students as they write.",
+          "**Questions (10 min):** Get ready for questions.",
+          "**Rehearse (10 min):** pairs; cue cards; mark pauses."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Speak up",
+        "minutes": 50,
+        "steps": [
+          "**Speeches (40 min):** each student speaks and answers a question; partners complete the voice check.",
+          "**Reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Hook, point, proof, push.",
+      "Every reason needs evidence.",
+      "Repetition (often in threes) makes a speech stick.",
+      "Choose word strength for your audience.",
+      "Slow down, pause, look up; listen, check and answer questions with evidence."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer table rows; a shorter speech (about 1 minute).",
+        "Speak to a small group or record it first."
+      ],
+      "extend": [
+        "Add figurative language and a rebuttal.",
+        "Adapt the opening for two audiences (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LY02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Delivers a structured speech using features of voice: pace, pause, volume (Do it)."
+      },
+      {
+        "vc": "VC2E3LA02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Varies evaluative language to be more or less forceful for an audience (Word strength)."
+      },
+      {
+        "vc": "VC2E6LY02",
+        "evidence": "Delivers a structured persuasive speech to an intended audience with appropriate features of voice (Do it, final mission)."
+      },
+      {
+        "vc": "VC2E6LY01",
+        "evidence": "Uses interaction skills to clarify questions and support their argument in response (Get ready for questions, Do it, case study)."
+      },
+      {
+        "vc": "VC2E6LA04",
+        "evidence": "Uses repetition deliberately to create cohesion and emphasis (annotation, final mission)."
+      },
+      {
+        "vc": "VC2E8LY02",
+        "evidence": "Level Up: adapts the speech's opening for formal and informal audiences."
+      },
+      {
+        "vc": "VC2E8LY08",
+        "evidence": "Raises an issue and advances an opinion with deliberate language and textual choices (final mission, extended; case study)."
+      },
+      {
+        "vc": "VC2E8LA02",
+        "evidence": "Level Up: uses a simile or metaphor to add layers to evaluative language."
+      }
+    ],
+    "answers": "**Four parts:** hook, point, proof, push. Repetition makes ideas stick and ties a speech together. Delivery: slow pace, pauses, eye contact, volume.\n\n**Model speech:** 1 hook (question); 2 point; 3 proof by example; 4 proof by fact; 5 repetition (pattern of three); 6 push (call to action with a deadline).\n\n**Word strength:** good → great → amazing; worried → scared → terrified; a problem → needs fixing → a disaster. Choices depend on audience: firmer for decision-makers, but not so strong they stop listening.\n\n**Case study:** the team argued for free or fairer public transport for students; evidence for: the bill passed and was given to government in 2024, and the policy matched it in 2025; against: the government hasn't credited the bill and policies have many causes.",
+    "resources": [
+      {
+        "label": "YMCA Victoria — Youth Parliament policy becomes reality: free public transport for under 18s",
+        "url": "https://victoria.ymca.org.au/news-and-events/2025/05/20/youth-parliament-free-transport-under-18s"
+      },
+      {
+        "label": "YMCA Victoria — Youth Parliament idea becomes reality as under 18s travel free (2026)",
+        "url": "https://victoria.ymca.org.au/news-and-events/2026/02/19/free-travel-for-under-18s-in-vic"
+      },
+      {
+        "label": "Premier of Victoria — Free public transport for every child (2025)",
+        "url": "https://www.premier.vic.gov.au/free-public-transport-every-child-every-day-everywhere"
+      },
+      {
+        "label": "Youth Central — Youth Parliament",
+        "url": "https://www.youthcentral.vic.gov.au/get-involved/youth-programs/youth-parliament"
+      }
+    ],
+    "realityCheck": [
+      "**Speaking is scary for many students.** Offer a ladder: speak to a partner, then a small group, then the class. A recording counts as evidence. Never make anxiety a punishment.",
+      "**Issues can get personal.** Students may choose topics close to home. Set the expectation: argue for change, don't attack people, and keep classmates' stories private.",
+      "**Timing.** Twenty-five students at 3 minutes each is a whole lesson. Run speeches across two lessons, or in small groups with rotating listeners.",
+      "**Real audiences raise the stakes, and the quality.** An assembly, a council youth forum or Youth Parliament make it real. Even emailing the speech to a local MP gives it a purpose.",
+      "**Works in a real class:** yes. As the boss level, it draws on every Your Voice skill: story (hook), evidence (review and complain), voice (make the call) and repetition (lyrics)."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer rows, a shorter speech and simpler Do it steps.",
+      "core": "Standard version: four-part speech, annotation, word strength, issue planning, the Youth Parliament case, a 2-minute speech, question prep and delivery.",
+      "extend": "Adds repetition and rebuttal to the vocabulary, a figurative language quiz question, a 2–3 minute speech with metaphor and rebuttal, and Level Ups on audience and figurative language."
+    }
+  }
+}
