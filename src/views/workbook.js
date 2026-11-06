@@ -123,7 +123,7 @@ const BLOCKS = {
     return html`${blockTitle(b, 'lucide:pen-line')}
     <p class="wb-prompt">${mdInline(b.prompt)}</p>
     <div class="wb-plan">${(b.plan || []).map((p) => html`<div class="wb-card"><h3>${p.label}</h3>${lines(p.lines)}</div>`)}</div>
-    <div class="wb-starters"><b>${icon('lucide:sparkles')} Sentence starters</b>${b.starters.map((s) => html`<span>${s}</span>`)}</div>
+    ${b.starters?.length ? html`<div class="wb-starters"><b>${icon('lucide:sparkles')} Sentence starters</b>${b.starters.map((s) => html`<span>${s}</span>`)}</div>` : ''}
     <div class="wb-write">${lines(b.lines || 8, 'lines-tall')}</div>
     ${b.check ? html`<p class="wb-check">${icon('lucide:list-checks')} <b>Check:</b> ${b.check.map((x) => html`<span><i class="tickbox"></i>${x}</span>`)}</p>` : ''}`;
   },

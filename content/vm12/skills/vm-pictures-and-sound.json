@@ -1,0 +1,851 @@
+{
+  "id": "vm-pictures-and-sound",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Think of a horror trailer. You can *hear* it: a low hum, then silence, then a scream. Nobody told you to feel scared. The **pictures and sound** did.",
+      "core": "Close your eyes and think of a horror film trailer. You can probably *hear* it: the low hum, the sudden silence, the scream. Now picture a car ad: wide open road, sunset, a song that makes you want to drive. Nobody told you how to feel. The **pictures and sound** did."
+    },
+    "why": {
+      "support": "Films, ads and videos use **pictures**, **colour**, **music** and **sound**. They're all chosen on purpose. Learn to read them, and you'll see what a text is really saying.",
+      "core": "Most texts you see each day aren't just words. Films, ads, posters, videos and safety signs all use **images**, **colour**, **music** and **sound effects** to make meaning. Every one of those is chosen on purpose. When you can read them, you understand what a text is really saying, and you can use them when you make your own.",
+      "extend": "Visual and auditory cues carry meaning alongside, and sometimes instead of, words. Camera shots, colour, layout, music and sound effects are deliberate choices. Annotating them, and inferring what they suggest, lets you interpret how a text creates meaning and positions its audience."
+    },
+    "canDo": {
+      "support": [
+        "I can spot picture clues like colour and close-ups.",
+        "I can spot sound clues like music.",
+        "I can label a poster.",
+        "I can work out what a text means."
+      ],
+      "core": [
+        "I can spot **visual cues**: shots, colour, layout and symbols.",
+        "I can spot **sound cues**: music, sound effects, voice and silence.",
+        "I can **annotate** a poster or video to show how it makes meaning.",
+        "I can **infer** what a text means from its pictures and sound."
+      ]
+    },
+    "showIt": "Annotate a real poster and a real video for their visual and sound cues, and explain what they make the audience think and feel.",
+    "vocab": [
+      {
+        "word": "visual cue",
+        "meaning": "a picture clue: colour, a shot, a symbol, the layout",
+        "example": "Red is a visual cue for danger."
+      },
+      {
+        "word": "sound cue",
+        "meaning": "a sound clue: music, a sound effect, a voice, silence",
+        "example": "The siren was a sound cue."
+      },
+      {
+        "word": "close-up",
+        "meaning": "a camera shot very near a face or object",
+        "example": "The close-up showed she was scared."
+      },
+      {
+        "word": "wide shot",
+        "meaning": "a camera shot that shows the whole scene",
+        "example": "The wide shot showed the empty beach."
+      },
+      {
+        "word": "jingle",
+        "meaning": "a short, catchy song in an ad",
+        "example": "I still remember the jingle."
+      },
+      {
+        "word": "symbol",
+        "meaning": "a picture that stands for an idea",
+        "example": "A heart is a symbol of love."
+      },
+      {
+        "word": "infer",
+        "meaning": "work out something that isn't said directly",
+        "example": "I inferred she was lying from the music."
+      },
+      {
+        "word": "layout",
+        "meaning": "how words and pictures are arranged on a page or screen",
+        "example": "The layout put the price in the centre.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Pictures & Sound in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Pictures & Sound",
+        "sub": "Read the images, music and sound, not just the words.",
+        "icon": "lucide:clapperboard",
+        "say": "Pictures and sound. Read the images and music, not just the words."
+      },
+      {
+        "kind": "big",
+        "title": "Nothing is random",
+        "text": "Every picture. Every sound. **On purpose.**",
+        "icon": "lucide:sparkles",
+        "say": "Every image and every sound in a text is chosen on purpose. Each one adds to the meaning.",
+        "vc": [
+          "VM-U1O1-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Pictures",
+        "pillIcon": "lucide:camera",
+        "title": "Shots",
+        "text": "Close-up · Wide · **Low angle**",
+        "icon": "lucide:camera",
+        "say": "Shots. A close-up makes it personal. A wide shot shows the whole scene. A low angle makes someone look powerful.",
+        "vc": [
+          "VM-U1O1-KK3",
+          "VM-U1O1-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Pictures",
+        "pillIcon": "lucide:camera",
+        "title": "Colour",
+        "text": "Red · Blue · **Bright**",
+        "icon": "lucide:palette",
+        "say": "Colour. Red can mean danger or love. Blue can feel calm or cold. Bright colours feel happy.",
+        "vc": [
+          "VM-U1O1-KK3",
+          "VM-U1O1-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "♪",
+        "pill": "Sound",
+        "pillIcon": "lucide:music",
+        "title": "Music",
+        "text": "Fast = exciting · **Slow = sad**",
+        "icon": "lucide:music",
+        "say": "Music sets the mood. Fast and upbeat feels exciting. Slow and low feels sad or scary.",
+        "vc": [
+          "VM-U1O1-KK3",
+          "VM-U1O1-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "!",
+        "pill": "Sound",
+        "pillIcon": "lucide:music",
+        "title": "Effects + silence",
+        "text": "Siren · Heartbeat · **Silence**",
+        "icon": "lucide:volume-2",
+        "say": "Sound effects and silence. A siren warns. A sudden silence makes you hold your breath.",
+        "vc": [
+          "VM-U1O1-KK3"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "The jingle that stuck",
+        "text": "**Slip! Slop! Slap!**",
+        "icon": "lucide:sun",
+        "say": "In 1981, a dancing cartoon seagull sang slip, slop, slap. The jingle was so catchy it's now an official Sound of Australia."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "See it. Hear it. Read it.",
+        "icon": "lucide:clapperboard",
+        "say": "Your mission. Annotate a real poster and a real video, and explain what their pictures and sound make you think and feel."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Reading pictures and sound",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Videos and posters use **picture clues** and **sound clues**. They're chosen on purpose.\n\n**Picture clues**\n\n- **Close-up**: you feel what the person feels.\n- **Wide shot**: you see the whole place.\n- **Colour**: red can mean danger. Blue can feel calm.\n- **Big and bright**: you notice it first.\n\n**Sound clues**\n\n- **Music**: fast is exciting. Slow is sad.\n- **Sound effects**: a siren warns you.\n- **Silence**: makes you hold your breath.\n\n**Work it out.** Texts don't always say what they mean. You **infer** it. Grey rain, then bright sun, after a pill? The ad wants you to think the pill helps.\n\n**Annotate.** Draw an arrow to each clue. Write what it makes you feel.",
+          "core": "When you watch a video or look at a poster, words are only part of the message. The rest comes from **visual cues** (what you see) and **sound cues** (what you hear). They're always chosen on purpose.\n\n**Visual cues**\n\n- **Shots.** A **close-up** gets near a face, so you feel what the person feels. A **wide shot** shows the whole scene, so you see where you are, or how alone someone is. A camera looking *up* at someone makes them seem powerful.\n- **Colour.** Red can mean danger, heat or love. Blue can feel calm, or cold. Bright, warm colours feel happy. Grey feels sad or dull.\n- **Layout.** On a poster, the biggest, brightest thing in the centre is what you notice first. Designers put the most important message there.\n- **Symbols.** A red cross means first aid. A tick means *yes* or *done*. A symbol can say a lot without any words.\n\n**Sound cues**\n\n- **Music** sets the mood. Fast and upbeat feels exciting. Slow, low notes feel sad or scary. A **jingle** is a short, catchy song that helps you remember.\n- **Sound effects** add meaning: a siren warns, a heartbeat builds tension.\n- **Voice.** A calm voice reassures. A shout grabs attention.\n- **Silence.** A sudden silence makes you hold your breath.\n\n**Reading between the lines.** Texts often don't *say* what they want you to think. You **infer** it from the cues. If an ad shows grey rain *before* someone takes a pill and bright sunshine *after*, it's suggesting the pill makes life better, without saying so.\n\n**How to annotate.** Draw arrows to each cue, label it, and write what it makes the audience think or feel.",
+          "extend": "In multimodal texts, meaning comes from **visual** and **auditory** cues as well as words. These cues are chosen on purpose. Reading them matters as much as reading the words.\n\n**Visual cues**\n\n- **Shot type and angle:** a **close-up** brings us close to someone's feelings. A **wide shot** shows the setting, or how isolated someone is. A low angle makes a person look powerful; a high angle makes them look small.\n- **Colour:** red can suggest danger or passion; blue, calm or coldness. These meanings depend on context and culture.\n- **Layout:** size, brightness and central placement guide the viewer's eye to what the designer wants seen first.\n- **Symbols:** images with agreed meanings, like a red cross or a tick.\n\n**Auditory cues**\n\n- **Music** sets mood and pace. A **jingle** sticks in memory through repetition and rhythm.\n- **Sound effects** add realism or tension.\n- **Voice** (calm, urgent, warm) shapes how a message is received.\n- **Silence** creates emphasis by contrast.\n\n**Inference.** Multimodal texts often suggest rather than state. Putting a grey, rainy *before* next to a bright *after* suggests a product changes lives, without making a claim anyone could test. Working out these hidden meanings is central to critical viewing.\n\n**Annotation** makes your analysis visible. Find each cue, name it precisely, and explain its effect on the audience."
+        },
+        "vc": [
+          "VM-U1O1-KK3",
+          "VM-U1O1-KS2",
+          "VM-U1O1-KS4"
+        ],
+        "vcNote": "How visual and auditory cues create meaning; annotating layout and structure; inferring implied meaning."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The jingle that stuck",
+        "icon": "lucide:sun",
+        "body": {
+          "support": "In the 1980s, lots of Australians got skin cancer. **Cancer Council Victoria** wanted people to protect themselves from the sun.\n\nIn **1981**, they made an ad with a cartoon seagull called **Sid**. Sid danced and sang a catchy song: *Slip! Slop! Slap!* Slip on a shirt. Slop on sunscreen. Slap on a hat.\n\nThe clues:\n\n- **Sound:** a bouncy, catchy song.\n- **Pictures:** a bright, friendly cartoon.\n- **Words:** three short, rhyming actions.\n\nPeople still remember it. In **2023**, it was added to a list of official **Sounds of Australia**.",
+          "core": "In the early 1980s, Australia had very high rates of skin cancer. The Anti-Cancer Council of Victoria (now **Cancer Council Victoria**) wanted people to protect themselves from the sun. But how do you get a whole country to remember?\n\nIn **1981**, they launched an ad with a cartoon character: **Sid the Seagull**. Sid danced on the beach in board shorts and sang a short, catchy **jingle**: *Slip! Slop! Slap!* Slip on a shirt, slop on sunscreen, slap on a hat.\n\nThe jingle was written by **Phillip Adams** and composed by **Peter Best**. They adapted it from a Queensland campaign called *Slip Slop Shove*.\n\nThink about the cues:\n\n- **Sound:** a bouncy, repeated jingle that's easy to remember.\n- **Visuals:** a bright, friendly cartoon instead of scary pictures.\n- **Words:** three short actions that rhyme and are easy to say.\n\nIt was so catchy that many people who were kids in the 1980s can still sing it. In **2023**, the **National Film and Sound Archive** added the jingle to its **Sounds of Australia** list, alongside famous Australian songs.\n\nThe message was serious, but the pictures and sound made it fun, friendly and impossible to forget.",
+          "extend": "In the early 1980s, skin cancer rates in Australia were very high. The Anti-Cancer Council of Victoria (now **Cancer Council Victoria**) needed a health message that would reach the whole population, and stay with them.\n\nIn **1981**, it launched a TV ad starring **Sid the Seagull**, a cartoon seagull in board shorts. Sid sang a short **jingle**: *Slip! Slop! Slap!* **Phillip Adams** wrote it and **Peter Best** composed it. They adapted it from a Queensland Cancer Fund campaign, *Slip Slop Shove*.\n\nThe ad's cues work together:\n\n- **Sound:** a bouncy, repeated jingle with a strong rhythm that's easy to remember.\n- **Visuals:** a bright, friendly cartoon instead of confronting medical images. This keeps the tone positive and suits children.\n- **Words:** three one-syllable commands that start with the same sound and are easy to recall.\n\nThe jingle became part of Australian culture. In **2023**, the **National Film and Sound Archive** added it to its **Sounds of Australia** list.\n\nThe case shows how playful visual and sound choices can carry a serious message, and how sound can make a text memorable for decades."
+        },
+        "source": {
+          "name": "National Film and Sound Archive — “Slip Slop Slap and I Am Australian join Sounds of Australia” (2023)",
+          "url": "https://www.nfsa.gov.au/about/media-releases/national/slip-slop-slap-i-am-australian-join-sounds-australia"
+        },
+        "think": {
+          "support": [
+            "What made the ad catchy?",
+            "Why use a cartoon?"
+          ],
+          "core": [
+            "What visual and sound cues did the ad use?",
+            "Why might a cheerful cartoon work better than scary pictures for this audience?",
+            "Why do you think people still remember the jingle?"
+          ]
+        },
+        "vc": [
+          "VM-U1O1-KK3",
+          "VM-U1O1-KS4"
+        ],
+        "vcNote": "A real Australian campaign whose meaning is carried by visual and auditory cues."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a poster",
+      "docTitle": "SAFETY POSTER: “SEE IT. SAY IT. STOP IT.” (EXAMPLE)",
+      "vc": [
+        "VM-U1O1-KS2",
+        "VM-U1O1-KK3",
+        "VM-U1O1-KS4"
+      ],
+      "vcNote": "How layout, colour, image and words work together on a poster.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Colour",
+          "value": "Bright red and yellow stripes along the top",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Image",
+          "value": "Close-up of a worker's gloved hand pressing a red STOP button"
+        },
+        {
+          "n": 3,
+          "label": "Headline",
+          "value": "SEE IT. SAY IT. STOP IT. (huge, bold, centred)"
+        },
+        {
+          "n": 4,
+          "label": "Symbol",
+          "value": "A yellow warning triangle with an exclamation mark"
+        },
+        {
+          "n": 5,
+          "label": "Small text",
+          "value": "Report every hazard to your supervisor."
+        },
+        {
+          "n": 6,
+          "label": "Logo",
+          "value": "Company logo, bottom right corner",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Colour",
+          "note": "Red and yellow signal danger and warning."
+        },
+        {
+          "n": 2,
+          "label": "Close-up",
+          "note": "Makes the action personal: your hand."
+        },
+        {
+          "n": 3,
+          "label": "Layout",
+          "note": "Biggest and central: noticed first."
+        },
+        {
+          "n": 4,
+          "label": "Symbol",
+          "note": "Means warning, without words."
+        },
+        {
+          "n": 5,
+          "label": "Detail",
+          "note": "Smaller: read after the main message."
+        },
+        {
+          "n": 6,
+          "label": "Logo",
+          "note": "Who's behind it. Least important, so it's small."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Read pictures and sound",
+      "steps": [
+        {
+          "title": "See",
+          "text": "Shots, colour, layout, symbols.",
+          "icon": "lucide:eye"
+        },
+        {
+          "title": "Hear",
+          "text": "Music, effects, voice, silence.",
+          "icon": "lucide:ear"
+        },
+        {
+          "title": "Infer",
+          "text": "What does it suggest?",
+          "icon": "lucide:lightbulb"
+        },
+        {
+          "title": "Annotate",
+          "text": "Label it. Explain the effect.",
+          "icon": "lucide:pencil"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What does a **close-up** usually do?",
+        "options": [
+          "Makes it feel personal, so you feel what the person feels",
+          "Shows the whole scene",
+          "Makes it funny",
+          "Hides the face"
+        ],
+        "answer": 0,
+        "explain": "Wide shots show the whole scene.",
+        "vc": [
+          "VM-U1O1-KK3"
+        ]
+      },
+      {
+        "q": "On a safety poster, why are the most important words big and in the centre?",
+        "options": [
+          "So you notice them first",
+          "To fill space",
+          "Because it's the law",
+          "To hide the logo"
+        ],
+        "answer": 0,
+        "explain": "Layout directs your eye.",
+        "vc": [
+          "VM-U1O1-KS2"
+        ]
+      },
+      {
+        "q": "Slow, low music in a film trailer usually makes you feel…",
+        "options": [
+          "sad or scared",
+          "excited",
+          "hungry",
+          "nothing"
+        ],
+        "answer": 0,
+        "explain": "Music sets the mood.",
+        "vc": [
+          "VM-U1O1-KK3"
+        ]
+      },
+      {
+        "q": "An ad shows grey rain, then bright sun after someone drinks a juice. What does it want you to **infer**?",
+        "options": [
+          "The juice makes life better",
+          "It's going to rain",
+          "Juice is grey",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "It suggests without saying.",
+        "vc": [
+          "VM-U1O1-KS4"
+        ]
+      },
+      {
+        "q": "Why did Slip! Slop! Slap! use a cheerful cartoon seagull?",
+        "options": [
+          "To make a serious message friendly and easy to remember",
+          "Because seagulls get sunburnt",
+          "To scare people",
+          "By accident"
+        ],
+        "answer": 0,
+        "explain": "Pictures and sound carried the message.",
+        "vc": [
+          "VM-U1O1-KK3",
+          "VM-U1O1-KS4"
+        ]
+      },
+      {
+        "q": "What happened to the Slip! Slop! Slap! jingle in 2023?",
+        "options": [
+          "It was added to the National Film and Sound Archive's Sounds of Australia",
+          "It was banned",
+          "It was replaced",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "It's now an official Sound of Australia.",
+        "vc": [
+          "VM-U1O1-KK3"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Comparing a 1981 cartoon ad and a modern ad with real people: what's the most useful question?",
+        "options": [
+          "How do their visual and sound choices suit their audiences?",
+          "Which one is older?",
+          "Which one is longer?",
+          "Which has more words?"
+        ],
+        "answer": 0,
+        "explain": "Compare the structure, language and presentation.",
+        "vc": [
+          "VM-U1O1-KS7"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Label the picture and sound clues in a real poster and a real video. Say how they make you feel.",
+      "core": "Annotate a real poster and a real video for their visual and sound cues, and explain what they make the audience think and feel.",
+      "extend": "Annotate a real poster and video, infer their implied messages, and compare how two texts on the same topic use visual and auditory cues for different audiences."
+    },
+    "checklist": [
+      "I found at least three visual cues",
+      "I found at least two sound cues",
+      "I labelled each cue",
+      "I explained what each one makes the audience think or feel",
+      "I inferred a message the text doesn't say directly"
+    ],
+    "levelUp": "Compare two ads on the same topic (for example, an old and a new sun-safety ad). How do their pictures and sound suit their different audiences?",
+    "vc": [
+      "VM-U1O1-KK3",
+      "VM-U1O1-KS2",
+      "VM-U1O1-KS4"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Reading pictures and sound",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name **three** visual cues and **two** sound cues.",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KK3"
+            ]
+          },
+          {
+            "q": "What's the difference between a **close-up** and a **wide shot**?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KK3"
+            ]
+          },
+          {
+            "q": "What does it mean to **infer** something from a text?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Read pictures and sound",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a poster",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a choice on the poster. Use the word bank. How does it make you feel?",
+          "core": "Each number marks a choice on the poster. Write what it is and what it makes the viewer think or feel."
+        },
+        "columns": [
+          "What is it?",
+          "What does it make you think or feel?"
+        ],
+        "wordBank": {
+          "support": [
+            "colour",
+            "close-up",
+            "layout",
+            "symbol",
+            "detail",
+            "logo"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O1-KS2",
+          "VM-U1O1-KK3"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "What's the mood?",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "instructions": "Imagine each scene in a short film. Write the **mood** it creates, and what you **infer** might happen next. The first one is done for you.",
+        "columns": [
+          "Scene",
+          "Mood",
+          "What I infer"
+        ],
+        "rows": [
+          [
+            "Wide shot of an empty road at night. Slow, low music.",
+            "Lonely, tense",
+            "Something bad might happen"
+          ],
+          [
+            "Close-up of a smiling face. Bright sunlight. Upbeat song.",
+            "",
+            ""
+          ],
+          [
+            "Grey sky. Rain. A phone buzzing with no answer.",
+            "",
+            ""
+          ],
+          [
+            "Sudden silence. Then a heartbeat sound.",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Low angle looking up at a coach shouting.",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KS4",
+          "VM-U1O1-KK3"
+        ],
+        "vcNote": "Inferring meaning from combined visual and auditory cues."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the jingle that stuck",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "List the **sound**, **visual** and **word** cues the ad used.",
+            "lines": 3,
+            "vc": [
+              "VM-U1O1-KK3"
+            ]
+          },
+          {
+            "q": "Why might a cheerful cartoon work better than scary pictures for this audience?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS4"
+            ]
+          },
+          {
+            "q": "Why do you think people still remember the jingle more than 40 years later?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KK3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: annotate a real video",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 21,
+          "core": 19
+        },
+        "instructions": "Choose a real ad, trailer or short video (one your teacher shows, or one you can watch without an account). Watch it twice: once with sound, once without. Then annotate it. The first row shows an example.",
+        "columns": [
+          "Cue",
+          "What I saw or heard",
+          "What it makes the audience think or feel"
+        ],
+        "rows": [
+          [
+            "Example: music",
+            "Fast, upbeat drums",
+            "Excited, like something fun is coming"
+          ],
+          [
+            "Shot (close-up, wide, angle)",
+            "",
+            ""
+          ],
+          [
+            "Colour",
+            "",
+            ""
+          ],
+          [
+            "Music",
+            "",
+            ""
+          ],
+          [
+            "Sound effect, voice or silence",
+            "",
+            ""
+          ],
+          [
+            "Words or text on screen",
+            "",
+            ""
+          ],
+          [
+            "A message it suggests but doesn't say",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U1O1-KS2",
+          "VM-U1O1-KK3",
+          "VM-U1O1-KS4"
+        ],
+        "vcNote": "Annotating the structural, visual and auditory elements of a real film text."
+      },
+      {
+        "type": "storyboard",
+        "title": "Annotate a real poster",
+        "pagebreak": true,
+        "frames": 1,
+        "columns": 1,
+        "rows": [
+          "Its main message",
+          "What it suggests without saying"
+        ],
+        "boxHeight": {
+          "support": 140,
+          "core": 140
+        },
+        "instructions": "Stick in, or sketch, a real poster (a safety sign, an ad, a gig poster). Draw arrows to at least **four** visual cues and label each one with its effect.",
+        "hints": [
+          "My poster"
+        ],
+        "vc": [
+          "VM-U1O1-KS2",
+          "VM-U1O1-KS4"
+        ],
+        "vcNote": "Annotating the layout and design of a real print text."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find **two** ads on the same topic (for example, an old and a new sun-safety ad, or two phone ads). Compare how they use pictures and sound. Who is each one for?",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS7"
+            ]
+          },
+          {
+            "q": "Which one is more effective for its audience? Give evidence from both.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can spot visual cues.",
+          "I can spot sound cues.",
+          "I can annotate a poster or video.",
+          "I can infer what a text suggests."
+        ],
+        "questions": [
+          "A video I'll now watch differently:",
+          "The cue I notice most now:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to read visual cues (shot type and angle, colour, layout, symbols) and auditory cues (music, sound effects, voice, silence) in films, ads, posters and videos, and to infer implied meanings. They annotate a poster and a real video, and the case study is Cancer Council Victoria's 1981 Slip! Slop! Slap! ad with Sid the Seagull, added to the National Film and Sound Archive's Sounds of Australia in 2023. Extend students compare two texts on the same topic.",
+    "prep": [
+      "Choose 2–3 short videos (ads, trailers, public safety campaigns) with strong visual and sound choices. Avoid age-inappropriate content.",
+      "Find the Sid the Seagull ad (NFSA and Cancer Council have versions online) to play in class.",
+      "Bring real posters, or print some (workplace safety posters work well for VM)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — See and hear",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** play a trailer with sound, then without. What changed?",
+          "**Explicit teaching (10 min):** visual and sound cues; inference.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a poster."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Infer",
+        "minutes": 50,
+        "steps": [
+          "**What's the mood? (15 min).**",
+          "**Case study (20 min):** play Sid the Seagull, then discuss.",
+          "**Start the final mission (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Annotate",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (20 min):** annotate a real video.",
+          "**Annotate a real poster (20 min).**",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Visual cues: shots (close-up, wide, angle), colour, layout, symbols.",
+      "Sound cues: music, sound effects, voice, silence.",
+      "Every cue is chosen on purpose and adds to meaning.",
+      "Inference: texts often suggest rather than say.",
+      "Annotate: label the cue, explain its effect on the audience.",
+      "Slip! Slop! Slap! (1981): a serious message carried by a friendly cartoon and catchy jingle."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer mood rows.",
+        "Teacher-chosen video, watched together."
+      ],
+      "extend": [
+        "Compare two texts on the same topic (Level Up).",
+        "Discuss how colour meanings depend on culture and context."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O1-KK3",
+        "evidence": "Explains how visual and auditory cues and language create meaning (Check your reading, mood table, case study)."
+      },
+      {
+        "vc": "VM-U1O1-KS2",
+        "evidence": "Annotates layouts, designs and structural elements of print and film texts (poster annotation, video table)."
+      },
+      {
+        "vc": "VM-U1O1-KS4",
+        "evidence": "Infers meaning from context and cues (mood table, final mission)."
+      },
+      {
+        "vc": "VM-U1O1-KS7",
+        "evidence": "Level Up: compares the structure, language and presentation of two texts."
+      }
+    ],
+    "answers": "**Check your reading:** visual: shots, colour, layout, symbols; sound: music, effects, voice, silence. A close-up is near a face or object (personal); a wide shot shows the whole scene. To infer is to work out what a text suggests without saying it.\n\n**Poster:** 1 colour (danger, warning); 2 close-up (personal); 3 layout (noticed first); 4 symbol (warning without words); 5 detail (read after the main message); 6 logo (who's behind it).\n\n**Mood (samples):** smiling close-up — happy, warm; something good is happening. Grey rain and an unanswered phone — worried, lonely; something's wrong. Silence then heartbeat — tense; something scary is about to happen. Low angle on a shouting coach — powerful, intimidating; the coach is in charge.\n\n**Case study:** sound: a bouncy, repetitive jingle; visual: a bright cartoon seagull; words: three short rhyming actions. A cartoon keeps it friendly and suits kids and families; scary images might make people switch off. It's catchy, repeated and simple.",
+    "resources": [
+      {
+        "label": "NFSA — Slip Slop Slap and I Am Australian join Sounds of Australia (2023)",
+        "url": "https://www.nfsa.gov.au/about/media-releases/national/slip-slop-slap-i-am-australian-join-sounds-australia"
+      },
+      {
+        "label": "NFSA — Slip Slop Slap jingle (Peter Best and Phillip Adams)",
+        "url": "https://www.nfsa.gov.au/collection/curated/slip-slop-slap-jingle-peter-best-and-phillip-adams"
+      },
+      {
+        "label": "Cancer Council Australia — The birth of Slip, Slop, Slap",
+        "url": "https://www.cancer.org.au/about-us/news-and-media/articles/the-birth-of-slip-slop-slap-and-the-science-behind-nation-wide-behaviour-change"
+      }
+    ],
+    "realityCheck": [
+      "**Watching with and without sound** is the most powerful activity. Students are often surprised by how much the music does.",
+      "**Choose videos carefully.** Avoid ads for alcohol, gambling and vaping, and check trailers for age ratings.",
+      "**Colour meanings aren't universal.** Invite students to share what colours mean in their cultures.",
+      "**Some students are visual thinkers.** Sketching and labelling may suit them better than writing paragraphs.",
+      "**Works in a real class:** yes. It leads into Make a Podcast in Digital Life."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 7 key words, 3-choice quiz, word bank on the annotation, fewer mood rows and a teacher-chosen video.",
+      "core": "Standard version: visual and sound cues, poster anatomy, a mood-and-inference table, the Slip! Slop! Slap! case, annotating a real video and a real poster.",
+      "extend": "Adds layout to the vocabulary, a quiz question on comparing texts, and Level Ups comparing two texts' visual and sound choices for their audiences."
+    }
+  }
+}
