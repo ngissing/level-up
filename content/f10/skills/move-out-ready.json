@@ -1,0 +1,1057 @@
+{
+  "id": "move-out-ready",
+  "version": 1,
+  "duration": "5 lessons (about 4 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "Room A: **$220 a week**, close to TAFE. Room B: **$190 a week**, two buses away. Which is cheaper, really?",
+      "core": "Two rooms in share houses. Room A: **$220 a week**, a 5-minute walk from TAFE. Room B: **$190 a week**, but two buses away, with bills extra. Room B looks cheaper. Is it? And when you find the right one, what do you sign, and what can the agent ask you?"
+    },
+    "why": {
+      "support": "Moving out means reading ads, forms and a lease. Get it right, and you'll know what you can pay, and what you're signing.",
+      "core": "Moving out is one of the biggest money decisions you'll make, and it's full of reading: rental ads, applications, leases and condition reports. Get it right and you'll know what you can afford, what you're signing, and what your rights are. Get it wrong, and you could be locked into a place you can't pay for.",
+      "extend": "Renting draws on almost every skill in Money Moves and Get Sorted: budgeting, comparing information, reading formal documents, knowing your rights and writing formally. The documents are legally significant, so careful reading has real financial consequences."
+    },
+    "canDo": {
+      "support": [
+        "I can budget for rent and bills.",
+        "I can compare two rentals.",
+        "I know what agents can't ask.",
+        "I can read a lease and write an email."
+      ],
+      "core": [
+        "I can **budget** for rent and bills.",
+        "I can read and **compare** rental ads, including hidden costs.",
+        "I know what an agent **can and can't** ask or charge in Victoria.",
+        "I can read the key parts of a **lease**, and write a formal enquiry."
+      ]
+    },
+    "showIt": "Compare real rentals, build a move-out budget, unpack a lease and write a formal enquiry to an agent.",
+    "vocab": [
+      {
+        "word": "rent",
+        "meaning": "money you pay to live in a place, usually each week",
+        "example": "The rent is $220 a week."
+      },
+      {
+        "word": "bond",
+        "meaning": "money paid at the start, kept safe in case of damage or unpaid rent",
+        "example": "My bond is held by the RTBA."
+      },
+      {
+        "word": "lease",
+        "meaning": "the rental agreement you sign",
+        "example": "I read the lease before I signed it."
+      },
+      {
+        "word": "bills",
+        "meaning": "costs like power, gas, water and internet",
+        "example": "Bills are extra, shared four ways."
+      },
+      {
+        "word": "inspection",
+        "meaning": "a chance to look at the place before you apply",
+        "example": "The inspection is on Saturday at 10."
+      },
+      {
+        "word": "rental provider",
+        "meaning": "the landlord: the person who owns the property",
+        "example": "The rental provider must lodge my bond."
+      },
+      {
+        "word": "fixed term",
+        "meaning": "a lease for a set time, like 12 months",
+        "example": "It's a 12-month fixed term.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "condition report",
+        "meaning": "a record of what the place is like when you move in",
+        "example": "I added photos to the condition report.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Move Out Ready in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Move Out Ready",
+        "sub": "Rental applications, leases and bills.",
+        "icon": "lucide:house",
+        "say": "Move out ready. Rental applications, leases and bills."
+      },
+      {
+        "kind": "flag",
+        "letter": "$",
+        "pill": "Get ready",
+        "pillIcon": "lucide:house",
+        "title": "Budget first",
+        "text": "Rent + bills + food + **transport**",
+        "icon": "lucide:calculator",
+        "say": "Start with your budget. Rent, plus bills, plus food, plus transport. What's left?",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "A",
+        "pill": "Get ready",
+        "pillIcon": "lucide:house",
+        "title": "Read the ad",
+        "text": "Per week · Bills? · **Furnished?**",
+        "icon": "lucide:newspaper",
+        "say": "Read the ad closely. Per week or per month? Bills included or extra? Furnished or not?",
+        "vc": [
+          "VC2E5LA08",
+          "VC2E4LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "=",
+        "pill": "Get ready",
+        "pillIcon": "lucide:house",
+        "title": "Compare the total",
+        "text": "$190 rent ≠ **cheaper**",
+        "icon": "lucide:scale",
+        "say": "Compare the total, not just the rent. The cheaper room can cost more once you add bills and transport.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "The new rules",
+        "text": "One form · **No fees** · No bidding",
+        "icon": "lucide:file-check",
+        "say": "In Victoria, from thirty-one March twenty twenty-six, every rental application must use one standard form. No fees. No bidding. No extra questions.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "L",
+        "pill": "Get ready",
+        "pillIcon": "lucide:house",
+        "title": "Read the lease",
+        "text": "Term · Rent · Bills · **Bond**",
+        "icon": "lucide:file-signature",
+        "say": "Read the lease before you sign. How long, how much, who pays the bills, and what happens to your bond.",
+        "vc": [
+          "VC2E8LA06",
+          "VC2E7LY07"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Move out ready",
+        "steps": [
+          "Budget",
+          "Compare",
+          "Inspect",
+          "Apply",
+          "Read, then sign"
+        ],
+        "say": "To move out ready: budget, search and compare, inspect, apply, then read before you sign."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Budget. Compare. Read. Write.",
+        "icon": "lucide:key-round",
+        "say": "Your mission. Compare real rentals, build a budget, unpack a lease, and write to an agent."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Ready to move out?",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Moving out takes lots of reading.\n\n**1. Budget first.** Add up your money. Take away **rent**, **bills**, food and transport. Is anything left?\n\n**2. Read the ad.**\n\n- Rent per week, or per month?\n- How much is the **bond**?\n- Are bills included?\n- How long is the **lease**?\n\n**3. Compare the total.** Cheaper rent isn't always cheaper. Add bills and transport.\n\n**4. Go to the inspection.** Check the heating, hot water and locks.\n\n**5. Know the rules.** In Victoria, from **2026**, everyone uses the **same application form**. Agents can't charge a fee to apply. They can't ask you to pay more rent than the ad says.\n\n**6. Read the lease.** Your bond goes to the **RTBA**, not the landlord. Take photos when you move in.\n\nNeed help? Ask **Tenants Victoria**.",
+          "core": "Moving out, whether it's next year or in five, takes more reading than most people expect.\n\n**1. Budget first.** Before you look at a single ad, work out what you can afford. Add up your income, then take away **rent**, **bills** (power, gas, water, internet), food, transport and phone. Something should be left for savings and surprises. If it isn't, the place is too expensive, however nice it looks.\n\n**2. Read the ad closely.**\n\n- Is the rent **per week** or per month?\n- How much is the **bond**?\n- Are **bills** included, or extra?\n- Is it furnished?\n- How long is the lease? A **fixed term** (like 12 months) locks you in.\n\n**3. Compare the total.** A room with cheaper rent can cost more once you add bills and transport. Always compare the **total weekly cost**.\n\n**4. Inspect it.** Go to the **inspection**. Check the things that matter: heating, hot water, locks, mould, and whether you could get to school, TAFE or work.\n\n**5. Apply, and know the rules.** In Victoria, from **31 March 2026**, every private rental application must use the **standard rental application form** from Consumer Affairs Victoria. Agents can't charge you a fee to apply, can't ask for information that isn't on the form, and can't ask you to offer more than the advertised rent. If you're under 18, you can still sign a lease, and a **rental provider** can't refuse you just because of your age.\n\n**6. Read the lease before you sign.** You must be given a copy. Check how long it's for, the rent and when it's due, and who pays which bills. Your bond must go to the **Residential Tenancies Bond Authority** (RTBA), not the landlord's pocket. When you move in, fill in the **condition report** carefully and take photos. It protects your bond when you move out.\n\nNot sure? **Tenants Victoria** and **Consumer Affairs Victoria** give free advice.",
+          "extend": "Renting involves a series of important texts: ads, applications, leases and condition reports.\n\n**1. Establish affordability.** Work out your income. Subtract **rent**, **bills** (utilities and internet), food, transport and phone, and leave a buffer. If there's no buffer left, the place is unaffordable, however good it looks.\n\n**2. Read advertisements precisely.** Note the rent period, the **bond**, whether **bills** are included, the furnishing and the lease type. A **fixed term** commits you for its whole length.\n\n**3. Compare total cost.** Bills and transport can cancel out lower rent. Compare the **total weekly cost**, not the headline figure.\n\n**4. Inspect** against priorities: heating, hot water, security, damp and mould, and access to study or work.\n\n**5. Apply within the rules.** From **31 March 2026**, Victorian private rental applications must use Consumer Affairs Victoria's **standard rental application form**. Rental providers and agents can't charge application fees, ask for information beyond the form, or seek offers above the advertised rent. People under 18 can generally sign a lease for somewhere to live. A **rental provider** can't reject an application on age alone.\n\n**6. Read the lease before signing.** You must get a copy. Check the term, the rent and when it's due, and who pays the utilities. The bond must be lodged with the **Residential Tenancies Bond Authority** (RTBA). A detailed **condition report**, with photos, is your evidence when you ask for your bond back.\n\n**Tenants Victoria** and **Consumer Affairs Victoria** provide free guidance."
+        },
+        "vc": [
+          "VC2E6LY08",
+          "VC2E5LA08",
+          "VC2E4LY09",
+          "VC2E8LA06",
+          "VC2E7LY07"
+        ],
+        "vcNote": "Reading and comparing rental documents; specialist vocabulary; current Victorian rules; legal language in leases."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The new rental application rules",
+        "icon": "lucide:file-check",
+        "body": {
+          "support": "Applying to rent used to be messy. Every agent used a different form. Some charged fees.\n\nFrom **31 March 2026**, Victoria has **one form** for everyone.\n\nWhat it means:\n\n- Agents must use the **same form**.\n- They **can't** ask for things that aren't on it.\n- No one can charge you to apply.\n- Agents can't ask you to pay **more rent** than the ad says.\n\nThese rules help first-time renters. But you need to know them.",
+          "core": "Applying for a rental used to be messy. Every agent had their own form. Some asked for things renters felt were unfair. Some websites charged renters to apply.\n\nVictoria changed the rules. From **31 March 2026**, every application for a private rental in Victoria must use **one standard form**, made by **Consumer Affairs Victoria**.\n\nHere's what that means:\n\n- Rental providers and agents **must** use the standard form. They can't add their own questions, or take any out.\n- They **can't** ask you for information that isn't on the form.\n- No one can charge you a **fee** to apply. That includes fees for checking your identity or background, and fees from rental websites.\n- **Rental bidding** is banned. Places must be advertised at a fixed rent, and agents can't ask you to offer more.\n\nThe rules are designed to make applying fairer, especially for people renting for the first time. But rules only help if you know them. If an agent asks for something that's not on the form, or wants a fee, you can say no, and get advice.",
+          "extend": "Victorian rental applications used to vary a lot. Agents used their own forms. Some asked for information renters thought was too personal. Some websites charged applicants.\n\nFrom **31 March 2026**, all applications for private rentals must use **Consumer Affairs Victoria's standard rental application form**.\n\n- Rental providers and agents **must** use this form. They can't add or remove questions.\n- They **can't** ask for information that isn't on the form.\n- No one, including rental websites, can charge **application fees**. That includes fees for identity, background or other checks.\n- **Rental bidding** is banned. Properties must be advertised at a fixed rent. Agents can't invite or accept offers above it.\n\nThe reforms make an important text the same for everyone. That reduces the advantage of applicants who know how to work an informal system. But a rule only protects people who know about it. That's why reading the rules is part of renting."
+        },
+        "source": {
+          "name": "Consumer Affairs Victoria — “Applying for a property”",
+          "url": "https://www.consumer.vic.gov.au/housing/renting/starting-and-changing-rental-agreements/applying-signing-and-moving-in/applying-for-a-property"
+        },
+        "think": {
+          "support": [
+            "What changed?",
+            "What would you do if an agent asked for a fee?"
+          ],
+          "core": [
+            "What changed on 31 March 2026?",
+            "Why might one standard form be fairer for first-time renters?",
+            "What would you do if an agent asked you for a fee to apply?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY08",
+          "VC2E7LY07"
+        ],
+        "vcNote": "Interpreting current Victorian rental rules and their purpose."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a rental ad",
+      "docTitle": "ROOM IN SHARE HOUSE — FOOTSCRAY (EXAMPLE)",
+      "vc": [
+        "VC2E5LA08",
+        "VC2E4LY09",
+        "VC2E6LY08"
+      ],
+      "vcNote": "The specialist vocabulary of a rental ad, and the details to check and compare.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Rent",
+          "value": "$220 per week",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Bond",
+          "value": "4 weeks' rent"
+        },
+        {
+          "n": 3,
+          "label": "Bills",
+          "value": "Bills extra, shared four ways"
+        },
+        {
+          "n": 4,
+          "label": "The room",
+          "value": "Unfurnished room. Shared kitchen, bathroom and laundry."
+        },
+        {
+          "n": 5,
+          "label": "Lease",
+          "value": "12-month fixed term. Available 1 March."
+        },
+        {
+          "n": 6,
+          "label": "Inspection",
+          "value": "Saturday, 10:00–10:15 am"
+        },
+        {
+          "n": 7,
+          "label": "How to apply",
+          "value": "Apply using the standard rental application form. No fees.",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Rent",
+          "note": "Per week. × 52 for a year."
+        },
+        {
+          "n": 2,
+          "label": "Bond",
+          "note": "Paid at the start. Goes to the RTBA."
+        },
+        {
+          "n": 3,
+          "label": "Bills extra",
+          "note": "A hidden cost. Ask how much."
+        },
+        {
+          "n": 4,
+          "label": "Unfurnished",
+          "note": "You'll need a bed, desk and more."
+        },
+        {
+          "n": 5,
+          "label": "Fixed term",
+          "note": "Locked in for 12 months."
+        },
+        {
+          "n": 6,
+          "label": "Inspection",
+          "note": "Short. Go, and bring your checklist."
+        },
+        {
+          "n": 7,
+          "label": "Application",
+          "note": "The Victorian standard form. No fees."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Move out ready",
+      "steps": [
+        {
+          "title": "Budget",
+          "text": "What can I afford?",
+          "icon": "lucide:calculator"
+        },
+        {
+          "title": "Compare",
+          "text": "Total weekly cost.",
+          "icon": "lucide:scale"
+        },
+        {
+          "title": "Inspect",
+          "text": "Heating, water, locks, mould.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Apply",
+          "text": "The standard form. No fees.",
+          "icon": "lucide:file-check"
+        },
+        {
+          "title": "Read, then sign",
+          "text": "Term, rent, bills, bond.",
+          "icon": "lucide:file-signature"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What's a **bond**?",
+        "options": [
+          "Money paid at the start, kept safe in case of damage or unpaid rent",
+          "The first week's rent",
+          "A tip for the agent",
+          "A type of lease"
+        ],
+        "answer": 0,
+        "explain": "In Victoria it goes to the RTBA.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "q": "Room A: $220 rent + $35 bills + $0 transport. Room B: $190 rent + $35 bills + $45 transport. Which is cheaper each week?",
+        "options": [
+          "Room A: $255 vs $270",
+          "Room B, because the rent is lower",
+          "They're the same",
+          "Room B: $225"
+        ],
+        "answer": 0,
+        "explain": "Compare the total, not just the rent.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "q": "In Victoria from 31 March 2026, can an agent charge you a fee to apply?",
+        "options": [
+          "No",
+          "Yes, up to $50",
+          "Only online",
+          "Only if you're under 18"
+        ],
+        "answer": 0,
+        "explain": "No application fees.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "q": "The ad says rent is $300 a week. The agent asks if you'll offer $330 to beat others. Is that allowed?",
+        "options": [
+          "No: rental bidding is banned",
+          "Yes, always",
+          "Only on weekends",
+          "Only for share houses"
+        ],
+        "answer": 0,
+        "explain": "Places must be advertised at a fixed rent.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "q": "Why fill in the **condition report** carefully, with photos?",
+        "options": [
+          "It protects your bond when you move out",
+          "It's just paperwork",
+          "It makes the rent cheaper",
+          "It isn't needed"
+        ],
+        "answer": 0,
+        "explain": "It's your evidence of what the place was like.",
+        "vc": [
+          "VC2E5LA08",
+          "VC2E4LY09"
+        ]
+      },
+      {
+        "q": "You're 17. Can a rental provider refuse your application just because of your age?",
+        "options": [
+          "No",
+          "Yes, always",
+          "Only in winter",
+          "Only for apartments"
+        ],
+        "answer": 0,
+        "explain": "Under-18s can sign a lease in Victoria.",
+        "vc": [
+          "VC2E6LY08"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "“Lodgement of the bond with the RTBA is required.” Who must do what?",
+        "options": [
+          "The rental provider must lodge the bond with the RTBA",
+          "The renter must pay twice",
+          "The RTBA must pay the renter",
+          "Nobody"
+        ],
+        "answer": 0,
+        "explain": "Unpack the nominalisation: who does the lodging?",
+        "vc": [
+          "VC2E8LA06"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Compare two real rentals. Make a budget. Read parts of a lease. Write an email to an agent.",
+      "core": "Compare real rentals, build a move-out budget, unpack a lease and write a formal enquiry to an agent.",
+      "extend": "Compare real rental listings by total cost, build a realistic move-out budget, analyse and summarise key lease clauses, and write a formal enquiry that asks precise questions."
+    },
+    "checklist": [
+      "I compared two real rentals by total weekly cost",
+      "I built a budget that leaves a buffer",
+      "I know what agents can and can't ask",
+      "I unpacked lease language into plain English",
+      "I wrote a formal enquiry with clear questions"
+    ],
+    "levelUp": "Find a real lease section (or the Victorian standard lease) and summarise it in plain English for a friend moving out for the first time.",
+    "vc": [
+      "VC2E6LY08",
+      "VC2E6LY09",
+      "VC2E5LA08"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Ready to move out?",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What should you work out **before** you look at rental ads?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          },
+          {
+            "q": "Name **three** things to check in a rental ad.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA08",
+              "VC2E4LY09"
+            ]
+          },
+          {
+            "q": "Name **two** things agents in Victoria **can't** do when you apply.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Move out ready",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a rental ad",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the ad. Use the word bank. What do you need to check?",
+          "core": "Each number marks part of the ad. Write what it is and what you need to check."
+        },
+        "columns": [
+          "What is it?",
+          "What do I need to check?"
+        ],
+        "wordBank": {
+          "support": [
+            "rent",
+            "bond",
+            "bills",
+            "the room",
+            "lease",
+            "inspection",
+            "applying"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LA08",
+          "VC2E4LY09",
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Compare the total",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 17,
+          "core": 15
+        },
+        "instructions": "Room A is a 5-minute walk from TAFE. Room B is two buses away. Add up the totals for each room, then decide which is cheaper. (Made-up costs.)",
+        "columns": [
+          "Weekly cost",
+          "Room A",
+          "Room B"
+        ],
+        "rows": [
+          [
+            "Rent",
+            "$220",
+            "$190"
+          ],
+          [
+            "Bills (share)",
+            "$35",
+            "$35"
+          ],
+          [
+            "Transport to TAFE",
+            "$0",
+            "$45"
+          ],
+          [
+            "Total per week",
+            "",
+            ""
+          ],
+          [
+            "Total per year (× 52)",
+            "",
+            ""
+          ],
+          [
+            "Which is cheaper? Why?",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LY08",
+          "VC2E4LY09"
+        ],
+        "vcNote": "Comparing information across two texts to make a decision."
+      },
+      {
+        "type": "sort",
+        "title": "Allowed or not?",
+        "pagebreak": true,
+        "choices": [
+          "Allowed",
+          "Not allowed"
+        ],
+        "reasonLabel": "Which rule?",
+        "instructions": "Each card is something a rental provider or agent in Victoria might do in 2026. Tick **allowed** or **not allowed**, and name the rule.",
+        "cards": [
+          {
+            "from": "Agent",
+            "text": "Charges you $40 to process your application.",
+            "answer": "Not allowed",
+            "flags": "No application fees."
+          },
+          {
+            "from": "Agent",
+            "text": "Uses Consumer Affairs Victoria's standard application form.",
+            "answer": "Allowed",
+            "flags": "It's required."
+          },
+          {
+            "from": "Agent",
+            "text": "Asks if you'll pay $20 a week more than the advertised rent.",
+            "answer": "Not allowed",
+            "flags": "Rental bidding is banned."
+          },
+          {
+            "from": "Rental provider",
+            "text": "Gives you a copy of the lease before you sign it.",
+            "answer": "Allowed",
+            "flags": "You must get a copy."
+          },
+          {
+            "from": "Rental provider",
+            "text": "Refuses your application only because you're 17.",
+            "answer": "Not allowed",
+            "flags": "Age alone isn't a reason.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Rental provider",
+            "text": "Keeps your bond in their own bank account.",
+            "answer": "Not allowed",
+            "flags": "It must go to the RTBA.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LY08"
+        ],
+        "vcNote": "Applying current rental rules to situations."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the new rental application rules",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What changed on **31 March 2026**? Write **two** things.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          },
+          {
+            "q": "Why might one standard form be fairer for first-time renters?",
+            "lines": 2,
+            "vc": [
+              "VC2E7LY07"
+            ]
+          },
+          {
+            "q": "An agent asks you for a $30 “holding fee” to apply. What would you say, and where could you get advice?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Unpack the lease",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Leases use formal language and long nouns. Rewrite each line in plain English: **who** must do **what**? The first one is done for you.",
+        "columns": [
+          "The lease says…",
+          "In plain English"
+        ],
+        "rows": [
+          [
+            "Payment of rent is due weekly in advance.",
+            "I pay the rent every week, before the week starts."
+          ],
+          [
+            "Utility charges are the responsibility of the renter.",
+            ""
+          ],
+          [
+            "Lodgement of the bond with the RTBA is required.",
+            ""
+          ],
+          [
+            "Damage beyond fair wear and tear may be deducted from the bond.",
+            ""
+          ],
+          {
+            "cells": [
+              "Termination of the agreement requires written notice.",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E8LA06",
+          "VC2E5LA08",
+          "VC2E7LY07"
+        ],
+        "vcNote": "Unpacking nominalisation and specialist terms in a legal document."
+      },
+      {
+        "type": "table",
+        "title": "My move-out budget",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 15,
+          "core": 13
+        },
+        "instructions": "Imagine you're moving out at 18. Use a real rental you've found, and real or estimated costs. The first row shows an example.",
+        "columns": [
+          "Each week",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Example: income (part-time job)",
+            "$400"
+          ],
+          [
+            "Income",
+            ""
+          ],
+          [
+            "Rent",
+            ""
+          ],
+          [
+            "Bills (power, gas, water, internet)",
+            ""
+          ],
+          [
+            "Food",
+            ""
+          ],
+          [
+            "Transport",
+            ""
+          ],
+          [
+            "Phone",
+            ""
+          ],
+          [
+            "Savings",
+            ""
+          ],
+          [
+            "Buffer (what's left)",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LY09",
+          "VC2E6LY08"
+        ],
+        "vcNote": "Building a budget from real information."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: write to the agent",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write a short, formal email to the agent. Ask to see the place. Ask **two** questions.",
+          "core": "You've found a rental you like. Write a short, formal email to the agent asking to inspect it, and asking **two** questions you need answered before you apply.",
+          "extend": "Write a formal enquiry to the agent requesting an inspection and asking two or three precise questions that affect your budget or decision. Keep it concise and courteous."
+        },
+        "plan": [
+          {
+            "label": "The property (address, rent)",
+            "lines": 1
+          },
+          {
+            "label": "My two questions",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "Dear …,",
+            "I'm interested in…",
+            "Could I see it on…?",
+            "Could you tell me…?",
+            "Kind regards,"
+          ],
+          "core": [
+            "Dear …,",
+            "I'm interested in the property at…, advertised at $… per week.",
+            "Could I please inspect it on…?",
+            "Could you also tell me…",
+            "Thank you for your time. Kind regards,"
+          ]
+        },
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "a formal greeting and sign-off",
+          "the property named",
+          "a clear inspection request",
+          "two precise questions",
+          "no slang"
+        ],
+        "vc": [
+          "VC2E6LY09",
+          "VC2E7LY08",
+          "VC2E4LY10"
+        ],
+        "vcNote": "Writing a formal enquiry for a specific reader and purpose."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find a real section of a lease (or the Victorian standard lease). Summarise it in **three** plain-English dot points for a friend moving out for the first time.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY07"
+            ]
+          },
+          {
+            "q": "Leases use long nouns like *termination* and *lodgement*. Why? What's the effect on a first-time renter?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LA06"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can budget for rent and bills.",
+          "I can compare rentals.",
+          "I know what agents can't ask.",
+          "I can read a lease and write an enquiry."
+        ],
+        "questions": [
+          "What I'd look for in my first place:",
+          "One rental rule I'll remember:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "A Crossroads capstone combining Money Moves and Get Sorted. Students build a move-out budget, read and compare rental ads by total weekly cost, learn Victoria's current application rules (the standard rental application form from 31 March 2026, no application fees, no rental bidding, no refusal on age alone), unpack lease language, and write a formal enquiry to an agent. The case study is Consumer Affairs Victoria's guidance on the new application rules.",
+    "prep": [
+      "Find 4–6 current local rental listings (rooms in share houses and small units) suitable for a young person; print them if sites are blocked.",
+      "Download the Victorian standard lease and rental application form from Consumer Affairs Victoria to show students.",
+      "Check the rules haven't changed since this course was written (2026)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Can I afford it?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** Room A or Room B? Vote, then reveal the totals.",
+          "**Explicit teaching (10 min):** budget first; read the ad; compare the total.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Anatomy of a rental ad (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Compare",
+        "minutes": 50,
+        "steps": [
+          "**Compare the total (15 min).**",
+          "**Real listings (25 min):** compare two real rentals by total weekly cost.",
+          "**Allowed or not? (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — The rules",
+        "minutes": 50,
+        "steps": [
+          "**Case study (20 min):** the new rental application rules. Show the real form.",
+          "**Unpack the lease (30 min),** using the standard lease."
+        ]
+      },
+      {
+        "title": "Lesson 4 — The budget",
+        "minutes": 50,
+        "steps": [
+          "**My move-out budget (35 min).** Use real rents; estimate bills.",
+          "**Discuss (15 min):** is it affordable? What would you change?"
+        ]
+      },
+      {
+        "title": "Lesson 5 — Write it",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (25 min):** write to the agent.",
+          "**Level Up, reflect (25 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Budget first: rent, bills, food, transport, phone, savings, buffer.",
+      "Read ads closely: rent period, bond, bills, furnishing, lease term.",
+      "Compare total weekly cost, not just rent.",
+      "Victoria from 31 March 2026: standard application form; no application fees; no extra questions; no rental bidding.",
+      "Under-18s can sign a lease; age alone isn't grounds to refuse.",
+      "Read the lease before signing; bond goes to the RTBA; complete the condition report with photos.",
+      "Free help: Tenants Victoria, Consumer Affairs Victoria."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and lease rows.",
+        "Use teacher-chosen listings; starters for the email."
+      ],
+      "extend": [
+        "Summarise real lease clauses (Level Up).",
+        "Analyse the effect of nominalisation (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LY09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses comprehension strategies to build meaning from rental ads (annotation, compare)."
+      },
+      {
+        "vc": "VC2E4LY10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Creates a short formal enquiry with linked ideas (final mission)."
+      },
+      {
+        "vc": "VC2E6LY08",
+        "evidence": "Compares information across listings and rules to make decisions (compare, sort, case study)."
+      },
+      {
+        "vc": "VC2E6LY09",
+        "evidence": "Creates organised texts: a budget and a formal enquiry (budget, final mission)."
+      },
+      {
+        "vc": "VC2E5LA08",
+        "evidence": "Uses rental vocabulary precisely: bond, lease, fixed term, condition report (annotation, Unpack the lease)."
+      },
+      {
+        "vc": "VC2E7LY07",
+        "evidence": "Summarises the rules and lease clauses (case study, Level Up)."
+      },
+      {
+        "vc": "VC2E8LA06",
+        "evidence": "Explains and unpacks nominalisation in a lease (Unpack the lease, Level Up)."
+      },
+      {
+        "vc": "VC2E7LY08",
+        "evidence": "Writes a formal enquiry with precise questions for a specific reader (final mission)."
+      }
+    ],
+    "answers": "**Check your reading:** what you can afford (income minus rent, bills, food, transport, phone, savings). Ad: rent period, bond, bills, furnishing, lease length. Agents can't charge application fees, ask for information not on the standard form, or invite offers above the advertised rent.\n\n**Rental ad:** 1 rent (per week); 2 bond (goes to the RTBA); 3 bills extra (ask how much); 4 unfurnished; 5 fixed term (12 months); 6 inspection; 7 application (standard form, no fees).\n\n**Compare:** Room A $255 a week ($13,260 a year); Room B $270 a week ($14,040 a year). Room A is cheaper overall, and closer.\n\n**Sort:** $40 fee — not allowed; standard form — allowed (required); bidding — not allowed; copy of the lease — allowed (required); refusal for being 17 — not allowed; landlord keeps the bond — not allowed.\n\n**Unpack (samples):** I pay for power, gas, water and internet; the rental provider must lodge my bond with the RTBA; if I damage the place beyond normal wear, money can be taken from my bond; to end the lease, someone must give notice in writing.",
+    "resources": [
+      {
+        "label": "Consumer Affairs Victoria — Applying for a property",
+        "url": "https://www.consumer.vic.gov.au/housing/renting/starting-and-changing-rental-agreements/applying-signing-and-moving-in/applying-for-a-property"
+      },
+      {
+        "label": "Tenants Victoria — Applying for a rental property",
+        "url": "https://tenantsvic.org.au/explore-topics/starting-your-tenancy/applying-for-a-rental-property/"
+      },
+      {
+        "label": "Tenants Victoria — Starting a tenancy",
+        "url": "https://tenantsvic.org.au/explore-topics/starting-your-tenancy/starting-a-tenancy/"
+      },
+      {
+        "label": "Youth Law Australia — Renting (Victoria)",
+        "url": "https://yla.org.au/vic/topics/at-home-parents-and-family/renting/"
+      }
+    ],
+    "realityCheck": [
+      "**Most students won't move out soon.** Frame it as preparing for the future, and as helping family members who rent.",
+      "**Housing can be a sensitive topic.** Some students are in insecure housing or already living away from family. Follow your wellbeing procedures if a student is at risk of homelessness.",
+      "**Rules change.** Check Consumer Affairs Victoria before teaching; this course was written in 2026, just after the new application rules began.",
+      "**Real costs vary a lot.** Use local listings so the numbers mean something.",
+      "**Works in a real class:** yes. It combines budgeting, comparing, rights and formal writing for a decision students will face."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and lease rows, teacher-chosen listings and email starters.",
+      "core": "Standard version: rental ad anatomy, total-cost comparison, an allowed-or-not sort on Victoria's 2026 rules, the CAV case, unpacking a lease, a move-out budget and a formal enquiry to an agent.",
+      "extend": "Adds fixed term and condition report to the vocabulary, a quiz question on nominalisation, a precise formal enquiry, and Level Ups summarising a real lease section and analysing lease language."
+    }
+  }
+}

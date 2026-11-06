@@ -1,0 +1,1051 @@
+{
+  "id": "side-hustle",
+  "version": 1,
+  "duration": "5 lessons (about 4 hours)",
+  "brief": {
+    "hook": {
+      "support": "You're good at something: fixing bikes, baking, mowing, braiding hair. People would pay for it. How much? How will they find out?",
+      "core": "You're good at something. Braiding hair. Fixing bikes. Baking. Mowing. Editing videos. Explaining maths so it actually makes sense. People would pay for it. But how much do you charge? How will anyone find out? And when does a bit of cash on the side become a real business?"
+    },
+    "why": {
+      "support": "Lots of teens want their own business. To start, you need to **price** it, **pitch** it and **promote** it. Those are all reading, writing and speaking jobs.",
+      "core": "Lots of teenagers want to run their own business one day. What stops most of them isn't ideas. It's knowing how to **price** it, **pitch** it and **promote** it. Every one of those is a literacy job: a spoken pitch that hooks people, a flyer that persuades honestly, and the reading you need to know your responsibilities.",
+      "extend": "Turning a skill into income requires persuasive texts across modes (a structured spoken pitch and a multimodal flyer) designed for a specific customer, plus the careful reading needed to understand pricing, consumer responsibilities and when an activity becomes a business."
+    },
+    "canDo": {
+      "support": [
+        "I can turn a skill into an offer.",
+        "I can work out a fair price.",
+        "I can give a short pitch.",
+        "I can make an honest flyer."
+      ],
+      "core": [
+        "I can turn a skill into a clear **offer** for a real customer.",
+        "I can **price** it so it covers my costs and my time.",
+        "I can deliver a short, persuasive **pitch**.",
+        "I can make an honest **flyer**, and know when a hobby becomes a **business**."
+      ]
+    },
+    "showIt": "Plan a small side hustle: price it, pitch it to a panel, and make an honest flyer to promote it.",
+    "vocab": [
+      {
+        "word": "side hustle",
+        "meaning": "a small way to earn money outside a regular job",
+        "example": "Fixing bikes is my side hustle."
+      },
+      {
+        "word": "customer",
+        "meaning": "the person who pays you",
+        "example": "My customers are families on my street."
+      },
+      {
+        "word": "price",
+        "meaning": "what you charge",
+        "example": "My price is $15 for a flat tyre."
+      },
+      {
+        "word": "costs",
+        "meaning": "what you spend to make or do something",
+        "example": "My costs are tubes and petrol."
+      },
+      {
+        "word": "pitch",
+        "meaning": "a short talk to persuade someone to buy or support your idea",
+        "example": "My pitch was 30 seconds long."
+      },
+      {
+        "word": "profit",
+        "meaning": "money left after paying your costs",
+        "example": "I made $10 profit on each job."
+      },
+      {
+        "word": "call to action",
+        "meaning": "what you want the reader to do next",
+        "example": "“Text to book” is the call to action.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "ABN",
+        "meaning": "Australian Business Number: an ID number for a business",
+        "example": "If it becomes a business, I may need an ABN.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Side Hustle in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Side Hustle",
+        "sub": "Turn a skill into cash.",
+        "icon": "lucide:rocket",
+        "say": "Side hustle. Turn a skill into cash."
+      },
+      {
+        "kind": "big",
+        "big": "47%",
+        "title": "of secondary students want to start a business",
+        "sub": "NAB, 2025",
+        "say": "In a 2025 NAB survey, nearly half of secondary students said they want to start their own business after school.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Hustle",
+        "pillIcon": "lucide:rocket",
+        "title": "The offer",
+        "text": "Skill + **someone who needs it**",
+        "icon": "lucide:lightbulb",
+        "say": "Start with an offer: your skill, plus someone who needs it. Fix bikes for families on your street.",
+        "vc": [
+          "VC2E4LY10",
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Hustle",
+        "pillIcon": "lucide:rocket",
+        "title": "Price it",
+        "text": "Costs + time = **price**",
+        "icon": "lucide:calculator",
+        "say": "Price it. Add your costs, add your time, and check what others charge.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Hustle",
+        "pillIcon": "lucide:rocket",
+        "title": "Pitch it",
+        "text": "Problem → offer → **why you**",
+        "icon": "lucide:mic",
+        "say": "Pitch it in thirty seconds. The problem, your offer, why you, the price, and what to do next.",
+        "vc": [
+          "VC2E6LY02",
+          "VC2E4LY02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Hustle",
+        "pillIcon": "lucide:rocket",
+        "title": "Promote it",
+        "text": "Headline · Image · **Honest**",
+        "icon": "lucide:megaphone",
+        "say": "Promote it honestly. A clear headline, a picture, the price and how to book. No fake reviews, no promises you can't keep.",
+        "vc": [
+          "VC2E6LY07",
+          "VC2E7LA07"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Promote safely",
+        "text": "Flyers · Noticeboards · **Word of mouth**",
+        "icon": "lucide:shield",
+        "say": "Under sixteen? You can't have accounts on platforms like TikTok or Instagram. Use flyers, community noticeboards, word of mouth, and your family's help.",
+        "vc": [
+          "VC2E7LY08"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Price. Pitch. Promote.",
+        "icon": "lucide:flame",
+        "say": "Your mission. Price your side hustle, pitch it to a panel, and make an honest flyer."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Turn a skill into cash",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "A **side hustle** is a small way to earn money.\n\n**1. Find your offer.** Your skill + someone who needs it. *I'll fix bikes for families on my street.*\n\n**2. Check it's OK.** Talk to a parent or carer. Work with people you know.\n\n**3. Price it.** Add your **costs**, like parts. Add your time. Check what others charge.\n\n**4. Pitch it.** In 30 seconds, say:\n\n- the **problem**: *Flat tyre?*\n- your **offer**: *I'll fix it.*\n- **why you**: *I've done it for years.*\n- the **price**\n- what to do: *Text to book.*\n\n**5. Promote it.** Make a flyer: a headline, a picture, the price, how to book. Be honest. Under 16? Use noticeboards and word of mouth.\n\n**6. Hobby or business?** Just for fun, now and then? It's a hobby. Regular, for profit? It might be a business.",
+          "core": "A **side hustle** is a small way to earn money on your own terms. Here's how to start one.\n\n**1. Find your offer.** An offer is a skill plus someone who needs it. *I can fix bikes* becomes *I'll fix bikes for families on my street, at their place, on weekends.* Think about who your **customer** is, and what problem you solve for them.\n\n**2. Check it's safe and OK.** Talk to a parent or carer. Work with people you or your family know. Some things, like selling food to the public, may need permission from your local council, so check first.\n\n**3. Price it.** Add up your **costs**: materials, tools, transport. Add something for your time. Then check what others charge, so your price is fair. What's left after costs is your **profit**.\n\n**4. Pitch it.** A **pitch** is a short spoken text that persuades. A strong 30-second pitch has:\n\n- the **problem**: *Flat tyre? Bike sitting in the shed?*\n- your **offer**: *I fix bikes at your place, this weekend.*\n- **why you**: *I've fixed my whole family's bikes for three years.*\n- the **price**\n- a **call to action**: *Ask your parents to text mine to book.*\n\nSpeak slowly, look at your audience, and finish strong.\n\n**5. Promote it.** A flyer or poster needs a headline that names the problem, a clear picture, the price, and how to book. Be honest: Australian Consumer Law means businesses can't mislead customers. No fake reviews, and no promises you can't keep. If you're under 16, you can't hold accounts on platforms like TikTok and Instagram. Use school or community noticeboards, word of mouth and your family's help instead.\n\n**6. Hobby or business?** If you do it now and then, for fun, it's probably a **hobby**. If you do it regularly, to make a profit, it may be a **business**. Businesses can get an **ABN**, and may need to pay tax. business.gov.au has a free guide to tell the difference.",
+          "extend": "A **side hustle** converts a skill into income. Each stage depends on a different kind of text.\n\n**1. Define the offer:** a skill matched to a specific **customer** and problem. *I can fix bikes* becomes *weekend, at-home bike repairs for families on my street.*\n\n**2. Check suitability and safety.** Involve a parent or carer, start with known customers, and check regulatory requirements. Some activities, such as selling food to the public, may need council approval.\n\n**3. Set a price** that covers **costs** (materials, tools, transport) and values your time, informed by what competitors charge. **Profit** is what remains after costs.\n\n**4. Structure the pitch.** A persuasive 30-second spoken text moves from **problem** to **offer**, **credibility** (*why you*), **price** and a **call to action**. Delivery (pace, eye contact and a strong close) matters as much as content.\n\n**5. Promote responsibly.** A flyer's headline, image, price and booking details work together to persuade. Australian Consumer Law prohibits misleading claims, so testimonials must be real and promises deliverable. Under-16s can't hold accounts on platforms such as TikTok and Instagram, so offline channels (noticeboards, word of mouth, family networks) matter.\n\n**6. Distinguish hobby from business.** Occasional activity for enjoyment is generally a **hobby**. Regular activity with a profit motive may be a **business**, which can register for an **ABN** and may have tax obligations. business.gov.au explains the difference."
+        },
+        "vc": [
+          "VC2E6LY09",
+          "VC2E6LY07",
+          "VC2E6LY02",
+          "VC2E7LA07",
+          "VC2E7LY08"
+        ],
+        "vcNote": "Planning an offer for a customer; structuring a persuasive spoken pitch and a multimodal flyer; reading responsibilities."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Half of students want to be their own boss",
+        "icon": "lucide:rocket",
+        "body": {
+          "support": "**NAB** is a big bank. In **2025**, it asked secondary students about their plans.\n\nWhat it found:\n\n- **47%** want to start their **own business**.\n- In **2023**, it was **35%**.\n- The biggest problem: they don't have **practical experience**.\n\nSo lots of students want a business. But they need to learn how. That's what this course is for.",
+          "core": "**NAB**, one of Australia's big banks, surveys secondary school students about their plans. In **2025**, it shared its latest results.\n\nHere's what it found:\n\n- **47%** of secondary students said they want to start their **own business** after school.\n- That's up from **35%** in **2023**.\n- More boys (**52%**) than girls (**41%**) said they wanted to.\n- The main things holding students back were **limited resources** and a **lack of practical experience**.\n\nSo wanting to start a business is common. What's missing for many students is knowing **how**: how to price something, how to pitch it, and how to get customers.\n\nThat's exactly what you'll practise in this course. A side hustle now, even a small one, is practical experience you can't get from reading about business.",
+          "extend": "**NAB**, one of Australia's big banks, surveys secondary students about their plans after school. Its **2025** results showed:\n\n- **47%** of secondary students want to start their **own business** after school, up from **35%** in **2023**.\n- More boys (**52%**) than girls (**41%**) said so.\n- Students named **limited resources** and a **lack of practical experience** as the main barriers.\n\nThe most interesting finding is the gap between wanting and knowing how. Lots of students have the ambition. Far fewer have the practical skills: pricing, pitching and promoting.\n\nA small side hustle builds those skills early. And each one depends on persuasive texts written for real customers."
+        },
+        "source": {
+          "name": "NAB — “Entrepreneurial spirit alive in Australia's youth, NAB survey reveals” (2025)",
+          "url": "https://www.nab.com.au/news/business-banking/entrepreneurial-spirit-alive-in-australias-youth-nab-survey-reveals"
+        },
+        "think": {
+          "support": [
+            "How many students want a business?",
+            "What holds them back?"
+          ],
+          "core": [
+            "What changed between 2023 and 2025?",
+            "What did students say was holding them back?",
+            "What practical experience could a side hustle give you?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY09",
+          "VC2E7LY08"
+        ],
+        "vcNote": "Real survey data on young Australians' business aspirations and barriers."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a flyer",
+      "docTitle": "SAM'S WEEKEND BIKE FIX (EXAMPLE FLYER)",
+      "vc": [
+        "VC2E6LY07",
+        "VC2E7LA07",
+        "VC2E4LY10"
+      ],
+      "vcNote": "How a flyer's headline, image, offer, credibility, price and call to action work together to persuade.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Headline",
+          "value": "Flat tyre? Squeaky brakes? Bike stuck in the shed?",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Image",
+          "value": "[Photo: close-up of a shiny new tyre on a kid's bike]"
+        },
+        {
+          "n": 3,
+          "label": "Offer",
+          "value": "I'll fix your bike at your place, this weekend."
+        },
+        {
+          "n": 4,
+          "label": "Why me",
+          "value": "I've fixed bikes for my whole family for 3 years."
+        },
+        {
+          "n": 5,
+          "label": "Price",
+          "value": "Flat tyre $15 · Brake tune $20 · Full check $30"
+        },
+        {
+          "n": 6,
+          "label": "Call to action",
+          "value": "Book through my mum: text 0400 000 000",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice. Phone number is not real.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Headline",
+          "note": "Names the customer's problem."
+        },
+        {
+          "n": 2,
+          "label": "Image",
+          "note": "A close-up shows the result."
+        },
+        {
+          "n": 3,
+          "label": "Offer",
+          "note": "What, where and when."
+        },
+        {
+          "n": 4,
+          "label": "Credibility",
+          "note": "A true reason to trust you."
+        },
+        {
+          "n": 5,
+          "label": "Clear prices",
+          "note": "No surprises."
+        },
+        {
+          "n": 6,
+          "label": "Safe call to action",
+          "note": "Booked through a parent."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Start a side hustle",
+      "steps": [
+        {
+          "title": "Offer",
+          "text": "Skill + someone who needs it.",
+          "icon": "lucide:lightbulb"
+        },
+        {
+          "title": "Price",
+          "text": "Costs + time. Check others.",
+          "icon": "lucide:calculator"
+        },
+        {
+          "title": "Pitch",
+          "text": "30 seconds, strong finish.",
+          "icon": "lucide:mic"
+        },
+        {
+          "title": "Promote",
+          "text": "Honest flyer, safe channels.",
+          "icon": "lucide:megaphone"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What's an **offer**?",
+        "options": [
+          "Your skill, plus someone who needs it",
+          "A discount",
+          "A type of tax",
+          "Your bank account"
+        ],
+        "answer": 0,
+        "explain": "*I'll fix bikes for families on my street.*",
+        "vc": [
+          "VC2E6LY09",
+          "VC2E4LY10"
+        ]
+      },
+      {
+        "q": "Parts cost $5 and the job takes half an hour. Which price makes most sense?",
+        "options": [
+          "$15, which covers costs and your time",
+          "$5",
+          "$2",
+          "$200"
+        ],
+        "answer": 0,
+        "explain": "Costs + time, then check what others charge.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "q": "Which is the strongest **opening** for a pitch?",
+        "options": [
+          "“Flat tyre? Bike stuck in the shed?”",
+          "“Um, so, I fix bikes I guess.”",
+          "“Hi.”",
+          "“This is my business.”"
+        ],
+        "answer": 0,
+        "explain": "Start with the customer's problem.",
+        "vc": [
+          "VC2E6LY02",
+          "VC2E4LY02"
+        ]
+      },
+      {
+        "q": "Which flyer line could break consumer law?",
+        "options": [
+          "“Rated #1 in Victoria!” (when it isn't)",
+          "“Flat tyre $15”",
+          "“Book through my mum”",
+          "“Weekends only”"
+        ],
+        "answer": 0,
+        "explain": "Businesses can't mislead customers.",
+        "vc": [
+          "VC2E6LY07"
+        ]
+      },
+      {
+        "q": "You're 15. What's a good way to promote your side hustle?",
+        "options": [
+          "A flyer on the community noticeboard, and word of mouth",
+          "A new TikTok account",
+          "Messaging strangers",
+          "Fake reviews"
+        ],
+        "answer": 0,
+        "explain": "Under-16s can't hold accounts on platforms like TikTok.",
+        "vc": [
+          "VC2E7LY08"
+        ]
+      },
+      {
+        "q": "In the NAB survey, what did students say was holding them back?",
+        "options": [
+          "Limited resources and a lack of practical experience",
+          "Too many ideas",
+          "Not enough time at school",
+          "Their friends"
+        ],
+        "answer": 0,
+        "explain": "47% want to start a business.",
+        "vc": [
+          "VC2E6LY09"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "You pitch to classmates, then to a local business owner. What should change?",
+        "options": [
+          "Your formality and vocabulary, to suit the audience",
+          "Nothing",
+          "Your price only",
+          "You should mumble"
+        ],
+        "answer": 0,
+        "explain": "Adapt spoken texts for formal and informal contexts.",
+        "vc": [
+          "VC2E8LY02"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Choose a skill. Work out a price. Give a short pitch. Make a flyer.",
+      "core": "Plan a small side hustle: price it, pitch it to a panel, and make an honest flyer to promote it.",
+      "extend": "Develop a side hustle proposal: define the offer and customer, justify your price, deliver a structured pitch adapted for a formal panel, and design an honest multimodal flyer, explaining how its features persuade."
+    },
+    "checklist": [
+      "My offer names a skill and a customer",
+      "My price covers costs and time",
+      "My pitch has a problem, offer, why me, price and call to action",
+      "My flyer is honest and clear",
+      "I've checked it's safe and OK with my family"
+    ],
+    "levelUp": "Pitch your idea twice: once to classmates, and once formally to a local business owner or a council youth grant panel. Explain what you changed, and why.",
+    "vc": [
+      "VC2E6LY09",
+      "VC2E6LY02",
+      "VC2E6LY07"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Turn a skill into cash",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What are the **five** parts of a strong 30-second pitch?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY02"
+            ]
+          },
+          {
+            "q": "How do you work out a fair price?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          },
+          {
+            "q": "What's the difference between a **hobby** and a **business**?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Start a side hustle",
+        "diagram": 1
+      },
+      {
+        "type": "sort",
+        "title": "Hobby or business?",
+        "pagebreak": true,
+        "choices": [
+          "Probably a hobby",
+          "Probably a business"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card describes someone earning a bit of money. Tick whether it's **probably a hobby** or **probably a business**, and say why.",
+        "cards": [
+          {
+            "from": "Mia, 15",
+            "text": "Knits scarves for fun and sells a few at the school fete, for about the cost of the wool.",
+            "answer": "Probably a hobby",
+            "flags": "For fun, now and then, at cost."
+          },
+          {
+            "from": "Josh, 17",
+            "text": "Mows six lawns every weekend at $25 each, and wants more customers.",
+            "answer": "Probably a business",
+            "flags": "Regular, for profit, growing."
+          },
+          {
+            "from": "Ari, 16",
+            "text": "Bakes a cake for a cousin's birthday because they love baking.",
+            "answer": "Probably a hobby",
+            "flags": "A one-off, for enjoyment."
+          },
+          {
+            "from": "Lee, 17",
+            "text": "Edits gaming videos for ten regular clients every month.",
+            "answer": "Probably a business",
+            "flags": "Regular clients, for profit."
+          },
+          {
+            "from": "Kim, 16",
+            "text": "Buys sneakers every week to resell at a higher price.",
+            "answer": "Probably a business",
+            "flags": "Regular buying and selling for profit.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Sam, 15",
+            "text": "Sells some old clothes they've grown out of.",
+            "answer": "Probably a hobby",
+            "flags": "Selling personal things, not a trade.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LY09"
+        ],
+        "vcNote": "Applying criteria from an information text to cases."
+      },
+      {
+        "type": "table",
+        "title": "My offer",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "instructions": "Plan your side hustle. The first row shows an example.",
+        "columns": [
+          "Plan",
+          "My side hustle"
+        ],
+        "rows": [
+          [
+            "Example: my skill",
+            "Fixing bikes"
+          ],
+          [
+            "My skill",
+            ""
+          ],
+          [
+            "My customer (who, exactly?)",
+            ""
+          ],
+          [
+            "The problem I solve for them",
+            ""
+          ],
+          [
+            "What, where and when",
+            ""
+          ],
+          [
+            "Why me? (true evidence)",
+            ""
+          ],
+          [
+            "Is it safe and OK? Who did I check with?",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LY09",
+          "VC2E4LY10"
+        ],
+        "vcNote": "Defining an offer, audience and purpose."
+      },
+      {
+        "type": "table",
+        "title": "Price it",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Work out a fair price for one job or item. The first row shows an example.",
+        "columns": [
+          "Item or job",
+          "My costs and time",
+          "What others charge",
+          "My price"
+        ],
+        "rows": [
+          [
+            "Example: fix a flat tyre",
+            "$5 tube, 30 minutes",
+            "$20–$25 at a bike shop",
+            "$15"
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LY09"
+        ],
+        "vcNote": "Using information from several sources to make a reasoned decision."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a flyer",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the flyer. Use the word bank. How does it persuade?",
+          "core": "Each number marks part of Sam's flyer. Write what it is and how it persuades."
+        },
+        "columns": [
+          "What is it?",
+          "How does it persuade?"
+        ],
+        "wordBank": {
+          "support": [
+            "headline",
+            "image",
+            "offer",
+            "why me",
+            "price",
+            "call to action"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LY07",
+          "VC2E7LA07"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: half of students want to be their own boss",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the NAB survey find? Write **two** things.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          },
+          {
+            "q": "What did students say was holding them back?",
+            "lines": 2,
+            "vc": [
+              "VC2E7LY08"
+            ]
+          },
+          {
+            "q": "How could a small side hustle help with that?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Write your pitch",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write a short pitch (about 30 seconds). Mark pauses with /. Practise it aloud.",
+          "core": "Write a 30-second pitch for your side hustle. Mark where you'll **pause** (/) and which words you'll **stress** (underline). Then practise it aloud, and time it.",
+          "extend": "Write a 30-second pitch with a problem, offer, credibility, price and call to action. Mark pauses and stress, and note one change you'd make for a formal panel."
+        },
+        "plan": [
+          {
+            "label": "The problem (my opening)",
+            "lines": 1
+          },
+          {
+            "label": "My call to action (my last line)",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "Ever…?",
+            "I can…",
+            "It costs…",
+            "To book, …"
+          ],
+          "core": [
+            "Ever…? / Tired of…?",
+            "I'm… , and I…",
+            "I've…",
+            "It costs…",
+            "To book, …"
+          ]
+        },
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "the problem",
+          "the offer",
+          "why me (true)",
+          "the price",
+          "a call to action",
+          "practised and timed"
+        ],
+        "vc": [
+          "VC2E6LY02",
+          "VC2E6LY09",
+          "VC2E4LY02"
+        ],
+        "vcNote": "Scripting a structured persuasive spoken text."
+      },
+      {
+        "type": "storyboard",
+        "title": "Design your flyer",
+        "pagebreak": true,
+        "frames": 1,
+        "columns": 1,
+        "rows": [],
+        "boxHeight": {
+          "support": 185,
+          "core": 185
+        },
+        "instructions": "Sketch your flyer. Include a headline that names the problem, an image, your offer, why you, your prices and a safe call to action. Keep every claim **true**.",
+        "hints": [
+          "Your flyer"
+        ],
+        "vc": [
+          "VC2E6LY07",
+          "VC2E7LA07",
+          "VC2E4LY10"
+        ],
+        "vcNote": "Designing a persuasive multimodal text."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: the pitch panel",
+        "pagebreak": true,
+        "where": "in class, to a panel of teachers, students or local business people",
+        "instructions": "Pitch your side hustle to a panel, show your flyer, and get feedback.",
+        "need": [
+          "your pitch",
+          "your flyer",
+          "a panel (3 people)"
+        ],
+        "steps": {
+          "support": [
+            "Practise your pitch with a partner.",
+            "Pitch to the panel.",
+            "Show your flyer.",
+            "Answer one question.",
+            "Write down their feedback."
+          ],
+          "core": [
+            "Practise your pitch twice with a partner. Time it.",
+            "Pitch to the panel: 30 seconds, no notes if you can.",
+            "Show your flyer and explain one choice you made.",
+            "Answer one question from the panel.",
+            "Write down their feedback.",
+            "Change one thing in your pitch or flyer."
+          ]
+        },
+        "notes": [
+          {
+            "label": "The panel said:",
+            "lines": 2
+          },
+          {
+            "label": "The one thing I changed:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Pitch delivered",
+          "Flyer made",
+          "Panel feedback"
+        ],
+        "vc": [
+          "VC2E6LY02",
+          "VC2E4LY02",
+          "VC2E8LY02"
+        ],
+        "vcNote": "Hands-on: delivering a structured persuasive pitch to a panel."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Rewrite your pitch for a **formal** audience: a local business owner, or a council youth grant panel. What did you change in your words and voice, and why?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY02"
+            ]
+          },
+          {
+            "q": "How does the **image** on your flyer position customers to see your service? What would a different image do?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can turn a skill into an offer.",
+          "I can work out a fair price.",
+          "I can give a persuasive pitch.",
+          "I can make an honest flyer."
+        ],
+        "questions": [
+          "My side hustle idea:",
+          "What I'd need to actually start it:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "A Crossroads capstone combining Money Moves and Digital Life. Students plan a small side hustle: defining an offer for a specific customer, pricing it from costs, time and competitors, writing and delivering a structured 30-second spoken pitch, and designing an honest multimodal flyer. They read about responsibilities: safety, misleading claims under consumer law, the difference between a hobby and a business, and safe promotion for under-16s. The case study is NAB's 2025 survey of secondary students' business aspirations.",
+    "prep": [
+      "Organise a pitch panel: staff, older students, or local business people (a council youth officer or a local trader works well).",
+      "Have A4 paper and coloured pens, or a simple design app, for the flyers.",
+      "Decide whether any side hustles will actually run (e.g. a school market day), and check school policies."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The idea",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** what are you good at that someone would pay for? (Brainstorm.)",
+          "**Explicit teaching (10 min):** offer, price, pitch, promote.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Hobby or business? (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Offer and price",
+        "minutes": 50,
+        "steps": [
+          "**My offer (20 min).** Conference: is there a real customer?",
+          "**Price it (20 min).** Research what others charge.",
+          "**Case study (10 min):** half of students want to be their own boss."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Pitch",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** deliver a weak pitch, then a strong one.",
+          "**Write your pitch (25 min).** Practise aloud in pairs and time it.",
+          "**Anatomy of a flyer (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 4 — Promote",
+        "minutes": 50,
+        "steps": [
+          "**Design your flyer (35 min).** Check every claim is true.",
+          "**Rehearse pitches (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 5 — The panel",
+        "minutes": 50,
+        "steps": [
+          "**Do it: the pitch panel (35 min).**",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "An offer is a skill plus a customer who needs it.",
+      "Price = costs + time, checked against what others charge; profit is what's left after costs.",
+      "A pitch: problem, offer, why you, price, call to action. Deliver it slowly, with a strong close.",
+      "Flyers: headline, image, offer, credibility, price, safe call to action. No misleading claims.",
+      "Under-16s can't hold accounts on platforms like TikTok and Instagram: promote offline and through family.",
+      "Hobby (occasional, for fun) vs business (regular, for profit): a business can get an ABN and may pay tax. Check business.gov.au."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and price rows.",
+        "A short pitch with starters; pitch to a small, familiar panel."
+      ],
+      "extend": [
+        "Adapt the pitch for a formal panel (Level Up).",
+        "Analyse how the flyer's image positions customers (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LY10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Creates a persuasive flyer with relevant, linked ideas (flyer, offer)."
+      },
+      {
+        "vc": "VC2E4LY02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Delivers a short structured pitch using features of voice (Do it)."
+      },
+      {
+        "vc": "VC2E6LY07",
+        "evidence": "Explains how a flyer's structure and features work together to persuade (annotation, flyer)."
+      },
+      {
+        "vc": "VC2E6LY09",
+        "evidence": "Creates organised texts for purpose and audience: offer, price plan and pitch (tables, pitch)."
+      },
+      {
+        "vc": "VC2E6LY02",
+        "evidence": "Delivers a structured spoken pitch to an audience with appropriate voice (Do it)."
+      },
+      {
+        "vc": "VC2E7LY08",
+        "evidence": "Selects content and channels for a specific customer (offer, promotion)."
+      },
+      {
+        "vc": "VC2E7LA07",
+        "evidence": "Explains how images create a perspective in a flyer (annotation, Level Up)."
+      },
+      {
+        "vc": "VC2E8LY02",
+        "evidence": "Adapts a spoken pitch for formal and informal contexts (Do it, Level Up)."
+      }
+    ],
+    "answers": "**Check your reading:** problem, offer, why you, price, call to action. Price: add costs, add your time, check what others charge. Hobby: occasional, for fun, around cost; business: regular, with a profit motive, may need an ABN and pay tax.\n\n**Sort:** knitted scarves at cost — hobby; six lawns weekly — business; birthday cake — hobby; regular video clients — business; weekly sneaker reselling — business; selling old clothes — hobby.\n\n**Flyer:** 1 headline (names the problem); 2 image (shows the result); 3 offer (what, where, when); 4 credibility; 5 clear prices; 6 safe call to action through a parent.\n\n**Case study:** 47% of secondary students want to start a business, up from 35% in 2023; more boys (52%) than girls (41%); barriers were limited resources and lack of practical experience; a side hustle builds that experience.",
+    "resources": [
+      {
+        "label": "NAB — Entrepreneurial spirit alive in Australia's youth (2025)",
+        "url": "https://www.nab.com.au/news/business-banking/entrepreneurial-spirit-alive-in-australias-youth-nab-survey-reveals"
+      },
+      {
+        "label": "business.gov.au — Difference between a business and a hobby",
+        "url": "https://business.gov.au/planning/new-businesses/difference-between-a-business-and-a-hobby"
+      },
+      {
+        "label": "eSafety — Social media age restrictions (young people)",
+        "url": "https://www.esafety.gov.au/young-people/social-media-age-restrictions"
+      }
+    ],
+    "realityCheck": [
+      "**Safety first.** Students should only offer services to people they or their families know, and book through a parent or carer.",
+      "**Not every idea is allowed.** Selling food, offering childcare or anything involving tools and strangers may need adult supervision or council rules. Help students choose sensible ideas.",
+      "**Money can be sensitive.** Some students need to earn; others don't. Keep the focus on skills.",
+      "**Tax and ABNs.** Keep it simple: point students to business.gov.au and the ATO, and don't give individual tax advice.",
+      "**Works in a real class:** yes. The pitch panel is a highlight, especially with real local business people."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and price rows, a short pitch with starters and a familiar panel.",
+      "core": "Standard version: hobby-or-business sort, an offer plan, pricing, flyer anatomy, the NAB survey, a scripted pitch, a flyer design and a pitch panel.",
+      "extend": "Adds call to action and ABN to the vocabulary, a quiz question on adapting a pitch, a pitch with notes for a formal panel, and Level Ups rewriting it formally and analysing the flyer's image."
+    }
+  }
+}
