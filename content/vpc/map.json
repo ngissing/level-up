@@ -9,10 +9,10 @@
       "baseCamp": 2
     },
     "level2": {
-      "starters": "all"
+      "starters": 2
     },
     "boss": {
-      "starters": "all",
+      "starters": 2,
       "level2": 1
     }
   },
@@ -320,6 +320,33 @@
       }
     },
     {
+      "id": "vpc-ai-check",
+      "zone": "vpc-online",
+      "tier": 1,
+      "status": "ready",
+      "title": "AI: Use It, Check It",
+      "tagline": "Chatbots sound sure. That doesn't mean they're right.",
+      "icon": "lucide:bot",
+      "realLife": "Use AI chatbots and image tools honestly and safely: check their answers, say when you used them, and protect your privacy.",
+      "literacy": "Judging the reliability and tone of digital texts; avoiding plagiarism; safe, respectful use of digital tools.",
+      "vc": {
+        "core": [
+          "VPC-U1M2-AP4",
+          "VPC-U1M2-AP6",
+          "VPC-U1M2-LG3",
+          "VPC-U1M2-AP5"
+        ],
+        "extend": [
+          "VPC-U1M2-LG2",
+          "VPC-U1M2-AP3"
+        ]
+      },
+      "badge": {
+        "name": "Bot Checker",
+        "icon": "lucide:search-check"
+      }
+    },
+    {
       "id": "vpc-can-you-trust-it",
       "zone": "vpc-online",
       "tier": 2,
@@ -617,6 +644,32 @@
       "badge": {
         "name": "Form Filler",
         "icon": "lucide:clipboard-pen"
+      }
+    },
+    {
+      "id": "vpc-get-on-the-roll",
+      "zone": "vpc-civic",
+      "tier": 1,
+      "status": "ready",
+      "title": "Get on the Roll",
+      "tagline": "Enrol at 16. Be ready to vote at 18.",
+      "icon": "lucide:vote",
+      "realLife": "Find the right agency, follow its instructions and enrol to vote (from 16), and know where to find trusted election information.",
+      "literacy": "Identifying reliable government agencies; turning instructions into steps; completing official documents; group problem solving.",
+      "vc": {
+        "core": [
+          "VPC-U3M1-LG1",
+          "VPC-U3M1-AP2",
+          "VPC-U3M1-LG3"
+        ],
+        "extend": [
+          "VPC-U3M1-AP4",
+          "VPC-U3M1-LG2"
+        ]
+      },
+      "badge": {
+        "name": "On the Roll",
+        "icon": "lucide:list-checks"
       }
     },
     {

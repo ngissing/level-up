@@ -1,0 +1,1083 @@
+{
+  "id": "vm-handle-with-care",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), with internet access for the final task",
+  "brief": {
+    "hook": {
+      "support": "Your first shift in a café. The boss says, “Clean the grill before you go.” There are two spray bottles out the back. They look the same. One is grill cleaner. One is metho. The grill is still hot.",
+      "core": "First shift in a café kitchen. “Give the grill a clean before close,” says the manager. In the back room there are two spray bottles, side by side, nearly the same. One is grill cleaner. One is methylated spirits. The grill is still hot."
+    },
+    "why": {
+      "support": "Lots of jobs use chemicals. Kitchens. Salons. Cleaning. Farms. Every chemical comes with a **label** and a **safety data sheet**. They are written for the person using it. That's you.",
+      "core": "Kitchens, salons, cleaning, farms and building sites all use chemicals. Each one comes with two texts: a **label** and a **safety data sheet**. They're written for the person about to use it: you.",
+      "extend": "Many jobs handle hazardous chemicals. Each comes with a **label**, read in seconds at the point of use, and a **safety data sheet (SDS)**, a detailed reference. Knowing which to use, and when, is a workplace survival skill."
+    },
+    "canDo": {
+      "support": [
+        "I can read a chemical label.",
+        "I can find first aid in a safety data sheet.",
+        "I can say who a label is written for.",
+        "I can make a safety card for a new worker."
+      ],
+      "core": [
+        "I can read the four parts of a **chemical label**.",
+        "I can find what I need in a **safety data sheet** by its sections.",
+        "I can explain **who** each text is for, and **why** it's set out that way.",
+        "I can make a **safety card** a new worker can follow."
+      ]
+    },
+    "showIt": "Make a safety card for a real chemical, using its label and safety data sheet.",
+    "vocab": [
+      {
+        "word": "hazardous",
+        "meaning": "can hurt you or make you sick",
+        "example": "Oven cleaner is a hazardous chemical.",
+        "levels": [
+          "support",
+          "core"
+        ]
+      },
+      {
+        "word": "signal word",
+        "meaning": "DANGER or WARNING: shows how serious it is",
+        "example": "DANGER is more serious than WARNING."
+      },
+      {
+        "word": "pictogram",
+        "meaning": "a picture in a red diamond that shows the danger",
+        "example": "A flame pictogram means it catches fire."
+      },
+      {
+        "word": "SDS",
+        "meaning": "safety data sheet: all the safety facts about a chemical",
+        "example": "Section 4 of the SDS has the first aid."
+      },
+      {
+        "word": "flammable",
+        "meaning": "catches fire easily",
+        "example": "Methylated spirits is highly flammable."
+      },
+      {
+        "word": "corrosive",
+        "meaning": "can burn your skin and eyes",
+        "example": "Grill cleaner is often corrosive."
+      },
+      {
+        "word": "PPE",
+        "meaning": "safety gear, like gloves and goggles",
+        "example": "The SDS says which PPE to wear."
+      },
+      {
+        "word": "decant",
+        "meaning": "pour a chemical into a different container",
+        "example": "Decant it? Label the new bottle.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "precaution",
+        "meaning": "something you do to stay safe",
+        "example": "Wearing gloves is a precaution.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Handle With Care in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Handle With Care",
+        "sub": "Chemical labels and safety data sheets.",
+        "icon": "lucide:flask-conical",
+        "say": "Handle with care. Chemical labels and safety data sheets. Read them before you use it."
+      },
+      {
+        "kind": "big",
+        "title": "Two texts, two jobs",
+        "text": "**Label** = right now. **SDS** = the full story.",
+        "icon": "lucide:files",
+        "say": "Every chemical at work has two texts. The label is for the moment you pick it up. The safety data sheet is the full story.",
+        "vc": [
+          "VM-U3O2-KS1",
+          "VM-U3O2-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Label",
+        "pillIcon": "lucide:tag",
+        "title": "Signal word",
+        "text": "**DANGER** = more serious · **WARNING** = less serious",
+        "icon": "lucide:triangle-alert",
+        "say": "The signal word comes first. Danger means more serious. Warning means less serious.",
+        "vc": [
+          "VM-U3O2-KS1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Label",
+        "pillIcon": "lucide:tag",
+        "title": "Pictogram",
+        "text": "Red diamond. Flame = **fire**. Corrosion = **burns**.",
+        "icon": "lucide:flame",
+        "say": "Pictograms show the type of danger, in a red diamond. A flame means it catches fire easily. Corrosion means it can burn your skin and eyes.",
+        "vc": [
+          "VM-U3O2-KS1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Label",
+        "pillIcon": "lucide:tag",
+        "title": "Hazard statement",
+        "text": "What it can **do to you**.",
+        "icon": "lucide:shield-alert",
+        "say": "The hazard statement says what it can do to you. Like: causes severe skin burns and eye damage.",
+        "vc": [
+          "VM-U3O2-KS1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Label",
+        "pillIcon": "lucide:tag",
+        "title": "Precautions",
+        "text": "What **you** do: gloves, keep from heat, rinse.",
+        "icon": "lucide:hand",
+        "say": "Precautions tell you what to do. Wear gloves. Keep away from heat. If it gets in your eyes, rinse with water.",
+        "vc": [
+          "VM-U3O2-KS1"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "The SDS: 16 sections",
+        "text": "First aid = **4** · Storage = **7** · PPE = **8**",
+        "icon": "lucide:list-ordered",
+        "say": "A safety data sheet always has the same 16 sections, in the same order. First aid is section 4. Storage is section 7. Your safety gear is section 8.",
+        "vc": [
+          "VM-U3O1-KS4",
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Before you use any chemical",
+        "steps": [
+          "Read the label",
+          "Check the SDS",
+          "Gear up",
+          "No label? Don't use it"
+        ],
+        "say": "Before you use any chemical. Read the label. Check the SDS. Put on your safety gear. And if it's in a bottle with no label, don't use it."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Read the label and SDS. Make the safety card.",
+        "icon": "lucide:clipboard-check",
+        "say": "Your mission. Make a safety card for a real chemical, so a new worker can use it safely on day one."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Two texts that keep you safe",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Every chemical at work comes with **two texts**.\n\n**The label** is for when you pick it up. It is quick to read. Every label in Australia has the same parts:\n\n1. **Signal word.** **DANGER** is more serious. **WARNING** is less serious.\n2. **Pictogram.** A black picture in a red diamond. A flame means it catches fire.\n3. **Hazard.** What it can do to you.\n4. **Precautions.** What you must do. *Wear gloves.*\n\n**The safety data sheet (SDS)** is the full story. It is long. You don't read it all. You find the part you need. Every SDS has **16 sections**, always in the same order. First aid is **section 4**.\n\nYour workplace must have the SDS for each chemical. Ask where it is.\n\nThe big rule: **no label? Don't use it.**",
+          "core": "Every hazardous chemical at work comes with two texts. They're about the same chemical, but they're written for **different moments**.\n\n**The label** is for the moment you pick it up. It has to work in seconds, so it uses a set pattern that's the same on every chemical in Australia:\n\n1. **Signal word.** **DANGER** for more serious hazards, **WARNING** for less serious ones.\n2. **Pictograms.** Black pictures in red diamonds. A flame means it catches fire easily. Corrosion (liquid eating into a hand) means it can burn skin and eyes.\n3. **Hazard statements.** What it can do to you: *Highly flammable liquid and vapour.*\n4. **Precautions.** What you must do: *Wear protective gloves. Keep away from heat and hot surfaces.*\n\n**The safety data sheet (SDS)** is the full story. It's longer and more technical, because it has to cover everything: what's in it, first aid, fires, spills, storage, safety gear and more. Nobody reads an SDS from start to finish. You find the part you need, because every SDS has the **same 16 sections in the same order**. First aid is always section 4. Handling and storage is section 7. Your PPE is section 8.\n\nWorkplaces must keep current safety data sheets where workers can get to them. Ask where they are on your first day.\n\nOne rule beats them all: **if a chemical is in a bottle with no label, don't use it.** If you **decant** a chemical into another container, that container needs a label too.",
+          "extend": "Every hazardous chemical in an Australian workplace comes with two texts. They share a subject but have very different purposes and audiences.\n\n**The label** is designed for the point of use: a worker holding the container, often in a hurry. Australia uses the Globally Harmonised System (GHS), so labels follow a fixed pattern that can be read in seconds:\n\n1. **Signal word.** **DANGER** signals more severe hazards; **WARNING**, less severe ones.\n2. **Pictograms.** Black symbols in red diamonds that show the type of hazard, readable without words.\n3. **Hazard statements.** Standard sentences describing the harm: *Causes severe skin burns and eye damage.*\n4. **Precautionary statements.** Imperatives telling the reader what to do: *Wear protective gloves. Keep away from heat, hot surfaces, sparks and open flames.*\n\n**The safety data sheet (SDS)** is a reference text for anyone who needs detail: workers, supervisors, first aiders, firefighters. It must cover a lot, so it uses **16 numbered sections in a fixed order**. A reader can go straight to what they need. First aid is section 4; handling and storage, section 7; personal protection, section 8.\n\nWorkplaces must keep current SDSs where workers can reach them. And one simple rule beats everything: never use an unlabelled container. If you **decant** a chemical, the new container must be labelled."
+        },
+        "vc": [
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS1",
+          "VM-U3O2-KK1",
+          "VM-U3O1-KS4"
+        ],
+        "vcNote": "Purpose, audience and structure of two workplace texts about the same chemical: the label (instructional) and the SDS (informational)."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The wrong bottle",
+        "icon": "lucide:flame",
+        "body": {
+          "support": "In **February 2022**, a worker was cleaning the kitchen at a café in **Wye River**, Victoria.\n\nThe worker went to get the grill cleaner. But they grabbed the wrong bottle. It was **metho**. Metho catches fire very easily. The two bottles looked the same. They were kept **side by side**.\n\nThe metho caught fire on the grill. The worker's **arm, neck and hair** caught fire.\n\nWorkSafe Victoria charged the business. The business did not have **up-to-date safety data sheets**. It had not **trained** the worker properly.\n\nThe business made a legal promise to fix it. It had to train all its staff about chemicals.",
+          "core": "On **12 February 2022**, a casual worker was cleaning the kitchen at the **Wye River General Store and Café**, on the Great Ocean Road. A labour-hire agency had sent them there.\n\nThe worker went out the back to get the grill cleaner. But the bottle they grabbed was **methylated spirits**, which catches fire very easily. The two were kept **side by side in similar bottles**.\n\nOn the hot grill, the methylated spirits caught fire. So did the worker's **arm, neck and hair**. The worker ran to a sink. Only then did a co-worker pick up the bottle and see it wasn't grill cleaner.\n\nWorkSafe Victoria charged the business with **eight offences**. Two of them: not keeping **current safety data sheets**, and not properly **training and supervising** the worker.\n\nThe case didn't go to court. Instead, the business made WorkSafe an **enforceable undertaking**: a legal promise to fix things. Part of it was chemical safety training for all its staff.",
+          "extend": "On **12 February 2022**, a labour-hire worker was cleaning the kitchen at the **Wye River General Store and Café** on Victoria's Great Ocean Road.\n\nThe worker went to the back room for the grill cleaner. They picked up a bottle of **methylated spirits** instead: a highly flammable liquid. The two products were stored **side by side in similar bottles**. On the hot grill, the methylated spirits ignited, and the worker's **arm, neck and hair** caught fire. Only after the worker had run to a sink did a co-worker pick up the bottle and realise the mistake.\n\nWorkSafe Victoria charged the business with **eight offences** under Victoria's safety laws. They included failing to keep **current safety data sheets** and failing to properly **train and supervise** the worker.\n\nThe case didn't go to court. WorkSafe accepted an **enforceable undertaking** instead: a legally binding promise to improve, including chemical safety training for all staff.\n\nThe lesson is uncomfortable. Methylated spirits labels warn people to keep it away from heat and flames. But a label only protects you if it's read, and the workplace's systems decide whether it gets read."
+        },
+        "source": {
+          "name": "OHS Reps @ Work — “Worker catches fire: employer enters into enforceable undertaking”; My Business — Wye River Grocer enforceable undertaking",
+          "url": "https://www.ohsrep.org.au/prosecutions_sn_733_worker_catches_fire_employer_enters_into_enforceable_undertaking"
+        },
+        "think": {
+          "support": [
+            "What went wrong?",
+            "What should the label have told the worker?"
+          ],
+          "core": [
+            "What went wrong? List every failure you can find.",
+            "Which part of a label would have warned the worker?",
+            "What should every new worker be shown on day one?"
+          ]
+        },
+        "vc": [
+          "VM-U3O1-KS4",
+          "VM-U3O2-KS1"
+        ],
+        "vcNote": "A real Victorian case: why labels, current SDSs and training matter; inferring what the texts should have told the worker."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a chemical label",
+      "docTitle": "HOTPLATE & GRILL CLEANER (EXAMPLE)",
+      "vc": [
+        "VM-U3O2-KS1",
+        "VM-U3O2-KK1"
+      ],
+      "vcNote": "The fixed structure of a GHS chemical label and what each part tells the reader.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Product",
+          "value": "Hotplate & Grill Cleaner, 500 mL spray"
+        },
+        {
+          "n": 2,
+          "label": "Signal word",
+          "value": "DANGER",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Pictogram",
+          "value": "Red diamond: liquid dripping onto a hand and a metal bar (corrosion)"
+        },
+        {
+          "n": 4,
+          "label": "Hazard statement",
+          "value": "Causes severe skin burns and eye damage."
+        },
+        {
+          "n": 5,
+          "label": "Precautions",
+          "value": "Wear protective gloves and eye protection. Do not mix with other products."
+        },
+        {
+          "n": 6,
+          "label": "First aid",
+          "value": "IF IN EYES: Rinse cautiously with water for several minutes. Call the Poisons Information Centre on 13 11 26.",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice, using standard label wording. Real labels also list ingredients and the supplier's details.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Product name",
+          "note": "Match it to the right SDS."
+        },
+        {
+          "n": 2,
+          "label": "Signal word",
+          "note": "DANGER = the more serious level."
+        },
+        {
+          "n": 3,
+          "label": "Pictogram",
+          "note": "The type of danger, without words."
+        },
+        {
+          "n": 4,
+          "label": "Hazard statement",
+          "note": "What it can do to you."
+        },
+        {
+          "n": 5,
+          "label": "Precautions",
+          "note": "Commands: what you must do to stay safe."
+        },
+        {
+          "n": 6,
+          "label": "First aid",
+          "note": "What to do straight away if it goes wrong."
+        }
+      ]
+    },
+    {
+      "type": "document",
+      "title": "Inside a safety data sheet",
+      "docTitle": "SAFETY DATA SHEET: METHYLATED SPIRITS (EXTRACT, EXAMPLE)",
+      "vc": [
+        "VM-U3O1-KS4",
+        "VM-U3O2-KK1"
+      ],
+      "vcNote": "Navigating a technical document by its numbered sections.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Section 1: Identification",
+          "value": "Product name, what it's used for, supplier, emergency phone number"
+        },
+        {
+          "n": 2,
+          "label": "Section 2: Hazards",
+          "value": "DANGER. Highly flammable liquid and vapour.",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Section 4: First aid",
+          "value": "IF ON SKIN OR HAIR: Take off contaminated clothing straight away. Rinse skin with water."
+        },
+        {
+          "n": 4,
+          "label": "Section 7: Handling and storage",
+          "value": "Keep away from heat, hot surfaces, sparks and open flames. Keep in the original container, tightly closed."
+        },
+        {
+          "n": 5,
+          "label": "Section 8: Personal protection",
+          "value": "Use where there is good air flow. Wear safety glasses and gloves."
+        },
+        {
+          "n": 6,
+          "label": "Section 16: Other information",
+          "value": "Date this SDS was written or last updated"
+        }
+      ],
+      "note": "Made-up extract for practice. A real SDS has all 16 sections, always in the same order.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Identification",
+          "note": "Check it's the right product, and who to call."
+        },
+        {
+          "n": 2,
+          "label": "Hazards",
+          "note": "The same signal word and hazard as the label."
+        },
+        {
+          "n": 3,
+          "label": "First aid",
+          "note": "Always section 4. The first place to look in an emergency."
+        },
+        {
+          "n": 4,
+          "label": "Handling and storage",
+          "note": "Where and how to keep it, and what to keep it away from."
+        },
+        {
+          "n": 5,
+          "label": "Personal protection",
+          "note": "The PPE you need."
+        },
+        {
+          "n": 6,
+          "label": "Date",
+          "note": "Shows whether the SDS is current."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Before you use any chemical",
+      "steps": [
+        {
+          "title": "Label",
+          "text": "Signal word, pictogram, precautions.",
+          "icon": "lucide:tag"
+        },
+        {
+          "title": "SDS",
+          "text": "First aid (4), storage (7), PPE (8).",
+          "icon": "lucide:files"
+        },
+        {
+          "title": "No label?",
+          "text": "Don't use it. Tell your supervisor.",
+          "icon": "lucide:ban"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which signal word means the **more serious** hazard?",
+        "options": [
+          "DANGER",
+          "WARNING",
+          "CAUTION",
+          "NOTICE"
+        ],
+        "answer": 0,
+        "explain": "DANGER is the higher level. WARNING is less serious.",
+        "vc": [
+          "VM-U3O2-KS1"
+        ]
+      },
+      {
+        "q": "A **flame** pictogram in a red diamond means…",
+        "options": [
+          "It catches fire easily",
+          "It's hot to touch",
+          "It's safe near heat",
+          "It's for cooking"
+        ],
+        "answer": 0,
+        "explain": "Flame = flammable. Keep it away from heat and flames.",
+        "vc": [
+          "VM-U3O2-KS1"
+        ]
+      },
+      {
+        "q": "Where in a safety data sheet do you find **first aid**?",
+        "options": [
+          "Section 4",
+          "Section 1",
+          "Section 16",
+          "It's different every time"
+        ],
+        "answer": 0,
+        "explain": "Every SDS uses the same 16 sections. First aid is always section 4.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "q": "Who is a chemical **label** mainly written for?",
+        "options": [
+          "The person about to use it",
+          "The company that sells it",
+          "Scientists",
+          "Nobody: it's just the law"
+        ],
+        "answer": 0,
+        "explain": "Labels are built to be read in seconds, at the point of use.",
+        "vc": [
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS1"
+        ]
+      },
+      {
+        "q": "In the Wye River case, what went wrong?",
+        "options": [
+          "Two chemicals in similar bottles were stored side by side, and the worker grabbed the wrong one",
+          "The grill was broken",
+          "The worker forgot to wear a hat",
+          "The café had run out of grill cleaner"
+        ],
+        "answer": 0,
+        "explain": "Similar bottles side by side, no current SDSs, and not enough training.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "q": "A chemical has been poured into a drink bottle with no label. What should you do?",
+        "options": [
+          "Don't use it. Tell your supervisor.",
+          "Smell it to find out what it is",
+          "Use it if it looks like the cleaner",
+          "Pour it down the sink"
+        ],
+        "answer": 0,
+        "explain": "No label = don't use it. Never smell a chemical to identify it."
+      },
+      {
+        "q": "Why does every SDS use the same 16 sections in the same order?",
+        "options": [
+          "So any reader can find the same information fast, for any chemical",
+          "To make it look longer",
+          "Because 16 is a lucky number",
+          "So only experts can read it"
+        ],
+        "answer": 0,
+        "explain": "A predictable structure helps readers locate information.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Make a safety card for a real chemical. Use its label and SDS. Write it for a new worker.",
+      "core": "Make a one-page safety card for a real chemical, using its label and SDS, written for a new worker on their first day.",
+      "extend": "Make a one-page safety card for a real chemical used in a workplace you know, synthesising its label and SDS into clear instructions for a new worker, then evaluate which source gave you what you needed."
+    },
+    "checklist": [
+      "I named the product and its signal word and pictogram",
+      "I wrote at least 3 steps that start with an action",
+      "I included first aid from SDS section 4",
+      "I included storage from SDS section 7 and PPE from section 8",
+      "I used plain words a new worker would understand"
+    ],
+    "levelUp": "Compare the real label and the SDS for your chemical. Which one gives a new worker what they need faster, and what would you change about each?",
+    "vc": [
+      "VM-U3O2-KS4",
+      "VM-U3O1-KS4"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Two texts that keep you safe",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What is each text for?",
+            "lines": 0,
+            "vc": [
+              "VM-U3O2-KS1"
+            ],
+            "boxes": [
+              "The label",
+              "The SDS"
+            ]
+          },
+          {
+            "q": "What are the **four parts** of every chemical label?",
+            "lines": {
+              "support": 2,
+              "core": 2
+            }
+          },
+          {
+            "q": "Why does every SDS have the **same 16 sections** in the same order?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK1"
+            ]
+          },
+          {
+            "q": "What should you do with a chemical in a bottle with **no label**?",
+            "lines": 1
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a chemical label",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the label. Use the word bank. Write what it tells the worker.",
+          "core": "Each number marks part of the label. Write what it is and what it tells the worker to do."
+        },
+        "columns": [
+          "What is it?",
+          "What does it tell the worker?"
+        ],
+        "wordBank": {
+          "support": [
+            "product name",
+            "signal word",
+            "pictogram",
+            "hazard",
+            "precautions",
+            "first aid"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U3O2-KS1",
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "What's the danger?",
+        "pagebreak": true,
+        "choices": [
+          "Fire",
+          "Burns",
+          "Poison",
+          "Harms health"
+        ],
+        "reasonLabel": "It means:",
+        "instructions": "Each card describes a pictogram (a black picture in a red diamond). Tick the type of danger. Then write what it means for the worker.",
+        "cards": [
+          {
+            "from": "Pictogram",
+            "text": "A flame",
+            "answer": "Fire",
+            "flags": "Flammable: catches fire easily."
+          },
+          {
+            "from": "Pictogram",
+            "text": "Liquid dripping onto a hand and a metal bar",
+            "answer": "Burns",
+            "flags": "Corrosive: burns skin and eyes."
+          },
+          {
+            "from": "Pictogram",
+            "text": "A skull and crossbones",
+            "answer": "Poison",
+            "flags": "Toxic: a small amount can kill."
+          },
+          {
+            "from": "Pictogram",
+            "text": "An exclamation mark",
+            "answer": "Harms health",
+            "flags": "Irritant or harmful."
+          },
+          {
+            "from": "Pictogram",
+            "text": "A flame over a circle",
+            "answer": "Fire",
+            "flags": "Oxidiser: makes fires burn more strongly.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Pictogram",
+            "text": "A person's chest with a star shape on it",
+            "answer": "Harms health",
+            "flags": "Serious long-term health hazard.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U3O2-KS1"
+        ],
+        "vcNote": "Reading the visual language of an instructional text (GHS pictograms)."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a safety data sheet",
+        "diagram": 1,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a section of the SDS. Write when a worker would need it.",
+          "core": "Each number marks a section of the SDS. Write what it's for and when a worker would need it."
+        },
+        "columns": [
+          "What is this section for?",
+          "When would a worker need it?"
+        ],
+        "wordBank": {
+          "support": [
+            "right product",
+            "how dangerous",
+            "first aid",
+            "storage",
+            "safety gear",
+            "date"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U3O1-KS4",
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Where would you look?",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 18
+        },
+        "instructions": "Each problem happens at work. Decide whether you'd check the **label** or the **SDS**, and which part. The first one is done for you.",
+        "columns": [
+          "The problem",
+          "Label or SDS?",
+          "Which part?"
+        ],
+        "rows": [
+          [
+            "Can I use this near the hot grill?",
+            "Label, or SDS",
+            "Precautions; SDS section 7"
+          ],
+          [
+            "Someone splashed it on their arm. What now?",
+            "",
+            ""
+          ],
+          [
+            "What gloves and glasses do I need?",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Is this the right SDS for this bottle?",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "Is this SDS up to date?",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U3O1-KS4",
+          "VM-U3O2-KS1"
+        ],
+        "vcNote": "Choosing the right text and section for a workplace purpose."
+      },
+      {
+        "type": "table",
+        "title": "Same chemical, two texts",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 18
+        },
+        "instructions": "The label and the SDS are about the same chemical. Compare them.",
+        "columns": [
+          "",
+          "The label",
+          "The SDS"
+        ],
+        "rows": [
+          [
+            "Who reads it?",
+            "",
+            ""
+          ],
+          [
+            "When do they read it?",
+            "",
+            ""
+          ],
+          [
+            "How much detail?",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Which helps a new worker more on day one, and why?",
+              "",
+              ""
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS1",
+          "VM-U3O1-KS5"
+        ],
+        "vcNote": "Comparing the purpose and audience of an instructional and an informational text (extend: evaluating effectiveness)."
+      },
+      {
+        "type": "flow",
+        "title": "Before you use any chemical",
+        "diagram": 2
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the wrong bottle",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "List **everything** that went wrong. Think about the bottles, the documents and the training.",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          },
+          {
+            "q": "Methylated spirits labels say: *Keep away from heat, hot surfaces, sparks and open flames.* Why didn't that protect the worker?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KS1"
+            ]
+          },
+          {
+            "q": "Write **two rules** for that café's back room so it never happens again.",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: make a safety card",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Pick a real chemical. It could be from work, school or home. Find its label and SDS online. Make a safety card for a new worker.",
+          "core": "Choose a real chemical from a workplace you know, from school (ask your teacher or the cleaning staff) or from home. Find its label and its SDS (search the product name and “SDS”: suppliers put them online). Make a one-page safety card for a new worker on their first day.",
+          "extend": "Choose a real chemical from a workplace you know. Find its label and current SDS online, then make a one-page safety card that turns both into clear, ordered instructions for a new worker. Pick only what that reader needs, and put it in the order they'll need it."
+        },
+        "plan": [
+          {
+            "label": "Product, signal word and pictogram:",
+            "lines": 1
+          },
+          {
+            "label": "Who the card is for, and where it's used:",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Before you use it: …",
+          "Wear: …",
+          "If it gets on your skin or in your eyes: …",
+          "Store it: …",
+          "Never: …"
+        ],
+        "lines": {
+          "support": 9,
+          "core": 11
+        },
+        "check": [
+          "signal word + pictogram",
+          "3 action steps",
+          "first aid (SDS 4)",
+          "storage (7) + PPE (8)",
+          "plain words"
+        ],
+        "vc": [
+          "VM-U3O2-KS4",
+          "VM-U3O1-KS4",
+          "VM-U3O2-KK2"
+        ],
+        "vcNote": "Creating instructional content for a workplace, for a specific audience and purpose, from technical documentation."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Look at the real label and SDS you used. Which gave you what you needed **faster**? Which gave you more you could **trust**? Explain.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS5"
+            ]
+          },
+          {
+            "q": "Choose one thing you'd change about the label **or** the SDS to make it work better for a new worker your age.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS5",
+              "VM-U3O2-KK1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can read the parts of a chemical label.",
+          "I can find what I need in an SDS.",
+          "I can explain who each text is for.",
+          "I can make a safety card for a new worker."
+        ],
+        "questions": [
+          "A chemical I'll read the label on from now on:",
+          "One question I'll ask on my first day at a new job:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students compare two workplace texts about the same chemical: the GHS label (instructional, read in seconds at the point of use) and the safety data sheet (informational reference, 16 fixed sections). They annotate both, decode pictograms, choose the right text for workplace problems, and analyse a real Victorian case where a worker caught fire after grabbing methylated spirits instead of grill cleaner. The final task turns a real label and SDS into a safety card for a new worker.",
+    "prep": [
+      "Collect **empty, rinsed** chemical containers or photos of labels (cleaning sprays, oven or grill cleaner, methylated spirits). Don't bring hazardous chemicals into class.",
+      "Ask your school's cleaning contractor, science or trades staff, or business manager to show their chemical register and SDS folder.",
+      "Check students can reach supplier websites for real SDSs (search “product name SDS”). Print two or three in advance in case the internet is down."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Two texts",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** two near-identical spray bottles (empty, labelled with masking tape over the names). How would you tell them apart? Reveal the case: it really happened.",
+          "**Explicit teaching (10 min):** model reading one label aloud, naming its four parts and who it's for. Then a second label together (guided).",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Exit (10 min):** label vs SDS: who's each one for?"
+        ]
+      },
+      {
+        "title": "Lesson 2 — The label",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** Anatomy of a chemical label.",
+          "**Sort (15 min):** What's the danger? Link pictograms to real products students know.",
+          "**Real labels (20 min):** in pairs, decode the photos or empty containers you collected."
+        ]
+      },
+      {
+        "title": "Lesson 3 — The SDS",
+        "minutes": 50,
+        "steps": [
+          "**Explicit teaching (10 min):** project a real SDS and skim it by headings only. Think aloud: where's first aid? Where's storage? Is it current?",
+          "**Annotate (10 min):** Inside a safety data sheet.",
+          "**Tables (15 min):** Where would you look? and Same chemical, two texts.",
+          "**Case study (15 min):** the wrong bottle. Discuss: whose job was it to prevent this?"
+        ]
+      },
+      {
+        "title": "Lesson 4 — Make the safety card",
+        "minutes": 50,
+        "steps": [
+          "**Find (10 min):** students choose a chemical and find its real label and SDS online.",
+          "**Plan + write (25 min):** final mission. Conference with students as they work.",
+          "**Level Up, check, reflect (15 min):** compare the two sources; quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "A label is for the point of use: signal word, pictogram, hazard statement, precautions.",
+      "DANGER is more serious than WARNING.",
+      "An SDS has 16 sections in a fixed order: first aid 4, handling and storage 7, PPE 8.",
+      "Workplaces must keep current SDSs that workers can get to.",
+      "No label? Don't use it. Decanted chemicals need a label too."
+    ],
+    "differentiation": {
+      "support": [
+        "Word banks on both annotations.",
+        "Fewer sort cards and table rows.",
+        "A shorter safety card (5 lines plus the starters)."
+      ],
+      "extend": [
+        "Name the structural features (fixed sections, standard statements, imperatives) and why they suit each audience.",
+        "Evaluate which real source works better for a new worker (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O2-KK2",
+        "evidence": "Identifies who the label and the SDS are written for and why (Check your reading, Same chemical, two texts)."
+      },
+      {
+        "vc": "VM-U3O2-KS1",
+        "evidence": "Explains the purpose and audience of the label (instructional) and the SDS (informational) and what each part tells the reader (label annotation, sort, case study)."
+      },
+      {
+        "vc": "VM-U3O1-KS4",
+        "evidence": "Navigates a real or realistic SDS to find workplace information (SDS annotation, Where would you look?, final mission)."
+      },
+      {
+        "vc": "VM-U3O2-KS4",
+        "evidence": "Creates instructional content (a safety card) for a new worker, selecting and ordering what that reader needs (final mission, case study rules)."
+      },
+      {
+        "vc": "VM-U3O1-KS5",
+        "evidence": "Level Up: compares the label and the SDS and evaluates which delivers information more effectively for a new worker."
+      },
+      {
+        "vc": "VM-U3O2-KK1",
+        "evidence": "Level Up: explains how the fixed structure and standard language of a label and an SDS help readers."
+      }
+    ],
+    "answers": "**Check your reading:** the label is for the moment you use it (quick, read in seconds); the SDS is the full reference (detail on first aid, storage, PPE and more). Four label parts: signal word, pictogram, hazard statement, precautions. Same 16 sections so anyone can find information fast on any chemical. No label: don't use it, tell your supervisor.\n\n**Label:** 1 product name (match to the SDS); 2 signal word DANGER (more serious); 3 corrosion pictogram (burns skin and eyes); 4 hazard statement (what it does to you); 5 precautions (gloves, eye protection, don't mix); 6 first aid (rinse eyes, call 13 11 26).\n\n**Pictograms:** flame — fire (flammable); corrosion — burns; skull and crossbones — poison (toxic); exclamation mark — harms health (irritant/harmful); flame over circle — fire (oxidiser); person with star — harms health (serious long-term).\n\n**SDS:** 1 identification (right product, emergency number); 2 hazards; 3 first aid (section 4); 4 handling and storage (section 7); 5 personal protection (section 8); 6 date (is it current?).\n\n**Where would you look?:** splash on arm — label first aid, or SDS section 4; gloves and glasses — SDS section 8 (and label precautions); right SDS — compare product name with SDS section 1; up to date — SDS section 16 date.\n\n**Same chemical, two texts:** label — anyone about to use it, at the moment of use, little detail; SDS — workers, supervisors, first aiders, when they need detail or something goes wrong, lots of detail.\n\n**Case study:** similar bottles stored side by side; no current SDSs; worker not properly trained or supervised; the label warning only works if someone reads it; rules such as store flammables away from cleaners, label everything, train every new worker before they clean.",
+    "resources": [
+      {
+        "label": "OHS Reps @ Work — Worker catches fire: employer enters into enforceable undertaking",
+        "url": "https://www.ohsrep.org.au/prosecutions_sn_733_worker_catches_fire_employer_enters_into_enforceable_undertaking"
+      },
+      {
+        "label": "My Business — Wye River Grocer enforceable undertaking",
+        "url": "https://www.mybusiness.com.au/how-we-help/be-a-better-employer/managing-risk/grocer-commits-to-massive-chemical-safety-overhaul-to-avoid-court"
+      },
+      {
+        "label": "Safe Work Australia — Understanding labels for hazardous chemicals",
+        "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1702/understanding_labels_for_hazardous_chemicals.pdf"
+      },
+      {
+        "label": "Safe Work Australia — Understanding safety data sheets",
+        "url": "https://safeworkaustralia.gov.au/resources-and-publications/guidance-materials/understanding-safety-data-sheets-hazardous-chemicals"
+      },
+      {
+        "label": "WorkSafe Victoria — GHS classification and labelling of chemicals",
+        "url": "https://worksafe.vic.gov.au/globally-harmonized-system-ghs-classification-and-labelling-chemicals"
+      }
+    ],
+    "realityCheck": [
+      "**No hazardous chemicals in class.** Use empty, rinsed containers or photos of labels. Never ask students to bring chemicals from work or home; the final task uses labels and SDSs found online.",
+      "**The case is confronting.** A worker catching fire is vivid. The sources don't report how badly the worker was hurt, so don't guess. Keep the focus on the system: similar bottles, no current SDSs, no training.",
+      "**Students with jobs are your experts.** Many already use chemicals in fast food, cleaning, salons or on farms. Ask if they've ever been shown the SDS at work. Many haven't, and that's a real conversation about their rights.",
+      "**Real SDSs are long and technical.** That's the point of the lesson: model skimming by section number, and let Foundation readers find just sections 2, 4 and 8.",
+      "**Works in a real class:** yes, especially for students heading into hospitality, trades, cleaning, hair and beauty or agriculture. It also links well to VET units with a WHS component."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 7 key words, 3-choice quiz, word banks on both annotations, fewer sort cards and table rows, and a shorter safety card.",
+      "core": "Standard version: label and SDS annotations, pictogram sort, two comparison tables, a real Victorian case, and a safety card made from a real label and SDS.",
+      "extend": "Adds precaution to the vocabulary, a quiz question on SDS structure, an evaluation row in the comparison table, and a Level Up comparing the effectiveness of the real label and SDS."
+    }
+  }
+}

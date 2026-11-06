@@ -25,7 +25,7 @@ function blockTitle(b, ic) {
 function qList(items, start = 1) {
   return html`<ol class="wb-qs" start="${start}">${items.map((q) => html`<li class="${q.levelUp ? 'is-lvl' : ''}">
     <p>${mdInline(q.q)} ${q.levelUp ? lvl() : ''}</p>
-    ${q.boxes ? html`<div class="wb-boxes">${q.boxes.map((b) => html`<div><b>${b}</b></div>`)}</div>` : ''}
+    ${q.boxes ? html`<div class="wb-boxes" style="--n:${Math.min(q.boxes.length, 4)}">${q.boxes.map((b) => html`<div><b>${b}</b></div>`)}</div>` : ''}
     ${q.lines ? lines(q.lines) : ''}
   </li>`)}</ol>`;
 }

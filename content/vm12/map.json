@@ -9,10 +9,10 @@
       "baseCamp": 2
     },
     "level2": {
-      "starters": "all"
+      "starters": 2
     },
     "boss": {
-      "starters": "all",
+      "starters": 2,
       "level2": 1
     }
   },

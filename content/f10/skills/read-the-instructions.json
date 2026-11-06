@@ -1,0 +1,1110 @@
+{
+  "id": "read-the-instructions",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You have a bad headache. You have a cold too. There is pain relief in the cupboard. There are cold and flu tablets in the drawer. Can you take both? The answer is on the boxes.",
+      "core": "You've got a pounding headache and a cold coming on. There's a box of pain relief in the cupboard and cold-and-flu tablets in the drawer. Take both? The answer is printed on the boxes — if you know where to look."
+    },
+    "why": {
+      "support": "Instructions are short. But every word has a job. One small word can change what you do. Misread a medicine box or a sign, and you could get hurt.",
+      "core": "Instructions are short, but every word has a job. One small word — **must**, **may**, **with**, **every** — can change what you do. Misread a game guide and you lose a level. Misread a medicine box or a safety sign and you could get hurt.",
+      "extend": "Instructions are some of the most compressed texts you'll read: a few words carry a rule, a limit and a warning. Small choices — **must** or **may**, **with food** or **before food** — change what a reader should do. Reading them precisely is a safety skill, not just a school one."
+    },
+    "canDo": {
+      "support": [
+        "I can find the action word in an instruction.",
+        "I can tell **must**, **should** and **may** apart.",
+        "I can find the active ingredient on a medicine box.",
+        "I can write clear steps for someone else."
+      ],
+      "core": [
+        "I can find the **action**, the **must-word** and the **when-and-how** details in an instruction.",
+        "I can explain the difference between **must**, **should** and **may**.",
+        "I can find the **active ingredient** on a medicine box and say why it matters.",
+        "I can write instructions that someone else can follow exactly."
+      ]
+    },
+    "showIt": "Decode a real label or sign, then write instructions so clear that someone could follow them without asking you a thing.",
+    "vocab": [
+      {
+        "word": "instructions",
+        "meaning": "words that tell you how to do something",
+        "example": "Read the instructions before you start.",
+        "levels": [
+          "support"
+        ]
+      },
+      {
+        "word": "dose",
+        "meaning": "the amount of medicine you take at one time",
+        "example": "The dose is 1 or 2 tablets."
+      },
+      {
+        "word": "active ingredient",
+        "meaning": "the part of a medicine that makes it work",
+        "example": "The active ingredient is paracetamol."
+      },
+      {
+        "word": "warning",
+        "meaning": "words that tell you about a danger",
+        "example": "The warning says keep it away from kids."
+      },
+      {
+        "word": "symptom",
+        "meaning": "a sign that something is wrong in your body, like a sore throat",
+        "example": "A runny nose is a symptom of a cold.",
+        "levels": [
+          "support",
+          "core"
+        ]
+      },
+      {
+        "word": "drowsy",
+        "meaning": "sleepy",
+        "example": "This medicine may make you drowsy."
+      },
+      {
+        "word": "pharmacist",
+        "meaning": "the medicine expert at a chemist",
+        "example": "Ask the pharmacist if you're not sure."
+      },
+      {
+        "word": "exceed",
+        "meaning": "go over a limit",
+        "example": "Do not exceed 8 tablets in 24 hours.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "persist",
+        "meaning": "keep going and not get better",
+        "example": "If your symptoms persist, see a doctor.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "strength",
+        "meaning": "on a medicine box: how much active ingredient is in each tablet",
+        "example": "Each tablet has a strength of 500 mg.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Read the Instructions in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Read the Instructions",
+        "sub": "Medicine boxes, labels and signs.",
+        "icon": "lucide:pill-bottle",
+        "say": "Read the instructions. Medicine boxes, labels and signs. Get the detail right."
+      },
+      {
+        "kind": "big",
+        "title": "Three parts",
+        "text": "**Action** + **must-word** + **when & how**.",
+        "icon": "lucide:list-checks",
+        "say": "Most instructions have three parts. An action, a must-word, and the when-and-how details.",
+        "vc": [
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Part",
+        "pillIcon": "lucide:list-checks",
+        "title": "The action",
+        "text": "**Take** 2 tablets. **Keep** out of reach.",
+        "icon": "lucide:hand",
+        "say": "The action is the verb, and it usually comes first. Take. Keep. Shake. Do not. It tells you exactly what to do.",
+        "vc": [
+          "VC2E6LA06"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Part",
+        "pillIcon": "lucide:list-checks",
+        "title": "The must-word",
+        "text": "**must** = rule · **should** = advice · **may** = might happen",
+        "icon": "lucide:circle-alert",
+        "say": "Must-words show how strong it is. Must means it's a rule. Should means it's good advice. May means it might happen.",
+        "vc": [
+          "VC2E3LA09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Part",
+        "pillIcon": "lucide:list-checks",
+        "title": "When & how",
+        "text": "**with food** · **every 4 to 6 hours** · **before bed**",
+        "icon": "lucide:clock",
+        "say": "The when-and-how details keep you safe. With food. Every four to six hours. Before bed. Skip them and you've got it wrong.",
+        "vc": [
+          "VC2E4LA07"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Active ingredient",
+        "text": "Same ingredient in two boxes? **Don't double up.**",
+        "icon": "lucide:pill",
+        "say": "On a medicine box, find the active ingredient. It's the part that makes it work. If two medicines have the same one, don't take both.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Signs are instructions",
+        "text": "Red and yellow flags = **swim between them**.",
+        "icon": "lucide:flag",
+        "say": "Signs are instructions too. Red and yellow flags on the beach mean: swim between them. That's where lifesavers are watching.",
+        "vc": [
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Before you take it or use it",
+        "steps": [
+          "Read all of it",
+          "Find the action",
+          "Must, should or may?",
+          "When and how?",
+          "Not sure? Ask"
+        ],
+        "say": "Before you take it or use it. Read all of it. Find the action, the must-word and the details. Not sure? Ask a pharmacist."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Decode it. Then write it clearer.",
+        "icon": "lucide:clipboard-check",
+        "say": "Your mission. Decode a real label, then write instructions so clear that someone could follow them without asking you a thing."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to read an instruction",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Instructions are short. But they matter a lot. Medicine boxes, sprays and signs all work the same way.\n\nMost instructions have **three parts**.\n\n1. **The action.** This is the doing word. It comes first. *Take. Keep. Shake. Do not.* It tells you what to do.\n2. **The must-word.** *Must* means it is a rule. *Should* means it is good advice. *May* means it might happen. *May cause drowsiness* means it might make you sleepy.\n3. **When and how.** Small bits like *with food* or *every 4 to 6 hours*. They tell you when and how. Don't skip them!\n\nMedicine boxes have the **active ingredient** on the front. It is the part that makes the medicine work. Two boxes can have different names but the **same** active ingredient. Don't take both.\n\nSigns are instructions too. *No diving. Shallow water.*\n\nThe big rule: **if you are not sure, ask.** A pharmacist will help you for free.",
+          "core": "Instructions are some of the shortest texts you'll ever read. They're also some of the most important. Medicine boxes, sprays, signs and chargers all use the same tricks.\n\nMost instructions have **three parts**.\n\n1. **The action.** This is the verb, and it usually comes first: *Take*, *Keep*, *Shake*, *Store*, *Do not*. It's a command. It tells you exactly what to do.\n2. **The must-word.** Words like **must**, **should** and **may** show how strong the instruction is. *Must* (or *do not*) means it's a rule. *Should* means it's strong advice. *May* means something might happen: *May cause drowsiness* means it could make you sleepy.\n3. **The when-and-how details.** Small phrases like *with food*, *every 4 to 6 hours*, *before bed* or *for up to 3 days* tell you when, how often and how. They're easy to skip, and they're often the part that keeps you safe.\n\nMedicine boxes have one more thing to check: the **active ingredient**. That's the part that makes the medicine work, and it's printed on the front, near the name. Two boxes with different brand names can have the **same** active ingredient. Take both, and you've doubled the dose without meaning to.\n\nSigns work the same way with fewer words. *No diving. Shallow water.* has an action (*no diving*) and a reason (*shallow water*).\n\nThe most important instruction isn't printed anywhere: **if you're not sure, ask.** You can ask a pharmacist about any medicine, and it doesn't cost anything.",
+          "extend": "Instructions are among the most compressed texts you'll ever read: a single line can carry a command, a limit and a warning. Medicine boxes, cleaning products, beach signs and manuals all use the same toolkit.\n\nMost instructions have **three parts**.\n\n1. **The action.** A verb in command form (an *imperative*), usually at the start: *Take*, *Store*, *Shake*, *Do not*. It makes the reader the one who acts.\n2. **The must-word.** **Modal verbs** set the strength. *Must* and *must not* signal obligation: a rule. *Should* signals strong advice. *May*, *might* and *can* signal possibility: *May cause drowsiness* is a warning about what could happen, not a permission.\n3. **The when-and-how details.** Phrases such as *with food*, *every 4 to 6 hours*, *before bed* or *for up to 3 days* add the circumstances: when, how often, how and how long. They're grammatically optional, which is why readers skip them, and practically essential.\n\nMedicines add one more check: the **active ingredient**, the substance that makes the medicine work. Since 2020, Australian rules have required it to be easy to find on the front of the box. Different brands can share the same active ingredient, so reading only the brand name can lead to an accidental double dose.\n\nSigns compress instructions further: *No diving. Shallow water.* gives a rule and its reason in four words.\n\nThe instruction that matters most isn't printed: **if you're not sure, ask.** Pharmacists answer medicine questions free of charge."
+        },
+        "vc": [
+          "VC2E3LA09",
+          "VC2E4LA07",
+          "VC2E6LA06",
+          "VC2E5LA08",
+          "VC2E5LY09"
+        ],
+        "vcNote": "The three parts of an instruction: imperative verbs, modal verbs for obligation and possibility, and phrases giving circumstantial detail."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Why every medicine box changed",
+        "icon": "lucide:pill",
+        "body": {
+          "support": "In 2016, the **TGA** made new rules for medicine boxes. The TGA is the group that checks medicines in Australia. All boxes had to change by **2020**.\n\nWhy? To stop people making **mistakes** with medicines.\n\nThe big change was the **active ingredient**. Now it must be:\n\n- on the **front** of the box\n- under or next to the name\n- in **bigger** writing.\n\nLots of medicines for pain, colds and flu have the same active ingredient. It is called **paracetamol**. The brand names are different. So check the active ingredient. Don't take two medicines with the same one.",
+          "core": "In 2016, the **TGA** brought in new rules for medicine labels. The TGA is the group that checks medicines in Australia. Companies had until **31 August 2020** to change their boxes.\n\nThe TGA wanted to cut down on **mistakes with medicines**. So labels had to be more alike, and the important parts had to be easier to see.\n\nThe biggest change was the **active ingredient**. Now it has to be:\n\n- on the **front** of the box\n- **below or next to** the name\n- in **bigger** writing than before\n- **easy to compare** with other boxes.\n\nWhy? Lots of medicines for pain, colds and flu have the same active ingredient: **paracetamol**. But they have different brand names. If you only read the brand name, you could take two with the same ingredient. The new labels make that easy to spot. But only if you look.",
+          "extend": "In 2016, Australia's medicines regulator, the **Therapeutic Goods Administration (TGA)**, brought in new rules for medicine labels. Companies had four years to change their packs. The deadline was **31 August 2020**.\n\nThe TGA's goal was to **reduce medication errors**. Labels needed to be more consistent, and the key facts needed to stand out.\n\nThe biggest change was the **active ingredient**. It must now appear:\n\n- on the **front** of the pack\n- **below or next to** the medicine's name\n- in **larger** text than before\n- in a way that's **easy to compare** between products.\n\nThe reason is about how people really read. Many medicines for pain, fever, colds and flu contain the same active ingredient, **paracetamol**, under different brand names. A reader who only notices the brand could take two products with the same ingredient. Good design makes the key fact easier to find. But the reader still has to look."
+        },
+        "source": {
+          "name": "Therapeutic Goods Administration — Better medicine labels",
+          "url": "https://www.tga.gov.au/products/medicines/australias-medicine-labels-are-becoming-clearer"
+        },
+        "think": {
+          "support": [
+            "What did the TGA change?",
+            "Why check the active ingredient?"
+          ],
+          "core": [
+            "What did the TGA change, and why?",
+            "Why could two different brands be a problem?",
+            "Where would you look first on a medicine box now?"
+          ]
+        },
+        "vc": [
+          "VC2E5LA08",
+          "VC2E5LY09"
+        ],
+        "vcNote": "How a label is designed so readers can find precise, technical information (the active ingredient)."
+      },
+      {
+        "title": "Swim between the flags?",
+        "icon": "lucide:flag",
+        "body": {
+          "support": "Red and yellow flags on the beach mean: **swim between the flags.** That is where lifesavers are watching.\n\nBut a sign only works if people understand it.\n\nIn 2022, researchers from **UNSW Sydney** asked **249 people** about the flags. These people had moved to Australia from countries like India, Nepal and Afghanistan.\n\n- **27%** did not know what the flags meant, or did not understand them well.\n- Of the people who did know, **more than half** did not always swim between them.\n\nThe lead researcher said it is **“not their fault”**. Some people had never had swimming lessons. Some had trouble with English.\n\nIn many countries, **red means danger**. So the flags can seem to say the opposite!",
+          "core": "Red and yellow flags on an Australian beach mean: **lifesavers are watching this part. Swim between the flags.** Most Australians grow up knowing that. But a sign only works if everyone reads it the same way.\n\nIn 2022, researchers from **UNSW Sydney** surveyed **249 people**. They had all moved to Australia from countries such as India, Nepal, Sri Lanka and Afghanistan.\n\n- **27%** didn't know about the flags, or didn't really understand them.\n- Of the people who did know them, **54%** said they didn't always swim between them.\n\nThe lead researcher, Mark Woods, said it's **“not their fault”**. Some people had never had swimming lessons. Some found the English hard. The researchers said beach safety advice should be translated into people's own languages.\n\nOther researchers point out that in many places, **red means danger**. So to someone born overseas, the flags can seem to say the opposite.",
+          "extend": "Red and yellow flags on an Australian beach mark **the area patrolled by lifesavers: swim between the flags.** For many Australians, that meaning is automatic. But a sign is a text. It only works if its readers share the code.\n\nIn 2022, **UNSW Sydney's Beach Safety Research Group** surveyed **249 migrants** from India, Nepal, Sri Lanka, Bangladesh, Afghanistan, Bhutan and Pakistan.\n\n- **27%** did not know of the red and yellow flags, or did not have a good understanding of them.\n- Of those who did know them, **54%** did not always swim between them.\n\nThe lead author, Mark Woods, stressed that it's **“not their fault”**. He pointed to barriers such as language and never having had swimming lessons. The researchers called for beach safety advice in people's first languages, and for more work with communities.\n\nOther researchers have noted that in many countries, **red signals danger**. So a flag designed to mean *safe here* can read as *keep out*. The meaning of a symbol depends on the reader's background, not just the designer's plan."
+        },
+        "source": {
+          "name": "UNSW Sydney — “It's not their fault”: study highlights risk factors behind South Asian migrant drownings (January 2022)",
+          "url": "https://www.unsw.edu.au/newsroom/news/2022/01/-it-s-not-their-fault---study-highlights-risk-factors-behind-sou"
+        },
+        "think": {
+          "support": [
+            "Why did some people get the flags wrong?",
+            "How could the sign be clearer?"
+          ],
+          "core": [
+            "Why did some people misread the flags?",
+            "What does this tell you about signs as texts?",
+            "How could the message be made clearer?"
+          ]
+        },
+        "vc": [
+          "VC2E5LY09"
+        ],
+        "vcNote": "Inferring why readers misread a sign; a real Australian study."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a medicine label",
+      "docTitle": "EASE PAIN RELIEF TABLETS (EXAMPLE)",
+      "vc": [
+        "VC2E5LA08",
+        "VC2E4LA07",
+        "VC2E3LA09"
+      ],
+      "vcNote": "Technical words, modal verbs and when-and-how details on a medicine label.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Active ingredient",
+          "value": "Paracetamol 500 mg in each tablet",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Uses",
+          "value": "For the short-term relief of pain and fever"
+        },
+        {
+          "n": 3,
+          "label": "Directions",
+          "value": "Adults and children 12 years and over: take 1 or 2 tablets every 4 to 6 hours as needed."
+        },
+        {
+          "n": 4,
+          "label": "Limit",
+          "value": "Do not take more than 8 tablets in 24 hours.",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Warnings",
+          "value": "Do not take with other medicines that contain paracetamol. Keep out of reach of children."
+        },
+        {
+          "n": 6,
+          "label": "If you take too much",
+          "value": "Call the Poisons Information Centre on 13 11 26 straight away, even if you feel well."
+        }
+      ],
+      "note": "Made-up example for practice, based on the wording on real paracetamol boxes. Always read the box you actually have.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Active ingredient",
+          "note": "What makes it work. Check nothing else you take has it."
+        },
+        {
+          "n": 2,
+          "label": "Uses",
+          "note": "What the medicine is for."
+        },
+        {
+          "n": 3,
+          "label": "Dose + when & how",
+          "note": "Take = action. 1 or 2 = the dose. Every 4 to 6 hours = how often."
+        },
+        {
+          "n": 4,
+          "label": "Limit (a rule)",
+          "note": "Do not = must not. The most you can have in a day."
+        },
+        {
+          "n": 5,
+          "label": "Warnings",
+          "note": "Don't double up on the same ingredient."
+        },
+        {
+          "n": 6,
+          "label": "Emergency step",
+          "note": "Who to call, and when: straight away."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Before you take it or use it",
+      "steps": [
+        {
+          "title": "Read",
+          "text": "All of it: front, back and sides.",
+          "icon": "lucide:book-open-check"
+        },
+        {
+          "title": "Find",
+          "text": "The action, the must-word and the when & how.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Check",
+          "text": "Same active ingredient? Not sure? Ask a pharmacist.",
+          "icon": "lucide:circle-help"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "“**May** cause drowsiness.” What does **may** mean here?",
+        "options": [
+          "It might make you sleepy",
+          "You're allowed to feel sleepy",
+          "It will always make you sleepy",
+          "Only take it in the morning"
+        ],
+        "answer": 0,
+        "explain": "May = it might happen. It's a warning.",
+        "vc": [
+          "VC2E3LA09"
+        ]
+      },
+      {
+        "q": "Which word makes an instruction a **rule**?",
+        "options": [
+          "Must",
+          "May",
+          "Might",
+          "Could"
+        ],
+        "answer": 0,
+        "explain": "Must (and must not) = a rule. May and might = it could happen.",
+        "vc": [
+          "VC2E3LA09"
+        ]
+      },
+      {
+        "q": "“Take 1 tablet twice a day **with food**.” What does **with food** tell you?",
+        "options": [
+          "How to take it",
+          "What it's for",
+          "The active ingredient",
+          "The brand"
+        ],
+        "answer": 0,
+        "explain": "With food is a how detail. Skip it and you might get an upset stomach.",
+        "vc": [
+          "VC2E4LA07"
+        ]
+      },
+      {
+        "q": "Two medicines have different brand names but the **same active ingredient**. What should you do?",
+        "options": [
+          "Don't take both. Check with a pharmacist.",
+          "Take both, they're different brands",
+          "Take the cheaper one twice",
+          "Take one now and one in an hour"
+        ],
+        "answer": 0,
+        "explain": "Same active ingredient = a double dose. Ask a pharmacist.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "q": "In the UNSW beach study, why did some people get the flags wrong?",
+        "options": [
+          "They didn't know what the flags meant, and red can mean danger",
+          "The flags were too small",
+          "Lifesavers took the flags down",
+          "The flags were the wrong colour"
+        ],
+        "answer": 0,
+        "explain": "A sign only works if readers share its meaning.",
+        "vc": [
+          "VC2E5LY09"
+        ]
+      },
+      {
+        "q": "“Do not **exceed** 8 tablets in 24 hours.” **Exceed** means…",
+        "options": [
+          "Go over",
+          "Go under",
+          "Swallow",
+          "Skip"
+        ],
+        "answer": 0,
+        "explain": "Exceed = go over a limit.",
+        "vc": [
+          "VC2E5LA08"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "On a medicine box, **strength** means…",
+        "options": [
+          "How much active ingredient is in each tablet",
+          "How strong you feel after taking it",
+          "How hard the tablet is",
+          "How fast it works"
+        ],
+        "answer": 0,
+        "explain": "Some words have an everyday meaning and a technical one.",
+        "vc": [
+          "VC2E7LA08"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write clear steps for a job you know. Start each step with an action word. Add a must-word, a when or how detail, and a warning.",
+      "core": "Write instructions for a real job so clear that someone could follow them without asking you: action verbs, a must-word used correctly, when-and-how details, a warning and one technical word explained.",
+      "extend": "Write precise instructions for a real job and audience, choosing exact verbs, modal verbs and circumstantial detail, and explaining any technical terms; then test them on a partner and revise."
+    },
+    "checklist": [
+      "Each step starts with an action verb",
+      "I used must, should or may correctly",
+      "I added at least two when-and-how details",
+      "I included a warning",
+      "I explained one technical word"
+    ],
+    "levelUp": "Find a real instruction or sign that's confusing. Explain what makes it hard (look for technical words with an everyday meaning too), then summarise and rewrite it.",
+    "vc": [
+      "VC2E5LY10",
+      "VC2E6LA06",
+      "VC2E5LA08"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to read an instruction",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Write an example of each of the **three parts** of an instruction.",
+            "lines": 0,
+            "vc": [
+              "VC2E5LY09"
+            ],
+            "boxes": [
+              "Action",
+              "Must-word",
+              "When & how"
+            ]
+          },
+          {
+            "q": "What does each word mean in an instruction?",
+            "lines": 0,
+            "vc": [
+              "VC2E3LA09"
+            ],
+            "boxes": [
+              "must",
+              "should",
+              "may"
+            ]
+          },
+          {
+            "q": "What is an **active ingredient**, and why should you check it?",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VC2E5LA08",
+              "VC2E3LA11"
+            ]
+          },
+          {
+            "q": "What's the most important instruction that isn't printed anywhere?",
+            "lines": 1
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Rule, advice or might happen?",
+        "pagebreak": true,
+        "choices": [
+          "Rule",
+          "Advice",
+          "Might happen"
+        ],
+        "reasonLabel": "Clue word:",
+        "instructions": "Read each instruction. Tick what kind it is. Write the word that told you.",
+        "cards": [
+          {
+            "from": "Medicine box",
+            "text": "Do not take more than 8 tablets in 24 hours.",
+            "answer": "Rule",
+            "flags": "“Do not” = must not."
+          },
+          {
+            "from": "Medicine box",
+            "text": "May cause drowsiness.",
+            "answer": "Might happen",
+            "flags": "“May” = it could happen."
+          },
+          {
+            "from": "Cold and flu box",
+            "text": "You should rest and drink plenty of water.",
+            "answer": "Advice",
+            "flags": "“Should” = good advice."
+          },
+          {
+            "from": "Cleaning spray",
+            "text": "Keep out of reach of children.",
+            "answer": "Rule",
+            "flags": "“Keep” is a command."
+          },
+          {
+            "from": "Cleaning spray",
+            "text": "This spray can irritate your eyes.",
+            "answer": "Might happen",
+            "flags": "“Can” = it could happen."
+          },
+          {
+            "from": "Hair dye",
+            "text": "You should do a skin test 48 hours before use.",
+            "answer": "Advice",
+            "flags": "“Should”.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E3LA09"
+        ],
+        "vcNote": "How modal verbs (must, should, may, can) signal obligation and possibility."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a medicine label",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the label. Use the word bank. Write what it tells you.",
+          "core": "Each number marks part of the label. Write what it is and what it tells you to do."
+        },
+        "columns": [
+          "What is it?",
+          "What does it tell you?"
+        ],
+        "wordBank": {
+          "support": [
+            "active ingredient",
+            "uses",
+            "dose",
+            "rule",
+            "warning",
+            "emergency"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LA08",
+          "VC2E3LA11",
+          "VC2E4LA07"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "The detail that matters",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 20
+        },
+        "instructions": "Copy the **when-and-how detail** from each instruction. Then write what could go wrong if someone skipped it. The first one is done for you.",
+        "columns": [
+          "Instruction",
+          "The when-and-how detail",
+          "What could go wrong if you skipped it?"
+        ],
+        "rows": [
+          [
+            "Take 1 tablet twice a day with food.",
+            "twice a day · with food",
+            "Too many in one day. An upset stomach."
+          ],
+          [
+            "Shake well before use.",
+            "",
+            ""
+          ],
+          [
+            "Put sunscreen on 20 minutes before you go outside.",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Store below 25°C, away from sunlight.",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "Use only in a room with fresh air coming in.",
+              "",
+              ""
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E4LA07",
+          "VC2E6LA06"
+        ],
+        "vcNote": "How adverb groups and prepositional phrases give the circumstances (when, how, how often) of an action."
+      },
+      {
+        "type": "table",
+        "title": "Decode the sign",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 18
+        },
+        "instructions": "Signs and labels squeeze an instruction into a few words. Find the **action** and the **reason or detail**. The first one is done for you.",
+        "columns": [
+          "Sign or label",
+          "The action",
+          "The reason or detail"
+        ],
+        "rows": [
+          [
+            "NO DIVING — SHALLOW WATER",
+            "Don't dive.",
+            "The water isn't deep."
+          ],
+          [
+            "CAUTION: FLOOR SLIPPERY WHEN WET",
+            "",
+            ""
+          ],
+          [
+            "DO NOT MIX WITH OTHER CLEANING PRODUCTS",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "SWIM BETWEEN THE RED AND YELLOW FLAGS",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LA06",
+          "VC2E5LY09"
+        ],
+        "vcNote": "How verb choice and short phrases make a sign's instruction precise."
+      },
+      {
+        "type": "flow",
+        "title": "Before you take it or use it",
+        "diagram": 1
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: why every medicine box changed",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the TGA change, and why?",
+            "lines": {
+              "support": 3,
+              "core": 2
+            },
+            "vc": [
+              "VC2E5LY09"
+            ]
+          },
+          {
+            "q": "Why could two different brands be a problem?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA08"
+            ]
+          },
+          {
+            "q": "Look at a real medicine box at home (with an adult) or your teacher's photo. Where is the active ingredient? What is it?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: swim between the flags?",
+        "caseStudy": 1,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What do red and yellow flags tell you to do?",
+            "lines": 1
+          },
+          {
+            "q": "Why did some people misread the flags?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          },
+          {
+            "q": "Write a short beach sign that would work for everyone. Use an action, a must-word and a reason.",
+            "lines": {
+              "support": 3,
+              "core": 3
+            },
+            "vc": [
+              "VC2E5LY10",
+              "VC2E6LA06"
+            ]
+          },
+          {
+            "q": "Why might a picture help more than words on this sign?",
+            "lines": 2,
+            "levelUp": true,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: instructions anyone can follow",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Pick a job someone else will do. Feeding a pet. Using a cleaning spray. A recipe. Write clear steps for them.",
+          "core": "Pick a real job someone else will do: feeding your pet while you're away, using a cleaning spray safely, charging and looking after a phone or game controller, a recipe you know, or a job from work or sport. Write instructions so clear they won't need to ask you anything.",
+          "extend": "Pick a real job and a real reader (a younger sibling, a new worker, a grandparent). Write precise instructions for them: choose exact verbs, use modal verbs deliberately, add the circumstances that matter, and explain any technical word. Then test them on a partner and revise."
+        },
+        "plan": [
+          {
+            "label": "The job, and who it's for:",
+            "lines": 1
+          },
+          {
+            "label": "Warning (what they must not do):",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "1. First, …",
+          "2. Every … , …",
+          "3. You must / should …",
+          "Warning: Do not …",
+          "Not sure? Ask …"
+        ],
+        "lines": 6,
+        "check": [
+          "action verb first",
+          "must / should / may",
+          "2 when-and-how details",
+          "a warning",
+          "a technical word explained"
+        ],
+        "vc": [
+          "VC2E5LY10",
+          "VC2E6LA06",
+          "VC2E5LA08"
+        ],
+        "vcNote": "Creating sequenced instructions for an audience, with precise verbs, modal verbs and circumstantial detail."
+      },
+      {
+        "type": "questions",
+        "title": "Test it on a partner",
+        "items": [
+          {
+            "q": "Your partner reads your instructions. Did they get stuck or ask anything? Where?",
+            "lines": 2
+          },
+          {
+            "q": "Change one step to make it clearer. Write the new step.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LA06"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find a real instruction or sign that's confusing (a label, an appliance, a game, a sign). Copy it here. What makes it hard to understand? Look for technical words that also have an everyday meaning, like **strength** or **dose**.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA08"
+            ]
+          },
+          {
+            "q": "Summarise what it's really telling you to do in 2 or 3 short steps.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find the action, the must-word and the when-and-how.",
+          "I can tell must, should and may apart.",
+          "I can find the active ingredient.",
+          "I can write instructions someone can follow."
+        ],
+        "questions": [
+          "A label or sign I'll read differently now:",
+          "One instruction I'll never skip:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to read instructions closely: the imperative verb (the action), modal verbs that set the strength (must, should, may), and the phrases that give the circumstances (with food, every 4 to 6 hours). They apply this to a medicine label (finding the active ingredient), everyday product labels and safety signs, then write and test their own instructions. Two real cases: the TGA's medicine-label changes (active ingredients made easier to find) and a UNSW study showing many migrants misread the red and yellow beach flags.",
+    "prep": [
+      "Collect a few **empty, clean** medicine boxes (pain relief, cold and flu) or print photos of them. Don't bring medicines into class; check your school's medication policy.",
+      "Optional: photos of real signs and labels from around the school (canteen, cleaning cupboard, pool, science lab).",
+      "Colour printing helps for the beach flags, or show them on screen."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Three parts",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** put empty medicine boxes on desks. Race: find the active ingredient on each. Which two have the same one?",
+          "**Explicit teaching (10 min):** model the three parts (action, must-word, when & how) on one label, thinking aloud. Then do a second label together (guided).",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading (independent).",
+          "**Exit (10 min):** one instruction from a box, split into its three parts."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Must, may and the detail",
+        "minutes": 50,
+        "steps": [
+          "**Explicit teaching (10 min):** must vs should vs may. Model the trap: *May cause drowsiness* is a warning, not permission.",
+          "**Sort (10 min):** Rule, advice or might happen?",
+          "**Annotate (15 min):** the medicine label (word bank for Foundation).",
+          "**Table (15 min):** The detail that matters; discuss what goes wrong when the detail is skipped."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Signs and real cases",
+        "minutes": 50,
+        "steps": [
+          "**Decode the sign (10 min).**",
+          "**Case study 1 (15 min):** why every medicine box changed. Link back to the active ingredient race.",
+          "**Case study 2 (20 min):** swim between the flags? Discuss: who is a sign written for? What happens when readers don't share the code?",
+          "**Exit (5 min):** one sign at school that could be clearer, and how."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Write it, test it",
+        "minutes": 50,
+        "steps": [
+          "**Model (5 min):** write two steps of a set of instructions badly, then fix them aloud.",
+          "**Plan + write (20 min):** final mission.",
+          "**Partner test (10 min):** the partner follows the instructions exactly as written, no questions. Where did they get stuck?",
+          "**Revise, Level Up, reflect (15 min):** fix one step, attempt the Level Up, quick check and request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Most instructions have three parts: the action (an imperative verb), the must-word (a modal verb), and the when-and-how details.",
+      "Must / must not = rule. Should = advice. May / can = it might happen (a warning, not permission).",
+      "Check the active ingredient: different brands can contain the same one.",
+      "Signs are instructions too, and only work if readers share their meaning.",
+      "If you're not sure, ask: a pharmacist will check a medicine for free."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the label annotation.",
+        "Fewer sort cards and table rows.",
+        "Boxes instead of lines in Check your reading.",
+        "Shorter final mission (4 steps)."
+      ],
+      "extend": [
+        "Name the grammar: imperatives, modal verbs, circumstances.",
+        "Explain words with an everyday and a technical meaning (strength, dose, persist).",
+        "Summarise and rewrite a confusing real instruction (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LA09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Explains what must, should and may tell the reader to do (sort, Check your reading)."
+      },
+      {
+        "vc": "VC2E4LA07",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Finds the when-and-how phrases in an instruction and explains why they matter (The detail that matters, label annotation)."
+      },
+      {
+        "vc": "VC2E3LA11",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Explains technical words such as dose and active ingredient (Word Power, label annotation)."
+      },
+      {
+        "vc": "VC2E5LA08",
+        "evidence": "Uses and explains precise and technical terms (active ingredient, dose, exceed) when reading a label (annotation, case study 1, final mission)."
+      },
+      {
+        "vc": "VC2E6LA06",
+        "evidence": "Explains how the verb and the circumstantial detail sharpen an instruction, and chooses them deliberately in their own writing (Decode the sign, final mission, partner test)."
+      },
+      {
+        "vc": "VC2E5LY09",
+        "evidence": "Uses comprehension strategies to build literal and inferred meaning from labels and signs, including why readers misread a sign (Check your reading, case study 2)."
+      },
+      {
+        "vc": "VC2E5LY10",
+        "evidence": "Writes sequenced instructions suited to a specific reader (final mission, beach sign)."
+      },
+      {
+        "vc": "VC2E7LA08",
+        "evidence": "Level Up: explains words that have both an everyday and a technical meaning in a real instruction."
+      },
+      {
+        "vc": "VC2E7LY07",
+        "evidence": "Level Up: analyses and summarises what a confusing instruction is really asking."
+      }
+    ],
+    "answers": "**Check your reading:** examples — action: take, keep, shake, store, do not; must-word: must, should, may; when & how: with food, every 4 to 6 hours, before bed, for up to 3 days. Must = a rule; should = advice; may = it might happen. The active ingredient is what makes the medicine work; check it so you don't take two medicines with the same one. If you're not sure, ask.\n\n**Sort:** 8 tablets — rule (do not); drowsiness — might happen (may); rest — advice (should); out of reach — rule (keep, a command); irritate eyes — might happen (can); skin test — advice (should).\n\n**Label:** 1 active ingredient (paracetamol 500 mg); 2 uses (pain and fever); 3 directions: action *take*, dose *1 or 2 tablets*, how often *every 4 to 6 hours*, who *12 and over*; 4 limit, a rule (do not); 5 warnings: don't take other paracetamol medicines, keep from children; 6 emergency: call 13 11 26 straight away, even if you feel well.\n\n**The detail that matters:** shake — *before use* (the medicine or product won't be mixed properly); sunscreen — *20 minutes before you go outside* (you could get burnt before it starts working); store — *below 25°C, away from sunlight* (it could spoil or stop working); fresh air — *only in a room with fresh air* (fumes could make you sick).\n\n**Decode the sign:** slippery — *take care / walk carefully*; reason: the floor is slippery when wet. Do not mix — *don't mix it*; reason: mixing cleaning products can be dangerous. Flags — *swim between the flags*; reason: that's where lifesavers are watching.\n\n**Case 1:** the TGA made the active ingredient easier to find (front, near the name, bigger, easy to compare) to reduce medication mistakes; different brands can share an active ingredient, so you could double up.\n\n**Case 2:** swim between the flags (patrolled area). Some people didn't know the flags or hadn't had swimming lessons; language barriers; red can mean danger in other countries.",
+    "resources": [
+      {
+        "label": "TGA — Better medicine labels",
+        "url": "https://www.tga.gov.au/products/medicines/australias-medicine-labels-are-becoming-clearer"
+      },
+      {
+        "label": "UNSW — “It's not their fault”: beach flags study (2022)",
+        "url": "https://www.unsw.edu.au/newsroom/news/2022/01/-it-s-not-their-fault---study-highlights-risk-factors-behind-sou"
+      },
+      {
+        "label": "healthdirect — medicines that contain paracetamol",
+        "url": "https://www.healthdirect.gov.au/medicines/medicinal-product/aht,20948"
+      },
+      {
+        "label": "healthdirect — Poisoning (Poisons Information Centre, 13 11 26)",
+        "url": "https://www.healthdirect.gov.au/poisoning"
+      },
+      {
+        "label": "healthdirect — NURSE-ON-CALL (Victoria, 1300 60 60 24)",
+        "url": "https://www.healthdirect.gov.au/nurse-on-call"
+      },
+      {
+        "label": "Cancer Council — How to apply sunscreen",
+        "url": "https://www.cancer.org.au/cancer-information/causes-and-prevention/sun-safety/preventing-skin-cancer/how-to-apply-sunscreen"
+      }
+    ],
+    "realityCheck": [
+      "**No real medicines in class.** Use empty, clean boxes or photos, and check your school's medication policy. Never ask students to bring medicines from school or home; the case study question asks them to look at home with an adult.",
+      "**Some students already give medicine to others.** Many teens look after younger siblings or help a parent. Respect that knowledge, and keep the message to *read it, check it, ask a pharmacist*. The course uses adult (12 and over) directions on purpose; children's doses differ and come from the box or a pharmacist.",
+      "**Safe messaging.** The course is about everyday mistakes like doubling up, not overdose. In 2025 the TGA cut paracetamol pack sizes to reduce harm from intentional overdose; that's deliberately not used as a case study. If a student raises self-harm, follow your school's wellbeing process. Lifeline is 13 11 14 and Kids Helpline is 1800 55 1800.",
+      "**The beach case is about the sign, not the swimmers.** Some students may be recent arrivals or may not swim. Keep the focus on how a sign can fail its readers. Students who speak other languages are the experts here: ask how a sign would read to their family.",
+      "**The partner test is the bit students remember.** Following instructions exactly as written (no questions allowed) shows instantly where the writing is vague. Keep it light and fast.",
+      "**Works in a real class:** yes. It's practical and low-tech, and the skills carry straight into Safety First at Work and L-Plate Ready."
+    ],
+    "levels": {
+      "support": "Simpler article and case studies, 7 key words, 3-choice quiz, a word bank on the label, boxes instead of lines in Check your reading, fewer sort cards and table rows, and 4-step instructions.",
+      "core": "Standard version: three parts of an instruction, must/should/may sort, medicine label annotation, two detail tables, two real case studies, and a written and partner-tested set of instructions.",
+      "extend": "Adds exceed, persist and strength to the vocabulary, names the grammar (imperatives, modal verbs, circumstances), extra sort cards and table rows, and a Level Up on words with everyday and technical meanings."
+    }
+  }
+}

@@ -6,10 +6,10 @@
       "baseCamp": 2
     },
     "level2": {
-      "starters": "all"
+      "starters": 2
     },
     "boss": {
-      "starters": "all",
+      "starters": 2,
       "level2": 1
     }
   },
@@ -229,6 +229,38 @@
       "badge": {
         "name": "Deal Detective",
         "icon": "lucide:search-check"
+      }
+    },
+    {
+      "id": "odds-against-you",
+      "zone": "money",
+      "tier": 1,
+      "status": "ready",
+      "title": "The Odds Are Against You",
+      "tagline": "Betting ads and loot boxes — see the tricks that sell a bet.",
+      "icon": "lucide:dices",
+      "realLife": "Pull apart betting ads and loot boxes, explain what they're really selling, and make an honest version.",
+      "literacy": "Persuasive language of evaluation and emotion; how images, sound and sequence persuade; objective and subjective language; creating a multimodal counter-message.",
+      "vc": {
+        "support": [
+          "VC2E3LA02",
+          "VC2E4LA09",
+          "VC2E3LY09"
+        ],
+        "core": [
+          "VC2E5LA07",
+          "VC2E6LY07",
+          "VC2E6LA02",
+          "VC2E6LY09"
+        ],
+        "extend": [
+          "VC2E7LA07",
+          "VC2E8LY05"
+        ]
+      },
+      "badge": {
+        "name": "Odds Aware",
+        "icon": "lucide:eye"
       }
     },
     {
@@ -692,6 +724,38 @@
       }
     },
     {
+      "id": "read-the-instructions",
+      "zone": "sorted",
+      "tier": 1,
+      "status": "ready",
+      "title": "Read the Instructions",
+      "tagline": "Medicine boxes, labels and signs — get the detail right.",
+      "icon": "lucide:pill-bottle",
+      "realLife": "Read medicine boxes, warning labels and safety signs closely, and follow them exactly.",
+      "literacy": "Modal verbs (must, should, may); when-and-how phrases; precise and technical words; close reading of instructions.",
+      "vc": {
+        "support": [
+          "VC2E3LA09",
+          "VC2E4LA07",
+          "VC2E3LA11"
+        ],
+        "core": [
+          "VC2E5LA08",
+          "VC2E6LA06",
+          "VC2E5LY09",
+          "VC2E5LY10"
+        ],
+        "extend": [
+          "VC2E7LA08",
+          "VC2E7LY07"
+        ]
+      },
+      "badge": {
+        "name": "Label Legend",
+        "icon": "lucide:scan-text"
+      }
+    },
+    {
       "id": "l-plate-ready",
       "zone": "sorted",
       "tier": 2,
@@ -729,9 +793,9 @@
       "tier": 2,
       "status": "planned",
       "title": "Health Smart",
-      "tagline": "Medicine labels, appointments and good info.",
+      "tagline": "Health info you can trust — and the right questions to ask.",
       "icon": "lucide:heart-pulse",
-      "realLife": "Read medicine labels, book an appointment and find health info you can trust.",
+      "realLife": "Find health information you can trust and ask clear questions about your own health.",
       "literacy": "Reading labels and instructions; evaluating sources; asking clear questions.",
       "vc": {
         "support": [
@@ -850,10 +914,42 @@
       }
     },
     {
+      "id": "make-the-call",
+      "zone": "voice",
+      "tier": 1,
+      "status": "ready",
+      "title": "Make the Call",
+      "tagline": "Book it, ask it, sort it — out loud.",
+      "icon": "lucide:phone-call",
+      "realLife": "Make phone calls with confidence: book an appointment, ask about a job, leave a voicemail and call 000.",
+      "literacy": "Spoken interaction: structuring a call, questioning and repeating back to check details, features of voice, and formality.",
+      "vc": {
+        "support": [
+          "VC2E4LY01",
+          "VC2E4LY02",
+          "VC2E3LA01"
+        ],
+        "core": [
+          "VC2E5LY01",
+          "VC2E6LY01",
+          "VC2E5LY02",
+          "VC2E6LA01"
+        ],
+        "extend": [
+          "VC2E7LY02",
+          "VC2E8LY02"
+        ]
+      },
+      "badge": {
+        "name": "On the Line",
+        "icon": "lucide:phone"
+      }
+    },
+    {
       "id": "lyrics-decoded",
       "zone": "voice",
       "tier": 2,
-      "status": "planned",
+      "status": "ready",
       "title": "Lyrics Decoded",
       "tagline": "What’s that song really about?",
       "icon": "lucide:music",
@@ -862,17 +958,19 @@
       "vc": {
         "support": [
           "VC2E3LE04",
-          "VC2E4LE04"
+          "VC2E4LE04",
+          "VC2E4LE01"
         ],
         "core": [
           "VC2E5LE04",
           "VC2E6LE04",
           "VC2E6LA08",
-          "VC2E6LE05"
+          "VC2E6LE05",
+          "VC2E5LE01"
         ],
         "extend": [
           "VC2E7LE05",
-          "VC2E8LE05",
+          "VC2E7LE01",
           "VC2E7LE06"
         ]
       },

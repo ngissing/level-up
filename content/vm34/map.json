@@ -9,10 +9,10 @@
       "baseCamp": 2
     },
     "level2": {
-      "starters": "all"
+      "starters": 2
     },
     "boss": {
-      "starters": "all",
+      "starters": 2,
       "level2": 1
     }
   },
@@ -322,6 +322,33 @@
       "badge": {
         "name": "Reporter",
         "icon": "lucide:clipboard-pen"
+      }
+    },
+    {
+      "id": "vm-handle-with-care",
+      "zone": "vm34-job",
+      "tier": 1,
+      "status": "ready",
+      "title": "Handle With Care",
+      "tagline": "Chemical labels and safety data sheets — read them before you use it.",
+      "icon": "lucide:flask-conical",
+      "realLife": "Read chemical labels and safety data sheets at work, and turn them into a safety card a new worker can follow.",
+      "literacy": "Purpose and audience of instructional and informational texts; navigating technical workplace documents; creating instructional content.",
+      "vc": {
+        "core": [
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS1",
+          "VM-U3O1-KS4",
+          "VM-U3O2-KS4"
+        ],
+        "extend": [
+          "VM-U3O1-KS5",
+          "VM-U3O2-KK1"
+        ]
+      },
+      "badge": {
+        "name": "Chem Safe",
+        "icon": "lucide:shield-check"
       }
     },
     {

@@ -1,0 +1,912 @@
+{
+  "id": "vpc-ai-check",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with a school-approved AI tool or screenshots",
+  "brief": {
+    "hook": {
+      "support": "You ask a chatbot when the last bus leaves. It answers fast. It sounds very sure. But it's wrong. Now you've missed the bus.",
+      "core": "You ask a chatbot when the last bus home leaves. It answers in two seconds. It sounds completely sure. It's wrong, and you're stuck at the station."
+    },
+    "why": {
+      "support": "AI chatbots are in lots of apps now. They can help with ideas. But they make mistakes. Sometimes they make things up. Learn how to use them, and when to check.",
+      "core": "AI chatbots and image tools are everywhere: in your phone, your apps and your search results. They're useful for ideas and explanations. But they make mistakes, they can make things up, and using them the wrong way at school or work can get you in real trouble. The skill is knowing how to use them, and when to check.",
+      "extend": "Generative AI is now built into search, phones, apps and workplaces. It's genuinely useful for explaining, planning and drafting. But it produces fluent, confident text whether or not it's true, and using it dishonestly can cost you a grade, a job or your reputation. Reading AI output critically is now a core literacy skill."
+    },
+    "canDo": {
+      "support": [
+        "I can say why a chatbot can be wrong.",
+        "I can check an AI answer.",
+        "I can say when I used AI.",
+        "I can keep my private details safe."
+      ],
+      "core": [
+        "I can explain why chatbots can sound sure and still be **wrong**.",
+        "I can **check** an AI answer against a reliable source.",
+        "I can use AI **honestly** and say when I've used it.",
+        "I can keep my **privacy** and other people's safe when I use AI."
+      ]
+    },
+    "showIt": "Test a chatbot with questions you can check, record what it got wrong, and help make your class's AI rules.",
+    "vocab": [
+      {
+        "word": "chatbot",
+        "meaning": "an app you type or talk to that writes answers back",
+        "example": "I asked the chatbot to explain fractions."
+      },
+      {
+        "word": "AI",
+        "meaning": "artificial intelligence: computer programs that can write, talk or make pictures",
+        "example": "The picture was made by AI."
+      },
+      {
+        "word": "reliable",
+        "meaning": "you can trust it because it's usually right",
+        "example": "The VicRoads website is a reliable source."
+      },
+      {
+        "word": "source",
+        "meaning": "where information comes from",
+        "example": "Always check the source."
+      },
+      {
+        "word": "plagiarism",
+        "meaning": "handing in someone else's work as your own",
+        "example": "Handing in AI writing as your own is plagiarism."
+      },
+      {
+        "word": "privacy",
+        "meaning": "keeping your personal information safe",
+        "example": "Don't type your address into a chatbot. Protect your privacy."
+      },
+      {
+        "word": "hallucination",
+        "meaning": "when AI makes up facts that sound true but aren't",
+        "example": "The fake reference was an AI hallucination.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "deepfake",
+        "meaning": "a fake photo, video or voice of a real person, made with AI",
+        "example": "Sharing a deepfake can hurt someone badly.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "AI: Use It, Check It in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "AI: Use It, Check It",
+        "sub": "Sounding sure isn't the same as being right.",
+        "icon": "lucide:bot",
+        "say": "AI. Use it, check it. Chatbots sound sure. That doesn't mean they're right."
+      },
+      {
+        "kind": "big",
+        "title": "How chatbots write",
+        "text": "It **predicts words**. It doesn't always **check facts**.",
+        "icon": "lucide:brain-circuit",
+        "say": "A chatbot writes by guessing which words are likely to come next. It doesn't check facts the way a person does. So it can be wrong, and still sound sure.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Rule",
+        "pillIcon": "lucide:bot",
+        "title": "Use it",
+        "text": "Explain · Ideas · Plan · Practise",
+        "icon": "lucide:sparkles",
+        "say": "Rule one. Use it for the right jobs. Explaining, ideas, planning and practice questions.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Rule",
+        "pillIcon": "lucide:bot",
+        "title": "Check it",
+        "text": "Facts that matter → **a reliable source**.",
+        "icon": "lucide:search-check",
+        "say": "Rule two. Check any fact that matters, against a reliable source like an official website.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Rule",
+        "pillIcon": "lucide:bot",
+        "title": "Credit it",
+        "text": "Say **when** and **how** you used it.",
+        "icon": "lucide:badge-check",
+        "say": "Rule three. Credit it. Say when you used AI, and how. Handing in AI writing as your own is plagiarism.",
+        "vc": [
+          "VPC-U1M2-AP6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Rule",
+        "pillIcon": "lucide:bot",
+        "title": "Protect it",
+        "text": "No addresses. No passwords. No photos of others.",
+        "icon": "lucide:shield-check",
+        "say": "Rule four. Protect it. Don't type in your address, passwords or photos of other people.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Even experts get caught",
+        "text": "Fake references → **money paid back**.",
+        "icon": "lucide:file-warning",
+        "say": "Even experts get caught. In 2025, a big consulting company had to pay back part of a government contract after its report included references that didn't exist.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Test the bot. Check it. Make the rules.",
+        "icon": "lucide:clipboard-check",
+        "say": "Your mission. Test a chatbot with questions you can check. Then help write your class's AI rules."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Why chatbots get things wrong",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Chatbots like ChatGPT can answer questions fast. They can explain things. They can give you ideas.\n\nBut a chatbot **guesses** which words come next. It doesn't check facts like a person does. So it can sound sure and still be **wrong**. Sometimes it even makes things up.\n\nAI can make fake pictures too. A **deepfake** is a fake photo or video of a real person.\n\nFour rules:\n\n1. **Use it** for ideas and explaining.\n2. **Check it.** Check facts on a website you can trust.\n3. **Credit it.** Say when you used AI. Handing in AI work as your own is **plagiarism**.\n4. **Protect it.** Don't type in your address or passwords. Never make fake pictures of real people.",
+          "core": "AI chatbots like ChatGPT, Gemini, Copilot and Meta AI can answer almost any question in seconds. They can explain a hard idea in simple words, give you ideas for a project, or write practice questions. That's useful.\n\nBut here's how they work. A chatbot has learned patterns from a huge amount of text. When you ask it something, it writes an answer by **predicting which words are likely to come next**. It doesn't check facts the way a person looks things up. So it can give you an answer that sounds **confident, friendly and completely wrong**. When AI makes up facts, quotes or references, it's called a **hallucination**.\n\nAI image and video tools have a similar problem. They can make pictures of things that never happened, and fake photos, videos or voices of real people, called **deepfakes**.\n\nFour rules keep you in control:\n\n1. **Use it** for the right jobs: explaining, ideas, planning, practice. Not for facts you'll rely on, or for doing your work for you.\n2. **Check it.** Any fact that matters (a time, a date, a rule, a number, a quote) needs checking against a **reliable source**, like an official website.\n3. **Credit it.** Follow your school's rules, and say when and how you used AI. Handing in AI writing as your own is **plagiarism**.\n4. **Protect it.** Don't type in your address, passwords, or photos and details of other people. And never make fake images of real people: it can hurt them badly, and some kinds are crimes.",
+          "extend": "Generative AI chatbots such as ChatGPT, Gemini, Copilot and Meta AI can explain, summarise, brainstorm and draft in seconds. Used well, they're powerful learning tools.\n\nTheir weakness comes from how they work. A large language model is trained on vast amounts of text and generates a response by **predicting likely next words**. It doesn't verify claims the way a researcher would. The result is text that is fluent and confident in tone whether or not it's accurate. When a model invents facts, quotes or references, it's called a **hallucination**, and the confident tone makes it easy to miss.\n\nImage, video and voice generators raise a related problem: realistic content of events that never happened, and **deepfakes** of real people.\n\nFour rules keep you in control:\n\n1. **Use it** for jobs that suit it: explaining, generating ideas, planning, practice. Not as a final source of facts, and not as a substitute for your own work.\n2. **Check it.** Verify any fact that matters against a **reliable source**, ideally an official or primary one.\n3. **Credit it.** Follow your school's or workplace's rules and acknowledge when and how you used AI. Submitting AI-generated work as your own is **plagiarism**.\n4. **Protect it.** Keep personal information, passwords and other people's images out of AI tools. Creating fake images of real people can cause serious harm, and some kinds are criminal offences."
+        },
+        "vc": [
+          "VPC-U1M2-AP4",
+          "VPC-U1M2-AP6",
+          "VPC-U1M2-LG3"
+        ],
+        "vcNote": "How AI-generated texts can be confidently wrong (reliability and tone); avoiding plagiarism; safe and respectful use."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Even experts get caught",
+        "icon": "lucide:file-warning",
+        "body": {
+          "support": "In 2025, a big company called **Deloitte** wrote a report for the government. The government paid about **$440,000**.\n\nA university teacher named **Chris Rudge** read it carefully. He found problems. Some of the research it talked about **did not exist**. It had a **made-up quote** too.\n\nA new version of the report said **AI** had been used to help write it.\n\nDeloitte agreed to **pay back some of the money**.\n\nNobody checked, until one careful reader did.",
+          "core": "In 2025, a federal government department paid a big consulting company, **Deloitte**, about **$440,000** to write a report on part of the welfare system.\n\nAfter the report was published, **Chris Rudge**, an academic at the University of Sydney, read it closely. He found problems. Some of the **research papers it referred to didn't exist**. It also had a **made-up quote** from a court case.\n\nA corrected version of the report was published. It now said that **generative AI** had been used to help write it. Deloitte said the changes didn't affect the report's findings.\n\nDeloitte agreed to **pay back part of the money** it had been paid.\n\nA big company, a government department, a lot of money, and nobody checked the references until one careful reader did.",
+          "extend": "In 2025, the federal **Department of Employment and Workplace Relations** paid the consultancy **Deloitte** about **$440,000** to review part of the welfare system.\n\nAfter the report came out, University of Sydney academic **Chris Rudge** read it closely and found serious problems. It cited **academic works that did not exist**. It also included a **fabricated quote** from a court judgment.\n\nA revised version was published later. It disclosed that a **generative AI** model had been used to help prepare the report. Deloitte said the corrections didn't change the findings, but it agreed to **refund part of the fee**.\n\nThe case is a warning about reliability. AI-generated references look exactly like real ones. The only defence is checking, and here the checking was done by an outside reader, after the report was already public."
+        },
+        "source": {
+          "name": "The Register — “Deloitte refunds Aussie gov after AI fabrications slip into $440K welfare report” (October 2025)",
+          "url": "https://www.theregister.com/2025/10/06/deloitte_ai_report_australia/"
+        },
+        "think": {
+          "support": [
+            "What went wrong?",
+            "Who found it?"
+          ],
+          "core": [
+            "What went wrong, and who found it?",
+            "Why didn't anyone notice the fake references sooner?",
+            "What would you check before trusting an AI answer?"
+          ]
+        },
+        "vc": [
+          "VPC-U1M2-AP4",
+          "VPC-U1M2-AP6"
+        ],
+        "vcNote": "A real Australian case: how AI-generated content can be unreliable, and why checking and acknowledging AI use matter."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a wrong answer",
+      "docTitle": "CHATBOT ANSWER (MADE-UP EXAMPLE)",
+      "vc": [
+        "VPC-U1M2-AP4"
+      ],
+      "vcNote": "How tone and missing sources affect the reliability of an AI answer.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Question",
+          "value": "“How old do you have to be to get your learner permit in Victoria?”"
+        },
+        {
+          "n": 2,
+          "label": "Answer",
+          "value": "“You can get your learner permit at 15 years and 9 months.”",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Tone",
+          "value": "“Great question! It's super easy.”"
+        },
+        {
+          "n": 4,
+          "label": "Reference",
+          "value": "“(Source: VicRoads Learner Guide 2021, page 12)”"
+        },
+        {
+          "n": 5,
+          "label": "Extra",
+          "value": "“You'll also need a letter from your school principal.”"
+        },
+        {
+          "n": 6,
+          "label": "Missing",
+          "value": "No link to check. No date."
+        }
+      ],
+      "note": "Made-up example for practice. In Victoria you must be 16 to get a car learner permit.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Your question",
+          "note": "A fact you can check."
+        },
+        {
+          "n": 2,
+          "label": "Confident and wrong",
+          "note": "In Victoria it's 16. The answer doesn't say “I'm not sure”."
+        },
+        {
+          "n": 3,
+          "label": "Friendly tone",
+          "note": "Makes it feel trustworthy. Tone isn't proof."
+        },
+        {
+          "n": 4,
+          "label": "A reference",
+          "note": "Looks real. It might not exist. Check it."
+        },
+        {
+          "n": 5,
+          "label": "A made-up extra",
+          "note": "Nobody asked. It's not true."
+        },
+        {
+          "n": 6,
+          "label": "No way to check",
+          "note": "No link, no date: go to the official site."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Before you trust an AI answer",
+      "steps": [
+        {
+          "title": "Spot",
+          "text": "Which parts are facts that matter?",
+          "icon": "lucide:scan-text"
+        },
+        {
+          "title": "Check",
+          "text": "Find each one on a reliable source.",
+          "icon": "lucide:search-check"
+        },
+        {
+          "title": "Decide",
+          "text": "Right? Wrong? Not sure? Then use it, or don't.",
+          "icon": "lucide:circle-help"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Why can a chatbot sound sure and still be wrong?",
+        "options": [
+          "It predicts likely words instead of checking facts",
+          "It's trying to trick you",
+          "It only knows old news",
+          "It's always wrong"
+        ],
+        "answer": 0,
+        "explain": "It writes by predicting words. Confidence isn't proof.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "q": "Which is the **best** job for a chatbot?",
+        "options": [
+          "Explaining a hard idea in simple words",
+          "Telling you the exact time of the last train",
+          "Writing your whole assignment",
+          "Making a photo of your friend"
+        ],
+        "answer": 0,
+        "explain": "Use it for explaining and ideas. Check facts. Do your own work.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ]
+      },
+      {
+        "q": "A chatbot gives you a fact for your assignment. What should you do?",
+        "options": [
+          "Check it on a reliable source",
+          "Copy it straight in",
+          "Ask the chatbot if it's sure",
+          "Ignore it"
+        ],
+        "answer": 0,
+        "explain": "Asking the chatbot again isn't checking. Go to a reliable source.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "q": "Handing in a chatbot's writing as your own is…",
+        "options": [
+          "Plagiarism",
+          "Fine if nobody notices",
+          "Research",
+          "Editing"
+        ],
+        "answer": 0,
+        "explain": "Say when and how you used AI, and follow your school's rules.",
+        "vc": [
+          "VPC-U1M2-AP6"
+        ]
+      },
+      {
+        "q": "What did the University of Sydney academic find in the Deloitte report?",
+        "options": [
+          "References to research that didn't exist",
+          "Spelling mistakes only",
+          "A missing page",
+          "A wrong date on the cover"
+        ],
+        "answer": 0,
+        "explain": "AI-generated references can look exactly like real ones.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "q": "Which is **safe** to type into a chatbot?",
+        "options": [
+          "“Explain how a payslip works”",
+          "Your home address",
+          "Your password",
+          "A photo of your classmate"
+        ],
+        "answer": 0,
+        "explain": "Keep personal details and other people's images out.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ]
+      },
+      {
+        "q": "Why might an AI tool that shows links to its sources be **more** trustworthy than one that doesn't?",
+        "options": [
+          "You can check where the information came from",
+          "Links make it faster",
+          "It means it's never wrong",
+          "It uses more words"
+        ],
+        "answer": 0,
+        "explain": "A source you can check is a key feature of reliability, but still check it.",
+        "vc": [
+          "VPC-U1M2-LG2"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Ask a chatbot 3 questions. Check the answers. Help make the class AI rules.",
+      "core": "Test a chatbot with three questions you can check, record what it got right and wrong, and help agree on your class's AI rules.",
+      "extend": "Test a chatbot (or two) with questions you can verify, evaluate the reliability of each answer, and contribute evidence to a group discussion that agrees on your class's AI rules."
+    },
+    "checklist": [
+      "I asked 3 questions I could check",
+      "I checked each answer on a reliable source",
+      "I recorded what was right and wrong",
+      "I wrote an honest AI-use note",
+      "I shared evidence in our class rules discussion"
+    ],
+    "levelUp": "Make a one-page AI guide for younger students: plan it, draft it, check every fact, and credit any AI help.",
+    "vc": [
+      "VPC-U1M2-AP4",
+      "VPC-U1M2-AP5",
+      "VPC-U1M2-AP6"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Why chatbots get things wrong",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "How does a chatbot write an answer?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP4"
+            ]
+          },
+          {
+            "q": "Write the **four rules**.",
+            "lines": 0,
+            "vc": [
+              "VPC-U1M2-LG3",
+              "VPC-U1M2-AP6"
+            ],
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          {
+            "q": "What is a **hallucination**? What is a **deepfake**?",
+            "lines": 2,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "q": "Name one thing you should never type into a chatbot.",
+            "lines": 1,
+            "vc": [
+              "VPC-U1M2-LG3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a wrong answer",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the answer. Use the word bank. Can you trust it?",
+          "core": "Each number marks part of the chatbot's answer. Write what it is, and whether you can trust it."
+        },
+        "columns": [
+          "What is it?",
+          "Can you trust it? Why?"
+        ],
+        "wordBank": {
+          "support": [
+            "my question",
+            "wrong fact",
+            "friendly tone",
+            "maybe fake reference",
+            "made-up extra",
+            "no link"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Good use, check it, or don't?",
+        "pagebreak": true,
+        "choices": [
+          "Good use",
+          "Check it first",
+          "Don't"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is something a person asked a chatbot to do. Tick what you'd do. Write why.",
+        "cards": [
+          {
+            "from": "Request",
+            "text": "Explain what “gross pay” means in simple words.",
+            "answer": "Good use",
+            "flags": "Explaining an idea."
+          },
+          {
+            "from": "Request",
+            "text": "What time does the last train leave tonight?",
+            "answer": "Check it first",
+            "flags": "A fact that matters: check the timetable."
+          },
+          {
+            "from": "Request",
+            "text": "Write my whole essay. I'll hand it in.",
+            "answer": "Don't",
+            "flags": "Plagiarism."
+          },
+          {
+            "from": "Request",
+            "text": "Make a funny fake photo of my teacher.",
+            "answer": "Don't",
+            "flags": "A fake image of a real person."
+          },
+          {
+            "from": "Request",
+            "text": "Give me 5 ideas for my project topic.",
+            "answer": "Good use",
+            "flags": "Ideas, then you choose.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Request",
+            "text": "Find me 3 quotes from experts for my assignment.",
+            "answer": "Check it first",
+            "flags": "Quotes and references can be made up.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M2-LG3",
+          "VPC-U1M2-AP6",
+          "VPC-U1M2-AP4"
+        ],
+        "vcNote": "Choosing safe, honest and effective uses of AI tools."
+      },
+      {
+        "type": "table",
+        "title": "Check it",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 18
+        },
+        "instructions": "A chatbot said these things. Write **where** you'd check each one, then check it (on a device, or with your teacher). The first one is done for you.",
+        "columns": [
+          "The chatbot said…",
+          "Where would you check?",
+          "Right or wrong?"
+        ],
+        "rows": [
+          [
+            "You can get a car learner permit in Victoria at 15.",
+            "The Transport Victoria / VicRoads website",
+            "Wrong: you must be 16."
+          ],
+          [
+            "Australia has 8 states.",
+            "",
+            ""
+          ],
+          [
+            "Mount Kosciuszko is Australia's highest mountain.",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "My school was opened in 1850.",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M2-AP4"
+        ],
+        "vcNote": "Checking AI claims against reliable sources."
+      },
+      {
+        "type": "flow",
+        "title": "Before you trust an AI answer",
+        "diagram": 1
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: even experts get caught",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What went wrong in the report, and who found it?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP4"
+            ]
+          },
+          {
+            "q": "Why do you think nobody noticed the fake references sooner?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP4"
+            ]
+          },
+          {
+            "q": "What should the report have said about using AI from the start?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Credit it: write an AI-use note",
+        "items": [
+          {
+            "q": "You used a chatbot to get ideas for a project, then wrote it yourself and checked the facts on the Transport Victoria website. Write a one or two sentence note to go with your project saying how you used AI.",
+            "lines": 3,
+            "vc": [
+              "VPC-U1M2-AP6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: test the bot",
+        "pagebreak": true,
+        "where": "in class, on a school-approved AI tool (or your teacher's screenshots)",
+        "instructions": {
+          "support": "Ask a chatbot 3 questions. Check every answer. Then help make the class rules.",
+          "core": "Ask a chatbot **three questions you can check**. Check every answer on a reliable source. Then bring your evidence to the class discussion and help write your class's AI rules."
+        },
+        "need": [
+          "an approved AI tool, or screenshots",
+          "a device for checking"
+        ],
+        "steps": {
+          "support": [
+            "Write 3 questions you can check.",
+            "Ask the chatbot.",
+            "Check each answer on a website you trust. Right or wrong?",
+            "Share with your group.",
+            "Help make 4 class AI rules."
+          ],
+          "core": [
+            "Write 3 questions you can check: about **your area**, **your learning**, and something **you know well**.",
+            "Ask the chatbot. Screenshot each answer.",
+            "Check each answer on a reliable source: right, wrong, or partly right?",
+            "Share your results in a group. What did it get wrong?",
+            "Agree on 4 class AI rules and make a poster."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My 3 questions:",
+            "lines": 3
+          },
+          {
+            "label": "For each: where I checked, and right or wrong:",
+            "lines": 3
+          },
+          {
+            "label": "A rule I argued for, and my evidence:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Screenshots",
+          "Teacher saw it",
+          "Class rules poster"
+        ],
+        "vc": [
+          "VPC-U1M2-AP4",
+          "VPC-U1M2-AP5",
+          "VPC-U1M2-LG3"
+        ],
+        "vcNote": "Hands-on: testing and verifying AI answers, then using evidence in a group discussion to agree on class rules."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Ask **two** different AI tools the same question. Check both answers. Which was more reliable? What features helped you decide (sources shown, links, dates, how it said “I'm not sure”)?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M2-LG2"
+            ]
+          },
+          {
+            "q": "Plan a one-page AI guide for younger students. Write your heading and the three most important tips. Check every fact, and credit any AI help.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M2-AP3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can explain why a chatbot can be wrong.",
+          "I can check an AI answer.",
+          "I can use AI honestly and say so.",
+          "I can keep my privacy safe."
+        ],
+        "questions": [
+          "One thing the chatbot got wrong in my test:",
+          "My personal AI rule from now on:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn how AI chatbots generate text (predicting likely words), why that makes them confidently wrong at times, and four rules for using them: use it, check it, credit it, protect it. They annotate a made-up wrong chatbot answer, sort uses, check claims against reliable sources, study the 2025 Deloitte report case, write an AI-use note, and test a real chatbot before agreeing class AI rules in discussion.",
+    "prep": [
+      "Check your school's and the Department's generative AI policy, and which AI tools (if any) students may use. Many public chatbots have age limits in their terms.",
+      "If students can't use a tool, prepare **screenshots** of a chatbot answering 6–8 checkable questions (include a couple of wrong answers: they're easy to get).",
+      "Have a device per pair for checking sources.",
+      "Find your school's founding year for the Check it table."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — How chatbots work",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** live demo (or screenshots): ask a chatbot something local it's likely to get wrong. Was it sure?",
+          "**Explicit teaching (10 min):** predicting words vs checking facts; the four rules. Model checking one answer aloud.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a wrong answer."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Use, check, credit",
+        "minutes": 50,
+        "steps": [
+          "**Sort (10 min):** Good use, check it, or don't?",
+          "**Check it (15 min):** students check the claims on real sources.",
+          "**Case study (15 min):** even experts get caught. Discuss: who should have checked?",
+          "**AI-use note (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Test the bot",
+        "minutes": 50,
+        "steps": [
+          "**Do it (25 min):** students write and test three questions, and check the answers.",
+          "**Discussion (15 min):** groups share evidence, then agree on four class AI rules with reasons. Make the poster.",
+          "**Reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Chatbots predict likely words; they don't check facts, so they can be confidently wrong.",
+      "Hallucination: AI making up facts, quotes or references.",
+      "Four rules: use it, check it, credit it, protect it.",
+      "Submitting AI writing as your own is plagiarism; say when and how you used AI.",
+      "Keep personal details and other people's images out of AI tools. Never make fakes of real people."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and rows.",
+        "Shorter Do it steps; a partner can help find sources."
+      ],
+      "extend": [
+        "Compare two AI tools' reliability features (Level Up).",
+        "Plan an AI guide for younger students (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U1M2-AP4",
+        "evidence": "Recognises that AI-generated content can be unreliable and that a confident tone isn't proof; checks claims against reliable sources (annotation, Check it, Do it, case study)."
+      },
+      {
+        "vc": "VPC-U1M2-AP6",
+        "evidence": "Explains why submitting AI work as your own is plagiarism, and writes an honest AI-use note (sort, AI-use note, case study)."
+      },
+      {
+        "vc": "VPC-U1M2-LG3",
+        "evidence": "Uses AI tools safely and respectfully: protects personal information and others' images (sort, Check your reading, class rules)."
+      },
+      {
+        "vc": "VPC-U1M2-AP5",
+        "evidence": "Contributes evidence from their own test to the group discussion on class AI rules (Do it notes, teacher observation)."
+      },
+      {
+        "vc": "VPC-U1M2-LG2",
+        "evidence": "Level Up: compares two AI tools and identifies features that make one more trustworthy."
+      },
+      {
+        "vc": "VPC-U1M2-AP3",
+        "evidence": "Level Up: plans and drafts a short digital guide for a younger audience, checking facts and crediting AI help."
+      }
+    ],
+    "answers": "**Check your reading:** it predicts which words are likely to come next; it doesn't check facts. Rules: use it, check it, credit it, protect it. Hallucination = AI making up facts, quotes or references; deepfake = a fake photo, video or voice of a real person. Never type: address, passwords, other people's photos or details.\n\n**Wrong answer:** 1 the question (checkable); 2 confident but wrong (it's 16 in Victoria); 3 friendly tone (not proof); 4 reference that may not exist; 5 made-up extra; 6 no link or date.\n\n**Sort:** gross pay — good use; last train — check it first; whole essay — don't (plagiarism); fake photo of teacher — don't; project ideas — good use; expert quotes — check it first (they may be made up).\n\n**Check it:** 8 states — wrong (6 states and 2 mainland territories), check an official government site; Kosciuszko — right, check a reliable reference such as a national parks or government site; school year — check the school website or office.\n\n**Case study:** references to research that didn't exist and a made-up court quote, found by Chris Rudge (University of Sydney); AI references look real and nobody checked; it should have said from the start that AI was used, and every reference should have been checked.",
+    "resources": [
+      {
+        "label": "The Register — Deloitte refunds government after AI fabrications in report (2025)",
+        "url": "https://www.theregister.com/2025/10/06/deloitte_ai_report_australia/"
+      },
+      {
+        "label": "Department of Education (Victoria) — Generative artificial intelligence policy",
+        "url": "https://www2.education.vic.gov.au/pal/generative-artificial-intelligence/policy"
+      },
+      {
+        "label": "eSafety — Deepfake damage in schools",
+        "url": "https://esafety.gov.au/newsroom/blogs/deepfake-damage-in-schools-how-ai-generated-abuse-is-disrupting-students-families-and-school-communities"
+      },
+      {
+        "label": "Transport Victoria — Prepare for your learner permit",
+        "url": "https://transport.vic.gov.au/road-and-active-transport/registration-and-licensing/licences/learner-permit/prepare-for-your-learner-permit"
+      }
+    ],
+    "realityCheck": [
+      "**Access varies.** Many schools restrict public chatbots, and many have age limits in their terms. Use a school-approved tool, or run the course on your own screenshots. It works almost as well.",
+      "**Wrong answers are easy to find, but not guaranteed.** Chatbots change often. Test your hook questions the day before; local questions (bus times, your school's history, local sport) are most likely to trip them up.",
+      "**Deepfakes can be a live issue.** If the discussion turns to fake nude images or image-based abuse, follow your school's procedures. eSafety can help get content removed, and making or sharing sexual deepfakes can be a criminal offence for under-18s.",
+      "**Don't make it anti-AI.** Students will use these tools at work. The goal is judgement: when to use it, when to check, and when to say so.",
+      "**Works in a real class:** yes. Catching a chatbot out is genuinely motivating, and the class rules make a useful display."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and rows, and shorter Do it steps.",
+      "core": "Standard version: how chatbots write, wrong-answer annotation, use/check/don't sort, checking claims, the Deloitte case, an AI-use note, and a hands-on chatbot test feeding a class discussion.",
+      "extend": "Adds a quiz question on reliability features, and Level Ups comparing two AI tools and planning an AI guide for younger students."
+    }
+  }
+}
