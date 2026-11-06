@@ -1,0 +1,1007 @@
+{
+  "id": "make-content",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), plus filming time",
+  "brief": {
+    "hook": {
+      "support": "You scroll past hundreds of videos a day. You remember maybe one. Why that one? It grabbed you fast and had **one** clear message.",
+      "core": "Every day you scroll past hundreds of videos. You remember maybe one. It wasn't the most expensive, or the loudest. It made you **feel** something in the first three seconds, and it had **one** thing to say. You can make one of those."
+    },
+    "why": {
+      "support": "Good videos are planned. Choose your **purpose**, your **audience** and **one message**. Write a **script**. Plan your shots. Then film it.",
+      "core": "Making content that counts is a writing job. Before anyone presses record, someone decides the **purpose**, the **audience** and the **one message**. They write a **script**, plan every **shot** in a **storyboard**, and choose the sound. Those choices are what make people stop, watch, and remember.",
+      "extend": "Effective multimodal content is designed: purpose, audience and message come first, then language, image, sound and sequence are selected to serve them. Planning through scripts and storyboards turns an idea into a text that positions its audience deliberately."
+    },
+    "canDo": {
+      "support": [
+        "I can plan a video for an audience.",
+        "I can write a short script.",
+        "I can draw a storyboard.",
+        "I can make and share it safely."
+      ],
+      "core": [
+        "I can plan content with a clear **purpose**, **audience** and **one message**.",
+        "I can write a short **script** that sounds natural out loud.",
+        "I can **storyboard** shots, choosing framing, order and sound.",
+        "I can make, test and share my content **safely**."
+      ]
+    },
+    "showIt": "Plan, script, storyboard and make a short video that says something useful, then test it.",
+    "vocab": [
+      {
+        "word": "purpose",
+        "meaning": "why you're making it",
+        "example": "My purpose is to persuade people to pause before posting."
+      },
+      {
+        "word": "audience",
+        "meaning": "who it's for",
+        "example": "My audience is Year 9 students."
+      },
+      {
+        "word": "message",
+        "meaning": "the one main idea you want people to get",
+        "example": "My message is: pause before you post."
+      },
+      {
+        "word": "script",
+        "meaning": "the words that will be said or shown",
+        "example": "I read my script aloud to check it."
+      },
+      {
+        "word": "storyboard",
+        "meaning": "a plan for a video, shot by shot",
+        "example": "My storyboard has six boxes."
+      },
+      {
+        "word": "shot",
+        "meaning": "one piece of film, like a close-up",
+        "example": "The first shot is a close-up."
+      },
+      {
+        "word": "call to action",
+        "meaning": "what you want the audience to do",
+        "example": "The call to action is “Pause before you post.”",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "salience",
+        "meaning": "how much something stands out",
+        "example": "The big red word has the most salience.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Make Content That Counts in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Make Content That Counts",
+        "sub": "Script it. Shoot it. Post it right.",
+        "icon": "lucide:clapperboard",
+        "say": "Make content that counts. Script it, shoot it, post it right."
+      },
+      {
+        "kind": "big",
+        "title": "Plan first",
+        "text": "Purpose · Audience · **One message**",
+        "icon": "lucide:target",
+        "say": "Start with three questions. What's it for? Who's it for? What's the one thing you want them to remember?",
+        "vc": [
+          "VC2E6LY09",
+          "VC2E4LY10"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Make it",
+        "pillIcon": "lucide:clapperboard",
+        "title": "Hook",
+        "text": "**First 3 seconds**",
+        "icon": "lucide:zap",
+        "say": "Hook them fast. Your first three seconds decide if people keep watching. Start with a question, a surprise, or a close-up.",
+        "vc": [
+          "VC2E5LA07"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Make it",
+        "pillIcon": "lucide:clapperboard",
+        "title": "Script it",
+        "text": "Short · Natural · **Out loud**",
+        "icon": "lucide:file-text",
+        "say": "Write a script. Short sentences. Words you'd really say. Read it aloud, and time it.",
+        "vc": [
+          "VC2E6LY02",
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Make it",
+        "pillIcon": "lucide:clapperboard",
+        "title": "Storyboard it",
+        "text": "Close-up · Wide · **What stands out?**",
+        "icon": "lucide:layout-grid",
+        "say": "Storyboard every shot. Close-ups feel personal. Wide shots show the scene. What's biggest and brightest gets noticed first.",
+        "vc": [
+          "VC2E4LA09",
+          "VC2E7LA07"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "♪",
+        "pill": "Make it",
+        "pillIcon": "lucide:clapperboard",
+        "title": "Sound + captions",
+        "text": "Music · Silence · **Captions**",
+        "icon": "lucide:music",
+        "say": "Sound changes everything. Music sets the mood. Silence makes people pay attention. Add captions, so everyone can follow.",
+        "vc": [
+          "VC2E4LA09",
+          "VC2E5LA07"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Check, then share",
+        "steps": [
+          "Facts true?",
+          "Permission?",
+          "Safe place to share"
+        ],
+        "say": "Before you share: check your facts, get permission from anyone in it, and share somewhere safe and right for your age."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Plan. Script. Shoot. Share safely.",
+        "icon": "lucide:video",
+        "say": "Your mission. Plan, script, storyboard and make a short video that says something useful."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to make content that counts",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Good content is **planned**.\n\n**1. Plan.** What's it for? Who's it for? What's your **one message**?\n\n**2. Hook them fast.** Start with a question or a surprise.\n\n**3. Write a script.** Short sentences. Words you'd really say. Read it **out loud**.\n\n**4. Storyboard it.** Draw each **shot**. Write what we see and hear.\n\n- **Close-up**: feels personal.\n- **Wide shot**: shows the place.\n- Big, bright things get noticed first.\n\n**5. Sound.** Music sets the mood. Add **captions**.\n\n**6. Call to action.** Tell people what to do.\n\n**7. Check it.** Are your facts true? Did everyone say yes to being filmed?\n\n**8. Share safely.** Under 16? Share it in class or on the school website.",
+          "core": "Most content gets scrolled past in a second. Content that counts is **planned**. Here's how.\n\n**1. Purpose, audience, one message.** Why are you making it: to inform, persuade, or entertain? Who's it for? What's the **one** thing you want them to remember? If you can't say your message in one sentence, it's not ready.\n\n**2. Hook them fast.** The first three seconds decide whether people keep watching. Start with a question (*Ever sent something you wish you could unsend?*), a surprise, or a close-up.\n\n**3. Write a script.** Even a 30-second video needs one. Use short sentences and words you'd actually say. Read it **out loud**: if you trip over it, rewrite it. Plan your **voice** too: where you'll pause, which word you'll stress, how fast you'll talk.\n\n**4. Storyboard it.** Plan each **shot** in a box: what we **see** and what we **hear**.\n\n- **Close-ups** feel personal. **Wide shots** show where we are.\n- Whatever is **biggest, brightest or in the middle** gets noticed first. That's called **salience**.\n- The **order** of shots tells the story: problem, then solution.\n\n**5. Choose the sound.** Music sets the mood. A sudden silence makes people pay attention. Add **captions**, because some people watch with the sound off, and some can't hear it.\n\n**6. End with a call to action.** Tell people what to do: *Pause before you post.*\n\n**7. Check before you share.**\n\n- Are your facts true? Can you name your source?\n- Did everyone in it say yes to being filmed and shared?\n- Do you have the right to use that music?\n\n**8. Share it safely.** Since December 2025, under-16s can't have accounts on platforms like TikTok, Instagram and YouTube. So share it in class, at assembly, or on your school's website or newsletter, with permission. If you're 16 or over, remember it becomes part of your digital footprint.",
+          "extend": "Content that cuts through is designed, not improvised.\n\n**1. Define purpose, audience and message.** Decide whether you aim to inform, persuade or entertain; who the audience is; and the single message they should retain. If it won't fit in one sentence, refine it.\n\n**2. Engineer the hook.** The opening seconds determine retention. Questions, surprises and close-ups create immediate engagement.\n\n**3. Script for the ear.** Spoken scripts need short sentences and natural vocabulary. Rehearse aloud and mark **voice** choices: pauses, emphasis and pace.\n\n**4. Storyboard deliberately.** Plan each **shot** (what's seen and heard).\n\n- **Framing:** close-ups create intimacy; wide shots establish context.\n- **Salience:** size, brightness, colour and central placement direct attention.\n- **Sequence:** the order of shots builds meaning, typically problem then resolution.\n\n**5. Design the sound.** Music establishes mood, silence creates emphasis, and **captions** make the text accessible to people watching without sound or who are Deaf or hard of hearing.\n\n**6. Close with a call to action.**\n\n**7. Verify before publishing.** Check facts against sources, get consent from everyone who appears, and use only music you have the rights to.\n\n**8. Publish responsibly.** Since December 2025, under-16s can't hold accounts on platforms such as TikTok, Instagram and YouTube. Use school channels, class screenings or assemblies, with permission. For 16 and over, published content becomes part of your digital footprint."
+        },
+        "vc": [
+          "VC2E6LY09",
+          "VC2E4LA09",
+          "VC2E5LA07",
+          "VC2E6LY02",
+          "VC2E7LA07",
+          "VC2E4LY10"
+        ],
+        "vcNote": "Planning multimodal texts: purpose, audience and message; scripting for voice; framing, salience, sequence and sound; responsible publishing."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Meet Graham",
+        "icon": "lucide:user-round",
+        "body": {
+          "support": "The **TAC** wanted people to know one thing: our bodies can't survive car crashes.\n\nIn **2016**, it tried something new. Experts worked out how a body would need to change to survive a crash. An artist, **Patricia Piccinini**, made a sculpture of that body. He's called **Graham**.\n\nGraham looks strange. He has **no neck**, so he can't break it.\n\nPeople went to see him at the **State Library of Victoria**. There was an app and school lessons too.\n\nWhy did it work? **One message**. And you could **see** it.",
+          "core": "The **TAC** (Transport Accident Commission) wanted Victorians to understand one thing: our bodies aren't built to survive car crashes, even slow ones.\n\nFacts and numbers hadn't been enough. So in **2016**, the TAC tried something different.\n\nIt asked two experts, a **trauma surgeon** and a **crash investigator** from Monash University, how a human body would need to change to survive a crash. Then a Melbourne artist, **Patricia Piccinini**, made a life-like sculpture of that body. They called him **Graham**.\n\nGraham looks strange. He has **no neck**, so he can't break it. Every part of him was designed around how real crashes injure people.\n\nGraham was shown at the **State Library of Victoria**, then toured Victoria. People could use an app to look **under his skin**, and schools got lessons to go with him.\n\nWhy did it work? It had **one message**. It turned facts into something you could **see**. And it used many modes at once: a sculpture, videos, a website, an app and lessons.\n\nContent that counts doesn't need to be expensive. It needs one clear message, shown in a way people remember.",
+          "extend": "The **Transport Accident Commission** (TAC) had a familiar problem. Road trauma statistics weren't changing how people thought about their own risk.\n\nIn **2016**, it tried a different kind of text. It asked a **trauma surgeon** and a Monash University **crash investigator** how the human body would need to change to survive a crash. Melbourne artist **Patricia Piccinini** then made a life-like sculpture based on their answers: **Graham**.\n\nGraham is confronting on purpose. He has **no neck**, so he can't break it. Each feature responds to a real crash injury.\n\nGraham was first shown at the **State Library of Victoria**, then toured the state. An app let visitors look **beneath his skin**, and schools got lessons to go with him.\n\nThe campaign shows multimodal design at work. One message was made visible and memorable, and delivered through sculpture, video, web, app and classroom. Its power came from the idea, not the budget."
+        },
+        "source": {
+          "name": "Wikipedia — “Project Graham” (TAC, 2016)",
+          "url": "https://en.wikipedia.org/wiki/Project_Graham"
+        },
+        "think": {
+          "support": [
+            "What was the message?",
+            "Why did seeing Graham help?"
+          ],
+          "core": [
+            "What was Graham's one message?",
+            "Why might a sculpture work better than a list of facts?",
+            "How many different modes did the campaign use?"
+          ]
+        },
+        "vc": [
+          "VC2E7LA07",
+          "VC2E6LY09"
+        ],
+        "vcNote": "How a real campaign used a single message across multimodal texts to create a perspective."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a storyboard",
+      "docTitle": "“PAUSE BEFORE YOU POST” · 30-SECOND VIDEO (EXAMPLE)",
+      "vc": [
+        "VC2E4LA09",
+        "VC2E5LA07",
+        "VC2E6LY02",
+        "VC2E7LA07"
+      ],
+      "vcNote": "How shots, framing, salience, voice and sound are sequenced to build a message.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "0:00 Hook",
+          "value": "Close-up: thumbs typing an angry message. Voice: “Ever sent something you wish you could unsend?”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "0:05 Problem",
+          "value": "Mid shot: a friend reads it. Her face drops. The music cuts to silence."
+        },
+        {
+          "n": 3,
+          "label": "0:10 Message",
+          "value": "Big white word, centred on black: PAUSE."
+        },
+        {
+          "n": 4,
+          "label": "0:14 Solution",
+          "value": "Close-up: delete, delete, delete. Retype: “I see it differently…” Voice: slow, calm."
+        },
+        {
+          "n": 5,
+          "label": "0:22 Result",
+          "value": "Wide shot: both friends laughing at lunch. Upbeat music returns."
+        },
+        {
+          "n": 6,
+          "label": "0:27 Call to action",
+          "value": "Text and voice: “Pause before you post.” Captions all the way through.",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "Close-up plus a question, in 3 seconds."
+        },
+        {
+          "n": 2,
+          "label": "Sound",
+          "note": "Sudden silence makes the moment hit."
+        },
+        {
+          "n": 3,
+          "label": "Salience",
+          "note": "Big, centred, high contrast: you can't miss it."
+        },
+        {
+          "n": 4,
+          "label": "Voice",
+          "note": "Slow and calm matches the message."
+        },
+        {
+          "n": 5,
+          "label": "Sequence",
+          "note": "Problem, then solution, then result."
+        },
+        {
+          "n": 6,
+          "label": "Call to action",
+          "note": "One clear thing to do. Captions for everyone."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Make it count",
+      "steps": [
+        {
+          "title": "Plan",
+          "text": "Purpose, audience, one message.",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "Script",
+          "text": "Short, natural, read aloud.",
+          "icon": "lucide:file-text"
+        },
+        {
+          "title": "Storyboard",
+          "text": "Shots, sound, order.",
+          "icon": "lucide:layout-grid"
+        },
+        {
+          "title": "Make + test",
+          "text": "Film it. Check, then share safely.",
+          "icon": "lucide:video"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What should you decide **first** when making content?",
+        "options": [
+          "Purpose, audience and one message",
+          "Which filter to use",
+          "The music",
+          "How many likes you want"
+        ],
+        "answer": 0,
+        "explain": "Everything else follows from these.",
+        "vc": [
+          "VC2E6LY09",
+          "VC2E4LY10"
+        ]
+      },
+      {
+        "q": "Why does the hook matter so much?",
+        "options": [
+          "The first few seconds decide if people keep watching",
+          "It's the longest part",
+          "It's where the credits go",
+          "It doesn't"
+        ],
+        "answer": 0,
+        "explain": "Start with a question, surprise or close-up.",
+        "vc": [
+          "VC2E5LA07"
+        ]
+      },
+      {
+        "q": "What's a **close-up** good for?",
+        "options": [
+          "Making it feel personal",
+          "Showing the whole place",
+          "Hiding faces",
+          "Making it longer"
+        ],
+        "answer": 0,
+        "explain": "Wide shots show the place.",
+        "vc": [
+          "VC2E4LA09"
+        ]
+      },
+      {
+        "q": "Why add **captions**?",
+        "options": [
+          "So people can follow with the sound off, or if they can't hear",
+          "To make it longer",
+          "Because music is banned",
+          "They don't help"
+        ],
+        "answer": 0,
+        "explain": "Captions make your content accessible.",
+        "vc": [
+          "VC2E4LA09",
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "q": "You're 15. Where's a good place to share your video?",
+        "options": [
+          "In class or on the school website, with permission",
+          "On a TikTok account you set up",
+          "On a stranger's page",
+          "Nowhere, ever"
+        ],
+        "answer": 0,
+        "explain": "Under-16s can't hold accounts on platforms like TikTok.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "q": "What was **Meet Graham**'s one message?",
+        "options": [
+          "Our bodies aren't built to survive crashes",
+          "Buy a new car",
+          "Art is fun",
+          "Visit the library"
+        ],
+        "answer": 0,
+        "explain": "One clear message, made visible.",
+        "vc": [
+          "VC2E7LA07"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "In the storyboard, why is PAUSE big, white and centred on black?",
+        "options": [
+          "To give it the most salience, so you can't miss it",
+          "To save time",
+          "Because white is cheaper",
+          "It's random"
+        ],
+        "answer": 0,
+        "explain": "Size, contrast and placement direct attention.",
+        "vc": [
+          "VC2E4LA09",
+          "VC2E7LA07"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan, script and storyboard a short video. Make it. Show it to your audience.",
+      "core": "Plan, script, storyboard and make a 30 to 60 second video or post that says something useful, then test it on your audience.",
+      "extend": "Design and produce a 30 to 60 second multimodal text that raises an issue or advances an opinion for a specific audience, justify your choices of language, image, sound and sequence, and evaluate it with audience feedback."
+    },
+    "checklist": [
+      "I chose a purpose, audience and one message",
+      "I wrote a script and read it aloud",
+      "I storyboarded my shots and sound",
+      "I added captions",
+      "I checked facts and permission",
+      "I tested it on my audience"
+    ],
+    "levelUp": "Make your video raise an issue and argue for a point of view. Then explain how your choices of shot, sound and words position your audience.",
+    "vc": [
+      "VC2E6LY09",
+      "VC2E5LA07",
+      "VC2E6LY02"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to make content that counts",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What are the **three** things to decide before you start?",
+            "lines": 1,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          },
+          {
+            "q": "Name **two** ways to hook people in the first few seconds.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA07"
+            ]
+          },
+          {
+            "q": "What should you check before you share?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Make it count",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a storyboard",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a choice in the video. Use the word bank. Why does it work?",
+          "core": "Each number marks a choice in the video. Write what the choice is and why it works."
+        },
+        "columns": [
+          "What's the choice?",
+          "Why does it work?"
+        ],
+        "wordBank": {
+          "support": [
+            "hook",
+            "sound",
+            "stands out",
+            "voice",
+            "order",
+            "call to action"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E4LA09",
+          "VC2E5LA07",
+          "VC2E7LA07"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Strong or weak choice?",
+        "pagebreak": true,
+        "choices": [
+          "Strong",
+          "Weak"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is a choice someone made for a short video. Tick **strong** or **weak**, and say why.",
+        "cards": [
+          {
+            "from": "Opening",
+            "text": "“Hi guys, so, um, today I'm gonna talk about…”",
+            "answer": "Weak",
+            "flags": "A slow start. People scroll past."
+          },
+          {
+            "from": "Opening",
+            "text": "A close-up and a question: “Ever been stuck at the station at midnight?”",
+            "answer": "Strong",
+            "flags": "Grabs attention fast."
+          },
+          {
+            "from": "Sound",
+            "text": "A chart-topping song the creator doesn't have the rights to",
+            "answer": "Weak",
+            "flags": "It could get blocked or taken down."
+          },
+          {
+            "from": "Text",
+            "text": "Captions on screen the whole way through",
+            "answer": "Strong",
+            "flags": "Everyone can follow."
+          },
+          {
+            "from": "Message",
+            "text": "Five different tips in 30 seconds",
+            "answer": "Weak",
+            "flags": "Too many. Nobody remembers any.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Facts",
+            "text": "A fact on screen with the source underneath",
+            "answer": "Strong",
+            "flags": "Believable and checkable.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LA07",
+          "VC2E4LA09",
+          "VC2E6LY09"
+        ],
+        "vcNote": "Evaluating multimodal choices for purpose and audience."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Meet Graham",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What was Graham's **one message**?",
+            "lines": 1,
+            "vc": [
+              "VC2E7LA07"
+            ]
+          },
+          {
+            "q": "Why might a sculpture work better than a list of facts?",
+            "lines": 2,
+            "vc": [
+              "VC2E7LA07",
+              "VC2E6LY09"
+            ]
+          },
+          {
+            "q": "Name **three** different modes the campaign used.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Plan it",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "instructions": "Choose a topic you know about that would help someone your age: a skill, a tip, a warning or a local place. Plan your content. The first row shows an example.",
+        "columns": [
+          "Plan",
+          "My video"
+        ],
+        "rows": [
+          [
+            "Example: one message",
+            "Pause before you post."
+          ],
+          [
+            "Topic",
+            ""
+          ],
+          [
+            "Purpose (inform, persuade or entertain?)",
+            ""
+          ],
+          [
+            "Audience (who, exactly?)",
+            ""
+          ],
+          [
+            "My one message",
+            ""
+          ],
+          [
+            "What I want them to do (call to action)",
+            ""
+          ],
+          [
+            "Where I'll share it (safely)",
+            ""
+          ],
+          [
+            "Facts I need to check, and my source",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LY09",
+          "VC2E4LY10",
+          "VC2E7LY08"
+        ],
+        "vcNote": "Planning purpose, audience, message and publication."
+      },
+      {
+        "type": "write",
+        "title": "Write your script",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write what you'll say in your video. Short sentences. Mark pauses with /.",
+          "core": "Write the script for your 30 to 60 second video: everything that will be **said** or **shown as text**. Mark where you'll **pause** (/) and which words you'll **stress** (underline).",
+          "extend": "Write a 30 to 60 second script. Mark pauses (/) and emphasis (underline), note the tone of voice for each section, and make sure every line serves your one message."
+        },
+        "plan": [
+          {
+            "label": "My hook (first line)",
+            "lines": 1
+          },
+          {
+            "label": "My call to action (last line)",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "Ever…?",
+            "Here's what to do:",
+            "So next time…"
+          ],
+          "core": [
+            "Ever…?",
+            "Here's the thing:",
+            "So next time…",
+            "[Text on screen:] …"
+          ]
+        },
+        "lines": {
+          "support": 12,
+          "core": 13
+        },
+        "check": [
+          "a hook",
+          "one clear message",
+          "short, natural sentences",
+          "pauses and stress marked",
+          "a call to action",
+          "read aloud and timed"
+        ],
+        "vc": [
+          "VC2E6LY02",
+          "VC2E6LY09",
+          "VC2E4LY10"
+        ],
+        "vcNote": "Scripting a spoken multimodal text with features of voice."
+      },
+      {
+        "type": "storyboard",
+        "title": "Storyboard it",
+        "pagebreak": true,
+        "frames": 6,
+        "boxHeight": {
+          "support": 60,
+          "core": 60
+        },
+        "instructions": "Sketch your video in 6 shots (stick figures are fine). Under each, write what we **see** (and the type of shot) and what we **hear**.",
+        "hints": [
+          "Hook",
+          "",
+          "",
+          "Message",
+          "",
+          "Call to action"
+        ],
+        "vc": [
+          "VC2E4LA09",
+          "VC2E5LA07",
+          "VC2E7LA07"
+        ],
+        "vcNote": "Planning framing, salience, sequence and sound."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: make it and test it",
+        "pagebreak": true,
+        "where": "in class, at school, or at home with permission",
+        "instructions": "Make your video (or post), then check whether your audience got the message.",
+        "need": [
+          "your script and storyboard",
+          "a phone or tablet",
+          "permission from anyone you film"
+        ],
+        "steps": {
+          "support": [
+            "Film each shot. Keep it short.",
+            "Add captions.",
+            "Show it to 3 people your age.",
+            "Ask: “What was the message?”",
+            "Change one thing to make it better."
+          ],
+          "core": [
+            "Film each shot. Keep it to 30 to 60 seconds.",
+            "Add captions, and only music you're allowed to use.",
+            "Check your facts and permissions one last time.",
+            "Show it to 3 people from your audience.",
+            "Ask each: “What was the message? What should you do?”",
+            "Change one thing to make it better. Share it safely, with your teacher's OK."
+          ]
+        },
+        "notes": [
+          {
+            "label": "What my audience said the message was:",
+            "lines": 2
+          },
+          {
+            "label": "The one thing I changed:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "The video",
+          "Teacher saw it",
+          "Audience feedback"
+        ],
+        "vc": [
+          "VC2E6LY02",
+          "VC2E6LY09",
+          "VC2E7LY08"
+        ],
+        "vcNote": "Hands-on: producing, testing and refining a multimodal text."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Remake your plan so your video **raises an issue** and argues for a point of view (for example, *more seats on the school bus*). What changes in your script and shots?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY08"
+            ]
+          },
+          {
+            "q": "Choose **two** shots from your storyboard. Explain how the framing, salience or sound **positions** your audience to see the issue your way.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA07",
+              "VC2E7LY08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can plan for a purpose and audience.",
+          "I can write a script.",
+          "I can storyboard shots and sound.",
+          "I can make and share content safely."
+        ],
+        "questions": [
+          "My one message was:",
+          "What I'll make next:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The boss level of Digital Life. Students design and produce a 30 to 60 second video or post with a clear purpose, audience and one message. They write a script for the ear (marking pauses and stress), storyboard shots with attention to framing, salience, sequence and sound, add captions, check facts and permissions, and test the result on their audience. The case study is the TAC's 2016 Meet Graham campaign. Because under-16s can't hold accounts on platforms like TikTok, Instagram and YouTube, publishing happens through class, assembly or school channels.",
+    "prep": [
+      "Check your school's policy on filming students and publishing student work, and on phone use in class.",
+      "Arrange devices for filming (phones or school tablets) and a simple free editing app.",
+      "Plan where finished videos will be shown: class screening, assembly, school website or newsletter."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What counts",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show two short videos. Which do you remember? Why?",
+          "**Explicit teaching (10 min):** purpose, audience, one message; hook; framing, salience, sound.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Anatomy of a storyboard (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan it",
+        "minutes": 50,
+        "steps": [
+          "**Strong or weak choice? (10 min).**",
+          "**Case study (15 min):** Meet Graham.",
+          "**Plan it (25 min).** Conference: can each student say their message in one sentence?"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Script and storyboard",
+        "minutes": 50,
+        "steps": [
+          "**Write your script (25 min).** Students read aloud to a partner and time it.",
+          "**Storyboard it (25 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 4 — Make and test",
+        "minutes": 50,
+        "steps": [
+          "**Do it (35 min):** film, caption, test on 3 people, change one thing.",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Decide purpose, audience and one message first.",
+      "Hook in the first three seconds.",
+      "Script for the ear: short, natural, read aloud; mark pauses and stress.",
+      "Storyboard: framing (close-up, wide), salience (size, brightness, placement), sequence, sound.",
+      "Captions make content accessible.",
+      "Check facts, permissions and music rights.",
+      "Share safely: under-16s can't hold accounts on platforms like TikTok, Instagram and YouTube; use school channels."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards.",
+        "A 30-second video with a teacher-suggested topic; work in pairs."
+      ],
+      "extend": [
+        "Make it raise an issue and argue a point of view (Level Up).",
+        "Justify how choices position the audience (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LY10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Creates an informative or persuasive multimodal text for an audience (plan, script, video)."
+      },
+      {
+        "vc": "VC2E4LA09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Explains how sound, framing and salience add meaning (annotation, storyboard)."
+      },
+      {
+        "vc": "VC2E6LY09",
+        "evidence": "Creates a planned multimodal text with organised ideas for purpose and audience (plan, script, video)."
+      },
+      {
+        "vc": "VC2E5LA07",
+        "evidence": "Explains how the sequence of shots and sound affects meaning (sort, storyboard)."
+      },
+      {
+        "vc": "VC2E6LY02",
+        "evidence": "Delivers a structured spoken multimodal text with appropriate features of voice (script, video)."
+      },
+      {
+        "vc": "VC2E7LY08",
+        "evidence": "Selects subject matter, language and multimodal elements for a specific audience (plan, do it, Level Up)."
+      },
+      {
+        "vc": "VC2E7LA07",
+        "evidence": "Explores how images and sound create a perspective (case study, storyboard, Level Up)."
+      },
+      {
+        "vc": "VC2E8LY08",
+        "evidence": "Level Up: creates a text that raises an issue and advances an opinion, using deliberate choices."
+      }
+    ],
+    "answers": "**Check your reading:** purpose, audience, one message. Hooks: a question, a surprise, a close-up. Check: facts and sources, permission from everyone in it, music rights.\n\n**Storyboard:** 1 hook (close-up and a question); 2 sound (silence for impact); 3 salience (big, centred, high contrast); 4 voice (slow and calm fits the message); 5 sequence (problem, solution, result); 6 call to action (with captions).\n\n**Sort:** “Hi guys, um” — weak; close-up and question — strong; unlicensed song — weak; captions — strong; five tips — weak; fact with source — strong.\n\n**Case study:** our bodies aren't built to survive crashes; a sculpture makes an abstract risk visible and memorable; sculpture, video, website, app, school lessons (and the exhibition tour).",
+    "resources": [
+      {
+        "label": "Wikipedia — Project Graham (TAC Meet Graham, 2016)",
+        "url": "https://en.wikipedia.org/wiki/Project_Graham"
+      },
+      {
+        "label": "Broadsheet — How “Graham” came to be (2016)",
+        "url": "https://www.broadsheet.com.au/national/city-file/article/tac-meet-graham"
+      },
+      {
+        "label": "eSafety — Social media age restrictions (young people)",
+        "url": "https://www.esafety.gov.au/young-people/social-media-age-restrictions"
+      }
+    ],
+    "realityCheck": [
+      "**Filming students needs consent.** Check your school's photo and video permissions before anyone films anyone.",
+      "**Under-16s shouldn't be told to post publicly.** Plan class screenings or school channels instead.",
+      "**Not everyone wants to be on camera.** Offer voice-only, hands-only, animation or slideshow options.",
+      "**Editing can eat time.** Keep it to 6 shots and 60 seconds; a phone's built-in editor is enough.",
+      "**Works in a real class:** yes. It's the natural finale to Digital Life, using what students learned about footprints, influencers and comments to make something of their own."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards, a 30-second video with a suggested topic, pair work and sentence starters.",
+      "core": "Standard version: storyboard anatomy, strong-or-weak choices, the Meet Graham campaign, planning, a scripted video with marked voice, a 6-shot storyboard, and making and testing it with an audience.",
+      "extend": "Adds call to action and salience to the vocabulary, a quiz question on salience, a script with tone notes, and Level Ups remaking the video to raise an issue and justifying how choices position the audience."
+    }
+  }
+}
