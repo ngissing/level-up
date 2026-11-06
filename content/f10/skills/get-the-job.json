@@ -1,0 +1,1046 @@
+{
+  "id": "get-the-job",
+  "version": 1,
+  "duration": "5 lessons (about 4 hours), with a real job ad",
+  "brief": {
+    "hook": {
+      "support": "You've learnt about job ads, resumes and interviews. Now do it for real: **one ad**, **one application**, **one interview**.",
+      "core": "You've cracked job ads. You've built a resume. You've practised STAR answers. Now it's the real thing: **one ad**, **one application**, **one interview**. This is where all of it comes together, and where you find out you're more ready than you think."
+    },
+    "why": {
+      "support": "The people who get jobs **tailor** their application. They match it to the ad. They use a **formal** tone. Then they get ready for the interview.",
+      "core": "Most people send the same resume to every job, and hear nothing back. The people who get called are the ones who **tailor**: they read the ad closely, match their real evidence to what the employer needs, and say it in the right **formal** tone. Then they walk into the interview ready. This capstone puts every step together, for a job you actually want.",
+      "extend": "Securing a job is a sequence of linked texts for one audience: a decoded ad, a tailored resume, a formal cover email, a structured interview and a follow-up. Each must be adapted to the employer's stated needs, using evidence and a register that builds a professional relationship from the first line."
+    },
+    "canDo": {
+      "support": [
+        "I can decode a real job ad.",
+        "I can match my resume to the ad.",
+        "I can write a formal email.",
+        "I can do a practice interview and follow up."
+      ],
+      "core": [
+        "I can **decode** a real job ad and pick out what the employer needs.",
+        "I can **tailor** my resume with evidence that matches the ad.",
+        "I can write a **formal cover email** that gets read.",
+        "I can do a **mock interview** and **follow up** professionally."
+      ]
+    },
+    "showIt": "Apply for a real (or realistic) local job: decode the ad, tailor your resume, write a cover email, do a mock interview and follow up.",
+    "vocab": [
+      {
+        "word": "tailor",
+        "meaning": "change something to fit one job exactly",
+        "example": "I tailored my resume for the bakery job."
+      },
+      {
+        "word": "cover email",
+        "meaning": "a short, formal email sent with your resume",
+        "example": "My cover email was five sentences long."
+      },
+      {
+        "word": "essential criteria",
+        "meaning": "what the employer says you must have",
+        "example": "Weekend availability was an essential criterion."
+      },
+      {
+        "word": "evidence",
+        "meaning": "a real example that proves a claim",
+        "example": "Coaching the juniors is evidence I'm patient."
+      },
+      {
+        "word": "formal",
+        "meaning": "polite and professional in tone",
+        "example": "“Dear Ms Rossi” is formal."
+      },
+      {
+        "word": "follow up",
+        "meaning": "contact the employer again, politely",
+        "example": "I followed up a week later."
+      },
+      {
+        "word": "subject line",
+        "meaning": "the title of an email",
+        "example": "My subject line said which job I was applying for.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "transferable skill",
+        "meaning": "a skill from one part of life that's useful in another",
+        "example": "Teamwork from netball is a transferable skill.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Get the Job in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Get the Job",
+        "sub": "From ad to offer — the full run.",
+        "icon": "lucide:trophy",
+        "say": "Get the job. From ad to offer, the full run."
+      },
+      {
+        "kind": "big",
+        "big": "1 in 3",
+        "title": "employers hired experienced people for entry-level jobs",
+        "sub": "Jobs and Skills Australia, 2025",
+        "say": "In late 2025, about one in three employers said they'd hired someone with experience for an entry-level job. So you need to show what you've got.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "The full run",
+        "pillIcon": "lucide:trophy",
+        "title": "Decode",
+        "text": "Essentials · **Their words**",
+        "icon": "lucide:scan-text",
+        "say": "Step one. Decode the ad. Circle what they must have, and the words they use.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "The full run",
+        "pillIcon": "lucide:trophy",
+        "title": "Tailor",
+        "text": "They need → **I've done**",
+        "icon": "lucide:scissors",
+        "say": "Step two. Tailor. Match each thing they need with real evidence from your life.",
+        "vc": [
+          "VC2E6LY09",
+          "VC2E7LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "The full run",
+        "pillIcon": "lucide:trophy",
+        "title": "Email",
+        "text": "Dear… · Why me · **Kind regards**",
+        "icon": "lucide:mail",
+        "say": "Step three. Write a short, formal cover email. Which job, why you, when you're free, and a polite close.",
+        "vc": [
+          "VC2E6LA01",
+          "VC2E8LA01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "The full run",
+        "pillIcon": "lucide:trophy",
+        "title": "Interview",
+        "text": "STAR · Voice · **Your question**",
+        "icon": "lucide:handshake",
+        "say": "Step four. Interview. Your three STAR stories, a clear voice, and a question of your own.",
+        "vc": [
+          "VC2E6LY02",
+          "VC2E4LY02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "The full run",
+        "pillIcon": "lucide:trophy",
+        "title": "Follow up",
+        "text": "Thank you · **One check-in**",
+        "icon": "lucide:mail-check",
+        "say": "Step five. Follow up. A thank-you the same day. No reply after a week? One polite check-in.",
+        "vc": [
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Decode. Tailor. Email. Interview. Follow up.",
+        "icon": "lucide:trophy",
+        "say": "Your mission. Apply for a real job, from ad to interview to follow-up."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "From ad to offer",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Getting a job takes five steps.\n\n**1. Decode the ad.** Find a real ad. Circle what they **must** have. Notice their words, like *reliable*.\n\n**2. Tailor your resume.** For each thing they want, add a real example from your life.\n\n**3. Write a cover email.** Short and **formal**:\n\n- **Subject:** *Application: Kitchen Hand – Kai Thompson*\n- *Dear Ms Rossi,*\n- Which job you want.\n- Two reasons you'd be good, with examples.\n- When you can work.\n- *Kind regards,* and your name.\n\nAttach your resume.\n\n**4. Interview.** Use your STAR stories. Ask a question.\n\n**5. Follow up.** Say thank you. No reply in a week? Send one polite email.",
+          "core": "Getting a job isn't one big moment. It's five small steps, and each one uses something you've already learnt.\n\n**1. Decode the ad.** Find a real ad you'd actually apply for. Circle the **essential criteria** (what they *must* have), the desirable ones, the hours, and how and when to apply. Notice the exact **words** they use: *reliable*, *fast-paced*, *customer service*.\n\n**2. Tailor your resume.** Don't send the same resume everywhere. For each thing the ad needs, find real **evidence** from your life, and put it where they'll see it. If the ad says *customer service*, your canteen shift belongs near the top. Use their words, but only if they're true. Your **transferable skills** count: teamwork from sport, responsibility from caring for siblings.\n\n**3. Write a cover email.** Keep it short and **formal**:\n\n- A clear **subject line**: *Application: Casual Kitchen Hand – Kai Thompson*\n- A formal greeting: *Dear Ms Rossi,* (or *Dear Hiring Manager,*)\n- Which job, and where you saw it.\n- Two reasons you suit the job, each with evidence matched to the ad.\n- Your availability.\n- A polite close: *My resume is attached. I'd welcome the chance to talk with you.*\n- *Kind regards,* and your name.\n\nCheck spelling, attach your resume as a PDF with your name in the file name, and send it from a sensible email address.\n\n**4. Nail the interview.** Prepare your three STAR stories, re-read the ad, and plan a question to ask. Speak clearly, and say it back if you're unsure.\n\n**5. Follow up.** Send a thank-you the same day. If you've heard nothing after a week, send one polite check-in. Then keep applying: every application is practice.\n\nA note on AI tools: they can help you check spelling, but employers can spot a generic email. Your words, your real examples, every time.",
+          "extend": "Getting a job takes a sequence of linked texts, all written for the same reader: the employer.\n\n**1. Decode the ad.** Find the **essential** and desirable **criteria**, the conditions and the application process. Note the employer's key words: they show what the employer values.\n\n**2. Tailor the resume.** Match each criterion to specific **evidence**, and put the most relevant first. Use the employer's terms where they're accurate. Show **transferable skills** from school, sport, volunteering or family.\n\n**3. Compose a cover email.** A brief, **formal** text with a clear structure:\n\n- an informative **subject line**\n- a formal salutation\n- an opening identifying the role and where it was advertised\n- two claims, each substantiated with evidence matched to the criteria\n- availability\n- a courteous close and sign-off.\n\nFormal language does more than sound polite. It shows you as a professional before you've even met. Proofread, attach a clearly named PDF, and use a sensible email address.\n\n**4. Prepare the interview:** STAR stories mapped to the criteria, delivery, and a question of your own.\n\n**5. Follow up:** a same-day thank-you, then one courteous check-in after about a week. Track your applications.\n\nAI tools can help with proofreading. But generic text with no evidence weakens an application. Your real evidence is what makes you stand out."
+        },
+        "vc": [
+          "VC2E6LY09",
+          "VC2E6LA01",
+          "VC2E8LA01",
+          "VC2E6LY02",
+          "VC2E7LY08"
+        ],
+        "vcNote": "A sequence of linked texts for one audience: decoding, tailoring, formal writing and spoken interaction."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Who gets the entry-level jobs?",
+        "icon": "lucide:briefcase",
+        "body": {
+          "support": "A government group studies jobs. In **2025**, it asked bosses about jobs for people **starting out**.\n\nWhat it found:\n\n- These jobs are most common in **shops**, **labouring** and **care** work.\n- City bosses had fewer of them.\n- About **1 in 3** bosses gave these jobs to people who **had worked before**.\n\nSo show what you can do. Use examples from sport, school and home.",
+          "core": "**Jobs and Skills Australia** is a government agency that studies jobs. It asks employers about hiring. In **December 2025**, it shared what they said about **entry-level** jobs: jobs for people just starting out.\n\nHere's what it found:\n\n- Entry-level jobs were most common in **sales**, **labouring**, and **care and service** work, like hospitality.\n- Employers in **capital cities** had the most jobs. But they were the **least likely** to offer entry-level ones.\n- Employers in the **country** were more open to people starting out.\n- About **1 in 3** employers gave an entry-level job to someone **with experience**.\n\nSo a job that says *no experience needed* can still go to someone who has some. That's why you tailor. You may not have work experience. But you have **evidence**: sport, school, helping out, caring for family. Show it clearly, in their words.",
+          "extend": "**Jobs and Skills Australia** (JSA) surveys Australian employers about hiring. A **December 2025** report looked at **entry-level** jobs in cities and in the regions.\n\n- Entry-level jobs were most common for **sales workers**, **labourers** and some **care and service** roles. Professional jobs were much harder to get into.\n- Employers in **capital cities** had the most jobs. Yet they were the **least likely** to offer entry-level ones. Country employers were more open to beginners. One reason: less competition.\n- About **1 in 3** employers hiring for entry-level roles took on **experienced** candidates.\n\nSo *entry-level* doesn't mean *no competition*. Without work history, you compete with skills from the rest of your life. Present them as evidence, matched to what each employer asks for."
+        },
+        "source": {
+          "name": "Jobs and Skills Australia — REOS spotlight: “Entry level jobs across city, coastal, inland and remote regions” (December 2025)",
+          "url": "https://www.jobsandskills.gov.au/sites/default/files/2025-12/reos_spotlight_-_entry_level_jobs_across_city_coastal_inland_and_remote_regions.pdf"
+        },
+        "think": {
+          "support": [
+            "Which jobs are best for starting out?",
+            "What can you show instead of experience?"
+          ],
+          "core": [
+            "Which kinds of jobs had the most entry-level openings?",
+            "Why might employers hire experienced people for entry-level jobs?",
+            "What evidence from your life could you show instead of work experience?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY09",
+          "VC2E7LY08"
+        ],
+        "vcNote": "Real labour market data that explains why tailoring and evidence matter."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a cover email",
+      "docTitle": "EMAIL TO: MS ROSSI, BEAN THERE CAFÉ (EXAMPLE)",
+      "vc": [
+        "VC2E6LA01",
+        "VC2E6LY09",
+        "VC2E8LA01"
+      ],
+      "vcNote": "The structure and formal register of a cover email, and how each part is matched to the job ad.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Subject",
+          "value": "Application: Casual Kitchen Hand – Kai Thompson",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Greeting",
+          "value": "Dear Ms Rossi,"
+        },
+        {
+          "n": 3,
+          "label": "Which job",
+          "value": "I'm applying for the casual kitchen hand role advertised in your café window."
+        },
+        {
+          "n": 4,
+          "label": "Why me",
+          "value": "You need someone who works well in a busy kitchen. I cook dinner for my family of six every Sunday, and I help run our school canteen on Fridays.",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Availability",
+          "value": "I'm available every Saturday and Sunday morning, and in the school holidays."
+        },
+        {
+          "n": 6,
+          "label": "Close",
+          "value": "My resume is attached. I'd welcome the chance to talk with you. Kind regards, Kai Thompson"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Subject line",
+          "note": "Job and name. They know what it is before they open it."
+        },
+        {
+          "n": 2,
+          "label": "Formal greeting",
+          "note": "Their name if you know it."
+        },
+        {
+          "n": 3,
+          "label": "Which job, and where",
+          "note": "One clear opening sentence."
+        },
+        {
+          "n": 4,
+          "label": "Evidence matched to the ad",
+          "note": "Their need, then your proof."
+        },
+        {
+          "n": 5,
+          "label": "Availability",
+          "note": "Answers an essential criterion."
+        },
+        {
+          "n": 6,
+          "label": "Polite close",
+          "note": "Attachment, a next step, a formal sign-off."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "From ad to offer",
+      "steps": [
+        {
+          "title": "Decode",
+          "text": "Essentials, words, closing date.",
+          "icon": "lucide:scan-text"
+        },
+        {
+          "title": "Tailor",
+          "text": "Their needs, your evidence.",
+          "icon": "lucide:scissors"
+        },
+        {
+          "title": "Email",
+          "text": "Short, formal, matched.",
+          "icon": "lucide:mail"
+        },
+        {
+          "title": "Interview",
+          "text": "STAR, voice, your question.",
+          "icon": "lucide:handshake"
+        },
+        {
+          "title": "Follow up",
+          "text": "Thank you. One check-in.",
+          "icon": "lucide:mail-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What does it mean to **tailor** your resume?",
+        "options": [
+          "Change it to match one job's needs",
+          "Send the same one everywhere",
+          "Make it longer",
+          "Add a photo"
+        ],
+        "answer": 0,
+        "explain": "Match your evidence to the ad.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "q": "Which is the best **subject line**?",
+        "options": [
+          "Application: Casual Kitchen Hand – Kai Thompson",
+          "hi",
+          "job??",
+          "Kai"
+        ],
+        "answer": 0,
+        "explain": "Job and name, so they know what it is.",
+        "vc": [
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "q": "Which greeting is right for a cover email?",
+        "options": [
+          "Dear Ms Rossi,",
+          "Hey!",
+          "Yo,",
+          "Sup"
+        ],
+        "answer": 0,
+        "explain": "Formal greeting for a formal text.",
+        "vc": [
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "q": "The ad says **customer service**. What should your email do?",
+        "options": [
+          "Give a real example of serving people",
+          "Ignore it",
+          "Say “I'm good with people” and nothing else",
+          "Copy the whole ad"
+        ],
+        "answer": 0,
+        "explain": "Their need, then your evidence.",
+        "vc": [
+          "VC2E6LY09",
+          "VC2E7LY08"
+        ]
+      },
+      {
+        "q": "You've heard nothing a week after applying. What's best?",
+        "options": [
+          "Send one short, polite check-in email",
+          "Email every day",
+          "Post about it",
+          "Give up on all jobs"
+        ],
+        "answer": 0,
+        "explain": "One polite follow-up is professional.",
+        "vc": [
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "q": "In the December 2025 JSA data, about how many employers hired experienced people for entry-level jobs?",
+        "options": [
+          "About 1 in 3",
+          "None",
+          "All of them",
+          "1 in 100"
+        ],
+        "answer": 0,
+        "explain": "That's why showing your evidence matters.",
+        "vc": [
+          "VC2E6LY09"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Why does formal language matter in a cover email, beyond politeness?",
+        "options": [
+          "It positions you as a professional and starts the working relationship",
+          "It makes it longer",
+          "It hides mistakes",
+          "It doesn't"
+        ],
+        "answer": 0,
+        "explain": "Language shapes relationships and roles.",
+        "vc": [
+          "VC2E8LA01"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Choose a real job ad. Match your resume to it. Write a formal email. Do a practice interview. Say thank you.",
+      "core": "Apply for a real (or realistic) local job: decode the ad, tailor your resume, write a cover email, do a mock interview and follow up.",
+      "extend": "Complete a full application for a real local job: decode the ad, tailor your resume with criterion-matched evidence, write a formal cover email, perform a structured mock interview and follow up, then evaluate how each text was adapted for its reader."
+    },
+    "checklist": [
+      "I decoded a real ad",
+      "I matched my evidence to the essential criteria",
+      "I tailored my resume",
+      "I wrote a formal cover email",
+      "I did a mock interview using STAR",
+      "I sent a follow-up"
+    ],
+    "levelUp": "Prepare a one-minute formal “tell me about yourself” for the interview, with one visual (your resume or a photo of your work). Then explain how your language changed from email to interview.",
+    "vc": [
+      "VC2E6LY09",
+      "VC2E6LA01",
+      "VC2E6LY02"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: From ad to offer",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What are the **five** steps from ad to offer?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          },
+          {
+            "q": "What should go in a cover email? List **four** parts.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LA01"
+            ]
+          },
+          {
+            "q": "Why shouldn't you send the same resume to every job?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "From ad to offer",
+        "diagram": 1
+      },
+      {
+        "type": "table",
+        "title": "Step 1: decode my ad",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 18
+        },
+        "instructions": "Find a real job ad you'd apply for (online, in a shop window, or from your teacher). Decode it. The first row shows an example.",
+        "columns": [
+          "Part of the ad",
+          "What it says"
+        ],
+        "rows": [
+          [
+            "Example: job and employer",
+            "Casual kitchen hand, Bean There Café"
+          ],
+          [
+            "Job and employer",
+            ""
+          ],
+          [
+            "Essential criteria (must have)",
+            ""
+          ],
+          [
+            "Desirable criteria (nice to have)",
+            ""
+          ],
+          [
+            "Their key words",
+            ""
+          ],
+          [
+            "Hours and pay",
+            ""
+          ],
+          [
+            "How to apply, and closing date",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LY09"
+        ],
+        "vcNote": "Decoding a real job advertisement."
+      },
+      {
+        "type": "table",
+        "title": "Step 2: match me to the ad",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 34,
+          "core": 32
+        },
+        "instructions": "For each thing the ad needs, write real evidence from your life, and where you'll show it (resume, email or interview). The first row shows an example.",
+        "columns": [
+          "The ad needs…",
+          "My evidence",
+          "Where I'll show it"
+        ],
+        "rows": [
+          [
+            "Example: works well in a team",
+            "Netball for 3 years; I help coach the juniors",
+            "Resume and interview"
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LY09",
+          "VC2E7LY08"
+        ],
+        "vcNote": "Selecting and matching evidence to an audience's stated needs."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a cover email",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the email. Use the word bank. Why does it work?",
+          "core": "Each number marks part of Kai's email. Write what it is and why it works."
+        },
+        "columns": [
+          "What is it?",
+          "Why does it work?"
+        ],
+        "wordBank": {
+          "support": [
+            "subject",
+            "greeting",
+            "which job",
+            "why me",
+            "availability",
+            "close"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LA01",
+          "VC2E6LY09",
+          "VC2E8LA01"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Send it or fix it?",
+        "pagebreak": true,
+        "choices": [
+          "Send it",
+          "Fix it"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is a line from a cover email. Tick **send it** or **fix it**, and say why.",
+        "cards": [
+          {
+            "from": "Greeting",
+            "text": "“hey, saw ur ad”",
+            "answer": "Fix it",
+            "flags": "Too casual. Use “Dear…”."
+          },
+          {
+            "from": "Opening",
+            "text": "“I'm applying for the casual sales assistant role advertised on your website.”",
+            "answer": "Send it",
+            "flags": "Clear and formal."
+          },
+          {
+            "from": "Why me",
+            "text": "“I reckon I'd be pretty good at it.”",
+            "answer": "Fix it",
+            "flags": "Casual, and no evidence."
+          },
+          {
+            "from": "Availability",
+            "text": "“I'm available every Saturday, and after 4 pm on weekdays.”",
+            "answer": "Send it",
+            "flags": "Specific and useful."
+          },
+          {
+            "from": "Sign-off",
+            "text": "“Cheers mate, Jordan”",
+            "answer": "Fix it",
+            "flags": "Use “Kind regards,”.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Close",
+            "text": "“My resume is attached. I'd welcome the chance to talk with you.”",
+            "answer": "Send it",
+            "flags": "Polite next step.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LA01",
+          "VC2E8LA01"
+        ],
+        "vcNote": "Judging formality and evidence for a professional audience."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: who gets the entry-level jobs?",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Write **two** things the JSA data found.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          },
+          {
+            "q": "Why might an employer hire someone with experience for an entry-level job?",
+            "lines": 2,
+            "vc": [
+              "VC2E7LY08"
+            ]
+          },
+          {
+            "q": "What evidence from your life could you show instead of work experience?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Step 3: my cover email",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write your cover email. Use your match table. About 80 words.",
+          "core": "Write the cover email for your real ad. Use your match table. Keep it to about 100 to 150 words.",
+          "extend": "Write a formal cover email of 100 to 150 words. Match each claim to an essential criterion with specific evidence, use the employer's key terms accurately, and close with a clear next step."
+        },
+        "plan": [
+          {
+            "label": "Subject line",
+            "lines": 1
+          },
+          {
+            "label": "My two best matches",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "Dear …,",
+            "I'm applying for…",
+            "I'm good at… because I…",
+            "I'm available…",
+            "Kind regards,"
+          ],
+          "core": [
+            "Dear …,",
+            "I'm applying for the … role advertised …",
+            "You need… . I…",
+            "I'm available…",
+            "My resume is attached. I'd welcome the chance to talk with you.",
+            "Kind regards,"
+          ]
+        },
+        "lines": {
+          "support": 10,
+          "core": 11
+        },
+        "check": [
+          "a clear subject line",
+          "a formal greeting and sign-off",
+          "which job, and where you saw it",
+          "two matches with evidence",
+          "your availability",
+          "no slang, and spelling checked"
+        ],
+        "vc": [
+          "VC2E6LY09",
+          "VC2E6LA01",
+          "VC2E4LY10",
+          "VC2E7LY08"
+        ],
+        "vcNote": "Writing a formal, tailored cover email for a specific reader."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: the full run",
+        "pagebreak": true,
+        "where": "in class with an interview panel, or with a real employer",
+        "instructions": "Send your application (to your teacher, or to the real employer if your teacher agrees). Then do a mock interview, and follow up.",
+        "need": [
+          "your tailored resume (as a PDF)",
+          "your cover email",
+          "your three STAR stories",
+          "an interviewer or panel"
+        ],
+        "steps": {
+          "support": [
+            "Check your resume and email.",
+            "Send your application.",
+            "Get ready: your STAR stories and one question.",
+            "Do a practice interview.",
+            "Get feedback.",
+            "Send a thank-you email."
+          ],
+          "core": [
+            "Check your resume and email one last time. Name the file *Firstname-Lastname-Resume.pdf*.",
+            "Send your application.",
+            "Prepare: re-read the ad, your match table and your STAR stories. Write one question to ask.",
+            "Do a 5 to 10 minute mock interview with your teacher, a panel or a visiting employer.",
+            "Get feedback.",
+            "Send a short thank-you email the same day."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Feedback I got:",
+            "lines": 2
+          },
+          {
+            "label": "My thank-you email (first line):",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Application sent",
+          "Interview done",
+          "Thank-you sent"
+        ],
+        "vc": [
+          "VC2E6LY02",
+          "VC2E4LY02",
+          "VC2E7LY02",
+          "VC2E6LA01"
+        ],
+        "vcNote": "Hands-on: completing an application and delivering a structured, formal spoken interview."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Write a one-minute formal **“tell me about yourself”** for your interview, using one visual (your resume or a photo of your work). Practise it aloud.",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY02"
+            ]
+          },
+          {
+            "q": "Compare the language in your cover email with how you spoke in the interview. How did each one shape your **relationship** with the employer?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LA01"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can decode a real job ad.",
+          "I can tailor my resume.",
+          "I can write a formal cover email.",
+          "I can interview and follow up."
+        ],
+        "questions": [
+          "The job I applied for:",
+          "What I'd do differently next time:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "A Crossroads capstone combining Work Ready and Your Voice. Students complete a full application for a real (or realistic) local job: decoding the ad, matching their evidence to its criteria, tailoring their resume, writing a formal cover email, doing a structured mock interview and following up. The literacy focus is adapting a sequence of linked texts for one reader: evidence selection, formal register, and spoken delivery. The case study is Jobs and Skills Australia's December 2025 data on entry-level jobs.",
+    "prep": [
+      "Collect real, current local job ads suitable for 15–17 year olds (retail, hospitality, supermarkets, sport, care).",
+      "Line up interviewers: other staff, a panel, or local employers. Even one visitor makes it real.",
+      "Make sure every student has a draft resume (from Build Your Resume) and three STAR stories (from Nail the Interview)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The plan",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** two cover emails, one generic and one tailored. Which gets the call?",
+          "**Explicit teaching (10 min):** the five steps.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Choose a real ad (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Decode and match",
+        "minutes": 50,
+        "steps": [
+          "**Step 1: decode my ad (15 min).**",
+          "**Step 2: match me to the ad (20 min).** Conference: is every piece of evidence real and specific?",
+          "**Case study (15 min):** who gets the entry-level jobs?"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Tailor and write",
+        "minutes": 50,
+        "steps": [
+          "**Tailor the resume (15 min).** Move the most relevant evidence to the top.",
+          "**Anatomy of a cover email; Send it or fix it? (15 min).**",
+          "**Step 3: my cover email (20 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 4 — The interview",
+        "minutes": 50,
+        "steps": [
+          "**Prepare (10 min):** STAR stories mapped to the ad; one question.",
+          "**Do it: mock interviews (40 min).** Rotate through a panel."
+        ]
+      },
+      {
+        "title": "Lesson 5 — Follow up",
+        "minutes": 50,
+        "steps": [
+          "**Thank-you emails (10 min).**",
+          "**Finish the mock interviews (25 min).**",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Five steps: decode, tailor, email, interview, follow up.",
+      "Tailor: match each essential criterion with real evidence; use the employer's words only where true.",
+      "Cover email: subject line, formal greeting, which job, two matched reasons, availability, polite close.",
+      "Formal register positions you as a professional.",
+      "Follow up once, politely; keep applying.",
+      "JSA (December 2025): about 1 in 3 employers hired experienced candidates for entry-level roles."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer rows and sort cards.",
+        "An 80-word email with starters; a familiar interviewer."
+      ],
+      "extend": [
+        "Criterion-matched email with the employer's terms.",
+        "Formal one-minute pitch with a visual; analyse language and relationship (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LY02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Delivers a structured spoken interview using features of voice (Do it)."
+      },
+      {
+        "vc": "VC2E4LY10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Creates an informative, persuasive cover email with linked ideas (Step 3)."
+      },
+      {
+        "vc": "VC2E6LY02",
+        "evidence": "Delivers a structured spoken interview for a specific purpose and audience (Do it)."
+      },
+      {
+        "vc": "VC2E6LY09",
+        "evidence": "Creates organised texts (match table, resume, cover email) for purpose and audience (Steps 1–3)."
+      },
+      {
+        "vc": "VC2E6LA01",
+        "evidence": "Adjusts language for formality and social distance (sort, email, follow-up)."
+      },
+      {
+        "vc": "VC2E7LY02",
+        "evidence": "Delivers a formal spoken text with a visual (Level Up)."
+      },
+      {
+        "vc": "VC2E7LY08",
+        "evidence": "Selects evidence and language for a specific reader (match table, email)."
+      },
+      {
+        "vc": "VC2E8LA01",
+        "evidence": "Explains how language shapes the professional relationship (annotation, Level Up)."
+      }
+    ],
+    "answers": "**Check your reading:** decode, tailor, email, interview, follow up. Cover email: subject line, formal greeting, which job and where, two matched reasons with evidence, availability, polite close and sign-off. Each employer needs different things; generic applications don't show you meet their criteria.\n\n**Cover email:** 1 subject line; 2 formal greeting; 3 which job and where; 4 evidence matched to the ad; 5 availability; 6 polite close and sign-off.\n\n**Sort:** “hey, saw ur ad” — fix; clear opening — send; “I reckon” — fix; specific availability — send; “Cheers mate” — fix; resume attached — send.\n\n**Case study:** entry-level jobs most common in sales, labouring, community and personal service; capital city employers least likely to offer entry-level roles; about 1 in 3 hired experienced candidates. Employers may prefer lower training costs or less risk. Evidence: sport, school roles, volunteering, caring, projects.",
+    "resources": [
+      {
+        "label": "Jobs and Skills Australia — REOS spotlight: entry level jobs across regions (December 2025)",
+        "url": "https://www.jobsandskills.gov.au/sites/default/files/2025-12/reos_spotlight_-_entry_level_jobs_across_city_coastal_inland_and_remote_regions.pdf"
+      },
+      {
+        "label": "Jobs and Skills Australia — Entry-level opportunities: what the data reveals",
+        "url": "https://www.jobsandskills.gov.au/news/reos-spotlight-entry-level-opportunities-what-data-reveals"
+      },
+      {
+        "label": "Fair Work Ombudsman — Unpaid trials",
+        "url": "https://www.fairwork.gov.au/pay/unpaid-work/unpaid-trials"
+      }
+    ],
+    "realityCheck": [
+      "**Real applications are real.** Only send applications to real employers if the student genuinely wants the job and you've agreed. Otherwise, “send” it to you.",
+      "**Some students can't work yet** (age, family or study). They still complete the full run for a realistic future job.",
+      "**Rejection happens.** Frame every application as practice; praise the process, not just offers.",
+      "**Unpaid trials.** Remind students that a trial must be short, supervised and only to show skills (see Crack the Job Ad).",
+      "**Works in a real class:** yes. It's the payoff for Work Ready and Your Voice, and some students will get real jobs from it."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer rows and sort cards, an 80-word email with starters, and a familiar interviewer.",
+      "core": "Standard version: decoding a real ad, a match table, cover email anatomy, a send-or-fix sort, the JSA entry-level case, a tailored cover email, and a full mock interview and follow-up.",
+      "extend": "Adds subject line and transferable skill to the vocabulary, a quiz question on formality and relationships, a criterion-matched email, and Level Ups on a formal pitch with a visual and how language shapes the professional relationship."
+    }
+  }
+}

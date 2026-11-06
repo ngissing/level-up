@@ -1,0 +1,1088 @@
+{
+  "id": "change-maker",
+  "version": 1,
+  "duration": "5 lessons (about 4 hours)",
+  "brief": {
+    "hook": {
+      "support": "Something isn't fair. The bus stop with no shelter. The skate park that closed. You could complain. Or you could **change** it.",
+      "core": "Something at your school, in your town or in your world isn't fair, isn't safe, or just doesn't make sense. The bus stop with no shelter. The skate park that got shut. The rule nobody can explain. You could complain about it. Or you could **change** it."
+    },
+    "why": {
+      "support": "To change something, you have to **persuade** people. You need a clear **ask**, some evidence, and the right words for each audience.",
+      "core": "Change rarely happens because one person is right. It happens because someone **persuades** the people with the power to act, and gets others to back them. That takes a clear **ask**, evidence, and the right text for each audience: a **petition** for decision-makers, a post for supporters, and a **speech** that makes people care.",
+      "extend": "Advocacy is persuasion across audiences and modes. A campaign needs a precise, achievable ask directed at the right decision-maker, supported by evidence, and carried by texts adapted to each audience: a formal petition, a multimodal post and a spoken speech that position listeners to care and act."
+    },
+    "canDo": {
+      "support": [
+        "I can turn a problem into a clear ask.",
+        "I can write a petition.",
+        "I can make a post for supporters.",
+        "I can give a short speech."
+      ],
+      "core": [
+        "I can turn a problem into a clear **ask** for the right **decision-maker**.",
+        "I can write a formal **petition** with reasons and evidence.",
+        "I can make a short **post** that gets supporters to act.",
+        "I can deliver a short **speech** that persuades, and judge what worked."
+      ]
+    },
+    "showIt": "Run a mini campaign for a real local cause: a petition, a post and a one-minute speech, then judge its impact.",
+    "vocab": [
+      {
+        "word": "campaign",
+        "meaning": "a planned set of actions to bring about a change",
+        "example": "Our campaign was for a bus shelter."
+      },
+      {
+        "word": "cause",
+        "meaning": "an issue you want to change",
+        "example": "My cause is safer bike lanes."
+      },
+      {
+        "word": "petition",
+        "meaning": "a formal request, signed by many people, asking someone to act",
+        "example": "Our petition got 300 signatures."
+      },
+      {
+        "word": "decision-maker",
+        "meaning": "the person or group with the power to make the change",
+        "example": "The council is the decision-maker."
+      },
+      {
+        "word": "ask",
+        "meaning": "the exact change you want",
+        "example": "Our ask: a shelter at the Main St bus stop."
+      },
+      {
+        "word": "evidence",
+        "meaning": "facts and examples that back up your argument",
+        "example": "We counted 90 students using the stop."
+      },
+      {
+        "word": "advocate",
+        "meaning": "speak up for a cause or for other people",
+        "example": "She advocates for young carers.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "position",
+        "meaning": "get an audience to see an issue a certain way",
+        "example": "Our photos positioned people to feel cold and wet.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Change Maker in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Change Maker",
+        "sub": "Start a campaign for something you care about.",
+        "icon": "lucide:flag",
+        "say": "Change maker. Start a campaign for something you care about."
+      },
+      {
+        "kind": "big",
+        "big": "260 m",
+        "title": "the length of the 1891 women's suffrage petition",
+        "sub": "Parliament of Victoria",
+        "say": "In 1891, Victorian women gathered nearly thirty thousand signatures on a petition for the vote. It was two hundred and sixty metres long.",
+        "vc": [
+          "VC2E8LY05"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Campaign",
+        "pillIcon": "lucide:flag",
+        "title": "The ask",
+        "text": "What · Who decides · **By when**",
+        "icon": "lucide:target",
+        "say": "Start with a clear ask. Not things should be better. The exact change, from the exact person who can make it.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Campaign",
+        "pillIcon": "lucide:flag",
+        "title": "Evidence",
+        "text": "Count · Photo · **Quotes**",
+        "icon": "lucide:clipboard-list",
+        "say": "Back it up. Count it, photograph it, ask people. Evidence turns a complaint into a case.",
+        "vc": [
+          "VC2E6LY07",
+          "VC2E8LY05"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Campaign",
+        "pillIcon": "lucide:flag",
+        "title": "Petition",
+        "text": "Formal · **Clear ask**",
+        "icon": "lucide:file-signature",
+        "say": "Write a petition for the decision-maker. Formal. Short. The problem, the evidence, and the ask.",
+        "vc": [
+          "VC2E6LY09",
+          "VC2E8LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Campaign",
+        "pillIcon": "lucide:flag",
+        "title": "Post",
+        "text": "Image · Message · **Sign here**",
+        "icon": "lucide:image",
+        "say": "Make a post for supporters. One image, one message, and what to do next.",
+        "vc": [
+          "VC2E6LY07"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Campaign",
+        "pillIcon": "lucide:flag",
+        "title": "Speech",
+        "text": "Story · Fact · Ask · **Finish**",
+        "icon": "lucide:mic",
+        "say": "Give a speech that makes people care. A story, a fact, the ask, and a strong finish.",
+        "vc": [
+          "VC2E6LY02",
+          "VC2E8LY02"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Ask. Evidence. Petition. Post. Speech.",
+        "icon": "lucide:hand-fist",
+        "say": "Your mission. Run a mini campaign: a petition, a post and a speech, for a cause you care about."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to run a campaign",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Every big change started with someone speaking up.\n\n**1. Choose a cause.** Something real and local, that can be changed.\n\n**2. Make a clear ask.** Say what you want, and who can do it. *We ask the council to build a bus shelter.*\n\n**3. Get evidence.** Count it. Take photos. Ask people.\n\n**4. Write a petition.** Who it's to. The problem. Your evidence. Your ask. Space for names.\n\nAnyone in Victoria, even under 18, can start a petition to Parliament.\n\n**5. Make a post.** One picture, one message, what to do next. Under 16? Use school posters and noticeboards.\n\n**6. Give a speech.** A story, the problem, a fact, your ask. Finish strong.\n\n**7. Check what worked.** Did people sign? Did anyone reply?",
+          "core": "Every change that matters, from a bus shelter to the right to vote, started with someone deciding to speak up. Here's how a campaign works.\n\n**1. Choose your cause.** Pick something real and local that you care about, and that can actually be changed: a bus stop with no shelter, a broken drinking tap, a skate park that closed.\n\n**2. Make a clear ask.** *Things should be better* isn't an ask. A good **ask** says what you want, who can do it, and when: *We ask the council to build a shelter at the Main St bus stop before winter.* Then find the **decision-maker**: your principal, the student council, your local council, or a member of Parliament.\n\n**3. Gather evidence.** Count it (*90 students use this stop every morning*). Photograph it. Ask people affected, and quote them (with permission). Find a fact from a reliable source.\n\n**4. Write a petition.** A **petition** is a formal request signed by supporters. Keep it short:\n\n- who it's to\n- the problem, in one or two sentences\n- your evidence\n- your ask\n- space for names (and nothing more private than people agree to).\n\nAnyone in Victoria can start a petition to **State Parliament**, including people under 18. It must be made on the Parliament of Victoria website (not sites like Change.org), and a member of Parliament has to agree to sponsor it.\n\n**5. Make a post for supporters.** One strong image, one clear message, and what to do: *Sign the petition at the office by Friday.* If you're under 16, use school channels, posters and noticeboards, not accounts on platforms like TikTok or Instagram.\n\n**6. Give a speech.** A good one-minute speech has a hook (a story or a surprising fact), the problem, your evidence, the ask, and a strong last line. Speak slowly. Look up. Pause before the ask.\n\n**7. Judge the impact.** Did people sign? Did the decision-maker reply? What would you do differently? Even if you don't win straight away, you've been heard, and you've learnt how change works.",
+          "extend": "Change happens when someone persuades the people with the power to act. A campaign is the set of texts that does it.\n\n**1. Select a cause** that's specific, local and achievable.\n\n**2. Frame the ask.** A strong **ask** names the change, the **decision-maker** responsible and a timeframe: *We ask Greenvale City Council to install a shelter at the Main St bus stop before June.* Choosing the right decision-maker (principal, student council, local council or a member of Parliament) decides where every text goes.\n\n**3. Build the evidence base:** quantitative data you collect, images, testimony (with consent) and authoritative sources.\n\n**4. Write the petition** as a short formal text: who it's to, the problem, the evidence, the ask, and a signature section that collects only what people agree to share. Any Victorian resident, including people under 18, can start an e-petition to State Parliament. It must be created on the Parliament of Victoria's website (third-party platforms aren't accepted), and a member must agree to sponsor it.\n\n**5. Design a supporter post** in which image, message and call to action work together. Under-16s, now restricted from accounts on platforms such as TikTok and Instagram, can use school channels, posters and noticeboards.\n\n**6. Deliver a speech** that moves from a hook (a story or a statistic) through the problem and evidence to the ask and a memorable close. Pace, pauses and eye contact do much of the persuading.\n\n**7. Evaluate impact** against measurable signs (signatures, replies, decisions) and reflect on what you'd change. Many campaigns take years: the 1891 Victorian women's suffrage petition preceded the vote by 17 years."
+        },
+        "vc": [
+          "VC2E6LY09",
+          "VC2E6LY07",
+          "VC2E6LY02",
+          "VC2E8LY08",
+          "VC2E8LY05"
+        ],
+        "vcNote": "Planning a campaign across audiences and modes: the ask, evidence, a formal petition, a multimodal post and a speech."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The Monster Petition",
+        "icon": "lucide:scroll",
+        "body": {
+          "support": "In **1891**, women in Victoria couldn't vote.\n\nWomen went door to door. In six weeks, they got nearly **30,000 signatures**. The petition was about **260 metres long**! People called it the **Monster Petition**.\n\nIt went to Parliament. But it didn't work straight away.\n\nWomen kept going. In **1908**, most Victorian women finally won the vote.\n\nCampaigns can take a long time. Don't give up.",
+          "core": "In **1891**, women in Victoria couldn't vote. A group of women's organisations decided to prove that women wanted the vote, and that they weren't going to stop asking.\n\nIn about **six weeks**, volunteers went door to door across Victoria. They collected nearly **30,000 signatures**. When the pages were glued together onto fabric, the petition was about **260 metres long**. People called it the **Monster Petition**.\n\nOn **29 September 1891**, it was presented to the Parliament of Victoria.\n\nDid it work straight away? **No.** The bill to give women the vote didn't pass. Women kept campaigning, and bill after bill failed.\n\nFinally, in **1908**, seventeen years after the petition, most Victorian women won the right to vote.\n\nThe petition still exists. It's kept by the Parliament of Victoria. It shows two things about campaigns: **evidence of support** is powerful, and real change can take a long time. The people who started it didn't give up.",
+          "extend": "In **1891**, Victorian women couldn't vote. Women's organisations set out to show, not just say, that women wanted the vote.\n\nOver about **six weeks**, volunteers went door to door and collected nearly **30,000 signatures**. Glued onto fabric, the petition stretched about **260 metres**. People called it the **Monster Petition**. It was presented to the Parliament of Victoria on **29 September 1891**.\n\nIt didn't work straight away. The bill that went with it failed, and so did many after it. Most Victorian women won the vote only in **1908**, seventeen years later.\n\nThe petition is still held by the Parliament of Victoria. It shows two things about campaigns. First, huge evidence of support turns an argument into proof of what the public wants. Second, change often takes years of campaigning and many texts, not one persuasive moment."
+        },
+        "source": {
+          "name": "Parliament of Victoria — “History of the Women's Suffrage Petition”",
+          "url": "https://parliament.vic.gov.au/about/history-and-heritage/people-who-shaped-parliament/women/womens-suffrage-petition"
+        },
+        "think": {
+          "support": [
+            "Why were so many signatures powerful?",
+            "Why didn't they give up?"
+          ],
+          "core": [
+            "Why might collecting 30,000 signatures be more persuasive than one letter?",
+            "Why do you think the women kept going after the bill failed?",
+            "What does this tell you about how long change can take?"
+          ]
+        },
+        "vc": [
+          "VC2E8LY05",
+          "VC2E6LY07"
+        ],
+        "vcNote": "A real historical campaign: evidence of support and sustained advocacy."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a petition",
+      "docTitle": "PETITION: A SHELTER FOR THE MAIN ST BUS STOP (EXAMPLE)",
+      "vc": [
+        "VC2E6LY09",
+        "VC2E8LY08",
+        "VC2E6LY07"
+      ],
+      "vcNote": "The structure and formal language of a petition, and how evidence supports its ask.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "To",
+          "value": "Greenvale City Council",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "The problem",
+          "value": "The Main St bus stop outside Greenvale College has no shelter. Students wait in rain, wind and heat."
+        },
+        {
+          "n": 3,
+          "label": "The evidence",
+          "value": "We counted 92 students using the stop on a school morning. Photos attached."
+        },
+        {
+          "n": 4,
+          "label": "The ask",
+          "value": "We ask the Council to install a shelter at this stop before June.",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Started by",
+          "value": "The Year 10 Student Voice group, Greenvale College"
+        },
+        {
+          "n": 6,
+          "label": "Signatures",
+          "value": "Name · Suburb · Signature (no phone numbers or emails)"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Decision-maker",
+          "note": "Who can actually make the change."
+        },
+        {
+          "n": 2,
+          "label": "Problem",
+          "note": "Short and specific."
+        },
+        {
+          "n": 3,
+          "label": "Evidence",
+          "note": "Counted, and shown."
+        },
+        {
+          "n": 4,
+          "label": "The ask",
+          "note": "What, who and when."
+        },
+        {
+          "n": 5,
+          "label": "Who's asking",
+          "note": "Builds trust."
+        },
+        {
+          "n": 6,
+          "label": "Privacy",
+          "note": "Only collect what you need."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Run a campaign",
+      "steps": [
+        {
+          "title": "Ask",
+          "text": "What, who decides, when.",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "Evidence",
+          "text": "Count, photo, quotes.",
+          "icon": "lucide:clipboard-list"
+        },
+        {
+          "title": "Petition",
+          "text": "Formal, for the decision-maker.",
+          "icon": "lucide:file-signature"
+        },
+        {
+          "title": "Post",
+          "text": "One image, one message.",
+          "icon": "lucide:image"
+        },
+        {
+          "title": "Speech",
+          "text": "Story, fact, ask, finish.",
+          "icon": "lucide:mic"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is the clearest **ask**?",
+        "options": [
+          "“We ask the council to build a shelter at the Main St bus stop before winter.”",
+          "“Things should be better.”",
+          "“Someone should do something.”",
+          "“Buses are bad.”"
+        ],
+        "answer": 0,
+        "explain": "What, who and when.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "q": "Who's the **decision-maker** for a shelter at a council bus stop?",
+        "options": [
+          "The local council",
+          "Your best friend",
+          "A TikTok influencer",
+          "Nobody"
+        ],
+        "answer": 0,
+        "explain": "Send your petition to whoever can make the change.",
+        "vc": [
+          "VC2E6LY09"
+        ]
+      },
+      {
+        "q": "Which is the strongest **evidence**?",
+        "options": [
+          "“We counted 92 students at the stop one morning.”",
+          "“Heaps of people use it, probably.”",
+          "“Everyone knows it's bad.”",
+          "“I think so.”"
+        ],
+        "answer": 0,
+        "explain": "Counted, specific and checkable.",
+        "vc": [
+          "VC2E6LY07",
+          "VC2E8LY05"
+        ]
+      },
+      {
+        "q": "Can someone under 18 start a petition to the Parliament of Victoria?",
+        "options": [
+          "Yes, with a member of Parliament as sponsor",
+          "No, never",
+          "Only at 21",
+          "Only on Change.org"
+        ],
+        "answer": 0,
+        "explain": "It must be on the Parliament's website.",
+        "vc": [
+          "VC2E8LY08"
+        ]
+      },
+      {
+        "q": "What's a strong way to **end** a campaign speech?",
+        "options": [
+          "Repeat the ask, clearly, after a pause",
+          "“Um, yeah, that's it.”",
+          "Apologise",
+          "Walk off mid-sentence"
+        ],
+        "answer": 0,
+        "explain": "Finish strong: leave them with the ask.",
+        "vc": [
+          "VC2E6LY02"
+        ]
+      },
+      {
+        "q": "How long after the 1891 petition did most Victorian women win the vote?",
+        "options": [
+          "17 years",
+          "1 week",
+          "100 years",
+          "They never did"
+        ],
+        "answer": 0,
+        "explain": "Change can take sustained campaigning.",
+        "vc": [
+          "VC2E8LY05"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "You give your speech to Year 7s, then to the council. What should change?",
+        "options": [
+          "Your formality, vocabulary and examples, to suit each audience",
+          "Nothing",
+          "Only your shoes",
+          "You should speak faster"
+        ],
+        "answer": 0,
+        "explain": "Adapt spoken texts for formal and informal contexts.",
+        "vc": [
+          "VC2E8LY02"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pick a cause. Write a petition. Make a post. Give a short speech.",
+      "core": "Run a mini campaign for a real local cause: a petition, a post and a one-minute speech, then judge its impact.",
+      "extend": "Design and run a campaign for a real, achievable local change: a formal petition to the right decision-maker, a multimodal supporter post and a persuasive speech adapted for a formal audience, then evaluate its impact with evidence."
+    },
+    "checklist": [
+      "My ask says what, who and when",
+      "I gathered real evidence",
+      "My petition is formal and short",
+      "My post has one image, one message and a call to action",
+      "My speech has a hook, evidence, the ask and a strong finish",
+      "I judged what worked"
+    ],
+    "levelUp": "Deliver your speech to a formal audience (a principal, student council or local councillor), adapting your language. Then evaluate how your campaign positioned each audience.",
+    "vc": [
+      "VC2E6LY09",
+      "VC2E6LY07",
+      "VC2E6LY02"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to run a campaign",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What makes a good **ask**? Name **three** things it should include.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY09"
+            ]
+          },
+          {
+            "q": "Name **three** kinds of evidence you could gather.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY07"
+            ]
+          },
+          {
+            "q": "What are the rules for starting a petition to the Parliament of Victoria?",
+            "lines": 2,
+            "vc": [
+              "VC2E8LY08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Run a campaign",
+        "diagram": 1
+      },
+      {
+        "type": "sort",
+        "title": "Strong ask or weak ask?",
+        "pagebreak": true,
+        "choices": [
+          "Strong",
+          "Weak"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is an ask from a campaign. Tick **strong** or **weak**, and say why.",
+        "cards": [
+          {
+            "from": "Campaign",
+            "text": "“The school should be better.”",
+            "answer": "Weak",
+            "flags": "Vague. Better how? Who decides?"
+          },
+          {
+            "from": "Campaign",
+            "text": "“We ask the principal to fix the two broken drinking taps near the gym by the end of term.”",
+            "answer": "Strong",
+            "flags": "What, who and when."
+          },
+          {
+            "from": "Campaign",
+            "text": "“Someone should stop climate change.”",
+            "answer": "Weak",
+            "flags": "Huge, and no decision-maker."
+          },
+          {
+            "from": "Campaign",
+            "text": "“We ask the council to reopen the skate park on weekends.”",
+            "answer": "Strong",
+            "flags": "Specific and achievable."
+          },
+          {
+            "from": "Campaign",
+            "text": "“Ban homework.”",
+            "answer": "Weak",
+            "flags": "No reasons, no decision-maker.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Campaign",
+            "text": "“We ask the student council to trial a quiet space at lunch for one term.”",
+            "answer": "Strong",
+            "flags": "A trial is easier to say yes to.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LY09"
+        ],
+        "vcNote": "Evaluating the precision and achievability of a campaign ask."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a petition",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the petition. Use the word bank. Why is it there?",
+          "core": "Each number marks part of the petition. Write what it is and why it's there."
+        },
+        "columns": [
+          "What is it?",
+          "Why is it there?"
+        ],
+        "wordBank": {
+          "support": [
+            "decision-maker",
+            "problem",
+            "evidence",
+            "the ask",
+            "who's asking",
+            "privacy"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LY09",
+          "VC2E8LY08",
+          "VC2E6LY07"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the Monster Petition",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why might 30,000 signatures be more persuasive than one letter?",
+            "lines": 2,
+            "vc": [
+              "VC2E8LY05"
+            ]
+          },
+          {
+            "q": "The petition didn't work straight away. Why do you think the women kept going?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY07"
+            ]
+          },
+          {
+            "q": "What does the case tell you about how long change can take?",
+            "lines": 2,
+            "vc": [
+              "VC2E8LY05"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Plan my campaign",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "instructions": "Choose a real, local cause you care about. Plan your campaign. The first row shows an example.",
+        "columns": [
+          "Plan",
+          "My campaign"
+        ],
+        "rows": [
+          [
+            "Example: my cause",
+            "No shelter at the Main St bus stop"
+          ],
+          [
+            "My cause",
+            ""
+          ],
+          [
+            "Who it affects",
+            ""
+          ],
+          [
+            "The decision-maker",
+            ""
+          ],
+          [
+            "My ask (what, who, when)",
+            ""
+          ],
+          [
+            "Evidence I'll gather",
+            ""
+          ],
+          [
+            "My supporters (who'll sign?)",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LY09",
+          "VC2E8LY08"
+        ],
+        "vcNote": "Planning a campaign: cause, audience, decision-maker, ask and evidence."
+      },
+      {
+        "type": "write",
+        "title": "Write my petition",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write your petition. Who's it to? What's the problem? What's your evidence? What do you ask?",
+          "core": "Write your petition. Keep it short and **formal**: who it's to, the problem, your evidence and your ask.",
+          "extend": "Write a concise, formal petition to the decision-maker: a precise problem statement, evidence from at least two sources, a specific and achievable ask, and a privacy-respecting signature section."
+        },
+        "plan": [
+          {
+            "label": "To (decision-maker)",
+            "lines": 1
+          },
+          {
+            "label": "My ask",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "To …,",
+            "The problem is…",
+            "We found…",
+            "We ask … to…"
+          ],
+          "core": [
+            "To …,",
+            "The … has / doesn't have…",
+            "We found that…",
+            "We ask … to … by …",
+            "Started by…"
+          ]
+        },
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "the right decision-maker",
+          "a short problem statement",
+          "real evidence",
+          "a clear ask (what, who, when)",
+          "formal language"
+        ],
+        "vc": [
+          "VC2E6LY09",
+          "VC2E8LY08",
+          "VC2E4LY10"
+        ],
+        "vcNote": "Writing a formal petition with substantiated claims."
+      },
+      {
+        "type": "storyboard",
+        "title": "Design my post",
+        "pagebreak": true,
+        "frames": 1,
+        "columns": 1,
+        "rows": [
+          "Caption",
+          "Call to action"
+        ],
+        "boxHeight": {
+          "support": 110,
+          "core": 110
+        },
+        "instructions": "Sketch a post or poster for supporters: one strong image and one clear message. Under 16? Design it for a school noticeboard, newsletter or assembly screen.",
+        "hints": [
+          "Image + message"
+        ],
+        "vc": [
+          "VC2E6LY07"
+        ],
+        "vcNote": "Designing a multimodal text that positions supporters to act."
+      },
+      {
+        "type": "write",
+        "title": "Write my speech",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write a short speech. Start with a story or fact. Say the problem and your ask. Mark pauses with /.",
+          "core": "Write a one-minute speech for your campaign. Start with a hook (a story or a surprising fact), then the problem, your evidence and your ask. Finish strong. Mark your **pauses** (/).",
+          "extend": "Write a one-minute speech that positions your audience to care and act: a narrative or statistical hook, the problem, evidence, the ask and a memorable close. Mark pauses and emphasis, and note one change for a formal audience."
+        },
+        "plan": [
+          {
+            "label": "My hook",
+            "lines": 1
+          },
+          {
+            "label": "My last line",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "Every morning, …",
+            "We found…",
+            "We ask…",
+            "Please…"
+          ],
+          "core": [
+            "Every morning, …",
+            "Last week, we counted…",
+            "That's why we're asking…",
+            "So please…"
+          ]
+        },
+        "lines": {
+          "support": 10,
+          "core": 11
+        },
+        "check": [
+          "a hook",
+          "the problem",
+          "evidence",
+          "the ask",
+          "a strong last line",
+          "pauses marked"
+        ],
+        "vc": [
+          "VC2E6LY02",
+          "VC2E8LY02",
+          "VC2E8LY08"
+        ],
+        "vcNote": "Scripting a persuasive spoken text."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: launch the campaign",
+        "pagebreak": true,
+        "where": "at school: an assembly, class, student council or noticeboard",
+        "instructions": "Launch your campaign at school, with your teacher's OK.",
+        "need": [
+          "your petition",
+          "your post or poster",
+          "your speech",
+          "your teacher's OK"
+        ],
+        "steps": {
+          "support": [
+            "Check your petition.",
+            "Put up your poster.",
+            "Give your speech.",
+            "Collect signatures for a week.",
+            "Give the petition to the decision-maker."
+          ],
+          "core": [
+            "Check your petition only asks for names, suburbs and signatures.",
+            "Put up your post or poster where supporters will see it.",
+            "Give your speech: in class, at assembly or to the student council.",
+            "Collect signatures for one week.",
+            "Send or deliver the petition to the decision-maker, politely, with your teacher.",
+            "Record what happened: signatures, replies, decisions."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Signatures collected:",
+            "lines": 1
+          },
+          {
+            "label": "What the decision-maker said (or did):",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Petition",
+          "Post or poster",
+          "Speech given"
+        ],
+        "vc": [
+          "VC2E6LY02",
+          "VC2E8LY02",
+          "VC2E8LY08"
+        ],
+        "vcNote": "Hands-on: running a campaign across modes and audiences."
+      },
+      {
+        "type": "questions",
+        "title": "Judge the impact",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What worked best in your campaign? Use evidence (signatures, replies, reactions).",
+            "lines": 3,
+            "vc": [
+              "VC2E8LY05"
+            ]
+          },
+          {
+            "q": "What would you change next time, and why?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "items": [
+          {
+            "q": "Give your speech to a **formal** audience: the principal, student council or a local councillor. What did you change in your language and delivery, and why?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY02"
+            ]
+          },
+          {
+            "q": "How did your petition, post and speech each **position** a different audience? Give one example from each.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY05",
+              "VC2E6LY07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can make a clear ask.",
+          "I can write a petition.",
+          "I can make a post for supporters.",
+          "I can give a persuasive speech."
+        ],
+        "questions": [
+          "My cause:",
+          "What I learnt about how change happens:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The final Crossroads capstone, combining Digital Life and Your Voice. Students run a mini campaign for a real, achievable local cause: framing a precise ask for the right decision-maker, gathering evidence, writing a formal petition, designing a supporter post or poster, writing and delivering a one-minute persuasive speech, and evaluating impact. They learn that any Victorian resident, including people under 18, can start an e-petition to State Parliament through its website with a member's sponsorship. The case study is the 1891 Victorian Women's Suffrage (Monster) Petition.",
+    "prep": [
+      "Agree with your principal which channels students can use (assembly, newsletter, noticeboards, student council) and which decision-makers they can approach.",
+      "Help students choose achievable causes. School-level causes are most likely to get a real reply.",
+      "Have the Parliament of Victoria's petition page ready to show."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The cause",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** what would you change? List local, fixable things.",
+          "**Explicit teaching (10 min):** the ask, the decision-maker, evidence.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Strong ask or weak ask? (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — The plan",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** the Monster Petition.",
+          "**Plan my campaign (20 min).** Conference: is the ask achievable, and is the decision-maker right?",
+          "**Start gathering evidence (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — The petition",
+        "minutes": 50,
+        "steps": [
+          "**Anatomy of a petition (15 min).**",
+          "**Write my petition (25 min).**",
+          "**Design my post (10 min, start).**"
+        ]
+      },
+      {
+        "title": "Lesson 4 — The speech",
+        "minutes": 50,
+        "steps": [
+          "**Finish the post (15 min).**",
+          "**Write my speech (20 min).** Practise aloud in pairs.",
+          "**Rehearse (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 5 — Launch and judge",
+        "minutes": 50,
+        "steps": [
+          "**Do it: launch the campaign (30 min),** or plan the launch.",
+          "**Judge the impact; Level Up, reflect (20 min):** quick check; request sign-off. (Revisit after the week of signatures.)"
+        ]
+      }
+    ],
+    "keyPoints": [
+      "A clear ask: what, who decides, when.",
+      "Evidence turns a complaint into a case: counts, photos, consented quotes, reliable sources.",
+      "Petition: addressee, problem, evidence, ask, a minimal signature section.",
+      "Any Victorian resident, including under-18s, can start a State Parliament e-petition on the Parliament's website, with a member's sponsorship; third-party sites aren't accepted.",
+      "Supporter post: one image, one message, a call to action; under-16s use school channels.",
+      "Speech: hook, problem, evidence, ask, strong close.",
+      "Change can take time: the 1891 petition preceded the vote by 17 years."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards.",
+        "Group campaigns with shared roles; starters for the petition and speech."
+      ],
+      "extend": [
+        "Deliver the speech to a formal audience (Level Up).",
+        "Evaluate how each text positioned its audience (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LY10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Creates a persuasive petition with relevant, linked ideas (petition)."
+      },
+      {
+        "vc": "VC2E4LY02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Delivers a short structured speech using features of voice (Do it)."
+      },
+      {
+        "vc": "VC2E6LY09",
+        "evidence": "Creates organised campaign texts for purpose and audience (plan, petition)."
+      },
+      {
+        "vc": "VC2E6LY07",
+        "evidence": "Explains how campaign texts use structure and features to persuade (annotation, post, impact)."
+      },
+      {
+        "vc": "VC2E6LY02",
+        "evidence": "Delivers a structured persuasive speech with appropriate voice (speech, Do it)."
+      },
+      {
+        "vc": "VC2E8LY08",
+        "evidence": "Creates texts that raise an issue and advance an opinion, using deliberate choices (petition, speech)."
+      },
+      {
+        "vc": "VC2E8LY05",
+        "evidence": "Evaluates how evidence and sources position audiences (case study, impact, Level Up)."
+      },
+      {
+        "vc": "VC2E8LY02",
+        "evidence": "Adapts a spoken text for formal and informal audiences (Do it, Level Up)."
+      }
+    ],
+    "answers": "**Check your reading:** what you want, who can do it, when. Evidence: counts, photos, quotes (with consent), reliable facts. Petitions to the Parliament of Victoria: any resident, including under-18s; must be on the Parliament's website; a member must agree to sponsor it.\n\n**Sort:** “school should be better” — weak; drinking taps by end of term — strong; stop climate change — weak (no decision-maker); reopen skate park on weekends — strong; ban homework — weak; trial a quiet space — strong.\n\n**Petition:** 1 decision-maker; 2 problem; 3 evidence; 4 the ask; 5 who's asking; 6 privacy.\n\n**Case study:** 30,000 signatures demonstrate widespread support rather than one person's view; they believed in the cause and kept building support; change can take years of campaigning (17 years here).",
+    "resources": [
+      {
+        "label": "Parliament of Victoria — History of the Women's Suffrage Petition",
+        "url": "https://parliament.vic.gov.au/about/history-and-heritage/people-who-shaped-parliament/women/womens-suffrage-petition"
+      },
+      {
+        "label": "Parliament of Victoria — Start a petition",
+        "url": "https://www.parliament.vic.gov.au/get-involved/petitions/start/"
+      },
+      {
+        "label": "Parliament of Victoria — Petitions FAQ",
+        "url": "https://parliament.vic.gov.au/get-involved/petitions/faq"
+      },
+      {
+        "label": "eSafety — Social media age restrictions (young people)",
+        "url": "https://www.esafety.gov.au/young-people/social-media-age-restrictions"
+      }
+    ],
+    "realityCheck": [
+      "**Choose achievable causes.** Big global issues are worthy but hard to win. Guide students toward local asks with a real decision-maker, ideally at school level.",
+      "**Check with your principal first.** Campaigns about school issues need a respectful channel. Agree the rules before students launch.",
+      "**Privacy.** Petitions should collect names, suburbs and signatures only. No phone numbers or emails, and no photos of people without consent.",
+      "**Sensitive causes.** Some students will choose personal issues. Support them, and steer away from campaigns that target individuals.",
+      "**Works in a real class:** yes. It's the final capstone, and some campaigns genuinely change things. Celebrate the effort as well as the outcome."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards, group campaigns and starters for the petition and speech.",
+      "core": "Standard version: strong-or-weak ask sort, petition anatomy, the Monster Petition case, a campaign plan, a formal petition, a supporter post, a one-minute speech, a school launch and an impact review.",
+      "extend": "Adds advocate and position to the vocabulary, a quiz question on adapting a speech, a petition with evidence from two sources, and Level Ups delivering to a formal audience and evaluating positioning across texts."
+    }
+  }
+}
