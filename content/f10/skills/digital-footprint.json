@@ -1,0 +1,943 @@
+{
+  "id": "digital-footprint",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Search your name online. What comes up? A team photo? Your gamer name? One day, a boss might search it too.",
+      "core": "Type your name into a search engine. What comes up? A team photo from the footy club website. Your gaming username. A screenshot from a group chat that someone else shared. In a couple of years, a manager deciding whether to hire you might do the **exact same search**."
+    },
+    "why": {
+      "support": "Your **digital footprint** is everything online about you. It lasts. Lots of people can see it. Think about who's reading. Then choose what to share.",
+      "core": "Your **digital footprint** is everything online that's about you, posted by you or by other people. It lasts, it spreads, and it's read by people you never pictured: future bosses, coaches, teachers, strangers. Knowing your **audience** helps you choose what to share and how to say it, so your footprint shows the real you at your best.",
+      "extend": "A digital footprint is a public text you write over years, often without noticing, and partly written by others. Because digital texts persist, spread and get read out of context, managing your footprint means thinking deliberately about audience, purpose and the identity your language creates."
+    },
+    "canDo": {
+      "support": [
+        "I can explain what a digital footprint is.",
+        "I can write for different audiences.",
+        "I can check my footprint.",
+        "I can write a good profile."
+      ],
+      "core": [
+        "I can explain what a **digital footprint** is, and who can see it.",
+        "I can change how I write for different **audiences**.",
+        "I can check my **footprint** and decide what to fix.",
+        "I can write a short **profile** I'd be happy for a boss to read."
+      ]
+    },
+    "showIt": "Check your digital footprint, then write a short profile for a real purpose that you'd be happy for a future boss to read.",
+    "vocab": [
+      {
+        "word": "digital footprint",
+        "meaning": "everything online that's about you",
+        "example": "My digital footprint includes my gaming profile."
+      },
+      {
+        "word": "audience",
+        "meaning": "the people who read or see something",
+        "example": "My audience could include a future boss."
+      },
+      {
+        "word": "public",
+        "meaning": "anyone can see it",
+        "example": "My club profile is public."
+      },
+      {
+        "word": "private",
+        "meaning": "only people you choose can see it",
+        "example": "I made my gaming profile private."
+      },
+      {
+        "word": "profile",
+        "meaning": "a short description of you on a website or app",
+        "example": "I wrote a profile for the job site."
+      },
+      {
+        "word": "screenshot",
+        "meaning": "a picture of a screen that can be shared",
+        "example": "Someone took a screenshot of my message."
+      },
+      {
+        "word": "privacy settings",
+        "meaning": "controls for who can see what you post",
+        "example": "I checked my privacy settings.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "identity",
+        "meaning": "who you are, and how you show it",
+        "example": "My profile shows my identity as a hard worker.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Your Digital Footprint in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Your Digital Footprint",
+        "sub": "What does the internet say about you?",
+        "icon": "lucide:footprints",
+        "say": "Your digital footprint. What does the internet say about you?"
+      },
+      {
+        "kind": "big",
+        "title": "What is it?",
+        "text": "What **you** post · What **others** post",
+        "icon": "lucide:footprints",
+        "say": "Your digital footprint is everything online that's about you. What you post, and what other people post about you.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "kind": "big",
+        "big": "82%",
+        "title": "of employers were influenced by candidates' social media",
+        "sub": "Australian study, 2019",
+        "say": "A study of nearly four hundred Australian employers found eighty-two per cent were influenced by job candidates' social media.",
+        "vc": [
+          "VC2E7LY04"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "16",
+        "pill": "The rules",
+        "pillIcon": "lucide:shield",
+        "title": "Under 16?",
+        "text": "Your footprint **still grows**",
+        "icon": "lucide:shield",
+        "say": "Since December 2025, under sixteens can't have accounts on platforms like TikTok, Instagram and Snapchat. But your footprint still grows: games, group chats, and photos other people post.",
+        "vc": [
+          "VC2E7LY04"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "A",
+        "pill": "Audience",
+        "pillIcon": "lucide:users",
+        "title": "Know your audience",
+        "text": "Mates · Nan · **Boss**",
+        "icon": "lucide:users",
+        "say": "Same news, different audience. You'd tell your mates one way, your nan another, and a boss another again.",
+        "vc": [
+          "VC2E3LY08",
+          "VC2E5LA01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "?",
+        "pill": "Before you post",
+        "pillIcon": "lucide:pause",
+        "title": "Pause first",
+        "text": "Who? Boss test? **Others in it?**",
+        "icon": "lucide:pause",
+        "say": "Before you post, ask: who could see this? Would I be OK if a boss saw it? Is anyone else in it?",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Build it",
+        "steps": [
+          "Search yourself",
+          "Fix what you can",
+          "Check settings",
+          "Write a strong profile"
+        ],
+        "say": "To build a footprint you're proud of: search yourself, fix what you can, check your settings, and write a profile that shows the real you."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Search it. Fix it. Write it.",
+        "icon": "lucide:fingerprint",
+        "say": "Your mission. Check your footprint, then write a profile you'd be happy for a future boss to read."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Your digital footprint",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Your **digital footprint** is everything online about you. Some you made: posts, comments, gaming profiles. Some **other people** made: tags, photos, **screenshots**.\n\n**It lasts.** Deleting a post doesn't delete screenshots.\n\n**Lots of people see it.** Friends, family, teachers, and one day, a boss.\n\n**The age rules.** Since **December 2025**, under 16s can't have accounts on apps like TikTok, Instagram and Snapchat. You won't get in trouble. The apps will. But gaming and messaging apps are still allowed. So your footprint still grows.\n\n**Think about your audience.** You'd tell your mates news one way, and a boss another way.\n\n**Build a good footprint.**\n\n1. Search your name.\n2. Delete things you don't like.\n3. Check your **privacy settings**.\n4. Ask before you post other people.\n5. Write a good **profile**.",
+          "core": "Your **digital footprint** is everything online that's about you. Some of it you made: posts, comments, a gaming profile, a video. Some of it **other people** made: a team photo on a club website, a tag, a **screenshot** of something you sent.\n\n**It lasts, and it spreads.** Deleting a post doesn't delete the screenshots. Group chats get forwarded. Things you posted at 13 can still be found at 18.\n\n**More people read it than you think.** Your **audience** isn't just your friends. It can include family, teachers, coaches, and one day, employers deciding whether to give you a job.\n\n**The age rules.** Since **10 December 2025**, people under **16** can't have accounts on platforms like TikTok, Instagram, Snapchat, YouTube, X, Reddit and Twitch. The platforms have to stop them, and they can be fined if they don't. Young people and parents don't get in trouble. But messaging and gaming apps, like WhatsApp, Discord and Roblox, aren't covered. So even if you're under 16, your footprint is still growing.\n\n**Write for your audience.** You'd share the same news differently with your mates, your nan, and a boss. Online, your audience can be all three at once. That's why it pays to think about who might read something before you post it.\n\n**Build a footprint you're proud of.**\n\n1. **Search yourself.** See what comes up.\n2. **Fix what you can.** Delete old posts you're not proud of, and ask friends to remove photos of you.\n3. **Check your privacy settings,** so only people you choose can see your **private** stuff.\n4. **Ask before you post** someone else.\n5. **Write a strong profile.** A short, positive description of you, with real examples, can be the first thing a boss sees.",
+          "extend": "Your **digital footprint** is everything about you online. It includes what you create (posts, comments, profiles, videos). It also includes what others create about you (tags, photos, club and school websites, **screenshots**).\n\n**Digital texts last and travel.** Deleting doesn't remove copies. Private messages can be forwarded. Old posts can come back years later, out of context.\n\n**Your audience is wider than you think.** A post written for friends may be read by family, teachers, coaches and future employers, all at once.\n\n**The age rules.** Since **10 December 2025**, platforms such as TikTok, Instagram, Snapchat, YouTube, X, Reddit and Twitch must take reasonable steps to stop under-16s holding accounts, or face large fines. There are no penalties for young people or their parents. Messaging and gaming services, such as WhatsApp, Discord and Roblox, aren't covered, so younger teens still build a footprint.\n\n**Language creates identity.** Your word choices signal who you are and your relationship with your audience. The same news, written for mates, a grandparent or an employer, creates three different versions of you.\n\n**Manage it on purpose.** Search yourself. Remove content you regret, or ask others to remove it. Review your privacy settings. Ask before posting other people. And write a strong public **profile** that shows your strengths, with evidence."
+        },
+        "vc": [
+          "VC2E5LY10",
+          "VC2E3LY08",
+          "VC2E5LA01",
+          "VC2E7LA01",
+          "VC2E7LY04"
+        ],
+        "vcNote": "Digital texts and their audiences; how language signals relationships and identity; the effect of technology on who reads what we write."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Would they hire you?",
+        "icon": "lucide:briefcase",
+        "body": {
+          "support": "A university in Queensland asked **396 Australian bosses** about social media. That was in **2019**.\n\nWhat they found:\n\n- **82%** said a person's social media affected what they thought of them.\n- The worst thing you could do was **hurt** people online.\n\nSo what you post can affect getting a job.\n\nBut it can **help** too. Posts that show you're kind or hard-working are a plus.",
+          "core": "Researchers at the **University of the Sunshine Coast** asked a question. Does social media affect who gets a job?\n\nThey asked **396 Australian employers** from lots of different jobs. The study came out in **2019**.\n\nHere's what they found:\n\n- **82%** of employers said what a person posts online **affected** what they thought of them.\n- The **worst** thing, they said, was using social media to **hurt** other people on purpose.\n\nSo what you post, and how you treat people online, can affect whether you get a job.\n\nBut it works both ways. A footprint can also **help** you. Posts that show you're kind, hard-working or good at something give a boss a reason to say yes.",
+          "extend": "A team at the **University of the Sunshine Coast** surveyed **396 Australian employers**. They asked how job seekers' social media affects hiring. The study came out in **2019**.\n\n- **82%** of employers said a job seeker's social media **influenced** them.\n- The worst behaviour, they said, was using social media to **harm** others on purpose.\n\nSo employers read your posts as evidence of character. They look closely at how you treat people.\n\nThe effect can be good too. Posts that show you're reliable, skilled and respectful can support your application."
+        },
+        "source": {
+          "name": "Sutherland, Freberg & Driver — “Australian employer perceptions of unprofessional social media behaviour and its impact on graduate employability” (2019)",
+          "url": "https://ojs.deakin.edu.au/index.php/jtlge/article/view/857"
+        },
+        "think": {
+          "support": [
+            "What did bosses dislike most?",
+            "How could your footprint help you?"
+          ],
+          "core": [
+            "What did employers find most unprofessional?",
+            "Why might an employer care how you treat people online?",
+            "How could your footprint help you get a job?"
+          ]
+        },
+        "vc": [
+          "VC2E7LY04",
+          "VC2E5LY10"
+        ],
+        "vcNote": "Real Australian research on how digital texts are read by an unexpected audience."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a strong profile",
+      "docTitle": "ABOUT ME — KAI THOMPSON (EXAMPLE)",
+      "vc": [
+        "VC2E5LY10",
+        "VC2E7LA01",
+        "VC2E5LA01"
+      ],
+      "vcNote": "How a short public profile is structured and how its language creates an identity for an audience.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Who I am",
+          "value": "Year 10 student in Ballarat. Keen cook and footy player.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "What I do",
+          "value": "I cook dinner for my family every Sunday, and I help run the school canteen on Fridays."
+        },
+        {
+          "n": 3,
+          "label": "Strength + proof",
+          "value": "Reliable: I haven't missed a footy training session all season."
+        },
+        {
+          "n": 4,
+          "label": "Interests",
+          "value": "Basketball, cooking videos, fixing bikes."
+        },
+        {
+          "n": 5,
+          "label": "What I'm looking for",
+          "value": "A weekend job as a kitchen hand.",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Contact",
+          "value": "kai.thompson@school.example (school email only)"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Who I am",
+          "note": "Short and clear. No full address."
+        },
+        {
+          "n": 2,
+          "label": "Real examples",
+          "note": "Shows, not just tells."
+        },
+        {
+          "n": 3,
+          "label": "Strength + proof",
+          "note": "A claim, backed up with evidence."
+        },
+        {
+          "n": 4,
+          "label": "Interests",
+          "note": "Shows personality, kept positive."
+        },
+        {
+          "n": 5,
+          "label": "Purpose",
+          "note": "Tells the reader what you want."
+        },
+        {
+          "n": 6,
+          "label": "Safe contact",
+          "note": "A school email, not your home or phone."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Before you post",
+      "steps": [
+        {
+          "title": "Who?",
+          "text": "Who could end up seeing this?",
+          "icon": "lucide:users"
+        },
+        {
+          "title": "Boss test",
+          "text": "Would I be OK if a boss saw it?",
+          "icon": "lucide:briefcase"
+        },
+        {
+          "title": "Others?",
+          "text": "Is anyone else in it? Ask them.",
+          "icon": "lucide:user-check"
+        },
+        {
+          "title": "Post or pause",
+          "text": "Not sure? Don't post it.",
+          "icon": "lucide:pause"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What's a **digital footprint**?",
+        "options": [
+          "Everything online that's about you",
+          "A fitness tracker",
+          "Your phone password",
+          "Only the posts you make"
+        ],
+        "answer": 0,
+        "explain": "It includes what other people post about you too.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "q": "You delete a post. Is it gone for good?",
+        "options": [
+          "Not always: people may have screenshots or shares",
+          "Yes, always",
+          "Only after a week",
+          "Only on weekends"
+        ],
+        "answer": 0,
+        "explain": "Digital texts can be copied and spread.",
+        "vc": [
+          "VC2E7LY04"
+        ]
+      },
+      {
+        "q": "Since December 2025, what's changed for under-16s in Australia?",
+        "options": [
+          "They can't have accounts on platforms like TikTok and Instagram",
+          "They can't use the internet",
+          "They get fined for using apps",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "The platforms must stop them. Young people don't get in trouble.",
+        "vc": [
+          "VC2E7LY04"
+        ]
+      },
+      {
+        "q": "You got a job at a bakery. Which is best for a profile on a job site?",
+        "options": [
+          "“I work Saturdays at Crust Bakery, serving customers and closing up.”",
+          "“lol got a job finally 🥳”",
+          "“bakery job, kinda boring”",
+          "“Ask me about my job.”"
+        ],
+        "answer": 0,
+        "explain": "A boss is the audience: clear, positive and specific.",
+        "vc": [
+          "VC2E3LY08",
+          "VC2E5LA01"
+        ]
+      },
+      {
+        "q": "Which detail should **not** go in a public profile?",
+        "options": [
+          "Your home address",
+          "Your interests",
+          "A strength with an example",
+          "What job you're looking for"
+        ],
+        "answer": 0,
+        "explain": "Keep private information private.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "q": "In the 2019 study, what did employers see as the **most unprofessional** online behaviour?",
+        "options": [
+          "Using social media to deliberately hurt others",
+          "Posting about sport",
+          "Having a private account",
+          "Posting cooking videos"
+        ],
+        "answer": 0,
+        "explain": "How you treat people online is read as evidence of character.",
+        "vc": [
+          "VC2E7LY04"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "“Reliable: I haven't missed a training all season.” What does the second part do?",
+        "options": [
+          "Gives evidence for the claim",
+          "Makes it longer",
+          "Changes the subject",
+          "Shows an opinion"
+        ],
+        "answer": 0,
+        "explain": "Evidence makes a profile believable, and shapes your identity.",
+        "vc": [
+          "VC2E7LA01"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Check your footprint. Then write a short profile a boss would be happy to read.",
+      "core": "Check your digital footprint, then write a short profile for a real purpose that you'd be happy for a future boss to read.",
+      "extend": "Audit your digital footprint, then write a concise public profile for a specific purpose and audience, choosing language that creates the identity you want and supporting every claim with evidence."
+    },
+    "checklist": [
+      "I searched for my footprint",
+      "I decided what to fix",
+      "I wrote for a clear audience and purpose",
+      "I gave a strength with proof",
+      "I kept private details private"
+    ],
+    "levelUp": "Write the same news for three audiences (mates, a grandparent, a boss). Explain how each version creates a different picture of you.",
+    "vc": [
+      "VC2E5LY10",
+      "VC2E6LY09",
+      "VC2E5LA01"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Your digital footprint",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What are **two** ways your digital footprint grows, even if you don't post anything?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY10"
+            ]
+          },
+          {
+            "q": "What changed for under-16s on 10 December 2025? Who gets in trouble if the rules are broken?",
+            "lines": 2,
+            "vc": [
+              "VC2E7LY04"
+            ]
+          },
+          {
+            "q": "Name **three** steps to build a footprint you're proud of.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY10"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Before you post",
+        "diagram": 1
+      },
+      {
+        "type": "sort",
+        "title": "OK to share, or rethink it?",
+        "pagebreak": true,
+        "choices": [
+          "OK to share",
+          "Rethink it"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is something a teenager might share online. Tick **OK to share** or **rethink it**, and say why.",
+        "cards": [
+          {
+            "from": "Post",
+            "text": "A photo of you holding your team's premiership medal",
+            "answer": "OK to share",
+            "flags": "Positive, nothing private."
+          },
+          {
+            "from": "Post",
+            "text": "A rant about your boss, using their name",
+            "answer": "Rethink it",
+            "flags": "Any future boss could see it."
+          },
+          {
+            "from": "Post",
+            "text": "A selfie with your school uniform and street sign behind you",
+            "answer": "Rethink it",
+            "flags": "Shows where you live and go to school."
+          },
+          {
+            "from": "Comment",
+            "text": "“Congrats on the job! So proud of you.”",
+            "answer": "OK to share",
+            "flags": "Kind and positive."
+          },
+          {
+            "from": "Group chat",
+            "text": "A screenshot of a friend's private message",
+            "answer": "Rethink it",
+            "flags": "Not yours to share.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Post",
+            "text": "A “joke” that puts down a group of people",
+            "answer": "Rethink it",
+            "flags": "Hurts people. Employers notice.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LY10",
+          "VC2E3LY08"
+        ],
+        "vcNote": "Judging content against audience and purpose."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a strong profile",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the profile. Use the word bank. Why does it work?",
+          "core": "Each number marks part of Kai's profile. Write what it is and why it works for a boss."
+        },
+        "columns": [
+          "What is it?",
+          "Why does it work?"
+        ],
+        "wordBank": {
+          "support": [
+            "who I am",
+            "examples",
+            "strength + proof",
+            "interests",
+            "purpose",
+            "safe contact"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LY10",
+          "VC2E7LA01",
+          "VC2E5LA01"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Same news, three audiences",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 32,
+          "core": 30
+        },
+        "instructions": "Your news: **you got a weekend job at a bakery**. Write how you'd share it with each audience. Then say what you changed.",
+        "columns": [
+          "Audience",
+          "How I'd write it",
+          "What I changed"
+        ],
+        "rows": [
+          [
+            "Example: group chat with mates",
+            "guess who's selling donuts now 🍩 Saturdays at Crust!",
+            "Casual words, an emoji, a joke"
+          ],
+          [
+            "A message to your grandparent",
+            "",
+            ""
+          ],
+          [
+            "A line in your profile on a job site",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E3LY08",
+          "VC2E5LA01",
+          "VC2E7LA01"
+        ],
+        "vcNote": "Selecting language for different audiences and relationships; how language creates identity."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: would they hire you?",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the study find? Write **two** things.",
+            "lines": 2,
+            "vc": [
+              "VC2E7LY04"
+            ]
+          },
+          {
+            "q": "Why might an employer care how you treat people online?",
+            "lines": 2,
+            "vc": [
+              "VC2E7LY04"
+            ]
+          },
+          {
+            "q": "Name **one** thing you could share online that would **help** you get a job.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY10"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Check your footprint",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "At home, or with your teacher's help, search your name (and any usernames). Write what you find. You don't have to share this page with anyone. The first row shows an example.",
+        "columns": [
+          "What I found",
+          "Boss test: OK?",
+          "What I'll do"
+        ],
+        "rows": [
+          [
+            "Example: team photo on the club website",
+            "Yes",
+            "Nothing. It's positive."
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "My privacy settings",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E5LY10",
+          "VC2E7LY04"
+        ],
+        "vcNote": "Auditing a personal digital footprint against audience and purpose."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: write your profile",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write a short profile (about 50 words) for a job, a club or a team. Think about who will read it.",
+          "core": "Write a short profile (60 to 80 words) for a real purpose: a job site, a sports club, a volunteering program or a school leadership application. Write it for the person who'll read it.",
+          "extend": "Write a concise public profile (60 to 80 words) for a specific purpose and reader. Choose language that creates the identity you want, support every claim with evidence, and keep private information private."
+        },
+        "plan": [
+          {
+            "label": "Purpose and reader (who's it for?)",
+            "lines": 1
+          },
+          {
+            "label": "My best strength, and proof",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "I'm a Year … student.",
+            "I like…",
+            "I'm good at… because I…",
+            "I'm looking for…"
+          ],
+          "core": [
+            "I'm a Year … student who…",
+            "I…every…",
+            "I'm reliable / hard-working / friendly: I…",
+            "I'm looking for…"
+          ]
+        },
+        "lines": {
+          "support": 6,
+          "core": 7
+        },
+        "check": [
+          "a clear purpose",
+          "language that suits the reader",
+          "a strength with proof",
+          "positive tone",
+          "no private details (address, phone)"
+        ],
+        "vc": [
+          "VC2E6LY09",
+          "VC2E5LY10",
+          "VC2E4LY10",
+          "VC2E7LA01"
+        ],
+        "vcNote": "Creating a short public text for a specific purpose and audience."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Look at your three versions of the bakery news. How does each one create a different picture of **who you are**? Give examples of words that do this.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA01"
+            ]
+          },
+          {
+            "q": "How has technology (screenshots, search, sharing) changed who reads what we write? Give **two** examples.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY04"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can explain my digital footprint.",
+          "I can write for different audiences.",
+          "I can check my footprint.",
+          "I can write a strong profile."
+        ],
+        "questions": [
+          "One thing I'll change about my footprint:",
+          "Who I'd want my profile to impress:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn what a digital footprint is (content they create, and content others create about them), why digital texts persist and reach unexpected audiences, and how the social media minimum age (from 10 December 2025) does and doesn't affect them. The literacy focus is audience: selecting language for different readers and relationships, and how language creates identity. They audit their own footprint privately and write a short public profile for a real purpose. The case study is a 2019 University of the Sunshine Coast survey of 396 Australian employers.",
+    "prep": [
+      "Decide how students will search their footprint: at home, or on school devices with your supervision. Never require them to share results.",
+      "Have a few real (anonymous or made-up) profiles from job or club sites to show.",
+      "Check your school's policy on discussing social media accounts, especially for students under 16."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Your footprint",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** what would a search of your name show? (No need to answer aloud.)",
+          "**Explicit teaching (10 min):** footprint, audience, persistence; the age rules.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**OK to share, or rethink it? (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Your audience",
+        "minutes": 50,
+        "steps": [
+          "**Anatomy of a strong profile (15 min).**",
+          "**Same news, three audiences (20 min).** Share and compare the boss versions.",
+          "**Case study (15 min):** would they hire you?"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Your profile",
+        "minutes": 50,
+        "steps": [
+          "**Check your footprint (10 min),** or set it for home.",
+          "**Final mission (25 min):** write your profile.",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "A digital footprint includes what you post and what others post about you.",
+      "Digital texts persist and spread: screenshots, shares, search.",
+      "Audiences are wider than you think, and may include future employers.",
+      "From 10 December 2025, under-16s can't hold accounts on platforms like TikTok, Instagram, Snapchat, YouTube, X, Reddit and Twitch. Platforms, not young people or parents, face penalties. Messaging and gaming apps aren't covered.",
+      "Write for your audience; language creates the identity people see.",
+      "Search yourself, fix what you can, check settings, ask before posting others, write a strong profile."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards.",
+        "A 50-word profile with starters."
+      ],
+      "extend": [
+        "Analyse how language creates identity (Level Up).",
+        "Explain how technology changes audience (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LY08",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Discusses how the same news is written for different audiences (three audiences, sort)."
+      },
+      {
+        "vc": "VC2E4LY10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Creates a short informative profile with linked ideas (final mission)."
+      },
+      {
+        "vc": "VC2E5LA01",
+        "evidence": "Selects language for social contexts and relationships (three audiences, profile)."
+      },
+      {
+        "vc": "VC2E5LY10",
+        "evidence": "Creates a profile with relevant, sequenced ideas for its purpose and audience (annotation, final mission)."
+      },
+      {
+        "vc": "VC2E6LY09",
+        "evidence": "Creates an organised public text for a specific purpose and reader (final mission)."
+      },
+      {
+        "vc": "VC2E7LA01",
+        "evidence": "Explains how language creates identity (three audiences, Level Up)."
+      },
+      {
+        "vc": "VC2E7LY04",
+        "evidence": "Explains how technology affects who reads and responds to our texts (case study, Level Up)."
+      }
+    ],
+    "answers": "**Check your reading:** others tag, photograph or screenshot you; club and school websites; gaming and messaging. From 10 December 2025, under-16s can't hold accounts on platforms like TikTok and Instagram; the platforms face penalties, not young people or parents. Steps: search yourself, fix what you can, check privacy settings, ask before posting others, write a strong profile.\n\n**Sort:** premiership medal — OK; rant about your boss — rethink; uniform and street sign — rethink; congrats comment — OK; screenshot of a friend's message — rethink; put-down joke — rethink.\n\n**Profile:** 1 who I am (no address); 2 real examples; 3 strength with proof; 4 interests; 5 purpose; 6 safe contact.\n\n**Three audiences (samples):** grandparent — *Hi Nan, I got a weekend job at Crust Bakery! I start Saturday.*; job site — *Weekend shop assistant at Crust Bakery: serving customers, handling cash and closing up.*\n\n**Case study:** 82% of employers were influenced by candidates' social media; using it to deliberately harm others was rated most unprofessional; it's evidence of how you'd treat customers and workmates; e.g. a video of your cooking, a club award, volunteering.",
+    "resources": [
+      {
+        "label": "Sutherland, Freberg & Driver (2019) — Australian employer perceptions of unprofessional social media behaviour",
+        "url": "https://ojs.deakin.edu.au/index.php/jtlge/article/view/857"
+      },
+      {
+        "label": "eSafety — How will the social media age restrictions affect me? (young people)",
+        "url": "https://www.esafety.gov.au/young-people/social-media-age-restrictions"
+      },
+      {
+        "label": "eSafety — Which platforms are age-restricted?",
+        "url": "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions/which-platforms-are-age-restricted"
+      },
+      {
+        "label": "Department of Infrastructure — Social media minimum age",
+        "url": "https://www.infrastructure.gov.au/media-communications/internet/online-safety/social-media-minimum-age"
+      }
+    ],
+    "realityCheck": [
+      "**Footprint searches are private.** Some students will find things that upset or embarrass them, including things others posted. Never ask them to share, and be ready to help with removal requests.",
+      "**The age rules are new.** Some under-16s still have accounts, or use family accounts. Keep the focus on skills, not on who's breaking rules. Young people don't get in trouble under the law.",
+      "**Platform lists change.** Check eSafety's list of age-restricted platforms before you teach.",
+      "**Image-based abuse is serious.** If a student discloses intimate images being shared, follow your school's child safety procedures; eSafety can help remove them.",
+      "**Works in a real class:** yes. It links straight to Build Your Resume and Nail the Interview."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards, and a 50-word profile with starters.",
+      "core": "Standard version: footprint and audience, the age rules, an OK-or-rethink sort, profile anatomy, one news story for three audiences, the employer study, a private footprint check and a written profile.",
+      "extend": "Adds privacy settings and identity to the vocabulary, a quiz question on evidence in a profile, a profile that deliberately creates an identity, and Level Ups on language and identity and technology and audience."
+    }
+  }
+}

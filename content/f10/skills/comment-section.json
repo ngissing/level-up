@@ -1,0 +1,956 @@
+{
+  "id": "comment-section",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Someone in the group chat writes: “Anyone who plays that game is a loser 🤡.” You love that game. You start typing something mean. Is there a better way?",
+      "core": "Someone in the group chat posts: “Anyone who still plays that game is a loser 🤡.” You love that game. Your thumbs are already typing something you'd never say to their face. Send it, and the chat explodes. Don't, and you feel like you've let them win. Is there a better way?"
+    },
+    "why": {
+      "support": "Online, people can't see your face. Words can land hard. Learn to disagree with **reasons, not insults**. Learn to stand up for people, and when to report.",
+      "core": "Online, there's no face and no tone of voice, so messages land harder than we mean them to. The words you choose can turn a disagreement into a fight, or calm it down. Learning to disagree with **reasons, not insults**, to stand up for someone, and to know when to report or walk away keeps you, and the people around you, safer.",
+      "extend": "Online interaction strips away the cues (voice, face, timing) that soften disagreement, so language carries all the weight. Choosing how forceful to be, supporting claims with reasons, recognising implied meanings and knowing the reporting pathways let you take part in online spaces without escalating harm."
+    },
+    "canDo": {
+      "support": [
+        "I can disagree without being mean.",
+        "I can make my words calmer.",
+        "I can stand up for someone.",
+        "I know when to reply, report or leave it."
+      ],
+      "core": [
+        "I can **disagree** with an idea without attacking the person.",
+        "I can make my words **more or less forceful**.",
+        "I can **stand up** for someone being targeted.",
+        "I know when to **reply, report or walk away**."
+      ]
+    },
+    "showIt": "Write a cool-headed reply and an upstander message, and explain when you'd report instead.",
+    "vocab": [
+      {
+        "word": "tone",
+        "meaning": "the feeling behind words",
+        "example": "Her tone sounded angry, even though she was joking."
+      },
+      {
+        "word": "disagree",
+        "meaning": "have a different opinion",
+        "example": "I disagree, and here's why."
+      },
+      {
+        "word": "reason",
+        "meaning": "why you think something",
+        "example": "Give a reason, not an insult."
+      },
+      {
+        "word": "troll",
+        "meaning": "someone who posts to make people angry",
+        "example": "Don't feed the troll."
+      },
+      {
+        "word": "upstander",
+        "meaning": "someone who stands up for a person who's targeted",
+        "example": "She was an upstander in the group chat."
+      },
+      {
+        "word": "report",
+        "meaning": "tell the platform or an adult about harm",
+        "example": "I reported the post."
+      },
+      {
+        "word": "pile-on",
+        "meaning": "when lots of people attack one person online",
+        "example": "It turned into a pile-on.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "implied",
+        "meaning": "meant, but not said directly",
+        "example": "The implied message was that she didn't belong.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Comment Section Survival in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Comment Section Survival",
+        "sub": "Disagree without losing it.",
+        "icon": "lucide:message-square-text",
+        "say": "Comment section survival. Disagree without losing it."
+      },
+      {
+        "kind": "big",
+        "big": "50%+",
+        "title": "of 14–17 year olds had a negative online experience",
+        "sub": "eSafety, survey in 2020",
+        "say": "In an eSafety survey, more than half of fourteen to seventeen year olds had had a negative experience online in the past six months.",
+        "vc": [
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Cool head",
+        "pillIcon": "lucide:snowflake",
+        "title": "Pause",
+        "text": "Read it **twice**",
+        "icon": "lucide:pause",
+        "say": "Pause before you reply. Read it again. Online, there's no face and no tone of voice. It might not mean what you think.",
+        "vc": [
+          "VC2E6LY01",
+          "VC2E8LY01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Cool head",
+        "pillIcon": "lucide:snowflake",
+        "title": "Turn it down",
+        "text": "*Dumbest take ever* → **I see it differently**",
+        "icon": "lucide:volume-1",
+        "say": "Turn it down. This is the dumbest take ever becomes I see it differently. Same point, less force.",
+        "vc": [
+          "VC2E3LA02",
+          "VC2E8LA01"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Cool head",
+        "pillIcon": "lucide:snowflake",
+        "title": "Reasons, not insults",
+        "text": "Idea · Reason · **Question**",
+        "icon": "lucide:message-circle",
+        "say": "Attack the idea, not the person. Give a reason. Ask a question.",
+        "vc": [
+          "VC2E5LA02",
+          "VC2E7LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Stand up",
+        "pillIcon": "lucide:hand-heart",
+        "title": "Be an upstander",
+        "text": "Support · Don't share · **Report**",
+        "icon": "lucide:hand-heart",
+        "say": "Someone being targeted? Be an upstander. Message them privately, don't share the post, and report it.",
+        "vc": [
+          "VC2E4LY01",
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Report it",
+        "steps": [
+          "Screenshot",
+          "Report to the app",
+          "Tell an adult",
+          "eSafety after 48 hrs"
+        ],
+        "say": "If it's cyberbullying: screenshot it, report it to the platform, and tell an adult you trust. If it isn't removed within forty-eight hours, you can report it to eSafety."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Pause. Turn it down. Stand up.",
+        "icon": "lucide:snowflake",
+        "say": "Your mission. Write a cool-headed reply, and a message standing up for someone."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Disagree without losing it",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Group chats, game chats, comments: arguments happen online.\n\n**Why they blow up.** Online, people can't see your face or hear your **tone**. Words land harder.\n\n**1. Pause.** Read it again.\n\n**2. Turn it down.** *That's so dumb* starts a fight. *I see it differently* doesn't.\n\n**3. Reasons, not insults.** Say what you think, and **why**. Ask a question.\n\n**4. Walk away from trolls.** **Trolls** post to make people angry. Block them.\n\n**5. Be an upstander.** Message the person privately. Don't share the mean post. **Report** it.\n\n**6. Report serious stuff.** Screenshot it. Report it to the app. Tell an adult. If it's not removed in **48 hours**, tell **eSafety**.\n\nIn danger? Call **000**. Kids Helpline: 1800 55 1800.",
+          "core": "Group chats, game chats, comment sections: online is where a lot of arguments happen. Even if you're under 16 and off apps like TikTok and Instagram, you're probably still in group chats, on Discord or playing games with chat.\n\n**Why online arguments blow up.** Online, there's no face, no **tone** of voice, and no chance to say *I'm joking*. So messages often land harder than people mean. And once it's posted, other people can join in, and a small disagreement can turn into a **pile-on**.\n\n**1. Pause.** Read the message again. Could it mean something else? Are you about to send something you wouldn't say to their face?\n\n**2. Turn it down.** Words can be more or less forceful. *This is the dumbest take I've ever seen* and *I see it differently* make the same point, but one starts a fight.\n\n**3. Reasons, not insults.** Disagree with the **idea**, not the person. Say what you think and **why**. *I like that game because the updates keep it fresh.* Ask a question: *What do you like playing instead?*\n\n**4. Know when to walk away.** Some people post just to make others angry. They're called **trolls**. Replying gives them what they want. Block, mute or leave the chat.\n\n**5. Be an upstander.** If someone's being targeted, you can help. Send them a private message. Post something kind. Don't like or share the hurtful post. And **report** it.\n\n**6. Report what's serious.** If it's bullying, threats or someone's private photos:\n\n- Take a **screenshot**.\n- Report it to the app or platform.\n- Tell an adult you trust.\n- If you're under 18 and it's serious cyberbullying, and the platform doesn't remove it within **48 hours**, you can report it to **eSafety**.\n\nIf anyone is in danger, call **000**. For someone to talk to, Kids Helpline (1800 55 1800) is free, any time.",
+          "extend": "Much conflict now happens in text-based spaces: group chats, gaming platforms and comment sections. Under-16s, now restricted from holding accounts on platforms like TikTok and Instagram, still use messaging and gaming services with chat.\n\n**Why online disagreement escalates.** Text removes the cues that soften face-to-face talk: facial expression, **tone** of voice, timing. Readers fill the gaps, often assuming hostility. Public replies invite others in, and disagreement can become a **pile-on**.\n\n**1. Pause and re-read.** Consider other possible meanings, and what's **implied** as well as stated.\n\n**2. Adjust force.** Evaluative language can be graded: *This is the dumbest take I've ever seen* versus *I see it differently*. Lower-force language keeps the point but invites a reply rather than a fight.\n\n**3. Substantiate.** Target the idea, not the person, and give **reasons** or evidence. Questions keep a discussion open.\n\n**4. Disengage from trolling.** Content designed to provoke rewards replies. Block, mute or leave.\n\n**5. Act as an upstander.** Support the person privately or publicly, don't amplify the harmful content, and **report** it.\n\n**6. Use reporting pathways.** For serious harm: screenshot, report to the platform, and tell a trusted adult. Under eSafety's cyberbullying scheme, people under 18 can complain to **eSafety** if serious cyberbullying isn't removed by the platform within **48 hours**.\n\nIf anyone is in danger, call **000**. Kids Helpline (1800 55 1800) is free and available any time."
+        },
+        "vc": [
+          "VC2E3LA02",
+          "VC2E6LY01",
+          "VC2E5LA02",
+          "VC2E7LA02",
+          "VC2E8LA01",
+          "VC2E8LY01"
+        ],
+        "vcNote": "Why online interaction escalates; grading the force of evaluative language; substantiating disagreement; implied meanings; upstanding and reporting."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "What teens face online",
+        "icon": "lucide:users",
+        "body": {
+          "support": "**eSafety** is a government group that helps keep people safe online. It asked **627 teens** about being online. That was in **2020**.\n\nWhat it found:\n\n- **44%** had something bad happen online in six months.\n- For teens aged **14 to 17**, it was **more than half**.\n- Common problems: messages from **strangers**, seeing upsetting stuff, and being **left out**.\n\nSo if it's happened to you, you're not alone.\n\nIf someone bullies you online, report it to the app. If it's not removed in **48 hours**, tell **eSafety**.",
+          "core": "**eSafety** is the government agency that helps keep Australians safe online. It asked **627 Australian teens** aged 12 to 17 about their online lives. It shared what it found in **2021**.\n\nHere's what it found:\n\n- **44%** of teens had a **negative** experience online in the six months before the survey (to September 2020).\n- For teens aged **14 to 17**, it was **more than half**.\n- The most common problems were:\n  - being contacted by a **stranger** (30%)\n  - seeing **upsetting or unwanted content** (20%)\n  - being **left out** by others (16%).\n\nSo if something bad has happened to you online, you're not alone. And being **left out** counts too: it hurts, even when no one says anything mean.\n\neSafety also runs a **cyberbullying scheme** for under-18s. First, report the post to the platform. If serious cyberbullying isn't taken down within **48 hours**, you can make a complaint to eSafety, and it can step in.",
+          "extend": "**eSafety**, Australia's online safety regulator, surveyed **627 Australian teenagers** aged 12 to 17 about their digital lives. It published the results in **2021**.\n\n- **44%** had a **negative** online experience in the six months to September 2020.\n- Among **14 to 17 year olds**, it was **over 50%**.\n- The most common experiences were contact from a **stranger** (30%), **unwanted content** (20%) and being **excluded** (16%).\n\nThe data show negative experiences are common, not rare. They also show that harm isn't only abuse. Being **left out** is one of the most common experiences, and it can happen without a single mean word.\n\neSafety's **cyberbullying scheme** helps under-18s when platforms don't act. First, report the content to the platform. If serious cyberbullying isn't removed within **48 hours**, you can complain to eSafety."
+        },
+        "source": {
+          "name": "eSafety Commissioner — “The digital lives of Aussie teens” (2021)",
+          "url": "https://www.esafety.gov.au/research/digital-lives-of-aussie-teens"
+        },
+        "think": {
+          "support": [
+            "What problems were most common?",
+            "What should you do first?"
+          ],
+          "core": [
+            "What were the most common negative experiences?",
+            "Why might being left out online hurt, even with no mean words?",
+            "What should you do first if you're cyberbullied?"
+          ]
+        },
+        "vc": [
+          "VC2E6LA02",
+          "VC2E8LY01"
+        ],
+        "vcNote": "Real Australian data on teens' negative online experiences; reporting pathways."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a cool-headed reply",
+      "docTitle": "GROUP CHAT: YEAR 10 FOOTY (EXAMPLE)",
+      "vc": [
+        "VC2E6LY01",
+        "VC2E3LA02",
+        "VC2E5LA02",
+        "VC2E8LA01"
+      ],
+      "vcNote": "How a reply disagrees respectfully: acknowledging, using I-statements, giving reasons and keeping the conversation open.",
+      "sections": [
+        {
+          "label": "Ash",
+          "value": "Anyone who still plays Dragon Quest Arena is a loser 🤡"
+        },
+        {
+          "n": 1,
+          "label": "You: acknowledge",
+          "value": "Ha, fair, it's not for everyone."
+        },
+        {
+          "n": 2,
+          "label": "You: I-statement",
+          "value": "I actually still play it most nights."
+        },
+        {
+          "n": 3,
+          "label": "You: reason",
+          "value": "The new updates keep it fresh, and my cousin and I play together.",
+          "strong": true
+        },
+        {
+          "n": 4,
+          "label": "You: question",
+          "value": "What are you playing at the moment?"
+        },
+        {
+          "n": 5,
+          "label": "What you didn't say",
+          "value": "(No insults back. No “ur the loser”. No screenshots to other chats.)"
+        },
+        {
+          "n": 6,
+          "label": "Ash",
+          "value": "lol ok fair. I'm on Kart Racer 3 rn",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Acknowledge",
+          "note": "Shows you heard them. Lowers the heat."
+        },
+        {
+          "n": 2,
+          "label": "I-statement",
+          "note": "About you, not an attack on them."
+        },
+        {
+          "n": 3,
+          "label": "Reason",
+          "note": "Backs up your view, instead of an insult."
+        },
+        {
+          "n": 4,
+          "label": "Question",
+          "note": "Keeps it a conversation."
+        },
+        {
+          "n": 5,
+          "label": "Restraint",
+          "note": "What you leave out matters too."
+        },
+        {
+          "n": 6,
+          "label": "Result",
+          "note": "It calmed down."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Before you reply",
+      "steps": [
+        {
+          "title": "Pause",
+          "text": "Read it again. What's the tone?",
+          "icon": "lucide:pause"
+        },
+        {
+          "title": "Decide",
+          "text": "Reply, report or walk away?",
+          "icon": "lucide:split"
+        },
+        {
+          "title": "Reply cool",
+          "text": "Turn it down. Give a reason.",
+          "icon": "lucide:snowflake"
+        },
+        {
+          "title": "Or report",
+          "text": "Screenshot. Report. Tell an adult.",
+          "icon": "lucide:flag"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Why do online messages often land harder than we mean?",
+        "options": [
+          "There's no face or tone of voice",
+          "Phones make words louder",
+          "People read faster",
+          "They don't"
+        ],
+        "answer": 0,
+        "explain": "Readers fill in the gaps, often assuming the worst.",
+        "vc": [
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "q": "Which reply disagrees **without** attacking?",
+        "options": [
+          "“I see it differently. I like it because the story's great.”",
+          "“You're an idiot.”",
+          "“Nobody asked you.”",
+          "“Typical.”"
+        ],
+        "answer": 0,
+        "explain": "An I-statement plus a reason.",
+        "vc": [
+          "VC2E5LA02",
+          "VC2E3LA02"
+        ]
+      },
+      {
+        "q": "Someone posts “ur all trash lol” just to get a reaction. Best move?",
+        "options": [
+          "Block, mute or walk away",
+          "Reply with something worse",
+          "Screenshot it to every chat",
+          "Argue for an hour"
+        ],
+        "answer": 0,
+        "explain": "Trolls want a reaction.",
+        "vc": [
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "q": "A classmate is being mocked in a group chat. What's an **upstander** move?",
+        "options": [
+          "Message them privately to check they're OK, and report it",
+          "Like the posts",
+          "Share it to another chat",
+          "Say nothing and laugh"
+        ],
+        "answer": 0,
+        "explain": "Support, don't amplify, report.",
+        "vc": [
+          "VC2E4LY01",
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "q": "You're 15 and being seriously cyberbullied. The platform hasn't removed it after 48 hours. What can you do?",
+        "options": [
+          "Report it to eSafety",
+          "Nothing",
+          "Post the bully's address",
+          "Delete your phone"
+        ],
+        "answer": 0,
+        "explain": "eSafety's cyberbullying scheme is for under-18s.",
+        "vc": [
+          "VC2E6LY01"
+        ]
+      },
+      {
+        "q": "In eSafety's survey, what share of 14 to 17 year olds had a negative online experience in six months?",
+        "options": [
+          "More than half",
+          "About 5%",
+          "None",
+          "All of them"
+        ],
+        "answer": 0,
+        "explain": "Negative experiences are common. You're not alone.",
+        "vc": [
+          "VC2E6LA02"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "“No offence, but people like you never get it.” What's the **implied** message?",
+        "options": [
+          "The person is being put down because of who they are",
+          "It's a compliment",
+          "They're being kind",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "“No offence” often comes right before something offensive.",
+        "vc": [
+          "VC2E8LY01",
+          "VC2E8LA01"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write a calm reply that disagrees. Write a message to support someone. Say when you'd report.",
+      "core": "Write a cool-headed reply that disagrees with reasons, and a message standing up for someone, then explain when you'd report instead.",
+      "extend": "Write a reply that disagrees using graded, lower-force language and substantiated reasons, write an upstander message, and explain your choices, including when reporting is the better path."
+    },
+    "checklist": [
+      "I paused and re-read",
+      "My reply attacks the idea, not the person",
+      "I gave a reason",
+      "I turned the force down",
+      "I wrote an upstander message",
+      "I know how and when to report"
+    ],
+    "levelUp": "Find two phrases that hide a put-down (like “no offence, but…”). Explain the implied meaning, and how you'd respond.",
+    "vc": [
+      "VC2E6LY01",
+      "VC2E3LA02",
+      "VC2E5LA02"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Disagree without losing it",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why do online arguments blow up more easily than face-to-face ones?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY01"
+            ]
+          },
+          {
+            "q": "What are **three** things an upstander can do?",
+            "lines": 2,
+            "vc": [
+              "VC2E4LY01"
+            ]
+          },
+          {
+            "q": "What are the steps for reporting serious cyberbullying?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY01"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Before you reply",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a cool-headed reply",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the reply. Use the word bank. How does it help?",
+          "core": "Each number marks part of the reply. Write what it is and how it helps calm things down."
+        },
+        "columns": [
+          "What is it?",
+          "How does it help?"
+        ],
+        "wordBank": {
+          "support": [
+            "acknowledge",
+            "I-statement",
+            "reason",
+            "question",
+            "restraint",
+            "result"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LY01",
+          "VC2E3LA02",
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Turn it down",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Each comment is too forceful. Rewrite it so it makes the **same point** with **less force**. The first one is done for you.",
+        "columns": [
+          "Too forceful",
+          "Turned down (same point)"
+        ],
+        "rows": [
+          [
+            "This is the dumbest take I've ever seen.",
+            "I see it differently. Here's why:"
+          ],
+          [
+            "You clearly know nothing about footy.",
+            ""
+          ],
+          [
+            "Everyone hates this song. Get over it.",
+            ""
+          ],
+          [
+            "Shut up, you're wrong.",
+            ""
+          ],
+          {
+            "cells": [
+              "Typical. People like you always say that.",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E3LA02",
+          "VC2E8LA01",
+          "VC2E7LA02"
+        ],
+        "vcNote": "Grading the force of evaluative language; how language shapes relationships."
+      },
+      {
+        "type": "sort",
+        "title": "Reply, report or walk away?",
+        "pagebreak": true,
+        "choices": [
+          "Reply",
+          "Report",
+          "Walk away"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is something that happens online. Tick the best first move, and say why.",
+        "cards": [
+          {
+            "from": "Game chat",
+            "text": "A teammate says your strategy is bad, and explains why.",
+            "answer": "Reply",
+            "flags": "A fair disagreement. Answer with reasons."
+          },
+          {
+            "from": "Group chat",
+            "text": "Someone posts a fake rumour about a classmate.",
+            "answer": "Report",
+            "flags": "It's targeting someone. Support them too."
+          },
+          {
+            "from": "Comments",
+            "text": "A stranger writes “ur all trash lol” on every post.",
+            "answer": "Walk away",
+            "flags": "A troll. Block or mute."
+          },
+          {
+            "from": "Messages",
+            "text": "Someone threatens to hurt another student.",
+            "answer": "Report",
+            "flags": "Tell an adult now. Call 000 if there's danger."
+          },
+          {
+            "from": "Group chat",
+            "text": "A mate makes a racist “joke”.",
+            "answer": "Reply",
+            "flags": "Call it out calmly, or report it if it continues.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Messages",
+            "text": "Someone keeps messaging you after you've said stop.",
+            "answer": "Report",
+            "flags": "Block and report. Tell an adult.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LY01",
+          "VC2E4LY01"
+        ],
+        "vcNote": "Choosing an interaction strategy for purpose and context."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: what teens face online",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What were the **three** most common negative experiences?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LA02"
+            ]
+          },
+          {
+            "q": "Why might being **left out** online hurt, even when no one says anything mean?",
+            "lines": 2,
+            "vc": [
+              "VC2E8LY01"
+            ]
+          },
+          {
+            "q": "Explain the steps of eSafety's cyberbullying scheme in your own words.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY01"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: a cool-headed reply",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Someone writes: *“Phones should be banned at school. If you disagree, you're addicted.”* Write a calm reply. Give a reason. No insults.",
+          "core": "Someone in your group chat posts: *“Phones should be totally banned at school. Anyone who disagrees is just addicted.”* Write a reply that disagrees (or agrees with part of it), with reasons and no insults.",
+          "extend": "Someone posts: *“Phones should be totally banned at school. Anyone who disagrees is just addicted.”* Write a reply that challenges the claim and its implied put-down, using lower-force language, acknowledgement and substantiated reasons."
+        },
+        "plan": [
+          {
+            "label": "What I partly agree with",
+            "lines": 1
+          },
+          {
+            "label": "My reason (or evidence)",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "I get why you think that…",
+            "But I think… because…",
+            "What do you think about…?"
+          ],
+          "core": [
+            "I get why you think that…",
+            "I see it a bit differently, because…",
+            "For example, …",
+            "What do you think about…?"
+          ]
+        },
+        "lines": {
+          "support": 5,
+          "core": 6
+        },
+        "check": [
+          "no insults",
+          "an acknowledgement",
+          "an I-statement",
+          "at least one reason",
+          "a question or calm ending"
+        ],
+        "vc": [
+          "VC2E6LY01",
+          "VC2E5LA02",
+          "VC2E7LA02",
+          "VC2E8LY01"
+        ],
+        "vcNote": "Disagreeing respectfully with substantiated reasons."
+      },
+      {
+        "type": "questions",
+        "title": "Be an upstander",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "A classmate, Jordan, is being laughed at in a big group chat over a photo. Write a **private** message to Jordan.",
+            "lines": 3,
+            "vc": [
+              "VC2E4LY01",
+              "VC2E6LY01"
+            ]
+          },
+          {
+            "q": "Write **one** short message you could post in the group chat to change the direction of the conversation.",
+            "lines": 2,
+            "vc": [
+              "VC2E8LA01",
+              "VC2E3LA02"
+            ]
+          },
+          {
+            "q": "When would you **report** it instead of (or as well as) replying?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY01"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": {
+          "support": true,
+          "core": false,
+          "extend": false
+        },
+        "items": [
+          {
+            "q": "Phrases like *“no offence, but…”* or *“I'm just saying…”* often hide a put-down. Find **two** more. Explain the **implied** meaning of each, and how you'd respond.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY01"
+            ]
+          },
+          {
+            "q": "Online, people take on roles: troll, target, bystander, upstander. How does the language each one uses show their role?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LA01"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can disagree without attacking.",
+          "I can turn my words down.",
+          "I can stand up for someone.",
+          "I know when to reply, report or walk away."
+        ],
+        "questions": [
+          "Next time I'm about to send something angry, I'll:",
+          "Who I'd tell if something bad happened online:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn why online disagreement escalates (no face, tone or timing; public audiences; pile-ons) and how to respond: pausing, grading the force of evaluative language, disagreeing with the idea rather than the person, substantiating claims with reasons, disengaging from trolls, acting as upstanders and using reporting pathways (screenshot, report to the platform, tell a trusted adult, and eSafety's cyberbullying scheme for under-18s after 48 hours). The case study is eSafety's research on Aussie teens' negative online experiences. Under-16s are now restricted from major social media platforms, so the course uses group chats and game chats as its main settings.",
+    "prep": [
+      "Know your school's procedures for online bullying and disclosures before you start.",
+      "Have support details visible: Kids Helpline (1800 55 1800), your wellbeing team, eSafety.",
+      "Choose low-stakes example topics (games, sport, music) for practice. Avoid making students argue about their identities."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Cool head",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** the “loser” message. What would you want to send? What would happen?",
+          "**Explicit teaching (10 min):** why online escalates; turning it down; reasons not insults.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Anatomy of a cool-headed reply (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Choose your move",
+        "minutes": 50,
+        "steps": [
+          "**Turn it down (15 min).** Read rewrites aloud: same point, less force?",
+          "**Reply, report or walk away? (15 min).**",
+          "**Case study (20 min):** what teens face online."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Stand up",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (20 min):** a cool-headed reply.",
+          "**Be an upstander (15 min).**",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Online messages lack face, tone and timing, so they land harder.",
+      "Pause and re-read before replying.",
+      "Grade your force: same point, less heat.",
+      "Attack the idea, not the person; give reasons; ask questions.",
+      "Don't feed trolls: block, mute, leave.",
+      "Upstanders support the target, don't amplify, and report.",
+      "Serious harm: screenshot, report to the platform, tell a trusted adult; under-18s can go to eSafety if serious cyberbullying isn't removed in 48 hours. Danger: 000."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and rows.",
+        "Sentence starters for the reply."
+      ],
+      "extend": [
+        "Challenge implied put-downs (final mission, Level Up).",
+        "Analyse online roles through language (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LA02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Varies the force of evaluative language (Turn it down, final mission)."
+      },
+      {
+        "vc": "VC2E4LY01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Acknowledges another opinion and responds to it (reply, upstander message)."
+      },
+      {
+        "vc": "VC2E6LY01",
+        "evidence": "Uses interaction skills to disagree, support and decide when to report (sort, final mission, upstander)."
+      },
+      {
+        "vc": "VC2E5LA02",
+        "evidence": "Moves beyond bare assertions by giving reasons (annotation, final mission)."
+      },
+      {
+        "vc": "VC2E6LA02",
+        "evidence": "Distinguishes objective information from subjective attack (case study, Turn it down)."
+      },
+      {
+        "vc": "VC2E8LY01",
+        "evidence": "Challenges stated and implied meanings in discussion (final mission, Level Up)."
+      },
+      {
+        "vc": "VC2E7LA02",
+        "evidence": "Uses the language of evaluation and substantiation (Turn it down, final mission)."
+      },
+      {
+        "vc": "VC2E8LA01",
+        "evidence": "Explains how language shapes relationships and roles online (Turn it down, Level Up)."
+      }
+    ],
+    "answers": "**Check your reading:** no face or tone, readers assume the worst, others can join in. Upstander: message privately, post something kind, don't share, report. Reporting: screenshot, report to the platform, tell a trusted adult, then eSafety after 48 hours for under-18s.\n\n**Reply:** 1 acknowledge; 2 I-statement; 3 reason; 4 question; 5 restraint (no insults, no screenshots); 6 result (it calmed down).\n\n**Turn it down (samples):** *I think you might be missing how the new rules work*; *I actually like it, but I know it's not for everyone*; *I don't agree. Can I explain why?*; *That feels like a generalisation. Not everyone thinks that way.*\n\n**Sort:** strategy feedback — reply; rumour — report (and support); troll — walk away; threat — report (adult, 000 if danger); racist joke — reply (call it out calmly) and report if it continues; ignoring stop — report (block, tell an adult).\n\n**Case study:** contact from a stranger (30%), unwanted content (20%), exclusion (16%); exclusion signals you don't belong, even silently; report to the platform first; if serious cyberbullying isn't removed within 48 hours, under-18s can complain to eSafety.",
+    "resources": [
+      {
+        "label": "eSafety — The digital lives of Aussie teens (2021)",
+        "url": "https://www.esafety.gov.au/research/digital-lives-of-aussie-teens"
+      },
+      {
+        "label": "eSafety — Cyberbullying scheme regulatory guidance (2023)",
+        "url": "https://esafety.gov.au/sites/default/files/2023-12/Cyberbullying-Scheme-Regulatory-Guidance-Updated-December2023.pdf"
+      },
+      {
+        "label": "eSafety — Social media age restrictions (young people)",
+        "url": "https://www.esafety.gov.au/young-people/social-media-age-restrictions"
+      }
+    ],
+    "realityCheck": [
+      "**This can bring up real experiences.** Some students are being bullied right now, or are doing the bullying. Keep examples general, and follow up privately.",
+      "**Don't force public disagreement about identity.** Use low-stakes topics for practice.",
+      "**Racism and hate.** Calling it out is good, but safety comes first. Make reporting and telling an adult equally valid choices.",
+      "**The research is from 2020.** It was collected before the social media age restrictions. Mention that online life has changed since, but the patterns still apply in group chats and games.",
+      "**Works in a real class:** yes. It's directly useful, and the rewriting work is a strong language lesson."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and rows, and sentence starters for the reply.",
+      "core": "Standard version: why online escalates, anatomy of a cool-headed reply, turning down force, reply/report/walk away sort, the eSafety teen research, a respectful reply and an upstander message.",
+      "extend": "Adds pile-on and implied to the vocabulary, a quiz question on implied put-downs, a reply challenging an implied put-down, and Level Ups on implied meanings and online roles."
+    }
+  }
+}

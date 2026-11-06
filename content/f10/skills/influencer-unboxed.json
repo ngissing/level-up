@@ -1,0 +1,982 @@
+{
+  "id": "influencer-unboxed",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "“I'm **obsessed** with these headphones! Not sponsored!” Then: “Use my code **SAMI15**. Link in bio!” Review, or ad?",
+      "core": "“Honestly, I'm **obsessed** with these headphones. Not even sponsored, I just love them!” Bright light. Upbeat music. A slow-motion unboxing. Thirty seconds later: “Use my code **SAMI15** for 15% off. Link in bio. They're selling out fast!” Was that a review, or an ad?"
+    },
+    "why": {
+      "support": "Influencers get paid to make you want things. Their words, pictures and music are all chosen on purpose. Spot who's paying, and you decide what you want.",
+      "core": "Influencers are paid to make you want things, and the best ones make it feel like advice from a friend. Every choice in their videos is deliberate: the words, the lighting, the music, the order of the shots. When you can spot who's paying and how the techniques work, you decide what you want, not them.",
+      "extend": "Influencer content blends personal voice with commercial purpose. Its persuasive power comes from multimodal choices (language, image, sound and structure) that build trust and desire. Analysing those choices, and the commercial relationship behind them, lets you read the post as the advertisement it often is."
+    },
+    "canDo": {
+      "support": [
+        "I can tell if a post is an ad.",
+        "I can spot selling words.",
+        "I can say how pictures and music make me feel.",
+        "I can explain what a post is selling."
+      ],
+      "core": [
+        "I can tell whether a post is **sponsored**.",
+        "I can spot **persuasive words** that are feelings, not facts.",
+        "I can explain how **images, sound and editing** make me feel.",
+        "I can **analyse** what a real post is selling."
+      ]
+    },
+    "showIt": "Unbox a real influencer post and write what it's really selling, with evidence.",
+    "vocab": [
+      {
+        "word": "influencer",
+        "meaning": "someone paid to get followers to buy things",
+        "example": "The influencer had 2 million followers."
+      },
+      {
+        "word": "sponsored",
+        "meaning": "paid for by a brand",
+        "example": "The video was sponsored by a headphone company."
+      },
+      {
+        "word": "disclose",
+        "meaning": "make it clear",
+        "example": "Influencers must disclose paid posts."
+      },
+      {
+        "word": "discount code",
+        "meaning": "a code for money off that often pays the influencer",
+        "example": "Her discount code was JAZ20."
+      },
+      {
+        "word": "technique",
+        "meaning": "a method used on purpose",
+        "example": "Slow motion is a technique to build excitement."
+      },
+      {
+        "word": "close-up",
+        "meaning": "a shot where the camera is very near",
+        "example": "The close-up made it feel personal."
+      },
+      {
+        "word": "affiliate link",
+        "meaning": "a link that pays the influencer if you buy",
+        "example": "The link in bio was an affiliate link.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "subjective",
+        "meaning": "based on feelings, not facts",
+        "example": "“Life-changing” is a subjective word.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Influencer Unboxed in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Influencer Unboxed",
+        "sub": "Is it a review… or an ad?",
+        "icon": "lucide:sparkles",
+        "say": "Influencer unboxed. Is it a review, or an ad?"
+      },
+      {
+        "kind": "big",
+        "big": "81%",
+        "title": "of influencers checked had posts that raised concerns",
+        "sub": "ACCC, 2023",
+        "say": "In 2023, the ACCC checked one hundred and eighteen influencers. Eighty-one per cent had posts that raised concerns.",
+        "vc": [
+          "VC2E6LY07"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "$",
+        "pill": "Unbox it",
+        "pillIcon": "lucide:package-open",
+        "title": "Who's paying?",
+        "text": "#ad · Paid partnership · **Code**",
+        "icon": "lucide:badge-dollar-sign",
+        "say": "First, who's paying? Look for ad, paid partnership, gifted, or a discount code. The law says paid posts must be clear.",
+        "vc": [
+          "VC2E3LY09",
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "W",
+        "pill": "Unbox it",
+        "pillIcon": "lucide:package-open",
+        "title": "The words",
+        "text": "*Obsessed* · *Honestly* · *Life-changing*",
+        "icon": "lucide:message-square-quote",
+        "say": "Listen to the words. Obsessed, honestly, life-changing. They sound like facts, but they're feelings.",
+        "vc": [
+          "VC2E6LA02",
+          "VC2E7LY05"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "I",
+        "pill": "Unbox it",
+        "pillIcon": "lucide:package-open",
+        "title": "The pictures",
+        "text": "Close-up · Light · **Before/after**",
+        "icon": "lucide:camera",
+        "say": "Watch the pictures. Close-ups feel personal. Bright light makes things look perfect. Before and after shots tell a story.",
+        "vc": [
+          "VC2E6LA07",
+          "VC2E3LA10"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "♪",
+        "pill": "Unbox it",
+        "pillIcon": "lucide:package-open",
+        "title": "The sound",
+        "text": "Upbeat · Trending · **Feel-good**",
+        "icon": "lucide:music",
+        "say": "Hear the sound. Upbeat music and trending sounds make you feel good, and keep you watching.",
+        "vc": [
+          "VC2E3LA10",
+          "VC2E7LA07"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Unbox any post",
+        "steps": [
+          "Who's paying?",
+          "Which techniques?",
+          "What's left out?",
+          "You decide"
+        ],
+        "say": "To unbox any post: who's paying, what techniques are used, what's left out, then decide for yourself."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Pay. Words. Pictures. Sound.",
+        "icon": "lucide:scan-eye",
+        "say": "Your mission. Unbox a real influencer post, and write what it's really selling."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Is it a review, or an ad?",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "**Influencers** earn money when followers buy things. Even if you're under 16, you still see their videos.\n\n**How they get paid**\n\n- A brand pays them to post: **sponsored**.\n- A brand gives them free stuff.\n- They earn money from their **discount code**.\n\n**Paid posts must be clear.** Look for **#ad** or **Paid partnership**.\n\n**The tricks.**\n\n- **Words:** *obsessed*, *honestly*, *you NEED this*. Feelings, not facts.\n- **Pictures:** **close-ups**, bright light, before and after.\n- **Sound:** happy, upbeat music.\n- **Ending:** *Link in bio! Selling out fast!*\n- **Friendship:** *Hey besties!* They talk like your friend.\n\n**Unbox any post.** Who's paying? What tricks? What's missing? Then you decide.",
+          "core": "**Influencers** make money by getting their followers to like, try and buy things. Even if you're under 16 and can't have an account on platforms like TikTok or Instagram, you still see their videos: on YouTube without logging in, in group chats, and in ads.\n\n**How influencers get paid**\n\n- A brand pays them to post: a **sponsored** post.\n- A brand sends free products, called **gifted** items.\n- They earn money each time you buy through their **discount code** or **affiliate link**.\n\n**The law says paid posts must be clear.** In Australia, it's against the law to mislead people. If an influencer is paid or gifted something, they need to **disclose** it clearly, with labels like **#ad** or **Paid partnership**, where you'll see them. Vague tags like *#sp*, *#collab* or *#ambassador*, hidden among twenty other hashtags, may not be clear enough.\n\n**The techniques.** Every part of an influencer video is chosen on purpose.\n\n- **Words.** *Obsessed*, *honestly*, *life-changing*, *you NEED this*. These are **subjective**: feelings, not facts.\n- **Pictures.** **Close-ups** feel personal, like a friend talking to you. Bright light and perfect rooms make everything look better. **Before and after** shots tell a story.\n- **Sound.** Upbeat music and trending sounds make you feel good and keep you watching.\n- **Structure.** A hook in the first three seconds. A problem. The product fixes it. Then a call to action: *link in bio, selling out fast!*\n- **Relationship.** *Hey besties!* They talk like your friend, so you trust them like one.\n\n**Unbox any post.** Ask: Who's paying? What techniques are used? What's left out, like the price, the side effects, or the reviews that weren't so good? Then decide for yourself.",
+          "extend": "**Influencers** earn money from attention. Their income depends on persuading followers to buy things. Under-16s can no longer hold accounts on platforms like TikTok and Instagram. But they still see influencer content through YouTube (without logging in), shared links and ads.\n\n**How influencers are paid:** **sponsored** posts, **gifted** products, and commission from **discount codes** and **affiliate links**.\n\n**Disclosure.** Australian law bans misleading conduct. If an influencer is paid or gifted something, the post should **disclose** it clearly, where people will see it (for example, **#ad** or a **Paid partnership** label). Vague tags like *#sp*, *#collab* or *#ambassador*, buried in hashtags, may not be clear enough.\n\n**The techniques work together.**\n\n- **Language:** **subjective** words (*obsessed*, *life-changing*) and words like *literally* and *honestly* make opinion sound like proof.\n- **Image:** **close-ups** feel personal. Lighting and styling make the setting look perfect. Before-and-after shots tell a problem-and-solution story.\n- **Sound:** music and trending audio set the mood and keep you watching.\n- **Structure:** a hook, a problem, the product as the answer, then a call to action, often with pressure (*selling out fast*).\n- **Relationship:** talking like a friend (*hey besties*) builds trust.\n\n**Analyse any post.** Who benefits? Which techniques are used? What's left out: the price, the risks, the bad experiences?"
+        },
+        "vc": [
+          "VC2E6LY07",
+          "VC2E6LA02",
+          "VC2E6LA07",
+          "VC2E3LA10",
+          "VC2E3LY09",
+          "VC2E7LA07"
+        ],
+        "vcNote": "How language, images, sound and structure in influencer content persuade; subjective language and bias; disclosure of commercial purpose."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The influencer check-up",
+        "icon": "lucide:scan-eye",
+        "body": {
+          "support": "The **ACCC** protects shoppers. In **2023**, it checked **118 influencers**.\n\nWhat it found:\n\n- **81%** had posts that were a problem.\n- In **fashion**, it was **96%**.\n\nThe biggest problem? Not saying that a brand had **paid** them.\n\nSome used words like *spon* or *collab*. Lots of people don't know what those mean.\n\nSo always check: who's paying?",
+          "core": "The **ACCC** is the government agency that protects shoppers. In **2023**, it checked the posts of **118 influencers** on Instagram, TikTok, Snapchat, YouTube, Facebook and Twitch. Members of the public had tipped the ACCC off about them.\n\nIt released what it found in **December 2023**:\n\n- **81%** of the influencers had made posts that **raised concerns** under consumer law.\n- In **fashion**, it was **96%**.\n- In **gaming and tech**, it was **73%**.\n\nThe most common problem? Influencers **not disclosing** that a brand had paid them or given them something.\n\nThe ACCC also flagged **vague labels**: *sp*, *spon*, *sponcon*, *collab*, *ambassador*. Many people don't know what they mean, so they may not make it clear the post is an ad.\n\nThe ACCC said it would keep watching, and could take action against influencers and businesses that keep breaking the rules.",
+          "extend": "The **ACCC** is Australia's consumer watchdog. After tip-offs from the public, it reviewed the posts of **118 influencers** on Instagram, TikTok, Snapchat, YouTube, Facebook and Twitch. It reported what it found in **December 2023**.\n\n- **81%** of the influencers had made posts that raised concerns under consumer law.\n- The rate was highest in **fashion** (**96%**). It was lower, but still high, in **gaming and tech** (**73%**).\n\nThe most common problem was **not disclosing** brand deals. The ACCC also flagged **vague labels** (*sp*, *spon*, *sponcon*, *collab*, *ambassador*). Many people may not realise these mean a post is an ad.\n\nThe ACCC said it would keep watching, and could take action against people who kept breaking the rules.\n\nThe findings show that the selling purpose of a post is often hidden. So it's up to viewers to read carefully."
+        },
+        "source": {
+          "name": "ACCC — “Scrutiny of influencers and businesses for misleading advertising and online reviews continues” (December 2023)",
+          "url": "https://www.accc.gov.au/media-release/scrutiny-of-influencers-and-businesses-for-misleading-advertising-and-online-reviews-continues"
+        },
+        "think": {
+          "support": [
+            "What was the biggest problem?",
+            "Why is collab confusing?"
+          ],
+          "core": [
+            "What was the most common problem the ACCC found?",
+            "Why might vague labels like collab be a problem?",
+            "Why do you think fashion had the highest rate?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY07",
+          "VC2E8LY05"
+        ],
+        "vcNote": "Real regulator data on undisclosed commercial content."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a sponsored video",
+      "docTitle": "@GLOWWITHJAZ · 30-SECOND VIDEO (EXAMPLE)",
+      "vc": [
+        "VC2E6LA07",
+        "VC2E3LA10",
+        "VC2E6LY07",
+        "VC2E6LA02"
+      ],
+      "vcNote": "How the shots, sound, words and structure of a short video work together to persuade.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "0:00 Hook",
+          "value": "Close-up of Jaz's face: “You NEED to see this.”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "0:03 Problem",
+          "value": "Grey, dim “before” shot: “My skin was SO bad.”"
+        },
+        {
+          "n": 3,
+          "label": "0:08 Reveal",
+          "value": "Slow-motion unboxing. Bright light. Upbeat trending song."
+        },
+        {
+          "n": 4,
+          "label": "0:15 After",
+          "value": "Glowing skin, soft filter: “Honestly? Life-changing.”"
+        },
+        {
+          "n": 5,
+          "label": "0:20 Caption",
+          "value": "“Not even sponsored lol” · #skincare #glow #morning #collab"
+        },
+        {
+          "n": 6,
+          "label": "0:25 Call to action",
+          "value": "“Code JAZ20, link in bio. Selling out FAST!”",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "Close-up and a command grab you in 3 seconds."
+        },
+        {
+          "n": 2,
+          "label": "Problem",
+          "note": "Dim light makes “before” look worse."
+        },
+        {
+          "n": 3,
+          "label": "Reveal",
+          "note": "Light, slow motion and music build excitement."
+        },
+        {
+          "n": 4,
+          "label": "After",
+          "note": "A filter, plus a subjective word."
+        },
+        {
+          "n": 5,
+          "label": "Hidden disclosure",
+          "note": "Says not sponsored, but #collab is buried."
+        },
+        {
+          "n": 6,
+          "label": "Call to action",
+          "note": "Code, link and scarcity: buy now."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Unbox any post",
+      "steps": [
+        {
+          "title": "Who's paying?",
+          "text": "#ad, gifted, code, link?",
+          "icon": "lucide:badge-dollar-sign"
+        },
+        {
+          "title": "Techniques",
+          "text": "Words, pictures, sound, story.",
+          "icon": "lucide:wand-sparkles"
+        },
+        {
+          "title": "What's missing?",
+          "text": "Price, risks, bad reviews?",
+          "icon": "lucide:eye-off"
+        },
+        {
+          "title": "You decide",
+          "text": "Do I actually want it?",
+          "icon": "lucide:circle-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which label clearly shows a post is an ad?",
+        "options": [
+          "#ad at the start of the caption",
+          "#sp hidden in 20 hashtags",
+          "No label at all",
+          "#morningvibes"
+        ],
+        "answer": 0,
+        "explain": "Disclosure should be clear and easy to see.",
+        "vc": [
+          "VC2E3LY09"
+        ]
+      },
+      {
+        "q": "An influencer says “Use my code for 15% off.” What does that usually mean?",
+        "options": [
+          "They earn money when you buy",
+          "They're just being kind",
+          "The product is free",
+          "It's not an ad"
+        ],
+        "answer": 0,
+        "explain": "Codes and affiliate links often pay the influencer.",
+        "vc": [
+          "VC2E3LY09",
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "q": "Which word is **subjective**?",
+        "options": [
+          "Life-changing",
+          "Black",
+          "500 mL",
+          "$39"
+        ],
+        "answer": 0,
+        "explain": "It's a feeling, not something you can measure.",
+        "vc": [
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "q": "Why might a video use a dim, grey **before** shot?",
+        "options": [
+          "To make the “after” look better",
+          "Because the camera broke",
+          "To save money",
+          "To show the real colour"
+        ],
+        "answer": 0,
+        "explain": "Lighting choices shape how we see things.",
+        "vc": [
+          "VC2E6LA07",
+          "VC2E3LA10"
+        ]
+      },
+      {
+        "q": "What's the job of upbeat music in a sponsored video?",
+        "options": [
+          "To make you feel good and keep watching",
+          "To give you facts",
+          "To show the price",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Sound adds to the meaning and the mood.",
+        "vc": [
+          "VC2E3LA10"
+        ]
+      },
+      {
+        "q": "In the ACCC's 2023 check, what was the most common problem?",
+        "options": [
+          "Not disclosing brand relationships",
+          "Bad camera work",
+          "Posting too often",
+          "Using music"
+        ],
+        "answer": 0,
+        "explain": "81% of influencers checked had posts that raised concerns.",
+        "vc": [
+          "VC2E6LY07"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "“Hey besties!” What's that technique doing?",
+        "options": [
+          "Building a friend-like relationship, so you trust them",
+          "Giving facts",
+          "Disclosing an ad",
+          "Showing the price"
+        ],
+        "answer": 0,
+        "explain": "Address shapes the relationship, and the persuasion.",
+        "vc": [
+          "VC2E7LY05"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Look at a real influencer post. Who's paying? What tricks? Write what it's really selling.",
+      "core": "Unbox a real influencer post: find who's paying, the techniques used and what's left out, and write a short analysis with evidence.",
+      "extend": "Analyse a real influencer post's commercial relationship and multimodal techniques, evaluate its disclosure, and write an analytical paragraph explaining how it positions viewers, with evidence."
+    },
+    "checklist": [
+      "I found who's paying (or that it's unclear)",
+      "I named at least one word technique",
+      "I named at least one picture or sound technique",
+      "I said what's left out",
+      "I wrote my analysis with evidence"
+    ],
+    "levelUp": "Compare an influencer's post with the brand's own ad for the same product. How do they use quotes, “real people” and the influencer's voice differently?",
+    "vc": [
+      "VC2E6LY07",
+      "VC2E6LA07",
+      "VC2E6LA02"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Is it a review, or an ad?",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name **three** ways influencers get paid.",
+            "lines": 2,
+            "vc": [
+              "VC2E3LY09"
+            ]
+          },
+          {
+            "q": "What does the law say about paid posts? What labels make it clear?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LA02"
+            ]
+          },
+          {
+            "q": "Name **one** word, **one** picture and **one** sound technique.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY07",
+              "VC2E3LA10"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Unbox any post",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a sponsored video",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the video. Use the word bank. How does it make you feel?",
+          "core": "Each number marks a moment in Jaz's video. Write the technique, and what it's meant to make you think or feel."
+        },
+        "columns": [
+          "What's the technique?",
+          "What does it make you think or feel?"
+        ],
+        "wordBank": {
+          "support": [
+            "hook",
+            "problem",
+            "reveal",
+            "after",
+            "hidden ad",
+            "buy now"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LA07",
+          "VC2E3LA10",
+          "VC2E6LY07"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Ad or not?",
+        "pagebreak": true,
+        "choices": [
+          "Clear ad",
+          "Hidden ad",
+          "Not an ad"
+        ],
+        "reasonLabel": "How do you know?",
+        "instructions": "Each card is a post. Tick **clear ad**, **hidden ad** or **not an ad**, and say how you know.",
+        "cards": [
+          {
+            "from": "Caption",
+            "text": "“#ad I've teamed up with Buzz Sneakers to show you their new range!”",
+            "answer": "Clear ad",
+            "flags": "#ad, right at the start."
+          },
+          {
+            "from": "Caption",
+            "text": "“Loving my new hoodie 🧡 #ootd #style #cosy #autumn #fit #sp #vibes #mood”",
+            "answer": "Hidden ad",
+            "flags": "#sp, buried in hashtags."
+          },
+          {
+            "from": "Group chat",
+            "text": "Your cousin: “Got these shoes with my birthday money, so comfy.”",
+            "answer": "Not an ad",
+            "flags": "No brand paying."
+          },
+          {
+            "from": "Video",
+            "text": "A “Paid partnership with Glow Co.” label above the video",
+            "answer": "Clear ad",
+            "flags": "The platform's label."
+          },
+          {
+            "from": "Video",
+            "text": "“Not sponsored! Anyway, use my code SAM10.”",
+            "answer": "Hidden ad",
+            "flags": "A code usually pays the influencer.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Caption",
+            "text": "“So grateful for this gift from the team at Peak 🙏 #collab”",
+            "answer": "Hidden ad",
+            "flags": "Gifted, with a vague label.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E3LY09",
+          "VC2E6LA02",
+          "VC2E6LY07"
+        ],
+        "vcNote": "Identifying commercial purpose and evaluating disclosure."
+      },
+      {
+        "type": "table",
+        "title": "Read the techniques",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "For each technique, write what it looks or sounds like, and how it makes viewers feel or think. The first one is done for you.",
+        "columns": [
+          "Technique",
+          "What it looks or sounds like",
+          "How it makes you feel or think"
+        ],
+        "rows": [
+          [
+            "Close-up",
+            "The face fills the screen",
+            "Personal, like a friend talking to me"
+          ],
+          [
+            "Bright, soft lighting",
+            "",
+            ""
+          ],
+          [
+            "Upbeat music",
+            "",
+            ""
+          ],
+          [
+            "Before and after",
+            "",
+            ""
+          ],
+          [
+            "“Honestly, I'm obsessed”",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "“Selling out fast!”",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LA07",
+          "VC2E3LA10",
+          "VC2E6LA02",
+          "VC2E7LA07"
+        ],
+        "vcNote": "How images, sound and language create a point of view and position viewers."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the influencer check-up",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the ACCC find? Write **two** things.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY07"
+            ]
+          },
+          {
+            "q": "Why might a label like *#collab* not be clear enough?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LA02",
+              "VC2E8LY05"
+            ]
+          },
+          {
+            "q": "Why do you think fashion influencers had the highest rate?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: unbox a real post",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 21,
+          "core": 19
+        },
+        "instructions": "Choose a real influencer post or video (one your teacher gives you, or one you can watch without an account). Unbox it. The first row shows an example.",
+        "columns": [
+          "Unbox it",
+          "What I found"
+        ],
+        "rows": [
+          [
+            "Example: who's paying?",
+            "Glow Co. (a “Paid partnership” label and a discount code)"
+          ],
+          [
+            "The influencer and product",
+            ""
+          ],
+          [
+            "Who's paying? How do you know?",
+            ""
+          ],
+          [
+            "A word technique",
+            ""
+          ],
+          [
+            "A picture technique",
+            ""
+          ],
+          [
+            "A sound technique",
+            ""
+          ],
+          [
+            "What's left out?",
+            ""
+          ],
+          [
+            "Is the disclosure clear?",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LY07",
+          "VC2E6LA07",
+          "VC2E3LA10",
+          "VC2E6LA02"
+        ],
+        "vcNote": "Analysing the commercial relationship and multimodal techniques of a real post."
+      },
+      {
+        "type": "write",
+        "title": "What's it really selling?",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Is your post a review or an ad? What tricks does it use? Write your answer with examples.",
+          "core": "Write a short analysis of your post. Is it a review or an ad? Explain how it tries to make viewers want the product. Use evidence from the post.",
+          "extend": "Write an analytical paragraph: is the post a review or an advertisement? Explain how its language, images and sound work together to position viewers, evaluate its disclosure, and support each point with evidence."
+        },
+        "plan": [
+          {
+            "label": "Review or ad? (my main point)",
+            "lines": 1
+          },
+          {
+            "label": "My two best pieces of evidence",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "This post is an ad because…",
+            "It uses… to make me feel…",
+            "For example…"
+          ],
+          "core": [
+            "This post is really an ad because…",
+            "The influencer uses… to make viewers feel…",
+            "For example, …",
+            "The post leaves out…",
+            "Overall, …"
+          ]
+        },
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "a clear main point",
+          "a word technique, with an example",
+          "a picture or sound technique, with an example",
+          "what's left out",
+          "your own judgement"
+        ],
+        "vc": [
+          "VC2E6LY07",
+          "VC2E7LY05",
+          "VC2E6LA07"
+        ],
+        "vcNote": "Writing an analysis of how a multimodal text persuades, with evidence."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Compare an influencer's post with the brand's **own** ad for the same product. How does each use quotes, “real people” and voice? Which is more persuasive, and why?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY05",
+              "VC2E7LY05"
+            ]
+          },
+          {
+            "q": "Rewrite Jaz's caption so the ad is **clearly** disclosed, but still sounds like her.",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY05"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can tell if a post is sponsored.",
+          "I can spot persuasive words.",
+          "I can explain pictures and sound.",
+          "I can analyse a real post."
+        ],
+        "questions": [
+          "An ad I nearly fell for:",
+          "My best unboxing tip:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students analyse influencer content as persuasive multimodal texts. They learn how influencers are paid (sponsorship, gifting, discount codes, affiliate links), what clear disclosure looks like, and how language (subjective, evaluative words), images (close-ups, lighting, before-and-after), sound and structure (hook, problem, solution, call to action) work together to position viewers. The case study is the ACCC's December 2023 review of 118 influencers. The final task analyses a real post and writes what it's really selling.",
+    "prep": [
+      "Choose 3–4 real influencer posts or videos students can view without an account (e.g. logged-out YouTube, or screenshots). Avoid gambling, alcohol, vaping and adult content.",
+      "Check your school's rules on showing social media content in class, especially for under-16s.",
+      "Projector and speakers: the sound technique matters."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Who's paying?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** play a short sponsored video. Review or ad?",
+          "**Explicit teaching (10 min):** how influencers are paid; disclosure; techniques.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Ad or not? (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — The techniques",
+        "minutes": 50,
+        "steps": [
+          "**Anatomy of a sponsored video (15 min).** Pause a real video at each moment.",
+          "**Read the techniques (15 min).**",
+          "**Case study (20 min):** the influencer check-up."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Unbox it",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (20 min):** unbox a real post.",
+          "**What's it really selling? (20 min).**",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Influencers are paid through sponsorship, gifts, discount codes and affiliate links.",
+      "Paid relationships must be disclosed clearly (e.g. #ad or a Paid partnership label); vague tags may not be enough.",
+      "Subjective words present feelings as if they were facts.",
+      "Close-ups, lighting, before-and-after shots, music and structure all persuade.",
+      "Ask: who's paying, which techniques, what's left out? Then decide.",
+      "The ACCC (2023): 81% of 118 influencers reviewed had posts raising concerns; non-disclosure was the most common issue."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and technique rows.",
+        "Use the teacher's chosen post; sentence starters."
+      ],
+      "extend": [
+        "Write a full analytical paragraph evaluating disclosure.",
+        "Compare influencer and brand ads (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LA10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Identifies how images and sound add to a video's meaning (annotation, techniques table)."
+      },
+      {
+        "vc": "VC2E3LY09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Identifies a post's purpose and audience through its words and images (sort, final mission)."
+      },
+      {
+        "vc": "VC2E6LY07",
+        "evidence": "Analyses how structure and features work together to influence viewers (annotation, final mission, analysis)."
+      },
+      {
+        "vc": "VC2E6LA07",
+        "evidence": "Explains how images and sound create a point of view (techniques table, analysis)."
+      },
+      {
+        "vc": "VC2E6LA02",
+        "evidence": "Identifies subjective language and commercial bias (sort, techniques table)."
+      },
+      {
+        "vc": "VC2E7LA07",
+        "evidence": "Explores how still and moving images and sound create a perspective (annotation, analysis)."
+      },
+      {
+        "vc": "VC2E7LY05",
+        "evidence": "Analyses how language features shape meaning for an audience (analysis, Level Up)."
+      },
+      {
+        "vc": "VC2E8LY05",
+        "evidence": "Level Up / case study: analyses how quotes, testimony and voice are used and repurposed."
+      }
+    ],
+    "answers": "**Check your reading:** sponsored posts, gifted products, discount codes and affiliate links. Paid posts must be disclosed clearly, e.g. #ad or Paid partnership. Techniques: subjective words (obsessed); close-ups, lighting, before-and-after; upbeat music.\n\n**Video:** 1 hook (close-up and command); 2 problem (dim before shot); 3 reveal (slow motion, light, music); 4 after (filter, subjective word); 5 hidden disclosure (claims not sponsored, but #collab buried); 6 call to action (code, link, scarcity).\n\n**Sort:** #ad at the start — clear ad; #sp in hashtags — hidden ad; cousin's shoes — not an ad; Paid partnership label — clear ad; not sponsored but a code — hidden ad; gift with #collab — hidden ad.\n\n**Techniques (samples):** bright lighting — everything looks perfect, so the product seems to make life better; upbeat music — happy, energetic, want to keep watching; before and after — a story where the product is the hero; obsessed — sounds like honest proof, but it's a feeling; selling out fast — pressure to buy now.\n\n**Case study:** 81% had posts raising concerns; 96% in fashion; non-disclosure was most common; vague labels may not be understood as ads; fashion relies heavily on gifted products and lifestyle content.",
+    "resources": [
+      {
+        "label": "ACCC — Scrutiny of influencers and businesses for misleading advertising and online reviews continues (December 2023)",
+        "url": "https://www.accc.gov.au/media-release/scrutiny-of-influencers-and-businesses-for-misleading-advertising-and-online-reviews-continues"
+      },
+      {
+        "label": "eSafety — Social media age restrictions (young people)",
+        "url": "https://www.esafety.gov.au/young-people/social-media-age-restrictions"
+      }
+    ],
+    "realityCheck": [
+      "**Most students under 16 no longer hold accounts on the major platforms,** but they still see influencer content. Use logged-out viewing, screenshots or teacher-chosen examples.",
+      "**Some students want to be influencers.** Use it: understanding the techniques is the first step to using them honestly (see Make Content That Counts).",
+      "**Pick examples carefully.** Avoid gambling, alcohol, vaping, diet and adult content.",
+      "**Don't shame students for buying things.** The goal is informed choices, not guilt.",
+      "**Works in a real class:** yes. It's highly engaging, and pairs with The Odds Are Against You and Buy Smart Online."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and technique rows, a teacher-chosen post and sentence starters.",
+      "core": "Standard version: sponsored video anatomy, ad-or-not sort, reading multimodal techniques, the ACCC 2023 influencer review, unboxing a real post and a written analysis.",
+      "extend": "Adds affiliate link and subjective to the vocabulary, a quiz question on friend-like address, an analytical paragraph evaluating disclosure, and Level Ups comparing influencer and brand ads and rewriting a disclosure."
+    }
+  }
+}
