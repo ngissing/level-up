@@ -1,0 +1,1017 @@
+{
+  "id": "getting-around",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "Your first shift is at **8 am**, somewhere new. The app says: *Bus 903. Change at Mordialloc.* Then your phone dies. Now what?",
+      "core": "Your first shift starts at **8 am**, in a suburb you've never been to. The app says: *Walk 6 min. Route 903. Change at Mordialloc.* Then, at the stop, your phone dies. A stranger says, “Oh, it's down there a bit, sort of on the left.” Now what?"
+    },
+    "why": {
+      "support": "Getting around means reading **maps** and **apps**, and asking for directions. Get it right, and you can get anywhere.",
+      "core": "Getting around is a reading and speaking job. You read **maps**, **symbols** and **apps**. You ask for directions and check you've understood them. And you give directions other people can actually follow. Get it right, and you can get yourself anywhere: to work, to TAFE, to a gig and home again.",
+      "extend": "Navigating a transport network means reading multimodal texts (maps, symbols, apps and alerts) and using spoken interaction to gather and confirm information. Each text makes choices about what to show and what to leave out, so knowing how they work makes you a more independent traveller."
+    },
+    "canDo": {
+      "support": [
+        "I can read a map key.",
+        "I can use a journey planner app.",
+        "I can ask for directions and check them.",
+        "I can give clear directions."
+      ],
+      "core": [
+        "I can read a **map**: its key, symbols, lines and interchanges.",
+        "I can use a **journey planner** app, and plan a backup.",
+        "I can **ask for directions** and check I've understood.",
+        "I can **give directions** someone else can follow."
+      ]
+    },
+    "showIt": "Plan a real trip, then give and follow spoken directions with a partner, and write directions a visitor could follow.",
+    "vocab": [
+      {
+        "word": "map key",
+        "meaning": "the box that explains what a map's symbols and colours mean",
+        "example": "The map key says blue is the Frankston line."
+      },
+      {
+        "word": "symbol",
+        "meaning": "a small picture that stands for something",
+        "example": "The wheelchair symbol means the station is accessible."
+      },
+      {
+        "word": "interchange",
+        "meaning": "a place where you can change to another line or route",
+        "example": "Caulfield is an interchange."
+      },
+      {
+        "word": "journey planner",
+        "meaning": "an app or website that plans your trip",
+        "example": "The journey planner said to leave at 7:10."
+      },
+      {
+        "word": "landmark",
+        "meaning": "something easy to spot that helps you find your way",
+        "example": "Turn left at the big water tower."
+      },
+      {
+        "word": "disruption",
+        "meaning": "a change that stops services running as normal",
+        "example": "There's a disruption on the Hurstbridge line."
+      },
+      {
+        "word": "replacement bus",
+        "meaning": "a bus that runs when trains can't",
+        "example": "I caught a replacement bus to Ringwood.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "paraphrase",
+        "meaning": "say the same thing in your own words",
+        "example": "I paraphrased the directions to check them.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Getting Around in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Getting Around",
+        "sub": "Maps, timetables and not missing the last train.",
+        "icon": "lucide:train-front",
+        "say": "Getting around. Maps, timetables and not missing the last train."
+      },
+      {
+        "kind": "big",
+        "title": "Free under 18",
+        "text": "Youth myki · **Free** trains, trams, buses",
+        "icon": "lucide:ticket",
+        "say": "Since January 2026, anyone in Victoria under eighteen can catch trains, trams and buses for free, with a Youth myki."
+      },
+      {
+        "kind": "flag",
+        "letter": "K",
+        "pill": "Read the map",
+        "pillIcon": "lucide:map",
+        "title": "Find the key",
+        "text": "Colours · Symbols · **Interchanges**",
+        "icon": "lucide:map",
+        "say": "Start with the map key. It tells you what every colour and symbol means.",
+        "vc": [
+          "VC2E6LA07",
+          "VC2E4LA05"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "D",
+        "pill": "Read the map",
+        "pillIcon": "lucide:map",
+        "title": "A map is a choice",
+        "text": "Easy to read, **not to scale**",
+        "icon": "lucide:route",
+        "say": "Train maps are diagrams. They straighten lines and space out stations to make them easy to read. So they don't show real distances.",
+        "vc": [
+          "VC2E6LA07"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "A",
+        "pill": "Use the app",
+        "pillIcon": "lucide:smartphone",
+        "title": "Leave at, or arrive by?",
+        "text": "Plan it · **Check alerts**",
+        "icon": "lucide:smartphone",
+        "say": "Journey planner apps let you choose leave at, or arrive by. Check the alerts before you go.",
+        "vc": [
+          "VC2E4LA05",
+          "VC2E7LY04"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "?",
+        "pill": "Ask",
+        "pillIcon": "lucide:message-circle",
+        "title": "Say it back",
+        "text": "“So I… then…?”",
+        "icon": "lucide:message-circle",
+        "say": "Asking for directions? Say it back to check. So I turn left at the lights, then it's next to the post office?",
+        "vc": [
+          "VC2E5LY01",
+          "VC2E4LY01"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Give clear directions",
+        "steps": [
+          "Start point",
+          "Steps in order",
+          "Landmarks",
+          "Gone too far?"
+        ],
+        "say": "Giving directions? Start point, steps in order, landmarks, and how to know you've gone too far."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Read it. Plan it. Ask it. Give it.",
+        "icon": "lucide:compass",
+        "say": "Your mission. Plan a real trip, give and follow directions with a partner, and write directions a visitor could follow."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to get around",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Since **1 January 2026**, anyone in Victoria under 18 can catch trains, trams and buses for **free** with a **Youth myki**. Here's how to get where you're going.\n\n**1. Read the map.** Find the **map key**. It tells you what the colours and **symbols** mean. Look for **interchanges**: places where you can change lines.\n\n**2. Use a journey planner app.** Type where you're going. Choose **leave at** or **arrive by**. Check for **disruptions**.\n\n**3. Check the front.** The train or bus shows where it's going.\n\n**4. Have a Plan B.** Charge your phone. Know when the last service leaves.\n\n**5. Ask, and say it back.** *So I turn left, then it's next to the shop?*\n\n**6. Give clear directions.** Say the steps in order. Use **landmarks**, like a big church.",
+          "core": "Since **1 January 2026**, anyone in Victoria under 18 can catch trains, trams and buses for **free** with a **Youth myki**. It costs $5 to buy, and you still tap on and off. Free travel only helps if you can work out where you're going. Here's how.\n\n**1. Read the map.** Start with the **map key**. It explains what each colour, line and **symbol** means. Look for **interchanges**, where lines meet and you can change. Most train maps are **diagrams**: they straighten the lines and space out the stations so they're easier to read. That means they don't show real distances.\n\n**2. Use a journey planner.** Apps like the PTV app or Google Maps plan your trip for you. Type where you're going, then choose **leave at** or **arrive by**. Check the platform, the stop and the time to **change**. Always check **alerts** for **disruptions**: if trains aren't running, there may be a **replacement bus**.\n\n**3. Check the destination.** Trains and buses show where they're going on the front. Make sure it's the right one, in the right direction.\n\n**4. Have a Plan B.** Charge your phone. Know when the last service home leaves. Save a number to call if you get stuck.\n\n**5. Ask for directions, and check them.** Station staff are there to help. When someone gives you directions, **paraphrase** them back: *So I go out the main exit, turn left, and it's next to the post office?*\n\n**6. Give directions people can follow.** Start with where they are. Give the steps **in order**. Use **landmarks** they can see, like a big church or a bridge. And tell them how they'll know they've gone too far.",
+          "extend": "Since **1 January 2026**, all Victorians under 18 can travel free on trains, trams and buses with a **Youth myki** ($5, with tap-on and tap-off still required). Using the network well depends on reading its texts.\n\n**1. Read the map.** The **map key** (or legend) explains colours, lines and **symbols**. **Interchanges** show where routes connect. Network maps are usually **diagrams**, not to scale: lines are straightened and stations evenly spaced. This makes the map easier to read, but it hides real distances and geography. Every map is a set of choices about what to show.\n\n**2. Use a journey planner.** Apps such as the PTV app or Google Maps calculate routes. Set **leave at** or **arrive by**, then check platforms, stops and connection times. Real-time **alerts** flag **disruptions** and **replacement buses**.\n\n**3. Confirm the destination** shown on the vehicle and the direction of travel.\n\n**4. Plan for failure.** Battery, data and last services are all points of failure. Know the last service home and a backup.\n\n**5. Clarify spoken directions.** **Paraphrase** them back and ask questions: *So I take the main exit, turn left, and it's opposite the bakery?*\n\n**6. Give directions with a clear structure:** a starting point, sequenced steps, visible **landmarks**, and a check (*if you reach the bridge, you've gone too far*)."
+        },
+        "vc": [
+          "VC2E6LA07",
+          "VC2E4LA05",
+          "VC2E5LY01",
+          "VC2E4LY01",
+          "VC2E5LY09",
+          "VC2E7LY04"
+        ],
+        "vcNote": "Reading maps, symbols and app navigation features; how maps make choices; asking for, checking and giving directions."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The map that changed",
+        "icon": "lucide:train-track",
+        "body": {
+          "support": "Some trains in Melbourne used to go through the **City Loop**.\n\nThen the **Metro Tunnel** opened. From **1 February 2026**, trains on the **Sunbury**, **Cranbourne** and **Pakenham** lines go through the new tunnel instead. It has **five new stations**, like **Town Hall** and **State Library**.\n\nLots of people had to find a new way. The advice was to **change trains** at Town Hall or State Library.\n\nThe map was redrawn. An old map could send you the wrong way. So always check the latest map or app.",
+          "core": "For years, people on Melbourne's **Sunbury**, **Cranbourne** and **Pakenham** lines rode their trains through the **City Loop**, past stations like Flinders Street and Melbourne Central.\n\nThen the **Metro Tunnel** opened. Its first trains ran on **30 November 2025**. From **1 February 2026**, all trains on those three lines started running through the new tunnel **instead** of the City Loop. The tunnel has **five new underground stations**: **Arden**, **Parkville**, **State Library**, **Town Hall** and **Anzac**.\n\nThat changed how thousands of people get around. Someone who always got off at Flinders Street now had to plan a new way. The government's advice was to **change trains**:\n\n- at **Town Hall**, and walk through the Degraves Street subway to Flinders Street, or\n- at **State Library**, and walk through the underground concourse to Melbourne Central.\n\nPeople from the south-east going to South Yarra, Richmond or Parliament were told to change at **Caulfield**.\n\nThe network map was redrawn. Anyone using an old map, or an old habit, could end up in the wrong place. The lesson: maps and routes change. Check the latest map, and use a journey planner, every time something's new.",
+          "extend": "For decades, trains on Melbourne's **Sunbury**, **Cranbourne** and **Pakenham** lines ran through the **City Loop**.\n\nThe **Metro Tunnel**'s first trains ran on **30 November 2025**. From **1 February 2026**, all trains on those lines ran through the tunnel **instead of** the City Loop. The tunnel has **five new underground stations**: **Arden**, **Parkville**, **State Library**, **Town Hall** and **Anzac**.\n\nFor thousands of regular travellers, familiar routes stopped working. The official advice named new places to change trains:\n\n- **Town Hall**, linked by the Degraves Street subway to Flinders Street;\n- **State Library**, linked by an underground concourse to Melbourne Central;\n- **Caulfield**, for south-east travellers heading to South Yarra, Richmond or Parliament.\n\nThe network map was redrawn to match. The case shows that a map shows a network at one point in time. When the network changes, old maps and old habits can mislead. Checking the current map and a live journey planner is part of reading the network."
+        },
+        "source": {
+          "name": "Victoria's Big Build — Metro Tunnel: changing trains",
+          "url": "https://bigbuild.vic.gov.au/use-metro-tunnel/prepare/changing-trains"
+        },
+        "think": {
+          "support": [
+            "What changed?",
+            "How would you check your route?"
+          ],
+          "core": [
+            "What changed for people on the Sunbury, Cranbourne and Pakenham lines?",
+            "Why could an old map send you the wrong way?",
+            "How would you check your route after a big change?"
+          ]
+        },
+        "vc": [
+          "VC2E6LA07",
+          "VC2E5LY09",
+          "VC2E7LY07"
+        ],
+        "vcNote": "How maps represent a network at a point in time; interpreting real route-change information."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of good directions",
+      "docTitle": "FROM THE STATION TO THE POOL (EXAMPLE)",
+      "vc": [
+        "VC2E5LY01",
+        "VC2E4LY01",
+        "VC2E5LY09"
+      ],
+      "vcNote": "The structure and language of clear directions: start point, sequence, landmarks and checks.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Start",
+          "value": "Come out of the station's main exit, onto Railway Street.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Step 1",
+          "value": "Turn left and walk along Railway Street for about 5 minutes."
+        },
+        {
+          "n": 3,
+          "label": "Landmark",
+          "value": "You'll pass the library on your right. It has a big red door."
+        },
+        {
+          "n": 4,
+          "label": "Step 2",
+          "value": "At the roundabout, take the second street on the left, Lake Road."
+        },
+        {
+          "n": 5,
+          "label": "Check",
+          "value": "If you reach the bridge, you've gone too far."
+        },
+        {
+          "n": 6,
+          "label": "Finish",
+          "value": "The pool is on your right, opposite the bakery.",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Start point",
+          "note": "Where they are now."
+        },
+        {
+          "n": 2,
+          "label": "Direction + distance",
+          "note": "Which way, and how far or how long."
+        },
+        {
+          "n": 3,
+          "label": "Landmark",
+          "note": "Something easy to spot."
+        },
+        {
+          "n": 4,
+          "label": "Next step, in order",
+          "note": "One step at a time."
+        },
+        {
+          "n": 5,
+          "label": "Gone-too-far check",
+          "note": "Tells them if they've missed it."
+        },
+        {
+          "n": 6,
+          "label": "Destination clue",
+          "note": "How they'll know they're there."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Plan a trip",
+      "steps": [
+        {
+          "title": "Where and when",
+          "text": "Arrive by what time?",
+          "icon": "lucide:clock"
+        },
+        {
+          "title": "Plan it",
+          "text": "App or map. Note any changes.",
+          "icon": "lucide:map"
+        },
+        {
+          "title": "Check alerts",
+          "text": "Any disruptions?",
+          "icon": "lucide:triangle-alert"
+        },
+        {
+          "title": "Plan B",
+          "text": "Charged phone. Last service.",
+          "icon": "lucide:life-buoy"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Where do you find out what a map's colours and symbols mean?",
+        "options": [
+          "The map key",
+          "The title",
+          "The back of the train",
+          "The app store"
+        ],
+        "answer": 0,
+        "explain": "The key (or legend) explains the symbols.",
+        "vc": [
+          "VC2E6LA07",
+          "VC2E4LA05"
+        ]
+      },
+      {
+        "q": "What's an **interchange**?",
+        "options": [
+          "A place where you can change to another line or route",
+          "A type of ticket",
+          "A delay",
+          "A replacement bus"
+        ],
+        "answer": 0,
+        "explain": "Lines meet at interchanges.",
+        "vc": [
+          "VC2E6LA07"
+        ]
+      },
+      {
+        "q": "You need to be at work by 8 am. In the journey planner, you should choose…",
+        "options": [
+          "Arrive by 8:00",
+          "Leave at 8:00",
+          "Depart now",
+          "Fastest walking"
+        ],
+        "answer": 0,
+        "explain": "*Arrive by* works backwards from when you need to be there.",
+        "vc": [
+          "VC2E4LA05"
+        ]
+      },
+      {
+        "q": "Someone gives you directions. What's the best way to check you've understood?",
+        "options": [
+          "Say them back in your own words",
+          "Nod and leave",
+          "Ask them to write an essay",
+          "Pretend you know"
+        ],
+        "answer": 0,
+        "explain": "Paraphrasing shows what you understood, so they can fix any mistakes.",
+        "vc": [
+          "VC2E5LY01",
+          "VC2E4LY01"
+        ]
+      },
+      {
+        "q": "Which directions are clearest?",
+        "options": [
+          "“Turn left at the lights. It's next to the post office.”",
+          "“It's down there a bit.”",
+          "“You can't miss it.”",
+          "“Sort of over that way.”"
+        ],
+        "answer": 0,
+        "explain": "Clear directions use steps and landmarks.",
+        "vc": [
+          "VC2E5LY01"
+        ]
+      },
+      {
+        "q": "Since February 2026, where do Sunbury, Cranbourne and Pakenham line trains run?",
+        "options": [
+          "Through the Metro Tunnel, instead of the City Loop",
+          "Only to Flinders Street",
+          "Nowhere: the lines closed",
+          "Through the City Loop and the tunnel"
+        ],
+        "answer": 0,
+        "explain": "The map was redrawn, so old habits could mislead.",
+        "vc": [
+          "VC2E5LY09"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Why don't most train maps show real distances?",
+        "options": [
+          "They're diagrams, designed to be easy to read",
+          "They're drawn by children",
+          "They're wrong",
+          "They're only for tourists"
+        ],
+        "answer": 0,
+        "explain": "Every map makes choices about what to show.",
+        "vc": [
+          "VC2E6LA07"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan a real trip. Give and follow directions with a partner. Write directions for a visitor.",
+      "core": "Plan a real trip, then give and follow spoken directions with a partner, and write directions a visitor could follow.",
+      "extend": "Plan a real multi-step trip with a backup, give and clarify spoken directions with a partner, and write structured directions for a specific visitor."
+    },
+    "checklist": [
+      "I read the map key",
+      "I planned a trip with leave-at or arrive-by",
+      "I checked for disruptions and had a Plan B",
+      "I paraphrased directions to check them",
+      "I gave directions with steps and landmarks",
+      "I wrote directions a visitor could follow"
+    ],
+    "levelUp": "Compare planning your trip with an app and with a paper map. What does each do well? What could go wrong with each?",
+    "vc": [
+      "VC2E5LY01",
+      "VC2E6LA07",
+      "VC2E4LA05"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to get around",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What does a **map key** tell you?",
+            "lines": 1,
+            "vc": [
+              "VC2E6LA07",
+              "VC2E4LA05"
+            ]
+          },
+          {
+            "q": "When would you choose **arrive by** in a journey planner?",
+            "lines": 2,
+            "vc": [
+              "VC2E4LA05"
+            ]
+          },
+          {
+            "q": "Name **two** things in your Plan B.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Read the map key",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 18,
+          "core": 16
+        },
+        "instructions": "Use a real transport map (your local train, tram or bus map, or the one your teacher gives you). Find each thing in the map key and write what it shows. The first one is done for you.",
+        "columns": [
+          "Find…",
+          "What it shows on your map"
+        ],
+        "rows": [
+          [
+            "Example: a coloured line",
+            "One train line. Each line has its own colour."
+          ],
+          [
+            "A big dot or circle on a line",
+            ""
+          ],
+          [
+            "Two or more lines meeting",
+            ""
+          ],
+          [
+            "A wheelchair symbol",
+            ""
+          ],
+          [
+            "A dashed or dotted line",
+            ""
+          ],
+          [
+            "The station or stop nearest your school",
+            ""
+          ],
+          {
+            "cells": [
+              "Something the map leaves out",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LA07",
+          "VC2E4LA05",
+          "VC2E5LY09"
+        ],
+        "vcNote": "Reading the symbols and conventions of a transport map; noticing what a map leaves out."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of good directions",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the directions. Use the word bank. Why does it help?",
+          "core": "Each number marks part of the directions. Write what it is and why it helps."
+        },
+        "columns": [
+          "What is it?",
+          "Why does it help?"
+        ],
+        "wordBank": {
+          "support": [
+            "start",
+            "direction",
+            "landmark",
+            "next step",
+            "check",
+            "finish"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LY01",
+          "VC2E4LY01"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Clear or confusing?",
+        "pagebreak": true,
+        "choices": [
+          "Clear",
+          "Confusing"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is a direction someone might give you. Tick clear or confusing, and say why.",
+        "cards": [
+          {
+            "from": "Directions",
+            "text": "“It's down there a bit, sort of on the left.”",
+            "answer": "Confusing",
+            "flags": "Where? How far?"
+          },
+          {
+            "from": "Directions",
+            "text": "“Turn left at the lights. Walk two blocks. It's next to the post office.”",
+            "answer": "Clear",
+            "flags": "Steps and a landmark."
+          },
+          {
+            "from": "Directions",
+            "text": "“You can't miss it.”",
+            "answer": "Confusing",
+            "flags": "No information at all."
+          },
+          {
+            "from": "Directions",
+            "text": "“Get off at Town Hall and take the Swanston Street exit.”",
+            "answer": "Clear",
+            "flags": "Exact stop and exit."
+          },
+          {
+            "from": "Directions",
+            "text": "“Go past where the old servo used to be.”",
+            "answer": "Confusing",
+            "flags": "A landmark they can't see.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Directions",
+            "text": "“If you reach the bridge, you've gone too far.”",
+            "answer": "Clear",
+            "flags": "A check, so they know.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LY01",
+          "VC2E4LY01"
+        ],
+        "vcNote": "Evaluating spoken directions for clarity and usefulness."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the map that changed",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What changed for people on the Sunbury, Cranbourne and Pakenham lines?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          },
+          {
+            "q": "Why could an **old** map, or an old habit, send you the wrong way?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LA07",
+              "VC2E7LY07"
+            ]
+          },
+          {
+            "q": "A friend says, “I've caught this train for years. I don't need to check.” What would you tell them?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "scenarios",
+        "title": "What would you do?",
+        "pagebreak": true,
+        "instructions": "Explain what you'd do. Use what you know about apps, maps and Plan B.",
+        "items": [
+          {
+            "q": "Your train is cancelled. The alert says: *Buses replace trains between Clifton Hill and Hurstbridge.*",
+            "lines": {
+              "support": 3,
+              "core": 2
+            }
+          },
+          {
+            "q": "It's 11:40 pm. The app says the last bus home left at 11:15.",
+            "lines": {
+              "support": 3,
+              "core": 2
+            }
+          },
+          {
+            "q": "Your phone dies at an interchange you've never been to.",
+            "lines": 2,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LY09",
+          "VC2E7LY04"
+        ],
+        "vcNote": "Interpreting alerts and planning around disruptions."
+      },
+      {
+        "type": "flow",
+        "title": "Plan a trip",
+        "diagram": 1
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: plan it, then say it",
+        "pagebreak": true,
+        "where": "in class with a partner, using a journey planner app or a map",
+        "instructions": "Plan a real trip from school, then take turns giving and following directions.",
+        "need": [
+          "a journey planner app or a map",
+          "a partner"
+        ],
+        "steps": {
+          "support": [
+            "Choose a real place to go.",
+            "Plan the trip in an app. Choose **arrive by**.",
+            "Check for disruptions. Write a Plan B.",
+            "Give your partner directions.",
+            "Your partner says them back.",
+            "Swap."
+          ],
+          "core": [
+            "Choose a real place you'd like to go: a job, TAFE, a pool, a gig.",
+            "Plan the trip. Choose **arrive by**. Write down the route, any changes, and the last service home.",
+            "Check for disruptions. Write a Plan B.",
+            "Give your partner spoken directions from the station or stop to the door.",
+            "Your partner says the directions back and asks one question. Fix anything they got wrong.",
+            "Swap."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My trip (where, route, changes, last service):",
+            "lines": 2
+          },
+          {
+            "label": "My Plan B:",
+            "lines": 1
+          },
+          {
+            "label": "What my partner got wrong, and how I fixed it:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Screenshot of the plan",
+          "Teacher saw it",
+          "Partner's check"
+        ],
+        "vc": [
+          "VC2E5LY01",
+          "VC2E4LY01",
+          "VC2E4LA05",
+          "VC2E5LY09"
+        ],
+        "vcNote": "Hands-on: planning a real trip and using spoken interaction to give and clarify directions."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: directions for a visitor",
+        "pagebreak": true,
+        "prompt": {
+          "support": "A new student is coming to your school. Write directions from the nearest stop to the front office.",
+          "core": "A new student is coming to your school by public transport. Write directions from the nearest station or stop to your school's front office.",
+          "extend": "Write directions for a specific visitor (for example, a new student who uses a wheelchair, or a parent who doesn't speak much English). Choose your language, landmarks and details to suit them."
+        },
+        "plan": [
+          {
+            "label": "Start point",
+            "lines": 1
+          },
+          {
+            "label": "Two landmarks",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "From the … , turn …",
+            "You'll see …",
+            "If you reach … , you've gone too far.",
+            "The office is …"
+          ],
+          "core": [
+            "From the … , turn …",
+            "Walk for about … minutes.",
+            "You'll see … on your …",
+            "If you reach … , you've gone too far.",
+            "The office is …"
+          ]
+        },
+        "lines": {
+          "support": 7,
+          "core": 8
+        },
+        "check": [
+          "a clear start point",
+          "steps in order",
+          "at least two landmarks",
+          "a gone-too-far check",
+          "how they'll know they've arrived"
+        ],
+        "vc": [
+          "VC2E5LY01",
+          "VC2E5LY09"
+        ],
+        "vcNote": "Creating clear, sequenced directions for a specific audience."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Compare planning a trip with an **app** and with a **paper map**. What does each do well? What could go wrong with each?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY04"
+            ]
+          },
+          {
+            "q": "Find a real service alert or disruption notice. Summarise it in **one sentence** for a friend who's about to travel.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can read a map key.",
+          "I can use a journey planner.",
+          "I can ask for and check directions.",
+          "I can give clear directions."
+        ],
+        "questions": [
+          "A place I can now get to on my own:",
+          "My Plan B tip:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to read transport maps (key, symbols, lines, interchanges) and understand that network maps are diagrams that make choices about what to show. They use journey planner apps (leave at / arrive by, alerts, disruptions) and plan a backup. The speaking focus is asking for directions and paraphrasing them back to check, and giving directions with a start point, ordered steps, landmarks and a gone-too-far check. The case study is the 2025–26 Metro Tunnel change, which redrew Melbourne's train map.",
+    "prep": [
+      "Print your local transport map (train, tram or bus). Regional schools: use your local bus network map and V/Line map.",
+      "Check the PTV app or website (or Google Maps) is reachable on school devices.",
+      "Know where the nearest station or stop to school is, for the final mission."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Read it",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** the phone dies at the stop. What would you do?",
+          "**Explicit teaching (10 min):** map key, symbols, interchanges; maps as diagrams.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Read the map key (10 min),** using your local map."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Say it",
+        "minutes": 50,
+        "steps": [
+          "**Anatomy of good directions (10 min).**",
+          "**Clear or confusing? (10 min).**",
+          "**Case study (15 min):** the map that changed.",
+          "**What would you do? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Do it",
+        "minutes": 50,
+        "steps": [
+          "**Do it (25 min):** plan it, then say it.",
+          "**Final mission (15 min):** directions for a visitor.",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Under-18s travel free in Victoria with a Youth myki (from 1 January 2026); still tap on and off.",
+      "Start with the map key; look for interchanges.",
+      "Network maps are diagrams, not to scale: every map makes choices.",
+      "Journey planners: leave at / arrive by; check alerts and replacement buses.",
+      "Plan B: charged phone, last service, someone to call.",
+      "Paraphrase directions back; give directions with a start, ordered steps, landmarks and a check."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and map-key rows.",
+        "Pair with a confident traveller for the Do it."
+      ],
+      "extend": [
+        "Write directions for a specific visitor's needs.",
+        "Compare apps and paper maps (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LA05",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Identifies navigation features of journey planner apps and websites (Check your reading, Do it)."
+      },
+      {
+        "vc": "VC2E4LY01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses interaction skills to gather information and carry out a task (Do it)."
+      },
+      {
+        "vc": "VC2E4LY09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses comprehension strategies to build meaning from maps and alerts (map key, scenarios)."
+      },
+      {
+        "vc": "VC2E6LA07",
+        "evidence": "Explains how maps and diagrams represent a network, and what they choose to show (map key, case study, quiz)."
+      },
+      {
+        "vc": "VC2E5LY09",
+        "evidence": "Evaluates information in maps, plans and alerts to make decisions (scenarios, Do it, case study)."
+      },
+      {
+        "vc": "VC2E5LY01",
+        "evidence": "Paraphrases and questions to clarify directions; gives clear directions (Do it, sort, final mission)."
+      },
+      {
+        "vc": "VC2E7LY07",
+        "evidence": "Summarises a disruption notice or route change (Level Up, case study)."
+      },
+      {
+        "vc": "VC2E7LY04",
+        "evidence": "Explains how apps change the way we read and use transport information (Level Up, scenarios)."
+      }
+    ],
+    "answers": "**Check your reading:** what each colour, line and symbol means. When you need to be somewhere by a set time. Plan B: charged phone, last service time, someone to call, a backup route.\n\n**Map key (samples):** a station or stop; an interchange; an accessible station; a different kind of service (often a bus or a line under construction, check your key); something left out: real distances, streets, hills, how long the walk between platforms is.\n\n**Directions:** 1 start point; 2 direction and distance; 3 landmark; 4 next step in order; 5 gone-too-far check; 6 destination clue.\n\n**Sort:** down there a bit — confusing; left at the lights — clear; can't miss it — confusing; Town Hall, Swanston St exit — clear; old servo — confusing (they can't see it); bridge check — clear.\n\n**Case study:** trains on those lines run through the Metro Tunnel instead of the City Loop, with five new stations, so people had to change trains to reach old stops; an old map shows a network that no longer exists; check the current map or journey planner whenever something changes.\n\n**Scenarios (samples):** follow signs to the replacement buses and allow extra time; check the app for another route or service, or call someone you saved in your Plan B; ask station staff, use a printed map, or a help point.",
+    "resources": [
+      {
+        "label": "Victoria's Big Build — Metro Tunnel: changing trains",
+        "url": "https://bigbuild.vic.gov.au/use-metro-tunnel/prepare/changing-trains"
+      },
+      {
+        "label": "Victoria's Big Build — The Metro Tunnel now open",
+        "url": "https://bigbuild.vic.gov.au/projects/metro-tunnel-passenger-info"
+      },
+      {
+        "label": "Premier of Victoria — One million young Victorians now travelling for free (January 2026)",
+        "url": "https://www.premier.vic.gov.au/one-million-young-victorians-now-travelling-free"
+      },
+      {
+        "label": "Transport Victoria — Free travel for children and eligible concession travellers",
+        "url": "https://transport.vic.gov.au/news-and-resources/news/free-travel-for-children-and-eligible-concession-travellers"
+      }
+    ],
+    "realityCheck": [
+      "**Regional schools:** the case study is about Melbourne, but the skills aren't. Use your local bus map and V/Line timetable for the activities.",
+      "**Some students rarely travel alone.** For them, the Do it is the most valuable part. Pair them with someone confident.",
+      "**Safety and late nights.** Plan B matters most at night. Talk about safe waiting spots, and who to call.",
+      "**Apps change.** If the PTV app or Google Maps is blocked, use printed maps; the skills transfer.",
+      "**Works in a real class:** yes. It's practical and social, and the free Youth myki makes it immediately useful."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and map-key rows, a confident partner for the Do it, and sentence starters.",
+      "core": "Standard version: reading a map key, anatomy of directions, clear-or-confusing sort, the Metro Tunnel case, disruption scenarios, a hands-on trip plan with spoken directions, and written directions for a visitor.",
+      "extend": "Adds replacement bus and paraphrase to the vocabulary, a quiz question on maps as diagrams, directions for a visitor with specific needs, and Level Ups comparing apps with paper maps and summarising an alert."
+    }
+  }
+}

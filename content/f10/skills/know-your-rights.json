@@ -1,0 +1,1038 @@
+{
+  "id": "know-your-rights",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "You're 14. The boss says: work Saturday **8 till 4**, and Tuesday **till 9:30 pm**. Cash, no payslip. Is that legal? What would you say?",
+      "core": "You're 14. The canteen manager says you can do Saturday **8 till 4**, and Tuesdays after school **till 9:30**. Cash in hand, no payslip. It's money, and everyone else does it. But is it legal? And if it isn't, what would you even say?"
+    },
+    "why": {
+      "support": "Young people have rights at work, when renting and with police. Learn where to find them. Learn to read them. Then you can ask for what's fair.",
+      "core": "Young people have rights at work, when renting, and with police. But rights only help if you know them, and if you can **find**, **read** and **use** the information that explains them. Legal information has its own style: definitions, conditions and long nouns. Learn to read it, sum it up, and write a formal request, and you can stand up for yourself.",
+      "extend": "Rights are only useful if you can access them. That means locating authoritative information, interpreting legal-style texts (definitions, conditions, modal verbs and nominalisation), summarising them accurately, and using formal language to assert them. These are literacy skills with real consequences."
+    },
+    "canDo": {
+      "support": [
+        "I can find information about my rights.",
+        "I can read rights information.",
+        "I can sum up my rights.",
+        "I can write a formal request."
+      ],
+      "core": [
+        "I can **find** trusted information about my rights.",
+        "I can **read** legal-style information: definitions, conditions and long nouns.",
+        "I can **sum up** my rights in plain English.",
+        "I can write a **formal** request to stand up for a right."
+      ]
+    },
+    "showIt": "Make a rights card for work, renting and police, then write a formal email standing up for a right.",
+    "vocab": [
+      {
+        "word": "right",
+        "meaning": "something the law says you're entitled to",
+        "example": "You have a right to be paid."
+      },
+      {
+        "word": "entitlement",
+        "meaning": "something you're owed, like pay or a break",
+        "example": "Breaks are an entitlement."
+      },
+      {
+        "word": "employer",
+        "meaning": "the person or business you work for",
+        "example": "My employer must give me a payslip."
+      },
+      {
+        "word": "licence",
+        "meaning": "official permission to do something",
+        "example": "Employers need a licence to hire under-15s."
+      },
+      {
+        "word": "offence",
+        "meaning": "an action that breaks the law",
+        "example": "Giving police a false name is an offence."
+      },
+      {
+        "word": "formal",
+        "meaning": "polite and serious, for official situations",
+        "example": "I wrote a formal email to my manager."
+      },
+      {
+        "word": "bond",
+        "meaning": "money paid at the start of renting, in case of damage",
+        "example": "My bond was lodged with the RTBA.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "independent person",
+        "meaning": "an adult who sits with a young person during a police interview",
+        "example": "An independent person came to the interview.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Know Your Rights in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Know Your Rights",
+        "sub": "At work, renting and with police.",
+        "icon": "lucide:scale",
+        "say": "Know your rights. At work, renting and with police."
+      },
+      {
+        "kind": "big",
+        "title": "Find. Read. Use.",
+        "text": "Official info · Your situation · **Your words**",
+        "icon": "lucide:search",
+        "say": "Rights only help if you can find them, read them, and use them.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "W",
+        "pill": "At work",
+        "pillIcon": "lucide:briefcase",
+        "title": "Working under 15",
+        "text": "3 hrs a day · 12 a week · **not after 9 pm**",
+        "icon": "lucide:briefcase",
+        "say": "Under fifteen in Victoria? Your employer needs a child employment licence. In school terms, you can work up to three hours a day and twelve a week, never in school hours, and not after nine pm.",
+        "vc": [
+          "VC2E6LY08",
+          "VC2E4LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "$",
+        "pill": "At work",
+        "pillIcon": "lucide:briefcase",
+        "title": "Pay is a right",
+        "text": "Wage theft = **a crime**",
+        "icon": "lucide:badge-dollar-sign",
+        "say": "At any age, you have a right to minimum pay, a payslip and a safe workplace. In Victoria, deliberately underpaying workers has been a crime since July 2021.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "R",
+        "pill": "Renting",
+        "pillIcon": "lucide:house",
+        "title": "Renting",
+        "text": "Bond → **RTBA** · Urgent repairs",
+        "icon": "lucide:house",
+        "say": "Renting? Your bond goes to the Residential Tenancies Bond Authority, not the landlord's pocket. Urgent repairs must be dealt with without delay.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "P",
+        "pill": "Police",
+        "pillIcon": "lucide:shield",
+        "title": "With police",
+        "text": "Name + address · **No comment**",
+        "icon": "lucide:shield",
+        "say": "With police, you must give your name and address if they believe you've broken the law. To other questions, you can say no comment.",
+        "vc": [
+          "VC2E6LY08",
+          "VC2E8LY07"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Stand up for it",
+        "steps": [
+          "Find",
+          "Read",
+          "Sum up",
+          "Ask in writing"
+        ],
+        "say": "To stand up for a right: find official information, read your situation, sum it up, then ask formally, in writing."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Know it. Say it. Write it.",
+        "icon": "lucide:gavel",
+        "say": "Your mission. Make a rights card, then write a formal email standing up for a right."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Know your rights",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "You have rights at work, when renting, and with police.\n\n**Reading rights information.** Look for headings. Look for *If… then…* rules. Say them in your own words.\n\n**At work**\n\n- **Under 15?** Your boss needs a **licence**. In school terms: up to **3 hours a day**, **12 a week**. Not in school hours. Not after **9 pm**.\n- At any age: fair pay, a payslip, breaks and a safe workplace.\n- In Victoria, not paying workers on purpose is a **crime**.\n- Help: **Fair Work Ombudsman**, **Young Workers Centre**.\n\n**Renting**\n\n- Your **bond** goes to the **RTBA**, not the landlord.\n- Urgent repair? Call the emergency number.\n\n**With police**\n\n- If police think you broke the law, you must give your real name and address.\n- You can say *no comment* to other questions.\n- Help: **Victoria Legal Aid**, **Youth Law Australia**.\n\nSomething wrong? Write a short, **formal** message.",
+          "core": "You have rights at work, when you rent, and with police. To use them, you need to find trusted information, read it carefully, and act on it.\n\n**How rights information is written.** Government and legal aid websites use **headings** to split topics. They **define** key words (*a child means a person under 15*). They use **conditions**: *If you're under 15, your employer must…* And they often turn actions into long nouns: *Employment during school hours is prohibited* just means *you can't work during school hours*. Read the condition, then say it in your own words.\n\n**At work**\n\n- If you're **under 15**, your **employer** needs a free **child employment licence**. During school terms, you can work up to **3 hours a day** and **12 hours a week**. You can't work during school hours, or after **9 pm**.\n- At any age, you have a right to at least the minimum pay for your job, a payslip, breaks and a safe workplace.\n- In Victoria, deliberately underpaying workers has been a **crime** since **July 2021**.\n- Help: the **Fair Work Ombudsman**, **Workforce Inspectorate Victoria** and the **Young Workers Centre**.\n\n**When renting**\n\n- Your **bond** must be lodged with the **Residential Tenancies Bond Authority** (RTBA), not kept by the landlord.\n- For **urgent** repairs, like a burst pipe or no hot water, call the landlord's or agent's emergency number. They must respond without delay.\n- Help: **Consumer Affairs Victoria** and **Tenants Victoria**.\n\n**With police**\n\n- If police believe you've committed an **offence**, you must give your real name and address. Giving false details is an offence.\n- You can say *no comment* to other questions.\n- If you're under 18, police should not interview you without a parent, guardian or **independent person** there.\n- Help: **Victoria Legal Aid** and **Youth Law Australia**.\n\nWhen something's wrong, write it down: what happened, when, and what you want. A short, **formal**, polite request in writing is often the fastest fix, and it gives you a record.",
+          "extend": "Young people have rights at work, in rental housing and with police. Using them depends on finding trusted information, understanding it, and acting on it.\n\n**How legal information is written.** Official sources sort content under **headings**. They **define** terms (*a child is a person under 15*). They state rights as **conditions** (*If…, the employer must…*). They also use **nominalisation**, turning actions into nouns (*Employment during school hours is prohibited*). This can hide who must do what. Turning the noun back into an action makes the obligation clear.\n\n**At work**\n\n- Employers of children **under 15** need a free **child employment licence**. In school terms, the limits are **3 hours a day** and **12 hours a week**, never during school hours and not after **9 pm**.\n- All employees are entitled to minimum pay for their role, payslips, breaks and a safe workplace.\n- Deliberate underpayment (wage theft) has been a **criminal offence** in Victoria since **1 July 2021**.\n- Support: the **Fair Work Ombudsman**, **Workforce Inspectorate Victoria** and the **Young Workers Centre**.\n\n**In rental housing**\n\n- **Bonds** must be lodged with the **Residential Tenancies Bond Authority** (RTBA).\n- Urgent repairs must be responded to without delay.\n- Support: **Consumer Affairs Victoria** and **Tenants Victoria**.\n\n**With police**\n\n- If police believe you've committed an **offence**, you must provide your correct name and address; false details are an offence.\n- You may decline to answer other questions (*no comment*).\n- People under 18 should not be interviewed without a parent, guardian or **independent person** present.\n- Support: **Victoria Legal Aid** and **Youth Law Australia**.\n\nWhen asserting a right, put it in writing: the facts, the relevant rule and a clear, polite request. **Formal** written communication creates a record and is often the most effective first step."
+        },
+        "vc": [
+          "VC2E6LY08",
+          "VC2E4LY09",
+          "VC2E8LA06",
+          "VC2E8LY07",
+          "VC2E6LA01"
+        ],
+        "vcNote": "Reading legal-style information: headings, definitions, conditions and nominalisation; locating authoritative sources; the value of formal written requests."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The canteen kids",
+        "icon": "lucide:sandwich",
+        "body": {
+          "support": "In **2023**, a business ran canteens at footy clubs in Melbourne. It hired lots of kids.\n\nA government group checked. It found the business:\n\n- had no **licence** to hire 10 of the kids\n- hired **3 kids** who were under **13**, the youngest age allowed\n- gave kids **too many hours** in school term.\n\nIn **2024**, the owner was fined **$4,000** by a court.\n\nThe government said kids working 8-hour days was not OK. School comes first.\n\nThe rules protect young workers. But only if people know them.",
+          "core": "In **2023**, a business ran canteens at sports clubs in **Brighton** and **Elsternwick**, in Melbourne. It employed lots of kids.\n\nThe **Wage Inspectorate Victoria** checked. (It's now called **Workforce Inspectorate Victoria**.) It found the business had:\n\n- employed **10 children** without a child employment permit or licence, on **64** occasions\n- employed **3 children** under the minimum working age of **13**, on **20** occasions\n- given **10 children** more hours than allowed during the school term, on **56** occasions.\n\nIn **2024**, the owner pleaded **guilty** in court. They were fined **$4,000**. The magistrate said the fine would have been **$10,000** if they hadn't pleaded guilty early.\n\nThe Commissioner said kids working days of up to **8 hours** was not OK. School must come first for kids that age.\n\nThese rules protect young workers. But they only work if workers, parents and bosses know them.",
+          "extend": "In **2023**, a business that ran canteens at sports clubs in **Brighton** and **Elsternwick** employed a number of children.\n\n**Wage Inspectorate Victoria** investigated and laid charges. (It was renamed **Workforce Inspectorate Victoria** in December 2025.) In **2024**, the owner pleaded **guilty** in the Melbourne Magistrates' Court to 23 charges, including:\n\n- **10 children** worked with no permit or licence, on **64** occasions.\n- **3 children** were under the minimum working age of **13**, on **20** occasions.\n- **10 children** worked more than the school-term limit, on **56** occasions.\n\nThe court fined the owner **$4,000** and imposed a good behaviour bond. The magistrate said the fine would have been **$10,000** without the early guilty plea.\n\nThe Commissioner said children working days of up to **8 hours** was unacceptable. School must be the priority.\n\nThe case shows how exact rules protect young workers: licences, minimum ages and hour limits. It also shows why the exact wording of a rule matters."
+        },
+        "source": {
+          "name": "Victorian Government — “Kids under 15 working in footy club canteens leads to fine for child employment breaches” (2024)",
+          "url": "https://www.vic.gov.au/kids-under-15-working-footy-club-canteens-leads-fine-child-employment-breaches"
+        },
+        "think": {
+          "support": [
+            "Which rules were broken?",
+            "How could a young worker check?"
+          ],
+          "core": [
+            "Which rules did the business break?",
+            "Why do you think there are limits on hours during school term?",
+            "How could a 14-year-old worker know if their job was legal?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY08",
+          "VC2E8LY07"
+        ],
+        "vcNote": "Interpreting a real enforcement case against the specific rules it applied."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a rights page",
+      "docTitle": "WORKING WHEN YOU'RE UNDER 15 (EXAMPLE PAGE)",
+      "vc": [
+        "VC2E6LY08",
+        "VC2E8LA06",
+        "VC2E4LY09"
+      ],
+      "vcNote": "The features of legal-style information: headings, definitions, conditions, limits and nominalisation.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Heading",
+          "value": "Working when you're under 15",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Definition",
+          "value": "In this section, a child means a person under 15 years old."
+        },
+        {
+          "n": 3,
+          "label": "Condition",
+          "value": "If you're under 15, your employer must hold a child employment licence."
+        },
+        {
+          "n": 4,
+          "label": "Limits",
+          "value": "During school terms, you can work up to 3 hours a day and 12 hours a week."
+        },
+        {
+          "n": 5,
+          "label": "Long nouns",
+          "value": "Employment during school hours is prohibited.",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Next step",
+          "value": "To report a problem, contact Workforce Inspectorate Victoria."
+        }
+      ],
+      "note": "Made-up page based on Victorian rules in 2026. Always check the official website.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Heading",
+          "note": "Is this page about your situation?"
+        },
+        {
+          "n": 2,
+          "label": "Definition",
+          "note": "Tells you who the rule is about."
+        },
+        {
+          "n": 3,
+          "label": "Condition",
+          "note": "If…, then… must. Who has to do what?"
+        },
+        {
+          "n": 4,
+          "label": "Limits",
+          "note": "Exact numbers. Check them carefully."
+        },
+        {
+          "n": 5,
+          "label": "Long nouns",
+          "note": "Means: you can't work in school hours."
+        },
+        {
+          "n": 6,
+          "label": "Next step",
+          "note": "Where to go for help."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Stand up for a right",
+      "steps": [
+        {
+          "title": "Find",
+          "text": "Government or legal aid info.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Read",
+          "text": "Find your situation. Read the condition.",
+          "icon": "lucide:book-open"
+        },
+        {
+          "title": "Sum up",
+          "text": "Say it in your own words.",
+          "icon": "lucide:message-square"
+        },
+        {
+          "title": "Ask",
+          "text": "A formal request, in writing.",
+          "icon": "lucide:mail"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "You're 14. How many hours a **day** can you work during the school term in Victoria?",
+        "options": [
+          "Up to 3",
+          "Up to 8",
+          "Any amount",
+          "None at all"
+        ],
+        "answer": 0,
+        "explain": "And up to 12 hours a week, never in school hours.",
+        "vc": [
+          "VC2E6LY08",
+          "VC2E4LY09"
+        ]
+      },
+      {
+        "q": "Where's the best place to find information about your rights?",
+        "options": [
+          "A government or legal aid website",
+          "A random comment online",
+          "Your boss's opinion",
+          "A meme"
+        ],
+        "answer": 0,
+        "explain": "Official sources are the most reliable.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "q": "Police believe you've broken the law and ask for your name and address. What must you do?",
+        "options": [
+          "Give your real name and address",
+          "Refuse",
+          "Give a fake name",
+          "Run"
+        ],
+        "answer": 0,
+        "explain": "You can say *no comment* to other questions.",
+        "vc": [
+          "VC2E8LY07"
+        ]
+      },
+      {
+        "q": "“**Employment during school hours is prohibited.**” In plain English:",
+        "options": [
+          "You can't work during school hours",
+          "You must work during school hours",
+          "School is a job",
+          "Employers can choose"
+        ],
+        "answer": 0,
+        "explain": "Unpack the long noun: who can't do what?",
+        "vc": [
+          "VC2E8LA06"
+        ]
+      },
+      {
+        "q": "Which is the best start to a formal email to your manager?",
+        "options": [
+          "Dear Ms Chen,",
+          "hey",
+          "yo boss",
+          "Oi"
+        ],
+        "answer": 0,
+        "explain": "Formal situations need formal language.",
+        "vc": [
+          "VC2E6LA01"
+        ]
+      },
+      {
+        "q": "Where must a renter's **bond** be lodged in Victoria?",
+        "options": [
+          "The Residential Tenancies Bond Authority (RTBA)",
+          "The landlord's bank account",
+          "Under the mattress",
+          "Nowhere"
+        ],
+        "answer": 0,
+        "explain": "Not kept by the landlord.",
+        "vc": [
+          "VC2E6LY08"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "In the canteen case, why was the fine lower than it could have been?",
+        "options": [
+          "The owner pleaded guilty early",
+          "The kids agreed to it",
+          "It was the weekend",
+          "The rules don't apply to canteens"
+        ],
+        "answer": 0,
+        "explain": "The magistrate said it would have been $10,000 otherwise.",
+        "vc": [
+          "VC2E8LY07"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Make a rights card. Then write a formal email asking for something that's fair.",
+      "core": "Make a rights card for work, renting and police, then write a formal email standing up for a right.",
+      "extend": "Research and summarise your rights in three areas from authoritative sources, then write a formal, well-structured email asserting a right, citing the relevant rule."
+    },
+    "checklist": [
+      "I found official information",
+      "I summarised my rights in plain English",
+      "I used formal language",
+      "I gave clear facts (what, when)",
+      "I made a clear, polite request",
+      "I said where I could get help"
+    ],
+    "levelUp": "Write a short speech or post raising the issue of young workers' rights. Use facts from the case study, and choose your words for your audience.",
+    "vc": [
+      "VC2E6LY08",
+      "VC2E6LY09",
+      "VC2E6LA01"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Know your rights",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "If you're under 15, what are the limits on work during the school term?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08",
+              "VC2E4LY09"
+            ]
+          },
+          {
+            "q": "What **must** you tell police if they believe you've committed an offence? What can you say to other questions?",
+            "lines": 2,
+            "vc": [
+              "VC2E8LY07"
+            ]
+          },
+          {
+            "q": "Name **two** places you could go for help with your rights.",
+            "lines": 1,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Stand up for a right",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a rights page",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the page. Use the word bank. What does it tell you?",
+          "core": "Each number marks part of the page. Write what it is and what it tells you."
+        },
+        "columns": [
+          "What is it?",
+          "What does it tell you?"
+        ],
+        "wordBank": {
+          "support": [
+            "heading",
+            "definition",
+            "condition",
+            "limits",
+            "long nouns",
+            "next step"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LY08",
+          "VC2E8LA06",
+          "VC2E4LY09"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Legal or not?",
+        "pagebreak": true,
+        "choices": [
+          "Legal",
+          "Not legal"
+        ],
+        "reasonLabel": "Which rule?",
+        "instructions": "Each card is a situation in Victoria. Tick whether it's **legal** or **not legal**. Write which rule helped you decide.",
+        "cards": [
+          {
+            "from": "At work",
+            "text": "Jack is 14. In school term, he works 4 hours after school on a Tuesday.",
+            "answer": "Not legal",
+            "flags": "Max 3 hours a day in term."
+          },
+          {
+            "from": "At work",
+            "text": "Mia is 14. Her employer has a licence. In the holidays, she works 9 to 3 on Saturday, with a break.",
+            "answer": "Legal",
+            "flags": "Holidays: up to 6 hours a day."
+          },
+          {
+            "from": "At work",
+            "text": "Ava is 14. Her shift finishes at 9:30 pm.",
+            "answer": "Not legal",
+            "flags": "Not after 9 pm."
+          },
+          {
+            "from": "With police",
+            "text": "Police believe Leo, 16, has broken the law. He gives them a fake name.",
+            "answer": "Not legal",
+            "flags": "False details are an offence."
+          },
+          {
+            "from": "With police",
+            "text": "Zoe, 17, gives her name and address, then says “no comment” to other questions.",
+            "answer": "Legal",
+            "flags": "Right to silence.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Renting",
+            "text": "A landlord keeps a renter's bond in his own bank account.",
+            "answer": "Not legal",
+            "flags": "It must go to the RTBA.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LY08",
+          "VC2E8LY07"
+        ],
+        "vcNote": "Applying conditions and limits from legal information to situations."
+      },
+      {
+        "type": "table",
+        "title": "Unpack the legal language",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Legal pages often turn actions into long nouns. Rewrite each line in plain English: **who** must or can't do **what**? The first one is done for you.",
+        "columns": [
+          "The legal page says…",
+          "In plain English"
+        ],
+        "rows": [
+          [
+            "Employment during school hours is prohibited.",
+            "Employers can't make you work during school hours."
+          ],
+          [
+            "Provision of a false name to police is an offence.",
+            ""
+          ],
+          [
+            "Lodgement of the bond with the RTBA is required.",
+            ""
+          ],
+          [
+            "Payment of wages below the minimum rate is unlawful.",
+            ""
+          ],
+          {
+            "cells": [
+              "Non-compliance may result in penalties.",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E8LA06",
+          "VC2E6LY08"
+        ],
+        "vcNote": "Unpacking nominalisation to identify who holds an obligation."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the canteen kids",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Which **three** rules did the business break?",
+            "lines": 3,
+            "vc": [
+              "VC2E6LY08",
+              "VC2E8LY07"
+            ]
+          },
+          {
+            "q": "Why do you think there are limits on hours during the school term?",
+            "lines": 2,
+            "vc": [
+              "VC2E8LY07"
+            ]
+          },
+          {
+            "q": "A 14-year-old friend gets a job. Write **two** questions they should ask to check it's legal.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "My rights card",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 32,
+          "core": 30
+        },
+        "instructions": "Sum up your rights in plain English. Use official websites (or your teacher's printouts) to check. The first row shows an example.",
+        "columns": [
+          "Where",
+          "My most important right",
+          "Where to get help"
+        ],
+        "rows": [
+          [
+            "Example: at work",
+            "I must get a payslip within one working day of payday.",
+            "Fair Work Ombudsman"
+          ],
+          [
+            "At work (pay and hours)",
+            "",
+            ""
+          ],
+          [
+            "Renting",
+            "",
+            ""
+          ],
+          [
+            "With police",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LY08",
+          "VC2E4LY10",
+          "VC2E8LY07"
+        ],
+        "vcNote": "Summarising rights accurately from authoritative sources."
+      },
+      {
+        "type": "table",
+        "title": "Make it formal",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 18
+        },
+        "instructions": "These lines are from a text message. Rewrite each one for a **formal** email to a manager. The first one is done for you.",
+        "columns": [
+          "Casual text",
+          "Formal email"
+        ],
+        "rows": [
+          [
+            "hey",
+            "Dear Ms Chen,"
+          ],
+          [
+            "u still havent paid me for last sat",
+            ""
+          ],
+          [
+            "can u fix it asap",
+            ""
+          ],
+          [
+            "thx",
+            ""
+          ],
+          {
+            "cells": [
+              "this is so dodgy",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E6LA01"
+        ],
+        "vcNote": "How language changes with formality and social distance."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: stand up for a right",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Choose one: (a) you weren't paid for last Saturday's shift; or (b) your rental has no hot water. Write a **formal** email.",
+          "core": "Choose one situation and write a **formal** email: (a) your manager hasn't paid you for a 4-hour shift last Saturday; (b) your rental has had no hot water for two days; or (c) a situation your teacher gives you.",
+          "extend": "Write a formal email asserting a right in a situation of your choice. Include the facts, the relevant rule and its source, a clear request with a reasonable deadline, and what you'll do if it isn't resolved."
+        },
+        "plan": [
+          {
+            "label": "The facts (what, when, how much)",
+            "lines": 1
+          },
+          {
+            "label": "What I'm asking for, and by when",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "Dear …,",
+            "I am writing about…",
+            "Could you please…?",
+            "Kind regards,"
+          ],
+          "core": [
+            "Dear …,",
+            "I am writing about…",
+            "On … I…",
+            "Could you please… by …?",
+            "Kind regards,"
+          ]
+        },
+        "lines": {
+          "support": 9,
+          "core": 10
+        },
+        "check": {
+          "core": [
+            "a formal greeting and sign-off",
+            "clear facts (what, when)",
+            "a polite, clear request",
+            "no slang or text-speak"
+          ],
+          "extend": [
+            "a formal greeting and sign-off",
+            "clear facts (what, when)",
+            "the rule and where it comes from",
+            "a polite, clear request with a deadline",
+            "no slang or text-speak"
+          ]
+        },
+        "vc": [
+          "VC2E6LY09",
+          "VC2E6LA01",
+          "VC2E8LY08"
+        ],
+        "vcNote": "Creating a formal written request with organised ideas, appropriate formality and a clear purpose."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Write a short speech or social media post (about 100 words) raising the issue of young workers' rights. Use facts from the case study. Who is your audience, and how did you choose your words for them?",
+            "lines": 6,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY08"
+            ]
+          },
+          {
+            "q": "Why do you think legal pages use long nouns like *employment* and *provision*? Who might find that hard, and what could fix it?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LA06"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find trusted information about my rights.",
+          "I can read legal-style information.",
+          "I can sum up my rights.",
+          "I can write a formal request."
+        ],
+        "questions": [
+          "The right I'm most glad I know:",
+          "Where I'd go for help first:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The boss level of Get Sorted. Students learn to locate authoritative rights information (government and legal aid sites) and read its legal style: headings, definitions, conditions (*if…, must…*), numerical limits and nominalisation. Content covers Victorian child employment rules for under-15s, pay rights and wage theft laws, renting basics (bonds and urgent repairs) and dealing with police (name and address, right to silence, independent persons). Students summarise their rights on a rights card, practise shifting from casual to formal language, and write a formal email asserting a right. The case study is a 2024 Melbourne Magistrates' Court case over children working in sports club canteens.",
+    "prep": [
+      "Print the key official pages (child employment rules, Victoria Legal Aid's young people and police page, Consumer Affairs Victoria renting basics) in case sites are blocked.",
+      "Check rules are current: the regulator was renamed Workforce Inspectorate Victoria in December 2025, and laws change.",
+      "Have support contacts ready: Young Workers Centre, Youth Law Australia, Victoria Legal Aid, Tenants Victoria."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Reading rights",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** the canteen shift. Legal or not? How would you find out?",
+          "**Explicit teaching (10 min):** headings, definitions, conditions, long nouns; model on the rights page.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a rights page."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Applying rights",
+        "minutes": 50,
+        "steps": [
+          "**Legal or not? (15 min).** Students name the rule for each card.",
+          "**Unpack the legal language (15 min).**",
+          "**Case study (20 min):** the canteen kids."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Summing up",
+        "minutes": 50,
+        "steps": [
+          "**My rights card (30 min),** using official websites.",
+          "**Make it formal (20 min).** Discuss: how does language change with who you're talking to?"
+        ]
+      },
+      {
+        "title": "Lesson 4 — Standing up",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** write a formal email together.",
+          "**Final mission (25 min):** stand up for a right.",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Find rights information on government and legal aid sites.",
+      "Read legal style: headings, definitions, conditions, limits; unpack nominalisation into who must do what.",
+      "Under 15 (Vic): employer needs a free licence; school term max 3 hours a day and 12 a week; not in school hours or after 9 pm. Minimum working age 13 for most jobs.",
+      "All ages: minimum pay, payslips, breaks, a safe workplace; wage theft is a crime in Victoria (since 1 July 2021).",
+      "Renting: bonds go to the RTBA; urgent repairs need a response without delay.",
+      "Police: give your real name and address if they believe you've committed an offence; you can say no comment to other questions; under 18s should have a parent, guardian or independent person at an interview.",
+      "Assert rights in writing: facts, rule, polite request."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and table rows.",
+        "Teacher's printouts for the rights card; two scenarios and starters for the email."
+      ],
+      "extend": [
+        "Cite the rule and its source in the email.",
+        "Write a speech or post raising the issue (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LY09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses comprehension strategies to build meaning from rights information (annotation, sort)."
+      },
+      {
+        "vc": "VC2E4LY10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Creates an informative text (rights card) and a request with linked ideas (final mission)."
+      },
+      {
+        "vc": "VC2E6LY08",
+        "evidence": "Connects and compares information from official sources to understand and apply rights (sort, case study, rights card)."
+      },
+      {
+        "vc": "VC2E6LY09",
+        "evidence": "Creates a formal email with developed, organised ideas for its purpose and audience (final mission)."
+      },
+      {
+        "vc": "VC2E6LA01",
+        "evidence": "Adjusts language for formality and social distance (Make it formal, final mission)."
+      },
+      {
+        "vc": "VC2E8LY07",
+        "evidence": "Interprets and evaluates legal information and a real enforcement case (case study, Check your reading)."
+      },
+      {
+        "vc": "VC2E8LY08",
+        "evidence": "Level Up: creates a text raising an issue, with deliberate language choices for an audience."
+      },
+      {
+        "vc": "VC2E8LA06",
+        "evidence": "Explains and unpacks nominalisation in legal texts (Unpack it, annotation, Level Up)."
+      }
+    ],
+    "answers": "**Check your reading:** up to 3 hours a day and 12 a week, not in school hours, not after 9 pm, and the employer needs a licence. Your real name and address; you can say no comment to other questions. Help: Fair Work Ombudsman, Workforce Inspectorate Victoria, Young Workers Centre, Consumer Affairs Victoria, Tenants Victoria, Victoria Legal Aid, Youth Law Australia.\n\n**Rights page:** 1 heading; 2 definition (who it's about); 3 condition (employer must hold a licence); 4 limits; 5 nominalisation (you can't work in school hours); 6 next step (where to report).\n\n**Sort:** Jack 4 hours — not legal; Mia holidays 6 hours with licence — legal; Ava 9:30 pm — not legal; Leo fake name — not legal; Zoe no comment — legal; landlord keeps bond — not legal.\n\n**Unpack (samples):** it's an offence to give police a false name; the landlord must lodge the bond with the RTBA; employers must not pay less than the minimum rate; if you don't follow the rules, you may be penalised.\n\n**Case study:** no permit or licence; children under the minimum age of 13; too many hours in school term. Questions: Does my employer have a child employment licence? How many hours will I work, and when?\n\n**Make it formal (samples):** I haven't yet been paid for my shift on Saturday 14 March; could you please arrange this by Friday?; Thank you for your help / Kind regards; I'm concerned this may not meet the requirements.",
+    "resources": [
+      {
+        "label": "Victorian Government — Kids under 15 working in footy club canteens leads to fine (2024)",
+        "url": "https://www.vic.gov.au/kids-under-15-working-footy-club-canteens-leads-fine-child-employment-breaches"
+      },
+      {
+        "label": "Victorian Government — Child employment licence",
+        "url": "https://www.vic.gov.au/child-employment-licence"
+      },
+      {
+        "label": "Victorian Government — Wage theft now a crime in Victoria",
+        "url": "https://www.vic.gov.au/wage-theft-now-crime-victoria"
+      },
+      {
+        "label": "Victoria Legal Aid — Young people and police",
+        "url": "https://www.legalaid.vic.gov.au/young-people-and-police"
+      },
+      {
+        "label": "Victoria Legal Aid — Speaking to police",
+        "url": "https://www.legalaid.vic.gov.au/find-legal-answers/police-powers-and-your-rights/speaking-to-police"
+      },
+      {
+        "label": "Consumer Affairs Victoria — Renting",
+        "url": "https://consumer.vic.gov.au/housing/renting"
+      },
+      {
+        "label": "Youth Law Australia — Wage theft (Vic)",
+        "url": "https://yla.org.au/vic/topics/employment/wage-theft/"
+      },
+      {
+        "label": "Young Workers Centre — Wage theft laws",
+        "url": "https://www.youngworkers.org.au/wagetheftlaws"
+      }
+    ],
+    "realityCheck": [
+      "**Laws change.** Check every rule against the official pages before teaching. This course was written in 2026, after the regulator's name changed.",
+      "**Police can be a sensitive topic.** Some students, and their families, have had bad experiences. Keep it factual and focused on rights and where to get help.",
+      "**Some students are already in unsafe or illegal jobs.** Make it easy and anonymous to ask for help; the Young Workers Centre and Youth Law Australia give free, confidential advice.",
+      "**This isn't legal advice.** Tell students that for their own situation, they should contact Victoria Legal Aid or Youth Law Australia.",
+      "**Works in a real class:** yes. It's the natural finale to Get Sorted, using reading, summarising and formal writing for things that matter to students right now."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and rows, printouts for the rights card, and two scenarios with starters for the email.",
+      "core": "Standard version: rights page anatomy, legal-or-not sort, unpacking legal language, the canteen case, a rights card, casual-to-formal practice and a formal email standing up for a right.",
+      "extend": "Adds bond and independent person to the vocabulary, a quiz question on the case, an email citing the rule and its source, and Level Ups writing a speech raising the issue and analysing nominalisation."
+    }
+  }
+}

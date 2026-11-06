@@ -1,0 +1,1104 @@
+{
+  "id": "health-smart",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "A video with **2 million likes** says a tea **cured** anxiety in three days. There's a discount code. Is it true? Who could you ask?",
+      "core": "A video with **2 million likes** says a herbal tea **cured** someone's anxiety in three days. The comments say *“This worked for me too!”* There's a discount code in the bio. Another video says it's rubbish. Who do you believe? And who could you actually ask?"
+    },
+    "why": {
+      "support": "Some health info online is true. Some isn't. Learn to check **who** made it and what **proof** it has. Learn to ask clear questions. Then you can look after your own health.",
+      "core": "Health information is everywhere, but not all of it is true. Some is made by experts. Some is made by people selling something. Learning to check **who** made it, what **evidence** it has, and how **careful** its words are helps you find information you can trust. And knowing how to ask a doctor or pharmacist clear questions means you get the right answers about your own health.",
+      "extend": "Health information circulates through texts with very different purposes: public health guidance, personal stories and marketing. Evaluating source, evidence and language (especially the difference between careful, qualified claims and absolute ones) lets you judge reliability. Clear spoken questions, and checking you've understood, let you take part in your own health care."
+    },
+    "canDo": {
+      "support": [
+        "I can check who made health info.",
+        "I can spot big claims.",
+        "I can check a trusted site.",
+        "I can ask a doctor clear questions."
+      ],
+      "core": [
+        "I can check **who** made health information, and why.",
+        "I can tell **careful** health claims from **big** claims.",
+        "I can **compare** a claim with a trusted source.",
+        "I can **ask clear questions** about my health, and check I've understood."
+      ]
+    },
+    "showIt": "Fact-check a real health claim using trusted sources, and practise asking a health professional clear questions.",
+    "vocab": [
+      {
+        "word": "source",
+        "meaning": "where information comes from",
+        "example": "The source was a hospital website."
+      },
+      {
+        "word": "evidence",
+        "meaning": "facts or research that show something is true",
+        "example": "Is there any evidence it works?"
+      },
+      {
+        "word": "claim",
+        "meaning": "something someone says is true",
+        "example": "The claim was that the tea cures anxiety."
+      },
+      {
+        "word": "health professional",
+        "meaning": "a trained health worker, like a doctor, nurse or pharmacist",
+        "example": "Ask a health professional before you try it."
+      },
+      {
+        "word": "pharmacist",
+        "meaning": "a health professional who knows about medicines",
+        "example": "The pharmacist explained the side effects."
+      },
+      {
+        "word": "confidential",
+        "meaning": "kept private",
+        "example": "What you tell your doctor is usually confidential."
+      },
+      {
+        "word": "misinformation",
+        "meaning": "information that's wrong or misleading",
+        "example": "The video was full of misinformation.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "testimonial",
+        "meaning": "a personal story used to sell or prove something",
+        "example": "“It worked for me!” is a testimonial, not evidence.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Health Smart in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Health Smart",
+        "sub": "Health info you can trust — and the right questions to ask.",
+        "icon": "lucide:heart-pulse",
+        "say": "Health smart. Health info you can trust, and the right questions to ask."
+      },
+      {
+        "kind": "big",
+        "big": "63%",
+        "title": "of teens get health info from social media",
+        "sub": "RCH National Child Health Poll, 2025",
+        "say": "In a 2025 national poll, nearly two in three Australian teens said they get health information from social media.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Check it",
+        "pillIcon": "lucide:search-check",
+        "title": "Who made it?",
+        "text": "Expert · Story · **Seller?**",
+        "icon": "lucide:user-round-search",
+        "say": "Ask: who made this? A health professional or organisation? Or someone selling something?",
+        "vc": [
+          "VC2E5LA02",
+          "VC2E8LY05"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Check it",
+        "pillIcon": "lucide:search-check",
+        "title": "Careful or big?",
+        "text": "*may help* vs **CURES!**",
+        "icon": "lucide:scale",
+        "say": "Watch the words. Careful health info says may, can, or for some people. Be wary of cure, miracle and one hundred per cent.",
+        "vc": [
+          "VC2E3LA09",
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Check it",
+        "pillIcon": "lucide:search-check",
+        "title": "Likes aren't proof",
+        "text": "❤ 2M ≠ **evidence**",
+        "icon": "lucide:heart",
+        "say": "Likes and comments aren't evidence. It worked for me is a story, not proof.",
+        "vc": [
+          "VC2E5LA02",
+          "VC2E8LY07"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Check it",
+        "pillIcon": "lucide:search-check",
+        "title": "Check a trusted site",
+        "text": "healthdirect · Better Health · headspace",
+        "icon": "lucide:shield-check",
+        "say": "Check it somewhere you trust: healthdirect, the Better Health Channel, or headspace.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "?",
+        "pill": "Ask",
+        "pillIcon": "lucide:message-circle",
+        "title": "Ask, then say it back",
+        "text": "“So I should…?”",
+        "icon": "lucide:stethoscope",
+        "say": "Then ask a professional. Plan your questions, and say the answer back to check. So I take it twice a day, with food?",
+        "vc": [
+          "VC2E5LY01",
+          "VC2E4LY01"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Who? What evidence? Check it. Ask.",
+        "icon": "lucide:heart-pulse",
+        "say": "Your mission. Fact-check a real health claim, and practise asking clear questions."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Health info you can trust",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Health info is everywhere online. Some is true. Some is wrong. Some is selling something.\n\n**1. Who made it?** A doctor or a health website? Or someone selling something?\n\n**2. What's the proof?** *“It worked for me!”* is a story, not **evidence**. Likes aren't proof.\n\n**3. Watch the words.** Good health info says **may** or **can**. Be careful of *cure*, *miracle* or *100%*.\n\n**4. Check a trusted site.** Try **healthdirect** or **headspace**.\n\n**5. Ask a professional.** A doctor, **pharmacist** or school nurse can help. **headspace** helps 12 to 25 year olds, for free or a low cost. In an emergency, call **000**.\n\n**Ask clear questions.** Write them down first. Then say the answer back: *So I take it twice a day?*\n\n**Privacy.** What you tell a doctor is usually **confidential** (private).",
+          "core": "Health information is everywhere: on TikTok, Instagram, YouTube, and from friends. Some of it is great. Some is wrong, and some is trying to sell you something. Here's how to tell the difference.\n\n**1. Who made it?** Was it a **health professional** or a health organisation, like a hospital or a government health website? Or someone sharing their story? Or someone **selling** something? Check their name, their training, and whether there's a product or discount code.\n\n**2. What's the evidence?** Reliable health information explains **why** it's true, and often links to research. A personal story, *“It worked for me!”*, is not **evidence**. Neither are likes, views or comments.\n\n**3. Watch the words.** Careful health information uses words like **may**, **can**, **might** and **for some people**, because bodies are different. Be wary of big **claims**: *cure*, *miracle*, *100%*, *guaranteed*, or *doctors don't want you to know this*.\n\n**4. Check it somewhere you trust.** Compare it with **healthdirect**, the **Better Health Channel** (from the Victorian Government) or **headspace**. If they say something different, trust them.\n\n**5. Ask a professional.** A GP, **pharmacist** or school nurse can help. **headspace** offers free or low-cost support for 12 to 25 year olds. The **healthdirect** helpline (1800 022 222) lets you talk to a nurse, for free, 24 hours a day. In an emergency, call **000**.\n\n**Asking clear questions.** Before an appointment, write down what's been happening, when it started, and your questions. During it, say the answer back to check: *So I take it twice a day, with food?* And ask: *What should I do if it doesn't get better?*\n\n**Your privacy.** What you tell a doctor is usually **confidential**. They may have to share it if someone could be seriously harmed. Once you're **14**, your parents can't see your Medicare claims online unless you agree. At **15**, you can get your own Medicare card.",
+          "extend": "Young people encounter health information constantly, through social media, video platforms and peers. Its reliability varies widely, so evaluating it is a core health skill.\n\n**1. Identify the source and purpose.** Is it from a **health professional** or health organisation (a hospital, a government health service)? A personal account? A business? Check credentials and look for commercial motives such as products, affiliate links or discount codes.\n\n**2. Assess the evidence.** Reliable sources explain their reasoning and cite research. **Testimonials** (*“It worked for me!”*), likes and comments are not **evidence**, however persuasive they feel.\n\n**3. Read the language.** Reliable health writing is **qualified**: *may*, *can*, *some people*, *evidence suggests*. This reflects real variation between people. Absolute **claims** (*cure*, *miracle*, *100%*, *guaranteed*) and appeals to suspicion (*doctors don't want you to know*) are warning signs.\n\n**4. Compare with authoritative sources** such as **healthdirect**, the Victorian Government's **Better Health Channel** or **headspace**.\n\n**5. Consult a professional.** GPs, **pharmacists** and school nurses can help. **headspace** provides free or low-cost support for 12 to 25 year olds, and the free **healthdirect** helpline (1800 022 222) connects you with a registered nurse 24/7. In an emergency, call **000**.\n\n**Communicating clearly.** Prepare a short history (what, when, what helps or worsens it) and your questions. Paraphrase advice back to confirm it, and ask what to do if things don't improve.\n\n**Privacy.** Consultations are usually **confidential**, with exceptions where someone faces serious harm. From **14**, parents can't view your Medicare claims online without your consent, and from **15** you can hold your own Medicare card."
+        },
+        "vc": [
+          "VC2E5LA02",
+          "VC2E3LA09",
+          "VC2E6LY08",
+          "VC2E5LY01",
+          "VC2E4LY01",
+          "VC2E8LY07"
+        ],
+        "vcNote": "Evaluating health sources and evidence; modal verbs and qualified claims; comparing with authoritative sources; asking and clarifying questions."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Where teens get health advice",
+        "icon": "lucide:smartphone",
+        "body": {
+          "support": "The **Royal Children's Hospital** in Melbourne asked **1,488 teens** about health info. That was in **2025**.\n\nWhat it found:\n\n- **63%** of teens get health info from **social media**.\n- Only **27%** would go to social media to **look** for it.\n\nSo most teens see health info without looking for it. It just pops up.\n\nThat's why it's important to check **who** made it.",
+          "core": "The **Royal Children's Hospital** in Melbourne runs a **National Child Health Poll**. In **August 2025**, it shared a poll about teens, health and social media. It asked **1,488 Australian teens** aged 12 to 17, and their parents.\n\nHere's what it found:\n\n- **63%** of teens said they get health information from **social media**.\n- But only **27%** said they would turn to social media if they were **looking** for health information on purpose.\n\nSo most teens are seeing health messages on social media **without even looking for them**. They pop up in their feeds, between videos about sport, music and friends.\n\nThat matters. Information you didn't look for can still shape what you believe. Check **who** made it, and what **evidence** it has. That's how you know if it's worth believing.",
+          "extend": "The **Royal Children's Hospital** in Melbourne runs the **National Child Health Poll**. Its **August 2025** poll surveyed **1,488 Australian teenagers** aged 12 to 17, and their parents, about health messages and social media.\n\n- **63%** of teens said they get health information from **social media**.\n- Only **27%** said they would turn to social media if they were **deliberately** looking for health information.\n\nThe gap suggests most exposure is **passive**. Health content arrives in feeds whether teens are looking for it or not. Its source and purpose often aren't clear.\n\nPassive exposure still shapes beliefs. So the skills you'd use when researching (checking the source, evidence and language) matter just as much when you're scrolling."
+        },
+        "source": {
+          "name": "RCH National Child Health Poll — “A teen perspective: health messages and social media” (2025)",
+          "url": "https://rchpoll.org.au/polls/a-teen-perspective-health-messages-and-social-media/"
+        },
+        "think": {
+          "support": [
+            "What did the poll find?",
+            "What health messages have you seen?"
+          ],
+          "core": [
+            "What surprised you about the poll?",
+            "Why might health messages you didn't look for still affect you?",
+            "What health messages have you seen in your feed lately?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY08",
+          "VC2E8LY07"
+        ],
+        "vcNote": "Real Australian data on teens and health information; interpreting the gap between passive and active exposure."
+      },
+      {
+        "title": "Who made the video?",
+        "icon": "lucide:video",
+        "body": {
+          "support": "A team at **La Trobe**, a uni in Melbourne, looked at **100 TikTok videos** about birth control. The videos were very popular.\n\nWhat they found:\n\n- Only **10%** were made by doctors or nurses.\n- Most were people's own stories.\n- Some were from influencers.\n\nThe top video is not always right. Check **who** made it.",
+          "core": "Researchers at **La Trobe University** studied **100 popular TikTok videos** about birth control. Together, they had nearly **five billion views**. The study came out in **2025**.\n\nHere's what they found:\n\n- Only **10%** of the videos were made by **health professionals**.\n- **53%** of the creators clearly rejected hormonal birth control.\n- About a **third** said they didn't trust health professionals.\n\nMost videos were personal stories, or advice from wellness influencers. The researchers warned that videos about bad experiences get more attention. So the app shows them to more people.\n\nThe lesson isn't about one topic. On any health question, the most popular video may not be made by someone who knows the most. Check **who** made it.",
+          "extend": "Researchers at **La Trobe University** analysed **100 popular TikTok videos** about contraception. Together, they had nearly **five billion views**. The peer-reviewed study was published in **2025**.\n\n- Only **10%** of the videos were made by **health professionals**.\n- **53%** of creators clearly rejected hormonal contraception.\n- About a **third** said they distrusted health professionals.\n\nMost videos were personal stories or advice from wellness influencers. The researchers noted that apps tend to promote bad experiences, because those videos get more engagement.\n\nThe finding goes beyond this topic. Popularity and expertise are different things. When an algorithm, not an editor, decides what you see, you need to check who made a text, and why."
+        },
+        "source": {
+          "name": "La Trobe University media release — “TikTok birth control advice exposes young people to risk” (August 2025)",
+          "url": "https://newshub.medianet.com.au/2025/08/tiktok-birth-control-advice-exposes-young-people-to-risk/113460"
+        },
+        "think": {
+          "support": [
+            "Who made most of the videos?",
+            "Where could you check instead?"
+          ],
+          "core": [
+            "What share of the videos were made by health professionals?",
+            "Why might the app show negative stories to more people?",
+            "Where could you check health information instead?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY08",
+          "VC2E8LY05"
+        ],
+        "vcNote": "How sources and personal testimony are used, and repurposed by algorithms, in health content."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a health post",
+      "docTitle": "@WELLNESS.WITH.JAZ · 2.1M FOLLOWERS (EXAMPLE)",
+      "vc": [
+        "VC2E5LA02",
+        "VC2E3LA09",
+        "VC2E8LY05"
+      ],
+      "vcNote": "How a social media post uses claims, testimony and selling to persuade.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Creator",
+          "value": "Jaz · “wellness coach” · no health qualifications listed"
+        },
+        {
+          "n": 2,
+          "label": "Claim",
+          "value": "This tea CURED my anxiety in 3 days!!! 100% natural.",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Distrust",
+          "value": "Doctors don't want you to know about this."
+        },
+        {
+          "n": 4,
+          "label": "Evidence?",
+          "value": "Comments: “Worked for me too!” · ❤ 2M likes"
+        },
+        {
+          "n": 5,
+          "label": "Selling",
+          "value": "Link in bio: 20% off with code JAZ20",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Missing",
+          "value": "No sources. No date. No mention of side effects."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Who made it?",
+          "note": "No training listed. A “coach” isn't a health professional."
+        },
+        {
+          "n": 2,
+          "label": "Big claim",
+          "note": "Cured, 100%: no careful words."
+        },
+        {
+          "n": 3,
+          "label": "Distrust",
+          "note": "Turns you against people who could help."
+        },
+        {
+          "n": 4,
+          "label": "Not evidence",
+          "note": "Stories and likes aren't proof."
+        },
+        {
+          "n": 5,
+          "label": "Motive",
+          "note": "She earns money if you buy."
+        },
+        {
+          "n": 6,
+          "label": "What's missing",
+          "note": "Reliable info shows sources and risks."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Check health info",
+      "steps": [
+        {
+          "title": "Who?",
+          "text": "Expert, story or seller?",
+          "icon": "lucide:user-round-search"
+        },
+        {
+          "title": "Evidence?",
+          "text": "Research, or just stories and likes?",
+          "icon": "lucide:flask-conical"
+        },
+        {
+          "title": "Check it",
+          "text": "healthdirect, Better Health, headspace.",
+          "icon": "lucide:shield-check"
+        },
+        {
+          "title": "Ask",
+          "text": "A GP, pharmacist or nurse.",
+          "icon": "lucide:stethoscope"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is the most reliable health **source**?",
+        "options": [
+          "A health website from a hospital or the government",
+          "An influencer with a discount code",
+          "A video with 2 million likes",
+          "A comment saying “it worked for me”"
+        ],
+        "answer": 0,
+        "explain": "Check who made it, and why.",
+        "vc": [
+          "VC2E5LA02",
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "q": "Which claim uses **careful** words?",
+        "options": [
+          "“Exercise can help improve your mood.”",
+          "“This cures anxiety in 3 days!”",
+          "“100% guaranteed results!”",
+          "“Doctors don't want you to know.”"
+        ],
+        "answer": 0,
+        "explain": "*Can* shows it's possible, not guaranteed.",
+        "vc": [
+          "VC2E3LA09",
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "q": "“It worked for me!” is…",
+        "options": [
+          "a personal story, not evidence",
+          "scientific proof",
+          "a doctor's advice",
+          "always true"
+        ],
+        "answer": 0,
+        "explain": "One person's story can't show it works for everyone.",
+        "vc": [
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "q": "The doctor says, “Take two tablets every six hours, after food.” What's the best way to check you understood?",
+        "options": [
+          "“So I take two, every six hours, after I eat?”",
+          "Nod and leave",
+          "“OK.”",
+          "Google it later"
+        ],
+        "answer": 0,
+        "explain": "Saying it back lets them correct any mistakes.",
+        "vc": [
+          "VC2E5LY01",
+          "VC2E4LY01"
+        ]
+      },
+      {
+        "q": "Who can young people aged 12 to 25 go to for free or low-cost mental health support?",
+        "options": [
+          "headspace",
+          "A wellness influencer",
+          "Nobody",
+          "Only a hospital emergency department"
+        ],
+        "answer": 0,
+        "explain": "headspace is for 12 to 25 year olds.",
+        "vc": [
+          "VC2E4LY01"
+        ]
+      },
+      {
+        "q": "In the 2025 RCH poll, how many teens said they get health information from social media?",
+        "options": [
+          "63%",
+          "6%",
+          "27%",
+          "100%"
+        ],
+        "answer": 0,
+        "explain": "But only 27% would go there on purpose.",
+        "vc": [
+          "VC2E6LY08"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "In the La Trobe study, what share of popular birth control videos were made by health professionals?",
+        "options": [
+          "10%",
+          "53%",
+          "90%",
+          "100%"
+        ],
+        "answer": 0,
+        "explain": "Popularity isn't the same as expertise.",
+        "vc": [
+          "VC2E8LY05"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Check a real health claim. Use a trusted site. Practise asking a doctor clear questions.",
+      "core": "Fact-check a real health claim using trusted sources, and practise asking a health professional clear questions.",
+      "extend": "Evaluate a real health claim against at least two authoritative sources, analyse how its language and sources try to persuade, and practise a clear, structured consultation with paraphrasing."
+    },
+    "checklist": [
+      "I checked who made the claim, and why",
+      "I looked for evidence",
+      "I checked careful vs big words",
+      "I compared it with a trusted source",
+      "I wrote a verdict with reasons",
+      "I practised asking clear questions and saying the answer back"
+    ],
+    "levelUp": "Find a real health post. How does it use stories, quotes or “experts” to persuade? Who benefits if you believe it?",
+    "vc": [
+      "VC2E6LY08",
+      "VC2E5LA02",
+      "VC2E5LY01"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Health info you can trust",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name **three** questions to ask about health information.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA02",
+              "VC2E6LY08"
+            ]
+          },
+          {
+            "q": "Why are likes and comments **not** evidence?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA02"
+            ]
+          },
+          {
+            "q": "Name **two** places a young person can get health help.",
+            "lines": 1,
+            "vc": [
+              "VC2E4LY01"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a health post",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the post. Use the word bank. Would you trust it?",
+          "core": "Each number marks part of Jaz's post. Write what it is and whether you'd trust it."
+        },
+        "columns": [
+          "What is it?",
+          "Trust it? Why?"
+        ],
+        "wordBank": {
+          "support": [
+            "creator",
+            "big claim",
+            "distrust",
+            "not evidence",
+            "selling",
+            "missing"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LA02",
+          "VC2E3LA09",
+          "VC2E8LY05"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Trust it or check it?",
+        "pagebreak": true,
+        "choices": [
+          "Trust it",
+          "Check it"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is a source of health information. Tick whether you'd **trust it**, or **check it** somewhere else first. Say why.",
+        "cards": [
+          {
+            "from": "Source",
+            "text": "A healthdirect page, reviewed by doctors, updated this year",
+            "answer": "Trust it",
+            "flags": "Expert, reviewed, recent."
+          },
+          {
+            "from": "Source",
+            "text": "An influencer recommending a supplement she sells",
+            "answer": "Check it",
+            "flags": "She makes money if you buy."
+          },
+          {
+            "from": "Source",
+            "text": "A video with 3 million likes",
+            "answer": "Check it",
+            "flags": "Likes aren't evidence."
+          },
+          {
+            "from": "Source",
+            "text": "Your pharmacist explaining how to take a medicine",
+            "answer": "Trust it",
+            "flags": "A health professional."
+          },
+          {
+            "from": "Source",
+            "text": "“Works for everyone. 100% guaranteed.”",
+            "answer": "Check it",
+            "flags": "Big claim, no careful words.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Source",
+            "text": "The Better Health Channel (Victorian Government)",
+            "answer": "Trust it",
+            "flags": "An official health source.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LA02",
+          "VC2E6LY08"
+        ],
+        "vcNote": "Evaluating the reliability and authority of health sources."
+      },
+      {
+        "type": "table",
+        "title": "Careful or big?",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 22
+        },
+        "instructions": "Is each claim **careful** or a **big claim**? Rewrite the big claims carefully, using words like *may*, *can* or *some people*. The first one is done for you.",
+        "columns": [
+          "The claim",
+          "Careful or big?",
+          "Rewrite it carefully"
+        ],
+        "rows": [
+          [
+            "This tea cures anxiety.",
+            "Big",
+            "Some people find a warm drink helps them relax."
+          ],
+          [
+            "Exercise can help improve your mood.",
+            "",
+            ""
+          ],
+          [
+            "This cream clears acne in 3 days, guaranteed!",
+            "",
+            ""
+          ],
+          [
+            "Everyone needs 4 litres of water a day.",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Some people feel better after getting more sleep.",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E3LA09",
+          "VC2E5LA02"
+        ],
+        "vcNote": "How modal verbs and qualifiers express possibility; moving from bare, absolute claims to qualified ones."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: where teens get health advice",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "What **two** numbers did the poll find?",
+              "core": "What **two** numbers did the poll find, and what's the difference between them?"
+            },
+            "lines": {
+              "support": 1,
+              "core": 2
+            },
+            "vc": [
+              "VC2E6LY08",
+              "VC2E8LY07"
+            ]
+          },
+          {
+            "q": "Why might health messages you didn't look for still affect what you believe?",
+            "lines": {
+              "support": 2,
+              "core": 3
+            },
+            "vc": [
+              "VC2E8LY07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Check health info",
+        "diagram": 1,
+        "levels": [
+          "support"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: who made the video?",
+        "caseStudy": 1,
+        "levels": [
+          "core",
+          "extend"
+        ],
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What share of the videos were made by health professionals? Why does that matter?",
+            "lines": 3,
+            "vc": [
+              "VC2E6LY08",
+              "VC2E8LY05"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Check health info",
+        "diagram": 1,
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Plan your questions",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 23,
+          "core": 21
+        },
+        "instructions": "Imagine you're seeing a GP or pharmacist about something (real, or made up: a sore knee, trouble sleeping, a rash). Plan what you'll say. The first row shows an example.",
+        "columns": [
+          "Prompt",
+          "My notes"
+        ],
+        "rows": [
+          [
+            "Example: what's been happening",
+            "My knee hurts when I run, on the outside."
+          ],
+          [
+            "What's been happening",
+            ""
+          ],
+          [
+            "When it started",
+            ""
+          ],
+          [
+            "What makes it better or worse",
+            ""
+          ],
+          [
+            "What I've tried",
+            ""
+          ],
+          [
+            "My first question",
+            ""
+          ],
+          [
+            "My second question",
+            ""
+          ],
+          [
+            "What to do if it doesn't get better? (ask this!)",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E5LY01",
+          "VC2E4LY01"
+        ],
+        "vcNote": "Planning clear spoken questions and information for a health consultation."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: the appointment",
+        "pagebreak": true,
+        "where": "in class with a partner",
+        "instructions": "Role-play a short appointment. One of you is the patient, using your plan. The other is the GP or pharmacist, using the card your teacher gives you. Then swap.",
+        "need": [
+          "your question plan",
+          "a partner",
+          "a GP or pharmacist card (from your teacher)"
+        ],
+        "steps": {
+          "support": [
+            "Patient: say what's been happening.",
+            "Doctor: give advice from the card.",
+            "Patient: say it back (*So I…?*).",
+            "Patient: ask what to do if it doesn't get better.",
+            "Swap."
+          ],
+          "core": [
+            "Patient: explain what's been happening, using your plan.",
+            "GP or pharmacist: ask one question, then give advice from your card.",
+            "Patient: say the advice back to check (*So I…?*).",
+            "Patient: ask what to do if it doesn't get better.",
+            "Swap roles."
+          ]
+        },
+        "notes": [
+          {
+            "label": "The advice I was given:",
+            "lines": 1
+          },
+          {
+            "label": "How I said it back:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Teacher saw it",
+          "Partner's feedback"
+        ],
+        "vc": [
+          "VC2E5LY01",
+          "VC2E4LY01"
+        ],
+        "vcNote": "Hands-on: using interaction skills to give information, ask questions and paraphrase advice."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: fact-check a health claim",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Find a real health claim. Check it. Should a friend believe it? Write why.",
+          "core": "Find a real health claim (on social media, a website or an ad). Check it using the four steps. Write a short verdict for a friend: should they believe it?",
+          "extend": "Find a real health claim. Evaluate its source, evidence and language, compare it with at least two authoritative sources, and write a reasoned verdict for a friend."
+        },
+        "plan": [
+          {
+            "label": "The claim, and who made it",
+            "lines": 1
+          },
+          {
+            "label": "What a trusted source says",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "The claim says…",
+            "It was made by…",
+            "A trusted site says…",
+            "My verdict:"
+          ],
+          "core": [
+            "The claim says…",
+            "It was made by…, who…",
+            "The evidence is…",
+            "healthdirect / Better Health says…",
+            "My verdict:"
+          ]
+        },
+        "lines": {
+          "support": 7,
+          "core": 8
+        },
+        "check": [
+          "who made it, and why",
+          "the evidence (or lack of it)",
+          "careful or big words",
+          "what a trusted source says",
+          "a clear verdict"
+        ],
+        "vc": [
+          "VC2E6LY08",
+          "VC2E5LA02",
+          "VC2E8LY07"
+        ],
+        "vcNote": "Evaluating a health claim against authoritative sources and writing a reasoned verdict."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find a real health post. How does it use **stories**, **quotes** or **“experts”** to persuade you? Who benefits if you believe it?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY05"
+            ]
+          },
+          {
+            "q": "Compare the post with a trusted health website on the same topic. How is the language different? Give **two** examples.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY07",
+              "VC2E3LA09"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can check who made health info.",
+          "I can spot big claims.",
+          "I can compare with a trusted source.",
+          "I can ask clear questions."
+        ],
+        "questions": [
+          "A health claim I'll check now:",
+          "Where I'd go for help:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to evaluate health information: who made it and why, what evidence it offers, and how careful its language is (qualified claims with *may*, *can* and *some people* versus absolute claims like *cure* and *100%*). They compare claims with authoritative sources (healthdirect, the Better Health Channel, headspace), learn where young people can get help, and practise asking clear questions and paraphrasing advice in a role-played appointment. Case studies: the RCH National Child Health Poll (2025) on teens and social media, and La Trobe University's 2025 study of popular TikTok birth control videos.",
+    "prep": [
+      "Make simple GP or pharmacist role-play cards (e.g. *a sprained ankle: rest, ice, see a physio if no better in a week*). Keep advice general and safe.",
+      "Check healthdirect, the Better Health Channel and headspace are reachable on school devices.",
+      "Let your wellbeing team know you're teaching this, in case it prompts students to seek help."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Who made it?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** the tea post. Would you buy it? Why or why not?",
+          "**Explicit teaching (10 min):** who, evidence, words, check; model on Jaz's post.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a health post."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Careful words",
+        "minutes": 50,
+        "steps": [
+          "**Trust it or check it? (10 min).**",
+          "**Careful or big? (15 min).** Model rewriting a big claim.",
+          "**Case studies (25 min):** where teens get health advice; who made the video?"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Ask it",
+        "minutes": 50,
+        "steps": [
+          "**Plan your questions (10 min).**",
+          "**Do it (15 min):** the appointment role-play.",
+          "**Final mission (15 min):** fact-check a health claim.",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Ask: who made it, and why? What's the evidence?",
+      "Stories, likes and comments are not evidence.",
+      "Careful health info uses may, can, some people; be wary of cure, miracle, 100%, and appeals to distrust.",
+      "Check with healthdirect, the Better Health Channel or headspace.",
+      "Help: GP, pharmacist, school nurse, headspace (12–25, free or low cost), healthdirect 1800 022 222 (free nurse advice, 24/7); 000 in an emergency.",
+      "Plan questions, say advice back, ask what to do if it doesn't improve. Consultations are usually confidential; from 14, parents can't see Medicare claims online without consent."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and table rows.",
+        "Second case study left out; sentence starters for the verdict."
+      ],
+      "extend": [
+        "Compare with two authoritative sources.",
+        "Analyse how posts use testimony and experts (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LA09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Explains how may, can and might show possibility in health claims (Careful or big?, annotation)."
+      },
+      {
+        "vc": "VC2E4LY01",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses interaction skills to gather information about health (Plan your questions, Do it)."
+      },
+      {
+        "vc": "VC2E4LY09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses comprehension strategies to build literal and inferred meaning from health posts (annotation, sort)."
+      },
+      {
+        "vc": "VC2E5LY01",
+        "evidence": "Paraphrases and questions to clarify health advice (Do it, Plan your questions)."
+      },
+      {
+        "vc": "VC2E5LA02",
+        "evidence": "Moves beyond bare assertions; values authoritative sources over testimony (sort, Careful or big?, final mission)."
+      },
+      {
+        "vc": "VC2E6LY08",
+        "evidence": "Compares health information across sources to judge reliability (case studies, final mission)."
+      },
+      {
+        "vc": "VC2E8LY05",
+        "evidence": "Analyses how posts use testimony, quotes and experts to persuade (annotation, La Trobe case, Level Up)."
+      },
+      {
+        "vc": "VC2E8LY07",
+        "evidence": "Interprets and evaluates health claims and data (RCH case, final mission, Level Up)."
+      }
+    ],
+    "answers": "**Check your reading:** who made it (and why)? What's the evidence? Are the words careful? Does a trusted source agree? Likes and comments show popularity, not whether it's true. Help: GP, pharmacist, school nurse, headspace, healthdirect.\n\n**Post:** 1 creator (no qualifications); 2 big claim (cured, 100%); 3 distrust of doctors; 4 not evidence (stories, likes); 5 selling (discount code); 6 missing (sources, date, side effects).\n\n**Sort:** healthdirect — trust; influencer selling — check; 3 million likes — check; pharmacist — trust; 100% guaranteed — check; Better Health Channel — trust.\n\n**Careful or big? (samples):** exercise can help — careful; acne cream — big (*may help some people's skin over several weeks*); 4 litres — big (*how much water you need depends on your body and activity*); more sleep — careful.\n\n**Case studies:** 63% get health information from social media, but only 27% would look for it there, so most exposure is passive; messages you didn't seek can still shape beliefs. Only 10% of the videos were made by health professionals, so popular isn't the same as accurate.",
+    "resources": [
+      {
+        "label": "RCH National Child Health Poll — A teen perspective: health messages and social media (2025)",
+        "url": "https://rchpoll.org.au/polls/a-teen-perspective-health-messages-and-social-media/"
+      },
+      {
+        "label": "La Trobe University — TikTok birth control advice exposes young people to risk (2025)",
+        "url": "https://newshub.medianet.com.au/2025/08/tiktok-birth-control-advice-exposes-young-people-to-risk/113460"
+      },
+      {
+        "label": "healthdirect — Helpline (1800 022 222)",
+        "url": "https://www.healthdirect.gov.au/healthdirect-helpline"
+      },
+      {
+        "label": "healthdirect — headspace",
+        "url": "https://www.healthdirect.gov.au/partners/headspace"
+      },
+      {
+        "label": "Department of Education (Vic) — Doctors in Secondary Schools: consent and confidentiality",
+        "url": "https://www2.education.vic.gov.au/pal/doctors-secondary-schools/guidance"
+      },
+      {
+        "label": "Services Australia — Your own Medicare card at 15",
+        "url": "https://www.servicesaustralia.gov.au/have-your-own-medicare-card-and-number-if-youre-15-or-older-and-enrolled-medicare"
+      }
+    ],
+    "realityCheck": [
+      "**Health is personal.** Never ask students to share real health problems. The plan and role-play work with made-up problems.",
+      "**The La Trobe case is about birth control.** It's left out of the support level. Check it fits your school's health and sexuality education approach before teaching it.",
+      "**Some students will need help.** Have headspace, Kids Helpline and your school's wellbeing contacts ready, and tell students where to find them.",
+      "**Confidentiality has limits.** Be clear that doctors keep things private except where someone could be seriously harmed. Your school's own rules for teachers may differ.",
+      "**Works in a real class:** yes. Students already scroll health content daily; this gives them tools to question it."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and rows, one case study, and sentence starters.",
+      "core": "Standard version: health post anatomy, trust-or-check sort, careful-or-big claims, two case studies (RCH poll and La Trobe TikTok study), planning questions, an appointment role-play and a fact-check verdict.",
+      "extend": "Adds misinformation and testimonial to the vocabulary, a quiz question on the La Trobe study, comparison with two authoritative sources, and Level Ups analysing persuasive use of testimony and comparing language."
+    }
+  }
+}
