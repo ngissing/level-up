@@ -1,0 +1,1007 @@
+{
+  "id": "buy-smart-online",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "Earbuds. **4.9 stars**. **$39**, not $129. “Only 3 left!” Should you click *Buy now*?",
+      "core": "Wireless earbuds. **4.9 stars** from 2,184 reviews. **$39**, down from $129. A timer says the sale ends in two hours, and there are **only 3 left**. Your thumb is over *Buy now*. Should you?"
+    },
+    "why": {
+      "support": "Online shops want you to click fast. Some reviews are fake. Learn to tell **fact** from **opinion**. Learn your rights. Then you won't get ripped off.",
+      "core": "Online shops are built to make you click fast. Reviews can be fake, and timers can be fake too. But a careful reader can tell a **fact** from an **opinion**, a useful review from an empty one, and a real shop from a dodgy one. And if something goes wrong, the law is on your side, as long as you know what it says.",
+      "extend": "Online shopping is a persuasive environment: reviews, ratings, timers and pricing are all chosen to move you to buy. Evaluating that language (fact or opinion, substantiated or bare, independent or self-serving) is how you make a reliable decision. Knowing the law means you can act when something goes wrong."
+    },
+    "canDo": {
+      "support": [
+        "I can tell fact from opinion.",
+        "I can spot a useful review.",
+        "I can check if a shop is real.",
+        "I know my refund rights."
+      ],
+      "core": [
+        "I can tell **fact** from **opinion** in a review.",
+        "I can tell a **useful** review from an empty one.",
+        "I can **check a seller** using more than one source.",
+        "I can explain my **refund rights**, and what **Buy Now Pay Later** really means."
+      ]
+    },
+    "showIt": "Check a real online shop and product using several sources, then write a recommendation backed up with evidence.",
+    "vocab": [
+      {
+        "word": "review",
+        "meaning": "what a customer says about a product or shop",
+        "example": "I read the reviews before buying."
+      },
+      {
+        "word": "fact",
+        "meaning": "something that can be checked and shown to be true",
+        "example": "It arrived in three days."
+      },
+      {
+        "word": "opinion",
+        "meaning": "what someone thinks or feels",
+        "example": "It's the best thing ever."
+      },
+      {
+        "word": "seller",
+        "meaning": "the person or business selling the product",
+        "example": "The seller is in Melbourne."
+      },
+      {
+        "word": "refund",
+        "meaning": "getting your money back",
+        "example": "I got a refund for the faulty charger."
+      },
+      {
+        "word": "faulty",
+        "meaning": "broken, or not working the way it should",
+        "example": "The left earbud was faulty."
+      },
+      {
+        "word": "change of mind",
+        "meaning": "when you just don't want it any more",
+        "example": "Shops don't have to refund a change of mind.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "Buy Now Pay Later",
+        "meaning": "paying in parts after you get the item: a type of debt",
+        "example": "I paid in four parts with Buy Now Pay Later.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Buy Smart Online in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Buy Smart Online",
+        "sub": "Reviews, refunds and ‘Buy now, pay later’.",
+        "icon": "lucide:shopping-bag",
+        "say": "Buy smart online. Reviews, refunds and Buy Now Pay Later."
+      },
+      {
+        "kind": "big",
+        "title": "Slow down",
+        "text": "Timers · “Only 3 left!” · **Was $129**",
+        "icon": "lucide:timer",
+        "say": "Online shops are built to make you click fast. Timers. Only three left. Huge discounts. Slow down.",
+        "vc": [
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "F",
+        "pill": "Reviews",
+        "pillIcon": "lucide:star",
+        "title": "Fact or opinion?",
+        "text": "“Amazing!” vs “**4 hours**”",
+        "icon": "lucide:scale",
+        "say": "Fact or opinion? “It's amazing” is an opinion. “The battery lasted four hours” is a fact you could check.",
+        "vc": [
+          "VC2E4LA02",
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "D",
+        "pill": "Reviews",
+        "pillIcon": "lucide:star",
+        "title": "Look for details",
+        "text": "Read the **2 and 3 stars**",
+        "icon": "lucide:search",
+        "say": "The most useful reviews give details. Read the two and three star ones too.",
+        "vc": [
+          "VC2E5LA02",
+          "VC2E7LA02"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Fake reviews cost",
+        "text": "**$600,000** penalty",
+        "icon": "lucide:gavel",
+        "say": "Fake reviews are illegal. In 2020, a court ordered the website Service Seeking to pay six hundred thousand dollars over misleading reviews.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "S",
+        "pill": "Check it",
+        "pillIcon": "lucide:shield-check",
+        "title": "Check the seller",
+        "text": "Search it · Pay safely",
+        "icon": "lucide:shield-check",
+        "say": "Check the seller in more than one place. Search the name with the word reviews or scam. Never pay by bank transfer, gift card or crypto.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "R",
+        "pill": "Your rights",
+        "pillIcon": "lucide:scale",
+        "title": "Your rights",
+        "text": "Faulty = **repair, replace, refund**",
+        "icon": "lucide:rotate-ccw",
+        "say": "Faulty? You have the right to a repair, replacement or refund, even on sale items. Change of mind? The shop doesn't have to help.",
+        "vc": [
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Check it. Read it. Recommend it.",
+        "icon": "lucide:shopping-bag",
+        "say": "Your mission. Check a real shop, read the reviews like a detective, and write a recommendation."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to buy smart online",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Online shops want you to buy **fast**. Slow down.\n\n**1. Check the shop.** Is there a real address and phone number? Search the shop's name with the word *scam*. Never pay by **bank transfer, gift card or crypto**.\n\n**2. Read reviews like a detective.**\n\n- *Best ever!!!* is an **opinion**. It doesn't help.\n- *The battery lasted four hours* is a **fact**. It helps.\n\nRead the 2- and 3-star reviews too. Fake reviews are against the law.\n\n**3. Know your rights.** Is it **faulty**? You can get a **repair, replacement or refund**, even on sale. Just don't like it? The shop doesn't have to help.\n\n**4. Buy Now Pay Later** means paying in parts. It's still **debt**.",
+          "core": "Online shops are built to make you buy, fast. Countdown timers, *only 3 left!*, and huge discounts all push you to click before you think. Slow down. Here's how to buy smart.\n\n**1. Check the seller.** Is there a real address and phone number, not just an email? Search the shop's name with the words *reviews* or *scam*, and see what other sites say. Scamwatch warns that fake shops often sell popular items for far less than anywhere else. Their biggest giveaway is how they want you to pay: **bank transfer, gift cards or crypto**. That money is almost impossible to get back.\n\n**2. Read reviews like a detective.** Reviews mix **facts** (things you could check) and **opinions** (what someone thinks or feels).\n\n- *These are the best earbuds EVER!!!* is an opinion. It tells you nothing.\n- *The battery lasted about four hours, not the eight it claims* is a fact. It's useful.\n\nThe most useful reviews give **details**. Read the 2- and 3-star reviews, not just the 5s. Be suspicious of lots of reviews with the same wording, or posted on the same day. Reviews on the shop's own site may be chosen by the shop. Fake reviews are illegal in Australia.\n\n**3. Know your rights.** Under Australian Consumer Law, products must work, match their description, and do what the seller said. If something is **faulty**, you have the right to a **repair, replacement or refund**, even if it was on sale. A sign saying *No refunds* is unlawful. But if you just **change your mind**, the shop doesn't have to help. Buying from overseas? Getting your money back can be much harder.\n\n**4. Think before Buy Now Pay Later.** BNPL lets you pay in parts. It's still **debt**, and late payments can cost you fees. Since June 2025, BNPL companies have needed a credit licence, like other lenders.",
+          "extend": "Online retail is designed to accelerate decisions. Countdown timers, scarcity claims (*only 3 left!*) and inflated *was* prices all apply pressure. Buying well means slowing down and evaluating what you read.\n\n**1. Verify the seller.** Look for a physical address and phone number, then cross-check the business on independent sites. Scamwatch notes that fake stores often advertise popular items far below normal prices. The clearest warning sign is the payment method: **bank transfers, gift cards and cryptocurrency** are almost impossible to recover.\n\n**2. Evaluate reviews.** Distinguish **facts** (verifiable) from **opinions** (judgements and feelings), and substantiated claims from bare assertions.\n\n- *Best earbuds EVER!!!* asserts a judgement but offers no evidence.\n- *The battery lasted about four hours, not the advertised eight* is specific and checkable.\n\nWeight detailed reviews, read the mid-range ratings, and be wary of clusters with similar wording or dates. Consider the source: a shop's own site may select or edit what it displays. Fake reviews are illegal under Australian Consumer Law.\n\n**3. Know your rights.** Consumer guarantees require goods to be of acceptable quality, match their description and be fit for purpose. **Faulty** goods entitle you to a **repair, replacement or refund**, including sale items, and blanket *No refunds* signs are unlawful. **Change of mind** isn't covered. Remedies from overseas sellers can be much harder to obtain.\n\n**4. Treat Buy Now Pay Later as debt.** It splits a purchase into instalments, with late fees if you miss one. Since June 2025, providers have needed an Australian credit licence."
+        },
+        "vc": [
+          "VC2E4LA02",
+          "VC2E6LA02",
+          "VC2E5LA02",
+          "VC2E7LA02",
+          "VC2E6LY08"
+        ],
+        "vcNote": "Fact, opinion and feelings; objective and subjective language; bare assertions vs substantiated claims; checking information across sources."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The reviews that weren't real",
+        "icon": "lucide:star-off",
+        "body": {
+          "support": "**Service Seeking** is a website for finding tradies. Customers can leave reviews.\n\nBut there was a problem. Businesses could write reviews about **themselves**. The reviews looked like they came from **customers**.\n\nThe **ACCC** protects shoppers. It took Service Seeking to court.\n\nIn **2020**, the court said Service Seeking had to pay **$600,000**.\n\nThe lesson: you can't always trust reviews. Check more than one place.",
+          "core": "**Service Seeking** is an Australian website where people find tradies and other businesses for jobs. Customers could leave reviews of the businesses they used.\n\nBut the **ACCC**, the government agency that protects shoppers, found a problem. Through a feature called **Fast Feedback**, businesses could write reviews about their **own** work. Those reviews then appeared as if they'd been written by **customers**.\n\nThousands of reviews were published this way. People reading them had no way of knowing who really wrote them.\n\nThe ACCC took Service Seeking to court. Service Seeking admitted it had broken the law.\n\nIn **July 2020**, the Federal Court ordered it to pay a **$600,000** penalty. It also had to publish notices correcting what it had done, and set up a program to make sure it followed the law.\n\nThe lesson: a review is only as good as its **source**. If you can't tell who wrote it, check somewhere else too.",
+          "extend": "**Service Seeking** is an Australian website that connects customers with tradies and other businesses. It has a customer review system.\n\nThe **ACCC**, the national consumer regulator, took action over a feature called **Fast Feedback**. It let businesses publish reviews of their own work. Those reviews were presented as if customers had written them. Thousands were published this way, and readers had no way of knowing who really wrote them.\n\nService Seeking admitted it had broken the law. In **July 2020**, the Federal Court ordered it to pay a **$600,000** penalty. It also had to publish corrective notices and set up a compliance program.\n\nThe case shows that a review is only as reliable as its source. Reviews often look independent. But who selected, wrote or published them matters. Checking several independent sources is how you test a claim."
+        },
+        "source": {
+          "name": "ACCC — “Service Seeking to pay penalty for misleading online customer reviews” (2020)",
+          "url": "https://www.accc.gov.au/media-release/service-seeking-to-pay-penalty-for-misleading-online-customer-reviews"
+        },
+        "think": {
+          "support": [
+            "What was wrong with the reviews?",
+            "How can you check?"
+          ],
+          "core": [
+            "What was wrong with the reviews?",
+            "Why does it matter who wrote a review?",
+            "How could you check a business's reviews?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY08",
+          "VC2E8LY05"
+        ],
+        "vcNote": "Evaluating sources: how reviews can be presented as independent when they aren't."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a product page",
+      "docTitle": "WIRELESS EARBUDS — SOUNDWAVE DEALS (EXAMPLE)",
+      "vc": [
+        "VC2E6LA02",
+        "VC2E4LA02",
+        "VC2E5LA02"
+      ],
+      "vcNote": "Persuasive features, fact and opinion, and claims to check on a product page.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Price",
+          "value": "$39 (was $129!)",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Pressure",
+          "value": "Sale ends in 02:14:09 · Only 3 left!"
+        },
+        {
+          "n": 3,
+          "label": "Rating",
+          "value": "★★★★★ 4.9 (2,184 reviews)"
+        },
+        {
+          "n": 4,
+          "label": "Review ★★★★★",
+          "value": "“Best earbuds EVER!!! Buy them now!!!”"
+        },
+        {
+          "n": 5,
+          "label": "Review ★★",
+          "value": "“The battery lasted about 4 hours, not 8. The left one stopped charging after 3 weeks.”"
+        },
+        {
+          "n": 6,
+          "label": "Returns",
+          "value": "No refunds on sale items."
+        },
+        {
+          "n": 7,
+          "label": "Payment",
+          "value": "Pay by bank transfer and save 10%!",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Price",
+          "note": "Far cheaper than anywhere else? Be careful."
+        },
+        {
+          "n": 2,
+          "label": "Pressure",
+          "note": "Timers and “only 3 left” push you to rush."
+        },
+        {
+          "n": 3,
+          "label": "Rating",
+          "note": "High, but who wrote the reviews?"
+        },
+        {
+          "n": 4,
+          "label": "Opinion",
+          "note": "No details. Tells you nothing."
+        },
+        {
+          "n": 5,
+          "label": "Facts",
+          "note": "Specific and checkable. Useful."
+        },
+        {
+          "n": 6,
+          "label": "Returns",
+          "note": "Unlawful if the item is faulty."
+        },
+        {
+          "n": 7,
+          "label": "Payment",
+          "note": "A big red flag. Hard to get back."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Before you click buy",
+      "steps": [
+        {
+          "title": "Seller",
+          "text": "Real address? What do other sites say?",
+          "icon": "lucide:store"
+        },
+        {
+          "title": "Reviews",
+          "text": "Facts, details, 2 and 3 stars.",
+          "icon": "lucide:star"
+        },
+        {
+          "title": "Pay safely",
+          "text": "No bank transfer, gift cards or crypto.",
+          "icon": "lucide:credit-card"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which review sentence is a **fact**?",
+        "options": [
+          "“It arrived in three days.”",
+          "“Best thing ever!!!”",
+          "“I love it so much.”",
+          "“Totally worth it.”"
+        ],
+        "answer": 0,
+        "explain": "A fact can be checked.",
+        "vc": [
+          "VC2E4LA02",
+          "VC2E6LA02"
+        ]
+      },
+      {
+        "q": "Which review is most **useful**?",
+        "options": [
+          "“The battery lasted 4 hours, not 8.”",
+          "“Amazing!!!”",
+          "“5 stars.”",
+          "“Buy it now!”"
+        ],
+        "answer": 0,
+        "explain": "Details back up the claim.",
+        "vc": [
+          "VC2E5LA02",
+          "VC2E7LA02"
+        ]
+      },
+      {
+        "q": "The shop says “Pay by bank transfer and save 10%.” What does that suggest?",
+        "options": [
+          "A red flag: that money is hard to get back",
+          "A great deal",
+          "The shop is honest",
+          "It's the safest way to pay"
+        ],
+        "answer": 0,
+        "explain": "Scamwatch warns about bank transfers, gift cards and crypto.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "q": "Your new headphones stop working after a week. What are you entitled to?",
+        "options": [
+          "A repair, replacement or refund",
+          "Nothing",
+          "Only a credit note",
+          "Nothing, because they were on sale"
+        ],
+        "answer": 0,
+        "explain": "Faulty goods are covered, even on sale.",
+        "vc": [
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "q": "You don't like the colour of a jumper. Must the shop give a refund?",
+        "options": [
+          "No: change of mind isn't covered (unless the shop's policy says so)",
+          "Yes, always",
+          "Only online",
+          "Only if you shout"
+        ],
+        "answer": 0,
+        "explain": "Faulty is covered. Change of mind usually isn't.",
+        "vc": [
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "q": "What did the court order Service Seeking to pay?",
+        "options": [
+          "A $600,000 penalty",
+          "Nothing",
+          "$6",
+          "A refund to every customer"
+        ],
+        "answer": 0,
+        "explain": "Over reviews that looked like they came from customers.",
+        "vc": [
+          "VC2E6LY08"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "A shop's own website shows only its best reviews. What should you do?",
+        "options": [
+          "Check independent sites too",
+          "Trust them: they're reviews",
+          "Buy straight away",
+          "Ignore all reviews"
+        ],
+        "answer": 0,
+        "explain": "Who selects the reviews affects what you see.",
+        "vc": [
+          "VC2E8LY05"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Check a real online shop. Read the reviews. Say if you'd buy, and why.",
+      "core": "Check a real online shop and product using several sources, then write a recommendation backed up with evidence.",
+      "extend": "Evaluate a real online seller and product across at least two independent sources, analysing the reliability of its reviews, and write a substantiated recommendation."
+    },
+    "checklist": [
+      "I checked the seller in more than one place",
+      "I found a fact and an opinion in the reviews",
+      "I found a useful review and said why",
+      "I checked the returns policy",
+      "I recommended, with evidence"
+    ],
+    "levelUp": "Compare the reviews on the shop's own site with reviews somewhere else. How are they different, and why?",
+    "vc": [
+      "VC2E6LY08",
+      "VC2E5LA02",
+      "VC2E6LA02"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to buy smart online",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What's the difference between a **fact** and an **opinion** in a review?",
+            "lines": 2,
+            "vc": [
+              "VC2E4LA02",
+              "VC2E6LA02"
+            ]
+          },
+          {
+            "q": "Name **two** ways to check if a seller is real.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          },
+          {
+            "q": "Something you bought is **faulty**. What are your rights?",
+            "lines": 1,
+            "vc": [
+              "VC2E5LA02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a product page",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the page. Use the word bank. Would you trust it?",
+          "core": "Each number marks part of the page. Write what it is and whether you'd trust it."
+        },
+        "columns": [
+          "What is it?",
+          "Trust it? Why?"
+        ],
+        "wordBank": {
+          "support": [
+            "price",
+            "pressure",
+            "rating",
+            "opinion",
+            "facts",
+            "returns",
+            "payment"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LA02",
+          "VC2E4LA02",
+          "VC2E5LA02"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Fact or opinion?",
+        "pagebreak": true,
+        "choices": [
+          "Fact",
+          "Opinion"
+        ],
+        "reasonLabel": "How do you know?",
+        "instructions": "Each card is a line from a review. Tick fact or opinion, and say how you know.",
+        "cards": [
+          {
+            "from": "Review",
+            "text": "The strap broke after two weeks.",
+            "answer": "Fact",
+            "flags": "You could check it."
+          },
+          {
+            "from": "Review",
+            "text": "These are the best shoes in the world!!!",
+            "answer": "Opinion",
+            "flags": "A feeling, no evidence."
+          },
+          {
+            "from": "Review",
+            "text": "It arrived in three days, as promised.",
+            "answer": "Fact",
+            "flags": "Checkable."
+          },
+          {
+            "from": "Review",
+            "text": "Totally worth it. Love love love.",
+            "answer": "Opinion",
+            "flags": "A feeling."
+          },
+          {
+            "from": "Review",
+            "text": "The colour is darker than in the photo.",
+            "answer": "Fact",
+            "flags": "You could compare them.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Review",
+            "text": "The seller seems like a really nice person.",
+            "answer": "Opinion",
+            "flags": "A judgement.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E4LA02",
+          "VC2E6LA02"
+        ],
+        "vcNote": "Identifying the language of fact, opinion and feeling; objective and subjective language."
+      },
+      {
+        "type": "table",
+        "title": "Bare or backed up?",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 30,
+          "core": 28
+        },
+        "instructions": "A **bare** review just says what someone thinks. A **backed-up** review gives details. Make each bare review useful. The first one is done for you.",
+        "columns": [
+          "Bare review",
+          "Backed-up version"
+        ],
+        "rows": [
+          [
+            "“Great phone case!”",
+            "“It survived three drops on concrete, and the buttons still click.”"
+          ],
+          [
+            "“Terrible headphones.”",
+            ""
+          ],
+          [
+            "“Fast delivery!”",
+            ""
+          ],
+          [
+            "“Waste of money.”",
+            ""
+          ],
+          {
+            "cells": [
+              "“Best hoodie ever.”",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LA02",
+          "VC2E7LA02"
+        ],
+        "vcNote": "Moving beyond bare assertions; the language of substantiation."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the reviews that weren't real",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What was wrong with the reviews on Service Seeking?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          },
+          {
+            "q": "Why does it matter **who** wrote a review?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08",
+              "VC2E8LY05"
+            ]
+          },
+          {
+            "q": "Name **two** places you could check reviews of a business, other than its own website.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Before you click buy",
+        "diagram": 1
+      },
+      {
+        "type": "scenarios",
+        "title": "Know your rights",
+        "pagebreak": true,
+        "instructions": "What are your rights? What would you do?",
+        "items": [
+          {
+            "q": "Your new headphones stop working after a week.",
+            "lines": 3
+          },
+          {
+            "q": "You bought a jumper. It's fine, but you don't like the colour.",
+            "lines": 3
+          },
+          {
+            "q": "A sale item is faulty. The shop has a sign: *No refunds on sale items.*",
+            "lines": 3,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "q": "At checkout, the site offers Buy Now Pay Later: four payments of $50 for $200 sneakers. What should you think about first?",
+            "lines": 4
+          }
+        ],
+        "vc": [
+          "VC2E5LA02",
+          "VC2E6LY08"
+        ],
+        "vcNote": "Applying consumer rights information to situations."
+      },
+      {
+        "type": "table",
+        "title": "Final mission: check a real shop",
+        "pagebreak": true,
+        "rowHeight": 21,
+        "instructions": "Pick a real product from an online shop (one you'd like to buy, or one your teacher gives you). Check it. The first row shows an example.",
+        "columns": [
+          "Check",
+          "What I found"
+        ],
+        "rows": [
+          [
+            "Example: contact details",
+            "Melbourne address and phone number on the Contact page"
+          ],
+          [
+            "Shop and product",
+            ""
+          ],
+          [
+            "Contact details",
+            ""
+          ],
+          [
+            "What other sites say about the shop",
+            ""
+          ],
+          [
+            "A fact from a review",
+            ""
+          ],
+          [
+            "An opinion from a review",
+            ""
+          ],
+          [
+            "The most useful review, and why",
+            ""
+          ],
+          [
+            "Returns policy",
+            ""
+          ],
+          [
+            "How you can pay",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LY08",
+          "VC2E4LA02",
+          "VC2E6LA02"
+        ],
+        "vcNote": "Comparing information across sources to evaluate a seller."
+      },
+      {
+        "type": "write",
+        "title": "My recommendation",
+        "pagebreak": true,
+        "prompt": {
+          "support": "A friend wants to buy this. Should they? Write a short message. Give reasons.",
+          "core": "A friend wants to buy this product from this shop. Write them a short message: should they buy it? Back up your advice with evidence from your checks.",
+          "extend": "Write a short, substantiated recommendation to a friend. Weigh the evidence from at least two sources, acknowledge any doubts, and give a clear verdict."
+        },
+        "plan": [
+          {
+            "label": "My verdict",
+            "lines": 1
+          },
+          {
+            "label": "My best evidence",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "I'd / I wouldn't buy it because…",
+            "The reviews say…",
+            "Watch out for…"
+          ],
+          "core": [
+            "I'd / I wouldn't buy it because…",
+            "The reviews say…",
+            "Other sites say…",
+            "One thing to watch out for…"
+          ]
+        },
+        "lines": {
+          "support": 9,
+          "core": 10
+        },
+        "check": [
+          "a clear verdict",
+          "evidence from your checks",
+          "a fact, not just an opinion",
+          "advice your friend can use"
+        ],
+        "vc": [
+          "VC2E5LA02",
+          "VC2E7LA02",
+          "VC2E6LY08"
+        ],
+        "vcNote": "Writing a recommendation that substantiates its claims with evidence."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Compare the reviews on the shop's own site with reviews on another site. Which quotes does the shop choose to show? Why might it choose those?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LY05"
+            ]
+          },
+          {
+            "q": "Find **two** words or phrases on the product page that try to make you buy fast. Explain how they work.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LA02",
+              "VC2E6LA02"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can tell fact from opinion.",
+          "I can spot a useful review.",
+          "I can check a seller.",
+          "I know my refund rights."
+        ],
+        "questions": [
+          "Next time I shop online, I'll check:",
+          "One thing that surprised me:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students evaluate online shopping texts: product pages, ratings and reviews. They distinguish fact, opinion and feeling, and bare assertions from substantiated claims, and check sellers across independent sources. They learn their consumer guarantee rights (repair, replace or refund for faulty goods; no change-of-mind entitlement; 'No refunds' signs are unlawful) and that Buy Now Pay Later is debt. The case study is the ACCC's 2020 Federal Court case against Service Seeking over misleading reviews. The final task checks a real shop and writes a substantiated recommendation.",
+    "prep": [
+      "Choose 3–4 real product pages from different kinds of online shops (a big Australian retailer, a marketplace, a social media ad) for students who can't pick their own.",
+      "Check shopping sites and review sites are reachable on school devices.",
+      "Print the made-up product page if devices are limited."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Read the page",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** the $39 earbuds. Would you buy? What made you want to?",
+          "**Explicit teaching (10 min):** fact vs opinion; bare vs backed up; model on the two reviews.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a product page."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Reviews and rights",
+        "minutes": 50,
+        "steps": [
+          "**Fact or opinion? (10 min).**",
+          "**Bare or backed up? (10 min).**",
+          "**Case study (15 min):** the reviews that weren't real.",
+          "**Know your rights (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Check a real shop",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (25 min):** check a real shop.",
+          "**My recommendation (15 min).**",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Shops use pressure: timers, scarcity, 'was' prices.",
+      "Fact = checkable; opinion = what someone thinks or feels.",
+      "Useful reviews give details; read the 2s and 3s; consider who chose the reviews.",
+      "Check the seller in more than one place; never pay by bank transfer, gift card or crypto.",
+      "Faulty = repair, replace or refund, even on sale; change of mind isn't covered; 'No refunds' signs are unlawful.",
+      "BNPL is debt."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and table rows.",
+        "Use the teacher's chosen product; sentence starters for the recommendation."
+      ],
+      "extend": [
+        "Weigh evidence from two sources in the recommendation.",
+        "Analyse how shops select and repurpose review quotes (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LA02",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Identifies the language of fact, opinion and feeling in reviews (sort, annotation, final mission)."
+      },
+      {
+        "vc": "VC2E4LY09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses comprehension strategies to build literal and inferred meaning from a product page (annotation, Check your reading)."
+      },
+      {
+        "vc": "VC2E6LA02",
+        "evidence": "Distinguishes objective and subjective language and identifies bias in product pages and reviews (sort, annotation)."
+      },
+      {
+        "vc": "VC2E5LA02",
+        "evidence": "Moves beyond bare assertions, using evidence and authoritative sources (Bare or backed up?, recommendation, rights)."
+      },
+      {
+        "vc": "VC2E6LY08",
+        "evidence": "Connects and compares information from several sources to evaluate a seller (case study, final mission)."
+      },
+      {
+        "vc": "VC2E7LA02",
+        "evidence": "Uses the language of evaluation and substantiation (Bare or backed up?, recommendation)."
+      },
+      {
+        "vc": "VC2E8LY05",
+        "evidence": "Level Up / case study: analyses how review quotes are selected and repurposed by a shop."
+      }
+    ],
+    "answers": "**Check your reading:** a fact can be checked; an opinion is what someone thinks or feels. Check for a real address and phone number; search the name with *reviews* or *scam* on other sites. Faulty: repair, replacement or refund.\n\n**Product page:** 1 price (suspiciously low); 2 pressure (timer, scarcity); 3 rating (who wrote them?); 4 opinion (no details); 5 facts (specific, useful); 6 returns (unlawful if faulty); 7 payment (bank transfer: red flag).\n\n**Sort:** strap broke — fact; best shoes — opinion; arrived in three days — fact; love love love — opinion; darker than the photo — fact; nice person — opinion.\n\n**Case study:** businesses could write reviews of their own work that appeared to come from customers; the source decides how reliable a review is; independent review sites, Google reviews, forums, friends.\n\n**Know your rights:** faulty — repair, replace or refund; change of mind — the shop doesn't have to help unless its policy says so; the sign is unlawful and you're still entitled to a remedy; BNPL is debt: can you make all four payments on time, and is it worth it?",
+    "resources": [
+      {
+        "label": "ACCC — Service Seeking to pay penalty for misleading online customer reviews (2020)",
+        "url": "https://www.accc.gov.au/media-release/service-seeking-to-pay-penalty-for-misleading-online-customer-reviews"
+      },
+      {
+        "label": "ACCC — Repair, replace, refund, cancel",
+        "url": "https://www.accc.gov.au/consumers/problem-with-a-product-or-service-you-bought/repair-replace-refund-cancel"
+      },
+      {
+        "label": "ACCC — Faulty fashion: use your rights (on 'No refunds' signs)",
+        "url": "https://www.accc.gov.au/media-release/faulty-fashion-%E2%80%93-use-your-rights"
+      },
+      {
+        "label": "Scamwatch — Online shopping scams",
+        "url": "https://www.scamwatch.gov.au/about-us/news-and-alerts/tis-the-season-for-online-shopping-scams"
+      },
+      {
+        "label": "ASIC — Buy now pay later industry data (2020)",
+        "url": "https://asic.gov.au/about-asic/news-centre/find-a-media-release/2020-releases/20-280mr-asic-releases-latest-data-on-buy-now-pay-later-industry/"
+      }
+    ],
+    "realityCheck": [
+      "**Students already shop online,** often through social media ads and marketplaces. Use their examples; they're more real than anything you'll prepare.",
+      "**BNPL is mostly for over-18s,** but students see it at every checkout and many will use it soon. ASIC's 2020 research found 21% of BNPL users surveyed had missed a payment in the previous 12 months.",
+      "**Rights can sound abstract.** A quick role-play (student returns faulty headphones; teacher is a difficult shop assistant) makes them stick.",
+      "**Some reviews are honestly mixed.** The goal isn't to distrust everything, but to weigh evidence.",
+      "**Works in a real class:** yes. It's directly useful, and pairs well with Review It (writing reviews) and Spot the Scam."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and table rows, the teacher's chosen product and sentence starters.",
+      "core": "Standard version: product page anatomy, fact-or-opinion sort, bare-or-backed-up reviews, the Service Seeking case, consumer rights scenarios, checking a real shop and a backed-up recommendation.",
+      "extend": "Adds change of mind and BNPL to the vocabulary, a quiz question on selected reviews, a recommendation weighing two sources, and Level Ups on how shops select quotes and pressure language."
+    }
+  }
+}

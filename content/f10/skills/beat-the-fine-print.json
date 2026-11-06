@@ -1,0 +1,1039 @@
+{
+  "id": "beat-the-fine-print",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "**Join today for $1!** Under it, in tiny writing: *$19.95 a fortnight after that. Minimum 12 months. Cancelling costs extra.* You tick *I agree*. Did you know what you agreed to?",
+      "core": "**Join today for $1!** Underneath, in tiny grey writing: *$19.95 per fortnight thereafter. Minimum 12-month term. A cancellation fee applies. Membership continues until cancelled in writing.* You tick *I agree*. Most people do. Then the gym's fees keep coming out long after they've stopped going."
+    },
+    "why": {
+      "support": "Terms and conditions are a **contract**. When you tick *I agree*, you have to follow them. You don't need to read every word. Learn where to look, and what **must** and **may** mean.",
+      "core": "Terms and conditions are a **contract**. When you tick *I agree*, you're bound by them. They're long on purpose, and written in a style that's hard to read. But you don't have to read every word. You need to know **where to look**, how to read words like **must** and **may**, and how to turn legal language into plain English.",
+      "extend": "Terms and conditions are a legally binding contract written to protect the business. Their length, structure and dense style (modal verbs, technical terms and nominalisation) make them hard to read. Strategic reading lets you find, decode and summarise the terms that matter before you agree."
+    },
+    "canDo": {
+      "support": [
+        "I can find the key parts of terms and conditions.",
+        "I can explain words like minimum term and auto-renew.",
+        "I know what must and may mean.",
+        "I can sum up the fine print in plain words."
+      ],
+      "core": [
+        "I can find the important parts of **terms and conditions** fast.",
+        "I can explain words like **minimum term**, **auto-renew** and **cancellation fee**.",
+        "I can tell who **must** do something and who **may** do something.",
+        "I can **sum up** the fine print in plain English."
+      ]
+    },
+    "showIt": "Find the real terms for a product or service, work out what you'd really be agreeing to, and write a plain-English summary for a friend.",
+    "vocab": [
+      {
+        "word": "terms and conditions",
+        "meaning": "the rules you agree to when you buy or sign up",
+        "example": "I read the terms and conditions before I ticked the box."
+      },
+      {
+        "word": "contract",
+        "meaning": "an agreement you have to keep, by law",
+        "example": "A gym membership is a contract."
+      },
+      {
+        "word": "minimum term",
+        "meaning": "the shortest time you have to stay signed up",
+        "example": "The minimum term is 12 months."
+      },
+      {
+        "word": "auto-renew",
+        "meaning": "keeps going and charging you, unless you cancel",
+        "example": "My game pass auto-renews every month."
+      },
+      {
+        "word": "cancellation fee",
+        "meaning": "money you pay to cancel early",
+        "example": "The cancellation fee is $199."
+      },
+      {
+        "word": "direct debit",
+        "meaning": "money taken from your account automatically",
+        "example": "The fee comes out by direct debit."
+      },
+      {
+        "word": "obligation",
+        "meaning": "something you have to do",
+        "example": "You have an obligation to give notice.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "plain English",
+        "meaning": "clear, everyday words",
+        "example": "I rewrote the terms in plain English.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Beat the Fine Print in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Beat the Fine Print",
+        "sub": "Gym memberships, contracts and sneaky fees.",
+        "icon": "lucide:file-search",
+        "say": "Beat the fine print. Gym memberships, contracts and sneaky fees."
+      },
+      {
+        "kind": "big",
+        "title": "I agree = a contract",
+        "text": "Tick the box. **You're bound.**",
+        "icon": "lucide:file-signature",
+        "say": "Terms and conditions are a contract. When you tick I agree, you have to keep it.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Beat it",
+        "pillIcon": "lucide:file-search",
+        "title": "Skim the headings",
+        "text": "Fees · Term · **Cancelling** · Changes",
+        "icon": "lucide:list",
+        "say": "Skim first. The headings show you where the important parts are: fees, term, cancelling, changes.",
+        "vc": [
+          "VC2E6LA03",
+          "VC2E4LY09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Beat it",
+        "pillIcon": "lucide:file-search",
+        "title": "Scan for $",
+        "text": "**$** · fee · cancel · renew",
+        "icon": "lucide:scan-search",
+        "say": "Scan for dollar signs and key words. Fee. Cancel. Renew. Minimum.",
+        "vc": [
+          "VC2E6LY08",
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Beat it",
+        "pillIcon": "lucide:file-search",
+        "title": "Must or may?",
+        "text": "**You must** · We may",
+        "icon": "lucide:scale",
+        "say": "Must means someone has to. May means they're allowed to. You must give notice. We may change our fees.",
+        "vc": [
+          "VC2E3LA09"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Beat it",
+        "pillIcon": "lucide:file-search",
+        "title": "Unpack it",
+        "text": "*Termination* → **cancel**",
+        "icon": "lucide:package-open",
+        "say": "Unpack the legal words. Termination of membership requires written notice means: to cancel, tell them in writing.",
+        "vc": [
+          "VC2E8LA06",
+          "VC2E7LA08"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "The real cost",
+        "text": "$19.95 × 26 = **$518.70**",
+        "icon": "lucide:calculator",
+        "say": "Do the maths. Nineteen ninety-five a fortnight is more than five hundred dollars a year.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Skim. Scan. Unpack. Sum it up.",
+        "icon": "lucide:file-search",
+        "say": "Your mission. Find real fine print, work out what you'd be agreeing to, and sum it up in plain English."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to beat the fine print",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Gyms, phone plans and games all have **terms and conditions**. When you tick *I agree*, it's a **contract**. You have to keep it.\n\nYou don't need to read every word. Here's how.\n\n**1. Skim the headings.** Look for *Fees*, *Cancel* and *Changes*.\n\n**2. Scan for $.** Look for words like *fee*, *cancel* and *renew*.\n\n**3. Read those parts.** Find:\n\n- the **real cost** ($19.95 a fortnight is $518.70 a year!)\n- the **minimum term**: how long you're stuck\n- **auto-renew**: does it keep charging you?\n- the **cancellation fee**\n\n**4. Must or may?** *Must* means someone **has to**. *May* means they're **allowed to**. *We may change our fees.*\n\n**5. Say it in plain words.** *Termination of membership* means *cancelling*.\n\n**6. Keep a copy.** Take a screenshot.",
+          "core": "Gyms, phone plans, streaming services, games, concert tickets: they all come with **terms and conditions**. When you tick *I agree*, you're agreeing to a **contract**. You have to keep it.\n\nThe fine print is long on purpose. You don't need to read every word. You need a plan.\n\n**1. Skim the headings.** Terms and conditions are split into sections with headings, like *Fees*, *Term*, *Cancellation* and *Changes*. These show you where the important parts are.\n\n**2. Scan for money and key words.** Look for **$**, and words like *fee*, *cancel*, *renew* and *minimum*. These are the parts that can cost you.\n\n**3. Read those parts closely.** Look for:\n\n- the **real cost**: $19.95 a fortnight is $518.70 a year\n- the **minimum term**: how long you're locked in\n- **auto-renew**: does it keep charging you until you cancel?\n- the **cancellation fee**, and how you have to cancel\n- what they're allowed to **change**\n\n**4. Watch the small words.** *Must* means someone **has to**: *You must give 30 days' notice.* *May* means someone is **allowed to**, if they choose: *We may change our fees.* Notice who has to, and who gets to choose.\n\n**5. Unpack the legal language.** Contracts often turn actions into nouns. *Termination of membership requires the provision of written notice* just means: *To cancel, tell us in writing.* Rewrite it in plain English.\n\n**6. Keep a copy.** Screenshot the terms, and set a reminder before anything renews.\n\nThe law protects you too. Since **November 2023**, businesses in Australia can be fined for using **unfair terms** in standard contracts. And a business must not mislead you about your choices.",
+          "extend": "Gym memberships, phone plans, streaming services, games and tickets all come with **terms and conditions**. Accepting them creates a **contract**: a legally binding agreement.\n\nThe length and density of fine print discourage reading. Rather than reading every word, read strategically.\n\n**1. Skim the structure.** Terms are organised into sections with headings, such as *Fees*, *Term*, *Cancellation* and *Variations*. The structure shows where the consequential content sits.\n\n**2. Scan for cost and commitment.** Search for **$** and key terms: *fee*, *cancel*, *renew*, *minimum*, *variation*.\n\n**3. Read closely.** Establish:\n\n- the **true cost** (annualise it: $19.95 a fortnight is $518.70 a year)\n- the **minimum term**\n- whether it **auto-renews**\n- the **cancellation fee** and process\n- what the business may **vary**\n\n**4. Read the modal verbs.** *Must* creates an **obligation**: *You must give 30 days' notice.* *May* grants a **discretion**: *We may vary our fees.* Mapping who must and who may shows where power sits in the contract.\n\n**5. Unpack nominalisation.** Legal writing often turns actions into nouns, which hides who does what. *Termination of membership requires the provision of written notice* becomes *To cancel, you must tell us in writing.*\n\n**6. Keep records.** Save a copy and note renewal dates.\n\nSince **9 November 2023**, businesses that use **unfair terms** in standard form contracts can face penalties. The Australian Consumer Law also bans misleading conduct, including about consumers' options."
+        },
+        "vc": [
+          "VC2E6LA03",
+          "VC2E3LA09",
+          "VC2E5LA08",
+          "VC2E8LA06",
+          "VC2E6LY08",
+          "VC2E4LY09"
+        ],
+        "vcNote": "The structure and language of terms and conditions: stages, modal verbs, technical terms and nominalisation; strategic reading."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The choice that was hard to find",
+        "icon": "lucide:eye-off",
+        "body": {
+          "support": "Microsoft 365 is a subscription for apps like Word. Lots of students use it.\n\nIn **2024**, Microsoft added an AI helper, **Copilot**, and raised the price. The Personal plan went from **$109 to $159** a year.\n\nIn **2025**, the **ACCC** took Microsoft to court. The ACCC protects shoppers. It says people were told: pay more, or cancel.\n\nBut the ACCC says there was a **third choice**. A **Classic** plan, with no Copilot, at the old price. You only saw it if you started to **cancel**.\n\nMicrosoft said sorry and offered refunds.\n\nThe court will decide if Microsoft broke the law. The lesson: look for the choices they don't show you.",
+          "core": "Microsoft 365 is a subscription for apps like Word and Excel. Many students and families use it.\n\nIn late **2024**, Microsoft added its AI helper, **Copilot**, to its Personal and Family plans. It also raised the price. The yearly price of the **Personal** plan went from **$109 to $159**. The **Family** plan went from **$139 to $179**.\n\nIn **October 2025**, the **ACCC**, the government agency that protects consumers, took Microsoft to court. About **2.7 million** Australians had plans that **auto-renew**. The ACCC says they were told they had two choices: pay the new, higher price, or cancel.\n\nBut the ACCC says there was a **third choice**: a **Classic** plan, with no Copilot, at the old price. The ACCC alleges Microsoft didn't mention it in its emails. The only way to find it was to **start cancelling** your subscription.\n\nIn **November 2025**, Microsoft said sorry to Australian subscribers. It said it could have been clearer. It offered refunds to people who switched to the Classic plan.\n\nThe court will decide if Microsoft broke the law. But the lesson for every subscriber is the same: read what you're agreeing to, and look for the choices they don't put on the front page.",
+          "extend": "Microsoft 365 is an app subscription widely used by students and families.\n\nFrom late **2024**, Microsoft added its AI assistant, **Copilot**, to its Personal and Family plans and raised prices. The yearly **Personal** plan rose **45%**, from **$109 to $159**. The **Family** plan rose from **$139 to $179**.\n\nIn **October 2025**, the **ACCC** took Microsoft to the Federal Court. It alleges that about **2.7 million** Australian subscribers on auto-renewal were told they had two options: accept Copilot at the higher price, or cancel. The ACCC says there was a third option it didn't mention: a **Classic** plan without Copilot, at the old price. Subscribers could only reach it by starting to cancel.\n\nIn **November 2025**, Microsoft publicly apologised to Australian subscribers. It said it could have been clearer about the options, and offered refunds to those who switched to Classic.\n\nThese are allegations, and the court will decide them. But the case shows how the way choices are presented can steer people. That's why it pays to read past the headline message."
+        },
+        "source": {
+          "name": "ACCC — “Microsoft in court for allegedly misleading millions of Australians over Microsoft 365 subscriptions” (October 2025)",
+          "url": "https://www.accc.gov.au/media-release/microsoft-in-court-for-allegedly-misleading-millions-of-australians-over-microsoft-365-subscriptions"
+        },
+        "think": {
+          "support": [
+            "What choices were people told about?",
+            "Where was the third choice?"
+          ],
+          "core": [
+            "What were subscribers told their choices were?",
+            "Where was the third choice, according to the ACCC?",
+            "What could a subscriber have done to find it?"
+          ]
+        },
+        "vc": [
+          "VC2E6LY08",
+          "VC2E7LY07"
+        ],
+        "vcNote": "Comparing what a business said with what the regulator alleges; inferring what is left out."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of terms and conditions",
+      "docTitle": "FLEXFIT GYM — MEMBERSHIP TERMS (EXAMPLE)",
+      "vc": [
+        "VC2E6LA03",
+        "VC2E3LA09",
+        "VC2E5LA08",
+        "VC2E8LA06"
+      ],
+      "vcNote": "The sections and language of a contract: technical terms, modal verbs and nominalisation.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Fees",
+          "value": "$19.95 per fortnight by direct debit. A $49 joining fee applies."
+        },
+        {
+          "n": 2,
+          "label": "Term",
+          "value": "Your membership has a minimum term of 12 months."
+        },
+        {
+          "n": 3,
+          "label": "Renewal",
+          "value": "After the minimum term, your membership will continue fortnightly until cancelled."
+        },
+        {
+          "n": 4,
+          "label": "Cancellation",
+          "value": "Termination of membership requires the provision of 30 days' written notice.",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Early exit",
+          "value": "Cancellation within the minimum term will incur a fee of $199."
+        },
+        {
+          "n": 6,
+          "label": "Changes",
+          "value": "We may vary our fees by giving you 30 days' notice."
+        },
+        {
+          "n": 7,
+          "label": "Your obligations",
+          "value": "You must keep your payment details up to date."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Fees",
+          "note": "× 26 fortnights = $518.70 a year, + $49."
+        },
+        {
+          "n": 2,
+          "label": "Minimum term",
+          "note": "You're locked in for 12 months."
+        },
+        {
+          "n": 3,
+          "label": "Auto-renew",
+          "note": "It keeps charging you until you cancel."
+        },
+        {
+          "n": 4,
+          "label": "Cancelling",
+          "note": "Legal nouns. Means: tell us in writing, 30 days before."
+        },
+        {
+          "n": 5,
+          "label": "Early exit fee",
+          "note": "Cancel early? Pay $199."
+        },
+        {
+          "n": 6,
+          "label": "May",
+          "note": "They're allowed to raise prices."
+        },
+        {
+          "n": 7,
+          "label": "Must",
+          "note": "You have to do this."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Beat the fine print",
+      "steps": [
+        {
+          "title": "Skim",
+          "text": "Read the headings.",
+          "icon": "lucide:list"
+        },
+        {
+          "title": "Scan",
+          "text": "Look for $, fee, cancel, renew.",
+          "icon": "lucide:scan-search"
+        },
+        {
+          "title": "Unpack",
+          "text": "Must or may? Plain English?",
+          "icon": "lucide:package-open"
+        },
+        {
+          "title": "Sum up",
+          "text": "What am I really agreeing to?",
+          "icon": "lucide:clipboard-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What does **minimum term** mean?",
+        "options": [
+          "The shortest time you have to stay signed up",
+          "The cheapest price",
+          "The smallest print",
+          "The first week free"
+        ],
+        "answer": 0,
+        "explain": "You're locked in for that long.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "q": "“**We may** change our fees.” What does *may* mean here?",
+        "options": [
+          "They're allowed to, if they choose",
+          "They definitely will",
+          "They promise not to",
+          "You have to pay them"
+        ],
+        "answer": 0,
+        "explain": "*May* = allowed to. *Must* = has to.",
+        "vc": [
+          "VC2E3LA09"
+        ]
+      },
+      {
+        "q": "A gym costs **$19.95 a fortnight**. About how much is that a year?",
+        "options": [
+          "About $520",
+          "About $20",
+          "About $240",
+          "About $100"
+        ],
+        "answer": 0,
+        "explain": "There are 26 fortnights in a year: 26 × $19.95 = $518.70.",
+        "vc": [
+          "VC2E6LY08"
+        ]
+      },
+      {
+        "q": "What does **auto-renew** mean?",
+        "options": [
+          "It keeps going and charging you, unless you cancel",
+          "It fixes itself",
+          "It stops by itself",
+          "It's free after a year"
+        ],
+        "answer": 0,
+        "explain": "Set a reminder before it renews.",
+        "vc": [
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "q": "Which is the best **first step** with long terms and conditions?",
+        "options": [
+          "Skim the headings to find fees, term and cancelling",
+          "Read every word slowly",
+          "Tick I agree",
+          "Read only the first line"
+        ],
+        "answer": 0,
+        "explain": "Headings show you where to look.",
+        "vc": [
+          "VC2E6LA03",
+          "VC2E4LY09"
+        ]
+      },
+      {
+        "q": "In the ACCC's case, where does it say the cheaper Classic plan could be found?",
+        "options": [
+          "Only by starting to cancel",
+          "On the front page",
+          "In every email",
+          "Nowhere: it didn't exist"
+        ],
+        "answer": 0,
+        "explain": "The court will decide whether Microsoft broke the law.",
+        "vc": [
+          "VC2E6LY08"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "“**Termination of membership requires the provision of written notice.**” In plain English:",
+        "options": [
+          "To cancel, you must tell them in writing",
+          "You can't cancel",
+          "They'll cancel you",
+          "Notice boards are required"
+        ],
+        "answer": 0,
+        "explain": "Turning nouns back into actions shows who has to do what.",
+        "vc": [
+          "VC2E8LA06"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Find real terms and conditions. Find the cost, term and how to cancel. Sum them up in plain words.",
+      "core": "Find the real terms for a product or service, work out what you'd really be agreeing to, and write a plain-English summary for a friend.",
+      "extend": "Strategically read real terms and conditions, analyse their modal verbs and nominalisations, calculate the true cost, and write a concise plain-English summary for a specific reader."
+    },
+    "checklist": [
+      "I found the real cost",
+      "I found the minimum term and auto-renewal",
+      "I found how to cancel, and any fee",
+      "I found one must and one may",
+      "I rewrote a sentence in plain English",
+      "I wrote a summary for a friend"
+    ],
+    "levelUp": "Find two nominalisations in your terms and rewrite them. Why do you think contracts are written this way?",
+    "vc": [
+      "VC2E6LY08",
+      "VC2E6LA03",
+      "VC2E5LA08",
+      "VC2E7LY07"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to beat the fine print",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What are **four** things to look for in terms and conditions?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08",
+              "VC2E5LA08"
+            ]
+          },
+          {
+            "q": "What's the difference between **must** and **may**?",
+            "lines": 2,
+            "vc": [
+              "VC2E3LA09"
+            ]
+          },
+          {
+            "q": "Why is it a good idea to keep a copy of the terms?",
+            "lines": 1,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of terms and conditions",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the terms. Use the word bank. What does it mean for you?",
+          "core": "Each number marks part of the gym's terms. Write what it is and what it means for you."
+        },
+        "columns": [
+          "What is it?",
+          "What does it mean for you?"
+        ],
+        "wordBank": {
+          "support": [
+            "fees",
+            "minimum term",
+            "auto-renew",
+            "cancelling",
+            "early exit fee",
+            "may",
+            "must"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E6LA03",
+          "VC2E3LA09",
+          "VC2E5LA08"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Has to, or allowed to?",
+        "pagebreak": true,
+        "choices": [
+          "Has to (must)",
+          "Allowed to (may)"
+        ],
+        "reasonLabel": "Who?",
+        "instructions": "Each card is a line from some terms. Tick whether someone **has to** or is **allowed to**. Then write **who**: you or the business.",
+        "cards": [
+          {
+            "from": "Gym terms",
+            "text": "You must give 30 days' notice to cancel.",
+            "answer": "Has to (must)",
+            "flags": "You."
+          },
+          {
+            "from": "Gym terms",
+            "text": "We may change our fees with 30 days' notice.",
+            "answer": "Allowed to (may)",
+            "flags": "The business."
+          },
+          {
+            "from": "Phone plan",
+            "text": "You must keep your payment details up to date.",
+            "answer": "Has to (must)",
+            "flags": "You."
+          },
+          {
+            "from": "Phone plan",
+            "text": "We may suspend your service if a payment fails.",
+            "answer": "Allowed to (may)",
+            "flags": "The business."
+          },
+          {
+            "from": "Streaming",
+            "text": "You must be 18 or over to hold an account.",
+            "answer": "Has to (must)",
+            "flags": "You.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Streaming",
+            "text": "We may change the content available at any time.",
+            "answer": "Allowed to (may)",
+            "flags": "The business.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E3LA09",
+          "VC2E6LY08"
+        ],
+        "vcNote": "How modal verbs signal obligation and possibility, and who holds them."
+      },
+      {
+        "type": "table",
+        "title": "Unpack it",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 32,
+          "core": 30
+        },
+        "instructions": "Contracts often turn actions into nouns. Rewrite each line in **plain English**: who does what? The first one is done for you.",
+        "columns": [
+          "The fine print says…",
+          "In plain English"
+        ],
+        "rows": [
+          [
+            "Termination of membership requires the provision of 30 days' written notice.",
+            "To cancel, you must tell us in writing, 30 days before."
+          ],
+          [
+            "Failure to pay will result in suspension of access.",
+            ""
+          ],
+          [
+            "Cancellation within the minimum term will incur a fee of $199.",
+            ""
+          ],
+          [
+            "Renewal of your subscription is automatic.",
+            ""
+          ],
+          {
+            "cells": [
+              "Any variation to fees is subject to 30 days' notice.",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E8LA06",
+          "VC2E7LA08",
+          "VC2E5LA08"
+        ],
+        "vcNote": "Unpacking nominalisation and technical terms into plain English."
+      },
+      {
+        "type": "questions",
+        "title": "What does it really cost?",
+        "pagebreak": true,
+        "instructions": "Use FlexFit's terms. There are 26 fortnights in a year. A calculator is fine.",
+        "items": [
+          {
+            "q": "How much would FlexFit cost for the first **12 months**, including the joining fee? Show your working.",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          },
+          {
+            "q": "You stop going after **6 months** (13 fortnights) and cancel. What have you paid in total? Show your working.",
+            "lines": 3,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          },
+          {
+            "q": "What does this tell you about signing up for a minimum term?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08",
+              "VC2E7LY07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Beat the fine print",
+        "diagram": 1
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the choice that was hard to find",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What were subscribers told their two choices were?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08"
+            ]
+          },
+          {
+            "q": "According to the ACCC, what was the **third** choice, and where was it?",
+            "lines": 2,
+            "vc": [
+              "VC2E6LY08",
+              "VC2E7LY07"
+            ]
+          },
+          {
+            "q": "The ACCC's claims are **allegations**. What does that mean, and why does it matter?",
+            "lines": 2,
+            "vc": [
+              "VC2E7LA08"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: beat real fine print",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 18
+        },
+        "instructions": "Find the real terms and conditions for something you use or want: a gym, phone plan, streaming service, game or ticket (or the ones your teacher gives you). The first row shows an example.",
+        "columns": [
+          "Find",
+          "What it says (in plain English)"
+        ],
+        "rows": [
+          [
+            "Example: what it is",
+            "FlexFit gym membership"
+          ],
+          [
+            "What it is",
+            ""
+          ],
+          [
+            "The real cost (for a year)",
+            ""
+          ],
+          [
+            "Minimum term",
+            ""
+          ],
+          [
+            "Does it auto-renew?",
+            ""
+          ],
+          [
+            "How to cancel, and any fee",
+            ""
+          ],
+          [
+            "One thing the business **may** do",
+            ""
+          ],
+          [
+            "One thing you **must** do",
+            ""
+          ],
+          [
+            "Anything surprising?",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E6LY08",
+          "VC2E6LA03",
+          "VC2E3LA09",
+          "VC2E5LA08"
+        ],
+        "vcNote": "Strategic reading of a real contract to locate and interpret key terms."
+      },
+      {
+        "type": "write",
+        "title": "Sum it up for a friend",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Your friend is about to tick *I agree*. Write **4 dot points** in plain words. Then give your advice.",
+          "core": "Your friend is about to tick *I agree*. Write them a plain-English summary of what they'd be agreeing to, in **5 dot points**. Finish with your advice.",
+          "extend": "Write a concise plain-English summary of the terms for a friend about to sign up: no more than 5 dot points, covering cost, commitment, cancelling and what the business can change, followed by a reasoned recommendation."
+        },
+        "plan": [
+          {
+            "label": "The most important thing",
+            "lines": 1
+          },
+          {
+            "label": "The biggest catch",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "• It costs…",
+            "• You're stuck for…",
+            "• To cancel…",
+            "My advice:"
+          ],
+          "core": [
+            "• It costs…",
+            "• You're locked in for…",
+            "• To cancel, you…",
+            "• They can…",
+            "My advice:"
+          ]
+        },
+        "lines": {
+          "support": 8,
+          "core": 9
+        },
+        "check": [
+          "the real cost",
+          "the minimum term or auto-renew",
+          "how to cancel",
+          "plain English, not legal words",
+          "clear advice"
+        ],
+        "vc": [
+          "VC2E7LY07",
+          "VC2E6LY08",
+          "VC2E5LA08"
+        ],
+        "vcNote": "Summarising a complex text for a specific reader in plain English."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find **two** nominalisations in your real terms (actions turned into nouns, like *termination* or *provision*). Rewrite them as plain actions.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LA06"
+            ]
+          },
+          {
+            "q": "Why do you think contracts are written this way? Who does it help, and who does it make things harder for?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E8LA06",
+              "VC2E7LA08"
+            ]
+          },
+          {
+            "q": "Compare the company's **ad** (or sign-up page) with its **terms**. What does the ad leave out?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY07"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find the key parts of terms and conditions.",
+          "I can explain contract words.",
+          "I can tell must from may.",
+          "I can sum up fine print in plain English."
+        ],
+        "questions": [
+          "Something I've signed up for that I'll check now:",
+          "My top fine-print tip:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The boss level of Money Moves. Students learn to read terms and conditions strategically: skimming headings, scanning for cost and commitment, and reading key sections closely. Language focus: technical terms (minimum term, auto-renew, cancellation fee, direct debit), modal verbs of obligation and possibility (must, may) and who holds them, and nominalisation in legal writing, unpacked into plain English. The case study is the ACCC's 2025 Federal Court case alleging Microsoft didn't tell subscribers about a cheaper plan. The final task reads real terms and summarises them in plain English for a friend.",
+    "prep": [
+      "Collect 3–4 sets of real terms and conditions students might meet: a gym, a phone plan, a streaming service, a game or a ticketing site. Print the key sections if devices are limited.",
+      "Check those pages are reachable on school devices.",
+      "Calculators for the cost questions."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The contract",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** the $1 gym offer. What's the catch? How would you find it?",
+          "**Explicit teaching (10 min):** skim, scan, read closely; model on FlexFit.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of terms and conditions."
+        ]
+      },
+      {
+        "title": "Lesson 2 — The language",
+        "minutes": 50,
+        "steps": [
+          "**Has to, or allowed to? (15 min).** Map who must and who may.",
+          "**Unpack it (20 min).** Model turning a nominalisation back into an action: who does what?",
+          "**What does it really cost? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — The case",
+        "minutes": 50,
+        "steps": [
+          "**Case study (20 min):** the choice that was hard to find. Discuss allegations vs findings.",
+          "**Start the final mission (30 min):** beat real fine print."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Sum it up",
+        "minutes": 50,
+        "steps": [
+          "**Finish the final mission (10 min).**",
+          "**Sum it up for a friend (25 min).** Share two strong summaries.",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Ticking I agree creates a contract.",
+      "Skim headings, scan for $ and key words, read those parts closely.",
+      "Find the real cost, minimum term, auto-renewal, cancellation process and fee, and what they may change.",
+      "Must = obligation; may = permission or possibility. Notice who holds each.",
+      "Unpack nominalisations into plain actions: who does what?",
+      "Unfair terms in standard contracts can attract penalties (since 9 November 2023); misleading consumers is illegal."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and rows.",
+        "Use the teacher's printed terms; 4 dot points with starters."
+      ],
+      "extend": [
+        "Analyse nominalisation and its effect (Level Up).",
+        "Compare ads with terms; discuss allegations vs findings in the case study."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E3LA09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Explains how must and may show obligation and possibility (sort, annotation, final mission)."
+      },
+      {
+        "vc": "VC2E4LY09",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Uses strategies such as skimming, scanning and summarising to build meaning from terms (final mission, summary)."
+      },
+      {
+        "vc": "VC2E6LY08",
+        "evidence": "Connects and compares information to work out what is really being agreed to (cost questions, case study, final mission)."
+      },
+      {
+        "vc": "VC2E5LA08",
+        "evidence": "Uses and explains contract terms precisely: minimum term, auto-renew, cancellation fee, direct debit (annotation, Unpack it, summary)."
+      },
+      {
+        "vc": "VC2E6LA03",
+        "evidence": "Explains how terms and conditions are organised into sections, and uses that structure to find information (annotation, final mission)."
+      },
+      {
+        "vc": "VC2E7LY07",
+        "evidence": "Analyses and summarises a complex text for a reader (summary, case study, Level Up)."
+      },
+      {
+        "vc": "VC2E8LA06",
+        "evidence": "Explains the effect of nominalisation and unpacks it (Unpack it, Level Up)."
+      },
+      {
+        "vc": "VC2E7LA08",
+        "evidence": "Explains terms with both everyday and legal meanings, such as notice, term and allegation (Unpack it, case study)."
+      }
+    ],
+    "answers": "**Check your reading:** the real cost, minimum term, auto-renewal, the cancellation fee and process, what they may change. Must = someone has to; may = someone is allowed to. So you can prove what you agreed to, and check renewal dates.\n\n**Terms:** 1 fees ($518.70 a year + $49); 2 minimum term (12 months); 3 auto-renew; 4 cancelling (nominalised: tell us in writing 30 days before); 5 early exit fee ($199); 6 may (they can raise fees); 7 must (you have to keep details up to date).\n\n**Sort:** 30 days' notice — must, you; change fees — may, business; payment details — must, you; suspend service — may, business; be 18 — must, you; change content — may, business.\n\n**Unpack it (samples):** if you don't pay, we'll stop you getting in; if you cancel before 12 months, you'll pay $199; your subscription renews automatically; we can change our fees if we tell you 30 days before.\n\n**Cost:** 26 × $19.95 = $518.70 + $49 = $567.70. Six months: 13 × $19.95 = $259.35 + $49 + $199 = $507.35, almost as much as a whole year.\n\n**Case study:** accept Copilot at a higher price, or cancel; a Classic plan without Copilot at the old price, reached only by starting to cancel; an allegation is a claim not yet proven in court, so we report it as what the ACCC says.",
+    "resources": [
+      {
+        "label": "ACCC — Microsoft in court for allegedly misleading millions of Australians (October 2025)",
+        "url": "https://www.accc.gov.au/media-release/microsoft-in-court-for-allegedly-misleading-millions-of-australians-over-microsoft-365-subscriptions"
+      },
+      {
+        "label": "Microsoft — An apology to our Microsoft 365 subscribers in Australia (November 2025)",
+        "url": "https://news.microsoft.com/source/asia/2025/11/06/an-apology-to-our-microsoft-365-subscribers-in-australia/"
+      },
+      {
+        "label": "ACCC — Businesses urged to remove unfair contract terms ahead of law changes (2023)",
+        "url": "https://www.accc.gov.au/media-release/businesses-urged-to-remove-unfair-contract-terms-ahead-of-law-changes"
+      },
+      {
+        "label": "ACCC — Contracts",
+        "url": "https://www.accc.gov.au/business/selling-products-and-services/contracts"
+      }
+    ],
+    "realityCheck": [
+      "**Check the case before teaching it.** The Microsoft case was before the Federal Court when this course was written. Search the ACCC's media releases for an outcome, and teach the difference between an allegation and a finding.",
+      "**Real terms are very long.** Print only the key sections (fees, term, cancellation, changes) for weaker readers; the skill is finding them.",
+      "**Students already have contracts:** phone plans, game subscriptions, streaming. Some will find something they want to cancel. Let them.",
+      "**Under-18s and contracts.** Many services need a parent or an over-18 account holder. Students still need the skill, and often explain terms to their families.",
+      "**Works in a real class:** yes. It's the natural finale to Money Moves, using payslip, budget and shopping skills together."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and rows, the teacher's printed terms and a 4-point summary with starters.",
+      "core": "Standard version: terms anatomy, must-or-may sort, unpacking legal language, the real cost of a gym membership, the ACCC's Microsoft case, beating real fine print and a plain-English summary.",
+      "extend": "Adds obligation and plain English to the vocabulary, a quiz question on nominalisation, a tighter summary with a reasoned recommendation, and Level Ups analysing nominalisation and comparing ads with terms."
+    }
+  }
+}

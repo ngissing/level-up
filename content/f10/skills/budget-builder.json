@@ -1,0 +1,1078 @@
+{
+  "id": "budget-builder",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), plus one week of tracking",
+  "brief": {
+    "hook": {
+      "support": "Thursday: payday, **$180**. Monday: **$6.40** left. You didn't buy anything big. Where did it go?",
+      "core": "Thursday is payday: **$180**. By Monday you've got **$6.40** left, and you can't remember buying anything big. A drink here, a delivery there, a skin in a game. Where did it all go?"
+    },
+    "why": {
+      "support": "A budget is a **plan** for your money. Write it down. Then you can pay for what you need, and save for what you want.",
+      "core": "A budget is a **plan** for your money, written down. It shows where your money goes, keeps the things you need covered, and turns “one day” goals into a date. Writing it as clear, ordered steps is what makes it work.",
+      "extend": "A budget is a procedural text with a purpose: to direct your own future actions. Its power comes from its structure, a clear goal, ordered steps and a regular check-in, which turns intentions into a plan you can actually follow."
+    },
+    "canDo": {
+      "support": [
+        "I can track my spending.",
+        "I can sort needs and wants.",
+        "I can read a budget.",
+        "I can write a savings plan in steps."
+      ],
+      "core": [
+        "I can **track** where my money goes for a week.",
+        "I can sort spending into **needs**, **wants** and **savings**.",
+        "I can read and build a **budget table**.",
+        "I can write a **savings plan** with a goal and clear steps in order."
+      ]
+    },
+    "showIt": "Track your spending for a week, build a weekly budget, and write a step-by-step savings plan for a real goal.",
+    "vocab": [
+      {
+        "word": "budget",
+        "meaning": "a written plan for your money",
+        "example": "My budget shows $40 for savings."
+      },
+      {
+        "word": "income",
+        "meaning": "money that comes in",
+        "example": "My income is $180 a week."
+      },
+      {
+        "word": "expense",
+        "meaning": "money that goes out",
+        "example": "My phone is my biggest expense."
+      },
+      {
+        "word": "need",
+        "meaning": "something you must pay for",
+        "example": "Bus fare to work is a need."
+      },
+      {
+        "word": "want",
+        "meaning": "something nice, but you could live without it",
+        "example": "New sneakers are a want."
+      },
+      {
+        "word": "savings goal",
+        "meaning": "an amount you want to save, by a set date",
+        "example": "My goal is $400 by June."
+      },
+      {
+        "word": "buffer",
+        "meaning": "spare money kept for surprises",
+        "example": "My $33 buffer paid for a phone case.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "track",
+        "meaning": "write down every time you spend",
+        "example": "I tracked my spending for a week.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Budget Builder in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Budget Builder",
+        "sub": "Make your money last till next payday.",
+        "icon": "lucide:piggy-bank",
+        "say": "Budget builder. Make your money last till next payday."
+      },
+      {
+        "kind": "big",
+        "title": "What's a budget?",
+        "text": "Money **in** · Money **out** · What's **left**",
+        "icon": "lucide:wallet",
+        "say": "A budget is a plan for your money. Money in, money out, and what's left.",
+        "vc": [
+          "VC2E5LA03",
+          "VC2E4LA03"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Build it",
+        "pillIcon": "lucide:piggy-bank",
+        "title": "Track it",
+        "text": "$6 × 5 days = **$30**",
+        "icon": "lucide:notebook-pen",
+        "say": "Step one. Track. For one week, write down everything you spend. Small things add up. A six-dollar drink every school day is thirty dollars a week.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Build it",
+        "pillIcon": "lucide:piggy-bank",
+        "title": "Sort it",
+        "text": "**Needs** · Wants",
+        "icon": "lucide:list-checks",
+        "say": "Step two. Sort. Needs are things you must pay for. Wants are nice, but you could live without them.",
+        "vc": [
+          "VC2E5LA03"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Build it",
+        "pillIcon": "lucide:piggy-bank",
+        "title": "Save first",
+        "text": "Payday → **savings** → spend",
+        "icon": "lucide:piggy-bank",
+        "say": "Step three. Save first. On payday, put your savings aside before you spend anything else.",
+        "vc": [
+          "VC2E5LY10",
+          "VC2E5LA04"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Build it",
+        "pillIcon": "lucide:piggy-bank",
+        "title": "Check in",
+        "text": "Every week: plan vs real",
+        "icon": "lucide:calendar-check",
+        "say": "Step four. Check in. Once a week, compare what you spent with your plan, and change it if you need to.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Goal maths",
+        "text": "$400 ÷ 10 weeks = **$40 a week**",
+        "icon": "lucide:target",
+        "say": "A goal needs an amount and a date. Four hundred dollars in ten weeks means forty dollars a week.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Track. Sort. Save first. Check in.",
+        "icon": "lucide:piggy-bank",
+        "say": "Your mission. Track a week, build your budget, and write a savings plan for something you really want."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to build a budget",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A **budget** is a plan for your money.\n\n**1. Money in.** How much do you get each week?\n\n**2. Track.** For one week, write down **everything** you spend. A $6 drink every school day is $30 a week!\n\n**3. Sort.**\n\n- **Needs**: things you must pay for, like your bus fare.\n- **Wants**: nice things you could live without, like takeaway.\n- **Savings**: money for a goal.\n\n**4. Set a goal.** Say how much, and by when. *$400 by June.*\n\n**5. Save first.** On payday, put your savings away **first**.\n\n**6. Check in.** Each week, look at your plan. Change it if you need to.",
+          "core": "A **budget** is a plan for your money. It isn't about never having fun. It's about deciding where your money goes **before** it disappears.\n\n**1. Know your money in.** Your **income** is money that comes in: pay from a job, pocket money, or a payment like Youth Allowance. Write down how much you get each week.\n\n**2. Track your money out.** For one week, write down **every** time you spend, even small things. Small spends add up fast. A $6 drink every school day is $30 a week, or more than $1,500 a year.\n\n**3. Sort it.** Put each **expense** into a group:\n\n- **Needs**: things you must pay for, like transport to work or your phone bill.\n- **Wants**: things that are nice, but you could live without, like takeaway or a new game.\n- **Savings**: money you put aside for a goal.\n\n**4. Set a goal.** A good **savings goal** has an amount and a date. *I want $400 for a festival ticket by 30 June.* Then do the maths: $400 over 10 weeks is $40 a week.\n\n**5. Save first.** On payday, move your savings into a separate account **before** you spend anything. What's left is for needs, then wants.\n\n**6. Keep a buffer.** Keep a little spare money for surprises, like a cracked screen.\n\n**7. Check in.** Once a week, compare what you spent with your plan. If it didn't work, change the plan, not the goal.\n\nMoneysmart, the government's free money website, has a budget planner you can use online.",
+          "extend": "A **budget** is a written plan for your money. Its purpose is to direct your spending **before** it happens, rather than explaining it afterwards.\n\n**1. Establish your income.** Record all money in per week: wages, pocket money, or government payments such as Youth Allowance.\n\n**2. Track your expenses.** For one week, record every purchase. The effect of small, regular spending is easy to underestimate: $6 a school day is $30 a week, or over $1,500 a year.\n\n**3. Categorise.** Sort each expense:\n\n- **Needs**: essential costs, such as transport to work.\n- **Wants**: discretionary spending, such as takeaway or games.\n- **Savings**: money set aside for a defined goal.\n\n**4. Define a goal.** Effective goals are specific and time-bound: *$400 for a festival ticket by 30 June.* Divide the total by the number of weeks to find the weekly target.\n\n**5. Pay yourself first.** Transfer savings on payday, before discretionary spending.\n\n**6. Build in a buffer** for unexpected costs.\n\n**7. Review weekly.** Compare actual spending with the plan, identify the causes of any gap, and adjust.\n\nMoneysmart, the government's free financial guidance site, offers an online budget planner."
+        },
+        "vc": [
+          "VC2E5LA03",
+          "VC2E4LA03",
+          "VC2E5LA04",
+          "VC2E7LA04"
+        ],
+        "vcNote": "A procedural text: its stages (goal, ordered steps, review) and how numbered steps and sentence openings guide the reader."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Worried about money, keen to learn",
+        "icon": "lucide:users",
+        "body": {
+          "support": "**Moneysmart** is a government money website. In **2023**, it asked young adults (called **Gen Z**) about money.\n\nWhat it found:\n\n- **68%** of Gen Z said money was a **big worry**.\n- **28%** used **Buy Now Pay Later**.\n- **39%** learn about money **every week**.\n\nSo lots of young people worry about money. But lots are also learning.\n\nA budget is a simple tool. It shows where your money goes. Then you can plan.",
+          "core": "**Moneysmart** is run by **ASIC**, the government agency that looks after Australia's money rules. In **November 2023**, it shared research about **Gen Z**, Australia's youngest adults.\n\nHere's what it found:\n\n- **68%** of Gen Z agreed that their finances were a **major cause of worry**. For everyone else, it was 57%.\n- **28%** of Gen Z used **Buy Now Pay Later**, compared with 21% of everyone else.\n- **39%** of Gen Z said they learn about managing money **at least once a week**. Only 23% of everyone else did.\n\nSo young adults are more worried about money than older Australians. But they're also more likely to be learning how to manage it.\n\nA budget is one of the simplest tools there is. It doesn't make you earn more. But it shows you where your money is going, so you can decide what matters, and plan for it.",
+          "extend": "**Moneysmart** is the free money guidance service of **ASIC**, Australia's financial regulator. In **November 2023**, it released research comparing **Gen Z**, Australia's youngest adults, with older Australians.\n\n- **68%** of Gen Z agreed their finances were a **major cause of concern**, compared with 57% of non-Gen Z.\n- **28%** of Gen Z used **Buy Now Pay Later** products, compared with 21%.\n- **39%** said they learn about managing their finances **at least once a week**, compared with 23%.\n\nThe findings suggest young adults feel more financial pressure than older people. But they're also more actively trying to learn.\n\nBudgeting doesn't increase your income. It makes your spending visible. That lets you weigh up choices and their effects before you make them, not after."
+        },
+        "source": {
+          "name": "ASIC media release 23-302MR — “Gen Z more concerned about finances than any generation in Australia” (November 2023)",
+          "url": "https://asic.gov.au/about-asic/news-centre/find-a-media-release/2023-releases/23-302mr-gen-z-more-concerned-about-finances-than-any-generation-in-australia/"
+        },
+        "think": {
+          "support": [
+            "What did Gen Z say about money?",
+            "How could a budget help?"
+          ],
+          "core": [
+            "What surprised you in the research?",
+            "Why might young adults worry more about money?",
+            "How could a budget help with that worry?"
+          ]
+        },
+        "vc": [
+          "VC2E5LY10",
+          "VC2E7LY06"
+        ],
+        "vcNote": "Real data on young Australians and money, used to explain causes and effects of budgeting."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a weekly budget",
+      "docTitle": "JAZ'S WEEKLY BUDGET (EXAMPLE)",
+      "vc": [
+        "VC2E5LA03",
+        "VC2E4LA03",
+        "VC2E7LA04"
+      ],
+      "vcNote": "The stages of a budget and how its overview, ordered sections and ending guide the reader.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "My goal",
+          "value": "$400 for a festival ticket by 30 June: $40 a week for 10 weeks",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Money in",
+          "value": "Pay from my café job: $180 a week"
+        },
+        {
+          "table": {
+            "n": 3,
+            "columns": [
+              "Money out",
+              "Type",
+              "Per week"
+            ],
+            "rows": [
+              [
+                "Savings (moved on payday)",
+                "Save",
+                "$40"
+              ],
+              [
+                "Phone",
+                "Need",
+                "$10"
+              ],
+              [
+                "Bus and train",
+                "Need",
+                "$12"
+              ],
+              [
+                "School lunches",
+                "Need",
+                "$25"
+              ],
+              [
+                "Takeaway",
+                "Want",
+                "$25"
+              ],
+              [
+                "Games",
+                "Want",
+                "$15"
+              ],
+              [
+                "Clothes",
+                "Want",
+                "$20"
+              ]
+            ]
+          }
+        },
+        {
+          "n": 4,
+          "label": "Total out",
+          "value": "$147",
+          "rule": true
+        },
+        {
+          "n": 5,
+          "label": "Buffer (for surprises)",
+          "value": "$33",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Check-in",
+          "value": "Every Sunday: compare what I spent with this plan."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Goal",
+          "note": "An amount and a date. It comes first."
+        },
+        {
+          "n": 2,
+          "label": "Money in",
+          "note": "How much comes in each week."
+        },
+        {
+          "n": 3,
+          "label": "Money out",
+          "note": "Savings first, then needs, then wants."
+        },
+        {
+          "n": 4,
+          "label": "Total out",
+          "note": "Add up everything going out."
+        },
+        {
+          "n": 5,
+          "label": "Buffer",
+          "note": "Money in − total out. Spare for surprises."
+        },
+        {
+          "n": 6,
+          "label": "Check-in",
+          "note": "When you'll review the plan."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Build a budget",
+      "steps": [
+        {
+          "title": "Track",
+          "text": "Write down every spend for a week.",
+          "icon": "lucide:notebook-pen"
+        },
+        {
+          "title": "Sort",
+          "text": "Needs, wants, savings.",
+          "icon": "lucide:list-checks"
+        },
+        {
+          "title": "Save first",
+          "text": "Move savings on payday.",
+          "icon": "lucide:piggy-bank"
+        },
+        {
+          "title": "Check in",
+          "text": "Every week: plan vs real.",
+          "icon": "lucide:calendar-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is a **budget**?",
+        "options": [
+          "A written plan for your money",
+          "A list of things you can't buy",
+          "A type of bank account",
+          "Your pay"
+        ],
+        "answer": 0,
+        "explain": "Money in, money out, and what's left.",
+        "vc": [
+          "VC2E5LA03"
+        ]
+      },
+      {
+        "q": "Which is a **need**?",
+        "options": [
+          "Bus fare to get to work",
+          "A new game",
+          "Takeaway",
+          "Concert tickets"
+        ],
+        "answer": 0,
+        "explain": "A need is something you must pay for.",
+        "vc": [
+          "VC2E5LA03"
+        ]
+      },
+      {
+        "q": "You want **$300** in **10 weeks**. How much do you save each week?",
+        "options": [
+          "$30",
+          "$3",
+          "$300",
+          "$10"
+        ],
+        "answer": 0,
+        "explain": "$300 ÷ 10 = $30.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "q": "What does **save first** mean?",
+        "options": [
+          "Put savings aside on payday, before spending",
+          "Save whatever is left at the end of the week",
+          "Save only when you feel like it",
+          "Never spend"
+        ],
+        "answer": 0,
+        "explain": "If you wait until the end of the week, there's often nothing left.",
+        "vc": [
+          "VC2E5LY10"
+        ]
+      },
+      {
+        "q": "Which sentence is written like a **step** in a plan?",
+        "options": [
+          "Every payday, move $40 into my savings account.",
+          "Saving is good.",
+          "I like money.",
+          "Last week was expensive."
+        ],
+        "answer": 0,
+        "explain": "Steps tell you what to do and when, often starting with a time word or a verb.",
+        "vc": [
+          "VC2E5LA04",
+          "VC2E5LA03"
+        ]
+      },
+      {
+        "q": "In the Moneysmart research, what share of Gen Z said finances were a major worry?",
+        "options": [
+          "68%",
+          "6%",
+          "100%",
+          "23%"
+        ],
+        "answer": 0,
+        "explain": "Compared with 57% of older Australians.",
+        "vc": [
+          "VC2E5LY10"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Jaz spends an extra $20 on takeaway one week. What's the **effect**?",
+        "options": [
+          "Less buffer, or less saved, that week",
+          "Nothing",
+          "Jaz earns more",
+          "The goal date moves earlier"
+        ],
+        "answer": 0,
+        "explain": "Every choice in a budget has an effect somewhere else.",
+        "vc": [
+          "VC2E7LY06"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Track your spending for a week. Fill in a budget. Write a savings plan in steps.",
+      "core": "Track your spending for a week, build a weekly budget, and write a step-by-step savings plan for a real goal.",
+      "extend": "Track and categorise a week of spending, build a balanced weekly budget, and write a cohesive procedural savings plan with an overview, sequenced steps and a review stage."
+    },
+    "checklist": [
+      "I tracked a week of spending",
+      "I sorted needs, wants and savings",
+      "I built a budget that adds up",
+      "My goal has an amount and a date",
+      "My plan has steps in order",
+      "My plan has a check-in"
+    ],
+    "levelUp": "Rewrite your savings plan for a younger brother or sister saving for their first big purchase. Change the language and steps to suit them.",
+    "vc": [
+      "VC2E5LY10",
+      "VC2E5LA03",
+      "VC2E5LA04"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to build a budget",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "What's the difference between a **need** and a **want**?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LA03"
+            ]
+          },
+          {
+            "q": "What does a good **savings goal** need?",
+            "lines": 1,
+            "vc": [
+              "VC2E5LY10"
+            ]
+          },
+          {
+            "q": "Why should you **save first**, on payday?",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY10",
+              "VC2E7LY06"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a weekly budget",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the budget. Use the word bank. Write why it's there.",
+          "core": "Each number marks part of Jaz's budget. Write what it is and why it's there."
+        },
+        "columns": [
+          "What is it?",
+          "Why is it there?"
+        ],
+        "wordBank": {
+          "support": [
+            "goal",
+            "money in",
+            "money out",
+            "total out",
+            "buffer",
+            "check-in"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VC2E5LA03",
+          "VC2E4LA03",
+          "VC2E7LA04"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Need or want?",
+        "pagebreak": true,
+        "choices": [
+          "Need",
+          "Want"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is something a 16-year-old might spend money on. Tick need or want, and say why.",
+        "cards": [
+          {
+            "from": "Spending",
+            "text": "Bus fare to get to your job",
+            "answer": "Need",
+            "flags": "You can't earn without getting there."
+          },
+          {
+            "from": "Spending",
+            "text": "A third streaming service",
+            "answer": "Want",
+            "flags": "Nice, but you can live without it."
+          },
+          {
+            "from": "Spending",
+            "text": "Lunch on a school day",
+            "answer": "Need",
+            "flags": "You need to eat."
+          },
+          {
+            "from": "Spending",
+            "text": "Limited-edition sneakers (your old ones are fine)",
+            "answer": "Want",
+            "flags": "Your old ones still work."
+          },
+          {
+            "from": "Spending",
+            "text": "Black work shoes your job says you must wear",
+            "answer": "Need",
+            "flags": "Required for work.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Spending",
+            "text": "An energy drink every morning",
+            "answer": "Want",
+            "flags": "Adds up: about $20–$30 a week.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E5LA03"
+        ],
+        "vcNote": "Classifying information into categories, with reasons."
+      },
+      {
+        "type": "table",
+        "title": "Track a week",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 17,
+          "core": 15
+        },
+        "instructions": "For one week, write down **everything** you spend. The first row shows an example.",
+        "columns": [
+          "Day",
+          "What I spent on",
+          "Cost",
+          "Need, want or save?"
+        ],
+        "rows": [
+          [
+            "Example: Monday",
+            "Drink from the canteen",
+            "$4.50",
+            "Want"
+          ],
+          [
+            "Monday",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Tuesday",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Wednesday",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Thursday",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Friday",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Saturday",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Sunday",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Total for the week",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VC2E5LY10",
+          "VC2E5LA03"
+        ],
+        "vcNote": "Recording and categorising information in a table."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: worried about money, keen to learn",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Write **two** things the Moneysmart research found.",
+            "lines": 2,
+            "vc": [
+              "VC2E5LY10"
+            ]
+          },
+          {
+            "q": "Why might young adults worry more about money than older people?",
+            "lines": 2,
+            "vc": [
+              "VC2E7LY06"
+            ]
+          },
+          {
+            "q": "How could a budget help someone who's worried about money?",
+            "lines": 2,
+            "vc": [
+              "VC2E7LY06",
+              "VC2E5LY10"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Build my budget",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 15,
+          "core": 13
+        },
+        "instructions": "Use your tracking to build a budget for next week. Put savings first. The first row shows an example.",
+        "columns": [
+          "Money out",
+          "Need, want or save?",
+          "Per week"
+        ],
+        "rows": [
+          [
+            "Example: savings for my goal",
+            "Save",
+            "$40"
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "Money in",
+            "",
+            "$"
+          ],
+          [
+            "Total out",
+            "",
+            "$"
+          ],
+          [
+            "Buffer (money in − total out)",
+            "",
+            "$"
+          ]
+        ],
+        "vc": [
+          "VC2E5LY10",
+          "VC2E5LA03"
+        ],
+        "vcNote": "Building a budget table with stages: savings first, needs, wants, totals."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my savings plan",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write a savings plan for something you want. Say your goal. Write the steps in order. Say when you'll check.",
+          "core": "Write a savings plan for something you really want. Start with your goal. Then write the steps in order. End with when you'll check in.",
+          "extend": "Write a cohesive savings plan for a real goal. Open with an overview (goal, amount, date), write sequenced steps using time words and verbs, explain what you'll do if something goes wrong, and end with a review stage."
+        },
+        "plan": [
+          {
+            "label": "Goal: what, how much, by when",
+            "lines": 1
+          },
+          {
+            "label": "How much a week (show the maths)",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "My goal is to save … by …",
+            "First, I will…",
+            "Every payday, I will…",
+            "Every Sunday, I will check…"
+          ],
+          "core": [
+            "My goal is to save … for … by …",
+            "First, I will…",
+            "Every payday, I will…",
+            "If I spend too much, I will…",
+            "Every Sunday, I will check…"
+          ]
+        },
+        "lines": {
+          "support": 10,
+          "core": 11
+        },
+        "check": [
+          "a goal with an amount and a date",
+          "steps in order",
+          "time words (first, every payday…)",
+          "what to do if it goes wrong",
+          "a check-in"
+        ],
+        "vc": [
+          "VC2E5LY10",
+          "VC2E5LA04",
+          "VC2E4LY10",
+          "VC2E7LY08",
+          "VC2E7LA04"
+        ],
+        "vcNote": "Creating a procedural text with an overview, sequenced steps, cohesive sentence openings and an ending."
+      },
+      {
+        "type": "scenarios",
+        "title": "What would you do?",
+        "pagebreak": true,
+        "instructions": "Use your budget. Explain what you'd do, and what the **effect** would be.",
+        "items": [
+          {
+            "q": "Your phone screen cracks. A repair costs $120. Your buffer is $33 a week.",
+            "lines": 3
+          },
+          {
+            "q": "Friends ask you to a $60 concert this weekend. You've already spent your wants money.",
+            "lines": 3
+          },
+          {
+            "q": "You get extra shifts in the school holidays and earn $150 more than usual.",
+            "lines": 2,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VC2E7LY06",
+          "VC2E5LY10"
+        ],
+        "vcNote": "Explaining cause and effect in budget decisions."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "items": [
+          {
+            "q": "Rewrite **two** steps of your plan for a 10-year-old saving for their first big purchase. What did you change, and why?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY08"
+            ]
+          },
+          {
+            "q": "Jaz used Buy Now Pay Later for $120 of clothes: four payments of $30. Explain the **effect** on Jaz's budget for the next few weeks.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VC2E7LY06"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can track my spending.",
+          "I can sort needs, wants and savings.",
+          "I can build a budget.",
+          "I can write a savings plan in steps."
+        ],
+        "questions": [
+          "What I'm saving for:",
+          "One small spend I'll cut:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students track a week of spending, sort it into needs, wants and savings, and read and build a weekly budget table. The writing focus is a procedural text: a savings plan with an overview (goal, amount, date), sequenced steps using time words and verbs, and a review stage. The case study is ASIC Moneysmart's 2023 research on Gen Z and money.",
+    "prep": [
+      "Start the tracking task early: students need a week of spending (or use the made-up week if tracking isn't practical).",
+      "Check Moneysmart's budget planner is reachable on school devices.",
+      "Be ready for very different incomes: some students have jobs, some have no money of their own."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What's a budget?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** $180 on Thursday, $6.40 on Monday. Where did it go?",
+          "**Explicit teaching (10 min):** money in, money out, needs, wants, save first; model on Jaz's budget.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Anatomy of a weekly budget. Start the week of tracking."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Sort and build",
+        "minutes": 50,
+        "steps": [
+          "**Need or want? (10 min).** Discuss the grey areas.",
+          "**Case study (15 min):** worried about money, keen to learn.",
+          "**Build my budget (25 min),** using tracking so far."
+        ]
+      },
+      {
+        "title": "Lesson 3 — The plan",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** write a savings plan together. Highlight the goal, time words and verbs.",
+          "**Final mission (25 min):** my savings plan.",
+          "**What would you do? / Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "A budget is a written plan: money in, money out, what's left.",
+      "Track first; small, regular spends add up.",
+      "Needs, wants and savings.",
+      "A goal needs an amount and a date; divide by the weeks.",
+      "Save first, keep a buffer, check in weekly.",
+      "A plan is a procedural text: overview, ordered steps, review."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards.",
+        "Use the made-up week; sentence starters for the plan."
+      ],
+      "extend": [
+        "Write the plan with an overview, sequenced steps and a review stage.",
+        "Explain the effects of choices (scenarios, BNPL Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VC2E4LA03",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Describes how a budget and a plan are organised into stages for their purpose (annotation, plan)."
+      },
+      {
+        "vc": "VC2E4LY10",
+        "levels": [
+          "support"
+        ],
+        "evidence": "Creates an informative plan with relevant, linked steps (savings plan)."
+      },
+      {
+        "vc": "VC2E5LY10",
+        "evidence": "Creates a sequenced, elaborated plan using a structure suited to its purpose (budget, savings plan)."
+      },
+      {
+        "vc": "VC2E5LA03",
+        "evidence": "Describes the stages of a budget and a procedural text (annotation, sort, budget table)."
+      },
+      {
+        "vc": "VC2E5LA04",
+        "evidence": "Uses sentence openings (time words, verbs) to sequence steps and guide the reader (savings plan)."
+      },
+      {
+        "vc": "VC2E7LY08",
+        "evidence": "Level Up: adapts a plan's language and content for a younger audience."
+      },
+      {
+        "vc": "VC2E7LA04",
+        "evidence": "Uses cohesive devices: an overview (goal), sequenced steps and a review ending (savings plan, annotation)."
+      },
+      {
+        "vc": "VC2E7LY06",
+        "evidence": "Explains cause and effect in budget decisions (scenarios, case study, Level Up)."
+      }
+    ],
+    "answers": "**Check your reading:** a need is something you must pay for; a want is nice but you could live without it. An amount and a date. If you wait, there's often nothing left.\n\n**Budget:** 1 goal (amount and date, first); 2 money in; 3 money out (savings first, then needs, then wants); 4 total out ($147); 5 buffer ($180 − $147 = $33); 6 check-in.\n\n**Sort:** bus fare — need; third streaming service — want; school lunch — need; limited-edition sneakers — want; required work shoes — need; daily energy drink — want.\n\n**Case study:** 68% of Gen Z said finances were a major cause of concern (57% for others); 28% used BNPL (21%); 39% learn about money weekly (23%).\n\n**Scenarios (samples):** use the buffer for four weeks, or take some from wants; skip it, or move money from next week's wants; save some of the extra, which brings the goal date closer.\n\n**BNPL Level Up:** $30 a week comes out for four weeks, so less buffer or wants, or the goal date moves later.",
+    "resources": [
+      {
+        "label": "Moneysmart — Budgeting and the budget planner",
+        "url": "https://moneysmart.gov.au/budgeting"
+      },
+      {
+        "label": "ASIC — Gen Z more concerned about finances than any generation in Australia (2023)",
+        "url": "https://asic.gov.au/about-asic/news-centre/find-a-media-release/2023-releases/23-302mr-gen-z-more-concerned-about-finances-than-any-generation-in-australia/"
+      },
+      {
+        "label": "Moneysmart — Teaching resources",
+        "url": "https://moneysmart.gov.au/teaching-resources"
+      }
+    ],
+    "realityCheck": [
+      "**Money is sensitive.** Some students have no money of their own; some support their families. Let them use Jaz's made-up week, and never ask students to share real amounts aloud.",
+      "**Tracking needs reminders.** A daily 2-minute check-in at the start of class makes the week of tracking actually happen.",
+      "**Need or want is sometimes grey.** A phone can be both. The reasoning matters more than the tick.",
+      "**Bank accounts.** Some students can't easily open a savings account. Saving first can mean an envelope or a separate jar.",
+      "**Works in a real class:** yes. It follows on from Read Your Payslip, and the savings plan gives students a real goal to write about."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards, the made-up week and sentence starters for the plan.",
+      "core": "Standard version: budget anatomy, need-or-want sort, a week of tracking, the Moneysmart Gen Z case, building a budget table and writing a sequenced savings plan, plus cause-and-effect scenarios.",
+      "extend": "Adds buffer and track to the vocabulary, a quiz question on cause and effect, a plan with an overview and review stage, and Level Ups adapting the plan for a younger reader and explaining the effect of BNPL."
+    }
+  }
+}
