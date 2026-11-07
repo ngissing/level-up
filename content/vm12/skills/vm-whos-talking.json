@@ -1,0 +1,906 @@
+{
+  "id": "vm-whos-talking",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "An ad says shop owners don't like a new law. It looks like it comes from small shops. But what if someone else paid for it?",
+      "core": "A newspaper ad says small shop owners are worried about a new law. It looks like it comes from the corner store down the road. But what if the people really paying for that ad were someone else entirely, someone with billions of dollars riding on the outcome?"
+    },
+    "why": {
+      "support": "Every opinion comes from someone. Their job, values and life shape what they say. Some people gain if you agree. Ask: who's talking, and why?",
+      "core": "Every opinion comes from somewhere. A person's job, values, background and experience shape what they say, and who they're saying it to. Some people gain if you agree with them. Working out who's talking, and why, helps you decide what to believe, at school, at work and when you vote.",
+      "extend": "Opinions are shaped by the values, backgrounds and interests of the people who hold them. If you can spot perspective and bias, and name a text's purpose and audience, you can weigh claims fairly. You won't just accept or reject them on instinct."
+    },
+    "canDo": {
+      "support": [
+        "I can find who is behind an opinion.",
+        "I can say how someone's life shapes their view.",
+        "I can spot bias.",
+        "I can say who a text is for, and why."
+      ],
+      "core": [
+        "I can work out **who** is behind an opinion.",
+        "I can explain how **values** and **background** shape what people say.",
+        "I can tell the difference between **perspective** and **bias**.",
+        "I can identify a text's **purpose** and **audience**."
+      ]
+    },
+    "showIt": "Choose a real opinion text on an issue you care about, and work out who's talking, what they want, who they're talking to, and what they might leave out.",
+    "vocab": [
+      {
+        "word": "opinion",
+        "meaning": "what someone thinks or believes about something",
+        "example": "In my opinion, the park should stay open."
+      },
+      {
+        "word": "values",
+        "meaning": "the things a person thinks are most important",
+        "example": "Her values are family and fairness."
+      },
+      {
+        "word": "perspective",
+        "meaning": "the point of view someone sees an issue from",
+        "example": "From a shop owner's perspective, parking matters."
+      },
+      {
+        "word": "bias",
+        "meaning": "leaning to one side in an unfair way",
+        "example": "The report was biased. It only told one side."
+      },
+      {
+        "word": "purpose",
+        "meaning": "why a text was made",
+        "example": "The purpose of the ad is to sell phones."
+      },
+      {
+        "word": "audience",
+        "meaning": "the people a text is made for",
+        "example": "The audience is young drivers."
+      },
+      {
+        "word": "vested interest",
+        "meaning": "when someone gains if things go their way",
+        "example": "The company has a vested interest in the law.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "front group",
+        "meaning": "a group that hides who is really behind it",
+        "example": "The ‘retailers’ group was a front group.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Who's Talking? in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Who’s Talking?",
+        "sub": "Every opinion comes from somewhere.",
+        "icon": "lucide:user-search",
+        "say": "Who's talking? Every opinion comes from somewhere."
+      },
+      {
+        "kind": "big",
+        "title": "Who was really talking?",
+        "text": "“Retailers” = **tobacco money**",
+        "icon": "lucide:eye-off",
+        "say": "In 2010, newspaper ads said shop owners were against plain cigarette packs. Leaked documents later showed tobacco companies were funding the group behind them.",
+        "vc": [
+          "VM-U2O1-KK4",
+          "VM-U2O1-KK3"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Perspective vs bias",
+        "text": "Everyone has one · **Bias** hides the rest",
+        "icon": "lucide:scale",
+        "say": "Everyone has a perspective. Bias is when that perspective tips into telling only one side.",
+        "vc": [
+          "VM-U2O1-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Ask",
+        "pillIcon": "lucide:user-search",
+        "title": "Who?",
+        "text": "Job · Background · **Values**",
+        "icon": "lucide:user",
+        "say": "Who's talking? Look at their job, background and values.",
+        "vc": [
+          "VM-U2O1-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Ask",
+        "pillIcon": "lucide:user-search",
+        "title": "What do they gain?",
+        "text": "Money · Votes · **Power**",
+        "icon": "lucide:coins",
+        "say": "What do they gain if you agree? Money, votes, power or a cause they care about.",
+        "vc": [
+          "VM-U2O1-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Ask",
+        "pillIcon": "lucide:user-search",
+        "title": "To who, and why?",
+        "text": "Audience · **Purpose**",
+        "icon": "lucide:target",
+        "say": "Who are they talking to, and what do they want that audience to think or do?",
+        "vc": [
+          "VM-U2O1-KS1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Ask",
+        "pillIcon": "lucide:user-search",
+        "title": "What's missing?",
+        "text": "Whose voice is **left out**?",
+        "icon": "lucide:circle-help",
+        "say": "What's missing? Whose voice isn't in the text?",
+        "vc": [
+          "VM-U2O1-KK4"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Read any opinion",
+        "steps": [
+          "Who's talking?",
+          "What do they gain?",
+          "What's missing?"
+        ],
+        "say": "Before you believe an opinion: who's talking, what do they gain, and what's missing?"
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Follow the **voice**.",
+        "icon": "lucide:user-search",
+        "say": "Your mission. Pick a real opinion on an issue you care about, and work out who's really talking."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Every opinion comes from somewhere",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Ads, posts and speeches try to make you think something. Ask: *who's talking?*\n\n**Values and life.** People's views come from their lives. A farmer, a nurse and a student might see the same thing in different ways. Their **values** (what matters most to them) shape what they say.\n\n**Perspective and bias.** Everyone sees things from somewhere. That's their **perspective**. **Bias** is when someone only tells one side. They might skip facts that don't help them.\n\n**Who gains?** Some people gain if you agree. They might get money or votes. That doesn't mean they're wrong. But check what they say.\n\n**Purpose and audience.** Every text is made for a reason. That's its **purpose**. It's made for some people. That's its **audience**.\n\n**Ask four questions**\n\n1. **Who's talking?**\n2. **What do they gain?**\n3. **Who is it for?**\n4. **What's missing?**\n\nSometimes a group's name hides who is behind it. Look for who paid for the ad.",
+          "core": "Ads, posts, speeches and letters to the editor all try to make you think something. Before you agree, ask: *who's talking?*\n\n**Values and background.** People's opinions come from their lives. A farmer, a nurse, a business owner and a student might all see the same issue differently. Their **values** (what matters most to them) and their **background** (their job, culture, age and experience) shape what they notice and what they say.\n\n**Perspective and bias.** Everyone has a **perspective**: the place they see an issue from. That's normal. **Bias** is when someone leans so far one way that they leave out the other side, or twist the facts. A biased text might:\n\n- give only one side\n- use facts that help them, and skip the rest\n- describe the other side unfairly.\n\n**Who gains?** Some people have a **vested interest**: they gain if you agree. That might be money, votes, power or a cause. It doesn't mean they're wrong. But it means you should check their claims.\n\n**Purpose and audience.** Every text is made for a reason (**purpose**) and for certain people (**audience**). An ad aimed at parents will look and sound different from one aimed at teenagers.\n\n**Four questions to ask**\n\n1. **Who's talking?** What's their job, background and values?\n2. **What do they gain** if you agree?\n3. **Who's it for**, and what do they want you to think or do?\n4. **What's missing?** Whose voice isn't there?\n\nSometimes the answer to *who's talking* isn't who it seems. A group's name can hide who's really behind it. So look for who paid for the ad, who runs the website, or who the speaker works for.",
+          "extend": "Persuasive and influential texts (advertisements, opinion columns, speeches, posts and letters) all aim to shape what an audience thinks or does. Evaluating them starts with the speaker.\n\n**Values and background.** Opinions emerge from experience. A farmer, a nurse, a business owner and a student may interpret the same issue differently, because their **values** (what they consider most important) and **backgrounds** (occupation, culture, age, experience) shape what they notice and prioritise.\n\n**Perspective and bias.** Every speaker has a **perspective**, a position from which they view an issue. **Bias** occurs when that position distorts the account: presenting one side only, selecting evidence that suits the argument, or misrepresenting opponents. Audiences bring their own biases too, which affect how they receive a message.\n\n**Vested interests.** Speakers with a **vested interest** benefit if the audience agrees, whether financially, politically or ideologically. A vested interest doesn't make a claim false. It does mean the claim deserves closer scrutiny.\n\n**Purpose and audience.** Every text has a **purpose** and an intended **audience**, and both shape its content, language and design.\n\n**Four questions**\n\n1. **Who's talking?** Background, role and values.\n2. **What do they gain** from agreement?\n3. **Who's the audience**, and what's the intended effect?\n4. **What's missing?** Which perspectives are absent?\n\nThe apparent speaker isn't always the real one. **Front groups** present a cause under a neutral or grassroots name while concealing their funders. Check authorisation lines, ownership and funding."
+        },
+        "vc": [
+          "VM-U2O1-KK3",
+          "VM-U2O1-KK4",
+          "VM-U2O1-KS1"
+        ],
+        "vcNote": "How values, backgrounds, bias and perspective influence speakers and audiences; identifying purpose and audience."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The retailers who weren't just retailers",
+        "icon": "lucide:eye-off",
+        "body": {
+          "support": "In **2010**, the government said cigarettes would be sold in **plain packs**. No logos. No brand colours.\n\nThen ads came out against the plan. They were from a group called the **Alliance of Australian Retailers**. It said it spoke for small shops.\n\nBut in **September 2010**, the ABC showed leaked papers. They showed the group was paid for by **big tobacco companies**.\n\nThe tobacco companies had a lot to lose. Their packs helped sell their brands.\n\nThe ads didn't work. Plain packs started in **December 2012**. Australia was the first country in the world to do it.\n\nThe lesson: a group's name doesn't always tell you who is talking. Ask who is paying.",
+          "core": "In **April 2010**, the federal government announced a world first. Cigarettes would be sold in **plain packs**, with no logos or brand colours.\n\nSoon after, ads appeared in newspapers against the plan. They came from a group called the **Alliance of Australian Retailers**. It said it spoke for small shops, like corner stores, newsagents and service stations.\n\nThe ads looked like they came from local shopkeepers. But on **10 September 2010**, the ABC program **Lateline** revealed leaked documents. They showed the group had been set up with the help of tobacco company **Philip Morris** and a PR firm. And it was funded by three big tobacco companies: Philip Morris, British American Tobacco and Imperial Tobacco.\n\nThe tobacco companies had a lot to lose. Their packs were a key way to advertise their brands.\n\nThe campaign didn't stop the law. Tobacco companies challenged it in the **High Court**, and lost in 2012. Plain packaging started on **1 December 2012**. Australia was the first country in the world to do it.\n\nThe lesson: a group's name doesn't always tell you who's really talking. Ask who's paying.",
+          "extend": "In **April 2010**, the Rudd government announced a world first. Tobacco would be sold in **plain packaging**, with no logos, brand colours or images.\n\nWithin months, newspaper ads opposed the plan. They were authorised by the **Alliance of Australian Retailers**. The group said it spoke for small businesses: corner stores, newsagents and service stations worried about losing trade.\n\nOn **10 September 2010**, ABC TV's **Lateline** revealed leaked emails, contracts and documents. The alliance had been set up with **Philip Morris** and a PR firm. It was funded by Philip Morris, British American Tobacco and Imperial Tobacco. None of this was disclosed when the ads began.\n\nThe tobacco companies had a clear vested interest. Branded packs were one of the last ways they could still advertise in Australia.\n\nThe campaign failed. In **2012**, the **High Court** rejected a challenge by tobacco companies. Plain packaging began on **1 December 2012**.\n\nThe case shows how a front group can borrow a trusted voice, the local shopkeeper, to argue for someone else's interests."
+        },
+        "source": {
+          "name": "Tobacco in Australia (Cancer Council Victoria) — 11A.2 Announcement of plain packaging legislation",
+          "url": "https://www.tobaccoinaustralia.org.au/chapter-11-advertising/11a-2-australian-announcement-of-plain-packaging-l"
+        },
+        "think": {
+          "support": [
+            "Who seemed to be talking? Who was really paying?",
+            "Why does that matter?"
+          ],
+          "core": [
+            "Who seemed to be talking in the ads? Who was really behind them?",
+            "Why might the tobacco companies have used a retailers' group instead of their own name?",
+            "How does knowing who paid change how you read the ads?"
+          ]
+        },
+        "vc": [
+          "VM-U2O1-KK4",
+          "VM-U2O1-KK3"
+        ],
+        "vcNote": "A real Australian example of how hidden interests shape persuasive texts."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a letter to the editor",
+      "docTitle": "LETTER TO THE EDITOR — BAYSIDE TIMES (EXAMPLE)",
+      "vc": [
+        "VM-U2O1-KK3",
+        "VM-U2O1-KK4",
+        "VM-U2O1-KS1"
+      ],
+      "vcNote": "Identifying values, background, bias, purpose and audience in a persuasive text.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Headline",
+          "value": "Close the skate park at 6pm",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Writer",
+          "value": "Dave M., owner of Seaview Café, next door to the skate park"
+        },
+        {
+          "n": 3,
+          "label": "Values",
+          "value": "Families deserve a quiet, safe place to eat out on a summer night."
+        },
+        {
+          "n": 4,
+          "label": "Self-interest",
+          "value": "My customers can't enjoy their dinner with all that noise."
+        },
+        {
+          "n": 5,
+          "label": "One side only",
+          "value": "Everyone knows skaters cause trouble.",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Purpose",
+          "value": "I urge councillors to vote YES to early closing on Tuesday."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "The opinion",
+          "note": "What the writer wants."
+        },
+        {
+          "n": 2,
+          "label": "Who's talking",
+          "note": "Owns a business next door."
+        },
+        {
+          "n": 3,
+          "label": "Values",
+          "note": "Family, quiet, safety."
+        },
+        {
+          "n": 4,
+          "label": "Vested interest",
+          "note": "Noise affects his business."
+        },
+        {
+          "n": 5,
+          "label": "Bias",
+          "note": "A sweeping claim. No evidence. Skaters' voices are missing."
+        },
+        {
+          "n": 6,
+          "label": "Purpose and audience",
+          "note": "Wants councillors to vote yes."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Read any opinion",
+      "steps": [
+        {
+          "title": "Who's talking?",
+          "text": "Job, background, values.",
+          "icon": "lucide:user"
+        },
+        {
+          "title": "What do they gain?",
+          "text": "Money, votes, power, a cause.",
+          "icon": "lucide:coins"
+        },
+        {
+          "title": "Who's it for?",
+          "text": "Audience and purpose.",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "What's missing?",
+          "text": "Whose voice is left out?",
+          "icon": "lucide:circle-help"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What are someone's **values**?",
+        "options": [
+          "The things they think matter most",
+          "How much money they have",
+          "Their age",
+          "Their address"
+        ],
+        "answer": 0,
+        "explain": "Values shape opinions.",
+        "vc": [
+          "VM-U2O1-KK3"
+        ]
+      },
+      {
+        "q": "What's the difference between **perspective** and **bias**?",
+        "options": [
+          "Everyone has a perspective; bias leaves out or twists the other side",
+          "They mean the same thing",
+          "Only experts have a perspective",
+          "Bias is always about money"
+        ],
+        "answer": 0,
+        "explain": "Perspective is normal; bias is one-sided.",
+        "vc": [
+          "VM-U2O1-KK4"
+        ]
+      },
+      {
+        "q": "An energy drink company says its drink “helps you perform at your best”. What should you ask first?",
+        "options": [
+          "What do they gain if I believe them?",
+          "What colour is the can?",
+          "Is it cold?",
+          "Who's the singer in the ad?"
+        ],
+        "answer": 0,
+        "explain": "They gain sales, so check the claim.",
+        "vc": [
+          "VM-U2O1-KK4",
+          "VM-U2O1-KS1"
+        ]
+      },
+      {
+        "q": "Who was really funding the “retailers” ads against plain packaging?",
+        "options": [
+          "Tobacco companies",
+          "The government",
+          "Corner store owners",
+          "The ABC"
+        ],
+        "answer": 0,
+        "explain": "Leaked documents revealed tobacco funding.",
+        "vc": [
+          "VM-U2O1-KK4"
+        ]
+      },
+      {
+        "q": "A council flyer about a new bin system is mainly for…",
+        "options": [
+          "People who live in the area",
+          "Tourists overseas",
+          "Car companies",
+          "Football fans"
+        ],
+        "answer": 0,
+        "explain": "Audience: local residents.",
+        "vc": [
+          "VM-U2O1-KS1"
+        ]
+      },
+      {
+        "q": "In the letter, “Everyone knows skaters cause trouble” is an example of…",
+        "options": [
+          "Bias: a sweeping claim with no evidence",
+          "A fair fact",
+          "A source",
+          "A question"
+        ],
+        "answer": 0,
+        "explain": "It speaks for everyone and gives no evidence.",
+        "vc": [
+          "VM-U2O1-KK4"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Which is the best example of a **community debating** an issue?",
+        "options": [
+          "Locals speaking at a council meeting before a vote",
+          "One person thinking quietly",
+          "A shop changing its prices",
+          "A song on the radio"
+        ],
+        "answer": 0,
+        "explain": "Communities debate in many settings, from meetings to comment threads.",
+        "vc": [
+          "VM-U2O1-KK5"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pick a real ad, post or letter. Work out who is talking, what they want, and who it's for.",
+      "core": "Choose a real opinion text on an issue you care about, and work out who's talking, what they want, who they're talking to, and what they might leave out.",
+      "extend": "Analyse a real persuasive text: identify the speaker's background, values and interests, its purpose and intended audience, any bias, and the perspectives it omits. Then compare it with a text from another perspective."
+    },
+    "checklist": [
+      "I found out who's really talking",
+      "I described their values and background",
+      "I worked out what they gain",
+      "I named the purpose and audience",
+      "I spotted any bias",
+      "I named a voice that's missing"
+    ],
+    "levelUp": "Explain how different groups (retailers, health groups, tobacco companies, government, courts) took part in the plain packaging debate, and how their ways of debating differed.",
+    "vc": [
+      "VM-U2O1-KK3",
+      "VM-U2O1-KK4",
+      "VM-U2O1-KS1"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Every opinion comes from somewhere",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How do someone's **values** and **background** shape their opinion?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK3"
+            ]
+          },
+          {
+            "q": "What's the difference between **perspective** and **bias**?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK4"
+            ]
+          },
+          {
+            "q": "Write the **four questions** to ask about any opinion.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK4",
+              "VM-U2O1-KS1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Read any opinion",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a letter to the editor",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the letter. Use the word bank. What does it tell you about the writer?",
+          "core": "Each number marks part of the letter. Write what it shows, and what it tells you about the writer."
+        },
+        "columns": [
+          "What is it?",
+          "What does it tell you?"
+        ],
+        "wordBank": {
+          "support": [
+            "opinion",
+            "who's talking",
+            "values",
+            "vested interest",
+            "bias",
+            "purpose"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U2O1-KK3",
+          "VM-U2O1-KK4",
+          "VM-U2O1-KS1"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Fair, or watch for bias?",
+        "pagebreak": true,
+        "choices": [
+          "Likely fair",
+          "Watch for bias"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Who's talking matters. For each one, tick and say why.",
+        "cards": [
+          {
+            "from": "A phone company ad",
+            "text": "“Our new phone has the best camera ever made.”",
+            "answer": "Watch for bias",
+            "flags": "They gain sales. “Best ever” has no evidence."
+          },
+          {
+            "from": "The Bureau of Meteorology",
+            "text": "“Heavy rain is expected in Gippsland on Friday.”",
+            "answer": "Likely fair",
+            "flags": "An expert source with no product to sell."
+          },
+          {
+            "from": "A car park owner",
+            "text": "“The new train line is a waste of money.”",
+            "answer": "Watch for bias",
+            "flags": "Fewer drivers could mean less business."
+          },
+          {
+            "from": "A news report",
+            "text": "“Locals are split. Some want the pool rebuilt; others want a library.”",
+            "answer": "Likely fair",
+            "flags": "Gives more than one side."
+          },
+          {
+            "from": "A gambling app",
+            "text": "“Sports betting makes the game more exciting.”",
+            "answer": "Watch for bias",
+            "flags": "They profit when people bet.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "A student group",
+            "text": "“All teachers hate phones, so they'll never listen.”",
+            "answer": "Watch for bias",
+            "flags": "A sweeping claim about a whole group.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KK4",
+          "VM-U2O1-KK3"
+        ],
+        "vcNote": "Judging how a speaker's interests and perspective may shape a claim."
+      },
+      {
+        "type": "table",
+        "title": "Many voices, one issue",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "The council wants to turn an old car park into a skate park and youth space. How might each person see it? The first one is done for you.",
+        "columns": [
+          "Who's talking",
+          "Background and values",
+          "What they might say",
+          "What they gain or lose"
+        ],
+        "rows": [
+          [
+            "A 16-year-old skater",
+            "Young, loves skating; values fun and having somewhere to go",
+            "“We finally get a safe place of our own.”",
+            "Gains a space to skate"
+          ],
+          [
+            "A nearby shop owner",
+            "",
+            "",
+            ""
+          ],
+          [
+            "An older resident next door",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "A local police officer",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KK3",
+          "VM-U2O1-KK4"
+        ],
+        "vcNote": "Explaining how values and backgrounds influence opinions."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the retailers who weren't just retailers",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Who **seemed** to be talking in the ads? Who was **really** behind them?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK4"
+            ]
+          },
+          {
+            "q": "Why might the tobacco companies have used a retailers' group instead of their own name?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK4",
+              "VM-U2O1-KS1"
+            ]
+          },
+          {
+            "q": "How does knowing who paid change how you read the ads?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: follow the voice",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Find a real opinion text (an ad, opinion column, letter to the editor, post or speech) on an issue you care about. Then investigate who's talking.",
+        "need": [
+          "a device",
+          "an issue you care about"
+        ],
+        "steps": {
+          "support": [
+            "Find a real ad, post or letter.",
+            "Find out who made it.",
+            "What do they want? What do they gain?",
+            "Who is it for?",
+            "Who might disagree?"
+          ],
+          "core": [
+            "Find a real opinion text. Save the link, or take a screenshot.",
+            "Find out **who's talking**. Check the author, the “About us” page, or who authorised the ad.",
+            "Work out their **values** and what they **gain** if you agree.",
+            "Name the **purpose** and **audience**.",
+            "Find **one voice that's missing**. Who would disagree?"
+          ]
+        },
+        "notes": [
+          {
+            "label": "My text (title and link):",
+            "lines": 1
+          },
+          {
+            "label": "Who's talking, and what they gain:",
+            "lines": 2
+          },
+          {
+            "label": "Purpose and audience:",
+            "lines": 1
+          },
+          {
+            "label": "A voice that's missing:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Link or screenshot",
+          "Notes",
+          "Shared with a partner"
+        ],
+        "vc": [
+          "VM-U2O1-KS1",
+          "VM-U2O1-KK3",
+          "VM-U2O1-KK4"
+        ],
+        "vcNote": "Hands-on: analysing a real persuasive text's speaker, purpose and audience."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "In the plain packaging debate, groups took part in different ways: ads, news stories, leaked documents, and a High Court case. Choose **two** groups. How did each one try to influence the debate?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O1-KK5"
+            ]
+          },
+          {
+            "q": "Is it possible to have **no** perspective? Explain, using an example from your own life.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O1-KK4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find who's behind an opinion.",
+          "I can explain how values shape opinions.",
+          "I can tell perspective from bias.",
+          "I can name a text's purpose and audience."
+        ],
+        "questions": [
+          "An opinion I'll now read differently:",
+          "My best question to ask:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The first course in Issues & Voices. Students learn how the values, backgrounds and interests of authors and speakers shape their opinions; the difference between perspective and bias; and how to identify the purpose and audience of persuasive texts. They annotate a made-up letter to the editor, sort claims, map stakeholder perspectives, and investigate a real opinion text. The case study is the Alliance of Australian Retailers, a 2010 campaign against plain packaging that presented itself as small shopkeepers but was revealed by ABC Lateline to be funded by tobacco companies.",
+    "prep": [
+      "Gather a few current opinion texts on issues students care about (letters to the editor, opinion columns, ads, posts).",
+      "Optional: find an image of an Australian plain cigarette pack to show.",
+      "Show students where to find authorisation lines on ads and “About us” pages on websites."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Every opinion comes from somewhere",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** two people describe the same footy match: one from each team. Why so different?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a letter (15 min).**",
+          "**Fair, or watch for bias? (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Many voices",
+        "minutes": 50,
+        "steps": [
+          "**Many voices, one issue (20 min):** do it as a role play first, then write.",
+          "**Case study (20 min):** the retailers who weren't just retailers.",
+          "**Choose a text (10 min)** for the Do it."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Follow the voice",
+        "minutes": 50,
+        "steps": [
+          "**Do it (30 min):** investigate a real text.",
+          "**Share (10 min):** pairs swap findings.",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Values and backgrounds shape what people notice and say.",
+      "Everyone has a perspective; bias is when a text leaves out or distorts other sides.",
+      "A vested interest doesn't make a claim false, but it means you should check it.",
+      "Every text has a purpose and an intended audience.",
+      "Four questions: who's talking, what do they gain, who's it for, what's missing.",
+      "Front groups hide who's really behind a message; check authorisation, ownership and funding."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the letter.",
+        "Fewer sort cards and stakeholder rows.",
+        "Provide a choice of three texts for the Do it."
+      ],
+      "extend": [
+        "Compare the Do it text with one from another perspective.",
+        "Level Up on how communities engage in debate."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U2O1-KK3",
+        "evidence": "Explains how a speaker's values and background shape their opinion (letter, stakeholder table, Do it)."
+      },
+      {
+        "vc": "VM-U2O1-KK4",
+        "evidence": "Distinguishes perspective from bias and identifies vested interests (sort, case study)."
+      },
+      {
+        "vc": "VM-U2O1-KS1",
+        "evidence": "Identifies the purpose and intended audience of persuasive texts (letter, Do it)."
+      },
+      {
+        "vc": "VM-U2O1-KK5",
+        "evidence": "Level Up: explains how different groups engaged in the plain packaging debate."
+      }
+    ],
+    "answers": "**Check your reading:** values and background shape what people notice, care about and say. Everyone has a perspective; bias leaves out or twists other sides. Who's talking? What do they gain? Who's it for? What's missing?\n\n**Letter:** 1 the opinion (close at 6pm); 2 who's talking (café owner next door); 3 values (family, quiet, safety); 4 vested interest (noise affects his business); 5 bias (sweeping claim, no evidence, skaters' voices missing); 6 purpose and audience (wants councillors to vote yes).\n\n**Sort:** phone ad — bias; BoM — fair; car park owner — bias; split news report — fair; gambling app — bias; student group — bias.\n\n**Case study:** the ads seemed to come from small shopkeepers; leaked documents showed tobacco companies created and funded the group. A shopkeeper is more sympathetic than a tobacco company. Knowing the funder reveals a vested interest, so the claims need checking.",
+    "resources": [
+      {
+        "label": "Tobacco in Australia — announcement of plain packaging and industry response",
+        "url": "https://www.tobaccoinaustralia.org.au/chapter-11-advertising/11a-2-australian-announcement-of-plain-packaging-l"
+      },
+      {
+        "label": "Tobacco Tactics — Alliance of Australian Retailers",
+        "url": "https://www.tobaccotactics.org/article/Alliance-of-Australian-Retailers/"
+      },
+      {
+        "label": "High Court of Australia — JT International SA v Commonwealth [2012] HCA 43",
+        "url": "https://www.hcourt.gov.au/showCase/2012/HCA/43"
+      }
+    ],
+    "realityCheck": [
+      "**Students may decide everyone is biased, so nothing can be trusted.** Push back: perspective is normal; the goal is to weigh claims, not dismiss them.",
+      "**Keep it non-partisan.** Use the four questions on texts from different sides of an issue.",
+      "**Finding funders is hard.** Model checking authorisation lines and “About us” pages.",
+      "**The case is old for students.** Link it to now: who pays for the ads and influencers they see?",
+      "**Works in a real class:** yes. The four questions transfer to every other course in this zone."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the letter, fewer sort cards and stakeholder rows, and simpler Do it steps.",
+      "core": "Standard version: values, background, perspective, bias, purpose and audience; a letter to annotate; a fair-or-bias sort; a stakeholder table; the Alliance of Australian Retailers case; and investigating a real opinion text.",
+      "extend": "Adds vested interest and front group to the vocabulary, a quiz question on communities debating, comparison with a second perspective, and Level Ups on how groups engaged in the debate and whether anyone has no perspective."
+    }
+  }
+}

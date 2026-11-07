@@ -1,0 +1,950 @@
+{
+  "id": "vm-how-communities-argue",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "A council has to plan how to spend its money for ten years. It picks 43 random locals to help. Can ordinary people do a good job? Melbourne tried it.",
+      "core": "A council needs to decide how to spend billions of dollars over ten years. It could ask the usual voices. Or it could pick 43 random locals, give them the facts, and let them argue it out. Would ordinary people do a good job? Melbourne tried it."
+    },
+    "why": {
+      "support": "People argue about issues in lots of places. Each place has its own rules. Learn them, and you can get heard and listen well.",
+      "core": "Communities argue about issues everywhere: in parliament, at council meetings, in comment threads and at work. Each place has its own rules for who speaks and how decisions get made. Know the rules, and you'll get heard.",
+      "extend": "Communities debate and discuss issues in many forums. Each has its own rules for who speaks, when, and how decisions are made. If you understand those rules, and can listen actively and ask good questions, you can take part with confidence."
+    },
+    "canDo": {
+      "support": [
+        "I can say how different groups talk about issues.",
+        "I can tell a debate from a discussion.",
+        "I can listen and ask good questions.",
+        "I can take part in a meeting."
+      ],
+      "core": [
+        "I can explain how different **communities** debate and discuss issues.",
+        "I can tell the difference between a **debate** and a **discussion**.",
+        "I can use **active listening** and good **questions**.",
+        "I can take part in a **meeting** using its rules."
+      ]
+    },
+    "showIt": "Take part in a class community meeting on a real issue: follow the rules, make a point, ask a question and help reach a decision.",
+    "vocab": [
+      {
+        "word": "community",
+        "meaning": "a group who share a place or interest",
+        "example": "Our footy club is a community."
+      },
+      {
+        "word": "debate",
+        "meaning": "a contest where people argue for different sides",
+        "example": "The debate had two teams."
+      },
+      {
+        "word": "discussion",
+        "meaning": "talking together to solve a problem",
+        "example": "We had a discussion about the roster."
+      },
+      {
+        "word": "chair",
+        "meaning": "the person who runs a meeting",
+        "example": "The chair asked who wanted to speak."
+      },
+      {
+        "word": "agenda",
+        "meaning": "the list of things a meeting will cover",
+        "example": "Item 2 on the agenda was parking."
+      },
+      {
+        "word": "motion",
+        "meaning": "an idea put to a meeting for a vote",
+        "example": "The motion was to open the park later."
+      },
+      {
+        "word": "deliberate",
+        "meaning": "think and talk carefully before deciding",
+        "example": "The panel deliberated for weeks.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "moderator",
+        "meaning": "someone who keeps an online group on track",
+        "example": "The moderator removed the rude post.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "How Communities Argue in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "How Communities Argue",
+        "sub": "Town halls, comment threads and group chats.",
+        "icon": "lucide:message-circle-more",
+        "say": "How communities argue. Town halls, comment threads and group chats."
+      },
+      {
+        "kind": "big",
+        "title": "43 random locals",
+        "text": "A **People's Panel**",
+        "icon": "lucide:users-round",
+        "say": "In 2014, the City of Melbourne asked 43 randomly selected people to help plan its finances for the next ten years.",
+        "vc": [
+          "VM-U2O1-KK5"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Debate vs discussion",
+        "text": "Win it · **Work it out**",
+        "icon": "lucide:scale",
+        "say": "A debate is a contest with sides. A discussion is people working together on a problem. Both have rules.",
+        "vc": [
+          "VM-U2O1-KK6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Communities",
+        "pillIcon": "lucide:users-round",
+        "title": "Parliament",
+        "text": "Speaker · Rules · **Vote**",
+        "icon": "lucide:landmark",
+        "say": "Parliament has a Speaker, strict rules and a vote at the end.",
+        "vc": [
+          "VM-U2O1-KK5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Communities",
+        "pillIcon": "lucide:users-round",
+        "title": "Community meeting",
+        "text": "Chair · Agenda · **Motion**",
+        "icon": "lucide:clipboard-list",
+        "say": "A community meeting has a chair, an agenda, a speaking list and motions.",
+        "vc": [
+          "VM-U2O1-KK5",
+          "VM-U2O1-KK6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Communities",
+        "pillIcon": "lucide:users-round",
+        "title": "Online",
+        "text": "Mods · Rules · **Upvotes**",
+        "icon": "lucide:message-square",
+        "say": "Online communities have moderators, community rules and upvotes. They're fast, and often heated.",
+        "vc": [
+          "VM-U2O1-KK5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Communities",
+        "pillIcon": "lucide:users-round",
+        "title": "Listen, then ask",
+        "text": "“What do you **mean** by…?”",
+        "icon": "lucide:ear",
+        "say": "Everywhere, the best speakers listen first. Then they ask a good question.",
+        "vc": [
+          "VM-U2O1-KK6",
+          "VM-U2O1-KS8"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Join any debate",
+        "steps": [
+          "Learn the rules",
+          "Listen actively",
+          "Ask or add"
+        ],
+        "say": "To take part anywhere: learn the rules, listen actively, then ask or add."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Get **heard**.",
+        "icon": "lucide:message-circle-more",
+        "say": "Your mission. Run a real community meeting in class, and help it reach a decision."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Town halls, comment threads and group chats",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Every group argues about something. A town argues about a new road. A footy club argues about the canteen. Each group has its own way of doing it.\n\n**Debate or discussion?** A **debate** is a contest. Each side tries to win. A **discussion** is people working together on a problem.\n\n**Different places, different rules**\n\n- **Parliament.** People speak in turn. The Speaker keeps order. Then they vote.\n- **Community meetings.** A **chair** runs it. There's an **agenda**: a list of things to talk about. People vote on a **motion**.\n- **Online.** Comment threads have **moderators** and rules. They're fast. They can get heated.\n- **Work.** Team meetings are short. Everyone gets a say.\n\n**Listen first.** Look at the speaker. Don't interrupt. Then check: “So you're saying…?”\n\n**Ask good questions**\n\n- “What do you mean by…?”\n- “How do you know?”\n- “How could we make that work?”\n\nLearn the rules, and you'll get heard.",
+          "core": "Every community argues about something. A town argues about a new road. A footy club argues about the canteen. A workplace argues about the roster. And every community has its own way of doing it.\n\n**Debate or discussion?** A **debate** is a contest. There are sides, and each tries to win. A **discussion** is people working together to explore ideas or solve a problem. Both need rules.\n\n**Different places, different rules**\n\n- **Parliament.** Members speak in turn. A Speaker (or President) keeps order. There are strict rules about what you can say. In the end, there's a vote.\n- **Council and community meetings.** A **chair** runs the meeting from an **agenda**. Locals can ask questions or speak for a set time. Someone moves a **motion**, and people vote.\n- **Citizens' panels.** A random group of locals hears from experts, then **deliberates**: they talk it through and try to agree.\n- **Online communities.** Comment threads and forums have **moderators**, community rules, and likes or upvotes. They're fast, and people can hide who they are. That can make them heated.\n- **Work.** Team meetings and safety talks are short and focused. Everyone needs a say, because everyone has to follow the decision.\n\n**Listen actively.** Wherever you are, good debaters listen first. Look at the speaker. Don't interrupt. Then check you understood: “So you're saying…?”\n\n**Ask good questions**\n\n- **Clarifying:** “What do you mean by *safe*?”\n- **Probing:** “What evidence is there for that?”\n- **Open:** “How could we make that work?”\n\nLearn the rules of the place you're in, and you'll get heard.",
+          "extend": "Every community debates something. A town decides on a new road. A club argues over its canteen. A workplace sorts out a roster. Each community has its own rules for how that happens.\n\n**Debate and discussion.** A **debate** is a contest. Opposing sides present their case and try to win. A **discussion** is shared work. People explore ideas and look for a solution. Both depend on rules everyone accepts.\n\n**Forums and their rules**\n\n- **Parliament:** members speak in turn, through a presiding officer (the Speaker or President). Formal rules govern language and relevance. Decisions are made by vote.\n- **Council and community meetings:** a **chair** follows an **agenda**. The public may ask questions or speak for a set time. Decisions are made by moving and voting on **motions**.\n- **Citizens' panels:** a random group hears from experts and **deliberates**. The aim is agreement, not victory.\n- **Online communities:** forums and comment threads rely on **moderators**, community rules and voting. Speed and anonymity can make them volatile.\n- **Workplaces:** team meetings and safety talks are short and practical. Everyone needs a say, because everyone must act on the result.\n\n**Active listening** means focusing on the speaker, not interrupting, and checking you understood by putting it in your own words: “So you're saying…?”\n\n**Good questions** come in types. **Clarifying** questions check meaning: “What do you mean by *safe*?” **Probing** questions test reasons: “What evidence supports that?” **Open** questions invite ideas: “How could we make that work?”\n\nLearning a forum's rules is the first step to being heard in it."
+        },
+        "vc": [
+          "VM-U2O1-KK5",
+          "VM-U2O1-KK6"
+        ],
+        "vcNote": "Ways different communities engage in debate and discussion; conventions including active listening and questioning."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Melbourne's People's Panel",
+        "icon": "lucide:users-round",
+        "body": {
+          "support": "In **2014**, the **City of Melbourne** was making a **10-year plan** for its money.\n\nThe council set up a **People's Panel**. It had **43 people**, picked at random. They were a mix of locals and business owners.\n\nThe panel met **six times**. They read the facts. They heard from experts. They asked questions. Then they talked it through together.\n\nThey came up with **11 key ideas** for the council.\n\nIn **2015**, the council agreed to the plan. It used most of the panel's ideas.\n\nThe panel wasn't about winning. It was about working it out together.",
+          "core": "In **2014**, the **City of Melbourne** was writing its first **10-year financial plan**. That's a plan for how the council would raise and spend money for ten years. It meant hard choices about rates, debt and big projects.\n\nThe council didn't just ask the usual voices. It set up a **People's Panel**. A group called the **newDemocracy Foundation** picked **43 people** at random. They were chosen to match the mix of people in the city. Some lived there. Some ran businesses there.\n\nThe panel met **six times** in the second half of 2014. Members read the facts and heard from experts. They asked questions. Then they talked it through together. Their job was to agree, not to win.\n\nThe panel came up with **11 key ideas** for the council.\n\nIn **June 2015**, every councillor voted for the 10-year plan. The plan used most of the panel's ideas.\n\nThe People's Panel showed another way to argue. It wasn't loud. It wasn't about sides. It was ordinary people, given the facts and the time, working it out together.",
+          "extend": "In **2014**, the **City of Melbourne** began its first **10-year financial plan**. The plan would set out how the council raised and spent money for a decade. It involved hard trade-offs about rates, borrowing and major projects.\n\nThe council didn't rely only on the usual submissions. It formed a **People's Panel**. The **newDemocracy Foundation** chose **43 people** at random, so the group matched the city's mix of people. It included residents and business owners.\n\nThe panel met over **six sessions** in the second half of 2014. Members studied information, heard from experts, questioned them, and **deliberated**. Their task was to agree on recommendations, not to argue opposing sides.\n\nThe panel made **11 key recommendations**. In **June 2015**, councillors **unanimously** endorsed the 10-year plan, which took up most of them.\n\nThe process is a contrast to forums like parliament or online comment threads, where sides compete. It suggests that ordinary people, given time, facts and a clear structure, can work through hard issues and agree."
+        },
+        "source": {
+          "name": "newDemocracy Foundation — City of Melbourne People's Panel",
+          "url": "https://www.newdemocracy.com.au/2014/08/05/city-of-melbourne-people-s-panel/"
+        },
+        "think": {
+          "support": [
+            "How was the panel different from a debate?",
+            "Why pick people at random?"
+          ],
+          "core": [
+            "How was the People's Panel different from a debate?",
+            "Why might the council have chosen people at random?",
+            "What are the strengths and weaknesses of this way of deciding?"
+          ]
+        },
+        "vc": [
+          "VM-U2O1-KK5"
+        ],
+        "vcNote": "A real Australian example of a community using deliberation to decide an issue."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a community meeting",
+      "docTitle": "RIVERSIDE COMMUNITY MEETING — AGENDA (EXAMPLE)",
+      "vc": [
+        "VM-U2O1-KK6",
+        "VM-U2O1-KK5"
+      ],
+      "vcNote": "The conventions of a community meeting.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Chair",
+          "value": "Cr Priya Shah",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Item 1",
+          "value": "Skate park opening hours"
+        },
+        {
+          "n": 3,
+          "label": "Speaking",
+          "value": "Raise your hand. The chair will call you. Two minutes each."
+        },
+        {
+          "n": 4,
+          "label": "Questions",
+          "value": "Questions from the floor (15 minutes)"
+        },
+        {
+          "n": 5,
+          "label": "Motion",
+          "value": "That the skate park stays open until 9pm in summer. Moved: J. Tran. Seconded: A. Kelly.",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Vote",
+          "value": "Show of hands. Result recorded in the minutes."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "The chair",
+          "note": "Runs the meeting and keeps order."
+        },
+        {
+          "n": 2,
+          "label": "Agenda item",
+          "note": "What's being discussed."
+        },
+        {
+          "n": 3,
+          "label": "Speaking rules",
+          "note": "Turn-taking and time limits."
+        },
+        {
+          "n": 4,
+          "label": "Questions",
+          "note": "Anyone can ask."
+        },
+        {
+          "n": 5,
+          "label": "Motion",
+          "note": "An idea put to a vote. Needs a mover and seconder."
+        },
+        {
+          "n": 6,
+          "label": "Decision",
+          "note": "The vote decides. Minutes record it."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Join any debate",
+      "steps": [
+        {
+          "title": "Learn the rules",
+          "text": "Who runs it? How do you get a say?",
+          "icon": "lucide:book-open"
+        },
+        {
+          "title": "Listen actively",
+          "text": "Eyes up. Don't interrupt.",
+          "icon": "lucide:ear"
+        },
+        {
+          "title": "Check",
+          "text": "“So you're saying…?”",
+          "icon": "lucide:repeat"
+        },
+        {
+          "title": "Ask or add",
+          "text": "A question, or a point with a reason.",
+          "icon": "lucide:message-circle-plus"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What's the main difference between a **debate** and a **discussion**?",
+        "options": [
+          "A debate has sides trying to win; a discussion works on a problem together",
+          "There's no difference",
+          "A discussion has a judge",
+          "A debate has no rules"
+        ],
+        "answer": 0,
+        "explain": "Contest versus collaboration.",
+        "vc": [
+          "VM-U2O1-KK6"
+        ]
+      },
+      {
+        "q": "Who runs a community meeting?",
+        "options": [
+          "The chair",
+          "The loudest person",
+          "Whoever arrives first",
+          "The minute-taker"
+        ],
+        "answer": 0,
+        "explain": "The chair keeps order.",
+        "vc": [
+          "VM-U2O1-KK6"
+        ]
+      },
+      {
+        "q": "What is a **motion**?",
+        "options": [
+          "An idea put to a meeting for a vote",
+          "A kind of dance",
+          "The agenda",
+          "A complaint"
+        ],
+        "answer": 0,
+        "explain": "Moved, seconded, then voted on.",
+        "vc": [
+          "VM-U2O1-KK6"
+        ]
+      },
+      {
+        "q": "How many people were on Melbourne's 2014 People's Panel?",
+        "options": [
+          "43",
+          "4",
+          "430",
+          "4,300"
+        ],
+        "answer": 0,
+        "explain": "Chosen at random to match the city.",
+        "vc": [
+          "VM-U2O1-KK5"
+        ]
+      },
+      {
+        "q": "Which is a **clarifying** question?",
+        "options": [
+          "“What do you mean by safe?”",
+          "“Are you serious?”",
+          "“Can I go now?”",
+          "“Why are you always wrong?”"
+        ],
+        "answer": 0,
+        "explain": "It checks what someone means.",
+        "vc": [
+          "VM-U2O1-KK6",
+          "VM-U2O1-KS8"
+        ]
+      },
+      {
+        "q": "What does an online **moderator** do?",
+        "options": [
+          "Keeps the community on track and enforces its rules",
+          "Writes all the posts",
+          "Sells ads",
+          "Votes on every comment"
+        ],
+        "answer": 0,
+        "explain": "Moderators manage online communities.",
+        "vc": [
+          "VM-U2O1-KK5"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "In a formal meeting, which **body language** helps your point land?",
+        "options": [
+          "Standing still, eye contact, open hands",
+          "Arms crossed, looking at your phone",
+          "Turning your back",
+          "Pointing at people"
+        ],
+        "answer": 0,
+        "explain": "Body language is part of oral communication.",
+        "vc": [
+          "VM-U2O1-KK2"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Join a class meeting. Make one point. Ask one question. Help decide.",
+      "core": "Take part in a class community meeting on a real issue: follow the rules, make a point, ask a question and help reach a decision.",
+      "extend": "Participate in a formal class meeting: contribute a reasoned point, ask a clarifying or probing question, respond to others, and reflect on how the meeting's conventions shaped the outcome."
+    },
+    "checklist": [
+      "I know how the meeting works",
+      "I listened without interrupting",
+      "I made a point with a reason",
+      "I asked a good question",
+      "I built on or responded to someone else",
+      "I helped reach a decision"
+    ],
+    "levelUp": "Explain how speakers in a real forum use eye contact, tone, body language and intonation, and how you'd adjust yours for different places.",
+    "vc": [
+      "VM-U2O1-KS8",
+      "VM-U2O1-KK6",
+      "VM-U2O1-KK5"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Town halls, comment threads and group chats",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What's the difference between a **debate** and a **discussion**?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK6"
+            ]
+          },
+          {
+            "q": "Name **three** places where communities argue about issues. How is each one different?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK5"
+            ]
+          },
+          {
+            "q": "What does **active listening** look like?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Join any debate",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a community meeting",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the agenda. Use the word bank. What does it do?",
+          "core": "Each number marks part of the agenda. Write what it is and what it does."
+        },
+        "columns": [
+          "What is it?",
+          "What does it do?"
+        ],
+        "wordBank": {
+          "support": [
+            "chair",
+            "agenda item",
+            "speaking rules",
+            "questions",
+            "motion",
+            "vote"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U2O1-KK6"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Different places, different rules",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Compare how three communities argue. The first row is done for you.",
+        "columns": [
+          "",
+          "Parliament",
+          "Community meeting",
+          "Online comments"
+        ],
+        "rows": [
+          [
+            "Who keeps order?",
+            "The Speaker or President",
+            "The chair",
+            "Moderators, or no one"
+          ],
+          [
+            "How do you get a say?",
+            "",
+            "",
+            ""
+          ],
+          [
+            "What are the rules?",
+            "",
+            "",
+            ""
+          ],
+          [
+            "How is it decided?",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "What's the tone like?",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KK5"
+        ],
+        "vcNote": "Comparing ways different communities engage in debate or discussion."
+      },
+      {
+        "type": "sort",
+        "title": "Debate or discussion?",
+        "pagebreak": true,
+        "choices": [
+          "Debate",
+          "Discussion"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Is each one mainly a debate or a discussion? Tick one, and say why.",
+        "cards": [
+          {
+            "from": "School",
+            "text": "Two teams argue for and against a topic. Judges pick a winner.",
+            "answer": "Debate",
+            "flags": "Sides and a winner."
+          },
+          {
+            "from": "Council",
+            "text": "A random panel of locals works out ideas for the council's budget.",
+            "answer": "Discussion",
+            "flags": "Working together to agree."
+          },
+          {
+            "from": "Parliament",
+            "text": "Question Time: the Opposition questions the Government.",
+            "answer": "Debate",
+            "flags": "Sides trying to score points."
+          },
+          {
+            "from": "Work",
+            "text": "The team plans the summer roster so everyone gets a fair go.",
+            "answer": "Discussion",
+            "flags": "Solving a problem together."
+          },
+          {
+            "from": "TV",
+            "text": "Two party leaders face off before an election.",
+            "answer": "Debate",
+            "flags": "Each wants to win votes.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Footy club",
+            "text": "Members share ideas for raising money for new uniforms.",
+            "answer": "Discussion",
+            "flags": "Exploring ideas together.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KK6",
+          "VM-U2O1-KK5"
+        ],
+        "vcNote": "Distinguishing the conventions of debate and discussion."
+      },
+      {
+        "type": "table",
+        "title": "Questions that move it forward",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Write your own question of each type about the skate park hours. The first one is done for you.",
+        "columns": [
+          "Type of question",
+          "My question"
+        ],
+        "rows": [
+          [
+            "Clarifying: checks what someone means",
+            "“What do you mean by ‘too noisy’?”"
+          ],
+          [
+            "Probing: asks for evidence or reasons",
+            ""
+          ],
+          [
+            "Open: invites new ideas",
+            ""
+          ],
+          {
+            "cells": [
+              "Checking: shows you listened",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KK6",
+          "VM-U2O1-KS8"
+        ],
+        "vcNote": "Questioning as a convention of discussion and debate."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Melbourne's People's Panel",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How was the People's Panel different from a debate?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK5",
+              "VM-U2O1-KK6"
+            ]
+          },
+          {
+            "q": "Why might the council have chosen people **at random**?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK5"
+            ]
+          },
+          {
+            "q": "What are the strengths and weaknesses of this way of deciding?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: hold a community meeting",
+        "pagebreak": true,
+        "where": "in class",
+        "instructions": "As a class, hold a real community meeting on a class or school issue (your teacher will help choose). Follow the agenda and the rules.",
+        "need": [
+          "an issue",
+          "an agenda on the board",
+          "your questions"
+        ],
+        "steps": {
+          "support": [
+            "Pick a chair and a note-taker.",
+            "The chair reads the agenda.",
+            "Raise your hand to speak.",
+            "Ask your questions.",
+            "Vote on the motion."
+          ],
+          "core": [
+            "Choose roles: a **chair**, a **minute-taker**, a **timekeeper**, and a **mover** and **seconder** for the motion. Everyone else is the community.",
+            "The chair opens the meeting and reads the agenda.",
+            "Speakers raise a hand and wait to be called. Two minutes each.",
+            "Questions from the floor. Use your question types.",
+            "The motion is moved and seconded. Vote by show of hands. The minute-taker records the result."
+          ]
+        },
+        "notes": [
+          {
+            "label": "The issue and the motion:",
+            "lines": 1
+          },
+          {
+            "label": "The point I made:",
+            "lines": 1
+          },
+          {
+            "label": "The question I asked:",
+            "lines": 1
+          },
+          {
+            "label": "What was decided:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Teacher saw it",
+          "Minutes",
+          "Notes"
+        ],
+        "vc": [
+          "VM-U2O1-KS8",
+          "VM-U2O1-KK6"
+        ],
+        "vcNote": "Hands-on: listening and participating effectively in a whole-class discussion."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Watch two minutes of a real forum online: Question Time, a council meeting or a TV debate. How do the speakers use **eye contact**, **tone**, **body language** and **intonation**? What works best?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O1-KK2"
+            ]
+          },
+          {
+            "q": "How would you change your voice and body language for a formal meeting, compared with a group chat video call? Explain.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O1-KK2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can explain how communities debate.",
+          "I can tell a debate from a discussion.",
+          "I can listen and ask good questions.",
+          "I can take part in a meeting."
+        ],
+        "questions": [
+          "A community I belong to, and how it decides things:",
+          "A question type I'll use more:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn how different communities engage in debate and discussion (parliament, council and community meetings, citizens' panels, online communities, workplaces), the difference between debate and discussion, and the conventions of each, including active listening and questioning. They annotate a meeting agenda, compare forums, sort debates from discussions, write clarifying, probing and open questions, and hold a real class community meeting with a chair, motion and vote. The case study is the City of Melbourne's 2014 People's Panel: 43 randomly selected people whose recommendations shaped the council's 10-year financial plan.",
+    "prep": [
+      "Choose a real, low-stakes class or school issue for the Do it (e.g. end-of-term activity, a class rule, a fundraiser).",
+      "Write a simple agenda on the board.",
+      "Optional: queue a short clip of Question Time or a council meeting for the Level Up."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Different places, different rules",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** where have you seen people argue about something? Online, footy club, family?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a meeting (10 min).**",
+          "**Different places, different rules (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Debate, discussion and questions",
+        "minutes": 50,
+        "steps": [
+          "**Debate or discussion? (10 min).**",
+          "**Questions that move it forward (15 min).**",
+          "**Case study (15 min):** the People's Panel.",
+          "**Prepare (10 min):** choose the issue and roles."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Hold the meeting",
+        "minutes": 50,
+        "steps": [
+          "**Do it (30 min):** community meeting.",
+          "**Debrief (10 min):** did the rules help or get in the way?",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "A debate is a contest with sides; a discussion is collaborative problem-solving.",
+      "Parliament: a presiding officer, strict rules, a vote.",
+      "Community meetings: a chair, an agenda, motions and votes.",
+      "Citizens' panels: random selection, expert evidence and deliberation.",
+      "Online communities: moderators, guidelines and voting; fast and often heated.",
+      "Active listening and clarifying, probing and open questions move any debate forward."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the agenda.",
+        "Fewer comparison rows and sort cards.",
+        "Give each student a question card for the meeting."
+      ],
+      "extend": [
+        "Reflect on how conventions shaped the outcome.",
+        "Level Ups on oral communication across forums."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U2O1-KK5",
+        "evidence": "Explains how different communities engage in debate or discussion (comparison table, case study)."
+      },
+      {
+        "vc": "VM-U2O1-KK6",
+        "evidence": "Identifies the conventions of discussion and debate, including active listening and questioning (agenda, sort, questions)."
+      },
+      {
+        "vc": "VM-U2O1-KS8",
+        "evidence": "Listens and participates effectively in a whole-class meeting (Do it, minutes)."
+      },
+      {
+        "vc": "VM-U2O1-KK2",
+        "evidence": "Level Up: analyses eye contact, tone, body language and intonation in a real forum."
+      }
+    ],
+    "answers": "**Check your reading:** a debate has sides trying to win; a discussion works together on a problem. E.g. parliament (Speaker, rules, vote), community meeting (chair, agenda, motion), online (moderators, upvotes, heated), citizens' panel (random, experts, deliberation), work (short, everyone has a say). Look at the speaker, don't interrupt, check understanding.\n\n**Agenda:** 1 chair; 2 agenda item; 3 speaking rules; 4 questions from the floor; 5 motion with mover and seconder; 6 vote and minutes.\n\n**Comparison (suggested):** get a say: be a member and be called / raise your hand / post a comment; rules: standing orders / meeting procedure and time limits / community guidelines; decided: vote / vote on a motion / often not decided, or by upvotes; tone: formal, combative / mostly polite / fast, often heated.\n\n**Sort:** school debate — debate; panel — discussion; Question Time — debate; roster — discussion; leaders' debate — debate; footy club — discussion.\n\n**Case study:** the panel deliberated to agree on recommendations rather than arguing sides. Random selection brings in ordinary people, not just the loudest or most organised voices. Strengths: diverse, informed, considered. Weaknesses: small group, time and cost, and the council doesn't have to follow it.",
+    "resources": [
+      {
+        "label": "newDemocracy Foundation — City of Melbourne People's Panel",
+        "url": "https://www.newdemocracy.com.au/2014/08/05/city-of-melbourne-people-s-panel/"
+      },
+      {
+        "label": "Southbank Local News — Council listens to its people's panel",
+        "url": "https://www.southbanklocalnews.com.au/council-listens-to-its-peoples-panel_4313/"
+      },
+      {
+        "label": "Parliament of Victoria — watch Parliament",
+        "url": "https://www.parliament.vic.gov.au"
+      }
+    ],
+    "realityCheck": [
+      "**Formal meetings can feel stiff.** Pick an issue students actually care about, and keep it short.",
+      "**Quiet students may not speak.** Give everyone a question card; the chair can call on people.",
+      "**The chair role is powerful.** Coach the chair beforehand, or take it yourself the first time.",
+      "**Online communities are students' home turf.** Ask them to explain the unwritten rules of the spaces they use.",
+      "**Works in a real class:** yes. It builds the meeting skills used in Debate Ready and Have Your Say."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the agenda, fewer comparison rows, sort cards and questions, and simpler meeting steps.",
+      "core": "Standard version: how communities debate and discuss, an agenda to annotate, comparing forums, a debate-or-discussion sort, question types, the Melbourne People's Panel case, and a real class community meeting.",
+      "extend": "Adds deliberate and moderator to the vocabulary, a quiz question on body language, reflection on how conventions shaped the outcome, and Level Ups on oral communication across forums."
+    }
+  }
+}

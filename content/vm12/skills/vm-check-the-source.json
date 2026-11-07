@@ -1,0 +1,900 @@
+{
+  "id": "vm-check-the-source",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "It's 2020. Bushfires are burning. A post says 183 people were arrested for lighting them. It's shared all over the world. But it's not what the police said. Would you share it?",
+      "core": "It's January 2020. Bushfires are burning across Australia. A post in your feed says 183 people have been arrested for lighting them. It's been shared thousands of times, all over the world. It sounds official. But it isn't what the police actually said. Would you have shared it?"
+    },
+    "why": {
+      "support": "Claims spread fast when people are scared or angry. Some are wrong. Learn to find the claim, trace where it came from, and check it.",
+      "core": "Claims about big issues spread fast, especially when people are scared or angry. Some are true. Some are twisted. Some are made up. Before you share it, back it, or believe it, you need to find the main claim, trace it to where it started, and check it against other reliable sources.",
+      "extend": "Persuasive and influential content circulates rapidly, and claims often change as they spread. Identifying the main argument, tracing it to its original source, and comparing how different text types present it are essential for evaluating information and choosing trustworthy sources for your own research."
+    },
+    "canDo": {
+      "support": [
+        "I can find the main claim.",
+        "I can find where a claim started.",
+        "I can compare different texts.",
+        "I can pick good sources."
+      ],
+      "core": [
+        "I can find the **main claim** and **evidence** using notes and annotation.",
+        "I can **trace** a claim back to where it started.",
+        "I can **compare** how different kinds of texts present the same issue.",
+        "I can choose **reliable** sources for research."
+      ]
+    },
+    "showIt": "Trace a real claim about an issue back to its original source, compare how two or more texts present it, and decide whether to share it.",
+    "vocab": [
+      {
+        "word": "claim",
+        "meaning": "something a person says is true",
+        "example": "The claim was that dogs were banned."
+      },
+      {
+        "word": "evidence",
+        "meaning": "facts that show something is true",
+        "example": "The council website was the evidence."
+      },
+      {
+        "word": "source",
+        "meaning": "where information comes from",
+        "example": "The source was a police media release."
+      },
+      {
+        "word": "reliable",
+        "meaning": "able to be trusted",
+        "example": "The ABC is a reliable source."
+      },
+      {
+        "word": "annotate",
+        "meaning": "make notes on a text as you read",
+        "example": "I annotated the article with a pen."
+      },
+      {
+        "word": "misinformation",
+        "meaning": "false information, spread by mistake or on purpose",
+        "example": "The post was misinformation."
+      },
+      {
+        "word": "upstream",
+        "meaning": "back to where information first came from",
+        "example": "I went upstream to the council's website.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "lateral reading",
+        "meaning": "checking other sources in new tabs",
+        "example": "Lateral reading showed the claim was wrong.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Check the Source in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Check the Source",
+        "sub": "Before you share it, back it, or believe it.",
+        "icon": "lucide:badge-check",
+        "say": "Check the source. Before you share it, back it, or believe it."
+      },
+      {
+        "kind": "stat",
+        "big": "183 → 24",
+        "title": "charged with deliberately lighting bushfires",
+        "sub": "NSW Police, January 2020",
+        "say": "In January 2020, posts claimed 183 people had been arrested for lighting bushfires. NSW Police had said legal action was taken against 183 people for fire-related offences. Only 24 were charged with deliberately lighting fires.",
+        "vc": [
+          "VM-U2O1-KS7"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Check it",
+        "pillIcon": "lucide:badge-check",
+        "title": "Find the claim",
+        "text": "Underline · Circle · **Star**",
+        "icon": "lucide:highlighter",
+        "say": "Find the main claim. Underline it. Circle the evidence. Star the source.",
+        "vc": [
+          "VM-U2O1-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Check it",
+        "pillIcon": "lucide:badge-check",
+        "title": "Go upstream",
+        "text": "Find the **original**",
+        "icon": "lucide:arrow-up-from-line",
+        "say": "Go upstream. Where did it first come from? Find the original report or statement.",
+        "vc": [
+          "VM-U2O1-KS7"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Check it",
+        "pillIcon": "lucide:badge-check",
+        "title": "Read sideways",
+        "text": "New tabs · **other sources**",
+        "icon": "lucide:panels-top-left",
+        "say": "Read sideways. Open new tabs. What do other reliable sources say?",
+        "vc": [
+          "VM-U2O1-KS7",
+          "VM-U2O1-KS5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Check it",
+        "pillIcon": "lucide:badge-check",
+        "title": "Exact words",
+        "text": "Charged ≠ **convicted**",
+        "icon": "lucide:search",
+        "say": "Check the exact words. Charged isn't convicted. Legal action isn't arrested.",
+        "vc": [
+          "VM-U2O1-KS2"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Check any claim",
+        "steps": [
+          "Find the claim",
+          "Go upstream",
+          "Read sideways"
+        ],
+        "say": "Find the claim, go upstream, read sideways, and check the exact words."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Check it **before** you share it.",
+        "icon": "lucide:badge-check",
+        "say": "Your mission. Trace a real claim back to where it started, and decide if it's worth sharing."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Before you share it, back it, or believe it",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "When something big happens, claims spread fast. Some are wrong. Here's how to check.\n\n**1. Find the main claim.** Mark the text:\n\n- Underline the **claim**: what do they say is true?\n- Circle the **evidence**: what facts do they give?\n- Star the **source**: who says so?\n\nNo evidence? No source? Be careful.\n\n**2. Go back to the start.** Where did it come from first? Find the original. It might be a police statement or a report.\n\n**3. Check other sites.** Open new tabs. What do other **reliable** sources say?\n\n**4. Check the words.** Claims change as they spread. *Charged* can turn into *guilty*. *Some* can turn into *all*.\n\n**Different texts:**\n\n- A **post** is fast. It often has no source.\n- A **news report** should say where its facts came from.\n- An **official statement** is often the first source.\n\n**A reliable source** has a name you can check, evidence and a date.",
+          "core": "When an issue is big, like a disaster, an election or a new law, claims spread fast. Some are true. Some are twisted as they're passed on. Some are made up. Here's how to check.\n\n**1. Find the main claim.** Read it once. Then **annotate** it:\n\n- Underline the main **claim**: what are they saying is true?\n- Circle the **evidence**: what facts or numbers do they give?\n- Put a star next to the **source**: who says so?\n\nThen take short notes: *claim, evidence, source*. If you can't find any evidence or source, that's your first warning sign.\n\n**2. Go upstream.** Where did the claim first come from? Follow links back to the original: a police media release, a court decision, a study or a government report. A post that says “experts say” but never names them hasn't given you a source.\n\n**3. Read sideways.** Don't just keep reading the same page. Open new tabs. Search the claim. What do other **reliable** sources say? This is called **lateral reading**. Fact-checking sites can help.\n\n**4. Check the exact words.** Claims often change as they spread. *Charged* becomes *guilty*. *May* becomes *will*. *Some* becomes *all*.\n\n**Different texts, different jobs.** The same issue looks different in different kinds of text:\n\n- A **viral post** is fast and emotional. It often has no source.\n- A **news report** should quote its sources and give more than one side.\n- An **opinion piece** argues one view.\n- An **official statement** is often the original source. But it still comes from one organisation's point of view.\n\n**What makes a source reliable?** A named author or organisation with real knowledge. Evidence you can check. A date. And no reason to make you angry, scared or ready to buy.",
+          "extend": "During big events, like disasters, elections and new laws, claims spread fast. They often change as they're shared. Checking them is a skill you can practise.\n\n**1. Find the main argument.** **Annotate** as you read. Underline the main **claim**, circle the **evidence**, and mark the **source** of that evidence. Then turn your marks into short notes: claim, evidence, source. A claim with no evidence you can trace is a warning sign.\n\n**2. Go upstream.** Trace the claim to where it began: a media release, court record, dataset, study or official report. Vague phrases like “experts say” or “reports suggest” are not sources.\n\n**3. Read laterally.** Don't judge a page only from the inside. Open new tabs. See what independent, reliable sources say about the claim, and about who published it. Professional fact-checkers work this way.\n\n**4. Check the exact wording.** Small changes shift the meaning. *Charged* is not *convicted*. *Legal action* is not *arrest*. *May* is not *will*. *Some* is not *all*.\n\n**Comparing text types.** The same issue looks different across persuasive and influential texts:\n\n- **Viral posts** favour speed and emotion, and often leave out sources.\n- **News reports** should say where claims come from and include more than one view.\n- **Opinion pieces** argue one position.\n- **Official statements** are often primary sources. But they still reflect one organisation's view and interests.\n\n**Signs of a reliable source** include real expertise, clear evidence, a recent date, a habit of correcting mistakes, and no obvious reason to anger, scare or sell."
+        },
+        "vc": [
+          "VM-U2O1-KS2",
+          "VM-U2O1-KS5",
+          "VM-U2O1-KS7"
+        ],
+        "vcNote": "Note-taking and annotation of arguments; comparing text types; identifying reliable sources."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "183 arrests that weren't",
+        "icon": "lucide:flame",
+        "body": {
+          "support": "In 2019–20, huge bushfires burned in Australia. People were scared and angry.\n\nIn January 2020, **NSW Police** shared some numbers. They had taken legal action against **183 people** for fire offences.\n\n“Legal action” could mean a warning or a charge. Some people broke a **total fire ban**. Some threw away a lit cigarette. Only **24 people** were charged with **lighting fires on purpose**.\n\nBut online, the story changed. Posts said **183 people were arrested for lighting fires**. That was shared around the world.\n\nResearchers looked at accounts using the hashtag **#ArsonEmergency**. Many acted like bots or trolls.\n\nThe real numbers were on the police website. Anyone who checked could find the truth.",
+          "core": "In the summer of 2019–20, huge bushfires burned across Australia. People were scared and angry. Many wanted to know who or what was to blame.\n\nIn early January 2020, **NSW Police** released some figures. Since **8 November 2019**, they had taken legal action against **183 people** for fire offences. Some were children.\n\n“Legal action” covered a lot, from a warning to a criminal charge. Some people had broken a **total fire ban**. Some had thrown away a lit cigarette or match. Of the 183, **24 people** were charged with **lighting fires on purpose**.\n\nBut online, the figure changed. Posts, and some reports, said **183 people had been arrested for arson**. That claim was shared around the world.\n\nAt the same time, a hashtag, **#ArsonEmergency**, was trending on Twitter. Two researchers from **QUT**, Timothy Graham and Tobias Keller, looked at about 300 accounts using it. Many were acting in odd ways. They looked like bots or trolls.\n\nThe police hadn't lied. The real numbers were public. But as the claim spread, the words changed. *Legal action* became *arrested*. *Fire offences* became *arson*.\n\nAnyone who went upstream to the police statement could have found the truth.",
+          "extend": "In the 2019–20 bushfire season, fires burned across south-eastern Australia. Public debate about their causes was intense.\n\nIn early January 2020, **NSW Police** reported that since **8 November 2019**, legal action had been taken against **183 people**, including some juveniles, for bushfire-related offences. Legal action ranged from a caution to a criminal charge. The offences included breaching a **total fire ban** and dropping a lit cigarette or match. **Twenty-four** people had been charged with **deliberately lighting** bushfires.\n\nAs the figure spread online, it was reframed. Posts, and some reports, claimed that **183 people had been arrested for arson**. The claim travelled around the world.\n\nAt the same time, the hashtag **#ArsonEmergency** trended on Twitter. QUT researchers **Timothy Graham** and **Tobias Keller** studied about 300 accounts pushing it. Many showed odd, bot-like or troll-like behaviour. The researchers could not link the accounts to any particular person or group.\n\nThe original source was public and accurate. The distortion happened downstream, through small changes in wording. *Legal action* became *arrests*. *Bushfire-related offences* became *arson*. Tracing the claim upstream, and comparing it with reliable reporting, would have exposed the gap."
+        },
+        "source": {
+          "name": "SBS News — False arson claims spread on social media amid Australian bushfire crisis (January 2020)",
+          "url": "https://www.sbs.com.au/news/false-arson-claims-spread-on-social-media-amid-australian-bushfire-crisis"
+        },
+        "think": {
+          "support": [
+            "What did the police really say?",
+            "What did the posts say?",
+            "How could you have checked?"
+          ],
+          "core": [
+            "What did NSW Police actually say? How did the claim change as it spread?",
+            "Which words changed, and why does that matter?",
+            "Which checks from the article would have caught it?"
+          ]
+        },
+        "vc": [
+          "VM-U2O1-KS7",
+          "VM-U2O1-KS2"
+        ],
+        "vcNote": "A real Australian example of a claim changing as it spread, and how to trace it upstream."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Three texts, one claim",
+      "docTitle": "DOGS ON THE BEACH: A POST, A REPORT AND A STATEMENT (EXAMPLE)",
+      "vc": [
+        "VM-U2O1-KS2",
+        "VM-U2O1-KS5",
+        "VM-U2O1-KS7"
+      ],
+      "vcNote": "Annotating claims and sources, and comparing how different text types present an issue.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Viral post",
+          "value": "COUNCIL BANS DOGS FROM ALL BEACHES!!! Share before they delete this 😡",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Viral post",
+          "value": "A mate who works at the council told me."
+        },
+        {
+          "n": 3,
+          "label": "News report",
+          "value": "Headline: “Summer dog rules for Main Beach”"
+        },
+        {
+          "n": 4,
+          "label": "News report",
+          "value": "A council spokesperson said dogs will still be allowed on all other beaches."
+        },
+        {
+          "n": 5,
+          "label": "Council statement",
+          "value": "From 1 December to 31 March, dogs are not allowed on Main Beach between 9am and 6pm.",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Council statement",
+          "value": "Have your say on the plan by 15 November on our website."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Exaggerated claim",
+          "note": "“All beaches”, capitals, anger."
+        },
+        {
+          "n": 2,
+          "label": "No real source",
+          "note": "An unnamed “mate”. Can't be checked."
+        },
+        {
+          "n": 3,
+          "label": "Neutral headline",
+          "note": "Plain words. One beach."
+        },
+        {
+          "n": 4,
+          "label": "Named source",
+          "note": "Quotes the council."
+        },
+        {
+          "n": 5,
+          "label": "The original",
+          "note": "Specific: one beach, set times, set dates."
+        },
+        {
+          "n": 6,
+          "label": "What you can do",
+          "note": "A real way to have a say."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Check any claim",
+      "steps": [
+        {
+          "title": "Find the claim",
+          "text": "Underline, circle, star.",
+          "icon": "lucide:highlighter"
+        },
+        {
+          "title": "Go upstream",
+          "text": "Find the original.",
+          "icon": "lucide:arrow-up-from-line"
+        },
+        {
+          "title": "Read sideways",
+          "text": "What do others say?",
+          "icon": "lucide:panels-top-left"
+        },
+        {
+          "title": "Exact words",
+          "text": "Charged ≠ convicted.",
+          "icon": "lucide:search"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "When you annotate a claim, what should you **circle**?",
+        "options": [
+          "The evidence",
+          "The title",
+          "Every adjective",
+          "The date only"
+        ],
+        "answer": 0,
+        "explain": "Underline the claim, circle the evidence, star the source.",
+        "vc": [
+          "VM-U2O1-KS2"
+        ]
+      },
+      {
+        "q": "What does **going upstream** mean?",
+        "options": [
+          "Tracing a claim back to where it first came from",
+          "Reading the comments",
+          "Sharing it first",
+          "Scrolling up"
+        ],
+        "answer": 0,
+        "explain": "Find the original source.",
+        "vc": [
+          "VM-U2O1-KS7"
+        ]
+      },
+      {
+        "q": "A post says “experts say” but doesn't name any. What's the problem?",
+        "options": [
+          "There's no source you can check",
+          "It's too short",
+          "It has no emojis",
+          "Experts are never right"
+        ],
+        "answer": 0,
+        "explain": "Vague sources can't be checked.",
+        "vc": [
+          "VM-U2O1-KS7"
+        ]
+      },
+      {
+        "q": "In January 2020, how many people had NSW Police charged with **deliberately lighting** bushfires?",
+        "options": [
+          "24",
+          "183",
+          "205",
+          "None"
+        ],
+        "answer": 0,
+        "explain": "183 faced legal action of any kind; 24 were charged with deliberately lighting fires.",
+        "vc": [
+          "VM-U2O1-KS7"
+        ]
+      },
+      {
+        "q": "Which kind of text should **quote its sources** and give more than one side?",
+        "options": [
+          "A news report",
+          "A viral post",
+          "An ad",
+          "A meme"
+        ],
+        "answer": 0,
+        "explain": "Different text types do different jobs.",
+        "vc": [
+          "VM-U2O1-KS5"
+        ]
+      },
+      {
+        "q": "What is **lateral reading**?",
+        "options": [
+          "Opening new tabs to check what other sources say",
+          "Reading every word twice",
+          "Reading sideways on your phone",
+          "Reading only headlines"
+        ],
+        "answer": 0,
+        "explain": "Fact-checkers read sideways.",
+        "vc": [
+          "VM-U2O1-KS7"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "For a research task on youth unemployment, which is the **most reliable** starting source?",
+        "options": [
+          "Australian Bureau of Statistics data",
+          "An anonymous forum post",
+          "A screenshot with no link",
+          "A meme page"
+        ],
+        "answer": 0,
+        "explain": "Official data with a named source and date.",
+        "vc": [
+          "VM-U2O2-KS2"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pick a real claim. Find where it started. Check one other site. Decide: share it or not?",
+      "core": "Trace a real claim about an issue back to its original source, compare how two or more texts present it, and decide whether to share it.",
+      "extend": "Trace a contested claim to its primary source, compare how at least three text types present it, evaluate the reliability of each, and justify your decision about sharing or using it in research."
+    },
+    "checklist": [
+      "I found the main claim",
+      "I noted the evidence and source",
+      "I traced it upstream to the original",
+      "I checked other reliable sources",
+      "I compared how different texts present it",
+      "I decided whether to share it, and explained why"
+    ],
+    "levelUp": "Explain which sources you would use, and which you wouldn't, to research an issue for a speech, and why.",
+    "vc": [
+      "VM-U2O1-KS2",
+      "VM-U2O1-KS5",
+      "VM-U2O1-KS7"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Before you share it, back it, or believe it",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "When you annotate a claim, what do you underline, circle and star?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS2"
+            ]
+          },
+          {
+            "q": "What does it mean to **go upstream**? Why does it help?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS7"
+            ]
+          },
+          {
+            "q": "Name **two** things that make a source reliable.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Check any claim",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Three texts, one claim",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Read the three texts. Use the word bank. Can you trust it?",
+          "core": "Read all three texts. For each number, write what it is and how much you can trust it."
+        },
+        "columns": [
+          "What is it?",
+          "Can you trust it? Why?"
+        ],
+        "wordBank": {
+          "support": [
+            "exaggerated claim",
+            "no real source",
+            "neutral headline",
+            "named source",
+            "the original",
+            "what you can do"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U2O1-KS2",
+          "VM-U2O1-KS7"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Compare the texts",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "How does each kind of text present the dog rules? The first row is done for you.",
+        "columns": [
+          "",
+          "Viral post",
+          "News report",
+          "Council statement"
+        ],
+        "rows": [
+          [
+            "Purpose",
+            "Make people angry and share",
+            "Inform locals about the new rule",
+            "Tell people the rule, and ask for feedback"
+          ],
+          [
+            "Main claim",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Evidence or source",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Language",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "What it leaves out",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KS5",
+          "VM-U2O1-KS2"
+        ],
+        "vcNote": "Comparing how ideas and issues are presented in different text types."
+      },
+      {
+        "type": "sort",
+        "title": "How much can you trust it?",
+        "pagebreak": true,
+        "choices": [
+          "Good source",
+          "Check further",
+          "Not reliable"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "You're researching a local issue. How much would you trust each source? Tick one, and say why.",
+        "cards": [
+          {
+            "from": "Website",
+            "text": "A media release on the Victoria Police website",
+            "answer": "Good source",
+            "flags": "The original, official source. Still check what it leaves out."
+          },
+          {
+            "from": "News",
+            "text": "An ABC News report that quotes the police and a local mayor",
+            "answer": "Good source",
+            "flags": "Named sources and more than one voice."
+          },
+          {
+            "from": "Social media",
+            "text": "A screenshot of a post, with no link or name",
+            "answer": "Not reliable",
+            "flags": "Can't be traced. Could be edited."
+          },
+          {
+            "from": "Video",
+            "text": "A TikTok from an account you don't know, saying “studies show”",
+            "answer": "Check further",
+            "flags": "Which studies? Go upstream."
+          },
+          {
+            "from": "Website",
+            "text": "A Wikipedia page on the issue",
+            "answer": "Check further",
+            "flags": "Useful start. Follow its references.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Group chat",
+            "text": "“My uncle said the road is closing for good”",
+            "answer": "Not reliable",
+            "flags": "Second-hand and can't be checked.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KS7"
+        ],
+        "vcNote": "Identifying reliable and trustworthy sources."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: 183 arrests that weren't",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did NSW Police actually say? What did the posts say?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS7",
+              "VM-U2O1-KS2"
+            ]
+          },
+          {
+            "q": "Which **words** changed as the claim spread? Why does that matter?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS2"
+            ]
+          },
+          {
+            "q": "Which checks from the article would have caught it?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: trace a claim",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Choose a real claim about an issue you've seen online or in the news. Trace it to the source, and check it.",
+        "need": [
+          "a device",
+          "a real claim (your teacher can suggest one)"
+        ],
+        "steps": {
+          "support": [
+            "Write down the claim and where you saw it.",
+            "Mark the claim, evidence and source.",
+            "Find where it came from first.",
+            "Check one other good site.",
+            "Share it or not? Why?"
+          ],
+          "core": [
+            "Write down the **claim** exactly as you saw it, and where.",
+            "**Annotate** it: underline the claim, circle the evidence, star the source.",
+            "**Go upstream.** Find the original report, statement or study.",
+            "**Read sideways.** Find two other reliable sources. Do they agree?",
+            "**Decide:** share it, don't share it, or share it with a correction?"
+          ]
+        },
+        "notes": [
+          {
+            "label": "The claim, and where I saw it:",
+            "lines": 1
+          },
+          {
+            "label": "The original source:",
+            "lines": 1
+          },
+          {
+            "label": "What other sources said:",
+            "lines": 2
+          },
+          {
+            "label": "My decision, and why:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Screenshots or links",
+          "Notes",
+          "Decision"
+        ],
+        "vc": [
+          "VM-U2O1-KS2",
+          "VM-U2O1-KS7",
+          "VM-U2O1-KS5"
+        ],
+        "vcNote": "Hands-on: tracing and checking a real claim."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "You're researching an issue for a speech. Name **three** sources you would use and **one** you wouldn't. Explain each choice.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS2"
+            ]
+          },
+          {
+            "q": "Why might an **official** source, like a police media release or a company website, still need checking?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find the main claim and evidence.",
+          "I can trace a claim to where it started.",
+          "I can compare different kinds of texts.",
+          "I can choose reliable sources."
+        ],
+        "questions": [
+          "A claim I checked this week:",
+          "My go-to reliable source:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to identify main ideas and arguments through annotation and note-taking (underline the claim, circle the evidence, star the source), to trace claims upstream to their origin, to read laterally, and to compare how viral posts, news reports, opinion pieces and official statements present the same issue. They annotate and compare three made-up texts, sort sources by reliability, and trace a real claim. The case study is the January 2020 bushfire misinformation: NSW Police reported legal action against 183 people for bushfire-related offences, of whom 24 were charged with deliberately lighting fires, but the figure spread online as “183 arrested for arson”.",
+    "prep": [
+      "Choose two or three current claims students could trace (check they have a clear original source).",
+      "Model lateral reading live: open new tabs and search a claim.",
+      "Highlighters or three colours for annotation."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Find the claim",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** show the 183 claim. Would you share it?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Three texts (15 min):** annotate.",
+          "**Compare the texts (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Trust",
+        "minutes": 50,
+        "steps": [
+          "**How much can you trust it? (15 min).**",
+          "**Case study (20 min):** 183 arrests that weren't.",
+          "**Model lateral reading (15 min)** on a current claim."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Trace a claim",
+        "minutes": 50,
+        "steps": [
+          "**Do it (30 min):** trace a claim.",
+          "**Share (10 min):** what did you find?",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Annotate: underline the claim, circle the evidence, star the source; then take notes.",
+      "Go upstream to the original source; vague attributions aren't sources.",
+      "Read laterally: check what other reliable sources say.",
+      "Check exact words: charged is not convicted; legal action is not arrest.",
+      "Text types present issues differently: viral posts, news reports, opinion pieces, official statements.",
+      "Reliable sources show expertise, evidence, a date and no obvious motive to enrage or sell."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the three texts.",
+        "Fewer sort cards and comparison rows.",
+        "Give students a claim and its original source for the Do it."
+      ],
+      "extend": [
+        "Compare at least three text types in the Do it.",
+        "Level Ups on research sources and official perspectives."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U2O1-KS2",
+        "evidence": "Identifies main claims, evidence and sources through annotation and notes (three texts, Do it)."
+      },
+      {
+        "vc": "VM-U2O1-KS5",
+        "evidence": "Compares how a post, news report and official statement present the same issue (Compare the texts)."
+      },
+      {
+        "vc": "VM-U2O1-KS7",
+        "evidence": "Identifies reliable and trustworthy sources and traces claims upstream (sort, case study, Do it)."
+      },
+      {
+        "vc": "VM-U2O2-KS2",
+        "evidence": "Level Up: chooses and justifies reliable sources for research."
+      }
+    ],
+    "answers": "**Check your reading:** underline the claim, circle the evidence, star the source. Trace a claim back to its original (e.g. a media release or report), so you can see what was really said. A named author or organisation with knowledge; evidence; a date; no motive to enrage or sell.\n\n**Three texts:** 1 exaggerated claim; 2 no real source; 3 neutral headline; 4 named source (council spokesperson); 5 the original, specific rule; 6 a real way to have a say.\n\n**Compare (suggested):** main claim: all beaches banned / dogs off Main Beach in summer / no dogs on Main Beach 9am–6pm, 1 Dec–31 Mar; evidence: a mate / council spokesperson / it is the source; language: capitals, anger, emoji / plain / precise; leaves out: everything specific / some detail / other people's views.\n\n**Sort:** police release — good; ABC report — good; screenshot — not reliable; TikTok — check further; Wikipedia — check further; uncle — not reliable.\n\n**Case study:** police said legal action against 183 people for bushfire-related offences; 24 were charged with deliberately lighting fires. “Legal action” became “arrested” and “offences” became “arson”. Going upstream to the police statement, and checking the exact words.",
+    "resources": [
+      {
+        "label": "SBS News — False arson claims spread on social media amid Australian bushfire crisis",
+        "url": "https://www.sbs.com.au/news/false-arson-claims-spread-on-social-media-amid-australian-bushfire-crisis"
+      },
+      {
+        "label": "NPR — Australia's wildfires spark disinformation battle",
+        "url": "https://www.npr.org/2020/01/10/795218092/australias-wildfires-spark-disinformation-battle-as-they-take-a-tragic-toll"
+      },
+      {
+        "label": "Snopes — Were nearly 200 people arrested for deliberately starting Australia bushfires?",
+        "url": "https://www.snopes.com/fact-check/australia-arrested-bushfires/"
+      }
+    ],
+    "realityCheck": [
+      "**Bushfires may be personal.** Some students may have been affected; keep the focus on the claim, not the fires.",
+      "**Arson does happen.** The lesson isn't “arson is a myth”; it's that 183 legal actions became 183 arson arrests.",
+      "**Lateral reading needs modelling.** Do it live; students rarely leave the first page.",
+      "**Keep it current.** Swap in a claim from this week for the Do it.",
+      "**Works in a real class:** yes. Pairs well with Website Detective from Digital Life."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the three texts, fewer sort cards and comparison rows, and simpler Do it steps.",
+      "core": "Standard version: annotation and note-taking, going upstream, lateral reading, comparing a post, report and statement, a source sort, the 183 bushfire arrests case, and tracing a real claim.",
+      "extend": "Adds upstream and lateral reading to the vocabulary, a quiz question on research sources, comparing three text types in the Do it, and Level Ups on choosing research sources and checking official sources."
+    }
+  }
+}
