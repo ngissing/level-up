@@ -1,0 +1,946 @@
+{
+  "id": "vm-respect-online",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Your group chat is a mess. Someone is being rude. Someone shared a private screenshot. You still need to get the work done. What do you say?",
+      "core": "Your project group chat is going off. Someone's having a go at someone else. Someone's posted a screenshot they shouldn't have. Someone hasn't said a word in two days. And you still need to get the work done. What do you say?"
+    },
+    "why": {
+      "support": "A lot of work happens in group chats and discussions. How you say things matters. Learn to disagree without a fight, and keep people safe.",
+      "core": "Group chats, comments and class discussions are where a lot of work actually happens, at school, in training and on the job. How you say things matters as much as what you say. Learn to disagree without a fight, keep people safe, and run a discussion where everyone gets a say.",
+      "extend": "Digital and face-to-face discussion are central to study and work. Respectful, safe practice online, and the conventions of discussion (turn-taking, active listening, questioning and building on others' ideas), let groups solve problems and reach decisions without conflict."
+    },
+    "canDo": {
+      "support": [
+        "I can stay safe online.",
+        "I can disagree without a fight.",
+        "I can add to other people's ideas.",
+        "I can listen and ask questions."
+      ],
+      "core": [
+        "I can keep myself and others **safe** online.",
+        "I can disagree **respectfully**, online and face to face.",
+        "I can **build on** other people's ideas in a discussion.",
+        "I can **listen** and **ask questions** to keep a discussion going."
+      ]
+    },
+    "showIt": "Rewrite rude messages respectfully, then take part in a real group discussion using the discussion toolkit.",
+    "vocab": [
+      {
+        "word": "respectful",
+        "meaning": "treating people fairly, even when you disagree",
+        "example": "She was respectful when she disagreed."
+      },
+      {
+        "word": "tone",
+        "meaning": "how something sounds, like friendly or angry",
+        "example": "His text had an angry tone."
+      },
+      {
+        "word": "cyberbullying",
+        "meaning": "using the internet or phone to hurt, scare or embarrass someone",
+        "example": "Sharing that photo was cyberbullying."
+      },
+      {
+        "word": "report",
+        "meaning": "tell a platform or adult about a problem",
+        "example": "I reported the post to the app."
+      },
+      {
+        "word": "build on",
+        "meaning": "add to someone else's idea",
+        "example": "I built on Mia's idea."
+      },
+      {
+        "word": "active listening",
+        "meaning": "really focusing on what someone means",
+        "example": "Active listening means not just waiting to talk."
+      },
+      {
+        "word": "etiquette",
+        "meaning": "the polite rules for how to act",
+        "example": "Group chat etiquette: stay on topic.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "constructive",
+        "meaning": "helpful, and making things better",
+        "example": "Her feedback was constructive.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Respect Online in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Respect Online",
+        "sub": "Group chats, comments and calling it out.",
+        "icon": "lucide:message-circle-heart",
+        "say": "Respect online. Group chats, comments and calling it out, the right way."
+      },
+      {
+        "kind": "stat",
+        "big": "2,978",
+        "title": "cyberbullying complaints to eSafety in 2024",
+        "sub": "eSafety Commissioner, February 2025",
+        "say": "In 2024, Australia's eSafety Commissioner received nearly three thousand complaints about cyberbullying of young people. That's up a quarter on the year before.",
+        "vc": [
+          "VM-U1O2-KK6"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Tone gets lost",
+        "text": "“ok.” = **angry?**",
+        "icon": "lucide:message-circle-warning",
+        "say": "Online, people can't hear your voice or see your face. A short reply can sound angry, even when you're not.",
+        "vc": [
+          "VM-U1O2-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Respect",
+        "pillIcon": "lucide:handshake",
+        "title": "Pause",
+        "text": "Read it **as them**",
+        "icon": "lucide:pause",
+        "say": "Pause before you post. Read it again as if you were them.",
+        "vc": [
+          "VM-U1O2-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Respect",
+        "pillIcon": "lucide:handshake",
+        "title": "Idea, not person",
+        "text": "**Ideas** are fair game",
+        "icon": "lucide:lightbulb",
+        "say": "Disagree with the idea, not the person.",
+        "vc": [
+          "VM-U1O2-KS3",
+          "VM-U1O2-KK7"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Respect",
+        "pillIcon": "lucide:handshake",
+        "title": "Build and ask",
+        "text": "“**Adding to** that…”",
+        "icon": "lucide:messages-square",
+        "say": "Build on other people's ideas, and ask questions. That's how discussions get somewhere.",
+        "vc": [
+          "VM-U1O2-KK7",
+          "VM-U1O2-KS5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Respect",
+        "pillIcon": "lucide:handshake",
+        "title": "Report, don't pile on",
+        "text": "Screenshot · Block · **Report**",
+        "icon": "lucide:flag",
+        "say": "If someone's being hurtful, don't pile on. Screenshot it, block, and report it.",
+        "vc": [
+          "VM-U1O2-KK6"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Before you hit send",
+        "steps": [
+          "Pause",
+          "Read it as them",
+          "Change it, then send"
+        ],
+        "say": "Before you hit send: pause, read it as them, change it if you need to, then send."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Respectful. Safe. **Heard.**",
+        "icon": "lucide:message-circle-heart",
+        "say": "Your mission. Rewrite rude messages, then take part in a real discussion where everyone gets a say."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Respect online, and in the room",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Group chats and class talks have one thing in common: people. People react to *how* you say things.\n\n**Online, tone gets lost.** People can't hear your voice. “ok.” can sound angry. So read your message again before you send it.\n\n**Keep it safe**\n\n- Don't share other people's photos or messages without asking.\n- Keep your address and passwords private.\n- If someone is being mean, don't join in. Screenshot it, block, and **report** it.\n- Tell an adult you trust. You can also report to **eSafety**.\n\n**Keep it respectful**\n\n- Disagree with the *idea*, not the *person*.\n- Say “I think…” not “You're wrong.”\n\n**Good discussions**\n\n- **Take turns.**\n- **Listen.** Think about what they mean.\n- **Add to ideas.** “Adding to what Jess said…”\n- **Ask questions.** “Why do you think that?”\n- **Bring others in.** “Sam, what do you think?”\n\nRespect doesn't mean agreeing. It means everyone gets a say.",
+          "core": "Group chats, comment sections and class discussions have one thing in common: people. And people react to *how* you say things, not just *what* you say.\n\n**Online, tone gets lost.** Face to face, people hear your voice and see your face. In a text, they don't. “ok.” can sound angry. A joke can sound like an insult. So read your message again before you send it. Ask: *how would this sound to them?*\n\n**Keep it safe**\n\n- Don't share other people's photos, screenshots or private messages without asking.\n- Keep your own details private, like your address, phone number and passwords.\n- If someone is being hurtful, don't pile on. Screenshot it, block, and **report** it to the platform.\n- If it's serious and the platform doesn't help, you can report it to **eSafety** (esafety.gov.au). Tell an adult you trust, too.\n\n**Keep it respectful**\n\n- Disagree with the *idea*, not the *person*.\n- Use *I*: “I see it differently, because…”\n- Think about who's reading. It might be your teacher, your boss or your whole team.\n\n**Discussions that work.** Whether it's a group chat about a project or a class discussion, the same rules help:\n\n- **Take turns.** Let people finish.\n- **Listen actively.** Focus on what the person means, not what you'll say next.\n- **Build on ideas.** “Adding to what Jess said…”\n- **Ask questions.** “What makes you think that?”\n- **Bring others in.** “Sam, what do you reckon?”\n\nRespect isn't about agreeing with everyone. It's about making it safe for everyone to have a say.",
+          "extend": "Group chats, comment threads and class discussions all depend on people working together. How a message is expressed shapes how it's received.\n\n**Tone in digital text.** Online, readers lose the cues of voice, face and body language. A short reply (“ok.”) can read as hostile, and sarcasm is easily misread. Before sending, reread your message from the reader's point of view.\n\n**Safe practice**\n\n- Don't share others' images, screenshots or private messages without consent.\n- Protect personal information: address, phone number, passwords and location.\n- If someone is targeted, don't amplify it. Keep evidence (screenshots), block, and **report** to the platform.\n- Serious cyberbullying that a platform doesn't deal with can be reported to the **eSafety Commissioner**. Involve a trusted adult.\n\n**Respectful disagreement**\n\n- Challenge the *idea*, not the *person*.\n- Use “I” statements and give reasons: “I see it differently, because…”\n- Consider your audience. Work and study chats are professional spaces.\n\n**Conventions of discussion.** Productive discussion, online or face to face, relies on shared conventions:\n\n- **Turn-taking:** let people finish, and keep contributions concise.\n- **Active listening:** focus on the speaker's meaning, and check you've understood (“So you're saying…?”).\n- **Building on ideas:** connect your point to others' (“Adding to Jess's point…”).\n- **Questioning:** ask open questions that move the discussion forward (“What would that look like?”).\n- **Inclusion:** invite quieter members in.\n\nRespect isn't agreement. It's what makes it safe for everyone to contribute."
+        },
+        "vc": [
+          "VM-U1O2-KK6",
+          "VM-U1O2-KS3",
+          "VM-U1O2-KK7"
+        ],
+        "vcNote": "Safe and respectful practice in the digital world; the etiquette and conventions of discussion."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Cyberbullying reports surge",
+        "icon": "lucide:shield-alert",
+        "body": {
+          "support": "In February 2025, **eSafety** shared new numbers. It's the government team that helps keep people safe online.\n\nIn **2024**, it got **2,978** reports of young people being bullied online. That was **25%** more than the year before.\n\nIn five years, reports went up by **more than 450%**.\n\n**1,385** reports were about kids aged **13 and under**. That's almost half.\n\nThese are only the reports made to eSafety. Some people tell a school. Some tell no one.\n\nIt asked us all to be kind online.",
+          "core": "Each February, Australia marks **Safer Internet Day**. In 2025, **eSafety** used the day to share new numbers. It also asked people to be kinder online.\n\n**eSafety** is the government's online safety team. People can go to it when an app won't help.\n\nIn **2024**, eSafety got **2,978** real reports of young people being bullied online. That was **25%** more than the year before.\n\nIn five years, reports had gone up by **more than 450%**.\n\nIt's not just teens. **1,385** reports, or **46%**, were about kids aged **13 and under**.\n\nThese numbers only count reports made to eSafety. They don't count ones made just to an app or a school. They don't count the ones nobody reported.\n\neSafety can step in when an app won't take down serious bullying. But the best fix starts sooner. It starts with what each of us posts, shares or calls out.",
+          "extend": "Each February, Australia marks **Safer Internet Day**. In February 2025, the **eSafety Commissioner** released new complaint data alongside a call for kindness online.\n\nIn **2024**, eSafety received **2,978** valid complaints about cyberbullying of young people, a rise of **25%** on the previous year. Over five years, complaints had grown by **more than 450%**.\n\nThe figures also showed how young many targets are. **1,385** complaints, or **46%**, involved children aged **13 and under**.\n\nThe data has limits. It counts only complaints made to eSafety. It doesn't capture problems reported only to platforms or schools, or never reported at all. A rise in complaints may also reflect more awareness of where to report, as well as more bullying.\n\neSafety can act when platforms fail to remove serious cyberbullying. But prevention depends on everyday choices: what people post, share, ignore or challenge."
+        },
+        "source": {
+          "name": "eSafety Commissioner — Safer Internet Day calls for kindness as cyberbullying reports surge over 450% in five years (11 February 2025)",
+          "url": "https://esafety.gov.au/newsroom/media-releases/safer-internet-day-calls-for-kindness-as-cyberbullying-reports-surge-over-450-in-five-years"
+        },
+        "think": {
+          "support": [
+            "What do the numbers show?",
+            "What could you do if you saw it in a group chat?"
+          ],
+          "core": [
+            "What do the numbers tell you about cyberbullying in Australia?",
+            "What don't these numbers show?",
+            "What could a bystander in a group chat do to help?"
+          ]
+        },
+        "vc": [
+          "VM-U1O2-KK6"
+        ],
+        "vcNote": "Real Australian data on why safe and respectful digital practice matters."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a group chat",
+      "docTitle": "GROUP CHAT — CAFÉ PROJECT TEAM (EXAMPLE)",
+      "vc": [
+        "VM-U1O2-KS3",
+        "VM-U1O2-KK6",
+        "VM-U1O2-KK7"
+      ],
+      "vcNote": "Analysing respectful, disrespectful and unsafe digital interactions.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Mia",
+          "value": "Hey team, can we pick a day to finish the menu? I'm free Tues or Wed."
+        },
+        {
+          "n": 2,
+          "label": "Jay",
+          "value": "whatever. ur idea is dumb anyway",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Lena",
+          "value": "Adding to Mia's plan: we could try a cheap lunch deal. Wed works for me."
+        },
+        {
+          "n": 4,
+          "label": "Tom",
+          "value": "Sam hasn't said anything yet. Sam, what do you reckon?"
+        },
+        {
+          "n": 5,
+          "label": "Jay",
+          "value": "[posts a screenshot of Sam's private message] lol look what Sam sent me",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Sam",
+          "value": "Not cool to share that. Please delete it. Can we get back to the menu?"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Clear and polite",
+          "note": "Says what's needed and gives options."
+        },
+        {
+          "n": 2,
+          "label": "Attacks the person",
+          "note": "Rude, and adds nothing."
+        },
+        {
+          "n": 3,
+          "label": "Builds on an idea",
+          "note": "Links to Mia's plan and adds to it."
+        },
+        {
+          "n": 4,
+          "label": "Brings others in",
+          "note": "Invites a quiet member."
+        },
+        {
+          "n": 5,
+          "label": "Unsafe",
+          "note": "Shares a private message without asking."
+        },
+        {
+          "n": 6,
+          "label": "Calls it out calmly",
+          "note": "Sets a limit, then moves on."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Before you hit send",
+      "steps": [
+        {
+          "title": "Pause",
+          "text": "Don't reply angry.",
+          "icon": "lucide:pause"
+        },
+        {
+          "title": "Read it as them",
+          "text": "How will it sound?",
+          "icon": "lucide:eye"
+        },
+        {
+          "title": "Change it",
+          "text": "Idea, not person.",
+          "icon": "lucide:pencil"
+        },
+        {
+          "title": "Send",
+          "text": "Or report, if it's not OK.",
+          "icon": "lucide:send"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Why can a short text like “ok.” cause problems?",
+        "options": [
+          "People can't hear your tone, so it might sound angry",
+          "It's too long",
+          "It has a spelling mistake",
+          "It's always rude"
+        ],
+        "answer": 0,
+        "explain": "Tone gets lost in text.",
+        "vc": [
+          "VM-U1O2-KS3"
+        ]
+      },
+      {
+        "q": "Which is the most respectful way to disagree?",
+        "options": [
+          "“I see it differently, because…”",
+          "“That's dumb.”",
+          "“Whatever.”",
+          "Ignoring them"
+        ],
+        "answer": 0,
+        "explain": "Disagree with the idea, not the person.",
+        "vc": [
+          "VM-U1O2-KS3"
+        ]
+      },
+      {
+        "q": "Someone posts a private screenshot to hurt a classmate. What should you do?",
+        "options": [
+          "Don't pile on. Screenshot it, report it, and tell an adult",
+          "Share it with more people",
+          "Add a laughing emoji",
+          "Nothing, it's not your problem"
+        ],
+        "answer": 0,
+        "explain": "Keep evidence, report, get help.",
+        "vc": [
+          "VM-U1O2-KK6"
+        ]
+      },
+      {
+        "q": "Which phrase **builds on** someone's idea?",
+        "options": [
+          "“Adding to what Jess said…”",
+          "“No.”",
+          "“Let's talk about something else.”",
+          "“I wasn't listening.”"
+        ],
+        "answer": 0,
+        "explain": "It links your point to theirs.",
+        "vc": [
+          "VM-U1O2-KK7",
+          "VM-U1O2-KS5"
+        ]
+      },
+      {
+        "q": "In 2024, about how many cyberbullying complaints did eSafety receive?",
+        "options": [
+          "Nearly 3,000",
+          "About 30",
+          "About 300,000",
+          "None"
+        ],
+        "answer": 0,
+        "explain": "2,978, up 25% on the year before.",
+        "vc": [
+          "VM-U1O2-KK6"
+        ]
+      },
+      {
+        "q": "What does **active listening** mean?",
+        "options": [
+          "Focusing on what the speaker means, not what you'll say next",
+          "Talking loudly",
+          "Nodding while on your phone",
+          "Waiting for your turn"
+        ],
+        "answer": 0,
+        "explain": "Listen to understand.",
+        "vc": [
+          "VM-U1O2-KS5"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "What's the main difference between a **discussion** and a **debate**?",
+        "options": [
+          "A discussion explores ideas together; a debate argues set sides",
+          "There is no difference",
+          "A debate has no rules",
+          "A discussion must have a winner"
+        ],
+        "answer": 0,
+        "explain": "Debates have sides; discussions share and build ideas.",
+        "vc": [
+          "VM-U2O1-KK6"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Fix some rude messages. Then join a group talk, and use the discussion phrases.",
+      "core": "Rewrite rude messages respectfully, then take part in a real group discussion using the discussion toolkit.",
+      "extend": "Rewrite disrespectful messages, then contribute to a structured group discussion using turn-taking, active listening, questioning and building on others' ideas, and reflect on how the discussion went."
+    },
+    "checklist": [
+      "I rewrote each message so it's respectful",
+      "I know how to report something unsafe",
+      "I took turns and let people finish",
+      "I built on someone else's idea",
+      "I asked a question",
+      "I listened, and checked I understood"
+    ],
+    "levelUp": "Explain how a discussion is different from a debate, and how active listening and good questions move a discussion forward.",
+    "vc": [
+      "VM-U1O2-KS3",
+      "VM-U1O2-KS5",
+      "VM-U1O2-KK7"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Respect online, and in the room",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why can tone get lost online?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS3"
+            ]
+          },
+          {
+            "q": "Name **two** things to do if someone is being hurtful online.",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK6"
+            ]
+          },
+          {
+            "q": "Name **two** things that help a discussion work.",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Before you hit send",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a group chat",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Read the chat. Is each message respectful, rude or unsafe? Use the word bank. Why?",
+          "core": "Read the group chat. For each message, say whether it's respectful, rude or unsafe, and why."
+        },
+        "columns": [
+          "Respectful, rude or unsafe?",
+          "Why?"
+        ],
+        "wordBank": {
+          "support": [
+            "respectful",
+            "rude",
+            "unsafe",
+            "builds on",
+            "brings others in",
+            "calls it out"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O2-KS3",
+          "VM-U1O2-KK6"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Respectful, rude or unsafe?",
+        "pagebreak": true,
+        "choices": [
+          "Respectful",
+          "Rude",
+          "Unsafe"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "These messages were posted in a class or work group chat. Tick one for each, and say why.",
+        "cards": [
+          {
+            "from": "Group chat",
+            "text": "“Good point, Ali. What if we split the jobs up?”",
+            "answer": "Respectful",
+            "flags": "Builds on an idea."
+          },
+          {
+            "from": "Group chat",
+            "text": "“Can u stop being so useless”",
+            "answer": "Rude",
+            "flags": "Attacks the person."
+          },
+          {
+            "from": "Group chat",
+            "text": "“Here's Mel's address if anyone wants to go around”",
+            "answer": "Unsafe",
+            "flags": "Shares private info."
+          },
+          {
+            "from": "Group chat",
+            "text": "“I don't agree, because we'll run out of time. Can we vote?”",
+            "answer": "Respectful",
+            "flags": "Disagrees with the idea and gives a reason."
+          },
+          {
+            "from": "Group chat",
+            "text": "“Everyone just ignore Kai lol”",
+            "answer": "Rude",
+            "flags": "Leaves someone out on purpose.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Group chat",
+            "text": "[Posts a photo of a classmate asleep on the bus] “caption this 😂”",
+            "answer": "Unsafe",
+            "flags": "Shares someone's photo without asking.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O2-KS3",
+          "VM-U1O2-KK6"
+        ],
+        "vcNote": "Judging digital interactions as respectful or not, and safe or not."
+      },
+      {
+        "type": "table",
+        "title": "Fix the message",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Rewrite each message so it's respectful but still gets the point across. The first one is done for you.",
+        "columns": [
+          "Original message",
+          "Respectful version"
+        ],
+        "rows": [
+          [
+            "“ur idea is dumb”",
+            "“I'm not sure that will work, because it costs a lot. What if we tried…?”"
+          ],
+          [
+            "“Why are you so slow?? Just do it”",
+            ""
+          ],
+          [
+            "“ok.” (after a long message from your team leader)",
+            ""
+          ],
+          [
+            "“Who cares what you think”",
+            ""
+          ],
+          {
+            "cells": [
+              "“Did nobody read my message?? I said Tuesday”",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O2-KS3"
+        ],
+        "vcNote": "Demonstrating respectful digital interactions."
+      },
+      {
+        "type": "table",
+        "title": "My discussion toolkit",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Write a phrase you could say for each move. The first one is done for you.",
+        "columns": [
+          "I want to…",
+          "A phrase I could use"
+        ],
+        "rows": [
+          [
+            "Build on an idea",
+            "“Adding to what Jess said…”"
+          ],
+          [
+            "Disagree politely",
+            ""
+          ],
+          [
+            "Ask a question",
+            ""
+          ],
+          [
+            "Bring someone in",
+            ""
+          ],
+          {
+            "cells": [
+              "Check I understood",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O2-KK7",
+          "VM-U1O2-KS5"
+        ],
+        "vcNote": "The etiquette and conventions of discussion, including building on others' ideas."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: cyberbullying reports surge",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What do the eSafety numbers tell you about cyberbullying in Australia?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK6"
+            ]
+          },
+          {
+            "q": "What **don't** these numbers show?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK6"
+            ]
+          },
+          {
+            "q": "What could a bystander in a group chat do to help?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK6",
+              "VM-U1O2-KS3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: a discussion where everyone gets a say",
+        "pagebreak": true,
+        "where": "in class",
+        "instructions": {
+          "support": "In a group of four, talk about a question for 10 minutes. Use your toolkit phrases.",
+          "core": "In a group of four, discuss a real question for 10 minutes. Use your toolkit. Each person has a job."
+        },
+        "need": [
+          "your discussion toolkit",
+          "a group of four",
+          "a question from your teacher (or: “What one rule would make group chats better?”)"
+        ],
+        "steps": {
+          "support": [
+            "Pick jobs: leader, timekeeper, note-taker, observer.",
+            "Everyone answers the question once.",
+            "Then talk. Use your toolkit phrases.",
+            "The note-taker reads back the main ideas.",
+            "The observer says what went well."
+          ],
+          "core": [
+            "Pick jobs: **leader** (keeps it on track), **timekeeper**, **note-taker** and **observer** (ticks off moves).",
+            "The leader reads the question. Everyone gets a turn to answer first.",
+            "Then open it up. Use your toolkit: build on ideas, ask questions, bring people in.",
+            "At 10 minutes, the note-taker reads back the main ideas.",
+            "The observer shares what went well, and one thing to work on."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Our question:",
+            "lines": 1
+          },
+          {
+            "label": "A phrase I used:",
+            "lines": 1
+          },
+          {
+            "label": "One thing the observer noticed:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Teacher saw it",
+          "Observer's ticks",
+          "Notes"
+        ],
+        "vc": [
+          "VM-U1O2-KS5",
+          "VM-U1O2-KK7"
+        ],
+        "vcNote": "Hands-on: listening and contributing to a small group discussion."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How is a **discussion** different from a **debate**? When would you use each one at work or in training?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O1-KK6"
+            ]
+          },
+          {
+            "q": "What does **active listening** look and sound like? Give an example of a question that would move a discussion forward.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O1-KK6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can stay safe online.",
+          "I can disagree respectfully.",
+          "I can build on other people's ideas.",
+          "I can listen and ask questions."
+        ],
+        "questions": [
+          "One thing I'll do differently in group chats:",
+          "A discussion phrase I'll keep using:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn safe and respectful digital practice (tone in text, privacy, not sharing others' content, reporting) and the etiquette and conventions of discussion (turn-taking, active listening, building on ideas, questioning, including others). They analyse a made-up project group chat, sort and rewrite messages, build a discussion toolkit, and take part in a structured small-group discussion with roles. The case study is eSafety's February 2025 release: 2,978 valid cyberbullying complaints in 2024, up 25%, and more than 450% over five years.",
+    "prep": [
+      "Know your school's wellbeing and reporting process. This topic can prompt disclosures; have a plan to follow up privately.",
+      "Choose a discussion question for the Do it that matters to students but isn't personal (e.g. a school rule, a local issue, phones at work).",
+      "Optional: role cards for leader, timekeeper, note-taker and observer.",
+      "Have eSafety's young people page ready to show."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Tone and safety",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** read “ok.” aloud in three different tones. Which did they mean?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a group chat (15 min).**",
+          "**Respectful, rude or unsafe? (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Fix it and the facts",
+        "minutes": 50,
+        "steps": [
+          "**Fix the message (15 min).**",
+          "**Case study (15 min):** cyberbullying reports surge.",
+          "**Discussion toolkit (15 min):** model each move; students write phrases.",
+          "**Assign groups and roles (5 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Discuss",
+        "minutes": 50,
+        "steps": [
+          "**Do it (25 min):** structured discussion, then observer feedback.",
+          "**Whole-class debrief (10 min):** which moves helped most?",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Tone is lost in text; reread messages from the reader's point of view.",
+      "Don't share others' images, screenshots or private messages without consent; protect personal information.",
+      "If someone is targeted: don't pile on; keep evidence, block, report to the platform, and tell a trusted adult. Serious cyberbullying can be reported to eSafety.",
+      "Disagree with the idea, not the person; use “I” statements and give reasons.",
+      "Good discussion: take turns, listen actively, build on ideas, ask questions, bring others in.",
+      "eSafety received 2,978 valid cyberbullying complaints in 2024, up 25% on the year before; 46% involved children aged 13 and under."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the group chat.",
+        "Fewer sort cards and table rows.",
+        "Give each student one toolkit phrase card to use in the discussion."
+      ],
+      "extend": [
+        "Discuss the limits of the eSafety data.",
+        "Explain discussion versus debate (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O2-KK6",
+        "evidence": "Explains safe and respectful practices online, including reporting (Check your reading, sort, case study)."
+      },
+      {
+        "vc": "VM-U1O2-KK7",
+        "evidence": "Identifies the etiquette and conventions of discussion, including building on others' ideas (toolkit, group chat)."
+      },
+      {
+        "vc": "VM-U1O2-KS3",
+        "evidence": "Rewrites messages so they are respectful but still clear (Fix the message)."
+      },
+      {
+        "vc": "VM-U1O2-KS5",
+        "evidence": "Listens and contributes in a small group discussion (Do it, observer's ticks)."
+      },
+      {
+        "vc": "VM-U2O1-KK6",
+        "evidence": "Level Up: explains the conventions of discussion and debate, including active listening and questioning."
+      }
+    ],
+    "answers": "**Check your reading:** people can't hear your voice or see your face, so short replies or jokes can be misread. Don't pile on; screenshot; block; report to the platform; tell a trusted adult; report serious cases to eSafety. Take turns, listen actively, build on ideas, ask questions, bring others in.\n\n**Group chat:** 1 respectful (clear, gives options); 2 rude (attacks the person); 3 respectful (builds on Mia's idea); 4 respectful (brings Sam in); 5 unsafe (shares a private message without consent); 6 respectful (calls it out calmly and refocuses).\n\n**Sort:** Ali — respectful; “useless” — rude; Mel's address — unsafe; disagree with reason — respectful; ignore Kai — rude; sleeping photo — unsafe.\n\n**Case study:** cyberbullying complaints to eSafety are rising fast (2,978 in 2024, up 25%; more than 450% over five years), and many involve children 13 and under. They don't show cases reported only to platforms or schools, or never reported. A bystander can refuse to share or react, check in privately with the target, call it out calmly, keep evidence and report it.",
+    "resources": [
+      {
+        "label": "eSafety — Safer Internet Day release, February 2025",
+        "url": "https://esafety.gov.au/newsroom/media-releases/safer-internet-day-calls-for-kindness-as-cyberbullying-reports-surge-over-450-in-five-years"
+      },
+      {
+        "label": "eSafety — help for young people",
+        "url": "https://www.esafety.gov.au/young-people"
+      }
+    ],
+    "realityCheck": [
+      "**Students may know the people in a story.** Keep examples made-up, and steer away from naming real classmates or chats.",
+      "**Disclosures happen.** Follow your school's process, and follow up privately.",
+      "**Rewrites can get sarcastic.** Model one that's genuinely respectful but still says the hard thing.",
+      "**Discussions need structure.** Roles and a timer make quieter students more likely to speak.",
+      "**Works in a real class:** yes, and the toolkit is useful well beyond this course."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the group chat, fewer sort cards and table rows, and simpler discussion steps.",
+      "core": "Standard version: tone, safety and reporting, a group chat to analyse, a respectful/rude/unsafe sort, rewriting messages, a discussion toolkit, the eSafety case, and a structured group discussion.",
+      "extend": "Adds etiquette and constructive to the vocabulary, a quiz question on discussion versus debate, the limits of the eSafety data, and Level Ups on discussion, debate and active listening."
+    }
+  }
+}

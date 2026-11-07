@@ -1,0 +1,874 @@
+{
+  "id": "vm-website-detective",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "Two websites. Both have a logo, happy photos and five-star reviews. One is real. One is a scam. How can you tell?",
+      "core": "Two websites. Both have a logo, a smiling team photo, five-star reviews and a big green button that says **Start investing**. One is a real Australian business. The other was built last week to steal your money. From the outside, they look almost the same. So how do you tell?"
+    },
+    "why": {
+      "support": "Every website is built for a reason. Its parts are clues. Learn them, and you'll find things fast and spot the fakes.",
+      "core": "Every website is built for a purpose and an audience, and every part of it, from the menu to the footer, is a clue. Once you know how websites are structured, you can find what you need fast, compare sites, and spot the ones that don't add up. That matters when you're looking for a TAFE course, a job, a rental or a deal.",
+      "extend": "Websites are structured digital texts. Their features (menus, headers, About and Contact pages, footers and URLs) are designed for a purpose and an audience. Reading that structure helps you find things fast, compare sites, and judge how reliable they are. That skill matters more now that convincing scam sites are made in huge numbers."
+    },
+    "canDo": {
+      "support": [
+        "I can name the parts of a website.",
+        "I can say why a website was made.",
+        "I can compare two websites.",
+        "I can check if a website is real."
+      ],
+      "core": [
+        "I can name the **parts** of a website and what each one is for.",
+        "I can work out a website's **purpose** and **audience**.",
+        "I can **compare** two websites.",
+        "I can check whether a website is **reliable**."
+      ]
+    },
+    "showIt": "Investigate a real website: map its structure, work out its purpose and audience, and judge whether you'd trust it, then compare it with another.",
+    "vocab": [
+      {
+        "word": "website",
+        "meaning": "a set of linked pages on the internet",
+        "example": "The TAFE website has course pages."
+      },
+      {
+        "word": "homepage",
+        "meaning": "the first, main page of a website",
+        "example": "The homepage shows the latest news."
+      },
+      {
+        "word": "navigation",
+        "meaning": "the menu that helps you move around a site",
+        "example": "The navigation bar is at the top."
+      },
+      {
+        "word": "URL",
+        "meaning": "a website's address",
+        "example": "The URL ends in .gov.au."
+      },
+      {
+        "word": "footer",
+        "meaning": "the section at the very bottom of a page",
+        "example": "The contact details are in the footer."
+      },
+      {
+        "word": "reliable",
+        "meaning": "you can trust it",
+        "example": "The government site is reliable."
+      },
+      {
+        "word": "domain",
+        "meaning": "the main part of a URL, like asic.gov.au",
+        "example": "The domain shows who owns the site.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "secure",
+        "meaning": "protected, so others can't easily steal your details",
+        "example": "A padlock doesn't always mean a site is safe.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Website Detective in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Website Detective",
+        "sub": "Who built it? Who's it for? Can you trust it?",
+        "icon": "lucide:search-check",
+        "say": "Website detective. Who built it, who's it for, and can you trust it?"
+      },
+      {
+        "kind": "big",
+        "big": "11,964",
+        "title": "scam websites removed by ASIC in 2025",
+        "sub": "ASIC, 2026",
+        "say": "In 2025, ASIC removed nearly twelve thousand phishing and investment scam websites. That's about thirty-two every day.",
+        "vc": [
+          "VM-U1O2-KS6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Investigate",
+        "pillIcon": "lucide:search-check",
+        "title": "The URL",
+        "text": "Domain · **.gov.au** · .edu.au",
+        "icon": "lucide:link",
+        "say": "Start with the URL. The domain tells you who owns the site. Government sites end in dot gov dot au.",
+        "vc": [
+          "VM-U1O2-KK1",
+          "VM-U1O2-KS6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Investigate",
+        "pillIcon": "lucide:search-check",
+        "title": "The structure",
+        "text": "Menu · About · **Contact** · Footer",
+        "icon": "lucide:layout-template",
+        "say": "Look at the structure. Navigation, homepage, About, Contact, footer. Real businesses fill these in.",
+        "vc": [
+          "VM-U1O2-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Investigate",
+        "pillIcon": "lucide:search-check",
+        "title": "Purpose + audience",
+        "text": "Inform · Sell · **Trick?**",
+        "icon": "lucide:target",
+        "say": "Ask: why was it built, and who for? To inform, to sell, to persuade, or to trick?",
+        "vc": [
+          "VM-U1O2-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Investigate",
+        "pillIcon": "lucide:search-check",
+        "title": "Check outside",
+        "text": "Search it · **Alert lists**",
+        "icon": "lucide:shield-check",
+        "say": "Check it from the outside. Search the business name with the word scam or reviews. Check ASIC's Investor Alert List.",
+        "vc": [
+          "VM-U1O2-KS6"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Investigate any site",
+        "steps": [
+          "URL",
+          "Structure",
+          "Purpose",
+          "Check outside",
+          "Compare"
+        ],
+        "say": "To investigate any website: read the URL, map the structure, work out the purpose, check from the outside, then compare."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "URL. Structure. Purpose. Check.",
+        "icon": "lucide:search-check",
+        "say": "Your mission. Investigate a real website, judge if you'd trust it, and compare it with another."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to read a website",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Most websites have the same parts.\n\n- **URL**: the address. *.gov.au* means a government site.\n- **Navigation**: the menu at the top.\n- **Homepage**: the main page.\n- **About**: who runs it.\n- **Contact**: how to reach them. A real phone number and address are good signs.\n- **Footer**: the bottom of the page.\n\n**Why was it made?** To inform? To sell? To trick you? Look at the biggest button. It shows what they want you to do.\n\n**Is it real?** Check:\n\n- Does the URL match the name?\n- Are there real contact details?\n- What do other sites say? Search the name with *scam*.\n\n**Compare** two sites. You'll see what's missing.",
+          "core": "Websites look different, but most are built from the same parts. Know the parts, and you can find what you need, and spot what doesn't add up.\n\n**The parts of a website**\n\n- **URL**: the address. The **domain** (like *asic.gov.au*) tells you who owns it. *.gov.au* means an Australian government site. *.edu.au* is an education provider. *.com.au* is a business, but anyone can buy one.\n- **Header and navigation**: the logo and menu at the top, which help you move around.\n- **Homepage**: the main page. It shows what the site is mostly about.\n- **About page**: who runs it. Real organisations give details: names, history, an address.\n- **Contact page**: how to reach them. A real phone number and address are good signs. Only a form or a chat app is a warning sign.\n- **Footer**: the bottom of the page, often with the business name, ABN, privacy policy and terms.\n\n**Purpose and audience.** Every site is built for a reason: to **inform** (a government site), to **sell** (a shop), to **persuade** (a campaign), to **entertain**, or sometimes to **trick** you. Look at who it's talking to and what it wants you to do. The biggest button on the page usually tells you.\n\n**Is it reliable?** Check:\n\n- Does the URL match the organisation? Scam sites often copy real names with small changes.\n- Are there real contact details?\n- Is the information current and accurate?\n- What do **other** sources say? Search the name with *reviews* or *scam*. For investments, check ASIC's **Investor Alert List**.\n- A padlock means the connection is **secure**, not that the site is honest.\n\n**Compare.** Looking at two sites side by side (two TAFE providers, two phone plans) shows you what's missing from one, and what's too good to be true.",
+          "extend": "Websites are structured digital texts. Their standard features help you find your way around. They also give you evidence for judging whether to trust the site.\n\n**The features**\n\n- **URL and domain:** the domain shows who owns the site. Only Australian government bodies can use *.gov.au*, and *.edu.au* is for education providers. Anyone can easily register a *.com.au* or *.com*.\n- **Header and navigation:** organise the content and show what the site thinks matters most.\n- **Homepage:** sets out the site's main purpose and audience.\n- **About and Contact pages:** real organisations give details you can check. If these are missing, or you can only make contact through a form or a chat app, be careful.\n- **Footer:** usually has the legal name, ABN, privacy policy and terms.\n\n**Purpose and audience.** Sites may inform, sell, persuade, entertain or deceive. The **call to action** (the biggest button or link) usually shows the purpose. The language, images and design show who it's for.\n\n**Judging reliability**\n\n- Does the domain match the organisation, or copy it with small changes?\n- Can you check the contact details?\n- Is the information current, accurate and sourced?\n- Do **independent** sources back it up? For investments, ASIC's **Investor Alert List** flags suspicious businesses.\n- A padlock means the connection is **secure** (encrypted). It doesn't mean the owner is honest.\n\n**Comparing** similar sites side by side shows you what's normal, what's missing, and which claims don't hold up."
+        },
+        "vc": [
+          "VM-U1O2-KK1",
+          "VM-U1O2-KK2",
+          "VM-U1O2-KS6",
+          "VM-U1O2-KS4"
+        ],
+        "vcNote": "The structure of websites; purpose, audience and type; evaluating reliability; comparing digital texts."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Twelve thousand fake websites",
+        "icon": "lucide:shield-alert",
+        "body": {
+          "support": "**ASIC** is a government group. It protects people from money scams.\n\nIn **2025**, it took down **11,964** scam websites. That's about **32 every day**!\n\nScammers now use **AI** to make fake websites fast. They look real. They have logos and happy photos.\n\nSo check:\n\n- the URL\n- the contact details\n- what other sites say.\n\nToo good to be true? It probably is.",
+          "core": "**ASIC** is the government agency that looks after Australia's financial rules. One of its jobs is protecting people from **investment scams**: fake websites that promise big returns, then steal your money.\n\nIn **2023**, ASIC started a service to get scam websites taken down. In **2025** alone, it removed **11,964** phishing and investment scam websites. That's about **32 websites every day**, and **90%** more than the year before.\n\nASIC warned that scammers are now using **AI** to build fake websites faster, and to make them look more convincing. Many copy the look of real businesses. Some use fake photos of famous Australians to pretend they're endorsed.\n\nWhy does this matter for you? Because scam websites don't look like scams. They have logos, menus, team photos and reviews, just like real ones. The only way to tell is to read them like a detective: check the URL, the contact details and the claims, and check what **other** sources say.\n\nIf an offer seems too good to be true, it almost certainly is.",
+          "extend": "**ASIC** is Australia's financial regulator. In **2023**, it started a service to take down investment scam and phishing websites.\n\nFrom **1 January to 31 December 2025**, ASIC had **11,964** of these websites removed. That's about **32 a day**, and **90%** more than the year before.\n\nASIC said scammers are using **AI** to build fake sites faster and make them more convincing. Many copy real businesses. Some use fake endorsements from famous people.\n\nThis matters for how you read websites. Scam sites copy the features of real ones: logos, menus, About pages and reviews. You can't tell them apart from how they look. You have to judge them on evidence that's harder to fake. Does the domain match? Can you check the contact details? Are the claims accurate? And do independent sources, like ASIC's Investor Alert List, back them up?"
+        },
+        "source": {
+          "name": "ASIC media release 26-063MR (2026)",
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-063mr-asic-ramps-up-action-to-protect-consumers-from-ai-powered-online-investment-scams/"
+        },
+        "think": {
+          "support": [
+            "Why do scam sites look real?",
+            "How could you check one?"
+          ],
+          "core": [
+            "Why are scam websites hard to spot?",
+            "Which website features are easiest to fake? Which are harder?",
+            "How could you check an investment website before using it?"
+          ]
+        },
+        "vc": [
+          "VM-U1O2-KS6",
+          "VM-U1O2-KK2"
+        ],
+        "vcNote": "Real regulator data on deceptive websites and evaluating reliability."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a website",
+      "docTitle": "HOMEPAGE — NORTHSIDE TAFE (EXAMPLE)",
+      "vc": [
+        "VM-U1O2-KK1",
+        "VM-U1O2-KK2"
+      ],
+      "vcNote": "The structural features of a webpage and what each one tells you.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "URL",
+          "value": "https://www.northsidetafe.edu.au",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Navigation",
+          "value": "Courses · Apply · Student support · About us · Contact"
+        },
+        {
+          "n": 3,
+          "label": "Main image + headline",
+          "value": "Students in a workshop. “Get job-ready in 2027.”"
+        },
+        {
+          "n": 4,
+          "label": "Call to action",
+          "value": "[ Find a course ] (big orange button)",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Contact",
+          "value": "12 Station St, Northside VIC · (03) 5550 0123"
+        },
+        {
+          "n": 6,
+          "label": "Footer",
+          "value": "Northside TAFE · RTO code 0000 · Privacy · Terms"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "URL",
+          "note": ".edu.au: an education provider."
+        },
+        {
+          "n": 2,
+          "label": "Navigation",
+          "note": "The main sections. What they think you need."
+        },
+        {
+          "n": 3,
+          "label": "Image + headline",
+          "note": "Shows the audience: young people wanting jobs."
+        },
+        {
+          "n": 4,
+          "label": "Call to action",
+          "note": "The biggest button shows the purpose."
+        },
+        {
+          "n": 5,
+          "label": "Real contact details",
+          "note": "An address and phone number: a good sign."
+        },
+        {
+          "n": 6,
+          "label": "Footer",
+          "note": "Official details and policies."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Investigate any site",
+      "steps": [
+        {
+          "title": "URL",
+          "text": "Does the domain match?",
+          "icon": "lucide:link"
+        },
+        {
+          "title": "Structure",
+          "text": "About, Contact, footer?",
+          "icon": "lucide:layout-template"
+        },
+        {
+          "title": "Purpose",
+          "text": "Inform, sell, trick?",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "Check outside",
+          "text": "Search it. Alert lists.",
+          "icon": "lucide:shield-check"
+        },
+        {
+          "title": "Compare",
+          "text": "What's missing?",
+          "icon": "lucide:scale"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What does a URL ending in **.gov.au** tell you?",
+        "options": [
+          "It's an Australian government website",
+          "It's a shop",
+          "It's a scam",
+          "It's from overseas"
+        ],
+        "answer": 0,
+        "explain": ".edu.au is an education provider.",
+        "vc": [
+          "VM-U1O2-KK1",
+          "VM-U1O2-KS6"
+        ]
+      },
+      {
+        "q": "Where would you usually find who runs a website?",
+        "options": [
+          "The About page",
+          "The shopping cart",
+          "The search bar",
+          "Nowhere"
+        ],
+        "answer": 0,
+        "explain": "Real organisations give details.",
+        "vc": [
+          "VM-U1O2-KK1"
+        ]
+      },
+      {
+        "q": "What does the biggest button on a homepage usually show?",
+        "options": [
+          "What the site wants you to do: its purpose",
+          "The weather",
+          "Nothing",
+          "The owner's name"
+        ],
+        "answer": 0,
+        "explain": "The call to action reveals the purpose.",
+        "vc": [
+          "VM-U1O2-KK2"
+        ]
+      },
+      {
+        "q": "Which is a warning sign?",
+        "options": [
+          "The only contact is a WhatsApp number",
+          "A street address and phone number",
+          "A privacy policy",
+          "A .gov.au address"
+        ],
+        "answer": 0,
+        "explain": "Real businesses give real contact details.",
+        "vc": [
+          "VM-U1O2-KS6"
+        ]
+      },
+      {
+        "q": "Does a padlock in the address bar mean a site is honest?",
+        "options": [
+          "No: it means the connection is secure, not that the owner is honest",
+          "Yes, always",
+          "Only for shops",
+          "Only on weekends"
+        ],
+        "answer": 0,
+        "explain": "Scam sites can have padlocks too.",
+        "vc": [
+          "VM-U1O2-KS6"
+        ]
+      },
+      {
+        "q": "How many scam websites did ASIC remove in 2025?",
+        "options": [
+          "11,964",
+          "12",
+          "1,000,000",
+          "None"
+        ],
+        "answer": 0,
+        "explain": "About 32 a day.",
+        "vc": [
+          "VM-U1O2-KS6"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "You compare two TAFE websites. One has no address, no RTO code and no real reviews anywhere else. What can you conclude?",
+        "options": [
+          "Be very cautious: key evidence of a real provider is missing",
+          "It's definitely fine",
+          "It's cheaper, so it's better",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Comparison shows what's missing.",
+        "vc": [
+          "VM-U1O2-KS4",
+          "VM-U1O1-KS6"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Look at a real website. Find its parts. Say why it was made. Would you trust it? Compare it with another.",
+      "core": "Investigate a real website: map its structure, work out its purpose and audience, and judge whether you'd trust it, then compare it with another.",
+      "extend": "Investigate and compare two real websites with a similar purpose: analyse their structure, purpose and audience, evaluate the reliability and effectiveness of each with evidence, and recommend one."
+    },
+    "checklist": [
+      "I checked the URL and domain",
+      "I found the navigation, About, Contact and footer",
+      "I worked out the purpose and audience",
+      "I checked it from the outside",
+      "I compared it with another site",
+      "I made a judgement with reasons"
+    ],
+    "levelUp": "Compare a website, a podcast and a social media account from the same organisation. How does each one suit its audience and purpose?",
+    "vc": [
+      "VM-U1O2-KK1",
+      "VM-U1O2-KK2",
+      "VM-U1O2-KS4",
+      "VM-U1O2-KS6"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to read a website",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name **four** parts of a website and what each one is for.",
+            "lines": 3,
+            "vc": [
+              "VM-U1O2-KK1"
+            ]
+          },
+          {
+            "q": "What does the domain **.edu.au** tell you?",
+            "lines": 1,
+            "vc": [
+              "VM-U1O2-KK1"
+            ]
+          },
+          {
+            "q": "Why doesn't a padlock prove a website is honest?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Investigate any site",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a website",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the homepage. Use the word bank. What does it tell you?",
+          "core": "Each number marks part of the homepage. Write what it is and what it tells you."
+        },
+        "columns": [
+          "What is it?",
+          "What does it tell you?"
+        ],
+        "wordBank": {
+          "support": [
+            "URL",
+            "navigation",
+            "image",
+            "call to action",
+            "contact",
+            "footer"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O2-KK1",
+          "VM-U1O2-KK2"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Good sign or warning sign?",
+        "pagebreak": true,
+        "choices": [
+          "Good sign",
+          "Warning sign"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each card is something you notice on a website offering investments. Tick **good sign** or **warning sign**, and say why.",
+        "cards": [
+          {
+            "from": "Website",
+            "text": "“Guaranteed 30% returns every month, no risk!”",
+            "answer": "Warning sign",
+            "flags": "Too good to be true."
+          },
+          {
+            "from": "Website",
+            "text": "A street address, phone number and ABN in the footer",
+            "answer": "Good sign",
+            "flags": "Real, checkable details."
+          },
+          {
+            "from": "Website",
+            "text": "The URL is asic-gov-invest.com",
+            "answer": "Warning sign",
+            "flags": "Copies a real name. Not .gov.au."
+          },
+          {
+            "from": "Website",
+            "text": "The only way to contact them is WhatsApp",
+            "answer": "Warning sign",
+            "flags": "No real contact details."
+          },
+          {
+            "from": "Website",
+            "text": "A photo of a famous Australian saying they use it",
+            "answer": "Warning sign",
+            "flags": "Fake celebrity endorsements are common.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Website",
+            "text": "The business appears on ASIC's professional register",
+            "answer": "Good sign",
+            "flags": "Checked from the outside.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O2-KS6"
+        ],
+        "vcNote": "Evaluating the reliability of a digital text."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: twelve thousand fake websites",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why are scam websites hard to spot?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS6"
+            ]
+          },
+          {
+            "q": "Which website features are **easy** to fake? Which are **harder** to fake?",
+            "lines": 3,
+            "vc": [
+              "VM-U1O2-KS6",
+              "VM-U1O2-KK1"
+            ]
+          },
+          {
+            "q": "How could you check an investment website before using it?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: investigate and compare",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 23,
+          "core": 21
+        },
+        "instructions": "Choose **two** real websites with a similar purpose (two TAFE providers, two phone companies, two job sites), or ones your teacher gives you. Investigate both.",
+        "columns": [
+          "Check",
+          "Website 1",
+          "Website 2"
+        ],
+        "rows": [
+          [
+            "Name and URL",
+            "",
+            ""
+          ],
+          [
+            "Purpose (inform, sell, persuade…)",
+            "",
+            ""
+          ],
+          [
+            "Audience",
+            "",
+            ""
+          ],
+          [
+            "Main call to action",
+            "",
+            ""
+          ],
+          [
+            "About and Contact: real details?",
+            "",
+            ""
+          ],
+          [
+            "What other sources say",
+            "",
+            ""
+          ],
+          [
+            "Would you trust it? Why?",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U1O2-KS4",
+          "VM-U1O2-KS6",
+          "VM-U1O2-KK2",
+          "VM-U1O2-KK1"
+        ],
+        "vcNote": "Comparing and evaluating two real websites."
+      },
+      {
+        "type": "questions",
+        "title": "My verdict",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Which website is more **reliable** and **effective** for its audience? Give **two** reasons with evidence.",
+            "lines": 4,
+            "vc": [
+              "VM-U1O2-KS6",
+              "VM-U1O2-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "items": [
+          {
+            "q": "Choose one organisation. Compare its **website**, a **podcast** or video it made, and its **social media**. How does each one suit its audience and purpose differently?",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O2-KK3"
+            ]
+          },
+          {
+            "q": "Which of the three is the most reliable source of information? Why?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can name the parts of a website.",
+          "I can work out its purpose and audience.",
+          "I can compare websites.",
+          "I can check if a website is reliable."
+        ],
+        "questions": [
+          "A website I'll check more carefully now:",
+          "My best detective tip:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the structure of websites (URL and domain, header and navigation, homepage, About and Contact pages, footer), how to identify a site's purpose and audience, and how to evaluate reliability using evidence that's hard to fake (domain, verifiable contact details, accurate claims, independent corroboration). They compare two real websites with a similar purpose. The case study is ASIC's 2025 takedown of 11,964 phishing and investment scam websites.",
+    "prep": [
+      "Choose pairs of real websites relevant to students (TAFE providers, phone companies, job boards, rental sites).",
+      "Check sites are reachable on school devices.",
+      "Optional: show (but don't click links on) a screenshot of a known scam site from Scamwatch or Moneysmart."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Parts and purpose",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** two homepages. Which is real?",
+          "**Explicit teaching (10 min):** website structure; purpose and audience.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Anatomy of a website (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Reliability",
+        "minutes": 50,
+        "steps": [
+          "**Good sign or warning sign? (15 min).**",
+          "**Case study (20 min):** twelve thousand fake websites.",
+          "**Choose two sites to compare (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Investigate",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (25 min):** investigate and compare.",
+          "**My verdict (10 min).**",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Website parts: URL and domain, header and navigation, homepage, About, Contact, footer.",
+      ".gov.au = Australian government; .edu.au = education provider; .com.au is commercial and easy to register.",
+      "The main call to action reveals the purpose.",
+      "Reliability: matching domain, verifiable contact details, accurate and current information, independent corroboration (e.g. ASIC's Investor Alert List).",
+      "A padlock means a secure connection, not an honest site.",
+      "Compare similar sites to see conventions and omissions."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards.",
+        "Teacher-chosen pair of websites."
+      ],
+      "extend": [
+        "Evaluate effectiveness as well as reliability, with evidence.",
+        "Compare a website, podcast and social media account (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O2-KK1",
+        "evidence": "Explains the structure of webpages and their features (annotation, Check your reading, final mission)."
+      },
+      {
+        "vc": "VM-U1O2-KK2",
+        "evidence": "Identifies the purpose, audience and type of digital texts (annotation, final mission)."
+      },
+      {
+        "vc": "VM-U1O2-KS4",
+        "evidence": "Compares and contrasts two online texts (final mission, verdict)."
+      },
+      {
+        "vc": "VM-U1O2-KS6",
+        "evidence": "Critically evaluates the reliability and effectiveness of digital texts (sort, case study, verdict)."
+      },
+      {
+        "vc": "VM-U1O2-KK3",
+        "evidence": "Level Up: explains differences between websites, podcasts and social media."
+      },
+      {
+        "vc": "VM-U1O1-KS6",
+        "evidence": "Level Up: identifies which source is most reliable for research."
+      }
+    ],
+    "answers": "**Check your reading:** URL (address and owner), navigation (move around), homepage (main purpose), About (who runs it), Contact (how to reach them), footer (official details). .edu.au is an education provider. A padlock means the connection is encrypted, not that the owner is honest.\n\n**Website:** 1 URL (.edu.au); 2 navigation (main sections); 3 image and headline (audience); 4 call to action (purpose); 5 real contact details; 6 footer (official details).\n\n**Sort:** guaranteed 30% — warning; address, phone and ABN — good; asic-gov-invest.com — warning; WhatsApp only — warning; celebrity photo — warning; on ASIC's register — good.\n\n**Case study:** they copy the features of real sites (logos, menus, photos, reviews). Easy to fake: logos, photos, testimonials, padlocks. Harder: a matching domain, a verifiable address and phone, independent reviews, appearing on official registers. Check: search the name with *scam*, check ASIC's Investor Alert List and professional registers, look for real contact details.",
+    "resources": [
+      {
+        "label": "ASIC media release 26-063MR — ramping up action against AI-powered investment scams (2026)",
+        "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-063mr-asic-ramps-up-action-to-protect-consumers-from-ai-powered-online-investment-scams/"
+      },
+      {
+        "label": "Moneysmart — Investor Alert List",
+        "url": "https://moneysmart.gov.au/check-and-report-scams/investor-alert-list"
+      },
+      {
+        "label": "Scamwatch",
+        "url": "https://www.scamwatch.gov.au"
+      }
+    ],
+    "realityCheck": [
+      "**Never click links on scam sites in class.** Use screenshots from Scamwatch or Moneysmart.",
+      "**Students trust polish.** The case study works best when you show how professional scam sites look.",
+      "**Pick relevant pairs.** TAFE providers, job boards and phone plans are things VM students actually compare.",
+      "**Some families have been scammed.** Keep it practical and non-judgemental.",
+      "**Works in a real class:** yes. It links to Lock It Down and to research skills from Research Ready."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and a teacher-chosen pair of websites.",
+      "core": "Standard version: website anatomy, purpose and audience, a good-sign-or-warning sort, the ASIC case, and investigating and comparing two real websites with a verdict.",
+      "extend": "Adds domain and secure to the vocabulary, a quiz question on comparison, evaluation of effectiveness as well as reliability, and a Level Up comparing a website, podcast and social media account."
+    }
+  }
+}
