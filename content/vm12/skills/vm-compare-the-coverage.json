@@ -1,0 +1,996 @@
+{
+  "id": "vm-compare-the-coverage",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "The council votes on a youth centre. The paper writes a news story. A writer says it's a waste. A youth group posts a video. Same issue, three stories. Which one do you trust?",
+      "core": "The council votes on a new youth centre. The local paper runs a news story. A columnist calls it a waste of money. A youth group posts a bright video telling everyone to vote yes. Same issue, three different stories. Which one tells you what's really going on?"
+    },
+    "why": {
+      "support": "This is the boss level. Use all your skills. Issues reach you in lots of texts. Compare them, then give your own view with evidence.",
+      "core": "This is the Issues & Voices boss level. You'll use everything: who's talking, loaded words, checking sources and how communities argue. Most issues reach you through many kinds of text at once. To understand an issue, and to have your own say, you need to compare them, see what each one is doing, and back your view with evidence.",
+      "extend": "This boss level brings together speaker, purpose, language and reliability. Issues reach audiences through many text types at once. Comparing how each one frames an issue, and using evidence to support your own view, is central to reading the news and taking part in public debate."
+    },
+    "canDo": {
+      "support": [
+        "I can compare texts about one issue.",
+        "I can say who each text is for, and why.",
+        "I can take notes on each text.",
+        "I can give my view with evidence."
+      ],
+      "core": [
+        "I can **compare** how different texts present the same issue.",
+        "I can find each text's **purpose**, **audience** and **main idea**.",
+        "I can take **notes** on the arguments in each text.",
+        "I can give my own **view**, backed by **evidence**."
+      ]
+    },
+    "showIt": "Compare how three different kinds of text present a real issue, then write and share your own view, backed by evidence.",
+    "vocab": [
+      {
+        "word": "issue",
+        "meaning": "a topic people disagree about",
+        "example": "Phones in schools is a big issue."
+      },
+      {
+        "word": "coverage",
+        "meaning": "how the media reports on something",
+        "example": "The coverage of the vote was mostly fair."
+      },
+      {
+        "word": "compare",
+        "meaning": "look at how things are the same and different",
+        "example": "Compare the two headlines."
+      },
+      {
+        "word": "main idea",
+        "meaning": "the most important point in a text",
+        "example": "The main idea is that the centre costs too much."
+      },
+      {
+        "word": "evidence",
+        "meaning": "facts that support a point",
+        "example": "The cost figure is evidence."
+      },
+      {
+        "word": "point of view",
+        "meaning": "what someone thinks about an issue",
+        "example": "My point of view is that we need the centre."
+      },
+      {
+        "word": "contrast",
+        "meaning": "show how things are different",
+        "example": "In contrast, the post is very emotional.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "frame",
+        "meaning": "the angle a text uses to present an issue",
+        "example": "The column frames it as a waste of money.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Compare the Coverage in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Compare the Coverage",
+        "sub": "One issue. Three stories.",
+        "icon": "lucide:git-compare",
+        "say": "Compare the coverage. One issue, three sources, three different stories."
+      },
+      {
+        "kind": "stat",
+        "big": "26%",
+        "title": "of Australians named social media as their main news source",
+        "sub": "Digital News Report: Australia 2025",
+        "say": "In 2025, for the first time, more Australians said social media was their main source of news than news websites.",
+        "vc": [
+          "VM-U2O1-KS5"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Different texts, different jobs",
+        "text": "Inform · Persuade · **React**",
+        "icon": "lucide:layers",
+        "say": "A news report informs. An opinion column persuades. A post wants you to react. Same issue, different jobs.",
+        "vc": [
+          "VM-U2O1-KS1",
+          "VM-U2O1-KS5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Compare",
+        "pillIcon": "lucide:git-compare",
+        "title": "Purpose and audience",
+        "text": "Who · Why · **For whom**",
+        "icon": "lucide:target",
+        "say": "For each text, ask: who made it, and who is it for?",
+        "vc": [
+          "VM-U2O1-KS1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Compare",
+        "pillIcon": "lucide:git-compare",
+        "title": "Main idea and evidence",
+        "text": "Claim · **Evidence**",
+        "icon": "lucide:notebook-pen",
+        "say": "Take notes: what's the main idea, and what evidence backs it?",
+        "vc": [
+          "VM-U2O1-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Compare",
+        "pillIcon": "lucide:git-compare",
+        "title": "Words and pictures",
+        "text": "Loaded? **Neutral?**",
+        "icon": "lucide:image",
+        "say": "Look at the words and pictures. What feeling do they push?",
+        "vc": [
+          "VM-U2O1-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Compare",
+        "pillIcon": "lucide:git-compare",
+        "title": "Your view",
+        "text": "I think… **because…**",
+        "icon": "lucide:message-square-quote",
+        "say": "Then decide what you think, and back it with the best evidence you found.",
+        "vc": [
+          "VM-U2O1-KS6"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Compare any issue",
+        "steps": [
+          "Find three texts",
+          "Compare side by side",
+          "Back your view"
+        ],
+        "say": "Find three texts, compare them side by side, then give your view with evidence."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "See the **whole** story.",
+        "icon": "lucide:git-compare",
+        "say": "Your mission. Compare how three kinds of text cover a real issue, then have your say."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "One issue, many stories",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "When something is an **issue**, it shows up everywhere. It's in the news, in posts and in ads. Each text tells it differently.\n\n**Different texts, different jobs**\n\n- A **news report** tells you what happened. It should give facts and more than one side.\n- An **opinion column** gives one view.\n- A **post or video** is short. It wants you to react or share.\n- An **ad** wants you to do something.\n\n**How to compare.** Ask the same questions about each text:\n\n1. What does it want me to think or do?\n2. Who is it for?\n3. What's the main idea?\n4. What **evidence** does it give?\n5. Are the words and pictures loaded?\n6. What's left out?\n\nPut your notes in a table.\n\n**Then have your say.** Decide what you think. Back it with the best evidence.\n\n- *I think… because…*\n- *The best evidence is…*\n\nNo one text tells the whole story. Compare them to get closer.",
+          "core": "When something becomes an **issue**, it shows up everywhere: in the news, in opinion columns, in posts and videos, in ads, and in statements from councils and companies. Each kind of text tells the story differently.\n\n**Different texts, different jobs**\n\n- A **news report** aims to inform. It should quote sources, give facts, and include more than one side.\n- An **opinion column** argues one **point of view**. It picks the evidence that helps its case.\n- A **social media post or video** is short and fast. It often aims to make you react, share or join in.\n- An **ad or campaign** wants you to do something: buy, vote, donate, sign.\n- An **official statement** gives an organisation's side, often with key facts.\n\n**How to compare.** Put the texts side by side and ask the same questions of each:\n\n1. **Purpose:** what does it want me to think or do?\n2. **Audience:** who is it for?\n3. **Main idea:** what's the most important point?\n4. **Evidence:** what facts, numbers or quotes back it up?\n5. **Words and pictures:** are they neutral, or loaded?\n6. **What's left out:** whose voice or which facts are missing?\n\nTake notes in a table, so you can see the **contrasts** at a glance.\n\n**Then have your say.** Once you've compared the coverage, you can form your own **point of view**. Back it with the best evidence you found, not just the loudest voice.\n\n- *I think… because…*\n- *The strongest evidence is…*\n- *Some people argue… but…*\n\nNo single text gives you the whole story. Comparing them is how you get close.",
+          "extend": "When a topic becomes an **issue**, it travels through many text types at once: news reports, opinion columns, social media posts and videos, advertising campaigns, and official statements. Each **frames** the issue differently.\n\n**Text types and their purposes**\n\n- **News reports** aim to inform. They should attribute claims, give facts and include several perspectives.\n- **Opinion columns** argue a **point of view**, choosing evidence that supports it.\n- **Social media posts and videos** are brief and fast. They often seek a reaction: a share, a like, a sign-up.\n- **Ads and campaigns** aim for action: buy, vote, donate, sign.\n- **Official statements** present an organisation's position, often with key facts.\n\n**A framework for comparison.** Apply the same lenses to each text:\n\n1. **Purpose:** what's the intended effect?\n2. **Audience:** who is it aimed at?\n3. **Main idea:** what's the central claim?\n4. **Evidence:** what supports it, and is it reliable?\n5. **Language and visuals:** are they neutral or loaded? How do they position the reader?\n6. **Omissions:** which voices or facts are missing?\n\nRecord your notes in a table so the **contrasts** are easy to see.\n\n**Forming a view.** Comparison is the basis for your own **point of view**. Support it with the strongest, most reliable evidence. Then acknowledge other views: *Some argue… however…*\n\nNo single text tells the whole story. Comparing coverage is how an informed reader gets close to it."
+        },
+        "vc": [
+          "VM-U2O1-KS5",
+          "VM-U2O1-KS1",
+          "VM-U2O1-KS2",
+          "VM-U2O1-KS6"
+        ],
+        "vcNote": "Comparing how issues are presented in different persuasive text types; purpose, audience, main ideas and evidence."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Where Australians get their news",
+        "icon": "lucide:newspaper",
+        "body": {
+          "support": "Each year, the **University of Canberra** asks Australians where they get their news.\n\nIn **2025**, it found:\n\n- **TV** was still the top place for news. **37%** of people said so.\n- For the **first time**, more people got their news mainly from **social media** (**26%**) than from **news websites** (**23%**).\n- Only **24%** had been taught how to check the news.\n\nOn social media, news is mixed in with ads, jokes and opinions. They can all look the same.\n\nSo you need to work out what kind of text it is, and what it wants.",
+          "core": "Each year, the **University of Canberra** runs a big survey called the **Digital News Report: Australia**. It asks Australians where they get their news, and what they think of it.\n\nThe **2025** report, released in June 2025, found a big change.\n\n- **TV** was still the most common main source of news, for **37%** of people.\n- But for the **first time**, more people named **social media** as their main source (**26%**) than **news websites** (**23%**).\n- Only **24%** said they had ever been taught **news literacy**: how to check and make sense of the news.\n\nThat matters. On social media, news is mixed in with opinions, ads, jokes and posts from friends. A news report, an opinion and a campaign video can all appear one after another, and look much the same.\n\nSo it's up to each reader to work out what kind of text they're looking at, what it wants, and whether it's telling the whole story.",
+          "extend": "The **Digital News Report: Australia** is an annual survey by the **University of Canberra**'s News and Media Research Centre. It tracks where Australians get news and how they view it.\n\nThe **2025** report, released in June 2025, recorded a shift.\n\n- **Television** remained the most common main source of news (**37%**).\n- For the **first time**, **social media** (**26%**) overtook **online news websites** (**23%**) as a main source.\n- Only **24%** of respondents said they had received any **news literacy** education.\n\nThe shift has consequences for readers. In a social feed, news reports, opinion pieces, sponsored posts, campaign videos and jokes appear side by side, often in similar formats. The cues that once separated them, such as the front page versus the opinion page, are weaker.\n\nThat places more responsibility on audiences to identify each text's type, purpose and reliability, and to compare sources before forming a view."
+        },
+        "source": {
+          "name": "University of Canberra — Digital News Report: Australia 2025",
+          "url": "https://www.canberra.edu.au/about-uc/media/newsroom/2025/june/digital-news-report-australia-2025"
+        },
+        "think": {
+          "support": [
+            "Where do most Australians get their news?",
+            "Why does social media make it harder?"
+          ],
+          "core": [
+            "What did the 2025 report find about where Australians get their news?",
+            "Why does it matter that more people now get news mainly from social media?",
+            "What does this mean for how you read news?"
+          ]
+        },
+        "vc": [
+          "VM-U2O1-KS5"
+        ],
+        "vcNote": "Real Australian data on how news reaches audiences through different text types."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "One issue, three texts",
+      "docTitle": "THE RIVERSIDE YOUTH CENTRE: THREE TEXTS (EXAMPLE)",
+      "vc": [
+        "VM-U2O1-KS5",
+        "VM-U2O1-KS1",
+        "VM-U2O1-KS2"
+      ],
+      "vcNote": "Comparing how an issue is presented in a news report, an opinion column and a social media post.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "News report",
+          "value": "Headline: “Council to vote on youth centre plan”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "News report",
+          "value": "The centre would cost $3.2 million. Some residents support it. Others are worried about parking."
+        },
+        {
+          "n": 3,
+          "label": "Opinion column",
+          "value": "Headline: “Youth centre a waste of ratepayers' money”",
+          "strong": true
+        },
+        {
+          "n": 4,
+          "label": "Opinion column",
+          "value": "Our roads are falling apart, and the council wants a playground for teenagers."
+        },
+        {
+          "n": 5,
+          "label": "Social post",
+          "value": "We deserve somewhere to go! 🛹🎧 Vote YES on Tuesday #RiversideYouth",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Social post",
+          "value": "Photo: smiling teens painting a bright mural"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Neutral headline",
+          "note": "Says what's happening. Takes no side."
+        },
+        {
+          "n": 2,
+          "label": "Facts and both sides",
+          "note": "A cost figure, and two views."
+        },
+        {
+          "n": 3,
+          "label": "Loaded headline",
+          "note": "“Waste” tells you what to think."
+        },
+        {
+          "n": 4,
+          "label": "Emotive, no evidence",
+          "note": "“Falling apart”, “playground”: no figures."
+        },
+        {
+          "n": 5,
+          "label": "Call to action",
+          "note": "Wants you to vote yes. Speaks to young people."
+        },
+        {
+          "n": 6,
+          "label": "Positive image",
+          "note": "Bright, happy. Shows what they want you to picture."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Compare any issue",
+      "steps": [
+        {
+          "title": "Find three texts",
+          "text": "Different types, same issue.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Same questions",
+          "text": "Purpose, audience, idea, evidence.",
+          "icon": "lucide:list-checks"
+        },
+        {
+          "title": "Side by side",
+          "text": "Notes in a table.",
+          "icon": "lucide:table"
+        },
+        {
+          "title": "Your view",
+          "text": "I think… because…",
+          "icon": "lucide:message-square-quote"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What's the main **purpose** of an opinion column?",
+        "options": [
+          "To persuade you to share one point of view",
+          "To list the TV guide",
+          "To report every side equally",
+          "To sell a product"
+        ],
+        "answer": 0,
+        "explain": "Opinion columns argue one view.",
+        "vc": [
+          "VM-U2O1-KS1"
+        ]
+      },
+      {
+        "q": "Which text is most likely to include **more than one side**?",
+        "options": [
+          "A news report",
+          "An ad",
+          "A campaign post",
+          "A fan page"
+        ],
+        "answer": 0,
+        "explain": "News reports should give several views.",
+        "vc": [
+          "VM-U2O1-KS5"
+        ]
+      },
+      {
+        "q": "Why compare texts in a **table**?",
+        "options": [
+          "So you can see the contrasts at a glance",
+          "Because tables look nice",
+          "To make it longer",
+          "You shouldn't"
+        ],
+        "answer": 0,
+        "explain": "Notes side by side show the differences.",
+        "vc": [
+          "VM-U2O1-KS2"
+        ]
+      },
+      {
+        "q": "In 2025, what share of Australians named **social media** as their main news source?",
+        "options": [
+          "26%",
+          "2%",
+          "62%",
+          "96%"
+        ],
+        "answer": 0,
+        "explain": "It overtook news websites (23%) for the first time.",
+        "vc": [
+          "VM-U2O1-KS5"
+        ]
+      },
+      {
+        "q": "Which is the best way to support your point of view?",
+        "options": [
+          "“I support the centre. The news report shows it costs $3.2 million, and the only worry raised, parking, could be fixed.”",
+          "“Everyone knows I'm right.”",
+          "“It's obvious.”",
+          "“Because I said so.”"
+        ],
+        "answer": 0,
+        "explain": "A view plus specific evidence.",
+        "vc": [
+          "VM-U2O1-KS6"
+        ]
+      },
+      {
+        "q": "What does it mean to **frame** an issue?",
+        "options": [
+          "To present it from a particular angle",
+          "To put it in a picture frame",
+          "To ignore it",
+          "To report it twice"
+        ],
+        "answer": 0,
+        "explain": "The column frames it as a waste of money.",
+        "vc": [
+          "VM-U2O1-KS5"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "In the social post, how does the **photo** influence the audience?",
+        "options": [
+          "Bright, smiling teens make the centre seem positive",
+          "It shows the cost",
+          "It gives both sides",
+          "It has no effect"
+        ],
+        "answer": 0,
+        "explain": "Visuals position the audience.",
+        "vc": [
+          "VM-U2O1-KS3"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Find three texts about one real issue. Compare them in a table. Then write what you think, with evidence.",
+      "core": "Compare how three different kinds of text present a real issue, then write and share your own view, backed by evidence.",
+      "extend": "Compare how at least three text types frame a real issue, analysing purpose, audience, main ideas, evidence, language and visuals, and omissions. Write a comparison and a reasoned personal view supported by evidence, acknowledging other perspectives."
+    },
+    "checklist": [
+      "I chose a real issue",
+      "I found three different kinds of text",
+      "I took notes on each in a table",
+      "I compared purpose, audience, main idea and evidence",
+      "I wrote my own view with evidence",
+      "I shared my view and answered a question"
+    ],
+    "levelUp": "Explain how two language choices and one visual choice in the most persuasive text position its audience.",
+    "vc": [
+      "VM-U2O1-KS5",
+      "VM-U2O1-KS2",
+      "VM-U2O1-KS6"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: One issue, many stories",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How is an **opinion column** different from a **news report**?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS5"
+            ]
+          },
+          {
+            "q": "List the **six questions** to ask when comparing texts.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS1",
+              "VM-U2O1-KS2"
+            ]
+          },
+          {
+            "q": "How should you back up your own **point of view**?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Compare any issue",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "One issue, three texts",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a choice in a text. Use the word bank. What is it trying to do?",
+          "core": "Each number marks a choice in one of the three texts. Write what it is and what it's trying to do."
+        },
+        "columns": [
+          "What is it?",
+          "What is it trying to do?"
+        ],
+        "wordBank": {
+          "support": [
+            "neutral headline",
+            "facts and both sides",
+            "loaded headline",
+            "emotive words",
+            "call to action",
+            "positive image"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U2O1-KS2",
+          "VM-U2O1-KS3"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Compare the coverage",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 22
+        },
+        "instructions": "Compare the three texts about the youth centre. The first row is done for you.",
+        "columns": [
+          "",
+          "News report",
+          "Opinion column",
+          "Social post"
+        ],
+        "rows": [
+          [
+            "Purpose",
+            "Inform locals about the vote",
+            "Persuade readers to oppose it",
+            "Get young people to support it"
+          ],
+          [
+            "Audience",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Main idea",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Evidence",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Words and pictures",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "What's left out",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KS5",
+          "VM-U2O1-KS1"
+        ],
+        "vcNote": "Comparing and contrasting how an issue is presented in different persuasive text types."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: where Australians get their news",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the 2025 report find about where Australians get their news?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS5"
+            ]
+          },
+          {
+            "q": "Why does it matter that more people now get news mainly from **social media**?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS5",
+              "VM-U2O1-KS1"
+            ]
+          },
+          {
+            "q": "What does this mean for how **you** read news?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: compare a real issue",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "Choose a real issue (your teacher can suggest some). Find **three different kinds of text** about it: for example, a news report, an opinion piece and a post or video. Take notes on each.",
+        "columns": [
+          "",
+          "Text 1",
+          "Text 2",
+          "Text 3"
+        ],
+        "rows": [
+          [
+            "Type and source (title, link)",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Purpose and audience",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Main idea",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Evidence",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Words and pictures",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "What's left out",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KS2",
+          "VM-U2O1-KS5",
+          "VM-U2O1-KS1"
+        ],
+        "vcNote": "Note-taking to identify main ideas and arguments across real persuasive texts."
+      },
+      {
+        "type": "write",
+        "title": "My comparison and my view",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write two short paragraphs. First, how are the texts different? Second, what do you think? Use evidence.",
+          "core": "Write two paragraphs. **Paragraph 1:** compare how your three texts present the issue. **Paragraph 2:** give your own point of view, backed by the best evidence you found.",
+          "extend": "Write two paragraphs. First, compare how the three texts frame the issue, using specific examples of purpose, evidence and language. Second, present your own reasoned view, supported by reliable evidence, and respond to an opposing view."
+        },
+        "plan": [
+          {
+            "label": "The biggest difference between the texts",
+            "lines": 1
+          },
+          {
+            "label": "My view, in one sentence",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "All three texts are about…",
+            "The news report…, but the post…",
+            "I think… because…",
+            "The best evidence is…"
+          ],
+          "core": [
+            "All three texts are about…",
+            "The news report…, whereas the opinion piece…",
+            "The post uses… to…",
+            "I think… because…",
+            "The strongest evidence is…",
+            "Some people argue…, but…"
+          ]
+        },
+        "lines": {
+          "support": 11,
+          "core": 12
+        },
+        "check": {
+          "core": [
+            "compares all three texts",
+            "uses specific examples",
+            "my view is clear",
+            "backed by evidence",
+            "punctuation and spelling checked"
+          ],
+          "extend": [
+            "compares all three texts",
+            "uses specific examples",
+            "my view is clear",
+            "backed by reliable evidence",
+            "responds to another view",
+            "punctuation and spelling checked"
+          ]
+        },
+        "vc": [
+          "VM-U2O1-KS5",
+          "VM-U2O1-KS6"
+        ],
+        "vcNote": "Comparing texts and using appropriate evidence to support a personal point of view."
+      },
+      {
+        "type": "questions",
+        "title": "Keep writing",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Keep going with your comparison and view here.",
+            "lines": {
+              "support": 18,
+              "core": 22
+            }
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: share your verdict",
+        "pagebreak": true,
+        "where": "in class",
+        "instructions": "In a small group, each person shares their issue and their view in one minute. Then the group asks questions.",
+        "need": [
+          "your notes and paragraphs",
+          "a group of three or four",
+          "a timer"
+        ],
+        "steps": {
+          "support": [
+            "Say your issue.",
+            "Say how the texts were different.",
+            "Say what you think, and why.",
+            "Answer one question.",
+            "Ask someone else a question."
+          ],
+          "core": [
+            "Say your issue, and the three texts you compared.",
+            "Give the **biggest difference** between how they presented it.",
+            "Give **your view**, and your **best evidence**.",
+            "Listen to the group's questions. Answer one.",
+            "Listen to others. Ask each speaker one good question."
+          ]
+        },
+        "notes": [
+          {
+            "label": "A question I was asked, and my answer:",
+            "lines": 2
+          },
+          {
+            "label": "The best question I asked someone else:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Teacher saw it",
+          "Notes",
+          "Group feedback"
+        ],
+        "vc": [
+          "VM-U2O1-KS6",
+          "VM-U2O1-KS5"
+        ],
+        "vcNote": "Hands-on: presenting a supported point of view and responding to questions."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Choose the **most persuasive** of your three texts. Explain how **two language choices** and **one visual choice** position its audience.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O1-KS3"
+            ]
+          },
+          {
+            "q": "Rewrite the headline of your most persuasive text as a **neutral** news headline. What did you change, and why?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O1-KS3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can compare how texts present an issue.",
+          "I can find purpose, audience and main idea.",
+          "I can take notes on arguments.",
+          "I can give my view with evidence."
+        ],
+        "questions": [
+          "The issue I compared:",
+          "One thing I'll check before I believe a post:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The Issues & Voices boss level. Students compare how news reports, opinion columns, social posts, ads and official statements present the same issue, using six lenses: purpose, audience, main idea, evidence, language and visuals, and what's left out. They annotate and compare three made-up texts about a youth centre, then choose a real issue, take notes on three different text types, write a comparison and a supported point of view, and share it in a small group. The case study is the Digital News Report: Australia 2025, which found that social media (26%) overtook news websites (23%) as a main source of news for the first time.",
+    "prep": [
+      "Prepare a list of real, current issues with coverage across text types (e.g. a local council decision, school phone rules, a sports decision, the social media minimum age).",
+      "Check students can access news sites on school devices (some have paywalls; ABC, SBS and The Conversation are free).",
+      "Model one comparison with a real issue before the final mission."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — One issue, many stories",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** read the three youth centre texts aloud. Which do you trust?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**One issue, three texts (10 min).**",
+          "**Compare the coverage (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Research",
+        "minutes": 50,
+        "steps": [
+          "**Case study (10 min):** where Australians get their news.",
+          "**Choose an issue (5 min).**",
+          "**Final mission (35 min):** find three texts and take notes."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** a comparison paragraph and a view paragraph.",
+          "**Write (40 min):** my comparison and my view."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Share",
+        "minutes": 60,
+        "steps": [
+          "**Do it (30 min):** share your verdict.",
+          "**Edit (15 min):** improve one paragraph using feedback.",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Different text types do different jobs: inform, persuade, provoke a reaction, sell, or state a position.",
+      "Compare with six lenses: purpose, audience, main idea, evidence, language and visuals, what's left out.",
+      "Notes in a table make contrasts easy to see.",
+      "Back your own view with the strongest, most reliable evidence, and acknowledge other views.",
+      "Digital News Report: Australia 2025: TV 37%, social media 26%, news websites 23% as main source; 24% have had news literacy education."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the three texts.",
+        "Fewer comparison rows.",
+        "Provide three pre-selected texts on one issue for the final mission."
+      ],
+      "extend": [
+        "Analyse framing and omissions.",
+        "Respond to an opposing view in the writing; Level Ups on language and visuals."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U2O1-KS5",
+        "evidence": "Compares and contrasts how an issue is presented in different text types (comparison tables, writing)."
+      },
+      {
+        "vc": "VM-U2O1-KS2",
+        "evidence": "Identifies main ideas and arguments through annotation and note-taking (three texts, final mission)."
+      },
+      {
+        "vc": "VM-U2O1-KS1",
+        "evidence": "Identifies the purpose and intended audience of each text (comparison tables)."
+      },
+      {
+        "vc": "VM-U2O1-KS6",
+        "evidence": "Uses appropriate evidence to support a personal point of view (writing, Do it)."
+      },
+      {
+        "vc": "VM-U2O1-KS3",
+        "evidence": "Level Up: explains how language and visuals position an audience."
+      }
+    ],
+    "answers": "**Check your reading:** a news report informs with facts, sources and several sides; an opinion column argues one view with selected evidence. Purpose, audience, main idea, evidence, words and pictures, what's left out. With the best, most reliable evidence (and by acknowledging other views).\n\n**Three texts:** 1 neutral headline; 2 facts (cost) and both sides; 3 loaded headline (“waste”); 4 emotive words, no evidence; 5 call to action aimed at young people; 6 positive image.\n\n**Compare (suggested):** audience: local residents / ratepayers who read the paper / young people on social media; main idea: council will vote on a $3.2m centre / it's a waste while roads are poor / young people deserve somewhere to go; evidence: cost, both views / none, just claims / none, just feeling and image; words and pictures: neutral / loaded (waste, playground) / emotive, emoji, bright photo; left out: (little) / young people's view, benefits / cost and parking concerns.\n\n**Case study:** TV 37% main source; social media 26% overtook news websites 23% for the first time; 24% had news literacy education. On social media, news, opinion, ads and jokes look alike, so readers must work out what each text is and wants.",
+    "resources": [
+      {
+        "label": "University of Canberra — Digital News Report: Australia 2025 (media release)",
+        "url": "https://www.canberra.edu.au/about-uc/media/newsroom/2025/june/digital-news-report-australia-2025"
+      },
+      {
+        "label": "University of Canberra — Digital News Report: Australia (all reports)",
+        "url": "https://www.canberra.edu.au/research/centres/nmrc/digital-news-report-australia"
+      }
+    ],
+    "realityCheck": [
+      "**Finding three text types takes time.** Pre-select issues with coverage across types, especially for support students.",
+      "**Paywalls get in the way.** Point students to free outlets.",
+      "**Keep it balanced.** Students should apply the same lenses to texts they agree with.",
+      "**Writing can stall.** The starters and a modelled paragraph help a lot.",
+      "**Works in a real class:** yes. It sets up Have Your Say, where students argue their own view out loud."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the three texts, fewer comparison rows, shorter writing, and simpler sharing steps.",
+      "core": "Standard version: text types and their jobs, six lenses for comparison, three texts to annotate and compare, the Digital News Report case, comparing coverage of a real issue, writing a comparison and view, and sharing it.",
+      "extend": "Adds contrast and frame to the vocabulary, a quiz question on visuals, framing and omissions, responding to an opposing view, and Level Ups on language and visuals."
+    }
+  }
+}

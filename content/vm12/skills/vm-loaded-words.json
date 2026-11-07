@@ -1,0 +1,889 @@
+{
+  "id": "vm-loaded-words",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Two headlines are about the same night. One says “Youth gangs swarm plaza”. One says “Young people turn out for free concert”. Same night. Very different feeling.",
+      "core": "Two news sites report the same night at the same shopping centre. One headline says “Youth gangs swarm plaza”. The other says “Hundreds of young people turn out for free concert”. Same event. Same people. Totally different feeling. How did they do that?"
+    },
+    "why": {
+      "support": "Words tell you how to feel. Ads, news and posts pick words and pictures to push you one way. Learn to spot them, and use them yourself.",
+      "core": "Words don't just say what happened. They tell you how to feel about it. Writers, advertisers and politicians choose words and pictures to push you one way. Once you can spot **loaded words**, you can decide for yourself, and use them well when it's your turn to persuade.",
+      "extend": "Language and visuals carry meaning beyond the literal. Connotations, emotive language, labels and image choices position audiences to respond in particular ways. Identifying and explaining these choices lets you read persuasive content critically, and use the same techniques deliberately in your own arguments."
+    },
+    "canDo": {
+      "support": [
+        "I can say what a word suggests.",
+        "I can spot loaded words.",
+        "I can say how a picture makes me feel.",
+        "I can rewrite loaded words."
+      ],
+      "core": [
+        "I can explain the difference between what a word **means** and what it **suggests**.",
+        "I can spot **loaded words** and explain how they make me feel.",
+        "I can explain how **images** and **captions** influence an audience.",
+        "I can **rewrite** loaded language in neutral words."
+      ]
+    },
+    "showIt": "Find two real texts about the same event or issue, identify their loaded words and images, and rewrite a headline in neutral words.",
+    "vocab": [
+      {
+        "word": "loaded word",
+        "meaning": "a word chosen to make you feel a certain way",
+        "example": "“Mob” is a loaded word."
+      },
+      {
+        "word": "connotation",
+        "meaning": "the feeling or idea a word suggests",
+        "example": "“Home” has a warm connotation."
+      },
+      {
+        "word": "neutral",
+        "meaning": "not taking a side",
+        "example": "“Crowd” is more neutral than “mob”."
+      },
+      {
+        "word": "emotive",
+        "meaning": "making you feel strong emotions",
+        "example": "The ad used emotive words like “heartbreaking”."
+      },
+      {
+        "word": "headline",
+        "meaning": "the title of a news story",
+        "example": "The headline was in big, bold letters."
+      },
+      {
+        "word": "caption",
+        "meaning": "words under a picture that explain it",
+        "example": "The caption said the photo was from 2019."
+      },
+      {
+        "word": "denotation",
+        "meaning": "the dictionary meaning of a word",
+        "example": "The denotation of “slim” and “skinny” is similar.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "position",
+        "meaning": "to lead an audience to see something a certain way",
+        "example": "The photo positions us to feel sorry for him.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Loaded Words in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Loaded Words",
+        "sub": "Same fact. Different words.",
+        "icon": "lucide:sparkles",
+        "say": "Loaded words. Same fact, different words, totally different feeling."
+      },
+      {
+        "kind": "big",
+        "title": "Crowd or mob?",
+        "text": "Same people · **different feeling**",
+        "icon": "lucide:users",
+        "say": "A crowd of young people, or a mob of youths? Both describe the same thing. But one makes you feel calm, and one makes you feel scared.",
+        "vc": [
+          "VM-U2O1-KS4"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Meaning vs feeling",
+        "text": "Thrifty 🙂 · Stingy 🙁",
+        "icon": "lucide:book-open",
+        "say": "Every word has a meaning. Many also have a connotation: the feeling they carry. Thrifty sounds good. Stingy sounds bad.",
+        "vc": [
+          "VM-U2O1-KS4"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Words are choices",
+        "text": "Change → **crisis**",
+        "icon": "lucide:newspaper",
+        "say": "In 2019, The Guardian changed its style guide. It chose climate crisis over climate change, and global heating over global warming.",
+        "vc": [
+          "VM-U2O1-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Spot it",
+        "pillIcon": "lucide:eye",
+        "title": "Spot it",
+        "text": "Which words **push**?",
+        "icon": "lucide:highlighter",
+        "say": "Spot the loaded words. Which words make you feel something?",
+        "vc": [
+          "VM-U2O1-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Spot it",
+        "pillIcon": "lucide:eye",
+        "title": "Check the picture",
+        "text": "Photo · Angle · **Caption**",
+        "icon": "lucide:image",
+        "say": "Check the picture. Which photo did they choose? What's the angle, the light, the caption?",
+        "vc": [
+          "VM-U2O1-KK1",
+          "VM-U2O1-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Spot it",
+        "pillIcon": "lucide:eye",
+        "title": "Swap test",
+        "text": "Mob → **crowd**",
+        "icon": "lucide:repeat",
+        "say": "Do the swap test. Swap a loaded word for a neutral one. What changes?",
+        "vc": [
+          "VM-U2O1-KS4"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Read with your eyes open",
+        "steps": [
+          "Spot the words",
+          "Check the picture",
+          "Do the swap test"
+        ],
+        "say": "Spot the loaded words, check the picture, then do the swap test."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Read **between** the words.",
+        "icon": "lucide:sparkles",
+        "say": "Your mission. Find two real texts about the same thing, and show how their words and pictures push you."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Same fact, different feeling",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Writers pick words on purpose. Words tell you what happened. They also tell you how to feel.\n\n**Meaning and feeling.** *Slim*, *thin* and *skinny* mean the same thing. But *slim* sounds nice. *Skinny* can sound mean. The feeling a word gives is its **connotation**.\n\nA *crowd* and a *mob* could be the same people. Only one sounds scary.\n\n**Loaded words** push you to feel a certain way. Look for:\n\n- **Strong feeling words:** *tragic*, *outrageous*.\n- **Labels:** *thugs*, *heroes*.\n- **Big claims:** *always*, *never*, *everyone*.\n\n**Pictures push too.**\n\n- Is the person smiling or angry?\n- Is the photo dark or bright?\n- What does the **caption** say?\n\n**The swap test.** Swap a loaded word for a plain one. *“The council **wasted** $2 million”* becomes *“The council **spent** $2 million.”* Does it feel different? Then the word was loaded.\n\nLoaded words aren't always bad. But notice them. Then ask: *do the facts back it up?*",
+          "core": "Writers choose words on purpose. And the words they choose don't just tell you *what* happened. They tell you how to *feel* about it.\n\n**Meaning and feeling.** Every word has a **denotation**: its dictionary meaning. Many words also have a **connotation**: the feeling or idea they carry.\n\n- *Slim*, *thin* and *skinny* all mean the same thing. But *slim* sounds positive, *thin* sounds **neutral**, and *skinny* can sound negative.\n- A *crowd*, a *gathering* and a *mob* could be the same people. Only one sounds dangerous.\n\n**Loaded words** are chosen to push you to feel a certain way. Look out for:\n\n- **Emotive words:** *tragic*, *outrageous*, *heartwarming*.\n- **Labels:** *thugs*, *heroes*, *battlers*, *elites*.\n- **Exaggeration:** *always*, *never*, *everyone*, *disaster*.\n\n**Pictures push too.** Visuals can be just as loaded as words:\n\n- **Which photo?** A smiling face or an angry one?\n- **Angle:** shot from below, a person looks powerful. From above, they look small.\n- **Light and colour:** dark and blurry feels scary. Bright feels safe.\n- **Caption:** the words under a photo tell you what to see in it.\n\n**The swap test.** To check if a word is loaded, swap it for a neutral one. *“The council **wasted** $2 million”* becomes *“The council **spent** $2 million.”* If the feeling changes, the word was loaded.\n\nLoaded language isn't always bad. A charity ad *should* make you feel something. But you should notice when it's happening, and ask: *is the feeling backed by the facts?*",
+          "extend": "Language is rarely neutral. The words a writer chooses describe an event. They also **position** readers to feel a certain way about it.\n\n**Denotation and connotation.** A word's **denotation** is its literal meaning. Its **connotation** is the set of ideas and feelings it carries. *Slim*, *thin* and *skinny* share a meaning, but range from approving to critical. *Crowd*, *gathering* and *mob* may describe the same people. Only *mob* suggests disorder and threat.\n\n**Loaded language** includes:\n\n- **Emotive language**, which stirs feelings: *tragic*, *outrageous*, *heartwarming*.\n- **Labels**, which reduce people to a type: *thugs*, *heroes*, *battlers*, *elites*.\n- **Exaggeration and absolutes**: *always*, *never*, *everyone*, *disaster*.\n- **Framing**: the name chosen for the issue itself, which can signal calm or alarm.\n\n**Visual influence.** Images position audiences too. Look at **selection** (which photo was chosen), **camera angle** (a low angle suggests power; a high angle, weakness), **light and colour**, **cropping** (what's left out of the shot) and the **caption**, which tells you how to read the image.\n\n**The swap test.** Replace a loaded word with a neutral one and notice the shift. Compare *“the council **squandered** $2 million”* with *“the council **spent** $2 million.”*\n\nLoaded language isn't always dishonest. Good persuasion can fairly appeal to emotion. The key question is whether the feeling it creates matches the evidence."
+        },
+        "vc": [
+          "VM-U2O1-KK1",
+          "VM-U2O1-KS3",
+          "VM-U2O1-KS4"
+        ],
+        "vcNote": "How language and visuals are used to influence; connotations of words."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Change, or crisis?",
+        "icon": "lucide:newspaper",
+        "body": {
+          "support": "Newspapers have a **style guide**. It's a list of rules for which words to use.\n\nIn **May 2019**, the newspaper **The Guardian** changed some words about the climate.\n\n- Not *climate change*, but **climate crisis** or **climate emergency**.\n- Not *global warming*, but **global heating**.\n\nThe old words weren't banned. But writers were told to think twice.\n\nThe editor said she wanted to be accurate and clear.\n\nThe facts didn't change. The words did. *Crisis* feels much stronger than *change*.\n\nIs that more accurate? Or is it trying to change your mind? You decide.",
+          "core": "Big newspapers have a **style guide**. It's a rule book for which words their writers should use.\n\nOn **17 May 2019**, the British newspaper **The Guardian** announced changes to its style guide. They were about how it would write about the climate.\n\n- Instead of *climate change*, writers should prefer **climate emergency**, **crisis** or **breakdown**.\n- Instead of *global warming*, they should prefer **global heating**.\n- Instead of *climate sceptic*, they should use **climate science denier**.\n- Instead of *biodiversity*, they should prefer **wildlife**.\n\nThe old words weren't banned. But writers were asked to think twice before using them.\n\nThe paper's editor, **Katharine Viner**, said the aim was to be “scientifically precise”, and to communicate clearly with readers about a very important issue.\n\nThe facts in the stories didn't change. The words did. And words like *crisis* and *emergency* carry a much stronger feeling than *change*.\n\nThat raises a big question. When a newspaper chooses stronger words, is it being more accurate, or is it trying to persuade? You can decide.",
+          "extend": "Most big news outlets follow a **style guide**: a set of rules for spelling, terms and tone.\n\nOn **17 May 2019**, **The Guardian** updated its guide on how to write about the environment. Writers were asked to prefer:\n\n- **climate emergency, crisis or breakdown** to *climate change*\n- **global heating** to *global warming*\n- **climate science denier** to *climate sceptic*\n- **wildlife** to *biodiversity*.\n\nThe old terms weren't banned. But staff were asked to think twice before using them.\n\nEditor-in-chief **Katharine Viner** said the paper wanted to be “scientifically precise”, and to speak clearly to readers on a very important issue.\n\nThis is a clear example of framing. The facts in the stories stayed the same. The names for them changed. *Crisis* and *emergency* signal urgency and call for action. *Change* is calm by comparison. *Denier* is far more negative than *sceptic*.\n\nSo here is a question for every reader. When a news outlet picks stronger words, is it being more accurate, is it trying to persuade, or is it doing both?"
+        },
+        "source": {
+          "name": "The Guardian — Why the Guardian is changing the language it uses about the environment (17 May 2019)",
+          "url": "https://www.theguardian.com/environment/2019/may/17/why-the-guardian-is-changing-the-language-it-uses-about-the-environment"
+        },
+        "think": {
+          "support": [
+            "Which new words feel stronger?",
+            "Do you think the change was fair? Why?"
+          ],
+          "core": [
+            "Which word changes make the issue feel more urgent? Why?",
+            "Is choosing stronger words informing readers, persuading them, or both?",
+            "What words would you choose, and why?"
+          ]
+        },
+        "vc": [
+          "VM-U2O1-KK1",
+          "VM-U2O1-KS4"
+        ],
+        "vcNote": "A real example of a publisher deliberately choosing words for their connotations."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Two reports, one event",
+      "docTitle": "TWO NEWS REPORTS ABOUT THE SAME NIGHT (EXAMPLE)",
+      "vc": [
+        "VM-U2O1-KS3",
+        "VM-U2O1-KK1",
+        "VM-U2O1-KS4"
+      ],
+      "vcNote": "Identifying how language and visuals influence an audience.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Report A: headline",
+          "value": "Youth gangs swarm Riverside Plaza",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Report A: photo",
+          "value": "A blurry night shot of a crowd, with police lights in the background"
+        },
+        {
+          "n": 3,
+          "label": "Report A: sentence",
+          "value": "Terrified shoppers fled as a mob of teens descended on the centre."
+        },
+        {
+          "n": 4,
+          "label": "Report B: headline",
+          "value": "Hundreds of young people turn out for free plaza concert",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Report B: photo",
+          "value": "Smiling teenagers dancing in front of the stage at sunset"
+        },
+        {
+          "n": 6,
+          "label": "Report B: sentence",
+          "value": "Police said the crowd was mostly well behaved. Two people were asked to leave."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Labels and verbs",
+          "note": "“Gangs” and “swarm” suggest danger."
+        },
+        {
+          "n": 2,
+          "label": "Dark, blurry photo",
+          "note": "Night and police lights feel threatening."
+        },
+        {
+          "n": 3,
+          "label": "Emotive words",
+          "note": "“Terrified”, “fled”, “mob”, “descended”."
+        },
+        {
+          "n": 4,
+          "label": "Neutral to positive",
+          "note": "“Young people”, “turn out”, “free concert”."
+        },
+        {
+          "n": 5,
+          "label": "Bright, happy photo",
+          "note": "Smiles and sunset feel safe."
+        },
+        {
+          "n": 6,
+          "label": "Facts and a source",
+          "note": "Quotes police. Gives numbers."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Read with your eyes open",
+      "steps": [
+        {
+          "title": "Spot the words",
+          "text": "Which words push a feeling?",
+          "icon": "lucide:highlighter"
+        },
+        {
+          "title": "Check the picture",
+          "text": "Photo, angle, light, caption.",
+          "icon": "lucide:image"
+        },
+        {
+          "title": "Swap test",
+          "text": "Swap for a neutral word.",
+          "icon": "lucide:repeat"
+        },
+        {
+          "title": "Check the facts",
+          "text": "Does the evidence back the feeling?",
+          "icon": "lucide:scale"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is a word's **connotation**?",
+        "options": [
+          "The feeling or idea it suggests",
+          "How it's spelled",
+          "How many letters it has",
+          "Its opposite"
+        ],
+        "answer": 0,
+        "explain": "Connotation = feeling; denotation = dictionary meaning.",
+        "vc": [
+          "VM-U2O1-KS4"
+        ]
+      },
+      {
+        "q": "Which word for the same people sounds most **negative**?",
+        "options": [
+          "Mob",
+          "Crowd",
+          "Group",
+          "Audience"
+        ],
+        "answer": 0,
+        "explain": "“Mob” suggests danger.",
+        "vc": [
+          "VM-U2O1-KS4"
+        ]
+      },
+      {
+        "q": "Which is the most **neutral** sentence?",
+        "options": [
+          "The council spent $2 million on the pool.",
+          "The council wasted $2 million on the pool.",
+          "The council splashed out $2 million on the pool.",
+          "The council blew $2 million on the pool."
+        ],
+        "answer": 0,
+        "explain": "“Spent” doesn't take a side.",
+        "vc": [
+          "VM-U2O1-KS3",
+          "VM-U2O1-KS4"
+        ]
+      },
+      {
+        "q": "A photo is taken from **below** a politician. How might it make them look?",
+        "options": [
+          "Powerful",
+          "Small and weak",
+          "Funny",
+          "Hungry"
+        ],
+        "answer": 0,
+        "explain": "A low angle makes people look powerful.",
+        "vc": [
+          "VM-U2O1-KK1"
+        ]
+      },
+      {
+        "q": "In 2019, what did The Guardian prefer instead of *climate change*?",
+        "options": [
+          "Climate emergency, crisis or breakdown",
+          "Weather",
+          "Global cooling",
+          "Nothing changed"
+        ],
+        "answer": 0,
+        "explain": "It updated its style guide.",
+        "vc": [
+          "VM-U2O1-KK1"
+        ]
+      },
+      {
+        "q": "What is the **swap test**?",
+        "options": [
+          "Swapping a loaded word for a neutral one to see how the feeling changes",
+          "Swapping seats with a friend",
+          "Changing the font",
+          "Swapping the headline and photo"
+        ],
+        "answer": 0,
+        "explain": "If the feeling changes, the word was loaded.",
+        "vc": [
+          "VM-U2O1-KS4"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "When does loaded language make an argument **more effective** but **less fair**?",
+        "options": [
+          "When the feeling it creates is stronger than the evidence",
+          "When it uses facts",
+          "When it's short",
+          "When it has a photo"
+        ],
+        "answer": 0,
+        "explain": "Good arguments match emotion to evidence.",
+        "vc": [
+          "VM-U2O2-KK2"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Find two headlines or posts about the same thing. Circle the loaded words. Rewrite one headline in plain words.",
+      "core": "Find two real texts about the same event or issue, identify their loaded words and images, and rewrite a headline in neutral words.",
+      "extend": "Compare two real texts on the same event or issue: analyse their word choices, connotations and visual choices, explain how each positions the audience, and rewrite one in neutral language."
+    },
+    "checklist": [
+      "I found two texts about the same thing",
+      "I listed the loaded words",
+      "I explained what each word suggests",
+      "I looked at the pictures and captions",
+      "I explained how each text makes the audience feel",
+      "I rewrote a headline in neutral words"
+    ],
+    "levelUp": "Explain which words and images make a real ad or campaign more effective, and whether its feelings are backed by the evidence.",
+    "vc": [
+      "VM-U2O1-KK1",
+      "VM-U2O1-KS3",
+      "VM-U2O1-KS4"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Same fact, different feeling",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What's the difference between what a word **means** and what it **suggests**? Give an example.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS4"
+            ]
+          },
+          {
+            "q": "Name **three** kinds of loaded words.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK1"
+            ]
+          },
+          {
+            "q": "Name **two** ways a picture can push you to feel something.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK1",
+              "VM-U2O1-KS3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Read with your eyes open",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Two reports, one event",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a choice. Use the word bank. How does it make you feel?",
+          "core": "Each number marks a choice the writer made. Write what the choice is, and how it makes you feel about the young people."
+        },
+        "columns": [
+          "What's the choice?",
+          "How does it make you feel?"
+        ],
+        "wordBank": {
+          "support": [
+            "label",
+            "dark photo",
+            "emotive words",
+            "neutral words",
+            "bright photo",
+            "facts"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U2O1-KS3",
+          "VM-U2O1-KK1"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Positive, neutral or negative?",
+        "pagebreak": true,
+        "choices": [
+          "Positive",
+          "Neutral",
+          "Negative"
+        ],
+        "reasonLabel": "What it suggests:",
+        "instructions": "Each card describes something. Is the word in quote marks positive, neutral or negative? Tick one, and say what it suggests.",
+        "cards": [
+          {
+            "from": "Someone who saves money",
+            "text": "She's very ‘thrifty’.",
+            "answer": "Positive",
+            "flags": "Smart and careful."
+          },
+          {
+            "from": "Someone who saves money",
+            "text": "She's very ‘stingy’.",
+            "answer": "Negative",
+            "flags": "Mean and selfish."
+          },
+          {
+            "from": "People at a concert",
+            "text": "A ‘crowd’ of young people",
+            "answer": "Neutral",
+            "flags": "Just a lot of people."
+          },
+          {
+            "from": "People at a concert",
+            "text": "A ‘mob’ of youths",
+            "answer": "Negative",
+            "flags": "Out of control, dangerous."
+          },
+          {
+            "from": "A small flat",
+            "text": "A ‘cosy’ one-bedroom flat",
+            "answer": "Positive",
+            "flags": "Warm and comfortable.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "A small flat",
+            "text": "A ‘cramped’ one-bedroom flat",
+            "answer": "Negative",
+            "flags": "Too small, uncomfortable.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KS4"
+        ],
+        "vcNote": "Inferring the connotations of words."
+      },
+      {
+        "type": "table",
+        "title": "The swap test",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "Rewrite each loaded sentence in neutral words. Then say how the loaded words make you feel. The first one is done for you.",
+        "columns": [
+          "Loaded sentence",
+          "Neutral version",
+          "How the loaded words make you feel"
+        ],
+        "rows": [
+          [
+            "Thugs trashed the park overnight.",
+            "Some people damaged the park overnight.",
+            "Angry and scared. “Thugs” makes them sound violent."
+          ],
+          [
+            "The council wasted $2 million on a new pool.",
+            "",
+            ""
+          ],
+          [
+            "Brave locals stood up to the greedy developer.",
+            "",
+            ""
+          ],
+          [
+            "Our delicious, farm-fresh burgers are a total steal!",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Hordes of tourists invaded the beach again.",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KS3",
+          "VM-U2O1-KS4"
+        ],
+        "vcNote": "Explaining how language influences an audience by rewriting it neutrally."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: change, or crisis?",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Which word changes make the issue feel more **urgent**? Why?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS4"
+            ]
+          },
+          {
+            "q": "Is choosing stronger words informing readers, persuading them, or both? Explain.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK1"
+            ]
+          },
+          {
+            "q": "What words would **you** choose to write about this issue? Why?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KS3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: word hunt",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Find two real texts about the same event or issue: two headlines, two posts, or an ad and a news story. Then hunt for loaded words and pictures.",
+        "need": [
+          "a device",
+          "two texts about the same thing"
+        ],
+        "steps": {
+          "support": [
+            "Find two headlines or posts about the same thing.",
+            "List the loaded words.",
+            "Look at the pictures.",
+            "How does each one make you feel?",
+            "Rewrite one headline in plain words."
+          ],
+          "core": [
+            "Find two texts about the same event or issue. Save the links or screenshots.",
+            "Highlight or list the **loaded words** in each.",
+            "Look at the **pictures**: which photo, what angle, what light, what caption?",
+            "Decide how each text wants you to **feel**.",
+            "Rewrite one headline in **neutral** words."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Text 1 (loaded words and pictures):",
+            "lines": 2
+          },
+          {
+            "label": "Text 2 (loaded words and pictures):",
+            "lines": 2
+          },
+          {
+            "label": "My neutral headline:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Links or screenshots",
+          "Notes",
+          "Neutral headline"
+        ],
+        "vc": [
+          "VM-U2O1-KS3",
+          "VM-U2O1-KS4",
+          "VM-U2O1-KK1"
+        ],
+        "vcNote": "Hands-on: identifying and explaining loaded language and visuals in real texts."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Choose a real ad or campaign. Which **words** and **images** make its argument more effective? Would it work as well with neutral words?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KK2"
+            ]
+          },
+          {
+            "q": "When is it **fair** to use loaded language, and when isn't it? Give an example of each.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KK2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can explain what a word suggests.",
+          "I can spot loaded words.",
+          "I can explain how pictures influence me.",
+          "I can rewrite loaded language."
+        ],
+        "questions": [
+          "A loaded word I noticed this week:",
+          "My favourite neutral swap:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn how language and visuals are used to influence an audience: denotation and connotation, emotive language, labels, exaggeration, and visual choices such as photo selection, angle, lighting and captions. They annotate two made-up reports of the same event, sort words by connotation, rewrite loaded sentences neutrally (the swap test), and hunt for loaded words in real texts. The case study is The Guardian's May 2019 style guide change, which preferred “climate crisis” and “global heating” to “climate change” and “global warming”.",
+    "prep": [
+      "Collect two real headlines or articles about the same event from different outlets (local news works well).",
+      "Optional: find two photos of the same public figure taken from different angles.",
+      "Be ready to keep the case-study discussion about language choices, not about climate politics."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Meaning and feeling",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** read the two headlines from the brief. Same night?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Two reports (15 min).**",
+          "**Positive, neutral or negative? (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — The swap test",
+        "minutes": 50,
+        "steps": [
+          "**Swap test (20 min).**",
+          "**Case study (20 min):** change, or crisis? Keep the focus on word choice.",
+          "**Find texts (10 min)** for the Do it."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Word hunt",
+        "minutes": 50,
+        "steps": [
+          "**Do it (30 min):** word hunt.",
+          "**Share (10 min):** best neutral headline.",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Denotation is the dictionary meaning; connotation is the feeling a word suggests.",
+      "Loaded language includes emotive words, labels and exaggeration.",
+      "Visuals influence through photo choice, angle, lighting, colour, cropping and captions.",
+      "The swap test: replace a loaded word with a neutral one and notice the change.",
+      "Loaded language isn't always dishonest; ask whether the feeling matches the evidence.",
+      "The Guardian (17 May 2019) preferred “climate emergency, crisis or breakdown” and “global heating” in its style guide."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the reports.",
+        "Fewer sort cards and table rows.",
+        "Provide two headlines for the Do it."
+      ],
+      "extend": [
+        "Analyse framing as well as single words.",
+        "Level Ups on effectiveness and fairness."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U2O1-KK1",
+        "evidence": "Identifies language and visuals used to influence an audience (reports, Do it)."
+      },
+      {
+        "vc": "VM-U2O1-KS3",
+        "evidence": "Explains how specific words and images position the audience (reports, swap test)."
+      },
+      {
+        "vc": "VM-U2O1-KS4",
+        "evidence": "Infers the connotations of words (sort, swap test, case study)."
+      },
+      {
+        "vc": "VM-U2O2-KK2",
+        "evidence": "Level Up: explains how language and visuals contribute to the effectiveness of an argument."
+      }
+    ],
+    "answers": "**Check your reading:** denotation is the dictionary meaning; connotation is the feeling (e.g. slim/skinny). Emotive words, labels, exaggeration. Photo choice, angle, light and colour, caption.\n\n**Reports:** 1 labels and verbs (gangs, swarm) suggest danger; 2 dark, blurry photo with police lights feels threatening; 3 emotive words (terrified, fled, mob, descended); 4 neutral to positive words; 5 bright, happy photo feels safe; 6 facts and a police source.\n\n**Sort:** thrifty +; stingy −; crowd neutral; mob −; cosy +; cramped −.\n\n**Swap test (examples):** The council spent $2 million on a new pool (wasted = careless, angry). Locals opposed the developer (brave/greedy = heroes vs villain). Our burgers are good value (delicious, farm-fresh, steal = tempting). Many tourists visited the beach (hordes, invaded = annoyed, threatened).\n\n**Case study:** crisis, emergency, breakdown and heating sound more urgent than change and warming. Answers will vary; credit reasoned answers on both sides.",
+    "resources": [
+      {
+        "label": "The Guardian — Why the Guardian is changing the language it uses about the environment",
+        "url": "https://www.theguardian.com/environment/2019/may/17/why-the-guardian-is-changing-the-language-it-uses-about-the-environment"
+      }
+    ],
+    "realityCheck": [
+      "**Students love this.** The swap test is quick and funny; let them invent their own.",
+      "**Keep the case study about language.** Students may want to argue about climate; redirect to how the words work.",
+      "**Connotations vary.** “Skinny” might be positive in some groups. Accept reasoned answers.",
+      "**Visuals are often overlooked.** Make students talk about the photos before the words.",
+      "**Works in a real class:** yes. It leads straight into Check the Source and Compare the Coverage."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the reports, fewer sort cards and table rows, and simpler Do it steps.",
+      "core": "Standard version: denotation and connotation, loaded words and visuals, two reports to annotate, a connotation sort, the swap test, The Guardian's style guide case, and a real word hunt.",
+      "extend": "Adds denotation and position to the vocabulary, framing and cropping, a quiz question on effectiveness versus fairness, and Level Ups on how language and visuals make arguments effective."
+    }
+  }
+}
