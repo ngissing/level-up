@@ -1,0 +1,898 @@
+{
+  "id": "vpc-whats-the-story",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "A song. A short film. A TikTok. They feel different. But most follow the same shape. Once you see it, you can use it.",
+      "core": "A song that makes you feel something. A short film that hooks you in ten seconds. A TikTok you can't stop watching till the end. They feel different, but under the surface most of them follow the same shape. Once you can see it, you can use it."
+    },
+    "why": {
+      "support": "Stories are everywhere. Knowing their shape helps you understand them, and tell your own.",
+      "core": "Stories are everywhere: in films, songs, ads, games, posts, and the yarns people tell at work. Knowing how a story is built helps you understand what it's doing to you, and helps you tell your own stories well, from a job interview to a speech at a party.",
+      "extend": "Narrative structure underpins films, songs, advertising, games and social media content. Recognising the stages of a story, and how they're shaped for an audience and purpose, helps you analyse what a text is doing and craft your own stories with intent."
+    },
+    "canDo": {
+      "support": [
+        "I can name the parts of a story.",
+        "I can find the shape in a film or song.",
+        "I can say who a story is for.",
+        "I can tell my own short story."
+      ],
+      "core": [
+        "I can name the **parts** of a story.",
+        "I can find the story shape in a film, song or post.",
+        "I can explain who a story is **for** and **why** it was made.",
+        "I can plan and tell my own short story."
+      ]
+    },
+    "showIt": "Plan and tell a 60-second story (true or made up) using the story shape: as a video, a recording, or out loud to your group.",
+    "vocab": [
+      {
+        "word": "story",
+        "meaning": "events told in order, about someone who wants something",
+        "example": "Her story was about her first job."
+      },
+      {
+        "word": "character",
+        "meaning": "a person (or animal) in a story",
+        "example": "The main character was a young chef."
+      },
+      {
+        "word": "setting",
+        "meaning": "where and when a story happens",
+        "example": "The setting was a country footy club."
+      },
+      {
+        "word": "problem",
+        "meaning": "the thing that goes wrong, or gets in the way",
+        "example": "The problem was the car wouldn't start."
+      },
+      {
+        "word": "turning point",
+        "meaning": "the big moment when things change",
+        "example": "The turning point was the phone call."
+      },
+      {
+        "word": "ending",
+        "meaning": "how the story finishes",
+        "example": "The ending was happy, but a bit sad too."
+      },
+      {
+        "word": "audience",
+        "meaning": "the people a story is made for",
+        "example": "The audience was teenagers.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "purpose",
+        "meaning": "why a story was made: to entertain, teach, sell or remember",
+        "example": "The purpose of the ad was to sell cars.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "What's the Story? in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "What’s the Story?",
+        "sub": "Most stories follow the same shape.",
+        "icon": "lucide:book-open",
+        "say": "What's the story? Songs, shorts and stories all follow a shape."
+      },
+      {
+        "kind": "big",
+        "title": "7 minutes",
+        "text": "Tropfest's **time limit**",
+        "icon": "lucide:clapperboard",
+        "say": "Tropfest is a famous Australian short film festival. Every film has to be seven minutes or less. That's not much time to tell a whole story.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Story shape",
+        "pillIcon": "lucide:book-open",
+        "title": "Start",
+        "text": "Who · Where · **When**",
+        "icon": "lucide:user",
+        "say": "Start. Meet the character. Where and when are we?",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Story shape",
+        "pillIcon": "lucide:book-open",
+        "title": "Problem",
+        "text": "Uh-oh.",
+        "icon": "lucide:triangle-alert",
+        "say": "Problem. Something goes wrong, or gets in the way.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Story shape",
+        "pillIcon": "lucide:book-open",
+        "title": "Turning point",
+        "text": "Everything **changes**",
+        "icon": "lucide:zap",
+        "say": "Turning point. The big moment when everything changes.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Story shape",
+        "pillIcon": "lucide:book-open",
+        "title": "Ending",
+        "text": "So **what** now?",
+        "icon": "lucide:flag",
+        "say": "Ending. How it all works out, or doesn't.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Who's it for?",
+        "text": "Audience · **Purpose**",
+        "icon": "lucide:target",
+        "say": "Every story is made for someone, and for a reason: to entertain, to teach, to sell, or to remember.",
+        "vc": [
+          "VPC-U1M1-AP1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Find the shape",
+        "steps": [
+          "Start and problem",
+          "Turning point",
+          "Ending, then why"
+        ],
+        "say": "Start, problem, turning point, ending. Then ask: who's it for, and why?"
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Tell it in **60 seconds**.",
+        "icon": "lucide:book-open",
+        "say": "Your mission. Tell your own 60-second story, using the shape."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Every story has a shape",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Think of a film, a song or a post you watched to the end. Most of them have the same shape.\n\n**1. Start.** We meet the **character**. Where are they? When?\n\n**2. Problem.** Something goes wrong.\n\n**3. Build-up.** It gets harder.\n\n**4. Turning point.** The big moment. Everything changes.\n\n**5. Ending.** How does it work out?\n\n**It's everywhere.** You'll find this shape in:\n\n- films\n- songs\n- ads\n- posts and reels\n- stories people tell at work.\n\n**Who's it for? Why?** Every story is made for some people. That's the **audience**. It's made for a reason:\n\n- to make you laugh\n- to teach you something\n- to sell you something\n- to help you remember.",
+          "core": "Think about a film you loved, a song that tells a story, or a post you watched to the end. They look different. But most of them follow the same shape.\n\n**1. Start.** We meet the **character** and the **setting**: who, where and when. Good stories often start with a **hook**: something that makes you want to keep watching.\n\n**2. Problem.** Something goes wrong, or gets in the way of what the character wants. This is what keeps you hooked. No problem, no story.\n\n**3. Build-up.** Things get harder. The character tries to fix it. The tension grows.\n\n**4. Turning point.** The big moment when everything changes. A choice, a surprise, a phone call.\n\n**5. Ending.** How it works out. Happy, sad, funny or a twist.\n\n**It's everywhere.** You'll find this shape in:\n\n- **films and short films**\n- **songs** that tell a story\n- **ads** (a problem, then the product saves the day)\n- **social media posts** and reels\n- **news features** about a real person\n- the **yarns** people tell at work or at the pub.\n\n**Who's it for, and why?** Every story is made for an **audience**, and for a **purpose**:\n\n- to **entertain** (a comedy short)\n- to **teach** (a safety video that tells a worker's story)\n- to **sell** (an ad)\n- to **remember** (a song about a real event).\n\nThe same shape gets used differently depending on who it's for. A story for kids is simple and safe. A story for adults can be complicated and dark. A 15-second ad has to do it all, fast.",
+          "extend": "Whether it's a feature film, a story-song, a 15-second ad or a reel, most narratives share an underlying structure.\n\n**1. Orientation.** The audience meets the **character** and **setting**. Strong openings include a **hook** that creates curiosity.\n\n**2. Complication.** A **problem** disrupts the character's world or blocks what they want. Conflict drives the story.\n\n**3. Rising action.** Attempts to solve the problem raise the stakes and build tension.\n\n**4. Climax.** The **turning point**: a decision, revelation or event that changes everything.\n\n**5. Resolution.** The consequences play out, in an **ending** that may be happy, tragic, open or twisted.\n\n**Across text types.** This structure appears in films and short films, narrative songs, advertisements (problem, then product as solution), social media content, feature journalism, and everyday anecdotes.\n\n**Audience and purpose.** Creators shape the structure to suit their **audience** and **purpose**: to entertain, inform, persuade or commemorate. A children's story resolves neatly; adult fiction may leave questions open; an ad compresses the whole arc into seconds. Analysing those choices reveals what a text is trying to do, and to whom."
+        },
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP1"
+        ],
+        "vcNote": "The structures and features of narrative texts, and how they're designed for audiences and purposes."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Tropfest: a whole story in 7 minutes",
+        "icon": "lucide:clapperboard",
+        "body": {
+          "support": "**Tropfest** is a famous Australian short film festival. It started in **1993** in Sydney, at a café.\n\nIt has two big rules:\n\n- Every film must be **seven minutes or less**.\n- Every film must show the **Signature Item**. It's an object that changes each year. In 2026, it was an **hourglass**.\n\nSeven minutes is short! So filmmakers hook you fast. They show the problem quickly. They get to the turning point. Then they end it.\n\nYou don't need a lot of time to tell a story. You need a clear shape.",
+          "core": "**Tropfest** is one of Australia's best-known short film festivals.\n\nIt was started in **1993** by actor and filmmaker **John Polson**. The first festival was called the Tropicana Short Film Festival, after a café in Sydney. It showed **nine** short films. It grew into a huge outdoor event, with crowds watching on big screens.\n\nTropfest has two big rules:\n\n- Every film must be **seven minutes or less**, including the titles and credits.\n- Every film must include the **Signature Item**: an object or idea that changes every year. It proves the film was made just for that festival. In 2026, the Signature Item was an **hourglass**.\n\nSeven minutes is not much time. So filmmakers have to be clever. They hook you fast. They set up the problem quickly. They build to a turning point. And they land the ending before the timer runs out.\n\nAfter some years off, Tropfest returned in **February 2026**, at Centennial Park in Sydney.\n\nThe lesson for your own stories: you don't need a lot of time. You need a clear shape.",
+          "extend": "**Tropfest** is among Australia's best-known short film festivals.\n\nIt was founded in **1993** by actor and filmmaker **John Polson**. The first event, named the Tropicana Short Film Festival after a Sydney café, showed **nine** films. It later grew into a major outdoor festival, screened to large crowds.\n\nTwo rules define it:\n\n- Films must run **seven minutes or less**, including titles and credits.\n- Every film must feature the year's **Signature Item**, which changes annually and shows the film was made for that festival. In 2026, the item was an **hourglass**.\n\nThe time limit forces tight structure. Filmmakers must establish character and setting, introduce a complication, build to a climax and resolve it, all within seven minutes. Every shot has to earn its place.\n\nAfter several years away, Tropfest returned in **February 2026** at Centennial Park in Sydney.\n\nFor storytellers, the lesson is that length matters less than structure."
+        },
+        "source": {
+          "name": "Wikipedia — Tropfest",
+          "url": "https://en.wikipedia.org/wiki/Tropfest"
+        },
+        "think": {
+          "support": [
+            "Why is 7 minutes hard?",
+            "What's the Signature Item for?"
+          ],
+          "core": [
+            "Why might a 7-minute limit make stories better, not worse?",
+            "What's the point of the Signature Item?",
+            "Who do you think the audience for Tropfest is?"
+          ]
+        },
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP1"
+        ],
+        "vcNote": "A real Australian festival where story structure is squeezed into seven minutes."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "The shape of a short film",
+      "docTitle": "SHORT FILM PLAN — “THE LAST BUS” (7 MINUTES, EXAMPLE)",
+      "vc": [
+        "VPC-U1M1-LG1"
+      ],
+      "vcNote": "The structure of a narrative text.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "0:00 Hook",
+          "value": "Close-up: a phone at 1% battery. 11:52 pm.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "0:20 Start",
+          "value": "Mia, 17, finishes a late shift at a country service station."
+        },
+        {
+          "n": 3,
+          "label": "1:30 Problem",
+          "value": "She runs to the bus stop. The last bus pulls away."
+        },
+        {
+          "n": 4,
+          "label": "3:00 Build-up",
+          "value": "She starts walking. It's dark, cold, and a long way home."
+        },
+        {
+          "n": 5,
+          "label": "5:00 Turning point",
+          "value": "Headlights. A car slows down. It's her boss, who saw her leave.",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "6:15 Ending",
+          "value": "Next shift: a new roster note. “Late shifts: lift home provided.”"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "Makes you want to keep watching."
+        },
+        {
+          "n": 2,
+          "label": "Start",
+          "note": "Who, where and when."
+        },
+        {
+          "n": 3,
+          "label": "Problem",
+          "note": "What goes wrong."
+        },
+        {
+          "n": 4,
+          "label": "Build-up",
+          "note": "It gets harder. Tension grows."
+        },
+        {
+          "n": 5,
+          "label": "Turning point",
+          "note": "The big moment. Things change."
+        },
+        {
+          "n": 6,
+          "label": "Ending",
+          "note": "How it works out."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Find the shape",
+      "steps": [
+        {
+          "title": "Start",
+          "text": "Who, where, when?",
+          "icon": "lucide:user"
+        },
+        {
+          "title": "Problem",
+          "text": "What goes wrong?",
+          "icon": "lucide:triangle-alert"
+        },
+        {
+          "title": "Turning point",
+          "text": "What changes?",
+          "icon": "lucide:zap"
+        },
+        {
+          "title": "Ending",
+          "text": "How does it end? Who's it for?",
+          "icon": "lucide:flag"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What usually comes first in a story?",
+        "options": [
+          "We meet the character and setting",
+          "The ending",
+          "The turning point",
+          "The credits"
+        ],
+        "answer": 0,
+        "explain": "Who, where, when.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "What's the **turning point**?",
+        "options": [
+          "The big moment when everything changes",
+          "The title",
+          "The first line",
+          "The setting"
+        ],
+        "answer": 0,
+        "explain": "A choice, a surprise, a call.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "An ad shows someone's car breaking down, then a roadside service saves the day. What's the ad's **purpose**?",
+        "options": [
+          "To sell the service",
+          "To teach car repair",
+          "To make you laugh",
+          "To remember an event"
+        ],
+        "answer": 0,
+        "explain": "Problem, then product.",
+        "vc": [
+          "VPC-U1M1-AP1"
+        ]
+      },
+      {
+        "q": "Tropfest films must be…",
+        "options": [
+          "Seven minutes or less",
+          "At least an hour",
+          "Silent",
+          "Black and white"
+        ],
+        "answer": 0,
+        "explain": "Plus the Signature Item.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "Where can you find the story shape?",
+        "options": [
+          "Films, songs, ads, posts and real-life yarns",
+          "Only in books",
+          "Only in films",
+          "Nowhere"
+        ],
+        "answer": 0,
+        "explain": "It's everywhere.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "Why would a story for young kids be different from one for adults?",
+        "options": [
+          "It's made for a different audience",
+          "Kids don't like stories",
+          "Adults can't read",
+          "There's no difference"
+        ],
+        "answer": 0,
+        "explain": "Audience shapes the story.",
+        "vc": [
+          "VPC-U1M1-AP1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "In a group discussion about which story works best, what makes your point strongest?",
+        "options": [
+          "Giving an example from the story as evidence",
+          "Talking loudest",
+          "Interrupting",
+          "Saying “it's just better”"
+        ],
+        "answer": 0,
+        "explain": "Back your view with evidence.",
+        "vc": [
+          "VPC-U1M1-AP6"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan a short story. Start, problem, turning point, ending. Tell it in 60 seconds.",
+      "core": "Plan and tell a 60-second story (true or made up) using the story shape: as a video, a recording, or out loud to your group.",
+      "extend": "Plan and tell a 60- to 90-second story for a chosen audience and purpose, using a hook, complication, climax and resolution, then explain your choices."
+    },
+    "checklist": [
+      "My story has a start (who, where, when)",
+      "It has a problem",
+      "It has a turning point",
+      "It has an ending",
+      "I know who it's for and why",
+      "I told it in about 60 seconds"
+    ],
+    "levelUp": "In a group, discuss which story shape works best for a reel versus a feature film, using examples as evidence.",
+    "vc": [
+      "VPC-U1M1-LG1",
+      "VPC-U1M1-AP1"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Every story has a shape",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name the **five parts** of a story's shape.",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ]
+          },
+          {
+            "q": "Name **three** kinds of text that use the story shape.",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ]
+          },
+          {
+            "q": "Name **two** purposes a story can have.",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Find the shape",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "The shape of a short film",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the story. Use the word bank. What does it do?",
+          "core": "Each number marks part of the film plan. Write which part of the story it is, and what it does."
+        },
+        "columns": [
+          "Which part?",
+          "What does it do?"
+        ],
+        "wordBank": {
+          "support": [
+            "hook",
+            "start",
+            "problem",
+            "build-up",
+            "turning point",
+            "ending"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Which part of the story?",
+        "pagebreak": true,
+        "choices": [
+          "Start",
+          "Problem",
+          "Turning point",
+          "Ending"
+        ],
+        "reasonLabel": "How I know:",
+        "instructions": "Each line comes from a different story, song or ad. Which part of the story is it? Tick one.",
+        "cards": [
+          {
+            "from": "Song",
+            "text": "“I grew up in a town where the trains don't stop no more.”",
+            "answer": "Start",
+            "flags": "Sets the scene: where and who."
+          },
+          {
+            "from": "Short film",
+            "text": "“Then the phone rang. It was the hospital.”",
+            "answer": "Turning point",
+            "flags": "Everything changes."
+          },
+          {
+            "from": "Ad",
+            "text": "“Your car won't start. You're late. Again.”",
+            "answer": "Problem",
+            "flags": "Something goes wrong."
+          },
+          {
+            "from": "Reel",
+            "text": "“And that's how I ended up with a job, a ute and a dog called Pickles.”",
+            "answer": "Ending",
+            "flags": "How it all worked out."
+          },
+          {
+            "from": "Story",
+            "text": "“The coach looked at me and said, ‘You're starting today.’”",
+            "answer": "Turning point",
+            "flags": "A big moment of change.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Safety video",
+            "text": "“Jack had worked on the site for three years.”",
+            "answer": "Start",
+            "flags": "Meets the character.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-LG1"
+        ],
+        "vcNote": "Identifying the structure of narrative texts."
+      },
+      {
+        "type": "table",
+        "title": "Map a story you know",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Choose a film, song, episode or reel you know well. Map its shape. The first column is an example.",
+        "columns": [
+          "Part",
+          "“The Last Bus” (example)",
+          "My story"
+        ],
+        "rows": [
+          [
+            "Start",
+            "Mia, 17, finishing a late shift",
+            ""
+          ],
+          [
+            "Problem",
+            "She misses the last bus",
+            ""
+          ],
+          [
+            "Turning point",
+            "Her boss pulls up and offers a lift",
+            ""
+          ],
+          [
+            "Ending",
+            "Late shifts now come with a lift home",
+            ""
+          ],
+          [
+            "Who's it for, and why?",
+            "Young workers; to show bosses can help",
+            ""
+          ]
+        ],
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP1"
+        ],
+        "vcNote": "Describing the structure of a narrative and explaining its audience and purpose."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Tropfest",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why might a 7-minute limit make stories **better**, not worse?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ]
+          },
+          {
+            "q": "What's the point of the **Signature Item**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          },
+          {
+            "q": "Who do you think Tropfest's **audience** is? Why?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "storyboard",
+        "title": "Plan my 60-second story",
+        "pagebreak": true,
+        "frames": 4,
+        "columns": 2,
+        "boxHeight": {
+          "support": 64,
+          "core": 62
+        },
+        "instructions": "Plan your story in four boxes. Sketch it, or write key words. It can be true (something that happened to you) or made up.",
+        "rows": [
+          "What happens",
+          "What I'll say"
+        ],
+        "hints": [
+          "Start: who, where, when?",
+          "Problem: what goes wrong?",
+          "Turning point: what changes?",
+          "Ending: how does it end?"
+        ],
+        "vc": [
+          "VPC-U1M1-LG1"
+        ],
+        "vcNote": "Planning a narrative using its structure."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: tell it in 60 seconds",
+        "pagebreak": true,
+        "where": "in class, or at home with a phone",
+        "instructions": "Tell your story in about 60 seconds. Choose how: film it, record it, or tell it out loud to your group.",
+        "need": [
+          "your story plan",
+          "a phone (if filming or recording)",
+          "a timer"
+        ],
+        "steps": {
+          "support": [
+            "Who is your story for?",
+            "Practise it with a timer.",
+            "Start with something that grabs them.",
+            "Tell or film your story.",
+            "Ask: what was the big moment?"
+          ],
+          "core": [
+            "Decide who your story is **for** and **why** (to make them laugh, to teach, to remember).",
+            "Practise it out loud with a timer. Cut anything that doesn't help the story.",
+            "Start with a **hook**.",
+            "Tell (or film) your story.",
+            "Ask your audience: what was the turning point? Did they get it?"
+          ]
+        },
+        "notes": [
+          {
+            "label": "My audience and purpose:",
+            "lines": 1
+          },
+          {
+            "label": "What my audience said the turning point was:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Video",
+          "Recording",
+          "Teacher saw it"
+        ],
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP1"
+        ],
+        "vcNote": "Hands-on: creating a narrative for an audience and purpose."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "In a small group, discuss: does the story shape work differently in a **15-second reel** and a **feature film**? Give an example of each as evidence. Write your view here.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP6"
+            ]
+          },
+          {
+            "q": "Find a song that tells a story. Map its shape, and explain who it's for and why it was made.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can name the parts of a story.",
+          "I can find the shape in a film or song.",
+          "I can say who a story is for, and why.",
+          "I can tell my own short story."
+        ],
+        "questions": [
+          "A story I'll now watch differently:",
+          "My 60-second story in one line:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the shape of a narrative (start, problem, build-up, turning point, ending), find it across films, songs, ads, reels and everyday yarns, and explain how stories are designed for audiences and purposes. They annotate a short film plan, sort story lines, map a story they know, plan with a storyboard, and tell a 60-second story. The case study is Tropfest, the Australian short film festival started in 1993, where films must be seven minutes or less and include a yearly Signature Item.",
+    "prep": [
+      "Choose one short film (under 7 minutes) or a story-song to model the shape. Preview it for content.",
+      "Optional: find an example Tropfest Signature Item from a past year.",
+      "Phones or devices for students who choose to film or record."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Every story has a shape",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** play a short film or story-song. What happened?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Short film plan (10 min).**",
+          "**Which part of the story? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Map it, then plan",
+        "minutes": 50,
+        "steps": [
+          "**Map a story you know (15 min).**",
+          "**Case study (15 min):** Tropfest.",
+          "**Plan my 60-second story (20 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Tell it",
+        "minutes": 50,
+        "steps": [
+          "**Practise (10 min).**",
+          "**Do it (25 min):** tell, film or record.",
+          "**Level Up, reflect (15 min):** group discussion; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Story shape: start (character, setting, hook), problem, build-up, turning point, ending.",
+      "The shape appears in films, songs, ads, reels, news features and everyday yarns.",
+      "Stories are made for an audience and a purpose: entertain, teach, sell, remember.",
+      "Tropfest (since 1993): films of seven minutes or less, with a yearly Signature Item (an hourglass in 2026)."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the film plan.",
+        "Fewer sort cards.",
+        "Tell the story to one partner."
+      ],
+      "extend": [
+        "Use orientation, complication, climax and resolution.",
+        "Explain choices for audience and purpose; group discussion with evidence (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U1M1-LG1",
+        "evidence": "Identifies and describes the structure of narrative texts (film plan, sort, story map)."
+      },
+      {
+        "vc": "VPC-U1M1-AP1",
+        "evidence": "Explains how a story is designed for its audience and purpose (story map, case study, Do it)."
+      },
+      {
+        "vc": "VPC-U1M1-AP6",
+        "evidence": "Level Up: participates in a group discussion and uses evidence to support a view."
+      }
+    ],
+    "answers": "**Check your reading:** start, problem, build-up, turning point, ending. E.g. films, songs, ads, posts, news features, yarns. E.g. entertain, teach, sell, remember.\n\n**Film plan:** 1 hook; 2 start; 3 problem; 4 build-up; 5 turning point; 6 ending.\n\n**Sort:** song — start; phone rang — turning point; car won't start — problem; Pickles — ending; coach — turning point; Jack — start.\n\n**Case study:** the limit forces a tight, clear shape with nothing wasted; the Signature Item proves the film is new and made for the festival; audience: film fans, families and the general public at an outdoor event.",
+    "resources": [
+      {
+        "label": "Wikipedia — Tropfest",
+        "url": "https://en.wikipedia.org/wiki/Tropfest"
+      },
+      {
+        "label": "AAP — Timely Tropfest return like sands through the hourglass",
+        "url": "https://aapnews.aap.com.au/news/timely-tropfest-return-like-sands-through-the-hourglass"
+      }
+    ],
+    "realityCheck": [
+      "**Some students freeze on “a story”.** Let them tell a true story about something small: a bad shift, a funny moment, a lost phone.",
+      "**Filming is optional.** Telling it out loud counts.",
+      "**Keep content appropriate.** Remind students their audience is the class.",
+      "**Works in a real class:** yes. It's quick, fun and builds confidence for later speaking courses."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the film plan, fewer sort cards, and telling the story to one partner.",
+      "core": "Standard version: the story shape, a short film plan, a story-part sort, mapping a known story, the Tropfest case, a storyboard plan, and a 60-second story.",
+      "extend": "Adds audience and purpose to the vocabulary, a quiz question on discussion, narrative terms (orientation, complication, climax, resolution), and Level Ups on group discussion with evidence and analysing a story-song."
+    }
+  }
+}

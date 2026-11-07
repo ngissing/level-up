@@ -1,0 +1,951 @@
+{
+  "id": "vpc-letters-that-work",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with email access",
+  "brief": {
+    "hook": {
+      "support": "Your pay is $90 short. You could ignore it. You could yell. Or you could send one clear, polite email. Which one works?",
+      "core": "You check your pay and something's wrong. You're $90 short. You could ignore it. You could have a go at your boss on the shop floor. Or you could send one clear, polite email that gets it fixed. Which one gets your money back?"
+    },
+    "why": {
+      "support": "Emails get things done. A clear, polite email gets an answer. A messy one gets ignored.",
+      "core": "Emails and letters get things done: asking for work experience, sorting out your pay, booking an appointment, making a complaint. The right email, written the right way, gets you the right answer. The wrong one gets ignored.",
+      "extend": "Formal emails and letters are among the most common workplace and everyday texts. Their structure and conventions (a clear subject, purpose up front, specific details, a polite request and a professional sign-off) determine whether they achieve their purpose."
+    },
+    "canDo": {
+      "support": [
+        "I can name the parts of an email.",
+        "I can choose formal or casual.",
+        "I can plan, write and fix an email.",
+        "I can check my spelling and full stops."
+      ],
+      "core": [
+        "I can name the **parts** of a formal email or letter.",
+        "I can choose a **formal** or **casual** style for my audience.",
+        "I can **plan**, **draft** and **edit** an email.",
+        "I can use correct **punctuation**, **spelling** and **paragraphs**."
+      ]
+    },
+    "showIt": "Plan, draft, edit and send a real email (or letter) that asks for something you need.",
+    "vocab": [
+      {
+        "word": "subject line",
+        "meaning": "the short title of an email",
+        "example": "The subject line was “Pay query: week of 3 March”."
+      },
+      {
+        "word": "greeting",
+        "meaning": "how you start an email, like “Hi Sam” or “Dear Ms Lee”",
+        "example": "The greeting was “Dear Ms Lee”."
+      },
+      {
+        "word": "formal",
+        "meaning": "polite and professional, for work or officials",
+        "example": "Use a formal email for your boss."
+      },
+      {
+        "word": "casual",
+        "meaning": "relaxed, for friends and family",
+        "example": "A text to a mate is casual."
+      },
+      {
+        "word": "request",
+        "meaning": "asking for something",
+        "example": "My request was for the missing pay."
+      },
+      {
+        "word": "sign-off",
+        "meaning": "how you end an email, like “Kind regards”",
+        "example": "My sign-off was “Thanks, Jordan”."
+      },
+      {
+        "word": "draft",
+        "meaning": "a first go at writing something",
+        "example": "My first draft was too long.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "proofread",
+        "meaning": "check carefully for mistakes",
+        "example": "I proofread before I hit send.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Letters That Work in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Letters That Work",
+        "sub": "The right email gets the right answer.",
+        "icon": "lucide:mail",
+        "say": "Letters that work. The right email gets you the right answer."
+      },
+      {
+        "kind": "stat",
+        "big": "$358M",
+        "title": "recovered for underpaid workers in 2024–25",
+        "sub": "Fair Work Ombudsman, October 2025",
+        "say": "In 2024–25, the Fair Work Ombudsman got back three hundred and fifty-eight million dollars for more than two hundred and forty-nine thousand underpaid workers.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Email",
+        "pillIcon": "lucide:mail",
+        "title": "Subject line",
+        "text": "“Pay query: **week of 3 March**”",
+        "icon": "lucide:type",
+        "say": "Subject line. Say what it's about, in a few words.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Email",
+        "pillIcon": "lucide:mail",
+        "title": "Purpose first",
+        "text": "“I'm writing **to ask**…”",
+        "icon": "lucide:hand",
+        "say": "Greeting and purpose. Say hello, then say why you're writing, in the first line.",
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Email",
+        "pillIcon": "lucide:mail",
+        "title": "Details",
+        "text": "Dates · Times · **Amounts**",
+        "icon": "lucide:list",
+        "say": "Details. Dates, times, amounts. Short paragraphs.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Email",
+        "pillIcon": "lucide:mail",
+        "title": "The ask",
+        "text": "What · **By when**",
+        "icon": "lucide:send",
+        "say": "The ask. Say exactly what you want, and by when. Then sign off politely.",
+        "vc": [
+          "VPC-U1M1-LG3"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Check before you send",
+        "text": "Read it **out loud**",
+        "icon": "lucide:spell-check",
+        "say": "Before you send: read it out loud. Check spelling, capitals and full stops. Would you be happy if your boss forwarded it to someone?",
+        "vc": [
+          "VPC-U1M1-AP7",
+          "VPC-U1M1-AP4"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Write any email",
+        "steps": [
+          "Plan: who and why",
+          "Draft: purpose first",
+          "Check, then send"
+        ],
+        "say": "Plan it, draft it, check it, then send it."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Hit **send** with confidence.",
+        "icon": "lucide:mail",
+        "say": "Your mission. Write and send a real email that asks for something you need."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Emails that get answers",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A good email is short, clear and polite. It says what you need.\n\n**Who is it for?** A boss or a business needs a **formal** email. Polite. A friend gets a **casual** one.\n\n**The parts**\n\n1. **Subject line:** what it's about. *“Pay query: week of 3 March”*.\n2. **Greeting:** *“Dear Ms Lee,”* or *“Hi Sam,”*.\n3. **Why you're writing:** say it first. *“I'm writing to ask about my pay.”*\n4. **Details:** dates, times, amounts.\n5. **What you want, and by when.**\n6. **Sign-off:** *“Thanks,”* and your name and phone number.\n\n**Plan, write, check**\n\n- Plan: who's it for? What do you want?\n- Write it.\n- Check: capitals, full stops, spelling. No “u” or “thx”.\n\n**Stay calm.** Even if you're angry. Calm emails get answers.",
+          "core": "A good email is short, clear and polite, and it tells the reader exactly what you need. Here's how.\n\n**Know your audience.** Who are you writing to? A boss, a teacher, a council or a business needs a **formal** email: polite and professional. A friend gets a **casual** one. Don't mix them up: “hey u there?” won't get your pay fixed.\n\n**The parts of a formal email**\n\n1. **Subject line:** what it's about, in a few words. *“Pay query: week of 3 March”*, not *“Question”*.\n2. **Greeting:** *“Dear Ms Lee,”* or *“Hi Sam,”* if that's how you normally talk to them.\n3. **Purpose:** say why you're writing, in the first sentence. *“I'm writing to ask about my pay for the week of 3 March.”*\n4. **Details:** the facts they need: dates, times, amounts, order numbers. Use short paragraphs.\n5. **Request:** exactly what you want, and by when. *“Could you please check this and let me know by Friday 14 March?”*\n6. **Sign-off:** *“Kind regards,”* or *“Thanks,”* then your full name and phone number.\n\n**Plan, draft, edit**\n\n- **Plan:** who's it for? What do you want? What details do they need?\n- **Draft:** write it out. Don't worry about perfect yet.\n- **Edit:** cut extra words. Make the request clear. Then **proofread**: capitals, full stops, spelling, no text-speak.\n\n**Keep it calm.** Even if you're angry, stay polite and stick to the facts. Angry emails get defensive answers. Calm ones get results.\n\n**One last check.** Would you be happy if this email was forwarded to someone else? If yes, hit send.",
+          "extend": "Effective emails are concise, specific and courteous, and they make the reader's next step obvious.\n\n**Register.** Match the style to your audience. Employers, institutions and businesses expect a **formal** register: polite, professional and free of slang. Friends and family can receive **casual** messages. Using the wrong register undermines your purpose.\n\n**Structure of a formal email**\n\n1. **Subject line:** specific and informative (*“Pay query: week of 3 March”*).\n2. **Greeting:** appropriate to the relationship (*“Dear Ms Lee,”*).\n3. **Purpose:** stated in the opening sentence.\n4. **Details:** the facts the reader needs (dates, hours, amounts, reference numbers) in short paragraphs.\n5. **Request:** precise, with a reasonable deadline.\n6. **Sign-off:** courteous, with your full name and contact details.\n\n**Process.** **Plan** (audience, purpose, details), **draft** without over-editing, then **revise** for clarity and concision. Finally, **proofread** for capitals, punctuation, spelling and paragraphing.\n\n**Tone.** Stay calm and factual, even when you're frustrated. Measured emails invite cooperation; hostile ones invite defensiveness.\n\n**Final test.** Would you be comfortable if the email were forwarded to a manager or official? If so, send it."
+        },
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-AP7"
+        ],
+        "vcNote": "The structure and features of emails and letters; planning, drafting and editing; conventions of literacy."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Getting back what you're owed",
+        "icon": "lucide:banknote",
+        "body": {
+          "support": "Lots of people get underpaid. In **2024–25**, the **Fair Work Ombudsman** got back **$358 million** for underpaid workers. That's more than **249,000** people.\n\nYoung workers are more likely to be underpaid.\n\nThe first step is often a clear email to your boss. Legal centres say:\n\n- work out what you should have been paid\n- write to your boss with the details: dates, hours, amount\n- ask them to pay it, for example within 14 days\n- say you'll contact the Fair Work Ombudsman if they don't.\n\nYou can call the Fair Work Ombudsman on **13 13 94**.\n\nA clear email is often the fastest fix. It also gives you a record.",
+          "core": "Lots of Australians get underpaid. The **Fair Work Ombudsman** is the government body that checks pay at work. In **2024–25**, it got back **$358 million** for more than **249,000** underpaid workers.\n\nIt said **young workers** made up more than their share of the anonymous reports it got. Young people are more likely to be underpaid. They're also less likely to know what to do.\n\nOften, the first step is a clear, written message to your boss. Legal centres, like Redfern Legal Centre, say you should:\n\n- **work out** what you should have been paid, and what you were paid\n- **write to your employer**, setting out the details: dates, hours and the amount\n- **ask** them to pay it within a reasonable time, such as 14 days\n- **say what you'll do** if they don't, such as contacting the Fair Work Ombudsman.\n\nIf that doesn't work, you can contact the Fair Work Ombudsman on **13 13 94**. Generally, you have up to six years to claim unpaid wages.\n\nA calm, clear email won't fix every problem. But it's often the fastest fix. It also gives you a written record if you need help later.",
+          "extend": "Underpayment is common. In **2024–25**, the **Fair Work Ombudsman** (FWO) recovered **$358 million** for more than **249,000** underpaid workers.\n\nThe FWO said **young workers**, who can be easy to exploit, were over-represented in the anonymous reports it received.\n\nA written request is often the first step. Legal centres such as Redfern Legal Centre advise workers to:\n\n- **calculate** what they should have been paid and what they received\n- **write to the employer** with specific details (dates, hours and the amount owed)\n- **request payment** within a reasonable period, such as 14 days\n- **state the next step** if payment isn't made, such as contacting the FWO.\n\nIf the issue isn't resolved, workers can contact the FWO on **13 13 94**. There is generally a six-year limit for claiming unpaid wages.\n\nA clear email won't solve every dispute. But it's often the quickest fix. It also creates a written record that can support a later claim."
+        },
+        "source": {
+          "name": "Fair Work Ombudsman — $358 million back-paid to Australian workers (October 2025)",
+          "url": "https://www.fairwork.gov.au/newsroom/media-releases/2025-media-releases/october-2025/20251029-annual-report-2024-25-media-release"
+        },
+        "think": {
+          "support": [
+            "Why write it down, not just say it?",
+            "What details would you put in?"
+          ],
+          "core": [
+            "Why might young workers be more likely to be underpaid?",
+            "Why is a written email better than a quick chat on the shop floor?",
+            "What details would your email need to include?"
+          ]
+        },
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-LG3"
+        ],
+        "vcNote": "A real reason to write a clear formal email, with Australian data and advice."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a formal email",
+      "docTitle": "EMAIL TO A MANAGER (EXAMPLE)",
+      "vc": [
+        "VPC-U1M1-LG1",
+        "VPC-U1M1-AP7"
+      ],
+      "vcNote": "The structure and conventions of a formal email.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Subject",
+          "value": "Pay query: week of 3 March",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Greeting",
+          "value": "Dear Ms Lee,"
+        },
+        {
+          "n": 3,
+          "label": "Purpose",
+          "value": "I'm writing to ask about my pay for the week of 3 March."
+        },
+        {
+          "n": 4,
+          "label": "Details",
+          "value": "I worked 18 hours (roster attached), but my payslip shows 14 hours. I think I'm owed about $90."
+        },
+        {
+          "n": 5,
+          "label": "Request",
+          "value": "Could you please check this and let me know by Friday 14 March?",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Sign-off",
+          "value": "Kind regards, Jordan Lee · 0400 000 000"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Subject line",
+          "note": "Specific. The reader knows what it's about."
+        },
+        {
+          "n": 2,
+          "label": "Greeting",
+          "note": "Formal, with their name."
+        },
+        {
+          "n": 3,
+          "label": "Purpose first",
+          "note": "Why you're writing, in one line."
+        },
+        {
+          "n": 4,
+          "label": "Details",
+          "note": "Facts: hours, dates, amount, proof."
+        },
+        {
+          "n": 5,
+          "label": "Request",
+          "note": "What you want, and by when."
+        },
+        {
+          "n": 6,
+          "label": "Sign-off",
+          "note": "Polite, with your name and number."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Write any email",
+      "steps": [
+        {
+          "title": "Plan",
+          "text": "Who's it for? What do I want?",
+          "icon": "lucide:clipboard-list"
+        },
+        {
+          "title": "Draft",
+          "text": "Purpose first, then details.",
+          "icon": "lucide:pencil"
+        },
+        {
+          "title": "Edit",
+          "text": "Clear ask. Calm tone.",
+          "icon": "lucide:scissors"
+        },
+        {
+          "title": "Proofread and send",
+          "text": "Capitals, full stops, spelling.",
+          "icon": "lucide:send"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is the best **subject line**?",
+        "options": [
+          "Pay query: week of 3 March",
+          "Question",
+          "hey",
+          "URGENT!!!"
+        ],
+        "answer": 0,
+        "explain": "Specific and clear.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "Where should you say **why** you're writing?",
+        "options": [
+          "In the first sentence",
+          "At the very end",
+          "Nowhere",
+          "In the subject only"
+        ],
+        "answer": 0,
+        "explain": "Purpose first.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "You're emailing your manager. Which greeting fits best?",
+        "options": [
+          "Dear Ms Lee,",
+          "yo",
+          "sup boss",
+          "Hey babe"
+        ],
+        "answer": 0,
+        "explain": "Formal audience, formal greeting.",
+        "vc": [
+          "VPC-U1M1-LG3"
+        ]
+      },
+      {
+        "q": "Which line is a clear **request**?",
+        "options": [
+          "Could you please check this and let me know by Friday 14 March?",
+          "Fix it.",
+          "Whatever.",
+          "I guess maybe if you have time?"
+        ],
+        "answer": 0,
+        "explain": "What, and by when.",
+        "vc": [
+          "VPC-U1M1-LG3"
+        ]
+      },
+      {
+        "q": "In 2024–25, how much did the Fair Work Ombudsman recover for underpaid workers?",
+        "options": [
+          "$358 million",
+          "$358",
+          "$3.58",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "For more than 249,000 workers.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "What should you do **just before** you hit send?",
+        "options": [
+          "Proofread it, out loud if you can",
+          "Add more emojis",
+          "Make it longer",
+          "Write in capitals"
+        ],
+        "answer": 0,
+        "explain": "Check capitals, full stops and spelling.",
+        "vc": [
+          "VPC-U1M1-AP7",
+          "VPC-U1M1-AP4"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Why is a text message the wrong choice for a formal complaint to a company?",
+        "options": [
+          "It's casual, and may not reach the right person or create a record",
+          "Texts are illegal",
+          "Companies can't read",
+          "It's always too long"
+        ],
+        "answer": 0,
+        "explain": "Design the text for its audience and purpose.",
+        "vc": [
+          "VPC-U1M1-AP1"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan, write, check and send a real email that asks for something.",
+      "core": "Plan, draft, edit and send a real email (or letter) that asks for something you need.",
+      "extend": "Plan, draft, revise and send a real formal email or letter for a specific audience and purpose, then explain how its structure and register suit that audience."
+    },
+    "checklist": [
+      "My subject line is clear",
+      "I said why I'm writing in the first sentence",
+      "I gave the details they need",
+      "My request says what and by when",
+      "My tone is calm and polite",
+      "I proofread it before sending"
+    ],
+    "levelUp": "Compare a formal letter and a text message with the same purpose, and explain how each is designed for its audience.",
+    "vc": [
+      "VPC-U1M1-LG3",
+      "VPC-U1M1-AP4",
+      "VPC-U1M1-AP7"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Emails that get answers",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What's the difference between a **formal** and a **casual** email? When would you use each?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG3"
+            ]
+          },
+          {
+            "q": "List the **six parts** of a formal email.",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ]
+          },
+          {
+            "q": "What should you check when you **proofread**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Write any email",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a formal email",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the email. Use the word bank. Why is it there?",
+          "core": "Each number marks part of the email. Write what it is and why it's there."
+        },
+        "columns": [
+          "What is it?",
+          "Why is it there?"
+        ],
+        "wordBank": {
+          "support": [
+            "subject line",
+            "greeting",
+            "purpose",
+            "details",
+            "request",
+            "sign-off"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Good email line, or fix it?",
+        "pagebreak": true,
+        "choices": [
+          "Good",
+          "Fix it"
+        ],
+        "reasonLabel": "Why (or how to fix it):",
+        "instructions": "These lines are from emails to a manager. Is each one good, or does it need fixing?",
+        "cards": [
+          {
+            "from": "Subject",
+            "text": "“Question”",
+            "answer": "Fix it",
+            "flags": "Too vague. Try “Pay query: week of 3 March”."
+          },
+          {
+            "from": "Greeting",
+            "text": "“hey”",
+            "answer": "Fix it",
+            "flags": "Too casual. Try “Dear Ms Lee,” or “Hi Sam,”."
+          },
+          {
+            "from": "Opening",
+            "text": "“I'm writing to ask about my pay for the week of 3 March.”",
+            "answer": "Good",
+            "flags": "Purpose first."
+          },
+          {
+            "from": "Details",
+            "text": "“u owe me $$$”",
+            "answer": "Fix it",
+            "flags": "Text-speak, no details, rude tone."
+          },
+          {
+            "from": "Request",
+            "text": "“Could you please let me know by Friday 14 March?”",
+            "answer": "Good",
+            "flags": "Clear ask and deadline.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Sign-off",
+            "text": "“Thanks, Jordan Lee, 0400 000 000”",
+            "answer": "Good",
+            "flags": "Polite, with name and number.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP7"
+        ],
+        "vcNote": "Judging the features and conventions of a formal email."
+      },
+      {
+        "type": "table",
+        "title": "Fix the email",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Rewrite each line so it works in a formal email. The first one is done for you.",
+        "columns": [
+          "Draft line",
+          "Better line"
+        ],
+        "rows": [
+          [
+            "hey can i get work experience",
+            "Dear Mr Patel, I'm writing to ask if you offer work experience."
+          ],
+          [
+            "i was ment to get paid more last week",
+            ""
+          ],
+          [
+            "Can u call me",
+            ""
+          ],
+          [
+            "thx bye",
+            ""
+          ],
+          {
+            "cells": [
+              "I REALLY NEED THIS SORTED NOW",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-AP7",
+          "VPC-U1M1-AP4"
+        ],
+        "vcNote": "Editing for tone and the conventions of literacy."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: getting back what you're owed",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why might young workers be more likely to be underpaid?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ]
+          },
+          {
+            "q": "Why is a written email better than a quick chat on the shop floor?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG3"
+            ]
+          },
+          {
+            "q": "What details would your email need to include?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG1",
+              "VPC-U1M1-LG3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Draft my email",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Pick something you need. Plan it. Then write your email.",
+          "core": "Choose something you really need: to ask for work experience, sort out your pay or a bill, book an appointment, ask a question, or make a complaint. Plan it, then draft your email below.",
+          "extend": "Choose a real purpose and audience. Plan, then draft a formal email that states its purpose up front, gives precise details, makes a specific request with a deadline, and uses an appropriate register."
+        },
+        "plan": [
+          {
+            "label": "Who it's to, and why",
+            "lines": 1
+          },
+          {
+            "label": "Subject line",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "Dear ___,",
+            "I'm writing to ask…",
+            "Could you please…?",
+            "Thanks,"
+          ],
+          "core": [
+            "Dear ___,",
+            "I'm writing to ask…",
+            "The details are…",
+            "Could you please ___ by ___?",
+            "Kind regards,"
+          ]
+        },
+        "lines": {
+          "support": 10,
+          "core": 11
+        },
+        "check": [
+          "clear subject line",
+          "purpose first",
+          "details given",
+          "request and deadline",
+          "calm tone",
+          "proofread"
+        ],
+        "vc": [
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-AP7"
+        ],
+        "vcNote": "Planning and drafting a formal email."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: hit send",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Edit your draft, then send it for real. Check with your teacher first. Can't send it for real? Send it to your teacher as practice.",
+        "need": [
+          "your draft",
+          "an email account",
+          "your teacher's OK"
+        ],
+        "steps": {
+          "support": [
+            "Fix your draft.",
+            "Read it out loud. Check spelling and full stops.",
+            "Ask a partner: is it clear?",
+            "Get your teacher's OK. Send it.",
+            "Did you get a reply?"
+          ],
+          "core": [
+            "**Edit** your draft: cut extra words, make the request clear.",
+            "**Proofread** it out loud: capitals, full stops, spelling.",
+            "Swap with a partner. Ask: what does this email want? By when?",
+            "Get your teacher's OK, then **send** it (or send it to your teacher as practice).",
+            "Record what happens. Did you get a reply?"
+          ]
+        },
+        "notes": [
+          {
+            "label": "Who I sent it to:",
+            "lines": 1
+          },
+          {
+            "label": "What my partner said:",
+            "lines": 1
+          },
+          {
+            "label": "The reply (if any):",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Copy of sent email",
+          "Teacher saw it",
+          "Reply"
+        ],
+        "vc": [
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-AP7"
+        ],
+        "vcNote": "Hands-on: creating, editing and sending a real formal email."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "You need to tell your manager you're sick and can't work tomorrow. Write it as a **text message**, then as a **formal email**. How is each one designed for its audience and purpose?",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          },
+          {
+            "q": "Find a real email or letter you've received (a bill, an offer, a reminder). How is it designed for you? What would you improve?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can name the parts of an email.",
+          "I can choose formal or casual.",
+          "I can plan, draft and edit an email.",
+          "I can proofread my writing."
+        ],
+        "questions": [
+          "The email I sent:",
+          "My best email tip:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the structure and conventions of formal emails and letters (subject line, greeting, purpose first, details, request with a deadline, sign-off), choose a formal or casual register for the audience, and plan, draft, edit and proofread. They annotate a model email, sort and fix email lines, then draft and send a real email (or a practice one to the teacher). The case study is underpayment: in 2024–25 the Fair Work Ombudsman recovered $358 million for more than 249,000 underpaid workers, and young workers were over-represented in anonymous reports. A clear written request to the employer is often the first step.",
+    "prep": [
+      "Decide what students can send for real (work experience requests, questions to businesses or councils) and what goes to you as practice.",
+      "Make sure students have access to an email account (school or personal).",
+      "Optional: have the Fair Work Ombudsman's pay calculator or young workers pages ready."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Emails that get answers",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** read a terrible email aloud. Would you reply?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a formal email (10 min).**",
+          "**Good line, or fix it? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Fix, then plan",
+        "minutes": 50,
+        "steps": [
+          "**Fix the email (15 min).**",
+          "**Case study (15 min):** getting back what you're owed.",
+          "**Draft my email (20 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Hit send",
+        "minutes": 50,
+        "steps": [
+          "**Edit and peer check (15 min).**",
+          "**Do it (20 min):** send.",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Match formal or casual style to the audience.",
+      "Formal email: subject, greeting, purpose first, details, request with deadline, sign-off.",
+      "Plan, draft, edit, proofread.",
+      "Stay calm and factual, even when frustrated.",
+      "In 2024–25 the FWO recovered $358 million for more than 249,000 underpaid workers; young workers were over-represented in anonymous reports.",
+      "If you're underpaid: work it out, write to your employer with details and a deadline, then contact the FWO (13 13 94) if needed."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the email.",
+        "Fewer sort cards and table rows.",
+        "An email frame with the six parts labelled."
+      ],
+      "extend": [
+        "Explain register and design choices.",
+        "Level Ups comparing a text and an email, and critiquing a real email."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U1M1-LG1",
+        "evidence": "Identifies and describes the parts of a formal email (annotation, sort)."
+      },
+      {
+        "vc": "VPC-U1M1-LG3",
+        "evidence": "Creates an email for a specific audience and purpose (draft, Do it)."
+      },
+      {
+        "vc": "VPC-U1M1-AP4",
+        "evidence": "Plans, drafts and edits an email (draft, Do it)."
+      },
+      {
+        "vc": "VPC-U1M1-AP7",
+        "evidence": "Applies conventions: capitals, punctuation, spelling, paragraphs (fix the email, proofreading)."
+      },
+      {
+        "vc": "VPC-U1M1-AP1",
+        "evidence": "Level Up: explains how a text message and an email are designed for audience and purpose."
+      }
+    ],
+    "answers": "**Check your reading:** formal is polite and professional for work, officials and businesses; casual is relaxed for friends. Subject, greeting, purpose, details, request, sign-off. Capitals, full stops, spelling, no text-speak.\n\n**Email:** 1 subject line; 2 greeting; 3 purpose first; 4 details with proof; 5 request with deadline; 6 sign-off with name and number.\n\n**Sort:** “Question” — fix; “hey” — fix; purpose line — good; “u owe me $$$” — fix; request with deadline — good; sign-off — good.\n\n**Fix the email (examples):** “I believe I was underpaid last week.” · “Could you please call me on 0400 000 000?” · “Thank you for your help. Kind regards, [name]” · “I'd appreciate it if this could be resolved by [date].”",
+    "resources": [
+      {
+        "label": "Fair Work Ombudsman — $358 million back-paid to Australian workers",
+        "url": "https://www.fairwork.gov.au/newsroom/media-releases/2025-media-releases/october-2025/20251029-annual-report-2024-25-media-release"
+      },
+      {
+        "label": "Redfern Legal Centre — What you can do if you're underpaid at work",
+        "url": "https://rlc.org.au/sites/default/files/attachments/110821-rlc-fs-what-you-can-do-if-youre-underpaid-at-work-2021.pdf"
+      },
+      {
+        "label": "Australian Government Style Manual",
+        "url": "https://www.stylemanual.gov.au"
+      }
+    ],
+    "realityCheck": [
+      "**Students may not have a real reason yet.** A work experience request is a great default.",
+      "**Privacy.** Don't ask students to share personal pay details; use the made-up example.",
+      "**Replies take time.** Let students record a reply later.",
+      "**Works in a real class:** yes. Students use this skill straight away, often for work."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the email, fewer sort cards and table rows, and a simpler draft.",
+      "core": "Standard version: formal and casual emails, the six parts, a model email, a fix-it sort, rewriting lines, the Fair Work Ombudsman case, drafting, and sending a real email.",
+      "extend": "Adds draft and proofread to the vocabulary, a quiz question on text design, register, and Level Ups comparing a text and an email and critiquing a real email."
+    }
+  }
+}

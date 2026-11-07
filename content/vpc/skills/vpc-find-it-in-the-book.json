@@ -1,0 +1,892 @@
+{
+  "id": "vpc-find-it-in-the-book",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with a real handbook or manual",
+  "brief": {
+    "hook": {
+      "support": "The learner permit test has 32 questions. They all come from one book. You don't need to read every page. You need to find the right bit, fast.",
+      "core": "The learner permit test in Victoria has 32 questions. Every one of them comes from one book: Road to Solo Driving. You don't have to read it like a novel. You just need to know how to find the bit you need, fast."
+    },
+    "why": {
+      "support": "Handbooks and manuals are long. Nobody reads every page. Use the shortcuts: contents, headings, index and glossary. They save time.",
+      "core": "Handbooks, manuals, course guides and rule books are full of things you need to know. Nobody reads them cover to cover. Smart readers use the shortcuts: the contents page, headings, the index and the glossary. Those shortcuts save you hours, at school, at work and when you're studying for your Ls.",
+      "extend": "Reference texts such as handbooks, manuals and course guides are designed to be navigated, not read from start to finish. Using their navigational features, and skimming and scanning efficiently, lets you locate key information quickly and accurately."
+    },
+    "canDo": {
+      "support": [
+        "I can use the contents and index.",
+        "I can skim for the main idea.",
+        "I can scan for a fact.",
+        "I can work out tricky words."
+      ],
+      "core": [
+        "I can use the **contents**, **headings**, **index** and **glossary** to find information.",
+        "I can **skim** to get the main idea.",
+        "I can **scan** to find a fact fast.",
+        "I can work out tricky words using word parts."
+      ]
+    },
+    "showIt": "Use a real handbook or manual to find five answers fast, using the contents, index, headings and glossary.",
+    "vocab": [
+      {
+        "word": "contents page",
+        "meaning": "a list of chapters and their page numbers, at the front",
+        "example": "The contents page said Chapter 3 starts on page 40."
+      },
+      {
+        "word": "index",
+        "meaning": "an A to Z list of topics and page numbers, at the back",
+        "example": "I looked up “tyres” in the index."
+      },
+      {
+        "word": "glossary",
+        "meaning": "a mini-dictionary of key words, usually at the back",
+        "example": "The glossary explained “demerit points”."
+      },
+      {
+        "word": "heading",
+        "meaning": "a title for a section of text",
+        "example": "The heading said “Night driving”."
+      },
+      {
+        "word": "skim",
+        "meaning": "read quickly to get the main idea",
+        "example": "I skimmed the chapter first."
+      },
+      {
+        "word": "scan",
+        "meaning": "look quickly for a particular word or number",
+        "example": "I scanned the page for “speed”."
+      },
+      {
+        "word": "blurb",
+        "meaning": "the short description on the back cover",
+        "example": "The blurb said who the book is for.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "keyword",
+        "meaning": "an important word you search for",
+        "example": "My keyword was “passengers”.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Find It in the Book in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Find It in the Book",
+        "sub": "Shortcuts to the good bit.",
+        "icon": "lucide:book-open-check",
+        "say": "Find it in the book. Contents, index, headings, blurb: shortcuts to the good bit."
+      },
+      {
+        "kind": "stat",
+        "big": "32",
+        "title": "questions in the learner permit test",
+        "sub": "VicRoads",
+        "say": "Victoria's learner permit test has thirty-two questions. They're based on all four chapters of the Road to Solo Driving handbook.",
+        "vc": [
+          "VPC-U1M1-AP3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Shortcut",
+        "pillIcon": "lucide:book-open-check",
+        "title": "Contents",
+        "text": "Front · **Chapters**",
+        "icon": "lucide:list",
+        "say": "Contents page. At the front. Shows the chapters and where they start.",
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Shortcut",
+        "pillIcon": "lucide:book-open-check",
+        "title": "Headings",
+        "text": "Jump to the **right bit**",
+        "icon": "lucide:heading",
+        "say": "Headings. They tell you what each section is about, so you can jump to the right one.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Shortcut",
+        "pillIcon": "lucide:book-open-check",
+        "title": "Index",
+        "text": "Back · **A to Z**",
+        "icon": "lucide:search",
+        "say": "Index. At the back. Look up a keyword, A to Z, and find every page about it.",
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Shortcut",
+        "pillIcon": "lucide:book-open-check",
+        "title": "Glossary",
+        "text": "Tricky **words**",
+        "icon": "lucide:book-a",
+        "say": "Glossary. A mini-dictionary for the tricky words.",
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP2"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Skim or scan?",
+        "text": "Main idea · **One fact**",
+        "icon": "lucide:scan-search",
+        "say": "Skim to get the main idea. Scan to find one fact fast, like a number or a word.",
+        "vc": [
+          "VPC-U1M1-AP3"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Find anything",
+        "steps": [
+          "Pick a keyword",
+          "Index or contents",
+          "Scan the page"
+        ],
+        "say": "Pick a keyword, check the index or contents, then scan the page."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Find it in **seconds**.",
+        "icon": "lucide:book-open-check",
+        "say": "Your mission. Use a real handbook to find five answers, fast."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Shortcuts to the good bit",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Handbooks and manuals are long. Nobody reads every page. Use the **shortcuts**.\n\n**The front**\n\n- **Blurb:** the short bit on the back. What's the book about?\n- **Contents page:** the chapters and their page numbers.\n\n**The middle**\n\n- **Headings:** titles for each part. Jump to the one you need.\n- **Bold words, boxes and tables:** the important bits.\n\n**The back**\n\n- **Index:** an A to Z list of topics and pages.\n- **Glossary:** what the tricky words mean.\n\n**Pick a keyword.** What word are you looking for? Not there? Try another word that means the same.\n\n**Skim or scan?**\n\n- **Skim** for the main idea. Read the headings.\n- **Scan** for one fact. Look for your keyword.\n\n**Tricky words.** Break them up. *Un-road-worthy* = not good enough for the road.",
+          "core": "Handbooks, manuals, course guides and rule books are long. Nobody reads them from page one to the end. Smart readers use **shortcuts**.\n\n**The front**\n\n- **Cover and blurb:** the title, and a short description on the back. They tell you what the book is about and who it's for.\n- **Contents page:** the chapters, in order, with the page each one starts on. Use it when you want a whole topic, like *“Buying a car”*.\n\n**The middle**\n\n- **Headings and subheadings:** titles for each section. They let you jump straight to the right part.\n- **Bold words, boxes, tables and pictures:** these usually show the most important information.\n\n**The back**\n\n- **Index:** an A to Z list of topics, with every page they appear on. Use it when you want one specific thing, like *“tyres”* or *“towing”*.\n- **Glossary:** a mini-dictionary of the tricky words in the book.\n\n**Pick your keyword.** Before you look, decide what word you're searching for. If it's not in the index, try another word that means the same thing. *“P plates”* might be listed under *“probationary licence”*.\n\n**Skim or scan?**\n\n- **Skim** when you want the main idea. Read the headings, the first line of each paragraph, and anything in bold.\n- **Scan** when you want one fact. Run your eyes down the page looking for your keyword or a number. Stop when you find it, then read that part carefully.\n\n**Tricky words.** Break them into parts you know. *Unroadworthy* = *un* (not) + *road* + *worthy* (good enough): not good enough for the road. Words come in families: *licence*, *licensed*, *licensing*.",
+          "extend": "Reference texts such as handbooks, manuals, course guides and policy documents are designed to be navigated, not read sequentially. Efficient readers use their navigational features.\n\n**Front matter**\n\n- **Cover and blurb:** identify the text's topic and intended audience.\n- **Contents page:** lists chapters and sections in order, with starting pages. Best for locating a broad topic.\n\n**Body**\n\n- **Headings and subheadings** signal each section's content, so you can move directly to what's relevant.\n- **Visual emphasis** (bold type, boxes, tables, diagrams) usually flags key information.\n\n**Back matter**\n\n- **Index:** an alphabetical list of specific topics with every page reference. Best for locating a precise detail.\n- **Glossary:** definitions of specialised terms.\n\n**Keywords and synonyms.** Decide on a **keyword** before searching. If it isn't listed, try synonyms or related terms (*“P plates”* may appear under *“probationary licence”*).\n\n**Skimming and scanning.** **Skim** for gist: headings, topic sentences, emphasised text. **Scan** for a specific item: move your eyes rapidly in search of a keyword or number, then read the surrounding text closely.\n\n**Decoding unfamiliar words.** Use morphology and word families. *Unroadworthy* breaks into *un-* (not), *road* and *worthy* (fit for). Related forms (*licence*, *licensed*, *licensing*) share meaning."
+        },
+        "vc": [
+          "VPC-U1M1-AP3",
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP2"
+        ],
+        "vcNote": "The features of informative and instructional texts; skimming and scanning; decoding strategies."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "One book, 32 questions",
+        "icon": "lucide:car",
+        "body": {
+          "support": "In Victoria, you need to pass a **test** to get your Ls.\n\nThe test has **32 questions**. You need 25 right to pass.\n\nAll the questions come from one book: **Road to Solo Driving**. You need to know all four chapters.\n\nThat's a lot! But the book has shortcuts: a contents page, headings, boxes and pictures.\n\nVicRoads has a free **practice test** online. If you get one wrong, it tells you which chapter to look in.\n\nSo: do the practice test. Find the chapter. Use the headings. Scan for the answer.",
+          "core": "In Victoria, before you can get your learner permit (your Ls), you have to pass a **knowledge test**.\n\nThe test has **32 questions**, picked at random. To pass, you need **78%**: that's 25 or more correct.\n\nAll the questions come from one book: **Road to Solo Driving**, the official handbook. VicRoads says the questions are based on **all four chapters**, so you need to know the whole book.\n\nThat sounds like a lot. But Road to Solo Driving is built to be searched, not just read. It has a contents page, chapters with clear headings, and lots of boxes, tables and pictures.\n\nVicRoads also has a free **practice test** online. It's similar to the real one. When you get a question wrong, it points you to the **chapter** in the handbook where the answer is.\n\nSo the smart way to study is to use the shortcuts. Do a practice test. Find the chapter for each question you got wrong. Use the headings to find the right section. Scan for the answer, then read it carefully.\n\nIt's the same skill you'll use with any manual, rule book or course guide for the rest of your life.",
+          "extend": "In Victoria, applicants for a learner permit must pass a **knowledge test**.\n\nThe test has **32 questions**, randomly generated, and a pass mark of **78%** (at least 25 correct).\n\nEvery question is drawn from **Road to Solo Driving**, the official handbook. VicRoads advises studying the whole book, because questions come from **all four chapters**.\n\nThat's a substantial text. But it's designed to be navigated: a contents page, chaptered sections with clear headings, and information organised in boxes, tables and diagrams.\n\nVicRoads also offers a free online **practice test** that mirrors the real one. Incorrect answers link to the handbook **chapter** that covers the topic.\n\nThe efficient study strategy is therefore navigational. Attempt a practice test, use the chapter references and headings to locate each topic, scan for the specific rule, then read that section closely.\n\nThe same approach applies to any manual, policy, rule book or course guide you'll meet at work or in training."
+        },
+        "source": {
+          "name": "VicRoads — Practice learner permit test",
+          "url": "https://www.vicroads.vic.gov.au/licences/your-ls/get-your-ls/lpt"
+        },
+        "think": {
+          "support": [
+            "How does the practice test help?",
+            "Which shortcuts would you use?"
+          ],
+          "core": [
+            "How does the practice test help you use the handbook?",
+            "Why does VicRoads say to study all four chapters?",
+            "Which shortcuts would you use to study for your Ls?"
+          ]
+        },
+        "vc": [
+          "VPC-U1M1-AP3"
+        ],
+        "vcNote": "A real handbook that young Victorians must navigate to pass a test."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a handbook",
+      "docTitle": "“YOUR FIRST CAR” HANDBOOK — PARTS OF THE BOOK (EXAMPLE)",
+      "vc": [
+        "VPC-U1M1-LG1",
+        "VPC-U1M1-AP3"
+      ],
+      "vcNote": "The navigational features of an informative text.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Back cover",
+          "value": "Blurb: “Everything you need to buy, run and look after your first car.”"
+        },
+        {
+          "n": 2,
+          "label": "Contents",
+          "value": "Chapter 1: Choosing a car · 4 | Chapter 2: Buying it · 14 | Chapter 3: Insurance · 22 | Chapter 4: Keeping it running · 30",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Page 30",
+          "value": "Heading: Keeping it running. Subheading: Checking your tyres."
+        },
+        {
+          "n": 4,
+          "label": "Page 31",
+          "value": "Box: Check your tyre pressure once a month."
+        },
+        {
+          "n": 5,
+          "label": "Index",
+          "value": "Tyres, 31–33 · pressure, 31 · tread, 32 | Towing, 36 | Third-party insurance, 23",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Glossary",
+          "value": "Roadworthy certificate: a certificate that shows a car is safe enough to drive on the road."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Blurb",
+          "note": "What the book's about and who it's for."
+        },
+        {
+          "n": 2,
+          "label": "Contents page",
+          "note": "Chapters and where they start. For whole topics."
+        },
+        {
+          "n": 3,
+          "label": "Headings",
+          "note": "Jump to the right section."
+        },
+        {
+          "n": 4,
+          "label": "Box",
+          "note": "Key information stands out."
+        },
+        {
+          "n": 5,
+          "label": "Index",
+          "note": "A to Z, every page. For one specific thing."
+        },
+        {
+          "n": 6,
+          "label": "Glossary",
+          "note": "What tricky words mean."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Find anything",
+      "steps": [
+        {
+          "title": "Pick a keyword",
+          "text": "What am I looking for?",
+          "icon": "lucide:key-round"
+        },
+        {
+          "title": "Contents or index",
+          "text": "Whole topic, or one thing?",
+          "icon": "lucide:list"
+        },
+        {
+          "title": "Go to the page",
+          "text": "Use the headings.",
+          "icon": "lucide:heading"
+        },
+        {
+          "title": "Scan, then read",
+          "text": "Find it, then read closely.",
+          "icon": "lucide:scan-search"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Where would you find a list of the **chapters**?",
+        "options": [
+          "The contents page",
+          "The index",
+          "The glossary",
+          "The blurb"
+        ],
+        "answer": 0,
+        "explain": "At the front.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "You want every page that mentions **tyres**. Where do you look?",
+        "options": [
+          "The index",
+          "The contents page",
+          "The blurb",
+          "The cover"
+        ],
+        "answer": 0,
+        "explain": "At the back, A to Z.",
+        "vc": [
+          "VPC-U1M1-AP3"
+        ]
+      },
+      {
+        "q": "What does a **glossary** tell you?",
+        "options": [
+          "What tricky words mean",
+          "Who wrote the book",
+          "The price",
+          "The chapters"
+        ],
+        "answer": 0,
+        "explain": "A mini-dictionary.",
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "q": "You want to find one number fast. Should you skim or scan?",
+        "options": [
+          "Scan",
+          "Skim",
+          "Read every word",
+          "Neither"
+        ],
+        "answer": 0,
+        "explain": "Scan for one fact; skim for the main idea.",
+        "vc": [
+          "VPC-U1M1-AP3"
+        ]
+      },
+      {
+        "q": "How many questions are in Victoria's learner permit test?",
+        "options": [
+          "32",
+          "3",
+          "100",
+          "10"
+        ],
+        "answer": 0,
+        "explain": "You need 78% (25 or more) to pass.",
+        "vc": [
+          "VPC-U1M1-AP3"
+        ]
+      },
+      {
+        "q": "Your keyword isn't in the index. What should you try?",
+        "options": [
+          "A different word that means the same thing",
+          "Give up",
+          "Read the whole book",
+          "Check the cover"
+        ],
+        "answer": 0,
+        "explain": "Try synonyms.",
+        "vc": [
+          "VPC-U1M1-AP3"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "What does **unroadworthy** mean?",
+        "options": [
+          "Not fit for the road",
+          "A new road",
+          "A road worker",
+          "Very fast"
+        ],
+        "answer": 0,
+        "explain": "un (not) + road + worthy (good enough).",
+        "vc": [
+          "VPC-U1M1-AP2"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Use a real handbook to find five answers. Use the contents and index.",
+      "core": "Use a real handbook or manual to find five answers fast, using the contents, index, headings and glossary.",
+      "extend": "Navigate a real handbook or manual to locate five specific answers efficiently, recording which feature you used for each and why, then decode two unfamiliar terms."
+    },
+    "checklist": [
+      "I used the contents page",
+      "I used the index",
+      "I used headings to find the right section",
+      "I scanned for keywords",
+      "I used the glossary for a tricky word",
+      "I found five answers and wrote the page numbers"
+    ],
+    "levelUp": "Decode tricky handbook words using word parts and word families, and explain your strategy.",
+    "vc": [
+      "VPC-U1M1-AP3",
+      "VPC-U1M1-LG1"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Shortcuts to the good bit",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What's the difference between the **contents page** and the **index**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG1"
+            ]
+          },
+          {
+            "q": "What's the difference between **skimming** and **scanning**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP3"
+            ]
+          },
+          {
+            "q": "Your keyword isn't in the index. What can you do?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Find anything",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a handbook",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the book. Use the word bank. When would you use it?",
+          "core": "Each number marks part of the handbook. Write what it is and when you'd use it."
+        },
+        "columns": [
+          "What is it?",
+          "When would I use it?"
+        ],
+        "wordBank": {
+          "support": [
+            "blurb",
+            "contents page",
+            "heading",
+            "box",
+            "index",
+            "glossary"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U1M1-LG1"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Where would you look?",
+        "pagebreak": true,
+        "choices": [
+          "Contents",
+          "Index",
+          "Glossary"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "You're using the “Your First Car” handbook. Where would you look first? Tick one.",
+        "cards": [
+          {
+            "from": "Task",
+            "text": "Find the chapter about insurance",
+            "answer": "Contents",
+            "flags": "A whole topic, so start with the chapters."
+          },
+          {
+            "from": "Task",
+            "text": "Find every page that mentions towing",
+            "answer": "Index",
+            "flags": "One specific thing, A to Z."
+          },
+          {
+            "from": "Task",
+            "text": "Find out what “roadworthy certificate” means",
+            "answer": "Glossary",
+            "flags": "A tricky word."
+          },
+          {
+            "from": "Task",
+            "text": "See how the book is set out",
+            "answer": "Contents",
+            "flags": "Shows all the chapters."
+          },
+          {
+            "from": "Task",
+            "text": "Find the page about tyre tread",
+            "answer": "Index",
+            "flags": "A specific detail.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Task",
+            "text": "Find out what “third-party property” means",
+            "answer": "Glossary",
+            "flags": "A specialised term.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-LG1",
+          "VPC-U1M1-AP3"
+        ],
+        "vcNote": "Choosing the right navigational feature."
+      },
+      {
+        "type": "table",
+        "title": "Skim or scan?",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 22
+        },
+        "instructions": "For each task, decide: skim or scan? Then say what you'd look at first. The first one is done for you.",
+        "columns": [
+          "Task",
+          "Skim or scan?",
+          "What I'd look at first"
+        ],
+        "rows": [
+          [
+            "Find the speed limit in a school zone",
+            "Scan",
+            "Look for the number 40, or the words “school zone”"
+          ],
+          [
+            "Get the main idea of a chapter on night driving",
+            "",
+            ""
+          ],
+          [
+            "Find the phone number to book a test",
+            "",
+            ""
+          ],
+          [
+            "Decide if a manual is the right one for your car",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Find the rule about how many passengers a P1 driver can carry",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-AP3"
+        ],
+        "vcNote": "Choosing between skimming and scanning to find main ideas and key information."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: one book, 32 questions",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How does the practice test help you use the handbook?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP3"
+            ]
+          },
+          {
+            "q": "Why does VicRoads say to study **all four chapters**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP3"
+            ]
+          },
+          {
+            "q": "Which shortcuts would **you** use to study for your Ls?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP3",
+              "VPC-U1M1-LG1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: the book race",
+        "pagebreak": true,
+        "where": "in class, with a real handbook or manual",
+        "instructions": "Choose a real handbook or manual: Road to Solo Driving, a car or appliance manual, a TAFE course guide, a cookbook or a sports rule book. Write five questions you need answered, then race to find them.",
+        "need": [
+          "a real handbook or manual (print or online)",
+          "a timer",
+          "a partner"
+        ],
+        "steps": {
+          "support": [
+            "Write five questions about the book.",
+            "Start a timer.",
+            "Pick a keyword for each question.",
+            "Use the contents or index. Find the answer and page.",
+            "Stop the timer. What was fastest?"
+          ],
+          "core": [
+            "Write **five questions** you could answer from the book.",
+            "Swap questions with a partner who has the same book (or use your own).",
+            "Start the timer. For each question, pick a **keyword** and decide: contents, index or glossary?",
+            "Find each answer. Write it down with the **page number** and the shortcut you used.",
+            "Stop the timer. Which shortcut was fastest?"
+          ]
+        },
+        "notes": [
+          {
+            "label": "My book:",
+            "lines": 1
+          },
+          {
+            "label": "My five answers (with page numbers and shortcut used):",
+            "lines": 4
+          },
+          {
+            "label": "My time, and the fastest shortcut:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Answers with page numbers",
+          "Teacher saw it",
+          "Photo"
+        ],
+        "vc": [
+          "VPC-U1M1-AP3",
+          "VPC-U1M1-LG1"
+        ],
+        "vcNote": "Hands-on: navigating a real text to find key information."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find **three** tricky words in your handbook. Break each one into parts (like *un-road-worthy*) and work out what it means. Then check the glossary or a dictionary.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP2"
+            ]
+          },
+          {
+            "q": "Write **two** other words from the same word family as one of your tricky words. How does knowing the family help?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can use the contents and index.",
+          "I can skim for the main idea.",
+          "I can scan for a fact.",
+          "I can work out tricky words."
+        ],
+        "questions": [
+          "The book I raced:",
+          "My fastest shortcut:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to navigate informative and instructional texts using the cover and blurb, contents page, headings, emphasised text, index and glossary; to choose between skimming (main idea) and scanning (a specific fact); to try synonyms when a keyword isn't listed; and to decode unfamiliar words using word parts and word families. They annotate a handbook's features, sort where to look, decide skim or scan, and race to find answers in a real handbook. The case study is Victoria's learner permit knowledge test: 32 random questions with a 78% pass mark, all drawn from the four chapters of Road to Solo Driving, with a free practice test that points to the relevant chapter.",
+    "prep": [
+      "Collect real handbooks or manuals: Road to Solo Driving (print or online), car or appliance manuals, TAFE course guides, cookbooks with an index, sports rule books.",
+      "Check the VicRoads practice learner permit test is accessible on school devices.",
+      "Timers for the book race."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Shortcuts",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** hold up a thick manual. Who'd read it cover to cover?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a handbook (10 min).**",
+          "**Where would you look? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Skim, scan, study",
+        "minutes": 50,
+        "steps": [
+          "**Skim or scan? (15 min).**",
+          "**Case study (15 min):** one book, 32 questions.",
+          "**Try the practice test (20 min, optional):** use the handbook to check wrong answers."
+        ]
+      },
+      {
+        "title": "Lesson 3 — The book race",
+        "minutes": 50,
+        "steps": [
+          "**Do it (30 min):** the book race.",
+          "**Debrief (5 min):** fastest shortcut?",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Contents (front): chapters and start pages, for whole topics.",
+      "Headings, bold text, boxes and tables flag key information.",
+      "Index (back): A to Z with every page, for specific details.",
+      "Glossary: definitions of tricky words.",
+      "Skim for the main idea; scan for one fact; try synonyms.",
+      "Victoria's learner permit test: 32 random questions, 78% to pass, drawn from all four chapters of Road to Solo Driving."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the handbook.",
+        "Fewer sort cards and table rows.",
+        "Provide five questions for the book race."
+      ],
+      "extend": [
+        "Record why each shortcut was chosen.",
+        "Decode words using morphology and word families (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U1M1-AP3",
+        "evidence": "Skims and scans to find main ideas and key information (skim or scan, book race)."
+      },
+      {
+        "vc": "VPC-U1M1-LG1",
+        "evidence": "Identifies and describes the features of informative texts (handbook annotation, sort)."
+      },
+      {
+        "vc": "VPC-U1M1-AP2",
+        "evidence": "Level Up: decodes unfamiliar words using word parts and word families."
+      }
+    ],
+    "answers": "**Check your reading:** contents lists chapters at the front (for whole topics); index lists specific topics A to Z at the back (for details). Skim for the main idea; scan for one fact. Try a word that means the same thing.\n\n**Handbook:** 1 blurb; 2 contents page; 3 headings; 4 box with key info; 5 index; 6 glossary.\n\n**Sort:** insurance chapter — contents; towing — index; roadworthy certificate — glossary; how it's set out — contents; tyre tread — index; third-party property — glossary.\n\n**Skim or scan:** night driving main idea — skim, headings and first lines; phone number — scan for numbers; right manual — skim the cover, blurb and contents; P1 passengers — scan the index for “passengers” or “P1”.\n\n**Case study:** wrong answers point to the chapter, so you know where to look; questions come from all four chapters; contents, headings, index, boxes.",
+    "resources": [
+      {
+        "label": "VicRoads — Practice learner permit test",
+        "url": "https://www.vicroads.vic.gov.au/licences/your-ls/get-your-ls/lpt"
+      },
+      {
+        "label": "Department of Transport and Planning — Driver handbooks (Road to Solo Driving)",
+        "url": "https://transport.vic.gov.au/registration-and-licensing/licences/driver-history-handbooks-and-logbooks/driver-handbooks-and-logbooks"
+      },
+      {
+        "label": "Prepare for your learner permit",
+        "url": "https://transport.vic.gov.au/road-and-active-transport/registration-and-licensing/licences/learner-permit/prepare-for-your-learner-permit"
+      }
+    ],
+    "realityCheck": [
+      "**Many students want their Ls.** The case study is genuinely useful; let them try the practice test.",
+      "**Online handbooks have search.** Talk about when Ctrl+F helps and when the contents or headings work better.",
+      "**Bring real books.** Manuals and cookbooks make the race more fun than worksheets.",
+      "**Works in a real class:** yes. A quick win that builds confidence with long texts."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the handbook, fewer sort cards and table rows, and provided questions for the race.",
+      "core": "Standard version: contents, headings, index and glossary; skimming and scanning; a handbook to annotate; a where-to-look sort; skim or scan tasks; the learner permit test case; and a real book race.",
+      "extend": "Adds blurb and keyword to the vocabulary, a quiz question on decoding, reasons for each shortcut in the race, and Level Ups decoding words with word parts and word families."
+    }
+  }
+}
