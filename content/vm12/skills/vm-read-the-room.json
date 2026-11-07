@@ -1,0 +1,885 @@
+{
+  "id": "vm-read-the-room",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You're late for your shift. You text your mate: *“running l8 🙃”*. Then you text your boss. Same news, different message. You just **read the room**.",
+      "core": "You're running late for your shift. You text your mate: *“running l8 🙃 save me a seat.”* Then you text your boss. Same news. Would you send the same message? Of course not. Without even thinking, you just **read the room**."
+    },
+    "why": {
+      "support": "Every text has a **purpose** (why), an **audience** (who) and a **context** (where and when). Spot them, and texts make sense. Use them, and your writing works.",
+      "core": "Every text is shaped by three things: its **purpose** (why it was written), its **audience** (who it's for) and its **context** (where, when and what's going on). Spot those three, and you understand any text faster. Use them when you write, and your messages land the way you want, at work, at TAFE and in life.",
+      "extend": "Purpose, audience and context determine a text's structure and language. Identifying them lets you interpret what a text is doing and why; applying them lets you make deliberate choices so your own texts are effective for the people and situations they're meant for."
+    },
+    "canDo": {
+      "support": [
+        "I can say why a text was written, and who for.",
+        "I can see how that changes the words.",
+        "I can rewrite a message for someone else.",
+        "I can share ideas in a group."
+      ],
+      "core": [
+        "I can work out the **purpose**, **audience** and **context** of a text.",
+        "I can explain how they change the **structure** and **language**.",
+        "I can rewrite a message for a different audience.",
+        "I can share and build on ideas in a **group discussion**."
+      ]
+    },
+    "showIt": "Annotate real texts for purpose, audience and context, then rewrite one message for two different audiences.",
+    "vocab": [
+      {
+        "word": "purpose",
+        "meaning": "why a text was written: to inform, persuade, instruct or entertain",
+        "example": "The purpose of a warning is to keep people safe."
+      },
+      {
+        "word": "audience",
+        "meaning": "who a text is for",
+        "example": "The audience for this email is my manager."
+      },
+      {
+        "word": "context",
+        "meaning": "where, when and what's happening around a text",
+        "example": "A fire warning is read in a stressful context."
+      },
+      {
+        "word": "formal",
+        "meaning": "polite and serious, for official situations",
+        "example": "An email to a boss should be formal."
+      },
+      {
+        "word": "informal",
+        "meaning": "relaxed and casual, for friends and family",
+        "example": "A text to a mate can be informal."
+      },
+      {
+        "word": "tone",
+        "meaning": "the feeling the words create",
+        "example": "The tone was calm but urgent."
+      },
+      {
+        "word": "annotate",
+        "meaning": "write notes on a text to show what you notice",
+        "example": "I annotated the purpose in the margin.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "effective",
+        "meaning": "does its job well for its audience",
+        "example": "The warning was effective: everyone left in time.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Read the Room in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Read the Room",
+        "sub": "Who’s it for? Why? What’s going on?",
+        "icon": "lucide:users",
+        "say": "Read the room. Who's it for, why, and what's going on?"
+      },
+      {
+        "kind": "big",
+        "title": "P · A · C",
+        "text": "**Purpose** · **Audience** · **Context**",
+        "icon": "lucide:triangle",
+        "say": "Every text has three things behind it. Purpose: why. Audience: who for. Context: where, when and what's happening.",
+        "vc": [
+          "VM-U1O1-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "P",
+        "pill": "Read the room",
+        "pillIcon": "lucide:users",
+        "title": "Purpose",
+        "text": "Inform · Persuade · **Instruct** · Entertain",
+        "icon": "lucide:target",
+        "say": "Purpose. Is it trying to inform you, persuade you, instruct you or entertain you?",
+        "vc": [
+          "VM-U1O1-KK2",
+          "VM-U1O1-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "A",
+        "pill": "Read the room",
+        "pillIcon": "lucide:users",
+        "title": "Audience",
+        "text": "Mate · Boss · **Customer** · Everyone",
+        "icon": "lucide:user-round",
+        "say": "Audience. Who's it for? A mate, a boss, a customer, the whole town?",
+        "vc": [
+          "VM-U1O1-KK2",
+          "VM-U1O1-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "C",
+        "pill": "Read the room",
+        "pillIcon": "lucide:users",
+        "title": "Context",
+        "text": "Where? When? **What's happening?**",
+        "icon": "lucide:map-pin",
+        "say": "Context. Where and when will it be read? On a phone in a hurry? In an emergency?",
+        "vc": [
+          "VM-U1O1-KK2",
+          "VM-U1O1-KS3"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Change one, change it all",
+        "text": "*running l8 🙃* → **“I'm running 10 minutes late.”**",
+        "icon": "lucide:repeat",
+        "say": "Change one, and the text changes. Same news to your mate and your boss: different words, different tone, different length.",
+        "vc": [
+          "VM-U1O1-KK2"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Read any text",
+        "steps": [
+          "Why?",
+          "Who for?",
+          "Where + when?",
+          "Do the words fit?"
+        ],
+        "say": "To read the room: ask why, ask who, ask where and when. Then check the words fit."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Why. Who. Where. Then write.",
+        "icon": "lucide:users",
+        "say": "Your mission. Annotate real texts, then rewrite one message for two audiences."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Read the room",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Ask three questions about any text.\n\n**1. Purpose: why was it written?**\n\n- to **inform**: give facts\n- to **persuade**: make you do something\n- to **instruct**: tell you how\n- to **entertain**: make you feel something.\n\n**2. Audience: who's it for?** A mate? A boss? Everyone? The words change. *running l8* to a mate. *Sorry, I'm running 10 minutes late* to a boss.\n\n**3. Context: where and when?** On a phone? In a rush? In an emergency? Short, clear words help in a rush.\n\nThese three things shape how a text looks and sounds.\n\n**Talk it through.** In a group, share what you notice. Build on what others say: *I agree, and…*",
+          "core": "Before you read or write anything, it helps to ask three questions.\n\n**1. What's the purpose?** Why was it written? Most texts are trying to do one main job:\n\n- **inform**: give facts (a timetable, a news report)\n- **persuade**: make you think or do something (an ad, a petition)\n- **instruct**: tell you how (a recipe, a safety procedure)\n- **entertain**: make you feel something (a story, a funny video).\n\n**2. Who's the audience?** Who is it for? A mate, a teacher, a boss, a customer, or the whole public? The audience changes the words. You'd write *running l8* to a mate, but *I'm running 10 minutes late, sorry* to your boss.\n\n**3. What's the context?** Where, when and how will it be read? On a phone, in a hurry? Printed on a wall? During an emergency, when people are scared? Context changes the **length**, the **layout** and the **tone**. In a hurry, people need short, clear words. In an emergency, they need to know exactly what to do.\n\n**Putting it together.** Purpose, audience and context work together to shape a text's **structure** (how it's organised) and its **language** (the words and tone). A formal email to a manager has a greeting, short paragraphs and a sign-off. A text to a mate might be one line and an emoji. Both can be right. It depends on the room.\n\n**Talk it through.** These questions are great to discuss in a group. Different people notice different things. Listen, add your idea, and build on what others say: *I agree, and I also noticed…*",
+          "extend": "Every text is written for a reason, for someone, in a situation. Looking at those three things explains why a text looks and sounds the way it does.\n\n**Purpose** is the text's job: to **inform**, **persuade**, **instruct** or **entertain**. Many texts do more than one, but one job usually comes first.\n\n**Audience** is who the text is for. The writer's relationship with them (friend, boss, customer, the public) decides how **formal** or **informal** the language is, how much they explain, and what tone fits.\n\n**Context** is the situation: the medium (phone, print, sign), the setting (work, home, an emergency), the time pressure, and how the reader might be feeling. A text read in a crisis must be clear and tell people what to do. A text read at leisure can include more detail.\n\nTogether, these shape a text's **structure** (how it's organised and laid out) and **language** (words, sentence length, tone). To judge whether a text is **effective**, ask whether those choices suit its purpose, audience and context.\n\nGroup discussion sharpens this. Different readers notice different things. Listening, and building on what others say (*I'd add that…*), gives a fuller reading than working alone."
+        },
+        "vc": [
+          "VM-U1O1-KK2",
+          "VM-U1O1-KS3",
+          "VM-U1O1-KS5",
+          "VM-U1O1-KS8"
+        ],
+        "vcNote": "How purpose, audience and context shape a text's structure and language; discussing and building on ideas."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "One emergency, one set of words",
+        "icon": "lucide:triangle-alert",
+        "body": {
+          "support": "Emergency warnings used to be hard to follow. Each state used its own words and colours.\n\nSo Australia made the **Australian Warning System**. It started in **2021**.\n\nIt has **three levels**:\n\n- **Advice** (yellow): *Stay informed.*\n- **Watch and Act** (orange): *Get ready.*\n- **Emergency Warning** (red): *Leave now.*\n\n**Purpose**: keep people safe. **Audience**: everyone. **Context**: an emergency, read on a phone.\n\nSo the warnings are short. They use colour. They tell you what to do.",
+          "core": "For years, emergency warnings in Australia were confusing. Each state used its own words, colours and symbols for bushfires, floods and storms. If you moved interstate, or travelled, the warnings could look completely different.\n\nSo Australia created the **Australian Warning System**. It started rolling out in **2021**, and was adopted state by state over the next few years. It was developed with **community research**: emergency services asked people what they understood and what they needed.\n\nThe system has **three levels**, each with its own colour and a clear action:\n\n- **Advice** (yellow): something has started. *Stay informed.*\n- **Watch and Act** (orange): conditions are changing. *Prepare to leave.*\n- **Emergency Warning** (red): you're in danger. *Leave now* or *Seek shelter now.*\n\nThink about the **purpose**: to keep people safe. The **audience**: everyone, including people who are stressed, rushed or reading in a second language. The **context**: an emergency, often read on a phone.\n\nThat's why the warnings are short, use colour, and always tell you **what to do**. Every choice in the text comes from purpose, audience and context.",
+          "extend": "Before the **Australian Warning System**, emergency warnings were different in each state, and for each kind of hazard. Bushfires, floods and storms all used different words, colours and icons. That made warnings harder to follow for people who travel, move interstate or speak English as a second language.\n\nThe national system began rolling out in **2021**, and states and territories adopted it over the next few years. It was built on **community research** into how people understand warnings and act on them.\n\nIt has **three levels**. Each has a colour and an action:\n\n- **Advice** (yellow): an incident has started. *Stay informed.*\n- **Watch and Act** (orange): conditions are changing. For example, *prepare to leave*.\n- **Emergency Warning** (red): danger is close. For example, *leave now* or *seek shelter now*.\n\nThe design comes straight from **purpose** (saving lives), **audience** (everyone, including people under stress or with limited English) and **context** (fast-moving emergencies, often read on phones). Short messages, colour codes and an action in every warning are choices made for that situation. There's one test of whether it works: do people know what to do?"
+        },
+        "source": {
+          "name": "Australian Institute for Disaster Resilience — “Australian Warning System”",
+          "url": "https://knowledge.aidr.org.au/resources/australian-warning-system/"
+        },
+        "think": {
+          "support": [
+            "Why were the old warnings confusing?",
+            "Why do the warnings tell you what to do?"
+          ],
+          "core": [
+            "Why were the old warnings confusing?",
+            "How do purpose, audience and context explain the design of the new warnings?",
+            "Why does every warning include an action?"
+          ]
+        },
+        "vc": [
+          "VM-U1O1-KK2",
+          "VM-U1O1-KS8"
+        ],
+        "vcNote": "A real redesign of public texts driven by purpose, audience and context."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Same news, two audiences",
+      "docTitle": "RUNNING LATE FOR A SHIFT (EXAMPLE)",
+      "vc": [
+        "VM-U1O1-KK2",
+        "VM-U1O1-KS3"
+      ],
+      "vcNote": "How audience and context change the language and structure of the same message.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "To a mate",
+          "value": "running l8 🙃 save me a seat",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "To the boss: greeting",
+          "value": "Hi Priya,"
+        },
+        {
+          "n": 3,
+          "label": "To the boss: the news",
+          "value": "I'm sorry, my bus has been cancelled. I'll be about 15 minutes late for my 4 pm shift."
+        },
+        {
+          "n": 4,
+          "label": "To the boss: the fix",
+          "value": "I'm on the next bus and will come straight in."
+        },
+        {
+          "n": 5,
+          "label": "To the boss: sign-off",
+          "value": "Thanks, Jordan",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Informal",
+          "note": "Short, casual, emoji. Fine for a mate."
+        },
+        {
+          "n": 2,
+          "label": "Formal greeting",
+          "note": "Uses her name."
+        },
+        {
+          "n": 3,
+          "label": "Clear facts",
+          "note": "Why, how late, which shift."
+        },
+        {
+          "n": 4,
+          "label": "Solution",
+          "note": "Shows you're reliable."
+        },
+        {
+          "n": 5,
+          "label": "Polite sign-off",
+          "note": "Ends the message properly."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Read any text",
+      "steps": [
+        {
+          "title": "Why?",
+          "text": "Inform, persuade, instruct, entertain?",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "Who for?",
+          "text": "Mate, boss, customer, public?",
+          "icon": "lucide:user-round"
+        },
+        {
+          "title": "Where + when?",
+          "text": "Phone? Rush? Emergency?",
+          "icon": "lucide:map-pin"
+        },
+        {
+          "title": "Fit?",
+          "text": "Do the words and layout suit it?",
+          "icon": "lucide:circle-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What's the main **purpose** of a recipe?",
+        "options": [
+          "To instruct",
+          "To persuade",
+          "To entertain",
+          "To complain"
+        ],
+        "answer": 0,
+        "explain": "It tells you how, step by step.",
+        "vc": [
+          "VM-U1O1-KK2"
+        ]
+      },
+      {
+        "q": "Who's the **audience** for an email asking for a day off?",
+        "options": [
+          "Your manager",
+          "Your mates",
+          "The whole public",
+          "Nobody"
+        ],
+        "answer": 0,
+        "explain": "Audience = who it's for.",
+        "vc": [
+          "VM-U1O1-KK2",
+          "VM-U1O1-KS3"
+        ]
+      },
+      {
+        "q": "Why are emergency warnings short?",
+        "options": [
+          "People read them in a hurry and under stress",
+          "They ran out of space",
+          "Short is always better",
+          "To save money"
+        ],
+        "answer": 0,
+        "explain": "Context: a fast-moving emergency.",
+        "vc": [
+          "VM-U1O1-KK2"
+        ]
+      },
+      {
+        "q": "Which message suits a **boss**?",
+        "options": [
+          "“I'm running 15 minutes late for my 4 pm shift. Sorry.”",
+          "“running l8 🙃”",
+          "“yo”",
+          "“cbf today”"
+        ],
+        "answer": 0,
+        "explain": "Formal, clear, with the facts.",
+        "vc": [
+          "VM-U1O1-KK2"
+        ]
+      },
+      {
+        "q": "In a group discussion, what's a good way to add to someone's idea?",
+        "options": [
+          "“I agree, and I also noticed…”",
+          "“You're wrong.”",
+          "Say nothing",
+          "Talk over them"
+        ],
+        "answer": 0,
+        "explain": "Listen, then build on it.",
+        "vc": [
+          "VM-U1O1-KS5"
+        ]
+      },
+      {
+        "q": "What does **Watch and Act** mean in the Australian Warning System?",
+        "options": [
+          "Conditions are changing: prepare to act",
+          "Everything is fine",
+          "Danger is over",
+          "Leave immediately"
+        ],
+        "answer": 0,
+        "explain": "Orange: get ready.",
+        "vc": [
+          "VM-U1O1-KS3"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "A text is **effective** if…",
+        "options": [
+          "its choices suit its purpose, audience and context",
+          "it's very long",
+          "it uses big words",
+          "it has lots of pictures"
+        ],
+        "answer": 0,
+        "explain": "Effective = does its job for its audience.",
+        "vc": [
+          "VM-U1O1-KS8"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Look at real texts. Say why, who for, and where. Then rewrite a message for two people.",
+      "core": "Annotate real texts for purpose, audience and context, then rewrite one message for two different audiences.",
+      "extend": "Annotate real texts for purpose, audience and context, evaluate how effective one is, and rewrite a message for two audiences, explaining each choice."
+    },
+    "checklist": [
+      "I named the purpose of each text",
+      "I named the audience",
+      "I described the context",
+      "I rewrote one message for two audiences",
+      "I shared and built on ideas in a group"
+    ],
+    "levelUp": "Evaluate a real workplace or public text. How well does it suit its purpose, audience and context? Suggest two changes.",
+    "vc": [
+      "VM-U1O1-KK2",
+      "VM-U1O1-KS3",
+      "VM-U1O1-KS5"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Read the room",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What are the **four** main purposes a text can have?",
+            "lines": 1,
+            "vc": [
+              "VM-U1O1-KK2"
+            ]
+          },
+          {
+            "q": "How does the audience change the words in a message? Give an example.",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KK2"
+            ]
+          },
+          {
+            "q": "What does **context** mean? Give an example.",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KK2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Read any text",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Same news, two audiences",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of a message. Use the word bank. Why does it suit the audience?",
+          "core": "Each number marks part of Jordan's messages. Write what it is and why it suits the audience."
+        },
+        "columns": [
+          "What is it?",
+          "Why does it suit the audience?"
+        ],
+        "wordBank": {
+          "support": [
+            "informal",
+            "greeting",
+            "clear facts",
+            "solution",
+            "sign-off"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O1-KK2",
+          "VM-U1O1-KS3"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Purpose, audience, context",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 21,
+          "core": 19
+        },
+        "instructions": "Annotate each text. The first one is done for you.",
+        "columns": [
+          "Text",
+          "Purpose",
+          "Audience",
+          "Context"
+        ],
+        "rows": [
+          [
+            "A fire warning on your phone",
+            "To keep people safe: tell them what to do",
+            "Everyone nearby",
+            "An emergency; read fast, under stress"
+          ],
+          [
+            "A job ad on a café window",
+            "",
+            "",
+            ""
+          ],
+          [
+            "A text from your mate about the weekend",
+            "",
+            "",
+            ""
+          ],
+          [
+            "A safety sign on a building site",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "A TikTok ad for energy drinks",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "A council letter about bin collection",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KS3",
+          "VM-U1O1-KK2"
+        ],
+        "vcNote": "Identifying purpose, audience and context through annotation."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: one emergency, one set of words",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why were the old emergency warnings confusing?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS3"
+            ]
+          },
+          {
+            "q": "Explain **one** design choice in the new warnings using purpose, audience or context.",
+            "lines": 3,
+            "vc": [
+              "VM-U1O1-KK2",
+              "VM-U1O1-KS8"
+            ]
+          },
+          {
+            "q": "Why does every warning tell you what to **do**?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS8"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: read the room together",
+        "pagebreak": true,
+        "where": "in class, in groups of 3 or 4",
+        "instructions": "Bring in a real text (a flyer, a sign, an email, an ad, a screenshot). In your group, read the room together.",
+        "need": [
+          "one real text each",
+          "a group of 3 or 4"
+        ],
+        "steps": {
+          "support": [
+            "Show your text.",
+            "Agree on why, who for, and where.",
+            "Add one idea each.",
+            "Pick the best one.",
+            "Tell the class."
+          ],
+          "core": [
+            "Each person shows their text.",
+            "The group agrees on its purpose, audience and context.",
+            "Everyone adds one thing they noticed. Build on each other: *I agree, and…*",
+            "Choose the text that does its job **best**. Say why.",
+            "Share your choice with the class."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Our best text, and why:",
+            "lines": 2
+          },
+          {
+            "label": "An idea someone else added that I hadn't noticed:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Teacher saw it",
+          "Group notes"
+        ],
+        "vc": [
+          "VM-U1O1-KS5",
+          "VM-U1O1-KS3"
+        ],
+        "vcNote": "Hands-on: listening and contributing to small group discussion about texts."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: same news, two audiences",
+        "pagebreak": true,
+        "prompt": {
+          "support": "You're sick and can't go to work on Saturday. Write a message to a friend from work. Then write one to your boss.",
+          "core": "Your news: **you can't make it to work on Saturday because you're sick**. Write the message twice below: first to a workmate who's a friend, then to your manager.",
+          "extend": "Your news: you're sick and can't work Saturday. Write it for a workmate who's a friend, and for your manager. Then explain two choices you made for each audience and context."
+        },
+        "plan": [
+          {
+            "label": "Workmate: how I'll sound",
+            "lines": 1
+          },
+          {
+            "label": "Manager: facts I must include",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "Hi …,",
+            "I'm sick, so…",
+            "Thanks,"
+          ],
+          "core": [
+            "Hi …,",
+            "I'm sorry, I'm sick and won't be able to…",
+            "I've…",
+            "Thanks,"
+          ]
+        },
+        "lines": {
+          "support": 10,
+          "core": 11
+        },
+        "check": {
+          "core": [
+            "the right greeting for each",
+            "the facts (which shift, why)",
+            "a formal tone for the manager",
+            "a polite sign-off"
+          ],
+          "extend": [
+            "the right greeting for each",
+            "the facts (which shift, why)",
+            "a formal tone for the manager",
+            "a polite sign-off",
+            "two choices explained"
+          ]
+        },
+        "vc": [
+          "VM-U1O1-KK2",
+          "VM-U1O1-KS3"
+        ],
+        "vcNote": "Applying purpose, audience and context to write for two audiences."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find a real public or workplace text (a sign, a notice, a form, an email). How **effective** is it for its purpose, audience and context? Give evidence.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS8"
+            ]
+          },
+          {
+            "q": "Suggest **two** changes that would make it more effective, and explain why.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS8"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find purpose, audience and context.",
+          "I can explain how they shape a text.",
+          "I can write for two audiences.",
+          "I can build on ideas in a group."
+        ],
+        "questions": [
+          "A text I'll now read differently:",
+          "My tip for writing to a boss:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to identify a text's purpose, audience and context, and to explain how these shape its structure and language. They annotate everyday and workplace texts, discuss them in small groups, and rewrite the same message for two audiences. The case study is the Australian Warning System, a national redesign of emergency warnings around purpose, audience and context. Extend students evaluate a text's effectiveness.",
+    "prep": [
+      "Ask students to bring one real text each (flyers, signs, emails, ads, screenshots). Have spares.",
+      "Print the Australian Warning System icons, or show them on screen.",
+      "Plan groups of 3 or 4 for the Do it."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Purpose, audience, context",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** read two messages about the same news (mate, boss). What changed, and why?",
+          "**Explicit teaching (10 min):** P · A · C.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Annotate (10 min):** Same news, two audiences."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Annotate and discuss",
+        "minutes": 50,
+        "steps": [
+          "**Purpose, audience, context table (15 min).**",
+          "**Case study (15 min):** one emergency, one set of words.",
+          "**Do it (20 min):** read the room together."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write for the room",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (25 min):** same news, two audiences.",
+          "**Level Up (15 min):** evaluate a real text.",
+          "**Reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Purpose: inform, persuade, instruct, entertain.",
+      "Audience: who it's for, and their relationship to the writer.",
+      "Context: where, when, how and in what situation it's read.",
+      "Together they shape structure and language: formality, length, layout, tone.",
+      "Effective texts suit their purpose, audience and context.",
+      "In discussion: listen, then build (I agree, and…)."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer rows in the table.",
+        "Sentence starters for both messages."
+      ],
+      "extend": [
+        "Evaluate effectiveness with evidence (Level Up).",
+        "Explain choices for each audience in the final mission."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O1-KK2",
+        "evidence": "Explains how purpose, audience and context shape structure and language (annotation, case study, final mission)."
+      },
+      {
+        "vc": "VM-U1O1-KS3",
+        "evidence": "Identifies purpose, audience and context through annotation (table, annotation, Do it)."
+      },
+      {
+        "vc": "VM-U1O1-KS5",
+        "evidence": "Listens and contributes to small group discussion, building on others' ideas (Do it)."
+      },
+      {
+        "vc": "VM-U1O1-KS8",
+        "evidence": "Evaluates how effective a text is for its purpose and audience (case study, Level Up)."
+      }
+    ],
+    "answers": "**Check your reading:** inform, persuade, instruct, entertain. Audience changes formality, length and tone (e.g. *running l8* vs *I'm running 10 minutes late*). Context is where, when and how it's read (e.g. an emergency warning on a phone).\n\n**Messages:** 1 informal (fine for a mate); 2 formal greeting with her name; 3 clear facts (why, how late, which shift); 4 a solution (reliable); 5 polite sign-off.\n\n**Table (samples):** café job ad — inform/persuade; job seekers; a shop window, read in passing. Mate's text — entertain/inform; a friend; a phone, casual. Safety sign — instruct; workers and visitors; a building site, read quickly. Energy drink ad — persuade; young people; a phone feed. Council letter — inform; residents; at home.\n\n**Case study:** each state used different words, colours and icons; e.g. colours are fast to read under stress (context), and simple words suit everyone (audience); because the purpose is to keep people safe, and people in danger need to know what to do.",
+    "resources": [
+      {
+        "label": "Australian Institute for Disaster Resilience — Australian Warning System",
+        "url": "https://knowledge.aidr.org.au/resources/australian-warning-system/"
+      },
+      {
+        "label": "Queensland Fire Department — Australian Warning System brochure",
+        "url": "https://www.fire.qld.gov.au/sites/default/files/2023-06/AWS-Brochure-Web_0.pdf"
+      },
+      {
+        "label": "Australian Government Style Manual",
+        "url": "https://www.stylemanual.gov.au"
+      }
+    ],
+    "realityCheck": [
+      "**Emergencies can be personal.** Some students have lived through bushfires or floods. Check in before the case study.",
+      "**Real texts work best.** Students engage more with texts from their own lives, workplaces and towns.",
+      "**Formal isn't always better.** Make clear that informal is right for some audiences. The skill is choosing.",
+      "**Group work needs structure.** Give roles (reader, note-taker, reporter) so everyone contributes.",
+      "**Works in a real class:** yes. It's a strong opener for the Text Toolkit, and links to Know Your Text Types."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer table rows and sentence starters for both messages.",
+      "core": "Standard version: P·A·C, same-news-two-audiences annotation, the annotation table, the Australian Warning System case, a group discussion and writing for two audiences.",
+      "extend": "Adds annotate and effective to the vocabulary, a quiz question on effectiveness, explained choices in the final mission, and a Level Up evaluating a real text."
+    }
+  }
+}

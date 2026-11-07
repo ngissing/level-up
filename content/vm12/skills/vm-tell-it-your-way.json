@@ -1,0 +1,989 @@
+{
+  "id": "vm-tell-it-your-way",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Think of a moment that shows who you are. The first time you fixed something. A bad day at work. The day you chose your path. That's your story.",
+      "core": "Think of a moment that says something about you. The first time you fixed something on your own. A shift where everything went wrong. The day you decided what you wanted to do after school. That moment is a story, and you're the only person who can tell it."
+    },
+    "why": {
+      "support": "Writing about your life is powerful. But nobody gets it right first time. **Plan** it. **Draft** it. Then **fix** it until it's right.",
+      "core": "Writing about your own life is powerful, but the first draft is never the best one. Good writers **plan**, **draft**, then **revise** and **edit** until it's right. That process works for everything you'll write: a personal statement for TAFE, an application, a speech, or a story for a competition. This is your chance to make one piece of writing really good.",
+      "extend": "A personal piece is a crafted text, not a diary entry. Its power comes from selection (choosing one moment), shaping (structure, detail and voice) and refinement (revising for meaning, then editing and proofreading for accuracy). Mastering that process transfers to every high-stakes text you'll write."
+    },
+    "canDo": {
+      "support": [
+        "I can plan a piece about my life.",
+        "I can write a draft.",
+        "I can make it better.",
+        "I can fix spelling and full stops."
+      ],
+      "core": [
+        "I can **plan** a piece about my life, for a real audience.",
+        "I can write a **draft** with a strong opening and real detail.",
+        "I can **revise** and **edit** it to make it better.",
+        "I can **proofread** for punctuation, sentences, paragraphs and spelling."
+      ]
+    },
+    "showIt": "Plan, draft, revise, edit and proofread a short piece about your life, interests or pathway, and share the final version.",
+    "vocab": [
+      {
+        "word": "plan",
+        "meaning": "decide what you'll write before you start",
+        "example": "My plan had three parts."
+      },
+      {
+        "word": "draft",
+        "meaning": "a first go at writing, which you'll improve",
+        "example": "My first draft was too long."
+      },
+      {
+        "word": "revise",
+        "meaning": "change the ideas, order or detail to make writing better",
+        "example": "I revised my opening to make it stronger."
+      },
+      {
+        "word": "edit",
+        "meaning": "fix sentences and words so the writing is clear",
+        "example": "I edited out the boring bits."
+      },
+      {
+        "word": "proofread",
+        "meaning": "check carefully for spelling and punctuation mistakes",
+        "example": "I proofread it out loud."
+      },
+      {
+        "word": "detail",
+        "meaning": "a specific fact or sense that helps readers picture it",
+        "example": "The smell of burnt toast was a great detail."
+      },
+      {
+        "word": "paragraph",
+        "meaning": "a group of sentences about one main idea",
+        "example": "Start a new paragraph for a new idea.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "voice",
+        "meaning": "how your writing sounds: like you",
+        "example": "Her voice was funny and honest.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Tell It Your Way in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Tell It Your Way",
+        "sub": "Write your story. Polish it until it’s right.",
+        "icon": "lucide:pen-line",
+        "say": "Tell it your way. Write about your life, and polish it until it's right."
+      },
+      {
+        "kind": "big",
+        "title": "Your story counts",
+        "text": "Real stories · **Real audiences**",
+        "icon": "lucide:radio",
+        "say": "ABC's Heywire competition invites young people in regional Australia to tell their own stories, in writing, video, photos or audio.",
+        "vc": [
+          "VM-U1O1-KS9"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Write it",
+        "pillIcon": "lucide:pen-line",
+        "title": "Plan",
+        "text": "One moment · **One audience**",
+        "icon": "lucide:lightbulb",
+        "say": "Plan. Pick one moment, not your whole life. Who's your audience? What do you want them to feel?",
+        "vc": [
+          "VM-U1O1-KK6",
+          "VM-U1O1-KS9"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Write it",
+        "pillIcon": "lucide:pen-line",
+        "title": "Draft",
+        "text": "Start in the action · **Details**",
+        "icon": "lucide:file-pen",
+        "say": "Draft. Just get it down. Start in the middle of the action. Use details: what you saw, heard and felt.",
+        "vc": [
+          "VM-U1O1-KK6",
+          "VM-U1O1-KS9"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Write it",
+        "pillIcon": "lucide:pen-line",
+        "title": "Revise",
+        "text": "Cut · Move · **Add**",
+        "icon": "lucide:refresh-cw",
+        "say": "Revise. Read it aloud. Is the start strong? Is anything boring or missing? Move things, cut things, add things.",
+        "vc": [
+          "VM-U1O1-KK6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Write it",
+        "pillIcon": "lucide:pen-line",
+        "title": "Edit + proofread",
+        "text": "Punctuation · Paragraphs · **Spelling**",
+        "icon": "lucide:spell-check",
+        "say": "Edit and proofread. Full stops. Capital letters. One idea per paragraph. Check spelling. Read it slowly, out loud.",
+        "vc": [
+          "VM-U1O1-KS10",
+          "VM-U1O1-KK7"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "The writing process",
+        "steps": [
+          "Plan",
+          "Draft",
+          "Revise",
+          "Edit + proofread",
+          "Share"
+        ],
+        "say": "Plan, draft, revise, edit, proofread. Then share it."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Plan. Draft. Fix. Share.",
+        "icon": "lucide:pen-line",
+        "say": "Your mission. Write a short piece about your life, and polish it until it's right."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Tell it your way",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Everyone has stories. Pick one. Make it as good as you can.\n\n**1. Plan.** Pick **one moment**: your first shift, fixing your bike, choosing your path. Who will read it? What do you want them to feel?\n\n**2. Draft.** Get it down. Don't worry about spelling yet.\n\n- **Start in the action:** *The alarm went off as I flipped the first burger.*\n- **Use details:** what you saw, heard and felt.\n- **Show, don't tell:** not *I was nervous*, but *My hands shook.*\n\n**3. Revise.** Read it aloud. Is the start strong? Is anything boring? Cut, move or add.\n\n**4. Edit.** Fix long sentences. Use one **paragraph** for each idea.\n\n**5. Proofread.** Check full stops, capital letters and spelling. Read it slowly.\n\n**6. Share it.** Read it to someone.",
+          "core": "Everyone has stories worth telling. The trick is choosing one, and working on it until it's as good as it can be. Here's the process good writers use.\n\n**1. Plan.** Don't try to write your whole life. Pick **one moment** that shows something about you: your first shift, the day you fixed your bike, the moment you chose your pathway. Then decide:\n\n- **Who's your audience?** Your class, a TAFE application, a competition like ABC Heywire?\n- **What's your format?** A written piece, a speech, a short video script?\n- **What do you want them to feel or understand?**\n\n**2. Draft.** Just get it down. Don't worry about perfect spelling yet.\n\n- **Start in the middle of the action:** *The fire alarm went off just as I flipped the first burger.*\n- **Use details:** what you saw, heard, smelt and felt. *Burnt oil. Forty orders on the screen.*\n- **Show, don't just tell.** Instead of *I was nervous*, try *My hands were shaking so much I dropped the tongs.*\n- **Sound like you.** Your **voice** is what makes it yours.\n\n**3. Revise.** This is about the **ideas**. Read it out loud. Is the opening strong? Is any part boring or confusing? Is something missing? Cut, move and add until it works.\n\n**4. Edit.** This is about **sentences and words**. Fix sentences that are too long. Swap dull words for stronger ones. Make sure each **paragraph** is about one main idea.\n\n**5. Proofread.** This is about **accuracy**. Check every full stop, capital letter, comma and apostrophe. Check spelling. Read it slowly, out loud, or ask someone else to read it.\n\n**6. Share it.** Real writing has real readers. Read it to the class, put it in your folio, or enter it in a competition.\n\nYou can write by hand or on a computer. Either way, the process is the same.",
+          "extend": "A strong personal piece is crafted through a deliberate process. Each stage has a different focus.\n\n**1. Plan.** Choose **one moment** that reveals something about you. Then decide on the audience (classmates, a TAFE panel, a competition such as ABC Heywire), the format (written piece, speech, video script) and the effect you want.\n\n**2. Draft for content.** Write without stopping to correct.\n\n- **Open in the action** to hook the reader.\n- **Select precise sensory detail** so readers can picture it.\n- **Show rather than tell.** Physical detail (*my hands shook*) conveys emotion more powerfully than labels (*I was nervous*).\n- **Keep your voice**: the word choices and rhythm that make it sound like you.\n\n**3. Revise for meaning.** Re-read as a reader. Does the opening hook? Is the structure clear? Is anything irrelevant, confusing or missing? Revision may mean reordering, cutting or rewriting whole sections.\n\n**4. Edit for clarity.** Tighten sentences, vary their length, choose stronger words, and organise **paragraphs** around single ideas.\n\n**5. Proofread for accuracy.** Check punctuation (full stops, capitals, commas, apostrophes), sentence boundaries and spelling. Reading aloud slowly, or getting another reader, catches errors your eyes skip.\n\n**6. Publish.** Share it with a real audience.\n\nThe process is the same for handwritten and digital texts, though digital tools make revision easier and can hide errors that spellcheck misses."
+        },
+        "vc": [
+          "VM-U1O1-KK6",
+          "VM-U1O1-KS9",
+          "VM-U1O1-KS10",
+          "VM-U1O1-KK7"
+        ],
+        "vcNote": "The process of planning, drafting, revising, editing and proofreading; literacy conventions."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Heywire: real stories, real audiences",
+        "icon": "lucide:radio",
+        "body": {
+          "support": "**Heywire** is a story competition run by the **ABC**. It's for young people aged **16 to 22** who live in the **country**.\n\nYou tell a true story from your life. You can write it, or make a **video**, **photos** or **audio**.\n\nWinners get help to share their stories on the ABC. They also go on a trip to **Canberra**.\n\nThe best stories are real and specific. They sound like the person who wrote them.\n\nYour everyday life is worth writing about.",
+          "core": "**Heywire** is a storytelling competition run by the **ABC**, Australia's public broadcaster. It's for young people aged **16 to 22** who live in **regional, rural or remote** Australia.\n\nEntrants tell a true story from their own lives. It might be about where they live, their family, a challenge they've faced, their culture or their plans for the future. Stories can be **written**, or made as a **video**, **photos** or **audio**.\n\nEach year, winners are chosen from across Australia. The ABC helps them make their stories, which can be shared on ABC radio, TV or online. Winners also go to the **Heywire Summit** in **Canberra**. There they meet other young people and share ideas for their towns.\n\nWhy does it work? The stories are **real** and **specific**, and they're told in the writers' own **voices**. A story about one shift at a country pub, or one drive to training, can say more about a person and a place than a whole essay.\n\nIf you live in a regional area, you could enter. Either way, Heywire shows that your everyday life is worth writing about.",
+          "extend": "**Heywire** is the **ABC**'s storytelling competition for young people aged **16 to 22** in **regional, rural and remote** Australia.\n\nEntrants send in true stories from their own lives: about their towns, families, cultures, challenges or futures. Entries can be **written**, or made as **video**, **photos** or **audio**.\n\nWinners are chosen from regions across the country. The ABC helps them produce their stories for radio, TV and online. They also go to the **Heywire Summit** in **Canberra**, where they develop ideas for their communities.\n\nThe competition shows what makes personal writing work. The stories are specific, not general. They're built on real detail, and told in an authentic voice. One well-chosen moment can reveal a lot about a person and a place.\n\nHeywire also shows that personal writing can have a public purpose. Young people's stories about their own lives can change how others see regional Australia."
+        },
+        "source": {
+          "name": "Wikipedia — “Heywire” (ABC competition)",
+          "url": "https://en.wikipedia.org/wiki/Heywire"
+        },
+        "think": {
+          "support": [
+            "What makes a good story?",
+            "What moment could you tell?"
+          ],
+          "core": [
+            "What makes a Heywire story powerful?",
+            "Why might one specific moment be better than a whole life story?",
+            "What moment from your life could you tell?"
+          ]
+        },
+        "vc": [
+          "VM-U1O1-KS9"
+        ],
+        "vcNote": "A real platform for young people's personal texts and real audiences."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a draft",
+      "docTitle": "“FIRST SHIFT” — A DRAFT WITH REVISION NOTES (EXAMPLE)",
+      "vc": [
+        "VM-U1O1-KK6",
+        "VM-U1O1-KS10",
+        "VM-U1O1-KK7"
+      ],
+      "vcNote": "How revision, editing and proofreading each improve a draft.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Opening (draft)",
+          "value": "I'm going to tell you about my first shift at work.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Opening (revised)",
+          "value": "The fire alarm went off just as I flipped my first burger."
+        },
+        {
+          "n": 3,
+          "label": "Telling",
+          "value": "I was really nervous."
+        },
+        {
+          "n": 4,
+          "label": "Showing",
+          "value": "My hands were shaking so much I dropped the tongs twice."
+        },
+        {
+          "n": 5,
+          "label": "Edit",
+          "value": "and then it got busy and then the manager came and then I got confused → Then the lunch rush hit. The manager handed me three orders at once."
+        },
+        {
+          "n": 6,
+          "label": "Proofread",
+          "value": "there was forty orders on the screen → There were forty orders on the screen.",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Weak opening",
+          "note": "Tells the reader what's coming. Flat."
+        },
+        {
+          "n": 2,
+          "label": "Revised opening",
+          "note": "Starts in the action. Hooks the reader."
+        },
+        {
+          "n": 3,
+          "label": "Telling",
+          "note": "Names the feeling."
+        },
+        {
+          "n": 4,
+          "label": "Showing",
+          "note": "A detail lets readers feel it."
+        },
+        {
+          "n": 5,
+          "label": "Edit",
+          "note": "One long “and then” sentence becomes two clear ones."
+        },
+        {
+          "n": 6,
+          "label": "Proofread",
+          "note": "Capital letter, and “were” agrees with “orders”."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "The writing process",
+      "steps": [
+        {
+          "title": "Plan",
+          "text": "One moment. One audience.",
+          "icon": "lucide:lightbulb"
+        },
+        {
+          "title": "Draft",
+          "text": "Get it down. Action and detail.",
+          "icon": "lucide:file-pen"
+        },
+        {
+          "title": "Revise",
+          "text": "Ideas: cut, move, add.",
+          "icon": "lucide:refresh-cw"
+        },
+        {
+          "title": "Edit + proofread",
+          "text": "Sentences, then accuracy.",
+          "icon": "lucide:spell-check"
+        },
+        {
+          "title": "Share",
+          "text": "A real reader.",
+          "icon": "lucide:send"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What's the best way to choose what to write about?",
+        "options": [
+          "Pick one moment that shows something about you",
+          "Write your whole life story",
+          "Copy someone else's story",
+          "Write about nothing"
+        ],
+        "answer": 0,
+        "explain": "One moment, told well.",
+        "vc": [
+          "VM-U1O1-KS9"
+        ]
+      },
+      {
+        "q": "Which opening is strongest?",
+        "options": [
+          "“The fire alarm went off just as I flipped my first burger.”",
+          "“I'm going to tell you about my first shift.”",
+          "“This story is about work.”",
+          "“Hi.”"
+        ],
+        "answer": 0,
+        "explain": "Start in the action.",
+        "vc": [
+          "VM-U1O1-KS9"
+        ]
+      },
+      {
+        "q": "What's the difference between **revising** and **proofreading**?",
+        "options": [
+          "Revising fixes ideas; proofreading fixes mistakes like spelling and punctuation",
+          "They're the same",
+          "Proofreading is first",
+          "Revising is only spelling"
+        ],
+        "answer": 0,
+        "explain": "Big changes first, small fixes last.",
+        "vc": [
+          "VM-U1O1-KK6"
+        ]
+      },
+      {
+        "q": "Which sentence **shows** instead of tells?",
+        "options": [
+          "“My hands were shaking so much I dropped the tongs.”",
+          "“I was nervous.”",
+          "“It was bad.”",
+          "“I felt things.”"
+        ],
+        "answer": 0,
+        "explain": "Details let readers feel it.",
+        "vc": [
+          "VM-U1O1-KS9"
+        ]
+      },
+      {
+        "q": "Which is correct?",
+        "options": [
+          "There were forty orders on the screen.",
+          "there was forty orders on the screen",
+          "There was forty orders on the screen.",
+          "there were forty orders on the screen"
+        ],
+        "answer": 0,
+        "explain": "A capital letter, and “were” with “orders”.",
+        "vc": [
+          "VM-U1O1-KS10"
+        ]
+      },
+      {
+        "q": "Who can enter ABC Heywire?",
+        "options": [
+          "Young people aged 16 to 22 in regional, rural or remote Australia",
+          "Only professional writers",
+          "Anyone over 50",
+          "Only city students"
+        ],
+        "answer": 0,
+        "explain": "Stories can be writing, video, photos or audio.",
+        "vc": [
+          "VM-U1O1-KS9"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "When should you start a new **paragraph**?",
+        "options": [
+          "When you move to a new main idea, time or place",
+          "Every sentence",
+          "Never",
+          "Only at the end"
+        ],
+        "answer": 0,
+        "explain": "One main idea per paragraph.",
+        "vc": [
+          "VM-U1O1-KK7"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan and draft a short piece about your life. Fix it up. Share the final copy.",
+      "core": "Plan, draft, revise, edit and proofread a short piece about your life, interests or pathway, and share the final version.",
+      "extend": "Craft a 300 to 400 word personal piece for a chosen audience, documenting each stage of the writing process and justifying your key revisions."
+    },
+    "checklist": [
+      "I chose one moment and an audience",
+      "My draft starts in the action",
+      "I used real details",
+      "I revised my ideas",
+      "I edited my sentences",
+      "I proofread for punctuation and spelling",
+      "I shared my final version"
+    ],
+    "levelUp": "Explain your two biggest changes from first draft to final copy, and why they made it better. Then consider entering your piece in a competition like ABC Heywire.",
+    "vc": [
+      "VM-U1O1-KS9",
+      "VM-U1O1-KK6",
+      "VM-U1O1-KS10"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Tell it your way",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What are the **five** steps of the writing process?",
+            "lines": 1,
+            "vc": [
+              "VM-U1O1-KK6"
+            ]
+          },
+          {
+            "q": "What's the difference between **revising** and **proofreading**?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KK6"
+            ]
+          },
+          {
+            "q": "Rewrite this to **show**, not tell: *I was happy.*",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS9"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "The writing process",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a draft",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a change. Use the word bank. Why is it better?",
+          "core": "Each number marks a change in the draft. Write what kind of change it is and why it's better."
+        },
+        "columns": [
+          "What kind of change?",
+          "Why is it better?"
+        ],
+        "wordBank": {
+          "support": [
+            "weak opening",
+            "strong opening",
+            "telling",
+            "showing",
+            "edit",
+            "proofread"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O1-KK6",
+          "VM-U1O1-KS10"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Fix it",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 22
+        },
+        "instructions": "Each sentence has a mistake. Rewrite it correctly, and name the mistake. The first one is done for you.",
+        "columns": [
+          "Sentence",
+          "Fixed",
+          "The mistake"
+        ],
+        "rows": [
+          [
+            "i started at the bakery in march",
+            "I started at the bakery in March.",
+            "Capital letters, full stop"
+          ],
+          [
+            "Its my favourite job ive ever had.",
+            "",
+            ""
+          ],
+          [
+            "we got there late the bus was cancelled",
+            "",
+            ""
+          ],
+          [
+            "There dog barked at us all the way.",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "I went to TAFE and then I did my course and then I got a job and then I liked it.",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "I definately want to be an electrician.",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KS10",
+          "VM-U1O1-KK7"
+        ],
+        "vcNote": "Applying conventions: punctuation, sentence structure and spelling."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Heywire",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What makes a Heywire story powerful?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS9"
+            ]
+          },
+          {
+            "q": "Why might one specific moment work better than a whole life story?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS9"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Step 1: plan it",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "Plan your piece. The first row shows an example.",
+        "columns": [
+          "Plan",
+          "My piece"
+        ],
+        "rows": [
+          [
+            "Example: my moment",
+            "My first shift at the burger shop, when the fire alarm went off"
+          ],
+          [
+            "My moment",
+            ""
+          ],
+          [
+            "My audience",
+            ""
+          ],
+          [
+            "My format (written, speech, video script)",
+            ""
+          ],
+          [
+            "What I want readers to feel or understand",
+            ""
+          ],
+          [
+            "Three details (see, hear, feel)",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U1O1-KS9",
+          "VM-U1O1-KK6"
+        ],
+        "vcNote": "Planning a personal piece for an audience."
+      },
+      {
+        "type": "write",
+        "title": "Step 2: my first draft",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write your first draft (about 150 to 200 words). Start in the action. Use details. Don't fix spelling yet.",
+          "core": "Write your first draft (about 250 to 350 words). Start in the action. Use your details. Don't stop to fix spelling yet.",
+          "extend": "Write a first draft of 300 to 400 words. Open in the action, select precise sensory detail, show rather than tell, and keep your own voice."
+        },
+        "plan": [
+          {
+            "label": "My opening line",
+            "lines": 1
+          },
+          {
+            "label": "How I'll end it",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "The … just as I…",
+            "I remember…",
+            "That's when…"
+          ],
+          "core": [
+            "The … just as I…",
+            "I remember…",
+            "That's when I realised…"
+          ]
+        },
+        "lines": {
+          "support": 13,
+          "core": 15
+        },
+        "check": [
+          "starts in the action",
+          "real details",
+          "shows, not just tells",
+          "sounds like me"
+        ],
+        "vc": [
+          "VM-U1O1-KS9",
+          "VM-U1O1-KK6"
+        ],
+        "vcNote": "Drafting a personal piece."
+      },
+      {
+        "type": "questions",
+        "title": "Keep writing",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Keep going with your draft here if you need more space.",
+            "lines": {
+              "support": 18,
+              "core": 22
+            }
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Step 3: revise and edit",
+        "pagebreak": true,
+        "instructions": "Swap drafts with a partner. Read each other's piece aloud. Then answer about **your own** draft.",
+        "items": [
+          {
+            "q": "My partner said the best part was:",
+            "lines": 1,
+            "vc": [
+              "VM-U1O1-KK6"
+            ]
+          },
+          {
+            "q": "What will I **cut**, **move** or **add**? (revise)",
+            "lines": 3,
+            "vc": [
+              "VM-U1O1-KK6"
+            ]
+          },
+          {
+            "q": "Which sentences will I make clearer or stronger? (edit)",
+            "lines": 3,
+            "vc": [
+              "VM-U1O1-KK6",
+              "VM-U1O1-KS10"
+            ]
+          },
+          {
+            "q": "What mistakes did I find? Check full stops, capitals, apostrophes, paragraphs and spelling. (proofread)",
+            "lines": 3,
+            "vc": [
+              "VM-U1O1-KS10",
+              "VM-U1O1-KK7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my final copy",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write your final copy. Make your changes. Read it out loud to check it.",
+          "core": "Write your final, polished copy. Make the changes you planned. Proofread it slowly, out loud, before you hand it in.",
+          "extend": "Write your final copy, making the revisions you planned. Proofread carefully, and be ready to justify your two biggest changes."
+        },
+        "plan": [
+          {
+            "label": "My title",
+            "lines": 1
+          },
+          {
+            "label": "My audience",
+            "lines": 1
+          }
+        ],
+        "lines": {
+          "support": 15,
+          "core": 16
+        },
+        "check": [
+          "my revisions are made",
+          "clear paragraphs",
+          "full stops and capital letters",
+          "spelling checked",
+          "proofread out loud"
+        ],
+        "vc": [
+          "VM-U1O1-KS9",
+          "VM-U1O1-KS10",
+          "VM-U1O1-KK7"
+        ],
+        "vcNote": "Producing a refined, accurate final text."
+      },
+      {
+        "type": "questions",
+        "title": "Keep writing",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Keep going with your final copy here if you need more space.",
+            "lines": {
+              "support": 18,
+              "core": 22
+            }
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What were your **two biggest changes** from first draft to final copy? Explain why each one made your piece better.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KK6"
+            ]
+          },
+          {
+            "q": "Choose **one** paragraph. Explain how you organised it, and what conventions you checked (punctuation, sentences, spelling).",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KK7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can plan a piece about my life.",
+          "I can write a strong draft.",
+          "I can revise and edit.",
+          "I can proofread carefully."
+        ],
+        "questions": [
+          "The moment I wrote about:",
+          "Where I could share it:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The boss level of Text Toolkit. Students plan, draft, revise, edit and proofread a short personal piece about their life, interests or pathway, for a chosen audience and format. The literacy focus is the writing process and its distinct stages (revising for ideas, editing for clarity, proofreading for accuracy) and the conventions of punctuation, sentence structure, paragraphing and spelling. The case study is ABC Heywire, a storytelling competition for young people aged 16 to 22 in regional, rural and remote Australia.",
+    "prep": [
+      "Read two or three short published personal pieces aloud (Heywire stories are good, check them first).",
+      "Decide whether drafts will be handwritten, typed, or both.",
+      "Plan peer feedback pairs with care: students may share personal stories."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The process",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** read a short personal story aloud. Which moment stuck with you?",
+          "**Explicit teaching (10 min):** plan, draft, revise, edit, proofread.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Anatomy of a draft (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan and draft",
+        "minutes": 50,
+        "steps": [
+          "**Fix it (10 min).**",
+          "**Case study (10 min):** Heywire.",
+          "**Step 1: plan it (10 min).**",
+          "**Step 2: first draft (20 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Revise and edit",
+        "minutes": 50,
+        "steps": [
+          "**Finish drafts (15 min).**",
+          "**Step 3: revise and edit (25 min).** Model giving kind, specific feedback.",
+          "**Start the final copy (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 4 — Final copy and share",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (25 min):** my final copy.",
+          "**Share (15 min):** volunteers read aloud.",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Plan: one moment, one audience, a format, an effect.",
+      "Draft: start in the action, use sensory details, show rather than tell, keep your voice.",
+      "Revise for ideas (cut, move, add); edit for clarity (sentences, words, paragraphs); proofread for accuracy (punctuation, spelling).",
+      "One main idea per paragraph.",
+      "Read aloud to catch problems.",
+      "Share with a real audience."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer Fix it rows.",
+        "Shorter word counts with sentence starters."
+      ],
+      "extend": [
+        "300–400 words with documented revisions.",
+        "Justify the biggest changes and explain paragraph choices (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O1-KS9",
+        "evidence": "Plans, drafts, edits and refines a personal response (plan, draft, final copy)."
+      },
+      {
+        "vc": "VM-U1O1-KK6",
+        "evidence": "Explains and uses the stages of planning, drafting, revising, editing and proofreading (annotation, Step 3, Level Up)."
+      },
+      {
+        "vc": "VM-U1O1-KS10",
+        "evidence": "Applies conventions of sentence structure, paragraphing, punctuation and spelling (Fix it, final copy)."
+      },
+      {
+        "vc": "VM-U1O1-KK7",
+        "evidence": "Explains literacy conventions and why they matter (Fix it, Level Up)."
+      }
+    ],
+    "answers": "**Check your reading:** plan, draft, revise, edit, proofread (then share). Revising changes ideas, order and detail; proofreading fixes small errors like spelling and punctuation. Show, not tell (sample): *I couldn't stop grinning all the way home.*\n\n**Draft:** 1 weak opening (tells what's coming); 2 revised opening (starts in the action); 3 telling (names the feeling); 4 showing (a detail lets readers feel it); 5 edit (a run-on *and then* sentence split into clear sentences); 6 proofread (capital letter; *were* agrees with *orders*).\n\n**Fix it:** It's my favourite job I've ever had. (apostrophes) · We got there late. The bus was cancelled. (run-on sentence; capitals) · Their dog barked at us all the way. (their/there) · I went to TAFE, did my course and got a job, and I liked it. (repetition, *and then*) · I definitely want to be an electrician. (spelling)\n\n**Case study:** real, specific stories in the writer's own voice; one moment can be told in detail and reveal a lot.",
+    "resources": [
+      {
+        "label": "Wikipedia — Heywire (ABC competition)",
+        "url": "https://en.wikipedia.org/wiki/Heywire"
+      },
+      {
+        "label": "Australian Government Style Manual",
+        "url": "https://www.stylemanual.gov.au"
+      }
+    ],
+    "realityCheck": [
+      "**Personal writing can surface hard stories.** Let students choose what to share, and follow up privately if a piece raises concerns.",
+      "**Peer feedback needs safety.** Teach a simple structure: one thing that works, one question, one suggestion.",
+      "**Students resist revising.** Show your own messy draft and its revisions; it normalises the process.",
+      "**Handwritten or typed?** Both are fine. Typed drafts make revision easier, but spellcheck misses words like *there/their*.",
+      "**Works in a real class:** yes. The final piece can go into a folio, a TAFE application or a competition entry."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer Fix it rows, and shorter word counts with sentence starters.",
+      "core": "Standard version: draft anatomy, Fix it conventions, the Heywire case, planning, a first draft, peer revision and editing, and a polished final copy.",
+      "extend": "Adds paragraph and voice to the vocabulary, a quiz question on paragraphing, a 300–400 word piece with documented revisions, and Level Ups justifying changes and explaining conventions."
+    }
+  }
+}

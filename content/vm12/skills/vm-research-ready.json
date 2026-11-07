@@ -1,0 +1,895 @@
+{
+  "id": "vm-research-ready",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "Your task: *What are the ladder safety rules at work?* You search. You get millions of results: ads, old forums, videos, an AI answer. Which ones can you trust?",
+      "core": "Your assignment: *What are the safety rules for using a ladder at work?* You type the question into a search engine. Half a second later: 4 million results, a sponsored ad, a forum post from 2009, a TikTok, and an AI summary that sounds very sure of itself. Which one do you trust? And how do you take notes you can actually use?"
+    },
+    "why": {
+      "support": "You'll research for school, TAFE and work. Find **reliable** sources. Take **notes** in your own words. Write down where each fact came from. Always check AI answers.",
+      "core": "You'll use research for every assignment, at TAFE and at work. You might need to find out how to do something safely, check a rule, or compare options. Good research means finding **reliable** sources. It means taking **notes** in your own words, and keeping track of where each fact came from. AI tools can help you start. But they can also make things up, so always check.",
+      "extend": "Research takes judgement, not just searching. You need to judge how reliable a source is, pick out the useful information and put it in your own words. You also need to record your sources so others can check your claims. AI tools can produce convincing but false information. So checking against reliable sources is now a core literacy skill."
+    },
+    "canDo": {
+      "support": [
+        "I can search with key words.",
+        "I can check if a source is reliable.",
+        "I can take notes in my own words.",
+        "I can write down my sources."
+      ],
+      "core": [
+        "I can search smart, with **key words**.",
+        "I can check if a source is **reliable**.",
+        "I can take **notes** in my own words.",
+        "I can record my **sources**, and check what AI tells me."
+      ]
+    },
+    "showIt": "Research a real question using reliable sources, take notes in your own words, and record where every fact came from.",
+    "vocab": [
+      {
+        "word": "research",
+        "meaning": "finding information to answer a question",
+        "example": "I did research on ladder safety."
+      },
+      {
+        "word": "source",
+        "meaning": "where information comes from",
+        "example": "My source was WorkSafe Victoria."
+      },
+      {
+        "word": "reliable",
+        "meaning": "you can trust it to be correct",
+        "example": "A government website is usually reliable."
+      },
+      {
+        "word": "key words",
+        "meaning": "the important words you type into a search",
+        "example": "My key words were ladder safety work Victoria."
+      },
+      {
+        "word": "notes",
+        "meaning": "short points you write down while you read",
+        "example": "I took notes in dot points."
+      },
+      {
+        "word": "paraphrase",
+        "meaning": "say something in your own words",
+        "example": "I paraphrased the safety rule."
+      },
+      {
+        "word": "plagiarism",
+        "meaning": "using someone else's words or ideas as if they were yours",
+        "example": "Copying a website is plagiarism.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "verify",
+        "meaning": "check that something is true",
+        "example": "I verified the AI answer on WorkSafe's website.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Research Ready in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Research Ready",
+        "sub": "Find information you can trust, and use it.",
+        "icon": "lucide:search",
+        "say": "Research ready. Find information you can trust, and use it."
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Research",
+        "pillIcon": "lucide:search",
+        "title": "Key words",
+        "text": "*ladder safety work Victoria*",
+        "icon": "lucide:search",
+        "say": "Search smart. Use a few key words, not a whole sentence. Add Victoria or Australia to get local results.",
+        "vc": [
+          "VM-U1O1-KS6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Research",
+        "pillIcon": "lucide:search",
+        "title": "Is it reliable?",
+        "text": "Who? When? Expert? **Selling?**",
+        "icon": "lucide:shield-check",
+        "say": "Check it. Who made it? When? Do they know what they're talking about? Are they trying to sell you something?",
+        "vc": [
+          "VM-U1O1-KS6",
+          "VM-U1O1-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Research",
+        "pillIcon": "lucide:search",
+        "title": "Notes",
+        "text": "Dot points · **Your words**",
+        "icon": "lucide:notebook-pen",
+        "say": "Take notes in your own words. Short dot points. Only what answers your question.",
+        "vc": [
+          "VM-U1O1-KK5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Research",
+        "pillIcon": "lucide:search",
+        "title": "Record sources",
+        "text": "Who · What · When · **Link**",
+        "icon": "lucide:link",
+        "say": "Write down every source: who, what, when and the link. So you, or anyone, can check it.",
+        "vc": [
+          "VM-U1O1-KS6"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Always verify",
+        "text": "AI said it. **Check it.**",
+        "icon": "lucide:bot",
+        "say": "AI can make things up. In 2024, a Melbourne lawyer gave a court a list of cases made by AI software. None of them were real.",
+        "vc": [
+          "VM-U1O1-KS6"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Research anything",
+        "steps": [
+          "Search",
+          "Check",
+          "Notes",
+          "Record"
+        ],
+        "say": "To research anything: search smart, check the source, take notes in your own words, and record where it came from."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Search. Check. Note. Record.",
+        "icon": "lucide:search",
+        "say": "Your mission. Research a real question, using reliable sources and your own notes."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to research",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Research means finding information to answer a question.\n\n**1. Know your question.** Write it at the top.\n\n**2. Search smart.** Use **key words**: *ladder safety work Victoria*.\n\n**3. Check the source.**\n\n- **Who** made it?\n- **When**?\n- Are they trying to **sell** you something?\n\nGovernment sites (**.gov.au**) are usually **reliable**.\n\n**4. Take notes.** Short dot points, in your own words.\n\n**5. Write down your sources.** Who, what, when and the link.\n\n**6. Check AI answers.** AI can sound sure and still be wrong. It can make things up.\n\n**7. Don't copy.** Copying and saying it's yours is not OK.",
+          "core": "Research means finding information to answer a question. Here's how to do it well.\n\n**1. Know your question.** Write it at the top of your page. *What are the safety rules for using a ladder at work?* Every note you take should help answer it.\n\n**2. Search smart.** Use a few **key words**, not a whole sentence: *ladder safety work Victoria*. Adding *Victoria* or *Australia* gives you local rules. Try different words if the first search doesn't work.\n\n**3. Check if it's reliable.** Before you use a **source**, ask:\n\n- **Who** made it? A government agency, a university, an expert organisation? Or someone you don't know?\n- **When** was it made or updated? Rules change.\n- **Why** was it made? To inform you, or to sell you something?\n- Does it **match** other reliable sources?\n\nGovernment sites (ending in **.gov.au**), like WorkSafe Victoria, are usually **reliable** for rules. Forums, ads and random videos are not.\n\n**4. Take notes in your own words.** Use short dot points. Only write what answers your question. Don't copy whole sentences: **paraphrase** them. If you need someone's exact words, put them in quote marks.\n\n**5. Record every source.** Write down who made it, the title, the date and the link. Then you can find it again, and others can check your facts.\n\n**6. Be careful with AI.** AI chatbots can be a good place to start, but they can sound sure and still be wrong. They sometimes make up facts, quotes and sources that don't exist. Always **verify** what AI tells you against a reliable source.\n\n**7. Don't plagiarise.** Copying someone else's words or ideas and pretending they're yours is **plagiarism**. At school and TAFE, it can mean failing a task. At work, it can cost you your job.",
+          "extend": "Research is the process of locating, evaluating and using information to answer a question. Each stage needs judgement.\n\n**1. Define the question.** A clear research question focuses your search and tells you what to keep and what to ignore.\n\n**2. Search strategically.** Use precise **key words**, add location terms for local regulations, and refine terms if the results aren't relevant.\n\n**3. Evaluate reliability.** For each **source**, consider:\n\n- **authority:** who created it, and are they qualified?\n- **currency:** when was it published or updated?\n- **purpose:** is it informing, or selling or persuading?\n- **corroboration:** do other reliable sources agree?\n\nGovernment agencies (**.gov.au**) such as WorkSafe Victoria are generally **reliable** for regulations; anonymous forums and advertising generally aren't.\n\n**4. Take notes selectively** in dot points, **paraphrasing** rather than copying. Quote exact wording only when it matters, with quotation marks.\n\n**5. Record sources** (author, title, date, link) so claims can be traced and checked.\n\n**6. Verify AI output.** Generative AI can produce fluent, confident text that includes invented facts and sources. Treat it as a starting point, and **verify** everything against reliable sources.\n\n**7. Avoid plagiarism.** Presenting others' words or ideas as your own has real consequences: failing assessments, losing credibility, or professional sanctions."
+        },
+        "vc": [
+          "VM-U1O1-KS6",
+          "VM-U1O1-KK5",
+          "VM-U1O1-KS3",
+          "VM-U1O1-KK4"
+        ],
+        "vcNote": "Searching, evaluating reliability, note taking and paraphrasing, recording sources, and plagiarism."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The cases that didn't exist",
+        "icon": "lucide:scale",
+        "body": {
+          "support": "In **2024**, a Melbourne lawyer used **AI** to make a list of court cases. He didn't check it.\n\nThe judge's team looked them up. **None of the cases were real.** The AI made them up.\n\nThe lawyer said sorry. But the judge reported him.\n\nIn **2025**, he was told he can only work with a **supervisor** for two years.\n\nThe lesson: AI can sound sure and still be wrong. Always **check** it.",
+          "core": "In **July 2024**, a Melbourne lawyer was working on a family law case. He gave the court a list of earlier court cases to support his argument.\n\nHe had used **AI software** to make the list. He didn't check it.\n\nWhen the court looked up the cases, they couldn't be found. **None of them were real.** The AI had made them up, with names, dates and details that looked convincing.\n\nThe lawyer apologised. The judge accepted his apology, but still referred him to the **Victorian Legal Services Board**, which regulates lawyers. She said it was important for the public.\n\nIn **August 2025**, the board changed his practising certificate. For **two years**, he can only work under **supervision**, and he and his supervisor must report to the board regularly. Reports said he was the first lawyer in Australia to be sanctioned like this for using AI in a court case.\n\nThe lesson works for everyone, not just lawyers: AI can sound sure and still be wrong. If you use it, **verify** what it tells you against a reliable source, every time.",
+          "extend": "In **July 2024**, a Melbourne lawyer was acting in a family law case. He gave the court a list of earlier cases to support his client.\n\nHe had made the list with **AI legal software**, and he hadn't checked it. When the court looked, the cases couldn't be found: **they didn't exist**. The software had invented citations that looked real.\n\nThe lawyer apologised. The judge accepted the apology. But she still referred him to the **Victorian Legal Services Board and Commissioner**, saying this was in the public interest.\n\nIn **August 2025**, the board changed his practising certificate. He can no longer run his own practice. For **two years**, he must work under **supervision**, with regular reports to the board. Reports called this Australia's first professional sanction for misusing AI in a court case.\n\nThe case shows that sounding confident isn't the same as being reliable. AI output can look authoritative and still be made up. In any job, using AI responsibly means treating it as a starting point and **verifying** every claim against reliable sources."
+        },
+        "source": {
+          "name": "Lawyers Weekly — “First-ever Aussie lawyer sanctioned for AI use” (2025)",
+          "url": "https://www.lawyersweekly.com.au/biglaw/42917-first-ever-aussie-lawyer-sanctioned-for-ai-use"
+        },
+        "think": {
+          "support": [
+            "What went wrong?",
+            "How could he have stopped it?"
+          ],
+          "core": [
+            "What went wrong, and when could the lawyer have stopped it?",
+            "Why do you think the fake cases looked convincing?",
+            "What could happen if you used an unchecked AI answer at school or work?"
+          ]
+        },
+        "vc": [
+          "VM-U1O1-KS6",
+          "VM-U1O1-KK4"
+        ],
+        "vcNote": "A real Victorian case about verifying sources and the consequences of not doing so."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of good research notes",
+      "docTitle": "QUESTION: WHAT ARE THE SAFETY RULES FOR LADDERS AT WORK? (EXAMPLE)",
+      "vc": [
+        "VM-U1O1-KK5",
+        "VM-U1O1-KS6",
+        "VM-U1O1-KS3"
+      ],
+      "vcNote": "How research notes are organised: a question, paraphrased dot points, and a recorded source.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "My question",
+          "value": "What are the safety rules for using a ladder at work?",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Key words",
+          "value": "ladder safety work Victoria"
+        },
+        {
+          "n": 3,
+          "label": "Note",
+          "value": "• Check the ladder before using it: no damage, feet secure."
+        },
+        {
+          "n": 4,
+          "label": "Note",
+          "value": "• Keep three points of contact (two feet and one hand)."
+        },
+        {
+          "n": 5,
+          "label": "Exact quote",
+          "value": "“…” (only when the exact words matter)"
+        },
+        {
+          "n": 6,
+          "label": "Source",
+          "value": "WorkSafe Victoria, “[page title]”, updated [date], [link]",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice. Check real rules with WorkSafe Victoria.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Question",
+          "note": "At the top. Every note answers it."
+        },
+        {
+          "n": 2,
+          "label": "Key words",
+          "note": "Short, specific, local."
+        },
+        {
+          "n": 3,
+          "label": "Paraphrased note",
+          "note": "My words. Short."
+        },
+        {
+          "n": 4,
+          "label": "One idea per point",
+          "note": "Easy to use later."
+        },
+        {
+          "n": 5,
+          "label": "Quote marks",
+          "note": "Only for exact words."
+        },
+        {
+          "n": 6,
+          "label": "Source",
+          "note": "Who, title, date, link."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Research anything",
+      "steps": [
+        {
+          "title": "Search",
+          "text": "A few key words. Add a place.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Check",
+          "text": "Who, when, why, does it match?",
+          "icon": "lucide:shield-check"
+        },
+        {
+          "title": "Notes",
+          "text": "Dot points, your words.",
+          "icon": "lucide:notebook-pen"
+        },
+        {
+          "title": "Record",
+          "text": "Who, title, date, link.",
+          "icon": "lucide:link"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which are the best **key words** for a search?",
+        "options": [
+          "ladder safety work Victoria",
+          "what are all the things I need to know about ladders please",
+          "ladders",
+          "stuff"
+        ],
+        "answer": 0,
+        "explain": "Short, specific, local.",
+        "vc": [
+          "VM-U1O1-KS6"
+        ]
+      },
+      {
+        "q": "Which source is most **reliable** for workplace safety rules in Victoria?",
+        "options": [
+          "WorkSafe Victoria (a .gov.au site)",
+          "A ladder company's ad",
+          "A forum post from 2009",
+          "A random TikTok"
+        ],
+        "answer": 0,
+        "explain": "Government agencies are usually reliable for rules.",
+        "vc": [
+          "VM-U1O1-KS6"
+        ]
+      },
+      {
+        "q": "What should notes look like?",
+        "options": [
+          "Short dot points, in your own words",
+          "Whole paragraphs copied from the website",
+          "Nothing: just remember it",
+          "Only pictures"
+        ],
+        "answer": 0,
+        "explain": "Paraphrase as you go.",
+        "vc": [
+          "VM-U1O1-KK5"
+        ]
+      },
+      {
+        "q": "Why record your sources?",
+        "options": [
+          "So you and others can check your facts",
+          "To make it longer",
+          "Because it looks good",
+          "You don't need to"
+        ],
+        "answer": 0,
+        "explain": "Who, title, date, link.",
+        "vc": [
+          "VM-U1O1-KS6"
+        ]
+      },
+      {
+        "q": "An AI chatbot gives you a confident answer with a source. What should you do?",
+        "options": [
+          "Check the source exists and says that",
+          "Copy it straight in",
+          "Trust it: it sounds sure",
+          "Delete your assignment"
+        ],
+        "answer": 0,
+        "explain": "AI can make up sources.",
+        "vc": [
+          "VM-U1O1-KS6"
+        ]
+      },
+      {
+        "q": "In the 2024 Melbourne case, what was wrong with the lawyer's list?",
+        "options": [
+          "The AI had made up cases that didn't exist",
+          "It was too short",
+          "It was handwritten",
+          "It was in another language"
+        ],
+        "answer": 0,
+        "explain": "He didn't verify it.",
+        "vc": [
+          "VM-U1O1-KS6"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Which is **plagiarism**?",
+        "options": [
+          "Copying a paragraph from a website and saying you wrote it",
+          "Quoting a sentence with quote marks and the source",
+          "Paraphrasing and naming the source",
+          "Writing your own ideas"
+        ],
+        "answer": 0,
+        "explain": "Using others' words as your own.",
+        "vc": [
+          "VM-U1O1-KK4"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Research a real question. Use reliable sites. Take notes in your own words. Write down your sources.",
+      "core": "Research a real question using reliable sources, take notes in your own words, and record where every fact came from.",
+      "extend": "Research a real question using at least three reliable sources, evaluate each source, take paraphrased notes, record full source details, and verify one AI-generated answer."
+    },
+    "checklist": [
+      "I wrote my question at the top",
+      "I used good key words",
+      "I checked each source was reliable",
+      "My notes are in my own words",
+      "I recorded every source",
+      "I checked anything AI told me"
+    ],
+    "levelUp": "Ask an AI chatbot your research question. Check its answer against two reliable sources. What did it get right, what did it get wrong, and did its sources exist?",
+    "vc": [
+      "VM-U1O1-KS6",
+      "VM-U1O1-KK5",
+      "VM-U1O1-KS3"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to research",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What **four** questions help you check if a source is reliable?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS6"
+            ]
+          },
+          {
+            "q": "What's the difference between **paraphrasing** and copying?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KK5"
+            ]
+          },
+          {
+            "q": "Why should you always check what AI tells you?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Research anything",
+        "diagram": 1
+      },
+      {
+        "type": "sort",
+        "title": "Reliable or check it?",
+        "pagebreak": true,
+        "choices": [
+          "Reliable",
+          "Check it"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Your question: *What are the safety rules for using a ladder at work?* Tick whether each source is **reliable**, or one to **check** first. Say why.",
+        "cards": [
+          {
+            "from": "Source",
+            "text": "WorkSafe Victoria's guide to working at heights",
+            "answer": "Reliable",
+            "flags": "Government agency, about Victorian rules."
+          },
+          {
+            "from": "Source",
+            "text": "A ladder company's ad: “Our ladders make every job 100% safe!”",
+            "answer": "Check it",
+            "flags": "Selling something. Big claim."
+          },
+          {
+            "from": "Source",
+            "text": "A forum post from 2009 by “ladderguy88”",
+            "answer": "Check it",
+            "flags": "Old, unknown author."
+          },
+          {
+            "from": "Source",
+            "text": "Your TAFE course notes from your trainer",
+            "answer": "Reliable",
+            "flags": "An expert, for your course."
+          },
+          {
+            "from": "Source",
+            "text": "An AI chatbot's answer, with no sources",
+            "answer": "Check it",
+            "flags": "Could be made up. Verify it.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Source",
+            "text": "Safe Work Australia's national code of practice",
+            "answer": "Reliable",
+            "flags": "National safety agency.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KS6"
+        ],
+        "vcNote": "Identifying reliable sources for research."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of good research notes",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the notes. Use the word bank. Why does it help?",
+          "core": "Each number marks part of the notes. Write what it is and why it helps."
+        },
+        "columns": [
+          "What is it?",
+          "Why does it help?"
+        ],
+        "wordBank": {
+          "support": [
+            "question",
+            "key words",
+            "note",
+            "one idea",
+            "quote",
+            "source"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O1-KK5",
+          "VM-U1O1-KS6"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Paraphrase it",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "Rewrite each sentence as a short note in **your own words**. Don't copy. The first one is done for you.",
+        "columns": [
+          "The source says…",
+          "My note"
+        ],
+        "rows": [
+          [
+            "Before each use, workers should inspect the ladder for damage, including bent rungs and missing feet.",
+            "Check the ladder for damage before every use."
+          ],
+          [
+            "Ladders must be placed on a firm, level surface.",
+            ""
+          ],
+          [
+            "Workers should face the ladder when climbing and keep three points of contact.",
+            ""
+          ],
+          [
+            "Do not carry heavy or bulky items while climbing a ladder.",
+            ""
+          ],
+          {
+            "cells": [
+              "Employers have a duty to provide training on the safe use of ladders.",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KK5"
+        ],
+        "vcNote": "Paraphrasing source material into notes."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the cases that didn't exist",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What went wrong? When could the lawyer have stopped it?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS6"
+            ]
+          },
+          {
+            "q": "Why do you think the made-up cases looked convincing?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS3"
+            ]
+          },
+          {
+            "q": "What could happen if you used an unchecked AI answer at school or work?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KK4"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: my research notes",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 36,
+          "core": 36
+        },
+        "instructions": "Choose a real question about work, TAFE or life (or one your teacher gives you). Find **three** reliable sources. Take notes in your own words, and record each source.",
+        "columns": [
+          "Source (who, title, date, link)",
+          "Reliable? Why?",
+          "My notes (dot points, my words)"
+        ],
+        "rows": [
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U1O1-KS6",
+          "VM-U1O1-KK5",
+          "VM-U1O1-KS3"
+        ],
+        "vcNote": "Researching a real question: selecting reliable sources, note taking and recording sources."
+      },
+      {
+        "type": "questions",
+        "title": "Sum it up",
+        "items": [
+          {
+            "q": "My research question:",
+            "lines": 1,
+            "vc": [
+              "VM-U1O1-KK5"
+            ]
+          },
+          {
+            "q": "Answer your question in **three** sentences, using your notes.",
+            "lines": 4,
+            "vc": [
+              "VM-U1O1-KK5",
+              "VM-U1O1-KS3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Ask an AI chatbot your research question. Check its answer against two reliable sources. What did it get right? What did it get wrong? Did its sources exist?",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KS6"
+            ]
+          },
+          {
+            "q": "Why does **plagiarism** matter at work, not just at school? Use the case study.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U1O1-KK4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can search with key words.",
+          "I can check if a source is reliable.",
+          "I can take notes in my own words.",
+          "I can record my sources."
+        ],
+        "questions": [
+          "My best research tip:",
+          "A source I'll use again:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to research a real question: searching with key words, evaluating reliability (who, when, why, does it match), taking paraphrased dot-point notes, recording sources, verifying AI output and avoiding plagiarism. The case study is a 2024 Melbourne family law matter in which a solicitor filed AI-generated case citations that didn't exist, leading in August 2025 to supervised practice conditions. The final task researches a real question with three reliable sources.",
+    "prep": [
+      "Choose 3–4 research questions relevant to your students' pathways (e.g. ladder safety, food handling rules, apprenticeship pay).",
+      "Check WorkSafe Victoria, Safe Work Australia and other relevant .gov.au sites are reachable.",
+      "Decide your school's position on students using AI chatbots for the Level Up."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Search and check",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** search a question live. Which result would you trust?",
+          "**Explicit teaching (10 min):** key words; who, when, why, does it match.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Reliable or check it? (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Notes",
+        "minutes": 50,
+        "steps": [
+          "**Anatomy of good research notes (10 min).**",
+          "**Paraphrase it (15 min).** Model one paraphrase aloud.",
+          "**Case study (15 min):** the cases that didn't exist.",
+          "**Choose a research question (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Research",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (30 min):** my research notes.",
+          "**Sum it up (10 min).**",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Write the question first; every note answers it.",
+      "Search with short, specific, local key words.",
+      "Check reliability: who, when, why, does it match other sources? .gov.au sites are usually reliable for rules.",
+      "Notes: dot points, paraphrased; quote marks only for exact words.",
+      "Record who, title, date, link for every source.",
+      "Verify anything AI tells you; AI can invent facts and sources.",
+      "Plagiarism has consequences at school, TAFE and work."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and paraphrase rows.",
+        "Teacher-chosen question and sources."
+      ],
+      "extend": [
+        "Three sources with full details and evaluation.",
+        "Verify an AI answer (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O1-KS6",
+        "evidence": "Identifies reliable sources for research (sort, final mission, case study)."
+      },
+      {
+        "vc": "VM-U1O1-KK5",
+        "evidence": "Uses paraphrasing, note taking and summarising (Paraphrase it, final mission, Sum it up)."
+      },
+      {
+        "vc": "VM-U1O1-KS3",
+        "evidence": "Identifies the purpose and audience of sources through annotation and notes (annotation, final mission)."
+      },
+      {
+        "vc": "VM-U1O1-KK4",
+        "evidence": "Explains plagiarism and its consequences (case study, quiz, Level Up)."
+      }
+    ],
+    "answers": "**Check your reading:** who made it, when, why (inform or sell), does it match other reliable sources? Paraphrasing puts ideas in your own words; copying uses the original words. AI can sound sure and still be wrong, and can invent facts and sources.\n\n**Sort:** WorkSafe Victoria — reliable; ladder ad — check (selling, big claim); 2009 forum — check (old, unknown); TAFE notes — reliable; AI with no sources — check (verify); Safe Work Australia — reliable.\n\n**Notes:** 1 question; 2 key words; 3 paraphrased note; 4 one idea per point; 5 quote marks for exact words; 6 source details.\n\n**Paraphrase (samples):** put the ladder on solid, flat ground; face the ladder and keep two feet and a hand on it; don't carry heavy things up a ladder; your boss must train you to use ladders safely.\n\n**Case study:** he used AI software to make a list of cases and didn't check it; he could have looked up each case first. They had realistic names, dates and details. At school, failing a task; at work, giving wrong safety information, losing trust or a job.",
+    "resources": [
+      {
+        "label": "Lawyers Weekly — First-ever Aussie lawyer sanctioned for AI use (2025)",
+        "url": "https://www.lawyersweekly.com.au/biglaw/42917-first-ever-aussie-lawyer-sanctioned-for-ai-use"
+      },
+      {
+        "label": "ACS Information Age — First Australian lawyer penalised for AI blunder (2025)",
+        "url": "https://ia.acs.org.au/article/2025/first-australian-lawyer-penalised-for-ai-blunder.html"
+      },
+      {
+        "label": "State Library Victoria",
+        "url": "https://www.slv.vic.gov.au"
+      }
+    ],
+    "realityCheck": [
+      "**Students over-trust the first result.** Model scrolling past ads and sponsored links.",
+      "**AI is already in their toolkit.** Teach verification rather than banning it, within your school's policy.",
+      "**Paraphrasing is hard for weaker readers.** Model it aloud, sentence by sentence.",
+      "**Pick pathway-relevant questions.** Safety rules, pay and licences engage VM students more than abstract topics.",
+      "**Works in a real class:** yes. It builds directly on In Your Own Words, and supports every research task in VM."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and paraphrase rows, and a teacher-chosen question.",
+      "core": "Standard version: search and reliability, a reliable-or-check sort, research notes anatomy, paraphrasing, the AI fake-citations case, three-source research notes and a summary.",
+      "extend": "Adds plagiarism and verify to the vocabulary, a quiz question on plagiarism, full source evaluation, and Level Ups verifying an AI answer and explaining plagiarism at work."
+    }
+  }
+}
