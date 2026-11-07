@@ -1,0 +1,898 @@
+{
+  "id": "vm-logic-or-feelings",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "Road safety ads used to show crashes and crying families. In 2016, the TAC made a strange sculpture called Graham. He was built to survive a crash. Did he work on your head, or your heart?",
+      "core": "For years, road safety ads showed crashes, crying families and funerals. Then in 2016, Victoria's TAC tried something different: a strange, life-size human sculpture called Graham, built to survive a car crash. It used science to make a point, and it was hard to forget. Was it working on your head, or your heart?"
+    },
+    "why": {
+      "support": "Ads and speeches try to change your mind. Some use facts. Some use feelings. The best use both. Learn to spot them, and use them yourself.",
+      "core": "Every ad, speech and campaign is trying to change your mind. Some use **logic**: facts and reasons. Some use **emotion**: stories, pictures and feelings. The best use both. When you can see how they're working on you, you can decide for yourself. And you can use the same tools when it's your turn to persuade.",
+      "extend": "Persuasive texts work on audiences through logic, reasoning and emotion, delivered through structures that suit their form: written, spoken or multimedia. Recognising how these appeals work, and where reasoning breaks down, lets you evaluate arguments and build stronger ones."
+    },
+    "canDo": {
+      "support": [
+        "I can spot logic and emotion.",
+        "I can spot bad reasons.",
+        "I can say how pictures and sound help.",
+        "I can say how an ad is set out."
+      ],
+      "core": [
+        "I can tell when a text uses **logic**, **reasoning** or **emotion**.",
+        "I can spot **faulty reasoning**.",
+        "I can explain how **words**, **pictures** and **sound** make an argument work.",
+        "I can describe the **structure** of an ad or speech."
+      ]
+    },
+    "showIt": "Pull apart a real ad or campaign video: its structure, its logic and reasoning, its emotional pull, and whether it works on its audience.",
+    "vocab": [
+      {
+        "word": "logic",
+        "meaning": "using facts and clear reasons",
+        "example": "The ad used logic: it gave the facts."
+      },
+      {
+        "word": "emotion",
+        "meaning": "a strong feeling, like fear, pride or sadness",
+        "example": "The music was full of emotion."
+      },
+      {
+        "word": "reasoning",
+        "meaning": "linking ideas with because, so and therefore",
+        "example": "Her reasoning was easy to follow."
+      },
+      {
+        "word": "persuade",
+        "meaning": "get someone to think or do something",
+        "example": "The ad tried to persuade us to slow down."
+      },
+      {
+        "word": "call to action",
+        "meaning": "the part that tells you what to do",
+        "example": "The call to action was “Book a ride home.”"
+      },
+      {
+        "word": "faulty reasoning",
+        "meaning": "an argument that sounds right but doesn't add up",
+        "example": "“Everyone's doing it” is faulty reasoning."
+      },
+      {
+        "word": "appeal",
+        "meaning": "a way of trying to win the audience over",
+        "example": "The ad's main appeal was to fear.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "credibility",
+        "meaning": "being believable and trusted",
+        "example": "Using a surgeon gave the ad credibility.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Logic or Feelings? in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Logic or Feelings?",
+        "sub": "Head or heart?",
+        "icon": "lucide:brain",
+        "say": "Logic or feelings? Are they convincing your head, or your heart?"
+      },
+      {
+        "kind": "big",
+        "title": "Head and heart",
+        "text": "Facts 🧠 · Feelings ❤️",
+        "icon": "lucide:brain",
+        "say": "Logic works on your head: facts, numbers and clear reasons. Emotion works on your heart: stories, faces, music and fear.",
+        "vc": [
+          "VM-U2O2-KK3"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Meet Graham",
+        "text": "**Science** + **shock**",
+        "icon": "lucide:person-standing",
+        "say": "In 2016, the TAC unveiled Graham: a sculpture of a human built to survive a car crash. Science and shock, together.",
+        "vc": [
+          "VM-U2O2-KK3",
+          "VM-U2O2-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Pull it apart",
+        "pillIcon": "lucide:brain",
+        "title": "Logic",
+        "text": "Facts · **Reasons**",
+        "icon": "lucide:brain",
+        "say": "Check the logic. What facts and reasons do they give?",
+        "vc": [
+          "VM-U2O2-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Pull it apart",
+        "pillIcon": "lucide:brain",
+        "title": "Emotion",
+        "text": "Story · Face · **Music**",
+        "icon": "lucide:heart",
+        "say": "Feel the emotion. Which story, face, music or picture is pulling at you?",
+        "vc": [
+          "VM-U2O2-KK3",
+          "VM-U2O2-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Pull it apart",
+        "pillIcon": "lucide:brain",
+        "title": "Faulty reasoning",
+        "text": "Sounds right · **doesn't add up**",
+        "icon": "lucide:triangle-alert",
+        "say": "Test the reasoning. “Everyone's doing it” isn't a reason.",
+        "vc": [
+          "VM-U2O2-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Pull it apart",
+        "pillIcon": "lucide:brain",
+        "title": "Structure",
+        "text": "Hook → Problem → **Act**",
+        "icon": "lucide:list-ordered",
+        "say": "Find the structure. Hook, problem, reasons, then a call to action.",
+        "vc": [
+          "VM-U2O2-KK1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Pull apart any ad",
+        "steps": [
+          "Check the logic",
+          "Feel the emotion",
+          "Test the reasoning"
+        ],
+        "say": "Check the logic, feel the emotion, then test the reasoning."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Head, heart, or **both**?",
+        "icon": "lucide:brain",
+        "say": "Your mission. Pull apart a real ad or campaign, and decide if it works."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Head or heart?",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Ads and speeches want you to think or do something. They work on your **head**, your **heart**, or both.\n\n**Logic: the head.** Logic uses facts and numbers. *“Seatbelts save lives.”*\n\n**Reasons.** Good reasons link ideas with *because* and *so*. *“Alcohol slows you down, **so** it takes longer to stop.”*\n\n**Emotion: the heart.** Emotion uses stories, faces and music. It makes you feel sad, scared or proud. A photo of an empty chair at dinner can hit hard.\n\n**Bad reasons.** Some reasons sound right but aren't:\n\n- **“Everyone's doing it.”** That doesn't make it right.\n- **“Don't listen to her, she's only 16.”** That's about her, not her idea.\n- **“If we let this happen, everything will fall apart.”** That's a big jump.\n\n**How ads are set out.** Many video ads go: a hook, a problem, some reasons, then a **call to action**: what to do.\n\nThe best ads use head and heart. Feelings grab you. Facts give you a reason.",
+          "core": "Every ad, speech and campaign wants you to think or do something. To get there, it works on your **head**, your **heart**, or both.\n\n**Logic: the head.** Logic uses facts, numbers and evidence. *“Seatbelts reduce the risk of dying in a crash.”* It asks you to think it through.\n\n**Reasoning: the links.** Reasoning joins ideas together with words like *because*, *so* and *therefore*. *“Alcohol slows your reactions, **so** it takes longer to stop, **so** you're more likely to crash.”* Good reasoning is easy to follow, one step at a time.\n\n**Emotion: the heart.** Emotion uses stories, faces, music and strong words to make you *feel*: fear, sadness, pride, anger, hope. A photo of an empty chair at a family dinner can hit harder than any number.\n\n**Faulty reasoning.** Some arguments sound right but don't add up. Watch out for:\n\n- **“Everyone's doing it.”** Lots of people doing something doesn't make it right.\n- **Slippery slope.** *“If we allow this, soon everything will fall apart.”*\n- **Attacking the person.** *“Don't listen to her, she's only 16.”* That says nothing about her idea.\n- **False choice.** *“You're either with us or against us.”* There are usually more options.\n\n**Structure.** Persuasive texts are built in a pattern. A **written** opinion piece has a contention, arguments and a conclusion. A **speech** has an opening that grabs, a few clear points, and a strong finish. A **video ad** often goes: hook, problem, reasons, then a **call to action**. Music, images and text on screen do a lot of the work.\n\nThe strongest arguments use both head and heart. Emotion grabs your attention. Logic gives you a reason to act.",
+          "extend": "Every persuasive text aims to change what its audience thinks or does. It does this by appealing to the **head**, the **heart**, or both.\n\n**Logic.** Logical appeals rely on facts, statistics and evidence. *“Seatbelts reduce the risk of dying in a crash.”* They invite the audience to think it through.\n\n**Reasoning.** Reasoning connects claims in a chain, signalled by *because*, *so* and *therefore*. *“Alcohol slows reaction time, **so** stopping distance increases, **so** the risk of a crash rises.”* Strong reasoning is explicit and easy to follow.\n\n**Emotion.** Emotional appeals use stories, faces, music, images and emotive language to provoke fear, grief, pride, anger or hope. A single image, such as an empty chair at a family dinner, can carry more force than a statistic.\n\n**Faulty reasoning.** Some arguments are persuasive but flawed:\n\n- **Bandwagon:** popularity doesn't prove something is right.\n- **Slippery slope:** a small step is claimed to lead, without evidence, to disaster.\n- **Attacking the person:** criticising the speaker instead of the argument.\n- **False choice:** presenting two options when others exist.\n\n**Structure and form.** Persuasive content takes different shapes. A **written** opinion piece moves from contention to arguments to conclusion. A **spoken** speech opens strongly, develops a few clear points, and closes memorably. A **multimedia** ad often follows hook, problem, reasons and **call to action**, with images, sound and on-screen text carrying much of the meaning.\n\nThe most effective arguments combine appeals. Emotion captures attention. Logic and reasoning give the audience a reason to act."
+        },
+        "vc": [
+          "VM-U2O2-KK3",
+          "VM-U2O2-KK1",
+          "VM-U2O2-KK2"
+        ],
+        "vcNote": "How logic, reasoning and emotion influence audiences; structures of written, spoken and multimedia persuasion."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Meet Graham",
+        "icon": "lucide:person-standing",
+        "body": {
+          "support": "The **TAC** makes road safety ads in Victoria. For years, its ads showed crashes and sad families.\n\nIn **2016**, it tried something new. It made **Graham**. Graham is a life-size sculpture of a body that could survive a car crash.\n\nAn artist made him. She worked with a surgeon and a crash expert. They worked out what a body would need to survive.\n\nGraham looks very strange. He has a huge, thick skull. He has airbags between his ribs.\n\nThe TAC said Graham shows how easily our real bodies get hurt on the road.\n\nGraham used **facts**: real science about crashes. He used **feelings**: he's strange and hard to forget. Head and heart.",
+          "core": "For years, Victoria's **Transport Accident Commission (TAC)** was known for road safety ads. Many showed the shock of a crash, and what came after.\n\nIn **July 2016**, it tried something new. It unveiled **Graham**: a life-size sculpture of a human body built to survive a car crash.\n\nMelbourne artist **Patricia Piccinini** made Graham. She worked with **Christian Kenfield**, a surgeon at the Royal Melbourne Hospital. She also worked with **David Logan**, a crash expert from Monash University. Together they worked out how a body would need to change to survive a crash.\n\nThe result looks strange, even disturbing. Graham has a huge, thick skull that folds over the front of his face. He has airbag-like sacs between his ribs to protect his organs.\n\nThe TAC said the point was to show how easily our real bodies get hurt on the road. It also said safer cars and roads make crashes less violent, so more people survive.\n\nGraham was first shown at the **State Library of Victoria**, then toured the state.\n\nThe campaign used **logic**: real science about crash forces. It used **emotion**: a body so odd that it's hard to look at, and hard to forget. Head and heart, together.",
+          "extend": "Victoria's **Transport Accident Commission (TAC)** had long been known for road safety advertising built on the shock of crashes and their aftermath.\n\nIn **July 2016**, it took a different approach. It unveiled **Graham**, a life-size sculpture of a human body designed to survive a car crash.\n\nMelbourne artist **Patricia Piccinini** created Graham. She worked with trauma surgeon **Christian Kenfield** and crash investigator **David Logan**. Together they worked out how a body would need to change to survive a crash.\n\nThe result is unsettling. Graham has a huge, thick skull that folds over his face. He has airbag-like sacs between his ribs.\n\nThe TAC said the aim was to remind people how **vulnerable** they are on the road. It also made a logical case. Safer cars and better road design can reduce crash forces, so more crashes are survivable.\n\nGraham was first displayed at the **State Library of Victoria**, then toured the state.\n\nThe campaign combined appeals. Its **logic** rested on medical and engineering evidence. Its **emotional** force came from an image so strange that audiences found it hard to forget."
+        },
+        "source": {
+          "name": "TAC — Introducing Graham: the only person designed to survive on our roads",
+          "url": "https://www.tac.vic.gov.au/about-the-tac/media-room/news-and-events/current-media-releases/introducing-graham"
+        },
+        "think": {
+          "support": [
+            "Where does Graham use facts? Where does he use feelings?",
+            "Do you think he works? Why?"
+          ],
+          "core": [
+            "Where does the Graham campaign use logic? Where does it use emotion?",
+            "Why might the TAC have moved away from showing crashes?",
+            "Do you think Graham works? Who is he aimed at?"
+          ]
+        },
+        "vc": [
+          "VM-U2O2-KK3",
+          "VM-U2O2-KK2"
+        ],
+        "vcNote": "A real Australian campaign combining logic and emotion through a striking visual."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a 30-second ad",
+      "docTitle": "VIDEO AD SCRIPT — “PLAN YOUR RIDE HOME” (EXAMPLE)",
+      "vc": [
+        "VM-U2O2-KK1",
+        "VM-U2O2-KK3",
+        "VM-U2O2-KK2"
+      ],
+      "vcNote": "The structure of a multimedia persuasive text, and how it uses logic, reasoning and emotion.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Opening shot",
+          "value": "Friday night. Music, laughter. A phone buzzes: “U OK to drive?”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Voiceover",
+          "value": "You've had four drinks. You feel fine."
+        },
+        {
+          "n": 3,
+          "label": "Text on screen",
+          "value": "Alcohol slows your reactions."
+        },
+        {
+          "n": 4,
+          "label": "Voiceover",
+          "value": "Slower reactions mean it takes longer to stop. So a near miss becomes a crash."
+        },
+        {
+          "n": 5,
+          "label": "Image",
+          "value": "An empty chair at a family dinner table. No music.",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "End card",
+          "value": "Plan your ride home. Book it before you go out."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "A familiar scene grabs the audience."
+        },
+        {
+          "n": 2,
+          "label": "Speaks to you",
+          "note": "Matches how the audience feels."
+        },
+        {
+          "n": 3,
+          "label": "Logic",
+          "note": "A simple fact."
+        },
+        {
+          "n": 4,
+          "label": "Reasoning",
+          "note": "A chain: slower, so longer, so crash."
+        },
+        {
+          "n": 5,
+          "label": "Emotion",
+          "note": "Grief, shown not told. Silence adds weight."
+        },
+        {
+          "n": 6,
+          "label": "Call to action",
+          "note": "Tells you exactly what to do."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Pull apart any ad",
+      "steps": [
+        {
+          "title": "Find the structure",
+          "text": "Hook, problem, reasons, action.",
+          "icon": "lucide:list-ordered"
+        },
+        {
+          "title": "Check the logic",
+          "text": "Facts and reasons.",
+          "icon": "lucide:brain"
+        },
+        {
+          "title": "Feel the emotion",
+          "text": "Story, face, music, image.",
+          "icon": "lucide:heart"
+        },
+        {
+          "title": "Test the reasoning",
+          "text": "Does it add up?",
+          "icon": "lucide:triangle-alert"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which line uses **logic**?",
+        "options": [
+          "“Seatbelts reduce the risk of dying in a crash.”",
+          "“Imagine your mum's face.”",
+          "“Everyone's wearing them.”",
+          "“Don't be a loser.”"
+        ],
+        "answer": 0,
+        "explain": "A fact you can check.",
+        "vc": [
+          "VM-U2O2-KK3"
+        ]
+      },
+      {
+        "q": "Which line mainly uses **emotion**?",
+        "options": [
+          "“Your little brother is waiting for you to come home.”",
+          "“Alcohol slows reaction time.”",
+          "“The speed limit is 60 km/h.”",
+          "“Book a taxi on the app.”"
+        ],
+        "answer": 0,
+        "explain": "It makes you feel something.",
+        "vc": [
+          "VM-U2O2-KK3"
+        ]
+      },
+      {
+        "q": "“Everyone at school has the new phone, so you need it too.” What's wrong with this reasoning?",
+        "options": [
+          "Lots of people doing something doesn't make it right",
+          "Nothing",
+          "It uses too many facts",
+          "It's too short"
+        ],
+        "answer": 0,
+        "explain": "That's the bandwagon trap.",
+        "vc": [
+          "VM-U2O2-KK3"
+        ]
+      },
+      {
+        "q": "What is a **call to action**?",
+        "options": [
+          "The part that tells you what to do",
+          "The music",
+          "The first shot",
+          "The logo"
+        ],
+        "answer": 0,
+        "explain": "E.g. “Book your ride home.”",
+        "vc": [
+          "VM-U2O2-KK1"
+        ]
+      },
+      {
+        "q": "How did the TAC's Graham campaign use **logic**?",
+        "options": [
+          "It was based on real science about crash forces",
+          "It showed a funeral",
+          "It used a pop song",
+          "It had no facts at all"
+        ],
+        "answer": 0,
+        "explain": "A surgeon and a crash investigator helped design him.",
+        "vc": [
+          "VM-U2O2-KK3"
+        ]
+      },
+      {
+        "q": "“Don't listen to his idea about the bus timetable. He can't even drive.” This is…",
+        "options": [
+          "Attacking the person, not the idea",
+          "A strong argument",
+          "A statistic",
+          "A call to action"
+        ],
+        "answer": 0,
+        "explain": "It says nothing about the idea.",
+        "vc": [
+          "VM-U2O2-KK3"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Why might silence after an emotional image make an ad **more effective**?",
+        "options": [
+          "It gives the feeling time to sink in",
+          "It saves money",
+          "It's always louder",
+          "It hides the logo"
+        ],
+        "answer": 0,
+        "explain": "Sound choices shape the argument.",
+        "vc": [
+          "VM-U2O2-KK2"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Watch a real ad. How is it set out? Where does it use facts? Where does it use feelings? Does it work?",
+      "core": "Pull apart a real ad or campaign video: its structure, its logic and reasoning, its emotional pull, and whether it works on its audience.",
+      "extend": "Analyse a real persuasive video or campaign: its structure, its use of logic, reasoning and emotion, how its language, images and sound contribute, any faulty reasoning, and its likely effect on its audience. Then write and evaluate your own short ad."
+    },
+    "checklist": [
+      "I described how the ad is set out",
+      "I found its logic and reasoning",
+      "I found its emotional pull",
+      "I explained how pictures and sound help",
+      "I checked for faulty reasoning",
+      "I decided if it works on its audience"
+    ],
+    "levelUp": "Write a 30-second ad script for a cause you care about using logic and emotion, then critically evaluate your own script.",
+    "vc": [
+      "VM-U2O2-KK1",
+      "VM-U2O2-KK3",
+      "VM-U2O2-KK2"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Head or heart?",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What's the difference between **logic** and **emotion** in an argument?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK3"
+            ]
+          },
+          {
+            "q": "Name **two** kinds of faulty reasoning. Give an example of one.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK3"
+            ]
+          },
+          {
+            "q": "What are the usual parts of a video ad?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Pull apart any ad",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a 30-second ad",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the ad. Use the word bank. Head, heart, or both?",
+          "core": "Each number marks part of the ad. Write what it is, and whether it works on your head, your heart, or both."
+        },
+        "columns": [
+          "What is it?",
+          "Head, heart, or both? Why?"
+        ],
+        "wordBank": {
+          "support": [
+            "hook",
+            "speaks to you",
+            "logic",
+            "reasoning",
+            "emotion",
+            "call to action"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U2O2-KK1",
+          "VM-U2O2-KK3",
+          "VM-U2O2-KK2"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Strong or faulty reasoning?",
+        "pagebreak": true,
+        "choices": [
+          "Strong reasoning",
+          "Faulty reasoning"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Does each argument add up? Tick one, and say why.",
+        "cards": [
+          {
+            "from": "Ad",
+            "text": "“Everyone at school has the new phone, so you need it too.”",
+            "answer": "Faulty reasoning",
+            "flags": "Everyone's doing it isn't a reason."
+          },
+          {
+            "from": "Road safety poster",
+            "text": "“Seatbelts reduce the risk of dying in a crash, so buckle up.”",
+            "answer": "Strong reasoning",
+            "flags": "A checkable fact, linked to an action."
+          },
+          {
+            "from": "Letter to the editor",
+            "text": "“If we let students use phones at lunch, soon they'll be on them all day.”",
+            "answer": "Faulty reasoning",
+            "flags": "Slippery slope: a big jump with no proof."
+          },
+          {
+            "from": "Council speech",
+            "text": "“A survey found most locals want the pool fixed, so it should be a priority.”",
+            "answer": "Strong reasoning",
+            "flags": "Evidence, then a clear link."
+          },
+          {
+            "from": "Group chat",
+            "text": "“Don't listen to Jay's idea for the trip. He's always late.”",
+            "answer": "Faulty reasoning",
+            "flags": "Attacks the person, not the idea.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Campaign post",
+            "text": "“You either support the new highway or you want this town to die.”",
+            "answer": "Faulty reasoning",
+            "flags": "False choice: there are other options.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O2-KK3"
+        ],
+        "vcNote": "Judging how authors and speakers use reasoning, and spotting faulty reasoning."
+      },
+      {
+        "type": "table",
+        "title": "Head and heart",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Write one line that uses **logic** and one that uses **emotion** for each cause. The first one is done for you.",
+        "columns": [
+          "Cause",
+          "Logic (head)",
+          "Emotion (heart)"
+        ],
+        "rows": [
+          [
+            "Wearing a bike helmet",
+            "Helmets reduce head injuries in bike crashes.",
+            "Your family shouldn't have to get that phone call."
+          ],
+          [
+            "Not using your phone while driving",
+            "",
+            ""
+          ],
+          [
+            "Saving for your first car",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Joining a local sports club",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O2-KK3"
+        ],
+        "vcNote": "Using logic, reasoning and emotion to influence an audience."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: meet Graham",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Where does the Graham campaign use **logic**? Where does it use **emotion**?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK3"
+            ]
+          },
+          {
+            "q": "Why might the TAC have moved away from showing crashes?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK3",
+              "VM-U2O2-KK2"
+            ]
+          },
+          {
+            "q": "Do you think Graham works? Who is he aimed at?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: ad autopsy",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Choose a real ad or campaign video: road safety, health, a charity or a product. Watch it twice, then pull it apart.",
+        "need": [
+          "a device with sound",
+          "a real ad (TAC ads on YouTube work well)"
+        ],
+        "steps": {
+          "support": [
+            "Watch it once. How do you feel?",
+            "Watch again. How is it set out?",
+            "Find any facts.",
+            "Find the feelings: music, faces, story.",
+            "Does it work? Why?"
+          ],
+          "core": [
+            "Watch it once, just to feel it. What's your gut reaction?",
+            "Watch again. Pause to note the **structure**: hook, problem, reasons, call to action.",
+            "Note any **logic**: facts, numbers, reasons.",
+            "Note the **emotion**: story, faces, music, images, silence.",
+            "Check for **faulty reasoning**. Then decide: does it work on its audience?"
+          ]
+        },
+        "notes": [
+          {
+            "label": "The ad (name and link):",
+            "lines": 1
+          },
+          {
+            "label": "Structure:",
+            "lines": 1
+          },
+          {
+            "label": "Logic and reasoning:",
+            "lines": 1
+          },
+          {
+            "label": "Emotion (words, images, sound):",
+            "lines": 1
+          },
+          {
+            "label": "Does it work? Why?",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Link",
+          "Notes",
+          "Shared with a partner"
+        ],
+        "vc": [
+          "VM-U2O2-KK1",
+          "VM-U2O2-KK3",
+          "VM-U2O2-KK2"
+        ],
+        "vcNote": "Hands-on: analysing a real multimedia persuasive text."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Write a **30-second ad script** for a cause you care about. Use at least one logical line and one emotional moment, and end with a call to action.",
+            "lines": 6,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS7"
+            ]
+          },
+          {
+            "q": "Now **evaluate your own script**. What works best? What's weakest? What would you change, and why?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can spot logic, reasoning and emotion.",
+          "I can spot faulty reasoning.",
+          "I can explain how pictures and sound help.",
+          "I can describe how an ad is set out."
+        ],
+        "questions": [
+          "An ad that works on my heart:",
+          "A faulty reason I've heard lately:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn how authors and speakers use logic, reasoning and emotion to influence an audience; how to spot faulty reasoning (bandwagon, slippery slope, attacking the person, false choice); how language, images and sound contribute to an argument; and how written, spoken and multimedia persuasive texts are structured. They annotate a made-up video ad script, sort strong from faulty reasoning, write head and heart lines, and pull apart a real ad. The case study is the TAC's 2016 Graham campaign: a sculpture of a body built to survive a crash, created by artist Patricia Piccinini with a trauma surgeon and a crash investigator.",
+    "prep": [
+      "Pick two or three real ads to model (TAC campaigns are on YouTube; also try a charity or health campaign).",
+      "Optional: show images of Graham from the TAC website.",
+      "Check sound works on student devices for the Do it."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Head or heart?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** play a short ad. Head, heart, or both?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a 30-second ad (15 min).**",
+          "**Strong or faulty? (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Graham",
+        "minutes": 50,
+        "steps": [
+          "**Head and heart (15 min).**",
+          "**Case study (20 min):** meet Graham. Show images.",
+          "**Model an ad autopsy (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Ad autopsy",
+        "minutes": 50,
+        "steps": [
+          "**Do it (30 min):** ad autopsy.",
+          "**Share (10 min):** best and worst ads.",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Logic uses facts and evidence; reasoning links ideas with because, so and therefore; emotion uses stories, faces, music and images.",
+      "Faulty reasoning: bandwagon, slippery slope, attacking the person, false choice.",
+      "Written, spoken and multimedia persuasion have different structures; video ads often go hook, problem, reasons, call to action.",
+      "Images, sound and silence contribute to an argument's effect.",
+      "The strongest arguments combine head and heart.",
+      "TAC's Graham (July 2016) was designed with a trauma surgeon and a crash investigator to show human vulnerability on the road."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the ad script.",
+        "Fewer sort cards and table rows.",
+        "Give students a chosen ad for the Do it."
+      ],
+      "extend": [
+        "Analyse sound and silence.",
+        "Write and critically evaluate their own ad (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U2O2-KK3",
+        "evidence": "Identifies and explains logic, reasoning and emotion, including faulty reasoning (sort, head and heart, case study)."
+      },
+      {
+        "vc": "VM-U2O2-KK2",
+        "evidence": "Explains how language, images and sound make an argument effective (ad script, Do it)."
+      },
+      {
+        "vc": "VM-U2O2-KK1",
+        "evidence": "Describes the structure of a multimedia persuasive text (ad script, Do it)."
+      },
+      {
+        "vc": "VM-U2O2-KS7",
+        "evidence": "Level Up: critically evaluates their own ad script."
+      }
+    ],
+    "answers": "**Check your reading:** logic uses facts and evidence (head); emotion uses stories, images and music to make you feel (heart). E.g. bandwagon, slippery slope, attacking the person, false choice. Hook, problem, reasons, call to action.\n\n**Ad script:** 1 hook (heart); 2 speaks to the audience (heart); 3 logic (head); 4 reasoning chain (head); 5 emotion (heart, silence adds weight); 6 call to action (both).\n\n**Sort:** phone — faulty (bandwagon); seatbelts — strong; phones at lunch — faulty (slippery slope); pool survey — strong; Jay — faulty (attacks the person); highway — faulty (false choice).\n\n**Case study:** logic: science of crash forces, designed with a surgeon and crash investigator; emotion: a disturbing, unforgettable body. Audiences may have become used to crash ads. Answers will vary.",
+    "resources": [
+      {
+        "label": "TAC — Introducing Graham",
+        "url": "https://www.tac.vic.gov.au/about-the-tac/media-room/news-and-events/current-media-releases/introducing-graham"
+      },
+      {
+        "label": "Smithsonian Magazine — sculpture of a human evolved to survive a car crash",
+        "url": "https://www.smithsonianmag.com/smart-news/horrifying-sculpture-depicts-human-evolved-survive-car-crash-180959878/"
+      }
+    ],
+    "realityCheck": [
+      "**Road trauma may be personal.** Some students may have lost someone; the Graham case is less graphic than crash ads, but check in.",
+      "**Students know ads.** Let them bring their own; they'll be sharper critics than you expect.",
+      "**Faulty reasoning is everywhere.** Challenge students to catch one in class discussion (kindly).",
+      "**Don't over-praise logic.** Emotion isn't bad; the question is whether it's backed up.",
+      "**Works in a real class:** yes. It builds on Back It Up and leads into Say It Like You Mean It."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the ad script, fewer sort cards and table rows, and simpler Do it steps.",
+      "core": "Standard version: logic, reasoning and emotion; faulty reasoning; the structure of a video ad; a reasoning sort; writing head and heart lines; the TAC's Graham case; and a real ad autopsy.",
+      "extend": "Adds appeal and credibility to the vocabulary, a quiz question on sound, the role of images and silence, and Level Ups writing and critically evaluating an original ad."
+    }
+  }
+}

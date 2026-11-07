@@ -1,0 +1,884 @@
+{
+  "id": "vm-say-it-like-you-mean-it",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with a phone or device to record",
+  "brief": {
+    "hook": {
+      "support": "Two people give the same speech. One looks at the page and rushes. One looks up and takes their time. Only one gets remembered. Why?",
+      "core": "Two people give the same speech, word for word. One stares at the page, mumbles and rushes. The other looks up, pauses, and lets their voice rise and fall. Only one of them gets remembered. The words were the same. So what made the difference?"
+    },
+    "why": {
+      "support": "When you speak, people watch your face and hands. They hear how you say it. In an interview or a talk, that matters a lot. You can practise it.",
+      "core": "When you speak, people don't just hear your words. They see your face, your hands and your posture, and they hear your tone, pace and pauses. In a job interview, a presentation or a speech to your council, how you say it can matter as much as what you say. The good news: delivery is a skill you can practise.",
+      "extend": "Oral communication carries meaning beyond the words: eye contact, tone, body language, gesture, pace and intonation shape how an audience receives a message. Controlling these elements, and critically evaluating your own delivery, makes you more credible in interviews, presentations and public debate."
+    },
+    "canDo": {
+      "support": [
+        "I can say how my face and voice change a message.",
+        "I can slow down and pause.",
+        "I can mark up my notes.",
+        "I can give a short talk and check how I went."
+      ],
+      "core": [
+        "I can explain how **eye contact**, **tone** and **body language** affect a message.",
+        "I can use **pace**, **pauses** and **intonation** on purpose.",
+        "I can mark up a script to plan my delivery.",
+        "I can give a short talk and **evaluate** how I went."
+      ]
+    },
+    "showIt": "Give a one-minute talk on something you know well, using planned eye contact, pace, pauses, intonation and gestures. Record it and evaluate your own delivery.",
+    "vocab": [
+      {
+        "word": "eye contact",
+        "meaning": "looking at the people you're talking to",
+        "example": "Good eye contact makes you seem confident."
+      },
+      {
+        "word": "tone",
+        "meaning": "the feeling in your voice",
+        "example": "Her tone was warm and friendly."
+      },
+      {
+        "word": "body language",
+        "meaning": "what your posture, face and hands say",
+        "example": "His body language said he was nervous."
+      },
+      {
+        "word": "gesture",
+        "meaning": "a movement of your hands or arms that adds meaning",
+        "example": "She used an open-hand gesture."
+      },
+      {
+        "word": "pace",
+        "meaning": "how fast or slow you speak",
+        "example": "Slow your pace for the important part."
+      },
+      {
+        "word": "pause",
+        "meaning": "a short stop in your speech",
+        "example": "He paused before the big news."
+      },
+      {
+        "word": "intonation",
+        "meaning": "how your voice rises and falls",
+        "example": "Rising intonation can make a sentence sound like a question.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "emphasis",
+        "meaning": "making a word stand out with your voice",
+        "example": "Put the emphasis on “now”.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Say It Like You Mean It in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Say It Like You Mean It",
+        "sub": "Eye contact, tone and body language.",
+        "icon": "lucide:person-standing",
+        "say": "Say it like you mean it. Eye contact, tone and body language that land."
+      },
+      {
+        "kind": "big",
+        "title": "Same words",
+        "text": "“Great job.” × **3**",
+        "icon": "lucide:audio-lines",
+        "say": "Say the words “great job” warmly, then flatly, then sarcastically. Same words, three different messages. That's tone.",
+        "vc": [
+          "VM-U2O2-KK5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Delivery",
+        "pillIcon": "lucide:mic-vocal",
+        "title": "Eye contact",
+        "text": "Look **up**, look **around**",
+        "icon": "lucide:eye",
+        "say": "Eye contact. Look at different people around the room, not at the floor or your notes.",
+        "vc": [
+          "VM-U2O2-KK5",
+          "VM-U2O2-KS6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Delivery",
+        "pillIcon": "lucide:mic-vocal",
+        "title": "Body language",
+        "text": "Tall · Still · **Open**",
+        "icon": "lucide:person-standing",
+        "say": "Body language. Stand tall, feet still, hands relaxed. Use open gestures to invite people in.",
+        "vc": [
+          "VM-U2O2-KS6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Delivery",
+        "pillIcon": "lucide:mic-vocal",
+        "title": "Pace and pause",
+        "text": "Slow… **pause**… land it",
+        "icon": "lucide:timer",
+        "say": "Pace and pauses. Slow down. Pause before and after your most important point.",
+        "vc": [
+          "VM-U2O2-KS6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Delivery",
+        "pillIcon": "lucide:mic-vocal",
+        "title": "Intonation",
+        "text": "Up ↗ · Down ↘",
+        "icon": "lucide:audio-waveform",
+        "say": "Intonation. Let your voice rise and fall. A flat voice sounds bored.",
+        "vc": [
+          "VM-U2O2-KK5",
+          "VM-U2O2-KS6"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Watch a pro",
+        "text": "Dylan Alcott, **2022**",
+        "icon": "lucide:trophy",
+        "say": "In 2022, Paralympic champion Dylan Alcott gave his Australian of the Year speech. Watch how he uses his voice and face to make the room listen.",
+        "vc": [
+          "VM-U2O2-KK5"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Get better at speaking",
+        "steps": [
+          "Mark up your notes",
+          "Practise out loud",
+          "Record and review"
+        ],
+        "say": "Plan it, practise it out loud, then record it and watch it back."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Say it like you **mean** it.",
+        "icon": "lucide:mic-vocal",
+        "say": "Your mission. Give a one-minute talk, record it, and evaluate your own delivery."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "It's not just what you say",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "When you talk to a group, people don't just hear your words. They watch your face and body. They hear your voice.\n\n**Eye contact.** Look up from your notes. Look at different people. It shows you're confident.\n\n**Body language.** Stand tall. Keep your feet still. Don't fiddle with a pen. Don't cross your arms.\n\n**Gestures.** Use your hands to help. Open hands look friendly.\n\n**Tone.** Tone is the feeling in your voice. Warm? Serious? Excited? The same words can mean different things.\n\n**Pace and pauses.** Most nervous people talk too fast. Slow down. **Pause** before the most important part.\n\n**Up and down.** Let your voice go up and down. A flat voice sounds bored.\n\n**Mark up your notes.** Use a slash ( / ) for a pause. Underline words to stress. Write “LOOK UP”.\n\n**Nerves are normal.** Breathe out slowly. Practise out loud. Record yourself and watch it back.",
+          "core": "When you speak to a group, at an interview, in class or at a meeting, your audience takes in much more than your words. They watch your face and body, and they listen to your voice. These are the elements of **oral communication**.\n\n**Eye contact.** Look up from your notes. Look at different people around the room for a second or two each. It shows confidence, and it makes people feel spoken *to*, not *at*.\n\n**Body language.** Stand tall with your weight on both feet. Keep your hands relaxed, not in your pockets or crossed. Swaying, fiddling with a pen or touching your face can make you look nervous, even if you know your stuff.\n\n**Gestures.** Use your hands to add meaning. Open hands invite people in. Counting on your fingers helps people follow a list. Keep gestures natural, and don't overdo them.\n\n**Tone.** Your tone is the feeling in your voice: warm, serious, excited, worried. The same words can mean different things in a different tone.\n\n**Pace and pauses.** Most nervous speakers go too fast. Slow down. **Pause** before your most important point, so people lean in, and after it, so it sinks in.\n\n**Intonation and emphasis.** Let your voice rise and fall. A flat voice sounds bored. Put **emphasis** on key words: *“We need to act **now**.”*\n\n**Plan your delivery.** Mark up your notes: a slash ( / ) for a pause, underline words to stress, “SLOW” where you need to slow down, and “LOOK UP” where you want eye contact.\n\n**Nerves are normal.** Breathe out slowly before you start. Practise out loud, not just in your head. Find a friendly face. And record yourself: watching it back is the fastest way to improve.",
+          "extend": "Whether you're in an interview, a presentation or a public meeting, your audience receives far more than your words. The **elements of oral communication** (eye contact, body language, gesture, tone, pace and intonation) shape how credible, confident and persuasive you seem.\n\n**Eye contact** signals confidence and connection. Look up from your notes and move your gaze around the room, a second or two per person, so the audience feels addressed.\n\n**Body language** includes posture, stance and facial expression. A balanced, upright stance with relaxed hands projects composure. Swaying, fidgeting or closed postures can signal nerves or defensiveness, even when your content is strong.\n\n**Gesture** reinforces meaning. Open palms invite agreement, and counting on fingers helps an audience track a list. Effective gestures are purposeful and not overused.\n\n**Tone** conveys attitude: warmth, urgency, concern or enthusiasm. The same sentence can carry very different meanings in different tones.\n\n**Pace and pauses** control attention. Nervous speakers tend to rush. A deliberate **pause** before a key point builds anticipation; a pause after lets it land.\n\n**Intonation and emphasis** give speech shape. Rising and falling pitch keeps listeners engaged. Stressing key words directs their focus: *“We need to act **now**.”*\n\n**Planning delivery.** Annotate your notes: a slash for a pause, underlining for emphasis, and cues such as “SLOW” and “LOOK UP”.\n\n**Evaluating yourself.** Recording and reviewing your own delivery is the most reliable way to improve. Watch for specific moments, not just overall impressions."
+        },
+        "vc": [
+          "VM-U2O2-KK5",
+          "VM-U2O2-KS6"
+        ],
+        "vcNote": "The elements of oral communication: eye contact, tone, body language, gesture, pace and intonation."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Dylan Alcott takes the stage",
+        "icon": "lucide:trophy",
+        "body": {
+          "support": "**Dylan Alcott** is a famous Australian tennis player. He plays wheelchair tennis. In 2021, he won every big title in one year.\n\nIn **January 2022**, he was named **Australian of the Year**.\n\nHe gave a speech on live TV. He talked about growing up with a disability. He said he wanted to change how people see disability.\n\nLots of people remembered the speech. Why? It was what he said. It was also how he said it.\n\nWatch the speech. Look for:\n\n- where he looks\n- how his voice changes\n- where he slows down or stops\n- what his face and hands do.\n\nGood speakers practise. You can too.",
+          "core": "**Dylan Alcott** is one of Australia's best-known athletes. In 2021, he won all four Grand Slam wheelchair tennis titles for quad singles, plus Paralympic gold, in the same year. That's called a **Golden Slam**. He was the first male tennis player ever to do it.\n\nOn **25 January 2022**, he was named **Australian of the Year**. Reports at the time said he was the first person with a disability to win the award in its 62-year history.\n\nHis acceptance speech was broadcast live across the country. He spoke about growing up with a disability, about how he once felt about himself, and about how he wanted to change things. He said he wanted to change “perceptions so people with disability can live the lives they deserve to live.”\n\nIt was a short speech. But people remembered it, and it was shared widely.\n\nWhy? Partly because of what he said. But also because of *how* he said it. Watch the speech, and look for:\n\n- where he looks, and who he's talking to\n- how his tone changes between serious and funny moments\n- where he slows down or pauses\n- what his face and hands do.\n\nGreat speakers aren't born. They practise, and they make choices about how to say every line.",
+          "extend": "**Dylan Alcott** is one of Australia's best-known athletes. In 2021, he won the quad wheelchair singles title at all four Grand Slams, and Paralympic gold, in the same year. That's a **Golden Slam**. He was the first male tennis player ever to do it.\n\nOn **25 January 2022**, he was named **Australian of the Year**. Reports at the time said he was the first person with a disability to win the award in its 62-year history.\n\nHis speech was broadcast live across the nation. He spoke about growing up with a disability, how he once felt about himself, and what he hoped to change. He said his aim was to change “perceptions so people with disability can live the lives they deserve to live.”\n\nThe speech was short, but it was widely shared. Its impact came from content and delivery together. In the recording, look at how he uses:\n\n- **eye contact**, to speak to the room and the camera\n- shifts in **tone**, between humour and serious moments\n- **pace** and **pauses**, to give key lines weight\n- his **face** and **hands**, to back up his words.\n\nPowerful delivery is a set of choices. Speakers make them on purpose, and get better through practice."
+        },
+        "source": {
+          "name": "Australian of the Year Awards — Dylan Alcott AO",
+          "url": "https://aoty.org.au/recipients/dylan-alcott-ao"
+        },
+        "think": {
+          "support": [
+            "Watch the speech. What does he do with his eyes and voice?",
+            "What's one thing you could try?"
+          ],
+          "core": [
+            "Watch the speech. Where does Dylan Alcott use eye contact, pauses and changes in tone?",
+            "How does his delivery help his message?",
+            "What's one thing he does that you could try?"
+          ]
+        },
+        "vc": [
+          "VM-U2O2-KK5"
+        ],
+        "vcNote": "A real Australian speech for analysing the elements of oral communication."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "A script marked up for delivery",
+      "docTitle": "SPEECH NOTES — “A SECOND CHANCE” (EXAMPLE)",
+      "vc": [
+        "VM-U2O2-KS6",
+        "VM-U2O2-KK5"
+      ],
+      "vcNote": "Planning eye contact, pace, pauses, intonation, emphasis and gesture.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "[LOOK UP · SMILE]",
+          "value": "Hi, I'm Mia.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "[ / ]",
+          "value": "Last year, I nearly left school. /"
+        },
+        {
+          "n": 3,
+          "label": "[STRESS]",
+          "value": "But one teacher BELIEVED in me."
+        },
+        {
+          "n": 4,
+          "label": "[SLOW]",
+          "value": "Here's what changed."
+        },
+        {
+          "n": 5,
+          "label": "[↗ ↘]",
+          "value": "Was it easy? ↗ / No. ↘",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "[OPEN HANDS]",
+          "value": "So I'm asking you: give someone a second chance."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Eye contact",
+          "note": "Connect before you start."
+        },
+        {
+          "n": 2,
+          "label": "Pause",
+          "note": "Let a big line sink in."
+        },
+        {
+          "n": 3,
+          "label": "Emphasis",
+          "note": "Stress the key word."
+        },
+        {
+          "n": 4,
+          "label": "Pace",
+          "note": "Slow down for the important part."
+        },
+        {
+          "n": 5,
+          "label": "Intonation",
+          "note": "Rise for the question, fall for the answer."
+        },
+        {
+          "n": 6,
+          "label": "Gesture",
+          "note": "Open hands invite people in."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Get better at speaking",
+      "steps": [
+        {
+          "title": "Mark it up",
+          "text": "Pauses, stress, LOOK UP.",
+          "icon": "lucide:pencil"
+        },
+        {
+          "title": "Practise aloud",
+          "text": "Not just in your head.",
+          "icon": "lucide:mic-vocal"
+        },
+        {
+          "title": "Record it",
+          "text": "Phone on a stack of books.",
+          "icon": "lucide:video"
+        },
+        {
+          "title": "Watch it back",
+          "text": "One strength, one fix.",
+          "icon": "lucide:eye"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Why does **eye contact** matter when you speak?",
+        "options": [
+          "It shows confidence and makes people feel spoken to",
+          "It helps you read your notes",
+          "It isn't important",
+          "It makes you go faster"
+        ],
+        "answer": 0,
+        "explain": "Look up and around.",
+        "vc": [
+          "VM-U2O2-KK5"
+        ]
+      },
+      {
+        "q": "Most nervous speakers…",
+        "options": [
+          "Talk too fast",
+          "Talk too slowly",
+          "Pause too much",
+          "Look up too often"
+        ],
+        "answer": 0,
+        "explain": "Slow down.",
+        "vc": [
+          "VM-U2O2-KS6"
+        ]
+      },
+      {
+        "q": "When should you **pause**?",
+        "options": [
+          "Before and after your most important point",
+          "Never",
+          "In the middle of every word",
+          "Only at the very end"
+        ],
+        "answer": 0,
+        "explain": "Pauses make key points land.",
+        "vc": [
+          "VM-U2O2-KS6"
+        ]
+      },
+      {
+        "q": "What does a **flat** voice usually suggest?",
+        "options": [
+          "Boredom",
+          "Excitement",
+          "Anger",
+          "Confidence"
+        ],
+        "answer": 0,
+        "explain": "Let your voice rise and fall.",
+        "vc": [
+          "VM-U2O2-KK5"
+        ]
+      },
+      {
+        "q": "In 2022, Dylan Alcott became the first person with a disability to be named…",
+        "options": [
+          "Australian of the Year",
+          "Prime Minister",
+          "Captain of the Wallabies",
+          "Mayor of Melbourne"
+        ],
+        "answer": 0,
+        "explain": "25 January 2022.",
+        "vc": [
+          "VM-U2O2-KK5"
+        ]
+      },
+      {
+        "q": "In a script, what might a slash ( / ) mean?",
+        "options": [
+          "Pause here",
+          "Speak louder",
+          "Skip this line",
+          "Smile"
+        ],
+        "answer": 0,
+        "explain": "Mark up your notes.",
+        "vc": [
+          "VM-U2O2-KS6"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "What's the most reliable way to **evaluate** your own delivery?",
+        "options": [
+          "Record yourself and watch it back for specific moments",
+          "Ask yourself if it felt okay",
+          "Count the words",
+          "Read it silently"
+        ],
+        "answer": 0,
+        "explain": "Evidence beats feelings.",
+        "vc": [
+          "VM-U2O2-KS7"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Give a one-minute talk about something you know. Look up, slow down and pause. Record it. Then say what went well and what to fix.",
+      "core": "Give a one-minute talk on something you know well, using planned eye contact, pace, pauses, intonation and gestures. Record it and evaluate your own delivery.",
+      "extend": "Deliver a one- to two-minute talk with deliberately planned eye contact, body language, gesture, pace, pauses and intonation. Record it, then critically evaluate your delivery using specific moments from the recording."
+    },
+    "checklist": [
+      "I marked up my notes",
+      "I practised out loud",
+      "I made eye contact with different people",
+      "I slowed down and paused",
+      "I let my voice rise and fall",
+      "I recorded it and evaluated my delivery"
+    ],
+    "levelUp": "Critically evaluate your own recorded talk using specific moments, and compare one choice with a skilled speaker's.",
+    "vc": [
+      "VM-U2O2-KS6",
+      "VM-U2O2-KK5"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: It's not just what you say",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name **four** elements of oral communication.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK5"
+            ]
+          },
+          {
+            "q": "Why should you **pause** before and after an important point?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS6"
+            ]
+          },
+          {
+            "q": "Give **two** tips for dealing with nerves.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Get better at speaking",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "A script marked up for delivery",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a note for the speaker. Use the word bank. Why does it help?",
+          "core": "Each number marks a delivery note. Write what the mark means, and why it helps."
+        },
+        "columns": [
+          "What does the mark mean?",
+          "Why does it help?"
+        ],
+        "wordBank": {
+          "support": [
+            "eye contact",
+            "pause",
+            "stress a word",
+            "slow down",
+            "voice up and down",
+            "open hands"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U2O2-KS6",
+          "VM-U2O2-KK5"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Helps or hurts?",
+        "pagebreak": true,
+        "choices": [
+          "Helps",
+          "Hurts"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "You're giving a talk. Does each thing help or hurt your message? Tick one, and say why.",
+        "cards": [
+          {
+            "from": "Eyes",
+            "text": "Looking at different people around the room",
+            "answer": "Helps",
+            "flags": "People feel spoken to."
+          },
+          {
+            "from": "Notes",
+            "text": "Reading every word off the page",
+            "answer": "Hurts",
+            "flags": "No eye contact; sounds flat."
+          },
+          {
+            "from": "Voice",
+            "text": "Pausing before your most important point",
+            "answer": "Helps",
+            "flags": "People lean in."
+          },
+          {
+            "from": "Hands",
+            "text": "Clicking a pen the whole time",
+            "answer": "Hurts",
+            "flags": "Distracting; looks nervous."
+          },
+          {
+            "from": "Voice",
+            "text": "Speaking fast to get it over with",
+            "answer": "Hurts",
+            "flags": "Hard to follow.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Hands",
+            "text": "Open hands when you ask for something",
+            "answer": "Helps",
+            "flags": "Looks honest and inviting.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O2-KS6",
+          "VM-U2O2-KK5"
+        ],
+        "vcNote": "Judging how body language, eye contact, gesture and pace affect a message."
+      },
+      {
+        "type": "table",
+        "title": "Same words, different message",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Say “Great job.” out loud in each way. What does it mean each time? The first one is done for you.",
+        "columns": [
+          "How you say “Great job.”",
+          "What it means"
+        ],
+        "rows": [
+          [
+            "Warm voice, smiling, looking at them, falling tone at the end",
+            "You mean it. It's real praise."
+          ],
+          [
+            "Flat voice, looking away, no smile",
+            ""
+          ],
+          [
+            "Slow, eyebrows raised, voice rising at the end",
+            ""
+          ],
+          {
+            "cells": [
+              "Loud, fast, with a laugh and a slap on the back",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O2-KK5"
+        ],
+        "vcNote": "How tone, intonation and body language change meaning."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Dylan Alcott takes the stage",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Watch the speech (your teacher will show you). Where does Dylan Alcott use **eye contact**, **pauses** and changes in **tone**?",
+            "lines": 3,
+            "vc": [
+              "VM-U2O2-KK5"
+            ]
+          },
+          {
+            "q": "How does his delivery help his message?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK5"
+            ]
+          },
+          {
+            "q": "What's **one thing** he does that you could try?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: your one-minute talk",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Give a one-minute talk about something you know well: your job, your sport, a hobby, your pathway, or a place you love. Plan your delivery, then record it.",
+        "need": [
+          "three cue cards",
+          "a phone to record",
+          "a partner"
+        ],
+        "steps": {
+          "support": [
+            "Write three cue cards: start, main point, finish.",
+            "Mark where to pause and look up.",
+            "Practise out loud.",
+            "Give your talk and record it.",
+            "Watch it. What went well? What will you fix?"
+          ],
+          "core": [
+            "Write three cue cards: an opening, one main point with an example, and a strong finish.",
+            "**Mark up** your cards: pauses ( / ), words to stress, SLOW, LOOK UP.",
+            "Practise out loud twice.",
+            "Give your talk to a partner or small group, and **record** it.",
+            "Watch it back. Note one strength and one thing to fix."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My topic:",
+            "lines": 1
+          },
+          {
+            "label": "What my partner noticed:",
+            "lines": 1
+          },
+          {
+            "label": "One strength (with a time in the video):",
+            "lines": 1
+          },
+          {
+            "label": "One thing to fix:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Recording",
+          "Cue cards",
+          "Partner feedback"
+        ],
+        "vc": [
+          "VM-U2O2-KS6",
+          "VM-U2O2-KK5"
+        ],
+        "vcNote": "Hands-on: using body language, eye contact, gesture, pace and intonation."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Watch your recording again. Give the **time** of your best moment of delivery and your weakest. What exactly did you do in each? What will you change, and how?",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS7"
+            ]
+          },
+          {
+            "q": "Compare **one** delivery choice you made with one Dylan Alcott (or another skilled speaker) made. What could you borrow?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can explain how delivery changes a message.",
+          "I can use pace, pauses and intonation.",
+          "I can mark up a script.",
+          "I can give a talk and evaluate it."
+        ],
+        "questions": [
+          "My biggest delivery habit to fix:",
+          "My best delivery tip:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the elements of oral communication (eye contact, body language, gesture, tone, pace, pauses, intonation and emphasis) and how to use them deliberately. They annotate a script marked up for delivery, sort helpful and unhelpful habits, explore how tone changes meaning, analyse Dylan Alcott's 2022 Australian of the Year acceptance speech, and give, record and evaluate a one-minute talk.",
+    "prep": [
+      "Find Dylan Alcott's 2022 Australian of the Year acceptance speech (official Australian of the Year channels or news sites) and preview it. He refers to how he once felt about himself; be ready to handle mental health discussion sensitively.",
+      "Plan quiet spaces for recording.",
+      "Prepare cue cards (or index cards) for each student."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — It's not just what you say",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** say “Great job.” three ways. What changed?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Marked-up script (10 min):** then read it aloud with the marks.",
+          "**Helps or hurts? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Watch a pro",
+        "minutes": 50,
+        "steps": [
+          "**Same words (10 min):** say each version aloud.",
+          "**Case study (25 min):** watch the speech twice; answer.",
+          "**Plan (15 min):** cue cards and mark-up."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Your one-minute talk",
+        "minutes": 50,
+        "steps": [
+          "**Practise (10 min).**",
+          "**Do it (25 min):** talks in small groups, recorded.",
+          "**Level Up, reflect (15 min):** watch back, evaluate; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Eye contact: look up and around; it signals confidence.",
+      "Body language: tall, still, relaxed hands; avoid fidgeting.",
+      "Gestures: purposeful and natural; open hands invite.",
+      "Tone and intonation change meaning; a flat voice sounds bored.",
+      "Pace and pauses: slow down; pause before and after key points.",
+      "Mark up notes (/, underline, SLOW, LOOK UP); record and review to improve."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the script.",
+        "Fewer sort cards and rows.",
+        "Talk to one partner rather than a group."
+      ],
+      "extend": [
+        "A one- to two-minute talk.",
+        "Critically evaluate using timestamps (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U2O2-KK5",
+        "evidence": "Explains how eye contact, tone, body language and intonation affect a message (script, same words, case study)."
+      },
+      {
+        "vc": "VM-U2O2-KS6",
+        "evidence": "Uses body language, eye contact, gesture, pace and intonation appropriately in a recorded talk (Do it)."
+      },
+      {
+        "vc": "VM-U2O2-KS7",
+        "evidence": "Level Up: critically evaluates their own delivery using specific moments."
+      }
+    ],
+    "answers": "**Check your reading:** any four of eye contact, body language, gesture, tone, pace, pauses, intonation, emphasis. Before, so people lean in; after, so it sinks in. Breathe out slowly, practise out loud, find a friendly face, record yourself.\n\n**Script:** 1 eye contact and smile; 2 pause; 3 emphasis on BELIEVED; 4 slow pace; 5 rising then falling intonation; 6 open-hand gesture with the call to action.\n\n**Sort:** looking around — helps; reading every word — hurts; pausing — helps; clicking a pen — hurts; speaking fast — hurts; open hands — helps.\n\n**Same words:** flat and looking away = you don't mean it or don't care; slow, raised eyebrows, rising = sarcasm or doubt; loud, fast, laugh = big, excited praise (or overdone).\n\n**Case study:** answers depend on the viewing; credit specific, observed examples.",
+    "resources": [
+      {
+        "label": "Australian of the Year Awards — Dylan Alcott AO",
+        "url": "https://aoty.org.au/recipients/dylan-alcott-ao"
+      },
+      {
+        "label": "National Museum of Australia — Dylan Alcott, 2022 Australian of the Year",
+        "url": "https://nma.gov.au/exhibitions/2022-australian-of-the-year/dylan-alcott"
+      },
+      {
+        "label": "SBS News — Dylan Alcott named Australian of the Year",
+        "url": "https://www.sbs.com.au/news/article/paralympian-and-disability-advocate-dylan-alcott-has-been-named-australian-of-the-year/zwswgupnq"
+      }
+    ],
+    "realityCheck": [
+      "**Most students hate watching themselves.** Normalise it, and keep recordings private to the student and you.",
+      "**Nervous students need a low-stakes start.** Let them talk to one partner first.",
+      "**Pick topics they own.** A talk about their job or sport is easier than a talk about an issue.",
+      "**Model the cringe.** Show a recording of yourself and evaluate it out loud.",
+      "**Works in a real class:** yes. It's the delivery half of Have Your Say."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the script, fewer sort cards and rows, and a talk to one partner.",
+      "core": "Standard version: the elements of oral communication, a marked-up script, a helps-or-hurts sort, tone changing meaning, Dylan Alcott's speech, and a recorded one-minute talk.",
+      "extend": "Adds intonation and emphasis to the vocabulary, a quiz question on self-evaluation, a longer talk, and Level Ups critically evaluating delivery with timestamps and comparison to a skilled speaker."
+    }
+  }
+}
