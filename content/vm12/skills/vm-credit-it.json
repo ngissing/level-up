@@ -1,0 +1,928 @@
+{
+  "id": "vm-credit-it",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "You're making a video. You grab a photo, a song and some facts from the internet. Who owns them? Can you just use them?",
+      "core": "You're making a video for your VM project. You grab a photo from a search, a trending song for the background, and a few facts from a website. It looks great. But who owns that photo? That song? Those words? And what happens if you use them without asking?"
+    },
+    "why": {
+      "support": "Most things online are owned by someone. That's **copyright**. Learn when you can use other people's work, and how to give **credit**.",
+      "core": "Almost everything online, from photos and songs to articles and videos, is owned by someone. That's **copyright**. Using other people's work isn't always wrong, but you need to know when you're allowed to, and how to give **credit** properly. Get it right, and your work is honest and professional. Get it wrong, and you could lose marks, have your video taken down, or even end up in court.",
+      "extend": "Copyright protects creators' rights in their work, and the conventions of attribution let others build on that work honestly. Knowing what's protected, when use is permitted (licences, Creative Commons, fair dealing), and how to reference sources is essential for creating digital content at school, in training and at work."
+    },
+    "canDo": {
+      "support": [
+        "I can explain copyright.",
+        "I can find things I'm allowed to use.",
+        "I can give credit properly.",
+        "I can make content with credits."
+      ],
+      "core": [
+        "I can explain what **copyright** is, and why it matters.",
+        "I can find work I'm **allowed** to use, like Creative Commons.",
+        "I can **credit** sources properly.",
+        "I can create new content that **cites** its sources."
+      ]
+    },
+    "showIt": "Create a short digital text on a topic you care about, using only content you're allowed to use, and credit every source correctly.",
+    "vocab": [
+      {
+        "word": "copyright",
+        "meaning": "the legal right to own and control what you make",
+        "example": "The photographer owns the copyright."
+      },
+      {
+        "word": "credit",
+        "meaning": "say who made something you've used",
+        "example": "I gave credit to the photographer."
+      },
+      {
+        "word": "permission",
+        "meaning": "being allowed to use something",
+        "example": "I asked for permission to use the song."
+      },
+      {
+        "word": "Creative Commons",
+        "meaning": "free licences that let you use work if you follow the rules",
+        "example": "The photo had a Creative Commons licence."
+      },
+      {
+        "word": "licence",
+        "meaning": "the rules for how you can use something",
+        "example": "The licence said I must give credit."
+      },
+      {
+        "word": "reference",
+        "meaning": "a note that shows where information came from",
+        "example": "I added a reference at the end."
+      },
+      {
+        "word": "attribution",
+        "meaning": "the credit you give a creator",
+        "example": "My attribution was under the photo.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "fair dealing",
+        "meaning": "rules that let you use part of a work for study, review or news",
+        "example": "Quoting a film in a review can be fair dealing.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Credit Where It's Due in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Credit Where It’s Due",
+        "sub": "Use it legally. Credit it properly.",
+        "icon": "lucide:copyright",
+        "say": "Credit where it's due. Use images, music and information legally, and give credit properly."
+      },
+      {
+        "kind": "big",
+        "title": "It's automatic",
+        "text": "Made it = **owns it**",
+        "icon": "lucide:copyright",
+        "say": "In Australia, copyright is automatic. The moment someone creates a photo, song or article, they own it. No form needed.",
+        "vc": [
+          "VM-U1O2-KK5"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Even a flute riff",
+        "text": "**Down Under** vs **Kookaburra**",
+        "icon": "lucide:music",
+        "say": "In 2010, an Australian court found the hit song Down Under copied part of the children's song Kookaburra. The band's owners had to pay five per cent of its royalties.",
+        "vc": [
+          "VM-U1O2-KK5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Use it right",
+        "pillIcon": "lucide:copyright",
+        "title": "Allowed to use",
+        "text": "CC · Free stock · **Your own**",
+        "icon": "lucide:circle-check",
+        "say": "Find content you're allowed to use. Creative Commons, free stock sites, or your own photos and music.",
+        "vc": [
+          "VM-U1O2-KK5",
+          "VM-U1O2-KS8"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Use it right",
+        "pillIcon": "lucide:copyright",
+        "title": "Read the licence",
+        "text": "BY · NC · **ND**",
+        "icon": "lucide:file-text",
+        "say": "Read the licence. Some say you can use it for anything. Some say not for money. Some say don't change it.",
+        "vc": [
+          "VM-U1O2-KK5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Use it right",
+        "pillIcon": "lucide:copyright",
+        "title": "Credit it: TASL",
+        "text": "Title · Author · Source · **Licence**",
+        "icon": "lucide:badge-check",
+        "say": "Give credit. Title, author, source, licence. T A S L.",
+        "vc": [
+          "VM-U1O2-KS7"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Use anything right",
+        "steps": [
+          "Who owns it?",
+          "Am I allowed?",
+          "Credit it (TASL)"
+        ],
+        "say": "To use anything: check who owns it, find out what you're allowed to do, then credit it properly."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Check it. Use it right. Credit it.",
+        "icon": "lucide:copyright",
+        "say": "Your mission. Make a short digital text using only content you're allowed to use, and credit every source."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Credit where it's due",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Most things online belong to someone.\n\n**Copyright** is automatic in Australia. When someone makes a photo, song or video, they own it.\n\n**When can you use it?**\n\n- When you have **permission**.\n- When it has a **Creative Commons** licence. Follow its rules.\n- For some school uses, like study or a review. Use only a small part, and give credit.\n- When it's **your own** photo or music.\n\n**Give credit with TASL:**\n\n- **T**itle: what it's called\n- **A**uthor: who made it\n- **S**ource: where you found it\n- **L**icence: the licence.\n\n*“Sunset at Lorne” by J. Lee, Flickr, CC BY 2.0.*\n\nFor facts, write down who wrote it and the link.",
+          "core": "When you make a video, poster or post, it's easy to grab photos, music and facts from the internet. But most things online belong to someone.\n\n**What is copyright?** In Australia, **copyright** is automatic. When someone makes a photo, song, article, video or drawing, they own it. They don't have to sign up or put a © on it. It usually lasts until 70 years after the maker dies. The owner decides who can copy, share or change their work.\n\n**When can you use other people's work?**\n\n- **With permission.** Ask the owner, and keep their reply.\n- **With a licence.** A **Creative Commons** licence says *you can use this, if you follow the rules*. Lots of photos, songs and videos have one. Look for **BY** (give credit), **NC** (not for money), **ND** (don't change it) and **SA** (share yours the same way).\n- **Fair dealing.** The law lets you use *some* of a work for a few reasons. These are study, review, parody and news. You don't need to ask. But use only what's fair. For review and news, you must give credit.\n- **Your own work.** Your own photos, drawings and recordings are always safe to use.\n\n**How to give credit.** For Creative Commons work, use **TASL**:\n\n- **T**itle: what it's called\n- **A**uthor: who made it\n- **S**ource: where you found it (with a link)\n- **L**icence: which licence it uses.\n\n*Example: “Sunset at Lorne” by J. Lee, Flickr, CC BY 2.0.*\n\nFor facts and quotes, add a **reference**: who wrote it, the title, the date and the link.\n\n**Why it matters.** Giving credit is honest. It shows where your facts came from. If you ignore copyright, you could lose marks for **plagiarism**. Your video could be muted or taken down. A business could end up in court.",
+          "extend": "Digital content is easy to copy. But most of it is protected by **copyright**.\n\n**Copyright in Australia** starts the moment an original work is made. That covers photos, songs, texts, films and artwork. You don't need to register it or add a © symbol. It usually lasts until 70 years after the creator dies. Only the owner can copy, share or adapt the work, or let others do so.\n\n**Lawful use of others' work**\n\n- **Permission** from the owner, ideally in writing.\n- **Licences**, such as **Creative Commons**. Creators give permission in advance, on set conditions: **BY** (credit me), **NC** (not for profit), **ND** (no changes), **SA** (share alike).\n- **Fair dealing.** The Copyright Act allows limited use without asking, for set purposes. These include research or study, criticism or review, parody or satire, and news. The use must be fair in amount and purpose. Review and news also need credit. Australia's rule is narrower than the US idea of *fair use*.\n- **Original work** you make yourself.\n\n**How to credit.** For Creative Commons work, use **TASL**: **T**itle, **A**uthor, **S**ource (with a link) and **L**icence. *“Sunset at Lorne” by J. Lee, Flickr, CC BY 2.0.* For facts and quotes, give a **reference**: author, title, date and source.\n\n**What's at stake.** Not giving credit is **plagiarism** at school and in training. Breaking copyright can get your content removed. It can also lead to court, and to paying damages or royalties."
+        },
+        "vc": [
+          "VM-U1O2-KK5",
+          "VM-U1O2-KS7",
+          "VM-U1O2-KS8"
+        ],
+        "vcNote": "The principles of copyright, licences and fair dealing; the conventions of attribution and referencing."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The kookaburra in Down Under",
+        "icon": "lucide:music",
+        "body": {
+          "support": "**Down Under** is a famous Australian song from the 1980s. It has a catchy **flute tune**.\n\nA company owned the rights to the kids' song **Kookaburra Sits in the Old Gum Tree**. It said the flute tune copied part of Kookaburra. It went to **court**.\n\nIn **2010**, the judge agreed. Just a few notes were copied. But it was enough.\n\nThe owners of Down Under had to pay **5%** of the song's money to the Kookaburra owners.\n\nThe lesson: even a few notes can be protected. Check, and give credit.",
+          "core": "**Down Under** by Men at Work is one of Australia's best-known songs. It was a number one hit in the early 1980s. It has a catchy **flute riff**.\n\nA company called **Larrikin Music** owned the copyright in the kids' song **Kookaburra Sits in the Old Gum Tree**. Years later, it said the flute riff copied part of Kookaburra. It took the case to the **Federal Court**.\n\nIn **February 2010**, the judge agreed. He found the riff copied a **big enough part** of Kookaburra. It wasn't the whole song. It was just a few bars, with other music in between. But it was enough.\n\nIn **July 2010**, the court decided what Larrikin should get. Larrikin had asked for up to **60%** of the song's royalties. The judge said that was far too much. He gave Larrikin **5%**, from 2002 and into the future.\n\nThe other side appealed. In **2011**, a higher court agreed with the judge.\n\nThe lesson: even a few notes from a famous song can be protected. If it's not yours, check, and credit.",
+          "extend": "**Down Under**, by Men at Work, topped the charts in the early 1980s. It became an unofficial Australian anthem, partly because of its **flute riff**.\n\n**Larrikin Music** owned the copyright in the children's song **Kookaburra Sits in the Old Gum Tree**. It claimed the riff copied part of that song, and sued in the **Federal Court**.\n\nIn **February 2010**, Justice Jacobson agreed. The riff copied a **substantial part** of Kookaburra. Yet the borrowed part was short. It was split in two, with other music in between, so it was hard to hear. Copying a whole work isn't needed. A substantial part is enough, judged by quality as well as amount.\n\nIn **July 2010**, the court set the payment. Larrikin had asked for up to **60%** of royalties. The judge called that excessive. He awarded **5%** of the song's income from 2002 onwards. An appeal failed in **2011**.\n\nThe case shows that copyright protects small but clear parts of a work. The cost can follow a creator for decades."
+        },
+        "source": {
+          "name": "Arts Law Centre of Australia — “Laugh, Kookaburra, Laugh”",
+          "url": "https://www.artslaw.com.au/article/laugh-kookaburra-laugh/"
+        },
+        "think": {
+          "support": [
+            "What did the court decide?",
+            "What could happen if you used a song without asking?"
+          ],
+          "core": [
+            "What did the court decide, and why?",
+            "Why does it matter that only a few notes were copied?",
+            "What could happen if you used a song in your video without permission?"
+          ]
+        },
+        "vc": [
+          "VM-U1O2-KK5"
+        ],
+        "vcNote": "A real Australian copyright case showing what counts as copying."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a credit",
+      "docTitle": "CREDITS SLIDE — “LOCAL SKATE PARKS” VIDEO (EXAMPLE)",
+      "vc": [
+        "VM-U1O2-KS7",
+        "VM-U1O2-KK5"
+      ],
+      "vcNote": "The conventions of attribution (TASL) and referencing for images, music and information.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Title",
+          "value": "“Sunset at Lorne skate bowl”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Author",
+          "value": "by J. Lee"
+        },
+        {
+          "n": 3,
+          "label": "Source",
+          "value": "Flickr (link)"
+        },
+        {
+          "n": 4,
+          "label": "Licence",
+          "value": "CC BY 2.0",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Music",
+          "value": "“Summer Roll” by Kai Beats, Free Music Archive, CC BY 4.0"
+        },
+        {
+          "n": 6,
+          "label": "Information",
+          "value": "Facts about park hours: Surf Coast Shire Council, “Skate parks”, accessed 3 March 2026, (link)"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Title",
+          "note": "What it's called, in quote marks."
+        },
+        {
+          "n": 2,
+          "label": "Author",
+          "note": "Who made it."
+        },
+        {
+          "n": 3,
+          "label": "Source",
+          "note": "Where you found it, with a link."
+        },
+        {
+          "n": 4,
+          "label": "Licence",
+          "note": "BY = you must credit the creator."
+        },
+        {
+          "n": 5,
+          "label": "Music credit",
+          "note": "Music needs TASL too."
+        },
+        {
+          "n": 6,
+          "label": "Reference",
+          "note": "Who, title, date accessed, link."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Use anything right",
+      "steps": [
+        {
+          "title": "Who owns it?",
+          "text": "Assume someone does.",
+          "icon": "lucide:copyright"
+        },
+        {
+          "title": "Am I allowed?",
+          "text": "Permission, licence, fair dealing, or mine?",
+          "icon": "lucide:circle-help"
+        },
+        {
+          "title": "Follow the rules",
+          "text": "BY, NC, ND, SA.",
+          "icon": "lucide:file-text"
+        },
+        {
+          "title": "Credit it",
+          "text": "TASL, or a reference.",
+          "icon": "lucide:badge-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "When does someone own the copyright in a photo they took?",
+        "options": [
+          "As soon as they take it",
+          "Only after they register it",
+          "Only if it has a ©",
+          "Never"
+        ],
+        "answer": 0,
+        "explain": "Copyright is automatic in Australia.",
+        "vc": [
+          "VM-U1O2-KK5"
+        ]
+      },
+      {
+        "q": "What does **TASL** stand for?",
+        "options": [
+          "Title, Author, Source, Licence",
+          "Text, Art, Song, Link",
+          "Title, Age, Site, Location",
+          "Type, Author, Size, Length"
+        ],
+        "answer": 0,
+        "explain": "The Creative Commons credit formula.",
+        "vc": [
+          "VM-U1O2-KS7"
+        ]
+      },
+      {
+        "q": "A photo has the licence **CC BY-NC**. Can you use it in an ad for your business?",
+        "options": [
+          "No: NC means not for commercial use",
+          "Yes, always",
+          "Only if you change it",
+          "Only on Sundays"
+        ],
+        "answer": 0,
+        "explain": "BY = credit; NC = not for money.",
+        "vc": [
+          "VM-U1O2-KK5"
+        ]
+      },
+      {
+        "q": "Which is always safe to use in your video?",
+        "options": [
+          "Your own photos and recordings",
+          "Any song on the radio",
+          "Any image from a search",
+          "A clip from a movie"
+        ],
+        "answer": 0,
+        "explain": "You own your own work.",
+        "vc": [
+          "VM-U1O2-KK5",
+          "VM-U1O2-KS8"
+        ]
+      },
+      {
+        "q": "In the Down Under case, how much of Kookaburra had been copied?",
+        "options": [
+          "A few bars: a substantial part, but not the whole song",
+          "The whole song",
+          "Nothing",
+          "Just the title"
+        ],
+        "answer": 0,
+        "explain": "Even a small part can be protected.",
+        "vc": [
+          "VM-U1O2-KK5"
+        ]
+      },
+      {
+        "q": "Which is a correct reference for a fact from a website?",
+        "options": [
+          "Surf Coast Shire Council, “Skate parks”, accessed 3 March 2026, (link)",
+          "Google",
+          "the internet",
+          "a website I found"
+        ],
+        "answer": 0,
+        "explain": "Who, title, date, link.",
+        "vc": [
+          "VM-U1O2-KS7"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Which use is most likely to be **fair dealing** in Australia?",
+        "options": [
+          "Quoting a few lines of a film in a review, with credit",
+          "Uploading a whole film to YouTube",
+          "Selling copies of a song",
+          "Using a band's song in your company's ad"
+        ],
+        "answer": 0,
+        "explain": "Fair dealing covers limited use for purposes like criticism or review.",
+        "vc": [
+          "VM-U2O2-KK4"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Make a short slideshow or poster. Use only things you're allowed to use. Credit every one.",
+      "core": "Create a short digital text on a topic you care about, using only content you're allowed to use, and credit every source correctly.",
+      "extend": "Create a digital text for a specific audience using licensed or original media and researched information, apply TASL attribution and referencing conventions, and justify each choice of content."
+    },
+    "checklist": [
+      "I checked who owns each image, sound and fact",
+      "I only used content I'm allowed to use",
+      "I followed each licence",
+      "I credited every image and song with TASL",
+      "I referenced my information",
+      "I made something new"
+    ],
+    "levelUp": "Explain why Australia's fair dealing rules are narrower than “fair use”, and give one example of a use that would and wouldn't be fair dealing.",
+    "vc": [
+      "VM-U1O2-KK5",
+      "VM-U1O2-KS7",
+      "VM-U1O2-KS8"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Credit where it's due",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What is **copyright**, and when does it start?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK5"
+            ]
+          },
+          {
+            "q": "Name **three** ways you're allowed to use someone else's work.",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK5"
+            ]
+          },
+          {
+            "q": "What does **TASL** stand for?",
+            "lines": 1,
+            "vc": [
+              "VM-U1O2-KS7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Use anything right",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a credit",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the credits. Use the word bank. Why is it there?",
+          "core": "Each number marks part of the credits slide. Write what it is and why it's there."
+        },
+        "columns": [
+          "What is it?",
+          "Why is it there?"
+        ],
+        "wordBank": {
+          "support": [
+            "title",
+            "author",
+            "source",
+            "licence",
+            "music credit",
+            "reference"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O2-KS7"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Can I use it?",
+        "pagebreak": true,
+        "choices": [
+          "Yes",
+          "Yes, with credit",
+          "No"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "You're making a video for your VM project. Can you use each thing? Tick one, and say why.",
+        "cards": [
+          {
+            "from": "Image",
+            "text": "A photo you took yourself at the skate park",
+            "answer": "Yes",
+            "flags": "It's yours."
+          },
+          {
+            "from": "Image",
+            "text": "A Flickr photo with a CC BY licence",
+            "answer": "Yes, with credit",
+            "flags": "BY means credit the creator."
+          },
+          {
+            "from": "Music",
+            "text": "A chart-topping song you downloaded",
+            "answer": "No",
+            "flags": "You don't have permission."
+          },
+          {
+            "from": "Information",
+            "text": "Facts about park opening hours from the council website",
+            "answer": "Yes, with credit",
+            "flags": "Reference your source."
+          },
+          {
+            "from": "Image",
+            "text": "A photo from a news website, with no licence shown",
+            "answer": "No",
+            "flags": "Assume it's protected. Ask first.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Music",
+            "text": "A Free Music Archive track with a CC BY-ND licence, played as is",
+            "answer": "Yes, with credit",
+            "flags": "ND: don't change it. BY: credit it.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O2-KK5",
+          "VM-U1O2-KS7"
+        ],
+        "vcNote": "Applying copyright and licence principles to real content choices."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the kookaburra in Down Under",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the court decide in 2010?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK5"
+            ]
+          },
+          {
+            "q": "Why does it matter that only a **few notes** were copied?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK5"
+            ]
+          },
+          {
+            "q": "What could happen if you used a popular song in a video you posted, without permission?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Write the credits",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "Write a TASL credit or a reference for each item. The first one is done for you.",
+        "columns": [
+          "What you used",
+          "Your credit"
+        ],
+        "rows": [
+          [
+            "A photo called “Bush Track” by Sam Ng on Unsplash, Unsplash Licence",
+            "“Bush Track” by Sam Ng, Unsplash, Unsplash Licence"
+          ],
+          [
+            "A song called “Run Wild” by Mila Grey on Free Music Archive, CC BY 4.0",
+            ""
+          ],
+          [
+            "A drawing called “City Lights” by Ava Kim on Wikimedia Commons, CC BY-SA 4.0",
+            ""
+          ],
+          [
+            "A fact from WorkSafe Victoria's page “Working at heights”, accessed today",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U1O2-KS7"
+        ],
+        "vcNote": "Applying the conventions of attribution and referencing."
+      },
+      {
+        "type": "table",
+        "title": "Final mission: plan my content",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Make a short digital text (a slideshow, poster, short video or web page) about a topic you care about or your pathway. Plan **every** piece of content you'll use, and how you're allowed to use it.",
+        "columns": [
+          "Content (image, music, fact)",
+          "Where it's from",
+          "How I'm allowed to use it",
+          "My credit"
+        ],
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O2-KS8",
+          "VM-U1O2-KS7",
+          "VM-U1O2-KK5"
+        ],
+        "vcNote": "Accessing and citing information from a variety of sources to create new content."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: make it and credit it",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Make your digital text, using only the content in your plan. Add a credits slide or section at the end.",
+        "need": [
+          "your content plan",
+          "a device",
+          "a topic you care about"
+        ],
+        "steps": {
+          "support": [
+            "Make your slideshow or poster.",
+            "Use only things from your plan.",
+            "Add a credits section.",
+            "Check a partner's credits.",
+            "Fix anything missing."
+          ],
+          "core": [
+            "Make your slideshow, poster, short video or web page.",
+            "Use only the content in your plan.",
+            "Add a **credits** section with every TASL credit and reference.",
+            "Swap with a partner. Check each other's credits against TASL.",
+            "Fix anything that's missing."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My topic and audience:",
+            "lines": 1
+          },
+          {
+            "label": "One thing my partner said to fix:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Finished text",
+          "Credits section",
+          "Partner check"
+        ],
+        "vc": [
+          "VM-U1O2-KS8",
+          "VM-U1O2-KS7"
+        ],
+        "vcNote": "Hands-on: creating new content with correct attribution."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Australia has **fair dealing**, which is narrower than the US idea of **fair use**. Give one example of a use that would probably be fair dealing, and one that wouldn't. Explain why.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KK4"
+            ]
+          },
+          {
+            "q": "Why does giving credit matter, even when it's not legally required?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KK4",
+              "VM-U1O2-KS7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can explain copyright.",
+          "I can find content I'm allowed to use.",
+          "I can credit sources properly.",
+          "I can make content that cites its sources."
+        ],
+        "questions": [
+          "A source I'll use for free images or music:",
+          "My credit tip:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the principles of copyright in Australia (automatic protection, owners' rights), lawful ways to use others' work (permission, licences including Creative Commons, fair dealing, original work), and the conventions of attribution (TASL: title, author, source, licence) and referencing. They plan and make a short digital text using only content they're allowed to use, with a full credits section. The case study is the 2010 Federal Court finding that Down Under's flute riff reproduced a substantial part of Kookaburra Sits in the Old Gum Tree.",
+    "prep": [
+      "Have links ready to Creative Commons search tools and free media libraries (Wikimedia Commons, Free Music Archive, Unsplash), checked on school devices.",
+      "Decide the format for the Do it (slideshow, poster, short video, web page).",
+      "Optional: play Down Under and Kookaburra so students can hear the riff."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Who owns it?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** play Down Under, then Kookaburra. Hear it?",
+          "**Explicit teaching (10 min):** copyright, licences, fair dealing, TASL.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Anatomy of a credit (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Can I use it?",
+        "minutes": 50,
+        "steps": [
+          "**Can I use it? (15 min).**",
+          "**Case study (15 min):** the kookaburra in Down Under.",
+          "**Write the credits (20 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Make it",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (15 min):** plan my content.",
+          "**Do it (25 min):** make it and credit it.",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Copyright in Australia is automatic; it usually lasts until 70 years after the creator's death.",
+      "You can use others' work with permission, under a licence (e.g. Creative Commons), under fair dealing for limited purposes, or if it's your own.",
+      "Creative Commons elements: BY (credit), NC (non-commercial), ND (no changes), SA (share alike).",
+      "Credit with TASL: title, author, source, licence; reference facts with who, title, date and link.",
+      "Fair dealing (research or study, criticism or review, parody or satire, news) is narrower than US fair use, and some purposes require acknowledgement.",
+      "Down Under (2010): a substantial part, even a short riff, can infringe copyright."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the annotation.",
+        "Fewer sort cards and plan rows.",
+        "A slideshow or poster rather than a video."
+      ],
+      "extend": [
+        "Justify each content choice.",
+        "Explain fair dealing versus fair use (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O2-KK5",
+        "evidence": "Explains the principles of copyright and the conventions of attribution (Check your reading, sort, case study)."
+      },
+      {
+        "vc": "VM-U1O2-KS7",
+        "evidence": "Applies referencing and attribution conventions (Write the credits, Do it credits)."
+      },
+      {
+        "vc": "VM-U1O2-KS8",
+        "evidence": "Accesses and cites information from a variety of sources to create new content (final mission, Do it)."
+      },
+      {
+        "vc": "VM-U2O2-KK4",
+        "evidence": "Level Up: explains copyright principles, including fair dealing, and why attribution matters."
+      }
+    ],
+    "answers": "**Check your reading:** the legal right to own and control your creative work; it starts automatically when the work is created. Permission, a licence (e.g. Creative Commons), fair dealing for limited purposes, or your own work. Title, Author, Source, Licence.\n\n**Credits:** 1 title; 2 author; 3 source; 4 licence; 5 music credit; 6 reference for information.\n\n**Sort:** own photo — yes; CC BY Flickr photo — yes, with credit; downloaded hit song — no; council facts — yes, with credit; news photo, no licence — no; CC BY-ND track played as is — yes, with credit.\n\n**Write the credits:** “Run Wild” by Mila Grey, Free Music Archive, CC BY 4.0 · “City Lights” by Ava Kim, Wikimedia Commons, CC BY-SA 4.0 · WorkSafe Victoria, “Working at heights”, accessed [date], [link].\n\n**Case study:** the flute riff reproduced a substantial part of Kookaburra, so it infringed copyright; Larrikin was awarded 5% of royalties from 2002. Even a small, recognisable part can be protected. Your video could be muted or taken down, you could lose marks, or the owner could take action.",
+    "resources": [
+      {
+        "label": "Arts Law Centre of Australia — Laugh, Kookaburra, Laugh",
+        "url": "https://www.artslaw.com.au/article/laugh-kookaburra-laugh/"
+      },
+      {
+        "label": "ALRC — Fair dealing: current law",
+        "url": "https://www.alrc.gov.au/publication/copyright-and-the-digital-economy-dp-79/7-fair-dealing/current-law/"
+      },
+      {
+        "label": "Creative Commons Australia",
+        "url": "https://creativecommons.org.au"
+      },
+      {
+        "label": "Smartcopying — copyright guidance for Australian schools",
+        "url": "https://www.smartcopying.edu.au"
+      }
+    ],
+    "realityCheck": [
+      "**Students think “online” means “free”.** The sort activity challenges this directly.",
+      "**Schools have special licences.** Some uses are covered by the education statutory licence; check Smartcopying, but students still need to credit.",
+      "**Music is the hardest.** Point students to Creative Commons or royalty-free libraries, or have them make their own.",
+      "**Keep it practical.** The goal isn't to scare students but to build honest, professional habits.",
+      "**Works in a real class:** yes. It sets up Make a Podcast, where students will need to credit everything they use."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 3-choice quiz, word bank on the annotation, fewer sort cards and plan rows, and a slideshow or poster.",
+      "core": "Standard version: copyright, licences and fair dealing, credit anatomy, a can-I-use-it sort, the Down Under case, writing credits, and planning and making a credited digital text.",
+      "extend": "Adds attribution and fair dealing to the vocabulary, a quiz question on fair dealing, justified content choices, and Level Ups on fair dealing versus fair use and why credit matters."
+    }
+  }
+}

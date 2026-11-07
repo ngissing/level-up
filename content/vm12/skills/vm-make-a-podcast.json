@@ -1,0 +1,1027 @@
+{
+  "id": "vm-make-a-podcast",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), with phones or recording devices",
+  "brief": {
+    "hook": {
+      "support": "Think of a podcast you like. Why do you keep listening? Now it's your turn. Plan, write and record your own short episode.",
+      "core": "Think of the last podcast you actually finished. Why did you stay? Maybe it was the topic. Maybe it was the voice. Maybe it just felt like a mate talking. Now it's your turn: plan, script and record an episode that someone would really want to hear."
+    },
+    "why": {
+      "support": "This is the boss level. Use all your Digital Life skills. A podcast is something people hear, not read. Learn to write for the ear and use your voice.",
+      "core": "This is the Digital Life boss level. You'll bring everything together: check your sources like a website detective, credit what you use, and know your audience. Podcasts are a different kind of text: people *hear* them, often while doing something else. Writing for the ear, and using your voice well, are skills you'll use in presentations, interviews and at work.",
+      "extend": "This boss level draws together source evaluation, attribution and audience awareness. Podcasts are accessed and received differently from webpages and posts. Scripting for the ear, and controlling your voice, transfer directly to presentations and interviews."
+    },
+    "canDo": {
+      "support": [
+        "I can say how a podcast is different.",
+        "I can plan and write an episode.",
+        "I can use and credit sources.",
+        "I can record and fix my episode."
+      ],
+      "core": [
+        "I can explain how a podcast is **different** from a webpage or a social media post.",
+        "I can **plan** and **script** an episode for an audience.",
+        "I can use and **cite** sources in my episode.",
+        "I can **record** and **edit** my episode, and fix my script."
+      ]
+    },
+    "showIt": "Plan, script, record and edit a short podcast episode (3 to 5 minutes) about your interests or pathway, with show notes that credit your sources.",
+    "vocab": [
+      {
+        "word": "podcast",
+        "meaning": "an audio show you can listen to any time",
+        "example": "I listen to a footy podcast on the bus."
+      },
+      {
+        "word": "audience",
+        "meaning": "the people you're making it for",
+        "example": "My audience is Year 11s starting work."
+      },
+      {
+        "word": "script",
+        "meaning": "the words you plan to say",
+        "example": "I wrote a script so I wouldn't ramble."
+      },
+      {
+        "word": "hook",
+        "meaning": "the start that grabs people's attention",
+        "example": "My hook was a surprising fact."
+      },
+      {
+        "word": "segment",
+        "meaning": "one part of an episode",
+        "example": "The second segment was an interview."
+      },
+      {
+        "word": "edit",
+        "meaning": "fix and improve something you've made",
+        "example": "I edited out the long pauses."
+      },
+      {
+        "word": "show notes",
+        "meaning": "a short written guide to an episode, with links and sources",
+        "example": "My sources are in the show notes.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "intonation",
+        "meaning": "how your voice goes up and down when you speak",
+        "example": "Her intonation made it sound like a question.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Make a Podcast in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Make a Podcast",
+        "sub": "Plan it. Script it. Record it.",
+        "icon": "lucide:podcast",
+        "say": "Make a podcast. Plan, script and record an episode people would actually listen to."
+      },
+      {
+        "kind": "stat",
+        "big": "55%",
+        "title": "of Australians 10+ listen to podcasts monthly",
+        "sub": "The Infinite Dial Australia 2026",
+        "say": "More than half of Australians aged ten and over now listen to podcasts every month.",
+        "vc": [
+          "VM-U1O2-KK3"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Write for the ear",
+        "text": "Read · Scroll · **Hear**",
+        "icon": "lucide:ear",
+        "say": "People read a webpage and scroll a post. But they hear a podcast, often while doing something else. So write for the ear.",
+        "vc": [
+          "VM-U1O2-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "On air",
+        "pillIcon": "lucide:radio",
+        "title": "Plan",
+        "text": "Audience · Purpose · **Sources**",
+        "icon": "lucide:clipboard-list",
+        "say": "Plan. Who's it for? What do you want them to know or do? Research it, and keep your sources.",
+        "vc": [
+          "VM-U1O2-KS2",
+          "VM-U1O2-KS8"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "On air",
+        "pillIcon": "lucide:radio",
+        "title": "Script",
+        "text": "Hook · Intro · Segments · **Outro**",
+        "icon": "lucide:file-text",
+        "say": "Script it. A hook, an intro, two or three segments, and an outro.",
+        "vc": [
+          "VM-U1O2-KS2",
+          "VM-U1O2-KS9"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "On air",
+        "pillIcon": "lucide:radio",
+        "title": "Record",
+        "text": "Quiet · Close · **Slow**",
+        "icon": "lucide:mic",
+        "say": "Record. A quiet room, phone close, a little slower than normal. Change your tone to keep it interesting.",
+        "vc": [
+          "VM-U2O2-KK5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "On air",
+        "pillIcon": "lucide:radio",
+        "title": "Edit",
+        "text": "Cut · Credit · **Share**",
+        "icon": "lucide:scissors",
+        "say": "Edit. Cut the mistakes and long pauses. Credit your music and sources in the show notes.",
+        "vc": [
+          "VM-U1O2-KS2",
+          "VM-U1O2-KS8"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Make an episode",
+        "steps": [
+          "Plan and script",
+          "Record",
+          "Edit and test"
+        ],
+        "say": "Plan it, script it, record it, edit it. Then test it on a real listener."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "You're **on air**.",
+        "icon": "lucide:podcast",
+        "say": "Your mission. Make a three to five minute episode about something you care about, with show notes that credit your sources."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to make a podcast people listen to",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "A **podcast** is an audio show. You can listen any time. More than half of Australians listen to one each month.\n\n**A podcast is different.** You *read* a webpage. You *scroll* a post. You *hear* a podcast. People often listen while they drive or work. They can't see anything. So write for the ear.\n\n**1. Plan.** Who is it for? What do you want them to know? Pick one topic you care about. Find facts, and write down where you got them.\n\n**2. Write a script.**\n\n- **Hook:** a question or story to grab them.\n- **Intro:** who you are and what it's about.\n- **Parts:** two or three main parts. Say “First up…” and “Next…”.\n- **Outro:** sum up. Thank them. Credit your sources.\n\nUse short sentences. Check your spelling and full stops. It's easier to read out.\n\n**3. Record.** Find a quiet room. Hold your phone close. Talk a bit slower than normal.\n\n**4. Edit.** Listen back. Cut the mistakes. Write a list of your sources.\n\nThen play it to someone. Did they listen to the end?",
+          "core": "A **podcast** is an audio show people can listen to whenever they want. More than half of Australians aged 10 and over now listen to one each month.\n\n**Podcasts aren't like other digital texts.** A webpage is *read*. People skim it, click links and come back to it. A social media post is *quick*. People scroll past in seconds. A podcast is *heard*, often while people are driving, working or at the gym. They can't skim it, and they can't see anything. So you need to write for the ear.\n\n**1. Plan.** Who is your **audience**? What do you want them to know, feel or do? Pick one clear topic, like something you care about or your pathway. Research it, and keep a list of your sources.\n\n**2. Script.** Good podcasts are planned, even when they sound casual. Use a simple shape:\n\n- **Hook:** a question, story or surprising fact to grab them.\n- **Intro:** who you are, and what this episode is about.\n- **Segments:** two or three main parts. Use signposts like “First up…” and “Next…”.\n- **Outro:** sum up, tell them what to do next, and credit your sources and music.\n\nWrite the way people talk: short sentences and everyday words. But spelling, punctuation and full sentences still matter. A clean script is easier to read aloud without tripping up.\n\n**3. Record.** Find a quiet room. Soft things like curtains and cushions cut down echo. Keep your phone close to your mouth. Speak a little slower than normal. Change your tone and pace to keep it interesting.\n\n**4. Edit.** Listen back. Cut long pauses and mistakes. Use music only if you're allowed to, and credit it. Write **show notes**: a short description and a list of your sources.\n\nThen test it on a real listener. Did they stay to the end?",
+          "extend": "A **podcast** is on-demand audio, listened to when and where the audience chooses. More than half of Australians aged 10 and over now listen monthly.\n\n**How podcasts differ.** Webpages are *read*: users skim, scan headings and follow links. Social media posts are *brief and visual*, built for fast scrolling and reaction. Podcasts are *heard*, often while listeners do something else. Listeners can't skim or see the text. They rely on structure, signposting and the speaker's voice. Writing for the ear means shorter sentences, repetition of key points and clear transitions.\n\n**1. Plan.** Define your **audience** and purpose. Narrow the topic to something you can cover well in a few minutes, connected to your interests or pathway. Research from a range of reliable sources, and record each one for citation.\n\n**2. Script.** Even conversational podcasts are planned. A clear structure:\n\n- **Hook:** a question, anecdote or striking fact.\n- **Intro:** host, show and episode focus.\n- **Segments:** two or three, linked by signposts (“First up…”, “So what does that mean for you?”).\n- **Outro:** summary, call to action, and credits for sources and music.\n\nWrite conversationally, but apply the conventions of literacy: accurate spelling, punctuation and sentence structure make a script easier to perform fluently.\n\n**3. Record.** Choose a quiet space; soft furnishings reduce echo. Keep the microphone close and consistent. Control the elements of oral delivery: **pace**, **pause**, **tone** and **intonation**. For a video podcast, eye contact with the camera and body language matter too.\n\n**4. Edit.** Remove long pauses and errors, balance the levels, and add only licensed music, with credit. Write **show notes**: a summary and full source list.\n\nFinally, test with a real listener from your audience, and revise."
+        },
+        "vc": [
+          "VM-U1O2-KK3",
+          "VM-U1O2-KS2",
+          "VM-U1O2-KS9"
+        ],
+        "vcNote": "The differences between digital texts; planning, creating and editing a podcast for an audience."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Who's listening?",
+        "icon": "lucide:headphones",
+        "body": {
+          "support": "Each year, a study asks Australians how they listen to radio and podcasts. It's called **The Infinite Dial Australia**.\n\nIn 2026, it found that **55%** of Australians aged 10 and over listen to podcasts every month. In 2025, it was **52%**.\n\nThat's more than half of us.\n\nSo lots of people are listening. But there are lots of shows. People pick the ones they like best.\n\nTo get people to listen to yours, you need a clear topic, a good hook, and to know who it's for.",
+          "core": "Each year, a study called **The Infinite Dial Australia** asks Australians how they use radio, podcasts and other audio. It's run by **Edison Research** with **Commercial Radio & Audio**, the industry group for Australia's commercial radio stations.\n\nThe 2026 study found that **55%** of Australians aged 10 and over listen to podcasts every month. In 2025, it was **52%**.\n\nThat's more than half of the country.\n\nSo there's a big audience out there. But it's also a crowded space. Listeners have lots of shows to choose from, and they pick the ones that feel worth their time.\n\nFor anyone making a podcast, that means two things. People are listening. And to get them to press play, and keep listening, you need a clear topic, a strong hook and a real audience in mind.",
+          "extend": "**The Infinite Dial Australia** is an annual survey of how Australians use radio, podcasts and other audio. It's conducted by **Edison Research** with **Commercial Radio & Audio**, the industry body for Australia's commercial radio broadcasters.\n\nThe 2026 study found that **55%** of Australians aged 10 and over consume podcasts monthly, up from **52%** in 2025. Podcast listening now reaches a majority of the population.\n\nThe opportunity comes with competition. A large audience also means a crowded market, and listeners choose shows that justify their time.\n\nFor creators, the data suggests two lessons. There is an audience for audio. But winning and keeping listeners depends on a focused topic, a strong opening and a clear sense of who the episode is for. Survey figures like these also have limits. They show how many people listen, not which shows they finish, or why."
+        },
+        "source": {
+          "name": "Mediaweek — Infinite Dial Australia 2026",
+          "url": "https://www.mediaweek.com.au/infinite-dial-australia-2026-radio-podcasting-milestone"
+        },
+        "think": {
+          "support": [
+            "How many Australians listen to podcasts?",
+            "Who will your podcast be for?"
+          ],
+          "core": [
+            "What did the study find about podcast listening?",
+            "Why is a big audience also a challenge for new podcasters?",
+            "Who is the audience for your episode, and how will you hook them?"
+          ]
+        },
+        "vc": [
+          "VM-U1O2-KK3"
+        ],
+        "vcNote": "Real Australian data on podcast audiences."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a podcast script",
+      "docTitle": "SCRIPT — “FIRST JOB, NO WORRIES” EPISODE 1 (EXAMPLE)",
+      "vc": [
+        "VM-U1O2-KS2",
+        "VM-U1O2-KS8",
+        "VM-U1O2-KK3"
+      ],
+      "vcNote": "The structure and conventions of a podcast script, including citing a source aloud.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "value": "Ever turned up to your first shift with no idea what to do? Yeah. Me too.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Intro",
+          "value": "Welcome to First Job, No Worries. I'm Jordan, and today we're talking about your first week at work."
+        },
+        {
+          "n": 3,
+          "label": "Signpost",
+          "value": "First up: the paperwork."
+        },
+        {
+          "n": 4,
+          "label": "Source",
+          "value": "The Fair Work Ombudsman says your boss must give you a Fair Work Information Statement when you start. So look out for it.",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Signpost",
+          "value": "Next: who to ask when you're stuck."
+        },
+        {
+          "n": 6,
+          "label": "Outro",
+          "value": "That's it for today. Got a first-job story? Send it in. Sources and music credits are in the show notes."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "A question that grabs the listener."
+        },
+        {
+          "n": 2,
+          "label": "Intro",
+          "note": "Who, what show, what this episode is about."
+        },
+        {
+          "n": 3,
+          "label": "Signpost",
+          "note": "Tells listeners where they are."
+        },
+        {
+          "n": 4,
+          "label": "Source said aloud",
+          "note": "Names where the fact came from."
+        },
+        {
+          "n": 5,
+          "label": "Signpost",
+          "note": "Moves to the next segment."
+        },
+        {
+          "n": 6,
+          "label": "Outro",
+          "note": "Sums up, call to action, credits."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Make an episode",
+      "steps": [
+        {
+          "title": "Plan",
+          "text": "Audience, purpose, sources.",
+          "icon": "lucide:clipboard-list"
+        },
+        {
+          "title": "Script",
+          "text": "Hook, intro, segments, outro.",
+          "icon": "lucide:file-text"
+        },
+        {
+          "title": "Record",
+          "text": "Quiet, close, slow.",
+          "icon": "lucide:mic"
+        },
+        {
+          "title": "Edit",
+          "text": "Cut, credit, test.",
+          "icon": "lucide:scissors"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "How is a podcast different from a webpage?",
+        "options": [
+          "People hear it, often while doing something else",
+          "People can skim it",
+          "It always has pictures",
+          "It's always shorter"
+        ],
+        "answer": 0,
+        "explain": "Podcasts are heard, so write for the ear.",
+        "vc": [
+          "VM-U1O2-KK3"
+        ]
+      },
+      {
+        "q": "What's the job of a **hook**?",
+        "options": [
+          "To grab the listener at the start",
+          "To end the episode",
+          "To list your sources",
+          "To introduce the music"
+        ],
+        "answer": 0,
+        "explain": "A question, story or surprising fact.",
+        "vc": [
+          "VM-U1O2-KS2"
+        ]
+      },
+      {
+        "q": "Where should you credit your sources and music?",
+        "options": [
+          "In the show notes, and say key sources aloud",
+          "Nowhere",
+          "Only in your head",
+          "Only if someone asks"
+        ],
+        "answer": 0,
+        "explain": "Show notes plus naming sources aloud.",
+        "vc": [
+          "VM-U1O2-KS8"
+        ]
+      },
+      {
+        "q": "Which line is easiest to say and hear?",
+        "options": [
+          "“First up: the paperwork.”",
+          "“Firstly, and most importantly, before we move on to anything else, the paperwork, which is, in many ways…”",
+          "“paperwork lol”",
+          "“The first segment shall concern itself with documentation.”"
+        ],
+        "answer": 0,
+        "explain": "Short, clear signposts work for the ear.",
+        "vc": [
+          "VM-U1O2-KS9",
+          "VM-U1O2-KK3"
+        ]
+      },
+      {
+        "q": "In 2026, about how many Australians aged 10+ listened to podcasts each month?",
+        "options": [
+          "55%",
+          "5%",
+          "15%",
+          "95%"
+        ],
+        "answer": 0,
+        "explain": "Up from 52% in 2025.",
+        "vc": [
+          "VM-U1O2-KK3"
+        ]
+      },
+      {
+        "q": "Why fix spelling and punctuation in a script nobody will read?",
+        "options": [
+          "A clean script is easier to read aloud without tripping up",
+          "It doesn't matter",
+          "So it looks long",
+          "Teachers like it"
+        ],
+        "answer": 0,
+        "explain": "Conventions help you perform fluently.",
+        "vc": [
+          "VM-U1O2-KS9"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "What is **intonation**?",
+        "options": [
+          "How your voice rises and falls",
+          "How loud the music is",
+          "How long the episode is",
+          "The episode title"
+        ],
+        "answer": 0,
+        "explain": "An element of oral communication.",
+        "vc": [
+          "VM-U2O2-KK5"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan, write and record a short podcast (2 to 3 minutes) about something you like. List your sources.",
+      "core": "Plan, script, record and edit a short podcast episode (3 to 5 minutes) about your interests or pathway, with show notes that credit your sources.",
+      "extend": "Produce a 4 to 6 minute podcast episode for a defined audience, using at least three cited sources, edited for clarity, with show notes, and evaluate your use of voice."
+    },
+    "checklist": [
+      "I planned my audience and purpose",
+      "My script has a hook, intro, segments and outro",
+      "I used signposts",
+      "I used and cited real sources",
+      "I fixed spelling, punctuation and sentences in my script",
+      "I recorded in a quiet place and edited out mistakes",
+      "My show notes credit every source and any music"
+    ],
+    "levelUp": "Reflect on your voice: how did you use tone, pace, pauses and intonation? What would change for a video podcast?",
+    "vc": [
+      "VM-U1O2-KS2",
+      "VM-U1O2-KS8",
+      "VM-U1O2-KS9"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to make a podcast people listen to",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why do you need to “write for the ear” in a podcast?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK3"
+            ]
+          },
+          {
+            "q": "What are the **four** parts of a simple podcast script?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS2"
+            ]
+          },
+          {
+            "q": "Name **two** tips for recording.",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Make an episode",
+        "diagram": 1
+      },
+      {
+        "type": "table",
+        "title": "Webpage, podcast or post?",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Compare three kinds of digital text. The first row is done for you.",
+        "columns": [
+          "",
+          "Webpage",
+          "Podcast",
+          "Social media post"
+        ],
+        "rows": [
+          [
+            "How people take it in",
+            "Read, skim and click links",
+            "Listen, often while doing something else",
+            "Scroll, watch and react fast"
+          ],
+          [
+            "How long it is",
+            "",
+            "",
+            ""
+          ],
+          [
+            "What the language is like",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Best for…",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "How you credit sources",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O2-KK3"
+        ],
+        "vcNote": "The differences between digital texts such as webpages, podcasts and social media."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a podcast script",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the script. Use the word bank. What does it do?",
+          "core": "Each number marks part of the script. Write what it is and what it does."
+        },
+        "columns": [
+          "What is it?",
+          "What does it do?"
+        ],
+        "wordBank": {
+          "support": [
+            "hook",
+            "intro",
+            "signpost",
+            "source",
+            "signpost",
+            "outro"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O2-KS2",
+          "VM-U1O2-KS8"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Fix the script",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "These lines are hard to read aloud. Fix the spelling, punctuation and sentences. The first one is done for you.",
+        "columns": [
+          "Draft line",
+          "Fixed line"
+        ],
+        "rows": [
+          [
+            "so basically theres alot of jobs in hospo",
+            "There are lots of jobs in hospitality."
+          ],
+          [
+            "You need you're RSA before you serve drinks its the law",
+            ""
+          ],
+          [
+            "the first week can be scary but everyone is new once and you learn heaps and it gets easier and easier",
+            ""
+          ],
+          [
+            "Theyll show you where everything is so listen",
+            ""
+          ],
+          {
+            "cells": [
+              "In conclusion to sum up in summary thats basically all for today",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O2-KS9"
+        ],
+        "vcNote": "Applying the conventions of literacy: sentence structure, punctuation and spelling."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: who's listening?",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did The Infinite Dial Australia 2026 find?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK3"
+            ]
+          },
+          {
+            "q": "Why is a big audience also a challenge for a new podcast?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KK3"
+            ]
+          },
+          {
+            "q": "Who is **your** audience, and how will you hook them?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: plan my episode",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "instructions": "Plan an episode about your interests or your pathway. Find real sources, and record where each fact came from.",
+        "columns": [
+          "Part",
+          "My plan"
+        ],
+        "rows": [
+          [
+            "Show and episode title",
+            ""
+          ],
+          [
+            "My audience",
+            ""
+          ],
+          [
+            "My purpose (know, feel or do?)",
+            ""
+          ],
+          [
+            "Segment 1",
+            ""
+          ],
+          [
+            "Segment 2",
+            ""
+          ],
+          [
+            "Source 1 (who, title, link)",
+            ""
+          ],
+          [
+            "Source 2 (who, title, link)",
+            ""
+          ],
+          {
+            "cells": [
+              "Source 3 (who, title, link)",
+              ""
+            ],
+            "levels": [
+              "extend"
+            ]
+          },
+          [
+            "Music (allowed to use? credit?)",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U1O2-KS2",
+          "VM-U1O2-KS8"
+        ],
+        "vcNote": "Planning a digital text and accessing information from a variety of sources."
+      },
+      {
+        "type": "write",
+        "title": "Write my script",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write your script. Keep it short. Aim for 2 to 3 minutes (about 250 to 350 words).",
+          "core": "Write your script. Keep it short and easy to say. Aim for 3 to 5 minutes when read aloud (about 400 to 600 words). Keep going on the next page if you need to.",
+          "extend": "Write your script for a 4 to 6 minute episode (about 550 to 800 words). Cite at least three sources aloud, and use signposts between segments."
+        },
+        "plan": [
+          {
+            "label": "My hook",
+            "lines": 1
+          },
+          {
+            "label": "My call to action",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "Welcome to…",
+            "Today we're talking about…",
+            "First up…",
+            "That's it for today."
+          ],
+          "core": [
+            "Welcome to…",
+            "Today we're talking about…",
+            "First up…",
+            "So what does that mean for you?",
+            "That's it for today."
+          ]
+        },
+        "lines": {
+          "support": 12,
+          "core": 13
+        },
+        "check": [
+          "hook, intro, segments, outro",
+          "signposts",
+          "sources named aloud",
+          "short, clear sentences",
+          "spelling and punctuation checked"
+        ],
+        "vc": [
+          "VM-U1O2-KS2",
+          "VM-U1O2-KS9",
+          "VM-U1O2-KS8"
+        ],
+        "vcNote": "Creating and editing a digital text, applying the conventions of literacy."
+      },
+      {
+        "type": "questions",
+        "title": "Keep writing",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Keep going with your script here.",
+            "lines": {
+              "support": 18,
+              "core": 22
+            }
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: record, edit and share",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Record your episode, edit it, and write show notes. Then test it on a real listener.",
+        "need": [
+          "your script",
+          "a phone or recording device",
+          "a quiet room",
+          "a free editing app (your teacher can suggest one)"
+        ],
+        "steps": {
+          "support": [
+            "Read your script out loud twice.",
+            "Record in a quiet room. Phone close. Go slow.",
+            "Listen back. Cut the mistakes.",
+            "Write a list of your sources.",
+            "Play it to someone. What did they think?"
+          ],
+          "core": [
+            "Read your script aloud twice. Mark where to pause or stress a word.",
+            "Record in a quiet room. Phone close. A little slower than normal.",
+            "Listen back. Cut long pauses and mistakes. Add music only if you're allowed to, with credit.",
+            "Write **show notes**: a two-line description and every source and music credit.",
+            "Play it to someone from your audience. What did they think?"
+          ]
+        },
+        "notes": [
+          {
+            "label": "My show notes (description):",
+            "lines": 2
+          },
+          {
+            "label": "What my test listener said:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Audio file",
+          "Script",
+          "Show notes"
+        ],
+        "vc": [
+          "VM-U1O2-KS2",
+          "VM-U1O2-KS8"
+        ],
+        "vcNote": "Hands-on: creating, editing and publishing a podcast with cited sources."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Listen back to your episode. How did you use **tone**, **pace**, **pauses** and **intonation**? Give one example of each, and say what you'd change.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KK5"
+            ]
+          },
+          {
+            "q": "If you turned your episode into a **video** podcast, how would **eye contact** and **body language** change the way it comes across?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KK5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can explain how podcasts are different.",
+          "I can plan and script an episode.",
+          "I can use and cite sources.",
+          "I can record and edit my episode."
+        ],
+        "questions": [
+          "My episode in one sentence:",
+          "Where I could share it:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The Digital Life boss level. Students compare podcasts with webpages and social media, then plan, script, record and edit a short podcast episode about their interests or pathway. They use and cite real sources (drawing on Website Detective and Credit Where It's Due), apply the conventions of literacy to their script, and write show notes. The case study is The Infinite Dial Australia 2026: 55% of Australians aged 10 and over listen to podcasts monthly, up from 52% in 2025. Extend students reflect on the elements of oral communication.",
+    "prep": [
+      "Test a free audio recording and editing app on school devices or students' phones.",
+      "Book quiet spaces for recording (a library room, an empty classroom, even a car).",
+      "Have a list of free, licensed music sources ready (or let students record their own).",
+      "Optional: play the first two minutes of a popular podcast and pull apart its hook and intro."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What makes a podcast",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** play a podcast opening. Would you keep listening?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Webpage, podcast or post? (15 min).**",
+          "**Anatomy of a script (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan",
+        "minutes": 50,
+        "steps": [
+          "**Fix the script (15 min).**",
+          "**Case study (10 min):** who's listening?",
+          "**Final mission (25 min):** plan my episode and find sources."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Script",
+        "minutes": 50,
+        "steps": [
+          "**Write my script (35 min).**",
+          "**Read aloud to a partner (15 min):** where did you trip up? Fix it."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Record and edit",
+        "minutes": 60,
+        "steps": [
+          "**Do it (45 min):** record, edit and write show notes.",
+          "**Level Up, reflect (15 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Webpages are read and skimmed; social media posts are quick and visual; podcasts are heard, often while doing something else.",
+      "Write for the ear: short sentences, signposts, repeat key points.",
+      "A simple script: hook, intro, two or three segments, outro with call to action and credits.",
+      "Conventions of literacy still matter: a clean script is easier to perform.",
+      "Cite sources aloud and in the show notes; use only music you're allowed to use, with credit.",
+      "The Infinite Dial Australia 2026: 55% of Australians 10+ listen to podcasts monthly (52% in 2025)."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the script anatomy.",
+        "A 2 to 3 minute episode; two sources.",
+        "Record in pairs as co-hosts."
+      ],
+      "extend": [
+        "A 4 to 6 minute episode with three cited sources.",
+        "Reflect on tone, pace, pauses and intonation (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O2-KK3",
+        "evidence": "Explains differences between webpages, podcasts and social media (comparison table, Check your reading)."
+      },
+      {
+        "vc": "VM-U1O2-KS2",
+        "evidence": "Plans, creates and edits a podcast for an audience and purpose (plan, script, Do it)."
+      },
+      {
+        "vc": "VM-U1O2-KS8",
+        "evidence": "Accesses and cites information from several sources to create new content reflecting their interests or pathway (plan, show notes)."
+      },
+      {
+        "vc": "VM-U1O2-KS9",
+        "evidence": "Applies the conventions of literacy (Fix the script, final script)."
+      },
+      {
+        "vc": "VM-U2O2-KK5",
+        "evidence": "Level Up: reflects on the elements of oral communication (tone, pace, intonation, eye contact, body language)."
+      }
+    ],
+    "answers": "**Check your reading:** listeners hear it, often while doing something else, and can't skim or see anything. Hook, intro, segments, outro. A quiet room; soft things cut echo; phone close; speak a little slower; change tone and pace.\n\n**Comparison (suggested):** length: webpage varies, podcast minutes to hours, post seconds; language: webpage written with headings, podcast conversational, post short and casual with hashtags or emojis; best for: webpage reference information, podcast stories and in-depth talk, post quick updates; credit: webpage links, podcast aloud and in show notes, post tags or captions.\n\n**Script anatomy:** 1 hook; 2 intro; 3 signpost; 4 source cited aloud; 5 signpost; 6 outro.\n\n**Fix the script:** “You need your RSA before you serve drinks. It's the law.” · “The first week can be scary. But everyone is new once. You'll learn heaps, and it gets easier.” · “They'll show you where everything is, so listen.” · “That's all for today.”\n\n**Case study:** 55% of Australians aged 10+ listen to podcasts monthly, up from 52% in 2025. A big audience means lots of competing shows, so you need a clear topic, hook and audience.",
+    "resources": [
+      {
+        "label": "Mediaweek — Infinite Dial Australia 2026",
+        "url": "https://www.mediaweek.com.au/infinite-dial-australia-2026-radio-podcasting-milestone"
+      },
+      {
+        "label": "Commercial Radio & Audio — Infinite Dial Australia 2025 release",
+        "url": "https://cra.au/en/media-releases/majority-rules-more-than-half-of-australians-consume-podcasts-each-month"
+      },
+      {
+        "label": "Fair Work Ombudsman — Fair Work Information Statement (for the example script)",
+        "url": "https://www.fairwork.gov.au/employment-conditions/national-employment-standards/fair-work-information-statement"
+      }
+    ],
+    "realityCheck": [
+      "**Recording is the bottleneck.** Book quiet spaces early, and let students record at home if they can.",
+      "**Students hate hearing their own voice.** Normalise it: everyone does. Co-hosting helps.",
+      "**Scripts drift into essays.** Have students read aloud early; anything they trip over gets rewritten.",
+      "**Music rights trip people up.** Point back to Credit Where It's Due; recording their own intro is a great fix.",
+      "**Works in a real class:** yes. A finished episode is a real product students can share with family or a future employer."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the script, a 2 to 3 minute episode with two sources, and simpler recording steps.",
+      "core": "Standard version: comparing digital texts, script anatomy, fixing a script, the Infinite Dial case, planning with sources, scripting, and recording and editing a 3 to 5 minute episode with show notes.",
+      "extend": "Adds show notes and intonation to the vocabulary, a quiz question on intonation, a 4 to 6 minute episode with three sources, the limits of survey data, and Level Ups on the elements of oral communication."
+    }
+  }
+}
