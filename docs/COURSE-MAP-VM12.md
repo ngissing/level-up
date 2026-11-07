@@ -4,7 +4,7 @@ _Generated from `content/vm12/` by `npm run map-doc`. Edit the JSON, not this fi
 
 Mini courses for students enrolled in **VCE VM Literacy Units 1 & 2**, linked to the key knowledge (KK) and key skills (KS) of its four outcomes in the VCE Vocational Major Literacy Study Design. Same structure as the F–10 pathway: Induction → four zones (starters, Level 2, boss) → Capstones. Reading levels work the same way. Codes such as **U1 O1 KK3** mean Unit 1, Outcome 1, 3rd key knowledge point, in study-design order.
 
-23 of 25 mini courses built.
+25 of 25 mini courses built.
 
 ## Induction (Unit 1 · Outcome 1)
 
@@ -70,8 +70,8 @@ _Bigger projects that mix two areas. Unlock by going deep in both._
 
 | Skill | Tier | Real-life skill | Literacy focus | Key knowledge / key skills | ★ Level Up | Badge | Status |
 |---|---|---|---|---|---|---|---|
-| **Podcast an Issue** | Capstones | Make a short podcast episode that explores an issue you care about from more than one side. | Creating digital content; presenting a point of view supported by evidence. | U1 O2 KS2 — plan, create and edit a range of digital texts appropriate to audience and purpose<br>U2 O2 KS4 — provide evidence and argue a point of view persuasively<br>U2 O2 KS8 — apply the conventions of referencing and acknowledge attribution, where applicable | U2 O1 KS5 — compare and contrast how ideas and issues are presented in different persuasive text types | Podcaster | planned |
-| **Community Voices Report** | Capstones | Interview people in your community about an issue and write up what they think and why. | Purpose and audience of a report; how values and backgrounds shape opinions; reliable sources. | U1 O1 KS9 — plan, create, draft, edit and refine a range of individual responses to different text types<br>U2 O1 KK3 — how the values and backgrounds of authors and speakers may influence opinions<br>U2 O1 KS7 — identify reliable and trustworthy sources for research | U2 O1 KS5 — compare and contrast how ideas and issues are presented in different persuasive text types | Reporter | planned |
+| **Podcast an Issue** | Capstones | Make a short podcast episode that explores an issue you care about from more than one side. | Creating digital content; presenting a point of view supported by evidence. | U1 O2 KS2 — plan, create and edit a range of digital texts appropriate to audience and purpose<br>U2 O2 KS4 — provide evidence and argue a point of view persuasively<br>U2 O2 KS8 — apply the conventions of referencing and acknowledge attribution, where applicable | U2 O1 KS5 — compare and contrast how ideas and issues are presented in different persuasive text types | Podcaster | ✅ built |
+| **Community Voices Report** | Capstones | Interview people in your community about an issue and write up what they think and why. | Purpose and audience of a report; how values and backgrounds shape opinions; reliable sources. | U1 O1 KS9 — plan, create, draft, edit and refine a range of individual responses to different text types<br>U2 O1 KK3 — how the values and backgrounds of authors and speakers may influence opinions<br>U2 O1 KS7 — identify reliable and trustworthy sources for research | U2 O1 KS5 — compare and contrast how ideas and issues are presented in different persuasive text types | Reporter | ✅ built |
 
 ## Coverage by outcome
 
