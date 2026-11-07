@@ -1,0 +1,1026 @@
+{
+  "id": "vm-podcast-an-issue",
+  "version": 1,
+  "duration": "5 lessons (about 4 hours), with phones or recording devices",
+  "brief": {
+    "hook": {
+      "support": "Pick an issue people argue about. Make a podcast that shows both sides. Use real facts. Credit your sources. Then say what you think.",
+      "core": "Pick an issue people really argue about. It could be in your town, at work, in your sport, or about your future. Now make a podcast that gives both sides a fair go. Use real evidence. Credit every source. Then end with what *you* think. That's harder than a rant. It's also far more convincing."
+    },
+    "why": {
+      "support": "This is a big project. You'll research an issue, plan a podcast, show both sides, and give your view. Something to be proud of.",
+      "core": "This is a capstone. It's a bigger project that mixes Digital Life and Have Your Say. You'll research an issue and plan a podcast. You'll show more than one side fairly, give your own view with evidence, and credit everything you use. It's the kind of project you could show a boss or a TAFE teacher.",
+      "extend": "This capstone joins digital content creation with persuasive argument. You'll research an issue people disagree about and present its main views fairly. Then you'll argue your own position with evidence, and credit every source. The result is a polished episode for a real audience."
+    },
+    "canDo": {
+      "support": [
+        "I can research both sides.",
+        "I can plan, record and edit a podcast.",
+        "I can give my view with evidence.",
+        "I can credit my sources."
+      ],
+      "core": [
+        "I can **research** an issue from more than one side.",
+        "I can **plan**, **record** and **edit** a podcast episode.",
+        "I can argue my **point of view** with evidence.",
+        "I can **credit** every source and piece of music I use."
+      ]
+    },
+    "showIt": "Make a five- to seven-minute podcast episode on an issue you care about: both sides, real evidence, your view, and full credits.",
+    "vocab": [
+      {
+        "word": "issue",
+        "meaning": "a topic people disagree about",
+        "example": "Our issue was a night curfew for P-platers."
+      },
+      {
+        "word": "perspective",
+        "meaning": "a point of view on an issue",
+        "example": "We included two perspectives."
+      },
+      {
+        "word": "vox pop",
+        "meaning": "a short interview with a member of the public",
+        "example": "We recorded three vox pops at TAFE."
+      },
+      {
+        "word": "consent",
+        "meaning": "agreeing to something, like being recorded",
+        "example": "She gave consent to be in the podcast."
+      },
+      {
+        "word": "run sheet",
+        "meaning": "a plan that shows what happens in each part of an episode",
+        "example": "Our run sheet had six segments."
+      },
+      {
+        "word": "show notes",
+        "meaning": "a written guide to an episode, with sources and credits",
+        "example": "All our references are in the show notes."
+      },
+      {
+        "word": "balanced",
+        "meaning": "giving fair time and weight to each side",
+        "example": "The episode was balanced until the end.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "attribution",
+        "meaning": "saying who made or said something",
+        "example": "Every quote had attribution.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Podcast an Issue in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Podcast an Issue",
+        "sub": "Research it. Argue it. Record it.",
+        "icon": "lucide:podcast",
+        "say": "Podcast an issue. Research it, argue it, record it."
+      },
+      {
+        "kind": "big",
+        "title": "News, explained",
+        "text": "Explain the issue · **both sides**",
+        "icon": "lucide:newspaper",
+        "say": "The Daily Aus started in 2017 explaining the news to young Australians on Instagram. It describes itself as independent and non-partisan. It now runs a daily news podcast.",
+        "vc": [
+          "VM-U1O2-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Capstone",
+        "pillIcon": "lucide:trophy",
+        "title": "Research both sides",
+        "text": "Side A · Side B · **References**",
+        "icon": "lucide:search",
+        "say": "Research both sides. At least two reliable sources each. Write down every reference.",
+        "vc": [
+          "VM-U2O2-KS8",
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Capstone",
+        "pillIcon": "lucide:trophy",
+        "title": "Run sheet",
+        "text": "Six **segments**",
+        "icon": "lucide:list-ordered",
+        "say": "Plan a run sheet. Cold open, intro, side A, side B, where I land, outro.",
+        "vc": [
+          "VM-U1O2-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Capstone",
+        "pillIcon": "lucide:trophy",
+        "title": "Real voices",
+        "text": "Ask · Record · **Credit**",
+        "icon": "lucide:mic",
+        "say": "Get real voices. Short vox pops, with permission. Quote people accurately.",
+        "vc": [
+          "VM-U1O2-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Capstone",
+        "pillIcon": "lucide:trophy",
+        "title": "Where I land",
+        "text": "I think… **because**…",
+        "icon": "lucide:message-square-quote",
+        "say": "Say where you land, and why. Back it with your best evidence.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Capstone",
+        "pillIcon": "lucide:trophy",
+        "title": "Credit it",
+        "text": "Aloud · **Show notes**",
+        "icon": "lucide:badge-check",
+        "say": "Credit everything: sources aloud, and full references and music credits in the show notes.",
+        "vc": [
+          "VM-U2O2-KS8"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Make the episode",
+        "steps": [
+          "Research both sides",
+          "Plan and record",
+          "Edit, credit and share"
+        ],
+        "say": "Research, plan, record, edit, then share it with a real audience."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Fair. Sharp. **On air.**",
+        "icon": "lucide:podcast",
+        "say": "Your mission. A five- to seven-minute episode: both sides, your view, every source credited."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Podcast an issue, fairly",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "You know how to make a podcast. An **issue** podcast has three more jobs: show both sides, use evidence, and credit it all.\n\n**1. Pick an issue.** Choose something people argue about. Something you care about.\n\n**2. Research both sides.** Find two good sources for each side. Write down where you found them.\n\n**3. Plan your parts.**\n\n- **Start:** a voice or question to grab them.\n- **Intro:** what's the issue?\n- **Side A,** with evidence.\n- **Side B,** with evidence.\n- **What I think,** and why.\n- **End:** say where your sources are.\n\n**4. Real voices.** Ask people short questions. Always ask if you can record them first.\n\n**5. Your view.** Say: *“I think ___, because ___.”*\n\n**6. Credit it.** Say your sources out loud. List them in your show notes.\n\n**7. Check it.** Did both sides get a fair go? Are the facts right?",
+          "core": "You already know how to make a podcast: plan it, script it, record it, edit it. An **issue episode** adds three big jobs: show more than one side, back everything with evidence, and credit it all.\n\n**1. Pick a real issue.** Choose something people genuinely disagree about, and that you care about. Local and close-to-home issues work best: transport, jobs, sport, school, your town.\n\n**2. Research both sides.** Find at least two **reliable** sources for each main **perspective**. Look for the *strongest* version of the side you disagree with, not the weakest. Write down every reference as you go: who, title, date and link.\n\n**3. Plan a run sheet.** A **run sheet** maps your episode, segment by segment:\n\n- **Cold open:** a voice, a sound or a question that grabs attention.\n- **Intro:** the show, the issue, and why it matters.\n- **Side A:** the main argument, with evidence and a voice.\n- **Side B:** the other argument, given a fair go.\n- **Where I land:** your point of view, with your best evidence.\n- **Outro:** a call to action, and where to find the sources.\n\n**4. Get real voices.** Short **vox pops** (quick interviews) bring an issue to life. Always ask for **consent**, explain how you'll use the recording, and quote people accurately. Don't record anyone who says no.\n\n**5. Argue your view.** Being fair doesn't mean having no opinion. After both sides, say where you land, and why: *“I think ___, because ___. The strongest evidence is ___.”*\n\n**6. Credit everything.** Say key sources aloud: *“According to…”*. Put full references and music credits in your **show notes**. Use only music you're allowed to use.\n\n**7. Edit and check.** Cut mistakes and long pauses. Then check: did each side get a fair go? Are the facts right? Is everything credited?\n\n**8. Share it safely.** Share with your class or school, or on a platform your teacher approves. Check everyone in it is happy to be heard.",
+          "extend": "You already know the production cycle: plan, script, record, edit. An **issue episode** adds three demands: represent multiple perspectives fairly, support claims with evidence, and attribute everything.\n\n**1. Choose a contested issue.** Pick something people genuinely disagree about, and that you care about. Local issues (transport, work, sport, school, your town) tend to make the strongest episodes.\n\n**2. Research the perspectives.** Find at least two **reliable** sources for each main **perspective**. Seek the *strongest* version of the view you oppose. Record full references as you go.\n\n**3. Build a run sheet.** A **run sheet** maps the episode:\n\n- **Cold open:** a voice, sound or question that hooks.\n- **Intro:** show, issue and stakes.\n- **Perspective A:** argument, evidence and a voice.\n- **Perspective B:** the same treatment, fairly.\n- **Where I land:** your position, justified.\n- **Outro:** call to action and where to find sources.\n\n**4. Gather voices ethically.** **Vox pops** add authenticity. Obtain **consent**, explain how recordings will be used, and quote accurately.\n\n**5. Argue your position.** A **balanced** episode can still end with a clear view. Justify it with your strongest evidence, and acknowledge what the other side gets right.\n\n**6. Attribute everything.** Name key sources aloud and give full references and music credits in the **show notes**. Use only licensed or original music.\n\n**7. Edit and verify.** Tighten the audio. Then audit it: is each perspective fairly represented, is every fact accurate, and is every source credited?\n\n**8. Publish responsibly.** Share through approved channels, and confirm everyone featured is comfortable being heard."
+        },
+        "vc": [
+          "VM-U1O2-KS2",
+          "VM-U2O2-KS4",
+          "VM-U2O2-KS8"
+        ],
+        "vcNote": "Planning and creating a digital text; arguing a point of view with evidence; referencing and attribution."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The Daily Aus",
+        "icon": "lucide:newspaper",
+        "body": {
+          "support": "In **2017**, two young Australians started **The Daily Aus**. They wanted to explain the news to young people in plain words. They started on **Instagram**.\n\nThe Daily Aus says it doesn't take sides in politics. It explains what's happening. It shows the different views. Then readers decide.\n\nLater, it started a **daily news podcast**.\n\nMore young people now get news on social media. The Daily Aus shows news can be clear, fair and not boring.\n\nYour podcast can do the same. But at the end, you'll say what *you* think.",
+          "core": "In **2017**, two young Australians, **Sam Koslowski** and **Zara Seidler**, started **The Daily Aus**. Their idea was simple. Explain the news to young people, in plain words, in the places young people already were. They started on **Instagram**.\n\nThe Daily Aus says it is **independent** and **non-partisan**. That means it doesn't back a political party. It aims to explain what's going on and why it matters. It sets out the different views on an issue, so readers can make up their own minds.\n\nLater, it started a **daily news podcast**. Each weekday morning, the team covers the news in an everyday voice.\n\nThis matters because of where young people get their news. In 2025, a University of Canberra report found that more Australians now name **social media** as their main news source than news websites. That was a first.\n\nThe Daily Aus shows an issue can be explained clearly and fairly, in a young voice, without being boring. It doesn't tell people what to think. That's a good model for your episode, with one change. At the end of yours, you'll say where *you* land.",
+          "extend": "In **2017**, **Sam Koslowski** and **Zara Seidler** started **The Daily Aus**. Their aim was to explain the news to young Australians in plain language, on the apps they already used. It began on **Instagram**.\n\nThe Daily Aus describes itself as **independent** and **non-partisan**. It doesn't side with a political party. It aims to explain issues and set out the main views, so its audience can decide for themselves.\n\nLater, it launched a **daily news podcast**: a weekday-morning briefing in a relaxed, everyday voice.\n\nThis fits a bigger shift. In 2025, the University of Canberra's Digital News Report found that **social media** had overtaken news websites as a main source of news. It was the first time that had happened.\n\nThe Daily Aus shows that an issue can be explained clearly and fairly, in a voice that suits young people. Your episode borrows that approach, with one addition. After you present the different views, you'll argue your own."
+        },
+        "source": {
+          "name": "The Daily Aus — About us",
+          "url": "https://www.thedailyaus.com.au/about-us"
+        },
+        "think": {
+          "support": [
+            "What does The Daily Aus try to do?",
+            "How will your podcast be the same? Different?"
+          ],
+          "core": [
+            "What does The Daily Aus aim to do? How is that different from an opinion podcast?",
+            "Why might a news service for young people start on Instagram?",
+            "How will your episode be like The Daily Aus? How will it be different?"
+          ]
+        },
+        "vc": [
+          "VM-U1O2-KS2"
+        ],
+        "vcNote": "A real Australian example of explaining issues fairly for a young audience."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "An issue episode run sheet",
+      "docTitle": "RUN SHEET — “FAIR GO FRIDAY” EP. 3: SHOULD P-PLATERS HAVE A NIGHT CURFEW? (EXAMPLE)",
+      "vc": [
+        "VM-U1O2-KS2",
+        "VM-U2O2-KS4",
+        "VM-U2O2-KS8"
+      ],
+      "vcNote": "Planning an issue podcast with balanced perspectives, a supported view and credits.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "0:00 Cold open",
+          "value": "Vox pop: “I finish work at midnight. How am I meant to get home?” (Apprentice, 18, consent given)",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "0:20 Intro",
+          "value": "Welcome to Fair Go Friday. Today: should P-platers be banned from driving late at night?"
+        },
+        {
+          "n": 3,
+          "label": "1:00 Side A",
+          "value": "Supporters say new drivers have less experience in the dark. [Quote from a road safety expert, credited by name]"
+        },
+        {
+          "n": 4,
+          "label": "2:30 Side B",
+          "value": "Others say a curfew hurts young workers on late shifts. [Vox pop + a report on youth jobs, credited]"
+        },
+        {
+          "n": 5,
+          "label": "4:00 Where I land",
+          "value": "I think ___, because ___. The strongest evidence is ___.",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "5:30 Outro",
+          "value": "What do you think? Sources and music credits are in the show notes."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Cold open",
+          "note": "A real voice hooks the listener. Consent noted."
+        },
+        {
+          "n": 2,
+          "label": "Intro",
+          "note": "Show, issue, why it matters."
+        },
+        {
+          "n": 3,
+          "label": "Side A",
+          "note": "Argument, evidence and a credited source."
+        },
+        {
+          "n": 4,
+          "label": "Side B",
+          "note": "A fair go for the other side."
+        },
+        {
+          "n": 5,
+          "label": "Where I land",
+          "note": "The host's view, with evidence."
+        },
+        {
+          "n": 6,
+          "label": "Outro and credits",
+          "note": "Call to action, and where to find sources."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Make the episode",
+      "steps": [
+        {
+          "title": "Research",
+          "text": "Both sides, with references.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Plan",
+          "text": "Run sheet and questions.",
+          "icon": "lucide:list-ordered"
+        },
+        {
+          "title": "Record",
+          "text": "Host segments and vox pops.",
+          "icon": "lucide:mic"
+        },
+        {
+          "title": "Edit and credit",
+          "text": "Fair, accurate, credited.",
+          "icon": "lucide:scissors"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What makes an **issue** episode different from a general podcast?",
+        "options": [
+          "It presents more than one side, with evidence",
+          "It has music",
+          "It's always longer",
+          "It has no host"
+        ],
+        "answer": 0,
+        "explain": "Both sides, then your view.",
+        "vc": [
+          "VM-U1O2-KS2"
+        ]
+      },
+      {
+        "q": "What is a **vox pop**?",
+        "options": [
+          "A short interview with a member of the public",
+          "A kind of music",
+          "The episode title",
+          "A podcast award"
+        ],
+        "answer": 0,
+        "explain": "Real voices bring issues to life.",
+        "vc": [
+          "VM-U1O2-KS2"
+        ]
+      },
+      {
+        "q": "Before recording someone, you must…",
+        "options": [
+          "Ask for consent and explain how you'll use it",
+          "Record first, ask later",
+          "Use a fake name for yourself",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Always get consent.",
+        "vc": [
+          "VM-U1O2-KS2"
+        ]
+      },
+      {
+        "q": "Where should you put full references and music credits?",
+        "options": [
+          "In the show notes",
+          "Nowhere",
+          "In the episode title",
+          "Only in your head"
+        ],
+        "answer": 0,
+        "explain": "And say key sources aloud.",
+        "vc": [
+          "VM-U2O2-KS8"
+        ]
+      },
+      {
+        "q": "Which is the best “where I land” line?",
+        "options": [
+          "“I think a curfew goes too far, because many young people work late, as the youth jobs report shows.”",
+          "“Curfews are dumb.”",
+          "“Whatever.”",
+          "“Everyone agrees with me.”"
+        ],
+        "answer": 0,
+        "explain": "A view plus evidence.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "q": "When researching the side you disagree with, you should find…",
+        "options": [
+          "Its strongest argument",
+          "Its weakest argument",
+          "Nothing",
+          "Only jokes about it"
+        ],
+        "answer": 0,
+        "explain": "Fairness makes your own view more convincing.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "An advocacy group's website and a news report cover your issue differently. Why?",
+        "options": [
+          "They have different purposes and audiences",
+          "They're the same text",
+          "News is always wrong",
+          "Websites never have facts"
+        ],
+        "answer": 0,
+        "explain": "Purpose shapes presentation.",
+        "vc": [
+          "VM-U2O1-KS5"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Make a three- to five-minute podcast on an issue you care about. Show both sides. Say what you think. Credit your sources.",
+      "core": "Make a five- to seven-minute podcast episode on an issue you care about: both sides, real evidence, your view, and full credits.",
+      "extend": "Produce a six- to eight-minute issue episode that fairly represents at least two perspectives with reliable evidence, includes ethically gathered voices, argues your position, and provides full references and attribution in show notes. Compare how your sources presented the issue."
+    },
+    "checklist": [
+      "I researched both sides with reliable sources",
+      "I planned a run sheet",
+      "I got consent for every voice",
+      "Both sides got a fair go",
+      "I said where I land, with evidence",
+      "I credited every source and piece of music",
+      "I edited it and shared it with a real audience"
+    ],
+    "levelUp": "Compare how two of your sources presented the issue, and judge whether your own episode was fair.",
+    "vc": [
+      "VM-U1O2-KS2",
+      "VM-U2O2-KS4",
+      "VM-U2O2-KS8"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Podcast an issue, fairly",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What **three** extra jobs does an issue episode have?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS2"
+            ]
+          },
+          {
+            "q": "List the **six segments** of a run sheet.",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS2"
+            ]
+          },
+          {
+            "q": "What must you do before recording someone?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Make the episode",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "An issue episode run sheet",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the episode. Use the word bank. What does it do?",
+          "core": "Each number marks a segment of the run sheet. Write what it is and what it does."
+        },
+        "columns": [
+          "What is it?",
+          "What does it do?"
+        ],
+        "wordBank": {
+          "support": [
+            "cold open",
+            "intro",
+            "side A",
+            "side B",
+            "where I land",
+            "outro and credits"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O2-KS2"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: The Daily Aus",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What does The Daily Aus aim to do? How is that different from an opinion podcast?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS2"
+            ]
+          },
+          {
+            "q": "Why might a news service for young people start on Instagram?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS2"
+            ]
+          },
+          {
+            "q": "How will **your** episode be like The Daily Aus? How will it be different?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O2-KS2",
+              "VM-U2O2-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission, step 1: research both sides",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "Choose your issue. Research the strongest argument on each side, with reliable sources.",
+        "columns": [
+          "",
+          "Side A",
+          "Side B"
+        ],
+        "rows": [
+          [
+            "The issue (one line)",
+            "",
+            ""
+          ],
+          [
+            "Main argument",
+            "",
+            ""
+          ],
+          [
+            "Best evidence",
+            "",
+            ""
+          ],
+          [
+            "Source 1 (who, title, date, link)",
+            "",
+            ""
+          ],
+          [
+            "Source 2 (who, title, date, link)",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "A voice to include",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O2-KS4",
+          "VM-U2O2-KS8"
+        ],
+        "vcNote": "Researching perspectives and recording references."
+      },
+      {
+        "type": "table",
+        "title": "Step 2: my run sheet",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Plan each segment. Note the time, what you'll say or play, and what you'll credit.",
+        "columns": [
+          "Segment",
+          "Time",
+          "What I'll say or play",
+          "Source or credit"
+        ],
+        "rows": [
+          [
+            "Cold open",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Intro",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Side A",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Side B",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Where I land",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Outro",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U1O2-KS2",
+          "VM-U2O2-KS8"
+        ],
+        "vcNote": "Planning a digital text for an audience and purpose."
+      },
+      {
+        "type": "write",
+        "title": "Step 3: script “Where I land”",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write what you think (about 100 to 150 words). Give a reason and evidence.",
+          "core": "Write the script for your **Where I land** segment (about 150 to 250 words). Say your view, give your best evidence, and say what the other side gets right.",
+          "extend": "Script your Where I land segment (200 to 300 words): state your position, justify it with your strongest evidence (credited aloud), and concede and answer the best point from the other side."
+        },
+        "plan": [
+          {
+            "label": "My view in one sentence",
+            "lines": 1
+          },
+          {
+            "label": "My best evidence (and its source)",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "So, what do I think?",
+            "I think ___, because ___.",
+            "According to ___, …"
+          ],
+          "core": [
+            "So, where do I land?",
+            "I think ___, because ___.",
+            "According to ___, …",
+            "The other side has a point: ___. But ___."
+          ]
+        },
+        "lines": {
+          "support": 10,
+          "core": 11
+        },
+        "check": [
+          "my view is clear",
+          "backed by evidence",
+          "source said aloud",
+          "fair to the other side",
+          "easy to say out loud"
+        ],
+        "vc": [
+          "VM-U2O2-KS4",
+          "VM-U2O2-KS8"
+        ],
+        "vcNote": "Arguing a point of view persuasively with acknowledged evidence."
+      },
+      {
+        "type": "table",
+        "title": "Step 4: show notes and references",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "instructions": "Write your show notes: a two-line description, then a full reference for every source and a credit for every piece of music.",
+        "columns": [
+          "Source or music",
+          "Full reference or credit (who, title, date, link, licence)"
+        ],
+        "rows": [
+          [
+            "Episode description",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O2-KS8"
+        ],
+        "vcNote": "Applying the conventions of referencing and attribution."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: record, edit and share",
+        "pagebreak": true,
+        "where": "in class, at home or out in the community",
+        "instructions": "Record your vox pops and host segments, edit the episode, and share it with a real audience.",
+        "need": [
+          "your run sheet",
+          "a phone or recorder",
+          "a quiet space",
+          "a free editing app",
+          "consent from every voice"
+        ],
+        "steps": {
+          "support": [
+            "Record two short interviews. Ask first.",
+            "Record your parts.",
+            "Cut the mistakes.",
+            "Play it to someone. Was it fair?",
+            "Share it with your class."
+          ],
+          "core": [
+            "Record two or three **vox pops**. Ask for consent first, and note each person's role (not their full name, unless they agree).",
+            "Record your host segments from the run sheet. Keep the phone close, and slow down.",
+            "**Edit**: cut mistakes and pauses, add music you're allowed to use, and check timing.",
+            "**Fairness check**: play it to someone. Did each side get a fair go? Is every source credited?",
+            "**Share** it with your class, school or an approved audience, with your show notes."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My issue and episode title:",
+            "lines": 1
+          },
+          {
+            "label": "Who I interviewed (roles, consent):",
+            "lines": 1
+          },
+          {
+            "label": "Fairness check feedback:",
+            "lines": 1
+          },
+          {
+            "label": "Where I shared it:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Audio file",
+          "Run sheet",
+          "Show notes"
+        ],
+        "vc": [
+          "VM-U1O2-KS2",
+          "VM-U2O2-KS8",
+          "VM-U2O2-KS4"
+        ],
+        "vcNote": "Hands-on: creating, editing and publishing an issue podcast with full attribution."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Choose **two** of your sources that presented the issue differently (for example, a news report and an advocacy group's website). Compare their purpose, audience, evidence and language.",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O1-KS5"
+            ]
+          },
+          {
+            "q": "Was **your** episode fair? Give evidence: time given to each side, the strength of each side's evidence, and your word choices.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O1-KS5",
+              "VM-U2O2-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can research both sides.",
+          "I can plan, record and edit a podcast.",
+          "I can argue my view with evidence.",
+          "I can credit every source."
+        ],
+        "questions": [
+          "My episode in one sentence:",
+          "The best thing a listener said:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "A capstone combining Digital Life and Have Your Say. Students choose a contested issue, research its main perspectives with reliable sources, plan an episode with a run sheet (cold open, intro, side A, side B, where I land, outro), gather vox pops ethically with consent, script and record their own view with evidence, and publish with full show notes and references. The case study is The Daily Aus, founded in 2017 to explain the news to young Australians, which describes itself as independent and non-partisan and runs a daily news podcast.",
+    "prep": [
+      "Check recording and editing apps on school devices (or students' phones).",
+      "Agree how and where episodes will be shared (class only, school platform), and how consent will be recorded.",
+      "Prepare a list of local issues with two clear sides.",
+      "Brief students on consent and safety for vox pops; follow your school's policy on recording members of the public."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Podcast an issue, fairly",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** play two minutes of a balanced news podcast.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Run sheet (10 min).**",
+          "**Case study (15 min):** The Daily Aus."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Research",
+        "minutes": 50,
+        "steps": [
+          "**Choose an issue (10 min).**",
+          "**Research both sides (40 min):** step 1."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Plan and script",
+        "minutes": 50,
+        "steps": [
+          "**Run sheet (20 min):** step 2.",
+          "**Script Where I land (30 min):** step 3."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Record",
+        "minutes": 50,
+        "steps": [
+          "**Vox pops and host segments (40 min).**",
+          "**Show notes (10 min):** start step 4."
+        ]
+      },
+      {
+        "title": "Lesson 5 — Edit and share",
+        "minutes": 60,
+        "steps": [
+          "**Edit (25 min).**",
+          "**Fairness check and share (20 min).**",
+          "**Level Up, reflect (15 min):** request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "An issue episode presents more than one perspective, supports claims with evidence, and credits everything.",
+      "Research the strongest version of the view you oppose.",
+      "Run sheet: cold open, intro, side A, side B, where I land, outro.",
+      "Vox pops need consent; quote accurately.",
+      "A balanced episode can still end with a clear, justified view.",
+      "Credit sources aloud and in show notes; use only licensed or original music."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the run sheet.",
+        "A three- to five-minute episode; one source per side.",
+        "Work in pairs as co-hosts."
+      ],
+      "extend": [
+        "A six- to eight-minute episode with ethically gathered voices.",
+        "Compare source presentations and evaluate fairness (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O2-KS2",
+        "evidence": "Plans, creates and edits a podcast for an audience and purpose (run sheet, Do it)."
+      },
+      {
+        "vc": "VM-U2O2-KS4",
+        "evidence": "Argues a point of view persuasively with evidence (Where I land script, episode)."
+      },
+      {
+        "vc": "VM-U2O2-KS8",
+        "evidence": "Applies referencing and attribution conventions (research table, show notes)."
+      },
+      {
+        "vc": "VM-U2O1-KS5",
+        "evidence": "Level Up: compares how two sources present the issue."
+      }
+    ],
+    "answers": "**Check your reading:** show more than one side, back everything with evidence, credit it all. Cold open, intro, side A, side B, where I land, outro. Ask for consent and explain how you'll use the recording.\n\n**Run sheet:** 1 cold open (vox pop hook, consent noted); 2 intro; 3 side A with a credited source; 4 side B, a fair go; 5 where I land, with evidence; 6 outro with call to action and credits.\n\n**Case study:** The Daily Aus explains issues and sets out perspectives so audiences decide; an opinion podcast argues one view. Instagram is where its young audience already was. Your episode explains both sides, then adds your own justified view.",
+    "resources": [
+      {
+        "label": "The Daily Aus — About us",
+        "url": "https://www.thedailyaus.com.au/about-us"
+      },
+      {
+        "label": "Radio Today — The Daily Aus launches daily news podcast",
+        "url": "https://www.radiotoday.com.au/the-daily-aus-podcast/"
+      },
+      {
+        "label": "University of Canberra — Digital News Report: Australia 2025",
+        "url": "https://www.canberra.edu.au/about-uc/media/newsroom/2025/june/digital-news-report-australia-2025"
+      }
+    ],
+    "realityCheck": [
+      "**Topic choice makes or breaks it.** Local, concrete issues beat big abstract ones.",
+      "**Vox pops take time and nerve.** Let students interview family, staff or classmates if public recording isn't practical.",
+      "**Fairness is hard when you care.** The fairness check with a listener is the key moment; build in time for it.",
+      "**Keep sharing safe.** Default to class or school audiences unless everyone has consented to wider sharing.",
+      "**Works in a real class:** yes. It's a portfolio piece students can show employers or TAFE."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the run sheet, a shorter episode with one source per side, and simpler recording steps.",
+      "core": "Standard version: issue episodes, researching both sides, a run sheet, the Daily Aus case, scripting Where I land, show notes and references, and recording, editing and sharing.",
+      "extend": "Adds balanced and attribution to the vocabulary, a quiz question on comparing sources, a longer episode with ethically gathered voices, and Level Ups comparing source presentations and judging fairness."
+    }
+  }
+}

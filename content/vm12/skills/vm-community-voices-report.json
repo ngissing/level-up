@@ -1,0 +1,1143 @@
+{
+  "id": "vm-community-voices-report",
+  "version": 1,
+  "duration": "5 lessons (about 4 hours), plus time to interview people",
+  "brief": {
+    "hook": {
+      "support": "Every year, Mission Australia asks thousands of young people what matters to them. Then it reports what they said. Now it's your turn. Ask your community about an issue, and report what they think.",
+      "core": "Every year, Mission Australia asks thousands of young people what matters most to them, then reports it to the people who make decisions. In 2025, more than 17,000 young Australians had their say. Now it's your turn to do the asking. Pick an issue, interview your community, and report what people really think, and why."
+    },
+    "why": {
+      "support": "This is a big project. Councils, schools and bosses need to know what people think. A good report tells them. You'll ask people, write it up, and make a suggestion.",
+      "core": "This capstone mixes Text Toolkit and Issues & Voices. Councils, schools, employers and clubs need to know what people think. A good report gives them facts, real voices and a clear recommendation. You'll also see how people's backgrounds shape their views.",
+      "extend": "This capstone joins research, interviewing and report writing. You'll gather community views, analyse how backgrounds shape them, and check facts against reliable sources. Then you'll draft and refine a report with clear findings and a recommendation."
+    },
+    "canDo": {
+      "support": [
+        "I can plan and run interviews.",
+        "I can find common ideas in what people say.",
+        "I can use good sources.",
+        "I can write and fix a report."
+      ],
+      "core": [
+        "I can **plan** and run fair **interviews**.",
+        "I can find **themes** in what people say, and explain how their **backgrounds** shape their views.",
+        "I can use **reliable sources** for background facts.",
+        "I can **draft**, **edit** and **refine** a report for a real audience."
+      ]
+    },
+    "showIt": "Interview at least five people about a local issue, then write a community voices report with findings, quotes and a recommendation, and send it to someone who can act on it.",
+    "vocab": [
+      {
+        "word": "report",
+        "meaning": "a document that tells people what was found",
+        "example": "The report went to the council."
+      },
+      {
+        "word": "interview",
+        "meaning": "asking someone questions to learn their view",
+        "example": "I did five interviews at TAFE."
+      },
+      {
+        "word": "open question",
+        "meaning": "a question you can't answer with yes or no",
+        "example": "“How would it affect you?” is an open question."
+      },
+      {
+        "word": "theme",
+        "meaning": "an idea that comes up again and again",
+        "example": "Safety was a big theme."
+      },
+      {
+        "word": "finding",
+        "meaning": "something you discovered",
+        "example": "Our main finding was that most people wanted a trial."
+      },
+      {
+        "word": "recommendation",
+        "meaning": "what you think should happen next",
+        "example": "Our recommendation was a 12-month trial."
+      },
+      {
+        "word": "anonymous",
+        "meaning": "without the person's name",
+        "example": "Quotes in the report were anonymous.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "leading question",
+        "meaning": "a question that pushes for an answer",
+        "example": "“Don't you agree it's great?” is a leading question.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Community Voices Report in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Community Voices Report",
+        "sub": "Ask. Listen. Report.",
+        "icon": "lucide:clipboard-list",
+        "say": "Community voices report. Interview your community. Report what you find."
+      },
+      {
+        "kind": "stat",
+        "big": "17,155",
+        "title": "young people took part in the 2025 Youth Survey",
+        "sub": "Mission Australia, November 2025",
+        "say": "In 2025, more than seventeen thousand young Australians aged fourteen to nineteen answered Mission Australia's Youth Survey. Cost of living was their top issue.",
+        "vc": [
+          "VM-U2O1-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Capstone",
+        "pillIcon": "lucide:trophy",
+        "title": "Plan",
+        "text": "Open · **Not leading**",
+        "icon": "lucide:clipboard-list",
+        "say": "Plan fair questions. Open, not leading. Ask “how” and “why”.",
+        "vc": [
+          "VM-U1O1-KS9"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Capstone",
+        "pillIcon": "lucide:trophy",
+        "title": "Interview",
+        "text": "Consent · Listen · **Note**",
+        "icon": "lucide:mic",
+        "say": "Interview at least five different people. Ask for consent. Note their background, not their name.",
+        "vc": [
+          "VM-U2O1-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Capstone",
+        "pillIcon": "lucide:trophy",
+        "title": "Themes",
+        "text": "What · Who · **Why**",
+        "icon": "lucide:layers",
+        "say": "Find themes. What came up again and again? Who said what, and why might their background matter?",
+        "vc": [
+          "VM-U2O1-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Capstone",
+        "pillIcon": "lucide:trophy",
+        "title": "Check facts",
+        "text": "Reliable **sources**",
+        "icon": "lucide:badge-check",
+        "say": "Check your background facts with reliable sources.",
+        "vc": [
+          "VM-U2O1-KS7"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Capstone",
+        "pillIcon": "lucide:trophy",
+        "title": "Write it",
+        "text": "Draft · Edit · **Send**",
+        "icon": "lucide:send",
+        "say": "Draft, edit and refine. Then send it to someone who can act on it.",
+        "vc": [
+          "VM-U1O1-KS9"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Make the report",
+        "steps": [
+          "Plan and interview",
+          "Find themes",
+          "Write and send"
+        ],
+        "say": "Plan, interview, find themes, write, then send it."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Let people be **heard**.",
+        "icon": "lucide:clipboard-list",
+        "say": "Your mission. Interview your community, and report what they think to someone who can make a difference."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to write a community voices report",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "A **report** tells people what you found. This one tells decision-makers what people think about an issue.\n\n**1. Pick an issue.** Choose a local issue. Who will read your report? A council? A school?\n\n**2. Get the facts.** Use good sources, like a council website. Write them down.\n\n**3. Plan your questions.** Use **open questions**:\n\n- *“What do you think about ___?”*\n- *“How would it affect you?”*\n- *“Why?”*\n\nDon't push people. *“Don't you love it?”* is unfair.\n\n**4. Interview people.** Ask five different people. Ask if it's okay first. Write down their age or job, not their name.\n\n**5. Find themes.** What did lots of people say? Count them. Why might people think that way?\n\n**6. Write the report.** Use headings:\n\n- **Summary**\n- **Background**\n- **What we did**\n- **Findings**, with quotes\n- **Recommendation**: what should happen next.\n\n**7. Fix it.** Is it clear? Fair? Check your spelling.\n\n**8. Send it** to someone who can act.",
+          "core": "A **community voices report** tells decision-makers what people think about an issue, and why. It mixes facts, real voices and a clear suggestion.\n\n**1. Choose your issue and audience.** Pick a local issue people have different views on: transport, a park, school rules, jobs, a sports club. Then decide who the report is for: a council, a school, an employer or a club. They're your audience.\n\n**2. Get the background facts.** Use **reliable sources**, like a council website, a government report or a trusted news site, to explain the issue. Write down every source.\n\n**3. Plan your questions.** Use **open questions** that can't be answered with yes or no:\n\n- *“What do you think about ___?”*\n- *“How would it affect you?”*\n- *“Why do you feel that way?”*\n\nAvoid **leading questions** like *“Don't you think it's a great idea?”* They push people towards an answer.\n\n**4. Interview people.** Talk to at least five people from different backgrounds: different ages, jobs and parts of town. Ask for **consent**. Explain what the report is for. Take notes, or record if they agree. Write down their background (*“café owner, 50s”*), not their name.\n\n**5. Find the themes.** Read through your notes. What ideas came up again and again? Those are **themes**. Count how many people said each one. Then ask: *why might people see it this way?* Someone's job, age, family or values can shape their view.\n\n**6. Write the report.** Use headings:\n\n- **Summary:** your main findings in two or three sentences.\n- **Background:** the issue, with sources.\n- **What we did:** who you spoke to, when and how.\n- **Findings:** each theme, with numbers and quotes.\n- **Recommendation:** what should happen next.\n- **References.**\n\n**7. Draft, edit, refine.** Write a first draft. Then improve it: is it clear? Fair? Are quotes accurate? Finally, check spelling and punctuation.\n\n**8. Send it.** A report is only useful if the right person reads it.",
+          "extend": "A **community voices report** tells decision-makers what a community thinks about an issue, and why. It combines background facts, first-hand perspectives and a clear recommendation.\n\n**1. Define the issue and audience.** Choose a local issue on which views differ: transport, a park, school policy, jobs, a club decision. Identify your audience: the council, school leaders, an employer or a committee.\n\n**2. Research the background.** Use **reliable sources**, such as council documents, government data or reputable news, to explain the issue accurately. Record every reference.\n\n**3. Design your questions.** Use **open questions** (*“How would this affect you?”*, *“Why do you see it that way?”*). Avoid **leading questions** that suggest an answer.\n\n**4. Interview a range of people.** Speak to at least five people with different backgrounds. Obtain **consent**, explain the report's purpose, and keep responses **anonymous**: describe people by role or age group, not by name.\n\n**5. Analyse for themes.** Group responses into **themes**, count how often each appears, and note who expressed it. Then consider why: how do occupation, age, family circumstances or values shape each perspective?\n\n**6. Structure the report.**\n\n- **Summary:** key findings in brief.\n- **Background:** the issue, with sources.\n- **Method:** who, when, where and how.\n- **Findings:** themes, supported by counts and quotes.\n- **Recommendation:** a specific next step.\n- **References.**\n\n**7. Draft, edit and refine.** Revise for clarity and fairness, check that quotes are accurate, then proofread.\n\n**8. Deliver it.** A report achieves nothing until it reaches someone who can act on it."
+        },
+        "vc": [
+          "VM-U1O1-KS9",
+          "VM-U2O1-KK3",
+          "VM-U2O1-KS7"
+        ],
+        "vcNote": "Planning, drafting and refining a report; how values and backgrounds shape opinions; reliable sources."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Mission Australia's Youth Survey",
+        "icon": "lucide:clipboard-list",
+        "body": {
+          "support": "Every year, the charity **Mission Australia** asks young people aged 14 to 19 what matters to them. It's called the **Youth Survey**.\n\nIn **2025**, **17,155** young people took part.\n\nThey said the biggest issues in Australia were:\n\n- **cost of living:** 64%\n- **mental health:** 29%\n- **climate change:** 27%\n- **housing:** 25%.\n\nMission Australia wrote a report. It asked leaders to act on the cost of living.\n\nYour report will be smaller. But it works the same way. Ask fair questions. Count the answers. Share what people said. Send it to people who can act.",
+          "core": "Every year, the charity **Mission Australia** runs a **Youth Survey**. It asks young people aged 14 to 19 about their lives, their worries and what they think matters most in Australia. Then it publishes a report, so governments and services know what young people think.\n\nIn **2025**, **17,155** young people took part. The report came out in November 2025.\n\nWhen asked about the most important issues in Australia, young people said:\n\n- **cost of living:** 64%, up from 56% the year before\n- **mental health:** 29%\n- **climate change and the environment:** 27%\n- **housing and homelessness:** 25%.\n\nMission Australia used the findings to call for action on the cost of living.\n\nThe Youth Survey is much bigger than your report will be. But it works the same way. It asks fair questions. It counts how many people gave each answer. It shares what people said in their own words. And it gets the results in front of people who can do something about them.",
+          "extend": "Each year, **Mission Australia** conducts a national **Youth Survey** of young people aged 14 to 19, asking about their wellbeing, concerns and views on national issues. It publishes the results so that governments, services and communities can respond.\n\nThe **2025** survey had **17,155** respondents, and the report was released in November 2025.\n\nAsked to name the most important issues in Australia, respondents most often chose:\n\n- **cost of living:** 64%, up from 56% in 2024\n- **mental health:** 29%\n- **climate change and the environment:** 27%\n- **housing and homelessness:** 25%.\n\nMission Australia used the findings to call for action on the cost of living.\n\nYour report will be far smaller, but the method is the same. Ask fair, consistent questions. Quantify responses. Preserve people's own words. Present the findings to people with the power to act. A small sample can't speak for everyone, so a good report is honest about who it did and didn't hear from."
+        },
+        "source": {
+          "name": "Mission Australia — Young Australians call for action on cost of living: 2025 Youth Survey",
+          "url": "https://www.missionaustralia.com.au/media-centre/media-releases/2025/young-australians-call-for-action-on-cost-of-living-mission-australias-2025-youth-survey"
+        },
+        "think": {
+          "support": [
+            "What were the top issues?",
+            "How is your report like the Youth Survey?"
+          ],
+          "core": [
+            "What did young people say were the biggest issues in 2025?",
+            "Why might cost of living have jumped as a concern?",
+            "How is the Youth Survey like the report you'll write? How is it different?"
+          ]
+        },
+        "vc": [
+          "VM-U2O1-KK3",
+          "VM-U2O1-KS7"
+        ],
+        "vcNote": "A real Australian report that gathers and presents young people's voices."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a community voices report",
+      "docTitle": "REPORT — “A LATE BUS FOR RIVERSIDE? WHAT LOCALS THINK” (EXAMPLE)",
+      "vc": [
+        "VM-U1O1-KS9",
+        "VM-U2O1-KK3",
+        "VM-U2O1-KS7"
+      ],
+      "vcNote": "The structure of a report; how backgrounds shape views; acknowledging sources.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Summary",
+          "value": "We interviewed 8 people. 6 supported a weekend late-night bus. The main reasons were safety and getting to work.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Background",
+          "value": "The last weekend bus leaves Riverside at 10:15pm (Source: council timetable, accessed March 2026)."
+        },
+        {
+          "n": 3,
+          "label": "What we did",
+          "value": "8 interviews, 10–20 March, at TAFE, the shopping centre and a café. Names not used."
+        },
+        {
+          "n": 4,
+          "label": "Finding",
+          "value": "Young workers saw it as a safety issue: “I walk home at midnight after my shift.” (Apprentice, 19)",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Different views",
+          "value": "Two older residents worried about noise and cost. Both live on the bus route."
+        },
+        {
+          "n": 6,
+          "label": "Recommendation",
+          "value": "Council should run a 12-month trial, then review it."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Summary",
+          "note": "Main findings first, with numbers."
+        },
+        {
+          "n": 2,
+          "label": "Background with source",
+          "note": "A checkable fact, credited."
+        },
+        {
+          "n": 3,
+          "label": "Method",
+          "note": "Who, when, where, how. Anonymous."
+        },
+        {
+          "n": 4,
+          "label": "Finding with quote",
+          "note": "A theme, backed by a real voice."
+        },
+        {
+          "n": 5,
+          "label": "Background shapes views",
+          "note": "Where people live shapes what they think."
+        },
+        {
+          "n": 6,
+          "label": "Recommendation",
+          "note": "A clear next step."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Make the report",
+      "steps": [
+        {
+          "title": "Plan",
+          "text": "Issue, audience, questions.",
+          "icon": "lucide:clipboard-list"
+        },
+        {
+          "title": "Interview",
+          "text": "Five or more people, with consent.",
+          "icon": "lucide:mic"
+        },
+        {
+          "title": "Find themes",
+          "text": "What, who and why.",
+          "icon": "lucide:layers"
+        },
+        {
+          "title": "Write and send",
+          "text": "Draft, edit, deliver.",
+          "icon": "lucide:send"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is an **open** question?",
+        "options": [
+          "“How would a late bus affect you?”",
+          "“Do you like buses?”",
+          "“Is the bus blue?”",
+          "“Don't you agree it's great?”"
+        ],
+        "answer": 0,
+        "explain": "It can't be answered with just yes or no.",
+        "vc": [
+          "VM-U1O1-KS9"
+        ]
+      },
+      {
+        "q": "Why avoid **leading** questions?",
+        "options": [
+          "They push people towards an answer",
+          "They're too short",
+          "They're always rude",
+          "They take too long"
+        ],
+        "answer": 0,
+        "explain": "Fair questions give honest answers.",
+        "vc": [
+          "VM-U1O1-KS9"
+        ]
+      },
+      {
+        "q": "In a report, what is a **theme**?",
+        "options": [
+          "An idea that comes up again and again",
+          "The report's title",
+          "The font",
+          "A person's name"
+        ],
+        "answer": 0,
+        "explain": "Group answers into themes.",
+        "vc": [
+          "VM-U2O1-KK3"
+        ]
+      },
+      {
+        "q": "Why note someone's **background** (like their job or age)?",
+        "options": [
+          "It can help explain why they see the issue that way",
+          "To embarrass them",
+          "To find their address",
+          "It doesn't matter"
+        ],
+        "answer": 0,
+        "explain": "Backgrounds shape views.",
+        "vc": [
+          "VM-U2O1-KK3"
+        ]
+      },
+      {
+        "q": "What did young people name as the top issue in Mission Australia's 2025 Youth Survey?",
+        "options": [
+          "Cost of living",
+          "Sport",
+          "Gaming",
+          "Weather"
+        ],
+        "answer": 0,
+        "explain": "64% chose it.",
+        "vc": [
+          "VM-U2O1-KK3"
+        ]
+      },
+      {
+        "q": "Which is the most reliable source for your report's background facts?",
+        "options": [
+          "The council's website",
+          "An anonymous comment",
+          "A rumour in a group chat",
+          "A meme"
+        ],
+        "answer": 0,
+        "explain": "Official, named and checkable.",
+        "vc": [
+          "VM-U2O1-KS7"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Your findings differ from a news article about the same issue. What's a likely reason?",
+        "options": [
+          "Different sources, purposes and people asked",
+          "One of you can't count",
+          "News is always wrong",
+          "There's no reason"
+        ],
+        "answer": 0,
+        "explain": "Compare how each was made.",
+        "vc": [
+          "VM-U2O1-KS5"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Ask at least four people about a local issue. Write a short report with what they said and what should happen next. Share it.",
+      "core": "Interview at least five people about a local issue, then write a community voices report with findings, quotes and a recommendation, and send it to someone who can act on it.",
+      "extend": "Interview at least six people with different backgrounds about a local issue. Write a structured, referenced report with themed findings, analysis of how backgrounds shape views, and a recommendation. Deliver it to a decision-maker."
+    },
+    "checklist": [
+      "I chose an issue and an audience",
+      "I checked background facts with reliable sources",
+      "I asked open, fair questions, with consent",
+      "I found themes and counted them",
+      "I explained how backgrounds shape views",
+      "I drafted, edited and proofread my report",
+      "I sent it to someone who can act"
+    ],
+    "levelUp": "Compare your findings with another source on the same issue, and explain the limits of your own report.",
+    "vc": [
+      "VM-U1O1-KS9",
+      "VM-U2O1-KK3",
+      "VM-U2O1-KS7"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to write a community voices report",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What's the difference between an **open** question and a **leading** question? Give an example of each.",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS9"
+            ]
+          },
+          {
+            "q": "Why should you note people's **backgrounds**, but not their names?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK3"
+            ]
+          },
+          {
+            "q": "List the **headings** of a community voices report.",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS9"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Make the report",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a community voices report",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the report. Use the word bank. Why is it there?",
+          "core": "Each number marks part of the report. Write what it is and why it's there."
+        },
+        "columns": [
+          "What is it?",
+          "Why is it there?"
+        ],
+        "wordBank": {
+          "support": [
+            "summary",
+            "background with source",
+            "what we did",
+            "finding with quote",
+            "different views",
+            "recommendation"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U1O1-KS9",
+          "VM-U2O1-KK3"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Good question, or fix it?",
+        "pagebreak": true,
+        "choices": [
+          "Good question",
+          "Fix it"
+        ],
+        "reasonLabel": "Why (or how to fix it):",
+        "instructions": "You're interviewing people about a late-night weekend bus. Is each question fair and open? If not, how would you fix it?",
+        "cards": [
+          {
+            "from": "Question",
+            "text": "“What do you think about a late-night weekend bus?”",
+            "answer": "Good question",
+            "flags": "Open and neutral."
+          },
+          {
+            "from": "Question",
+            "text": "“Don't you agree the late bus is a great idea?”",
+            "answer": "Fix it",
+            "flags": "Leading. Try: “What do you think of the idea?”"
+          },
+          {
+            "from": "Question",
+            "text": "“Do you catch buses?”",
+            "answer": "Fix it",
+            "flags": "Yes/no. Try: “How do you usually get around at night?”"
+          },
+          {
+            "from": "Question",
+            "text": "“Why do you feel that way?”",
+            "answer": "Good question",
+            "flags": "A good follow-up."
+          },
+          {
+            "from": "Question",
+            "text": "“How would a late bus affect you or your family?”",
+            "answer": "Good question",
+            "flags": "Open and personal.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Question",
+            "text": "“Wouldn't it be noisy and a waste of money?”",
+            "answer": "Fix it",
+            "flags": "Leading, and two questions in one.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KS9"
+        ],
+        "vcNote": "Planning fair, open interview questions."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Mission Australia's Youth Survey",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did young people say were the biggest issues in 2025?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK3"
+            ]
+          },
+          {
+            "q": "Why might cost of living have jumped as a concern?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O1-KK3"
+            ]
+          },
+          {
+            "q": "How is the Youth Survey like the report you'll write? How is it different?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS9",
+              "VM-U2O1-KS7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission, step 1: plan",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "instructions": "Choose a local issue. Plan your report and your interview questions.",
+        "columns": [
+          "Part",
+          "My plan"
+        ],
+        "rows": [
+          [
+            "My issue (one line)",
+            ""
+          ],
+          [
+            "My audience (who can act on it?)",
+            ""
+          ],
+          [
+            "Background source 1 (who, title, date, link)",
+            ""
+          ],
+          [
+            "Background source 2 (who, title, date, link)",
+            ""
+          ],
+          [
+            "Question 1 (open)",
+            ""
+          ],
+          [
+            "Question 2 (open)",
+            ""
+          ],
+          [
+            "Question 3 (follow-up: why?)",
+            ""
+          ],
+          {
+            "cells": [
+              "Question 4",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          [
+            "What I'll say to get consent",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U1O1-KS9",
+          "VM-U2O1-KS7"
+        ],
+        "vcNote": "Planning a report with reliable background sources and fair questions."
+      },
+      {
+        "type": "table",
+        "title": "Step 2: interview notes",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "Record each interview. Note the person's background, not their name.",
+        "columns": [
+          "Person (background, not name)",
+          "Their main view",
+          "Why? (their reasons)",
+          "Best quote"
+        ],
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KK3"
+        ],
+        "vcNote": "Recording perspectives and the backgrounds behind them."
+      },
+      {
+        "type": "table",
+        "title": "Step 3: find the themes",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 30,
+          "core": 28
+        },
+        "instructions": "Group what people said into themes. Count them. Then think about **why** different people saw it differently.",
+        "columns": [
+          "Theme",
+          "How many people",
+          "Who said it (backgrounds)",
+          "Why might their background shape this view?"
+        ],
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O1-KK3"
+        ],
+        "vcNote": "Analysing how values and backgrounds shape opinions."
+      },
+      {
+        "type": "write",
+        "title": "Step 4: draft my report",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write your report. Use these headings: **Summary, Background, What we did, Findings, What should happen next.**",
+          "core": "Draft your report using the headings: **Summary, Background, What we did, Findings, Recommendation, References.** Keep going on the next page.",
+          "extend": "Draft your report under the headings Summary, Background, Method, Findings (themes with counts and quotes, and how backgrounds shape views), Recommendation and References."
+        },
+        "plan": [
+          {
+            "label": "My main finding in one sentence",
+            "lines": 1
+          },
+          {
+            "label": "My recommendation in one sentence",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "We spoke to ___ people about…",
+            "Most people said…",
+            "Some people said…",
+            "We think…"
+          ],
+          "core": [
+            "We spoke to ___ people about…",
+            "Most people (___ of ___) said…",
+            "However, …",
+            "People who ___ tended to ___, because…",
+            "We recommend…"
+          ]
+        },
+        "lines": {
+          "support": 12,
+          "core": 13
+        },
+        "check": [
+          "headings used",
+          "numbers and quotes in findings",
+          "fair to every view",
+          "a clear recommendation",
+          "sources listed"
+        ],
+        "vc": [
+          "VM-U1O1-KS9",
+          "VM-U2O1-KK3"
+        ],
+        "vcNote": "Drafting a report for a real audience."
+      },
+      {
+        "type": "questions",
+        "title": "Keep writing",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Keep going with your report here.",
+            "lines": {
+              "support": 18,
+              "core": 22
+            }
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Step 5: edit and refine",
+        "pagebreak": true,
+        "instructions": "Swap with a partner. Read each other's drafts. Then answer about **your own** report.",
+        "items": [
+          {
+            "q": "My partner said the clearest part was:",
+            "lines": 1,
+            "vc": [
+              "VM-U1O1-KS9"
+            ]
+          },
+          {
+            "q": "What will I **change** to make it clearer or fairer? (revise)",
+            "lines": 3,
+            "vc": [
+              "VM-U1O1-KS9"
+            ]
+          },
+          {
+            "q": "Are my quotes accurate, and are people anonymous? What did I fix?",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS9"
+            ]
+          },
+          {
+            "q": "What spelling, punctuation or sentence mistakes did I find? (proofread)",
+            "lines": 2,
+            "vc": [
+              "VM-U1O1-KS9"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U1O1-KS9"
+        ],
+        "vcNote": "Editing and refining a written response."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: deliver your report",
+        "pagebreak": true,
+        "where": "in your school or community",
+        "instructions": "Send or present your final report to someone who can act on it: a council youth officer, your principal, the SRC, an employer or a club committee.",
+        "need": [
+          "your final report",
+          "your teacher's OK on who to send it to"
+        ],
+        "steps": {
+          "support": [
+            "Write your final copy.",
+            "Ask your teacher who to send it to.",
+            "Write a short, polite note.",
+            "Send or present it.",
+            "Write down any reply."
+          ],
+          "core": [
+            "Write your final copy, with every change made.",
+            "Check with your teacher who should receive it, and how.",
+            "Write a short, polite cover email or note: who you are, what you did, and what you're asking for.",
+            "Send or present the report.",
+            "Record any response you get."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Who I sent it to, and how:",
+            "lines": 1
+          },
+          {
+            "label": "Response (if any):",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Final report",
+          "Cover note",
+          "Response"
+        ],
+        "vc": [
+          "VM-U1O1-KS9"
+        ],
+        "vcNote": "Hands-on: delivering a refined report to a real audience."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find another source on your issue (a news article, council document or survey). Compare it with your findings. How do they present the issue differently, and why?",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O1-KS5"
+            ]
+          },
+          {
+            "q": "What are the **limits** of your report? Who didn't you hear from, and how might that change the findings?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O1-KS5",
+              "VM-U2O1-KK3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can plan and run fair interviews.",
+          "I can find themes and explain them.",
+          "I can use reliable sources.",
+          "I can draft, edit and refine a report."
+        ],
+        "questions": [
+          "The most surprising thing someone said:",
+          "Who read my report:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "A capstone combining Text Toolkit and Issues & Voices. Students choose a local issue and audience, research background facts from reliable sources, plan open (not leading) interview questions, interview at least five people from different backgrounds with consent, analyse responses into themes, explain how backgrounds and values shape views, and draft, edit and refine a structured report (summary, background, method, findings, recommendation, references) to deliver to a real decision-maker. The case study is Mission Australia's 2025 Youth Survey: 17,155 young people aged 14 to 19, with cost of living the top issue (64%).",
+    "prep": [
+      "Agree the rules for interviewing: who students may interview (family, staff, students, members of the public), consent, and anonymity. Follow your school's policy.",
+      "Identify realistic report recipients (principal, SRC, council youth officer, a local club) and contact them in advance if possible.",
+      "Prepare a list of local issues with clear differing views."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What makes a good report",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** if you could ask the whole town one question, what would it be?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a report (10 min).**",
+          "**Good question, or fix it? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** the Youth Survey.",
+          "**Choose an issue and audience (10 min).**",
+          "**Plan (25 min):** background sources and questions."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Find the themes",
+        "minutes": 50,
+        "steps": [
+          "**Before this lesson:** students interview at least five people (in class or at home).",
+          "**Interview notes (15 min):** complete.",
+          "**Themes (35 min):** group, count and explain."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Draft",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** a findings paragraph with a count and a quote.",
+          "**Draft (40 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 5 — Edit and deliver",
+        "minutes": 60,
+        "steps": [
+          "**Edit and refine (25 min):** peer swap.",
+          "**Do it (20 min):** final copy and cover note.",
+          "**Level Up, reflect (15 min):** request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "A community voices report gives decision-makers facts, real voices and a recommendation.",
+      "Use reliable sources for background, and reference them.",
+      "Ask open questions; avoid leading questions; get consent; keep people anonymous.",
+      "Group responses into themes, count them, and explain how backgrounds and values shape views.",
+      "Draft, revise for clarity and fairness, check quotes, proofread.",
+      "Mission Australia's 2025 Youth Survey: 17,155 respondents aged 14 to 19; cost of living top issue at 64%."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the report.",
+        "Interview at least four people; fewer table rows.",
+        "Use a report template with headings filled in."
+      ],
+      "extend": [
+        "Interview at least six people; analyse backgrounds in depth.",
+        "Compare findings with another source and discuss limits (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U1O1-KS9",
+        "evidence": "Plans, drafts, edits and refines a report (plan, draft, edit, final copy)."
+      },
+      {
+        "vc": "VM-U2O1-KK3",
+        "evidence": "Explains how the values and backgrounds of the people interviewed shape their opinions (notes, themes, findings)."
+      },
+      {
+        "vc": "VM-U2O1-KS7",
+        "evidence": "Identifies reliable sources for background research (plan, references)."
+      },
+      {
+        "vc": "VM-U2O1-KS5",
+        "evidence": "Level Up: compares the report's findings with another source."
+      }
+    ],
+    "answers": "**Check your reading:** open questions can't be answered yes/no (“How would it affect you?”); leading questions push an answer (“Don't you agree…?”). Backgrounds help explain views; names are left out to protect privacy. Summary, Background, What we did, Findings, Recommendation, References.\n\n**Report:** 1 summary with numbers; 2 background with a credited source; 3 method, anonymous; 4 finding with a quote; 5 how background (living on the route) shapes views; 6 recommendation.\n\n**Sort:** “What do you think…” — good; “Don't you agree…” — fix (leading); “Do you catch buses?” — fix (yes/no); “Why do you feel that way?” — good; “How would it affect you…” — good; “Wouldn't it be noisy…” — fix (leading, double).\n\n**Case study:** cost of living 64%, mental health 29%, climate change and the environment 27%, housing and homelessness 25%. Answers will vary on why cost of living rose (prices, rent, wages). Same method (fair questions, counts, voices, delivered to decision-makers); different scale.",
+    "resources": [
+      {
+        "label": "Mission Australia — 2025 Youth Survey media release",
+        "url": "https://www.missionaustralia.com.au/media-centre/media-releases/2025/young-australians-call-for-action-on-cost-of-living-mission-australias-2025-youth-survey"
+      },
+      {
+        "label": "Mission Australia — Youth Survey 2025 reports",
+        "url": "https://www.missionaustralia.com.au/what-we-do/evidence-impact-and-advocacy/research/youth-survey/youth-survey-reports/youth-survey-2025/"
+      },
+      {
+        "label": "The Educator — Cost of living the top issue for Australian youth",
+        "url": "https://www.theeducatoronline.com/k12/news/cost-of-living-the-top-issue-for-australian-youth--survey/288579"
+      }
+    ],
+    "realityCheck": [
+      "**Interviewing is the scary part.** Start with family or staff; public interviews are optional.",
+      "**Students over-generalise from five people.** Teach the language of small samples: “most of the people we spoke to…”.",
+      "**Anonymity matters.** Check reports before they're sent.",
+      "**A real recipient changes everything.** Even a reply from the principal makes the work feel worth it.",
+      "**Works in a real class:** yes. It's a strong finish to VM Units 1 & 2, and a genuine piece of community work."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the report, four interviews, fewer table rows, and a template with headings.",
+      "core": "Standard version: report structure, background research, open questions, interviewing with consent, finding themes, explaining how backgrounds shape views, the Mission Australia Youth Survey case, drafting, editing and delivering the report.",
+      "extend": "Adds anonymous and leading question to the vocabulary, a quiz question on comparing sources, six interviews with deeper analysis, and Level Ups comparing findings with another source and discussing limits."
+    }
+  }
+}
