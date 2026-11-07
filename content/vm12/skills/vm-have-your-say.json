@@ -1,0 +1,946 @@
+{
+  "id": "vm-have-your-say",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), with a device to record",
+  "brief": {
+    "hook": {
+      "support": "In 2024, young people stood up in Victoria's Parliament House. They argued that students should ride public transport for free. In 2026, it happened. Your voice counts.",
+      "core": "In 2024, a team of young people stood up in Victoria's Parliament House and argued that students should travel free on public transport. They were at Youth Parliament, a program run by the YMCA. Their bill passed. By January 2026, every Victorian under 18 could ride trains, trams and buses for free. Never think your voice is too small."
+    },
+    "why": {
+      "support": "This is the boss level. Pick something you care about. Make your point with evidence. Say it with confidence. Answer questions.",
+      "core": "This is the Have Your Say boss level. You'll bring it all together: a clear point of view, strong evidence, a logical structure, and confident delivery. Then you'll handle questions from your audience. Speaking up for something you believe in is one of the most useful skills you can have, at school, at work and in your community.",
+      "extend": "This boss level combines argument and delivery. You'll present a point of view on an issue that matters to you, supported by credible, acknowledged evidence, structured logically, and delivered with control. Then you'll respond to questions and critically evaluate your own performance."
+    },
+    "canDo": {
+      "support": [
+        "I can give my view with evidence.",
+        "I can plan a speech.",
+        "I can use my voice and body to help.",
+        "I can answer questions calmly."
+      ],
+      "core": [
+        "I can present my **point of view** clearly, with **evidence**.",
+        "I can plan a speech with a strong **structure**.",
+        "I can use my **voice** and **body language** to make it land.",
+        "I can **listen** to questions and answer them calmly."
+      ]
+    },
+    "showIt": "Give a two- to three-minute speech on an issue you care about, backed by evidence, then answer questions from your audience.",
+    "vocab": [
+      {
+        "word": "contention",
+        "meaning": "your main point of view, in one sentence",
+        "example": "My contention is that our town needs a late bus."
+      },
+      {
+        "word": "evidence",
+        "meaning": "facts, examples or expert views that back you up",
+        "example": "The survey was strong evidence."
+      },
+      {
+        "word": "cue card",
+        "meaning": "a small card with key words to help you speak",
+        "example": "I glanced at my cue card."
+      },
+      {
+        "word": "call to action",
+        "meaning": "what you want your audience to do",
+        "example": "My call to action was “Vote yes.”"
+      },
+      {
+        "word": "rebuttal",
+        "meaning": "answering the other side's argument",
+        "example": "My rebuttal dealt with the cost."
+      },
+      {
+        "word": "audience",
+        "meaning": "the people you're speaking to",
+        "example": "My audience was the school council."
+      },
+      {
+        "word": "acknowledge",
+        "meaning": "say where your information came from",
+        "example": "I acknowledged the ABS as my source.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "credible",
+        "meaning": "believable and trustworthy",
+        "example": "Using a reliable source made me credible.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Have Your Say in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Have Your Say",
+        "sub": "Stand up. Make your point. Prove it.",
+        "icon": "lucide:mic",
+        "say": "Have your say. Stand up and make your point, with proof."
+      },
+      {
+        "kind": "big",
+        "title": "Young voices, real change",
+        "text": "Youth Parliament → **free travel**",
+        "icon": "lucide:train-front",
+        "say": "In 2024, a Youth Parliament team argued for free student travel. From 1 January 2026, public transport became free for all Victorians under 18.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Have your say",
+        "pillIcon": "lucide:mic",
+        "title": "Contention",
+        "text": "One **clear** sentence",
+        "icon": "lucide:target",
+        "say": "Know your contention. Say your point of view in one clear sentence.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Have your say",
+        "pillIcon": "lucide:mic",
+        "title": "Evidence",
+        "text": "Reason + **proof** + source",
+        "icon": "lucide:file-check",
+        "say": "Back it up. Give two or three reasons, each with evidence. Say where your evidence comes from.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Have your say",
+        "pillIcon": "lucide:mic",
+        "title": "Structure",
+        "text": "Hook → **Act**",
+        "icon": "lucide:list-ordered",
+        "say": "Structure it. Hook, contention, reasons, rebuttal, then a call to action.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Have your say",
+        "pillIcon": "lucide:mic",
+        "title": "Delivery",
+        "text": "Look up · Slow · **Pause**",
+        "icon": "lucide:mic-vocal",
+        "say": "Deliver it. Cue cards, eye contact, slow down, pause, and let your voice rise and fall.",
+        "vc": [
+          "VM-U2O2-KK5",
+          "VM-U2O2-KS6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Have your say",
+        "pillIcon": "lucide:mic",
+        "title": "Questions",
+        "text": "Listen · Pause · **Answer**",
+        "icon": "lucide:circle-help",
+        "say": "Handle questions. Listen to the whole question, pause, then answer briefly. It's okay to say “I'll find out.”",
+        "vc": [
+          "VM-U2O2-KS9"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Have your say",
+        "steps": [
+          "Plan with evidence",
+          "Practise out loud",
+          "Deliver and take questions"
+        ],
+        "say": "Plan it, practise it, deliver it, then answer questions."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Your voice **counts**.",
+        "icon": "lucide:mic",
+        "say": "Your mission. Give a speech on something you care about, and handle the questions."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "From idea to speech",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Having your say means getting people to listen. Here's how.\n\n**1. Pick your issue.** Choose something you care about. Who do you need to convince?\n\n**2. Your point of view.** Say it in one sentence. That's your **contention**.\n\n**3. Reasons and proof.** Give two reasons. Back each one with **evidence**: a fact or example. Say where it came from.\n\n**4. Set it out.**\n\n- **Hook:** grab them.\n- **Your view.**\n- **Reasons**, with evidence.\n- **“Some people say… but…”**\n- **What you want them to do.**\n\n**5. Cue cards.** Write key words, not every word.\n\n**6. Say it well.** Stand tall. Look up. Slow down. Pause.\n\n**7. Questions.** Listen to the whole question. Pause. Answer short. If you don't know, say: *“I'll find out.”*\n\n**8. Look back.** What worked? What will you change?",
+          "core": "Having your say is about more than having an opinion. It's about getting people to listen, and to act. Here's how to go from an idea to a speech that works.\n\n**1. Pick your issue and audience.** Choose something you actually care about: your town, your workplace, your sport, your future. Then ask: *who needs convincing?* A school council, an employer, classmates, the local council?\n\n**2. Write your contention.** Your **contention** is your point of view in one sentence. *“Riverside needs a late-night weekend bus.”* If you can't say it in one sentence, you're not ready yet.\n\n**3. Find reasons and evidence.** Choose two or three strong reasons. Back each one with **evidence**: a fact, a number, an example or an expert. Use reliable sources, and say where your information comes from: *“According to the council's youth survey…”*\n\n**4. Structure it.**\n\n- **Hook:** a question, story or surprising fact.\n- **Contention:** your point of view.\n- **Reasons:** each with evidence. Signpost them: *“My first reason…”*\n- **Rebuttal:** *“Some people say ___. But ___.”*\n- **Call to action:** what you want them to do.\n\n**5. Use cue cards, not a script.** Write key words only, one card per section. Mark where to pause and look up.\n\n**6. Deliver it.** Stand tall. Make eye contact. Slow down. Pause before your big points. Let your voice rise and fall.\n\n**7. Handle questions.** Listen to the whole question. Pause. Thank them if it fits. Answer briefly, with evidence if you can. If you don't know, say so: *“That's a good question. I'll find out.”* Stay calm, even if the question is tough.\n\n**8. Look back.** Record your speech if you can. What worked? What would you change?",
+          "extend": "Having your say means more than holding an opinion. It means persuading an audience to listen, and to act. Here's how to move from an idea to an effective speech.\n\n**1. Define your issue and audience.** Choose an issue you genuinely care about. Then identify who needs persuading: a school council, an employer, peers, a local council.\n\n**2. Frame your contention.** Your **contention** is your position in one sentence: *“Riverside needs a late-night weekend bus.”* If you can't state it simply, refine it.\n\n**3. Build reasons with evidence.** Select two or three strong reasons, each supported by relevant, reliable **evidence**: data, examples or expert views. **Acknowledge** your sources aloud (*“According to the council's 2026 youth survey…”*) and keep a reference list.\n\n**4. Structure the speech.**\n\n- **Hook:** an anecdote, question or striking fact.\n- **Contention.**\n- **Reasons:** signposted and supported.\n- **Rebuttal:** anticipate the strongest objection and answer it.\n- **Call to action:** a specific request.\n\n**5. Prepare cue cards.** Use key words, not a script, and mark delivery cues: pauses, emphasis, LOOK UP.\n\n**6. Deliver with control.** Use posture, eye contact, pace, pauses and intonation deliberately.\n\n**7. Respond to questions.** Listen to the full question, pause, and answer concisely with evidence. Acknowledge limits honestly: *“I don't have that figure, but I'll find out.”* Stay composed under challenge.\n\n**8. Evaluate.** Review a recording against clear criteria, and identify specific improvements."
+        },
+        "vc": [
+          "VM-U2O2-KS4",
+          "VM-U2O2-KS6",
+          "VM-U2O2-KS9",
+          "VM-U2O2-KK5"
+        ],
+        "vcNote": "Presenting a point of view persuasively with evidence; delivery; responding in discussion."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "From Youth Parliament to free travel",
+        "icon": "lucide:train-front",
+        "body": {
+          "support": "Every year, young Victorians go to **Parliament House** for **Youth Parliament**. They write ideas for new laws. Then they debate them.\n\nIn **2024**, a team argued that students should ride public transport for **free**. Their idea passed.\n\nIn **2025**, the Victorian Government said it would make public transport free for everyone under 18. It started on **1 January 2026**. More than **one million** young people can now travel free.\n\nThe YMCA says the idea started at Youth Parliament.\n\nYoung people stood up, made their case, and it happened. Your voice counts.",
+          "core": "Every year, the **YMCA Victoria Youth Parliament** brings young Victorians to **Parliament House** in Melbourne. It has run since **1987**. Teams write their own **bills** (ideas for new laws). Then they stand up and debate them, just like real MPs.\n\nBills that pass Youth Parliament are handed to the **Minister for Youth** and tabled in the real Parliament. That doesn't make them law. But it does put young people's ideas in front of decision-makers.\n\nAt the **2024** Youth Parliament, a team from **Boroondara** put forward the **Student Public Transport Concession Bill 2024**. They argued for free public transport for students. The bill passed.\n\nIn its **2025/26 Budget**, the Victorian Government announced free public transport for everyone under 18. On **1 January 2026**, it began. Young Victorians can now ride trains, trams and buses for free with a Youth myki. The government said more than **one million** young people were eligible.\n\nYMCA Victoria says the idea started at Youth Parliament. The government's announcements didn't mention it. Either way, young people had stood up in Parliament House, argued for it with evidence, and won the vote, before it became real.\n\nOther ideas debated at Youth Parliament have also helped shape laws over the years. The Victorian Government has named laws on bike helmets and roadside drug testing.",
+          "extend": "Since **1987**, the **YMCA Victoria Youth Parliament** has brought young Victorians to **Parliament House** each year. Teams write their own **bills**, then debate them in the chambers under real parliamentary rules.\n\nBills that pass are handed to the **Minister for Youth** and tabled in the Victorian Parliament. That doesn't make them law. But it puts young people's ideas in front of decision-makers.\n\nAt the **2024** Youth Parliament, a team from **Boroondara** introduced the **Student Public Transport Concession Bill 2024**. It argued for free public transport for students. The bill passed.\n\nIn its **2025/26 Budget**, the Victorian Government announced free public transport for everyone under 18. It began on **1 January 2026**. Young people can now ride trains, trams and buses for free with a Youth myki. The government said more than **one million** young Victorians were eligible.\n\nYMCA Victoria says the policy started at Youth Parliament. The government's announcements didn't mention it. Either way, young people had made the case formally, with evidence, and won a vote before the policy was adopted.\n\nThe Victorian Government has also said that earlier Youth Parliament bills helped shape laws on bike helmets and roadside drug testing."
+        },
+        "source": {
+          "name": "YMCA Victoria — Youth Parliament idea becomes reality as under 18s now travel free (February 2026)",
+          "url": "https://victoria.ymca.org.au/news-and-events/2026/02/19/free-travel-for-under-18s-in-vic"
+        },
+        "think": {
+          "support": [
+            "What did the young people argue for?",
+            "What would you argue for?"
+          ],
+          "core": [
+            "What did the Youth Parliament team argue for? What happened next?",
+            "Why might the government not have mentioned Youth Parliament?",
+            "What issue would **you** take to Youth Parliament? Who would you need to convince?"
+          ]
+        },
+        "vc": [
+          "VM-U2O2-KS4"
+        ],
+        "vcNote": "A real Victorian example of young people presenting a point of view that led to change."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Cue cards for a speech",
+      "docTitle": "CUE CARDS — “A LATE BUS FOR RIVERSIDE” (EXAMPLE)",
+      "vc": [
+        "VM-U2O2-KS4",
+        "VM-U2O2-KS6"
+      ],
+      "vcNote": "Structuring a persuasive speech with evidence, and planning delivery.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Card 1: hook",
+          "value": "11pm. Shift's over. Last bus left an hour ago. [PAUSE · LOOK UP]",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Card 1: contention",
+          "value": "Riverside needs a late-night weekend bus."
+        },
+        {
+          "n": 3,
+          "label": "Card 2: reason 1",
+          "value": "Safety. Walking home alone at night. [Source: council youth survey]"
+        },
+        {
+          "n": 4,
+          "label": "Card 3: reason 2",
+          "value": "Jobs. Many young people work late in hospitality. [SLOW]"
+        },
+        {
+          "n": 5,
+          "label": "Card 4: rebuttal",
+          "value": "“Too expensive”? Compare: cost of one trial vs. cost of one serious crash."
+        },
+        {
+          "n": 6,
+          "label": "Card 4: call to action",
+          "value": "Vote YES to a 12-month trial. [OPEN HANDS · LOOK UP]",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "A scene the audience can picture. Pause after it."
+        },
+        {
+          "n": 2,
+          "label": "Contention",
+          "note": "One clear sentence."
+        },
+        {
+          "n": 3,
+          "label": "Reason with source",
+          "note": "Evidence, and where it came from."
+        },
+        {
+          "n": 4,
+          "label": "Second reason",
+          "note": "Signposted. Slow down for it."
+        },
+        {
+          "n": 5,
+          "label": "Rebuttal",
+          "note": "Deals with the main objection."
+        },
+        {
+          "n": 6,
+          "label": "Call to action",
+          "note": "A specific request, with eye contact."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Have your say",
+      "steps": [
+        {
+          "title": "Plan",
+          "text": "Contention, reasons, evidence.",
+          "icon": "lucide:clipboard-list"
+        },
+        {
+          "title": "Practise",
+          "text": "Out loud, with cue cards.",
+          "icon": "lucide:mic-vocal"
+        },
+        {
+          "title": "Deliver",
+          "text": "Look up, slow, pause.",
+          "icon": "lucide:mic"
+        },
+        {
+          "title": "Take questions",
+          "text": "Listen, pause, answer.",
+          "icon": "lucide:circle-help"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is a **contention**?",
+        "options": [
+          "Your point of view in one sentence",
+          "Your list of sources",
+          "Your first joke",
+          "The question time"
+        ],
+        "answer": 0,
+        "explain": "State it clearly.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "q": "What should you write on **cue cards**?",
+        "options": [
+          "Key words and delivery notes",
+          "Every word of your speech",
+          "Nothing",
+          "Your name only"
+        ],
+        "answer": 0,
+        "explain": "Key words help you look up.",
+        "vc": [
+          "VM-U2O2-KS6"
+        ]
+      },
+      {
+        "q": "Someone asks a question you can't answer. What's best?",
+        "options": [
+          "“Good question. I don't know, but I'll find out.”",
+          "Make something up",
+          "Ignore it",
+          "Get angry"
+        ],
+        "answer": 0,
+        "explain": "Honesty keeps you credible.",
+        "vc": [
+          "VM-U2O2-KS9"
+        ]
+      },
+      {
+        "q": "Where should the **call to action** go?",
+        "options": [
+          "At the end",
+          "At the very start",
+          "In the middle of a reason",
+          "Nowhere"
+        ],
+        "answer": 0,
+        "explain": "Finish with what you want them to do.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "q": "Since 1 January 2026, who can ride public transport free in Victoria?",
+        "options": [
+          "Everyone under 18",
+          "Everyone over 65 only",
+          "No one",
+          "Only Youth Parliament members"
+        ],
+        "answer": 0,
+        "explain": "With a Youth myki.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "q": "Which is the strongest way to use evidence in a speech?",
+        "options": [
+          "“According to the council's youth survey, …”",
+          "“Everyone knows that…”",
+          "“I reckon…”",
+          "“Trust me.”"
+        ],
+        "answer": 0,
+        "explain": "Name your source.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Why keep a **reference list** for a speech?",
+        "options": [
+          "So you can show where your evidence came from if asked",
+          "It makes the speech longer",
+          "It replaces cue cards",
+          "You don't need one"
+        ],
+        "answer": 0,
+        "explain": "Acknowledge your sources.",
+        "vc": [
+          "VM-U2O2-KS8"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Give a short speech (about two minutes) on something you care about. Use evidence. Answer one or two questions.",
+      "core": "Give a two- to three-minute speech on an issue you care about, backed by evidence, then answer questions from your audience.",
+      "extend": "Deliver a three-minute persuasive speech on an issue you care about, with acknowledged evidence, a clear structure including rebuttal, and controlled delivery. Respond to questions, then critically evaluate your speech and provide a reference list."
+    },
+    "checklist": [
+      "My contention is one clear sentence",
+      "I gave reasons with evidence, and named my sources",
+      "My speech has a hook, rebuttal and call to action",
+      "I used cue cards and made eye contact",
+      "I slowed down and paused",
+      "I answered questions calmly"
+    ],
+    "levelUp": "Critically evaluate your recorded speech, and write a reference list for every source you used.",
+    "vc": [
+      "VM-U2O2-KS4",
+      "VM-U2O2-KS6",
+      "VM-U2O2-KS9"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: From idea to speech",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What is a **contention**? Write an example.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS4"
+            ]
+          },
+          {
+            "q": "List the **five parts** of a persuasive speech.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS4"
+            ]
+          },
+          {
+            "q": "Name **three** tips for handling questions.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS9"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Have your say",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Cue cards for a speech",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the cue cards. Use the word bank. Why is it there?",
+          "core": "Each number marks part of the cue cards. Write what it is and why it's there."
+        },
+        "columns": [
+          "What is it?",
+          "Why is it there?"
+        ],
+        "wordBank": {
+          "support": [
+            "hook",
+            "contention",
+            "reason with source",
+            "second reason",
+            "rebuttal",
+            "call to action"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U2O2-KS4",
+          "VM-U2O2-KS6"
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: from Youth Parliament to free travel",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the Youth Parliament team argue for? What happened next?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS4"
+            ]
+          },
+          {
+            "q": "Why might the government not have mentioned Youth Parliament?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS4"
+            ]
+          },
+          {
+            "q": "What issue would **you** take to Youth Parliament? Who would you need to convince?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: plan my speech",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 18
+        },
+        "instructions": "Choose an issue you care about: in your town, school, workplace, sport or future. Find real evidence. Plan your speech.",
+        "columns": [
+          "Part",
+          "My plan"
+        ],
+        "rows": [
+          [
+            "My issue and audience",
+            ""
+          ],
+          [
+            "My contention (one sentence)",
+            ""
+          ],
+          [
+            "Hook",
+            ""
+          ],
+          [
+            "Reason 1 + evidence + source",
+            ""
+          ],
+          [
+            "Reason 2 + evidence + source",
+            ""
+          ],
+          {
+            "cells": [
+              "Reason 3 + evidence + source",
+              ""
+            ],
+            "levels": [
+              "extend"
+            ]
+          },
+          [
+            "Rebuttal: Some people say… but…",
+            ""
+          ],
+          [
+            "Call to action",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U2O2-KS4"
+        ],
+        "vcNote": "Structuring a point of view with evidence."
+      },
+      {
+        "type": "table",
+        "title": "My cue cards",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 32,
+          "core": 30
+        },
+        "instructions": "Turn your plan into four cue cards. Write **key words only**. Add delivery notes: / for a pause, words to stress, SLOW, LOOK UP.",
+        "columns": [
+          "Card",
+          "Key words",
+          "Delivery notes"
+        ],
+        "rows": [
+          [
+            "1. Hook and contention",
+            "",
+            ""
+          ],
+          [
+            "2. Reason 1",
+            "",
+            ""
+          ],
+          [
+            "3. Reason 2",
+            "",
+            ""
+          ],
+          [
+            "4. Rebuttal and call to action",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U2O2-KS6",
+          "VM-U2O2-KK5"
+        ],
+        "vcNote": "Planning delivery: eye contact, pace, pauses and emphasis."
+      },
+      {
+        "type": "table",
+        "title": "Get ready for questions",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "What might your audience ask? Plan short answers, with evidence where you can. The first one is an example.",
+        "columns": [
+          "A question I might get",
+          "My answer"
+        ],
+        "rows": [
+          [
+            "Who would pay for the late bus?",
+            "A 12-month trial could be shared by council and the bus company. If it works, fares would help cover it."
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O2-KS9",
+          "VM-U2O2-KS4"
+        ],
+        "vcNote": "Preparing to listen and respond to questions."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: have your say",
+        "pagebreak": true,
+        "where": "in class, or to a real audience",
+        "instructions": "Give your speech to the class, or to a real audience (your school council, SRC, a teacher panel or a local youth forum). Then take two questions.",
+        "need": [
+          "your cue cards",
+          "a timer",
+          "someone to record (optional)"
+        ],
+        "steps": {
+          "support": [
+            "Practise out loud twice.",
+            "Give your speech. Look up and slow down.",
+            "Answer one or two questions.",
+            "Ask a friend what went well.",
+            "What will you change next time?"
+          ],
+          "core": [
+            "Practise out loud at least twice, with a timer.",
+            "Deliver your speech: look up, slow down, pause before key points.",
+            "Take **two questions**. Listen to each whole question, pause, then answer.",
+            "Record it, or ask a classmate to note your strengths.",
+            "Watch or think back: one thing that worked, one thing to change."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My issue and audience:",
+            "lines": 1
+          },
+          {
+            "label": "A question I was asked, and my answer:",
+            "lines": 2
+          },
+          {
+            "label": "Feedback I got:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Teacher saw it",
+          "Recording",
+          "Cue cards"
+        ],
+        "vc": [
+          "VM-U2O2-KS6",
+          "VM-U2O2-KS4",
+          "VM-U2O2-KS9",
+          "VM-U2O2-KK5"
+        ],
+        "vcNote": "Hands-on: presenting a point of view with evidence and responding to questions."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Critically evaluate your speech. Rate yourself on **argument** (contention, evidence, structure) and **delivery** (eye contact, pace, pauses, tone). Give a specific example for each, and say what you'd change.",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS7"
+            ]
+          },
+          {
+            "q": "Write a **reference list** for every source you used: who, title, date and link.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS8"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can give my view with evidence.",
+          "I can plan a strong speech.",
+          "I can use my voice and body well.",
+          "I can answer questions calmly."
+        ],
+        "questions": [
+          "The issue I spoke about:",
+          "Where I could have my say for real:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The Have Your Say boss level. Students plan, prepare and deliver a two- to three-minute persuasive speech on an issue they care about, with evidence and acknowledged sources, a clear structure (hook, contention, reasons, rebuttal, call to action), cue cards with delivery notes, and controlled delivery. They prepare for and answer audience questions. The case study is the YMCA Victoria Youth Parliament: a 2024 bill for free student public transport passed, and free travel for all under-18s began on 1 January 2026.",
+    "prep": [
+      "If possible, arrange a real audience: the school council, SRC, a teacher panel, or a local council youth officer.",
+      "Provide index cards for cue cards.",
+      "Have a list of issue ideas ready for students who get stuck (local transport, school facilities, youth jobs, a sport or club issue)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — From idea to speech",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** the Youth Parliament story.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Cue cards (10 min).**",
+          "**Case study (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan",
+        "minutes": 50,
+        "steps": [
+          "**Choose an issue (5 min).**",
+          "**Research (25 min):** find evidence and record sources.",
+          "**Final mission (20 min):** plan my speech."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Prepare",
+        "minutes": 50,
+        "steps": [
+          "**Cue cards (20 min).**",
+          "**Questions (10 min).**",
+          "**Practise in pairs (20 min):** partners ask practice questions."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Have your say",
+        "minutes": 60,
+        "steps": [
+          "**Do it (45 min):** speeches and questions.",
+          "**Level Up, reflect (15 min):** evaluate; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "A contention is your point of view in one sentence.",
+      "Back two or three reasons with reliable evidence, and acknowledge sources aloud.",
+      "Structure: hook, contention, reasons, rebuttal, call to action.",
+      "Cue cards: key words and delivery notes, not a script.",
+      "Delivery: posture, eye contact, pace, pauses, intonation.",
+      "Questions: listen fully, pause, answer briefly; it's fine to say you'll find out.",
+      "Youth Parliament's 2024 student transport bill passed; free public transport for under-18s began on 1 January 2026."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the cue cards.",
+        "A two-minute speech with two reasons.",
+        "Answer one question; allow a partner to co-present."
+      ],
+      "extend": [
+        "A three-minute speech with three reasons.",
+        "Critical self-evaluation and a reference list (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U2O2-KS4",
+        "evidence": "Provides evidence and argues a point of view persuasively (plan, speech)."
+      },
+      {
+        "vc": "VM-U2O2-KS6",
+        "evidence": "Uses body language, eye contact, gestures, pace and intonation appropriately (cue cards, Do it)."
+      },
+      {
+        "vc": "VM-U2O2-KK5",
+        "evidence": "Plans and applies the elements of oral communication (cue cards, Do it)."
+      },
+      {
+        "vc": "VM-U2O2-KS9",
+        "evidence": "Listens to and answers audience questions effectively (questions table, Do it)."
+      },
+      {
+        "vc": "VM-U2O2-KS7",
+        "evidence": "Level Up: critically evaluates their own speech."
+      },
+      {
+        "vc": "VM-U2O2-KS8",
+        "evidence": "Level Up: references and acknowledges sources."
+      }
+    ],
+    "answers": "**Check your reading:** a contention is your point of view in one sentence (e.g. Riverside needs a late-night weekend bus). Hook, contention, reasons (with evidence), rebuttal, call to action. Listen to the whole question, pause, answer briefly, say you'll find out if you don't know, stay calm.\n\n**Cue cards:** 1 hook; 2 contention; 3 reason with source; 4 second reason (signposted, slow); 5 rebuttal; 6 call to action.\n\n**Case study:** the 2024 team argued for free student public transport; the bill passed; the government announced free travel for under-18s in its 2025/26 Budget, starting 1 January 2026. Answers will vary on why the government didn't credit it (e.g. it was a budget decision with many inputs).",
+    "resources": [
+      {
+        "label": "YMCA Victoria — Youth Parliament idea becomes reality as under 18s now travel free",
+        "url": "https://victoria.ymca.org.au/news-and-events/2026/02/19/free-travel-for-under-18s-in-vic"
+      },
+      {
+        "label": "Premier of Victoria — One million young Victorians now travelling for free",
+        "url": "https://www.premier.vic.gov.au/one-million-young-victorians-now-travelling-free"
+      },
+      {
+        "label": "Parliament of Victoria — Youth Parliament news",
+        "url": "https://www.parliament.vic.gov.au/news/general-news/yp24closing"
+      }
+    ],
+    "realityCheck": [
+      "**Choosing an issue is the hardest part.** Give a list; let students speak about work, sport or their town.",
+      "**Real audiences raise the stakes, in a good way.** Even one guest makes it feel real.",
+      "**Questions scare students most.** Practise them in pairs first.",
+      "**Keep recordings private.** They're for self-evaluation, not sharing.",
+      "**Works in a real class:** yes. A strong finish to Unit 2, and good practice for the capstones."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the cue cards, a two-minute speech with two reasons, and one or two questions.",
+      "core": "Standard version: from idea to speech, cue cards with delivery notes, the Youth Parliament case, planning with evidence, preparing for questions, and delivering a speech with Q&A.",
+      "extend": "Adds acknowledge and credible to the vocabulary, a quiz question on references, a three-minute speech with three reasons, and Level Ups on critical self-evaluation and a reference list."
+    }
+  }
+}

@@ -1,0 +1,897 @@
+{
+  "id": "vm-debate-ready",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Since 1993, TV election debates have had a line on the screen called the worm. It goes up when people like what they hear. It goes down when they don't. Does it pick the best argument?",
+      "core": "Since 1993, Australian TV has run a wiggly line across the bottom of the screen during election debates. It's called the worm. It goes up when a studio audience likes what they hear, and down when they don't. Leaders have learned to play to it. But does the worm reward the best argument, or just the best performance?"
+    },
+    "why": {
+      "support": "A debate has rules. Learn to listen, answer back with evidence, and stay calm. It helps in class, at work and in life.",
+      "core": "A debate isn't a fight. It has rules: who speaks when, how long, and how you respond to the other side. Knowing the rules, listening closely, and answering with evidence will help you in class debates, team meetings, interviews and any time you need to stand your ground without losing it.",
+      "extend": "Debate is structured disagreement. Its conventions (roles, timing, rebuttal and respectful questioning) let people test ideas without personal conflict. Active listening, evidence-based argument and clear linking of ideas are the skills that win debates, and they transfer directly to meetings, negotiations and interviews."
+    },
+    "canDo": {
+      "support": [
+        "I can explain how a debate works.",
+        "I can listen and take notes.",
+        "I can answer back with a reason.",
+        "I can argue my point with evidence."
+      ],
+      "core": [
+        "I can explain the **rules** of a debate.",
+        "I can **listen** to the other side and take notes.",
+        "I can **rebut** an argument with evidence, not insults.",
+        "I can argue a point **persuasively**, with evidence."
+      ]
+    },
+    "showIt": "Take part in a class debate: argue your side with evidence, listen to the other team, rebut their points, and stay within the rules.",
+    "vocab": [
+      {
+        "word": "debate",
+        "meaning": "a contest where two sides argue about a topic",
+        "example": "The debate was about phones at work."
+      },
+      {
+        "word": "topic",
+        "meaning": "what the debate is about, starting with “That…”",
+        "example": "The topic was “That phones should be banned at work.”"
+      },
+      {
+        "word": "affirmative",
+        "meaning": "the team that agrees with the topic",
+        "example": "The affirmative spoke first."
+      },
+      {
+        "word": "negative",
+        "meaning": "the team that disagrees with the topic",
+        "example": "The negative said the ban wouldn't work."
+      },
+      {
+        "word": "rebuttal",
+        "meaning": "showing why the other side's argument is wrong",
+        "example": "Her rebuttal used a real example."
+      },
+      {
+        "word": "chair",
+        "meaning": "the person who runs the debate",
+        "example": "The chair called the first speaker."
+      },
+      {
+        "word": "adjudicator",
+        "meaning": "the judge in a debate",
+        "example": "The adjudicator gave the win to the negative.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "linking words",
+        "meaning": "words that show how ideas connect, like “however”",
+        "example": "“As a result” is a linking word.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Debate Ready in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Debate Ready",
+        "sub": "Listen. Question. Respond.",
+        "icon": "lucide:swords",
+        "say": "Debate ready. Listen, question, respond, without losing it."
+      },
+      {
+        "kind": "stat",
+        "big": "1993",
+        "title": "the year the worm first wriggled across Australian TV",
+        "sub": "Keating vs Hewson debate",
+        "say": "In 1993, Channel Nine put a line called the worm on screen during an election debate. It showed how a studio audience of undecided voters reacted, second by second.",
+        "vc": [
+          "VM-U2O2-KK6"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Two sides, one topic",
+        "text": "Affirmative vs **negative**",
+        "icon": "lucide:scale",
+        "say": "A debate has two sides. The affirmative agrees with the topic. The negative disagrees. A chair runs it, and an adjudicator judges it.",
+        "vc": [
+          "VM-U2O2-KK6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Debate",
+        "pillIcon": "lucide:swords",
+        "title": "Listen and note",
+        "text": "They said…",
+        "icon": "lucide:ear",
+        "say": "Listen. While they speak, write down their main points.",
+        "vc": [
+          "VM-U2O2-KK6",
+          "VM-U2O2-KS9"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Debate",
+        "pillIcon": "lucide:swords",
+        "title": "Rebut",
+        "text": "But… **because**…",
+        "icon": "lucide:reply",
+        "say": "Rebut. They said this, but here's why it doesn't hold up, because of this evidence.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Debate",
+        "pillIcon": "lucide:swords",
+        "title": "Argue",
+        "text": "Point · Evidence · **Explain**",
+        "icon": "lucide:layers",
+        "say": "Argue. Make your point, back it with evidence, and explain why it matters.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Debate",
+        "pillIcon": "lucide:swords",
+        "title": "Play fair",
+        "text": "Argument, **not** person",
+        "icon": "lucide:handshake",
+        "say": "Play fair. Attack the argument, not the person. Stick to your time.",
+        "vc": [
+          "VM-U2O2-KK6"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "In every debate",
+        "steps": [
+          "Listen and note",
+          "Rebut with evidence",
+          "Make your case"
+        ],
+        "say": "Listen and note, rebut with evidence, then make your own case."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Win the **argument**.",
+        "icon": "lucide:swords",
+        "say": "Your mission. Take part in a class debate, and see if you can win over the worm."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How a debate works",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A **debate** is a contest between two teams. They argue about a **topic**. Topics start with *“That…”*.\n\n**The teams.** The **affirmative** agrees with the topic. The **negative** disagrees. They take turns to speak.\n\n**The rules.**\n\n- A **chair** runs the debate.\n- Each speaker has a time limit.\n- No one interrupts.\n- A judge picks the winner.\n\n**Make a point.**\n\n- Say your point.\n- Give evidence: a fact or example.\n- Explain why it matters.\n\n**Listen.** While the other team talks, write down their points.\n\n**Answer back.** Say: *“They said ___. **But** ___, **because** ___.”* That's a **rebuttal**.\n\nAttack the idea, not the person.\n\n**Good questions** are short: *“How do you know?”*",
+          "core": "A **debate** is a contest between two teams about a **topic**. Topics start with *“That…”*, like *“That phones should be banned at work.”*\n\n**The teams.** The **affirmative** agrees with the topic. The **negative** disagrees. Each team usually has three speakers, and they take turns: affirmative, negative, affirmative, negative.\n\n**The rules.** A **chair** runs the debate and calls each speaker. Speakers have a time limit. Nobody interrupts. You speak to the chair and the audience, not to the other team. An **adjudicator** (judge) decides who wins, usually on:\n\n- **what** you said: your arguments and evidence\n- **how** you said it: your voice, eye contact and confidence\n- **how it fits together**: your structure and teamwork.\n\n**Making an argument.** Use **point, evidence, explain**:\n\n- **Point:** *“Our first argument is that a ban is unfair to workers with families.”*\n- **Evidence:** a fact, example or expert.\n- **Explain:** why it matters, and how it proves your side.\n\n**Listening.** While the other team speaks, write down their main points. You can't answer what you didn't hear.\n\n**Rebuttal.** This is where debates are won. Take their point, then show why it doesn't hold up:\n\n*“They said ___. **But** ___, **because** ___. **So** ___.”*\n\nAttack the **argument**, never the **person**.\n\n**Questions.** In some debates and discussions, you can ask the other side questions. Good questions are short and fair: *“What evidence shows that?”* or *“How would that work for night-shift workers?”*\n\n**Linking words** help listeners follow you: *firstly*, *furthermore*, *however*, *as a result*, *this shows that*.",
+          "extend": "A **debate** is a contest with rules between two teams. They argue about a **topic**, written as a statement: *“That phones should be banned at work.”*\n\n**Roles and order.** The **affirmative** supports the topic; the **negative** opposes it. Teams usually have three speakers who alternate. The first speakers define the topic and set out each team's case. Middle speakers develop arguments. Final speakers focus on rebuttal and summary.\n\n**Conventions.** A **chair** runs the debate and calls each speaker. Speeches are timed. In most school debates, you can't interrupt. Speakers talk to the chair and audience, not to the other team. An **adjudicator** judges:\n\n- **matter:** the quality of arguments and evidence\n- **manner:** delivery, including voice, eye contact and presence\n- **method:** structure, responsiveness and teamwork.\n\n**Building an argument.** Use **point, evidence, explain**: state a clear claim, support it with relevant evidence, and explain how it proves your case.\n\n**Active listening.** Note the other team's arguments as they speak. Good rebuttal depends on hearing exactly what was said, not what you expected.\n\n**Rebuttal.** Find a flaw, such as weak evidence, faulty reasoning or a missing view. Then respond: *“The negative claimed ___. **However**, ___, **because** ___. **Therefore** ___.”* Target the argument, never the speaker.\n\n**Questioning.** Where the rules allow, short, fair questions can expose a weak point: *“What evidence supports that?”*\n\n**Linking words** signal how ideas connect: *firstly*, *furthermore*, *however*, *as a result*, *this demonstrates*."
+        },
+        "vc": [
+          "VM-U2O2-KK6",
+          "VM-U2O2-KS4",
+          "VM-U2O2-KS9"
+        ],
+        "vcNote": "The conventions of debate, including active listening and questioning; arguing a point of view with evidence."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The worm",
+        "icon": "lucide:activity",
+        "body": {
+          "support": "In **1993**, two leaders had a TV debate before an election. Channel Nine added something new: **the worm**.\n\nThe worm was a line on the screen. It went up and down. It showed how a group of voters felt, second by second.\n\nIn **2007**, the people running the debate said: no worm. Channel Nine used it anyway. So they **cut** Nine's feed! Nine kept going using another network's feed.\n\nIn **2010**, the worm said Julia Gillard won, **63% to 37%**. But some newspaper writers said Tony Abbott won.\n\nWho was right? The worm shows how people feel. A judge looks at the arguments and evidence. A good debater needs both.",
+          "core": "In **1993**, Prime Minister Paul Keating and Opposition Leader John Hewson faced off in a televised election debate. Channel Nine added something new: **the worm**.\n\nThe worm was a line across the bottom of the screen. It rose and fell with the live reactions of a studio group of **undecided voters**. Viewers at home could see, second by second, which lines worked and which fell flat.\n\nThe worm became a regular part of election debates. It also caused fights about the rules.\n\nIn **2007**, the **National Press Club** hosted the debate between John Howard and Kevin Rudd. Its rules said networks couldn't use the worm. Channel Nine used it anyway. During the debate, the feed to Nine was **cut**. Nine switched to another network's feed and kept the worm on screen.\n\nBy **2010**, the rule had been dropped. In the debate between Julia Gillard and Tony Abbott, Nine's worm gave Gillard a clear win, **63% to 37%**. But many newspaper commentators saw it as close, and some said Abbott won.\n\nSo who was right? The worm shows how an audience *feels*, moment by moment. It reacts to tone, confidence and attacks. An adjudicator looks at the whole case: the arguments, the evidence and the rebuttal.\n\nA good debater needs to win both.",
+          "extend": "During the **1993** election campaign, Prime Minister Paul Keating and Opposition Leader John Hewson met in a televised debate. The Nine Network introduced a new feature: **the worm**.\n\nThe worm was a line that moved across the bottom of the screen, rising and falling with the real-time reactions of a studio group of **uncommitted voters**. Viewers could see which lines landed and which fell flat.\n\nThe worm became a fixture of election debates, and a source of conflict over the rules.\n\nIn **2007**, the **National Press Club** hosted the debate between John Howard and Kevin Rudd, under rules that barred networks from using the worm. Nine broadcast it anyway. Mid-debate, Nine's feed was **cut**. The network switched to another broadcaster's feed and kept the worm on screen.\n\nBy **2010** the restriction had been lifted. In the Gillard–Abbott debate, Nine's worm favoured Julia Gillard **63% to 37%**, yet many commentators judged the debate close, and some called it for Tony Abbott.\n\nThe gap reveals two ways of judging a debate. The worm measures moment-by-moment audience reaction, which responds strongly to tone, confidence and attack lines. An adjudicator weighs the whole case: the arguments, the evidence and the quality of rebuttal. Effective debaters aim to win on both."
+        },
+        "source": {
+          "name": "SBS News — “Worm will be against me”: Abbott (July 2010)",
+          "url": "https://www.sbs.com.au/news/article/worm-will-be-against-me-abbott/bje8jzuez"
+        },
+        "think": {
+          "support": [
+            "What did the worm show?",
+            "Who should pick the winner: the audience or a judge? Why?"
+          ],
+          "core": [
+            "What did the worm measure? What didn't it measure?",
+            "Why might the National Press Club have banned the worm in 2007?",
+            "Should a debate be judged by the audience's feelings or by the arguments? Why?"
+          ]
+        },
+        "vc": [
+          "VM-U2O2-KK6"
+        ],
+        "vcNote": "A real Australian example of how debates are judged, and the rules around them."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a debate speech",
+      "docTitle": "SECOND NEGATIVE SPEECH — “THAT PHONES SHOULD BE BANNED AT WORK” (EXAMPLE)",
+      "vc": [
+        "VM-U2O2-KK6",
+        "VM-U2O2-KS4",
+        "VM-U2O2-KS5"
+      ],
+      "vcNote": "The conventions and structure of a debate speech, including rebuttal and linking words.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Opening",
+          "value": "Chair, adjudicator, ladies and gentlemen."
+        },
+        {
+          "n": 2,
+          "label": "Rebuttal",
+          "value": "The affirmative said phones distract workers. But a full ban isn't needed, because clear rules, like phones in lockers on the shop floor, stop that.",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Team line",
+          "value": "Our team says: set fair rules, don't ban."
+        },
+        {
+          "n": 4,
+          "label": "Point",
+          "value": "My argument is about safety. Many workers need their phone in an emergency."
+        },
+        {
+          "n": 5,
+          "label": "Evidence",
+          "value": "For example, a parent may need to be reached if their child is sick at school."
+        },
+        {
+          "n": 6,
+          "label": "Link",
+          "value": "As a result, a total ban would hurt workers and their families. That's why we oppose this topic.",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Address the chair",
+          "note": "Debate convention: speak to the chair and audience."
+        },
+        {
+          "n": 2,
+          "label": "Rebuttal",
+          "note": "They said… But… because…"
+        },
+        {
+          "n": 3,
+          "label": "Team line",
+          "note": "Reminds everyone of the team's case."
+        },
+        {
+          "n": 4,
+          "label": "Point",
+          "note": "A clear claim, signposted."
+        },
+        {
+          "n": 5,
+          "label": "Evidence",
+          "note": "An example that backs it up."
+        },
+        {
+          "n": 6,
+          "label": "Linking words",
+          "note": "“As a result” and “That's why” connect ideas."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "In every debate",
+      "steps": [
+        {
+          "title": "Listen and note",
+          "text": "Write their points.",
+          "icon": "lucide:ear"
+        },
+        {
+          "title": "Rebut",
+          "text": "They said… But… because…",
+          "icon": "lucide:reply"
+        },
+        {
+          "title": "Make your case",
+          "text": "Point, evidence, explain.",
+          "icon": "lucide:layers"
+        },
+        {
+          "title": "Play fair",
+          "text": "Argument, not person.",
+          "icon": "lucide:handshake"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "In a debate, the **affirmative** team…",
+        "options": [
+          "Agrees with the topic",
+          "Disagrees with the topic",
+          "Runs the debate",
+          "Judges the debate"
+        ],
+        "answer": 0,
+        "explain": "The negative disagrees.",
+        "vc": [
+          "VM-U2O2-KK6"
+        ]
+      },
+      {
+        "q": "What is a **rebuttal**?",
+        "options": [
+          "Showing why the other side's argument doesn't hold up",
+          "Agreeing with the other side",
+          "Introducing yourself",
+          "Asking the chair for more time"
+        ],
+        "answer": 0,
+        "explain": "They said… But… because…",
+        "vc": [
+          "VM-U2O2-KK6",
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "q": "Why take notes while the other team speaks?",
+        "options": [
+          "So you can rebut exactly what they said",
+          "To look busy",
+          "To copy their ideas",
+          "You shouldn't"
+        ],
+        "answer": 0,
+        "explain": "Active listening wins debates.",
+        "vc": [
+          "VM-U2O2-KS9"
+        ]
+      },
+      {
+        "q": "Which is a **fair** rebuttal?",
+        "options": [
+          "“They said phones distract workers, but rules can fix that, because…”",
+          "“They're just kids, so who cares?”",
+          "“That's stupid.”",
+          "Talking over them"
+        ],
+        "answer": 0,
+        "explain": "Attack the argument, not the person.",
+        "vc": [
+          "VM-U2O2-KK6"
+        ]
+      },
+      {
+        "q": "What did the TV **worm** measure?",
+        "options": [
+          "How a studio audience of undecided voters reacted, moment by moment",
+          "Who had the best evidence",
+          "How long each speaker talked",
+          "The number of votes"
+        ],
+        "answer": 0,
+        "explain": "Feelings, not the whole case.",
+        "vc": [
+          "VM-U2O2-KK6"
+        ]
+      },
+      {
+        "q": "Which is the best structure for an argument?",
+        "options": [
+          "Point, evidence, explain",
+          "Insult, shout, sit down",
+          "Joke, joke, joke",
+          "Explain, then forget the point"
+        ],
+        "answer": 0,
+        "explain": "Make it, back it, explain it.",
+        "vc": [
+          "VM-U2O2-KS4"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "Which **linking word** signals a contrast?",
+        "options": [
+          "However",
+          "Furthermore",
+          "As a result",
+          "Firstly"
+        ],
+        "answer": 0,
+        "explain": "“However” shows a turn in the argument.",
+        "vc": [
+          "VM-U2O2-KS5"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Join a class debate. Make your point with evidence. Listen. Answer back fairly.",
+      "core": "Take part in a class debate: argue your side with evidence, listen to the other team, rebut their points, and stay within the rules.",
+      "extend": "Take part in a formal class debate: present a structured case with evidence, take notes and rebut the opposition, use linking words to connect ideas, and reflect on how the audience's reaction compared with the adjudication."
+    },
+    "checklist": [
+      "I know my team's case",
+      "I made a point with evidence",
+      "I took notes on the other team",
+      "I rebutted at least one of their points",
+      "I attacked the argument, not the person",
+      "I kept to time and didn't interrupt"
+    ],
+    "levelUp": "Rewrite a paragraph using linking words to show how ideas connect, and explain what each linking word signals.",
+    "vc": [
+      "VM-U2O2-KK6",
+      "VM-U2O2-KS4",
+      "VM-U2O2-KS9"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How a debate works",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What's the difference between the **affirmative** and the **negative**?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK6"
+            ]
+          },
+          {
+            "q": "Name **three** rules of a debate.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK6"
+            ]
+          },
+          {
+            "q": "Write the **rebuttal** sentence pattern.",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "In every debate",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a debate speech",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the speech. Use the word bank. What does it do?",
+          "core": "Each number marks part of the speech. Write what it is and what it does."
+        },
+        "columns": [
+          "What is it?",
+          "What does it do?"
+        ],
+        "wordBank": {
+          "support": [
+            "address the chair",
+            "rebuttal",
+            "team line",
+            "point",
+            "evidence",
+            "linking words"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VM-U2O2-KK6",
+          "VM-U2O2-KS4"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Fair play or foul?",
+        "pagebreak": true,
+        "choices": [
+          "Fair",
+          "Foul"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Is each move fair debating, or a foul? Tick one, and say why.",
+        "cards": [
+          {
+            "from": "Rebuttal",
+            "text": "“The affirmative said phones distract workers. But their own example shows rules can fix that.”",
+            "answer": "Fair",
+            "flags": "Takes on the argument with evidence."
+          },
+          {
+            "from": "Rebuttal",
+            "text": "“You're only saying that because you're a kid.”",
+            "answer": "Foul",
+            "flags": "Attacks the person."
+          },
+          {
+            "from": "During a speech",
+            "text": "Calling out “That's rubbish!” while the other team is speaking",
+            "answer": "Foul",
+            "flags": "Interrupting breaks the rules."
+          },
+          {
+            "from": "Question",
+            "text": "“Could you explain what you mean by ‘fair’?”",
+            "answer": "Fair",
+            "flags": "A short, fair question."
+          },
+          {
+            "from": "Timing",
+            "text": "Talking for two minutes past your time",
+            "answer": "Foul",
+            "flags": "Time limits are part of the rules.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "End of debate",
+            "text": "Thanking the other team and shaking hands",
+            "answer": "Fair",
+            "flags": "Respect for the other side.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O2-KK6"
+        ],
+        "vcNote": "The conventions of debate, including respectful rebuttal and questioning."
+      },
+      {
+        "type": "table",
+        "title": "Flow sheet: listen and rebut",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "Topic: *That phones should be banned at work.* You're on the **negative**. Here's what the affirmative said. Write a rebuttal for each. The first one is done for you.",
+        "columns": [
+          "They said",
+          "Our rebuttal: But… because…"
+        ],
+        "rows": [
+          [
+            "Phones distract workers and cause mistakes.",
+            "But a full ban isn't needed, because rules like phones in lockers on the floor stop distraction."
+          ],
+          [
+            "Customers think staff on phones are lazy.",
+            ""
+          ],
+          [
+            "A ban is the only fair rule for everyone.",
+            ""
+          ],
+          {
+            "cells": [
+              "Phones are a safety risk around machines.",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VM-U2O2-KS4",
+          "VM-U2O2-KS9"
+        ],
+        "vcNote": "Active listening and rebutting with evidence."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the worm",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the worm measure? What **didn't** it measure?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK6"
+            ]
+          },
+          {
+            "q": "Why might the National Press Club have banned the worm in 2007?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KK6"
+            ]
+          },
+          {
+            "q": "Should a debate be judged by the audience's feelings, or by the arguments? Why?",
+            "lines": 2,
+            "vc": [
+              "VM-U2O2-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: debate with a human worm",
+        "pagebreak": true,
+        "where": "in class",
+        "instructions": "Hold a class debate. Two teams of three argue a topic. Everyone else is the **human worm**: every 30 seconds, they hold up a score from 1 (not convinced) to 5 (convinced).",
+        "need": [
+          "a topic (your teacher can suggest one)",
+          "score cards 1 to 5",
+          "a timer",
+          "a chair and an adjudicator"
+        ],
+        "steps": {
+          "support": [
+            "Join a team. Plan your point and evidence.",
+            "Take turns to speak. Two minutes each.",
+            "Write down the other team's points.",
+            "Answer back one point.",
+            "Did the worm and the judge agree?"
+          ],
+          "core": [
+            "Form teams, pick speakers, and plan your case: three points with evidence.",
+            "The chair runs the debate: affirmative, negative, affirmative, negative, and so on. Two minutes each.",
+            "While you're not speaking, fill in a **flow sheet** of the other team's points.",
+            "Rebut at least one point in your speech.",
+            "Compare the human worm with the adjudicator's decision. Did they agree?"
+          ]
+        },
+        "notes": [
+          {
+            "label": "Topic and my side:",
+            "lines": 1
+          },
+          {
+            "label": "My point and evidence:",
+            "lines": 1
+          },
+          {
+            "label": "A point I rebutted:",
+            "lines": 1
+          },
+          {
+            "label": "Worm vs adjudicator:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Teacher saw it",
+          "Flow sheet",
+          "Notes"
+        ],
+        "vc": [
+          "VM-U2O2-KS9",
+          "VM-U2O2-KS4",
+          "VM-U2O2-KK6"
+        ],
+        "vcNote": "Hands-on: participating in a debate, listening and arguing with evidence."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Rewrite this paragraph using **linking words** (for example *furthermore*, *however*, *as a result*, *this shows*): *“Teenagers need more sleep. School starts early. Students are tired. They don't learn as well. A later start would help.”*",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS5"
+            ]
+          },
+          {
+            "q": "Explain what **each** linking word you used tells the listener about how the ideas connect.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U2O2-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can explain the rules of a debate.",
+          "I can listen and take notes.",
+          "I can rebut with evidence.",
+          "I can argue my point persuasively."
+        ],
+        "questions": [
+          "The best rebuttal I heard:",
+          "A debate rule I'll use in real life:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the conventions of debate (topic, affirmative and negative, speaker order, the chair and adjudicator, time limits, no interruptions), how to build an argument (point, evidence, explain), how to listen and take notes on the opposition, how to rebut fairly (They said… But… because…), and how linking words connect ideas. They annotate a debate speech, sort fair and foul moves, write rebuttals on a flow sheet, and hold a class debate with a human worm. The case study is the TV worm: introduced by Channel Nine in 1993, cut from the 2007 debate feed for breaking the National Press Club's rules, and in 2010 favouring Julia Gillard 63% to 37% while many commentators judged it close.",
+    "prep": [
+      "Choose two or three debate topics students care about (e.g. That phones should be banned at work; That the school week should be four days; That P-platers shouldn't carry passengers at night).",
+      "Make score cards 1 to 5 for the human worm.",
+      "Optional: play a short clip of a televised leaders' debate with the worm."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — How a debate works",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** what makes someone win an argument?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a debate speech (15 min).**",
+          "**Fair play or foul? (10 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Listen and rebut",
+        "minutes": 50,
+        "steps": [
+          "**Flow sheet (15 min).**",
+          "**Case study (15 min):** the worm.",
+          "**Prepare (20 min):** teams, topics and three points with evidence."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Debate",
+        "minutes": 50,
+        "steps": [
+          "**Do it (35 min):** debate with a human worm.",
+          "**Debrief (5 min):** worm vs adjudicator.",
+          "**Level Up, reflect (10 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Topics start with “That…”; the affirmative agrees, the negative disagrees.",
+      "A chair runs the debate; speeches are timed; no interruptions; an adjudicator judges matter, manner and method.",
+      "Build arguments with point, evidence, explain.",
+      "Listen and take notes so you can rebut exactly what was said.",
+      "Rebut the argument, never the person: They said… But… because…",
+      "The worm (since 1993) measures moment-by-moment audience feeling, which can differ from an adjudicator's judgement of the arguments."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the speech.",
+        "Fewer sort cards and flow-sheet rows.",
+        "Give support students the first speaker role with a script frame."
+      ],
+      "extend": [
+        "Use linking words deliberately.",
+        "Compare the human worm with the adjudication (Level Up on linking words)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U2O2-KK6",
+        "evidence": "Explains and follows the conventions of debate, including active listening and questioning (sort, speech, Do it)."
+      },
+      {
+        "vc": "VM-U2O2-KS9",
+        "evidence": "Listens and participates effectively in a class debate (flow sheet, Do it)."
+      },
+      {
+        "vc": "VM-U2O2-KS4",
+        "evidence": "Provides evidence and argues a point of view persuasively, including rebuttal (flow sheet, Do it)."
+      },
+      {
+        "vc": "VM-U2O2-KS5",
+        "evidence": "Level Up: uses linking words to signal connections between ideas."
+      }
+    ],
+    "answers": "**Check your reading:** the affirmative agrees with the topic; the negative disagrees. E.g. a chair runs it, time limits, no interrupting, speak to the chair, an adjudicator judges. They said ___. But ___, because ___. So ___.\n\n**Speech:** 1 addressing the chair; 2 rebuttal; 3 team line; 4 point; 5 evidence; 6 linking words and conclusion.\n\n**Sort:** rebuttal with evidence — fair; “only a kid” — foul; calling out — foul; clarifying question — fair; over time — foul; thanking — fair.\n\n**Flow sheet (examples):** customers — but staff can be trained to keep phones away when serving, because the problem is when, not whether; only fair rule — but rules can be fair without a ban, because they apply to everyone equally; safety — but phones can be banned near machines only, because the risk is in that area.\n\n**Case study:** the worm measured audience feeling moment by moment; it didn't measure evidence, logic or rebuttal. The Press Club may have worried it would distract viewers or pressure leaders. Answers will vary.\n\n**Level Up (example):** Teenagers need more sleep. However, school starts early. As a result, students are tired, and this shows in how well they learn. Therefore, a later start would help.",
+    "resources": [
+      {
+        "label": "SBS News — “Worm will be against me”: Abbott",
+        "url": "https://www.sbs.com.au/news/article/worm-will-be-against-me-abbott/bje8jzuez"
+      },
+      {
+        "label": "Wikipedia — National Press Club (Australia): 2007 debate and the worm",
+        "url": "https://en.wikipedia.org/wiki/National_Press_Club_(Australia)"
+      },
+      {
+        "label": "BBC — Nick Bryant on the 2010 televised debate",
+        "url": "https://www.bbc.co.uk/blogs/thereporters/nickbryant/2010/07/the_televised_debate.html"
+      },
+      {
+        "label": "Debaters Association of Victoria",
+        "url": "https://www.dav.com.au"
+      }
+    ],
+    "realityCheck": [
+      "**Students may think debating is posh.** Use topics from their world (work, cars, money, phones).",
+      "**Rebuttal is hard on the spot.** The flow sheet makes it concrete; let teams huddle for 30 seconds before rebutting.",
+      "**Keep it fair.** Stop any personal attacks immediately; it's the main lesson.",
+      "**The human worm is fun.** It also starts a great discussion about feelings versus arguments.",
+      "**Works in a real class:** yes. It prepares students for Have Your Say."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the speech, fewer sort cards and flow-sheet rows, and simpler debate steps.",
+      "core": "Standard version: debate conventions, point–evidence–explain, active listening and rebuttal, a debate speech to annotate, a fair-or-foul sort, a flow sheet, the TV worm case, and a class debate with a human worm.",
+      "extend": "Adds adjudicator and linking words to the vocabulary, matter–manner–method, a quiz question on linking words, comparing the worm with the adjudication, and Level Ups on linking words."
+    }
+  }
+}
