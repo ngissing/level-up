@@ -1,0 +1,892 @@
+{
+  "id": "vpc-ad-tricks",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Four boxes of painkillers. One for back pain. One for period pain. One for migraine. One for headaches. Inside? The same tablet. A court fined the company $6 million.",
+      "core": "Four boxes of painkillers on the shelf: one for back pain, one for period pain, one for migraine, one for headaches. Different colours, different pictures, different words. Inside? The same tablet. A court said that was misleading, and the company paid $6 million. Every word and picture in an ad has a job. Can you spot what it's doing?"
+    },
+    "why": {
+      "support": "You see hundreds of ads a day. Each one wants you to buy something. Learn the tricks, and you decide.",
+      "core": "You see hundreds of ads a day: on your phone, on buses, on packaging, in shops. Each one is designed to make you feel something, want something, and buy it. When you can see the tricks, you can decide for yourself whether it's worth it.",
+      "extend": "Advertising is carefully engineered persuasion. Word choice, tone, images, colour, numbers and design all work to influence an audience. Explaining how these choices work, and what they leave out, lets you judge an ad's claims for yourself."
+    },
+    "canDo": {
+      "support": [
+        "I can spot persuasive words.",
+        "I can say how pictures and colours work.",
+        "I can say who an ad is for.",
+        "I can find what an ad hides."
+      ],
+      "core": [
+        "I can spot the **words** ads use to persuade.",
+        "I can explain how **pictures**, **colours** and **design** influence people.",
+        "I can explain how an ad's **tone** suits its audience.",
+        "I can find what an ad **leaves out**."
+      ]
+    },
+    "showIt": "Hunt for the tricks in three real ads, then remake one as an honest “truth version”.",
+    "vocab": [
+      {
+        "word": "advertisement",
+        "meaning": "a message that tries to get you to buy or do something",
+        "example": "The ad was on the side of a bus."
+      },
+      {
+        "word": "slogan",
+        "meaning": "a short, catchy phrase used again and again",
+        "example": "Their slogan was “Just do it.”"
+      },
+      {
+        "word": "emotive",
+        "meaning": "making you feel strong emotions",
+        "example": "“Heartbreaking” is an emotive word."
+      },
+      {
+        "word": "tone",
+        "meaning": "the feeling of a text: fun, serious, urgent, cool",
+        "example": "The ad had a fun, cheeky tone."
+      },
+      {
+        "word": "audience",
+        "meaning": "the people an ad is aimed at",
+        "example": "The audience was young gamers."
+      },
+      {
+        "word": "fine print",
+        "meaning": "small writing with important details",
+        "example": "The fine print said “conditions apply”."
+      },
+      {
+        "word": "testimonial",
+        "meaning": "a customer or celebrity saying how good something is",
+        "example": "The ad had a testimonial from a footy star.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "misleading",
+        "meaning": "giving the wrong idea, even if not an outright lie",
+        "example": "The packaging was misleading.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Ad Tricks in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Ad Tricks",
+        "sub": "Every word and picture has a job.",
+        "icon": "lucide:megaphone",
+        "say": "Ad tricks. Every word and picture in an ad has a job."
+      },
+      {
+        "kind": "stat",
+        "big": "$6M",
+        "title": "penalty over Nurofen Specific Pain packaging",
+        "sub": "ACCC, December 2016",
+        "say": "In 2016, the Full Federal Court ordered the maker of Nurofen to pay six million dollars. Its Specific Pain products looked different, but had the same active ingredient.",
+        "vc": [
+          "VPC-U2M1-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Ad trick",
+        "pillIcon": "lucide:megaphone",
+        "title": "Words",
+        "text": "“**Unleash** your legend”",
+        "icon": "lucide:type",
+        "say": "Words. Slogans, emotive words, and commands like buy now.",
+        "vc": [
+          "VPC-U2M1-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Ad trick",
+        "pillIcon": "lucide:megaphone",
+        "title": "Pictures",
+        "text": "Smiles · Colour · **Glow**",
+        "icon": "lucide:image",
+        "say": "Pictures and colours. Happy people, bright colours, before and after.",
+        "vc": [
+          "VPC-U2M1-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Ad trick",
+        "pillIcon": "lucide:megaphone",
+        "title": "Numbers",
+        "text": "9 out of 10 **of who?**",
+        "icon": "lucide:percent",
+        "say": "Numbers. Nine out of ten! Only a dollar a day! But nine out of ten of who?",
+        "vc": [
+          "VPC-U2M1-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Ad trick",
+        "pillIcon": "lucide:megaphone",
+        "title": "Tone",
+        "text": "Fun · Calm · **Urgent**",
+        "icon": "lucide:audio-lines",
+        "say": "Tone. Fun for teens. Calm for parents. Urgent for a sale.",
+        "vc": [
+          "VPC-U2M1-AP3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Ad trick",
+        "pillIcon": "lucide:megaphone",
+        "title": "Fine print",
+        "text": "*Conditions **apply**",
+        "icon": "lucide:search",
+        "say": "Fine print. The small writing often holds the catch.",
+        "vc": [
+          "VPC-U2M1-LG2",
+          "VPC-U2M1-AP4"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Spot the tricks",
+        "steps": [
+          "Words and tone",
+          "Pictures and numbers",
+          "Fine print"
+        ],
+        "say": "Spot the words, check the pictures and numbers, then read the fine print."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "See the **trick**.",
+        "icon": "lucide:megaphone",
+        "say": "Your mission. Hunt the tricks in real ads, then make an honest truth version."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Every word and picture has a job",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Ads are made by teams whose job is to make you want things. Nothing is there by accident.\n\n**Words**\n\n- **Slogans:** short and catchy.\n- **Emotive words:** *delicious, epic, life-changing.*\n- **Commands:** *Buy now! Don't miss out!*\n- **Science words:** *clinically proven.* Check what they mean.\n\n**Pictures and colours**\n\n- **Happy, cool people.** You link the product with that feeling.\n- **Colours:** red means sale. Green means natural.\n- **Packaging:** different boxes can make the same thing look different.\n\n**Numbers**\n\n*9 out of 10 people love it!* Nine out of ten of who?\n\n**Tone.** The **tone** is the feeling: fun, calm or urgent. It matches the **audience**.\n\n**Fine print.** The small writing. The catch is often there.\n\n**What's missing?** Ads only show the good side.",
+          "core": "Ads are made by teams of people whose job is to make you want things. Nothing in an ad is there by accident.\n\n**Words**\n\n- **Slogans:** short, catchy phrases you remember. *“Unleash your legend.”*\n- **Emotive words:** words that make you feel something. *Delicious, life-changing, heartbreaking, epic.*\n- **Commands:** they tell you what to do. *Buy now. Don't miss out. Try it today.*\n- **Questions:** *Tired of being tired?* They make you say yes in your head.\n- **Science-y words:** *clinically proven, formula, advanced.* They sound smart, but check what they actually mean.\n\n**Pictures, colours and design**\n\n- **People:** happy, attractive, sporty or cool, so you link the product with feeling that way.\n- **Colour:** red and yellow grab attention and say *sale*; green says *natural*; black and gold say *luxury*.\n- **Before and after:** shows a change, but was it really the product?\n- **Packaging:** different boxes, colours and pictures can make products seem different, even when they're not.\n\n**Numbers**\n\n*9 out of 10 people prefer it!* Nine out of ten of who? How many were asked? *Only $1 a day!* That's $365 a year.\n\n**Tone and audience.** The **tone** of an ad is its feeling: fun, cheeky, calm, serious, urgent or cool. Advertisers choose a tone that suits their **audience**. An energy drink ad for teens is loud and wild. A bank ad for parents is calm and trustworthy.\n\n**Fine print.** The **fine print** is the small writing, often marked with an asterisk (*). It's where the catch usually lives: *conditions apply*, *minimum 24-month contract*, *based on a survey of 20 people*.\n\n**What's missing?** Ads only show the good side. Ask: what aren't they telling me? Price? Side effects? What the cheaper version does?",
+          "extend": "Advertising is planned persuasion. Teams of specialists choose every element on purpose.\n\n**Language**\n\n- **Slogans:** memorable, repeated phrases.\n- **Emotive language:** words chosen to provoke feeling (*indulgent, revolutionary, heartbreaking*).\n- **Imperatives:** direct commands (*Buy now. Don't miss out.*).\n- **Rhetorical questions:** prompt silent agreement (*Tired of being tired?*).\n- **Science-sounding language:** terms like *clinically proven* or *advanced formula*. They sound expert, but may mean very little.\n\n**Visuals and design**\n\n- **People:** attractive, happy or successful people make you link those feelings with the product.\n- **Colour:** red and yellow signal urgency or value; green suggests natural; black and gold suggest luxury.\n- **Before-and-after images** suggest the product caused the change. That may not be proven.\n- **Packaging and branding:** distinct designs can make identical products appear different.\n\n**Numbers.** Statistics persuade, but scrutinise them: *9 out of 10* of how many, chosen how? *Only $1 a day* is $365 a year.\n\n**Tone and audience.** **Tone** (playful, reassuring, urgent, exclusive) is matched to the target **audience**. It's high-energy for young people, and calm and trustworthy for parents or retirees.\n\n**Fine print.** Qualifications often sit in small text after an asterisk: *conditions apply*, contract terms, survey sizes.\n\n**What's left out.** Ads show one side. Ask what's missing: the total cost, the risks, other options, and independent evidence."
+        },
+        "vc": [
+          "VPC-U2M1-LG2",
+          "VPC-U2M1-AP3"
+        ],
+        "vcNote": "How language and visuals are used to influence an audience; tone and audience."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Four boxes, one tablet",
+        "icon": "lucide:pill",
+        "body": {
+          "support": "**Nurofen** is a painkiller brand.\n\nIt sold four products:\n\n- Back Pain\n- Period Pain\n- Migraine Pain\n- Tension Headache.\n\nEach had a different box, colour and picture. It looked like each one was for a different pain.\n\nBut all four had the **same medicine** inside.\n\nThe **ACCC** took the company to court. The court said the boxes were **misleading**. In **2016**, the company was ordered to pay **$6 million**.\n\nThe lesson: packaging is an ad too. Read the ingredients, not just the box.",
+          "core": "**Nurofen** is a well-known painkiller brand, made by a company called **Reckitt Benckiser**.\n\nIn Australia, it sold a range called **Nurofen Specific Pain**. There were four products:\n\n- Back Pain\n- Period Pain\n- Migraine Pain\n- Tension Headache.\n\nEach had its own box, its own colour and its own picture. The packaging made it look like each one was made to treat that type of pain.\n\nBut the **ACCC** (the government body that protects consumers) found that all four contained the **same active ingredient**: 342 milligrams of ibuprofen lysine. None was any better at treating one kind of pain than the others.\n\nThe ACCC took the company to court. The **Federal Court** found the packaging was **misleading**. At first, the court ordered a penalty of $1.7 million. The ACCC appealed, saying that wasn't enough. In **December 2016**, the **Full Federal Court** raised it to **$6 million**. At the time, the ACCC said it was the biggest penalty for misleading conduct under Australian consumer law.\n\nThe lesson: packaging is an ad too. Different colours, words and pictures can make the same thing look different. Read the ingredients, not just the box.",
+          "extend": "**Nurofen**, made by **Reckitt Benckiser**, is one of Australia's best-known analgesic brands.\n\nIts **Nurofen Specific Pain** range comprised four products: Back Pain, Period Pain, Migraine Pain and Tension Headache. Each had distinct packaging, colours and imagery suggesting it was formulated for that specific pain.\n\nThe **ACCC** argued that all four had the **same active ingredient**: 342 mg of ibuprofen lysine. None worked better on its labelled pain than the others.\n\nThe **Federal Court** found the packaging **misleading**. It first set a $1.7 million penalty. The ACCC appealed, saying that was too low to stop others doing the same. In **December 2016**, the **Full Federal Court** increased the penalty to **$6 million**, which the ACCC described as the largest penalty for misleading conduct under the Australian Consumer Law at that time. The company's bid to appeal to the High Court was refused in 2017.\n\nThe case shows that packaging is advertising. Colours, pictures and labels can create differences that aren't real. Read the ingredients, not the branding."
+        },
+        "source": {
+          "name": "ACCC — Full Federal Court orders $6 million penalty for Nurofen Specific Pain products",
+          "url": "https://www.accc.gov.au/media-release/full-federal-court-orders-6-million-penalty-for-nurofen-specific-pain-products"
+        },
+        "think": {
+          "support": [
+            "How did the boxes make them look different?",
+            "What could a shopper check?"
+          ],
+          "core": [
+            "How did the packaging make the four products seem different?",
+            "Why might a company sell the same thing in different boxes?",
+            "What could a shopper check to see through it?"
+          ]
+        },
+        "vc": [
+          "VPC-U2M1-LG2",
+          "VPC-U2M1-AP3"
+        ],
+        "vcNote": "A real Australian case of design and language creating a misleading impression."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside an ad",
+      "docTitle": "ENERGY DRINK AD — “VOLT” (EXAMPLE)",
+      "vc": [
+        "VPC-U2M1-LG2",
+        "VPC-U2M1-AP3"
+      ],
+      "vcNote": "How language, visuals, numbers and fine print influence an audience.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Slogan",
+          "value": "UNLEASH YOUR LEGEND",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Picture",
+          "value": "A skater mid-air at sunset, crowd cheering, can glowing in their hand"
+        },
+        {
+          "n": 3,
+          "label": "Claim",
+          "value": "Clinically proven* to boost your focus"
+        },
+        {
+          "n": 4,
+          "label": "Number",
+          "value": "9 out of 10 gamers prefer VOLT†"
+        },
+        {
+          "n": 5,
+          "label": "Command",
+          "value": "Grab yours now. Limited edition!",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Fine print",
+          "value": "*In one small study. †Survey of 10 staff. Not recommended for children or pregnant women."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Slogan",
+          "note": "Short, emotive, memorable."
+        },
+        {
+          "n": 2,
+          "label": "Picture",
+          "note": "Links the drink with being cool and successful."
+        },
+        {
+          "n": 3,
+          "label": "Science-y claim",
+          "note": "Sounds proven. The asterisk says otherwise."
+        },
+        {
+          "n": 4,
+          "label": "Number trick",
+          "note": "9 out of 10 of only 10 staff."
+        },
+        {
+          "n": 5,
+          "label": "Urgency",
+          "note": "A command and a rush."
+        },
+        {
+          "n": 6,
+          "label": "Fine print",
+          "note": "The catch, in small writing."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Spot the tricks",
+      "steps": [
+        {
+          "title": "Words",
+          "text": "Slogans, emotive words, commands.",
+          "icon": "lucide:type"
+        },
+        {
+          "title": "Pictures",
+          "text": "People, colour, design.",
+          "icon": "lucide:image"
+        },
+        {
+          "title": "Numbers",
+          "text": "Of who? How many?",
+          "icon": "lucide:percent"
+        },
+        {
+          "title": "Fine print",
+          "text": "What's the catch?",
+          "icon": "lucide:search"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What's a **slogan**?",
+        "options": [
+          "A short, catchy phrase used again and again",
+          "The price",
+          "The fine print",
+          "The shop's address"
+        ],
+        "answer": 0,
+        "explain": "“Unleash your legend.”",
+        "vc": [
+          "VPC-U2M1-LG2"
+        ]
+      },
+      {
+        "q": "An ad says “9 out of 10 gamers prefer it”. What should you ask?",
+        "options": [
+          "Nine out of ten of who, and how many?",
+          "What colour is it?",
+          "Is it loud?",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Check the numbers.",
+        "vc": [
+          "VPC-U2M1-LG2"
+        ]
+      },
+      {
+        "q": "Why do ads show happy, cool people?",
+        "options": [
+          "So you link the product with feeling that way",
+          "To show the price",
+          "Because it's the law",
+          "To make the ad longer"
+        ],
+        "answer": 0,
+        "explain": "A visual trick.",
+        "vc": [
+          "VPC-U2M1-LG2"
+        ]
+      },
+      {
+        "q": "What was misleading about Nurofen Specific Pain?",
+        "options": [
+          "Different boxes for different pains, but the same active ingredient",
+          "The tablets were the wrong colour",
+          "The price was hidden",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "$6 million penalty in 2016.",
+        "vc": [
+          "VPC-U2M1-LG2"
+        ]
+      },
+      {
+        "q": "An ad for a bank aimed at parents would probably have a tone that is…",
+        "options": [
+          "Calm and trustworthy",
+          "Loud and wild",
+          "Silly",
+          "Scary"
+        ],
+        "answer": 0,
+        "explain": "Tone matches the audience.",
+        "vc": [
+          "VPC-U2M1-AP3"
+        ]
+      },
+      {
+        "q": "Where's the catch usually hidden?",
+        "options": [
+          "In the fine print",
+          "In the logo",
+          "In the slogan",
+          "Nowhere"
+        ],
+        "answer": 0,
+        "explain": "Look for the asterisk.",
+        "vc": [
+          "VPC-U2M1-LG2"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "An ad shows only the product's benefits. What does that tell you about the advertiser's position?",
+        "options": [
+          "They want to sell it, so they leave out the downsides",
+          "They're neutral",
+          "They don't care",
+          "They're the government"
+        ],
+        "answer": 0,
+        "explain": "Ads reflect the seller's side.",
+        "vc": [
+          "VPC-U2M1-AP4"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Find three real ads. Label the tricks. Then make one ad honest.",
+      "core": "Hunt for the tricks in three real ads, then remake one as an honest “truth version”.",
+      "extend": "Analyse three real ads for language, visuals, numbers, tone and omissions, then create an honest truth version of one and explain what the original was designed to hide or emphasise."
+    },
+    "checklist": [
+      "I found three real ads",
+      "I labelled the words that persuade",
+      "I explained the pictures and colours",
+      "I checked any numbers",
+      "I named the tone and the audience",
+      "I made an honest truth version"
+    ],
+    "levelUp": "Compare an ad with an independent review of the same product, and explain how the ad reflects the seller's position.",
+    "vc": [
+      "VPC-U2M1-LG2",
+      "VPC-U2M1-AP3"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Every word and picture has a job",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name **three** kinds of words ads use to persuade.",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-LG2"
+            ]
+          },
+          {
+            "q": "How can **pictures** and **colours** persuade you?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-LG2"
+            ]
+          },
+          {
+            "q": "What's the **tone** of an ad? Why does it change for different audiences?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Spot the tricks",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside an ad",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a trick. Use the word bank. How does it persuade?",
+          "core": "Each number marks a trick in the ad. Write what it is and how it tries to persuade."
+        },
+        "columns": [
+          "What's the trick?",
+          "How does it persuade?"
+        ],
+        "wordBank": {
+          "support": [
+            "slogan",
+            "picture",
+            "science-y claim",
+            "number trick",
+            "urgency",
+            "fine print"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U2M1-LG2"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Words, pictures or numbers?",
+        "pagebreak": true,
+        "choices": [
+          "Words",
+          "Pictures",
+          "Numbers"
+        ],
+        "reasonLabel": "How it persuades:",
+        "instructions": "What kind of trick is each one? Tick one, and say how it persuades.",
+        "cards": [
+          {
+            "from": "Phone ad",
+            "text": "“Epic camera. Legendary battery.”",
+            "answer": "Words",
+            "flags": "Emotive words make it sound amazing."
+          },
+          {
+            "from": "Holiday ad",
+            "text": "A photo of smiling friends on a white beach",
+            "answer": "Pictures",
+            "flags": "Links the product with fun and freedom."
+          },
+          {
+            "from": "Toothpaste ad",
+            "text": "“Recommended by 4 out of 5 dentists”",
+            "answer": "Numbers",
+            "flags": "Sounds expert. Ask how many were asked."
+          },
+          {
+            "from": "Gym ad",
+            "text": "“Only $1 a day!”",
+            "answer": "Numbers",
+            "flags": "Sounds tiny. It's $365 a year."
+          },
+          {
+            "from": "Shop window",
+            "text": "A huge red SALE banner",
+            "answer": "Pictures",
+            "flags": "Red grabs attention and says bargain.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Sneaker ad",
+            "text": "“Don't miss out. Drop ends Friday.”",
+            "answer": "Words",
+            "flags": "Urgency and fear of missing out.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U2M1-LG2"
+        ],
+        "vcNote": "Explaining how language and visuals are used to influence an audience."
+      },
+      {
+        "type": "table",
+        "title": "Same product, different audience",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "A phone company wants to sell the same phone plan to different people. How would the ad change? The first row is done for you.",
+        "columns": [
+          "Audience",
+          "Words they'd use",
+          "Pictures they'd use",
+          "Tone"
+        ],
+        "rows": [
+          [
+            "Teenagers",
+            "“Unlimited data. Zero limits.”",
+            "Friends filming each other at a festival",
+            "Loud, fun, cool"
+          ],
+          [
+            "Parents",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Retirees",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Tradies",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U2M1-AP3"
+        ],
+        "vcNote": "How language and tone choices relate to purpose and audience."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: four boxes, one tablet",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How did the packaging make the four products seem different?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-LG2"
+            ]
+          },
+          {
+            "q": "Why might a company sell the same thing in different boxes?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-LG2",
+              "VPC-U2M1-AP3"
+            ]
+          },
+          {
+            "q": "What could a shopper check to see through it?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-LG2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: trick hunt and truth version",
+        "pagebreak": true,
+        "where": "in class, at the shops or at home",
+        "instructions": "Collect three real ads: from a catalogue, a poster, packaging, TV, or your social feed. Label the tricks. Then remake one as an honest “truth version”.",
+        "need": [
+          "three real ads (photos, screenshots or cut-outs)",
+          "pens or a device",
+          "paper for your truth version"
+        ],
+        "steps": {
+          "support": [
+            "Find three ads.",
+            "Label the tricks.",
+            "Who is each ad for?",
+            "Make one ad honest.",
+            "Show your group. Which would they buy?"
+          ],
+          "core": [
+            "Collect **three** real ads. Photos and screenshots are fine.",
+            "Label the **words**, **pictures**, **numbers** and **fine print** in each.",
+            "Name each ad's **audience** and **tone**.",
+            "Choose one. Make a **truth version**: same product, honest words, plain picture, the catch in big writing.",
+            "Show your group both versions. Which would they buy? Why?"
+          ]
+        },
+        "photo": {
+          "support": 52,
+          "core": 52
+        },
+        "photoLabel": "Sketch or photo of my truth version",
+        "notes": [
+          {
+            "label": "The ad I remade, and its biggest trick:",
+            "lines": 1
+          },
+          {
+            "label": "What my group said:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Labelled ads",
+          "Truth version",
+          "Teacher saw it"
+        ],
+        "vc": [
+          "VPC-U2M1-LG2",
+          "VPC-U2M1-AP3"
+        ],
+        "vcNote": "Hands-on: analysing real ads and remaking one honestly."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find an ad for a product, and an independent review of it (for example, from CHOICE or a trusted reviewer). What does the ad **leave out** that the review mentions? How does the ad show the **seller's position**?",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M1-AP4"
+            ]
+          },
+          {
+            "q": "Is it fair for ads to only show the good side? Explain your view.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M1-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can spot persuasive words.",
+          "I can explain how pictures and colours work.",
+          "I can explain an ad's tone and audience.",
+          "I can find what an ad leaves out."
+        ],
+        "questions": [
+          "An ad I'll now see differently:",
+          "My best trick spot:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn how ads use language (slogans, emotive words, commands, questions, science-y terms), visuals (people, colour, before-and-after, packaging), numbers and fine print to influence an audience, and how tone is chosen for the audience. They annotate a made-up energy drink ad, sort tricks, plan the same ad for different audiences, and hunt for tricks in three real ads, remaking one as an honest truth version. The case study is Nurofen Specific Pain: four differently packaged products with the same active ingredient; in December 2016 the Full Federal Court increased the penalty to $6 million.",
+    "prep": [
+      "Collect catalogues, magazines, packaging and screenshots of ads.",
+      "Optional: bring two differently branded products with the same ingredients.",
+      "Paper and markers for truth versions."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Every word has a job",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** show four painkiller boxes (or images). Which works best?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside an ad (10 min).**",
+          "**Words, pictures or numbers? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Audience and tone",
+        "minutes": 50,
+        "steps": [
+          "**Same product, different audience (15 min).**",
+          "**Case study (15 min):** four boxes, one tablet.",
+          "**Collect ads (20 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Trick hunt",
+        "minutes": 50,
+        "steps": [
+          "**Do it (30 min):** label and remake.",
+          "**Level Up, reflect (20 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Language: slogans, emotive words, commands, questions, science-y terms.",
+      "Visuals: people, colour, before-and-after, packaging.",
+      "Numbers: ask of who, and how many; work out the yearly cost.",
+      "Tone is chosen to suit the audience.",
+      "Fine print holds the catch; ads leave out the downside.",
+      "Nurofen Specific Pain: same active ingredient (342 mg ibuprofen lysine) in four different boxes; $6 million penalty (Full Federal Court, December 2016)."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the ad.",
+        "Fewer sort cards and audiences.",
+        "Provide three ads."
+      ],
+      "extend": [
+        "Analyse omissions.",
+        "Compare an ad with an independent review (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U2M1-LG2",
+        "evidence": "Explains how language and visuals influence an audience (ad annotation, sort, Do it)."
+      },
+      {
+        "vc": "VPC-U2M1-AP3",
+        "evidence": "Explains how language and tone relate to purpose and audience (audience table, Do it)."
+      },
+      {
+        "vc": "VPC-U2M1-AP4",
+        "evidence": "Level Up: shows awareness of how an ad reflects the seller's position."
+      }
+    ],
+    "answers": "**Check your reading:** e.g. slogans, emotive words, commands, questions, science-y words. People link the product with feelings; colours signal sale, natural or luxury; packaging can make things look different. The feeling of the ad; it's chosen to suit who it's for.\n\n**Ad:** 1 slogan; 2 aspirational picture; 3 science-y claim with asterisk; 4 number trick (10 staff); 5 urgency and command; 6 fine print.\n\n**Sort:** epic camera — words; beach photo — pictures; 4 out of 5 dentists — numbers; $1 a day — numbers; SALE banner — pictures; don't miss out — words.\n\n**Audience (examples):** parents — “Keep the family connected”, family on a couch, warm and reassuring; retirees — “Simple, no surprises”, grandparent video-calling, calm and clear; tradies — “Tough coverage, anywhere”, ute on a work site, practical and strong.\n\n**Case study:** different colours, pictures and pain names; to sell more, by making each one seem specially made for a problem; read the active ingredients.",
+    "resources": [
+      {
+        "label": "ACCC — Full Federal Court orders $6 million penalty for Nurofen Specific Pain products",
+        "url": "https://www.accc.gov.au/media-release/full-federal-court-orders-6-million-penalty-for-nurofen-specific-pain-products"
+      },
+      {
+        "label": "SBS News — Nurofen fine increased to $6 million",
+        "url": "https://www.sbs.com.au/news/article/nurofen-dodgy-claims-fine-increased-to-6-million/s6ze0tfck"
+      },
+      {
+        "label": "CHOICE",
+        "url": "https://www.choice.com.au"
+      }
+    ],
+    "realityCheck": [
+      "**Students love this.** Let them bring ads from their own feeds.",
+      "**Truth versions get funny.** That's fine; humour shows understanding.",
+      "**Keep the medicine case factual.** Don't suggest students avoid medicine; the point is reading the label.",
+      "**Works in a real class:** yes. Quick, hands-on and relevant."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the ad, fewer sort cards and audiences, and provided ads.",
+      "core": "Standard version: ad language, visuals, numbers, tone and fine print; an ad to annotate; a trick sort; tone for different audiences; the Nurofen case; and a real trick hunt with a truth version.",
+      "extend": "Adds testimonial and misleading to the vocabulary, a quiz question on the seller's position, analysing omissions, and Level Ups comparing an ad with an independent review."
+    }
+  }
+}
