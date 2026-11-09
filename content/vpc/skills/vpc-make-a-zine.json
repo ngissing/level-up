@@ -1,0 +1,1002 @@
+{
+  "id": "vpc-make-a-zine",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), with paper, pens and a photocopier",
+  "brief": {
+    "hook": {
+      "support": "One sheet of paper. Fold it, cut it, and you have an eight-page mini magazine. Fill it with something you know. Copy it. Hand it out. That's a zine.",
+      "core": "One sheet of paper. A few folds, one cut, and you've got an eight-page mini magazine. Fill it with something you know about: cheap eats, a sport, your job, your town, a game, a cause. Copy it. Hand it out. That's a zine, and people in Melbourne have been making and swapping them for decades."
+    },
+    "why": {
+      "support": "This is the boss level. Make a real mini magazine for real people. Use your own words and pictures. Credit anything you borrow.",
+      "core": "This is the Everyday Texts boss level. You'll plan, draft, edit and make a real text for a real audience, using your own words and pictures, and crediting anything you borrow. Making a zine is cheap, fast and hands-on, and it uses every skill from this zone: purpose, audience, structure and clear writing.",
+      "extend": "This boss level asks you to create a print text for a defined audience and purpose, working through planning, drafting and editing, applying literacy conventions, and acknowledging any sources so your work is your own."
+    },
+    "canDo": {
+      "support": [
+        "I can plan a zine.",
+        "I can write and fix my pages.",
+        "I can use my own words and give credit.",
+        "I can check my spelling and full stops."
+      ],
+      "core": [
+        "I can **plan** a zine for an audience and purpose.",
+        "I can **draft** and **edit** my writing.",
+        "I can use my own words and **credit** anything I borrow.",
+        "I can check **spelling**, **punctuation** and **paragraphs**."
+      ]
+    },
+    "showIt": "Make an eight-page zine about something you know, for a real audience. Print it, fold it, and hand out copies.",
+    "vocab": [
+      {
+        "word": "zine",
+        "meaning": "a small, home-made magazine, usually photocopied",
+        "example": "Her zine was about cheap eats near TAFE."
+      },
+      {
+        "word": "audience",
+        "meaning": "the people you're making it for",
+        "example": "My audience is new apprentices."
+      },
+      {
+        "word": "purpose",
+        "meaning": "why you're making it: to inform, entertain or persuade",
+        "example": "The purpose is to help people save money."
+      },
+      {
+        "word": "draft",
+        "meaning": "a first go at writing something",
+        "example": "My first draft was messy, and that's fine."
+      },
+      {
+        "word": "edit",
+        "meaning": "fix and improve your writing",
+        "example": "I edited it to cut extra words."
+      },
+      {
+        "word": "plagiarism",
+        "meaning": "passing off someone else's work as your own",
+        "example": "Copying a website without credit is plagiarism."
+      },
+      {
+        "word": "credit",
+        "meaning": "say who made something you've used",
+        "example": "I gave credit for the quote.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "layout",
+        "meaning": "how words and pictures are arranged on a page",
+        "example": "The layout had a big heading and a photo.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Make a Zine in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Make a Zine",
+        "sub": "Fold it. Fill it. Hand it out.",
+        "icon": "lucide:book-copy",
+        "say": "Make a zine. Fold it, fill it, hand it out."
+      },
+      {
+        "kind": "big",
+        "title": "Melbourne zines",
+        "text": "**Sticky Institute**, since 2001",
+        "icon": "lucide:store",
+        "say": "Sticky Institute opened in Melbourne in 2001 as a shop that sells zines. In 2008, it started the Festival of the Photocopier, a fair for zine makers.",
+        "vc": [
+          "VPC-U1M1-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Zine",
+        "pillIcon": "lucide:book-copy",
+        "title": "Plan",
+        "text": "Topic · Audience · **Purpose**",
+        "icon": "lucide:clipboard-list",
+        "say": "Plan. What's it about? Who's it for? What do you want them to know or do?",
+        "vc": [
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Zine",
+        "pillIcon": "lucide:book-copy",
+        "title": "Draft",
+        "text": "Your **own** words",
+        "icon": "lucide:pencil",
+        "say": "Draft. Write your pages in your own words. Messy is fine.",
+        "vc": [
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-AP5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Zine",
+        "pillIcon": "lucide:book-copy",
+        "title": "Edit",
+        "text": "Cut · Fix · **Check**",
+        "icon": "lucide:spell-check",
+        "say": "Edit. Cut extra words. Check spelling, capitals and full stops.",
+        "vc": [
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-AP7"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Zine",
+        "pillIcon": "lucide:book-copy",
+        "title": "Credit",
+        "text": "Borrowed? **Credit it.**",
+        "icon": "lucide:badge-check",
+        "say": "Credit. If you use someone else's words or pictures, say where they came from.",
+        "vc": [
+          "VPC-U1M1-AP5"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Make it",
+        "steps": [
+          "Fold and plan",
+          "Fill the pages",
+          "Copy and hand out"
+        ],
+        "say": "Fold one sheet into eight pages. Fill them. Copy and hand them out."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Your **words**. Your **zine**.",
+        "icon": "lucide:book-copy",
+        "say": "Your mission. Make an eight-page zine for a real audience, and hand it out."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to make a zine",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A **zine** (say *zeen*) is a small, home-made magazine. People make them about anything: food, sport, music, their town.\n\n**1. Plan**\n\n- **Topic:** what do you know about?\n- **Audience:** who is it for?\n- **Purpose:** to tell them something, make them laugh, or change their mind?\n- Plan all **eight pages**.\n\n**2. Write**\n\nWrite in your own words. Keep it short. Use headings and pictures.\n\n**3. Your own work**\n\n**Plagiarism** is copying someone's work and saying it's yours. Don't copy websites. Instead:\n\n- use your own words and pictures\n- put quotes in quote marks, and say who said it\n- list your sources on the back.\n\n**4. Fix it**\n\nRead it out loud. Check capitals, full stops and spelling.\n\n**5. Make it**\n\nFold one sheet into eight pages. Fill them. Copy it. Hand it out.",
+          "core": "A **zine** (say *zeen*) is a small, home-made magazine. People make them about anything: music, food, sport, their town, their job, a cause, a hobby. Most are photocopied and handed out, swapped or sold for a few dollars.\n\n**Why make one?** Zines are cheap, quick and yours. No one edits them but you. And they're a great way to share something you know with people who need it.\n\n**1. Plan**\n\n- **Topic:** something you know or care about. *Cheap eats near TAFE. How to change a bike tyre. Best free things to do in our town.*\n- **Audience:** who's it for? Year 11s? New apprentices? Your footy club?\n- **Purpose:** to inform, entertain, or persuade?\n- **Pages:** plan all eight. Cover, intro, a few info pages, tips, and a back page.\n\n**2. Draft**\n\nWrite your pages in your own words. Keep it short: a zine page is small. Use **headings**, lists and pictures. Your first draft can be messy.\n\n**3. Use your own work, or credit it**\n\n**Plagiarism** is passing off someone else's work as your own. Copying a paragraph from a website, tracing a cartoon and signing it, or pasting in AI-written text without saying so are all plagiarism. Instead:\n\n- use your own words, photos and drawings\n- put a short **quote** in quote marks, and say who said it\n- list your sources on the back page.\n\n**4. Edit**\n\nRead it out loud. Cut extra words. Check **capitals**, **full stops**, **spelling** and **paragraphs**. Ask someone from your audience to read it. Do they get it?\n\n**5. Make it**\n\nFold one A4 sheet into eight pages, fill them, then photocopy. Hand copies out where your audience will find them.",
+          "extend": "A **zine** (pronounced *zeen*) is a small, self-published magazine, usually photocopied and distributed by hand. Zines cover every subject imaginable, from music and food to local history, activism, work and personal stories.\n\n**Why zines?** They're inexpensive, quick to produce and entirely under the creator's control. That makes them an ideal way to share specialist knowledge with a specific audience.\n\n**1. Plan.** Define your **topic**, **audience** and **purpose** (to inform, entertain or persuade). Map all eight pages: cover, introduction, content pages, practical tips and a back page with sources.\n\n**2. Draft.** Write in your own voice. Space is tight, so use **headings**, lists and images, and prioritise what your audience most needs.\n\n**3. Avoid plagiarism.** **Plagiarism** means presenting someone else's work (text, images or AI-generated content) as your own. Use original words and images. Quote briefly, in quotation marks, with attribution. **Credit** every source on your back page.\n\n**4. Edit.** Revise for clarity and concision, then proofread for capitals, punctuation, spelling and paragraphing. Test it on a member of your audience.\n\n**5. Produce and distribute.** Fold an A4 sheet into eight pages, complete the **layout**, photocopy it, and get copies to where your audience will find them."
+        },
+        "vc": [
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-AP5",
+          "VPC-U1M1-AP7"
+        ],
+        "vcNote": "Creating material for an audience and purpose; planning, drafting and editing; avoiding plagiarism; conventions of literacy."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Sticky Institute",
+        "icon": "lucide:store",
+        "body": {
+          "support": "In **2001**, a small shop opened in Melbourne. It was in an underground walkway near Flinders Street Station. It was called **Sticky Institute**. It sold **zines**.\n\nAnyone could make a zine and bring it in. People could use the photocopiers to make their own.\n\nIn **2008**, Sticky started a zine fair called the **Festival of the Photocopier**. The first one had about **50 tables**. By **2017**, it had **240 tables** at Melbourne Town Hall.\n\nYou don't need a publisher or lots of money. You need paper, a pen, a photocopier, and something to say.",
+          "core": "In **2001**, a small shop opened in the **Degraves Street subway**, the underground walkway near Flinders Street Station in Melbourne. It was called **Sticky Institute**, and it sold mostly one thing: **zines**.\n\nSticky was **artist-run**. Anyone could make a zine and bring it in. People could also use the shop's photocopiers and supplies to make their own.\n\nIn **2008**, Sticky started the **Festival of the Photocopier**, a fair where zine makers set up tables and sell or swap their work. The first one had about **50 tables** in the subway outside the shop. By **2017**, it had **240 tables** in the biggest rooms of Melbourne Town Hall.\n\nThe shop has moved since then. But the idea is the same: you don't need a publisher, a big budget or permission to share what you know. You need paper, a pen, a photocopier and something to say.\n\nZine makers write about anything: their suburb, their job, their favourite band, their mental health, their culture. Many make zines because nobody else is telling their story, or telling it the way they would.",
+          "extend": "In **2001**, **Sticky Institute** opened in the **Degraves Street subway**, the underground arcade near Melbourne's Flinders Street Station. It was an **artist-run** shop dedicated almost entirely to **zines**.\n\nSticky stocked zines from anyone who brought them in, and offered photocopiers and materials so people could produce their own.\n\nIn **2008**, it launched the **Festival of the Photocopier**, a zine fair where makers sell and swap their work. The first festival had about **50 tables** in the subway outside the shop. By **2017**, it had grown to **240 tables** in the largest rooms of Melbourne Town Hall.\n\nThe shop has since moved, but its premise remains: publishing doesn't require a publisher, a budget or permission. It requires paper, a photocopier and something worth saying.\n\nZine makers cover their suburbs, workplaces, music, health, identity and culture, often because mainstream media isn't telling their stories, or isn't telling them their way."
+        },
+        "source": {
+          "name": "ZineWiki — Festival of the Photocopier",
+          "url": "https://zinewiki.com/wiki/Festival_of_the_Photocopier"
+        },
+        "think": {
+          "support": [
+            "Why make a zine, not a post?",
+            "What could you make a zine about?"
+          ],
+          "core": [
+            "Why might someone make a zine instead of a website or a post?",
+            "Why do you think the Festival of the Photocopier grew so much?",
+            "What could you make a zine about that nobody else is covering?"
+          ]
+        },
+        "vc": [
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP1"
+        ],
+        "vcNote": "A real Melbourne example of people creating and sharing their own print texts."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside an eight-page zine",
+      "docTitle": "ZINE — “CHEAP EATS NEAR TAFE” (EXAMPLE)",
+      "vc": [
+        "VPC-U1M1-LG3",
+        "VPC-U1M1-AP5",
+        "VPC-U1M1-AP7"
+      ],
+      "vcNote": "Planning a zine's pages for an audience and purpose, with credits.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Page 1: cover",
+          "value": "CHEAP EATS NEAR TAFE · Issue 1 · Free! (drawing of a toastie)",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Page 2: intro",
+          "value": "Hungry and broke between classes? Me too. Here's where I eat for under $10."
+        },
+        {
+          "n": 3,
+          "label": "Pages 3–5: info",
+          "value": "Heading: Best toastie. Heading: Biggest serve. Heading: Healthy-ish. (My own photos)"
+        },
+        {
+          "n": 4,
+          "label": "Page 6: tips",
+          "value": "5 ways to save: bring a water bottle, ask about student deals…"
+        },
+        {
+          "n": 5,
+          "label": "Page 7: quote",
+          "value": "“The pho here saved my semester.” — Kai, second-year apprentice (used with permission)",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Page 8: back",
+          "value": "Made by J. Tran. Prices checked March 2026. Map from OpenStreetMap contributors."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Cover",
+          "note": "Big title, issue number, eye-catching image."
+        },
+        {
+          "n": 2,
+          "label": "Intro",
+          "note": "Speaks straight to the audience."
+        },
+        {
+          "n": 3,
+          "label": "Info pages",
+          "note": "Headings and own photos."
+        },
+        {
+          "n": 4,
+          "label": "Tips",
+          "note": "A short, useful list."
+        },
+        {
+          "n": 5,
+          "label": "Credited quote",
+          "note": "Quote marks, name, permission."
+        },
+        {
+          "n": 6,
+          "label": "Back page",
+          "note": "Who made it, when, and sources."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Make a zine",
+      "steps": [
+        {
+          "title": "Plan",
+          "text": "Topic, audience, purpose, 8 pages.",
+          "icon": "lucide:clipboard-list"
+        },
+        {
+          "title": "Draft",
+          "text": "Your own words and pictures.",
+          "icon": "lucide:pencil"
+        },
+        {
+          "title": "Edit",
+          "text": "Cut, fix, credit, proofread.",
+          "icon": "lucide:spell-check"
+        },
+        {
+          "title": "Make it",
+          "text": "Fold, copy, hand out.",
+          "icon": "lucide:copy"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is a **zine**?",
+        "options": [
+          "A small, home-made magazine",
+          "A type of phone",
+          "A website",
+          "A movie"
+        ],
+        "answer": 0,
+        "explain": "Usually photocopied and handed out.",
+        "vc": [
+          "VPC-U1M1-LG3"
+        ]
+      },
+      {
+        "q": "Which is **plagiarism**?",
+        "options": [
+          "Copying a paragraph from a website without credit",
+          "Using your own photo",
+          "Quoting someone and saying who said it",
+          "Writing in your own words"
+        ],
+        "answer": 0,
+        "explain": "Passing off someone else's work as yours.",
+        "vc": [
+          "VPC-U1M1-AP5"
+        ]
+      },
+      {
+        "q": "Where should you list your sources in a zine?",
+        "options": [
+          "On the back page",
+          "Nowhere",
+          "Hidden in the cover picture",
+          "Only in your head"
+        ],
+        "answer": 0,
+        "explain": "Credit everything you borrow.",
+        "vc": [
+          "VPC-U1M1-AP5"
+        ]
+      },
+      {
+        "q": "What should you do **first**?",
+        "options": [
+          "Plan your topic, audience and purpose",
+          "Photocopy it",
+          "Hand it out",
+          "Proofread it"
+        ],
+        "answer": 0,
+        "explain": "Plan, draft, edit, make.",
+        "vc": [
+          "VPC-U1M1-AP4"
+        ]
+      },
+      {
+        "q": "When did Sticky Institute start the Festival of the Photocopier?",
+        "options": [
+          "2008",
+          "1908",
+          "2025",
+          "It never did"
+        ],
+        "answer": 0,
+        "explain": "About 50 tables at the first one.",
+        "vc": [
+          "VPC-U1M1-LG3"
+        ]
+      },
+      {
+        "q": "Why read your zine out loud before copying it?",
+        "options": [
+          "To catch mistakes and unclear bits",
+          "To make it longer",
+          "To scare people",
+          "It doesn't help"
+        ],
+        "answer": 0,
+        "explain": "Proofreading out loud works.",
+        "vc": [
+          "VPC-U1M1-AP7"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "How is a zine designed differently from a website on the same topic?",
+        "options": [
+          "Short, handmade, for a small local audience, read on paper",
+          "It's exactly the same",
+          "Zines have no pictures",
+          "Websites can't have headings"
+        ],
+        "answer": 0,
+        "explain": "Form follows audience and purpose.",
+        "vc": [
+          "VPC-U1M1-AP1"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Make an eight-page zine about something you know. Print it, fold it, and give out copies.",
+      "core": "Make an eight-page zine about something you know, for a real audience. Print it, fold it, and hand out copies.",
+      "extend": "Create an eight-page zine for a defined audience and purpose, with original content, credited sources and careful editing. Distribute copies and gather feedback."
+    },
+    "checklist": [
+      "I chose a topic, audience and purpose",
+      "I planned all eight pages",
+      "I used my own words and pictures",
+      "I credited anything I borrowed",
+      "I edited and proofread it",
+      "I printed, folded and handed out copies"
+    ],
+    "levelUp": "Explain how your zine is designed for its audience and purpose, compared with a website on the same topic.",
+    "vc": [
+      "VPC-U1M1-LG3",
+      "VPC-U1M1-AP4",
+      "VPC-U1M1-AP5",
+      "VPC-U1M1-AP7"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to make a zine",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What is a zine? Give **two** ideas for what one could be about.",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG3"
+            ]
+          },
+          {
+            "q": "What is **plagiarism**? Name **two** ways to avoid it.",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP5"
+            ]
+          },
+          {
+            "q": "What should you check when you **edit**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP7",
+              "VPC-U1M1-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Make a zine",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside an eight-page zine",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the zine. Use the word bank. What does it do?",
+          "core": "Each number marks part of the zine. Write what it is and what it does for the reader."
+        },
+        "columns": [
+          "What is it?",
+          "What does it do?"
+        ],
+        "wordBank": {
+          "support": [
+            "cover",
+            "intro",
+            "info pages",
+            "tips",
+            "credited quote",
+            "back page"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP5"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Plagiarism, or OK?",
+        "pagebreak": true,
+        "choices": [
+          "OK",
+          "Plagiarism"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "You're making a zine. Is each choice OK, or is it plagiarism? Tick one, and say why.",
+        "cards": [
+          {
+            "from": "Text",
+            "text": "Copying a paragraph from a food blog, with no credit",
+            "answer": "Plagiarism",
+            "flags": "Someone else's words, passed off as yours."
+          },
+          {
+            "from": "Photo",
+            "text": "Using photos you took yourself",
+            "answer": "OK",
+            "flags": "Your own work."
+          },
+          {
+            "from": "Quote",
+            "text": "Quoting one line from a friend, in quote marks, with their name and OK",
+            "answer": "OK",
+            "flags": "Short, credited, with permission."
+          },
+          {
+            "from": "Drawing",
+            "text": "Tracing a cartoon character and signing your name",
+            "answer": "Plagiarism",
+            "flags": "Someone else's art."
+          },
+          {
+            "from": "AI",
+            "text": "Pasting in a page written by an AI chatbot and not saying so",
+            "answer": "Plagiarism",
+            "flags": "Not your work, and not credited.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Facts",
+            "text": "Putting a fact in your own words and listing the website on the back page",
+            "answer": "OK",
+            "flags": "Own words, source credited.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-AP5"
+        ],
+        "vcNote": "Understanding plagiarism and ways to avoid it."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Sticky Institute",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why might someone make a zine instead of a website or a post?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG3"
+            ]
+          },
+          {
+            "q": "Why do you think the Festival of the Photocopier grew so much?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG3"
+            ]
+          },
+          {
+            "q": "What could **you** make a zine about that nobody else is covering?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-LG3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission, step 1: plan my eight pages",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "instructions": "Choose your topic, audience and purpose. Then plan what goes on each page.",
+        "columns": [
+          "Page",
+          "What goes on it"
+        ],
+        "rows": [
+          [
+            "Topic, audience and purpose",
+            ""
+          ],
+          [
+            "1. Cover",
+            ""
+          ],
+          [
+            "2. Intro",
+            ""
+          ],
+          [
+            "3.",
+            ""
+          ],
+          [
+            "4.",
+            ""
+          ],
+          [
+            "5.",
+            ""
+          ],
+          [
+            "6.",
+            ""
+          ],
+          [
+            "7.",
+            ""
+          ],
+          [
+            "8. Back (who made it, sources)",
+            ""
+          ]
+        ],
+        "vc": [
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP4"
+        ],
+        "vcNote": "Planning material for an audience and purpose."
+      },
+      {
+        "type": "write",
+        "title": "Step 2: draft two pages",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write the words for two pages. Use your own words. Give each one a heading.",
+          "core": "Draft the words for **two** of your pages (for example, your intro and one info page). Use your own words, and a heading for each.",
+          "extend": "Draft two pages in your own voice, with headings, concise text suited to a small page, and any quotes or facts credited."
+        },
+        "plan": [
+          {
+            "label": "Page and heading 1",
+            "lines": 1
+          },
+          {
+            "label": "Page and heading 2",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "Ever wondered…?",
+            "Here's what I know:",
+            "Top tip:"
+          ],
+          "core": [
+            "Ever wondered…?",
+            "Here's what I know about…",
+            "Top tip:",
+            "According to ___, …"
+          ]
+        },
+        "lines": {
+          "support": 10,
+          "core": 11
+        },
+        "check": [
+          "my own words",
+          "headings",
+          "short and clear",
+          "quotes and facts credited",
+          "capitals, full stops, spelling"
+        ],
+        "vc": [
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-AP5",
+          "VPC-U1M1-AP7"
+        ],
+        "vcNote": "Drafting original content with credited sources."
+      },
+      {
+        "type": "questions",
+        "title": "Step 3: edit",
+        "pagebreak": true,
+        "instructions": "Swap drafts with a partner. Then answer about **your own** pages.",
+        "items": [
+          {
+            "q": "My partner said the clearest part was:",
+            "lines": 1,
+            "vc": [
+              "VPC-U1M1-AP4"
+            ]
+          },
+          {
+            "q": "What will I **cut** or **change** to make it clearer and shorter?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP4"
+            ]
+          },
+          {
+            "q": "What spelling, capital or punctuation mistakes did I fix?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP7"
+            ]
+          },
+          {
+            "q": "Did I credit everything I borrowed? What did I add to my back page?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M1-AP5"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M1-AP4",
+          "VPC-U1M1-AP7"
+        ],
+        "vcNote": "Editing for clarity and the conventions of literacy."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: fold it, fill it, hand it out",
+        "pagebreak": true,
+        "where": "in class, then out in the world",
+        "instructions": "Make your zine from one sheet of A4 paper, then copy it and hand it out to your audience.",
+        "need": [
+          "A4 paper",
+          "scissors",
+          "pens (black works best for copying)",
+          "your page plan",
+          "a photocopier"
+        ],
+        "steps": {
+          "support": [
+            "Fold the paper into eight boxes.",
+            "Cut along the middle crease, halfway.",
+            "Fold it into a little book.",
+            "Fill each page from your plan.",
+            "Copy it and hand it out."
+          ],
+          "core": [
+            "**Fold:** fold the A4 sheet in half, then in half again, then once more. Unfold. You'll see eight boxes.",
+            "**Cut:** fold it in half the short way. Cut along the middle crease from the folded edge, stopping halfway.",
+            "**Fold into a book:** open it, fold it the long way, then push the ends together so the cut opens into a diamond. Flatten it into an eight-page booklet.",
+            "**Fill:** add your words, headings and pictures to each page, following your plan. Keep text away from the edges.",
+            "**Copy and hand out:** unfold it flat, photocopy it, fold the copies, and give them to your audience. Ask one reader what they thought."
+          ]
+        },
+        "photo": {
+          "support": 40,
+          "core": 32
+        },
+        "photoLabel": "Photo or sketch of my finished zine",
+        "notes": [
+          {
+            "label": "Who I gave copies to:",
+            "lines": 1
+          },
+          {
+            "label": "What a reader said:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Photo of my zine",
+          "Copies handed out",
+          "Teacher saw it"
+        ],
+        "vc": [
+          "VPC-U1M1-LG3",
+          "VPC-U1M1-AP4"
+        ],
+        "vcNote": "Hands-on: producing and distributing a print text for a real audience."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find a website on the same topic as your zine. How is your zine designed differently for **its** audience and purpose? Think about length, layout, pictures and where people read it.",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP1"
+            ]
+          },
+          {
+            "q": "If you made **Issue 2**, what would you change, and why?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M1-AP1",
+              "VPC-U1M1-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can plan a zine for an audience.",
+          "I can draft and edit my writing.",
+          "I can use my own words and give credit.",
+          "I can check my spelling and punctuation."
+        ],
+        "questions": [
+          "My zine's title:",
+          "Where I handed it out:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The Everyday Texts boss level. Students plan, draft, edit and produce an eight-page zine (a one-sheet folded booklet) on a topic they know, for a real audience and purpose, using original words and images and crediting anything borrowed. They annotate a model zine, sort examples of plagiarism, plan all eight pages, draft and peer-edit two pages, then fold, fill, copy and distribute their zine. The case study is Melbourne's Sticky Institute, an artist-run zine shop opened in 2001 in the Degraves Street subway, which started the Festival of the Photocopier zine fair in 2008.",
+    "prep": [
+      "A4 paper, scissors, black fine-liners, glue; access to a photocopier.",
+      "Practise the eight-page fold yourself, and make a demo zine.",
+      "Optional: bring in a few real zines (local libraries often have collections).",
+      "Check your school's policy on AI use, and make expectations clear."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What's a zine?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** fold a zine in front of the class in under a minute.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a zine (10 min).**",
+          "**Plagiarism, or OK? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** Sticky Institute.",
+          "**Plan my eight pages (35 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Draft and edit",
+        "minutes": 50,
+        "steps": [
+          "**Draft two pages (30 min).**",
+          "**Edit (20 min):** partner swap."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Make it",
+        "minutes": 60,
+        "steps": [
+          "**Do it (45 min):** fold, fill, copy.",
+          "**Level Up, reflect (15 min):** request sign-off. Hand out copies after class."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "A zine is a small, self-published, usually photocopied magazine.",
+      "Plan: topic, audience, purpose, and all eight pages.",
+      "Draft in your own words; use headings, lists and pictures.",
+      "Avoid plagiarism: own words and images, short credited quotes, sources on the back page.",
+      "Edit for clarity, then proofread capitals, punctuation, spelling and paragraphs.",
+      "Sticky Institute (Melbourne, since 2001) started the Festival of the Photocopier in 2008."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the zine.",
+        "Fewer sort cards.",
+        "A page-plan template with ideas for each page."
+      ],
+      "extend": [
+        "Gather reader feedback.",
+        "Compare zine and website design (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U1M1-LG3",
+        "evidence": "Creates a zine for a specific audience and purpose (plan, Do it)."
+      },
+      {
+        "vc": "VPC-U1M1-AP4",
+        "evidence": "Plans, drafts and edits (page plan, drafts, edit)."
+      },
+      {
+        "vc": "VPC-U1M1-AP5",
+        "evidence": "Understands plagiarism and credits sources (sort, back page)."
+      },
+      {
+        "vc": "VPC-U1M1-AP7",
+        "evidence": "Applies conventions of literacy (edit, final zine)."
+      },
+      {
+        "vc": "VPC-U1M1-AP1",
+        "evidence": "Level Up: explains how the zine is designed for its audience and purpose compared with a website."
+      }
+    ],
+    "answers": "**Check your reading:** a small, home-made magazine, usually photocopied (e.g. cheap eats, a sport, your town). Passing off someone else's work as your own; use your own words and pictures, quote with credit, list sources. Clarity, extra words, capitals, full stops, spelling, paragraphs.\n\n**Zine:** 1 cover; 2 intro; 3 info pages with headings and own photos; 4 tips; 5 credited quote with permission; 6 back page with maker, date and sources.\n\n**Sort:** copied blog paragraph — plagiarism; own photos — OK; credited quote — OK; traced cartoon — plagiarism; uncredited AI page — plagiarism; own words with source listed — OK.\n\n**Case study:** zines are cheap, physical, personal and local; the festival grew because people wanted to make and share their own work; answers will vary.",
+    "resources": [
+      {
+        "label": "ZineWiki — Festival of the Photocopier",
+        "url": "https://zinewiki.com/wiki/Festival_of_the_Photocopier"
+      },
+      {
+        "label": "Emerging Writers' Festival — Talking zines with the Sticky Institute",
+        "url": "https://2019.emergingwritersfestival.org.au/talking-zines-sticky-institute/"
+      },
+      {
+        "label": "Smartcopying — copyright guidance for Australian schools",
+        "url": "https://www.smartcopying.edu.au"
+      }
+    ],
+    "realityCheck": [
+      "**The fold confuses people.** Demo it live, slowly, twice.",
+      "**Black pen copies best.** Pencil and light colours disappear on the photocopier.",
+      "**Topic choice is everything.** Push students towards something they genuinely know.",
+      "**Distribution makes it real.** Even leaving copies in the library or canteen counts.",
+      "**Works in a real class:** yes. Cheap, hands-on, and students are proud of the result."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the zine, fewer sort cards, and a page-plan template.",
+      "core": "Standard version: what a zine is, planning for an audience and purpose, a model zine, a plagiarism sort, the Sticky Institute case, planning eight pages, drafting and editing, and making and handing out a zine.",
+      "extend": "Adds credit and layout to the vocabulary, a quiz question on design, reader feedback, and Level Ups comparing zine and website design and planning Issue 2."
+    }
+  }
+}
