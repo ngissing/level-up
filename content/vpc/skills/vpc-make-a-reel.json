@@ -1,0 +1,957 @@
+{
+  "id": "vpc-make-a-reel",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), with phones for filming",
+  "brief": {
+    "hook": {
+      "support": "What can you do that others can't? Change a tyre? Braid hair? Make a toastie? Teach it in 60 seconds, with clear steps and captions.",
+      "core": "Think of something you can do that other people can't: change a bike tube, braid hair, make a killer toastie, tie a tie, set up a tent, use a new app. Now teach it in 60 seconds, with no waffle, clear steps, and captions so anyone can follow, even with the sound off."
+    },
+    "why": {
+      "support": "This is the boss level. Short how-to videos help people learn things. Make one that's clear, has captions, and only uses stuff you're allowed to use.",
+      "core": "This is the Online & Safe boss level. Short how-to videos are some of the most useful texts online. People use them to fix things, cook, learn skills and do their jobs. To make a good one, plan for your audience and check your steps. Write clear captions. And only use content you're allowed to use.",
+      "extend": "In this boss level, you'll make a short how-to video for a real audience. You'll plan it, research it, draft it and edit it. Your captions and on-screen text need correct spelling and punctuation. And everything in it must be your own work, or properly credited."
+    },
+    "canDo": {
+      "support": [
+        "I can plan a how-to reel.",
+        "I can check my steps.",
+        "I can write clear captions.",
+        "I can use only things I'm allowed to use."
+      ],
+      "core": [
+        "I can **plan** a how-to reel for an audience.",
+        "I can **research** my steps from a reliable source.",
+        "I can write clear **captions** with correct spelling and punctuation.",
+        "I can make a reel using only content I'm allowed to use."
+      ]
+    },
+    "showIt": "Plan, film, edit and caption a 60-second how-to reel that teaches a real skill, then test it on a viewer.",
+    "vocab": [
+      {
+        "word": "reel",
+        "meaning": "a short vertical video for social media",
+        "example": "My reel was 58 seconds long."
+      },
+      {
+        "word": "how-to",
+        "meaning": "a text that teaches someone to do something",
+        "example": "I made a how-to about changing a bike tube."
+      },
+      {
+        "word": "caption",
+        "meaning": "words on screen that show what's being said",
+        "example": "I added captions for people watching on mute."
+      },
+      {
+        "word": "storyboard",
+        "meaning": "a plan of a video, shot by shot",
+        "example": "My storyboard had six boxes."
+      },
+      {
+        "word": "close-up",
+        "meaning": "a shot filmed very near to show detail",
+        "example": "I used a close-up of my hands."
+      },
+      {
+        "word": "plagiarism",
+        "meaning": "passing off someone else's work as your own",
+        "example": "Copying another creator's script is plagiarism."
+      },
+      {
+        "word": "accessible",
+        "meaning": "easy for everyone to use, including people with disability",
+        "example": "Captions make videos more accessible.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "hook",
+        "meaning": "the start that grabs people's attention",
+        "example": "My hook showed the finished toastie first.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Make a How-To Reel in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Make a How-To Reel",
+        "sub": "Teach something in 60 seconds.",
+        "icon": "lucide:clapperboard",
+        "say": "Make a how-to reel. Teach something in 60 seconds."
+      },
+      {
+        "kind": "stat",
+        "big": "3.6M",
+        "title": "Australians estimated to have some hearing loss",
+        "sub": "Australian Government Department of Health",
+        "say": "An estimated three point six million Australians have some hearing loss. Captions help them, and anyone watching with the sound off.",
+        "vc": [
+          "VPC-U1M2-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Reel",
+        "pillIcon": "lucide:clapperboard",
+        "title": "Hook",
+        "text": "Show the **end** first",
+        "icon": "lucide:sparkles",
+        "say": "Hook. Show the finished result first, so people know why to keep watching.",
+        "vc": [
+          "VPC-U1M2-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Reel",
+        "pillIcon": "lucide:clapperboard",
+        "title": "Steps",
+        "text": "One step · **one shot**",
+        "icon": "lucide:list-ordered",
+        "say": "Steps. Three to five clear steps, in order. One step per shot.",
+        "vc": [
+          "VPC-U1M2-AP3",
+          "VPC-U1M2-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Reel",
+        "pillIcon": "lucide:clapperboard",
+        "title": "Close-ups",
+        "text": "Show the **detail**",
+        "icon": "lucide:zoom-in",
+        "say": "Close-ups. Get the camera near the action so people can see what your hands are doing.",
+        "vc": [
+          "VPC-U1M2-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Reel",
+        "pillIcon": "lucide:clapperboard",
+        "title": "Captions",
+        "text": "Short · Clear · **Correct**",
+        "icon": "lucide:captions",
+        "say": "Captions. Short, clear, and spelled right. Check them before you post.",
+        "vc": [
+          "VPC-U1M2-AP7"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Reel",
+        "pillIcon": "lucide:clapperboard",
+        "title": "Your own work",
+        "text": "Film it · **Credit it**",
+        "icon": "lucide:badge-check",
+        "say": "Your own work. Use your own footage and allowed music. Credit anything you borrow.",
+        "vc": [
+          "VPC-U1M2-AP6"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Make the reel",
+        "steps": [
+          "Plan and research",
+          "Film and edit",
+          "Caption and test"
+        ],
+        "say": "Plan it, film it, caption it, then test it on someone who's never done it."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Teach it in **60**.",
+        "icon": "lucide:clapperboard",
+        "say": "Your mission. Teach a real skill in 60 seconds."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to teach anything in 60 seconds",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A good **how-to** reel teaches one thing, fast.\n\n**1. Pick one skill.** Keep it small. Who is it for?\n\n**2. Check your steps.** Look at the instructions or a good website. Then say it in your own words.\n\n**3. Plan it.** Draw each shot in a box:\n\n- **Start:** show the finished thing.\n- **What you need.**\n- **Steps:** three to five. One step per shot.\n- **End:** show it again.\n\n**4. Film it.** Hold the phone up and down. Good light. Film close to your hands.\n\n**5. Cut it.** Get it under 60 seconds. Add the step numbers on screen.\n\n**6. Add captions.** Words on screen help people who can't hear, or have the sound off. Check spelling and full stops.\n\n**7. Your own work.** Use your own video. Don't copy other people's videos. Credit where you checked your steps.\n\n**8. Test it.** Can someone do it after watching?",
+          "core": "A good **how-to** reel teaches one thing, clearly, fast. Here's how to make one.\n\n**1. Pick one skill, and one audience.** Choose something you can really do, and something people want to learn. Keep it small: *how to change a bike tube*, not *how to fix a bike*. Who's it for? Beginners? Apprentices? Your mates?\n\n**2. Research your steps.** Even if you know how, check a reliable source, like the manufacturer's instructions or a trusted website. Use it to check your steps, then explain them **in your own words**. Note where you checked.\n\n**3. Plan with a storyboard.** Sketch each shot in a box:\n\n- **Hook (0–3 seconds):** show the finished result. *“This is how to get a perfect toastie every time.”*\n- **What you need:** tools or ingredients.\n- **Steps:** three to five, in order. One step per shot.\n- **Finish:** the result again, and a tip.\n\n**4. Film it.** Film vertically. Use good light. Get **close-ups** of your hands. Keep the background tidy. Film each step separately, so it's easy to edit.\n\n**5. Edit it.** Cut anything slow. Get it under 60 seconds. Add text on screen for each step (*Step 1: Remove the wheel*).\n\n**6. Add captions.** **Captions** show what's being said. They help people who are Deaf or hard of hearing, and anyone watching with the sound off. Keep them short. Check **spelling**, **capitals** and **punctuation**, because auto-captions make mistakes.\n\n**7. Use only what you're allowed to.** Use your own footage. Use music you're allowed to use, or none. Don't copy another creator's script or clips: that's **plagiarism**. If you used a source to check your steps, credit it in the caption.\n\n**8. Test it.** Show it to someone who's never done the task. Can they do it after watching? If not, fix the confusing bit.",
+          "extend": "An effective **how-to** reel teaches a single skill clearly and efficiently. The process mirrors any instructional text: plan, research, draft and edit.\n\n**1. Define scope and audience.** Choose a narrow, achievable skill (*changing a bike tube*, not *bike maintenance*) and a clear audience, such as beginners, apprentices or peers.\n\n**2. Research.** Verify your method against a reliable source, such as manufacturer instructions or an authoritative site. Explain the steps **in your own words**, and record the source.\n\n**3. Storyboard.** Plan each shot: a **hook** (show the result in the first three seconds), what's needed, three to five sequential steps (one per shot), and a finish with a tip.\n\n**4. Film.** Shoot vertically in good light, use **close-ups** for detail, keep backgrounds uncluttered, and capture each step separately.\n\n**5. Edit.** Remove anything that slows the pace, keep it under 60 seconds, and add on-screen step labels.\n\n**6. Caption.** **Captions** make video **accessible** to people who are Deaf or hard of hearing, and to anyone watching on mute. Auto-captions contain errors, so edit them for accuracy, spelling, capitals and punctuation.\n\n**7. Avoid plagiarism.** Use original footage and music you're licensed to use. Don't reproduce other creators' scripts or clips. Credit any source used to verify your method.\n\n**8. User-test.** Have someone unfamiliar with the task follow your reel. Where they struggle, revise."
+        },
+        "vc": [
+          "VPC-U1M2-LG1",
+          "VPC-U1M2-AP3",
+          "VPC-U1M2-AP6",
+          "VPC-U1M2-AP7"
+        ],
+        "vcNote": "Creating a digital text for an audience and purpose; planning, researching, drafting and editing; avoiding plagiarism; conventions of literacy."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Captions aren't optional",
+        "icon": "lucide:captions",
+        "body": {
+          "support": "Lots of people watch videos without sound.\n\nThe government says about **3.6 million Australians** have some hearing loss. By **2060**, it could be **7.8 million**.\n\nLots of other people watch with the sound **off**: on the bus, or at work.\n\nFor them, a how-to video with no captions has no instructions!\n\nThere are world rules for online content. They say videos with sound should have **captions**.\n\nAuto-captions make mistakes. So check every caption: spelling, full stops, and saying exactly what you mean.",
+          "core": "Millions of people watch videos without hearing the sound.\n\nThe Australian Government's health department estimates that about **3.6 million Australians** have some hearing loss. As people live longer, it expects that number to about **double**. It could reach **7.8 million by 2060**.\n\nLots of other people watch videos with the sound **off**. They might be on the bus, in a waiting room, at work, or up late.\n\nFor all of them, a how-to video with no captions is a video with no instructions.\n\nThere are world rules for making online content work for everyone. They're called the **Web Content Accessibility Guidelines (WCAG)**. They say videos with sound should have **captions**. Governments and big organisations, including in Australia, use these rules.\n\nAuto-captions help, but they make mistakes. They get names, slang, accents and technical words wrong. In a how-to video, one wrong word can make someone do the wrong thing.\n\nSo good creators check every caption. It's a literacy skill: spelling, punctuation, and saying exactly what you mean.",
+          "extend": "Many people watch video without hearing the sound.\n\nThe Australian Government's health department estimates that about **3.6 million Australians** have some hearing loss. As the population ages, that is expected to roughly **double, to 7.8 million by 2060**. Many more people watch with the sound **off**: on public transport, at work, or in shared spaces.\n\nFor all these viewers, a how-to video without captions says very little.\n\nThe **Web Content Accessibility Guidelines (WCAG)** are the world standard for making online content usable by everyone. They say pre-recorded video with sound needs captions. Governments and organisations around the world, including in Australia, use WCAG as their benchmark.\n\nAuto-captions help, but they make errors, especially with names, slang, accents and technical terms. In an instructional video, one wrong caption can lead to the wrong action.\n\nSo editing captions is a literacy task, not just a technical one. It needs accurate spelling and punctuation, clear sentences and exact wording."
+        },
+        "source": {
+          "name": "Department of Health — Hearing health awareness and prevention: communications kit",
+          "url": "https://www.health.gov.au/sites/default/files/2023-06/communications-kit---hearing-health-awareness-and-prevention.pdf"
+        },
+        "think": {
+          "support": [
+            "Who do captions help?",
+            "Why check auto-captions?"
+          ],
+          "core": [
+            "Who benefits from captions? Name at least three groups.",
+            "Why aren't auto-captions enough on their own?",
+            "How will you make sure your reel's captions are right?"
+          ]
+        },
+        "vc": [
+          "VPC-U1M2-LG1",
+          "VPC-U1M2-AP7"
+        ],
+        "vcNote": "Real reasons to caption digital texts for every audience."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a 60-second how-to",
+      "docTitle": "REEL PLAN — “FIX A FLAT BIKE TUBE IN 60 SECONDS” (EXAMPLE)",
+      "vc": [
+        "VPC-U1M2-LG1",
+        "VPC-U1M2-AP6",
+        "VPC-U1M2-AP7"
+      ],
+      "vcNote": "Planning a digital instructional text with captions and credits.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "0:00 Hook",
+          "value": "Shot: bike riding off. Caption: “Flat tyre? Fixed in 60 seconds.”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "0:04 You need",
+          "value": "Shot: tyre levers, new tube, pump. Caption: “You need: 2 tyre levers, a new tube and a pump.”"
+        },
+        {
+          "n": 3,
+          "label": "0:10 Step 1",
+          "value": "Close-up: levering the tyre off. Caption: “Step 1: Lever one side of the tyre off the rim.”"
+        },
+        {
+          "n": 4,
+          "label": "0:40 Step 4",
+          "value": "Close-up: pumping. Caption: “Step 4: Pump to the pressure on the side of the tyre.”"
+        },
+        {
+          "n": 5,
+          "label": "0:55 Finish",
+          "value": "Shot: thumbs up. Caption: “Tip: carry a spare tube!”"
+        },
+        {
+          "n": 6,
+          "label": "Post caption",
+          "value": "Steps checked against the tube maker's instructions. Music: my own beat.",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "Shows the result and promise fast."
+        },
+        {
+          "n": 2,
+          "label": "What you need",
+          "note": "Viewers get ready before step 1."
+        },
+        {
+          "n": 3,
+          "label": "Close-up and step caption",
+          "note": "One step, one shot, numbered."
+        },
+        {
+          "n": 4,
+          "label": "Precise caption",
+          "note": "Exact wording: where to find the right pressure."
+        },
+        {
+          "n": 5,
+          "label": "Finish and tip",
+          "note": "Ends with something extra useful."
+        },
+        {
+          "n": 6,
+          "label": "Credits",
+          "note": "Says where steps were checked; music is original."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Make the reel",
+      "steps": [
+        {
+          "title": "Plan",
+          "text": "One skill, one audience.",
+          "icon": "lucide:clipboard-list"
+        },
+        {
+          "title": "Research",
+          "text": "Check steps; own words.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Film and edit",
+          "text": "Close-ups, under 60 secs.",
+          "icon": "lucide:video"
+        },
+        {
+          "title": "Caption and test",
+          "text": "Check every word.",
+          "icon": "lucide:captions"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What should a how-to reel show in the first few seconds?",
+        "options": [
+          "The finished result",
+          "The credits",
+          "A long introduction",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Hook them with the end result.",
+        "vc": [
+          "VPC-U1M2-LG1"
+        ]
+      },
+      {
+        "q": "Why add **captions**?",
+        "options": [
+          "So people who can't hear, or have the sound off, can follow",
+          "To make it longer",
+          "Because they look cool",
+          "You shouldn't"
+        ],
+        "answer": 0,
+        "explain": "Captions make video accessible.",
+        "vc": [
+          "VPC-U1M2-AP7",
+          "VPC-U1M2-LG1"
+        ]
+      },
+      {
+        "q": "Which is **plagiarism**?",
+        "options": [
+          "Copying another creator's script word for word",
+          "Filming your own hands",
+          "Using your own words",
+          "Crediting a source"
+        ],
+        "answer": 0,
+        "explain": "Use your own words and footage.",
+        "vc": [
+          "VPC-U1M2-AP6"
+        ]
+      },
+      {
+        "q": "Why check auto-captions?",
+        "options": [
+          "They make mistakes, especially with names and technical words",
+          "They're always perfect",
+          "To add emojis",
+          "They don't exist"
+        ],
+        "answer": 0,
+        "explain": "Edit every caption.",
+        "vc": [
+          "VPC-U1M2-AP7"
+        ]
+      },
+      {
+        "q": "About how many Australians are estimated to have some hearing loss?",
+        "options": [
+          "3.6 million",
+          "36",
+          "360",
+          "36 billion"
+        ],
+        "answer": 0,
+        "explain": "Projected to double by 2060.",
+        "vc": [
+          "VPC-U1M2-LG1"
+        ]
+      },
+      {
+        "q": "Which caption is best?",
+        "options": [
+          "Step 1: Lever one side of the tyre off the rim.",
+          "step1 lever it",
+          "do the thing",
+          "STEP ONE!!!!!"
+        ],
+        "answer": 0,
+        "explain": "Clear, complete and correct.",
+        "vc": [
+          "VPC-U1M2-AP7"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "How would the tone of your reel differ from the tube maker's printed instructions?",
+        "options": [
+          "More casual and friendly, for a social media audience",
+          "Exactly the same",
+          "More formal",
+          "It would have no tone"
+        ],
+        "answer": 0,
+        "explain": "Tone matches audience and purpose.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan, film and caption a short how-to reel. Test it on someone.",
+      "core": "Plan, film, edit and caption a 60-second how-to reel that teaches a real skill, then test it on a viewer.",
+      "extend": "Produce a 60-second instructional reel for a defined audience: researched, storyboarded, edited, accurately captioned and free of plagiarism. User-test it and revise."
+    },
+    "checklist": [
+      "I chose one skill and one audience",
+      "I checked my steps with a reliable source",
+      "I planned it with a storyboard",
+      "It's under 60 seconds",
+      "Every caption is correct",
+      "I used only my own or allowed content, and credited my source",
+      "A viewer could do the task after watching"
+    ],
+    "levelUp": "Compare the language and tone of your reel with a printed instruction manual for the same task.",
+    "vc": [
+      "VPC-U1M2-LG1",
+      "VPC-U1M2-AP3",
+      "VPC-U1M2-AP7"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to teach anything in 60 seconds",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What goes in the **hook** of a how-to reel?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG1"
+            ]
+          },
+          {
+            "q": "Who do **captions** help? Why should you check them?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP7"
+            ]
+          },
+          {
+            "q": "Name **two** ways to avoid plagiarism in a reel.",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Make the reel",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a 60-second how-to",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the reel. Use the word bank. Why is it there?",
+          "core": "Each number marks part of the reel plan. Write what it is and why it's there."
+        },
+        "columns": [
+          "What is it?",
+          "Why is it there?"
+        ],
+        "wordBank": {
+          "support": [
+            "hook",
+            "what you need",
+            "close-up and caption",
+            "clear caption",
+            "finish and tip",
+            "credits"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U1M2-LG1",
+          "VPC-U1M2-AP7"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "OK to use in your reel?",
+        "pagebreak": true,
+        "choices": [
+          "OK",
+          "Not OK"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Can you use each of these in your reel? Tick one, and say why.",
+        "cards": [
+          {
+            "from": "Footage",
+            "text": "Video you filmed yourself",
+            "answer": "OK",
+            "flags": "Your own work."
+          },
+          {
+            "from": "Footage",
+            "text": "A clip from another creator's video, without asking",
+            "answer": "Not OK",
+            "flags": "Their work, no permission."
+          },
+          {
+            "from": "Steps",
+            "text": "Steps you checked in the manufacturer's instructions, then explained in your own words, with credit",
+            "answer": "OK",
+            "flags": "Own words, source credited."
+          },
+          {
+            "from": "Script",
+            "text": "Another creator's script, copied word for word",
+            "answer": "Not OK",
+            "flags": "That's plagiarism."
+          },
+          {
+            "from": "People",
+            "text": "Your friend on camera, after you asked them",
+            "answer": "OK",
+            "flags": "They agreed.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "People",
+            "text": "A stranger's face, filmed without asking",
+            "answer": "Not OK",
+            "flags": "Ask before you film people.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M2-AP6"
+        ],
+        "vcNote": "Understanding plagiarism and permission in digital content."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: captions aren't optional",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Who benefits from captions? Name at least **three** groups.",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG1"
+            ]
+          },
+          {
+            "q": "Why aren't auto-captions enough on their own?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP7"
+            ]
+          },
+          {
+            "q": "How will you make sure **your** reel's captions are right?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP7"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission, step 1: plan and research",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "instructions": "Choose one skill you can teach. Plan your reel and check your steps with a reliable source.",
+        "columns": [
+          "Part",
+          "My plan"
+        ],
+        "rows": [
+          [
+            "The skill (keep it small)",
+            ""
+          ],
+          [
+            "My audience",
+            ""
+          ],
+          [
+            "Where I checked my steps (source)",
+            ""
+          ],
+          [
+            "What you need",
+            ""
+          ],
+          [
+            "Step 1",
+            ""
+          ],
+          [
+            "Step 2",
+            ""
+          ],
+          [
+            "Step 3",
+            ""
+          ],
+          {
+            "cells": [
+              "Step 4",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          [
+            "Finish and tip",
+            ""
+          ]
+        ],
+        "vc": [
+          "VPC-U1M2-AP3",
+          "VPC-U1M2-LG1"
+        ],
+        "vcNote": "Planning and researching a digital text from a familiar source."
+      },
+      {
+        "type": "storyboard",
+        "title": "Step 2: storyboard",
+        "pagebreak": true,
+        "frames": 6,
+        "columns": 3,
+        "boxHeight": {
+          "support": 72,
+          "core": 70
+        },
+        "instructions": "Sketch each shot. Write the caption that will appear on screen. Keep each caption short and correct.",
+        "rows": [
+          "Shot",
+          "Caption"
+        ],
+        "hints": [
+          "Hook: the result",
+          "What you need",
+          "Step 1",
+          "Step 2",
+          "Step 3",
+          "Finish and tip"
+        ],
+        "vc": [
+          "VPC-U1M2-LG1",
+          "VPC-U1M2-AP7"
+        ],
+        "vcNote": "Drafting a multimedia text with captions."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: film it, caption it, test it",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Film and edit your reel, add captions, then test it on someone who's never done the task.",
+        "need": [
+          "a phone",
+          "your storyboard",
+          "the things you need for the skill",
+          "a free editing app"
+        ],
+        "steps": {
+          "support": [
+            "Film each shot. Phone upright. Close to your hands.",
+            "Cut it to under 60 seconds.",
+            "Add captions. Fix mistakes.",
+            "Credit where you checked your steps.",
+            "Test it on someone."
+          ],
+          "core": [
+            "**Film** each shot from your storyboard. Hold the phone upright. Get close-ups of your hands.",
+            "**Edit**: cut slow bits, keep it under 60 seconds, add step labels.",
+            "**Caption** it: use auto-captions if you like, then fix every mistake.",
+            "**Credit** your source in the post caption. Use only your own or allowed music.",
+            "**Test** it: can someone do the task after watching? Fix anything confusing."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My reel's skill and length:",
+            "lines": 1
+          },
+          {
+            "label": "Caption mistakes I fixed:",
+            "lines": 1
+          },
+          {
+            "label": "What my tester said, and what I changed:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "The reel",
+          "Storyboard",
+          "Teacher saw it"
+        ],
+        "vc": [
+          "VPC-U1M2-LG1",
+          "VPC-U1M2-AP3",
+          "VPC-U1M2-AP7"
+        ],
+        "vcNote": "Hands-on: producing, captioning and testing a digital instructional text."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find printed or official instructions for the same task (a manual, a packet or a website). Compare their **language** and **tone** with your reel. Why are they different?",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M2-AP4"
+            ]
+          },
+          {
+            "q": "Which is more **reliable**: your reel, or the official instructions? Why might someone choose one over the other?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M2-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can plan a how-to reel.",
+          "I can research my steps.",
+          "I can write clear captions.",
+          "I can use only allowed content."
+        ],
+        "questions": [
+          "The skill I taught:",
+          "What my tester said:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The Online & Safe boss level. Students plan, research, storyboard, film, edit and caption a 60-second how-to reel that teaches one real skill, using their own footage and allowed music, crediting the source used to check their steps, and testing it on a real viewer. They annotate a reel plan, sort what's OK to use, and plan and storyboard their own. The case study is captioning: the Department of Health estimates about 3.6 million Australians have some hearing loss (projected to double by 2060), and the international Web Content Accessibility Guidelines require captions for pre-recorded video with sound.",
+    "prep": [
+      "Check filming and editing apps on phones or school devices, and how to add or edit captions.",
+      "Agree where reels will be shared (class only by default).",
+      "Brief students on filming people: always ask first.",
+      "Have a quiet space for filming."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — How-to reels",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** play a short how-to with the sound off. Could you follow it?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a 60-second how-to (10 min).**",
+          "**OK to use? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** captions aren't optional.",
+          "**Plan and research (35 min):** step 1."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Storyboard and film",
+        "minutes": 50,
+        "steps": [
+          "**Storyboard (20 min).**",
+          "**Film (30 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 4 — Edit, caption, test",
+        "minutes": 60,
+        "steps": [
+          "**Edit and caption (30 min).**",
+          "**Test (15 min):** swap with a classmate.",
+          "**Level Up, reflect (15 min):** request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "One skill, one audience, under 60 seconds.",
+      "Research steps from a reliable source; explain them in your own words; credit it.",
+      "Storyboard: hook, what you need, three to five steps, finish.",
+      "Film vertically, in good light, with close-ups.",
+      "Captions make video accessible; edit auto-captions for accuracy, spelling and punctuation.",
+      "Use your own footage and allowed music; ask before filming people.",
+      "About 3.6 million Australians are estimated to have some hearing loss; WCAG requires captions on pre-recorded video with sound."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the reel plan.",
+        "Fewer sort cards and steps.",
+        "A very simple skill; film in pairs."
+      ],
+      "extend": [
+        "User-test and revise.",
+        "Compare tone and reliability with official instructions (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U1M2-LG1",
+        "evidence": "Creates a digital text for a specific audience and purpose (plan, storyboard, reel)."
+      },
+      {
+        "vc": "VPC-U1M2-AP3",
+        "evidence": "Plans, researches, drafts and edits using a familiar source (plan, Do it)."
+      },
+      {
+        "vc": "VPC-U1M2-AP6",
+        "evidence": "Understands plagiarism and uses only allowed content (sort, credits)."
+      },
+      {
+        "vc": "VPC-U1M2-AP7",
+        "evidence": "Applies literacy conventions in captions (storyboard, Do it)."
+      },
+      {
+        "vc": "VPC-U1M2-AP4",
+        "evidence": "Level Up: compares language, tone and reliability with official instructions."
+      }
+    ],
+    "answers": "**Check your reading:** the finished result, and a promise of what they'll learn. People who are Deaf or hard of hearing and anyone with the sound off; auto-captions make mistakes. Use your own footage and words; credit sources; use allowed music; don't copy scripts or clips.\n\n**Reel plan:** 1 hook; 2 what you need; 3 close-up with numbered step caption; 4 precise caption; 5 finish and tip; 6 credits (source checked, original music).\n\n**Sort:** own video — OK; another creator's clip — not OK; checked steps in own words with credit — OK; copied script — not OK; friend who agreed — OK; stranger without asking — not OK.\n\n**Case study:** people who are Deaf or hard of hearing, people on public transport or at work with sound off, people learning English; auto-captions make errors with names, slang and technical words; answers will vary.",
+    "resources": [
+      {
+        "label": "Department of Health — Hearing health communications kit",
+        "url": "https://www.health.gov.au/sites/default/files/2023-06/communications-kit---hearing-health-awareness-and-prevention.pdf"
+      },
+      {
+        "label": "W3C — Understanding WCAG: Captions (Prerecorded)",
+        "url": "https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html"
+      },
+      {
+        "label": "Smartcopying — copyright guidance for Australian schools",
+        "url": "https://www.smartcopying.edu.au"
+      }
+    ],
+    "realityCheck": [
+      "**Filming eats time.** Keep skills tiny and storyboards tight.",
+      "**Students love this.** Expect toasties, hair, sneakers and phone tricks. All fine.",
+      "**Caption checking is the literacy core.** Don't let auto-captions slide through unedited.",
+      "**Privacy.** Default to class sharing; ask before filming anyone.",
+      "**Works in a real class:** yes. A great portfolio piece."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the reel plan, fewer sort cards and steps, and filming in pairs.",
+      "core": "Standard version: how-to reels, a reel plan to annotate, an OK-to-use sort, the captions case, planning with research, a storyboard with captions, and filming, captioning and testing a reel.",
+      "extend": "Adds accessible and hook to the vocabulary, a quiz question on tone, user-testing and revision, and Level Ups comparing tone and reliability with official instructions."
+    }
+  }
+}

@@ -1,0 +1,900 @@
+{
+  "id": "vpc-lock-it-down",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with your own phone or device",
+  "brief": {
+    "hook": {
+      "support": "Your email. Your bank. Your socials. If someone gets into one, they can get into more. Most hacks need just a weak password, or one wrong tap.",
+      "core": "Your email, your bank, your socials, your myGov. If someone gets into one, they can often get into the rest. In 2024–25, Australia's cyber security agency got a cybercrime report about every six minutes. Most break-ins don't need a genius hacker. They need a weak password, or one tap on the wrong link."
+    },
+    "why": {
+      "support": "Your accounts hold your money and your private stuff. A few simple habits stop most attacks. Set them up once.",
+      "core": "Your accounts hold your money, your photos, your messages and your identity. A few simple habits (strong passphrases, two-step login, updates, and spotting fake messages) stop most attacks. They take ten minutes to set up and save you weeks of stress.",
+      "extend": "Digital security protects your money, identity and privacy. Most break-ins exploit simple weaknesses: reused passwords, no two-step login, old software and phishing. Knowing how to use security features lets you go online safely."
+    },
+    "canDo": {
+      "support": [
+        "I can make a strong passphrase.",
+        "I can turn on two-step login.",
+        "I can spot a fake message.",
+        "I can check my settings."
+      ],
+      "core": [
+        "I can make a strong **passphrase**.",
+        "I can turn on **two-step login** (MFA).",
+        "I can spot a **phishing** message.",
+        "I can check my **privacy** and security settings."
+      ]
+    },
+    "showIt": "Lock down your most important account: a strong passphrase, two-step login, and checked privacy and recovery settings.",
+    "vocab": [
+      {
+        "word": "password",
+        "meaning": "a secret word that lets you into an account",
+        "example": "Never share your password."
+      },
+      {
+        "word": "passphrase",
+        "meaning": "a password made of several random words",
+        "example": "“purple kettle surfing wombat” is a passphrase."
+      },
+      {
+        "word": "two-step login",
+        "meaning": "a second check, like a code, when you log in (also called MFA)",
+        "example": "Two-step login sent a code to my phone."
+      },
+      {
+        "word": "phishing",
+        "meaning": "a fake message that tries to trick you into giving away details",
+        "example": "The phishing text looked like it was from the bank."
+      },
+      {
+        "word": "hacked",
+        "meaning": "when someone gets into your account without permission",
+        "example": "My mate's Instagram got hacked."
+      },
+      {
+        "word": "privacy settings",
+        "meaning": "choices about who can see your stuff",
+        "example": "I set my privacy settings to friends only."
+      },
+      {
+        "word": "update",
+        "meaning": "a new version of software that fixes problems",
+        "example": "I installed the update on my phone.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "recovery details",
+        "meaning": "the email or phone used to get back into an account",
+        "example": "Check your recovery details are up to date.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Lock It Down in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Lock It Down",
+        "sub": "Your accounts are worth protecting.",
+        "icon": "lucide:lock",
+        "say": "Lock it down. Your accounts are worth protecting."
+      },
+      {
+        "kind": "stat",
+        "big": "6 min",
+        "title": "about how often a cybercrime was reported in 2024–25",
+        "sub": "ASD's ACSC Annual Cyber Threat Report 2024–25",
+        "say": "In 2024–25, Australia's cyber security agency received more than eighty-four thousand cybercrime reports. That's about one every six minutes.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Lock it",
+        "pillIcon": "lucide:lock",
+        "title": "Passphrase",
+        "text": "purple kettle **surfing** wombat",
+        "icon": "lucide:key-round",
+        "say": "Use a passphrase: four or more random words. Long beats tricky.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Lock it",
+        "pillIcon": "lucide:lock",
+        "title": "One per account",
+        "text": "Never **reuse**",
+        "icon": "lucide:copy-x",
+        "say": "Use a different one for every important account, especially your email.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Lock it",
+        "pillIcon": "lucide:lock",
+        "title": "Two-step login",
+        "text": "Password + **code**",
+        "icon": "lucide:smartphone",
+        "say": "Turn on two-step login. Even if someone gets your password, they can't get in without the code.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Lock it",
+        "pillIcon": "lucide:lock",
+        "title": "Spot phishing",
+        "text": "Urgent · Link · **Code?**",
+        "icon": "lucide:fish",
+        "say": "Spot phishing. Urgent, a link, and a request for your details or a code? Stop.",
+        "vc": [
+          "VPC-U1M2-LG3",
+          "VPC-U1M2-AP1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Lock it",
+        "pillIcon": "lucide:lock",
+        "title": "Update",
+        "text": "Tap **install**",
+        "icon": "lucide:refresh-cw",
+        "say": "Update your phone and apps. Updates fix security holes.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Lock it down",
+        "steps": [
+          "Passphrase",
+          "Two-step login",
+          "Update and check"
+        ],
+        "say": "Passphrase, two-step login, updates. Then check your privacy settings."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Ten minutes. **Locked.**",
+        "icon": "lucide:lock",
+        "say": "Your mission. Lock down your most important account today."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Five habits that stop most hacks",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Most hacks happen because of a weak password, or one tap on a fake link. Five habits stop most of it.\n\n**1. Use a passphrase.** Four or more random words, like *purple kettle surfing wombat*. Don't use your name or birthday.\n\n**2. One for each account.** Don't use the same one everywhere. Your **email** matters most.\n\n**3. Turn on two-step login.** It sends a code to your phone when you log in. A thief can't get in without it.\n\n**4. Spot phishing.** Fake messages:\n\n- are **urgent**\n- have a **link**\n- ask for your **password** or a **code**.\n\nDon't tap the link. Never give anyone a code.\n\n**5. Update.** Install updates on your phone and apps. Check who can see your posts.\n\n**Hacked?** Change your password. Turn on two-step login. Tell your bank if money is involved. Report it at **cyber.gov.au**.",
+          "core": "Most accounts aren't hacked by a genius in a hoodie. They're broken into because of a weak password, a reused password, or one tap on a fake link. Five habits stop most of it.\n\n**1. Use a passphrase.** A **passphrase** is four or more random words, like *purple kettle surfing wombat*. It's long, so it's hard to crack, but easy for you to remember. Don't use your name, your pet, your footy team or your birthday.\n\n**2. One per account.** If you use the same password everywhere, one leak opens everything. Your **email** matters most, because it can reset all your other passwords. A password manager can remember them all for you.\n\n**3. Turn on two-step login.** **Two-step login** (also called **MFA**) asks for something extra, like a code sent to your phone or an app. Even if someone steals your password, they can't get in without it. Turn it on for email, banking, socials and myGov.\n\n**4. Spot phishing.** **Phishing** messages pretend to be your bank, a delivery company, myGov or even a mate. Warning signs:\n\n- it's **urgent** (*“Your account will be closed today!”*)\n- it has a **link** to tap\n- it asks for your **password**, **card details** or a **code**.\n\nDon't tap the link. Go to the real app or website yourself. And **never** give anyone a login code. Real companies won't ask for it.\n\n**5. Update and check.** **Updates** fix security holes, so install them. Check your **privacy settings** (who can see your posts and details) and your **recovery details** (the email and phone that can get you back in).\n\n**If you get hacked:** change the password straight away, turn on two-step login, check your recovery details, and tell your bank if money's involved. You can report cybercrime at **cyber.gov.au**.",
+          "extend": "Most account compromises don't involve sophisticated attacks. They exploit weak or reused passwords, missing multi-factor authentication, unpatched software and phishing. Five habits address most of the risk.\n\n**1. Passphrases.** A **passphrase** of four or more random words is long enough to resist guessing and cracking, yet memorable. Avoid personal details such as names, pets, teams or birthdays.\n\n**2. Uniqueness.** Reusing a password means one breach compromises many accounts. Prioritise your **email**, which can reset everything else. A password manager makes unique passwords practical.\n\n**3. Multi-factor authentication.** **Two-step login (MFA)** requires a second factor, such as an app code or security key. A stolen password alone is then insufficient. Enable it for email, banking, social media and myGov.\n\n**4. Phishing.** **Phishing** messages impersonate trusted organisations or contacts. Indicators include urgency, an embedded link, and requests for credentials, card details or one-time codes. Navigate to the service independently rather than through the link, and never share a login code.\n\n**5. Maintenance.** Install **updates** promptly, since they patch vulnerabilities. Review **privacy settings** and confirm your **recovery details** are current.\n\n**If compromised:** change the password, enable MFA, verify recovery details, contact your bank if money is involved, and report cybercrime through **cyber.gov.au**."
+        },
+        "vc": [
+          "VPC-U1M2-LG3",
+          "VPC-U1M2-AP1"
+        ],
+        "vcNote": "Recognising and using the features of digital security."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "A report every six minutes",
+        "icon": "lucide:shield-alert",
+        "body": {
+          "support": "Australia has a government agency that tracks online crime. It's called the **ACSC**.\n\nIn **2024–25**, it got more than **84,700** reports of cybercrime. That's about **one every six minutes**.\n\nFor one person, the average cost was about **$33,000**.\n\nMany people never report it. They feel embarrassed, or don't know where to go.\n\nThe ACSC says simple habits help a lot. Use passphrases. Turn on two-step login. Install updates.\n\nYou can report cybercrime at **cyber.gov.au**.",
+          "core": "Every year, the **Australian Signals Directorate's Australian Cyber Security Centre (ACSC)** publishes a report on cybercrime in Australia. It's the government agency that tracks online threats.\n\nIts **Annual Cyber Threat Report 2024–25** found:\n\n- The ACSC received more than **84,700** cybercrime reports in a year.\n- That's about **one report every six minutes**.\n- For individuals, the average reported cost of a cybercrime was about **$33,000**, up 8% on the year before.\n\nThose are only the crimes people reported. Many people never report being scammed or hacked, because they're embarrassed or don't know where to go.\n\nThe good news: the ACSC says basic habits make a big difference. Use strong passphrases. Turn on two-step login. Install updates. Back up your important files. And be suspicious of messages that rush you.\n\nYou can report cybercrime, and get help to recover, at **cyber.gov.au**.",
+          "extend": "The **Australian Cyber Security Centre (ACSC)** is part of the Australian Signals Directorate. Each year, it publishes a report on the cyber threats facing Australia.\n\nIts **Annual Cyber Threat Report 2024–25** found that the ACSC received more than **84,700** cybercrime reports in the year. That is roughly **one every six minutes**. For individuals, the average reported cost of a cybercrime rose 8%, to about **$33,000**.\n\nThese numbers only count crimes that people reported. Many cases never get reported. People feel embarrassed, don't know where to go, or think the loss is too small.\n\nThe ACSC's advice focuses on the basics: strong passphrases, two-step login, quick updates, regular backups, and caution with unexpected messages that rush you.\n\nYou can report cybercrime and get help to recover at **cyber.gov.au**."
+        },
+        "source": {
+          "name": "ASD's ACSC — Annual Cyber Threat Report 2024–2025",
+          "url": "https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025"
+        },
+        "think": {
+          "support": [
+            "What does one every six minutes tell you?",
+            "Which habit will you start?"
+          ],
+          "core": [
+            "What does “one report every six minutes” tell you?",
+            "Why might many people never report being hacked or scammed?",
+            "Which habit would have the biggest effect for you?"
+          ]
+        },
+        "vc": [
+          "VPC-U1M2-LG3",
+          "VPC-U1M2-AP1"
+        ],
+        "vcNote": "Real Australian data on why digital security matters."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a phishing email",
+      "docTitle": "EMAIL IN YOUR INBOX (EXAMPLE)",
+      "vc": [
+        "VPC-U1M2-LG3",
+        "VPC-U1M2-AP1"
+      ],
+      "vcNote": "Recognising the features of a phishing message.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "From",
+          "value": "security-alert@instagrarn-help.co",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Subject",
+          "value": "URGENT: Your account will be deleted in 24 hours"
+        },
+        {
+          "n": 3,
+          "label": "Greeting",
+          "value": "Dear User,"
+        },
+        {
+          "n": 4,
+          "label": "Message",
+          "value": "We detected unusual activity. Verify your account now or lose it forever."
+        },
+        {
+          "n": 5,
+          "label": "Button",
+          "value": "[ VERIFY NOW ] → instagrarn-verify.top/login",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Request",
+          "value": "Then reply with the 6-digit code we just sent to your phone."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Fake sender",
+          "note": "“instagrarn”: rn looks like m. Not the real company."
+        },
+        {
+          "n": 2,
+          "label": "Urgent",
+          "note": "Rushes you so you don't think."
+        },
+        {
+          "n": 3,
+          "label": "Generic greeting",
+          "note": "No name. Sent to thousands."
+        },
+        {
+          "n": 4,
+          "label": "Threat",
+          "note": "Scares you into acting."
+        },
+        {
+          "n": 5,
+          "label": "Dodgy link",
+          "note": "Not the real website."
+        },
+        {
+          "n": 6,
+          "label": "Asks for a code",
+          "note": "Never share login codes."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Lock it down",
+      "steps": [
+        {
+          "title": "Passphrase",
+          "text": "Four random words.",
+          "icon": "lucide:key-round"
+        },
+        {
+          "title": "Two-step login",
+          "text": "Code or app on top.",
+          "icon": "lucide:smartphone"
+        },
+        {
+          "title": "Update",
+          "text": "Phone and apps.",
+          "icon": "lucide:refresh-cw"
+        },
+        {
+          "title": "Check settings",
+          "text": "Privacy and recovery.",
+          "icon": "lucide:settings"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is the strongest password?",
+        "options": [
+          "purple kettle surfing wombat",
+          "Password123",
+          "Jordan2009",
+          "qwerty"
+        ],
+        "answer": 0,
+        "explain": "Long, random words.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ]
+      },
+      {
+        "q": "Why turn on **two-step login**?",
+        "options": [
+          "A thief can't get in with just your password",
+          "It makes your phone faster",
+          "It deletes spam",
+          "You don't need a password"
+        ],
+        "answer": 0,
+        "explain": "Password + code.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ]
+      },
+      {
+        "q": "A text says your parcel is stuck and asks you to tap a link and pay $2. What should you do?",
+        "options": [
+          "Don't tap. Check with the delivery company's real app or site",
+          "Pay quickly",
+          "Reply with your card number",
+          "Forward it to friends"
+        ],
+        "answer": 0,
+        "explain": "Classic phishing signs.",
+        "vc": [
+          "VPC-U1M2-LG3",
+          "VPC-U1M2-AP1"
+        ]
+      },
+      {
+        "q": "Which account matters most to protect?",
+        "options": [
+          "Your email",
+          "A game you played once",
+          "A shopping site you never use",
+          "None of them"
+        ],
+        "answer": 0,
+        "explain": "Email can reset all your other passwords.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ]
+      },
+      {
+        "q": "In 2024–25, about how often was a cybercrime reported to the ACSC?",
+        "options": [
+          "About every six minutes",
+          "Once a year",
+          "Once a month",
+          "Never"
+        ],
+        "answer": 0,
+        "explain": "More than 84,700 reports.",
+        "vc": [
+          "VPC-U1M2-AP1"
+        ]
+      },
+      {
+        "q": "Someone calls saying they're from your bank and asks for the code just sent to your phone. You should…",
+        "options": [
+          "Hang up. Never share login codes",
+          "Read it out",
+          "Text it to them",
+          "Post it"
+        ],
+        "answer": 0,
+        "explain": "Real banks won't ask for your code.",
+        "vc": [
+          "VPC-U1M2-LG3"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "What makes the tone of a phishing message different from a real security alert?",
+        "options": [
+          "It's urgent and threatening, and pushes you to act now",
+          "It's calm and tells you to log in the usual way",
+          "It uses your name",
+          "There's no difference"
+        ],
+        "answer": 0,
+        "explain": "Language and tone are clues to reliability.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Lock down one account. Make a passphrase. Turn on two-step login. Check your settings.",
+      "core": "Lock down your most important account: a strong passphrase, two-step login, and checked privacy and recovery settings.",
+      "extend": "Secure your most important account (passphrase, MFA, recovery details, privacy and logged-in devices), then explain how you'd recognise a phishing attempt aimed at it."
+    },
+    "checklist": [
+      "I chose my most important account",
+      "I set a strong passphrase (and didn't write it here)",
+      "I turned on two-step login",
+      "I checked my recovery email and phone",
+      "I checked my privacy settings",
+      "I know how to spot phishing"
+    ],
+    "levelUp": "Compare the language and tone of a real security alert with a phishing message, and explain what they tell you about reliability.",
+    "vc": [
+      "VPC-U1M2-LG3"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Five habits that stop most hacks",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What's a **passphrase**? Why is it better than a short password?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG3"
+            ]
+          },
+          {
+            "q": "Why is your **email** account the most important to protect?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG3"
+            ]
+          },
+          {
+            "q": "Name **three** signs of a phishing message.",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG3",
+              "VPC-U1M2-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Lock it down",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a phishing email",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a warning sign. Use the word bank. Why is it suspicious?",
+          "core": "Each number marks a warning sign. Write what it is and why it's suspicious."
+        },
+        "columns": [
+          "Warning sign",
+          "Why it's suspicious"
+        ],
+        "wordBank": {
+          "support": [
+            "fake sender",
+            "urgent",
+            "no name",
+            "threat",
+            "dodgy link",
+            "asks for a code"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U1M2-LG3",
+          "VPC-U1M2-AP1"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Safe or risky?",
+        "pagebreak": true,
+        "choices": [
+          "Safe",
+          "Risky"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Is each habit safe or risky? Tick one, and say why.",
+        "cards": [
+          {
+            "from": "Password",
+            "text": "Using “Footy2009” for every account",
+            "answer": "Risky",
+            "flags": "Easy to guess, and reused."
+          },
+          {
+            "from": "Password",
+            "text": "A four-word passphrase, different for each account",
+            "answer": "Safe",
+            "flags": "Long and unique."
+          },
+          {
+            "from": "Login",
+            "text": "Turning on two-step login for your email",
+            "answer": "Safe",
+            "flags": "A stolen password isn't enough."
+          },
+          {
+            "from": "Message",
+            "text": "Tapping a link in a text that says your bank account is locked",
+            "answer": "Risky",
+            "flags": "Classic phishing. Use the real app."
+          },
+          {
+            "from": "Phone",
+            "text": "Leaving updates for months because they're annoying",
+            "answer": "Risky",
+            "flags": "Updates fix security holes.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Social",
+            "text": "Telling a “support” account the code sent to your phone",
+            "answer": "Risky",
+            "flags": "Never share login codes.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M2-LG3"
+        ],
+        "vcNote": "Recognising safe and unsafe digital security practices."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: a report every six minutes",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What does “one report every six minutes” tell you?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP1"
+            ]
+          },
+          {
+            "q": "Why might many people never report being hacked or scammed?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP1"
+            ]
+          },
+          {
+            "q": "Which habit would make the biggest difference **for you**? Why?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "My security check",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 18
+        },
+        "instructions": "Check your own accounts. **Never write a password here.** Just tick what's done.",
+        "columns": [
+          "Account",
+          "Unique passphrase?",
+          "Two-step login on?",
+          "Recovery details checked?"
+        ],
+        "rows": [
+          [
+            "Email",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Phone (lock screen)",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Main social media",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Bank or money app",
+            "",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "myGov or another government account",
+              "",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M2-LG3"
+        ],
+        "vcNote": "Auditing personal use of digital security features."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: lock down one account",
+        "pagebreak": true,
+        "where": "on your own phone or device",
+        "instructions": "Choose your most important account (usually your email). Lock it down now. Keep your passwords private: show your teacher the settings screen, never the password.",
+        "need": [
+          "your phone or device",
+          "access to the account"
+        ],
+        "steps": {
+          "support": [
+            "Make a new passphrase.",
+            "Turn on two-step login.",
+            "Check your recovery email and phone.",
+            "Check who can see your posts.",
+            "Log out of devices you don't know."
+          ],
+          "core": [
+            "Change the password to a **passphrase** of four or more random words.",
+            "Turn on **two-step login** (look in Settings → Security).",
+            "Check your **recovery email and phone** are yours and up to date.",
+            "Check your **privacy settings**: who can see your profile and posts?",
+            "Check **logged-in devices**, and log out of any you don't recognise."
+          ]
+        },
+        "notes": [
+          {
+            "label": "The account I locked down (no passwords!):",
+            "lines": 1
+          },
+          {
+            "label": "Where I found the two-step login setting:",
+            "lines": 1
+          },
+          {
+            "label": "Anything surprising I found:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Teacher saw the settings",
+          "Checklist done",
+          "Explained it to someone"
+        ],
+        "vc": [
+          "VPC-U1M2-LG3"
+        ],
+        "vcNote": "Hands-on: using digital security features on a real account."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Compare a **real** security alert (for example, a real “new login” email from Google or Apple) with the phishing email in “Inside a phishing email”. How are the **language** and **tone** different? What does that tell you?",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M2-AP4"
+            ]
+          },
+          {
+            "q": "Write a short, calm text to a family member explaining how to spot a fake bank message.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M2-AP4",
+              "VPC-U1M2-LG3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can make a strong passphrase.",
+          "I can turn on two-step login.",
+          "I can spot a phishing message.",
+          "I can check my settings."
+        ],
+        "questions": [
+          "The account I locked down:",
+          "One habit I'll keep:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn five digital security habits: passphrases, unique passwords (especially for email), two-step login (MFA), spotting phishing, and keeping devices updated with privacy and recovery settings checked. They annotate a phishing email, sort safe and risky habits, audit their own accounts (without writing passwords), and lock down one real account. The case study is the ASD's ACSC Annual Cyber Threat Report 2024–25: more than 84,700 cybercrime reports, about one every six minutes, with an average self-reported cost for individuals of about $33,000.",
+    "prep": [
+      "Remind students never to write or share passwords; collect no personal details.",
+      "Check students have access to their own device and account; offer a practice account demonstration for those who don't.",
+      "Have cyber.gov.au and Scamwatch ready to show."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Five habits",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** who knows someone who's been hacked?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a phishing email (10 min).**",
+          "**Safe or risky? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — The real numbers",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** a report every six minutes.",
+          "**My security check (15 min).**",
+          "**Demo (20 min):** turn on two-step login on a demo account."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Lock it down",
+        "minutes": 50,
+        "steps": [
+          "**Do it (30 min):** lock down one account.",
+          "**Level Up, reflect (20 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Passphrases: four or more random words; avoid personal details.",
+      "A unique password for every important account; email matters most.",
+      "Two-step login (MFA) stops stolen passwords working on their own.",
+      "Phishing: urgency, a link, a request for details or codes. Never share login codes.",
+      "Install updates; check privacy and recovery settings.",
+      "ACSC 2024–25: 84,700+ cybercrime reports (about one every six minutes); average self-reported cost for individuals about $33,000. Report at cyber.gov.au."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the phishing email.",
+        "Fewer sort cards.",
+        "Lock down one account with a partner's help."
+      ],
+      "extend": [
+        "Check logged-in devices and recovery details.",
+        "Compare a real alert with a phishing email (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U1M2-LG3",
+        "evidence": "Recognises and uses digital security features (sort, security check, Do it)."
+      },
+      {
+        "vc": "VPC-U1M2-AP1",
+        "evidence": "Identifies the main ideas and key information in digital texts (phishing email, case study)."
+      },
+      {
+        "vc": "VPC-U1M2-AP4",
+        "evidence": "Level Up: explains how language and tone signal a message's reliability."
+      }
+    ],
+    "answers": "**Check your reading:** four or more random words; long, so hard to crack, but easy to remember. Email can reset all your other passwords. Urgent, a link, asks for password, card details or a code (also: odd sender, no name, threats).\n\n**Phishing email:** 1 fake sender (instagrarn); 2 urgent subject; 3 generic greeting; 4 threat; 5 dodgy link; 6 asks for a login code.\n\n**Sort:** Footy2009 everywhere — risky; unique passphrase — safe; two-step login — safe; bank link in text — risky; ignoring updates — risky; sharing a code — risky.\n\n**Case study:** cybercrime is constant and common; embarrassment or not knowing where to report; answers will vary.",
+    "resources": [
+      {
+        "label": "ASD's ACSC — Annual Cyber Threat Report 2024–2025",
+        "url": "https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025"
+      },
+      {
+        "label": "ACSC — factsheet for individuals (2024–25)",
+        "url": "https://www.cyber.gov.au/sites/default/files/2025-10/Annual%20Cyber%20Threat%20Report%202024-25%20factsheet%20for%20individuals.pdf"
+      },
+      {
+        "label": "cyber.gov.au — report and recover",
+        "url": "https://www.cyber.gov.au/report-and-recover"
+      },
+      {
+        "label": "Scamwatch",
+        "url": "https://www.scamwatch.gov.au"
+      }
+    ],
+    "realityCheck": [
+      "**Privacy first.** Students must never write or show passwords; check settings screens only.",
+      "**Some students share devices or accounts.** Talk about why that's risky, kindly.",
+      "**MFA can lock people out.** Make sure recovery details are right before turning it on.",
+      "**Works in a real class:** yes. It's one of the most immediately useful lessons students get."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the phishing email, fewer sort cards and table rows, and partner help for the Do it.",
+      "core": "Standard version: five security habits, a phishing email to annotate, a safe-or-risky sort, the ACSC threat report case, a personal security check, and locking down a real account.",
+      "extend": "Adds update and recovery details to the vocabulary, a quiz question on tone and reliability, checking logged-in devices, and Level Ups comparing a real alert with phishing."
+    }
+  }
+}

@@ -1,0 +1,893 @@
+{
+  "id": "vpc-website-tour",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "You need a phone number or a start date. The website is right there. But where is it? Most websites use the same parts. Learn them, and you can find anything.",
+      "core": "You need to find the phone number for your local council, how to book a learner test, or the start date for a TAFE course. The website is right there, but where's the bit you need? Almost every website is built from the same parts. Learn them once, and you can find anything on any site."
+    },
+    "why": {
+      "support": "Lots of important stuff is on websites. Learn how they're set out. You'll find things faster, and spot fake sites.",
+      "core": "Government services, TAFE courses, job ads, banks and bills all live on websites now. If you know how websites are laid out, and how to tell whether a site is trustworthy, you'll get things done faster and avoid fake sites.",
+      "extend": "Services, applications and information are increasingly delivered online. Understanding the shared layout conventions of websites, and the features that signal trustworthiness, lets you navigate efficiently and judge whether a site suits your purpose."
+    },
+    "canDo": {
+      "support": [
+        "I can name the parts of a website.",
+        "I can use the menu, search and footer.",
+        "I can read a web address.",
+        "I can work out tricky link words."
+      ],
+      "core": [
+        "I can name the **parts** of a website.",
+        "I can use the **menu**, **search** and **footer** to find information.",
+        "I can tell what a website is for from its **web address** and layout.",
+        "I can work out unfamiliar words in links and menus."
+      ]
+    },
+    "showIt": "Take a tour of a real website: find five things using the menu, search, breadcrumbs and footer, then guide a partner to one of them.",
+    "vocab": [
+      {
+        "word": "website",
+        "meaning": "a set of pages on the internet, with one address",
+        "example": "The council website has a page about bins."
+      },
+      {
+        "word": "menu",
+        "meaning": "the list of main sections, usually at the top",
+        "example": "I found “Services” in the menu."
+      },
+      {
+        "word": "search bar",
+        "meaning": "a box where you type what you're looking for",
+        "example": "I typed “bin day” in the search bar."
+      },
+      {
+        "word": "link",
+        "meaning": "words or a button you click to go to another page",
+        "example": "I clicked the link to the form."
+      },
+      {
+        "word": "footer",
+        "meaning": "the bottom of a web page, with contact and legal links",
+        "example": "The phone number was in the footer."
+      },
+      {
+        "word": "web address",
+        "meaning": "the address of a page, also called the URL",
+        "example": "The web address ended in .gov.au."
+      },
+      {
+        "word": "breadcrumbs",
+        "meaning": "a trail of links showing where you are on a site",
+        "example": "The breadcrumbs said Home > Jobs > Apprenticeships.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "domain",
+        "meaning": "the main part of a web address, like vic.gov.au",
+        "example": "The domain told me it was a government site.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Website Tour in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Website Tour",
+        "sub": "Find anything on any site.",
+        "icon": "lucide:panels-top-left",
+        "say": "Website tour. Menus, search and footers: find anything on any site."
+      },
+      {
+        "kind": "stat",
+        "big": "900+",
+        "title": "vic.gov.au web addresses across Victoria",
+        "sub": "Digital Victoria",
+        "say": "Years ago, Victoria had more than nine hundred government web addresses. The government has been moving many sites onto one shared design, so they all work the same way.",
+        "vc": [
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Website",
+        "pillIcon": "lucide:panels-top-left",
+        "title": "Header",
+        "text": "Logo = **home**",
+        "icon": "lucide:house",
+        "say": "Logo and header. At the top. Click the logo to go back to the home page.",
+        "vc": [
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Website",
+        "pillIcon": "lucide:panels-top-left",
+        "title": "Menu",
+        "text": "☰ = **menu**",
+        "icon": "lucide:menu",
+        "say": "Menu. The main sections. On a phone, it's often hidden under three lines.",
+        "vc": [
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Website",
+        "pillIcon": "lucide:panels-top-left",
+        "title": "Search",
+        "text": "Know it? **Search it.**",
+        "icon": "lucide:search",
+        "say": "Search. Type a keyword when you know exactly what you want.",
+        "vc": [
+          "VPC-U1M2-LG2",
+          "VPC-U1M2-AP1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Website",
+        "pillIcon": "lucide:panels-top-left",
+        "title": "Footer",
+        "text": "Contact · About · **Privacy**",
+        "icon": "lucide:panel-bottom",
+        "say": "Footer. At the very bottom: contact details, about us, privacy and accessibility.",
+        "vc": [
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Read the address",
+        "text": ".gov.au · .edu.au · **.com**",
+        "icon": "lucide:link",
+        "say": "Check the web address. dot gov dot au is government. dot edu dot au is education. dot com is usually a business.",
+        "vc": [
+          "VPC-U1M2-LG2",
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Find anything",
+        "steps": [
+          "Check the address",
+          "Menu or search",
+          "Footer for contact"
+        ],
+        "say": "Check the address, try the menu, then search, then the footer."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Find it in **three clicks**.",
+        "icon": "lucide:panels-top-left",
+        "say": "Your mission. Tour a real website and find five things fast."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Find anything on any website",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Websites look different. But most have the same parts in the same places.\n\n**At the top**\n\n- **Logo:** click it to go back to the **home page**.\n- **Menu:** the main sections. On a phone, tap the **three lines** (☰).\n- **Search bar:** type what you want.\n\n**In the middle**\n\n- **Headings:** what each part is about.\n- **Links and buttons:** click them to go somewhere.\n\n**At the bottom: the footer**\n\n- **Contact us:** phone and email.\n- **About us:** who runs the site.\n- **Privacy.**\n\n**Read the web address.**\n\n- **.gov.au** means government.\n- **.edu.au** means a school or TAFE.\n- **.com** usually means a business.\n\nFake sites copy real ones. Check the address!\n\n**Tricky words.** *Apply*, *application*. *Eligible* means allowed to.",
+          "core": "Websites look different, but most are built from the same parts, in the same places. Once you know them, you can find your way around almost any site.\n\n**At the top**\n\n- **Logo:** usually top left. Click it to go back to the **home page**.\n- **Menu:** the main sections, like *Services*, *Jobs* or *About*. On a phone, the menu is often hidden under **three lines** (☰).\n- **Search bar:** a box with a magnifying glass. Use it when you know exactly what you want.\n\n**In the middle**\n\n- **Breadcrumbs:** a trail like *Home > Jobs > Apprenticeships*. It shows where you are. Click any part to go back.\n- **Headings:** tell you what each section is about.\n- **Links and buttons:** blue or underlined words, or buttons like *Apply now*.\n\n**At the bottom: the footer**\n\n- **Contact us:** phone numbers, emails and addresses.\n- **About us:** who runs the site.\n- **Privacy** and **accessibility**: what they do with your information, and how they help people with disability use the site.\n\n**Read the web address.** The **web address** (URL) tells you a lot:\n\n- **.gov.au**: an Australian government site.\n- **.edu.au**: a school, TAFE or university.\n- **.org.au**: often a charity or community group.\n- **.com.au** or **.com**: usually a business.\n\nFake sites sometimes copy a real site's look. Check the address carefully: *mygov-help.com* is not *my.gov.au*.\n\n**Tricky words in menus.** Websites use formal words. Break them into parts or use word families: *eligibility* (*eligible*: allowed to), *application* (*apply*), *concession* (a discount).",
+          "extend": "Websites look different, but most follow the same layout rules. Once you know them, you can find your way around a new site quickly.\n\n**Header**\n\n- **Logo:** usually top left. It links to the **home page**.\n- **Menu:** the main sections. On a phone, it's often hidden behind a **hamburger icon** (☰).\n- **Search:** best when you know exactly what you need.\n\n**Body**\n\n- **Breadcrumbs** (*Home > Jobs > Apprenticeships*) show where you are in the site. You can click back up.\n- **Headings** organise the page. Buttons like *Apply now* or *Book a test* lead to tasks.\n\n**Footer**\n\nThe footer holds **contact** details, **about** information, and the **privacy**, **terms** and **accessibility** pages.\n\n**Domains and trust.** The **domain** shows who runs a site. **.gov.au** means an Australian government. **.edu.au** means a school, TAFE or university. **.org.au** is often a not-for-profit. **.com.au** and **.com** are usually businesses. Fake sites can copy a real site's design, so check the full address, not just the look.\n\n**Formal words.** Government sites use formal language. Use word families to decode it: *eligibility* comes from *eligible* (allowed to); *application* comes from *apply*; a *concession* is a lower price."
+        },
+        "vc": [
+          "VPC-U1M2-LG2",
+          "VPC-U1M2-AP1",
+          "VPC-U1M2-AP2"
+        ],
+        "vcNote": "The layout and key features of websites; trustworthiness; decoding digital content."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "From 900 websites to one design",
+        "icon": "lucide:panels-top-left",
+        "body": {
+          "support": "Imagine searching hundreds of different websites to find one thing. Each one looks different.\n\nThat was a problem in Victoria. In **2015**, one government department had **36** different websites. Across Victoria, there were more than **900** government web addresses.\n\nSo the government made one shared design. The main site is **vic.gov.au**.\n\nNow lots of government sites look and work the same way. Same menu. Same search. Same footer. People can find things faster.\n\nToday, more than **60** websites use it.\n\nGood design helps people find what they need.",
+          "core": "Imagine needing something from the Victorian Government, and having to search through hundreds of different websites. Each one looks different. The menu is in a different place. The search works differently.\n\nThat was the problem Victoria faced. The government's digital team looked into it. In **2015**, one department alone ran **36** different websites. Each had its own look and system. Across Victoria, there were more than **900** web addresses ending in *vic.gov.au*.\n\nSo the government started building a **Single Digital Presence**: one shared platform and design for government websites. The main site is **vic.gov.au**.\n\nThe idea is simple. If every government site uses the same layout, people find things faster. The header, menu, search and footer are always in the same place. People don't have to learn a new website every time.\n\nToday, the government says more than **60** websites use the shared platform, and **vic.gov.au** has more than **120** sections from all 10 government departments.\n\nThe lesson: good website design isn't just about looking nice. It's about helping people find things, especially the things they really need.",
+          "extend": "Imagine trying to use government services spread across hundreds of websites. Each has its own menus, search and layout.\n\nThat was Victoria's situation. The government's digital team found that in **2015**, a single department ran **36** websites, with different branding and systems. Across the state, there were more than **900** vic.gov.au web addresses.\n\nThe answer was the **Single Digital Presence**: one shared platform and design for government websites, built around **vic.gov.au**.\n\nThe key idea is consistency. When sites share the same header, menu, search, headings and footer, people don't have to relearn each one. They find information and services faster.\n\nThe government now says more than **60** websites use the platform, and **vic.gov.au** has more than **120** sections from all 10 government departments.\n\nThe case shows that web design is really about usability: helping people find what they need, quickly and with confidence."
+        },
+        "source": {
+          "name": "Victorian Government — Single Digital Presence",
+          "url": "https://www.vic.gov.au/single-digital-presence"
+        },
+        "think": {
+          "support": [
+            "Why is it hard when sites all look different?",
+            "How does one design help?"
+          ],
+          "core": [
+            "Why is it a problem when every website looks different?",
+            "How does a shared design help people find things?",
+            "Which website do you use that's hard to find things on? Why?"
+          ]
+        },
+        "vc": [
+          "VPC-U1M2-LG2"
+        ],
+        "vcNote": "A real Australian example of designing websites around their users."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a web page",
+      "docTitle": "WEB PAGE — “YOUTH HUB” APPRENTICESHIPS PAGE (EXAMPLE)",
+      "vc": [
+        "VPC-U1M2-LG2"
+      ],
+      "vcNote": "The layout and key features of a website.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Top left",
+          "value": "Youth Hub logo (links to Home)"
+        },
+        {
+          "n": 2,
+          "label": "Top",
+          "value": "Menu: Jobs · Study · Money · Health · ☰",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Top right",
+          "value": "🔍 Search Youth Hub"
+        },
+        {
+          "n": 4,
+          "label": "Under the menu",
+          "value": "Home > Jobs > Apprenticeships"
+        },
+        {
+          "n": 5,
+          "label": "Middle",
+          "value": "Heading: How to find an apprenticeship · Button: [ Find a course ]"
+        },
+        {
+          "n": 6,
+          "label": "Bottom",
+          "value": "Contact us · About us · Privacy · Accessibility · youthhub.vic.gov.au",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Logo",
+          "note": "Click it to go home."
+        },
+        {
+          "n": 2,
+          "label": "Menu",
+          "note": "Main sections. ☰ on phones."
+        },
+        {
+          "n": 3,
+          "label": "Search",
+          "note": "For when you know what you want."
+        },
+        {
+          "n": 4,
+          "label": "Breadcrumbs",
+          "note": "Where you are, and the way back."
+        },
+        {
+          "n": 5,
+          "label": "Heading and button",
+          "note": "What the page is about, and what to do next."
+        },
+        {
+          "n": 6,
+          "label": "Footer",
+          "note": "Contact, about, privacy. The address shows it's government."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Find anything",
+      "steps": [
+        {
+          "title": "Check the address",
+          "text": "Is it the real site?",
+          "icon": "lucide:link"
+        },
+        {
+          "title": "Menu",
+          "text": "Browse the main sections.",
+          "icon": "lucide:menu"
+        },
+        {
+          "title": "Search",
+          "text": "Know it? Type it.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Footer",
+          "text": "Contact, about, privacy.",
+          "icon": "lucide:panel-bottom"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Where do you usually find a website's **contact** details?",
+        "options": [
+          "In the footer, at the bottom",
+          "In the logo",
+          "In the search bar",
+          "Nowhere"
+        ],
+        "answer": 0,
+        "explain": "Contact, about, privacy.",
+        "vc": [
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "q": "On a phone, what does ☰ usually mean?",
+        "options": [
+          "Menu",
+          "Close",
+          "Search",
+          "Home"
+        ],
+        "answer": 0,
+        "explain": "Tap it to see the main sections.",
+        "vc": [
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "q": "Which web address is an Australian **government** site?",
+        "options": [
+          "vic.gov.au",
+          "vic-gov-help.com",
+          "vicgov.net",
+          "govdeals.com.au"
+        ],
+        "answer": 0,
+        "explain": ".gov.au is government.",
+        "vc": [
+          "VPC-U1M2-LG2",
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "q": "You know the exact name of the form you need. What's fastest?",
+        "options": [
+          "The search bar",
+          "Reading every page",
+          "The footer",
+          "The logo"
+        ],
+        "answer": 0,
+        "explain": "Know it? Search it.",
+        "vc": [
+          "VPC-U1M2-AP1"
+        ]
+      },
+      {
+        "q": "Why did Victoria move many government sites onto one shared design?",
+        "options": [
+          "So people can find things faster on every site",
+          "To make sites slower",
+          "To remove the menus",
+          "To sell ads"
+        ],
+        "answer": 0,
+        "explain": "Consistency helps users.",
+        "vc": [
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "q": "What do **breadcrumbs** show?",
+        "options": [
+          "Where you are on the site, and the way back",
+          "Food",
+          "The weather",
+          "Your password"
+        ],
+        "answer": 0,
+        "explain": "Home > Jobs > Apprenticeships.",
+        "vc": [
+          "VPC-U1M2-LG2"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "What does **eligibility** mean on a website?",
+        "options": [
+          "Whether you're allowed to get or do something",
+          "The price",
+          "The opening hours",
+          "The website's name"
+        ],
+        "answer": 0,
+        "explain": "From eligible: allowed to.",
+        "vc": [
+          "VPC-U1M2-AP2"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Tour a real website. Find five things. Use the menu, search and footer. Show a partner how to find one.",
+      "core": "Take a tour of a real website: find five things using the menu, search, breadcrumbs and footer, then guide a partner to one of them.",
+      "extend": "Navigate a real website to locate five items, recording the path and feature used for each, judge its trustworthiness for its purpose, and guide a partner through one task."
+    },
+    "checklist": [
+      "I checked the web address",
+      "I used the menu",
+      "I used the search bar",
+      "I found the contact details in the footer",
+      "I found five things and recorded how",
+      "I guided a partner to one of them"
+    ],
+    "levelUp": "Compare a government website and a business website on the same topic, and explain how their language, tone and reliability differ.",
+    "vc": [
+      "VPC-U1M2-LG2",
+      "VPC-U1M2-AP1"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Find anything on any website",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name **four** parts of a website, and where you'd find them.",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG2"
+            ]
+          },
+          {
+            "q": "When should you use the **search bar** instead of the menu?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP1"
+            ]
+          },
+          {
+            "q": "What does **.gov.au** tell you? Why check the web address?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Find anything",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a web page",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the page. Use the word bank. What's it for?",
+          "core": "Each number marks part of the web page. Write what it is and what it's for."
+        },
+        "columns": [
+          "What is it?",
+          "What's it for?"
+        ],
+        "wordBank": {
+          "support": [
+            "logo",
+            "menu",
+            "search bar",
+            "breadcrumbs",
+            "heading and button",
+            "footer"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Where would you go?",
+        "pagebreak": true,
+        "choices": [
+          "Menu",
+          "Search",
+          "Footer"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "You're on a council website. Where would you go first? Tick one.",
+        "cards": [
+          {
+            "from": "Task",
+            "text": "Find the council's phone number",
+            "answer": "Footer",
+            "flags": "Contact details live at the bottom."
+          },
+          {
+            "from": "Task",
+            "text": "Find the “Hard Rubbish Collection Booking” form",
+            "answer": "Search",
+            "flags": "You know its exact name."
+          },
+          {
+            "from": "Task",
+            "text": "See all the services the council offers",
+            "answer": "Menu",
+            "flags": "Browse the main sections."
+          },
+          {
+            "from": "Task",
+            "text": "Read the privacy policy",
+            "answer": "Footer",
+            "flags": "Legal links are in the footer."
+          },
+          {
+            "from": "Task",
+            "text": "Find the page about skate park opening hours",
+            "answer": "Search",
+            "flags": "A specific thing.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Task",
+            "text": "Look around the “Sport and recreation” section",
+            "answer": "Menu",
+            "flags": "A whole section to browse.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M2-LG2",
+          "VPC-U1M2-AP1"
+        ],
+        "vcNote": "Using website features to find key information."
+      },
+      {
+        "type": "table",
+        "title": "Read the web address",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 22
+        },
+        "instructions": "What does each web address tell you? Who probably runs it? The first one is done for you.",
+        "columns": [
+          "Web address",
+          "Who probably runs it?",
+          "Can I trust it for official info?"
+        ],
+        "rows": [
+          [
+            "www.vic.gov.au",
+            "The Victorian Government",
+            "Yes: it's the real government site"
+          ],
+          [
+            "www.youthcentral.vic.gov.au",
+            "",
+            ""
+          ],
+          [
+            "www.chisholm.edu.au",
+            "",
+            ""
+          ],
+          [
+            "www.bunnings.com.au",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "mygov-account-help.com",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M2-LG2",
+          "VPC-U1M2-AP4"
+        ],
+        "vcNote": "Using web addresses to judge who runs a site and how trustworthy it is."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: from 900 websites to one design",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why is it a problem when every website looks different?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG2"
+            ]
+          },
+          {
+            "q": "How does a shared design help people find things?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG2"
+            ]
+          },
+          {
+            "q": "Which website do **you** use that's hard to find things on? Why?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: website tour",
+        "pagebreak": true,
+        "where": "in class, on a real website",
+        "instructions": "Choose a real website you'll need: vic.gov.au, Youth Central, your local council, a TAFE or a bank. Find five things fast, then guide a partner to one of them.",
+        "need": [
+          "a device",
+          "a real website"
+        ],
+        "steps": {
+          "support": [
+            "Check the web address.",
+            "Find the phone number.",
+            "Find who runs the site.",
+            "Use the menu and the search.",
+            "Show a partner how to find one thing."
+          ],
+          "core": [
+            "Check the **web address**. Is it the real site?",
+            "Find the **contact details** (try the footer).",
+            "Find **About us**: who runs the site?",
+            "Use the **menu** to find one section, and the **search** to find one specific thing.",
+            "Guide a partner to one of your finds, step by step, without touching their screen."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Website:",
+            "lines": 1
+          },
+          {
+            "label": "My five finds (and how I found each one):",
+            "lines": 4
+          },
+          {
+            "label": "Did my partner find it from my directions?",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Screenshots",
+          "Teacher saw it",
+          "Partner found it"
+        ],
+        "vc": [
+          "VPC-U1M2-LG2",
+          "VPC-U1M2-AP1"
+        ],
+        "vcNote": "Hands-on: navigating a real website and explaining its layout to someone else."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Find a **government** website and a **business** website on the same topic (for example, car registration, or getting a tax file number). How are their **language** and **tone** different? Which is more reliable, and why?",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M2-AP4"
+            ]
+          },
+          {
+            "q": "Find **three** formal words on a government website (like *eligibility* or *concession*). Work out what each one means.",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M2-AP2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can name the parts of a website.",
+          "I can use the menu, search and footer.",
+          "I can read a web address.",
+          "I can work out tricky link words."
+        ],
+        "questions": [
+          "The website I toured:",
+          "My fastest way to find things:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the shared layout of websites (logo and home, menu and hamburger icon, search, breadcrumbs, headings and calls to action, and the footer with contact, about, privacy and accessibility), how to read a web address and domain to judge who runs a site, and how to decode formal interface vocabulary. They annotate a web page, sort where to go for tasks, interpret web addresses, and tour a real site, guiding a partner to one find. The case study is Victoria's Single Digital Presence: after finding more than 900 vic.gov.au web addresses and 36 websites in one department in 2015, the government moved many sites onto one shared design centred on vic.gov.au.",
+    "prep": [
+      "Check the websites students might use are accessible on school devices (vic.gov.au, Youth Central, your local council, a local TAFE).",
+      "Optional: show the same site on a desktop and a phone to compare menus.",
+      "Prepare a fake-looking web address example to discuss (don't visit real scam sites)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The parts of a website",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** race to find a council's phone number.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a web page (10 min).**",
+          "**Where would you go? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Addresses and design",
+        "minutes": 50,
+        "steps": [
+          "**Read the web address (15 min).**",
+          "**Case study (15 min):** from 900 websites to one design.",
+          "**Model a website tour (20 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Website tour",
+        "minutes": 50,
+        "steps": [
+          "**Do it (30 min):** website tour and partner guide.",
+          "**Level Up, reflect (20 min):** quick check; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Header: logo (home), menu (☰ on phones), search.",
+      "Body: breadcrumbs, headings, links and buttons.",
+      "Footer: contact, about, privacy, accessibility.",
+      "Domains: .gov.au government, .edu.au education, .org.au often not-for-profit, .com.au/.com usually business. Check the full address.",
+      "Decode formal words with word families: eligibility, application, concession.",
+      "Victoria's Single Digital Presence moved many government sites onto one shared design (vic.gov.au)."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the web page.",
+        "Fewer sort cards and addresses.",
+        "Tour one familiar site with a partner."
+      ],
+      "extend": [
+        "Judge the site's trustworthiness for its purpose.",
+        "Compare a government and a business site (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U1M2-LG2",
+        "evidence": "Explains the layout and key features of websites and judges trustworthiness (annotation, addresses, Do it)."
+      },
+      {
+        "vc": "VPC-U1M2-AP1",
+        "evidence": "Finds main ideas and key information on a real website (sort, Do it)."
+      },
+      {
+        "vc": "VPC-U1M2-AP2",
+        "evidence": "Decodes unfamiliar words in digital content (Level Up)."
+      },
+      {
+        "vc": "VPC-U1M2-AP4",
+        "evidence": "Level Up: compares the language, tone and reliability of two sites."
+      }
+    ],
+    "answers": "**Check your reading:** e.g. logo (top left), menu (top), search (top right), breadcrumbs (under the menu), footer (bottom). When you know exactly what you want. It's an Australian government site; fake sites copy the look of real ones.\n\n**Web page:** 1 logo (home); 2 menu; 3 search; 4 breadcrumbs; 5 heading and call-to-action button; 6 footer with contact, about, privacy, accessibility and a .gov.au address.\n\n**Sort:** phone number — footer; hard rubbish form — search; all services — menu; privacy — footer; skate park hours — search; sport and recreation — menu.\n\n**Addresses:** Youth Central — Victorian Government, yes; Chisholm — a TAFE (.edu.au), yes for course info; Bunnings — a business, for product info; mygov-account-help.com — not the government (.com, copies the name): don't trust it.",
+    "resources": [
+      {
+        "label": "Victorian Government — Single Digital Presence",
+        "url": "https://www.vic.gov.au/single-digital-presence"
+      },
+      {
+        "label": "Digital Victoria — Digital transformation: starting with the research",
+        "url": "https://medium.com/digital-government-victoria/digital-transformation-starting-with-the-research-26db255855fc"
+      },
+      {
+        "label": "Youth Central",
+        "url": "https://www.youthcentral.vic.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Students are fast on phones but miss footers.** Make the footer the first stop for contact details.",
+      "**Never visit real scam sites in class.** Use made-up addresses.",
+      "**Guiding a partner is the real test.** It shows they understand the layout, not just luck.",
+      "**Works in a real class:** yes. Quick, practical and immediately useful."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the web page, fewer sort cards and addresses, and a familiar site with a partner.",
+      "core": "Standard version: the parts of a website, a web page to annotate, a where-to-go sort, reading web addresses, the Single Digital Presence case, and a real website tour with a partner guide.",
+      "extend": "Adds breadcrumbs and domain to the vocabulary, a quiz question on formal words, judging trustworthiness, and Level Ups comparing a government and a business site and decoding formal words."
+    }
+  }
+}

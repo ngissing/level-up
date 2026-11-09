@@ -1,0 +1,852 @@
+{
+  "id": "vpc-can-you-trust-it",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "You see an ad. A famous rich man says he can make you rich. There's a video and lots of happy comments. It's all fake. People lost real money.",
+      "core": "You're scrolling and there he is: one of Australia's richest men, smiling, saying he's found a simple way for ordinary people to get rich. There's a news-style story, a video, and hundreds of happy comments. It's all fake. He never said it. And people have lost real money believing ads like it."
+    },
+    "why": {
+      "support": "Anyone can post anything online. AI can fake faces and voices. Learn a quick way to check before you believe, share or pay.",
+      "core": "Online, anyone can post anything, and AI can now fake faces and voices. Some content is reliable, some is mistaken, and some is built to trick you. Before you believe it, share it or pay for it, you need a quick way to check it.",
+      "extend": "Online content ranges from reliable to deliberately deceptive, and generative AI makes convincing fakes cheap to produce. Recognising how language, tone and design signal reliability, and checking claims before acting on them, protects your money and your judgement."
+    },
+    "canDo": {
+      "support": [
+        "I can ask who made it and why.",
+        "I can spot warning signs.",
+        "I can check with another source.",
+        "I can say if I trust it, and why."
+      ],
+      "core": [
+        "I can ask **who made it**, **why** and **when**.",
+        "I can spot warning signs like **urgent** or **too-good-to-be-true** language.",
+        "I can check a claim with other **reliable** sources.",
+        "I can explain whether something is trustworthy, with **evidence**."
+      ]
+    },
+    "showIt": "Run the trust test on a real post, ad or video, and explain your verdict to your group with evidence.",
+    "vocab": [
+      {
+        "word": "reliable",
+        "meaning": "able to be trusted",
+        "example": "The Bureau of Meteorology is a reliable source."
+      },
+      {
+        "word": "source",
+        "meaning": "who or where information comes from",
+        "example": "The source was a government website."
+      },
+      {
+        "word": "scam",
+        "meaning": "a trick to steal your money or details",
+        "example": "The investment ad was a scam."
+      },
+      {
+        "word": "deepfake",
+        "meaning": "a fake video or picture made with AI to look real",
+        "example": "The deepfake made him say things he never said."
+      },
+      {
+        "word": "endorsement",
+        "meaning": "a famous person saying they support a product",
+        "example": "The endorsement was fake."
+      },
+      {
+        "word": "evidence",
+        "meaning": "facts that show something is true",
+        "example": "There was no evidence for the claim."
+      },
+      {
+        "word": "reverse image search",
+        "meaning": "searching with a picture to find where else it appears",
+        "example": "The reverse image search showed the photo was old.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "bias",
+        "meaning": "leaning one way in an unfair way",
+        "example": "The review was biased: the company paid for it.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Can You Trust It? in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Can You Trust It?",
+        "sub": "Not everything online is what it says.",
+        "icon": "lucide:badge-check",
+        "say": "Can you trust it? Not everything online is what it says."
+      },
+      {
+        "kind": "big",
+        "title": "A fake famous face",
+        "text": "He **never** said it",
+        "icon": "lucide:user-x",
+        "say": "Scam ads have used fake endorsements from mining billionaire Andrew Forrest to sell fake investments. He sued Meta in the United States, and in 2024 a judge let the case go ahead.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Trust test",
+        "pillIcon": "lucide:badge-check",
+        "title": "Who?",
+        "text": "A **real** name?",
+        "icon": "lucide:user-search",
+        "say": "Who made it? Is there a real name, organisation or website behind it?",
+        "vc": [
+          "VPC-U1M2-LG2",
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Trust test",
+        "pillIcon": "lucide:badge-check",
+        "title": "Why?",
+        "text": "Inform · Sell · **Scam**",
+        "icon": "lucide:target",
+        "say": "Why was it made? To inform you, sell to you, or get your money or details?",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Trust test",
+        "pillIcon": "lucide:badge-check",
+        "title": "When?",
+        "text": "Check the **date**",
+        "icon": "lucide:calendar",
+        "say": "When? Is it recent, or an old story being shared again?",
+        "vc": [
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Trust test",
+        "pillIcon": "lucide:badge-check",
+        "title": "Tone",
+        "text": "Urgent · Secret · **Guaranteed**",
+        "icon": "lucide:siren",
+        "say": "How does it sound? Urgent, secret, guaranteed? That's a warning sign.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Trust test",
+        "pillIcon": "lucide:badge-check",
+        "title": "Check elsewhere",
+        "text": "New tab · **Image search**",
+        "icon": "lucide:search",
+        "say": "Check it. What do other reliable sources say? Try a reverse image search on photos.",
+        "vc": [
+          "VPC-U1M2-AP4",
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "The trust test",
+        "steps": [
+          "Who, why, when?",
+          "Check the tone",
+          "Check elsewhere"
+        ],
+        "say": "Who, why and when. Check the tone. Then check somewhere else."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Check it **before** you trust it.",
+        "icon": "lucide:badge-check",
+        "say": "Your mission. Trust test something real, and explain your verdict with evidence."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "The trust test",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Anyone can post anything online. Some is true. Some is a trick. Here's a quick test.\n\n**1. Who made it?** Is there a real name or website?\n\n**2. Why?** To tell you something? To sell you something? To get your money?\n\n**3. When?** Look for a date. Old stories get shared again.\n\n**4. How does it sound?** Watch out for:\n\n- **urgent** words: *act now!*\n- **secrets**: *the trick banks hide*\n- **promises**: *guaranteed money*\n- **famous faces** “saying” they love it.\n\n**5. Check somewhere else.** Open a new tab. Does a **reliable** site say the same? Search with the photo too.\n\n**Deepfakes.** AI can make fake videos of real people. Lips might not match the words. But fakes are getting better. So use the test.\n\n**Decide:** trust it, check more, or skip it. Report scams to **Scamwatch**.",
+          "core": "Online, anyone can post anything. Some of it is true. Some is a mistake. And some is built to trick you. Here's a quick test you can run on any post, ad, video or website.\n\n**1. Who made it?** Look for a real name, organisation or website. Click the profile, the “About” page or the web address. No name? Brand-new account? Be careful.\n\n**2. Why was it made?** To inform you? To entertain you? To sell you something? Or to get your money or details? If someone gains from you believing it, check harder.\n\n**3. When was it made?** Old stories and photos often get shared again as if they're new. Look for a date.\n\n**4. How does it sound?** The language and **tone** are clues. Watch out for:\n\n- **urgent** words: *act now, only today, before it's banned*\n- **secret** claims: *the trick banks don't want you to know*\n- **guarantees**: *guaranteed profits, no risk*\n- **fake endorsements**: a famous person “recommending” a product.\n\nReal companies and governments usually sound calm and give details.\n\n**5. Check it somewhere else.** Open a new tab. Do **reliable** sources, like a government site, a trusted news outlet or an expert organisation, say the same thing? For photos, try a **reverse image search** to see where else the image appears.\n\n**Deepfakes.** AI can now make **deepfakes**: fake videos or voices of real people. Signs include lips that don't match the words, strange blinking, blurry edges, odd hands, or a voice that sounds flat. But fakes are getting better, so don't rely on spotting glitches. Rely on the trust test.\n\n**Your verdict.** After the test, decide: **trust it**, **check it more**, or **skip it**. And if it's a scam, report it to **Scamwatch**.",
+          "extend": "Online content ranges from reliable reporting to honest error to deliberate deception. A short, repeatable test helps you judge any post, ad, video or website.\n\n**1. Who made it?** Identify a real author, organisation or site. Check profiles, “About” pages and web addresses. Anonymous or newly created accounts warrant caution.\n\n**2. Why was it made?** Consider the purpose: to inform, entertain, sell or extract money or data. Where the creator benefits from your belief, scrutinise more closely.\n\n**3. When was it made?** Recycled stories and images often circulate as if new. Check dates.\n\n**4. Language and tone.** Deceptive content often uses **urgency** (*act now*), **secrecy** (*what the banks won't tell you*), **guarantees** (*risk-free returns*) and **false endorsements** from celebrities. Legitimate organisations generally use measured, specific language.\n\n**5. Corroborate.** Check whether **reliable** independent sources (government, reputable news, expert bodies) confirm the claim. Use **reverse image search** to trace an image's origins.\n\n**Deepfakes.** Generative AI can fabricate convincing video and audio of real people. Visual glitches (mismatched lip movement, unnatural blinking, distorted hands) may appear, but fakes are improving, so process matters more than spotting errors.\n\n**Verdict.** Decide to **trust**, **investigate further**, or **disregard**, and report scams to **Scamwatch**."
+        },
+        "vc": [
+          "VPC-U1M2-LG2",
+          "VPC-U1M2-AP4"
+        ],
+        "vcNote": "Identifying trustworthiness in digital content; how language and tone relate to purpose and reliability."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The billionaire who never said it",
+        "icon": "lucide:user-x",
+        "body": {
+          "support": "**Andrew Forrest** is one of Australia's richest people.\n\nScammers used his face in **fake ads** on Facebook and Instagram. The ads said he loved get-rich-quick schemes. Some used **deepfake** videos. He never said any of it. People lost money.\n\nForrest took **Meta**, the company that owns Facebook and Instagram, to court in the United States. He said Meta should be responsible for the scam ads.\n\nIn **June 2024**, a US judge said the case could go ahead.\n\nThe lesson: a famous face in an ad doesn't mean they really said it. Check it. If it promises easy money, skip it.",
+          "core": "**Andrew Forrest**, known as “Twiggy”, is one of Australia's richest people. He made his money in mining.\n\nFor years, scammers used his name and face in **fake ads** on Facebook and Instagram. The ads made it look like he was recommending get-rich-quick schemes, often involving cryptocurrency. Some used fake news stories and **deepfake** video. He never endorsed any of them. But people who believed the ads lost money.\n\nForrest decided to fight back. He sued **Meta**, the company that owns Facebook and Instagram, in a court in **California** in the United States. He argued that Meta should be responsible for the scam ads it ran and made money from.\n\nMeta argued that, under US law, it wasn't responsible for ads made by other people. But in **June 2024**, a US judge disagreed enough to let the case go ahead. The judge said Forrest could try to prove that Meta's own ad tools had helped create the ads.\n\nThe lesson for everyone scrolling: a famous face in an ad doesn't mean that person really said it. Check the source. Check the claim. And if it promises easy money, skip it.",
+          "extend": "**Andrew Forrest**, the mining billionaire known as “Twiggy”, became one of the most-used faces in Australian scam advertising.\n\nFor years, fake ads on Facebook and Instagram used his name and image. Some used made-up news stories and **deepfake** video. They pushed get-rich-quick schemes, often using cryptocurrency. He endorsed none of them. But people who trusted the ads lost money.\n\nForrest sued **Meta**, owner of Facebook and Instagram, in a federal court in **California**. He argued that Meta should be accountable for scam ads it ran and profited from.\n\nMeta argued that US law protected it from blame for ads that other people created. In **June 2024**, a US judge let the case go ahead. The judge found that Forrest could try to show that Meta's own ad tools helped create the ads.\n\nThe case shows the limits of trusting your feed. A familiar face is not an endorsement. What makes content reliable is its source, its purpose and checks from elsewhere, not how polished it looks."
+        },
+        "source": {
+          "name": "The New Daily — Andrew Forrest wins right to sue Meta over scam ads (June 2024)",
+          "url": "https://www.thenewdaily.com.au/news/world/2024/06/19/andrew-forrest-scam-lawsuit"
+        },
+        "think": {
+          "support": [
+            "Why use a famous face?",
+            "How could you check if the ad was real?"
+          ],
+          "core": [
+            "Why would scammers use a famous person's face?",
+            "Who do you think should be responsible for scam ads: the scammers, the platform, or both? Why?",
+            "How could someone have checked whether the ad was real?"
+          ]
+        },
+        "vc": [
+          "VPC-U1M2-AP4",
+          "VPC-U1M2-LG2"
+        ],
+        "vcNote": "A real Australian example of fake endorsements and deepfakes online."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a scam ad",
+      "docTitle": "SPONSORED POST IN YOUR FEED (EXAMPLE)",
+      "vc": [
+        "VPC-U1M2-AP4",
+        "VPC-U1M2-LG2"
+      ],
+      "vcNote": "How language, tone and design signal an unreliable digital text.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Account",
+          "value": "Daily Aussie News Today · Sponsored · Account created 3 days ago"
+        },
+        {
+          "n": 2,
+          "label": "Headline",
+          "value": "FAMOUS BUSINESSMAN REVEALS THE SECRET BANKS DON'T WANT YOU TO KNOW",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Video",
+          "value": "A famous face talking. The lips don't quite match the words."
+        },
+        {
+          "n": 4,
+          "label": "Claim",
+          "value": "Turn $250 into $10,000 a month. Guaranteed. No risk."
+        },
+        {
+          "n": 5,
+          "label": "Urgency",
+          "value": "Only 12 spots left! Offer ends at midnight!",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Comments",
+          "value": "“This changed my life!!” “Thank you sir!!” (all from new accounts)"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Who made it?",
+          "note": "A new account pretending to be news."
+        },
+        {
+          "n": 2,
+          "label": "Secret claim",
+          "note": "Big, shouty and secret. A warning sign."
+        },
+        {
+          "n": 3,
+          "label": "Possible deepfake",
+          "note": "Lips don't match. A famous face doesn't prove it's real."
+        },
+        {
+          "n": 4,
+          "label": "Guarantee",
+          "note": "Nothing real is guaranteed, with no risk."
+        },
+        {
+          "n": 5,
+          "label": "Urgency",
+          "note": "Rushes you so you don't check."
+        },
+        {
+          "n": 6,
+          "label": "Fake comments",
+          "note": "Happy comments from brand-new accounts."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "The trust test",
+      "steps": [
+        {
+          "title": "Who?",
+          "text": "A real name or site?",
+          "icon": "lucide:user-search"
+        },
+        {
+          "title": "Why and when?",
+          "text": "Inform, sell or scam? Recent?",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "How does it sound?",
+          "text": "Urgent, secret, guaranteed?",
+          "icon": "lucide:siren"
+        },
+        {
+          "title": "Check elsewhere",
+          "text": "Reliable sources, image search.",
+          "icon": "lucide:search"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What's the **first** question in the trust test?",
+        "options": [
+          "Who made it?",
+          "How many likes does it have?",
+          "Is it funny?",
+          "What colour is it?"
+        ],
+        "answer": 0,
+        "explain": "Then why, and when.",
+        "vc": [
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "q": "Which words are a warning sign?",
+        "options": [
+          "“Guaranteed profits, no risk, act now!”",
+          "“Opening hours: 9am to 5pm.”",
+          "“Updated 3 March 2026.”",
+          "“Contact us on 13 13 94.”"
+        ],
+        "answer": 0,
+        "explain": "Urgent, secret, guaranteed.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "q": "What is a **deepfake**?",
+        "options": [
+          "A fake video or picture made with AI to look real",
+          "A very deep swimming pool",
+          "A kind of virus",
+          "A true news story"
+        ],
+        "answer": 0,
+        "explain": "Faces and voices can be faked.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "q": "Why did Andrew Forrest sue Meta?",
+        "options": [
+          "Over scam ads using his face and name",
+          "Because he wanted to buy Facebook",
+          "Over a game",
+          "He didn't"
+        ],
+        "answer": 0,
+        "explain": "In 2024, a US judge let the case go ahead.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ]
+      },
+      {
+        "q": "How can you check where a photo came from?",
+        "options": [
+          "A reverse image search",
+          "Zoom in",
+          "Like it",
+          "Share it"
+        ],
+        "answer": 0,
+        "explain": "See where else it appears.",
+        "vc": [
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "q": "A post has hundreds of happy comments. Does that prove it's real?",
+        "options": [
+          "No: comments can be fake too",
+          "Yes, always",
+          "Only if they use emojis",
+          "Only on weekends"
+        ],
+        "answer": 0,
+        "explain": "Check who's commenting.",
+        "vc": [
+          "VPC-U1M2-AP4"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "In a group discussion about a viral post, what makes your view most convincing?",
+        "options": [
+          "Evidence from the trust test, like the source and what other sites say",
+          "Saying it louder",
+          "Agreeing with whoever spoke first",
+          "Saying “trust me”"
+        ],
+        "answer": 0,
+        "explain": "Back your view with evidence.",
+        "vc": [
+          "VPC-U1M2-AP5"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pick a real post or ad. Ask who, why and when. Check the tone. Check another site. Tell your group: trust it, check more, or skip it?",
+      "core": "Run the trust test on a real post, ad or video, and explain your verdict to your group with evidence.",
+      "extend": "Apply the trust test to a real piece of online content, corroborate it with independent sources (including a reverse image search where relevant), and defend your verdict in a group discussion with evidence."
+    },
+    "checklist": [
+      "I found out who made it",
+      "I worked out why it was made, and when",
+      "I checked the language and tone",
+      "I checked it with another reliable source",
+      "I made a verdict: trust it, check more, or skip it",
+      "I explained my verdict with evidence"
+    ],
+    "levelUp": "Join a group discussion on who should be responsible for scam ads, and support your view with evidence.",
+    "vc": [
+      "VPC-U1M2-LG2",
+      "VPC-U1M2-AP4"
+    ]
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: The trust test",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Write the **five steps** of the trust test.",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG2"
+            ]
+          },
+          {
+            "q": "Name **three** warning words or signs in the language of a scam.",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP4"
+            ]
+          },
+          {
+            "q": "Why shouldn't you rely only on spotting **deepfake** glitches?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "The trust test",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a scam ad",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is a warning sign. Use the word bank. Why is it a warning?",
+          "core": "Each number marks a warning sign. Write what it is and why it makes the ad less trustworthy."
+        },
+        "columns": [
+          "Warning sign",
+          "Why it's a warning"
+        ],
+        "wordBank": {
+          "support": [
+            "new fake account",
+            "secret claim",
+            "possible deepfake",
+            "guarantee",
+            "urgency",
+            "fake comments"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U1M2-AP4",
+          "VPC-U1M2-LG2"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Trust it, check it, or skip it?",
+        "pagebreak": true,
+        "choices": [
+          "Trust it",
+          "Check it",
+          "Skip it"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "You see each of these online. Tick one, and say why.",
+        "cards": [
+          {
+            "from": "Website",
+            "text": "A storm warning on the Bureau of Meteorology website, posted this morning",
+            "answer": "Trust it",
+            "flags": "Official source, recent, calm."
+          },
+          {
+            "from": "Video",
+            "text": "A celebrity “recommending” a crypto app that doubles your money",
+            "answer": "Skip it",
+            "flags": "Fake endorsement, too good to be true."
+          },
+          {
+            "from": "Reel",
+            "text": "An influencer's health tip with no source, selling supplements in the bio",
+            "answer": "Check it",
+            "flags": "They profit. Look for an expert source."
+          },
+          {
+            "from": "Screenshot",
+            "text": "A screenshot of a shocking news headline, with no link",
+            "answer": "Check it",
+            "flags": "Find the original story."
+          },
+          {
+            "from": "Ad",
+            "text": "“Guaranteed 30% returns every month. No risk. Only today!”",
+            "answer": "Skip it",
+            "flags": "Guaranteed, no risk, urgent: scam signs.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Website",
+            "text": "A Services Australia page about Youth Allowance, with an update date",
+            "answer": "Trust it",
+            "flags": "Official .gov.au source, dated.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U1M2-AP4",
+          "VPC-U1M2-LG2"
+        ],
+        "vcNote": "Recognising that digital content has different levels of reliability."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the billionaire who never said it",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why would scammers use a famous person's face?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP4"
+            ]
+          },
+          {
+            "q": "Who should be responsible for scam ads: the scammers, the platform, or both? Why?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-AP4"
+            ]
+          },
+          {
+            "q": "How could someone have checked whether the ad was real?",
+            "lines": 2,
+            "vc": [
+              "VPC-U1M2-LG2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: trust test something real",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Find a real post, ad, video or website that makes a claim (about money, health, a product or a news event). Run the trust test, then explain your verdict to a small group.",
+        "need": [
+          "a device",
+          "a real post or ad (don't click suspicious links)"
+        ],
+        "steps": {
+          "support": [
+            "Screenshot it. Don't tap links.",
+            "Who made it? Why? When?",
+            "Look for warning words.",
+            "Check another good website.",
+            "Tell your group: trust, check or skip?"
+          ],
+          "core": [
+            "Screenshot the content (don't tap any suspicious links).",
+            "**Who** made it? **Why**? **When**?",
+            "Check the **language and tone** for warning signs.",
+            "**Check elsewhere**: two reliable sources, and a reverse image search if there's a photo.",
+            "Make your verdict, and explain it to your group with evidence."
+          ]
+        },
+        "notes": [
+          {
+            "label": "What I tested:",
+            "lines": 1
+          },
+          {
+            "label": "Who, why, when:",
+            "lines": 1
+          },
+          {
+            "label": "Warning signs (or good signs):",
+            "lines": 1
+          },
+          {
+            "label": "What other sources said:",
+            "lines": 1
+          },
+          {
+            "label": "My verdict and best evidence:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Screenshot",
+          "Notes",
+          "Teacher saw the discussion"
+        ],
+        "vc": [
+          "VPC-U1M2-AP4",
+          "VPC-U1M2-LG2"
+        ],
+        "vcNote": "Hands-on: judging the reliability of a real digital text."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "In a small group, discuss: **should social media companies have to stop scam ads, or is it up to users to be careful?** Write your view, with at least two pieces of evidence from this course.",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M2-AP5"
+            ]
+          },
+          {
+            "q": "What was the **strongest** point someone else in your group made? Did it change your mind?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U1M2-AP5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can ask who made it and why.",
+          "I can spot warning signs.",
+          "I can check with other sources.",
+          "I can explain my verdict with evidence."
+        ],
+        "questions": [
+          "Something I'll trust test this week:",
+          "My best warning sign:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn a five-step trust test for online content (who made it, why, when, how it sounds, and what other reliable sources say), including warning signs in language and tone (urgency, secrecy, guarantees, fake endorsements), reverse image searching, and deepfakes. They annotate a made-up scam ad, sort content into trust it, check it or skip it, and trust test a real piece of content, explaining their verdict to a group. The case study is Andrew Forrest's lawsuit against Meta over scam ads using his face and name, which a US judge allowed to proceed in June 2024.",
+    "prep": [
+      "Collect a few safe examples of real content to model (screenshots, not live links to scams).",
+      "Show how to do a reverse image search on school devices.",
+      "Remind students not to tap links in suspicious content."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The trust test",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** show the scam ad example. Would anyone fall for it?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a scam ad (10 min).**",
+          "**Trust it, check it, or skip it? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Fake faces",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** the billionaire who never said it.",
+          "**Model a trust test (20 min):** including a reverse image search.",
+          "**Choose content (15 min)** for the Do it."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Trust test it",
+        "minutes": 50,
+        "steps": [
+          "**Do it (25 min):** trust test and group verdicts.",
+          "**Level Up, reflect (25 min):** group discussion; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Trust test: who made it, why, when, how it sounds, and what other reliable sources say.",
+      "Warning signs: urgency, secrecy, guarantees, fake endorsements, fake comments.",
+      "Use reverse image search to trace photos.",
+      "Deepfakes can fake faces and voices; rely on the test, not on spotting glitches.",
+      "Verdict: trust it, check it more, or skip it. Report scams to Scamwatch.",
+      "Andrew Forrest sued Meta over scam ads using his likeness; in June 2024 a US judge allowed the case to proceed."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the scam ad.",
+        "Fewer sort cards.",
+        "Provide content to test."
+      ],
+      "extend": [
+        "Corroborate with two independent sources and a reverse image search.",
+        "Group discussion with evidence (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U1M2-LG2",
+        "evidence": "Identifies features that signal trustworthiness in digital content (scam ad, sort, Do it)."
+      },
+      {
+        "vc": "VPC-U1M2-AP4",
+        "evidence": "Explains how language and tone relate to purpose and reliability (Check your reading, scam ad, Do it)."
+      },
+      {
+        "vc": "VPC-U1M2-AP5",
+        "evidence": "Level Up: participates in group discussion and supports a view with evidence."
+      }
+    ],
+    "answers": "**Check your reading:** who made it, why, when, how it sounds, check elsewhere. E.g. urgent words, secret claims, guarantees, fake endorsements. Fakes are getting better, so glitches may not show; the test still works.\n\n**Scam ad:** 1 new account pretending to be news; 2 secret claim in capitals; 3 possible deepfake; 4 guarantee with no risk; 5 urgency; 6 fake comments from new accounts.\n\n**Sort:** BoM warning — trust; celebrity crypto — skip; influencer supplements — check; screenshot headline — check; guaranteed returns — skip; Services Australia page — trust.\n\n**Case study:** famous faces borrow trust; answers will vary on responsibility; check the person's official channels, search the claim, check news coverage and Scamwatch.",
+    "resources": [
+      {
+        "label": "The New Daily — Andrew Forrest scam lawsuit (June 2024)",
+        "url": "https://www.thenewdaily.com.au/news/world/2024/06/19/andrew-forrest-scam-lawsuit"
+      },
+      {
+        "label": "Information Age (ACS) — Aussie scores massive win against Meta",
+        "url": "https://ia.acs.org.au/article/2024/aussie-scores-massive-win-against-meta.html"
+      },
+      {
+        "label": "Scamwatch",
+        "url": "https://www.scamwatch.gov.au"
+      },
+      {
+        "label": "Moneysmart (ASIC)",
+        "url": "https://moneysmart.gov.au"
+      }
+    ],
+    "realityCheck": [
+      "**Students may have been scammed.** Keep it non-judgemental: the scams are designed by professionals.",
+      "**Never open real scam links in class.** Use screenshots.",
+      "**Not everything online is a scam.** Celebrate the reliable sources too.",
+      "**Works in a real class:** yes. Students bring great examples from their own feeds."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the scam ad, fewer sort cards, and provided content to test.",
+      "core": "Standard version: the five-step trust test, warning signs in language and tone, deepfakes, a scam ad to annotate, a trust-check-skip sort, the Andrew Forrest case, and trust testing real content.",
+      "extend": "Adds reverse image search and bias to the vocabulary, a quiz question on discussion, independent corroboration, and Level Ups on a group discussion about responsibility for scam ads."
+    }
+  }
+}
