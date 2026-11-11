@@ -459,7 +459,44 @@
     "vc": [
       "VC2E5LY10",
       "VC2E5LA03"
-    ]
+    ],
+    "model": {
+      "kind": "Example safe work procedure",
+      "text": "**Job:** Using the deep fryer at a takeaway shop\n\n**PPE:** Apron, closed shoes with grip, heat-proof gloves.\n\n**Hazards:** Hot oil burns. Oil on the floor. Fire.\n\n**Steps**\n1. **Check** the oil level is between the two lines.\n2. **Dry** the food first. Water makes hot oil spit.\n3. **Lower** the basket slowly. Never drop food in.\n4. **Wipe up** any spills straight away.\n5. **If** the oil catches fire, turn off the power and use the fire blanket. **Never use water.**\n\n**Sign:** Danger. Hot oil.",
+      "why": [
+        "Each step starts with an action verb, in the order you do it.",
+        "It names the hazards and the PPE before the steps.",
+        "The “if” step tells you what to do when things go wrong."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Hazards and PPE",
+        "start": "Names one hazard.",
+        "good": "Lists the main hazards and the PPE.",
+        "great": "Links each hazard to the step or PPE that controls it."
+      },
+      {
+        "skill": "Ordered steps",
+        "start": "Steps are out of order or unclear.",
+        "good": "Numbered steps that start with a verb.",
+        "great": "A new worker could follow them without asking."
+      },
+      {
+        "skill": "“If” step and sign",
+        "start": "One is missing.",
+        "good": "Has an “if” step and a safety sign.",
+        "great": "The sign uses the right colour, shape and words."
+      }
+    ],
+    "choices": {
+      "prompt": "Which job will you write a safe work procedure for?",
+      "options": [
+        "A job you do at work or on placement",
+        "A job at home: mowing, cooking, using a power tool",
+        "A job at school: the workshop, kitchen or science lab"
+      ]
+    }
   },
   "workbook": {
     "pages": [

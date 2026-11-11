@@ -470,7 +470,45 @@
       "VM-U2O1-KK3",
       "VM-U2O1-KK4",
       "VM-U2O1-KS1"
-    ]
+    ],
+    "model": {
+      "kind": "Example investigation",
+      "text": "**The text:** A full-page newspaper ad that says “Keep our town moving. Say no to the bike lane.”\n\n**Who is talking?** Small print at the bottom says “Authorised by the Main Street Traders Group”. They are shop owners.\n\n**What do they want?** They want the council to keep the car parks out the front of their shops.\n\n**Who are they talking to?** Local drivers and voters. The ad says “our town” and “your car park”.\n\n**What might they leave out?** How many people ride. Whether bike lanes are safer. What people who do not drive think.",
+      "why": [
+        "It finds the real author by reading the small print.",
+        "It links what they say to what they gain.",
+        "It asks what is missing, not just what is there."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Who is talking",
+        "start": "Names the text only.",
+        "good": "Finds who made it.",
+        "great": "Finds who they are and what they stand to gain."
+      },
+      {
+        "skill": "Purpose and audience",
+        "start": "Guesses.",
+        "good": "Names the purpose and the audience.",
+        "great": "Uses words from the text as evidence."
+      },
+      {
+        "skill": "What is left out",
+        "start": "Not looked at yet.",
+        "good": "Names one thing left out.",
+        "great": "Explains whose voice is missing and why it matters."
+      }
+    ],
+    "choices": {
+      "prompt": "What issue will your opinion text be about?",
+      "options": [
+        "Something in your town or suburb",
+        "Work, pay or young workers",
+        "Phones, social media or gaming",
+        "Sport, the environment or animals"
+      ]
+    }
   },
   "workbook": {
     "pages": [

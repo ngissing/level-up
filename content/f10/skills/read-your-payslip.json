@@ -510,7 +510,44 @@
     "vc": [
       "VC2E5LA08",
       "VC2E5LY09"
-    ]
+    ],
+    "model": {
+      "kind": "Example message to a manager",
+      "text": "Hi Dan,\n\nThanks for sending my payslip for the week ending 8 June.\n\nI think there may be a mistake. The payslip shows **12 hours**. My roster and my own notes show I worked **15 hours**: Tuesday 4 to 9 pm, Thursday 4 to 9 pm and Saturday 9 am to 2 pm.\n\nCould you please check it and let me know? I can send a photo of my roster if that helps.\n\nThanks,\nAli Hassan",
+      "why": [
+        "It is polite. It says “may be a mistake”, not “you ripped me off”.",
+        "It gives proof: the dates, the times and the hours.",
+        "It asks for one clear thing and offers to help."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Reads the payslip",
+        "start": "Finds a few parts of the payslip.",
+        "good": "Finds and explains each main part.",
+        "great": "Explains every part and checks the maths."
+      },
+      {
+        "skill": "Spots the mistake",
+        "start": "Says something is wrong.",
+        "good": "Says what is wrong, with the numbers.",
+        "great": "Shows the proof: hours, rate and what is owed."
+      },
+      {
+        "skill": "Message to the manager",
+        "start": "Sounds angry, or is not clear.",
+        "good": "Polite, clear, and asks for a fix.",
+        "great": "Polite, with dates and proof. Ready to send."
+      }
+    ],
+    "choices": {
+      "prompt": "Which payslip will you check?",
+      "options": [
+        "The practice payslip in your workbook",
+        "Your own payslip (cover your private details)",
+        "A payslip from someone at home who agrees"
+      ]
+    }
   },
   "workbook": {
     "pages": [

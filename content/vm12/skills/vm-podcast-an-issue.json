@@ -472,7 +472,46 @@
       "VM-U1O2-KS2",
       "VM-U2O2-KS4",
       "VM-U2O2-KS8"
-    ]
+    ],
+    "model": {
+      "kind": "Example episode outline",
+      "text": "**Episode:** “Should P-platers have a night curfew?” About 6 minutes.\n\n**Intro (30 s):** A hook question. Who I am.\n\n**The issue (60 s):** What some states do. What Victoria does now. Source: Transport Victoria.\n\n**Side 1 (90 s):** Vox pops from two parents. A road safety fact, with its source.\n\n**Side 2 (90 s):** Vox pops from two P-platers who work nights.\n\n**My view (60 s):** No curfew, but there should be a rule for late-night passengers.\n\n**Credits (30 s):** Every voice, the music and each fact. I say them out loud and put them in the show notes.",
+      "why": [
+        "Both sides get the same amount of time.",
+        "Every fact has a source that can be checked.",
+        "The host's view comes **after** both sides."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Both sides",
+        "start": "One side only.",
+        "good": "Presents both sides fairly.",
+        "great": "Uses real voices and evidence for each side."
+      },
+      {
+        "skill": "Evidence and view",
+        "start": "Opinion with no evidence.",
+        "good": "A clear view, backed by evidence.",
+        "great": "Weighs both sides before deciding."
+      },
+      {
+        "skill": "Production and credits",
+        "start": "Hard to follow. No credits.",
+        "good": "Clear, edited, with full credits.",
+        "great": "Sounds polished. Every source is credited."
+      }
+    ],
+    "choices": {
+      "prompt": "Which issue will your episode cover?",
+      "options": [
+        "A road or transport issue",
+        "An issue for young workers",
+        "A tech or social media issue",
+        "A local issue in your community"
+      ]
+    },
+    "solo": "No one for vox pops? Read out two short quotes from real news stories (and credit them), or ask two people at home. One voice is fine for the rest."
   },
   "workbook": {
     "pages": [

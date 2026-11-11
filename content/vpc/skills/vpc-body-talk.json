@@ -460,7 +460,45 @@
     "vc": [
       "VPC-U2M2-AP5",
       "VPC-U2M2-LG3"
-    ]
+    ],
+    "model": {
+      "kind": "Example take review",
+      "text": "**My opinion:** Our town needs a later bus.\n\n**Take 1 (no practice)**\n- I looked at the floor most of the time.\n- I said “um” nine times.\n- I talked fast, and it only went for 35 seconds.\n\n**My cue card:** LATE SHIFT. LAST BUS 5:45. WALK HOME. FIX IT.\n\n**Take 2 (after practice)**\n- I looked at the camera at the start and at the end.\n- I said “um” twice.\n- I paused after “5:45”.\n\n**The biggest change:** The pause. It gave me time to think. It made the point sound stronger.",
+      "why": [
+        "It names real things from each take.",
+        "The cue card has key words only, not sentences.",
+        "It picks out the change that made the biggest difference."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Two takes",
+        "start": "One take only.",
+        "good": "Take 1 and Take 2 both filmed.",
+        "great": "Practised with a cue card in between."
+      },
+      {
+        "skill": "Body and voice",
+        "start": "Looks down. Rushed or flat.",
+        "good": "Take 2 has eye contact and a clear voice.",
+        "great": "Uses pauses and gestures on purpose."
+      },
+      {
+        "skill": "Shows what changed",
+        "start": "Says “it was better”.",
+        "good": "Names what changed between the takes.",
+        "great": "Uses evidence, like counts, times or moments."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your 60-second opinion be about?",
+      "options": [
+        "Something your school or town needs",
+        "The best game, team, film or food",
+        "A rule you would change",
+        "Advice for younger students"
+      ]
+    }
   },
   "workbook": {
     "pages": [

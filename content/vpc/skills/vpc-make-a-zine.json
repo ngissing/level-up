@@ -463,7 +463,45 @@
       "VPC-U1M1-AP4",
       "VPC-U1M1-AP5",
       "VPC-U1M1-AP7"
-    ]
+    ],
+    "model": {
+      "kind": "Example eight-page plan",
+      "text": "**Zine:** Fishing the lake for beginners. **Audience:** Year 7s who have never fished.\n\n1. **Cover:** A big title and a drawing of a fish.\n2. **What you need:** Rod, line, hook, bait. With labels.\n3. **Where to go:** A small map with two good spots.\n4. **How to bait a hook:** Three numbered pictures.\n5. **How to cast:** Three numbered pictures.\n6. **The rules:** Size limits, and who needs a licence. Source: the Victorian Fisheries Authority.\n7. **My top tip:** Go early. Stay quiet.\n8. **Back cover:** Made by Josh. Find more at vfa.vic.gov.au.",
+      "why": [
+        "Each page has one job.",
+        "Pictures and words work together.",
+        "It is made for a real audience, and it names its source."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "The plan",
+        "start": "Has a topic but no page plan.",
+        "good": "Plans all eight pages.",
+        "great": "The pages are in an order that makes sense to a reader."
+      },
+      {
+        "skill": "Words and pictures",
+        "start": "Mostly words, or mostly pictures.",
+        "good": "Words and pictures on every page.",
+        "great": "Headings, labels and layout make it easy to read."
+      },
+      {
+        "skill": "Made and shared",
+        "start": "Not finished.",
+        "good": "Folded, copied and handed out.",
+        "great": "Your audience read it and told you what they thought."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your zine be about?",
+      "options": [
+        "A hobby or sport you know",
+        "How to do something",
+        "Your town: the best spots",
+        "A band, game, show or team you love"
+      ]
+    }
   },
   "workbook": {
     "pages": [

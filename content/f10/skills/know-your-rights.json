@@ -464,7 +464,44 @@
       "VC2E6LY08",
       "VC2E6LY09",
       "VC2E6LA01"
-    ]
+    ],
+    "model": {
+      "kind": "Example formal email",
+      "text": "**Subject:** Unpaid trial shift on 3 May\n\nDear Mr Carter,\n\nI am writing about the trial shift I worked at your café on Saturday 3 May, from 8 am to 1 pm.\n\nI served customers and worked the register for five hours. I have not been paid for this time.\n\nThe Fair Work Ombudsman says a trial must be paid if it goes beyond showing your skills. I believe five hours of real work should be paid.\n\nCould you please pay me for the five hours by Friday 16 May?\n\nYours sincerely,\nLena Novak",
+      "why": [
+        "It names the right and where it comes from.",
+        "It gives the facts: the date, the hours and the work done.",
+        "It asks for one clear thing by a clear date, and stays polite."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Rights card",
+        "start": "Lists a few rights.",
+        "good": "Covers work, renting and police.",
+        "great": "Says where to get help for each one."
+      },
+      {
+        "skill": "States the right",
+        "start": "Says “it's not fair”.",
+        "good": "Names the right clearly.",
+        "great": "Names who says so, like Fair Work or Consumer Affairs."
+      },
+      {
+        "skill": "Formal email",
+        "start": "Sounds like a text, or sounds angry.",
+        "good": "Formal, clear and polite.",
+        "great": "Has facts, a request and a date. Ready to send."
+      }
+    ],
+    "choices": {
+      "prompt": "Which right will you stand up for?",
+      "options": [
+        "A work right: pay, breaks or trial shifts",
+        "A renting right: bond, repairs or inspections",
+        "A shopping right: a refund or a repair"
+      ]
+    }
   },
   "workbook": {
     "pages": [

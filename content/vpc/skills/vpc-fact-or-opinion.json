@@ -469,7 +469,46 @@
     "vc": [
       "VPC-U2M1-LG1",
       "VPC-U2M1-AP1"
-    ]
+    ],
+    "model": {
+      "kind": "Example review pull-apart",
+      "text": "**The review:** A two-star review of a burger shop.\n\n**Facts I found (they can be checked)**\n- “We waited 40 minutes.”\n- “A burger costs $18.”\n- “They close at 8 pm.”\n\n**Opinions I found (what the writer thinks)**\n- “The worst burger in town.”\n- “The staff clearly don't care.”\n\n**I checked two facts:** The menu online says $18. That is true. The website says they close at 9 pm, not 8. That is false.\n\n**Do I trust it?** Partly. The price is right. But one fact is wrong, and the opinions are very strong.",
+      "why": [
+        "It sorts the facts from the opinions.",
+        "It checks facts somewhere else.",
+        "The verdict is balanced. It is not just yes or no."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Sorts facts and opinions",
+        "start": "Mixes them up.",
+        "good": "Sorts most of them correctly.",
+        "great": "Spots opinions that are dressed up as facts."
+      },
+      {
+        "skill": "Checks facts",
+        "start": "Does not check.",
+        "good": "Checks two facts on another source.",
+        "great": "Says where each one was checked."
+      },
+      {
+        "skill": "Verdict",
+        "start": "Says trust it or don't trust it.",
+        "good": "Gives a verdict with reasons.",
+        "great": "Explains it clearly to the group and answers questions."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you pull apart?",
+      "options": [
+        "A review of a place to eat",
+        "A review of a game, film or show",
+        "A review of a phone or other tech",
+        "An opinion post about sport"
+      ]
+    },
+    "solo": "No group? Write your verdict as a short reply to the review. In three sentences, say what you checked and whether people should trust it."
   },
   "workbook": {
     "pages": [

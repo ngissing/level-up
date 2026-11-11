@@ -72,3 +72,6 @@ export function icon(spec, cls = '') {
 }
 
 export const ROOT_DIR = ROOT;
+
+// Markdown where a single line break is kept (emails, sign-offs, verses in model answers).
+export const mdLines = (s) => md(String(s ?? '').replace(/([^\n])\n(?=[^\n\s\-\d*#>|])/g, '$1  \n'));

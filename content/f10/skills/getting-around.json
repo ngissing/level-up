@@ -465,7 +465,45 @@
       "VC2E5LY01",
       "VC2E6LA07",
       "VC2E4LA05"
-    ]
+    ],
+    "model": {
+      "kind": "Example directions for a visitor",
+      "text": "**From the train station to the town library (about 6 minutes on foot)**\n\n1. **Leave** the station by the main doors on Station Street.\n2. **Turn left** and walk up the hill. The station will be behind you.\n3. **Cross** Bridge Road at the lights.\n4. **Keep going** for one more block. You will pass the Post Office on your right.\n5. The library is **on your left**, at number 40. Look for the big glass doors.\n\n**If you reach the roundabout,** you have gone too far. Turn around.",
+      "why": [
+        "Each step has one action, and they are in order.",
+        "It uses landmarks, so the visitor knows they are on track.",
+        "It says what to do if you go too far."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Plans the trip",
+        "start": "Names the start and the end.",
+        "good": "Plans the route, the times and the cost.",
+        "great": "Has a back-up plan in case something changes."
+      },
+      {
+        "skill": "Spoken directions",
+        "start": "Hard to follow. The listener gets lost.",
+        "good": "Clear steps. Checks the listener understood.",
+        "great": "Listens well too, and asks good questions."
+      },
+      {
+        "skill": "Written directions",
+        "start": "Steps are missing or out of order.",
+        "good": "Numbered steps with left, right and distances.",
+        "great": "Uses landmarks and a “too far” check."
+      }
+    ],
+    "choices": {
+      "prompt": "Where will your trip go?",
+      "options": [
+        "From school to somewhere useful: a TAFE, a job, a clinic",
+        "From the station or bus stop to your favourite place",
+        "To somewhere you have never been"
+      ]
+    },
+    "solo": "No partner? Record your spoken directions on a phone. Then play them back and follow them on a map, step by step. Fix any step that loses you."
   },
   "workbook": {
     "pages": [

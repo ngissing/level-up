@@ -471,7 +471,45 @@
     "vc": [
       "VC2E6LY08",
       "VC2E8LY07"
-    ]
+    ],
+    "model": {
+      "kind": "Example fact-check",
+      "text": "**The claim:** A post says sharks have been found in the Yarra River in the city.\n\n**Stop.** The post made me want to share it fast. That is a warning sign.\n\n**Investigate.** The account is called “Melb Madness”. It posts jokes and edited photos.\n\n**Find better coverage.** I searched the claim. No news site reported it.\n\n**Trace it.** A reverse image search showed the photo is from Florida in 2017.\n\n**Verdict:** Fake. I would not share it. I would tell the friend who sent it where the photo is really from.",
+      "why": [
+        "It follows all four SIFT steps, in order.",
+        "Each step says what was checked and what was found.",
+        "The verdict is clear and says what to do next."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Uses SIFT",
+        "start": "Uses one or two steps.",
+        "good": "Uses all four steps.",
+        "great": "Each step shows what you did and what you found."
+      },
+      {
+        "skill": "Evidence",
+        "start": "Says “it looks fake” or “it looks real”.",
+        "good": "Gives evidence from another source.",
+        "great": "Finds where the claim first came from."
+      },
+      {
+        "skill": "Decision",
+        "start": "Says share or don't share.",
+        "good": "Explains the decision.",
+        "great": "Says what you would do or say next."
+      }
+    ],
+    "choices": {
+      "prompt": "What claim will you fact-check?",
+      "options": [
+        "A claim from your own feed",
+        "A health or fitness claim",
+        "A photo or video that looks too wild to be true",
+        "A claim about a famous person"
+      ]
+    }
   },
   "workbook": {
     "pages": [

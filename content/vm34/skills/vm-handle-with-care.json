@@ -542,7 +542,44 @@
     "vc": [
       "VM-U3O2-KS4",
       "VM-U3O1-KS4"
-    ]
+    ],
+    "model": {
+      "kind": "Example safety card",
+      "text": "**Product:** Bleach (sodium hypochlorite)\n\n**What it can do:** It burns skin and eyes. Its fumes can hurt your lungs.\n\n**Before you use it**\n- Put on gloves and safety glasses.\n- Open a door or window.\n\n**Never**\n- **Never mix it with other cleaners.** It can make a toxic gas.\n\n**If it goes wrong**\n- **On skin or in eyes:** rinse with water for 15 minutes.\n- **Swallowed:** do not make yourself sick. Call the Poisons line on **13 11 26**.\n\n**More information:** The SDS is in the red folder in the cleaning room.",
+      "why": [
+        "It uses short, plain words for a first-day worker.",
+        "The most dangerous point stands out in bold.",
+        "It says what to do in an emergency and where the SDS is."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Reads the label and SDS",
+        "start": "Uses the front label only.",
+        "good": "Uses the label and the SDS.",
+        "great": "Finds the right SDS section for each fact."
+      },
+      {
+        "skill": "Key safety facts",
+        "start": "Misses hazards or first aid.",
+        "good": "Covers hazards, PPE, storage and first aid.",
+        "great": "Puts the most important facts first."
+      },
+      {
+        "skill": "Written for a new worker",
+        "start": "Copies technical words.",
+        "good": "Plain words and clear headings.",
+        "great": "Fits on one page. It can be read in a minute."
+      }
+    ],
+    "choices": {
+      "prompt": "Which chemical will your card be for?",
+      "options": [
+        "A cleaning product from your workplace",
+        "A product from your trade: paint, glue, fuel or solvent",
+        "A product from home or the school workshop"
+      ]
+    }
   },
   "workbook": {
     "pages": [

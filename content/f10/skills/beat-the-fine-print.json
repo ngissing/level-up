@@ -476,7 +476,45 @@
       "VC2E6LA03",
       "VC2E5LA08",
       "VC2E7LY07"
-    ]
+    ],
+    "model": {
+      "kind": "Example plain-English summary",
+      "text": "**FitZone gym: what you are really agreeing to**\n\n**How long:** 12 months. You cannot leave early without paying.\n\n**Cost:** $15 a week, plus a $99 joining fee. That is **$879** in the first year.\n\n**To cancel:** You must give 30 days' notice **in writing**. If you leave early, you pay $200.\n\n**Watch out:** It renews by itself after 12 months. The price can go up if they give you 14 days' notice.\n\n**My advice:** Only sign if you will go for the whole year. Ask if they have a no-lock-in plan.",
+      "why": [
+        "It turns long legal words into short, plain ones.",
+        "It finds the traps: lock-in, fees and auto-renewal.",
+        "It adds up the real cost and ends with advice."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Finds the key terms",
+        "start": "Finds the price.",
+        "good": "Finds cost, length and how to cancel.",
+        "great": "Finds the hidden traps too, like fees and auto-renewal."
+      },
+      {
+        "skill": "Plain English",
+        "start": "Copies the legal words.",
+        "good": "Uses your own, simpler words.",
+        "great": "A friend could understand it in one read."
+      },
+      {
+        "skill": "Real cost and advice",
+        "start": "Gives the weekly price only.",
+        "good": "Works out the total cost.",
+        "great": "Total cost, plus clear advice on what to do."
+      }
+    ],
+    "choices": {
+      "prompt": "Which fine print will you beat?",
+      "options": [
+        "A gym or sports membership",
+        "A phone plan or streaming service",
+        "Buy now, pay later (like Afterpay)",
+        "A game or app you already use"
+      ]
+    }
   },
   "workbook": {
     "pages": [

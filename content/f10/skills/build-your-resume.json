@@ -458,7 +458,46 @@
       "VC2E5LY10",
       "VC2E5LY11",
       "VC2E6LA03"
-    ]
+    ],
+    "model": {
+      "kind": "Example skills and experience sections",
+      "text": "**Objective:** Year 10 student looking for casual shop work on weekends. I am friendly and quick to learn. I turn up on time.\n\n**Skills**\n- **Customer service:** served up to 80 people each shift at the footy club canteen\n- **Handling money:** counted the till and gave correct change\n- **Teamwork:** worked with four volunteers every Saturday\n\n**Experience**\n**Canteen helper** (unpaid), Sebastopol Football Club, April 2025 to now\n- Took orders and served food\n- Cleaned and closed the canteen",
+      "why": [
+        "Each skill has **proof**: a number or a real example.",
+        "It uses action verbs: served, counted, worked.",
+        "It is honest. Volunteer work counts as experience."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "All the parts",
+        "start": "Some sections are missing.",
+        "good": "Has all six sections on one page.",
+        "great": "Sections are in a smart order, with the best first."
+      },
+      {
+        "skill": "Skills with proof",
+        "start": "Lists skills with no proof.",
+        "good": "Each skill has an example.",
+        "great": "Examples use numbers and action verbs."
+      },
+      {
+        "skill": "Edited and honest",
+        "start": "Has mistakes. Not checked yet.",
+        "good": "Checked with a partner and fixed.",
+        "great": "No mistakes. Clean layout. All true."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of job is your resume for?",
+      "options": [
+        "Casual work: retail, fast food, a café",
+        "An apprenticeship or traineeship",
+        "Work experience or a placement",
+        "A volunteer role"
+      ]
+    },
+    "solo": "No partner? Read your resume out loud, slowly. Then leave it for a day and check it again with the checklist. You can also ask an adult at home to do the 7-second test."
   },
   "workbook": {
     "pages": [

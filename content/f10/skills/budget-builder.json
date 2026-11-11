@@ -505,7 +505,45 @@
       "VC2E5LY10",
       "VC2E5LA03",
       "VC2E5LA04"
-    ]
+    ],
+    "model": {
+      "kind": "Example savings plan",
+      "text": "**My goal:** A $400 phone by 1 September. That is 16 weeks away.\n\n**What I need:** $400 ÷ 16 weeks = **$25 a week**.\n\n**My plan**\n1. I earn $90 a week at the bakery.\n2. On pay day, I move $25 to my savings account **first**.\n3. I cut bought lunches from three a week to one. That saves about $20.\n4. I check my balance every Sunday night.\n\n**If something goes wrong:** If I miss a week, I add $5 a week until I catch up.",
+      "why": [
+        "The goal has a dollar amount and a date.",
+        "The maths shows how much to save each week.",
+        "The steps are real, and there is a back-up plan."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Tracks spending",
+        "start": "Lists a few things you bought.",
+        "good": "Tracks a whole week, with amounts.",
+        "great": "Sorts it into needs and wants and spots a pattern."
+      },
+      {
+        "skill": "Builds a budget",
+        "start": "Lists money in or money out.",
+        "good": "Money in, money out and savings add up.",
+        "great": "The budget is realistic and leaves a little spare."
+      },
+      {
+        "skill": "Savings plan",
+        "start": "Names a goal.",
+        "good": "Goal, amount, date and weekly steps.",
+        "great": "Steps are in order, with a back-up plan."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you save for?",
+      "options": [
+        "Something to buy: a phone, shoes, a console",
+        "Something to do: a trip, a concert, a course",
+        "Getting your Ls and driving lessons",
+        "An emergency fund"
+      ]
+    }
   },
   "workbook": {
     "pages": [

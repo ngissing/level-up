@@ -472,7 +472,46 @@
       "VM-U1O2-KS2",
       "VM-U1O2-KS8",
       "VM-U1O2-KS9"
-    ]
+    ],
+    "model": {
+      "kind": "Example episode plan and show notes",
+      "text": "**Episode:** “What a first-year apprentice really does”. About 4 minutes.\n\n**Intro (20 s):** Music. “Welcome to Tool Talk. I'm Dylan.”\n\n**Segment 1 (90 s):** My first week on site. What I got wrong.\n\n**Segment 2 (90 s):** An interview with my boss, Steve. Three questions about what he looks for.\n\n**Outro (20 s):** One tip for anyone starting out. Music.\n\n**Show notes**\nDylan talks about his first year as a carpentry apprentice. Guest: Steve Hall, Hall Building.\nMusic: “Easy Day” by Sam Rivers, Free Music Archive (CC BY 4.0).\nPay rates: fairwork.gov.au.",
+      "why": [
+        "It has a clear structure, with times for each part.",
+        "The script sounds like talking, not like an essay.",
+        "The show notes credit the guest, the music and the facts."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Plan and script",
+        "start": "Has an idea but no plan.",
+        "good": "Has an intro, segments and an outro, with times.",
+        "great": "Written for the ear. It sounds natural."
+      },
+      {
+        "skill": "Recording and editing",
+        "start": "Hard to hear, or not edited.",
+        "good": "Clear sound. Edited to 3 to 5 minutes.",
+        "great": "Uses music or pauses to shape the episode."
+      },
+      {
+        "skill": "Show notes and credits",
+        "start": "Missing.",
+        "good": "Sums up the episode and credits sources.",
+        "great": "Every source and sound is credited correctly."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your episode be about?",
+      "options": [
+        "Your trade, job or placement",
+        "A sport, game or hobby you know well",
+        "Advice for next year's Year 11s",
+        "An interview with someone interesting"
+      ]
+    },
+    "solo": "Working alone? Make a solo episode. Talk straight to the listener, and read out a short quote in place of a guest. Test it on one person at home."
   },
   "workbook": {
     "pages": [

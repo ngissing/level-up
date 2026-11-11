@@ -459,7 +459,45 @@
       "VC2E5LY10",
       "VC2E6LY09",
       "VC2E5LA01"
-    ]
+    ],
+    "model": {
+      "kind": "Example profile",
+      "text": "**Marcus Lee: Year 10 student and junior footy umpire**\n\nI am in Year 10 at school in Wendouree. On weekends I umpire under-12 footy. It has taught me to stay calm and make fair calls. It has also taught me to talk clearly with players and parents.\n\nAt school I enjoy woodwork and PE. Next year I start a Certificate II in Building.\n\nI am looking for a part-time job with a local builder. Work experience would be great too.\n\n**Contact:** marcus.lee@email.com",
+      "why": [
+        "It is written for one purpose: to get work experience.",
+        "It shows skills with real examples.",
+        "It shares nothing private, like a home address or a birthday."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Footprint check",
+        "start": "Looks at one account.",
+        "good": "Searches your name and checks your settings.",
+        "great": "Fixes or removes something that could hurt you."
+      },
+      {
+        "skill": "Profile for a purpose",
+        "start": "Lists a few facts about you.",
+        "good": "Fits the purpose and the reader.",
+        "great": "Shows your strengths with real examples."
+      },
+      {
+        "skill": "Safe and professional",
+        "start": "Shares private details.",
+        "good": "Keeps private details out.",
+        "great": "A future boss would be happy to read it."
+      }
+    ],
+    "choices": {
+      "prompt": "What is your profile for?",
+      "options": [
+        "A job site or a casual job application",
+        "A sports club, band or team page",
+        "A course, TAFE or scholarship application",
+        "Selling or making things online"
+      ]
+    }
   },
   "workbook": {
     "pages": [

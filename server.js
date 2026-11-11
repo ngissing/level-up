@@ -2,9 +2,9 @@ import express from 'express';
 import path from 'node:path';
 import { readFileSync } from 'node:fs';
 import { db, getSetting, setSetting } from './src/db.js';
-import { html, icon, ROOT_DIR } from './src/html.js';
+import { html, icon, mdInline, ROOT_DIR } from './src/html.js';
 import { sessionMiddleware, requireRole, checkPassword, hashPassword, createSession, destroySession, setCookie } from './src/auth.js';
-import { getSkill, progressFor, doneSet, skillState, syncBadges, newlyUnlocked, allBadges, STEPS, content, withLevel, audioFor } from './src/content.js';
+import { getSkill, progressFor, doneSet, skillState, syncBadges, newlyUnlocked, allBadges, STEPS, content, withLevel, courseFor, audioFor } from './src/content.js';
 import { LEVEL_IDS, normalizeLevel } from './src/levels.js';
 import { PROGRAM_IDS, PROGRAMS, normalizeProgram, familyOf } from './src/programs.js';
 import { mapPage, skillPage, badgesPage, myCurriculumPage, readiness, explainer } from './src/views/student.js';
@@ -12,6 +12,10 @@ import { dashboardPage, studentDetailPage, skillsIndexPage, teacherGuidePage, cu
 import { adminPage, loginPage, passwordPage } from './src/views/admin.js';
 import { workbookPage } from './src/views/workbook.js';
 import { head, asset } from './src/views/layout.js';
+import { warmupPage, warmupResultPage, warmupEmptyPage, readsPage, storyPage } from './src/views/extras.js';
+import { landingPage } from './src/views/landing.js';
+import * as review from './src/review.js';
+import * as reads from './src/reads.js';
 
 const app = express();
 app.disable('x-powered-by');
@@ -32,9 +36,22 @@ const programOf = (req) => (req.user.role === 'student' ? req.user.program : PRO
 const baseUrl = (req) => process.env.BASE_URL || `${req.protocol}://${req.get('host')}`;
 
 // ---------- Auth ----------
+// Once a day, the first thing a student sees is a short warm-up (if there's enough to ask).
+const WARMUP_MIN = 3;
+function offerWarmup(req, res) {
+  if (req.user.role !== 'student' || getSetting('warmup_on_login') !== '1') return false;
+  const day = review.today();
+  if (req.cookies.lu_warmup === day || req.cookies.lu_unlocked) return false;
+  setCookie(res, 'lu_warmup', day, 86400);
+  if (review.doneToday(req.user, day) || review.dueCount(req.user, day) < WARMUP_MIN) return false;
+  res.redirect('/warmup');
+  return true;
+}
+
 app.get('/', (req, res) => {
-  if (!req.user) return res.redirect('/login');
-  res.redirect(req.user.role === 'student' ? '/map' : '/teacher');
+  if (!req.user) return send(res, landingPage(req));
+  if (req.user.role !== 'student') return res.redirect('/teacher');
+  if (!offerWarmup(req, res)) res.redirect('/map');
 });
 
 // Health check for hosting platforms (Railway checks this before switching to a new version).
@@ -71,13 +88,19 @@ app.post('/account/password', requireRole(), (req, res) => {
 const student = requireRole('student', 'teacher', 'admin');
 
 app.get('/map', student, (req, res) => {
+  if (!req.flash && offerWarmup(req, res)) return;
   const progress = progressFor(req.user.id);
   const unseen = db.prepare('SELECT badge_id FROM badges WHERE user_id = ? AND seen = 0').all(req.user.id).map((r) => r.badge_id);
   const badgeDefs = Object.fromEntries(allBadges(req.user.program).map((b) => [b.id, b]));
   req.badgeCount = db.prepare('SELECT COUNT(*) n FROM badges WHERE user_id = ?').get(req.user.id).n;
   const unlocked = (req.cookies.lu_unlocked || '').split(',').filter(Boolean).map(getSkill).filter(Boolean);
   if (unlocked.length) setCookie(res, 'lu_unlocked', '', 0);
-  send(res, mapPage(req, { progress, newBadges: unseen.map((id) => badgeDefs[id]).filter(Boolean), unlocked }));
+  let extras = null;
+  if (req.user.role === 'student') {
+    const count = review.dueCount(req.user), done = review.doneToday(req.user);
+    extras = { warmup: { ready: !done && count >= WARMUP_MIN, count: Math.min(count, review.WARMUP_SIZE), done }, reads: reads.stats(req.user.id) };
+  }
+  send(res, mapPage(req, { progress, newBadges: unseen.map((id) => badgeDefs[id]).filter(Boolean), unlocked, extras }));
 });
 
 function loadSkill(req, res) {
@@ -117,6 +140,19 @@ app.post('/skill/:id/step', student, (req, res) => {
   db.prepare('UPDATE progress SET steps = ? WHERE user_id = ? AND skill_id = ?').run(JSON.stringify(steps), req.user.id, skill.id);
   const idx = STEPS.findIndex((s) => s.id === step);
   res.redirect(`/skill/${skill.id}?step=${STEPS[Math.min(idx + 1, STEPS.length - 1)].id}`);
+});
+
+// "Make it yours": what the student's final task will be about.
+app.post('/skill/:id/choice', student, (req, res) => {
+  const skill = loadSkill(req, res); if (!skill) return;
+  const p = progressFor(req.user.id)[skill.id];
+  if (p?.status === 'started' && req.user.role === 'student') {
+    const raw = req.body.choice === '__own' ? req.body.own : req.body.choice;
+    const choice = String(raw || '').replace(/\s+/g, ' ').trim().slice(0, 120);
+    if (choice) db.prepare('UPDATE progress SET choice = ? WHERE user_id = ? AND skill_id = ?').run(choice, req.user.id, skill.id);
+    else res.flash('error', 'Pick one, or type your own idea.');
+  }
+  res.redirect(`/skill/${skill.id}?step=brief#pick`);
 });
 
 app.post('/skill/:id/quiz', student, (req, res) => {
@@ -176,6 +212,60 @@ app.get('/badges', student, (req, res) => {
 
 app.get('/my-curriculum', student, (req, res) => send(res, myCurriculumPage(req, { progress: progressFor(req.user.id), level: levelOf(req), program: programOf(req) })));
 
+// ---------- Warm-up (spaced review) ----------
+const studentOnly = requireRole('student');
+
+app.get('/warmup', student, (req, res) => {
+  if (req.user.role !== 'student') return res.redirect('/teacher');
+  const done = review.doneToday(req.user);
+  const questions = done ? [] : review.pick(req.user);
+  if (!questions.length) return send(res, warmupEmptyPage(req, { done }));
+  send(res, warmupPage(req, { questions }));
+});
+
+// Instant feedback for one question. Marks nothing: the real marking happens on POST /warmup.
+app.post('/warmup/check', studentOnly, (req, res) => {
+  const q = review.find(req.user, req.body.item);
+  if (!q || q.skill.program !== req.user.program) return res.status(404).json({ error: 'not found' });
+  const chosen = Number(req.body.chosen);
+  res.json({ right: chosen === q.answer, answer: q.answer, explain: String(mdInline(q.explain || '')) });
+});
+
+app.post('/warmup', studentOnly, (req, res) => {
+  const answers = [];
+  for (let i = 0; i < 12 && req.body[`item${i}`]; i++) {
+    const q = review.find(req.user, req.body[`item${i}`]);
+    if (q && q.skill.program === req.user.program && req.body[`a${i}`] != null) answers.push({ id: q.id, chosen: Number(req.body[`a${i}`]) });
+  }
+  if (!answers.length) return res.redirect('/warmup');
+  const day = review.today();
+  const results = review.record(req.user, answers, day);
+  send(res, warmupResultPage(req, { results, day }));
+});
+
+// ---------- Reading Room ----------
+app.get('/reads', student, (req, res) => {
+  const cfg = reads.readsConfig();
+  const interest = cfg.interests.some((i) => i.id === req.query.interest) ? req.query.interest : null;
+  send(res, readsPage(req, { stories: reads.stories(req.user), log: reads.logFor(req.user.id), stats: reads.stats(req.user.id), interest }));
+});
+app.post('/reads/log', studentOnly, (req, res) => {
+  if (reads.logOwn(req.user, req.body)) res.flash('ok', 'Added to your reading log.');
+  else res.flash('error', 'Tell us what you read first.');
+  res.redirect('/reads#log');
+});
+app.get('/reads/:ref', student, (req, res) => {
+  const story = reads.story(req.user, req.params.ref);
+  if (!story) return res.status(404).send('Story not found');
+  const logged = db.prepare("SELECT * FROM reading_log WHERE user_id = ? AND kind = 'story' AND ref = ?").get(req.user.id, story.ref);
+  send(res, storyPage(req, { story, logged }));
+});
+app.post('/reads/:ref/done', studentOnly, (req, res) => {
+  if (!reads.logStory(req.user, req.params.ref, req.body)) return res.status(404).send('Story not found');
+  res.flash('ok', 'Added to your reading log. Nice one.');
+  res.redirect('/reads');
+});
+
 // ---------- Workbooks (any logged-in user) ----------
 app.get('/workbook/:id', requireRole(), async (req, res) => {
   const skill = loadSkill(req, res); if (!skill) return;
@@ -231,13 +321,19 @@ app.post('/teacher/signoff', teacher, (req, res) => {
   const skill = getSkill(skill_id);
   if (!skill || !canSee(req.user, user_id)) return res.status(403).send('Not allowed');
   const levelUp = req.body.level_up ? 1 : 0;
+  // Rubric marks: one column (0, 1 or 2) per row, or null where the teacher left it blank.
+  const rubric = courseFor(skill, 'core')?.show.rubric;
+  const marks = rubric ? rubric.map((_, i) => (['0', '1', '2'].includes(req.body[`r${i}`]) ? Number(req.body[`r${i}`]) : null)) : [];
+  const saveMarks = () => { if (marks.some((m) => m !== null)) db.prepare('UPDATE progress SET rubric = ? WHERE user_id = ? AND skill_id = ?').run(JSON.stringify(marks), Number(user_id), skill_id); };
   if (action === 'approve') {
     if (paper) db.prepare('INSERT OR IGNORE INTO progress (user_id, skill_id, steps) VALUES (?, ?, ?)').run(Number(user_id), skill_id, JSON.stringify(STEPS.map((s) => s.id)));
     complete(Number(user_id), skill_id, { teacherId: req.user.id, comment, levelUp: paper ? null : levelUp });
+    saveMarks();
     res.flash('ok', `Signed off ${skill.title}.`);
   } else {
     db.prepare(`UPDATE progress SET status = 'started', teacher_comment = ? WHERE user_id = ? AND skill_id = ?`)
       .run(comment || 'Have another look and send it back in.', Number(user_id), skill_id);
+    saveMarks();
     res.flash('ok', 'Sent back with your comment.');
   }
   res.redirect(req.get('referer') || '/teacher');
@@ -246,7 +342,7 @@ app.post('/teacher/signoff', teacher, (req, res) => {
 app.post('/teacher/reopen', teacher, (req, res) => {
   const { user_id, skill_id } = req.body;
   if (!canSee(req.user, user_id)) return res.status(403).send('Not allowed');
-  db.prepare(`UPDATE progress SET status = 'started', completed_at = NULL WHERE user_id = ? AND skill_id = ?`).run(Number(user_id), skill_id);
+  db.prepare(`UPDATE progress SET status = 'started', completed_at = NULL, rubric = NULL WHERE user_id = ? AND skill_id = ?`).run(Number(user_id), skill_id);
   db.prepare('DELETE FROM badges WHERE user_id = ?').run(Number(user_id));
   syncBadges(Number(user_id));
   res.redirect(req.get('referer') || '/teacher');
@@ -256,7 +352,7 @@ app.get('/teacher/student/:id', teacher, (req, res) => {
   if (!canSee(req.user, req.params.id)) return res.status(403).send('Not allowed');
   const s = db.prepare('SELECT u.*, c.name class_name FROM users u LEFT JOIN classes c ON c.id = u.class_id WHERE u.id = ?').get(Number(req.params.id));
   const badges = db.prepare('SELECT * FROM badges WHERE user_id = ?').all(s.id);
-  send(res, studentDetailPage(req, { student: s, progress: progressFor(s.id), badges }));
+  send(res, studentDetailPage(req, { student: s, progress: progressFor(s.id), badges, warmups: review.summary(s.id), reading: { log: reads.logFor(s.id), stats: reads.stats(s.id) } }));
 });
 
 app.get('/teacher/skills', teacher, (req, res) => send(res, skillsIndexPage(req, programOf(req))));
@@ -287,7 +383,7 @@ app.get('/admin', admin, (req, res) => {
   const users = db.prepare('SELECT * FROM users ORDER BY role, name').all();
   const classes = db.prepare('SELECT c.*, (SELECT COUNT(*) FROM users u WHERE u.class_id = c.id) students FROM classes c ORDER BY name').all()
     .map((c) => ({ ...c, teacherIds: db.prepare('SELECT user_id FROM class_teachers WHERE class_id = ?').all(c.id).map((r) => r.user_id) }));
-  const settings = { require_signoff: getSetting('require_signoff'), quiz_pass_percent: getSetting('quiz_pass_percent'), skip_unwritten: getSetting('skip_unwritten'), voice_gender: getSetting('voice_gender') || 'any' };
+  const settings = { require_signoff: getSetting('require_signoff'), quiz_pass_percent: getSetting('quiz_pass_percent'), skip_unwritten: getSetting('skip_unwritten'), voice_gender: getSetting('voice_gender') || 'any', warmup_on_login: getSetting('warmup_on_login') };
   send(res, adminPage(req, { users, classes, settings, roleFilter: req.query.role }));
 });
 
@@ -370,6 +466,7 @@ app.post('/admin/users/:id/delete', admin, (req, res) => {
 app.post('/admin/settings', admin, (req, res) => {
   setSetting('require_signoff', req.body.require_signoff ? '1' : '0');
   setSetting('skip_unwritten', req.body.skip_unwritten ? '1' : '0');
+  setSetting('warmup_on_login', req.body.warmup_on_login ? '1' : '0');
   if (['any', 'female', 'male'].includes(req.body.voice_gender)) setSetting('voice_gender', req.body.voice_gender);
   setSetting('quiz_pass_percent', Math.max(0, Math.min(100, Number(req.body.quiz_pass_percent) || 60)));
   res.flash('ok', 'Settings saved.');

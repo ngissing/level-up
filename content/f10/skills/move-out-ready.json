@@ -479,7 +479,44 @@
       "VC2E6LY08",
       "VC2E6LY09",
       "VC2E5LA08"
-    ]
+    ],
+    "model": {
+      "kind": "Example enquiry to an agent",
+      "text": "**Subject:** Enquiry: 2/14 Station Street, Sebastopol\n\nDear Ms Patel,\n\nI am interested in the one-bedroom unit at 2/14 Station Street, listed at $290 a week.\n\nCould you please tell me:\n1. Is the unit still available, and when can I inspect it?\n2. Are water and gas included in the rent?\n3. How long is the lease?\n\nI work part time and can provide references and payslips.\n\nThank you for your time.\n\nYours sincerely,\nKai Wilson\n0400 000 000",
+      "why": [
+        "It names the exact property and the price.",
+        "The questions are numbered, so they are easy to answer.",
+        "It shows the agent you are a serious renter."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Compares rentals",
+        "start": "Looks at one place.",
+        "good": "Compares real rentals on cost and what you get.",
+        "great": "Thinks about transport, bills and bond too."
+      },
+      {
+        "skill": "Budget and lease",
+        "start": "The budget is missing costs.",
+        "good": "Budget adds up. Finds the key lease terms.",
+        "great": "Can explain the lease terms in plain words."
+      },
+      {
+        "skill": "Formal enquiry",
+        "start": "Sounds like a text message.",
+        "good": "Formal, clear, and asks good questions.",
+        "great": "Ready to send to a real agent."
+      }
+    ],
+    "choices": {
+      "prompt": "Where would you look for a place?",
+      "options": [
+        "Close to where you live now",
+        "Near a TAFE, uni or job you want",
+        "A share house with friends"
+      ]
+    }
   },
   "workbook": {
     "pages": [

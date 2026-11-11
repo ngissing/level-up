@@ -455,7 +455,46 @@
       "VM-U1O2-KK5",
       "VM-U1O2-KS7",
       "VM-U1O2-KS8"
-    ]
+    ],
+    "model": {
+      "kind": "Example credits section",
+      "text": "**Credits**\n\n**Photos**\n- “Skate park at sunset” by J. Marsh, from Unsplash. Free to use under the Unsplash licence.\n- Photos of the Wendouree skate park: taken by me.\n\n**Music**\n- “Easy Day” by Sam Rivers, from the Free Music Archive. Licensed under Creative Commons Attribution 4.0.\n\n**Facts**\n- Opening hours and rules: City of Ballarat website, read on 10 June.\n\n**Permission**\n- The two skaters in my video said yes to being filmed.",
+      "why": [
+        "Every photo, song and fact has a credit.",
+        "Each credit says who made it and why it is OK to use.",
+        "It covers permission from people in the video too."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Allowed content only",
+        "start": "Uses content without checking.",
+        "good": "Uses only content you are allowed to use.",
+        "great": "Can explain the licence for each item."
+      },
+      {
+        "skill": "Credits",
+        "start": "Credits are missing or unclear.",
+        "good": "Every source is credited.",
+        "great": "Each credit has the creator, the source and the licence."
+      },
+      {
+        "skill": "The digital text",
+        "start": "Unfinished, or the message is unclear.",
+        "good": "Clear, and on a topic you care about.",
+        "great": "Looks polished and suits its audience."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your digital text be about?",
+      "options": [
+        "Your sport, hobby or interest",
+        "Your trade or pathway",
+        "A place in your community",
+        "An issue you care about"
+      ]
+    },
+    "solo": "No partner to swap with? Leave your text for a day. Then check it yourself against your plan: is every photo, song and fact in the credits?"
   },
   "workbook": {
     "pages": [

@@ -467,7 +467,46 @@
     "vc": [
       "VPC-U2M1-LG3",
       "VPC-U2M1-AP4"
-    ]
+    ],
+    "model": {
+      "kind": "Example detective notes",
+      "text": "**Post 1:** A gamer shows off a new headset.\n**Disclosure:** “#ad” at the very end of a long caption. It is hard to see.\n**Whose side?** The brand's. She is paid to post.\n\n**Post 2:** A mechanic reviews a cheap tool set.\n**Disclosure:** He says, “I bought these myself.” There are no links.\n**Whose side?** The viewer's. He also shows what broke.\n\n**Post 3:** A food creator at a new café.\n**Disclosure:** “Invited”. The meal was free.\n**Whose side?** Partly the café's. A free meal can make a review kinder.\n\n**Pattern:** The clearer the label, the more I trust the post.",
+      "why": [
+        "It looks for the label and says how easy it is to find.",
+        "It works out who gains from each post.",
+        "It spots a pattern across the posts."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Finds the disclosure",
+        "start": "Misses the labels.",
+        "good": "Finds the label, or notes that there is none.",
+        "great": "Says how clear or hidden each label is."
+      },
+      {
+        "skill": "Whose side?",
+        "start": "Guesses.",
+        "good": "Gives a reason for each post.",
+        "great": "Uses clues like codes, links and free gifts."
+      },
+      {
+        "skill": "Discusses",
+        "start": "Says little.",
+        "good": "Shares what you found with the group.",
+        "great": "Spots a pattern and asks others what they found."
+      }
+    ],
+    "choices": {
+      "prompt": "Which kind of creators will you check?",
+      "options": [
+        "Gaming or tech",
+        "Food or places to eat",
+        "Fitness, fashion or beauty",
+        "Cars, tools or trades"
+      ]
+    },
+    "solo": "No group? Write three sentences about the pattern you found across your five posts. Share them with your teacher."
   },
   "workbook": {
     "pages": [

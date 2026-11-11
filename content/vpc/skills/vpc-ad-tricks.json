@@ -469,7 +469,45 @@
     "vc": [
       "VPC-U2M1-LG2",
       "VPC-U2M1-AP3"
-    ]
+    ],
+    "model": {
+      "kind": "Example trick hunt and truth version",
+      "text": "**Ad 1:** An energy drink poster.\n**Tricks:** A famous athlete. The words “Unleash your power”. Bright colours.\n\n**Ad 2:** A phone catalogue.\n**Tricks:** “From $0 upfront”. The real cost is in tiny print at the bottom.\n\n**Ad 3:** A burger ad on TV.\n**Tricks:** The burger looks twice as big as the real one. Happy music.\n\n**My truth version (Ad 2)**\n“This phone costs $1,440 over two years. You cannot leave early without paying. But it is a good phone.”\n\n**What I changed:** I put the real price in big print.",
+      "why": [
+        "It names the trick in each ad.",
+        "The truth version keeps the facts and drops the trick.",
+        "It is still fair to the product."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Finds the tricks",
+        "start": "Describes the ads.",
+        "good": "Labels the tricks in all three.",
+        "great": "Explains how each trick works on people."
+      },
+      {
+        "skill": "Truth version",
+        "start": "Just makes fun of the ad.",
+        "good": "Tells the truth clearly.",
+        "great": "Honest and fair, and still looks like an ad."
+      },
+      {
+        "skill": "Explains",
+        "start": "Not explained yet.",
+        "good": "Says what you changed.",
+        "great": "Says why the change matters to a buyer."
+      }
+    ],
+    "choices": {
+      "prompt": "Which kind of ads will you hunt?",
+      "options": [
+        "Food and drink",
+        "Phones, tech or games",
+        "Clothes, shoes or beauty",
+        "Cars, bikes or scooters"
+      ]
+    }
   },
   "workbook": {
     "pages": [

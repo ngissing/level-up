@@ -468,7 +468,45 @@
       "VC2E6LY07",
       "VC2E6LA07",
       "VC2E6LA02"
-    ]
+    ],
+    "model": {
+      "kind": "Example analysis",
+      "text": "**The post:** A fitness creator's reel about “GlowFuel” protein powder.\n\n**Who is paying?** The caption ends with #ad. The discount code is her own name, so she earns money from each sale.\n\n**Techniques.** She uses before and after photos. She says “I honestly can't live without it”. A timer says the code ends tonight. That makes people rush.\n\n**What is left out?** The price: $79 a tub. There is also no proof that the powder caused the change.\n\n**My view:** It is an ad that is made to feel like advice from a friend.",
+      "why": [
+        "It finds who is paying, and gives the proof.",
+        "It names each technique and says what it does.",
+        "It spots what the post leaves out."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Follows the money",
+        "start": "Says “it might be sponsored”.",
+        "good": "Finds proof of who is paying.",
+        "great": "Explains how the creator earns from the post."
+      },
+      {
+        "skill": "Techniques",
+        "start": "Names one technique.",
+        "good": "Names several, with examples.",
+        "great": "Explains how each one works on the viewer."
+      },
+      {
+        "skill": "What is left out",
+        "start": "Not looked at yet.",
+        "good": "Finds one thing left out.",
+        "great": "Explains why leaving it out matters."
+      }
+    ],
+    "choices": {
+      "prompt": "Which kind of post will you unbox?",
+      "options": [
+        "Fitness, food or health",
+        "Gaming or tech",
+        "Fashion or beauty",
+        "Money, crypto or “get rich” advice"
+      ]
+    }
   },
   "workbook": {
     "pages": [

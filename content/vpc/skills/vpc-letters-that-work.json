@@ -471,7 +471,46 @@
       "VPC-U1M1-LG3",
       "VPC-U1M1-AP4",
       "VPC-U1M1-AP7"
-    ]
+    ],
+    "model": {
+      "kind": "Example email",
+      "text": "**Subject:** Work experience in August\n\nDear Ms Garcia,\n\nMy name is Liam Scott. I am a student at Mount Clear College.\n\nI am looking for one week of work experience from 11 to 15 August. I would like to do it at Paws Vet Clinic because I want to work with animals. I walk dogs for two neighbours every week.\n\nCould I please do my work experience with you? My teacher can send you the forms.\n\nThank you for your time.\n\nYours sincerely,\nLiam Scott\n0400 000 000",
+      "why": [
+        "The subject line says what the email is about.",
+        "It says who you are, what you want and why.",
+        "It is polite, and it gives a way to reply."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Clear request",
+        "start": "It is hard to tell what you want.",
+        "good": "Says who you are and what you need.",
+        "great": "Gives dates and a reason, so it is easy to say yes."
+      },
+      {
+        "skill": "Polite and formal",
+        "start": "Sounds like a text message.",
+        "good": "Has a greeting, full sentences and a sign-off.",
+        "great": "The tone is just right for this reader."
+      },
+      {
+        "skill": "Edited and sent",
+        "start": "First draft, not sent.",
+        "good": "Checked, fixed and sent.",
+        "great": "No mistakes. You got a reply, or you followed up."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you ask for?",
+      "options": [
+        "Work experience or a job",
+        "Information about a course or a club",
+        "A reference from someone who knows you",
+        "Something to be fixed or changed"
+      ]
+    },
+    "solo": "No partner to swap with? Read your draft out loud, slowly. Then ask one adult to read it and tell you what you are asking for. If they can't tell, fix it."
   },
   "workbook": {
     "pages": [

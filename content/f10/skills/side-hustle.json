@@ -464,7 +464,46 @@
       "VC2E6LY09",
       "VC2E6LY02",
       "VC2E6LY07"
-    ]
+    ],
+    "model": {
+      "kind": "Example pitch",
+      "text": "**The hustle:** Fresh Kicks. I clean sneakers.\n\n**The problem:** White sneakers get dirty fast. A new pair costs $150 or more.\n\n**My fix:** For $15, I clean your sneakers by hand and return them in two days.\n\n**The numbers:** A cleaning kit costs $30 and does about 20 pairs. That is $1.50 a pair. I keep $13.50 from each job.\n\n**Why me:** I have cleaned my own and my brothers' shoes for two years. Here are the before and after photos.\n\n**The ask:** Let me put a flyer on the school noticeboard.",
+      "why": [
+        "It starts with a problem the audience knows.",
+        "The numbers are simple and honest.",
+        "It ends by asking the panel for one clear thing."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Plan and price",
+        "start": "Has an idea but no costs.",
+        "good": "Works out the costs, the price and the profit.",
+        "great": "The price is fair and the maths is checked."
+      },
+      {
+        "skill": "The pitch",
+        "start": "Reads from notes. The message is not clear.",
+        "good": "Covers the problem, the fix, the price and the ask.",
+        "great": "Confident, and answers the panel's questions."
+      },
+      {
+        "skill": "Honest flyer",
+        "start": "Key details are missing.",
+        "good": "Clear and eye-catching, with price and contact.",
+        "great": "Persuades without tricks or false claims."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of side hustle is it?",
+      "options": [
+        "A service: mowing, washing cars, pet sitting, tutoring",
+        "Something you make: food, art, clothes",
+        "Something you fix or resell",
+        "A digital skill: editing, design, tech help"
+      ]
+    },
+    "solo": "No panel? Film your pitch and send it to your teacher with your flyer. Ask one adult at home to watch it and give you one question and one tip."
   },
   "workbook": {
     "pages": [

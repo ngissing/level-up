@@ -469,7 +469,45 @@
       "VM-U1O1-KS9",
       "VM-U1O1-KK6",
       "VM-U1O1-KS10"
-    ]
+    ],
+    "model": {
+      "kind": "Example final copy (opening)",
+      "text": "**Four o'clock starts**\n\nMost people my age have never seen four in the morning. I see it three days a week.\n\nThat is when the bakery ovens go on. By five, the first trays of bread are out and the whole street smells like toast. I started there in January, sweeping floors. Now I shape the rolls.\n\nMy hands were slow at first. Mick, the head baker, never rushed me. “Slow is smooth,” he would say. “Smooth is fast.”\n\nNext year I want to start my apprenticeship. I have already learned the hardest part: getting out of bed.",
+      "why": [
+        "It opens with a line that makes you curious.",
+        "It uses real details: times, smells and what people said.",
+        "It has been proofread. There are no mistakes to trip the reader."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "The writing process",
+        "start": "One draft only.",
+        "good": "Planned, drafted, revised, edited and proofread.",
+        "great": "Can show what changed at each stage and why."
+      },
+      {
+        "skill": "Ideas and detail",
+        "start": "Tells the facts in plain words.",
+        "good": "Uses details that bring it to life.",
+        "great": "Has a clear voice and a strong ending."
+      },
+      {
+        "skill": "Final copy",
+        "start": "Still has mistakes.",
+        "good": "Proofread, with correct spelling and punctuation.",
+        "great": "Ready to share with a real audience."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you write about?",
+      "options": [
+        "Your job, placement or trade",
+        "A hobby, sport or interest",
+        "Where you want to be in five years",
+        "A person who taught you something"
+      ]
+    }
   },
   "workbook": {
     "pages": [

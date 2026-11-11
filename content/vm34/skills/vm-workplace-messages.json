@@ -452,7 +452,45 @@
     "vc": [
       "VM-U3O2-KK3",
       "VM-U3O2-KS6"
-    ]
+    ],
+    "model": {
+      "kind": "Example handover note",
+      "text": "**Handover: Saturday close, 21 June**\n**From:** Aisha (close). **To:** Ben (Sunday open).\n\n**Done**\n- Till counted and banked. The float is $200.\n- Fridges checked at 9 pm. All were under 5 °C.\n\n**Not done**\n- The milk delivery did not come. I rang the supplier and left a message.\n\n**Watch out**\n- The back door lock is sticking. Push hard, then turn the key. I have told Sam.\n\n**For you to do**\n- Call the milk supplier again at 7 am. The number is on the board.",
+      "why": [
+        "Headings sort it into done, not done and to do.",
+        "It gives exact details: times, amounts and names.",
+        "The next person knows what to do first."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Shift-swap request",
+        "start": "Unclear, or missing details.",
+        "good": "Clear, polite, with dates and times.",
+        "great": "Offers a fix, so it is easy to say yes."
+      },
+      {
+        "skill": "Handover note",
+        "start": "Leaves out key information.",
+        "good": "Covers done, not done and to do.",
+        "great": "The next worker would have no questions."
+      },
+      {
+        "skill": "Conventions",
+        "start": "Text-speak, or hard to read.",
+        "good": "Headings, dot points and correct spelling.",
+        "great": "Layout and tone are right for this workplace."
+      }
+    ],
+    "choices": {
+      "prompt": "Which workplace will your messages be for?",
+      "options": [
+        "Your own job or placement",
+        "A café, shop or fast food store",
+        "A worksite or workshop",
+        "A care setting, like childcare or aged care"
+      ]
+    }
   },
   "workbook": {
     "pages": [

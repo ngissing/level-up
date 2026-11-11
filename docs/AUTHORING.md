@@ -63,7 +63,7 @@ The app turns it into the student pages, the explainer, the quiz, the teacher gu
 
   "quiz": { "questions": [{ "q": "markdown", "options": ["", "", "", ""], "answer": 0, "explain": "" }] },
 
-  "show": { "task": "", "checklist": ["", ""], "levelUp": "" },
+  "show": { "task": "", "checklist": ["", ""], "levelUp": "", "model": {}, "rubric": [], "choices": {}, "solo": "" },
 
   "workbook": { "pages": [ /* blocks — see below */ ] },
 
@@ -163,6 +163,40 @@ Check all three versions:
 
 - `npm run check` reports reading level for each version.
 - `npm run pdf -- <id>` prints all three versions and warns about any page that overflows. A `pagebreak` can be set per level: `"pagebreak": { "core": false, "extend": true }`.
+
+### The final task: model, rubric, choice and solo option
+
+Every course's `show` carries four extra parts. They appear on the **Show it** step, on an automatic workbook page called **What good looks like** (placed just before the final mission or `do-it` task), and in the teacher guide.
+
+```json
+"show": {
+  "task": "…", "checklist": ["…"], "levelUp": "…",
+  "model": {
+    "kind": "Example email to a manager",
+    "text": "Markdown. A finished example of the final task. Single line breaks are kept.",
+    "why": ["Three short notes on why it works.", "…", "…"]
+  },
+  "rubric": [
+    { "skill": "What to look for", "start": "Getting started…", "good": "Got it…", "great": "Nailed it…" }
+  ],
+  "choices": { "prompt": "What will yours be about?", "options": ["…", "…", "…"] },
+  "solo": "Only if the task needs other people: how to do it alone."
+}
+```
+
+- **`model`** is a worked example, not an answer key. Write it about a **different topic** from the one most students will choose, so it can't be copied. Keep it to about 120 words and write it for the lowest reading level (one version serves everyone). Give exactly three `why` notes that name the moves you want students to copy.
+- **`rubric`** has exactly three rows, each a short phrase per column. Rows should match the checklist and the teacher's look-fors. Teachers can mark it with one tap per row at sign-off, and the student then sees their marked rubric. Never mention reading levels in it.
+- **`choices`** gives three or four topics (students can always bring their own idea). The skill stays fixed and the topic is theirs. Students pick on the Mission brief step, and teachers see the pick in the sign-off queue.
+- **`solo`** is required whenever the task says partner, group, panel, class or audience. Say exactly what to do instead (record it, test it on someone at home, write both sides). Keep it under 45 words.
+- The workbook page must fit one sheet: run `npm run pdf -- <id>` and shorten the model if it overflows. Long examples are set slightly smaller automatically.
+- `npm run check` warns if a course has no model or rubric.
+
+### Warm-ups and the Reading Room (automatic)
+
+You don't write anything extra for these:
+
+- **Warm-ups** (spaced review) are built from each finished course's **quiz questions** and **key words**. So write quiz questions that make sense on their own, weeks later, without the article in front of the student (avoid “in the story above…”).
+- The **Reading Room** lists every case study as a free-choice story. Give each new course a topic in `content/reads.json` → `tags` (`npm run check` warns if a course has no topic).
 
 ### Explainer scene kinds
 

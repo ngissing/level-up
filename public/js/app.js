@@ -219,3 +219,59 @@ for (const nav of document.querySelectorAll('.prog-switch')) {
   const on = nav.querySelector('.prog-tab.on');
   if (on && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = on.offsetLeft - nav.offsetLeft - 12;
 }
+
+// Warm-up: one question at a time, with the answer straight away. Without this script the
+// page still works as one plain form.
+(() => {
+  const form = document.querySelector('[data-warmup]');
+  if (!form) return;
+  const qs = [...form.querySelectorAll('.wu-q')];
+  const dots = [...form.querySelectorAll('.wu-dots span')];
+  const svg = (name) => `<svg class="ico" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">${name === 'ok' ? '<path d="M20 6 9 17l-5-5"/>' : '<path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/>'}</svg>`;
+  let at = 0;
+  const show = (i) => {
+    at = i;
+    qs.forEach((q, n) => q.classList.toggle('on', n === i));
+    dots.forEach((d, n) => d.classList.toggle('now', n === i));
+    qs[i].querySelector('input[type=radio]')?.focus({ preventScroll: true });
+  };
+  form.classList.add('js');
+  show(0);
+
+  qs.forEach((q, i) => {
+    const next = q.querySelector('[data-wu-next]');
+    const fb = q.querySelector('.wu-fb');
+    q.addEventListener('change', async (e) => {
+      if (!e.target.matches('input[type=radio]') || q.classList.contains('locked')) return;
+      q.classList.add('locked');
+      const chosen = e.target.value;
+      // Keep the choice but stop it being changed (a disabled radio would not be sent).
+      q.querySelectorAll('input[type=radio]').forEach((r) => { if (r !== e.target) r.disabled = true; });
+      e.target.addEventListener('click', (ev) => ev.preventDefault());
+      let data = null;
+      try {
+        const res = await fetch('/warmup/check', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams({ item: q.dataset.item, chosen }) });
+        if (res.ok) data = await res.json();
+      } catch { /* offline: carry on without instant feedback */ }
+      if (data) {
+        const opts = [...q.querySelectorAll('.opt')];
+        opts[data.answer]?.classList.add('opt-answer');
+        if (!data.right) e.target.closest('.opt').classList.add('opt-wrong');
+        fb.classList.toggle('miss', !data.right);
+        fb.innerHTML = `<strong>${svg(data.right ? 'ok' : 'miss')} ${data.right ? 'Yes. You remembered it.' : 'Not this time. It will come back tomorrow.'}</strong><p>${data.explain}</p>`;
+        dots[i]?.classList.add(data.right ? 'ok' : 'miss');
+      }
+      next.hidden = false;
+      next.focus({ preventScroll: true });
+    });
+    next.addEventListener('click', () => {
+      if (i === qs.length - 1) { qs.forEach((x) => x.querySelectorAll('input[type=radio]:not(:checked)').forEach((r) => { r.disabled = true; })); form.submit(); }
+      else { show(i + 1); form.scrollIntoView({ block: 'start', behavior: 'smooth' }); }
+    });
+  });
+})();
+
+// "My own idea": typing in the box picks that option.
+document.querySelectorAll('.pick-opt.own input[type=text]').forEach((t) => {
+  t.addEventListener('input', () => { t.closest('.pick-opt').querySelector('input[type=radio]').checked = true; });
+});

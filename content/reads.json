@@ -1,0 +1,173 @@
+{
+  "interests": [
+    {
+      "id": "money",
+      "label": "Money & rip-offs",
+      "icon": "lucide:banknote",
+      "color": "#C6F432"
+    },
+    {
+      "id": "work",
+      "label": "Work",
+      "icon": "lucide:briefcase",
+      "color": "#FFB23F"
+    },
+    {
+      "id": "online",
+      "label": "Online & AI",
+      "icon": "lucide:smartphone",
+      "color": "#7FB5FF"
+    },
+    {
+      "id": "law",
+      "label": "Courts & rules",
+      "icon": "lucide:gavel",
+      "color": "#C9A7FF"
+    },
+    {
+      "id": "screen",
+      "label": "Music, film & media",
+      "icon": "lucide:clapperboard",
+      "color": "#FF8FA3"
+    },
+    {
+      "id": "safety",
+      "label": "Health, safety & getting around",
+      "icon": "lucide:shield-plus",
+      "color": "#5EEAD4"
+    },
+    {
+      "id": "voice",
+      "label": "People power",
+      "icon": "lucide:megaphone",
+      "color": "#FFD84D"
+    }
+  ],
+  "tags": {
+    "spot-the-scam": "money",
+    "read-your-payslip": "money",
+    "phone-plan-showdown": "money",
+    "odds-against-you": "money",
+    "budget-builder": "money",
+    "buy-smart-online": "money",
+    "beat-the-fine-print": "money",
+    "complain-like-a-pro": "money",
+    "review-it": "money",
+    "vm-first-payslip": "money",
+    "vpc-letters-that-work": "money",
+    "vpc-fact-or-opinion": "money",
+    "vpc-ad-tricks": "money",
+    "vpc-can-you-trust-it": "money",
+    "vm-website-detective": "money",
+    "crack-the-job-ad": "work",
+    "build-your-resume": "work",
+    "talk-the-talk": "work",
+    "nail-the-interview": "work",
+    "get-the-job": "work",
+    "side-hustle": "work",
+    "vpc-my-resume": "work",
+    "vm-find-it-in-the-manual": "work",
+    "know-your-rights": "work",
+    "fact-or-fake": "online",
+    "digital-footprint": "online",
+    "influencer-unboxed": "online",
+    "comment-section": "online",
+    "form-filler": "online",
+    "find-it-fast": "online",
+    "vm-lock-it-down": "online",
+    "vm-respect-online": "online",
+    "vm-research-ready": "online",
+    "vpc-lock-it-down": "online",
+    "vpc-website-tour": "online",
+    "vpc-ai-check": "online",
+    "vpc-whose-side": "online",
+    "vm-check-the-source": "online",
+    "vm-compare-the-coverage": "online",
+    "say-it-right": "law",
+    "vm-write-it-right": "law",
+    "vm-credit-it": "law",
+    "move-out-ready": "law",
+    "vm-back-it-up": "law",
+    "vm-own-words": "law",
+    "make-content": "screen",
+    "lyrics-decoded": "screen",
+    "tell-your-story": "screen",
+    "vm-pictures-and-sound": "screen",
+    "vm-tell-it-your-way": "screen",
+    "vm-make-a-podcast": "screen",
+    "vm-loaded-words": "screen",
+    "vm-logic-or-feelings": "screen",
+    "vm-podcast-an-issue": "screen",
+    "vpc-lights-camera-message": "screen",
+    "vpc-whats-the-story": "screen",
+    "vpc-make-a-zine": "screen",
+    "vpc-make-a-reel": "screen",
+    "vpc-show-me-how": "screen",
+    "vm-text-types": "screen",
+    "vpc-issue-panel": "screen",
+    "vm-debate-ready": "screen",
+    "vpc-body-talk": "screen",
+    "safety-first": "safety",
+    "getting-around": "safety",
+    "read-the-instructions": "safety",
+    "l-plate-ready": "safety",
+    "health-smart": "safety",
+    "make-the-call": "safety",
+    "vm-read-the-room": "safety",
+    "vm-workplace-messages": "safety",
+    "vm-handle-with-care": "safety",
+    "vpc-read-the-label": "safety",
+    "vpc-find-it-in-the-book": "safety",
+    "vpc-get-there": "safety",
+    "speak-up": "voice",
+    "change-maker": "voice",
+    "vm-whos-talking": "voice",
+    "vm-how-communities-argue": "voice",
+    "vm-say-it-like-you-mean-it": "voice",
+    "vm-have-your-say": "voice",
+    "vm-community-voices-report": "voice",
+    "vpc-get-on-the-roll": "voice"
+  },
+  "kinds": [
+    "Book",
+    "Article or news story",
+    "Comic, manga or graphic novel",
+    "Magazine",
+    "Website or blog",
+    "Manual or instructions",
+    "Audiobook or podcast",
+    "Something else"
+  ],
+  "finds": [
+    {
+      "label": "Your local library (and the Libby app)",
+      "url": "https://libbyapp.com",
+      "blurb": "Free e-books, audiobooks, comics and magazines with a library card. Joining a library is free."
+    },
+    {
+      "label": "ABC BTN High",
+      "url": "https://www.abc.net.au/btn/high",
+      "blurb": "Short news stories made for high school students."
+    },
+    {
+      "label": "triple j Hack",
+      "url": "https://www.abc.net.au/triplej/programs/hack",
+      "blurb": "News and issues for young Australians, to read or listen to."
+    },
+    {
+      "label": "ABC Heywire",
+      "url": "https://www.abc.net.au/heywire",
+      "blurb": "True stories written by young people from regional Australia."
+    },
+    {
+      "label": "The Daily Aus",
+      "url": "https://www.thedailyaus.com.au",
+      "blurb": "The day's news, explained in plain language."
+    },
+    {
+      "label": "Youth Central",
+      "url": "https://www.youthcentral.vic.gov.au/",
+      "blurb": "Victorian Government info on jobs, study, money and rights."
+    }
+  ]
+}

@@ -482,7 +482,44 @@
       "VM-U1O1-KK5",
       "VM-U1O1-KS3",
       "VM-U1O2-KS7"
-    ]
+    ],
+    "model": {
+      "kind": "Example summary in your own words",
+      "text": "**Honest work in VCE VM: the short version**\n\nYour work has to be your own. That means you did the thinking and the writing.\n\nYou **can** get help. A teacher can explain the task. A friend can read your draft and give you tips.\n\nYou **cannot** copy someone else's work, let someone do it for you, or hand in AI writing as if you wrote it.\n\nIf you use ideas or words from somewhere else, say where they came from.\n\nYour teacher has to be sure the work is yours. If they are not sure, they can ask you to explain it.\n\n*Source: VCAA, VCE Administrative Handbook.*",
+      "why": [
+        "It keeps the key ideas but uses new, simpler words.",
+        "It is set out for a new student: what you can do and what you cannot.",
+        "It names the source at the end."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Key ideas",
+        "start": "Misses main ideas, or adds wrong ones.",
+        "good": "Covers the main rules correctly.",
+        "great": "Picks out what a new student most needs to know."
+      },
+      {
+        "skill": "Own words",
+        "start": "Mostly copied from the source.",
+        "good": "Written in your own words.",
+        "great": "Clear and short, and still means the same thing."
+      },
+      {
+        "skill": "Acknowledges the source",
+        "start": "No source given.",
+        "good": "Names the source.",
+        "great": "Uses quote marks for any exact words."
+      }
+    ],
+    "choices": {
+      "prompt": "How will you share your summary?",
+      "options": [
+        "A one-page guide for new VM students",
+        "A short talk or slide for a Year 10 class",
+        "A post for the school's student page"
+      ]
+    }
   },
   "workbook": {
     "pages": [

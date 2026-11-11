@@ -447,7 +447,44 @@
     "vc": [
       "VC2E6LY08",
       "VC2E5LY08"
-    ]
+    ],
+    "model": {
+      "kind": "Example recommendation",
+      "text": "Hi Jess,\n\nI checked both plans for you. I would pick **Plan B**.\n\nPlan A looks cheaper at $25 a month. But it locks you in for 24 months. It also charges $10 for each extra gig of data. Over a year that is **at least $300**.\n\nPlan B is $30 a month, so $360 a year. But you get 40 GB, which is more than you use. And you can leave any time.\n\nThe catch with Plan B: the price can go up after six months. Put a reminder in your phone to check it.",
+      "why": [
+        "It gives a clear pick in the first line.",
+        "It backs the pick with numbers for a whole year.",
+        "It is honest about the catch."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Compares the plans",
+        "start": "Lists what one plan offers.",
+        "good": "Compares both plans on cost, data and contract.",
+        "great": "Compares them on what matters most to this friend."
+      },
+      {
+        "skill": "Does the maths",
+        "start": "Uses the monthly price only.",
+        "good": "Works out the cost for a year.",
+        "great": "Adds the extra costs too, and shows the working."
+      },
+      {
+        "skill": "Recommends",
+        "start": "Picks a plan.",
+        "good": "Picks a plan and gives reasons.",
+        "great": "Gives reasons, names the catch, and says what to watch for."
+      }
+    ],
+    "choices": {
+      "prompt": "Which plans will you compare?",
+      "options": [
+        "The two plans in your workbook",
+        "Two real plans from different phone companies",
+        "Your own plan and one you could switch to"
+      ]
+    }
   },
   "workbook": {
     "pages": [

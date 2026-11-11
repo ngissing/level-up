@@ -462,7 +462,44 @@
       "VC2E4LA01",
       "VC2E5LA01",
       "VC2E5LY10"
-    ]
+    ],
+    "model": {
+      "kind": "Example warning message",
+      "text": "Hi Nan, a quick warning. There is a scam going around. You get a text that says it is from your bank. It says your card is locked and you must tap a link **today**.\n\nIt is fake. Banks do not send links like that.\n\nIf you get one, **stop**. Do not tap the link. **Check** by calling the number on the back of your card. Then delete the text.\n\nCall me if you are not sure. I am happy to look at it with you. Love, Sam",
+      "why": [
+        "It says what the scam **looks like**, so Nan can spot it.",
+        "It gives clear steps: stop, check, protect.",
+        "The tone is warm and calm. It fits a grandparent."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Describes the scam",
+        "start": "Names a scam.",
+        "good": "Says what the scam looks like.",
+        "great": "Points out the red flags, so the reader can spot other scams too."
+      },
+      {
+        "skill": "Says what to do",
+        "start": "Says “be careful”.",
+        "good": "Gives clear steps: stop, check, protect.",
+        "great": "Steps are in order and easy to do, with a safe way to check."
+      },
+      {
+        "skill": "Fits the reader",
+        "start": "Sounds the same for anyone.",
+        "good": "Words and tone suit this person.",
+        "great": "Sounds like you. Warm, clear, and not scary."
+      }
+    ],
+    "choices": {
+      "prompt": "Who will you warn, and about which scam?",
+      "options": [
+        "A grandparent: a fake bank or “Hi Mum” text",
+        "A friend: a fake job or “easy money” offer",
+        "A younger brother, sister or cousin: a fake prize or game scam"
+      ]
+    }
   },
   "workbook": {
     "pages": [

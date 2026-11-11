@@ -8,7 +8,7 @@ import { PROGRAMS, familyOf } from '../programs.js';
 
 
 const NAV = {
-  student: [['/map', 'Map', 'lucide:map'], ['/badges', 'Badges', 'lucide:award'], ['/my-curriculum', 'My Curriculum', 'lucide:graduation-cap']],
+  student: [['/map', 'Map', 'lucide:map'], ['/reads', 'Reading Room', 'lucide:book-open-text'], ['/badges', 'Badges', 'lucide:award'], ['/my-curriculum', 'My Curriculum', 'lucide:graduation-cap']],
   teacher: [['/teacher', 'Dashboard', 'lucide:layout-dashboard'], ['/teacher/skills', 'Mini courses', 'lucide:library'], ['/teacher/curriculum', 'Curriculum map', 'lucide:network']],
   admin: [['/teacher', 'Dashboard', 'lucide:layout-dashboard'], ['/teacher/skills', 'Mini courses', 'lucide:library'], ['/teacher/curriculum', 'Curriculum map', 'lucide:network'], ['/admin', 'Accounts', 'lucide:users']],
 };
@@ -17,12 +17,12 @@ const NAV = {
 // after an update instead of using a cached old version.
 const ASSET_V = (() => {
   const h = createHash('sha1');
-  for (const f of ['css/shared.css', 'css/app.css', 'css/workbook.css', 'js/app.js']) h.update(readFileSync(path.join(ROOT_DIR, 'public', f)));
+  for (const f of ['css/shared.css', 'css/app.css', 'css/workbook.css', 'css/landing.css', 'js/app.js', 'js/landing.js']) h.update(readFileSync(path.join(ROOT_DIR, 'public', f)));
   return h.digest('hex').slice(0, 10);
 })();
 export const asset = (url) => `${url}?v=${ASSET_V}`;
 
-export function head(title, extraCss = []) {
+export function head(title, extraCss = [], extra = '') {
   return html`<!doctype html>
 <html lang="en-AU">
 <head>
@@ -34,6 +34,7 @@ export function head(title, extraCss = []) {
 <script>try{var t=localStorage.getItem('lu-textsize');if(t)document.documentElement.dataset.textsize=t}catch(e){}</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 ${extraCss.map((c) => html`<link rel="stylesheet" href="${asset(c)}">`)}
+${extra}
 </head>`;
 }
 

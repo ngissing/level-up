@@ -468,7 +468,46 @@
     "vc": [
       "VPC-U1M1-AP3",
       "VPC-U1M1-LG1"
-    ]
+    ],
+    "model": {
+      "kind": "Example search record",
+      "text": "**Book:** Road to Solo Driving\n\n**My question:** How far away from a fire hydrant do I have to park?\n\n**How I found it**\n1. I looked in the **index** at the back, under P for “parking”.\n2. The index sent me to the parking pages.\n3. I used the **headings** to find “Where you must not park”.\n4. I looked down the list for the word “hydrant”.\n\n**Time:** About 40 seconds.\n\n**What I learned:** For one small fact, the index is faster than the contents page.",
+      "why": [
+        "It names the book feature that was used.",
+        "It shows each step from the question to the answer.",
+        "It says which feature was fastest, and why."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Finds the answers",
+        "start": "Finds one or two.",
+        "good": "Finds all five.",
+        "great": "Finds them fast. Each one is correct."
+      },
+      {
+        "skill": "Uses the features",
+        "start": "Flips through the pages.",
+        "good": "Uses the contents, index, headings or glossary.",
+        "great": "Picks the best feature for each question."
+      },
+      {
+        "skill": "Records the search",
+        "start": "Writes the answer only.",
+        "good": "Writes the page and how you found it.",
+        "great": "Can teach someone else the fastest way."
+      }
+    ],
+    "choices": {
+      "prompt": "Which book or manual will you use?",
+      "options": [
+        "Road to Solo Driving",
+        "A car, bike or appliance manual",
+        "A TAFE course guide",
+        "A cookbook or a sports rule book"
+      ]
+    },
+    "solo": "No partner? Write your five questions today. Answer them tomorrow, with a timer, without looking at your notes."
   },
   "workbook": {
     "pages": [

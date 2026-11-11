@@ -467,7 +467,45 @@
       "VM-U2O1-KK1",
       "VM-U2O1-KS3",
       "VM-U2O1-KS4"
-    ]
+    ],
+    "model": {
+      "kind": "Example word hunt",
+      "text": "**The event:** A council voted to close a skate park at 9 pm.\n\n**Headline A:** “Council cracks down on late-night skate park chaos”\n**Loaded words:** *cracks down* (sounds tough and needed), *chaos* (sounds dangerous).\n\n**Headline B:** “Council locks teens out of their only hangout”\n**Loaded words:** *locks out* (sounds cruel), *their only hangout* (makes you feel for the teens).\n\n**Pictures:** A shows graffiti at night. B shows a kid smiling on a scooter.\n\n**My neutral headline:** “Council votes to close skate park at 9 pm”",
+      "why": [
+        "It pulls out the exact loaded words.",
+        "It says what feeling each word pushes.",
+        "The neutral headline keeps the facts and drops the feeling."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Finds loaded words",
+        "start": "Finds one or two.",
+        "good": "Finds the loaded words in both texts.",
+        "great": "Finds loaded pictures or layout too."
+      },
+      {
+        "skill": "Explains the effect",
+        "start": "Says “it's biased”.",
+        "good": "Says what each word makes you feel.",
+        "great": "Explains whose side each word helps."
+      },
+      {
+        "skill": "Neutral rewrite",
+        "start": "Still has loaded words.",
+        "good": "Neutral, and keeps the facts.",
+        "great": "Short and accurate. A news editor would run it."
+      }
+    ],
+    "choices": {
+      "prompt": "What event or issue will you hunt words about?",
+      "options": [
+        "A sports result or a sports scandal",
+        "A local news story",
+        "A story about young people",
+        "A new law or rule"
+      ]
+    }
   },
   "workbook": {
     "pages": [

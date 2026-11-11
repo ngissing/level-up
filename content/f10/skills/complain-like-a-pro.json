@@ -459,7 +459,46 @@
       "VC2E6LY09",
       "VC2E5LY11",
       "VC2E6LA01"
-    ]
+    ],
+    "model": {
+      "kind": "Example complaint email",
+      "text": "**Subject:** Faulty headphones, order #48213\n\nDear Customer Service,\n\nOn 2 June I bought SoundMax headphones from your website for $89. My order number is 48213.\n\nAfter one week, the left side stopped working. I have followed the steps in the manual, and it still does not work. A photo of my receipt is attached.\n\nUnder Australian Consumer Law, products must work as they should. I would like a replacement or a full refund.\n\nPlease reply by 20 June.\n\nYours sincerely,\nTom Nguyen",
+      "why": [
+        "It has all four parts: problem, evidence, request and deadline.",
+        "It stays calm and formal. No threats and no capital letters.",
+        "It names the law that backs it up."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "The four parts",
+        "start": "Says what went wrong.",
+        "good": "Has problem, evidence, request and deadline.",
+        "great": "Each part is short, exact and in order."
+      },
+      {
+        "skill": "Formal tone",
+        "start": "Sounds angry or chatty.",
+        "good": "Polite and formal all the way through.",
+        "great": "Firm but fair. It would be hard to ignore."
+      },
+      {
+        "skill": "Edited",
+        "start": "First draft only.",
+        "good": "Checked with the checklist and fixed.",
+        "great": "No mistakes. Ready to send."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your complaint be about?",
+      "options": [
+        "Something you bought that broke or never came",
+        "Bad service: a late delivery or a wrong order",
+        "A bill or a charge that is wrong",
+        "A problem in your community, like a broken light or a missing bus"
+      ]
+    },
+    "solo": "No partner? Leave your draft for an hour. Then read it out loud as if **you** were the business. Would you help this person? Fix anything that sounds angry or unclear."
   },
   "workbook": {
     "pages": [

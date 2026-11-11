@@ -397,7 +397,45 @@
       "VC2E6LE05",
       "VC2E6LE04",
       "VC2E5LE01"
-    ]
+    ],
+    "model": {
+      "kind": "Example verse and notes",
+      "text": "*My town's a paused game, nothing on the screen,*\n*Same four streets, same faces I have seen.*\n*But the oval lights come on like a second sun,*\n*And for one loud hour, we are number one.*\n\n**My notes**\n- **Hook idea:** the oval lights. They come back in my chorus.\n- **Rhyme:** screen and seen, sun and one. An AABB pattern.\n- **Metaphor:** “My town's a paused game.”\n- **Simile:** “like a second sun.”\n- **What I want you to feel:** small towns can be boring, but they are ours.",
+      "why": [
+        "It has a clear rhyme pattern.",
+        "The simile and the metaphor make pictures in your head.",
+        "The notes show that each choice was made on purpose."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Decodes the songs",
+        "start": "Says what a song is about.",
+        "good": "Uses the five tools on both songs.",
+        "great": "Explains how the tools create meaning and feeling."
+      },
+      {
+        "skill": "Writes a verse",
+        "start": "Lines with no hook or rhyme.",
+        "good": "Has a hook, rhyme and a simile or metaphor.",
+        "great": "Every line builds one clear feeling or idea."
+      },
+      {
+        "skill": "Explains choices",
+        "start": "No notes yet.",
+        "good": "Labels the tools you used.",
+        "great": "Says what you wanted the listener to feel, and why."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your verse be about?",
+      "options": [
+        "Your town, suburb or street",
+        "Something you care about or want to change",
+        "A person who matters to you",
+        "A feeling: bored, proud, angry, hopeful"
+      ]
+    }
   },
   "workbook": {
     "pages": [

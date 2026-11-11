@@ -466,7 +466,45 @@
       "VC2E5LE05",
       "VC2E5LA06",
       "VC2E4LY11"
-    ]
+    ],
+    "model": {
+      "kind": "Example opening and turn",
+      "text": "**Hook:** The first time I drove the ute, I put it straight through Dad's fence.\n\n**Build:** I was twelve. Dad said I could move it ten metres, from the shed to the gate. Ten metres. How hard could it be?\n\n**Turn:** I pushed the pedal. The ute jumped like a kicked dog. I grabbed the wheel, shut my eyes and heard wood snap. When I opened them, Dad was standing in the gap where the fence used to be.\n\n**Land:** He looked at the fence. He looked at me. “Well,” he said. “Now you know where the brake isn't.”",
+      "why": [
+        "The hook makes you want to know what happened.",
+        "It uses small details you can see and hear.",
+        "The ending lands with one line. It does not explain the lesson."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Story shape",
+        "start": "The events are listed in order.",
+        "good": "Has a hook, build, turn and land.",
+        "great": "The turn surprises, and the ending stays with you."
+      },
+      {
+        "skill": "Detail and voice",
+        "start": "Tells what happened in plain words.",
+        "good": "Uses details the reader can see and hear.",
+        "great": "Sounds like you. No one else could have written it."
+      },
+      {
+        "skill": "Edited",
+        "start": "First draft only.",
+        "good": "Has cut, added and moved parts.",
+        "great": "Every sentence earns its place."
+      }
+    ],
+    "choices": {
+      "prompt": "Which true story will you tell?",
+      "options": [
+        "A first time: a first job, game, drive or day",
+        "A time something went wrong (and you can laugh now)",
+        "A person or place that matters to you",
+        "A time you changed your mind"
+      ]
+    }
   },
   "workbook": {
     "pages": [

@@ -471,7 +471,46 @@
       "VM-U2O2-KS4",
       "VM-U2O2-KS6",
       "VM-U2O2-KS9"
-    ]
+    ],
+    "model": {
+      "kind": "Example speech plan",
+      "text": "**Issue:** Apprentices should get help with the cost of tools.\n\n**Hook:** “On my first day, my boss gave me a list. It came to $1,400. I was earning $14 an hour.”\n\n**Contention:** First-year apprentices need more help to buy tools.\n\n**Evidence 1:** My own tool list and receipts.\n**Evidence 2:** First-year pay rates from the Fair Work pay guide.\n**Evidence 3:** What three other apprentices at my TAFE told me.\n\n**Call to action:** Ask our local MP to back tool support for first years.\n\n**Questions I might get:** “Don't employers supply tools?” Some do. Many don't.",
+      "why": [
+        "It opens with a real story and a real number.",
+        "It names where each piece of evidence comes from.",
+        "It gets ready for questions ahead of time."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Plans the speech",
+        "start": "Has a topic but no clear point.",
+        "good": "Has a hook, contention, evidence and call to action.",
+        "great": "Evidence comes from different kinds of sources."
+      },
+      {
+        "skill": "Delivers it",
+        "start": "Reads it out. Hard to hear.",
+        "good": "Clear, with eye contact and good pace.",
+        "great": "Uses pauses and voice to land the key points."
+      },
+      {
+        "skill": "Answers questions",
+        "start": "Has no answer.",
+        "good": "Answers politely.",
+        "great": "Answers with evidence and stays calm."
+      }
+    ],
+    "choices": {
+      "prompt": "What issue will you speak about?",
+      "options": [
+        "An issue for apprentices or young workers",
+        "Something your school or TAFE should change",
+        "A local issue",
+        "A cause you care about"
+      ]
+    },
+    "solo": "No audience? Film your speech for your teacher. Add two questions you think people would ask, and answer them on camera."
   },
   "workbook": {
     "pages": [

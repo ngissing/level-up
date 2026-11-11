@@ -472,7 +472,46 @@
       "VM-U1O1-KS9",
       "VM-U2O1-KK3",
       "VM-U2O1-KS7"
-    ]
+    ],
+    "model": {
+      "kind": "Example findings and recommendation",
+      "text": "**Issue:** Lighting at the Wendouree bus interchange\n\n**Who I asked:** Six people: three students, a bus driver, a shop owner and a parent.\n\n**Findings**\n- Five of the six said they feel unsafe there after dark.\n- Four named the same spot: the shelter at Bay 3.\n- “I walk to the next stop so I don't have to wait there.” (Year 11 student)\n\n**Recommendation:** The council should fix the two broken lights at Bay 3, and add one more near the footpath.\n\n**Sent to:** the council's youth officer, on 12 June.",
+      "why": [
+        "The findings are counted. They do not just say “lots of people”.",
+        "A real quote brings the numbers to life.",
+        "The recommendation is specific, and it goes to someone who can act."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Interviews",
+        "start": "Fewer than five. Yes or no questions.",
+        "good": "Five or more people. Open questions.",
+        "great": "A mix of people with different views."
+      },
+      {
+        "skill": "Findings",
+        "start": "Lists the answers.",
+        "good": "Groups the answers and uses quotes.",
+        "great": "Counts the patterns and picks strong quotes."
+      },
+      {
+        "skill": "Recommendation",
+        "start": "Vague, or missing.",
+        "good": "Clear, and based on the findings.",
+        "great": "Specific and doable. Sent to the right person."
+      }
+    ],
+    "choices": {
+      "prompt": "What local issue will you report on?",
+      "options": [
+        "Safety or transport",
+        "Places for young people to go",
+        "Jobs and training in your area",
+        "Something at your school or workplace"
+      ]
+    },
+    "solo": "This project can be done alone. If you can't meet five people, interview by message or phone. Ask before you quote anyone."
   },
   "workbook": {
     "pages": [

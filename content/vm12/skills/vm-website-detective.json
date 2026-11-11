@@ -469,7 +469,45 @@
       "VM-U1O2-KK2",
       "VM-U1O2-KS4",
       "VM-U1O2-KS6"
-    ]
+    ],
+    "model": {
+      "kind": "Example verdict on a website",
+      "text": "**Website:** headspace.org.au\n\n**Structure:** The top menu has four main sections. There is a search bar, and a “Find a centre” button on every page.\n\n**Purpose:** To inform young people about mental health, and to connect them with help.\n\n**Audience:** People aged 12 to 25. The language is plain and the photos show young people.\n\n**Do I trust it? Yes.** The “About” page shows it is funded by the Australian Government. It does not sell anything, and it has clear contact details.\n\n**Compared with:** a wellness blog that sells supplements and names no authors.",
+      "why": [
+        "It looks at structure, purpose and audience in turn.",
+        "The trust verdict has evidence from the site itself.",
+        "It compares the site with another one."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Maps the structure",
+        "start": "Describes the home page.",
+        "good": "Maps the menu, search and main sections.",
+        "great": "Explains how the structure helps the user."
+      },
+      {
+        "skill": "Purpose and audience",
+        "start": "Guesses.",
+        "good": "Names the purpose and audience, with evidence.",
+        "great": "Shows how the design and language fit the audience."
+      },
+      {
+        "skill": "Trust verdict",
+        "start": "Says “it looks OK”.",
+        "good": "Gives a verdict with evidence.",
+        "great": "Compares two sites using the same tests."
+      }
+    ],
+    "choices": {
+      "prompt": "Which website will you investigate?",
+      "options": [
+        "A site for a course, TAFE or job you want",
+        "A site you use for news or advice",
+        "A shop or brand site",
+        "A government or council site"
+      ]
+    }
   },
   "workbook": {
     "pages": [

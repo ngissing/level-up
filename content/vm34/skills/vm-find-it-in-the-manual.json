@@ -455,7 +455,44 @@
       "VM-U3O1-KS1",
       "VM-U3O1-KS3",
       "VM-U3O1-KS4"
-    ]
+    ],
+    "model": {
+      "kind": "Example search record",
+      "text": "**Job:** Casual kitchen hand at a café. I am 17.\n\n**Step 1.** I went to fairwork.gov.au and chose **Find my award**.\n\n**Step 2.** I answered the questions: hospitality, café, kitchen work. The result was the **Restaurant Industry Award**.\n\n**Step 3.** I opened the **pay guide** for that award. I used the contents list to jump to “Junior rates”, then found the table for casual employees.\n\n**Step 4.** I read across the row for my level and age to find the hourly rate. I wrote down the rate and the date on the pay guide.\n\n**What slowed me down:** I looked at the adult table first.",
+      "why": [
+        "It records **how** the answer was found, step by step.",
+        "It names the features used: the contents list, headings and the table.",
+        "It notes a mistake, which helps next time."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Finds the award",
+        "start": "Guesses, or uses a general search.",
+        "good": "Uses Find my award to get the right award.",
+        "great": "Can explain why this award fits the job."
+      },
+      {
+        "skill": "Finds the rate",
+        "start": "Finds a rate, but not the right one.",
+        "good": "Finds the right rate for age and job type.",
+        "great": "Checks the date and the penalty rates too."
+      },
+      {
+        "skill": "Records the search",
+        "start": "Writes the answer only.",
+        "good": "Records each step.",
+        "great": "Names the navigation features that helped."
+      }
+    ],
+    "choices": {
+      "prompt": "Which job will you look up?",
+      "options": [
+        "The job you have now",
+        "A job you want next year",
+        "The trade or industry you are training for"
+      ]
+    }
   },
   "workbook": {
     "pages": [

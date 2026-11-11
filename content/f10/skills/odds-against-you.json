@@ -468,7 +468,45 @@
       "VC2E6LY09",
       "VC2E5LA07",
       "VC2E6LY07"
-    ]
+    ],
+    "model": {
+      "kind": "Example plan for an honest ad",
+      "text": "**Audience:** Year 7 students. **Message:** The app always wins in the end.\n\n**Frame 1.** Close-up of a phone. Bright colours. A happy sound: *ding!* Text: “You won $5!”\n\n**Frame 2.** The same kid, an hour later. The room is darker. The balance reads **minus $40**. No music.\n\n**Frame 3.** Fast cuts of “Bet again?” buttons. A clock ticks louder and louder.\n\n**Frame 4.** Black screen. White text: “They show you the win. They hide the losses.” A calm voice reads the helpline number.",
+      "why": [
+        "Each frame has a picture, a sound and words, and each one has a job.",
+        "The order tells the story: the hook, then the truth.",
+        "It uses the ad's own tricks (colour, sound, speed) to tell the truth."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Pulls the ad apart",
+        "start": "Says what the ad is selling.",
+        "good": "Names the tricks it uses.",
+        "great": "Explains how each trick works on the viewer."
+      },
+      {
+        "skill": "Tells the truth",
+        "start": "The message is not clear.",
+        "good": "Has one clear, honest message.",
+        "great": "The message is backed by a real fact about the odds."
+      },
+      {
+        "skill": "Pictures, sound, order",
+        "start": "Draws the frames only.",
+        "good": "Plans picture, sound and words for each frame.",
+        "great": "Every choice has a reason that fits the audience."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your honest ad be about?",
+      "options": [
+        "A sports betting ad",
+        "Loot boxes or card packs in a game",
+        "A “free spins” or pokies-style app",
+        "Betting ads during the footy"
+      ]
+    }
   },
   "workbook": {
     "pages": [

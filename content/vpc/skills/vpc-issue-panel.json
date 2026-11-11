@@ -472,7 +472,46 @@
       "VPC-U2M1-LG1",
       "VPC-U2M1-AP5",
       "VPC-U2M1-AP6"
-    ]
+    ],
+    "model": {
+      "kind": "Example summary and view",
+      "text": "**Issue:** Should our school have a four-day week?\n\n**Arguments for**\n- Students with jobs could work a full day without missing class.\n- A longer weekend could help people rest.\n\n**Arguments against**\n- The other four days would be longer and more tiring.\n- Some families need school open five days.\n\n**The strongest point:** Mia said the longer days would be hard for students who catch the bus. I had not thought of that.\n\n**My view:** I am against it for now. I would like a trial for one term first, to see what really happens.",
+      "why": [
+        "It gives both sides fairly.",
+        "It picks out the strongest point and says who made it.",
+        "The view gives a reason and a next step."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Takes part",
+        "start": "Says very little.",
+        "good": "Does your role and follows the run sheet.",
+        "great": "Listens, and builds on what others say."
+      },
+      {
+        "skill": "Summary",
+        "start": "Gives one side only.",
+        "good": "Sums up the arguments on both sides.",
+        "great": "Picks the strongest point from each side."
+      },
+      {
+        "skill": "Own view",
+        "start": "Gives an opinion only.",
+        "good": "Gives a view with a reason.",
+        "great": "Answers a point from the other side."
+      }
+    ],
+    "choices": {
+      "prompt": "Which role would you like?",
+      "options": [
+        "Panellist: you argue a side",
+        "Host: you run the panel",
+        "Audience member: you ask the questions",
+        "Timekeeper or note taker"
+      ]
+    },
+    "solo": "Missed the panel? Find a short panel or debate clip online on any issue. Write the same summary: the arguments on both sides, the strongest point, and your view."
   },
   "workbook": {
     "pages": [

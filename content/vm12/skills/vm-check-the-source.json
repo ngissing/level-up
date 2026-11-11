@@ -460,7 +460,45 @@
       "VM-U2O1-KS2",
       "VM-U2O1-KS5",
       "VM-U2O1-KS7"
-    ]
+    ],
+    "model": {
+      "kind": "Example claim trace",
+      "text": "**The claim:** A post says “Teens now spend 9 hours a day on their phones.”\n\n**Step 1. Where did I see it?** An Instagram tile from a parenting page. It gave no link.\n\n**Step 2. Trace it.** I searched the words. A news site used the same number and linked to a report.\n\n**Step 3. The original.** The report was from the United States. The number was for **all media**, including TV and music. It was not just phones.\n\n**Step 4. Compare.** The post changed “media” to “phones” and left out the country.\n\n**Verdict:** Misleading. I would not share it.",
+      "why": [
+        "It goes back to the original source and does not stop at the first result.",
+        "It compares the wording at each step.",
+        "The verdict says exactly what was changed."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Traces the claim",
+        "start": "Stops at the post.",
+        "good": "Follows it back to the original source.",
+        "great": "Shows each step in the chain."
+      },
+      {
+        "skill": "Compares texts",
+        "start": "Looks at one text.",
+        "good": "Compares how two texts present the claim.",
+        "great": "Spots what was changed, added or left out."
+      },
+      {
+        "skill": "Decides",
+        "start": "Says share or don't share.",
+        "good": "Explains the decision with evidence.",
+        "great": "Says how the claim could be made accurate."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of claim will you trace?",
+      "options": [
+        "A number or a statistic",
+        "A quote from a famous person",
+        "A health or science claim",
+        "A claim about a new law or rule"
+      ]
+    }
   },
   "workbook": {
     "pages": [

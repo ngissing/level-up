@@ -460,7 +460,45 @@
       "VC2E5LY06",
       "VC2E3LA09",
       "VC2E7LY06"
-    ]
+    ],
+    "model": {
+      "kind": "Example: why does this rule exist?",
+      "text": "**The rule:** Learner drivers must have a zero blood alcohol level.\n\n**Why it exists:** Driving is a new skill for a learner. You are still working out how to steer, check mirrors and read the road, all at once. Alcohol slows your thinking. It slows how fast you react. Even a small amount makes a hard job harder.\n\n**Who it protects:** The learner. The people in the car. Everyone else on the road.\n\n**What I got wrong:** In the practice test I thought the limit for learners was 0.05. Now I know that limit is for full licence drivers only.",
+      "why": [
+        "It states the rule in plain words first.",
+        "It gives a real reason, not just “because it's the law”.",
+        "It is honest about a mistake and what was learned."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Uses the reading strategy",
+        "start": "Guesses or rushes.",
+        "good": "Uses the strategy on each question.",
+        "great": "Can show how the strategy changed an answer."
+      },
+      {
+        "skill": "Reviews mistakes",
+        "start": "Only looks at the score.",
+        "good": "Finds the right answer for each mistake.",
+        "great": "Finds the rule behind each one."
+      },
+      {
+        "skill": "Explains a rule",
+        "start": "Repeats the rule.",
+        "good": "Gives a reason for the rule.",
+        "great": "Says who it protects and what could go wrong without it."
+      }
+    ],
+    "choices": {
+      "prompt": "Which rule will you explain?",
+      "options": [
+        "A speed rule, like 40 in school zones",
+        "A phone rule for L and P platers",
+        "A give-way or roundabout rule",
+        "A rule you got wrong in the practice test"
+      ]
+    }
   },
   "workbook": {
     "pages": [

@@ -1,10 +1,10 @@
 // Printable A4 workbook. Each mini course lists typed "blocks" in
 // course.workbook.pages; a block with `pagebreak: true` starts a new sheet.
 import QRCode from 'qrcode';
-import { html, icon, md, mdInline, raw } from '../html.js';
+import { html, icon, md, mdInline, raw, mdLines } from '../html.js';
 import { head, sticker } from './layout.js';
 import { phone, flow, documentCard } from './diagrams.js';
-import { content, workbookSheets } from '../content.js';
+import { content, workbookSheets, workbookBlocks } from '../content.js';
 import { LEVELS } from '../levels.js';
 import { PROGRAMS, familyOf } from '../programs.js';
 
@@ -167,6 +167,23 @@ const BLOCKS = {
     </div>`;
   },
 
+  // "What good looks like": the student's pick, a model answer with notes on why it works,
+  // and the rubric. Added automatically before the final task (see workbookBlocks).
+  model(b, { skill }) {
+    const sh = skill.course.show;
+    const m = sh.model;
+    // Long examples (and pages with a solo box) are set a little smaller so the page stays one sheet.
+    const lines = m.text.split('\n').filter((l) => l.trim()).length;
+    const tight = sh.solo || lines >= 9 || m.text.length > 560;
+    return html`<div class="wb-good ${tight ? 'tight' : ''}">${blockTitle({ title: b.title, instructions: 'Read this **before** your final task. It shows what to aim for. Yours will be on your own topic, in your own words.' }, 'lucide:medal')}
+    ${sh.choices ? html`<div class="wb-pick"><b>${icon('lucide:hand')} Make it yours.</b> <em>${sh.choices.prompt}</em>
+      <div class="wb-pick-opts">${sh.choices.options.map((o) => html`<span><i class="tickbox"></i>${mdInline(o)}</span>`)}<span class="wb-pick-own"><i class="tickbox"></i>My own idea: <i class="line"></i></span></div></div>` : ''}
+    <div class="wb-model"><span class="wb-model-kind">${icon('lucide:file-check')} ${m.kind}</span>${mdLines(m.text)}</div>
+    <div class="wb-why"><b>${icon('lucide:lightbulb')} Why it works</b><ol>${m.why.map((w) => html`<li>${mdInline(w)}</li>`)}</ol></div>
+    ${sh.rubric ? rubricTable(sh.rubric, { paper: true }) : ''}
+    ${sh.solo ? html`<div class="wb-solo"><b>${icon('lucide:user')} Working on your own?</b> ${mdInline(sh.solo)}</div>` : ''}</div>`;
+  },
+
   reflect(b) {
     const faces = [['lucide:frown', 'Not yet'], ['lucide:meh', 'Getting there'], ['lucide:smile', 'Got it'], ['lucide:laugh', 'Could teach it']];
     return html`${blockTitle(b, 'lucide:sparkles')}
@@ -190,6 +207,15 @@ const BLOCKS = {
   },
 };
 
+// The rubric: what each part of the task looks like at three stages. On paper, students and
+// teachers tick where the work is; in the app the teacher's marks are highlighted.
+export const RUBRIC_COLS = [['start', 'Getting started'], ['good', 'Got it'], ['great', 'Nailed it']];
+export function rubricTable(rubric, { paper = false, marks = null } = {}) {
+  return html`<table class="${paper ? 'wb-rubric' : 'rubric'}"><thead><tr><th>What to look for</th>${RUBRIC_COLS.map(([, label]) => html`<th>${label}</th>`)}</tr></thead>
+    <tbody>${rubric.map((r, i) => html`<tr><th scope="row">${r.skill}</th>${RUBRIC_COLS.map(([k], j) => html`<td class="${marks && marks[i] === j ? 'marked' : ''}">${paper ? html`<i class="tickbox"></i>` : ''}${mdInline(r[k])}</td>`)}</tr>`)}</tbody></table>
+    ${paper ? html`<p class="wb-small">${icon('lucide:pencil')} Tick where your work is now. Your teacher will mark it too.</p>` : ''}`;
+}
+
 function shapes(color) {
   // Decorative shapes for the cover (drawn inline so they always print). These only use areas the
   // text never reaches: the top-right corner, the gap beside the icon sticker, and the bottom edge
@@ -212,7 +238,7 @@ const coverMarks = () => html`<svg class="cover-marks" viewBox="0 0 120 140" ari
 
 function cover(skill, c, qr) {
   const z = skill.zoneObj;
-  const pages = skill.course.workbook.pages.filter((p) => p.title && p.type !== 'cover');
+  const pages = workbookBlocks(skill.course).filter((p) => p.title && p.type !== 'cover');
   return html`<section class="sheet cover" id="page-1">
     ${shapes(z.color)}
     <div class="cover-inner">

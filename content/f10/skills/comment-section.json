@@ -474,7 +474,45 @@
       "VC2E6LY01",
       "VC2E3LA02",
       "VC2E5LA02"
-    ]
+    ],
+    "model": {
+      "kind": "Example cool-headed reply",
+      "text": "**The comment:** “Anyone who likes this team is an idiot.”\n\n**My reply:** I see it differently. They lost on Saturday, but they have won six of their last eight games. I think the new coach is doing a good job. What makes you say that?\n\n**Standing up for someone:** Hey, that comment about Ava's photo was not OK. Ava, I think it is a great shot.\n\n**When I would report instead:** If the comments turned into threats, or went on for days, I would not reply. I would screenshot, report and block.",
+      "why": [
+        "It disagrees with the **idea**, not the person.",
+        "It gives a reason and asks a question.",
+        "It knows when to stop talking and report."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Disagrees with reasons",
+        "start": "Attacks the person or just says “wrong”.",
+        "good": "Disagrees politely and gives a reason.",
+        "great": "Gives evidence and invites a reply."
+      },
+      {
+        "skill": "Stands up for someone",
+        "start": "Joins in or stays quiet.",
+        "good": "Supports the person clearly.",
+        "great": "Supports them without starting a new fight."
+      },
+      {
+        "skill": "Knows when to report",
+        "start": "Not explained yet.",
+        "good": "Says when you would report.",
+        "great": "Explains the steps: screenshot, report, block."
+      }
+    ],
+    "choices": {
+      "prompt": "Where is your comment section?",
+      "options": [
+        "A sport or gaming post",
+        "A group chat",
+        "A post about music, film or a famous person",
+        "A post about a news issue"
+      ]
+    }
   },
   "workbook": {
     "pages": [

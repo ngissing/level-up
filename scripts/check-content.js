@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs';
 // Validates content/ and estimates reading level of student-facing text.
 //   npm run check
 import { content, courseFor } from '../src/content.js';
@@ -5,11 +6,12 @@ import { PROGRAM_IDS, PROGRAMS } from '../src/programs.js';
 import { LEVEL_IDS, LEVELS, levelInfo } from '../src/levels.js';
 
 const BLOCKS = ['cover', 'goals', 'vocab-match', 'reading', 'questions', 'scenarios', 'phone-annotate', 'doc-annotate', 'sort', 'case-study',
-  'table', 'equation', 'flow', 'write', 'do-it', 'storyboard', 'levelup-draw', 'reflect', 'signoff'];
+  'table', 'equation', 'flow', 'write', 'do-it', 'storyboard', 'levelup-draw', 'reflect', 'signoff', 'model'];
 const SCENES = ['title', 'message', 'stat', 'big', 'flag', 'steps', 'end'];
 // Rough reading-level ceilings per version (Flesch–Kincaid grade) come from src/levels.js,
 // and can differ by program (VPC aims at Years 5, 7 and 9).
 
+const READS = JSON.parse(readFileSync(new URL('../content/reads.json', import.meta.url), 'utf8'));
 let errors = 0, warnings = 0;
 const err = (id, m) => { errors++; console.log(`  ✗ ${id}: ${m}`); };
 const warn = (id, m) => { warnings++; console.log(`  ! ${id}: ${m}`); };
@@ -85,7 +87,25 @@ for (const s of Object.values(c.skills)) {
   if (level === 'core') walk(k, 'course');
   for (const cs of k.read?.caseStudies || []) if (!cs.source?.url) warn(s.id, `case study "${cs.title}" has no source URL — real cases need a source`);
 
+  // "What good looks like": a model answer, a three-row rubric and (usually) a choice of topic.
+  const sh = k.show || {};
+  if (!sh.model) warn(tag, 'no model answer (show.model): students need to see what good looks like');
+  if (level === 'core' && !READS.tags[s.id]) warn(s.id, 'no Reading Room topic: add this course to "tags" in content/reads.json');
+  else if (level === 'core' && !READS.interests.some((i) => i.id === READS.tags[s.id])) err(s.id, 'content/reads.json tags this course with a topic that does not exist');
+  else {
+    if (!sh.model.kind || typeof sh.model.text !== 'string') err(tag, 'show.model needs "kind" and "text"');
+    if (!Array.isArray(sh.model.why) || sh.model.why.length < 2) err(tag, 'show.model.why needs at least two "why it works" notes');
+  }
+  if (sh.model && !Array.isArray(sh.rubric)) warn(tag, 'no rubric (show.rubric)');
+  for (const r of sh.rubric || []) for (const f of ['skill', 'start', 'good', 'great']) if (!r[f]) err(tag, `rubric row "${r.skill || '?'}" is missing "${f}"`);
+  if (sh.rubric && sh.rubric.length !== 3) warn(tag, `rubric has ${sh.rubric.length} rows: three fits the workbook page`);
+  if (sh.choices && (!sh.choices.prompt || !Array.isArray(sh.choices.options) || sh.choices.options.length < 2)) err(tag, 'show.choices needs a prompt and at least two options');
+  if (sh.solo !== undefined && typeof sh.solo !== 'string') err(tag, 'show.solo must be text');
+  if (/\b(support|core|extend|foundation|extended) (level|version)\b/i.test(JSON.stringify([sh.model, sh.rubric, sh.choices, sh.solo]))) err(tag, 'show.* mentions a reading level by name: students see this');
+
   const texts = [['mission brief', [k.brief.hook, k.brief.why].join(' ')],
+    // Model answers are laid out in lines (greetings, labels, dot points), so a line counts as a sentence.
+    ...(typeof sh.model?.text === 'string' ? [[`model answer "${sh.model.kind}"`, sh.model.text.replace(/([^.!?:*\s])(\*{0,2})\s*$/gm, '$1$2.')]] : []),
     ...k.read.articles.map((a) => [`article "${a.title}"`, a.body]),
     ...k.read.caseStudies.map((cs) => [`case "${cs.title}"`, cs.body])];
   for (const [label, t] of texts) {
