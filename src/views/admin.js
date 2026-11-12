@@ -10,7 +10,7 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
   const programOpts = (sel) => PROGRAM_IDS.map((p) => html`<option value="${p}" ${sel === p ? raw('selected') : ''}>${PROGRAMS[p].name}</option>`);
   const classOpts = (sel) => html`<option value="">—</option>${classes.map((c) => html`<option value="${c.id}" ${String(sel) === String(c.id) ? raw('selected') : ''}>${c.name}</option>`)}`;
   const body = html`<section class="page-head"><p class="eyebrow">Admin</p><h1>Accounts & classes</h1>
-    <p class="lede">Students can’t sign themselves up — add them here. Give each student a simple password; they’ll be asked to change it the first time they log in.</p>
+    <p class="lede">Students can’t sign themselves up — add them here. Give each student a simple password; they’ll be asked to change it the first time they log in. Teachers can also add and edit the students in their own classes under <a href="/teacher/students">Students</a>; you can see and change everyone.</p>
     <div class="callout-box">${icon('lucide:layers')}<div><strong>Reading levels</strong><p>Each student has a reading level. It changes the wording, the length and the scaffolds of every mini course: the brief, the readings, the quiz, the explainer voice speed and the printed workbook. Students never see their level. ${LEVEL_IDS.map((l) => html`<b>${LEVELS[l].symbol} ${LEVELS[l].label}</b> ${LEVELS[l].years}. `)}${PROGRAM_IDS.filter((p) => PROGRAMS[p].levels).map((p) => html`<br>In <b>${PROGRAMS[p].name}</b> the same levels aim higher: ${LEVEL_IDS.map((l) => `${LEVELS[l].symbol} ${levelInfo(l, p).years.replace(/^reads at /, '')}`).join(' · ')}.`)}</p></div></div></section>
 
   <nav class="jump" aria-label="On this page">

@@ -9,8 +9,8 @@ import { PROGRAMS, familyOf } from '../programs.js';
 
 const NAV = {
   student: [['/map', 'Map', 'lucide:map'], ['/reads', 'Reading Room', 'lucide:book-open-text'], ['/badges', 'Badges', 'lucide:award'], ['/my-curriculum', 'My Curriculum', 'lucide:graduation-cap']],
-  teacher: [['/teacher', 'Dashboard', 'lucide:layout-dashboard'], ['/teacher/skills', 'Mini courses', 'lucide:library'], ['/teacher/curriculum', 'Curriculum map', 'lucide:network']],
-  admin: [['/teacher', 'Dashboard', 'lucide:layout-dashboard'], ['/teacher/skills', 'Mini courses', 'lucide:library'], ['/teacher/curriculum', 'Curriculum map', 'lucide:network'], ['/admin', 'Accounts', 'lucide:users']],
+  teacher: [['/teacher', 'Dashboard', 'lucide:layout-dashboard'], ['/teacher/students', 'Students', 'lucide:users'], ['/teacher/skills', 'Mini courses', 'lucide:library'], ['/teacher/curriculum', 'Curriculum map', 'lucide:network']],
+  admin: [['/teacher', 'Dashboard', 'lucide:layout-dashboard'], ['/teacher/students', 'Students', 'lucide:graduation-cap'], ['/teacher/skills', 'Mini courses', 'lucide:library'], ['/teacher/curriculum', 'Curriculum map', 'lucide:network'], ['/admin', 'Accounts', 'lucide:user-cog']],
 };
 
 // A fingerprint of the CSS and JS, added to their URLs so browsers fetch fresh copies

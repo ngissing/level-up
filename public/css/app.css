@@ -900,3 +900,12 @@ a.daily-card:hover { transform: translate(-1px, -1px); box-shadow: 6px 6px 0 var
   .mainnav a { padding: 8px 10px; gap: 6px; }
 }
 .own-form, .own-form .field, .story-done .field, .reads-own .panel { min-width: 0; }
+
+/* Students page (teachers manage their own classes) */
+.class-block .grid-wrap { margin-bottom: 8px; }
+.students-table { min-width: 980px; }
+.students-table td { vertical-align: middle; }
+.students-table input, .students-table select { padding: 6px 8px; font-size: .92rem; }
+.students-table td:first-child input { min-width: 170px; }
+.students-table tr.just-saved td { background: color-mix(in srgb, var(--lime) 30%, white); }
+.students-table tr:target td { background: color-mix(in srgb, var(--lime) 30%, white); }

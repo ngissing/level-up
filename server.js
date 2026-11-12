@@ -8,7 +8,7 @@ import { getSkill, progressFor, doneSet, skillState, syncBadges, newlyUnlocked, 
 import { LEVEL_IDS, normalizeLevel } from './src/levels.js';
 import { PROGRAM_IDS, PROGRAMS, normalizeProgram, familyOf } from './src/programs.js';
 import { mapPage, skillPage, badgesPage, myCurriculumPage, readiness, explainer } from './src/views/student.js';
-import { dashboardPage, studentDetailPage, skillsIndexPage, teacherGuidePage, curriculumMapPage, whereContent, wherePage } from './src/views/teacher.js';
+import { dashboardPage, studentDetailPage, studentsPage, skillsIndexPage, teacherGuidePage, curriculumMapPage, whereContent, wherePage } from './src/views/teacher.js';
 import { adminPage, loginPage, passwordPage } from './src/views/admin.js';
 import { workbookPage } from './src/views/workbook.js';
 import { head, asset } from './src/views/layout.js';
@@ -353,6 +353,65 @@ app.get('/teacher/student/:id', teacher, (req, res) => {
   const s = db.prepare('SELECT u.*, c.name class_name FROM users u LEFT JOIN classes c ON c.id = u.class_id WHERE u.id = ?').get(Number(req.params.id));
   const badges = db.prepare('SELECT * FROM badges WHERE user_id = ?').all(s.id);
   send(res, studentDetailPage(req, { student: s, progress: progressFor(s.id), badges, warmups: review.summary(s.id), reading: { log: reads.logFor(s.id), stats: reads.stats(s.id) } }));
+});
+
+// ---------- Students: teachers manage the students in their own classes; admins, everyone ----------
+const myClass = (user, classId) => teacherClasses(user).find((c) => String(c.id) === String(classId)) || null;
+const cleanName = (v) => String(v || '').replace(/\s+/g, ' ').trim().slice(0, 80);
+const USERNAME = /^[a-z0-9._-]{2,40}$/;
+
+app.get('/teacher/students', teacher, (req, res) => {
+  send(res, studentsPage(req, { classes: teacherClasses(req.user), students: studentsFor(req.user), open: req.query.saved }));
+});
+
+app.post('/teacher/students', teacher, (req, res) => {
+  const c = myClass(req.user, req.body.class_id);
+  const name = cleanName(req.body.name), username = String(req.body.username || '').trim().toLowerCase(), password = String(req.body.password || '');
+  if (!c) { res.flash('error', 'Pick one of your classes.'); return res.redirect('/teacher/students#add'); }
+  if (!name || !USERNAME.test(username) || password.length < 4) { res.flash('error', 'Check the name, the username (letters, numbers, dots or dashes) and a password of at least 4 characters.'); return res.redirect('/teacher/students#add'); }
+  try {
+    addUser({ name, username, password, class_id: c.id, reading_level: normalizeLevel(req.body.reading_level) || 'core', program: normalizeProgram(req.body.program) || 'f10' });
+    res.flash('ok', `Added ${name} to ${c.name}. Their username is ${username}.`);
+  } catch { res.flash('error', `The username “${username}” is already taken. Try adding a number or an initial.`); }
+  res.redirect('/teacher/students#add');
+});
+
+app.post('/teacher/students/bulk', teacher, (req, res) => {
+  const c = myClass(req.user, req.body.class_id);
+  if (!c) { res.flash('error', 'Pick one of your classes.'); return res.redirect('/teacher/students#add'); }
+  let added = 0; const problems = [];
+  for (const line of String(req.body.csv || '').split(/\r?\n/)) {
+    if (!line.trim()) continue;
+    const [rawName, rawUser, password = '', levelText, programText] = line.split(/\t|,/).map((x) => (x || '').trim());
+    const name = cleanName(rawName), username = String(rawUser || '').toLowerCase();
+    const reading_level = normalizeLevel(levelText), program = normalizeProgram(programText);
+    if (!name || !USERNAME.test(username) || password.length < 4 || !reading_level || !program) { problems.push(line); continue; }
+    try { addUser({ name, username, password, class_id: c.id, reading_level, program }); added++; } catch { problems.push(line); }
+  }
+  res.flash(problems.length ? 'error' : 'ok', `Added ${added} student${added === 1 ? '' : 's'} to ${c.name}.${problems.length ? ` Skipped ${problems.length}: ${problems.map((l) => `“${l}”`).join(', ')} (missing details, a password under 4 characters, an unknown reading level or program, or the username is taken).` : ''}`);
+  res.redirect('/teacher/students');
+});
+
+app.post('/teacher/students/:id', teacher, (req, res) => {
+  const id = Number(req.params.id);
+  const s = db.prepare("SELECT * FROM users WHERE id = ? AND role = 'student'").get(id);
+  if (!s || !canSee(req.user, id)) return res.status(403).send('Not allowed');
+  // Teachers can move a student between their own classes; only an admin can take them out of a class.
+  const blank = req.body.class_id === '' || req.body.class_id == null;
+  const c = blank ? null : myClass(req.user, req.body.class_id);
+  if ((!blank && !c) || (blank && req.user.role !== 'admin')) { res.flash('error', 'You can only move students into your own classes.'); return res.redirect(`/teacher/students#s${id}`); }
+  const name = cleanName(req.body.name) || s.name;
+  const reading_level = LEVEL_IDS.includes(req.body.reading_level) ? req.body.reading_level : s.reading_level;
+  const program = PROGRAM_IDS.includes(req.body.program) ? req.body.program : s.program;
+  db.prepare('UPDATE users SET name = ?, class_id = ?, reading_level = ?, program = ? WHERE id = ?').run(name, c ? c.id : null, reading_level, program, id);
+  const pw = String(req.body.password || '');
+  if (pw && pw.length < 4) { res.flash('error', `Saved ${name}, but the new password was too short (4 characters or more), so it wasn’t changed.`); return res.redirect(`/teacher/students?saved=${id}#s${id}`); }
+  if (pw) {
+    db.prepare('UPDATE users SET password_hash = ?, must_change_pw = 1 WHERE id = ?').run(hashPassword(pw), id);
+    db.prepare('DELETE FROM sessions WHERE user_id = ?').run(id);
+  }
+  res.flash('ok', `Saved ${name}.${pw ? ' New password set: they’ll choose their own when they next log in.' : ''}`);
+  res.redirect(`/teacher/students?saved=${id}#s${id}`);
 });
 
 app.get('/teacher/skills', teacher, (req, res) => send(res, skillsIndexPage(req, programOf(req))));
