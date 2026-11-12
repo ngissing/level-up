@@ -22,7 +22,7 @@ The database is a single SQLite file, so it lives on a Railway **volume**. That 
    - You can add your own domain here later.
 5. **Log in** as `admin` with your `ADMIN_PASSWORD`. You'll be asked to choose a new password.
    - You can delete the `ADMIN_PASSWORD` variable afterwards. It's only used on the very first start.
-6. In **Admin**, create your teacher and student accounts, classes, programs and reading levels.
+6. In **Admin**, create your teacher accounts and classes, and link each teacher to their classes. Teachers can then add their own students under **Students** (or you can add them in **Admin**).
 
 ## Updating
 

@@ -85,7 +85,7 @@ export function dashboardPage(req, { students, queue, classes, classId, progress
     })}</tbody></table></div>
     <p class="legend">${['complete', 'submitted', 'started', 'open', 'locked'].map((k) => html`<span><span class="dot dot-${k}" style="--zone:#4D7CFE"></span>${DOT[k]}</span>`)}
       <span>Reading level: ${LEVEL_IDS.map((l) => html`${LEVELS[l].symbol} ${LEVELS[l].label} `)}</span></p>`
-    : empty(`No ${PROGRAMS[program].name} students yet. An admin can add accounts, or move a student into this program, under Accounts.`, 'lucide:user-plus')}`;
+    : empty(html`No ${PROGRAMS[program].name} students yet. <a href="/teacher/students">Add students to your class</a>, or move one into this program.`, 'lucide:user-plus')}`;
   return page(req, { title: 'Dashboard', body, active: '/teacher', wide: true, program });
 }
 
@@ -108,7 +108,7 @@ export function studentDetailPage(req, { student, progress, badges, warmups = nu
     <div><p class="eyebrow"><a href="/teacher">${icon('lucide:arrow-left')} Dashboard</a></p>
     <h1><span class="avatar lg">${initials(student.name)}</span> ${student.name}</h1>
     <p class="muted">${student.username} · ${student.class_name || 'No class'} · last login ${student.last_login?.slice(0, 10) || 'never'}</p>
-    <p><span class="prog-tag fam-${familyOf(program)}">${icon(PROGRAMS[program].icon)} ${PROGRAMS[program].name}</span> ${levelTag(student.reading_level, { program })} <span class="muted small">Reading level — students don’t see this. ${req.user.role === 'admin' ? html`Change it under <a href="/admin?role=student">Accounts</a>.` : 'An admin can change it.'}</span></p></div>
+    <p><span class="prog-tag fam-${familyOf(program)}">${icon(PROGRAMS[program].icon)} ${PROGRAMS[program].name}</span> ${levelTag(student.reading_level, { program })} <span class="muted small">Reading level — students don’t see this. Change it under <a href="/teacher/students#s${student.id}">Students</a>.</span></p></div>
     <div class="tiles mini"><div class="tile">${icon('lucide:circle-check-big')}<b>${done.size}</b><span>skills</span></div><div class="tile">${icon('lucide:award')}<b>${badges.length}</b><span>badges</span></div></div>
   </section>
 
@@ -451,4 +451,71 @@ export function curriculumMapPage(req, program = 'f10') {
   })}
   ${strands.map((st) => html`<section class="cm-unit"><h2 class="cm-unit-title">${st}</h2>${Object.entries(c.curriculum.focusAreas).filter(([, fa]) => fa.strand === st).map(card)}</section>`)}`;
   return page(req, { title: 'Curriculum map', body, active: '/teacher/curriculum', wide: true, program: 'f10' });
+}
+
+// ---------------- Students: teachers add and edit the students in their own classes ----------------
+// Admins see every class (and students with no class). Deleting accounts, adding staff and
+// making classes stay on the admin's Accounts page.
+export function studentsPage(req, { classes, students, open = null }) {
+  const isAdmin = req.user.role === 'admin';
+  const levelOpts = (sel) => LEVEL_IDS.map((l) => html`<option value="${l}" ${sel === l ? raw('selected') : ''}>${LEVELS[l].symbol} ${LEVELS[l].label}</option>`);
+  const programOpts = (sel) => PROGRAM_IDS.map((p) => html`<option value="${p}" ${sel === p ? raw('selected') : ''}>${PROGRAMS[p].name}</option>`);
+  const classOpts = (sel, { none = false } = {}) => html`${none ? html`<option value="">No class</option>` : ''}${classes.map((c) => html`<option value="${c.id}" ${String(sel) === String(c.id) ? raw('selected') : ''}>${c.name}</option>`)}`;
+  const groups = [...classes.map((c) => ({ c, list: students.filter((s) => s.class_id === c.id) })),
+    ...(isAdmin ? [{ c: { id: '', name: 'No class' }, list: students.filter((s) => !s.class_id) }] : [])].filter((g) => g.c.id !== '' || g.list.length);
+
+  if (!classes.length) {
+    return page(req, { title: 'Students', active: '/teacher/students', body: html`<section class="page-head"><p class="eyebrow">Students</p><h1>Your students</h1></section>
+      ${empty('You’re not linked to a class yet. Ask an admin to add you to one (Accounts → Classes). Then you can add and edit the students in it here.', 'lucide:school')}` });
+  }
+
+  const row = (s) => html`<tr id="s${s.id}" class="${String(open) === String(s.id) ? 'just-saved' : ''}">
+    <td><form method="post" action="/teacher/students/${s.id}" id="f${s.id}"></form>
+      <input form="f${s.id}" name="name" value="${s.name}" required maxlength="80" aria-label="Name"></td>
+    <td><code>${s.username}</code><br><a class="small" href="/teacher/student/${s.id}">Progress</a></td>
+    <td><select form="f${s.id}" name="class_id" aria-label="Class for ${s.name}">${classOpts(s.class_id, { none: isAdmin })}</select></td>
+    <td><select form="f${s.id}" name="program" aria-label="Program for ${s.name}" class="prog-select fam-${familyOf(s.program)}">${programOpts(s.program)}</select></td>
+    <td><select form="f${s.id}" name="reading_level" aria-label="Reading level for ${s.name}">${levelOpts(s.reading_level)}</select></td>
+    <td><input form="f${s.id}" name="password" placeholder="leave blank" minlength="4" autocomplete="off" size="11" aria-label="New password for ${s.name}"></td>
+    <td><button form="f${s.id}" class="btn btn-sm btn-ink">${icon('lucide:save')} Save</button></td>
+    <td class="muted small">${s.last_login?.slice(0, 10) || 'never'}</td>
+  </tr>`;
+
+  const body = html`<section class="page-head"><p class="eyebrow">Students</p><h1>${isAdmin ? 'All students' : 'Your students'}</h1>
+    <p class="lede">Add students to ${isAdmin ? 'any class' : 'your classes'}, and change their name, class, program or reading level. Give each new student a simple password: they choose their own the first time they log in.</p>
+    <p class="muted small">${icon('lucide:eye-off')} Students never see their reading level. ${LEVEL_IDS.map((l) => html`<b>${LEVELS[l].symbol} ${LEVELS[l].label}</b> ${LEVELS[l].years}. `)}(VPC Literacy aims a little higher.) ${isAdmin ? html`Delete accounts, add staff and make classes under <a href="/admin">Accounts</a>.` : 'To delete an account or make a new class, ask an admin.'}</p>
+  </section>
+
+  <div class="admin-grid">
+    <section class="panel" id="add">
+      <h2>${icon('lucide:user-plus')} Add a student</h2>
+      <form method="post" action="/teacher/students" class="form-grid">
+        <label class="field"><span>Full name</span><input name="name" required maxlength="80"></label>
+        <label class="field"><span>Username</span><input name="username" required pattern="[A-Za-z0-9._\\-]+" title="Letters, numbers, dots, dashes or underscores" autocomplete="off"></label>
+        <label class="field"><span>Starting password</span><input name="password" required minlength="4" autocomplete="off"></label>
+        <label class="field"><span>Class</span><select name="class_id" required>${classOpts(classes[0]?.id)}</select></label>
+        <label class="field"><span>Program</span><select name="program">${programOpts(classes.length && students.find((s) => s.class_id === classes[0].id)?.program || 'f10')}</select></label>
+        <label class="field"><span>Reading level (they never see it)</span><select name="reading_level">${levelOpts('core')}</select></label>
+        <button class="btn btn-ink">${icon('lucide:plus')} Add student</button>
+      </form>
+    </section>
+    <section class="panel">
+      <h2>${icon('lucide:sheet')} Add several at once</h2>
+      <form method="post" action="/teacher/students/bulk" class="form-grid">
+        <label class="field"><span>Into class</span><select name="class_id" required>${classOpts(classes[0]?.id)}</select></label>
+        <label class="field"><span>One per line: <code>name, username, password, reading level, program</code></span>
+          <textarea name="csv" rows="6" placeholder="Jordan Smith, jsmith, tiger42, foundation&#10;Ari Nguyen, anguyen, comet77, core, vm12"></textarea></label>
+        <p class="muted small">Reading level can be <code>foundation</code>, <code>core</code> or <code>extended</code>; blank means core. Program can be <code>f10</code>, <code>vm12</code>, <code>vm34</code> or <code>vpc</code>; blank means F–10. You can paste straight from a spreadsheet.</p>
+        <button class="btn btn-ink">${icon('lucide:upload')} Add students</button>
+      </form>
+    </section>
+  </div>
+
+  ${groups.map(({ c, list }) => html`<section class="class-block">
+    <h2 class="section-title">${icon('lucide:school')} ${c.name} <small>${list.length} student${list.length === 1 ? '' : 's'}</small></h2>
+    ${list.length ? html`<div class="grid-wrap"><table class="table students-table">
+      <thead><tr><th>Name</th><th>Username</th><th>Class</th><th>Program</th><th>Reading level</th><th>New password</th><th></th><th>Last login</th></tr></thead>
+      <tbody>${list.map(row)}</tbody></table></div>` : empty('No students in this class yet. Add them above.', 'lucide:user-plus')}
+  </section>`)}`;
+  return page(req, { title: 'Students', body, active: '/teacher/students', wide: true });
 }

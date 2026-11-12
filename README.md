@@ -6,7 +6,7 @@ Self-paced literacy **mini courses** for teenagers, each linking curriculum to a
 - **VCE VM Literacy Units 1 & 2**, and separately **VCE VM Literacy Units 3 & 4**, built on the VCE Vocational Major Literacy Study Design 2023–2027. They're separate courses because students take them in different years.
 - **VPC Literacy** (Units 1–4), built on the Victorian Pathways Certificate Literacy Curriculum Design 2023–2027. It's one course because the units are standalone and can be done in any order. VPC courses are hands-on: each ends with a real-world **Do it** task. Reading levels aim at Years 5, 7 and 9.
 
-An admin enrols each student in one program.
+An admin, or the student's teacher, enrols each student in one program.
 
 Built for disengaged 14–17 year olds who read at about Year 3–7 level. Students pick their own path through a skill map, earn badges and unlock new skills. Every skill comes with a printable workbook (the main evidence of learning) and a teacher guide.
 
@@ -60,8 +60,10 @@ Change the admin password straight away, or set `ADMIN_PASSWORD` before the firs
 - A teacher guide for each skill: lesson sequence, explicit teaching points, differentiation, look-fors mapped to the VC, and answers.
 - Printable workbook plus an answer copy. There's also an “Explainer on the board” mode for whole-class teaching.
 - Curriculum map: every VC focus point and the skills that cover it.
+- **Students** page: add students to your own classes (one at a time or pasted from a spreadsheet), and change their name, class, program, reading level or password.
 
 **Admins**
+- See and change every student and class, and do everything a teacher can. Only admins delete accounts, add teachers and make classes.
 - Add people one at a time or paste a whole class (`name, username, password, class, reading level`).
 - Set each student's **reading level** (▲ Foundation, Years 3–4 · ■ Core, Years 5–6 · ● Extended, Year 7+). It changes the wording, length and scaffolds of every part of a mini course, and which curriculum level the work evidences. Students never see their level.
 - Students set their own password at first login.
