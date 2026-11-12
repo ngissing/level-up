@@ -13,8 +13,9 @@
 .lp-hero { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: clamp(24px, 5vw, 72px); align-items: center; padding: clamp(36px, 7vw, 88px) 0 28px; }
 .lp-kicker { display: inline-block; font-family: var(--display); font-weight: 700; font-size: .95rem; background: var(--ink); color: #fff; padding: 6px 14px; border-radius: 999px; transform: rotate(-1.2deg); margin: 0 0 22px; }
 .lp-hero h1 { font-size: clamp(2.7rem, 6.6vw, 6rem); line-height: .94; letter-spacing: -0.035em; font-weight: 800; margin: 0 0 26px; font-variation-settings: 'opsz' 96; }
-.lp-swipe { display: inline-block; white-space: nowrap; position: relative; padding: 0 .12em; margin-left: -.12em; isolation: isolate; }
-.lp-swipe::before { content: ''; position: absolute; inset: .12em 0 .02em; background: var(--coral); border: var(--bw) solid var(--ink); border-radius: 14px; transform: rotate(-1.4deg) scaleX(0); transform-origin: left center; z-index: -1; animation: lp-swipe .7s .25s cubic-bezier(.2, .9, .2, 1) forwards; box-shadow: 5px 5px 0 var(--ink); }
+/* The orange box wraps the whole line, descenders (y, p) and the overhang of the W included. */
+.lp-swipe { display: inline-block; white-space: nowrap; position: relative; padding: .04em .16em .2em .2em; margin: .06em 0 0 -.2em; line-height: 1; isolation: isolate; }
+.lp-swipe::before { content: ''; position: absolute; inset: 0; background: var(--coral); border: var(--bw) solid var(--ink); border-radius: 14px; transform: rotate(-1.4deg) scaleX(0); transform-origin: left center; z-index: -1; animation: lp-swipe .7s .25s cubic-bezier(.2, .9, .2, 1) forwards; box-shadow: 5px 5px 0 var(--ink); }
 @keyframes lp-swipe { to { transform: rotate(-1.4deg) scaleX(1); } }
 .lp-lede { font-size: clamp(1.1rem, 1.7vw, 1.35rem); max-width: 34em; margin: 0 0 26px; color: #2d2b29; }
 .lp-nudge { display: inline-flex; align-items: center; gap: 8px; margin: 0 0 6px; justify-self: start; position: relative; z-index: 2; box-shadow: 3px 3px 0 var(--ink); font-weight: 600; background: var(--sun); border: 2px solid var(--ink); border-radius: 999px; padding: 6px 14px; transform: rotate(.8deg); }
