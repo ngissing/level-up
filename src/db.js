@@ -80,6 +80,42 @@ INSERT OR IGNORE INTO settings (key, value) VALUES ('require_signoff', '1');
 INSERT OR IGNORE INTO settings (key, value) VALUES ('quiz_pass_percent', '60');
 INSERT OR IGNORE INTO settings (key, value) VALUES ('skip_unwritten', '0');
 INSERT OR IGNORE INTO settings (key, value) VALUES ('voice_gender', 'any');
+INSERT OR IGNORE INTO settings (key, value) VALUES ('warmup_on_login', '1');
+
+-- Spaced review ("warm-ups"): one row per student per quiz question or key word they have met.
+-- box = how well it's known (0 = just missed); due = the day it should be asked again.
+CREATE TABLE IF NOT EXISTS review_items (
+  user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  item TEXT NOT NULL,
+  skill_id TEXT NOT NULL,
+  box INTEGER NOT NULL DEFAULT 0,
+  due TEXT NOT NULL,
+  seen INTEGER NOT NULL DEFAULT 0,
+  correct INTEGER NOT NULL DEFAULT 0,
+  last_seen TEXT,
+  PRIMARY KEY (user_id, item)
+);
+CREATE TABLE IF NOT EXISTS review_sessions (
+  id INTEGER PRIMARY KEY,
+  user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  day TEXT NOT NULL,
+  asked INTEGER NOT NULL,
+  correct INTEGER NOT NULL,
+  created_at TEXT DEFAULT (datetime('now'))
+);
+
+-- Reading Room: stories read in the app (ref = "skillId:caseIndex") and anything else a student logs.
+CREATE TABLE IF NOT EXISTS reading_log (
+  id INTEGER PRIMARY KEY,
+  user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  kind TEXT NOT NULL DEFAULT 'story',
+  ref TEXT,
+  title TEXT NOT NULL,
+  minutes INTEGER NOT NULL DEFAULT 0,
+  rating INTEGER,
+  note TEXT,
+  created_at TEXT DEFAULT (datetime('now'))
+);
 `);
 
 // Migrations for databases created by earlier versions.
@@ -88,6 +124,9 @@ if (!cols('users').includes('reading_level')) db.exec("ALTER TABLE users ADD COL
 if (!cols('users').includes('program')) db.exec("ALTER TABLE users ADD COLUMN program TEXT NOT NULL DEFAULT 'f10'");
 // VM Literacy was split into Units 1 & 2 and Units 3 & 4: existing VM students start in Units 1 & 2.
 db.exec("UPDATE users SET program = 'vm12' WHERE program = 'vm'");
+// Student's pick for the final task (their own topic or text), and the teacher's rubric marks.
+if (!cols('progress').includes('choice')) db.exec('ALTER TABLE progress ADD COLUMN choice TEXT');
+if (!cols('progress').includes('rubric')) db.exec('ALTER TABLE progress ADD COLUMN rubric TEXT');
 
 export const getSetting = (k) => db.prepare('SELECT value FROM settings WHERE key = ?').get(k)?.value;
 export const setSetting = (k, v) =>

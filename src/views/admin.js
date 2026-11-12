@@ -16,7 +16,7 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
   <nav class="jump" aria-label="On this page">
     <a href="#add">${icon('lucide:user-plus')} Add people</a>
     <a href="#classes">${icon('lucide:school')} Classes</a>
-    <a href="#settings">${icon('lucide:settings')} Settings <small>(narrator voice, sign-off, preview mode)</small></a>
+    <a href="#settings">${icon('lucide:settings')} Settings <small>(narrator voice, sign-off, warm-ups, preview mode)</small></a>
     <a href="#people">${icon('lucide:users')} Everyone</a>
   </nav>
 
@@ -63,6 +63,7 @@ export function adminPage(req, { users, classes, settings, roleFilter }) {
       <h2>${icon('lucide:settings')} Settings</h2>
       <form method="post" action="/admin/settings" class="form-grid">
         <label class="check"><input type="checkbox" name="require_signoff" value="1" ${settings.require_signoff === '1' ? raw('checked') : ''}><span>Teacher must sign off a skill before it counts (recommended)</span></label>
+        <label class="check"><input type="checkbox" name="warmup_on_login" value="1" ${settings.warmup_on_login === '1' ? raw('checked') : ''}><span><b>Warm-ups:</b> once a day, students start with five quick questions from skills they’ve already finished (they can skip it). Bringing things back after a gap is what makes them stick.</span></label>
         <label class="check"><input type="checkbox" name="skip_unwritten" value="1" ${settings.skip_unwritten === '1' ? raw('checked') : ''}><span><b>Preview mode:</b> skills that aren’t written yet don’t block the way. Use this to look around the map while courses are still being built; turn it off for real classes.</span></label>
         <label class="field"><span>Narrator voice</span><select name="voice_gender">${[['any', 'No preference'], ['male', 'Male'], ['female', 'Female']].map(([v, l]) => html`<option value="${v}" ${settings.voice_gender === v ? raw('selected') : ''}>${l}</option>`)}</select>
           <small class="muted">Used for read-aloud and for explainers that haven’t been recorded. Also the default when you run <code>npm run voices</code> (re-record with <code>npm run voices -- --force</code> after changing it).</small></label>

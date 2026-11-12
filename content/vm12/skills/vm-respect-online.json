@@ -470,7 +470,46 @@
       "VM-U1O2-KS3",
       "VM-U1O2-KS5",
       "VM-U1O2-KK7"
-    ]
+    ],
+    "model": {
+      "kind": "Example respectful rewrite",
+      "text": "**The rude message (in a group chat for a project)**\n\n“Did you even read the task? This is all wrong. Do it again.”\n\n**My rewrite**\n\n“Thanks for getting this started. I think we might have missed part of the task. It asks for three sources, and we have one. Could you add two more by Thursday? I can help find them if you like.”\n\n**What I changed**\n- I started with something positive.\n- I said exactly what was missing. I did not just say “all wrong”.\n- I asked, with a date. I did not give an order.\n- I offered to help.",
+      "why": [
+        "It keeps the real message: the work needs fixing.",
+        "It is specific, so the other person knows what to do.",
+        "The notes explain each change."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Respectful rewrites",
+        "start": "Still sounds rude or unclear.",
+        "good": "Polite, and keeps the real message.",
+        "great": "Specific and kind. It would get a good reply."
+      },
+      {
+        "skill": "Takes part in the discussion",
+        "start": "Stays silent or takes over.",
+        "good": "Shares ideas and listens to others.",
+        "great": "Builds on what others say and invites them in."
+      },
+      {
+        "skill": "Uses the toolkit",
+        "start": "Does not use it.",
+        "good": "Uses toolkit phrases to agree and disagree.",
+        "great": "Does their job in the group and helps it finish well."
+      }
+    ],
+    "choices": {
+      "prompt": "Which question would you most like to discuss?",
+      "options": [
+        "Should phones be allowed at school or work?",
+        "Should under-16s be on social media?",
+        "What makes a good boss or a good teacher?",
+        "A question your group agrees on"
+      ]
+    },
+    "solo": "Can't join a group? Write a short discussion as a script with four speakers. Give each one a different view, and use the toolkit phrases. Then record yourself reading one part."
   },
   "workbook": {
     "pages": [

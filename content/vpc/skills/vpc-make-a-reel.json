@@ -475,7 +475,45 @@
       "VPC-U1M2-LG1",
       "VPC-U1M2-AP3",
       "VPC-U1M2-AP7"
-    ]
+    ],
+    "model": {
+      "kind": "Example reel plan",
+      "text": "**Skill:** How to check your car's oil. **Length:** 60 seconds.\n\n**Hook (0 to 5 s):** “Do this once a month and save your engine.”\n\n**Step 1 (5 to 15 s):** Park on flat ground. Engine off. Caption: “Wait 5 minutes.”\n\n**Step 2 (15 to 30 s):** Pull out the dipstick. Wipe it. Push it back in. A close-up of my hands.\n\n**Step 3 (30 to 45 s):** Pull it out again. The oil should sit between the two marks.\n\n**End (45 to 60 s):** “Low? Top it up, or tell an adult.”\n\n**Captions:** On every step. **Checked with:** the car's manual.\n\n**Test:** My cousin, who has never done it.",
+      "why": [
+        "It has a hook, clear steps and an ending.",
+        "The captions mean it works with the sound off.",
+        "The steps were checked with a reliable source."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Plan and research",
+        "start": "Has an idea but no plan.",
+        "good": "Plans the hook, the steps and the ending.",
+        "great": "The steps are checked with a reliable source."
+      },
+      {
+        "skill": "Film and edit",
+        "start": "Shaky, too long or hard to follow.",
+        "good": "Clear shots. About 60 seconds. Has captions.",
+        "great": "Close-ups and captions make every step easy."
+      },
+      {
+        "skill": "Viewer test",
+        "start": "Not tested yet.",
+        "good": "Tested on someone new to the task.",
+        "great": "Fixed the part where they got stuck."
+      }
+    ],
+    "choices": {
+      "prompt": "What skill will your reel teach?",
+      "options": [
+        "A car, bike or tool skill",
+        "A cooking or food skill",
+        "A sport or fitness skill",
+        "A phone, game or tech skill"
+      ]
+    }
   },
   "workbook": {
     "pages": [

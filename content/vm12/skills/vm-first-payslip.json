@@ -498,7 +498,45 @@
     "vc": [
       "VM-U1O1-KK2"
     ],
-    "vcNote": "The email: language chosen for a workplace audience and purpose."
+    "vcNote": "The email: language chosen for a workplace audience and purpose.",
+    "model": {
+      "kind": "Example email to a manager",
+      "text": "**Subject:** Question about my pay for the week ending 15 June\n\nHi Karen,\n\nThanks for my payslip for the week ending 15 June.\n\nI think my Sunday shift may have been paid at the weekday rate. I worked Sunday 15 June from 10 am to 4 pm. The payslip shows six hours at $16.50. I understood the Sunday rate was higher.\n\nCould you please check this for me? I have attached a photo of the roster.\n\nThanks for your help,\nNoah Kelly",
+      "why": [
+        "The subject line says exactly what the email is about.",
+        "It gives the date, the hours and the rate, so it is easy to check.",
+        "It asks a question. It does not accuse anyone."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Annotates the payslip",
+        "start": "Labels a few parts.",
+        "good": "Labels gross, tax, super and net.",
+        "great": "Explains each part and checks the maths."
+      },
+      {
+        "skill": "Explains the mistake",
+        "start": "Says “my pay is wrong”.",
+        "good": "Says what is wrong, with dates and amounts.",
+        "great": "Shows the working, so the manager can check fast."
+      },
+      {
+        "skill": "Workplace email",
+        "start": "Sounds like a text, or sounds angry.",
+        "good": "Polite, with a clear subject and request.",
+        "great": "Ready to send. No mistakes."
+      }
+    ],
+    "choices": {
+      "prompt": "Which pay problem will you write about?",
+      "options": [
+        "Hours missing from your pay",
+        "The wrong pay rate, like a weekend or holiday rate",
+        "Super that was not paid",
+        "A real question about your own payslip"
+      ]
+    }
   },
   "workbook": {
     "pages": [

@@ -469,7 +469,46 @@
       "VC2E6LY09",
       "VC2E5LA07",
       "VC2E6LY02"
-    ]
+    ],
+    "model": {
+      "kind": "Example plan and script",
+      "text": "**Message:** You can cook a real dinner for under $5.\n\n**Audience:** Teens who are about to move out.\n\n**Script (40 seconds)**\n- **Hook (0 to 5 s):** “This dinner costs less than a bus fare.”\n- **Show (5 to 30 s):** Three quick steps for fried rice. Close-ups of each one. The price pops up beside each item.\n- **Proof (30 to 35 s):** The receipt. Total: $4.60.\n- **Call to action (35 to 40 s):** “Try it tonight. Send this to a mate who lives on noodles.”\n\n**Test:** I will show three friends and ask what the message was.",
+      "why": [
+        "The message fits in one sentence.",
+        "The hook comes in the first five seconds.",
+        "It plans how to test whether the audience got it."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Plan and script",
+        "start": "Has an idea but no plan.",
+        "good": "Has a message, audience, script and storyboard.",
+        "great": "Every shot and line helps the message."
+      },
+      {
+        "skill": "The content",
+        "start": "Hard to follow, or too long.",
+        "good": "Clear, and 30 to 60 seconds long.",
+        "great": "Hooks the viewer and holds them to the end."
+      },
+      {
+        "skill": "Test and improve",
+        "start": "Not tested yet.",
+        "good": "Tested on the audience.",
+        "great": "Uses the feedback to make it better."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your content be about?",
+      "options": [
+        "A skill you can teach in under a minute",
+        "A tip that saves money or time",
+        "Something people your age get wrong",
+        "A place, club or cause worth knowing about"
+      ]
+    },
+    "solo": "Working alone is fine. Film yourself, or use a voice-over on photos and screen recordings. To test it, show two people at home and ask each one what the message was."
   },
   "workbook": {
     "pages": [

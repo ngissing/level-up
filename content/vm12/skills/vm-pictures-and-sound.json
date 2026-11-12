@@ -454,7 +454,45 @@
       "VM-U1O1-KK3",
       "VM-U1O1-KS2",
       "VM-U1O1-KS4"
-    ]
+    ],
+    "model": {
+      "kind": "Example annotation of a video",
+      "text": "**The video:** A 30-second road safety ad about using your phone while driving.\n\n**0 to 5 s. Picture:** A close-up of a phone lighting up. **Sound:** A cheerful message tone. **Effect:** It feels normal. This could be me.\n\n**5 to 20 s. Picture:** The camera stays on the driver's eyes as they look down. **Sound:** The music fades to nothing. **Effect:** The silence builds tension.\n\n**20 to 30 s. Picture:** A black screen with white text. **Sound:** One message tone, then nothing. **Effect:** We imagine the crash. That is stronger than seeing it.",
+      "why": [
+        "It notes the picture **and** the sound for each part.",
+        "It uses the right terms, like close-up and fade.",
+        "It explains the effect on the audience each time."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Visual cues",
+        "start": "Says what is shown.",
+        "good": "Names visual cues: shots, colour, layout.",
+        "great": "Explains what each cue makes the audience think or feel."
+      },
+      {
+        "skill": "Sound cues",
+        "start": "Says there is music.",
+        "good": "Names sound cues: music, voice, silence.",
+        "great": "Explains how sound and picture work together."
+      },
+      {
+        "skill": "Uses the terms",
+        "start": "Uses everyday words only.",
+        "good": "Uses some correct terms.",
+        "great": "Uses the terms exactly, with time stamps."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of video will you annotate?",
+      "options": [
+        "A safety or health campaign ad",
+        "A movie or game trailer",
+        "A music video",
+        "An ad for a product you know"
+      ]
+    }
   },
   "workbook": {
     "pages": [

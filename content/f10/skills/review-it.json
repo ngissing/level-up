@@ -447,7 +447,45 @@
     "vc": [
       "VC2E5LY10",
       "VC2E5LE02"
-    ]
+    ],
+    "model": {
+      "kind": "Example review",
+      "text": "**Spider-Man: Across the Spider-Verse. Four and a half stars.**\n\nThis film looks like nothing else. Every world has its own art style. One looks like a watercolour painting. Another looks like a punk rock poster.\n\nThe story follows Miles, a teenager who has to choose between saving one person and saving everyone. It is fast and funny, but it also has real heart.\n\nThe one let-down is the ending. It stops on a cliffhanger, so you have to wait for the next film.\n\nSee it on the biggest screen you can find. It is great for anyone aged 10 and up.",
+      "why": [
+        "It gives a clear opinion and a star rating.",
+        "Each opinion has a reason and an example.",
+        "It names one weak point, which makes it more honest."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Review structure",
+        "start": "Says “it was good” or “it was bad”.",
+        "good": "Has an intro, key points and a verdict.",
+        "great": "Hooks the reader and ends with who it is for."
+      },
+      {
+        "skill": "Reasons and examples",
+        "start": "Gives opinions with no reasons.",
+        "good": "Each opinion has a reason and an example.",
+        "great": "Balanced: it has strengths and a weak point."
+      },
+      {
+        "skill": "Critic words",
+        "start": "Uses everyday words only.",
+        "good": "Uses some critic words correctly.",
+        "great": "Critic words make the review sharper."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you review?",
+      "options": [
+        "A film or TV show",
+        "A game",
+        "A song or album",
+        "A book, manga or graphic novel"
+      ]
+    }
   },
   "workbook": {
     "pages": [

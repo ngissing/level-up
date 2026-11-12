@@ -469,7 +469,46 @@
       "VM-U2O2-KK6",
       "VM-U2O2-KS4",
       "VM-U2O2-KS9"
-    ]
+    ],
+    "model": {
+      "kind": "Example argument and rebuttal",
+      "text": "**Topic:** That every Year 11 student should do work experience.\n\n**My argument (affirmative)**\n“Work experience shows you what a job is really like before you choose a course. My cousin was sure he wanted to be a chef. One week in a kitchen changed his mind, and it saved him a year of the wrong course.”\n\n**Rebuttal**\n“The negative said work experience takes time away from class. But one week is a small part of the school year, and what you learn can shape your whole pathway. That is time well spent.”",
+      "why": [
+        "The argument has a point, a reason and an example.",
+        "The rebuttal names what the other team said and then answers it.",
+        "It stays polite. It goes after the idea, not the person."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Argues with evidence",
+        "start": "Gives an opinion only.",
+        "good": "Gives a point, a reason and evidence.",
+        "great": "The evidence is strong and clearly explained."
+      },
+      {
+        "skill": "Listens and rebuts",
+        "start": "Ignores the other team.",
+        "good": "Answers one of their points.",
+        "great": "Names their strongest point and answers it fairly."
+      },
+      {
+        "skill": "Follows the rules",
+        "start": "Goes over time or interrupts.",
+        "good": "Keeps to time and to turns.",
+        "great": "Helps the team and respects the other side."
+      }
+    ],
+    "choices": {
+      "prompt": "Which role would you like?",
+      "options": [
+        "First speaker: you set up your team's case",
+        "Second speaker: you rebut and add more",
+        "Third speaker: you sum up and rebut",
+        "Human worm or timekeeper"
+      ]
+    },
+    "solo": "No teams? Write and record a two-minute “debate with yourself”. Spend one minute for and one minute against. Then say which side won and why."
   },
   "workbook": {
     "pages": [

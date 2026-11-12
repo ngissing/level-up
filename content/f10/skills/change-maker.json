@@ -472,7 +472,45 @@
       "VC2E6LY09",
       "VC2E6LY07",
       "VC2E6LY02"
-    ]
+    ],
+    "model": {
+      "kind": "Example petition and post",
+      "text": "**Petition:** Put a water refill station near the oval\n\n**To:** The Principal and School Council\n\n**The problem:** The only taps near the oval are in the gym, and the gym is locked at lunch. On hot days, students buy drinks or go without.\n\n**What we want:** One refill station near the oval before Term 4.\n\n**Why it matters:** It is free, it is healthy, and it means fewer plastic bottles in the bins.\n\n**The post:** “Thirsty at lunch? So are we. Sign for a refill station at the oval. Find us at the canteen on Friday.”",
+      "why": [
+        "It asks the right people: the ones who can say yes.",
+        "The request is small, clear and has a date.",
+        "The post is short and tells people where to sign."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "The campaign",
+        "start": "Has a cause but no clear ask.",
+        "good": "Has a petition, a post and a speech with one clear ask.",
+        "great": "All three parts fit the audience they are for."
+      },
+      {
+        "skill": "Persuades fairly",
+        "start": "Gives opinion only.",
+        "good": "Gives reasons and evidence.",
+        "great": "Thinks about the other side and answers it."
+      },
+      {
+        "skill": "Judges the impact",
+        "start": "Not done yet.",
+        "good": "Says what happened: signatures, views, replies.",
+        "great": "Says what worked, what didn't and what comes next."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you campaign for?",
+      "options": [
+        "Something at school: food, spaces, rules",
+        "Something in your town: transport, parks, safety",
+        "A bigger cause, with a local action"
+      ]
+    },
+    "solo": "Working alone? Run it as a one-person campaign. Make the petition and the post, and film the speech. Ask five people for feedback and count that as your impact."
   },
   "workbook": {
     "pages": [

@@ -461,7 +461,45 @@
       "VM-U1O1-KS6",
       "VM-U1O1-KK5",
       "VM-U1O1-KS3"
-    ]
+    ],
+    "model": {
+      "kind": "Example research notes",
+      "text": "**My question:** What do I need to do to be an electrician in Victoria?\n\n**Source 1:** Victorian Skills Gateway (skills.vic.gov.au). I trust it. It is a government site.\n- You need a Certificate III in Electrotechnology.\n- You do it as an apprenticeship. That takes about four years.\n\n**Source 2:** Energy Safe Victoria (esv.vic.gov.au). I trust it. It is in charge of the rules for this trade.\n- After that, you apply for an A Grade licence.\n- You must pass a test first.\n\n**In my own words:** It takes about four years of paid training. Then you sit a test to get your licence.",
+      "why": [
+        "Every fact has a source next to it.",
+        "It says why each source can be trusted.",
+        "The notes are short and in the student's own words."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Reliable sources",
+        "start": "Uses the first result only.",
+        "good": "Uses two or more reliable sources.",
+        "great": "Says why each source can be trusted."
+      },
+      {
+        "skill": "Notes in own words",
+        "start": "Copies and pastes.",
+        "good": "Short notes in your own words.",
+        "great": "Notes answer the question and nothing else."
+      },
+      {
+        "skill": "Records sources",
+        "start": "Sources are missing.",
+        "good": "Records where every fact came from.",
+        "great": "Gives the name, the web address and the date."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you research?",
+      "options": [
+        "A job or trade you are thinking about",
+        "A course or pathway after school",
+        "Something you want to buy or do",
+        "A question about your rights"
+      ]
+    }
   },
   "workbook": {
     "pages": [

@@ -449,7 +449,46 @@
       "VM-U1O1-KK2",
       "VM-U1O1-KS3",
       "VM-U1O1-KS5"
-    ]
+    ],
+    "model": {
+      "kind": "Example: same news, two audiences",
+      "text": "**The news:** I will be late to work tomorrow because of a dentist appointment.\n\n**To my manager**\n\nHi Deb, I have a dentist appointment tomorrow at 8:30 am. I should be at work by 10. I am sorry for the short notice. I can stay until 5 to make up the time.\n\n**To my workmate**\n\nHey Jai, I'm at the dentist tomorrow morning, in around 10. Can you grab the delivery if it comes early? I owe you one.\n\n**What changed:** For my manager, I gave times and offered a fix. For Jai, I was casual and asked a favour. The purpose changed too. One informs, and one asks for help.",
+      "why": [
+        "The facts stay the same in both messages.",
+        "The tone, the words and the details change for each reader.",
+        "The note names the purpose and the audience."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Reads real texts",
+        "start": "Says what a text is about.",
+        "good": "Finds the purpose, audience and context.",
+        "great": "Uses evidence from the text for each one."
+      },
+      {
+        "skill": "Rewrites for two audiences",
+        "start": "Both versions sound the same.",
+        "good": "Each version suits its audience.",
+        "great": "Tone, words and details all change on purpose."
+      },
+      {
+        "skill": "Explains the choices",
+        "start": "Not explained yet.",
+        "good": "Says what changed.",
+        "great": "Explains how context shaped each choice."
+      }
+    ],
+    "choices": {
+      "prompt": "What news will you tell two audiences?",
+      "options": [
+        "You are running late or need time off",
+        "You have finished a job or a project",
+        "You need help with something",
+        "Good news: a job, a result, a win"
+      ]
+    },
+    "solo": "No group? Choose two real texts yourself. Read the room for each one in writing. Then swap notes with your teacher, or with a classmate later."
   },
   "workbook": {
     "pages": [

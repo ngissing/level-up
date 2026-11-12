@@ -470,7 +470,46 @@
       "VM-U2O1-KS5",
       "VM-U2O1-KS2",
       "VM-U2O1-KS6"
-    ]
+    ],
+    "model": {
+      "kind": "Example comparison and view",
+      "text": "**The issue:** Should e-scooters be allowed on footpaths?\n\n**Text 1: a news report.** It gives both sides and quotes the police and a rider. The words are neutral.\n\n**Text 2: an opinion column.** It is one-sided. It says scooters are “a menace”. It tells one story about an injury and gives no numbers.\n\n**Text 3: a scooter company's post.** It only shows the benefits. It wants to sell rides.\n\n**My view:** Scooters should stay off busy footpaths. The news report quoted hospital figures. That is the strongest evidence, because it does not come from someone with something to sell.",
+      "why": [
+        "It says what kind of text each one is and what it wants.",
+        "It compares them on the same things: sides, words and evidence.",
+        "The view is backed by the strongest evidence."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Compares three texts",
+        "start": "Describes each text on its own.",
+        "good": "Compares purpose, language and evidence.",
+        "great": "Explains **why** each one presents the issue its way."
+      },
+      {
+        "skill": "Own view",
+        "start": "Gives an opinion only.",
+        "good": "Gives a view with evidence.",
+        "great": "Weighs the evidence and answers the other side."
+      },
+      {
+        "skill": "Shares it",
+        "start": "Reads it out.",
+        "good": "Shares clearly in one minute.",
+        "great": "Answers questions with evidence."
+      }
+    ],
+    "choices": {
+      "prompt": "Which issue will you compare?",
+      "options": [
+        "A local issue in your town",
+        "An issue about work or money",
+        "An issue about tech or social media",
+        "An issue in sport"
+      ]
+    },
+    "solo": "No group? Record your one-minute verdict on a phone. Then write two questions a listener might ask, and answer them."
   },
   "workbook": {
     "pages": [

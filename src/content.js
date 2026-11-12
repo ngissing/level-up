@@ -312,10 +312,28 @@ export function speechLines(course, { explainerOnly = false } = {}) {
 
 // ---------- Workbook pages ----------
 // Blocks flow onto A4 sheets; a block with `pagebreak` starts a new one. Page 1 is the cover.
+// A course with a model answer (`show.model`) gets a "What good looks like" page, placed just
+// before the final task so students see the target before they start. It is added here, not in
+// each course file, so every workbook gets it in the same place.
+const FINAL = /^(final mission|step 1\b)/i;
+export function workbookBlocks(course) {
+  const pages = course.workbook.pages;
+  if (!course.show?.model || pages.some((b) => b.type === 'model')) return pages;
+  let at = pages.findIndex((b) => FINAL.test(b.title || ''));
+  if (at < 0) at = pages.findIndex((b) => b.type === 'do-it');
+  if (at < 0) at = pages.findIndex((b) => b.type === 'reflect');
+  if (at < 0) at = pages.length;
+  const out = pages.slice();
+  // The task that follows always starts a fresh page.
+  if (out[at]) out[at] = { ...out[at], pagebreak: true };
+  out.splice(at, 0, { type: 'model', title: 'What good looks like', pagebreak: true, vc: course.show.vc });
+  return out;
+}
+
 export function workbookSheets(course) {
   const sheets = [];
   let cur = null;
-  for (const b of course.workbook.pages) {
+  for (const b of workbookBlocks(course)) {
     if (b.type === 'cover') continue;
     if (!cur || b.pagebreak) { cur = []; sheets.push(cur); }
     cur.push(b);

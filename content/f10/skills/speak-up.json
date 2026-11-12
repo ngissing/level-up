@@ -466,7 +466,46 @@
       "VC2E6LY02",
       "VC2E6LY01",
       "VC2E6LA04"
-    ]
+    ],
+    "model": {
+      "kind": "Example speech opening",
+      "text": "**Hook:** Put your hand up if you have ever waited more than an hour for a bus in this town. Keep it up if it made you late for work.\n\n**Point:** Our town needs buses that run after 6 pm.\n\n**Proof:** The last bus from the station leaves at 5:45. Most casual shifts finish at 9. I asked 20 students at this school. Fourteen have said no to a shift because they could not get home.\n\n**Push:** The council votes on its transport plan next month. Sign the petition at the door today. It takes ten seconds.",
+      "why": [
+        "The hook gets the audience involved straight away.",
+        "The proof is real and local, and it says where it came from.",
+        "The push asks for one small, clear action."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Speech structure",
+        "start": "Has a topic but no clear point.",
+        "good": "Has a hook, point, proof and push.",
+        "great": "Each part leads into the next."
+      },
+      {
+        "skill": "Delivery",
+        "start": "Reads from the page. Hard to hear.",
+        "good": "Clear voice, eye contact, uses a cue card.",
+        "great": "Uses pauses and pace to make the key lines hit."
+      },
+      {
+        "skill": "Answers questions",
+        "start": "Has no answer, or gets cross.",
+        "good": "Answers politely.",
+        "great": "Listens, then answers with evidence."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you speak up about?",
+      "options": [
+        "Something at school that should change",
+        "Something your town or suburb needs",
+        "An issue for young workers",
+        "A cause you care about"
+      ]
+    },
+    "solo": "No audience? Film your speech and send it to your teacher. Then write down two questions a listener might ask, and answer them on camera."
   },
   "workbook": {
     "pages": [

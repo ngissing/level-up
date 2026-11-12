@@ -453,7 +453,46 @@
     "vc": [
       "VPC-U3M2-LG3",
       "VPC-U3M2-AP4"
-    ]
+    ],
+    "model": {
+      "kind": "Example top half of a resume",
+      "text": "**Chloe Adams**\nBallarat · 0400 000 000 · chloe.adams@email.com\n\n**About me**\nA reliable student who likes hands-on work. I am looking for a casual job in a café or a shop.\n\n**Skills**\n- **Customer service:** I serve at the netball club canteen every second Saturday.\n- **On time:** I have not been late to school this year.\n- **Teamwork:** I have played netball for five years.\n\n**Experience**\n**Canteen helper**, Lake Netball Club, 2025 to now\n- Take orders and handle money\n- Clean up and lock up",
+      "why": [
+        "The name and contact details are easy to find in seven seconds.",
+        "Each skill has proof.",
+        "It is short and clear, and it is all true."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "All the parts",
+        "start": "Some sections are missing.",
+        "good": "Contact, about me, skills, experience, school and referees.",
+        "great": "One page, with the best parts at the top."
+      },
+      {
+        "skill": "Skills with proof",
+        "start": "Lists skills only.",
+        "good": "Each skill has an example.",
+        "great": "The examples fit the job you want."
+      },
+      {
+        "skill": "Tested and improved",
+        "start": "Not tested.",
+        "good": "Did the 7-second test and got feedback.",
+        "great": "Changed it because of the feedback."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of job is your resume for?",
+      "options": [
+        "A café, a shop or fast food",
+        "A trade or an apprenticeship",
+        "Work with animals, kids or older people",
+        "Work experience"
+      ]
+    },
+    "solo": "No partner? Do the 7-second test with someone at home. Or set a timer, look away, then look at your resume for seven seconds. What did you see first?"
   },
   "workbook": {
     "pages": [

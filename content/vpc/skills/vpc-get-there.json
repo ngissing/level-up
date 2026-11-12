@@ -447,7 +447,45 @@
       "VPC-U3M1-LG2",
       "VPC-U3M1-AP1",
       "VPC-U3M1-LG3"
-    ]
+    ],
+    "model": {
+      "kind": "Example trip plan",
+      "text": "**Trip:** From school to the TAFE open day. I need to arrive by 10:00 am on Saturday.\n\n**Steps**\n1. **Walk** 5 minutes to the bus stop on High Street.\n2. **Catch** the Route 11 bus at 9:12 am, towards the station.\n3. **Get off** at the station at 9:30 am.\n4. **Walk** 8 minutes along Mair Street to the TAFE gate.\n\n**Cost:** One 2-hour myki fare, at the concession rate.\n\n**Disruptions:** I checked the app. There is no planned work this weekend.\n\n**Back-up:** If I miss the 9:12, the next bus is at 9:42. That is still on time.",
+      "why": [
+        "Each step has an action, a time and a place.",
+        "It checks the cost and the disruptions.",
+        "It has a back-up plan."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Plans the trip",
+        "start": "Has only the start and the end.",
+        "good": "Has the route, the times and the cost.",
+        "great": "Arrives with time to spare. Has a back-up plan."
+      },
+      {
+        "skill": "Checks for disruptions",
+        "start": "Not checked.",
+        "good": "Checked in the app or on the website.",
+        "great": "Says what you would do if there was one."
+      },
+      {
+        "skill": "Clear steps",
+        "start": "Hard to follow.",
+        "good": "Numbered steps with times and places.",
+        "great": "A friend could follow it without you."
+      }
+    ],
+    "choices": {
+      "prompt": "Where will your trip go?",
+      "options": [
+        "A TAFE, course or open day",
+        "A job, an interview or Centrelink",
+        "Somewhere fun: the beach, the city, a game",
+        "A place you need to go soon"
+      ]
+    }
   },
   "workbook": {
     "pages": [

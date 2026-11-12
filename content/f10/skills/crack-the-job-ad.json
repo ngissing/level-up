@@ -458,7 +458,44 @@
       "VC2E5LY08",
       "VC2E5LY09",
       "VC2E5LA08"
-    ]
+    ],
+    "model": {
+      "kind": "Example verdict",
+      "text": "**The job:** Casual kitchen hand at Rosie's Café, Ballarat.\n\n**Would I apply? Yes.**\n\nThe pay is clear: $19.50 an hour for under-18s. The hours suit me, because they are weekends only.\n\nThe ad says “fast-paced”. That is a code word for “busy and tiring”. I am OK with that. I already help at footy club canteens.\n\nI do not have my food handling certificate. The ad says they will train me.\n\nI found no red flags. There are no upfront fees. The café has a real address and phone number.",
+      "why": [
+        "It gives a clear yes or no.",
+        "It uses facts from the ad as reasons.",
+        "It decodes a code word and checks for red flags."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Decodes the ad",
+        "start": "Finds a few parts of the ad.",
+        "good": "Finds all six parts.",
+        "great": "Finds all six, and what the ad leaves out."
+      },
+      {
+        "skill": "Code words and red flags",
+        "start": "Copies words from the ad.",
+        "good": "Explains what the code words really mean.",
+        "great": "Spots red flags, or shows why there are none."
+      },
+      {
+        "skill": "Decision",
+        "start": "Says yes or no.",
+        "good": "Yes or no, with reasons from the ad.",
+        "great": "Matches the job to your own skills and needs."
+      }
+    ],
+    "choices": {
+      "prompt": "Which job ad will you crack?",
+      "options": [
+        "A job you could do now, after school or on weekends",
+        "An apprenticeship or traineeship",
+        "A job you would love in five years"
+      ]
+    }
   },
   "workbook": {
     "pages": [

@@ -450,7 +450,45 @@
     "vc": [
       "VPC-U1M1-LG1",
       "VPC-U1M1-AP3"
-    ]
+    ],
+    "model": {
+      "kind": "Example choice and proof",
+      "text": "**My two packets:** Crunchy Clusters and Plain Oat Flakes.\n\n**I choose:** Plain Oat Flakes.\n\n**My proof**\n- **Sugar:** Clusters has 28 g in every 100 g. Oat Flakes has 1 g.\n- **Fibre:** Oat Flakes has more fibre, so I will feel full for longer.\n- **Price:** Oat Flakes costs less for each 100 g.\n- **Ingredients:** Sugar is the second thing on the Clusters list. Oat Flakes has one ingredient.\n\n**One good thing about Clusters:** It tastes better. I would add fruit to the oats.",
+      "why": [
+        "It uses the **per 100 g** column, so the packets can be compared fairly.",
+        "Every reason has a fact from the label.",
+        "It is fair. It says one good thing about the other packet."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Reads both labels",
+        "start": "Looks at the front of the pack.",
+        "good": "Finds the facts on both labels.",
+        "great": "Uses the per 100 g column to compare."
+      },
+      {
+        "skill": "Makes a choice",
+        "start": "Picks one with no reason.",
+        "good": "Picks one, with reasons.",
+        "great": "Thinks about health, price and taste."
+      },
+      {
+        "skill": "Proves it",
+        "start": "Says “it's healthier”.",
+        "good": "Uses facts from both labels.",
+        "great": "Uses numbers and the ingredients list."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of food will you compare?",
+      "options": [
+        "Breakfast cereals",
+        "Muesli bars or snacks",
+        "Drinks",
+        "Something you eat every week"
+      ]
+    }
   },
   "workbook": {
     "pages": [

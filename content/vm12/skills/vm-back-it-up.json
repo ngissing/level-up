@@ -446,7 +446,45 @@
     "vc": [
       "VM-U2O2-KS4",
       "VM-U2O2-KS3"
-    ]
+    ],
+    "model": {
+      "kind": "Example opinion paragraph",
+      "text": "**Contention:** Schools should teach every student how to do a tax return.\n\n**Argument:** Almost everyone will need this skill. Many students get a job before they finish school. Every worker has to deal with tax. The tax office (the ATO) already has free lessons made for schools.\n\n**Rebuttal:** Some people say parents should teach this. But not every parent knows how. It is not fair if only some students learn it.\n\n**Call to action:** Ask your school to add one lesson on tax to Year 10. One hour could save years of stress.",
+      "why": [
+        "The contention is clear in the first line.",
+        "The argument uses evidence, and says where it comes from.",
+        "It answers the other side and does not ignore it."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Contention and arguments",
+        "start": "The opinion is not clear.",
+        "good": "Has a clear contention and two arguments.",
+        "great": "The arguments build on each other."
+      },
+      {
+        "skill": "Evidence",
+        "start": "No evidence, or made-up facts.",
+        "good": "Each argument has real evidence.",
+        "great": "Names the source and explains the evidence."
+      },
+      {
+        "skill": "Rebuttal and call to action",
+        "start": "One is missing.",
+        "good": "Has both.",
+        "great": "The rebuttal is fair, and the call to action is doable."
+      }
+    ],
+    "choices": {
+      "prompt": "Which issue will you argue?",
+      "options": [
+        "The under-16 social media law",
+        "An issue for young workers, like junior pay rates",
+        "A school or training issue",
+        "Another issue your teacher approves"
+      ]
+    }
   },
   "workbook": {
     "pages": [

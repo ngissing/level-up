@@ -470,7 +470,46 @@
     "vc": [
       "VPC-U1M2-LG2",
       "VPC-U1M2-AP4"
-    ]
+    ],
+    "model": {
+      "kind": "Example trust test",
+      "text": "**What I tested:** A TikTok video that says “This app pays you $50 a day to watch ads.”\n\n**Who made it?** An account with no real name. Every video it has posted is about the same app.\n\n**What do they want?** They want me to sign up with their code. They get paid when I do.\n\n**Can I check it?** I searched the name of the app with the word “scam”. Other people say they were never paid.\n\n**How does it make me feel?** Excited, and in a hurry. That is a warning sign.\n\n**My verdict:** Do not trust it. Too good to be true, and the maker gets paid if I believe it.",
+      "why": [
+        "It asks who made the post and what they get out of it.",
+        "It checks somewhere else. It does not just read the post.",
+        "The verdict is clear and gives the evidence."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Runs the trust test",
+        "start": "Does one or two steps.",
+        "good": "Does every step.",
+        "great": "Writes what you found at each step."
+      },
+      {
+        "skill": "Evidence",
+        "start": "Says “it looks fake” or “it looks real”.",
+        "good": "Gives evidence from another source.",
+        "great": "Uses more than one source to check."
+      },
+      {
+        "skill": "Explains the verdict",
+        "start": "Says the verdict only.",
+        "good": "Explains it to the group with reasons.",
+        "great": "Answers the group's questions with evidence."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you trust test?",
+      "options": [
+        "A post about making money",
+        "A health or fitness tip",
+        "An ad for a product",
+        "A news story or a viral video"
+      ]
+    },
+    "solo": "No group? Record a one-minute voice memo that explains your verdict and your evidence, as if you were warning a friend."
   },
   "workbook": {
     "pages": [

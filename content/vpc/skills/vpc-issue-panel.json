@@ -1,0 +1,1003 @@
+{
+  "id": "vpc-issue-panel",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Since 2008, the ABC show Q+A has put a panel in front of an audience. The audience asks the questions. Now you'll run your own Q&A on a local issue.",
+      "core": "Every week since 2008, ABC TV has put a panel of people with different views in front of a live audience, and let the audience ask the questions. It's called Q+A. Now it's your turn: pick an issue your community cares about, set up a panel, and run the Q&A yourselves."
+    },
+    "why": {
+      "support": "This is the boss level. Hear different sides of a real issue. Ask good questions. Listen. Then decide what you think.",
+      "core": "This is the Issues & Voices boss level. You'll bring everything together: facts and opinions, persuasive language, perspective and bias. You'll hear different sides of a real issue, ask sharp questions, listen to the answers, and work out what you think, with evidence. That's how communities make good decisions.",
+      "extend": "This boss level puts everything from Issues & Voices into a live setting. You'll present or question different views on a community issue. You'll separate fact from opinion, spot bias, and take part in a whole-class discussion. Then you'll sum up the arguments in writing."
+    },
+    "canDo": {
+      "support": [
+        "I can find the main points on each side.",
+        "I can tell fact from opinion.",
+        "I can ask a fair question.",
+        "I can say how someone's side shaped what they said."
+      ],
+      "core": [
+        "I can find the **main arguments** on different sides of an issue.",
+        "I can tell **fact** from **opinion** when people speak.",
+        "I can ask a clear, fair **question**.",
+        "I can explain how **perspective** and **bias** shaped what people said."
+      ]
+    },
+    "showIt": "Take part in a class issue panel (as a panellist, host or audience member), then write a summary of the arguments and your own view.",
+    "vocab": [
+      {
+        "word": "panel",
+        "meaning": "a small group of people who answer questions in front of an audience",
+        "example": "The panel had four people."
+      },
+      {
+        "word": "host",
+        "meaning": "the person who runs the panel and keeps it fair",
+        "example": "The host gave everyone a turn."
+      },
+      {
+        "word": "issue",
+        "meaning": "a topic people disagree about",
+        "example": "The issue was the old tennis courts."
+      },
+      {
+        "word": "perspective",
+        "meaning": "the way someone sees an issue",
+        "example": "Each panellist had a different perspective."
+      },
+      {
+        "word": "question",
+        "meaning": "something you ask to find out more",
+        "example": "Her question was short and fair."
+      },
+      {
+        "word": "summary",
+        "meaning": "a short version of the main points",
+        "example": "My summary had three sentences."
+      },
+      {
+        "word": "follow-up question",
+        "meaning": "a second question that digs deeper",
+        "example": "The host asked a follow-up question.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "moderator",
+        "meaning": "another word for a host who keeps a discussion fair",
+        "example": "The moderator stopped people talking over each other.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Issue Panel in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Issue Panel",
+        "sub": "Run a Q&A on a real issue.",
+        "icon": "lucide:users-round",
+        "say": "Issue panel. Run a Q&A on something your community cares about."
+      },
+      {
+        "kind": "big",
+        "title": "Q+A",
+        "text": "Panel · Audience · **Questions**",
+        "icon": "lucide:tv",
+        "say": "ABC TV's Q+A started in 2008. A panel with different views answers questions from a live audience.",
+        "vc": [
+          "VPC-U2M1-LG3",
+          "VPC-U2M1-AP5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Panel",
+        "pillIcon": "lucide:users-round",
+        "title": "The issue",
+        "text": "More than **one side**",
+        "icon": "lucide:scale",
+        "say": "Pick a real issue with more than one side.",
+        "vc": [
+          "VPC-U2M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Panel",
+        "pillIcon": "lucide:users-round",
+        "title": "The panel",
+        "text": "Different **perspectives**",
+        "icon": "lucide:users",
+        "say": "Build a panel with different perspectives. Each panellist prepares points and evidence.",
+        "vc": [
+          "VPC-U2M1-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Panel",
+        "pillIcon": "lucide:users-round",
+        "title": "The host",
+        "text": "Fair · On time · **Digs deeper**",
+        "icon": "lucide:mic",
+        "say": "The host keeps it fair: turns, time, and follow-up questions.",
+        "vc": [
+          "VPC-U2M1-AP5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Panel",
+        "pillIcon": "lucide:users-round",
+        "title": "The audience",
+        "text": "Short · Fair · **Open**",
+        "icon": "lucide:hand",
+        "say": "The audience asks short, fair, open questions.",
+        "vc": [
+          "VPC-U2M1-AP5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Panel",
+        "pillIcon": "lucide:users-round",
+        "title": "Listen",
+        "text": "Fact? Opinion? **Whose side?**",
+        "icon": "lucide:ear",
+        "say": "Listen for facts and opinions, and notice how each person's side shapes what they say.",
+        "vc": [
+          "VPC-U2M1-LG1",
+          "VPC-U2M1-LG3"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Run the panel",
+        "steps": [
+          "Prepare roles",
+          "Run the Q&A",
+          "Write the summary"
+        ],
+        "say": "Prepare the panel, run the Q&A, then write a summary of what you heard."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Ask. Listen. **Decide.**",
+        "icon": "lucide:users-round",
+        "say": "Your mission. Run a real issue panel, and work out what you think."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How to run an issue panel",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "An **issue panel** is a group of people with different views. They answer questions from an audience.\n\n**1. Pick an issue.** Something people disagree about. It needs more than one side.\n\n**2. The panel.** Three or four people, each with a different view. Each one gets ready:\n\n- their view in one sentence\n- two main points, with evidence\n- a one-minute start.\n\n**3. The host.** The **host** runs it. They give everyone a turn. They keep time. They ask: *“Can you give an example?”*\n\n**4. The audience.** Everyone else writes questions. Good questions are:\n\n- **short:** one question\n- **open:** not just yes or no\n- **fair:** about ideas, not people.\n\n**5. Listen.** Take notes. What's each person's main point? Fact or opinion? Whose side are they on?\n\n**6. Wrap up.** Write a short **summary**: the issue, the main points, and what you think.",
+          "core": "An **issue panel** brings people with different views together to answer questions from an audience. It's a great way to hear every side of an issue, and to make up your own mind.\n\n**1. Pick the issue.** Choose something your class or community genuinely disagrees about: what to do with an empty block, a new rule, a local event, a transport change. It must have **more than one side**.\n\n**2. Build the panel.** Choose three or four **panellists**, each with a different **perspective**: for example, a young person, a business owner, a parent and a council worker. Each panellist prepares:\n\n- their **position** in one sentence\n- two main points, with **evidence** (and they know which bits are facts and which are opinions)\n- a short opening statement (one minute).\n\n**3. Choose a host.** The **host** (or **moderator**) runs the panel. They introduce the issue and the rules, give everyone a fair turn, keep time, stop people talking over each other, and ask **follow-up questions**: *“Can you give an example?”* *“What's your evidence?”*\n\n**4. Prepare the audience.** Everyone else writes questions on cards. Good questions are:\n\n- **short**: one question, not three\n- **open**: they can't be answered with just yes or no\n- **fair**: about ideas, not attacking people.\n\n*“How would this affect people who live nearby?”* is great. *“Why are you so selfish?”* is not.\n\n**5. Listen actively.** While the panel talks, take notes. What is each person's **main argument**? Which parts are facts, and which are opinions? How does their **perspective** shape what they say? Is anyone leaving things out?\n\n**6. Wrap it up.** At the end, the host sums up the main points. Then everyone writes a short **summary**: the issue, the main arguments, and your own view with evidence.",
+          "extend": "An **issue panel** brings together speakers with different positions to answer audience questions. It's a good way to explore an issue from several angles before you form a view.\n\n**1. Choose an issue.** Pick a community issue people really disagree about, such as land use, a new rule, a local event or a transport change. It needs at least two fair positions.\n\n**2. Build the panel.** Choose three or four **panellists** with different **perspectives**: for example, a young resident, a business owner, a parent and a council officer. Each one prepares a one-sentence **position**, two main points with **evidence** (and knows which parts are fact and which are opinion), and a one-minute opening.\n\n**3. Appoint a moderator.** The **host** or **moderator** explains the issue and the rules. They give fair turns, manage time, stop interruptions, and ask **follow-up questions** that test evidence and reasoning.\n\n**4. Prepare the audience.** Audience members write questions in advance. Good questions are short (one at a time), open, and about ideas rather than people.\n\n**5. Listen critically.** Note each panellist's main argument. Separate facts from opinions. Think about how each speaker's perspective and interests shape what they claim, and watch for gaps that suggest bias.\n\n**6. Pull it together.** The moderator sums up the main positions. Then everyone writes a **summary** of the arguments and their own view, backed by evidence."
+        },
+        "vc": [
+          "VPC-U2M1-LG1",
+          "VPC-U2M1-LG3",
+          "VPC-U2M1-AP5"
+        ],
+        "vcNote": "Identifying main arguments, fact and opinion, and perspective; participating in discussion."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Q+A: the audience asks",
+        "icon": "lucide:tv",
+        "body": {
+          "support": "**Q+A** is a show on **ABC TV**. It started in **2008**.\n\nA panel of about **five** people sits in front of an audience. They have different views.\n\nThen the **audience asks the questions**. People ask them live. Others send in videos.\n\nA **host** runs it. The host gives everyone a turn. The host asks more questions when people dodge.\n\nIt isn't always calm. People disagree. But the audience gets to hear different sides.\n\nYour class panel will work the same way.",
+          "core": "**Q+A** is a live discussion show on **ABC TV**. It first went to air on **22 May 2008**.\n\nThe idea is simple. A panel sits in front of a studio audience, usually **five** people with different views. Often there's someone from the government, someone from the opposition, and others like experts, writers or community leaders.\n\nThen the **audience asks the questions**. People in the studio ask them live. Other Australians can send in video questions. The show's producers choose which questions get asked.\n\nA **host** runs it all. **Tony Jones** hosted for more than ten years, until 2019. The host gives each panellist a turn, keeps time, and pushes them with follow-up questions when they dodge.\n\nIn **2010**, the show started showing viewers' tweets on screen, so people at home could join in. In **2020**, its name changed from Q&A to **Q+A**.\n\nQ+A shows how a panel can bring different sides of an issue together in one room. It's not always calm. People disagree, interrupt and get frustrated. But the audience gets to ask what they want to know, and hear more than one answer.\n\nYour class panel will be smaller. But it works the same way: different perspectives, a fair host, and the audience asking the questions.",
+          "extend": "**Q+A** is a live discussion program on **ABC TV**. It first aired on **22 May 2008**.\n\nThe format puts the audience at the centre. A panel, usually **five** people with different views, faces a studio audience. It often includes people from the government and the opposition, plus experts, writers or community figures. **Audience members ask the questions**, live in the studio or by sending in a video. Producers choose which questions go to the panel.\n\nA **host** moderates. **Tony Jones** hosted for more than ten years, until 2019. He gave out turns, managed time, and pushed panellists with follow-up questions when they dodged.\n\nThe show has changed over time. From **2010**, it showed viewers' tweets on screen. In **2020**, its name changed from Q&A to **Q+A**.\n\nQ+A shows both the value and the difficulty of a panel. Putting opposing views in one room lets the audience compare arguments directly. But discussion can get heated, so a good moderator is essential.\n\nYour class panel uses the same structure, on a smaller scale: different perspectives, a fair moderator, and questions from the audience."
+        },
+        "source": {
+          "name": "Wikipedia — Q+A (Australian talk show)",
+          "url": "https://en.wikipedia.org/wiki/Q%2BA_(Australian_talk_show)"
+        },
+        "think": {
+          "support": [
+            "Why let the audience ask?",
+            "What does a good host do?"
+          ],
+          "core": [
+            "Why might letting the audience ask the questions be a good idea?",
+            "What does a good host need to do?",
+            "What could go wrong on a panel, and how could you stop it?"
+          ]
+        },
+        "vc": [
+          "VPC-U2M1-LG3",
+          "VPC-U2M1-AP5"
+        ],
+        "vcNote": "A real Australian example of an issue panel format."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a class issue panel",
+      "docTitle": "RUN SHEET — “WHAT SHOULD HAPPEN TO THE OLD TENNIS COURTS?” (EXAMPLE)",
+      "vc": [
+        "VPC-U2M1-AP5",
+        "VPC-U2M1-LG3"
+      ],
+      "vcNote": "The structure and roles of an issue panel.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Host (2 min)",
+          "value": "Welcome. Today's issue: tennis courts, basketball courts, or a car park? Rules: one speaker at a time.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Panel",
+          "value": "A young basketballer · the tennis club president · a nearby resident · a council officer"
+        },
+        {
+          "n": 3,
+          "label": "Openings (1 min each)",
+          "value": "Each panellist gives their position and two main points."
+        },
+        {
+          "n": 4,
+          "label": "Audience questions (15 min)",
+          "value": "Question cards collected. The host picks a mix for every panellist."
+        },
+        {
+          "n": 5,
+          "label": "Follow-up",
+          "value": "Host: “What's your evidence for that?”",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Close (3 min)",
+          "value": "Host sums up each side. Audience writes summaries."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Host's intro",
+          "note": "States the issue and the rules."
+        },
+        {
+          "n": 2,
+          "label": "Different perspectives",
+          "note": "Each panellist sees it differently."
+        },
+        {
+          "n": 3,
+          "label": "Opening statements",
+          "note": "Short, timed, with main points."
+        },
+        {
+          "n": 4,
+          "label": "Audience questions",
+          "note": "Written first, chosen fairly."
+        },
+        {
+          "n": 5,
+          "label": "Follow-up",
+          "note": "Digs for evidence."
+        },
+        {
+          "n": 6,
+          "label": "Close",
+          "note": "Sums up, then everyone writes."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Run the panel",
+      "steps": [
+        {
+          "title": "Prepare",
+          "text": "Issue, roles, questions.",
+          "icon": "lucide:clipboard-list"
+        },
+        {
+          "title": "Open",
+          "text": "Host intro, 1-minute openings.",
+          "icon": "lucide:mic"
+        },
+        {
+          "title": "Q&A",
+          "text": "Audience asks; host follows up.",
+          "icon": "lucide:hand"
+        },
+        {
+          "title": "Sum up",
+          "text": "Main arguments, then your view.",
+          "icon": "lucide:pencil"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What does a panel **host** do?",
+        "options": [
+          "Runs it fairly: turns, time and follow-up questions",
+          "Wins the argument",
+          "Only asks easy questions",
+          "Sits in the audience"
+        ],
+        "answer": 0,
+        "explain": "Also called a moderator.",
+        "vc": [
+          "VPC-U2M1-AP5"
+        ]
+      },
+      {
+        "q": "Which is the best audience question?",
+        "options": [
+          "“How would this affect people who live nearby?”",
+          "“Why are you so selfish?”",
+          "“Don't you agree I'm right?”",
+          "“Yes or no?”"
+        ],
+        "answer": 0,
+        "explain": "Short, open and fair.",
+        "vc": [
+          "VPC-U2M1-AP5"
+        ]
+      },
+      {
+        "q": "Why have panellists with different perspectives?",
+        "options": [
+          "So the audience hears more than one side",
+          "To make it longer",
+          "So everyone agrees",
+          "It doesn't matter"
+        ],
+        "answer": 0,
+        "explain": "Different sides help you decide.",
+        "vc": [
+          "VPC-U2M1-LG3"
+        ]
+      },
+      {
+        "q": "A panellist says, “Basketball courts would be used every day.” What should you ask?",
+        "options": [
+          "What's your evidence?",
+          "Nothing; it's a fact",
+          "What's your favourite colour?",
+          "Why are you here?"
+        ],
+        "answer": 0,
+        "explain": "Is it a fact, or an opinion dressed as one?",
+        "vc": [
+          "VPC-U2M1-LG1"
+        ]
+      },
+      {
+        "q": "When did ABC TV's Q+A first go to air?",
+        "options": [
+          "2008",
+          "1988",
+          "2020",
+          "1998"
+        ],
+        "answer": 0,
+        "explain": "22 May 2008.",
+        "vc": [
+          "VPC-U2M1-LG3"
+        ]
+      },
+      {
+        "q": "What's a **follow-up question**?",
+        "options": [
+          "A second question that digs deeper",
+          "The first question",
+          "A question you never ask",
+          "A question for the host"
+        ],
+        "answer": 0,
+        "explain": "“Can you give an example?”",
+        "vc": [
+          "VPC-U2M1-AP5"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "The tennis club president says only good things about tennis. What might that show?",
+        "options": [
+          "Their position may make them biased",
+          "They're definitely lying",
+          "They're the host",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Position shapes what people say.",
+        "vc": [
+          "VPC-U2M1-AP4"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Join a class panel: as a panellist, the host, or in the audience. Then write what each side said, and what you think.",
+      "core": "Take part in a class issue panel (as a panellist, host or audience member), then write a summary of the arguments and your own view.",
+      "extend": "Participate in a class issue panel in a defined role, question or present perspectives with evidence, then write a summary that separates fact from opinion, identifies bias, and justifies your own view."
+    },
+    "checklist": [
+      "I prepared for my role",
+      "I asked or answered at least one question",
+      "I listened and took notes",
+      "I noticed facts and opinions",
+      "I noticed how perspective shaped what people said",
+      "I wrote a summary with my own view and evidence"
+    ],
+    "levelUp": "Explain which panellist's position most shaped what they said, using evidence from the panel.",
+    "vc": [
+      "VPC-U2M1-LG1",
+      "VPC-U2M1-AP5",
+      "VPC-U2M1-AP6"
+    ],
+    "model": {
+      "kind": "Example summary and view",
+      "text": "**Issue:** Should our school have a four-day week?\n\n**Arguments for**\n- Students with jobs could work a full day without missing class.\n- A longer weekend could help people rest.\n\n**Arguments against**\n- The other four days would be longer and more tiring.\n- Some families need school open five days.\n\n**The strongest point:** Mia said the longer days would be hard for students who catch the bus. I had not thought of that.\n\n**My view:** I am against it for now. I would like a trial for one term first, to see what really happens.",
+      "why": [
+        "It gives both sides fairly.",
+        "It picks out the strongest point and says who made it.",
+        "The view gives a reason and a next step."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Takes part",
+        "start": "Says very little.",
+        "good": "Does your role and follows the run sheet.",
+        "great": "Listens, and builds on what others say."
+      },
+      {
+        "skill": "Summary",
+        "start": "Gives one side only.",
+        "good": "Sums up the arguments on both sides.",
+        "great": "Picks the strongest point from each side."
+      },
+      {
+        "skill": "Own view",
+        "start": "Gives an opinion only.",
+        "good": "Gives a view with a reason.",
+        "great": "Answers a point from the other side."
+      }
+    ],
+    "choices": {
+      "prompt": "Which role would you like?",
+      "options": [
+        "Panellist: you argue a side",
+        "Host: you run the panel",
+        "Audience member: you ask the questions",
+        "Timekeeper or note taker"
+      ]
+    },
+    "solo": "Missed the panel? Find a short panel or debate clip online on any issue. Write the same summary: the arguments on both sides, the strongest point, and your view."
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How to run an issue panel",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What does each **panellist** prepare?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-LG3"
+            ]
+          },
+          {
+            "q": "What does the **host** do?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP5"
+            ]
+          },
+          {
+            "q": "What makes a good audience question?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Run the panel",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a class issue panel",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the panel. Use the word bank. Why does it matter?",
+          "core": "Each number marks part of the run sheet. Write what it is and why it matters."
+        },
+        "columns": [
+          "What is it?",
+          "Why does it matter?"
+        ],
+        "wordBank": {
+          "support": [
+            "host's intro",
+            "different perspectives",
+            "opening statements",
+            "audience questions",
+            "follow-up",
+            "close"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U2M1-AP5",
+          "VPC-U2M1-LG3"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Good question, or fix it?",
+        "pagebreak": true,
+        "choices": [
+          "Good question",
+          "Fix it"
+        ],
+        "reasonLabel": "Why (or how to fix it):",
+        "instructions": "These audience questions are for the tennis courts panel. Good, or fix it?",
+        "cards": [
+          {
+            "from": "Question",
+            "text": "“What evidence shows young people would use basketball courts?”",
+            "answer": "Good question",
+            "flags": "Asks for evidence, fair."
+          },
+          {
+            "from": "Question",
+            "text": "“Why are you so selfish?”",
+            "answer": "Fix it",
+            "flags": "Attacks the person. Ask about the idea."
+          },
+          {
+            "from": "Question",
+            "text": "“How would this affect people who live nearby?”",
+            "answer": "Good question",
+            "flags": "Open and fair."
+          },
+          {
+            "from": "Question",
+            "text": "“Don't you agree basketball is way better?”",
+            "answer": "Fix it",
+            "flags": "Leading. Try: “What are the benefits of each?”"
+          },
+          {
+            "from": "Question",
+            "text": "“Will the club pay, how much, and when, and who decides?”",
+            "answer": "Fix it",
+            "flags": "Too many questions in one.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Question",
+            "text": "“What's one thing the other side gets right?”",
+            "answer": "Good question",
+            "flags": "Fair, and makes people think.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U2M1-AP5"
+        ],
+        "vcNote": "Asking effective questions in discussion."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Q+A, the audience asks",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why might letting the audience ask the questions be a good idea?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP5"
+            ]
+          },
+          {
+            "q": "What does a good host need to do?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP5"
+            ]
+          },
+          {
+            "q": "What could go wrong on a panel, and how could you stop it?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP5",
+              "VPC-U2M1-LG3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission, step 1: prepare my role",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 22
+        },
+        "instructions": "Your class chooses an issue and roles. Prepare for yours. Audience members: prepare as if you were a panellist, then write two questions.",
+        "columns": [
+          "Part",
+          "My plan"
+        ],
+        "rows": [
+          [
+            "The issue",
+            ""
+          ],
+          [
+            "My role (panellist, host or audience)",
+            ""
+          ],
+          [
+            "My position (one sentence)",
+            ""
+          ],
+          [
+            "Main point 1 and evidence (fact or opinion?)",
+            ""
+          ],
+          [
+            "Main point 2 and evidence (fact or opinion?)",
+            ""
+          ],
+          [
+            "Question I'll ask (or might be asked)",
+            ""
+          ],
+          {
+            "cells": [
+              "A follow-up question",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U2M1-LG1",
+          "VPC-U2M1-LG3"
+        ],
+        "vcNote": "Preparing a position with evidence, distinguishing fact from opinion."
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: run the panel",
+        "pagebreak": true,
+        "where": "in class",
+        "instructions": "Run your class issue panel. Follow the run sheet: host intro, one-minute openings, audience questions, follow-ups, and a close.",
+        "need": [
+          "an issue",
+          "a host",
+          "three or four panellists",
+          "question cards",
+          "a timer"
+        ],
+        "steps": {
+          "support": [
+            "Set up the room.",
+            "The host explains the issue and rules.",
+            "Each panellist talks for one minute.",
+            "The audience asks questions. Take notes.",
+            "The host sums up."
+          ],
+          "core": [
+            "Set up: panellists at the front, host in the middle, audience with question cards.",
+            "The host introduces the issue and the rules.",
+            "Each panellist gives a one-minute opening.",
+            "The host picks audience questions and asks follow-ups. Everyone takes notes: main points, facts, opinions.",
+            "The host sums up. Then everyone writes a summary."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My role:",
+            "lines": 1
+          },
+          {
+            "label": "The question I asked or answered:",
+            "lines": 1
+          },
+          {
+            "label": "One fact and one opinion I heard:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Teacher saw it",
+          "Question cards",
+          "Notes"
+        ],
+        "vc": [
+          "VPC-U2M1-AP5",
+          "VPC-U2M1-LG1"
+        ],
+        "vcNote": "Hands-on: participating effectively in a whole-class panel discussion."
+      },
+      {
+        "type": "write",
+        "title": "Step 3: my summary",
+        "pagebreak": true,
+        "prompt": {
+          "support": "Write a short summary (about 100 words): the issue, two sides, and what you think.",
+          "core": "Write a summary of the panel (about 150 to 200 words): the issue, the main argument from at least two sides, one fact and one opinion you heard, and your own view with evidence.",
+          "extend": "Write a 200 to 250 word summary that states the issue, outlines at least two positions, distinguishes facts from opinions, notes any bias, and justifies your own view."
+        },
+        "plan": [
+          {
+            "label": "Side A's main argument",
+            "lines": 1
+          },
+          {
+            "label": "Side B's main argument",
+            "lines": 1
+          }
+        ],
+        "starters": {
+          "support": [
+            "The panel talked about…",
+            "One side said…",
+            "The other side said…",
+            "I think… because…"
+          ],
+          "core": [
+            "The panel discussed…",
+            "On one side, ___ argued that…",
+            "On the other side, ___ said…",
+            "One fact was… One opinion was…",
+            "I think… because…"
+          ]
+        },
+        "lines": {
+          "support": 10,
+          "core": 11
+        },
+        "check": [
+          "the issue is clear",
+          "two sides summarised",
+          "fact and opinion named",
+          "my view with evidence",
+          "full sentences, capitals, full stops, spelling"
+        ],
+        "vc": [
+          "VPC-U2M1-LG1",
+          "VPC-U2M1-AP6"
+        ],
+        "vcNote": "Summarising main arguments and applying the conventions of literacy."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Which panellist's **position** most shaped what they said? Give two examples from the panel as evidence.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M1-AP4"
+            ]
+          },
+          {
+            "q": "Was anything **left out** by one side that the other side raised? What does that tell you?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M1-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find the main points on each side.",
+          "I can tell fact from opinion.",
+          "I can ask a fair question.",
+          "I can explain how perspective shaped what people said."
+        ],
+        "questions": [
+          "The issue we discussed:",
+          "My best question:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The Issues & Voices boss level. Students run a class issue panel on a community issue: they prepare roles (host, three or four panellists with different perspectives, and an audience with question cards), run a Q&A with openings, audience questions and follow-ups, then write a summary separating fact from opinion and stating their own view with evidence. The case study is ABC TV's Q+A, which since 22 May 2008 has put a panel with differing views in front of a studio audience that asks the questions.",
+    "prep": [
+      "Choose (or let students vote on) a genuine local or school issue with at least two sides.",
+      "Prepare role cards for panellists with different perspectives.",
+      "Index cards for audience questions; a timer.",
+      "Optional: show a short, appropriate segment of Q+A to model the format."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — How a panel works",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** who gets to ask the questions on TV?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a class panel (10 min).**",
+          "**Good question, or fix it? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Prepare",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** Q+A.",
+          "**Choose the issue and roles (10 min).**",
+          "**Prepare my role (25 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Run the panel",
+        "minutes": 50,
+        "steps": [
+          "**Do it (40 min):** run the panel.",
+          "**Debrief (10 min):** what worked?"
+        ]
+      },
+      {
+        "title": "Lesson 4 — Summarise",
+        "minutes": 60,
+        "steps": [
+          "**My summary (35 min).**",
+          "**Level Up, reflect (25 min):** request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "An issue panel needs a contested issue, different perspectives, a fair host and audience questions.",
+      "Panellists prepare a position, two points with evidence, and a one-minute opening.",
+      "Good questions are short, open and fair; follow-ups probe evidence.",
+      "Listen for main arguments, facts versus opinions, and how perspective shapes claims.",
+      "Summarise both sides, then give your own view with evidence.",
+      "Q+A (ABC TV, since 22 May 2008): a panel, a studio audience asking questions, and a moderating host."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the run sheet.",
+        "Fewer sort cards.",
+        "Audience role with prepared question cards; shorter summary."
+      ],
+      "extend": [
+        "Host or panellist roles.",
+        "Analyse bias and omissions (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U2M1-LG1",
+        "evidence": "Identifies main arguments and distinguishes fact from opinion (preparation, notes, summary)."
+      },
+      {
+        "vc": "VPC-U2M1-LG3",
+        "evidence": "Identifies how perspective and bias influence speakers (role preparation, panel, summary)."
+      },
+      {
+        "vc": "VPC-U2M1-AP5",
+        "evidence": "Listens and participates effectively in whole-class discussion, using evidence (Do it)."
+      },
+      {
+        "vc": "VPC-U2M1-AP6",
+        "evidence": "Applies conventions of literacy in the written summary."
+      },
+      {
+        "vc": "VPC-U2M1-AP4",
+        "evidence": "Level Up: shows awareness of how a panellist's position shaped their content."
+      }
+    ],
+    "answers": "**Check your reading:** a one-sentence position, two points with evidence (fact or opinion), and a one-minute opening. Introduces the issue and rules, gives fair turns, keeps time, stops interruptions, asks follow-ups. Short, open, fair (about ideas, not people).\n\n**Run sheet:** 1 host intro with rules; 2 panel with different perspectives; 3 timed openings; 4 audience questions chosen fairly; 5 follow-up for evidence; 6 close and summaries.\n\n**Sort:** evidence question — good; selfish — fix; nearby residents — good; leading — fix; four-in-one — fix; other side gets right — good.\n\n**Case study:** the audience asks what it actually wants to know; fair turns, time, follow-ups, calm; interruptions, attacks, one person dominating — use rules, timers and a firm host.",
+    "resources": [
+      {
+        "label": "Wikipedia — Q+A (Australian talk show)",
+        "url": "https://en.wikipedia.org/wiki/Q%2BA_(Australian_talk_show)"
+      },
+      {
+        "label": "ABC — Q+A",
+        "url": "https://www.abc.net.au/qanda"
+      }
+    ],
+    "realityCheck": [
+      "**Choose the issue carefully.** Local and concrete beats national and political.",
+      "**Role-play helps.** Students can argue a perspective they don't hold; make that clear.",
+      "**The host role is hard.** Coach a confident student, or co-host yourself.",
+      "**Keep it respectful.** Set rules up front and enforce them kindly.",
+      "**Works in a real class:** yes. A lively finish to the zone."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the run sheet, fewer sort cards, an audience role with prepared questions, and a shorter summary.",
+      "core": "Standard version: how to run an issue panel, a run sheet to annotate, a question sort, the Q+A case, preparing a role, running the panel, and writing a summary.",
+      "extend": "Adds follow-up question and moderator to the vocabulary, a quiz question on bias, host and panellist roles, and Level Ups on how position shaped what panellists said."
+    }
+  }
+}

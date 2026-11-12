@@ -447,7 +447,46 @@
       "VPC-U3M1-AP2",
       "VPC-U3M1-LG3",
       "VPC-U3M1-AP4"
-    ]
+    ],
+    "model": {
+      "kind": "Example group plan",
+      "text": "**Our goal:** Get ten more students at our school on the roll this term.\n\n**What we know:** You can enrol at 16 or 17, so you are ready to vote when you turn 18. It takes about five minutes on the AEC website.\n\n**Our plan**\n1. **Poster** near the canteen: “16 or older? Enrol in five minutes.” With a QR code to aec.gov.au/enrol.\n2. **Lunchtime table** on Wednesday, with two laptops.\n3. **What to bring:** ID, like a driver licence, a Medicare card or a passport.\n\n**Who does what:** Jas makes the poster. Tom books the laptops. I talk to the Year 11 coordinator.",
+      "why": [
+        "The goal has a number and a date.",
+        "The facts come from the AEC.",
+        "Everyone in the group has a job."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "The form",
+        "start": "Has gaps or mistakes.",
+        "good": "Complete and correct (real or practice).",
+        "great": "Checked against your ID before you sent it."
+      },
+      {
+        "skill": "Knows the facts",
+        "start": "Not sure who can enrol.",
+        "good": "Knows who can enrol, and how.",
+        "great": "Can explain it to someone else."
+      },
+      {
+        "skill": "Group plan",
+        "start": "Says little.",
+        "good": "Adds an idea and takes a job.",
+        "great": "Helps make the plan real and doable."
+      }
+    ],
+    "choices": {
+      "prompt": "How would you like to help get people on the roll?",
+      "options": [
+        "Make a poster or a post",
+        "Run an enrolment table at lunch",
+        "Give a short talk to a class",
+        "Make a 30-second video"
+      ]
+    },
+    "solo": "No group? Make your own mini plan. Do one thing that could get one more person on the roll, like a poster, a post or a chat with a friend. Write down what happened."
   },
   "workbook": {
     "pages": [

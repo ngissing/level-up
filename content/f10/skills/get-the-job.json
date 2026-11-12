@@ -472,7 +472,45 @@
       "VC2E6LY09",
       "VC2E6LA01",
       "VC2E6LY02"
-    ]
+    ],
+    "model": {
+      "kind": "Example cover email",
+      "text": "**Subject:** Application for Casual Sales Assistant\n\nDear Ms Rossi,\n\nI would like to apply for the Casual Sales Assistant job at Rossi's Hardware, which I saw on SEEK.\n\nYour ad asks for someone reliable who enjoys helping people. I have volunteered at my local Men's Shed for a year, helping visitors find tools and parts. I have never missed a Saturday.\n\nI am free after 3:30 pm on weekdays and all day on weekends.\n\nMy resume is attached. I would love the chance to meet you.\n\nYours sincerely,\nEli Brown\n0400 000 000",
+      "why": [
+        "It uses words from the ad, like “reliable” and “helping people”.",
+        "It gives proof with a real example.",
+        "It is short and polite, and says when you can work."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Tailored application",
+        "start": "The same resume and email for any job.",
+        "good": "Resume and email match this ad.",
+        "great": "Uses the ad's own words, with proof for each."
+      },
+      {
+        "skill": "Mock interview",
+        "start": "Short answers. Not prepared.",
+        "good": "Clear answers, with STAR stories.",
+        "great": "Asks a smart question and shows you know the business."
+      },
+      {
+        "skill": "Follow-up",
+        "start": "Not done yet.",
+        "good": "Sends a polite thank-you message.",
+        "great": "Mentions something from the interview and the next step."
+      }
+    ],
+    "choices": {
+      "prompt": "Which job will you go for?",
+      "options": [
+        "A real local job that is being advertised now",
+        "An apprenticeship or traineeship",
+        "A job at a business you already know"
+      ]
+    },
+    "solo": "No interview panel? Record yourself answering four questions on a phone. Send the video to your teacher with your application. Then write your follow-up message."
   },
   "workbook": {
     "pages": [

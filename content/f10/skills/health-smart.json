@@ -500,7 +500,46 @@
       "VC2E6LY08",
       "VC2E5LA02",
       "VC2E5LY01"
-    ]
+    ],
+    "model": {
+      "kind": "Example fact-check",
+      "text": "**The claim:** A video says energy drinks are fine for teenagers, because they are “just like coffee”.\n\n**Who says so?** The video was made by an energy drink brand. They want to sell drinks.\n\n**What trusted sources say:** I checked Healthdirect and the label on a can. The can says it is not recommended for children. Healthdirect says too much caffeine can cause a fast heartbeat and poor sleep.\n\n**Verdict:** Misleading. The video leaves out the warning that is on its own can.\n\n**A question for my pharmacist:** “How much caffeine is safe for someone my age?”",
+      "why": [
+        "It asks who made the claim and why.",
+        "It checks two trusted sources and names them.",
+        "It ends with a clear question for a professional."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Checks the source",
+        "start": "Takes the claim as true.",
+        "good": "Asks who made it and why.",
+        "great": "Spots what the source gains from the claim."
+      },
+      {
+        "skill": "Uses trusted sources",
+        "start": "Uses one source, or an unreliable one.",
+        "good": "Checks two trusted sources.",
+        "great": "Compares them and names each one."
+      },
+      {
+        "skill": "Asks clear questions",
+        "start": "Has no questions ready.",
+        "good": "Asks clear questions in the role-play.",
+        "great": "Checks the answer by saying it back."
+      }
+    ],
+    "choices": {
+      "prompt": "Which health claim will you check?",
+      "options": [
+        "A claim about food, drinks or supplements",
+        "A claim about sleep, vaping or fitness",
+        "A “miracle cure” from social media",
+        "A skin or beauty tip"
+      ]
+    },
+    "solo": "No partner? Write your three questions on a card. Record yourself asking them, as if you were at the pharmacy. Play it back. Are they clear and short?"
   },
   "workbook": {
     "pages": [

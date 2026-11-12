@@ -442,7 +442,46 @@
     "vc": [
       "VPC-U1M1-LG3",
       "VPC-U1M1-AP4"
-    ]
+    ],
+    "model": {
+      "kind": "Example how-to",
+      "text": "**How to pump up a bike tyre**\n\n**You need:** a bike pump.\n\n1. **Find** the valve on the wheel. It is the small metal tube.\n2. **Take off** the plastic cap. Put it in your pocket.\n3. **Push** the pump head onto the valve.\n4. **Flip** the lever on the pump head to lock it.\n5. **Pump** until the tyre feels firm when you squeeze it.\n6. **Flip** the lever back and pull the pump head off.\n7. **Put** the cap back on.\n\n**Careful:** Do not pump past the number printed on the side of the tyre.",
+      "why": [
+        "Each step has one action and starts with a verb.",
+        "The steps are in the order you do them.",
+        "It says what you need, and gives a warning."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Clear steps",
+        "start": "Steps are missing or mixed up.",
+        "good": "Numbered steps in the right order.",
+        "great": "One action in each step. Nothing to guess."
+      },
+      {
+        "skill": "Tested",
+        "start": "Not tested yet.",
+        "good": "A partner followed it exactly.",
+        "great": "You watched and wrote down every problem."
+      },
+      {
+        "skill": "Fixed",
+        "start": "No changes made.",
+        "good": "Fixed the steps that went wrong.",
+        "great": "The second test works first time."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your how-to teach?",
+      "options": [
+        "Something from a hobby or sport",
+        "A job at home: cooking, fixing or cleaning",
+        "Something on a phone or computer",
+        "A skill from your work or VET course"
+      ]
+    },
+    "solo": "No partner? Follow your own how-to **exactly**, and film your hands. Do only what the words say. Each time you have to guess, fix that step."
   },
   "workbook": {
     "pages": [

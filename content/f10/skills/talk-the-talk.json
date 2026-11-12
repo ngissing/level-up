@@ -458,7 +458,45 @@
       "VC2E6LA01",
       "VC2E5LY01",
       "VC2E4LA01"
-    ]
+    ],
+    "model": {
+      "kind": "Example message: calling in sick",
+      "text": "Hi Sam,\n\nIt's Jordan from the Saturday crew. I am sorry, but I am sick and cannot work my shift today, 10 am to 4 pm. I have a fever and I do not want to pass it on.\n\nI have messaged Tayla, and she can cover from 10 am.\n\nI will be back for my Tuesday shift. I can bring a medical certificate if you need one.\n\nThanks,\nJordan",
+      "why": [
+        "It says who, what and when in the first two lines.",
+        "It offers a fix: someone to cover the shift.",
+        "It is polite but not too formal. That suits a manager you know."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Right level of formality",
+        "start": "All three sound the same.",
+        "good": "Each message suits the person and the reason.",
+        "great": "Greeting, words and sign-off are all chosen on purpose."
+      },
+      {
+        "skill": "Clear and complete",
+        "start": "Key details are missing.",
+        "good": "Says who, what, when and what you need.",
+        "great": "Offers a fix, so the manager has less to do."
+      },
+      {
+        "skill": "Role-play",
+        "start": "Reads the message out word for word.",
+        "good": "Speaks clearly and listens to the reply.",
+        "great": "Stays calm and polite when the answer is “no”."
+      }
+    ],
+    "choices": {
+      "prompt": "Which message will you role-play?",
+      "options": [
+        "Calling in sick",
+        "Asking to swap a shift",
+        "Asking your manager a question about pay or hours"
+      ]
+    },
+    "solo": "No partner? Record yourself on a phone. Say your part, pause, and then answer the way a manager might. Play it back and check your tone."
   },
   "workbook": {
     "pages": [

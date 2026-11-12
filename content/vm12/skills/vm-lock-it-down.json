@@ -457,7 +457,44 @@
     "vc": [
       "VM-U1O2-KK6",
       "VM-U1O2-KK4"
-    ]
+    ],
+    "model": {
+      "kind": "Example guide for younger students",
+      "text": "**4 habits that keep your accounts safe**\n\n**1. Use a passphrase.** Four random words beat one tricky word. *purple-tractor-seven-toast* is strong and easy to remember.\n\n**2. Turn on two-step login.** Then a stolen password is not enough to get in.\n\n**3. Stop and check links.** Did you ask for this message? If not, do not tap it.\n\n**4. Update your apps.** Updates fix the holes that hackers use.\n\n**If something goes wrong:** Tell an adult you trust. Change your password. Report it.",
+      "why": [
+        "It has four short habits, and each starts with an action.",
+        "Each habit has a reason or an example.",
+        "The words suit younger students. There is no jargon."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Security check-up",
+        "start": "Checks one thing.",
+        "good": "Checks passwords, two-step login and privacy.",
+        "great": "Fixes what you found, and can show it."
+      },
+      {
+        "skill": "The four habits",
+        "start": "Habits are unclear or wrong.",
+        "good": "Four correct habits, clearly explained.",
+        "great": "Each habit has a reason or an example."
+      },
+      {
+        "skill": "Fits the audience",
+        "start": "Written for adults or experts.",
+        "good": "Words and design suit younger students.",
+        "great": "Tested on a younger student and improved."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of guide will you make?",
+      "options": [
+        "A poster for the Year 7 area",
+        "A social media post or story",
+        "A slide for a year-level assembly"
+      ]
+    }
   },
   "workbook": {
     "pages": [

@@ -468,7 +468,46 @@
       "VM-U2O1-KS8",
       "VM-U2O1-KK6",
       "VM-U2O1-KK5"
-    ]
+    ],
+    "model": {
+      "kind": "Example meeting contributions",
+      "text": "**The issue:** Should our class move lunch to a later time on Fridays?\n\n**Making a point**\n“Thank you, Chair. I support the change. Most of us have practical classes on Friday morning, and we lose time packing up early. A later lunch would give us a full session.”\n\n**Asking a question**\n“Through the Chair: a question for Mia. You said the canteen might run out of food. Do we know what time it closes?”\n\n**Helping decide**\n“I move that we ask the canteen first, and vote next week when we have the facts.”",
+      "why": [
+        "It follows the rules. It speaks through the Chair.",
+        "The point has a reason behind it.",
+        "It helps the group move towards a decision."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Follows the rules",
+        "start": "Talks over others, or stays out of it.",
+        "good": "Waits for a turn and speaks through the Chair.",
+        "great": "Helps others follow the rules too."
+      },
+      {
+        "skill": "Makes a point",
+        "start": "Gives an opinion only.",
+        "good": "Gives a point with a reason.",
+        "great": "Uses evidence and links to what others said."
+      },
+      {
+        "skill": "Listens and helps decide",
+        "start": "Does not respond to others.",
+        "good": "Asks a question and votes.",
+        "great": "Suggests a way forward that most can accept."
+      }
+    ],
+    "choices": {
+      "prompt": "Which role would you like in the meeting?",
+      "options": [
+        "Chair: you run the meeting",
+        "Speaker for or against",
+        "Note taker: you record the decisions",
+        "Timekeeper"
+      ]
+    },
+    "solo": "Missed the meeting? Watch part of a real council meeting online. Note two rules you see people follow. Then write the point and the question **you** would have added."
   },
   "workbook": {
     "pages": [

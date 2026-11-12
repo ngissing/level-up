@@ -456,7 +456,45 @@
       "VC2E4LY10",
       "VC2E5LY10",
       "VC2E5LY11"
-    ]
+    ],
+    "model": {
+      "kind": "Example message to a boss",
+      "text": "**Subject:** Shift on Saturday 14 June\n\nHi Priya,\n\nI am rostered on this Saturday from 9 am to 3 pm. I have a family event that day, and I only found out last night.\n\nCould I please swap to Sunday? Jake says he can cover my Saturday shift.\n\nSorry for the short notice. Please let me know if that works.\n\nThanks,\nMia Tran",
+      "why": [
+        "It starts with a greeting and ends with a full name.",
+        "It gives the facts the boss needs: the day, the time and a fix.",
+        "It is polite and has no slang, emojis or text talk."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Right tone",
+        "start": "Sounds the same for every reader.",
+        "good": "Each message suits its reader.",
+        "great": "Word choice, greeting and sign-off all change to fit each reader."
+      },
+      {
+        "skill": "Clear message",
+        "start": "The reader has to guess what you want.",
+        "good": "Says what you want and why.",
+        "great": "Gives every detail the reader needs, and nothing extra."
+      },
+      {
+        "skill": "Polished",
+        "start": "Some mistakes get in the way.",
+        "good": "Full sentences, with capitals and full stops.",
+        "great": "Checked and fixed. Ready to send to a real boss."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your polished message be about?",
+      "options": [
+        "Asking a boss to change a shift",
+        "Asking a teacher for more time on a task",
+        "Asking a coach or club about joining",
+        "Asking a business about work experience"
+      ]
+    }
   },
   "workbook": {
     "pages": [

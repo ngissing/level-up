@@ -444,7 +444,45 @@
     "vc": [
       "VM-U1O1-KS9",
       "VM-U1O1-KS10"
-    ]
+    ],
+    "model": {
+      "kind": "Example email to an employer",
+      "text": "**Subject:** Work placement enquiry: Certificate II in Automotive\n\nDear Mr O'Brien,\n\nMy name is Zane Morris. I am in Year 11 at Phoenix College. I am doing a Certificate II in Automotive.\n\nI am looking for a work placement for one week, from 4 to 8 August. I would like to come to your workshop because you service diesel utes. That is the work I want to do.\n\nI have my own safety boots and glasses. I can start at 7 am.\n\nCould I please call in to talk about a placement?\n\nYours sincerely,\nZane Morris\n0400 000 000",
+      "why": [
+        "It is planned. Each paragraph has one job.",
+        "It uses capitals, full stops and full sentences.",
+        "It tells the employer why you chose **them**."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Fixes mistakes",
+        "start": "Finds a few mistakes.",
+        "good": "Finds and fixes most of them.",
+        "great": "Can name the rule behind each fix."
+      },
+      {
+        "skill": "Plans and drafts",
+        "start": "Writes without a plan.",
+        "good": "Plans, then drafts in clear paragraphs.",
+        "great": "Each paragraph has one job, in a logical order."
+      },
+      {
+        "skill": "Polished",
+        "start": "Still has mistakes in spelling or punctuation.",
+        "good": "Proofread. Correct spelling and punctuation.",
+        "great": "Ready to send to a real employer."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your email ask for?",
+      "options": [
+        "A work placement",
+        "A casual or part-time job",
+        "Information about an apprenticeship",
+        "A reference from someone you have worked for"
+      ]
+    }
   },
   "workbook": {
     "pages": [

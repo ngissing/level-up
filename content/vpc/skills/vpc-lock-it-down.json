@@ -469,7 +469,45 @@
     "levelUp": "Compare the language and tone of a real security alert with a phishing message, and explain what they tell you about reliability.",
     "vc": [
       "VPC-U1M2-LG3"
-    ]
+    ],
+    "model": {
+      "kind": "Example lock-down record",
+      "text": "**Account:** My main email\n\n**1. Passphrase.** I changed it to four random words with a number. I did not use my name or my birthday. I did not write it here.\n\n**2. Two-step login.** I turned it on. Now it sends a code to my phone.\n\n**3. Recovery.** My old phone number was still listed. I changed it to my new one.\n\n**4. Privacy.** I checked which apps can see my account. I removed two that I do not use.\n\n**Proof for my teacher:** I showed the settings screen that says “2-Step Verification: On”.",
+      "why": [
+        "It does all four steps and says what changed.",
+        "It keeps the passphrase private.",
+        "It shows proof without showing the password."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Strong passphrase",
+        "start": "Uses a short or old password.",
+        "good": "Uses a long, new passphrase.",
+        "great": "Different from every other account. Not written down."
+      },
+      {
+        "skill": "Two-step login",
+        "start": "Not turned on.",
+        "good": "Turned on.",
+        "great": "Has a back-up way in, like saved codes."
+      },
+      {
+        "skill": "Privacy and recovery",
+        "start": "Not checked.",
+        "good": "Checked and updated.",
+        "great": "Removed old apps, devices or numbers."
+      }
+    ],
+    "choices": {
+      "prompt": "Which account will you lock down?",
+      "options": [
+        "Your main email",
+        "Your main social media account",
+        "Your bank or myGov account",
+        "A game account you have spent money on"
+      ]
+    }
   },
   "workbook": {
     "pages": [

@@ -445,7 +445,46 @@
       "VPC-U1M2-AP4",
       "VPC-U1M2-AP5",
       "VPC-U1M2-AP6"
-    ]
+    ],
+    "model": {
+      "kind": "Example test record",
+      "text": "**Question 1:** “What is the speed limit in a Victorian school zone?”\n**The bot said:** Mostly 40 km/h at school times.\n**My check:** The Transport Victoria website says the same. **Right.**\n\n**Question 2:** “What time does my local pool open on Sundays?”\n**The bot said:** 6 am.\n**My check:** The pool's own website says 8 am. **Wrong.** The bot sounded sure, but it was guessing.\n\n**What I learned:** The bot did well on a well-known rule. It got a local fact wrong. I would always check opening times, prices and names.\n\n**A rule for our class:** “Check any fact before you use it.”",
+      "why": [
+        "Each question is one that can be checked.",
+        "It names the source that was used to check.",
+        "It turns what happened into a rule for the class."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Tests the bot",
+        "start": "Asks things you can't check.",
+        "good": "Asks three questions you can check.",
+        "great": "Mixes easy, local and tricky questions."
+      },
+      {
+        "skill": "Checks the answers",
+        "start": "Trusts the bot.",
+        "good": "Checks each answer on a reliable source.",
+        "great": "Names the source and says what was wrong."
+      },
+      {
+        "skill": "Class rules",
+        "start": "Has no ideas to add.",
+        "good": "Suggests a rule.",
+        "great": "Backs the rule with your own evidence."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you test the bot on?",
+      "options": [
+        "Road rules or getting your licence",
+        "Your sport, game or hobby",
+        "Local facts: opening hours, places, events",
+        "Something from your job or VET course"
+      ]
+    },
+    "solo": "Missed the class discussion? Write your three best rules for using AI. Give one piece of evidence from your test for each rule, and hand them to your teacher."
   },
   "workbook": {
     "pages": [

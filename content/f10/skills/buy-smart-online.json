@@ -468,7 +468,44 @@
       "VC2E6LY08",
       "VC2E5LA02",
       "VC2E6LA02"
-    ]
+    ],
+    "model": {
+      "kind": "Example recommendation",
+      "text": "**Should you buy the SoundPod earbuds from DealZone? No.**\n\nI checked three things.\n\n**The shop.** The website has no ABN, no phone number and no street address. These are warning signs of a fake shop.\n\n**The reviews.** All 40 reviews have five stars. They were all posted in the same week. Real reviews are mixed.\n\n**The price.** The earbuds cost $29 here. Three other shops sell them for $120 to $150.\n\nMy advice: buy them from a shop you can check, and pay with PayPal or a credit card.",
+      "why": [
+        "The answer comes first: buy or don't buy.",
+        "Each reason has evidence from a different source.",
+        "It ends with safe advice the reader can use."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Checks the shop",
+        "start": "Looks at the shop's own website only.",
+        "good": "Checks the shop in two or more places.",
+        "great": "Checks contact details, reviews and the returns rules."
+      },
+      {
+        "skill": "Uses evidence",
+        "start": "Says “it looks dodgy” or “it looks fine”.",
+        "good": "Gives evidence for each reason.",
+        "great": "Says where each piece of evidence came from."
+      },
+      {
+        "skill": "Recommends",
+        "start": "Gives an opinion.",
+        "good": "Clear advice with reasons.",
+        "great": "Clear advice, plus how to pay and buy safely."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you check?",
+      "options": [
+        "Something you really want to buy",
+        "A shop from an ad in your feed",
+        "A deal that looks too good to be true"
+      ]
+    }
   },
   "workbook": {
     "pages": [

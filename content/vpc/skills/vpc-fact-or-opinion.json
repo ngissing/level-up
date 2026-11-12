@@ -1,0 +1,938 @@
+{
+  "id": "vpc-fact-or-opinion",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "“Best burger in town.” “Opens at 11am.” “Too expensive.” “Burgers cost $18.” Some you can check. Some are just what someone thinks. Can you tell which?",
+      "core": "“Best burger in Melbourne.” “Opens at 11am.” “Way overpriced.” “Burgers cost $18.” Some of these can be checked. Some are just what someone thinks. If you can't tell the difference, anyone can spin you. If you can, nobody can."
+    },
+    "why": {
+      "support": "Reviews, ads and posts mix facts and opinions. Facts can be checked. Opinions can't. Sorting them helps you make better choices.",
+      "core": "Reviews, ads, posts, news and speeches mix facts and opinions together, often in the same sentence. Facts can be checked. Opinions can't, but they can still be useful, if you know whose opinion it is and why. Sorting one from the other helps you make better choices about what to buy, believe and share.",
+      "extend": "Persuasive and influential texts blend verifiable facts with opinions, sometimes within one sentence. Distinguishing between them, and identifying the main argument they build, lets you evaluate claims, make informed decisions and resist manipulation."
+    },
+    "canDo": {
+      "support": [
+        "I can tell a fact from an opinion.",
+        "I can spot opinion words.",
+        "I can find the main point.",
+        "I can check a fact."
+      ],
+      "core": [
+        "I can tell a **fact** from an **opinion**.",
+        "I can spot **opinion words** like *best*, *should* and *terrible*.",
+        "I can find the **main argument** in a review, ad or post.",
+        "I can check a fact with another source."
+      ]
+    },
+    "showIt": "Pull apart a real review or opinion post: mark the facts and opinions, check two facts, and tell your group whether to trust it.",
+    "vocab": [
+      {
+        "word": "fact",
+        "meaning": "something that can be checked and proved true or false",
+        "example": "The shop opens at 9am. That's a fact."
+      },
+      {
+        "word": "opinion",
+        "meaning": "what someone thinks, feels or believes",
+        "example": "“It's the best shop in town” is an opinion."
+      },
+      {
+        "word": "evidence",
+        "meaning": "facts that support a point",
+        "example": "The price list was my evidence."
+      },
+      {
+        "word": "review",
+        "meaning": "someone's opinion of a product, place or service",
+        "example": "The review gave it three stars."
+      },
+      {
+        "word": "claim",
+        "meaning": "something a person says is true",
+        "example": "The claim was that the gym was always crowded."
+      },
+      {
+        "word": "argument",
+        "meaning": "a point of view, backed up with reasons",
+        "example": "Her argument was that the park needs lights."
+      },
+      {
+        "word": "signal word",
+        "meaning": "a word that shows something is an opinion",
+        "example": "“Should” is a signal word.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "verify",
+        "meaning": "check that something is true",
+        "example": "I verified the price on the website.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Fact or Opinion? in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Fact or Opinion?",
+        "sub": "Know the difference.",
+        "icon": "lucide:scale",
+        "say": "Fact or opinion? Know the difference and nobody can spin you."
+      },
+      {
+        "kind": "big",
+        "title": "Check it, or think it?",
+        "text": "Fact = **check** · Opinion = **think**",
+        "icon": "lucide:scale",
+        "say": "A fact can be checked. Opens at eleven. Costs eighteen dollars. An opinion is what someone thinks. Best burger. Way overpriced.",
+        "vc": [
+          "VPC-U2M1-LG1"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Reviews can be rigged",
+        "text": "$3 million",
+        "icon": "lucide:star-half",
+        "say": "In 2018, the Federal Court ordered Meriton to pay three million dollars. It had stopped some unhappy guests getting TripAdvisor's invitations to write a review.",
+        "vc": [
+          "VPC-U2M1-LG1",
+          "VPC-U2M1-AP1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Sort it",
+        "pillIcon": "lucide:scale",
+        "title": "Opinion words",
+        "text": "best · should · **terrible**",
+        "icon": "lucide:message-circle",
+        "say": "Look for opinion words: best, worst, should, amazing, terrible, I think.",
+        "vc": [
+          "VPC-U2M1-LG1",
+          "VPC-U2M1-AP2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Sort it",
+        "pillIcon": "lucide:scale",
+        "title": "Facts",
+        "text": "Numbers · Dates · **Places**",
+        "icon": "lucide:hash",
+        "say": "Look for facts: numbers, dates, times, places. Then check them.",
+        "vc": [
+          "VPC-U2M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Sort it",
+        "pillIcon": "lucide:scale",
+        "title": "Mixed",
+        "text": "Fact **+** opinion",
+        "icon": "lucide:split",
+        "say": "Watch for mixed sentences. It cost two million dollars, and it's a waste. Fact, then opinion.",
+        "vc": [
+          "VPC-U2M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Sort it",
+        "pillIcon": "lucide:scale",
+        "title": "Main argument",
+        "text": "Point + **reasons**",
+        "icon": "lucide:target",
+        "say": "Find the main argument. What do they want you to think, and what reasons do they give?",
+        "vc": [
+          "VPC-U2M1-AP1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Sort any text",
+        "steps": [
+          "Spot opinions",
+          "Check facts",
+          "Find the argument"
+        ],
+        "say": "Spot the opinions, check the facts, then find the main argument."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Facts **checked**. Opinions **noticed**.",
+        "icon": "lucide:scale",
+        "say": "Your mission. Pull apart a real review, and decide whether to trust it."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Fact or opinion?",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Reviews, ads and posts mix **facts** and **opinions**.\n\n**A fact can be checked.** *The gym opens at 6am. It costs $25 a week.* You could check if it's true.\n\n**An opinion is what someone thinks.** *It's the best gym. It's too expensive.* You can't prove it.\n\n**Opinion words**\n\n- *best, worst, amazing, terrible*\n- *should, must*\n- *I think, I reckon*\n- *too, way too*.\n\n**Mixed sentences.** *“The skate park cost $2 million, and it's a waste.”* The cost is a fact. *A waste* is an opinion.\n\n**Opinions can help.** A review from someone who went there is useful. Just know it's an opinion.\n\n**Find the main point.** What does the writer want you to think? What reasons do they give? Are they facts or opinions?\n\n**Star ratings** are lots of opinions added up. They can be faked. Read the bad reviews too.",
+          "core": "Every day you read reviews, ads, posts and news that mix **facts** and **opinions**. Knowing which is which is one of the most useful reading skills there is.\n\n**Facts can be checked.** A **fact** can be proved true or false. *The gym opens at 6am. Membership costs $25 a week. The council voted 6 to 3.* You might not know if it's true yet, but you could check.\n\n**Opinions are what someone thinks.** An **opinion** is a feeling, belief or judgement. *It's the best gym in town. It's way too expensive. The council made the wrong call.* You can agree or disagree, but you can't prove it.\n\n**Signal words.** Opinions often use words like:\n\n- *best, worst, greatest, terrible, amazing, boring*\n- *should, must, ought to*\n- *I think, I believe, I reckon, in my view*\n- *too, way too, much better*.\n\n**Mixed sentences.** Lots of sentences have both. *“The new skate park cost $2 million, and it's a total waste.”* The cost is a fact. *Total waste* is an opinion.\n\n**Opinions aren't bad.** A review from someone who's been there can be really useful. Expert opinions, like a doctor's advice, are worth listening to. Just know it's an opinion, and think about who's giving it and why.\n\n**Finding the main argument.** Persuasive texts make a point, then back it up. Ask:\n\n1. What does the writer want me to think or do? (That's the **main argument**.)\n2. What **reasons** do they give?\n3. Which reasons are **facts**, and which are **opinions**?\n4. Can I **check** the facts?\n\n**Reviews and stars.** A star rating is a lot of opinions added together. It can be useful. But reviews can be faked, paid for, or filtered so only the good ones show. Read a few of the worst ones too.",
+          "extend": "Reviews, advertisements, posts, news and speeches routinely combine **facts** and **opinions**. Distinguishing them is fundamental to critical reading.\n\n**Facts are verifiable.** A **fact** can be proven true or false: *The gym opens at 6am. Membership is $25 a week. The council voted 6–3.* Even if you haven't checked it yet, it's checkable.\n\n**Opinions are judgements.** An **opinion** expresses a belief, feeling or evaluation: *It's the best gym in town. It's overpriced. The council got it wrong.* It can be agreed or disagreed with, but not proven.\n\n**Signal words.** Opinions are often marked by superlatives and evaluative adjectives (*best, worst, outstanding, appalling*), modal verbs (*should, must, ought to*), and stance markers (*I believe, in my view, clearly*).\n\n**Mixed statements.** Many sentences combine both: *“The skate park cost $2 million, and it's a complete waste.”* The cost is factual; *complete waste* is evaluative.\n\n**The value of opinion.** Opinions aren't inherently unreliable. Informed opinion, such as an expert's assessment or a customer's first-hand experience, can be valuable. The key is recognising it as opinion and considering who holds it and why.\n\n**Main ideas and arguments.** Persuasive texts advance a **main argument** supported by reasons. Identify the argument, separate factual reasons from opinions, and **verify** the facts.\n\n**Aggregated opinion.** Star ratings combine many opinions. They can be informative, but reviews can be fabricated, incentivised or selectively filtered. Read critical reviews as well as glowing ones."
+        },
+        "vc": [
+          "VPC-U2M1-LG1",
+          "VPC-U2M1-AP1",
+          "VPC-U2M1-AP2"
+        ],
+        "vcNote": "Identifying main ideas and arguments in persuasive content, and the difference between fact and opinion."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The reviews that went missing",
+        "icon": "lucide:star-half",
+        "body": {
+          "support": "Reviews are **opinions**. Lots of reviews together can help you choose.\n\n**Meriton** is a big company that rents out apartments. TripAdvisor emailed guests after their stay, asking them to write a review.\n\nBut in **2014 and 2015**, Meriton stopped some unhappy guests from getting those emails. So fewer bad reviews appeared.\n\nThe **ACCC** took Meriton to court. In **2018**, Meriton had to pay **$3 million**.\n\nThe lesson: each review was real. But someone chose which ones you saw. Always read some bad reviews too.",
+          "core": "When you book a hotel or apartment, you probably check the reviews. Reviews are **opinions**. But when you put lots of them together, they can tell you a lot. Unless someone is choosing which opinions get heard.\n\n**Meriton** is a big Australian property company. It runs serviced apartments. For a time, it used a TripAdvisor service that emailed guests after their stay, inviting them to write a review.\n\nBut from **November 2014 to October 2015**, Meriton changed some guests' email addresses before sending them to TripAdvisor. These were guests it thought might leave a bad review. Because their addresses were changed, they never got the invitation. So fewer negative reviews appeared.\n\nThe **ACCC** (the government body that protects consumers) took Meriton to court. In **2017**, the **Federal Court** found Meriton had misled the public. In **July 2018**, the court ordered Meriton to pay **$3 million** in penalties.\n\nThe lesson: each review was a real opinion. But the **overall picture** was not a fair fact. When you read reviews, look at the bad ones too. And remember that someone may be controlling which opinions you see.",
+          "extend": "Each online review is one person's **opinion**. Added together, reviews shape what people decide. But that only works if the reviews are a fair sample.\n\n**Meriton** is a major Australian property group. It used a TripAdvisor service that emailed guests after their stay, inviting them to write a review.\n\nBetween **November 2014 and October 2015**, Meriton changed (\"masked\") the email addresses of guests it thought would leave bad reviews. TripAdvisor's invitations never reached them. So fewer critical reviews were posted.\n\nThe **ACCC** took Meriton to court. In **2017**, the **Federal Court** found that Meriton had misled the public. In **July 2018**, the court ordered it to pay **$3 million** in penalties.\n\nThe case shows a subtle point. Every review that was posted was a genuine opinion. But the overall rating, which looked like a fair picture, had been skewed by filtering. Good readers think about what opinions say, and also about which opinions they are being shown, and by whom."
+        },
+        "source": {
+          "name": "ACCC — Meriton to pay $3 million for misleading consumers on TripAdvisor",
+          "url": "https://accc.gov.au/media-release/meriton-to-pay-3-million-for-misleading-consumers-on-tripadvisor"
+        },
+        "think": {
+          "support": [
+            "Were the reviews facts or opinions?",
+            "How can you read reviews more carefully?"
+          ],
+          "core": [
+            "Were the reviews facts or opinions? What made the overall picture misleading?",
+            "Why would a business want to hide bad reviews?",
+            "How can you read reviews more carefully?"
+          ]
+        },
+        "vc": [
+          "VPC-U2M1-LG1",
+          "VPC-U2M1-AP1"
+        ],
+        "vcNote": "A real Australian case about opinions, facts and manipulated reviews."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a review",
+      "docTitle": "ONLINE REVIEW — RIVERSIDE GYM ★☆☆☆☆ (EXAMPLE)",
+      "vc": [
+        "VPC-U2M1-LG1",
+        "VPC-U2M1-AP1"
+      ],
+      "vcNote": "Separating facts and opinions in a persuasive text.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Title",
+          "value": "“Worst gym in town”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Line 1",
+          "value": "The gym opens at 6am."
+        },
+        {
+          "n": 3,
+          "label": "Line 2",
+          "value": "The staff are rude and lazy."
+        },
+        {
+          "n": 4,
+          "label": "Line 3",
+          "value": "Membership is $25 a week, which is way too expensive."
+        },
+        {
+          "n": 5,
+          "label": "Line 4",
+          "value": "Last Monday at 6pm, I waited 20 minutes for a squat rack."
+        },
+        {
+          "n": 6,
+          "label": "Line 5",
+          "value": "It should be shut down.",
+          "strong": true
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Opinion",
+          "note": "“Worst”: a judgement. The main argument."
+        },
+        {
+          "n": 2,
+          "label": "Fact",
+          "note": "Can be checked on the website or door."
+        },
+        {
+          "n": 3,
+          "label": "Opinion",
+          "note": "“Rude and lazy” is a judgement."
+        },
+        {
+          "n": 4,
+          "label": "Mixed",
+          "note": "$25 a week is a fact. “Way too expensive” is opinion."
+        },
+        {
+          "n": 5,
+          "label": "Fact claim",
+          "note": "A real experience with details, but only one time."
+        },
+        {
+          "n": 6,
+          "label": "Opinion",
+          "note": "“Should” signals an opinion."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Sort any text",
+      "steps": [
+        {
+          "title": "Spot opinions",
+          "text": "Best, should, I think…",
+          "icon": "lucide:message-circle"
+        },
+        {
+          "title": "Find facts",
+          "text": "Numbers, dates, places.",
+          "icon": "lucide:hash"
+        },
+        {
+          "title": "Check the facts",
+          "text": "Another reliable source.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Find the argument",
+          "text": "What do they want me to think?",
+          "icon": "lucide:target"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is a **fact**?",
+        "options": [
+          "The bus leaves at 7:15am.",
+          "The bus driver is grumpy.",
+          "Buses are the worst.",
+          "The bus should be faster."
+        ],
+        "answer": 0,
+        "explain": "It can be checked.",
+        "vc": [
+          "VPC-U2M1-LG1"
+        ]
+      },
+      {
+        "q": "Which is an **opinion**?",
+        "options": [
+          "This is the best pizza in town.",
+          "The pizza costs $15.",
+          "The shop opens at 5pm.",
+          "The shop is on Main Street."
+        ],
+        "answer": 0,
+        "explain": "“Best” is a judgement.",
+        "vc": [
+          "VPC-U2M1-LG1"
+        ]
+      },
+      {
+        "q": "Which word signals an **opinion**?",
+        "options": [
+          "Should",
+          "Tuesday",
+          "Fifteen",
+          "Kilometre"
+        ],
+        "answer": 0,
+        "explain": "Should, must, best, worst…",
+        "vc": [
+          "VPC-U2M1-AP2",
+          "VPC-U2M1-LG1"
+        ]
+      },
+      {
+        "q": "“The park cost $2 million, and it's a total waste.” This sentence is…",
+        "options": [
+          "Part fact, part opinion",
+          "All fact",
+          "All opinion",
+          "Neither"
+        ],
+        "answer": 0,
+        "explain": "The cost is a fact; “a waste” is an opinion.",
+        "vc": [
+          "VPC-U2M1-LG1"
+        ]
+      },
+      {
+        "q": "Why did Meriton have to pay $3 million?",
+        "options": [
+          "It stopped some unhappy guests getting review invitations",
+          "It wrote bad reviews of others",
+          "It overcharged rent",
+          "It closed its hotels"
+        ],
+        "answer": 0,
+        "explain": "The overall picture was misleading.",
+        "vc": [
+          "VPC-U2M1-AP1"
+        ]
+      },
+      {
+        "q": "What's the **main argument** of a text?",
+        "options": [
+          "The point the writer wants you to accept",
+          "The longest sentence",
+          "The title",
+          "The last word"
+        ],
+        "answer": 0,
+        "explain": "Then look at the reasons.",
+        "vc": [
+          "VPC-U2M1-AP1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "In a group discussion about a review, what makes your view strongest?",
+        "options": [
+          "Pointing to the facts you checked",
+          "Talking first",
+          "Saying you just know",
+          "Agreeing with everyone"
+        ],
+        "answer": 0,
+        "explain": "Evidence supports your view.",
+        "vc": [
+          "VPC-U2M1-AP5"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pick a real review. Mark the facts and opinions. Check one fact. Tell your group if you trust it.",
+      "core": "Pull apart a real review or opinion post: mark the facts and opinions, check two facts, and tell your group whether to trust it.",
+      "extend": "Analyse a real review or opinion piece: identify its main argument, classify its claims as fact or opinion, verify two facts, and justify your judgement of its reliability in a group discussion."
+    },
+    "checklist": [
+      "I found the main argument",
+      "I marked the facts",
+      "I marked the opinions",
+      "I checked at least one fact",
+      "I looked at who wrote it, and why",
+      "I told my group what I think, with evidence"
+    ],
+    "levelUp": "Discuss whether star ratings are useful, and support your view with evidence.",
+    "vc": [
+      "VPC-U2M1-LG1",
+      "VPC-U2M1-AP1"
+    ],
+    "model": {
+      "kind": "Example review pull-apart",
+      "text": "**The review:** A two-star review of a burger shop.\n\n**Facts I found (they can be checked)**\n- “We waited 40 minutes.”\n- “A burger costs $18.”\n- “They close at 8 pm.”\n\n**Opinions I found (what the writer thinks)**\n- “The worst burger in town.”\n- “The staff clearly don't care.”\n\n**I checked two facts:** The menu online says $18. That is true. The website says they close at 9 pm, not 8. That is false.\n\n**Do I trust it?** Partly. The price is right. But one fact is wrong, and the opinions are very strong.",
+      "why": [
+        "It sorts the facts from the opinions.",
+        "It checks facts somewhere else.",
+        "The verdict is balanced. It is not just yes or no."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Sorts facts and opinions",
+        "start": "Mixes them up.",
+        "good": "Sorts most of them correctly.",
+        "great": "Spots opinions that are dressed up as facts."
+      },
+      {
+        "skill": "Checks facts",
+        "start": "Does not check.",
+        "good": "Checks two facts on another source.",
+        "great": "Says where each one was checked."
+      },
+      {
+        "skill": "Verdict",
+        "start": "Says trust it or don't trust it.",
+        "good": "Gives a verdict with reasons.",
+        "great": "Explains it clearly to the group and answers questions."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you pull apart?",
+      "options": [
+        "A review of a place to eat",
+        "A review of a game, film or show",
+        "A review of a phone or other tech",
+        "An opinion post about sport"
+      ]
+    },
+    "solo": "No group? Write your verdict as a short reply to the review. In three sentences, say what you checked and whether people should trust it."
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Fact or opinion?",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What's the difference between a **fact** and an **opinion**? Give an example of each.",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-LG1"
+            ]
+          },
+          {
+            "q": "List **four** signal words that show an opinion.",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP2"
+            ]
+          },
+          {
+            "q": "What **four questions** help you find the main argument?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Sort any text",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a review",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the review. Fact, opinion, or both? Use the word bank.",
+          "core": "Each number marks part of the review. Is it a fact, an opinion, or both? How do you know?"
+        },
+        "columns": [
+          "Fact, opinion or both?",
+          "How I know"
+        ],
+        "wordBank": {
+          "support": [
+            "fact",
+            "opinion",
+            "both",
+            "signal word",
+            "can be checked",
+            "a judgement"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U2M1-LG1"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Fact, opinion or both?",
+        "pagebreak": true,
+        "choices": [
+          "Fact",
+          "Opinion",
+          "Both"
+        ],
+        "reasonLabel": "How I know:",
+        "instructions": "Tick one for each sentence, and say how you know.",
+        "cards": [
+          {
+            "from": "Ad",
+            "text": "“Our phones come in five colours.”",
+            "answer": "Fact",
+            "flags": "Can be checked."
+          },
+          {
+            "from": "Post",
+            "text": "“This is the most beautiful beach in Australia.”",
+            "answer": "Opinion",
+            "flags": "“Most beautiful” is a judgement."
+          },
+          {
+            "from": "Review",
+            "text": "“The tickets were $90, and the show was terrible.”",
+            "answer": "Both",
+            "flags": "Price is a fact; “terrible” is an opinion."
+          },
+          {
+            "from": "News",
+            "text": "“The council approved the new pool on Tuesday.”",
+            "answer": "Fact",
+            "flags": "A checkable event."
+          },
+          {
+            "from": "Letter",
+            "text": "“Young people should be allowed to vote at 16.”",
+            "answer": "Opinion",
+            "flags": "“Should” signals a view.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Ad",
+            "text": "“Australia's favourite pie, sold in 2,000 stores.”",
+            "answer": "Both",
+            "flags": "Store count can be checked; “favourite” is a claim to question.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U2M1-LG1",
+          "VPC-U2M1-AP2"
+        ],
+        "vcNote": "Distinguishing fact from opinion."
+      },
+      {
+        "type": "table",
+        "title": "Split the sentence",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "instructions": "Each sentence mixes fact and opinion. Split it. The first one is done for you.",
+        "columns": [
+          "Sentence",
+          "Fact part",
+          "Opinion part"
+        ],
+        "rows": [
+          [
+            "The new skate park cost $2 million, and it's a total waste.",
+            "It cost $2 million.",
+            "It's a total waste."
+          ],
+          [
+            "The concert sold out in ten minutes, which proves they're the best band ever.",
+            "",
+            ""
+          ],
+          [
+            "TAFE courses start in February, and they're way better than uni.",
+            "",
+            ""
+          ],
+          [
+            "The train was 15 minutes late again, so the whole system is a joke.",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Electric cars have no petrol costs, so everyone should buy one.",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U2M1-LG1"
+        ],
+        "vcNote": "Separating facts from opinions within statements."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the reviews that went missing",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Were the reviews facts or opinions? What made the **overall picture** misleading?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-LG1"
+            ]
+          },
+          {
+            "q": "Why would a business want to hide bad reviews?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP1"
+            ]
+          },
+          {
+            "q": "How can **you** read reviews more carefully?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: pull apart a real review",
+        "pagebreak": true,
+        "where": "in class or at home",
+        "instructions": "Find a real review (of a café, gym, game, phone, film or course) or an opinion post. Pull it apart, check it, and tell your group what you think.",
+        "need": [
+          "a device",
+          "a real review or opinion post",
+          "two highlighters (or two colours)"
+        ],
+        "steps": {
+          "support": [
+            "Screenshot the review.",
+            "Mark facts and opinions in two colours.",
+            "What's the main point?",
+            "Check one fact.",
+            "Tell your group: trust it or not?"
+          ],
+          "core": [
+            "Screenshot or print the review.",
+            "Highlight **facts** in one colour and **opinions** in another.",
+            "Write the **main argument** in one sentence.",
+            "**Check** two facts using another source (the business website, a map, a price list).",
+            "Tell your group: should we trust this review? Give your evidence."
+          ]
+        },
+        "notes": [
+          {
+            "label": "The review I chose:",
+            "lines": 1
+          },
+          {
+            "label": "Main argument:",
+            "lines": 1
+          },
+          {
+            "label": "Facts I checked, and what I found:",
+            "lines": 2
+          },
+          {
+            "label": "My verdict:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Marked-up review",
+          "Notes",
+          "Teacher saw the discussion"
+        ],
+        "vc": [
+          "VPC-U2M1-LG1",
+          "VPC-U2M1-AP1"
+        ],
+        "vcNote": "Hands-on: separating fact from opinion in a real persuasive text."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "In a small group, discuss: **are star ratings useful, or can't they be trusted?** Write your view, with at least two pieces of evidence (from this course or your own experience).",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M1-AP5"
+            ]
+          },
+          {
+            "q": "What did someone in your group say that you hadn't thought of?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M1-AP5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can tell a fact from an opinion.",
+          "I can spot opinion words.",
+          "I can find the main argument.",
+          "I can check a fact."
+        ],
+        "questions": [
+          "A review I'll now read differently:",
+          "My favourite signal word:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to distinguish facts (checkable) from opinions (judgements), recognise opinion signal words, split mixed sentences, and identify the main argument and reasons in persuasive texts such as reviews, ads and posts. They annotate a made-up gym review, sort sentences, split mixed statements, and pull apart a real review, checking two facts. The case study is Meriton: from November 2014 to October 2015 it masked the emails of guests likely to leave negative reviews so they didn't receive TripAdvisor invitations; in July 2018 the Federal Court ordered it to pay $3 million.",
+    "prep": [
+      "Find two or three real reviews (local business, game, film) to model.",
+      "Highlighters in two colours.",
+      "Optional: the ACCC's consumer guidance on online reviews."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Fact or opinion?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** read the four burger lines. Which can you check?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a review (10 min).**",
+          "**Fact, opinion or both? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Split it",
+        "minutes": 50,
+        "steps": [
+          "**Split the sentence (15 min).**",
+          "**Case study (20 min):** the reviews that went missing.",
+          "**Model (15 min):** pull apart a real review."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Pull it apart",
+        "minutes": 50,
+        "steps": [
+          "**Do it (25 min):** a real review and group verdicts.",
+          "**Level Up, reflect (25 min):** group discussion; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "A fact can be checked and proved true or false; an opinion is a judgement.",
+      "Opinion signal words: best, worst, should, must, I think, too.",
+      "Many sentences mix fact and opinion; split them.",
+      "Main argument: what the writer wants you to think, supported by reasons (facts and opinions).",
+      "Opinions can be useful; consider who holds them and why.",
+      "Meriton (2018): $3 million penalty for filtering which guests got TripAdvisor review invitations."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the review.",
+        "Fewer sort cards and table rows.",
+        "Use a provided review."
+      ],
+      "extend": [
+        "Classify claims and verify two facts.",
+        "Group discussion with evidence (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U2M1-LG1",
+        "evidence": "Identifies main ideas and arguments and distinguishes fact from opinion (review, sort, split)."
+      },
+      {
+        "vc": "VPC-U2M1-AP1",
+        "evidence": "Identifies main ideas and key information in persuasive texts (case study, Do it)."
+      },
+      {
+        "vc": "VPC-U2M1-AP2",
+        "evidence": "Uses signal words and word knowledge to make sense of persuasive content (sort, Check your reading)."
+      },
+      {
+        "vc": "VPC-U2M1-AP5",
+        "evidence": "Level Up: participates in discussion and supports a view with evidence."
+      }
+    ],
+    "answers": "**Check your reading:** facts can be checked; opinions are judgements (e.g. opens at 6am / best gym). E.g. best, worst, should, I think. What does the writer want me to think? What reasons? Facts or opinions? Can I check the facts?\n\n**Review:** 1 opinion; 2 fact; 3 opinion; 4 both; 5 fact claim (one experience); 6 opinion.\n\n**Sort:** five colours — fact; most beautiful beach — opinion; $90 and terrible — both; council approved — fact; vote at 16 — opinion; favourite pie, 2,000 stores — both.\n\n**Split:** sold out in ten minutes / best band ever · TAFE courses start in February / way better than uni · train 15 minutes late / system is a joke · no petrol costs / everyone should buy one.\n\n**Case study:** each review was an opinion; the overall rating was presented as fair but was filtered; to protect bookings and reputation; read negative reviews, check dates, look across platforms.",
+    "resources": [
+      {
+        "label": "ACCC — Meriton to pay $3 million for misleading consumers on TripAdvisor",
+        "url": "https://accc.gov.au/media-release/meriton-to-pay-3-million-for-misleading-consumers-on-tripadvisor"
+      },
+      {
+        "label": "The New Daily — Meriton penalty (July 2018)",
+        "url": "https://www.thenewdaily.com.au/money/consumer/2018/07/31/meriton-penalty-misleading-tripadvisor"
+      },
+      {
+        "label": "ACCC — Online reviews (consumer guidance)",
+        "url": "https://www.accc.gov.au/consumers/buying-products-and-services/online-shopping/online-reviews"
+      }
+    ],
+    "realityCheck": [
+      "**Students may say everything is an opinion.** Push back with checkable examples: times, prices, dates.",
+      "**Personal experience is tricky.** “I waited 20 minutes” is a claim about a fact, but only the writer can know it. Good discussion point.",
+      "**Use reviews students care about.** Games, sneakers, food.",
+      "**Works in a real class:** yes. Quick wins, and students use it straight away."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the review, fewer sort cards and table rows, and a provided review.",
+      "core": "Standard version: fact and opinion, signal words, mixed sentences, main arguments, a review to annotate, a sort, splitting sentences, the Meriton case, and pulling apart a real review.",
+      "extend": "Adds signal word and verify to the vocabulary, a quiz question on discussion, verifying two facts, and Level Ups on a group discussion about star ratings."
+    }
+  }
+}

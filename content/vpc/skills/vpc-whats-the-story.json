@@ -464,7 +464,46 @@
     "vc": [
       "VPC-U1M1-LG1",
       "VPC-U1M1-AP1"
-    ]
+    ],
+    "model": {
+      "kind": "Example story plan",
+      "text": "**My story:** The day the dog ate my pay\n\n**Start (who and where):** Me, last summer, after my first week of fruit picking. I had $200 cash in my pocket.\n\n**Problem:** I left my shorts on the floor. Our dog, Biscuit, chews everything.\n\n**Big moment:** I walked in. Biscuit looked up. A $50 note was hanging out of his mouth.\n\n**End:** We taped three notes back together, and the bank swapped them. The fourth one? We never found it. Now I get paid into my account.\n\n**How I will tell it:** Out loud to my group, with a pause before the big moment.",
+      "why": [
+        "It follows the story shape: start, problem, big moment, end.",
+        "It has small details you can picture.",
+        "It plans **how** to tell it, not just what to say."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Story shape",
+        "start": "Events with no clear shape.",
+        "good": "Has a start, problem, big moment and end.",
+        "great": "The big moment is built up, and the end lands."
+      },
+      {
+        "skill": "Telling it",
+        "start": "Hard to follow. Too short or too long.",
+        "good": "Clear, and about 60 seconds.",
+        "great": "Uses voice, pauses or pictures to pull us in."
+      },
+      {
+        "skill": "Details",
+        "start": "Tells only the bare facts.",
+        "good": "Has details we can see or hear.",
+        "great": "The details make it feel like your story."
+      }
+    ],
+    "choices": {
+      "prompt": "Which story will you tell?",
+      "options": [
+        "Something funny that happened to you",
+        "A time something went wrong",
+        "A story from your family, team or job",
+        "A story you make up"
+      ]
+    },
+    "solo": "No group? Film or record your story on a phone and send it to your teacher. Listen back once before you send it."
   },
   "workbook": {
     "pages": [

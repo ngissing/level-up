@@ -448,7 +448,45 @@
     "vc": [
       "VM-U1O1-KK1",
       "VM-U1O1-KS7"
-    ]
+    ],
+    "model": {
+      "kind": "Example: same news, two text types",
+      "text": "**The news:** The school canteen is now open for breakfast.\n\n**Text type 1: a notice**\n\n**Breakfast Club starts Monday**\n- **When:** 8:00 to 8:40 am, every school day\n- **Where:** The canteen\n- **Cost:** Free toast and fruit. Toasties are $2.\n\n**Text type 2: a social media post**\n\nSkipped breakfast? Same. From Monday the canteen opens at 8 am with free toast and fruit, plus $2 toasties. See you there. #BreakfastClub\n\n**What changed:** The notice uses headings and a list, so people can find the facts. The post is chatty and short, to get people interested.",
+      "why": [
+        "Both texts have the same facts.",
+        "Each one uses the features of its text type.",
+        "The note at the end explains what changed and why."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Annotates features",
+        "start": "Labels a few features.",
+        "good": "Labels structure, language and layout.",
+        "great": "Explains what each feature does for the reader."
+      },
+      {
+        "skill": "Writes two text types",
+        "start": "Both versions look the same.",
+        "good": "Each version uses its own features.",
+        "great": "Each one would work in the real world."
+      },
+      {
+        "skill": "Explains the choices",
+        "start": "Not explained yet.",
+        "good": "Says what changed.",
+        "great": "Links each change to purpose and audience."
+      }
+    ],
+    "choices": {
+      "prompt": "What news will you write as two text types?",
+      "options": [
+        "Something new at school",
+        "News from your work, club or team",
+        "A local event",
+        "Your own good news"
+      ]
+    }
   },
   "workbook": {
     "pages": [

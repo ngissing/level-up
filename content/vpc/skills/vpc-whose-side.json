@@ -1,0 +1,923 @@
+{
+  "id": "vpc-whose-side",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours), with internet access",
+  "brief": {
+    "hook": {
+      "support": "Your favourite creator says they love a new snack. Is that true? Or were they paid? In 2023, the government checked 118 influencers. 81% had posts that raised concerns.",
+      "core": "Your favourite creator says they're obsessed with a new protein bar. Honest opinion? Or did the company pay them? In 2023, Australia's consumer watchdog checked 118 influencers. It found that 81% had posted things that raised concerns, most often because they didn't clearly say when a post was an ad."
+    },
+    "why": {
+      "support": "Who's talking changes what they say. A paid creator and a mate might say different things. Work out whose side they're on.",
+      "core": "Who's talking changes what they say. A company, a paid creator, an expert, a mate and a politician can all talk about the same thing and say very different things. Spotting **whose side** someone is on helps you work out how much to trust them.",
+      "extend": "Every author and speaker has a perspective, shaped by their background, interests and who pays them. Recognising how a text reflects its author's position, and where that tips into bias, helps you weigh claims and decide whom to trust."
+    },
+    "canDo": {
+      "support": [
+        "I can explain perspective and bias.",
+        "I can work out what someone gains.",
+        "I can spot paid posts.",
+        "I can say whose side a text is on."
+      ],
+      "core": [
+        "I can explain the difference between **perspective** and **bias**.",
+        "I can work out what a speaker or author **gains**.",
+        "I can spot **sponsored** content and whether it's clearly labelled.",
+        "I can show how a text reflects its author's **position**."
+      ]
+    },
+    "showIt": "Be a disclosure detective: check five real sponsored or influencer posts, work out whose side each is on, and discuss it with your group.",
+    "vocab": [
+      {
+        "word": "perspective",
+        "meaning": "the way someone sees things, based on who they are",
+        "example": "A skater's perspective on the new park."
+      },
+      {
+        "word": "bias",
+        "meaning": "leaning one way in an unfair way, and leaving things out",
+        "example": "The review was biased: the company paid for it."
+      },
+      {
+        "word": "influencer",
+        "meaning": "someone online with lots of followers who can affect what people buy",
+        "example": "The influencer posted about a new shoe."
+      },
+      {
+        "word": "sponsored",
+        "meaning": "paid for by a company",
+        "example": "The post was sponsored by a drinks brand."
+      },
+      {
+        "word": "disclose",
+        "meaning": "tell people something, like being paid",
+        "example": "She disclosed that the post was an ad."
+      },
+      {
+        "word": "position",
+        "meaning": "the side someone is on",
+        "example": "The company's position is that its product is safe."
+      },
+      {
+        "word": "vested interest",
+        "meaning": "when someone gains if you agree with them",
+        "example": "The seller has a vested interest.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "affiliate link",
+        "meaning": "a link that pays the poster when you buy",
+        "example": "The video had an affiliate link in the bio.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Whose Side Are They On? in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Whose Side Are They On?",
+        "sub": "Who's talking changes what they say.",
+        "icon": "lucide:scale",
+        "say": "Whose side are they on? Who's talking changes what they say."
+      },
+      {
+        "kind": "stat",
+        "big": "81%",
+        "title": "of influencers checked had posts that raised concerns",
+        "sub": "ACCC, December 2023",
+        "say": "In 2023, the ACCC checked 118 influencers. Eighty-one per cent had posted things that raised concerns about misleading advertising.",
+        "vc": [
+          "VPC-U2M1-LG3",
+          "VPC-U2M1-AP4"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Perspective vs bias",
+        "text": "Everyone has one · **Bias** hides things",
+        "icon": "lucide:eye",
+        "say": "Everyone has a perspective: the way they see things. Bias is when that perspective leans so far it leaves things out.",
+        "vc": [
+          "VPC-U2M1-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Whose side?",
+        "pillIcon": "lucide:scale",
+        "title": "Who?",
+        "text": "Company · Creator · **Expert**",
+        "icon": "lucide:user-search",
+        "say": "Who's talking? A company, a creator, an expert, a mate?",
+        "vc": [
+          "VPC-U2M1-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Whose side?",
+        "pillIcon": "lucide:scale",
+        "title": "What do they gain?",
+        "text": "$ · Free stuff · **Followers**",
+        "icon": "lucide:coins",
+        "say": "What do they gain? Money, free stuff, followers, votes?",
+        "vc": [
+          "VPC-U2M1-AP4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Whose side?",
+        "pillIcon": "lucide:scale",
+        "title": "Labelled?",
+        "text": "#ad · **Paid partnership**",
+        "icon": "lucide:tag",
+        "say": "Is it labelled? Look for ad, sponsored, gifted or paid partnership, clearly and up front.",
+        "vc": [
+          "VPC-U2M1-AP4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Whose side?",
+        "pillIcon": "lucide:scale",
+        "title": "What's missing?",
+        "text": "Downsides? **Other views?**",
+        "icon": "lucide:circle-help",
+        "say": "What's missing? Any downsides? Any other views?",
+        "vc": [
+          "VPC-U2M1-LG3",
+          "VPC-U2M1-AP4"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Whose side?",
+        "steps": [
+          "Who's talking?",
+          "What do they gain?",
+          "What's missing?"
+        ],
+        "say": "Who's talking, what do they gain, is it labelled, and what's missing?"
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Follow the **money**.",
+        "icon": "lucide:scale",
+        "say": "Your mission. Be a disclosure detective in your own feed."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Who's talking, and what do they gain?",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "The same thing can sound very different, depending on who's talking.\n\n**Perspective.** Everyone sees things their own way. A skater and a café owner will see a new skate park differently. That's normal.\n\n**Bias.** **Bias** is when someone only tells one side. They leave things out.\n\n**Follow the money.** What does the person **gain** if you believe them?\n\n- A **company** wants you to buy.\n- A **paid creator** gets money or free stuff.\n- A **mate** usually gains nothing.\n\n**Influencers.** Lots of posts are paid ads. Creators should say so clearly: **Ad**, **Sponsored** or **Paid partnership**. Tiny tags like *#spon* at the end aren't clear.\n\n**Discount codes** often pay the creator.\n\n**Signs of bias**\n\n- only good points\n- no downsides or prices\n- other views left out.\n\n**We have bias too.** We believe people we like. That's why companies pay them.",
+          "core": "The same product, place or issue can sound completely different depending on who's talking.\n\n**Perspective.** Everyone has a **perspective**: the way they see things, shaped by their age, job, background and experiences. A skater, a café owner and a parent will see a new skate park differently. That's normal.\n\n**Bias.** **Bias** is when someone leans so far one way that they leave things out, twist the facts, or only tell you the good (or bad) side. A biased text isn't always lying. But it isn't giving you the full picture.\n\n**Follow the money.** Ask: what does this person **gain** if I believe them?\n\n- A **company** wants you to buy.\n- A **paid creator** gets money, free products or a commission.\n- A **political group** wants your vote or support.\n- A **mate** usually gains nothing, but might just be excited.\n\nPeople who gain have a **vested interest**. It doesn't mean they're wrong. It means you should check.\n\n**Influencers and ads.** Lots of social media posts are paid ads that don't look like ads. In Australia, creators should make it **clear** when a post is an ad: words like **Ad**, **Advertisement**, **Sponsored**, **Paid partnership** or **Gifted**, up front, where you'll see them. Vague tags like *#sp* or *#spon* at the end of a long list of hashtags aren't clear.\n\nWatch for **affiliate links** and **discount codes** too. If you use them, the creator usually gets paid.\n\n**Signs of bias**\n\n- only good points (or only bad points)\n- no downsides, prices or problems mentioned\n- strong emotive words, but few facts\n- other views missing or made to look silly.\n\n**Audiences have bias too.** We tend to believe people we like and follow. That's exactly why companies pay them.",
+          "extend": "The same product, place or issue can sound very different depending on who's talking.\n\n**Perspective.** Every author and speaker has a **perspective**. It's shaped by their age, job, culture and experience. A skater, a nearby café owner and a parent will see a new skate park differently. You can't avoid having a perspective.\n\n**Bias.** **Bias** is when a perspective bends the story. The author leaves out important facts, picks only the facts that help them, or makes other views look silly. A biased text can be true in parts and still mislead you overall.\n\n**Vested interests.** Ask what the author gains if you believe them. Companies want sales. Paid creators get fees, free products or commission. Campaign groups want support. A **vested interest** doesn't make a claim false, but it means you should check it.\n\n**Disclosure.** Lots of social media content is paid promotion made to look like a normal post. In Australia, creators are expected to **disclose** paid relationships clearly, using plain labels like *Ad*, *Sponsored*, *Paid partnership* or *Gifted*, where people will see them. Vague tags like *#sp* or *#spon*, buried in hashtags, aren't clear enough. **Affiliate links** and discount codes also show that money is involved.\n\n**Signs of bias:** only one side, no downsides or costs, strong emotive words with little evidence, and other views missing or mocked.\n\n**Audiences are biased too.** We tend to trust people we like and follow. That's exactly why brands pay influencers."
+        },
+        "vc": [
+          "VPC-U2M1-LG3",
+          "VPC-U2M1-AP4"
+        ],
+        "vcNote": "How bias and perspective influence speakers, authors and audiences; recognising an author's position."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "81% of influencers checked",
+        "icon": "lucide:smartphone",
+        "body": {
+          "support": "The **ACCC** protects Australian shoppers. People complained about influencers who didn't say they were being paid.\n\nIn **2023**, the ACCC checked **118 influencers** on Instagram, TikTok, YouTube and more.\n\n- **81%** had posts that raised concerns.\n- The biggest problem: not saying they were paid or got free stuff.\n- Some used tiny tags like **“spon”** instead of saying **sponsored**.\n- Fashion influencers were the worst: **96%**.\n\nWhy does it matter? We trust creators we like. That's why brands pay them. If you don't know it's an ad, you can't judge it.",
+          "core": "The **ACCC** is the government body that protects Australian consumers. People had complained to it about influencers who didn't say when they were being paid.\n\nSo in **early 2023**, the ACCC checked the posts of **118 influencers** across **Instagram, TikTok, Snapchat, YouTube, Facebook and Twitch**. It published what it found in **December 2023**.\n\n- **81%** of the influencers had made posts that raised concerns about possibly misleading advertising.\n- The most common problem was **not disclosing** a relationship with a brand: being paid, getting free products, or earning commission.\n- Many used vague tags like **“sp”** or **“spon”** instead of clearly saying **sponsored**.\n- Fashion influencers had the highest rate: **96%**. Gaming and tech was **73%**.\n\nThe ACCC said it would publish guidance for influencers and businesses, and warned it might take action where problems continued.\n\nWhy does it matter? When a creator you trust says they love something, you're more likely to buy it. That trust is exactly what brands are paying for. If you don't know a post is an ad, you can't judge it properly.",
+          "extend": "The **ACCC** (Australian Competition and Consumer Commission) is Australia's consumer watchdog. It had received complaints about paid social media posts that weren't labelled as ads.\n\nIn **January and February 2023**, it checked posts by **118 influencers** on **Instagram, TikTok, Snapchat, YouTube, Facebook and Twitch**. It published what it found in **December 2023**.\n\n- **81%** had made posts that raised concerns about possibly misleading advertising.\n- The most common problem was **not disclosing** a link with a brand: being paid, getting free products, or earning commission.\n- Many used vague labels like **“sp”** or **“spon”** instead of clearly saying **sponsored**.\n- Concerns were highest for fashion influencers (**96%**). For gaming and tech, it was **73%**.\n\nThe ACCC said it would publish guidance for influencers and businesses, and warned it might take action.\n\nThis is really about perspective and position. Followers trust the creators they watch, and brands pay for that trust. Without clear labels, followers can't see the creator's commercial position, so they can't judge the post fairly."
+        },
+        "source": {
+          "name": "ACCC — Scrutiny of influencers and businesses for misleading advertising and online reviews continues (December 2023)",
+          "url": "https://www.accc.gov.au/media-release/scrutiny-of-influencers-and-businesses-for-misleading-advertising-and-online-reviews-continues"
+        },
+        "think": {
+          "support": [
+            "Why might they hide that it's an ad?",
+            "Does knowing change how you feel about it?"
+          ],
+          "core": [
+            "Why might influencers not clearly say a post is an ad?",
+            "How does knowing a post is paid change how you read it?",
+            "Should paid posts have to be labelled in big, clear words? Why?"
+          ]
+        },
+        "vc": [
+          "VPC-U2M1-LG3",
+          "VPC-U2M1-AP4"
+        ],
+        "vcNote": "Real Australian data on undisclosed commercial interests in influencer content."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Inside a sponsored post",
+      "docTitle": "INFLUENCER POST (EXAMPLE)",
+      "vc": [
+        "VPC-U2M1-AP4",
+        "VPC-U2M1-LG3"
+      ],
+      "vcNote": "Recognising how a text reflects its author's position and possible bias.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Account",
+          "value": "@fitwithjas · 380K followers"
+        },
+        {
+          "n": 2,
+          "label": "Caption",
+          "value": "Obsessed with my new protein bars!! 😍",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Claim",
+          "value": "Honestly the only snack I eat now. Changed my life."
+        },
+        {
+          "n": 4,
+          "label": "Code",
+          "value": "Use my code JAS20 for 20% off 🔗 link in bio"
+        },
+        {
+          "n": 5,
+          "label": "Hashtags",
+          "value": "#fitness #gym #snacks #healthy #protein #spon #grind",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Reply to a comment",
+          "value": "“not an ad lol I just love them 💕”"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Who's talking",
+          "note": "A creator with a big audience: brands pay for that."
+        },
+        {
+          "n": 2,
+          "label": "Emotive",
+          "note": "Big feelings, no facts."
+        },
+        {
+          "n": 3,
+          "label": "One-sided",
+          "note": "Only good points. No price, no downsides."
+        },
+        {
+          "n": 4,
+          "label": "Code and link",
+          "note": "She probably earns money when you buy."
+        },
+        {
+          "n": 5,
+          "label": "Hidden label",
+          "note": "“#spon” buried in hashtags. Not clear."
+        },
+        {
+          "n": 6,
+          "label": "Mixed message",
+          "note": "Says it's not an ad, but the tag says it is."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Whose side?",
+      "steps": [
+        {
+          "title": "Who's talking?",
+          "text": "Company, creator, expert, mate?",
+          "icon": "lucide:user-search"
+        },
+        {
+          "title": "What do they gain?",
+          "text": "Money, free stuff, followers?",
+          "icon": "lucide:coins"
+        },
+        {
+          "title": "Is it labelled?",
+          "text": "Ad, sponsored, gifted?",
+          "icon": "lucide:tag"
+        },
+        {
+          "title": "What's missing?",
+          "text": "Downsides, other views?",
+          "icon": "lucide:circle-help"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What's the difference between **perspective** and **bias**?",
+        "options": [
+          "Everyone has a perspective; bias leaves things out or twists them",
+          "They're the same",
+          "Only companies have a perspective",
+          "Bias is always lying"
+        ],
+        "answer": 0,
+        "explain": "Perspective is normal; bias is one-sided.",
+        "vc": [
+          "VPC-U2M1-LG3"
+        ]
+      },
+      {
+        "q": "A creator posts a discount code for a product. What does that usually mean?",
+        "options": [
+          "They earn money when you use it",
+          "They paid for the product",
+          "It's a government code",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "A sign of a vested interest.",
+        "vc": [
+          "VPC-U2M1-AP4"
+        ]
+      },
+      {
+        "q": "Which is the **clearest** way to label a paid post?",
+        "options": [
+          "“Ad” or “Paid partnership” at the top",
+          "#sp at the end of 20 hashtags",
+          "No label",
+          "A tiny emoji"
+        ],
+        "answer": 0,
+        "explain": "Clear and up front.",
+        "vc": [
+          "VPC-U2M1-AP4"
+        ]
+      },
+      {
+        "q": "In the ACCC's 2023 check, what share of influencers had posts that raised concerns?",
+        "options": [
+          "81%",
+          "8%",
+          "18%",
+          "100%"
+        ],
+        "answer": 0,
+        "explain": "Of 118 influencers checked.",
+        "vc": [
+          "VPC-U2M1-AP4"
+        ]
+      },
+      {
+        "q": "Which is a sign of **bias**?",
+        "options": [
+          "Only good points, and no downsides or prices",
+          "A balanced list of pros and cons",
+          "A date and a source",
+          "Quotes from both sides"
+        ],
+        "answer": 0,
+        "explain": "One-sided texts leave things out.",
+        "vc": [
+          "VPC-U2M1-LG3"
+        ]
+      },
+      {
+        "q": "Why do brands pay influencers?",
+        "options": [
+          "Because their followers trust them",
+          "Because it's the law",
+          "To make posts longer",
+          "To get fewer sales"
+        ],
+        "answer": 0,
+        "explain": "Audiences have bias too.",
+        "vc": [
+          "VPC-U2M1-LG3"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "In a group discussion about influencer ads, what makes your view most convincing?",
+        "options": [
+          "Evidence, like the ACCC's findings and real posts you checked",
+          "Being loudest",
+          "Saying “everyone knows”",
+          "Changing the topic"
+        ],
+        "answer": 0,
+        "explain": "Back your view with evidence.",
+        "vc": [
+          "VPC-U2M1-AP5"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Check five real posts from creators. Were they paid? Did they say so? Tell your group.",
+      "core": "Be a disclosure detective: check five real sponsored or influencer posts, work out whose side each is on, and discuss it with your group.",
+      "extend": "Audit five real sponsored or influencer posts for disclosure, vested interests and bias, explain how each reflects its author's position, and defend your conclusions in a group discussion with evidence."
+    },
+    "checklist": [
+      "I checked five real posts",
+      "I worked out who's talking in each",
+      "I worked out what they gain",
+      "I checked whether each was clearly labelled",
+      "I spotted signs of bias",
+      "I discussed it with my group, using evidence"
+    ],
+    "levelUp": "Discuss whether paid posts should have to be labelled in big, clear words, and support your view with evidence.",
+    "vc": [
+      "VPC-U2M1-LG3",
+      "VPC-U2M1-AP4"
+    ],
+    "model": {
+      "kind": "Example detective notes",
+      "text": "**Post 1:** A gamer shows off a new headset.\n**Disclosure:** “#ad” at the very end of a long caption. It is hard to see.\n**Whose side?** The brand's. She is paid to post.\n\n**Post 2:** A mechanic reviews a cheap tool set.\n**Disclosure:** He says, “I bought these myself.” There are no links.\n**Whose side?** The viewer's. He also shows what broke.\n\n**Post 3:** A food creator at a new café.\n**Disclosure:** “Invited”. The meal was free.\n**Whose side?** Partly the café's. A free meal can make a review kinder.\n\n**Pattern:** The clearer the label, the more I trust the post.",
+      "why": [
+        "It looks for the label and says how easy it is to find.",
+        "It works out who gains from each post.",
+        "It spots a pattern across the posts."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Finds the disclosure",
+        "start": "Misses the labels.",
+        "good": "Finds the label, or notes that there is none.",
+        "great": "Says how clear or hidden each label is."
+      },
+      {
+        "skill": "Whose side?",
+        "start": "Guesses.",
+        "good": "Gives a reason for each post.",
+        "great": "Uses clues like codes, links and free gifts."
+      },
+      {
+        "skill": "Discusses",
+        "start": "Says little.",
+        "good": "Shares what you found with the group.",
+        "great": "Spots a pattern and asks others what they found."
+      }
+    ],
+    "choices": {
+      "prompt": "Which kind of creators will you check?",
+      "options": [
+        "Gaming or tech",
+        "Food or places to eat",
+        "Fitness, fashion or beauty",
+        "Cars, tools or trades"
+      ]
+    },
+    "solo": "No group? Write three sentences about the pattern you found across your five posts. Share them with your teacher."
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Who's talking, and what do they gain?",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher's copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What's the difference between **perspective** and **bias**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-LG3"
+            ]
+          },
+          {
+            "q": "What might a company, a paid creator and a mate each **gain** from what they say?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP4"
+            ]
+          },
+          {
+            "q": "Name **three** clear labels for a paid post.",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Whose side?",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Inside a sponsored post",
+        "diagram": 0,
+        "pagebreak": true,
+        "instructions": {
+          "support": "Each number is part of the post. Use the word bank. What does it show?",
+          "core": "Each number marks part of the post. Write what it shows about whose side the creator is on."
+        },
+        "columns": [
+          "What is it?",
+          "What does it show?"
+        ],
+        "wordBank": {
+          "support": [
+            "who's talking",
+            "emotive",
+            "one-sided",
+            "code and link",
+            "hidden label",
+            "mixed message"
+          ],
+          "core": []
+        },
+        "vc": [
+          "VPC-U2M1-AP4",
+          "VPC-U2M1-LG3"
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Probably fair, or might be biased?",
+        "pagebreak": true,
+        "choices": [
+          "Probably fair",
+          "Might be biased"
+        ],
+        "reasonLabel": "Why:",
+        "instructions": "Each person is talking about a product or issue. Tick one, and say why.",
+        "cards": [
+          {
+            "from": "Government health site",
+            "text": "Advice on how much caffeine is safe for teenagers",
+            "answer": "Probably fair",
+            "flags": "No product to sell."
+          },
+          {
+            "from": "Energy drink company",
+            "text": "“Our drink is the perfect way to start your day.”",
+            "answer": "Might be biased",
+            "flags": "They profit if you buy."
+          },
+          {
+            "from": "Your mate",
+            "text": "“I bought that game. The story's good but it's buggy.”",
+            "answer": "Probably fair",
+            "flags": "Gains nothing; gives pros and cons."
+          },
+          {
+            "from": "Streamer",
+            "text": "Plays a new game all night, “in partnership with” the publisher",
+            "answer": "Might be biased",
+            "flags": "Paid partnership."
+          },
+          {
+            "from": "Car company ad",
+            "text": "“The safest car in its class.”",
+            "answer": "Might be biased",
+            "flags": "Check an independent safety rating like ANCAP.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "from": "Independent crash testers",
+            "text": "A published five-star safety rating, with test results",
+            "answer": "Probably fair",
+            "flags": "Independent, with evidence.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U2M1-AP4",
+          "VPC-U2M1-LG3"
+        ],
+        "vcNote": "Recognising how a speaker's position may create bias."
+      },
+      {
+        "type": "table",
+        "title": "One issue, many sides",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 28,
+          "core": 26
+        },
+        "instructions": "Your town is deciding whether to ban e-scooters from the footpath. How might each person see it? The first row is done for you.",
+        "columns": [
+          "Who's talking",
+          "Their perspective",
+          "What they gain or lose"
+        ],
+        "rows": [
+          [
+            "A teen who rides an e-scooter to work",
+            "It's cheap, quick transport. A ban hurts people without cars.",
+            "Loses an easy way to get to work"
+          ],
+          [
+            "An e-scooter hire company",
+            "",
+            ""
+          ],
+          [
+            "An older pedestrian",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "A doctor at the local hospital",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ],
+        "vc": [
+          "VPC-U2M1-LG3"
+        ],
+        "vcNote": "How perspective and interests shape what speakers say."
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: 81% of influencers checked",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why might influencers not clearly say a post is an ad?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP4"
+            ]
+          },
+          {
+            "q": "How does knowing a post is paid change how you read it?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-LG3",
+              "VPC-U2M1-AP4"
+            ]
+          },
+          {
+            "q": "Should paid posts have to be labelled in big, clear words? Why?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M1-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: disclosure detective",
+        "pagebreak": true,
+        "where": "in class or at home, in your own feed",
+        "instructions": "Find five real posts where a creator talks about a product, brand or place. Investigate whose side each one is on.",
+        "need": [
+          "a device",
+          "your social media feed (or examples from your teacher)"
+        ],
+        "steps": {
+          "support": [
+            "Screenshot five posts about products.",
+            "Who's talking? What do they gain?",
+            "Is it labelled as an ad?",
+            "Is it one-sided?",
+            "Tell your group which was most honest."
+          ],
+          "core": [
+            "Screenshot five posts where a creator talks about a product or brand.",
+            "For each, ask: **who's talking**, and what might they **gain**?",
+            "Check the **label**: clear (Ad, Sponsored, Paid partnership), unclear (#spon), or none?",
+            "Look for **signs of bias**: only good points, no price, no downsides.",
+            "Share your findings with your group. Which post was most honest? Which was least?"
+          ]
+        },
+        "notes": [
+          {
+            "label": "Clearly labelled / unclear / not labelled (how many of each):",
+            "lines": 1
+          },
+          {
+            "label": "The most biased post, and why:",
+            "lines": 2
+          },
+          {
+            "label": "What my group decided:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Screenshots",
+          "Notes",
+          "Teacher saw the discussion"
+        ],
+        "vc": [
+          "VPC-U2M1-AP4",
+          "VPC-U2M1-LG3"
+        ],
+        "vcNote": "Hands-on: recognising an author's position and bias in real content."
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "In a small group, discuss: **should paid posts have to be labelled with a big “AD” at the top, like on TV?** Write your view, with at least two pieces of evidence.",
+            "lines": 5,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M1-AP5"
+            ]
+          },
+          {
+            "q": "Did anyone in your group change your mind, or make you think again? How?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M1-AP5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can explain perspective and bias.",
+          "I can work out what someone gains.",
+          "I can spot paid posts.",
+          "I can say whose side a text is on."
+        ],
+        "questions": [
+          "A creator I'll now watch differently:",
+          "My best bias clue:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the difference between perspective (unavoidable) and bias (one-sided, omitting or distorting), how vested interests shape what speakers and authors say, how to spot sponsored content and judge whether it's clearly disclosed, and that audiences have biases too. They annotate a made-up influencer post, sort speakers, map perspectives on an e-scooter issue, and audit five real posts in their own feed. The case study is the ACCC's 2023 influencer sweep: of 118 influencers checked across six platforms, 81% had posts raising concerns, most often for not clearly disclosing brand relationships.",
+    "prep": [
+      "Collect a few screenshots of sponsored posts (clearly and unclearly labelled) for students without access to social media.",
+      "Remind students to keep their feeds private when sharing; screenshots only.",
+      "Optional: the ACCC's guidance for influencers."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Perspective and bias",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** is your favourite creator ever paid to post?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article and Check your reading.",
+          "**Inside a sponsored post (10 min).**",
+          "**Probably fair, or might be biased? (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Many sides",
+        "minutes": 50,
+        "steps": [
+          "**One issue, many sides (20 min):** role play first.",
+          "**Case study (15 min):** 81% of influencers checked.",
+          "**Collect posts (15 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Disclosure detective",
+        "minutes": 50,
+        "steps": [
+          "**Do it (25 min).**",
+          "**Level Up, reflect (25 min):** group discussion; request sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Everyone has a perspective; bias leaves things out or twists them.",
+      "Follow the money: what does the speaker gain?",
+      "A vested interest means check the claim, not that it's false.",
+      "Paid posts should be clearly labelled (Ad, Sponsored, Paid partnership, Gifted); #spon buried in hashtags isn't clear.",
+      "Discount codes and affiliate links usually pay the creator.",
+      "ACCC 2023 sweep: 81% of 118 influencers had posts raising concerns; fashion 96%, gaming and tech 73%."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank on the post.",
+        "Fewer sort cards and table rows.",
+        "Provide five posts."
+      ],
+      "extend": [
+        "Explain each post's position.",
+        "Group discussion with evidence (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U2M1-LG3",
+        "evidence": "Identifies how bias and perspective influence speakers, authors and audiences (Check your reading, perspectives table)."
+      },
+      {
+        "vc": "VPC-U2M1-AP4",
+        "evidence": "Recognises how content reflects the author's position and begins to recognise bias (post annotation, sort, Do it)."
+      },
+      {
+        "vc": "VPC-U2M1-AP5",
+        "evidence": "Level Up: participates in group discussion and supports a view with evidence."
+      }
+    ],
+    "answers": "**Check your reading:** everyone has a perspective; bias leaves things out or twists them. Company: sales; paid creator: money, free products, commission; mate: usually nothing. Ad, Advertisement, Sponsored, Paid partnership, Gifted.\n\n**Post:** 1 who's talking (big audience); 2 emotive caption; 3 one-sided claim; 4 discount code and link (commission); 5 hidden label (#spon); 6 mixed message (says not an ad).\n\n**Sort:** government site — fair; energy drink company — biased; mate — fair; streamer partnership — biased; car ad — biased; crash testers — fair.\n\n**Perspectives (examples):** hire company — e-scooters are green and popular; gains customers, loses if banned. Older pedestrian — footpaths feel unsafe; gains safety from a ban. Doctor — sees injuries; gains fewer emergency cases.\n\n**Case study:** to keep posts feeling authentic and keep sponsors; it shows the creator's commercial position, so you weigh it differently; answers will vary.",
+    "resources": [
+      {
+        "label": "ACCC — Scrutiny of influencers and businesses for misleading advertising continues (December 2023)",
+        "url": "https://www.accc.gov.au/media-release/scrutiny-of-influencers-and-businesses-for-misleading-advertising-and-online-reviews-continues"
+      },
+      {
+        "label": "Mumbrella — ACCC finds over 80% of influencers post potentially misleading advertising",
+        "url": "https://mumbrella.com.au/accc-investigation-finds-over-80-of-influencers-post-potentially-misleading-advertising-809560"
+      },
+      {
+        "label": "ANCAP — independent car safety ratings",
+        "url": "https://www.ancap.com.au"
+      }
+    ],
+    "realityCheck": [
+      "**Students may defend their favourite creators.** That's audience bias in action: name it, kindly.",
+      "**Not every creator post is an ad.** The goal is to check, not to assume.",
+      "**Privacy.** Students share screenshots, not their accounts.",
+      "**Works in a real class:** yes. Students find examples instantly."
+    ],
+    "levels": {
+      "support": "Simpler article and case study, 6 key words, 5-question quiz, word bank on the post, fewer sort cards and table rows, and provided posts.",
+      "core": "Standard version: perspective, bias and vested interests; disclosure of paid posts; a sponsored post to annotate; a fair-or-biased sort; perspectives on an issue; the ACCC influencer sweep; and a disclosure audit of real posts.",
+      "extend": "Adds vested interest and affiliate link to the vocabulary, a quiz question on discussion, explaining each post's position, and Level Ups on a group discussion about labelling paid posts."
+    }
+  }
+}

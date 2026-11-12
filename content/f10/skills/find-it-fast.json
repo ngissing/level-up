@@ -472,7 +472,44 @@
     "vc": [
       "VC2E5LA03",
       "VC2E4LA05"
-    ]
+    ],
+    "model": {
+      "kind": "Example notice you can scan",
+      "text": "## Year 10 Camp: what you need to know\n\n**When:** Monday 3 to Wednesday 5 March\n\n**Where:** Camp Marysville. The bus leaves the front gate at **8:30 am**.\n\n**Cost:** $180. Pay at the office by **Friday 14 February**.\n\n**Bring:**\n- a sleeping bag and pillow\n- clothes for three days\n- a water bottle and a hat\n\n**Questions?** See Ms Ali in Room 12.",
+      "why": [
+        "The heading tells you what it is about straight away.",
+        "Bold labels let you jump to the part you need.",
+        "The list is short. The key dates and times stand out."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Easy to scan",
+        "start": "Still one block of text.",
+        "good": "Has a heading, labels and a list.",
+        "great": "A reader can find any fact in five seconds."
+      },
+      {
+        "skill": "All the facts",
+        "start": "Some key facts are missing.",
+        "good": "Has when, where, cost and what to bring.",
+        "great": "Every fact is right, and the most important ones stand out."
+      },
+      {
+        "skill": "Short and clear",
+        "start": "Long sentences. Extra words.",
+        "good": "Short lines. No waffle.",
+        "great": "Every word earns its place."
+      }
+    ],
+    "choices": {
+      "prompt": "Which messy notice will you fix?",
+      "options": [
+        "The one in your workbook",
+        "A real notice from school or the newsletter",
+        "A notice from your club, team or job"
+      ]
+    }
   },
   "workbook": {
     "pages": [

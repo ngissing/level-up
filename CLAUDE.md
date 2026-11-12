@@ -10,6 +10,9 @@ Self-paced literacy mini courses for disengaged 14–17 year olds who read at ab
 
 - **Content, not code:** mini courses are JSON in `content/<program>/skills/<id>.json`. The map, zones, unlocks and badges live in `content/<program>/map.json`, and the curriculum in `content/<program>/curriculum.json`. Skill, zone and milestone ids must be unique across programs (VM ids start with `vm-`, VPC ids with `vpc-`). Follow `docs/AUTHORING.md` when writing a course and copy the shape of `spot-the-scam.json`.
 - Tag course parts with `"vc": [codes]` (+ optional `"vcNote"`) so the curriculum map's **Where?** pop-up can show exactly where each point is taught (see AUTHORING.md). Never hard-code workbook page numbers; they're computed per reading level.
+- Every course's `show` has a `model` (worked example + three “why it works” notes), a three-row `rubric`, topic `choices`, and a `solo` option whenever the task needs other people (see AUTHORING.md). They feed the Show it step, the automatic “What good looks like” workbook page and the teacher guide.
+- Warm-ups (`src/review.js`, spaced review of finished courses' quiz questions and key words) and the Reading Room (`src/reads.js`, `content/reads.json`) are built from course content automatically. Tag new courses with a topic in `content/reads.json`.
+- The public front page (`src/views/landing.js`, `landing.css`, `landing.js`) is what guests see at `/`. It draws on real course content; never add made-up numbers or testimonials to it.
 - After changing content, run `npm run check`, `npm run pdf -- <id>` (watch for overflow warnings) and `npm run map-doc`.
 - Student-facing text: short sentences, everyday words, grown-up tone, Australian context. Real case studies only, with a source URL. Never invent statistics.
 - Curriculum: both curriculum files are **official** and imported word for word. Never edit or paraphrase them by hand.

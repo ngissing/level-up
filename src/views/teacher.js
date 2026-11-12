@@ -1,10 +1,12 @@
-import { html, icon, md, mdInline, raw } from '../html.js';
+import { html, icon, md, mdInline, raw, mdLines } from '../html.js';
 import { page, sticker, vcChip, empty, initials, levelTag } from './layout.js';
 import { LEVELS, LEVEL_IDS, levelInfo } from '../levels.js';
 import { content, skillList, getSkill, skillState, doneSet, coverage, STEPS, courseFor, vcFor, evidenceFor } from '../content.js';
 import { PROGRAMS, PROGRAM_IDS, familyOf } from '../programs.js';
 import { curriculumGrid } from './student.js';
 import { diagram } from './diagrams.js';
+import { rubricTable, RUBRIC_COLS } from './workbook.js';
+import { readingLogList } from './extras.js';
 
 const DOT = { complete: 'Done', submitted: 'Waiting for sign-off', started: 'In progress', open: 'Unlocked', soon: 'Unlocked (course not built yet)', locked: 'Locked' };
 
@@ -56,9 +58,11 @@ export function dashboardPage(req, { students, queue, classes, classId, progress
         <div><b><a href="/teacher/student/${q.user_id}">${q.name}</a></b><span>${s.title}</span></div>
         <small>${q.submitted_at?.slice(0, 16).replace('T', ' ')}</small></header>
       <p class="q-meta">${icon('lucide:circle-help')} Quick check: <b>${q.quiz_best}/${q.quiz_total}</b> ${q.level_up ? html`<span class="lvl-chip">${icon('lucide:star')} says Level Up done</span>` : ''}</p>
+      ${q.choice ? html`<p class="q-meta">${icon('lucide:hand')} Their pick: <b>${q.choice}</b></p>` : ''}
       <blockquote>${q.reflection || '—'}</blockquote>
       <form method="post" action="/teacher/signoff">
         <input type="hidden" name="user_id" value="${q.user_id}"><input type="hidden" name="skill_id" value="${q.skill_id}">
+        ${rubricPicker(s)}
         <label class="check"><input type="checkbox" name="level_up" value="1" ${q.level_up ? raw('checked') : ''}><span>Level Up work confirmed (counts extension VC)</span></label>
         <textarea name="comment" rows="2" placeholder="Comment for the student (optional)"></textarea>
         <div class="btn-row">
@@ -85,7 +89,18 @@ export function dashboardPage(req, { students, queue, classes, classId, progress
   return page(req, { title: 'Dashboard', body, active: '/teacher', wide: true, program });
 }
 
-export function studentDetailPage(req, { student, progress, badges }) {
+// Optional rubric marking at sign-off: one tap per row. The student sees the marked rubric.
+function rubricPicker(skill) {
+  const rubric = courseFor(skill, 'core')?.show.rubric;
+  if (!rubric) return '';
+  return html`<details class="rubric-pick"><summary>${icon('lucide:ruler')} Mark the rubric <small>(optional — the student sees it)</small></summary>
+    ${rubric.map((r, i) => html`<fieldset><legend>${r.skill}</legend>
+      ${RUBRIC_COLS.map(([key, label], n) => html`<label title="${r[key]}"><input type="radio" name="r${i}" value="${n}"><span><b>${label}</b>${r[key]}</span></label>`)}
+    </fieldset>`)}
+    <p class="small muted"><a href="/teacher/skill/${skill.id}#good" target="_blank">See the model answer</a></p></details>`;
+}
+
+export function studentDetailPage(req, { student, progress, badges, warmups = null, reading = null }) {
   const program = student.program || 'f10';
   const done = doneSet(progress);
   const rows = skillList(program).map((s) => ({ s, st: skillState(s, progress, done), p: progress[s.id] }));
@@ -108,7 +123,7 @@ export function studentDetailPage(req, { student, progress, badges }) {
       <td><span class="status status-${st}">${DOT[st]}</span>${p?.level_up ? html` <span class="lvl-chip">${icon('lucide:star')}</span>` : ''}</td>
       <td>${p ? `${p.steps.length}/${STEPS.length}` : '—'}</td>
       <td>${p?.quiz_best != null ? `${p.quiz_best}/${p.quiz_total}` : '—'}</td>
-      <td class="notes">${p?.reflection ? html`<em>“${p.reflection}”</em>` : ''}${p?.teacher_comment ? html`<br><small>You: ${p.teacher_comment}</small>` : ''}</td>
+      <td class="notes">${p?.choice ? html`<small>${icon('lucide:hand')} Pick: ${p.choice}</small><br>` : ''}${p?.reflection ? html`<em>“${p.reflection}”</em>` : ''}${p?.teacher_comment ? html`<br><small>You: ${p.teacher_comment}</small>` : ''}</td>
       <td>${s.ready ? html`<a class="btn btn-sm btn-ghost" href="/workbook/${s.id}?student=${student.id}" target="_blank" title="Printed at ${student.name.split(' ')[0]}’s reading level">${icon('lucide:printer')} Print</a>` : ''}</td>
       <td>${st !== 'complete' && st !== 'soon' ? html`<form method="post" action="/teacher/signoff">
           <input type="hidden" name="user_id" value="${student.id}"><input type="hidden" name="skill_id" value="${s.id}">
@@ -118,7 +133,24 @@ export function studentDetailPage(req, { student, progress, badges }) {
           <input type="hidden" name="user_id" value="${student.id}"><input type="hidden" name="skill_id" value="${s.id}">
           <button class="btn btn-sm btn-ghost">${icon('lucide:rotate-ccw')} Re-open</button></form>` : ''}</td>
     </tr>`)}</tbody>
-  </table>`;
+  </table>
+
+  <div class="two-up">
+    <section>
+      <h2 class="section-title">${icon('lucide:flame')} Warm-ups <small>last 30 days</small></h2>
+      ${warmups?.sessions ? html`<div class="panel">
+        <p><b>${warmups.sessions}</b> warm-up${warmups.sessions === 1 ? '' : 's'} done · <b>${warmups.correct}/${warmups.asked}</b> remembered (${Math.round((warmups.correct / warmups.asked) * 100)}%)</p>
+        ${warmups.bySkill.length ? html`<table class="table compact"><thead><tr><th>Skill</th><th>Remembered</th><th>Needs another look</th></tr></thead><tbody>
+          ${warmups.bySkill.slice(0, 8).map((r) => html`<tr><td><span class="mini-skill" style="--zone:${r.skill.zoneObj.color};--zone-ink:${r.skill.zoneObj.ink}">${icon(r.skill.icon)} ${r.skill.title}</span></td><td>${r.correct}/${r.seen}</td><td>${r.shaky ? `${r.shaky} item${r.shaky === 1 ? '' : 's'}` : '—'}</td></tr>`)}
+        </tbody></table>
+        <p class="small muted">Weakest first. “Needs another look” counts questions and key words missed last time; they come back the next day.</p>` : ''}
+      </div>` : empty('No warm-ups yet. They start the day after a student finishes their first skill.', 'lucide:flame')}
+    </section>
+    <section>
+      <h2 class="section-title">${icon('lucide:book-open-text')} Reading log <small>${reading ? `${reading.stats.monthReads} this month · ${reading.stats.minutes} min in total` : ''}</small></h2>
+      ${reading?.log.length ? html`<div class="panel">${readingLogList(reading.log.slice(0, 10))}</div>` : empty('Nothing logged yet. Students choose stories in the Reading Room, or add anything they read.', 'lucide:book-open')}
+    </section>
+  </div>`;
   return page(req, { title: student.name, body, active: '/teacher', wide: true, program });
 }
 
@@ -149,6 +181,24 @@ const printButtons = (skill, answers = false) => html`${LEVEL_IDS.map((l) => htm
 
 // Where a curriculum item sits: "Level 5 · Literacy › …" (F–10) or "Unit 1 · Outcome 1 · Key skill — …" (VM).
 const vcWhere = (e) => (e.level != null ? `Level ${e.level} · ${e.strand} › ${e.substrand}` : `${e.strand} · ${e.kind} — ${e.substrand}`);
+
+// The final task: model answer, rubric, student choice and the solo option (core version).
+function goodSection(skill) {
+  const sh = courseFor(skill, 'core').show;
+  if (!sh.model && !sh.choices && !sh.solo) return '';
+  return html`<section class="panel" id="good"><h2>${icon('lucide:medal')} The final task: what good looks like</h2>
+    <p><b>Task:</b> ${sh.task}</p>
+    ${sh.choices ? html`<h3>${icon('lucide:hand')} Student choice</h3><p>${sh.choices.prompt} Students pick on the first step of the course (or bring their own idea). You see their pick in the sign-off queue.</p>
+      <ul>${sh.choices.options.map((o) => html`<li>${mdInline(o)}</li>`)}</ul>` : ''}
+    ${sh.solo ? html`<h3>${icon('lucide:user')} Working alone</h3><p>${mdInline(sh.solo)}</p>` : ''}
+    ${sh.model ? html`<h3>${icon('lucide:file-check')} Model: ${sh.model.kind}</h3>
+      <div class="model"><div class="prose">${mdLines(sh.model.text)}</div></div>
+      <p><b>Why it works:</b></p><ol>${sh.model.why.map((w) => html`<li>${mdInline(w)}</li>`)}</ol>
+      <p class="small muted">Read the model together before students start, and ask what makes it work. It is printed in the workbook as “What good looks like”, at each student’s reading level. This is the Core version.</p>` : ''}
+    ${sh.rubric ? html`<h3>${icon('lucide:ruler')} Rubric</h3><div class="rubric-wrap">${rubricTable(sh.rubric)}</div>
+      <p class="small muted">You can mark this with one tap per row when you sign off. Students see which box you chose.</p>` : ''}
+  </section>`;
+}
 
 export function teacherGuidePage(req, skill) {
   const c = content(skill.program);
@@ -193,6 +243,8 @@ export function teacherGuidePage(req, skill) {
     ${t.realityCheck?.length ? html`<section class="panel reality"><h2>${icon('lucide:clipboard-check')} Classroom reality check</h2>
       <p class="small muted">What to know before you teach this: time, kit, sensitivities and what tends to go wrong.</p>
       <ul>${t.realityCheck.map((x) => html`<li>${mdInline(x)}</li>`)}</ul></section>` : ''}
+
+    ${goodSection(skill)}
 
     <section class="panel"><h2>${icon('lucide:package')} Prep</h2><ul>${t.prep.map((p) => html`<li>${mdInline(p)}</li>`)}</ul>
       <h2>${icon('lucide:key')} Key teaching points</h2><ul class="keypoints">${t.keyPoints.map((p) => html`<li>${p}</li>`)}</ul></section>

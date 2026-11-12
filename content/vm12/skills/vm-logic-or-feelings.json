@@ -470,7 +470,45 @@
       "VM-U2O2-KK1",
       "VM-U2O2-KK3",
       "VM-U2O2-KK2"
-    ]
+    ],
+    "model": {
+      "kind": "Example ad autopsy",
+      "text": "**The ad:** A 60-second road safety ad about speeding on country roads.\n\n**Structure:** A normal family drive. Then a sudden crash. Then silence. Then a slogan.\n\n**Logic:** One line of text explains that a small drop in speed gives you much more time to stop. The reasoning is cause and effect.\n\n**Feelings:** We see the kids in the back seat first. So we care before anything happens. The silence after the crash is the strongest moment.\n\n**Does it work?** Yes, for parents. It may work less well on young drivers. Nobody in the ad is our age.",
+      "why": [
+        "It separates the logic from the feelings.",
+        "It names the technique and where it happens in the ad.",
+        "It judges the ad for a **particular** audience."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Structure",
+        "start": "Retells the ad.",
+        "good": "Describes how the ad is built.",
+        "great": "Explains why it is built in that order."
+      },
+      {
+        "skill": "Logic and feelings",
+        "start": "Mixes them up.",
+        "good": "Finds both, with examples.",
+        "great": "Explains how they work together."
+      },
+      {
+        "skill": "Does it work?",
+        "start": "Says “it's good” or “it's bad”.",
+        "good": "Judges it for its audience.",
+        "great": "Suggests one change that would make it stronger."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of ad will you pull apart?",
+      "options": [
+        "A road safety ad",
+        "A health ad: vaping, alcohol or sun",
+        "A charity ad",
+        "A product ad you like or hate"
+      ]
+    }
   },
   "workbook": {
     "pages": [

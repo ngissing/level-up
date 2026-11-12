@@ -483,7 +483,45 @@
       "VC2E5LY06",
       "VC2E5LA08",
       "VC2E3LA05"
-    ]
+    ],
+    "model": {
+      "kind": "Example of checking a form",
+      "text": "**Form:** Application for a library card\n\n**My check before I signed**\n1. **Name:** I used my full legal name, the same as on my student ID.\n2. **Date of birth:** I wrote 04/09/2010. The form asks for day, then month, then year.\n3. **Address:** I added the postcode. I had missed it the first time.\n4. **Boxes:** I used BLOCK LETTERS, as the form asked.\n5. **Signature:** I signed and dated it last, after I had checked every line.\n\n**Fixed:** One mistake. I put my phone number in the email box.",
+      "why": [
+        "It checks the form one section at a time.",
+        "It follows the form's own rules, like block letters and date order.",
+        "It finds and fixes a mistake **before** signing."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Accurate",
+        "start": "Some boxes are wrong or empty.",
+        "good": "Every box that applies is filled in correctly.",
+        "great": "Matches your ID exactly, with nothing left to guess."
+      },
+      {
+        "skill": "Follows the instructions",
+        "start": "Misses rules like block letters.",
+        "good": "Follows the form's rules.",
+        "great": "Understands the tricky parts, like N/A and “office use only”."
+      },
+      {
+        "skill": "Checked and fixed",
+        "start": "Signed without checking.",
+        "good": "Checked and fixed mistakes.",
+        "great": "Can explain what was fixed and why it matters."
+      }
+    ],
+    "choices": {
+      "prompt": "Which form will you fill in?",
+      "options": [
+        "The practice form in your workbook",
+        "A real form: a library card, club sign-up or Medicare card",
+        "A tax file number or job application form (practice copy)"
+      ]
+    },
+    "solo": "No partner? Check it yourself in a new way. Read the form from the **bottom up**, one box at a time, with your ID next to it."
   },
   "workbook": {
     "pages": [

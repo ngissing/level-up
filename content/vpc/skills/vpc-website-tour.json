@@ -467,7 +467,46 @@
     "vc": [
       "VPC-U1M2-LG2",
       "VPC-U1M2-AP1"
-    ]
+    ],
+    "model": {
+      "kind": "Example tour record",
+      "text": "**Website:** youthcentral.vic.gov.au\n\n**Find 1: How to write a resume.** I used the **menu**: Jobs and careers, then Applying for jobs.\n\n**Find 2: A resume template.** I used the **search** bar and typed “resume template”.\n\n**Find 3: Where am I?** The **breadcrumbs** showed Home, then Jobs and careers, then Applying for jobs.\n\n**Find 4: Contact details.** In the **footer**, at the bottom of the page.\n\n**Guiding my partner:** “Go to the menu at the top. Click Jobs and careers. Now scroll to Applying for jobs.”",
+      "why": [
+        "It names the tool used for each find.",
+        "It shows the path, not just the answer.",
+        "The spoken directions are short and in order."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Finds five things",
+        "start": "Finds one or two.",
+        "good": "Finds all five.",
+        "great": "Finds them fast, with few wrong turns."
+      },
+      {
+        "skill": "Uses the tools",
+        "start": "Scrolls and guesses.",
+        "good": "Uses the menu, search, breadcrumbs and footer.",
+        "great": "Picks the best tool for each find."
+      },
+      {
+        "skill": "Guides a partner",
+        "start": "Points at the screen.",
+        "good": "Gives clear spoken steps.",
+        "great": "The partner gets there first time."
+      }
+    ],
+    "choices": {
+      "prompt": "Which website will you tour?",
+      "options": [
+        "Youth Central",
+        "Your local council",
+        "A TAFE or training provider",
+        "A bank or a government service"
+      ]
+    },
+    "solo": "No partner? Write your directions down. Wait ten minutes. Then follow them yourself, word for word. Fix any step that does not work."
   },
   "workbook": {
     "pages": [

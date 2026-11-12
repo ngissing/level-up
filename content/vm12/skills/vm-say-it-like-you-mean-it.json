@@ -466,7 +466,46 @@
     "vc": [
       "VM-U2O2-KS6",
       "VM-U2O2-KK5"
-    ]
+    ],
+    "model": {
+      "kind": "Example delivery plan and self-check",
+      "text": "**Topic:** How to change a flat tyre\n\n**My delivery plan**\n- **Eye contact:** Look at three people: left, middle and right.\n- **Pace:** Slow down for the safety step.\n- **Pause:** Two seconds after “Never get under the car.”\n- **Intonation:** Voice goes up for the question at the start.\n- **Gesture:** Show the turning action for the wheel nuts.\n\n**After watching my recording**\n- **Worked:** The pause. It made the safety point stand out.\n- **To fix:** I looked at my card too much in the middle.\n- **Next time:** Practise once more without the card.",
+      "why": [
+        "Each delivery skill is planned for a **particular** moment.",
+        "The self-check is honest and names real moments.",
+        "It ends with one clear thing to do next time."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Plans delivery",
+        "start": "Has no plan.",
+        "good": "Plans eye contact, pace, pauses, voice and gesture.",
+        "great": "Each choice fits a moment in the talk."
+      },
+      {
+        "skill": "Gives the talk",
+        "start": "Rushed, flat or hard to hear.",
+        "good": "Clear, and uses most of the planned skills.",
+        "great": "Confident. The delivery makes the message stronger."
+      },
+      {
+        "skill": "Evaluates",
+        "start": "Says “it was fine”.",
+        "good": "Says what worked and what to fix.",
+        "great": "Uses moments from the recording as evidence."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your one-minute talk be about?",
+      "options": [
+        "A skill from your job, trade or placement",
+        "Your sport or hobby",
+        "A place you love",
+        "Your pathway: where you are heading"
+      ]
+    },
+    "solo": "This task works well alone. Record your talk on a phone, with no audience. Watch it once with the sound off (for gestures and eyes), and once with it on (for voice)."
   },
   "workbook": {
     "pages": [

@@ -443,7 +443,46 @@
     "vc": [
       "VPC-U1M1-LG3",
       "VPC-U1M1-LG1"
-    ]
+    ],
+    "model": {
+      "kind": "Example storyboard plan",
+      "text": "**Message:** Wear a helmet on your e-scooter.\n\n**Audience:** People aged 14 to 17.\n\n**Shot 1 (5 s):** A wide shot. Two mates on scooters, laughing. Upbeat music.\n\n**Shot 2 (10 s):** A close-up of a helmet hanging on the handlebars, not on a head.\n\n**Shot 3 (5 s):** The wheel hits a kerb. Cut to black. The music stops.\n\n**Shot 4 (10 s):** One mate sits alone on the same footpath. Text: “It takes 3 seconds to put it on.”\n\n**Test:** Show three people. Ask them, “What was the message?”",
+      "why": [
+        "It has one clear message for one audience.",
+        "Each shot says what we see and what we hear.",
+        "It plans a test with real viewers."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Storyboard",
+        "start": "Has a few rough ideas.",
+        "good": "Has shots in order, with picture and sound.",
+        "great": "Every shot helps the message."
+      },
+      {
+        "skill": "The ad",
+        "start": "Unfinished, or too long.",
+        "good": "About 30 seconds, with a clear message.",
+        "great": "It grabs you, and it feels made for this audience."
+      },
+      {
+        "skill": "Audience test",
+        "start": "Not tested yet.",
+        "good": "Shown to the audience. Answers written down.",
+        "great": "Uses what they said to make it better."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your safety ad be about?",
+      "options": [
+        "Road safety: scooters, bikes, cars or phones",
+        "Safety at work",
+        "Staying safe online",
+        "Safety at parties or in the water"
+      ]
+    },
+    "solo": "Working alone? Act it out yourself, or use photos, drawings or objects with a voice-over. Test it on two people at home."
   },
   "workbook": {
     "pages": [

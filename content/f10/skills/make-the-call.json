@@ -553,7 +553,46 @@
       "VC2E5LY02",
       "VC2E5LY01",
       "VC2E6LY01"
-    ]
+    ],
+    "model": {
+      "kind": "Example call plan",
+      "text": "**Calling:** the dental clinic, to book a check-up.\n\n**Who:** “Hi, my name is Ruby Chen.”\n\n**Why:** “I would like to book a check-up, please. I have not been to your clinic before.”\n\n**Details I need ready:** my date of birth, my Medicare card, and the days I am free (Tuesday or Thursday after 3:30).\n\n**Check:** “So that is Thursday the 12th at 4 pm, with Dr Singh. Is that right?”\n\n**Close:** “Thank you for your help. Goodbye.”\n\n**If I get voicemail:** my name, my number said slowly, why I called, and my number again.",
+      "why": [
+        "It follows who, why, check, close.",
+        "The details are ready **before** the call.",
+        "It repeats the booking back to check it."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Plans the call",
+        "start": "Has no plan. Makes it up on the spot.",
+        "good": "Plans who, why, check and close.",
+        "great": "Has details ready and a plan for voicemail."
+      },
+      {
+        "skill": "Makes the call",
+        "start": "Hard to hear, or leaves things out.",
+        "good": "Clear and polite. Gets the job done.",
+        "great": "Checks the details back and handles a surprise."
+      },
+      {
+        "skill": "000 plan",
+        "start": "Not sure what to say.",
+        "good": "Knows the service, the place and what happened.",
+        "great": "Stays on the line and answers the questions calmly."
+      }
+    ],
+    "choices": {
+      "prompt": "Which call will you make?",
+      "options": [
+        "Booking an appointment: doctor, dentist or haircut",
+        "Asking a business if they have work or work experience",
+        "Calling a service: a bank, phone company or Centrelink",
+        "Asking a TAFE or club for information"
+      ]
+    },
+    "solo": "No partner? Record a voice memo. Say your part of the call, with pauses for the other person. Then record your voicemail. Play both back and check them against your plan."
   },
   "workbook": {
     "pages": [

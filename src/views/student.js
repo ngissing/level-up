@@ -1,10 +1,11 @@
-import { html, icon, md, mdInline, raw } from '../html.js';
+import { html, icon, md, mdInline, raw, mdLines } from '../html.js';
 import { page, sticker, vcChip, readAloud, sayButton, empty } from './layout.js';
 import { PROGRAMS } from '../programs.js';
 import { LEVELS, LEVEL_IDS } from '../levels.js';
 import { diagram, phone } from './diagrams.js';
+import { rubricTable } from './workbook.js';
 import {
-  content, skillList, zoneSkills, skillState, doneSet, requirements, allBadges, coverage, STEPS, audioFor, readUnits,
+  content, skillList, zoneSkills, skillState, doneSet, requirements, allBadges, coverage, STEPS, audioFor, readUnits, workbookBlocks, plainText,
 } from '../content.js';
 
 const STATE_LABEL = {
@@ -34,7 +35,7 @@ function node(skill, progress, done) {
     : html`<div class="node state-${st}" style="--zone:${z.color};--zone-ink:${z.ink}" aria-disabled="true">${inner}</div>`;
 }
 
-export function mapPage(req, { progress, newBadges, unlocked }) {
+export function mapPage(req, { progress, newBadges, unlocked, extras = null }) {
   const c = content(req.user.program);
   const done = doneSet(progress);
   const all = skillList(c.program);
@@ -67,6 +68,20 @@ export function mapPage(req, { progress, newBadges, unlocked }) {
       ${unlocked?.length ? html`<p>You unlocked: <b>${unlocked.map((s) => s.title).join(', ')}</b></p>` : ''}
     </div>
     <a class="btn btn-ink" href="/badges">See badges</a>
+  </section>` : ''}
+
+  ${extras ? html`<section class="daily">
+    ${extras.warmup.ready ? html`<a class="daily-card warm" href="/warmup">
+        <span class="daily-ico">${icon('lucide:flame')}</span>
+        <span class="daily-text"><strong>Warm-up ready</strong><small>${extras.warmup.count} quick question${extras.warmup.count === 1 ? '' : 's'} from skills you’ve finished. About 2 minutes.</small></span>
+        <span class="daily-go">Start ${icon('lucide:arrow-right')}</span></a>`
+      : html`<div class="daily-card warm quiet">
+        <span class="daily-ico">${icon(extras.warmup.done ? 'lucide:circle-check' : 'lucide:flame')}</span>
+        <span class="daily-text"><strong>${extras.warmup.done ? 'Warm-up done for today' : 'Warm-ups'}</strong><small>${extras.warmup.done ? 'Nice. The next one will be ready when you need it.' : 'Finish a skill and it comes back here as a few quick questions, so you don’t forget it.'}</small></span></div>`}
+    <a class="daily-card reads" href="/reads">
+      <span class="daily-ico">${icon('lucide:book-open-text')}</span>
+      <span class="daily-text"><strong>Reading Room</strong><small>${extras.reads.monthReads ? `${extras.reads.monthReads} read${extras.reads.monthReads === 1 ? '' : 's'} this month. ` : ''}Real stories, your choice. No questions, no marks.</small></span>
+      <span class="daily-go">Browse ${icon('lucide:arrow-right')}</span></a>
   </section>` : ''}
 
   ${nextUp.length ? html`<section class="next-up">
@@ -153,7 +168,7 @@ function doneButton(skill, step, label = 'Done — next step') {
   </form>`;
 }
 
-function briefStep(skill) {
+function briefStep(skill, p, canPick) {
   const b = skill.course.brief;
   const u = readUnits(skill.course), audio = audioFor(skill.id);
   return html`<div class="panel" id="read-brief">
@@ -169,7 +184,47 @@ function briefStep(skill) {
       <strong>${v.word}</strong><p>${v.meaning}</p><em>${v.example}</em>
     </div>`)}</div>
     <div class="callout-box">${icon('lucide:target')}<div><strong>How you’ll show it</strong><p>${b.showIt}</p><small>Time: about ${skill.course.duration}</small></div></div>
+    ${pickForm(skill, p, canPick)}
   </div>`;
+}
+
+// "Make it yours": the student chooses what their final task is about (or brings their own idea).
+// Choosing early means the whole course is aimed at something they care about.
+export function pickForm(skill, p, canPick) {
+  const ch = skill.course.show.choices;
+  if (!ch) return '';
+  const mine = p?.choice || '';
+  const isOption = ch.options.some((o) => plainText(o) === mine);
+  const opts = html`<ul class="pick-list">${ch.options.map((o) => html`<li>${canPick
+    ? html`<label class="pick-opt"><input type="radio" name="choice" value="${plainText(o)}" ${plainText(o) === mine ? raw('checked') : ''}><span>${mdInline(o)}</span></label>`
+    : html`<span class="pick-opt static"><span>${mdInline(o)}</span></span>`}</li>`)}
+    ${canPick ? html`<li><label class="pick-opt own"><input type="radio" name="choice" value="__own" ${mine && !isOption ? raw('checked') : ''}><span>My own idea:</span>
+      <input type="text" name="own" maxlength="120" value="${mine && !isOption ? mine : ''}" placeholder="Type it here" aria-label="My own idea"></label></li>` : html`<li><span class="pick-opt static"><span>…or your own idea</span></span></li>`}</ul>`;
+  return html`<section class="pick" id="pick">
+    <h2>${icon('lucide:hand')} Make it yours</h2>
+    <p>${ch.prompt} ${canPick ? 'You can change your mind later.' : ''}</p>
+    ${canPick ? html`<form method="post" action="/skill/${skill.id}/choice">${opts}
+      <button class="btn btn-ink btn-sm">${icon('lucide:check')} ${mine ? 'Change my pick' : 'Save my pick'}</button>
+      ${mine ? html`<span class="pick-saved">${icon('lucide:circle-check')} Saved</span>` : ''}</form>` : opts}
+  </section>`;
+}
+
+// "What good looks like": a model answer, why it works, and the rubric. marks = the teacher's
+// rubric marks (one column number per row), shown once work has been checked.
+export function goodLooksLike(skill, { marks = null, open = false } = {}) {
+  const sh = skill.course.show;
+  if (!sh.model) return '';
+  return html`<details class="good" ${open ? raw('open') : ''}>
+    <summary>${icon('lucide:medal')} <span>What good looks like</span> <small>See an example before you start</small></summary>
+    <div class="good-body">
+      <div class="model"><span class="model-kind">${icon('lucide:file-check')} ${sh.model.kind}</span>
+        <div class="prose">${mdLines(sh.model.text)}</div>
+        ${readAloud(`${sh.model.kind}. ${plainText(sh.model.text)}`, null, 'Read it to me')}</div>
+      <div class="why"><h3>${icon('lucide:lightbulb')} Why it works</h3><ol>${sh.model.why.map((w) => html`<li>${mdInline(w)}</li>`)}</ol></div>
+      ${sh.rubric ? html`<h3>${icon('lucide:ruler')} How it’s marked</h3>
+        <div class="rubric-wrap">${rubricTable(sh.rubric, { marks })}</div>` : ''}
+    </div>
+  </details>`;
 }
 
 function scene(s) {
@@ -247,7 +302,7 @@ function seeStep(skill) {
 }
 
 function workbookStep(skill) {
-  const pages = skill.course.workbook.pages.filter((p) => p.type !== 'signoff' && p.type !== 'cover');
+  const pages = workbookBlocks(skill.course).filter((p) => p.type !== 'signoff' && p.type !== 'cover');
   return html`<div class="panel">
     <div class="workbook-hero">
       <div class="wb-thumb" aria-hidden="true"><span>${icon(skill.icon)}</span><b>${skill.title}</b><i>Workbook</i></div>
@@ -290,13 +345,19 @@ function showStep(skill, p, ready) {
   if (p?.status === 'submitted') {
     return html`<div class="panel center-panel">${icon('lucide:hourglass', 'big-ico')}<h2>Sent to your teacher</h2><p>Your teacher will check your workbook and sign it off. Pick another skill from the map while you wait!</p><a class="btn btn-ink" href="/map">${icon('lucide:map')} Back to the map</a></div>`;
   }
+  const marks = parseMarks(p?.rubric, s.rubric);
   if (p?.status === 'complete') {
-    return html`<div class="panel center-panel">${sticker(skill.badge.icon, { color: skill.zoneObj.color, ink: skill.zoneObj.ink, size: 'xl' })}<h2>Done! You earned “${skill.badge.name}”</h2>${p.teacher_comment ? html`<blockquote class="t-comment">${icon('lucide:message-circle')} ${p.teacher_comment}</blockquote>` : ''}<a class="btn btn-ink" href="/map">${icon('lucide:map')} Choose your next skill</a></div>`;
+    return html`<div class="panel center-panel">${sticker(skill.badge.icon, { color: skill.zoneObj.color, ink: skill.zoneObj.ink, size: 'xl' })}<h2>Done! You earned “${skill.badge.name}”</h2>${p.teacher_comment ? html`<blockquote class="t-comment">${icon('lucide:message-circle')} ${p.teacher_comment}</blockquote>` : ''}
+      ${marks && s.rubric ? html`<div class="marked-rubric"><h3>${icon('lucide:ruler')} How your teacher marked it</h3><div class="rubric-wrap">${rubricTable(s.rubric, { marks })}</div></div>` : ''}
+      <a class="btn btn-ink" href="/map">${icon('lucide:map')} Choose your next skill</a></div>`;
   }
   return html`<div class="panel">
     ${p?.teacher_comment ? html`<div class="callout-box warn">${icon('lucide:message-circle')}<div><strong>Your teacher says</strong><p>${p.teacher_comment}</p></div></div>` : ''}
     <h2>Show it</h2>
     <div class="callout-box">${icon('lucide:target')}<div><strong>Your final task</strong><p>${s.task}</p><small>${handsOn ? `Do it for real, then record it in your workbook (page “${handsOn.title}”).` : 'Do this in your workbook (page “Final mission”).'}</small></div></div>
+    ${s.choices ? html`<p class="my-pick">${icon('lucide:hand')} ${p?.choice ? html`<b>Your pick:</b> ${p.choice} · <a href="/skill/${skill.id}?step=brief#pick">change</a>` : html`<a href="/skill/${skill.id}?step=brief#pick">Pick what yours will be about</a>`}</p>` : ''}
+    ${s.solo ? html`<div class="callout-box solo">${icon('lucide:user')}<div><strong>Working on your own?</strong><p>${mdInline(s.solo)}</p></div></div>` : ''}
+    ${goodLooksLike(skill, { marks, open: !!marks })}
     ${ready.missing.length ? html`<div class="callout-box warn">${icon('lucide:list-todo')}<div><strong>Before you send it in, finish:</strong><ul>${ready.missing.map((m) => html`<li>${m}</li>`)}</ul></div></div>` : ''}
     <form method="post" action="/skill/${skill.id}/submit" class="show-form">
       <fieldset><legend>Tick each one</legend>
@@ -307,6 +368,12 @@ function showStep(skill, p, ready) {
       <button class="btn btn-zone btn-lg" ${ready.missing.length ? raw('disabled') : ''}>${icon('lucide:send')} Send to my teacher</button>
     </form>
   </div>`;
+}
+
+// The teacher's rubric marks: a column number (0–2) per rubric row, or null if not marked.
+export function parseMarks(json, rubric) {
+  if (!json || !rubric) return null;
+  try { const m = JSON.parse(json); return Array.isArray(m) && m.some((x) => x !== null) ? rubric.map((_, i) => ([0, 1, 2].includes(m[i]) ? m[i] : null)) : null; } catch { return null; }
 }
 
 export function readiness(skill, p, passPct) {
@@ -370,14 +437,16 @@ export function skillPage(req, { skill, progress, step, quizResult, passPct }) {
     </div>`;
   } else {
     const stepBody = {
-      brief: () => html`${briefStep(skill)}${doneBtn('brief', 'Got it — next')}`,
+      brief: () => html`${briefStep(skill, p, student && p?.status === 'started')}${doneBtn('brief', 'Got it — next')}`,
       watch: () => html`${watchStep(skill)}${doneBtn('watch')}`,
       read: () => html`${readStep(skill)}${doneBtn('read')}`,
       see: () => html`${seeStep(skill)}${doneBtn('see')}`,
       workbook: () => html`${workbookStep(skill)}${doneBtn('workbook', 'I’ve done my workbook pages')}`,
       check: () => checkStep(skill, p, quizResult),
       show: () => (student ? showStep(skill, p, readiness(skill, p, passPct))
-        : html`<div class="panel"><h2>Show it</h2><div class="callout-box">${icon('lucide:target')}<div><strong>Final task</strong><p>${skill.course.show.task}</p></div></div><ul>${skill.course.show.checklist.map((x) => html`<li>${x}</li>`)}</ul><p><b>Level Up:</b> ${skill.course.show.levelUp}</p></div>`),
+        : html`<div class="panel"><h2>Show it</h2><div class="callout-box">${icon('lucide:target')}<div><strong>Final task</strong><p>${skill.course.show.task}</p></div></div><ul>${skill.course.show.checklist.map((x) => html`<li>${x}</li>`)}</ul><p><b>Level Up:</b> ${skill.course.show.levelUp}</p>
+          ${skill.course.show.solo ? html`<div class="callout-box solo">${icon('lucide:user')}<div><strong>Working on your own?</strong><p>${mdInline(skill.course.show.solo)}</p></div></div>` : ''}
+          ${goodLooksLike(skill, { open: true })}</div>`),
     }[step] || (() => '');
     // Staff see a preview: no progress is saved, and they can switch reading-level version.
     const previewBar = student ? '' : html`<div class="preview-bar">${icon('lucide:eye')} <span>Teacher preview of the <b>${LEVELS[skill.level].symbol} ${LEVELS[skill.level].label}</b> version. Nothing is saved. Switch: ${LEVEL_IDS.map((l) => html`<a href="/skill/${skill.id}?step=${step}&level=${l}">${LEVELS[l].symbol} ${LEVELS[l].label}</a> `)}</span></div>`;

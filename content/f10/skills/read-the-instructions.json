@@ -511,7 +511,45 @@
       "VC2E5LY10",
       "VC2E6LA06",
       "VC2E5LA08"
-    ]
+    ],
+    "model": {
+      "kind": "Example instructions",
+      "text": "**How to jump-start a car**\n\n**You need:** jumper leads and a second car with a good battery.\n\n1. **Park** the cars close together. Turn both engines **off**.\n2. **Clip** a red lead to the + on the flat battery. Clip the other end to the + on the good battery.\n3. **Clip** a black lead to the − on the good battery. Clip the other end to bare metal on the flat car.\n4. **Start** the good car. Wait two minutes.\n5. **Start** the flat car. You **must** take the leads off in reverse order.\n\n**Warning:** Never let the clips touch each other.\n\n*Terminal:* the metal post on top of a battery.",
+      "why": [
+        "Every step starts with an action verb.",
+        "“Must” is saved for the step that really matters.",
+        "It has a warning, and it explains one technical word."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Clear steps",
+        "start": "Steps are long or out of order.",
+        "good": "Numbered steps that start with a verb.",
+        "great": "Each step has one action, with when and how."
+      },
+      {
+        "skill": "Must-words and warnings",
+        "start": "None yet.",
+        "good": "Uses a must-word and a warning correctly.",
+        "great": "The warning sits where the reader needs it."
+      },
+      {
+        "skill": "Works without you",
+        "start": "A reader would need to ask questions.",
+        "good": "Someone could follow it.",
+        "great": "Tested on a real person, then fixed."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your instructions be for?",
+      "options": [
+        "A job from your work or placement",
+        "Something you fix, make or cook",
+        "Setting up tech: a console, an app, a router",
+        "A drill or skill from your sport"
+      ]
+    }
   },
   "workbook": {
     "pages": [

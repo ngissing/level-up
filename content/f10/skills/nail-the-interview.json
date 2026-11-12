@@ -463,7 +463,46 @@
       "VC2E6LY02",
       "VC2E6LY01",
       "VC2E4LY02"
-    ]
+    ],
+    "model": {
+      "kind": "Example STAR story",
+      "text": "**Question:** Tell me about a time you solved a problem.\n\n**Situation:** Last summer I helped at my uncle's fruit stall at the market.\n\n**Task:** One Saturday the card reader stopped working. A long line was building up.\n\n**Action:** I stayed calm. I told each customer what was happening. I wrote every sale in a notebook and showed people the ATM across the road.\n\n**Result:** We only lost two sales. My uncle now keeps a notebook at the stall, just in case.",
+      "why": [
+        "It tells one real story, in four clear parts.",
+        "The **Action** part is the longest. It shows what *you* did.",
+        "It ends with a result the employer can picture."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "STAR stories",
+        "start": "Stories are missing some STAR parts.",
+        "good": "Three stories, each with all four parts.",
+        "great": "Each story proves a skill this job needs."
+      },
+      {
+        "skill": "In the interview",
+        "start": "Short answers. Looks away a lot.",
+        "good": "Clear answers with eye contact.",
+        "great": "Calm and friendly, and asks a smart question."
+      },
+      {
+        "skill": "Thank-you message",
+        "start": "Not done, or just “thanks”.",
+        "good": "Polite, and names the job.",
+        "great": "Adds one thing from the interview and says what happens next."
+      }
+    ],
+    "choices": {
+      "prompt": "Which job will your mock interview be for?",
+      "options": [
+        "A casual job you could apply for now",
+        "An apprenticeship or traineeship",
+        "A job from an ad you decoded",
+        "A work experience placement"
+      ]
+    },
+    "solo": "No partner? Record your answers on a phone. Read each question out loud, pause, then answer. Watch it back and rate yourself with the checklist."
   },
   "workbook": {
     "pages": [
