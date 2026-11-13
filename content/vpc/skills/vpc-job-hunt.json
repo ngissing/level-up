@@ -1,0 +1,938 @@
+{
+  "id": "vpc-job-hunt",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You see a job ad. “Earn $900 a week from your phone!” Sounds great. Is it real? A good job hunter can tell in one minute. They also know exactly what the boss wants.",
+      "core": "You’re scrolling and see it: “Earn $900 a week from your phone! No experience needed.” Sounds perfect. Is it real? A good job hunter can tell in a minute, and can read any real ad to work out exactly what the employer wants, and what documents they’ll need to apply.",
+      "extend": "Every job ad is a short, carefully written text: an employer describing the person they want, the conditions they offer and the documents they expect. Some ads aren’t from employers at all. Reading ads well means finding real opportunities, knowing what to prepare, and spotting the scams written to look like jobs."
+    },
+    "why": {
+      "support": "Most jobs start with an ad. If you can read one well, you apply for the right jobs, with the right things.",
+      "core": "Most jobs start with an ad. Reading it properly means you apply for jobs you can actually get, with the documents they ask for, and you avoid the fakes.",
+      "extend": "Job ads tell you what to prepare: the documents, checks and skills an employer requires. Reading them critically helps you target applications and avoid scams, which have grown fast."
+    },
+    "canDo": {
+      "support": [
+        "I can find real job ads.",
+        "I can find what the employer wants.",
+        "I can list the documents I need.",
+        "I can spot a fake job ad."
+      ],
+      "core": [
+        "I can find real job ads on trusted job sites.",
+        "I can tell must-haves from nice-to-haves.",
+        "I can list the documents and checks a job needs.",
+        "I can spot the red flags of a job scam."
+      ],
+      "extend": [
+        "I can research and locate real job ads that match my goals.",
+        "I can decode an ad’s requirements and conditions.",
+        "I can identify the documents and checks required to apply.",
+        "I can judge whether an ad is genuine, with evidence."
+      ]
+    },
+    "showIt": "Find three real job ads you could apply for, decode what each one needs, and choose the best fit.",
+    "vocab": [
+      {
+        "word": "casual",
+        "meaning": "work with no set hours each week",
+        "example": "Casual shifts change every week."
+      },
+      {
+        "word": "part-time",
+        "meaning": "regular hours, but fewer than full-time",
+        "example": "Part-time: 20 hours a week."
+      },
+      {
+        "word": "essential",
+        "meaning": "you must have it",
+        "example": "A driver licence is essential."
+      },
+      {
+        "word": "desirable",
+        "meaning": "nice to have, but not a must",
+        "example": "Barista skills are desirable."
+      },
+      {
+        "word": "cover letter",
+        "meaning": "a short letter or email that goes with your resume",
+        "example": "They asked for a resume and cover letter."
+      },
+      {
+        "word": "closing date",
+        "meaning": "the last day you can apply",
+        "example": "The closing date is Friday."
+      },
+      {
+        "word": "availability",
+        "meaning": "the days and times you can work",
+        "example": "Put your availability in your email.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "Working with Children Check",
+        "meaning": "a check you need to work with kids in Victoria",
+        "example": "Swim teachers need a Working with Children Check.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "remuneration",
+        "meaning": "pay",
+        "example": "Remuneration: award rates.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Job Hunt in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Job Hunt",
+        "sub": "Read a job ad like an employer wrote it.",
+        "icon": "lucide:briefcase",
+        "say": "Job hunt. Read a job ad like an employer wrote it. Because they did."
+      },
+      {
+        "kind": "stat",
+        "big": "$24 million",
+        "title": "lost to job scams in 2023",
+        "sub": "Almost 5,000 reports. Students looking for part-time work were hit hard. Source: ACCC",
+        "say": "In 2023, Australians reported almost five thousand job scams and lost about twenty-four million dollars. Students looking for part-time work were among those hit hardest.",
+        "vc": [
+          "VPC-U3M2-AP1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Read the ad",
+        "pillIcon": "lucide:briefcase",
+        "title": "The job",
+        "text": "Title, type, hours, pay, place.",
+        "icon": "lucide:clipboard-list",
+        "say": "First, the job. The title, casual or part-time, the hours, the pay and where it is.",
+        "vc": [
+          "VPC-U3M2-AP1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Read the ad",
+        "pillIcon": "lucide:briefcase",
+        "title": "Must-haves",
+        "text": "Essential vs nice to have.",
+        "icon": "lucide:list-checks",
+        "say": "Second, the must-haves. Essential means you need it. Desirable means it helps, but it is not a deal breaker.",
+        "vc": [
+          "VPC-U3M2-AP1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Read the ad",
+        "pillIcon": "lucide:briefcase",
+        "title": "Documents",
+        "text": "Resume, cover letter, checks.",
+        "icon": "lucide:folder-open",
+        "say": "Third, the documents. A resume, a cover letter or email, and any checks, like a Working with Children Check.",
+        "vc": [
+          "VPC-U3M2-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Read the ad",
+        "pillIcon": "lucide:briefcase",
+        "title": "How + when",
+        "text": "How to apply. Closing date.",
+        "icon": "lucide:calendar-clock",
+        "say": "Fourth, how and when. How do you apply, and what is the closing date?",
+        "vc": [
+          "VPC-U3M2-LG1"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Red flags",
+        "text": "Pay to start? Huge money for easy work? Chat-app only? **Walk away.**",
+        "icon": "lucide:triangle-alert",
+        "say": "Red flags. Asked to pay to start? Huge money for easy work? Only on a chat app? Walk away.",
+        "vc": [
+          "VPC-U3M2-AP1"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Find three real jobs. Decode them.",
+        "icon": "lucide:search",
+        "say": "Your mission. Find three real job ads you could apply for, decode them, and pick the best fit."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Read a job ad like an employer",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Most jobs start with an ad. Real ads are on job sites like **SEEK**, **Indeed** and the government’s **Workforce Australia**. Some are on a business’s own website, or in a shop window.\n\nRead every ad for four things.\n\n1. **The job.** What is it? Is it casual or part-time? What hours? What pay? Where?\n2. **Must-haves.** “Essential” means you must have it. “Desirable” means it’s nice to have.\n3. **Documents.** What do they want? Usually a **resume**. Maybe a **cover letter** (a short letter or email). Some jobs need a check. To work with kids, you need a **Working with Children Check**.\n4. **How and when.** How do you apply? What is the **closing date**?\n.\n**Red flags** for fake jobs:\n- They ask you to pay to start.\n- The pay is huge for easy work.\n- They only talk on WhatsApp or Telegram.\n- They want your bank details before you meet.",
+          "core": "Most jobs start with an ad. Real ones are on job sites such as **SEEK** and **Indeed**, the government’s **Workforce Australia**, a company’s own careers page, or a sign in a shop window. Read every ad for four things.\n\n1. **The job.** What’s the title? Is it **casual** (hours change each week), **part-time** or full-time? What hours or **availability** do they need? What’s the pay, and where is it?\n2. **Must-haves.** Ads often split requirements into **essential** (you must have it) and **desirable** (it helps, but it’s not a deal-breaker). Don’t be scared off by a desirable you don’t have.\n3. **Documents and checks.** Most ads want a **resume**. Many want a **cover letter** or email saying why you want the job. Some jobs need checks or cards: a **Working with Children Check** to work with kids in Victoria, a driver licence for delivery work, or a **White Card** (construction induction) to work on a building site. List these early, because some take time to get.\n4. **How and when.** How do you apply: online, by email, in person? What’s the **closing date**?\n.\nThen check it’s real. **Red flags** for job scams:\n- you have to pay for a “starter kit”, training or equipment.\n- the pay is huge for very easy work.\n- they only talk on WhatsApp or Telegram.\n- they want your bank details or ID before you’ve even had an interview.\n- there’s no real business name you can look up.",
+          "extend": "Most jobs start with an ad, and every ad is a carefully constructed text. You’ll find genuine ones on job boards such as **SEEK** and **Indeed**, the government’s **Workforce Australia**, employers’ own careers pages, and local noticeboards. Read each one for four things.\n\n1. **The job.** Title, employment type (**casual**, **part-time**, full-time), hours or **availability**, pay (sometimes called **remuneration**) and location.\n2. **Selection criteria.** Many ads separate **essential** requirements from **desirable** ones. Essential criteria are gatekeepers; desirable ones are tie-breakers, so apply anyway if you meet the essentials.\n3. **Documents and checks.** Identify exactly what the application requires: a **resume**, a **cover letter**, availability, referees, and any mandatory checks or tickets, such as a **Working with Children Check** for child-related work in Victoria, a driver licence, or a **White Card** for construction sites. Some take weeks, so plan ahead.\n4. **Process and timing.** The method of application and the **closing date**.\n.\nFinally, evaluate whether the ad is genuine. Job scams have grown quickly. **Red flags** include:\n- an upfront payment for kits, training or equipment.\n- unrealistic pay for minimal effort.\n- contact only through encrypted chat apps.\n- requests for bank details or identity documents before any interview.\n- no verifiable business name or ABN."
+        },
+        "vc": [
+          "VPC-U3M2-AP1",
+          "VPC-U3M2-LG1"
+        ],
+        "vcNote": "Locating job ads and identifying the requirements and documents needed to apply."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The job that wasn’t",
+        "icon": "lucide:triangle-alert",
+        "body": {
+          "support": "In 2023, Australians made almost **5,000** reports about job scams to Scamwatch.\n\nThey lost about **$24 million**. That was more than double the year before.\n\nMany of the people hit were **young**. Lots were students looking for part-time work.\n\nThe fake jobs often came through social media or WhatsApp. They promised easy money for simple tasks, like rating products online.\n\nThen people were asked to pay money to “unlock” their earnings. The money was gone.",
+          "core": "In 2023, Scamwatch received almost **5,000** reports about job scams. People lost about **$24 million**, more than double the year before. Job scams were one of the fastest-growing kinds of scam in Australia.\n\nThe Australian Competition and Consumer Commission (ACCC) said younger Australians were hit especially hard, including **students looking for part-time work**.\n\nThe pattern was often the same. A message arrives on social media or WhatsApp. It offers easy money for simple online tasks, like rating products. At first, small payments come through. Then the victim is told to pay money to unlock bigger earnings. That money is never seen again.\n\nIn 2024, the government’s National Anti-Scam Centre set up a special team to fight job scams.",
+          "extend": "In 2023, Scamwatch received almost **5,000** reports of job scams. Reported losses were about **$24 million**, more than double the year before. That made job scams one of the fastest-growing scam types in Australia.\n\nThe ACCC reported that younger Australians were hit harder than others, especially **students looking for part-time work**. So were people from migrant and non-English-speaking backgrounds.\n\nMany followed the same script. A stranger makes contact through social media or a chat app. They offer well-paid, flexible work doing simple online “tasks”. Small early payments build trust. Then the victim must pay in their own money to “unlock” bigger earnings, which never arrive.\n\nIn 2024, the National Anti-Scam Centre set up a special team with banks and online platforms to fight job scams. Still, the best defence is a careful reader. An ad that skips the normal parts of a real job, like a business you can check, clear duties and a proper way to apply, deserves suspicion."
+        },
+        "source": {
+          "name": "ACCC media release — “Second National Anti-Scam Centre fusion cell to tackle job and employment scams” (2024)",
+          "url": "https://www.accc.gov.au/media-release/second-national-anti-scam-centre-fusion-cell-to-tackle-job-and-employment-scams"
+        },
+        "think": {
+          "support": [
+            "Who did the job scams hit most?",
+            "What was the trick?"
+          ],
+          "core": [
+            "Why might students looking for part-time work be easy targets?",
+            "What were the warning signs in these scams?",
+            "What would you check before replying to a job message?"
+          ],
+          "extend": [
+            "Which features of a genuine job ad were missing from these scams?",
+            "Why do small early payments make the scam work?",
+            "Whose job is it to stop job scams: platforms, government or job seekers?"
+          ]
+        },
+        "vc": [
+          "VPC-U3M2-AP1"
+        ],
+        "vcNote": "Reading job texts critically: real data on job scams targeting young people."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a job ad",
+      "docTitle": "CASUAL KITCHEN HAND — ROSIE’S CAFÉ, BENDIGO (EXAMPLE)",
+      "vc": [
+        "VPC-U3M2-AP1",
+        "VPC-U3M2-LG1"
+      ],
+      "vcNote": "Decoding the job, requirements, documents and application process in a job ad.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "The job",
+          "value": "Casual kitchen hand. Weekends, plus 2 weekdays after 3:30 pm. Award rates."
+        },
+        {
+          "n": 2,
+          "label": "Duties",
+          "value": "Wash dishes, prep salads, keep the kitchen clean and safe."
+        },
+        {
+          "n": 3,
+          "label": "Essential",
+          "value": "Reliable. Available every weekend. Happy to work in a busy team.",
+          "strong": true
+        },
+        {
+          "n": 4,
+          "label": "Desirable",
+          "value": "Some kitchen or café experience."
+        },
+        {
+          "n": 5,
+          "label": "To apply",
+          "value": "Email your resume and a short note with your availability to jobs@rosiescafe.example."
+        },
+        {
+          "n": 6,
+          "label": "Closing date",
+          "value": "Friday 14 June."
+        }
+      ],
+      "note": "Made-up ad for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Type, hours, pay",
+          "note": "Can I do these hours?"
+        },
+        {
+          "n": 2,
+          "label": "Duties",
+          "note": "What I’d actually do."
+        },
+        {
+          "n": 3,
+          "label": "Must-haves",
+          "note": "I need all of these."
+        },
+        {
+          "n": 4,
+          "label": "Nice to have",
+          "note": "Apply even without it."
+        },
+        {
+          "n": 5,
+          "label": "Documents + how",
+          "note": "Resume + note with availability."
+        },
+        {
+          "n": 6,
+          "label": "Deadline",
+          "note": "Apply before this date."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Four things in every ad",
+      "steps": [
+        {
+          "title": "The job",
+          "text": "Type, hours, pay, place.",
+          "icon": "lucide:clipboard-list"
+        },
+        {
+          "title": "Must-haves",
+          "text": "Essential vs desirable.",
+          "icon": "lucide:list-checks"
+        },
+        {
+          "title": "Documents",
+          "text": "Resume, letter, checks.",
+          "icon": "lucide:folder-open"
+        },
+        {
+          "title": "How + when",
+          "text": "How to apply, closing date.",
+          "icon": "lucide:calendar-clock"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What does **essential** mean in a job ad?",
+        "options": [
+          "You must have it",
+          "It would be nice",
+          "It’s optional",
+          "The pay"
+        ],
+        "answer": 0,
+        "explain": "Essential is a must-have. Desirable is a nice-to-have.",
+        "vc": [
+          "VPC-U3M2-AP1"
+        ]
+      },
+      {
+        "q": "You don’t have a **desirable** skill. Should you still apply?",
+        "options": [
+          "Yes, if you have the essentials",
+          "No, never",
+          "Only if you lie",
+          "Only after the closing date"
+        ],
+        "answer": 0,
+        "explain": "Desirable skills are tie-breakers, not deal-breakers.",
+        "vc": [
+          "VPC-U3M2-AP1"
+        ]
+      },
+      {
+        "q": "You want to teach swimming to kids in Victoria. What check will you need?",
+        "options": [
+          "A Working with Children Check",
+          "A White Card",
+          "A boat licence",
+          "Nothing at all"
+        ],
+        "answer": 0,
+        "explain": "Working with kids in Victoria needs a Working with Children Check.",
+        "vc": [
+          "VPC-U3M2-LG1"
+        ]
+      },
+      {
+        "q": "Which is a red flag for a job scam?",
+        "options": [
+          "You have to pay for a “starter kit” first",
+          "There’s a closing date",
+          "They ask for a resume",
+          "The business has a website"
+        ],
+        "answer": 0,
+        "explain": "Real employers don’t make you pay to start work.",
+        "vc": [
+          "VPC-U3M2-AP1"
+        ]
+      },
+      {
+        "q": "In 2023, about how much did Australians lose to job scams?",
+        "options": [
+          "About $24 million",
+          "About $24",
+          "Nothing",
+          "About $24 billion"
+        ],
+        "answer": 0,
+        "explain": "Almost 5,000 reports and about $24 million lost, more than double the year before.",
+        "vc": [
+          "VPC-U3M2-AP1"
+        ]
+      },
+      {
+        "q": "What usually goes with a resume?",
+        "options": [
+          "A short cover letter or email",
+          "A selfie",
+          "Your bank PIN",
+          "Your school report from Year 3"
+        ],
+        "answer": 0,
+        "explain": "A cover letter or email says why you want the job.",
+        "vc": [
+          "VPC-U3M2-LG1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Find 3 real job ads you could apply for. Decode what each one needs. Pick the best one.",
+      "core": "Find three real job ads you could apply for, decode what each one needs, and choose the best fit.",
+      "extend": "Locate three genuine job ads that match your goals, decode the requirements and documents for each, judge that each is genuine, and justify the best fit."
+    },
+    "checklist": [
+      "I found three real job ads on trusted sites",
+      "I decoded the job, must-haves, documents and closing date",
+      "I checked each ad for red flags",
+      "I chose the best fit and listed what I need to apply"
+    ],
+    "levelUp": "In a small group, pick one job ad together. Agree on every document and check it needs, and make one shared checklist for applying.",
+    "vc": [
+      "VPC-U3M2-LG1",
+      "VPC-U3M2-AP1"
+    ],
+    "model": {
+      "kind": "Example ad decoder",
+      "text": "**Job:** Casual sales assistant at a sports store, Shepparton. Found on SEEK.\n\n**The job:** Casual. Thursday nights and Saturdays. Award rates.\n\n**Must-haves:** friendly, reliable, available Saturdays.\n**Nice to have:** knows about running shoes.\n\n**Documents:** resume, plus a short email saying why I want the job and when I can work.\n\n**How + when:** apply on SEEK by 30 May.\n\n**Real?** Yes. It’s a store I can visit. There’s no fee, and they want a normal application.\n\n**Fit:** Good. I play footy and know shoes. I need to update my resume first.",
+      "why": [
+        "It covers all four parts: the job, must-haves, documents, and how and when.",
+        "It checks the ad is real, with reasons.",
+        "It ends with a decision and the next thing to do."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Finding ads",
+        "start": "Ads don’t suit me, or aren’t real.",
+        "good": "Three real ads I could apply for.",
+        "great": "Three real ads that match my goals."
+      },
+      {
+        "skill": "Decoding",
+        "start": "Copies bits of the ad.",
+        "good": "Finds job, must-haves, documents and date.",
+        "great": "Explains what each part means for me."
+      },
+      {
+        "skill": "Judging",
+        "start": "No check for scams.",
+        "good": "Checks for red flags. Picks the best fit.",
+        "great": "Gives reasons and a clear next step."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of job will you hunt for?",
+      "options": [
+        "A casual job I could do now (shop, café, fast food)",
+        "An apprenticeship or traineeship",
+        "Work with kids, animals or older people",
+        "Outdoor or hands-on work (farm, gardening, labouring)"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Read a job ad like an employer",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name the **four** things to read for in every ad.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "vc": [
+              "VPC-U3M2-AP1"
+            ]
+          },
+          {
+            "q": "What is the difference between **essential** and **desirable**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M2-AP1"
+            ]
+          },
+          {
+            "q": "Name **three** documents or checks a job might ask for.",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M2-LG1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name two red flags for a fake job.",
+              "core": "Name three red flags for a job scam.",
+              "extend": "Name three red flags for a job scam, and explain why each one is suspicious."
+            },
+            "lines": {
+              "support": 2,
+              "core": 3,
+              "extend": 4
+            },
+            "vc": [
+              "VPC-U3M2-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Real job or red flag?",
+        "pagebreak": true,
+        "choices": [
+          "Looks real",
+          "Red flag"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Read each part of a job ad or message. Does it look real, or is it a red flag? Say why.",
+        "vc": [
+          "VPC-U3M2-AP1"
+        ],
+        "cards": [
+          {
+            "from": "Instagram DM",
+            "text": "Earn $900 a week from home just liking posts! Message us on WhatsApp.",
+            "answer": "Red flag",
+            "flags": "Huge pay, easy work, chat app only."
+          },
+          {
+            "from": "SEEK",
+            "text": "Casual supermarket assistant, Bendigo. Apply through our careers page. Closes 30 June.",
+            "answer": "Looks real",
+            "flags": "Real process and a closing date."
+          },
+          {
+            "from": "Email",
+            "text": "Congratulations! Pay $150 for your starter kit before your first shift.",
+            "answer": "Red flag",
+            "flags": "Real jobs don’t make you pay to start."
+          },
+          {
+            "from": "Council website",
+            "text": "Swim instructor. Essential: Working with Children Check.",
+            "answer": "Looks real",
+            "flags": "A real check for working with kids."
+          },
+          {
+            "from": "Text message",
+            "text": "Send your bank details and a photo of your licence before the interview.",
+            "answer": "Red flag",
+            "flags": "Never send ID or bank details before you’ve met them."
+          },
+          {
+            "from": "Indeed",
+            "text": "Apprentice carpenter. Essential: White Card and driver licence.",
+            "answer": "Looks real",
+            "flags": "Normal tickets for building work.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a job ad",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What part is it?",
+          "What does it mean for me?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the job ad. Use the word bank. Write what it means for you.",
+          "core": "Each number marks part of the job ad. Name it, and say what it means for someone applying."
+        },
+        "wordBank": {
+          "support": [
+            "type + hours",
+            "duties",
+            "essential",
+            "desirable",
+            "documents",
+            "closing date"
+          ]
+        }
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the job that wasn’t",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "Who did the job scams hit most?",
+              "core": "Who did job scams hit hardest in 2023?"
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U3M2-AP1"
+            ]
+          },
+          {
+            "q": "How did the scam work? Write the steps.",
+            "lines": 3,
+            "vc": [
+              "VPC-U3M2-AP1"
+            ]
+          },
+          {
+            "q": {
+              "support": "What would you check before you reply?",
+              "core": "What would you check before replying to a job message?",
+              "extend": "Which features of a real job ad were missing from these scams?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U3M2-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: the job hunt",
+        "pagebreak": true,
+        "where": "in class or at home, on real job sites",
+        "vc": [
+          "VPC-U3M2-AP1",
+          "VPC-U3M2-LG1"
+        ],
+        "vcNote": "Hands-on: locating real job ads and identifying the documents required.",
+        "instructions": "Find **three** real job ads you could apply for now, or within a year. Decode each one in the **Job ad tracker** on the next page. Then pick the best fit.",
+        "need": [
+          "a device with internet",
+          "a trusted job site (SEEK, Indeed, Workforce Australia, or a company’s own site)"
+        ],
+        "steps": {
+          "support": [
+            "Pick a kind of job.",
+            "Search a trusted job site. Use your town.",
+            "Find three ads you could apply for.",
+            "Fill in the tracker for each one.",
+            "Check each ad for red flags.",
+            "Pick the best one. Write what you need."
+          ],
+          "core": [
+            "Pick the kind of job you want.",
+            "Search a trusted job site with your suburb or town.",
+            "Choose three ads you could genuinely apply for.",
+            "Decode each one in the tracker.",
+            "Check each ad for red flags.",
+            "Choose the best fit and list what you need to apply."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My best fit, and why:",
+            "lines": 3
+          },
+          {
+            "label": "What I need to get ready (documents, checks, skills):",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Screenshots of the ads",
+          "Job ad tracker",
+          "Teacher saw it"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Job ad tracker",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 30,
+          "core": 28
+        },
+        "vc": [
+          "VPC-U3M2-AP1",
+          "VPC-U3M2-LG1"
+        ],
+        "instructions": "Decode each ad. The first row is an example.",
+        "columns": [
+          "Job and where I found it",
+          "Must-haves",
+          "Documents + checks",
+          "Closing date",
+          "Real?"
+        ],
+        "rows": [
+          [
+            "Casual kitchen hand, Rosie’s Café (shop window)",
+            "Reliable, weekends",
+            "Resume + note",
+            "14 June",
+            "Yes"
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: the shared checklist",
+        "pagebreak": true,
+        "instructions": "In a group of 3 or 4, choose one job ad together.",
+        "items": [
+          {
+            "q": "The job we chose:",
+            "lines": 1,
+            "levelUp": true
+          },
+          {
+            "q": "Every document and check it needs (agree as a group):",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M2-LG1",
+              "VPC-U3M2-AP3"
+            ]
+          },
+          {
+            "q": "Something we disagreed about, and how we sorted it:",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M2-AP3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find real job ads.",
+          "I can find what the employer wants.",
+          "I can list the documents I need.",
+          "I can spot a fake job ad."
+        ],
+        "questions": [
+          "The job I’d most like to apply for:",
+          "What I need to get ready first:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to read job ads for four things (the job, must-haves, documents and checks, how and when), distinguish essential from desirable criteria, identify documents required for work (resume, cover letter, Working with Children Check, White Card, licence), and spot job-scam red flags. They find and decode three real ads and choose the best fit. The case study is the rise of job scams in 2023: almost 5,000 reports and about $24 million lost, hitting students seeking part-time work especially hard.",
+    "prep": [
+      "Print workbooks.",
+      "Check job sites (SEEK, Indeed, Workforce Australia) aren’t blocked by school filters.",
+      "Collect two or three real local ads (shop windows, council, local paper) for students who struggle online.",
+      "Optional: a real scam job message (screenshot from Scamwatch) for the hook."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Decode the ad",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** two ads, one a scam. Which would you apply for?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Annotate (15 min):** the café ad.",
+          "**Discuss (5 min):** essential vs desirable."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Real or fake?",
+        "minutes": 50,
+        "steps": [
+          "**Sort (10 min):** real or red flag.",
+          "**Case study (15 min):** the job that wasn’t.",
+          "**Model (10 min):** decode a real ad from a job site aloud.",
+          "**Start the hunt (15 min):** first ad in the tracker."
+        ]
+      },
+      {
+        "title": "Lesson 3 — The hunt",
+        "minutes": 50,
+        "steps": [
+          "**Do it (25 min):** three ads, tracker, best fit.",
+          "**Level Up (15 min):** shared checklist in groups.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Every ad: the job, must-haves, documents, how and when.",
+      "Essential = must; desirable = helps.",
+      "Some jobs need checks or tickets: plan early.",
+      "Pay to start, huge pay, chat-app only = walk away."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Two ads instead of three; teacher-supplied local ads.",
+        "Red-flag card to keep."
+      ],
+      "extend": [
+        "Selection criteria and verification (ABN, business details).",
+        "Group checklist and negotiation (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U3M2-LG1",
+        "evidence": "Identifies the documents and checks required for real job opportunities (tracker, notes)."
+      },
+      {
+        "vc": "VPC-U3M2-AP1",
+        "evidence": "Researches and locates real job ads related to their aspirations, and reads them for key information (Do it, annotation)."
+      },
+      {
+        "vc": "VPC-U3M2-AP3",
+        "evidence": "Collaborates in a small group to agree the documentation needed for a job (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Sort:** $900 liking posts — red flag; supermarket via careers page — real; $150 starter kit — red flag; swim instructor with WWCC — real; bank details before interview — red flag; apprentice carpenter with White Card — real.\n\n**Annotation:** 1 type, hours and pay; 2 duties; 3 essential criteria; 4 desirable; 5 documents and how to apply (resume + availability); 6 closing date.\n\n**Case study:** young people, especially students seeking part-time work; contact via social media or WhatsApp, easy tasks, small early payments, then pay to unlock earnings, money lost; check the business is real, never pay to start, never send bank or ID details first.",
+    "resources": [
+      {
+        "label": "ACCC — National Anti-Scam Centre fusion cell on job scams",
+        "url": "https://www.accc.gov.au/media-release/second-national-anti-scam-centre-fusion-cell-to-tackle-job-and-employment-scams"
+      },
+      {
+        "label": "Scamwatch — job and employment scams",
+        "url": "https://www.scamwatch.gov.au/"
+      },
+      {
+        "label": "Workforce Australia — find a job",
+        "url": "https://www.workforceaustralia.gov.au/"
+      },
+      {
+        "label": "Youth Central — applying for jobs",
+        "url": "https://www.youthcentral.vic.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Local jobs vary hugely.** In small towns, students may find few online ads. Count shop-window, council and Facebook community ads (checked for red flags).",
+      "**Some students are under 15 or can’t work yet.** Let them hunt for jobs they could do “within a year”, or work experience.",
+      "**Students may click on scam ads.** Remind them not to reply to or contact any ad during class.",
+      "**Pay rates are confusing.** If students ask what “award rates” means, point them to the Fair Work Pay Calculator rather than guessing.",
+      "**Works in a real class:** yes. Students like seeing real jobs nearby, and some apply straight after."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: shorter article and case study, 6 key words, word bank, two ads and a red-flag card.",
+      "core": "Aimed at about Year 7 reading: the standard version with essential vs desirable, documents and checks, the scam case study and three ads.",
+      "extend": "Aimed at about Year 9 reading: selection criteria, verification, the anti-scam response and a negotiated group checklist."
+    }
+  }
+}

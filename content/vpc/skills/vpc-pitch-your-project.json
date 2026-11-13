@@ -1,0 +1,1087 @@
+{
+  "id": "vpc-pitch-your-project",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), then project time",
+  "brief": {
+    "hook": {
+      "support": "This is your project. You pick it. It can be about a job, a skill, a cause or your town. First, you pitch it. Then you plan it. Then you make it better with feedback.",
+      "core": "This one’s yours. A project about something you actually care about: a job you want, a skill you’re good at, a cause, a club, your town. Before you start, you’ll pitch it to your teacher, plan how you’ll present it, and make the plan better with feedback. Good projects start with a good pitch.",
+      "extend": "Your Project is the biggest piece of work in VPC Literacy, and you choose it. Strong projects start with a narrow, interesting focus, a negotiated agreement with your teacher, early research and a presentation plan that’s been tested on real people. This course gets all of that done before you build anything."
+    },
+    "why": {
+      "support": "A clear plan makes a big project easy. Feedback early saves you work later.",
+      "core": "Big projects go wrong at the start: the topic is too big, or the plan is fuzzy. A clear pitch, early research and feedback save you hours later. It’s also how real projects work in jobs.",
+      "extend": "Negotiating a scope, planning a deliverable and refining it after feedback are core workplace skills. Getting them right at the start is what separates projects that finish well from projects that stall."
+    },
+    "canDo": {
+      "support": [
+        "I can pick a project I care about.",
+        "I can pitch my idea to my teacher.",
+        "I can plan my presentation.",
+        "I can make my plan better with feedback."
+      ],
+      "core": [
+        "I can turn an interest into a clear project focus.",
+        "I can negotiate my topic with my teacher.",
+        "I can research and keep notes on my sources.",
+        "I can plan my presentation, including body language.",
+        "I can improve my plan using feedback."
+      ],
+      "extend": [
+        "I can develop a focused project from my interests, alone or in a group.",
+        "I can negotiate scope and outcomes with my teacher.",
+        "I can locate, annotate and summarise sources for a portfolio.",
+        "I can plan a presentation and refine it after peer feedback."
+      ]
+    },
+    "showIt": "Pitch a project you care about, agree it with your teacher, plan your presentation, and improve the plan with feedback.",
+    "vocab": [
+      {
+        "word": "project",
+        "meaning": "a big piece of work you plan and finish",
+        "example": "My project is about becoming a chef."
+      },
+      {
+        "word": "pitch",
+        "meaning": "a short talk to sell your idea",
+        "example": "I pitched my idea to my teacher."
+      },
+      {
+        "word": "focus",
+        "meaning": "the one thing your project is about",
+        "example": "My focus: how to start a dog-walking business."
+      },
+      {
+        "word": "plan",
+        "meaning": "the steps you’ll take, in order",
+        "example": "My plan has five parts."
+      },
+      {
+        "word": "feedback",
+        "meaning": "what other people say to help you improve",
+        "example": "My group gave me good feedback."
+      },
+      {
+        "word": "source",
+        "meaning": "where information comes from",
+        "example": "My best source was a vet nurse I interviewed."
+      },
+      {
+        "word": "portfolio",
+        "meaning": "a collection of your work and notes",
+        "example": "My notes go in my portfolio.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "negotiate",
+        "meaning": "talk until you both agree",
+        "example": "We negotiated the topic.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "annotate",
+        "meaning": "add short notes to explain something",
+        "example": "I annotated each source.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Pitch Your Project in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Pitch Your Project",
+        "sub": "Pick it. Plan it. Pitch it.",
+        "icon": "lucide:lightbulb",
+        "say": "Pitch your project. Pick it. Plan it. Pitch it."
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Project step",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Pick it",
+        "text": "Something you care about. Make it narrow.",
+        "icon": "lucide:heart",
+        "say": "Step one. Pick it. Choose something you care about. Then make it narrow. Not cars, but how to fix up your first car.",
+        "vc": [
+          "VPC-U4M1-AP1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Project step",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Pitch it",
+        "text": "Agree it with your teacher.",
+        "icon": "lucide:handshake",
+        "say": "Step two. Pitch it to your teacher. Say what, why, for who, and how you will show it. Agree on it together.",
+        "vc": [
+          "VPC-U4M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Project step",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Research it",
+        "text": "Three good sources. Notes on each.",
+        "icon": "lucide:book-open",
+        "say": "Step three. Research it. Find three good sources, and write short notes on each one.",
+        "vc": [
+          "VPC-U4M1-AP2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Project step",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Plan it",
+        "text": "What you’ll say, show and do.",
+        "icon": "lucide:list-ordered",
+        "say": "Step four. Plan your presentation. What you will say, what you will show, and how you will use your body and voice.",
+        "vc": [
+          "VPC-U4M1-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Project step",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Test it",
+        "text": "Get feedback. Make it better.",
+        "icon": "lucide:refresh-cw",
+        "say": "Step five. Test your plan on others. Get feedback, then make it better.",
+        "vc": [
+          "VPC-U4M1-LG3"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Pitch it. Plan it. Improve it.",
+        "icon": "lucide:rocket",
+        "say": "Your mission. Pitch a project you care about, plan it, and improve your plan with feedback."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Pick it, pitch it, plan it",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Your project is about something **you** care about. It could be a job, a skill, a cause, a club or your town. You can work alone or in a group.\n\n**1. Pick it.** Choose a topic. Then make it **narrow**. “Cars” is too big. “How to fix up my first car” is a project.\n\n**2. Pitch it.** Tell your teacher:\n- what your project is.\n- why it matters to you.\n- who it’s for.\n- how you’ll show it (slides, a video, a poster).\n\nTalk until you both agree.\n\n**3. Research it.** Find **three good sources**. A website, a video, or a person you talk to. Write short notes on each one. Keep them in your **portfolio**.\n\n**4. Plan it.** Plan what you’ll say and show. Add body language notes, like “look up” and “slow down”.\n\n**5. Test it.** Show your plan to others. Ask what to **keep**, **change** and **add**. Then fix your plan.",
+          "core": "Your Project is about something **you** care about: a job you want, a skill you have, a cause, a club, a place. You can work alone or in a small group.\n\n**1. Pick it, then narrow it.** Start with an interest, then turn it into a **focus question**. “Cars” is a topic. “What does it really cost to get my first car on the road?” is a project. A narrow focus is easier to research and much more interesting to listen to.\n\n**2. Pitch it.** Meet with your teacher and pitch your idea:\n- **What** is your project and focus question?\n- **Why** does it matter to you?\n- **Who** is your audience?\n- **How** will you show it: slides, a video, a poster, a demonstration?\n- **What help** do you need?\n.\nThis is a **negotiation**. Your teacher may suggest changes. Agree on a version you’re both happy with.\n\n**3. Research it.** Find at least **three good sources**: websites, videos, reports, or an interview with someone who knows. For each one, write a short summary in your own words and note where it came from. These notes go in your **portfolio**.\n\n**4. Plan the presentation.** Plan each part: what you’ll say, what you’ll show, and how you’ll deliver it. Use what you learnt in Body Talk: mark where you’ll look up, pause and slow down.\n\n**5. Test the plan.** Show it to a few classmates. Ask them: what should I **keep**, **change** and **add**? Then refine your plan. Feedback now saves hours later.",
+          "extend": "Your Project is the major piece of work in VPC Literacy, and the topic is yours: a career pathway, a skill, a cause, a community group or a local issue, alone or in a small group.\n\n**1. Develop a focus.** Move from a broad interest to a **focus question** you can actually answer. “Cars” is a topic; “What does it really cost a 17-year-old to get a first car on the road?” is a project. Narrow focus makes research manageable and presentations sharper.\n\n**2. Negotiate it.** Pitch a short proposal to your teacher covering the what (focus question), why (personal relevance), who (audience), how (presentation format and digital support) and what support you’ll need. Expect questions and suggested changes; the goal is an agreed scope you can realistically complete.\n\n**3. Build a research portfolio.** Locate at least **three credible sources** of different kinds (written, multimedia, an interview with someone experienced). For each, write a brief **annotation**: what it says, why it’s useful, and how reliable it is, with the full source recorded. This is the evidence base for your presentation, and it makes acknowledging sources easy later.\n\n**4. Plan the presentation.** Sequence the content logically and plan the delivery: where you’ll use visuals, and deliberate body language, eye contact, pace and pauses (from Body Talk).\n\n**5. Refine after feedback.** Test the plan on peers using a simple protocol (keep, change, add), then revise. Treat feedback as data, not criticism: it shows you how a real audience will experience your presentation."
+        },
+        "vc": [
+          "VPC-U4M1-AP1",
+          "VPC-U4M1-LG1",
+          "VPC-U4M1-AP2",
+          "VPC-U4M1-LG2",
+          "VPC-U4M1-LG3"
+        ],
+        "vcNote": "Developing a project focus, negotiating a topic, building a research portfolio, planning a presentation and refining it after feedback."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The caravan project",
+        "icon": "lucide:caravan",
+        "body": {
+          "support": "In 2023, Year 11 students at **Castlemaine Secondary College** started a project. It was called **Caravan Fix Me Up**.\n\nThe students were doing **VM, VCAL and FLO** programs.\n\nThey found an old, broken-down caravan. With help from local tradies, they fixed it up.\n\nThe caravan would give a family facing **homelessness** somewhere to stay for a while.\n\nThe students learned real trade skills. They also helped their own town.",
+          "core": "In 2023, Year 11 students at **Castlemaine Secondary College**, in central Victoria, took on a project called **Caravan Fix Me Up**. They were in the school’s **VM, VCAL and FLO** programs.\n\nThe plan was simple. Take a run-down caravan and fix it up. Then it could give families facing **homelessness** in their area a place to stay for a while.\n\nThe school didn’t do it alone. A local health service, **Dhelkaya Health**, helped. So did a group of local tradies called **HALT**, a local network that links schools with work, and local suppliers.\n\nThe students got hands-on trade skills. They worked with real tradies. And they made something their town needed.",
+          "extend": "In 2023, Year 11 students in the **VM, VCAL and FLO** programs at **Castlemaine Secondary College**, in central Victoria, ran a project called **Caravan Fix Me Up**. They restored a run-down caravan, so it could give families facing **homelessness** in their area a place to stay.\n\nTwo things made it work: a clear, practical focus and the right partners. The school worked with a local health service (**Dhelkaya Health**), a group of local tradies (**HALT**), a network that links schools with work, and local suppliers. Students gained real trade skills working alongside professionals. The result met a real local need.\n\nIt’s a useful model for any project. Have one specific goal (one caravan, one purpose). Have a real audience, and someone who benefits. And find people outside the classroom who can help."
+        },
+        "source": {
+          "name": "Midland Express — “Student-led project to help homeless” (16 August 2023)",
+          "url": "https://midlandexpress.com.au/community/2023/08/16/student-led-caravan-fix-me-up-project-to-help-homeless/"
+        },
+        "think": {
+          "support": [
+            "What did the students make?",
+            "Who did it help?"
+          ],
+          "core": [
+            "What was the project’s focus?",
+            "Who helped the students, and why did that matter?",
+            "What makes this a strong project idea?"
+          ],
+          "extend": [
+            "Why does a narrow, practical focus help a project succeed?",
+            "What role did community partners play?",
+            "Who could partner with you on your project?"
+          ]
+        },
+        "vc": [
+          "VPC-U4M1-AP1"
+        ],
+        "vcNote": "A real VM/VCAL student project with a clear focus and community partners."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a project pitch",
+      "docTitle": "PROJECT PITCH: “FROM BUSH BLOCK TO BIKE TRACK” (EXAMPLE)",
+      "vc": [
+        "VPC-U4M1-LG1",
+        "VPC-U4M1-AP1"
+      ],
+      "vcNote": "The parts of a project proposal negotiated with the teacher.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Focus question",
+          "value": "What would it take to build a BMX pump track in our town?",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Why me",
+          "value": "I ride every day, and the nearest track is 40 minutes away."
+        },
+        {
+          "n": 3,
+          "label": "Audience",
+          "value": "My class, and our council’s youth officer."
+        },
+        {
+          "n": 4,
+          "label": "How I’ll show it",
+          "value": "Slides with photos and a map, plus a 30-second video of riders."
+        },
+        {
+          "n": 5,
+          "label": "Research",
+          "value": "Council website, a track builder’s site, an interview with a local rider."
+        },
+        {
+          "n": 6,
+          "label": "Help I need",
+          "value": "Contact details for the youth officer. Time to film at the skate park."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Narrow focus",
+          "note": "A question you can answer."
+        },
+        {
+          "n": 2,
+          "label": "Why it matters",
+          "note": "Shows it’s personal."
+        },
+        {
+          "n": 3,
+          "label": "Audience",
+          "note": "Who it’s for."
+        },
+        {
+          "n": 4,
+          "label": "Format",
+          "note": "How it will be presented."
+        },
+        {
+          "n": 5,
+          "label": "Sources",
+          "note": "A mix of kinds."
+        },
+        {
+          "n": 6,
+          "label": "Support",
+          "note": "What to ask the teacher for."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Pick, pitch, plan",
+      "steps": [
+        {
+          "title": "Pick + narrow",
+          "text": "A focus question.",
+          "icon": "lucide:heart"
+        },
+        {
+          "title": "Pitch",
+          "text": "Agree it with your teacher.",
+          "icon": "lucide:handshake"
+        },
+        {
+          "title": "Research",
+          "text": "Three sources + notes.",
+          "icon": "lucide:book-open"
+        },
+        {
+          "title": "Plan + test",
+          "text": "Keep, change, add.",
+          "icon": "lucide:refresh-cw"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is the best project **focus**?",
+        "options": [
+          "What does it cost to get my first car on the road?",
+          "Cars",
+          "Things",
+          "Stuff I like"
+        ],
+        "answer": 0,
+        "explain": "A narrow focus question is easier to research and more interesting.",
+        "vc": [
+          "VPC-U4M1-AP1"
+        ]
+      },
+      {
+        "q": "What do you agree on in your pitch meeting?",
+        "options": [
+          "What, why, who it’s for and how you’ll show it",
+          "Only the due date",
+          "Your mark",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "You negotiate the topic and how you’ll present it.",
+        "vc": [
+          "VPC-U4M1-LG1"
+        ]
+      },
+      {
+        "q": "How many good sources should you aim for?",
+        "options": [
+          "At least three",
+          "None",
+          "One",
+          "Fifty"
+        ],
+        "answer": 0,
+        "explain": "Three good sources, with notes on each, is a strong start.",
+        "vc": [
+          "VPC-U4M1-AP2"
+        ]
+      },
+      {
+        "q": "What should your presentation plan include?",
+        "options": [
+          "What you’ll say, show, and how you’ll use your body and voice",
+          "Only your slides",
+          "A script to read word for word",
+          "Your password"
+        ],
+        "answer": 0,
+        "explain": "Plan the words, the visuals and the delivery.",
+        "vc": [
+          "VPC-U4M1-LG2"
+        ]
+      },
+      {
+        "q": "Your group says your plan is too long. What should you do?",
+        "options": [
+          "Use the feedback to cut and improve it",
+          "Ignore them",
+          "Start a new project",
+          "Make it longer"
+        ],
+        "answer": 0,
+        "explain": "Feedback is data. Use it to refine your plan.",
+        "vc": [
+          "VPC-U4M1-LG3"
+        ]
+      },
+      {
+        "q": "What helped the Castlemaine caravan project work?",
+        "options": [
+          "A clear focus and local partners",
+          "No plan at all",
+          "Doing it alone",
+          "A huge budget"
+        ],
+        "answer": 0,
+        "explain": "One clear goal, and help from tradies and local groups.",
+        "vc": [
+          "VPC-U4M1-AP1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pitch a project you care about. Agree it with your teacher. Plan your presentation. Make the plan better with feedback.",
+      "core": "Pitch a project you care about, agree it with your teacher, plan your presentation, and improve the plan with feedback.",
+      "extend": "Develop a focused project, negotiate its scope with your teacher, build an annotated research portfolio, plan the presentation and refine it after peer feedback."
+    },
+    "checklist": [
+      "I turned my interest into a focus question",
+      "I pitched it and agreed it with my teacher",
+      "I found three sources and wrote notes on each",
+      "I planned my presentation, with body language cues",
+      "I got feedback and improved my plan"
+    ],
+    "levelUp": "In a small group, share your research portfolios. Help each other find one more source, and check each other’s notes say where every fact came from.",
+    "vc": [
+      "VPC-U4M1-LG1",
+      "VPC-U4M1-LG2",
+      "VPC-U4M1-LG3",
+      "VPC-U4M1-AP1",
+      "VPC-U4M1-AP2"
+    ],
+    "model": {
+      "kind": "Example pitch notes",
+      "text": "**Focus question:** What is a day really like for a vet nurse?\n\n**Why me:** I want to work with animals after school.\n\n**Audience:** my class, and Year 10s choosing their pathway.\n\n**How I’ll show it:** five slides with photos, plus a short video of an interview with a vet nurse.\n\n**Sources so far:**\n1. Your Career website: the vet nurse job page.\n2. A TAFE page for the Certificate IV in Veterinary Nursing.\n3. An interview with Jess, a vet nurse at our local clinic.\n\n**Feedback I got:** “Keep the interview. Change: fewer slides. Add: what you’d earn.”\n\n**What I changed:** I cut to four slides and added a pay slide.",
+      "why": [
+        "The focus is a question that can actually be answered.",
+        "It has three different kinds of source, including a real person.",
+        "It shows feedback was used to change the plan."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Focus and pitch",
+        "start": "Topic is very broad.",
+        "good": "Clear focus question, agreed with teacher.",
+        "great": "Narrow, interesting, and realistic to finish."
+      },
+      {
+        "skill": "Research notes",
+        "start": "Fewer than three sources.",
+        "good": "Three sources, with notes and where from.",
+        "great": "Different kinds of sources, with own-words notes."
+      },
+      {
+        "skill": "Plan and feedback",
+        "start": "A rough plan only.",
+        "good": "Planned parts and delivery. Got feedback.",
+        "great": "Plan clearly improved after feedback."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of project will you do?",
+      "options": [
+        "A job or pathway I want (a day in the life, how to get there)",
+        "A skill I can teach or show (cooking, fixing, building, sport)",
+        "A community group or cause I care about",
+        "A local issue or something my town needs"
+      ]
+    },
+    "solo": "Can’t get feedback from a group? Show your plan to your teacher and one person outside class, like a family member, coach or boss. Ask each the same three questions: keep, change, add."
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Pick it, pitch it, plan it",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name the **five** project steps.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "vc": [
+              "VPC-U4M1-AP1"
+            ]
+          },
+          {
+            "q": "Why is a **narrow** focus better than a big topic?",
+            "lines": 2,
+            "vc": [
+              "VPC-U4M1-AP1"
+            ]
+          },
+          {
+            "q": {
+              "support": "What four things do you tell your teacher in your pitch?",
+              "core": "What should you cover when you pitch to your teacher?",
+              "extend": "Why is the pitch meeting a negotiation, not just an announcement?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U4M1-LG1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Clear focus or too broad?",
+        "pagebreak": true,
+        "choices": [
+          "Clear focus",
+          "Too broad"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Is each one a clear project focus, or too broad? If it’s too broad, write a narrower version.",
+        "vc": [
+          "VPC-U4M1-AP1"
+        ],
+        "cards": [
+          {
+            "from": "Idea",
+            "text": "Cars",
+            "answer": "Too broad",
+            "flags": "Try: what it costs to get my first car on the road."
+          },
+          {
+            "from": "Idea",
+            "text": "Should our town’s netball courts get lights?",
+            "answer": "Clear focus",
+            "flags": "Specific and answerable."
+          },
+          {
+            "from": "Idea",
+            "text": "Music",
+            "answer": "Too broad",
+            "flags": "Try: how to record a song on a phone."
+          },
+          {
+            "from": "Idea",
+            "text": "How to start a dog-walking business in my suburb",
+            "answer": "Clear focus",
+            "flags": "Narrow and practical."
+          },
+          {
+            "from": "Idea",
+            "text": "Sport",
+            "answer": "Too broad",
+            "flags": "Try: how a local club gets new players."
+          },
+          {
+            "from": "Idea",
+            "text": "What is a day really like for a vet nurse?",
+            "answer": "Clear focus",
+            "flags": "One job, one question.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a project pitch",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What part is it?",
+          "Why does the teacher need it?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the pitch. Use the word bank. Write why it helps.",
+          "core": "Each number marks part of the pitch. Name it, and say why your teacher needs to know it."
+        },
+        "wordBank": {
+          "support": [
+            "focus question",
+            "why me",
+            "audience",
+            "format",
+            "sources",
+            "help I need"
+          ]
+        }
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the caravan project",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "What did the students make? Who did it help?",
+              "core": "What was the project’s focus, and who did it help?"
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U4M1-AP1"
+            ]
+          },
+          {
+            "q": "Who helped the students? Why did that matter?",
+            "lines": 3,
+            "vc": [
+              "VPC-U4M1-AP1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Who could help with your project?",
+              "core": "Who could help with **your** project? Name one person or group.",
+              "extend": "Who could partner with you on your project, and what could they offer?"
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U4M1-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "My pitch",
+        "pagebreak": true,
+        "vc": [
+          "VPC-U4M1-AP1",
+          "VPC-U4M1-LG1"
+        ],
+        "vcNote": "Developing a project focus and preparing to negotiate it.",
+        "prompt": {
+          "support": "Plan your pitch. Fill in each part. Then meet your teacher.",
+          "core": "Plan your pitch. Fill in each part, then meet your teacher to agree on it. Write any changes you agree on.",
+          "extend": "Draft a project proposal covering focus, relevance, audience, format and support. After negotiating with your teacher, record the agreed scope and any changes."
+        },
+        "plan": [
+          {
+            "label": "My interest:",
+            "lines": 1
+          },
+          {
+            "label": "My focus question:",
+            "lines": 1
+          },
+          {
+            "label": "Why it matters to me:",
+            "lines": 1
+          },
+          {
+            "label": "Audience:",
+            "lines": 1
+          },
+          {
+            "label": "How I’ll show it:",
+            "lines": 1
+          },
+          {
+            "label": "Help I need:",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "My project is about…",
+          "My question is…",
+          "I care about this because…",
+          "I’ll show it using…",
+          "I need help with…"
+        ],
+        "lines": {
+          "support": 4,
+          "core": 4,
+          "extend": 4
+        },
+        "check": [
+          "narrow focus question",
+          "audience",
+          "format",
+          "teacher agreed (initials)"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "My research portfolio",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 30,
+          "core": 28
+        },
+        "vc": [
+          "VPC-U4M1-AP2"
+        ],
+        "instructions": "Find three good sources. Summarise each one in your own words, and write where it came from.",
+        "columns": [
+          "Source (where from)",
+          "What it says (my words)",
+          "Why it’s useful"
+        ],
+        "rows": [
+          [
+            "Interview with Jess, vet nurse, 12 May",
+            "Starts at 7 am. Cleans, feeds, helps in surgery.",
+            "Real, first-hand detail"
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "My presentation plan",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 22
+        },
+        "vc": [
+          "VPC-U4M1-LG2"
+        ],
+        "instructions": "Plan each part: what you’ll say, what you’ll show, and a body language cue.",
+        "columns": [
+          "Part",
+          "What I’ll say",
+          "What I’ll show",
+          "Body cue"
+        ],
+        "rows": [
+          [
+            "Hook",
+            "Ever wondered who holds the dog during surgery?",
+            "Photo of the clinic",
+            "Look up, pause"
+          ],
+          [
+            "My question + why",
+            "",
+            "",
+            ""
+          ],
+          [
+            "What I found",
+            "",
+            "",
+            ""
+          ],
+          [
+            "What I learnt",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Ending",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: pitch it and test it",
+        "pagebreak": true,
+        "where": "in class: with your teacher, then a small group",
+        "vc": [
+          "VPC-U4M1-LG1",
+          "VPC-U4M1-LG3"
+        ],
+        "vcNote": "Hands-on: negotiating the topic with the teacher, then refining the plan after peer feedback.",
+        "instructions": "Pitch your project to your teacher and agree on it. Then show your **presentation plan** to a group of 3. They fill in the **feedback table**. Use it to improve your plan.",
+        "need": [
+          "your pitch page",
+          "your presentation plan",
+          "a group of 3"
+        ],
+        "steps": {
+          "support": [
+            "Pitch your project to your teacher.",
+            "Agree on it. Get their initials.",
+            "Show your plan to your group.",
+            "They fill in the feedback table.",
+            "Change your plan.",
+            "Write what you changed."
+          ],
+          "core": [
+            "Pitch your project to your teacher (5 minutes).",
+            "Agree on the focus and format. Get their initials on your pitch page.",
+            "Talk your group through your presentation plan (2 minutes).",
+            "They fill in the feedback table: keep, change, add.",
+            "Improve your plan using their feedback.",
+            "Write what you changed, and why."
+          ]
+        },
+        "notes": [
+          {
+            "label": "What my teacher and I agreed:",
+            "lines": 2
+          },
+          {
+            "label": "What I changed after feedback, and why:",
+            "lines": 3
+          }
+        ],
+        "evidence": [
+          "Teacher initials on the pitch",
+          "Feedback table",
+          "Updated plan"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Feedback: keep, change, add",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 30,
+          "core": 28
+        },
+        "vc": [
+          "VPC-U4M1-LG3"
+        ],
+        "instructions": "Your group writes one idea in each column. Be kind, specific and helpful.",
+        "columns": [
+          "Name",
+          "Keep (what works)",
+          "Change (what’s not working)",
+          "Add (what’s missing)"
+        ],
+        "rows": [
+          [
+            "Sam",
+            "The interview video",
+            "Too many slides",
+            "What the job pays"
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: portfolio check",
+        "pagebreak": true,
+        "instructions": "In a group of 3 or 4, share your research portfolios.",
+        "items": [
+          {
+            "q": "One new source someone helped me find:",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U4M1-AP4",
+              "VPC-U4M1-AP2"
+            ]
+          },
+          {
+            "q": "One note that didn’t say where a fact came from, and how we fixed it:",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U4M1-AP4"
+            ]
+          },
+          {
+            "q": "How I helped someone else’s project:",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U4M1-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can turn an interest into a focus.",
+          "I can pitch and agree my project.",
+          "I can research and keep good notes.",
+          "I can improve my plan with feedback."
+        ],
+        "questions": [
+          "The best feedback I got:",
+          "My first job for the project:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The first Your Project course (VPC Unit 4 Module 1). Students turn an interest into a focus question, pitch and negotiate their project with you, build an annotated research portfolio of at least three sources, plan the presentation (content, visuals and delivery cues), and refine the plan after structured peer feedback (keep, change, add). The case study is Castlemaine Secondary College’s 2023 Caravan Fix Me Up project, run by VM, VCAL and FLO students with local partners. Showcase Day is where the project is presented.",
+    "prep": [
+      "Print workbooks.",
+      "Block out 5-minute pitch conferences with every student (a lesson for a class of 20).",
+      "Prepare a list of local contacts students might interview: employers, clubs, council youth services.",
+      "Decide whether group projects are allowed and how individual contributions will be shown."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Pick it",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show a broad topic, then narrow it live with the class.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** clear focus or too broad.",
+          "**Case study (10 min):** the caravan project."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Pitch it",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the BMX pitch.",
+          "**Write (15 min):** pitch pages.",
+          "**Pitch conferences (25 min):** 5 minutes each; others start research."
+        ]
+      },
+      {
+        "title": "Lessons 3–4 — Research and plan",
+        "minutes": 100,
+        "steps": [
+          "**Model (10 min):** annotate a source aloud.",
+          "**Research portfolio (40 min).**",
+          "**Presentation plan (20 min).**",
+          "**Feedback rounds (20 min):** keep, change, add.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Narrow the topic to a focus question.",
+      "The pitch is a negotiation: what, why, who, how, help.",
+      "Three sources, own-words notes, always say where from.",
+      "Plan words, visuals and delivery; test it; improve it."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Choose from a teacher list of focus questions.",
+        "Two sources plus an interview."
+      ],
+      "extend": [
+        "Annotations that judge reliability.",
+        "Group portfolio check (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U4M1-LG1",
+        "evidence": "Negotiates a topic of choice with the teacher (pitch page, conference notes, initials)."
+      },
+      {
+        "vc": "VPC-U4M1-LG2",
+        "evidence": "Provides a sample plan of the presentation including deliberate body language (presentation plan)."
+      },
+      {
+        "vc": "VPC-U4M1-LG3",
+        "evidence": "Refines the plan after peer feedback (feedback table, Do it notes)."
+      },
+      {
+        "vc": "VPC-U4M1-AP1",
+        "evidence": "Reflects on personal interests to develop a project focus (sort, pitch page)."
+      },
+      {
+        "vc": "VPC-U4M1-AP2",
+        "evidence": "Locates relevant texts and keeps annotations and summaries for the portfolio (research table)."
+      },
+      {
+        "vc": "VPC-U4M1-AP4",
+        "evidence": "Collaborates in a small group to strengthen portfolios (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Sort:** cars — too broad; netball lights — clear; music — too broad; dog-walking business — clear; sport — too broad; vet nurse day — clear.\n\n**Annotation:** 1 focus question (narrow, answerable); 2 why it matters personally; 3 audience; 4 format and digital support; 5 a mix of sources; 6 support needed from the teacher.\n\n**Case study:** restoring a caravan for temporary accommodation for families facing homelessness; Dhelkaya Health, HALT local tradies, the Goldfields LLEN and suppliers provided skills and materials; a narrow practical goal with real partners and a real need.",
+    "resources": [
+      {
+        "label": "Midland Express — Student-led Caravan Fix Me Up project (2023)",
+        "url": "https://midlandexpress.com.au/community/2023/08/16/student-led-caravan-fix-me-up-project-to-help-homeless/"
+      },
+      {
+        "label": "Your Career — explore jobs and pathways",
+        "url": "https://www.yourcareer.gov.au/"
+      },
+      {
+        "label": "Youth Central — careers and study",
+        "url": "https://www.youthcentral.vic.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Topic choice is where projects succeed or fail.** Spend the time on narrowing. A student with a clear question in week 1 will finish; a student with “cars” won’t.",
+      "**Pitch conferences take time.** Five minutes each adds up. Run them while the rest of the class researches.",
+      "**Interviews are gold but need care.** Check students know how to contact adults safely and politely, and that a staff member knows who they’re meeting.",
+      "**Group projects need individual evidence.** If students work together, each keeps their own portfolio and presents a part.",
+      "**Works in a real class:** yes, and choice is the engine. Students who’ve disengaged elsewhere often invest heavily in a topic they picked."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: shorter article and case study, 6 key words, word bank, a teacher list of focus questions, and two sources plus an interview.",
+      "core": "Aimed at about Year 7 reading: the standard version with focus questions, negotiation, a three-source portfolio, a presentation plan and keep-change-add feedback.",
+      "extend": "Aimed at about Year 9 reading: scope negotiation, annotations that judge reliability, feedback as data, and a group portfolio check."
+    }
+  }
+}

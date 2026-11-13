@@ -1,0 +1,1058 @@
+{
+  "id": "vpc-showcase",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), plus the showcase",
+  "brief": {
+    "hook": {
+      "support": "You did the work. Now show it off. A great showcase is short, clear and real. Your slides help. Your voice tells the story.",
+      "core": "You’ve done the work. Now it’s time to show it off, to your class, your family, or people from your community. A great showcase isn’t a wall of words on a screen. It’s you telling the story of what you did and what you learnt, with pictures doing the heavy lifting.",
+      "extend": "A showcase is where your project goes public. It’s a short talk that shows what you set out to do, what you found and what you learnt. Done well, it’s the part of the project people remember. Research on slides shows how to make it work."
+    },
+    "why": {
+      "support": "Showing your work is a job skill. People remember a good talk.",
+      "core": "Presenting your work is something you’ll do in job interviews, at TAFE and at work. A clear, well-built presentation gets your effort noticed.",
+      "extend": "Every workplace and course values people who can present their work clearly. That means honest credit for sources, and visuals that help rather than distract."
+    },
+    "canDo": {
+      "support": [
+        "I can put my talk in a good order.",
+        "I can make simple slides.",
+        "I can say where my facts and pictures came from.",
+        "I can give my talk with good body language."
+      ],
+      "core": [
+        "I can sequence my presentation so it engages an audience.",
+        "I can make slides that support my talk, not repeat it.",
+        "I can credit sources and avoid plagiarism.",
+        "I can present with good body language and voice.",
+        "I can reflect on what I learnt."
+      ],
+      "extend": [
+        "I can structure an informative presentation logically for an audience.",
+        "I can design digital support that complements my speech.",
+        "I can explain plagiarism and credit every source.",
+        "I can present confidently, and reflect on and review my learning."
+      ]
+    },
+    "showIt": "Give a 3- to 5-minute presentation about your project, with slides, video or visuals, and reflect on what you learnt.",
+    "vocab": [
+      {
+        "word": "presentation",
+        "meaning": "a talk to an audience, often with slides",
+        "example": "My presentation is 4 minutes long."
+      },
+      {
+        "word": "slide",
+        "meaning": "one screen in a slideshow",
+        "example": "Each slide has one picture."
+      },
+      {
+        "word": "audience",
+        "meaning": "the people watching and listening",
+        "example": "My audience is Year 10 students."
+      },
+      {
+        "word": "credit",
+        "meaning": "say who made something or where it came from",
+        "example": "I credited the photo on my last slide."
+      },
+      {
+        "word": "plagiarism",
+        "meaning": "using someone else’s work as if it’s yours",
+        "example": "Copying a website word for word is plagiarism."
+      },
+      {
+        "word": "reflect",
+        "meaning": "think about what you did and learnt",
+        "example": "I reflected on what I’d do differently."
+      },
+      {
+        "word": "sequence",
+        "meaning": "the order things go in",
+        "example": "My sequence: hook, question, what I did, what I learnt.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "visual",
+        "meaning": "a picture, video, chart or object you show",
+        "example": "A photo is a strong visual.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "multimodal",
+        "meaning": "using more than one mode, like words, pictures and sound",
+        "example": "My talk was multimodal: speech, photos and a video.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Showcase Day in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Showcase Day",
+        "sub": "Show what you made and what you learnt.",
+        "icon": "lucide:presentation",
+        "say": "Showcase day. Show what you made and what you learnt."
+      },
+      {
+        "kind": "steps",
+        "title": "The order",
+        "steps": [
+          "Hook",
+          "My question",
+          "What I did",
+          "What I found",
+          "What I learnt"
+        ],
+        "say": "Put your talk in this order. A hook. Your question. What you did. What you found. And what you learnt.",
+        "vc": [
+          "VPC-U4M1-AP5"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Slides help. They don’t talk.",
+        "text": "Big pictures. **Few** words. **You** do the talking.",
+        "icon": "lucide:image",
+        "say": "Your slides are there to help. Use big pictures and only a few words. You do the talking.",
+        "vc": [
+          "VPC-U4M1-LG4"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Read or listen?",
+        "text": "Reading full sentences while you talk makes people learn **less**.",
+        "icon": "lucide:book-x",
+        "say": "Research shows that when slides repeat every word you say, people learn less. A few key words work better.",
+        "vc": [
+          "VPC-U4M1-LG4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "©",
+        "pill": "Credit it",
+        "pillIcon": "lucide:quote",
+        "title": "Say where from",
+        "text": "Facts, photos, music: credit them all.",
+        "icon": "lucide:quote",
+        "say": "Credit it. Say where your facts came from, and credit any photos, video or music you did not make.",
+        "vc": [
+          "VPC-U4M1-AP7"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Body + voice",
+        "text": "Look up. Slow down. Pause.",
+        "icon": "lucide:person-standing",
+        "say": "Use your body and voice. Look up at people. Slow down. Pause before the important bits.",
+        "vc": [
+          "VPC-U4M1-AP6"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Three to five minutes. Your story. Your learning.",
+        "icon": "lucide:trophy",
+        "say": "Your mission. Give a three to five minute presentation about your project, and share what you learnt."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Build a showcase people remember",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Your showcase is a short talk about your project. Aim for **3 to 5 minutes**.\n\n**Put it in order.**\n1. **Hook.** Start with a photo, a question or a surprising fact.\n2. **My question.** What did you want to find out or make?\n3. **What I did.** Show the steps. Photos help.\n4. **What I found.** The most interesting thing.\n5. **What I learnt.** About the topic, and about yourself. What would you do next time?\n.\n**Make simple slides.**\n- One idea per slide.\n- Big pictures. Only a few words.\n- Don’t read your slides out. You do the talking.\n.\n**Credit everything.** Say where facts came from. Credit photos you didn’t take. Using someone else’s work as your own is **plagiarism**. Add a **credits slide** at the end.\n\n**Use your body and voice.** Look up. Slow down. Pause before important bits.",
+          "core": "Your showcase is a short, **informative** presentation about your project, about **3 to 5 minutes**, with slides, a video, photos or objects to support it.\n\n**Sequence it.** A clear order keeps your audience with you.\n1. **Hook:** a photo, a question or a surprising fact.\n2. **My question:** what you set out to find out or make, and why.\n3. **What I did:** the main steps, shown with photos or video.\n4. **What I found:** your most interesting findings or results.\n5. **What I learnt:** about the topic and about yourself. What went well? What would you change? What’s next?\n.\n**Make slides that help.** Your slides support you; they don’t replace you.\n- One idea per slide.\n- Big pictures, a few key words, large text.\n- Never read full sentences off the screen.\n.\n**Credit every source.** **Plagiarism** is using someone else’s words, ideas, photos, music or video as if they were yours. To avoid it:\n- put your research into your own words, and say where it came from: “According to the Your Career website…”.\n- use your own photos, or images you’re allowed to use, and credit them.\n- finish with a **credits slide** listing every source.\n.\n**Deliver it.** Use what you learnt in Body Talk: steady stance, eye contact around the room, gestures, pace and pauses. Practise twice with your slides.\n\n**Take questions.** Thank the person, answer briefly, and it’s fine to say “I didn’t find that out, but I could.”",
+          "extend": "Your showcase is a short **informative** presentation, around **3 to 5 minutes**, that shares your project and your learning, supported by a **digital, multimodal or visual** platform: slides, video, photos, a poster or physical objects.\n\n**Sequence for engagement.**\n1. **Hook:** an image, question or striking fact that earns attention.\n2. **Focus:** your question or goal, and why it mattered to you.\n3. **Process:** what you did, shown rather than told.\n4. **Findings:** the most significant or surprising results.\n5. **Reflection and review:** what you learnt about the topic and about yourself, what worked, what you’d change, and what comes next.\n.\n**Design support that complements speech.** Research on multimedia learning suggests that audiences learn less when slides duplicate your words exactly, because reading and listening compete for attention. Short key words, images and simple charts work better. One idea per slide; large, readable text.\n\n**Acknowledge sources.** **Plagiarism** is presenting others’ words, ideas or media as your own. Avoid it by paraphrasing and attributing (“The Victorian Skills Gateway lists…”), using your own or properly licensed images, and closing with a **credits slide** that lists every source.\n\n**Deliver deliberately.** Apply the delivery tools from Body Talk: stance, distributed eye contact, purposeful gesture, controlled pace and pauses. Rehearse with the slides at least twice.\n\n**Handle questions.** Listen fully, answer concisely, and be honest about the limits of what you found."
+        },
+        "vc": [
+          "VPC-U4M1-AP5",
+          "VPC-U4M1-LG4",
+          "VPC-U4M1-AP7",
+          "VPC-U4M1-AP6"
+        ],
+        "vcNote": "Sequencing an informative presentation, designing digital support, acknowledging sources, and deliberate delivery."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Read the slide or listen to me?",
+        "icon": "lucide:monitor-play",
+        "body": {
+          "support": "Scientists have tested how people learn from slides and talking.\n\nIn one study from 2013, people watched a short lesson. Some saw **every word** on screen while it was read out. Others saw **only a few key words**.\n\nThe people who saw **every word** learned **less**. It’s hard to read and listen at the same time.\n\nThe people with a **few key words** did better.\n\nHere’s the twist. Many people said they **liked** the full text more. But it didn’t help them learn.",
+          "core": "Scientists who study learning have tested what happens when slides show the same words someone is saying out loud.\n\nAn earlier line of research, led by psychologist Richard Mayer, found that people often learn **less** when on-screen text repeats the narration word for word. Reading and listening at the same time compete for your attention.\n\nIn **2013**, researchers at the University of California, Los Angeles (UCLA) took it further. People watched a short narrated lesson. Some saw the **full text** of the narration on screen. Others saw a **shortened version**: just the key words.\n\nThe full-text group learned **less**. A short, slightly different version on screen worked better.\n\nAnd here’s the twist: many people **preferred** the full text, even though it didn’t help them learn.\n\nFor your showcase, the lesson is clear. Put a few key words and strong pictures on your slides, and do the talking yourself.",
+          "extend": "Researchers have tested many times what happens when on-screen text repeats what a speaker says. Work led by psychologist Richard Mayer found that people often learn **less** when the same words are on screen and spoken. This is called the **redundancy effect**. Reading and listening to the same words compete for your attention.\n\nIn **2013**, a team at UCLA (Yue, Bjork and Bjork) looked closer. People watched a short narrated lesson. Some saw the **full text** of the narration on screen. Others saw a **shortened** version with only key words. The full text hurt learning. A small difference between screen and speech actually helped.\n\nHere’s the twist. Many people **preferred** the full text and believed it helped them, even though it didn’t. What feels easier isn’t always what works.\n\nFor presenters, the lesson is practical. Slides should support your speech, not copy it. Key words, images and clear visuals help an audience. Paragraphs read aloud get in the way."
+        },
+        "source": {
+          "name": "Yue, Bjork & Bjork (2013), study of on-screen text and narration, Journal of Educational Psychology (PDF, UCLA Bjork Learning and Forgetting Lab)",
+          "url": "https://sites.lifesci.ucla.edu/psych-bjorklab/wp-content/uploads/sites/13/2016/07/YueBjorkBjork2013_redundancy.pdf"
+        },
+        "think": {
+          "support": [
+            "Who learned more: full text or a few key words?",
+            "What does this mean for your slides?"
+          ],
+          "core": [
+            "What happened when slides repeated every word?",
+            "Why might people prefer full text, even though it doesn’t help?",
+            "How will you design your slides because of this?"
+          ],
+          "extend": [
+            "Why might reading and listening at once reduce learning?",
+            "Why do people prefer what helps them less?",
+            "When might full text on screen still be useful?"
+          ]
+        },
+        "vc": [
+          "VPC-U4M1-LG4"
+        ],
+        "vcNote": "Research evidence for designing digital support that complements an oral presentation."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a showcase",
+      "docTitle": "SHOWCASE PLAN: “A DAY IN THE LIFE OF A VET NURSE” (EXAMPLE)",
+      "vc": [
+        "VPC-U4M1-AP5",
+        "VPC-U4M1-LG4",
+        "VPC-U4M1-AP7"
+      ],
+      "vcNote": "Sequencing an informative presentation, with visuals and a credits slide.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Slide 1: Hook",
+          "value": "Photo: a nurse holding a puppy. “Who holds the dog during surgery?”"
+        },
+        {
+          "n": 2,
+          "label": "Slide 2: My question",
+          "value": "“What’s a day really like for a vet nurse?” + why I picked it."
+        },
+        {
+          "n": 3,
+          "label": "Slide 3: What I did",
+          "value": "Photos: my visit to the clinic. Clip: 30 seconds of my interview."
+        },
+        {
+          "n": 4,
+          "label": "Slide 4: What I found",
+          "value": "A timeline: 7 am start, surgery prep, cleaning, owners.",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Slide 5: What I learnt",
+          "value": "“It’s harder and better than I thought.” Next: work experience."
+        },
+        {
+          "n": 6,
+          "label": "Slide 6: Credits",
+          "value": "Interview: Jess, Riverside Vet. Photos: mine. Pay info: Your Career website."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "A picture and a question."
+        },
+        {
+          "n": 2,
+          "label": "Focus",
+          "note": "What and why."
+        },
+        {
+          "n": 3,
+          "label": "Process",
+          "note": "Shown with real photos and video."
+        },
+        {
+          "n": 4,
+          "label": "Findings",
+          "note": "One clear visual."
+        },
+        {
+          "n": 5,
+          "label": "Reflection",
+          "note": "What I learnt, and what’s next."
+        },
+        {
+          "n": 6,
+          "label": "Credits",
+          "note": "Every source, including my own."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Showcase order",
+      "steps": [
+        {
+          "title": "Hook",
+          "text": "Picture or question.",
+          "icon": "lucide:anchor"
+        },
+        {
+          "title": "Question",
+          "text": "What and why.",
+          "icon": "lucide:circle-help"
+        },
+        {
+          "title": "What I did",
+          "text": "Show it.",
+          "icon": "lucide:camera"
+        },
+        {
+          "title": "What I found",
+          "text": "The best bit.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "What I learnt",
+          "text": "And what’s next.",
+          "icon": "lucide:sparkles"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What should come **first** in your showcase?",
+        "options": [
+          "A hook: a photo, question or surprising fact",
+          "Your credits",
+          "What you learnt",
+          "An apology for being nervous"
+        ],
+        "answer": 0,
+        "explain": "A hook earns your audience’s attention.",
+        "vc": [
+          "VPC-U4M1-AP5"
+        ]
+      },
+      {
+        "q": "What makes a good slide?",
+        "options": [
+          "One idea, a big picture and a few words",
+          "A full paragraph",
+          "Ten bullet points",
+          "Tiny text so it all fits"
+        ],
+        "answer": 0,
+        "explain": "Slides support your talk. They don’t replace it.",
+        "vc": [
+          "VPC-U4M1-LG4"
+        ]
+      },
+      {
+        "q": "What did the 2013 study find about full text on screen?",
+        "options": [
+          "People learned less than with a few key words",
+          "People learned much more",
+          "It made no difference",
+          "Nobody could read it"
+        ],
+        "answer": 0,
+        "explain": "Reading and listening at once compete for attention.",
+        "vc": [
+          "VPC-U4M1-LG4"
+        ]
+      },
+      {
+        "q": "You use a photo from a website. What should you do?",
+        "options": [
+          "Check you’re allowed to use it, and credit it",
+          "Use it and say nothing",
+          "Say you took it",
+          "Crop out the watermark"
+        ],
+        "answer": 0,
+        "explain": "Using others’ work without credit is plagiarism.",
+        "vc": [
+          "VPC-U4M1-AP7"
+        ]
+      },
+      {
+        "q": "Someone asks a question you can’t answer. What’s a good reply?",
+        "options": [
+          "“Good question. I didn’t find that out, but I could.”",
+          "Make something up",
+          "Ignore them",
+          "Leave the room"
+        ],
+        "answer": 0,
+        "explain": "Honest and confident beats made-up.",
+        "vc": [
+          "VPC-U4M1-AP6"
+        ]
+      },
+      {
+        "q": "What goes in the **What I learnt** part?",
+        "options": [
+          "What you learnt about the topic and yourself, and what’s next",
+          "A list of your sources",
+          "Your hook",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Reflection shows your learning, not just your topic.",
+        "vc": [
+          "VPC-U4M1-LG4"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Give a 3- to 5-minute talk about your project. Use slides, a video or pictures. Say what you learnt.",
+      "core": "Give a 3- to 5-minute presentation about your project, with slides, video or visuals, and reflect on what you learnt.",
+      "extend": "Deliver a 3- to 5-minute informative presentation about your project, supported by a digital, multimodal or visual platform, that sequences your work logically, acknowledges every source and reviews your learning."
+    },
+    "checklist": [
+      "My talk goes: hook, question, what I did, what I found, what I learnt",
+      "My slides have big pictures and few words",
+      "I credited every source on a credits slide",
+      "I practised twice and used my body and voice",
+      "I answered questions and reflected on my learning"
+    ],
+    "levelUp": "Find three hard or technical words from your project. Explain each one simply in your talk, so your audience understands.",
+    "vc": [
+      "VPC-U4M1-LG4",
+      "VPC-U4M1-AP5",
+      "VPC-U4M1-AP6",
+      "VPC-U4M1-AP7",
+      "VPC-U4M1-AP8"
+    ],
+    "model": {
+      "kind": "Example opening and closing",
+      "text": "**Opening (slide: a photo of a muddy BMX track)**\n\n“Forty minutes. That’s how far I ride to the nearest pump track. My project asked one question: what would it take to build one here?”\n\n**Closing (slide: “What I learnt” and three key words)**\n\n“I learnt that a track costs more than I thought, but there might be grants that could help. I also learnt I can pick up the phone and talk to someone important. I was nervous calling the youth officer, and she was great.\n\nNext, I’m taking my plan to the youth council.\n\nThe photos are mine. The cost figures are from the council website. They’re on my credits slide. Thanks for listening. Any questions?”",
+      "why": [
+        "The opening hooks with a real number and states the question straight away.",
+        "The closing reflects on the topic **and** on the student’s own growth, then says what’s next.",
+        "It credits sources out loud and invites questions."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Order and content",
+        "start": "Jumps around. Hard to follow.",
+        "good": "Hook, question, did, found, learnt.",
+        "great": "Engaging order, with real reflection."
+      },
+      {
+        "skill": "Slides and credits",
+        "start": "Wordy slides, or no credits.",
+        "good": "Pictures, few words, credits slide.",
+        "great": "Visuals add meaning. Every source credited."
+      },
+      {
+        "skill": "Delivery",
+        "start": "Reads from slides or notes.",
+        "good": "Looks up, clear voice, good pace.",
+        "great": "Confident. Answers questions well."
+      }
+    ],
+    "choices": {
+      "prompt": "How will you present your project?",
+      "options": [
+        "Slides with photos and a short video",
+        "A poster or display with objects you made",
+        "A short film with you introducing it live",
+        "A live demonstration with a few slides"
+      ]
+    },
+    "solo": "No live audience on the day? Record your presentation with your slides (a screen recording with your voice works), and share it with your teacher and one other person. Ask them one question each, and answer in writing."
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Build a showcase people remember",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Write the **five** parts of a showcase, in order.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "vc": [
+              "VPC-U4M1-AP5"
+            ]
+          },
+          {
+            "q": "What is **plagiarism**? Name two ways to avoid it.",
+            "lines": 3,
+            "vc": [
+              "VPC-U4M1-AP7"
+            ]
+          },
+          {
+            "q": {
+              "support": "What makes a good slide?",
+              "core": "Name three rules for good slides.",
+              "extend": "Explain why slides should complement your speech, not repeat it."
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U4M1-LG4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Good slide or bad slide?",
+        "pagebreak": true,
+        "choices": [
+          "Good",
+          "Needs work"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Is each slide good, or does it need work? Say why.",
+        "vc": [
+          "VPC-U4M1-LG4",
+          "VPC-U4M1-AP7"
+        ],
+        "cards": [
+          {
+            "from": "Slide",
+            "text": "A full paragraph that the speaker reads out word for word.",
+            "answer": "Needs work",
+            "flags": "People learn less. Use key words."
+          },
+          {
+            "from": "Slide",
+            "text": "One big photo and four words.",
+            "answer": "Good",
+            "flags": "The picture does the work."
+          },
+          {
+            "from": "Slide",
+            "text": "A photo copied from a website, with no credit.",
+            "answer": "Needs work",
+            "flags": "Credit it, or use your own."
+          },
+          {
+            "from": "Slide",
+            "text": "A credits slide listing every source.",
+            "answer": "Good",
+            "flags": "Avoids plagiarism."
+          },
+          {
+            "from": "Slide",
+            "text": "Ten bullet points in tiny font.",
+            "answer": "Needs work",
+            "flags": "Too much. Nobody can read it."
+          },
+          {
+            "from": "Slide",
+            "text": "A simple chart with one clear label.",
+            "answer": "Good",
+            "flags": "Shows one finding clearly.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a showcase",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "Which part?",
+          "What does it do for the audience?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the showcase plan. Use the word bank. Write what it does.",
+          "core": "Each number marks part of the showcase plan. Name it, and say what it does for the audience."
+        },
+        "wordBank": {
+          "support": [
+            "hook",
+            "my question",
+            "what I did",
+            "what I found",
+            "what I learnt",
+            "credits"
+          ]
+        }
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: read the slide or listen to me?",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "Who learned more: full text, or a few key words?",
+              "core": "What happened when slides showed every word that was spoken?"
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U4M1-LG4"
+            ]
+          },
+          {
+            "q": "What was the twist?",
+            "lines": 2,
+            "vc": [
+              "VPC-U4M1-LG4"
+            ]
+          },
+          {
+            "q": {
+              "support": "How will you make your slides?",
+              "core": "How will you design your slides because of this study?",
+              "extend": "When might full text on screen still be useful? Think about who your audience is."
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U4M1-LG4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "My showcase plan",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "vc": [
+          "VPC-U4M1-AP5",
+          "VPC-U4M1-LG4",
+          "VPC-U4M1-AP6"
+        ],
+        "instructions": "Plan each part: what you’ll say (key words only), what’s on screen, and a body language cue.",
+        "columns": [
+          "Part",
+          "What I’ll say (key words)",
+          "On screen",
+          "Body cue"
+        ],
+        "rows": [
+          [
+            "Hook",
+            "40 minutes to ride to a track",
+            "Photo of muddy track",
+            "Look up, pause"
+          ],
+          [
+            "My question",
+            "",
+            "",
+            ""
+          ],
+          [
+            "What I did",
+            "",
+            "",
+            ""
+          ],
+          [
+            "What I found",
+            "",
+            "",
+            ""
+          ],
+          [
+            "What I learnt + next",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Credits + questions",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "My credits",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 18,
+          "core": 16
+        },
+        "vc": [
+          "VPC-U4M1-AP7",
+          "VPC-U4M1-AP8"
+        ],
+        "instructions": "List every source you used: facts, quotes, photos, video and music. This becomes your credits slide.",
+        "columns": [
+          "What I used",
+          "Who made it / where it’s from",
+          "Allowed to use? How?"
+        ],
+        "rows": [
+          [
+            "Photos of the track",
+            "Me",
+            "My own"
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: showcase day",
+        "pagebreak": true,
+        "where": "in class, at a showcase evening, or for a community group",
+        "vc": [
+          "VPC-U4M1-LG4",
+          "VPC-U4M1-AP6"
+        ],
+        "vcNote": "Hands-on: delivering an informative multimodal presentation and reflecting on learning.",
+        "instructions": "Give your **3- to 5-minute** showcase to a real audience. Take questions. Then reflect on what you learnt.",
+        "need": [
+          "your slides, video or visuals",
+          "cue cards (key words only)",
+          "a timer"
+        ],
+        "steps": {
+          "support": [
+            "Practise twice with your slides.",
+            "Check your credits slide.",
+            "Give your showcase.",
+            "Answer questions.",
+            "Write what you learnt."
+          ],
+          "core": [
+            "Practise twice with your slides. Time it.",
+            "Check your credits slide lists every source.",
+            "Give your showcase. Look up, slow down, pause.",
+            "Take questions. Thank each person.",
+            "Fill in the audience feedback, then write your reflection."
+          ]
+        },
+        "notes": [
+          {
+            "label": "What I learnt from my project (about the topic and myself):",
+            "lines": 3
+          },
+          {
+            "label": "What I’d do differently next time:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Recording",
+          "Slides or visuals",
+          "Teacher saw it",
+          "Audience feedback"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Audience feedback",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "vc": [
+          "VPC-U4M1-LG4"
+        ],
+        "instructions": "Ask two or three audience members to fill this in.",
+        "columns": [
+          "Name",
+          "What I’ll remember",
+          "One question I still have"
+        ],
+        "rows": [
+          [
+            "Mia",
+            "The 40-minute ride",
+            "How much is a grant?"
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: explain the hard words",
+        "pagebreak": true,
+        "instructions": "Find three hard or technical words from your project. Work out what each means, then plan how you’ll explain it simply.",
+        "items": [
+          {
+            "q": "Word 1, what it means, and how I’ll explain it:",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U4M1-AP3"
+            ]
+          },
+          {
+            "q": "Word 2, what it means, and how I’ll explain it:",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U4M1-AP3"
+            ]
+          },
+          {
+            "q": "Word 3, what it means, and how I’ll explain it:",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U4M1-AP3"
+            ]
+          },
+          {
+            "q": "How did your group help you finish your portfolio?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U4M1-AP4"
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can put my talk in a clear order.",
+          "I can make slides that help, not repeat.",
+          "I can credit every source.",
+          "I can present with good body language."
+        ],
+        "questions": [
+          "The part of my showcase I’m proudest of:",
+          "What this project taught me about myself:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The culminating VPC Literacy presentation (Unit 4 Module 1). Students sequence an informative 3–5 minute presentation (hook, question, what I did, what I found, what I learnt), design slides or visuals that complement speech, acknowledge every source with a credits slide, deliver with deliberate body language and voice, take questions, and reflect on their learning. The case study is research on slide design: identical on-screen text reduced learning compared with a few key words (Yue, Bjork & Bjork, 2013, building on Mayer’s redundancy research).",
+    "prep": [
+      "Print workbooks.",
+      "Book the showcase: a class session, a lunchtime event, or an evening with families or community partners. A real audience matters.",
+      "Check presentation tech (projector, clicker, audio) in the room beforehand.",
+      "Students should have their project from Pitch Your Project, or another substantial piece of work from VPC (a reel, zine or campaign)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Shape the showcase",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show a wordy slide and read it aloud badly. Then the same idea as one photo and four words.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** good slide or needs work.",
+          "**Annotate (10 min):** the vet nurse plan."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Evidence and credits",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** read the slide or listen?",
+          "**Explicit teaching (10 min):** plagiarism, paraphrasing and credits; free-to-use images.",
+          "**Plan (25 min):** showcase plan and credits table."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Build and rehearse",
+        "minutes": 50,
+        "steps": [
+          "**Build (30 min):** slides or visuals.",
+          "**Rehearse (20 min):** in pairs, timed, with feedback on delivery."
+        ]
+      },
+      {
+        "title": "Lesson 4 + showcase",
+        "minutes": 50,
+        "steps": [
+          "**Showcase:** presentations to a real audience, with questions.",
+          "**Feedback + reflection:** audience feedback tables and written reflections.",
+          "**Check & sign-off:** quick check, reflection page, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Hook, question, what I did, what I found, what I learnt.",
+      "Slides: one idea, big pictures, few words. You do the talking.",
+      "Credit every source; finish with a credits slide.",
+      "Look up, slow down, pause. Reflect honestly."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A slide template with the five parts.",
+        "A 3-minute target and cue cards."
+      ],
+      "extend": [
+        "Explain technical vocabulary for the audience (Level Up).",
+        "Discuss the boundary conditions of the research (when full text helps)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U4M1-LG4",
+        "evidence": "Completes an informative oral presentation that showcases reflection and review of learning, using digital, multimodal or visual support (Do it, observation)."
+      },
+      {
+        "vc": "VPC-U4M1-AP5",
+        "evidence": "Sequences and structures information logically to engage the audience (showcase plan, delivery)."
+      },
+      {
+        "vc": "VPC-U4M1-AP6",
+        "evidence": "Uses body language, eye contact, gestures, pace and intonation appropriately when presenting."
+      },
+      {
+        "vc": "VPC-U4M1-AP7",
+        "evidence": "Explains plagiarism and demonstrates methods to avoid it (credits table and slide, paraphrasing)."
+      },
+      {
+        "vc": "VPC-U4M1-AP8",
+        "evidence": "Applies literacy conventions on slides, cue cards and credits."
+      },
+      {
+        "vc": "VPC-U4M1-AP3",
+        "evidence": "Decodes and explains technical vocabulary from the project (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "vc": "VPC-U4M1-AP4",
+        "evidence": "Collaborates to complete the project portfolio (Level Up reflection).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Sort:** paragraph read aloud — needs work; big photo + four words — good; uncredited web photo — needs work; credits slide — good; ten tiny bullet points — needs work; simple labelled chart — good.\n\n**Annotation:** 1 hook (picture + question); 2 focus question and why; 3 process shown with photos and video; 4 findings as one clear visual; 5 reflection and next step; 6 credits for every source.\n\n**Case study:** the full-text group learned less than the key-words group; many people preferred full text even though it didn’t help; use key words and images, and do the talking.",
+    "resources": [
+      {
+        "label": "Yue, Bjork & Bjork (2013) — on-screen text and narration (PDF)",
+        "url": "https://sites.lifesci.ucla.edu/psych-bjorklab/wp-content/uploads/sites/13/2016/07/YueBjorkBjork2013_redundancy.pdf"
+      },
+      {
+        "label": "Mayer & Moreno (2002) — paper on multimedia learning principles (PDF)",
+        "url": "https://www.sfu.ca/~jcnesbit/EDUC220/ThinkPaper/MayerMoreno2002.pdf"
+      },
+      {
+        "label": "Smartcopying — copyright guide for Australian schools",
+        "url": "https://www.smartcopying.edu.au/"
+      }
+    ],
+    "realityCheck": [
+      "**A real audience changes everything.** Even inviting one other class or a few parents raises the effort level. Book it early and tell students who’s coming.",
+      "**Some students will be very anxious.** Offer a smaller audience, presenting with a partner, or a recorded presentation (the solo option). The learning is in the planning and reflection as much as the delivery.",
+      "**Tech fails.** Have every presentation saved in one place, and a plan B (print the key photos).",
+      "**Students over-fill slides.** The hook demonstration (the wordy slide read aloud) usually fixes it faster than any rule.",
+      "**Works in a real class:** yes, and it’s often the highlight of the year. Celebrate it."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: shorter article and case study, 6 key words, word bank, a slide template and a 3-minute target.",
+      "core": "Aimed at about Year 7 reading: the standard version with sequencing, slide design, credits, delivery, the slide research and a real showcase.",
+      "extend": "Aimed at about Year 9 reading: multimodal design, the redundancy effect and its limits, attribution, and explaining technical vocabulary."
+    }
+  }
+}

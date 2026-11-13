@@ -1,0 +1,940 @@
+{
+  "id": "vpc-check-the-course",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "A course ad says: “Sign up today and get a free laptop!” Sounds good. But what is the course? What does it cost? Is it real? Before you sign up, check.",
+      "core": "An ad pops up: “Get your diploma online. Free laptop when you enrol today!” Sounds like a great deal. But what’s the course, who runs it, what does it really cost, and is the information even true? Thousands of Australians learned the hard way to check first.",
+      "extend": "Choosing a course or apprenticeship is a big decision: months or years of your time, and sometimes thousands of dollars of debt. Course information comes from many places, and not all of it is accurate, current or honest. Checking it like a researcher protects your time and your money."
+    },
+    "why": {
+      "support": "A course can take years and cost a lot. Checking first saves you from a bad deal.",
+      "core": "TAFE courses and apprenticeships can shape the next few years of your life. Checking the facts first means you pick the right course, at the right price, with a real provider.",
+      "extend": "Choosing training is a high-stakes decision. Being able to locate sources and judge their accuracy and validity protects you from poor choices and predatory providers, and it’s a research skill you’ll use in any course you take."
+    },
+    "canDo": {
+      "support": [
+        "I can find a real course.",
+        "I can find facts on the official page.",
+        "I can check two sources match.",
+        "I can spot a dodgy deal."
+      ],
+      "core": [
+        "I can find a real course on official websites.",
+        "I can find the key facts: length, cost, entry and start dates.",
+        "I can compare two sources to check they match.",
+        "I can check information is current and spot red flags."
+      ],
+      "extend": [
+        "I can locate official and independent sources about a course.",
+        "I can review information for accuracy and validity.",
+        "I can compare sources and resolve differences.",
+        "I can recognise misleading sales tactics."
+      ]
+    },
+    "showIt": "Research a real TAFE course or apprenticeship, check the facts in two sources, and decide if it’s right for you.",
+    "vocab": [
+      {
+        "word": "TAFE",
+        "meaning": "a government training college for job skills",
+        "example": "She’s doing carpentry at TAFE."
+      },
+      {
+        "word": "apprenticeship",
+        "meaning": "paid work where you also train for a trade",
+        "example": "He started an electrical apprenticeship."
+      },
+      {
+        "word": "certificate",
+        "meaning": "a qualification, like a Certificate II or III",
+        "example": "A Certificate III takes about a year."
+      },
+      {
+        "word": "provider",
+        "meaning": "the place that runs the course",
+        "example": "Check the provider is registered."
+      },
+      {
+        "word": "entry requirements",
+        "meaning": "what you need before you can start",
+        "example": "The entry requirements include Year 10 English."
+      },
+      {
+        "word": "current",
+        "meaning": "up to date, for now",
+        "example": "Check the dates are current."
+      },
+      {
+        "word": "accurate",
+        "meaning": "correct and true",
+        "example": "Is the cost on this page accurate?",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "registered",
+        "meaning": "officially approved to give real qualifications",
+        "example": "Only registered providers give real certificates.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "validity",
+        "meaning": "whether information is sound and can be trusted",
+        "example": "I checked the validity of the ad.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Check the Course in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Check the Course",
+        "sub": "Know what you’re signing up for.",
+        "icon": "lucide:graduation-cap",
+        "say": "Check the course. Know what you are signing up for."
+      },
+      {
+        "kind": "stat",
+        "big": "$438 million",
+        "title": "in penalties for one training college",
+        "sub": "For misleading students into costly courses. Source: ACCC, 2023",
+        "say": "In 2023, a court ordered a training college and its sales company to pay record penalties of four hundred and thirty-eight million dollars, for misleading students.",
+        "vc": [
+          "VPC-U3M2-LG2"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Find the facts",
+        "text": "Length. Cost. Entry. Start date. Provider.",
+        "icon": "lucide:clipboard-list",
+        "say": "First, find the key facts. How long it takes, what it costs, what you need to start, when it starts, and who runs it.",
+        "vc": [
+          "VPC-U3M2-AP1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Check it",
+        "pillIcon": "lucide:graduation-cap",
+        "title": "Who says?",
+        "text": "Official page or an ad?",
+        "icon": "lucide:user-search",
+        "say": "Check one. Who says? The official course page, or an ad trying to sell you something?",
+        "vc": [
+          "VPC-U3M2-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Check it",
+        "pillIcon": "lucide:graduation-cap",
+        "title": "When?",
+        "text": "Is it this year’s info?",
+        "icon": "lucide:calendar",
+        "say": "Check two. When? Is the information for this year, or is it old?",
+        "vc": [
+          "VPC-U3M2-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Check it",
+        "pillIcon": "lucide:graduation-cap",
+        "title": "Does it match?",
+        "text": "Two sources, same facts?",
+        "icon": "lucide:copy-check",
+        "say": "Check three. Does it match? Look at two sources. Do they agree?",
+        "vc": [
+          "VPC-U3M2-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Check it",
+        "pillIcon": "lucide:graduation-cap",
+        "title": "What’s the catch?",
+        "text": "Free gifts? Pressure? Debt?",
+        "icon": "lucide:triangle-alert",
+        "say": "Check four. What is the catch? Free gifts, pressure to sign today, or a big debt are warning signs.",
+        "vc": [
+          "VPC-U3M2-LG2"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Check a real course in two sources.",
+        "icon": "lucide:search-check",
+        "say": "Your mission. Pick a real course or apprenticeship. Check the facts in two sources, and decide if it is right for you."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Check before you sign up",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Thinking about a TAFE course or an apprenticeship? Check the facts first.\n\n**Find the key facts:**\n- What is the course called?\n- How long does it take?\n- What does it cost?\n- What do you need to start?\n- When does it start?\n- Who runs it?\n.\n**Where to look:**\n- the TAFE’s own course page.\n- the **Victorian Skills Gateway**, a government site for courses.\n- **Free TAFE**: some courses cost nothing for tuition, if you’re eligible. You may still pay for materials.\n.\n**Then check it.** Ask four questions.\n1. **Who says?** Is it the official page, or an ad?\n2. **When?** Is it this year’s information?\n3. **Does it match?** Do two sources say the same thing?\n4. **What’s the catch?** Free gifts and pressure to sign today are warning signs.",
+          "core": "Thinking about a TAFE course or an apprenticeship? It could shape the next few years of your life, so check the facts before you sign anything.\n\n**Find the key facts.** Course name, length, cost, entry requirements, start dates, where and how it runs (on campus, online, at work), and who the **provider** is.\n\n**Find good sources.**\n- the provider’s own course page.\n- the **Victorian Skills Gateway**, the Victorian Government’s course search.\n- **training.gov.au**, the national list of real qualifications and **registered** training providers.\n- the Victorian Government’s **Free TAFE** list. Tuition is free for many courses if you’re eligible (for example, an Australian citizen or permanent resident), but you may still pay materials fees.\n\n**Then check what you found.** Ask four questions.\n1. **Who says?** The official provider or government, or someone selling something? An ad’s job is to persuade you.\n2. **When?** Is it **current**? Look for this year’s dates and fees. Old pages can be wrong.\n3. **Does it match?** Compare two sources. If the length or cost is different, find out which is right. Call or email the provider and ask.\n4. **What’s the catch?** Free laptops, gifts, “sign up today” pressure, or a course that seems too easy are warning signs. So is any course that leaves you with a big debt you don’t understand.",
+          "extend": "Choosing a TAFE course or apprenticeship is a significant decision, so treat it like research: locate good sources, then test the information for **accuracy** (is it correct?) and **validity** (is it sound and trustworthy?).\n\n**Key facts to establish:** course title and national code, length, cost, entry requirements, start dates, delivery mode (campus, online, workplace), and the **provider**.\n\n**Sources, from most to least authoritative:**\n- **training.gov.au**: the national register of qualifications and **registered** training organisations (RTOs). If a provider or course isn’t listed, the qualification may not be recognised.\n- the **Victorian Skills Gateway**: the state government’s course search.\n- the provider’s own course page.\n- the **Free TAFE** list: tuition is free for eligible students (such as Australian citizens and permanent residents) in listed courses, though materials fees may still apply.\n- reviews, forums and social media: useful for experiences, unreliable for facts.\n\n**Testing the information:**\n1. **Authority.** Who published it, and what do they gain? Marketing is designed to persuade.\n2. **Currency.** Are dates and fees for this intake? Outdated pages are a common source of error.\n3. **Corroboration.** Do two independent sources agree on the code, length and cost? If not, contact the provider and resolve the difference.\n4. **Red flags.** Inducements such as free devices, pressure to enrol immediately, unrealistic promises, or unclear debt are warning signs. Misleading sales tactics in vocational education have resulted in some of Australia’s largest consumer-law penalties."
+        },
+        "vc": [
+          "VPC-U3M2-LG2",
+          "VPC-U3M2-AP1"
+        ],
+        "vcNote": "Locating sources about further learning and reviewing their accuracy and validity."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The free laptop that cost thousands",
+        "icon": "lucide:laptop",
+        "body": {
+          "support": "In the 2010s, the government lent people money for some courses. They paid it back later, through tax.\n\nA training college called **Phoenix Institute** signed up lots of people. Its courses cost **$18,000 to $21,000** each. Some people were offered free gifts, like a laptop.\n\nMany didn’t know they were taking on a big debt.\n\nIn **2023**, a court ordered Phoenix and its sales company to pay **$438 million** in penalties. That was a record. The court found they misled students.",
+          "core": "In the 2010s, the government had a loan scheme called **VET FEE-HELP**. Students could do some courses now and pay the cost back later, through the tax system.\n\nA training college called **Phoenix Institute**, and its sales company, signed up many students to online diploma courses costing **$18,000 to $21,000** each. Sales agents offered incentives, like a free device. Many people didn’t understand they were taking on a large debt.\n\nPhoenix received more than **$106 million** from the government.\n\nIn **2023**, the Federal Court ordered Phoenix and its sales company to pay **$438 million** in penalties, a record for this kind of case. The court found they had misled students and acted unconscionably, which means extremely unfairly. Students who didn’t finish had their debts cancelled.",
+          "extend": "In the mid-2010s, a loan scheme called VET FEE-HELP let students enrol in job-training courses and pay the cost back later, through the tax system. Some private colleges took advantage of it.\n\n**Phoenix Institute of Australia** and its sales company, Community Training Initiatives, enrolled many people in online diploma courses. Each cost **$18,000 to $21,000**. Recruiters used offers such as free devices. Many people didn’t understand they were taking on a large debt. Phoenix received more than **$106 million** from the federal government.\n\nIn July **2023**, the Federal Court ordered the two companies to pay record penalties of **$438 million**. The court found they had misled students and treated them extremely unfairly. The debts of students who didn’t finish were cancelled. By then, VET FEE-HELP had been replaced by a stricter scheme.\n\nThe case shows why the source of course information matters. The people selling these courses earned money from each enrolment, whether or not the course suited the student."
+        },
+        "source": {
+          "name": "ACCC media release — “Record penalties of $438m ordered against Phoenix Institute and CTI for acting unconscionably and misleading students” (2023)",
+          "url": "https://www.accc.gov.au/media-release/record-penalties-of-438m-ordered-against-phoenix-institute-and-cti-for-acting-unconscionably-and-misleading-students"
+        },
+        "think": {
+          "support": [
+            "What did the college offer to get people to sign up?",
+            "What went wrong for the students?"
+          ],
+          "core": [
+            "What sales tricks did the college use?",
+            "Why didn’t many students understand the debt?",
+            "Which of the four checks would have helped?"
+          ],
+          "extend": [
+            "Whose interests did the sales process serve?",
+            "How would checking authority and corroboration have helped?",
+            "What should the government and providers do differently?"
+          ]
+        },
+        "vc": [
+          "VPC-U3M2-LG2"
+        ],
+        "vcNote": "A real case where unreliable, misleading course information harmed students."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a course page",
+      "docTitle": "CERTIFICATE II IN COOKERY — RIVERLAND TAFE (EXAMPLE PAGE)",
+      "vc": [
+        "VPC-U3M2-AP1",
+        "VPC-U3M2-LG2"
+      ],
+      "vcNote": "Locating key facts on a course page, and the details to check against another source.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Course + code",
+          "value": "Certificate II in Cookery (national code shown on page)"
+        },
+        {
+          "n": 2,
+          "label": "Provider",
+          "value": "Riverland TAFE. Registered Training Organisation no. shown in footer."
+        },
+        {
+          "n": 3,
+          "label": "Length + mode",
+          "value": "6 months, 3 days a week, on campus in our training kitchen."
+        },
+        {
+          "n": 4,
+          "label": "Entry requirements",
+          "value": "Year 10 or equivalent. A short reading and maths check."
+        },
+        {
+          "n": 5,
+          "label": "Cost",
+          "value": "Free TAFE for eligible students. Materials fee: $250 (knives + uniform).",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Start dates",
+          "value": "February and July intakes. Page updated: January this year."
+        }
+      ],
+      "note": "Made-up provider for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Name + code",
+          "note": "Check the code on training.gov.au."
+        },
+        {
+          "n": 2,
+          "label": "Who runs it",
+          "note": "Is it registered?"
+        },
+        {
+          "n": 3,
+          "label": "Time it takes",
+          "note": "Can I fit it in?"
+        },
+        {
+          "n": 4,
+          "label": "Entry",
+          "note": "Can I start now?"
+        },
+        {
+          "n": 5,
+          "label": "Real cost",
+          "note": "Free tuition, but not free materials."
+        },
+        {
+          "n": 6,
+          "label": "Current?",
+          "note": "This year’s dates."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Four checks",
+      "steps": [
+        {
+          "title": "Who says?",
+          "text": "Official or an ad?",
+          "icon": "lucide:user-search"
+        },
+        {
+          "title": "When?",
+          "text": "This year’s info?",
+          "icon": "lucide:calendar"
+        },
+        {
+          "title": "Does it match?",
+          "text": "Two sources agree?",
+          "icon": "lucide:copy-check"
+        },
+        {
+          "title": "The catch?",
+          "text": "Gifts, pressure, debt?",
+          "icon": "lucide:triangle-alert"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is the **most** reliable source for a TAFE course’s cost?",
+        "options": [
+          "The TAFE’s own course page for this year",
+          "A Facebook comment",
+          "An ad with a free gift",
+          "A friend who did it five years ago"
+        ],
+        "answer": 0,
+        "explain": "Official and current beats second-hand and old.",
+        "vc": [
+          "VPC-U3M2-LG2"
+        ]
+      },
+      {
+        "q": "Two websites give a different length for the same course. What should you do?",
+        "options": [
+          "Contact the provider and ask",
+          "Pick the shorter one",
+          "Ignore both",
+          "Sign up anyway"
+        ],
+        "answer": 0,
+        "explain": "When sources don’t match, check with the provider.",
+        "vc": [
+          "VPC-U3M2-LG2"
+        ]
+      },
+      {
+        "q": "What does **Free TAFE** usually cover?",
+        "options": [
+          "Tuition, for eligible students in listed courses",
+          "Everything, including materials",
+          "Only apprenticeships",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Tuition is free if you’re eligible, but materials fees may still apply.",
+        "vc": [
+          "VPC-U3M2-AP1"
+        ]
+      },
+      {
+        "q": "“Sign up today and get a free laptop!” What should you think?",
+        "options": [
+          "It’s a warning sign. Check carefully.",
+          "It must be a great course",
+          "Sign up fast",
+          "Laptops prove a course is real"
+        ],
+        "answer": 0,
+        "explain": "Gifts and pressure to sign are red flags.",
+        "vc": [
+          "VPC-U3M2-LG2"
+        ]
+      },
+      {
+        "q": "What happened to Phoenix Institute in 2023?",
+        "options": [
+          "A court ordered record penalties of $438 million",
+          "It won an award",
+          "It became Free TAFE",
+          "Nothing happened"
+        ],
+        "answer": 0,
+        "explain": "The court found it misled students into costly courses.",
+        "vc": [
+          "VPC-U3M2-LG2"
+        ]
+      },
+      {
+        "q": "Where can you check a provider is registered and a qualification is real?",
+        "options": [
+          "training.gov.au",
+          "A random forum",
+          "The provider’s Instagram",
+          "A text message"
+        ],
+        "answer": 0,
+        "explain": "training.gov.au lists real qualifications and registered providers.",
+        "vc": [
+          "VPC-U3M2-LG2",
+          "VPC-U3M2-AP1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pick a real TAFE course or apprenticeship. Find the facts in two places. Check they match. Decide if it’s right for you.",
+      "core": "Research a real TAFE course or apprenticeship, check the facts in two sources, and decide if it’s right for you.",
+      "extend": "Research a real course or apprenticeship using at least two sources, test the information for accuracy and validity, resolve any differences, and make an evidence-based decision."
+    },
+    "checklist": [
+      "I found a real course or apprenticeship",
+      "I found the key facts: length, cost, entry and start dates",
+      "I compared two sources and checked they match",
+      "I used the four checks",
+      "I decided if it’s right for me, with reasons"
+    ],
+    "levelUp": "In a small group, compare your courses. Agree on three questions every student should ask a provider before enrolling, and what documents you’d need to enrol.",
+    "vc": [
+      "VPC-U3M2-LG2",
+      "VPC-U3M2-AP1"
+    ],
+    "model": {
+      "kind": "Example course check",
+      "text": "**Course:** Certificate II in Animal Care, at our local TAFE.\n\n**Sources:** the TAFE’s course page, and the Victorian Skills Gateway.\n\n**What matches:** both say about 6 months, part-time, starting in February. Both say it’s Free TAFE.\n\n**What doesn’t match:** the TAFE page says there’s a $180 materials fee. The Gateway doesn’t mention it. The TAFE page was updated this month, so I trust it more. I’ll ask at the open day.\n\n**Catch?** No gifts, no pressure.\n\n**My decision:** Yes. I want to work at a vet clinic, and it fits around my job.",
+      "why": [
+        "It uses two sources and says which facts match.",
+        "It notices a difference and decides which source to trust, and why.",
+        "The decision is linked to the student’s own goals."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Sources",
+        "start": "One source, or an ad.",
+        "good": "Two good sources.",
+        "great": "Official and independent sources."
+      },
+      {
+        "skill": "Checking",
+        "start": "Copies facts without checking.",
+        "good": "Compares facts. Uses the four checks.",
+        "great": "Spots a difference and resolves it."
+      },
+      {
+        "skill": "Decision",
+        "start": "No clear decision.",
+        "good": "Clear decision with a reason.",
+        "great": "Links the facts to my own goals."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you check?",
+      "options": [
+        "A TAFE course (like hospitality, automotive or community services)",
+        "An apprenticeship or traineeship",
+        "A short course (like a barista, first aid or forklift course)",
+        "A course my friend or family member is thinking about"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Check before you sign up",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "List **five** key facts to find about a course.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "vc": [
+              "VPC-U3M2-AP1"
+            ]
+          },
+          {
+            "q": "Name the **four** checks.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "vc": [
+              "VPC-U3M2-LG2"
+            ]
+          },
+          {
+            "q": {
+              "support": "What does Free TAFE cover? What might you still pay for?",
+              "core": "What does Free TAFE cover, and what might you still pay for?",
+              "extend": "Why are reviews and forums useful for experiences but unreliable for facts?"
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U3M2-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Trust it or check it?",
+        "pagebreak": true,
+        "choices": [
+          "Trust it",
+          "Check it"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Would you trust each source as it is, or check it somewhere else first? Say why.",
+        "vc": [
+          "VPC-U3M2-LG2"
+        ],
+        "cards": [
+          {
+            "from": "TAFE website",
+            "text": "Course page with this year’s fees and start dates.",
+            "answer": "Trust it",
+            "flags": "Official and current."
+          },
+          {
+            "from": "Facebook",
+            "text": "“This course is so easy, I finished it in 3 weeks.”",
+            "answer": "Check it",
+            "flags": "One person’s story, not facts."
+          },
+          {
+            "from": "Ad",
+            "text": "“Free laptop if you enrol today!”",
+            "answer": "Check it",
+            "flags": "Gifts and pressure are red flags."
+          },
+          {
+            "from": "training.gov.au",
+            "text": "Listing showing the course code and registered providers.",
+            "answer": "Trust it",
+            "flags": "The national official register."
+          },
+          {
+            "from": "TAFE website",
+            "text": "Course page that says “Updated 2019”.",
+            "answer": "Check it",
+            "flags": "Old. Fees and dates may have changed."
+          },
+          {
+            "from": "Victorian Skills Gateway",
+            "text": "Government course listing for the same course.",
+            "answer": "Trust it",
+            "flags": "Official government source.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a course page",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What fact is it?",
+          "What should I check?"
+        ],
+        "instructions": {
+          "support": "Each number marks a key fact on the course page. Use the word bank. Write what to check.",
+          "core": "Each number marks a key fact. Name it, and say what you would check about it."
+        },
+        "wordBank": {
+          "support": [
+            "name + code",
+            "provider",
+            "length",
+            "entry",
+            "cost",
+            "start dates"
+          ]
+        }
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the free laptop that cost thousands",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "What did the college offer to get people to sign up?",
+              "core": "What sales tricks did the college use?"
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U3M2-LG2"
+            ]
+          },
+          {
+            "q": {
+              "support": "What went wrong for the students?",
+              "core": "Why didn’t many students understand what they were signing up for?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U3M2-LG2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Which check would have helped most?",
+              "core": "Which of the four checks would have helped most? Why?",
+              "extend": "Whose interests did the sales process serve? How would checking authority and corroboration have helped?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U3M2-LG2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: check a real course",
+        "pagebreak": true,
+        "where": "in class or at home, online (and at an open day if you can)",
+        "vc": [
+          "VPC-U3M2-LG2",
+          "VPC-U3M2-AP1"
+        ],
+        "vcNote": "Hands-on: researching a real course and reviewing the accuracy of the information.",
+        "instructions": "Pick a real course or apprenticeship. Find its facts in **two** sources and fill in the **compare table** on the next page. Then decide if it’s right for you.",
+        "need": [
+          "a device with internet",
+          "the name of a course or trade you’re interested in"
+        ],
+        "steps": {
+          "support": [
+            "Pick a course or trade.",
+            "Find the provider’s own course page.",
+            "Find it on a second site, like the Victorian Skills Gateway.",
+            "Fill in the compare table.",
+            "Do the four checks.",
+            "Decide: is it right for me?"
+          ],
+          "core": [
+            "Pick a course or trade you’re interested in.",
+            "Find the provider’s own course page.",
+            "Find a second source: the Victorian Skills Gateway, training.gov.au, or the Free TAFE list.",
+            "Fill in the compare table.",
+            "Use the four checks. Note anything that doesn’t match.",
+            "Write questions to ask the provider, then make your decision."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My decision, and why:",
+            "lines": 3
+          },
+          {
+            "label": "Questions I’d ask the provider:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Compare table",
+          "Screenshots of both sources",
+          "Email or call to the provider (optional)"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Compare two sources",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "vc": [
+          "VPC-U3M2-LG2",
+          "VPC-U3M2-AP1"
+        ],
+        "instructions": "Write what each source says. Tick if they match. If they don’t, which do you trust more, and why?",
+        "columns": [
+          "Fact",
+          "Source 1:",
+          "Source 2:",
+          "Match?"
+        ],
+        "rows": [
+          [
+            "Course name",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Length",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Cost (and Free TAFE?)",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Entry requirements",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Start dates",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Updated when?",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: questions to ask",
+        "pagebreak": true,
+        "instructions": "In a group of 3 or 4, compare the courses you each checked.",
+        "items": [
+          {
+            "q": "Three questions every student should ask a provider before enrolling:",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M2-LG2",
+              "VPC-U3M2-AP3"
+            ]
+          },
+          {
+            "q": "Documents you’d need to enrol (agree as a group):",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M2-AP3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find a real course.",
+          "I can find the key facts.",
+          "I can check two sources match.",
+          "I can spot a dodgy deal."
+        ],
+        "questions": [
+          "A course I might do one day:",
+          "What I’ll check first next time:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students research a real TAFE course or apprenticeship: they locate the key facts (name, length, cost, entry requirements, start dates, provider) on official sources, compare two sources, and test the information with four checks (who says, when, does it match, what’s the catch). The case study is Phoenix Institute, ordered in 2023 to pay record penalties of $438 million for misleading students into $18,000–$21,000 diploma courses under VET FEE-HELP.",
+    "prep": [
+      "Print workbooks.",
+      "Check that the Victorian Skills Gateway, training.gov.au, the Free TAFE pages and local TAFE sites are reachable on school devices.",
+      "Find out about upcoming TAFE open days or careers expos students could attend.",
+      "Optional: invite a careers counsellor or a TAFE student to answer questions."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Find the facts",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** a “free laptop” course ad. Would you sign up?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Annotate (10 min):** the course page.",
+          "**Sort (10 min):** trust it or check it."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Check the facts",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** the free laptop that cost thousands.",
+          "**Model (10 min):** compare a real course across two sources aloud, and find a difference.",
+          "**Do it (25 min):** students start their own compare table."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Decide",
+        "minutes": 50,
+        "steps": [
+          "**Finish (20 min):** compare tables, questions, decisions.",
+          "**Level Up (15 min):** group questions and enrolment documents.",
+          "**Check & reflect (15 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Find: name, length, cost, entry, start dates, provider.",
+      "Use official sources first.",
+      "Who says? When? Does it match? What’s the catch?",
+      "Free gifts and pressure to sign are red flags."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Teacher suggests a course and the two sources.",
+        "Fewer rows in the compare table."
+      ],
+      "extend": [
+        "Authority, currency and corroboration; training.gov.au.",
+        "Group questions and enrolment documents (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U3M2-LG2",
+        "evidence": "Locates sources about a course and reviews their accuracy and validity using the four checks (compare table, notes)."
+      },
+      {
+        "vc": "VPC-U3M2-AP1",
+        "evidence": "Researches and locates informative texts related to their learning aspirations (Do it, annotation)."
+      },
+      {
+        "vc": "VPC-U3M2-AP3",
+        "evidence": "Collaborates to agree questions and enrolment documents (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Sort:** TAFE page this year — trust; Facebook comment — check; free laptop ad — check; training.gov.au — trust; updated 2019 — check; Skills Gateway — trust.\n\n**Annotation:** 1 course name and code (check on training.gov.au); 2 provider (registered?); 3 length and mode; 4 entry requirements; 5 cost (free tuition, but materials fee); 6 start dates and currency.\n\n**Case study:** incentives like free devices and signing people up quickly; many didn’t understand the VET FEE-HELP debt; “Who says?” and “What’s the catch?” would have helped most.",
+    "resources": [
+      {
+        "label": "ACCC — Record penalties of $438m against Phoenix Institute and CTI (2023)",
+        "url": "https://www.accc.gov.au/media-release/record-penalties-of-438m-ordered-against-phoenix-institute-and-cti-for-acting-unconscionably-and-misleading-students"
+      },
+      {
+        "label": "Victorian Government — Free TAFE eligibility",
+        "url": "https://www.vic.gov.au/eligibility"
+      },
+      {
+        "label": "training.gov.au — national register of qualifications and RTOs",
+        "url": "https://training.gov.au/"
+      },
+      {
+        "label": "Victorian Skills Gateway",
+        "url": "https://www.skills.vic.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Some students have no idea what they want to study.** Let them check a course a friend, sibling or parent is considering, or one linked to a job they’d like.",
+      "**Course websites are long and full of jargon.** Model scanning for the six key facts; don’t expect students to read whole pages.",
+      "**Free TAFE eligibility is personal.** Don’t ask students about their residency or visa status in class.",
+      "**The case study can feel abstract.** It lands when you show the original kind of ad (“free laptop!”) and ask who it was aimed at.",
+      "**Works in a real class:** yes, especially with an open day or a TAFE visit soon after."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: shorter article and case study, 6 key words, word bank, teacher-suggested sources and a shorter compare table.",
+      "core": "Aimed at about Year 7 reading: the standard version with the four checks, Free TAFE, training.gov.au and the Phoenix case study.",
+      "extend": "Aimed at about Year 9 reading: accuracy and validity, authority, currency and corroboration, the history of VET FEE-HELP, and group enrolment questions."
+    }
+  }
+}
