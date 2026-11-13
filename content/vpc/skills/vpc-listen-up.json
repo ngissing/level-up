@@ -1,0 +1,1027 @@
+{
+  "id": "vpc-listen-up",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You tell a mate something big. They keep scrolling. They say “yeah, yeah”. How does that feel? Now think of someone who **really** listens. You can tell straight away.",
+      "core": "You’re telling a mate something that matters. They keep scrolling and say “yeah, yeah”. You stop talking. Now think of someone who **really** listens: they look up, they wait, they ask the next question. You can tell the difference in seconds.",
+      "extend": "You’re telling a friend something that matters. They nod, scroll, and say “yeah, yeah”. You give up halfway. Now picture someone who **really** listens: they put the phone down, let you finish, and ask exactly the right follow-up question. Listening isn’t silence. It’s a skill other people can see."
+    },
+    "why": {
+      "support": "Good listeners get better jobs, better mates and better help. At work, at the doctor, in a group, listening is how you get the facts right.",
+      "core": "Listening is a skill you use every day: at work, at the doctor, at Centrelink, in a group. Good listeners get the facts right the first time, make people feel heard, and ask the questions that keep a conversation going.",
+      "extend": "Listening is how you get information, show respect and build trust. Employers rank it near the top of the skills they want. In a discussion, the person who listens best usually asks the question that moves everyone forward."
+    },
+    "canDo": {
+      "support": [
+        "I can show I’m listening.",
+        "I can ask open questions.",
+        "I can say back what I heard.",
+        "I can ask a follow-up question."
+      ],
+      "core": [
+        "I can show I’m listening with my body and face.",
+        "I can ask open questions that get more than yes or no.",
+        "I can say back what someone said, in my own words.",
+        "I can ask follow-up questions to keep a conversation going."
+      ],
+      "extend": [
+        "I can show I’m listening with my body and face.",
+        "I can choose open, closed and follow-up questions for a purpose.",
+        "I can paraphrase to check I’ve understood.",
+        "I can adjust my questions and tone to suit the person and the situation."
+      ]
+    },
+    "showIt": "Interview someone for 4 minutes using the four listening moves, then share three things you learned about them.",
+    "vocab": [
+      {
+        "word": "active listening",
+        "meaning": "listening with your whole attention, and showing it",
+        "example": "Active listening means the phone goes down."
+      },
+      {
+        "word": "open question",
+        "meaning": "a question that needs more than yes or no",
+        "example": "“What was the best part?” is an open question."
+      },
+      {
+        "word": "closed question",
+        "meaning": "a question with a short answer, like yes or no",
+        "example": "“Did you like it?” is a closed question."
+      },
+      {
+        "word": "follow-up",
+        "meaning": "a question that builds on what someone just said",
+        "example": "My follow-up was “Why did you pick that?”"
+      },
+      {
+        "word": "interrupt",
+        "meaning": "start talking before someone has finished",
+        "example": "Try not to interrupt. Let them finish."
+      },
+      {
+        "word": "paraphrase",
+        "meaning": "say what someone said, in your own words",
+        "example": "“So you’re saying the bus was late again?”",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "body language",
+        "meaning": "what your body shows without words",
+        "example": "Facing someone is good body language.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "tone",
+        "meaning": "how your voice sounds: warm, flat, angry, keen",
+        "example": "A warm tone helps people open up.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Listen Up in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Listen Up",
+        "sub": "Good listeners ask the best questions.",
+        "icon": "lucide:ear",
+        "say": "Listen up. Good listeners ask the best questions."
+      },
+      {
+        "kind": "stat",
+        "big": "11 seconds",
+        "title": "how long doctors often waited before cutting in",
+        "sub": "In 112 recorded visits, patients were interrupted 7 times in 10. Source: Springer, 2018",
+        "say": "In one study of 112 doctor visits, patients were cut off seven times out of ten. Often within eleven seconds.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Listening shows",
+        "text": "People can **see** if you are listening.",
+        "icon": "lucide:eye",
+        "say": "Listening is not just being quiet. People can see if you are listening, or not.",
+        "vc": [
+          "VPC-U2M2-AP6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Listening move",
+        "pillIcon": "lucide:ear",
+        "title": "Face it",
+        "text": "Phone down. Turn to them.",
+        "icon": "lucide:smartphone",
+        "say": "Move one. Face it. Phone down. Turn your body to them. Look at them.",
+        "vc": [
+          "VPC-U2M2-AP6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Listening move",
+        "pillIcon": "lucide:ear",
+        "title": "Let them finish",
+        "text": "Wait. Count to two.",
+        "icon": "lucide:hourglass",
+        "say": "Move two. Let them finish. When they stop, count to two in your head. They often say more.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Listening move",
+        "pillIcon": "lucide:ear",
+        "title": "Say it back",
+        "text": "“So you mean…?”",
+        "icon": "lucide:repeat",
+        "say": "Move three. Say it back. So you mean the shift changed with no warning? Now they know you got it.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Listening move",
+        "pillIcon": "lucide:ear",
+        "title": "Ask more",
+        "text": "What? How? Tell me more.",
+        "icon": "lucide:message-circle-question",
+        "say": "Move four. Ask more. Use open questions. What happened next? How did you handle it? Tell me more.",
+        "vc": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-AP6"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Interview someone. Use all four moves.",
+        "icon": "lucide:mic",
+        "say": "Your mission. Interview someone for four minutes. Use all four moves. Then share three things you learned."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Listening you can see",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Listening is not just being quiet. People can **see** if you are listening. Good listeners use four moves.\n\n1. **Face it.** Put your phone down. Turn to the person. Look at them.\n2. **Let them finish.** Don’t cut in. When they stop, wait two seconds. They often say more.\n3. **Say it back.** Use your own words. “So the bus didn’t come at all?” Now they know you got it.\n4. **Ask more.** Ask **open** questions. These start with *what*, *how*, *why* or *tell me*.\n\nA **closed** question gets a short answer. “Was it good?” “Yeah.”\n\nAn **open** question gets a story. “What was the best part?”\n\nA **follow-up** builds on their answer. “Why was that the best part?”\n\nUse these moves with friends, at work, and with a doctor.",
+          "core": "Listening isn’t just staying quiet. People can **see** whether you’re listening, and it changes how much they tell you. Good listeners use four moves.\n\n1. **Face it.** Phone down, body turned towards them, eyes on them most of the time. A nod or “mm” shows you’re still with them.\n2. **Let them finish.** Don’t jump in with your own story. When they stop, wait two seconds. People often add the most important part after a pause.\n3. **Say it back.** Put what they said into your own words: “So you got the shift, but nobody told you the start time?” This is called **paraphrasing**. It shows you understood, and it lets them fix anything you got wrong.\n4. **Ask more.** Ask questions that open the conversation up.\n\n**Closed questions** get short answers: “Was it good?” “Yeah.” They’re useful for checking a fact.\n\n**Open questions** start with *what*, *how*, *why* or *tell me about*. They get stories: “What was the hardest part?”\n\n**Follow-up questions** build on the answer you just got: “You said it was hard. What made it hard?” They prove you were listening.\n\nThe four moves work everywhere: with a mate who’s having a bad day, in a job interview, in a group discussion, or with a doctor.",
+          "extend": "Listening isn’t the gap between your turns to talk. It’s an active skill, and the people around you can see it. Good listeners use four moves.\n\n1. **Face it.** Phone away, body turned towards the speaker, steady but relaxed eye contact. Small signals such as a nod or “mm” tell them to keep going.\n2. **Let them finish.** Resist jumping in with your own story or advice. When they stop, wait a couple of seconds: people often add the most important detail after a pause.\n3. **Say it back.** **Paraphrase** what you heard: “So you got the shift, but nobody told you the start time?” This checks your understanding and gives them the chance to correct it.\n4. **Ask more.** Choose your questions on purpose.\n\n**Closed questions** (“Did you finish?”) get short answers. Use them to check a fact.\n\n**Open questions** (“What happened when you got there?”) invite a story.\n\n**Follow-up questions** (“You said it felt unfair. What would have made it fair?”) build on the last answer, which is the clearest proof you were listening.\n\nYour **tone** matters too. The same question can sound curious or like an interrogation. Match your questions and tone to the person and the situation: a friend who’s upset needs gentler questions than a manager giving instructions."
+        },
+        "vc": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-AP6"
+        ],
+        "vcNote": "Active listening and questioning techniques: open, closed and follow-up questions, paraphrasing."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The 11-second doctor",
+        "icon": "lucide:stethoscope",
+        "body": {
+          "support": "In 2018, researchers watched **112** recorded visits to doctors in the United States.\n\nThey timed how long patients spoke before the doctor cut in.\n\nPatients were cut off **7 times out of 10**. On average, it happened about **11 seconds** after they started.\n\nThe study also found that in only about **one visit in three** did the doctor ask why the patient had come.\n\nThat matters. If a doctor cuts in too soon, they might miss the real problem.",
+          "core": "In 2018, a team of researchers studied **112** recorded visits between doctors and patients in the United States. They wanted to know one thing: do doctors let patients explain why they came?\n\nThe answer surprised a lot of people. Patients were interrupted **7 times out of 10**, on average about **11 seconds** after they started talking. And doctors asked about the patient’s reason for the visit in only about **a third** of visits.\n\nThe researchers said a well-timed interruption can help focus a conversation. But cutting in too early means the doctor may miss what’s really worrying the patient.\n\nIt works both ways. Going to a doctor? Say your main worry first, and bring a short list.",
+          "extend": "In 2018, researchers studied **112** recorded visits between doctors and patients in the United States. The study was published in the *Journal of General Internal Medicine*. The team checked two things: did doctors ask why the patient had come, and how long did patients speak before being cut off?\n\nPatients were interrupted **seven times out of ten**, on average about **11 seconds** after they began. Doctors asked about the reason for the visit in only about **a third** of consultations.\n\nThe researchers didn’t say every interruption is bad. A respectful question can focus a conversation. Their point was about timing. Cut in too early, and you answer the problem you *expect*, not the real one.\n\nThat’s true far beyond medicine. In an interview, a complaint or an argument, the person who waits and asks the right follow-up usually understands the situation best."
+        },
+        "source": {
+          "name": "Springer Nature media release — “Wait, just a second, is your doctor listening?” (19 July 2018), on Singh Ospina et al., Journal of General Internal Medicine",
+          "url": "https://www.springer.com/cn/about-springer/media/research-news/all-english-research-news/wait--just-a-second--is-your-doctor-listening-/15963052"
+        },
+        "think": {
+          "support": [
+            "Why might a doctor cut in so soon?",
+            "What could go wrong?"
+          ],
+          "core": [
+            "Why might a doctor cut in so early?",
+            "What could the doctor miss?",
+            "What can you do so you get heard at an appointment?"
+          ],
+          "extend": [
+            "Why might experts interrupt more than other people?",
+            "When can an interruption help a conversation?",
+            "Where else in your life does this happen?"
+          ]
+        },
+        "vc": [
+          "VPC-U2M2-LG2"
+        ],
+        "vcNote": "Real example of why active listening and letting the speaker finish matter."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a good listen",
+      "docTitle": "CONVERSATION: “HOW WAS YOUR FIRST SHIFT?” (EXAMPLE)",
+      "vc": [
+        "VPC-U2M2-LG2",
+        "VPC-U2M2-AP6"
+      ],
+      "vcNote": "Annotating listening moves and question types in a real-style conversation.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Sam",
+          "value": "How did your first shift go? [puts phone face down]"
+        },
+        {
+          "n": 2,
+          "label": "Jay",
+          "value": "Pretty full on. I was on the till the whole time and… [stops] … and I made a mistake with the change."
+        },
+        {
+          "label": "Sam",
+          "value": "[waits, nods]"
+        },
+        {
+          "n": 3,
+          "label": "Sam",
+          "value": "So you were on your own on the till, and the change went wrong?",
+          "strong": true
+        },
+        {
+          "n": 4,
+          "label": "Jay",
+          "value": "Yeah. Ten bucks short at the end."
+        },
+        {
+          "n": 5,
+          "label": "Sam",
+          "value": "Oh no. What did your manager say?"
+        },
+        {
+          "n": 6,
+          "label": "Sam",
+          "value": "You said it was full on. What would make next shift easier?"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Face it",
+          "note": "Phone down. Open question to start."
+        },
+        {
+          "n": 2,
+          "label": "Let them finish",
+          "note": "Jay pauses, then adds the important part."
+        },
+        {
+          "n": 3,
+          "label": "Say it back",
+          "note": "Paraphrase to check."
+        },
+        {
+          "n": 4,
+          "label": "Short answer",
+          "note": "A fact. Fine to move on."
+        },
+        {
+          "n": 5,
+          "label": "Open question",
+          "note": "Starts with “what”. Gets a story."
+        },
+        {
+          "n": 6,
+          "label": "Follow-up",
+          "note": "Uses Jay’s own words: “full on”."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Four listening moves",
+      "steps": [
+        {
+          "title": "Face it",
+          "text": "Phone down, turn to them.",
+          "icon": "lucide:smartphone"
+        },
+        {
+          "title": "Let them finish",
+          "text": "Wait two seconds.",
+          "icon": "lucide:hourglass"
+        },
+        {
+          "title": "Say it back",
+          "text": "“So you mean…?”",
+          "icon": "lucide:repeat"
+        },
+        {
+          "title": "Ask more",
+          "text": "Open + follow-up questions.",
+          "icon": "lucide:message-circle-question"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which one is an **open** question?",
+        "options": [
+          "What was the best part of the trip?",
+          "Did you go on the trip?",
+          "Was it on Friday?",
+          "Is that your bag?"
+        ],
+        "answer": 0,
+        "explain": "Open questions start with what, how, why or tell me. They get more than yes or no.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "q": "Your friend stops talking. What should you do first?",
+        "options": [
+          "Wait a couple of seconds",
+          "Start your own story",
+          "Check your phone",
+          "Change the topic"
+        ],
+        "answer": 0,
+        "explain": "A short pause gives them room. People often add the important part.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "q": "“So you’re saying the boss changed your shift without telling you?” This is…",
+        "options": [
+          "Saying it back (paraphrasing)",
+          "A closed question about the weather",
+          "Interrupting",
+          "Giving advice"
+        ],
+        "answer": 0,
+        "explain": "You put their words into your own words to check you understood.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "q": "In the 2018 doctor study, how often were patients interrupted?",
+        "options": [
+          "7 times out of 10",
+          "Never",
+          "Once in 100 visits",
+          "Only by nurses"
+        ],
+        "answer": 0,
+        "explain": "Patients were cut off 7 times out of 10, often within about 11 seconds.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "q": "What is a **follow-up** question?",
+        "options": [
+          "A question that builds on what they just said",
+          "A question you ask the next day",
+          "A question with a yes or no answer",
+          "A question about yourself"
+        ],
+        "answer": 0,
+        "explain": "It uses their answer, which proves you were listening.",
+        "vc": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-AP6"
+        ]
+      },
+      {
+        "q": "A friend is upset. Which question fits best?",
+        "options": [
+          "What happened? Take your time.",
+          "Why are you being dramatic?",
+          "Can we talk about my weekend?",
+          "Yes or no: are you fine?"
+        ],
+        "answer": 0,
+        "explain": "A gentle, open question and a calm tone suit the situation.",
+        "vc": [
+          "VPC-U2M2-AP3"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Interview someone for 4 minutes. Use the four listening moves. Share 3 things you learned about them.",
+      "core": "Interview someone for 4 minutes using the four listening moves, then share three things you learned about them.",
+      "extend": "Interview someone for 4 minutes using the four listening moves and a planned mix of open and follow-up questions, then share what you learned and reflect on which questions worked best."
+    },
+    "checklist": [
+      "I planned at least three open questions",
+      "I used all four listening moves",
+      "I asked at least two follow-up questions",
+      "I shared three things I learned about the person"
+    ],
+    "levelUp": "Join a group discussion of 3 or 4. Use the four moves, and back up your own view with a reason or example. An observer tallies the moves each person uses.",
+    "vc": [
+      "VPC-U2M2-LG2",
+      "VPC-U2M2-AP6"
+    ],
+    "model": {
+      "kind": "Example interview notes",
+      "text": "**Who:** my cousin Ana. **Topic:** her job at the vet clinic.\n\n**My open questions:**\n1. What does a normal day look like?\n2. What’s the hardest part?\n3. How did you get the job?\n\n**Follow-ups I asked:**\n- You said the hardest part is upset owners. What do you say to them?\n- You did work experience there first. What did you do to stand out?\n\n**I said back:** “So you started with work experience, and they asked you back?”\n\n**Three things I learned:** she cleans cages before 7 am, she uses a calm voice with upset owners, and work experience got her the job.",
+      "why": [
+        "The open questions start with **what** and **how**, so Ana had to tell a story.",
+        "Each follow-up uses Ana’s own words, which shows real listening.",
+        "The three things learned are specific facts, not “she likes her job”."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Questions",
+        "start": "Mostly yes-or-no questions.",
+        "good": "Three open questions and two follow-ups.",
+        "great": "Follow-ups build on their exact words."
+      },
+      {
+        "skill": "Listening moves",
+        "start": "Uses one or two moves.",
+        "good": "Uses all four moves.",
+        "great": "Moves look natural. They open up more."
+      },
+      {
+        "skill": "What I learned",
+        "start": "Vague, like “they like it”.",
+        "good": "Three clear things learned.",
+        "great": "Specific details they might not tell everyone."
+      }
+    ],
+    "choices": {
+      "prompt": "Who will you interview, and about what?",
+      "options": [
+        "Someone with a job you might want",
+        "An older relative about life at your age",
+        "A classmate about a skill or hobby they’re good at",
+        "Someone who runs a club, team or local business"
+      ]
+    },
+    "solo": "No partner in class? Interview someone at home, or call someone. Ask first if you can record it, or take quick notes. Then share your three things with your teacher."
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Listening you can see",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name the **four** listening moves.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "vc": [
+              "VPC-U2M2-LG2"
+            ]
+          },
+          {
+            "q": "Why should you wait a couple of seconds when someone stops talking?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-LG2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Write one open question.",
+              "core": "Write one **open** question and one **closed** question about the weekend.",
+              "extend": "Write a closed, an open and a follow-up question about someone’s weekend. When would you use each?"
+            },
+            "lines": {
+              "support": 2,
+              "core": 3,
+              "extend": 4
+            },
+            "vc": [
+              "VPC-U2M2-LG2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Open or closed?",
+        "pagebreak": true,
+        "choices": [
+          "Open",
+          "Closed"
+        ],
+        "reasonLabel": "How do you know?",
+        "instructions": "Tick whether each question is open or closed. Say how you know.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ],
+        "cards": [
+          {
+            "from": "At work",
+            "text": "Did you finish the stocktake?",
+            "answer": "Closed",
+            "flags": "Yes or no."
+          },
+          {
+            "from": "With a mate",
+            "text": "What happened after the game?",
+            "answer": "Open",
+            "flags": "Starts with what. Gets a story."
+          },
+          {
+            "from": "At the doctor",
+            "text": "How has the pain changed this week?",
+            "answer": "Open",
+            "flags": "Starts with how."
+          },
+          {
+            "from": "At home",
+            "text": "Is dinner at six?",
+            "answer": "Closed",
+            "flags": "One-word answer."
+          },
+          {
+            "from": "In a group",
+            "text": "Tell me more about why you think that.",
+            "answer": "Open",
+            "flags": "“Tell me more” invites detail."
+          },
+          {
+            "from": "Interview",
+            "text": "Have you worked in retail before?",
+            "answer": "Closed",
+            "flags": "Yes or no. Fine for a fact.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a good listen",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "Which move or question?",
+          "What does it do?"
+        ],
+        "instructions": {
+          "support": "Each number marks a listening move. Use the word bank. Write what it does.",
+          "core": "Each number marks a listening move or a type of question. Name it, and say what it does in the conversation."
+        },
+        "wordBank": {
+          "support": [
+            "face it",
+            "let them finish",
+            "say it back",
+            "open question",
+            "follow-up",
+            "short answer"
+          ]
+        }
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the 11-second doctor",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "How often were patients cut off?",
+              "core": "How often were patients interrupted, and how quickly?"
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-LG2"
+            ]
+          },
+          {
+            "q": "What could a doctor miss by cutting in too early?",
+            "lines": {
+              "support": 2,
+              "core": 3
+            },
+            "vc": [
+              "VPC-U2M2-LG2"
+            ]
+          },
+          {
+            "q": {
+              "support": "What can you do so a doctor hears you?",
+              "core": "Write two things **you** can do at your next appointment so you get heard."
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U2M2-AP6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Open it up",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 22,
+          "extend": 20
+        },
+        "vc": [
+          "VPC-U2M2-LG2"
+        ],
+        "instructions": {
+          "support": "Turn each closed question into an open one. Then write a follow-up.",
+          "core": "Turn each closed question into an open question. Then write a follow-up you could ask after their answer."
+        },
+        "columns": [
+          "Closed question",
+          "Open version",
+          "A follow-up"
+        ],
+        "rows": [
+          [
+            "Did you like the concert?",
+            "What was the best part of the concert?",
+            "Why did that bit stand out?"
+          ],
+          [
+            "Do you like your job?",
+            "",
+            ""
+          ],
+          [
+            "Was the test hard?",
+            "",
+            ""
+          ],
+          [
+            "Are you going to TAFE?",
+            "",
+            ""
+          ],
+          {
+            "cells": [
+              "Did your team win?",
+              "",
+              ""
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Plan your interview",
+        "pagebreak": true,
+        "vc": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-AP3"
+        ],
+        "vcNote": "Planning open and follow-up questions for a purpose and an audience.",
+        "prompt": {
+          "support": "Pick who you will interview. Write **3 open questions**. Start them with *what*, *how* or *tell me*.",
+          "core": "Pick who you will interview and what about. Write **three open questions** in a sensible order, and two follow-ups you might use.",
+          "extend": "Pick a person and a purpose for your interview. Plan three open questions in a logical order and predict two follow-ups. Note how your tone and wording suit this person."
+        },
+        "plan": [
+          {
+            "label": "Who and what about:",
+            "lines": 1
+          },
+          {
+            "label": "Why this person?",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "What does a normal … look like?",
+          "How did you get into …?",
+          "Tell me about a time …",
+          "You said … — what …?",
+          "So you mean …?"
+        ],
+        "lines": {
+          "support": 9,
+          "core": 9,
+          "extend": 9
+        },
+        "check": [
+          "3 open questions",
+          "2 follow-ups ready",
+          "a “say it back” line",
+          "phone away"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: the four-minute interview",
+        "pagebreak": true,
+        "where": "in class with a partner, or at home",
+        "vc": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-AP6"
+        ],
+        "vcNote": "Hands-on: using active listening and questioning in a real conversation.",
+        "instructions": "Interview your person for **4 minutes**. Use all four moves. Your partner (or the person) ticks the moves they notice.",
+        "need": [
+          "your interview plan",
+          "a timer",
+          "a pen"
+        ],
+        "steps": {
+          "support": [
+            "Phone away. Sit facing them.",
+            "Ask your first open question.",
+            "Let them finish. Wait two seconds.",
+            "Say back one thing they said.",
+            "Ask at least **two** follow-ups.",
+            "Stop at 4 minutes. Thank them."
+          ],
+          "core": [
+            "Phone away. Sit facing them.",
+            "Ask your first open question.",
+            "Let them finish every answer. Wait two seconds before you speak.",
+            "Say back at least one answer in your own words.",
+            "Ask at least **two** follow-up questions that use their words.",
+            "Stop at 4 minutes. Thank them.",
+            "Write your three things straight away."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Three things I learned about them:",
+            "lines": 3
+          },
+          {
+            "label": "My best follow-up question:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "Partner’s tick sheet",
+          "Recording (with permission)",
+          "Teacher saw it"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Listening tally",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 16,
+          "core": 15
+        },
+        "vc": [
+          "VPC-U2M2-AP6"
+        ],
+        "instructions": "Your partner (or the person) puts a tally mark each time they notice a move.",
+        "columns": [
+          "Move",
+          "Tally",
+          "One example they noticed"
+        ],
+        "rows": [
+          [
+            "Face it",
+            "|||",
+            "Put phone face down"
+          ],
+          [
+            "Let them finish",
+            "",
+            ""
+          ],
+          [
+            "Say it back",
+            "",
+            ""
+          ],
+          [
+            "Open question",
+            "",
+            ""
+          ],
+          [
+            "Follow-up",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: group discussion",
+        "pagebreak": true,
+        "instructions": "Join a group of 3 or 4. Discuss a question your teacher gives you. One person observes and tallies the listening moves.",
+        "items": [
+          {
+            "q": "What was your view, and what **reason or example** did you give?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M2-AP6"
+            ]
+          },
+          {
+            "q": "Which follow-up question (yours or someone else’s) moved the discussion forward? Why?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M2-LG2"
+            ]
+          },
+          {
+            "q": "How did your tone or wording change when someone disagreed?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M2-AP3"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can show I’m listening.",
+          "I can ask open questions.",
+          "I can say back what I heard.",
+          "I can ask follow-up questions."
+        ],
+        "questions": [
+          "My strongest listening move:",
+          "The one I’ll practise this week:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn four visible listening moves (face it, let them finish, say it back, ask more) and three question types (closed, open, follow-up). They annotate a short conversation, convert closed questions to open ones, plan an interview, and interview someone for four minutes while a partner tallies the moves. The case study is a 2018 study of 112 recorded doctor visits in which patients were usually interrupted within about 11 seconds.",
+    "prep": [
+      "Print workbooks.",
+      "Pair students thoughtfully: the interview works best with someone they don’t know well.",
+      "Have a list of safe, low-stakes discussion questions ready for the Level Up (e.g. “Should school start later?”).",
+      "Optional: role-play a bad listener (phone out, interrupting) for the hook."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The four moves",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** role-play a terrible listener with a volunteer. What did they notice?",
+          "**Watch (5 min):** explainer.",
+          "**Explicit teaching (10 min):** the four moves; open, closed and follow-up questions.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** open or closed."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Questions that work",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the conversation.",
+          "**Case study (15 min):** the 11-second doctor. Link to students’ own appointments.",
+          "**Open it up (10 min):** convert closed questions.",
+          "**Plan (15 min):** interview questions; model one plan aloud."
+        ]
+      },
+      {
+        "title": "Lesson 3 — The interview",
+        "minutes": 50,
+        "steps": [
+          "**Interviews (20 min):** 4 minutes each way, partners tally.",
+          "**Share (10 min):** three things learned about their partner.",
+          "**Level Up (10 min):** group discussion with an observer.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Listening is visible: people can see it.",
+      "Face it, let them finish, say it back, ask more.",
+      "Closed questions check facts; open questions get stories; follow-ups prove you listened.",
+      "Wait two seconds after they stop."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Question starters on the plan.",
+        "Four fewer table rows to fill."
+      ],
+      "extend": [
+        "Plan questions for a named purpose and audience.",
+        "Reflect on tone in the group discussion (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U2M2-LG2",
+        "evidence": "Uses active listening and questioning (open, follow-up, paraphrase) in the interview; tally sheet and notes show it."
+      },
+      {
+        "vc": "VPC-U2M2-AP6",
+        "evidence": "Participates effectively in the interview and Level Up discussion; supports own view with a reason."
+      },
+      {
+        "vc": "VPC-U2M2-AP3",
+        "evidence": "Level Up: chooses wording and tone to suit the person and situation.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Sort:** stocktake — closed; after the game — open; pain this week — open; dinner at six — closed; tell me more — open; worked in retail — closed.\n\n**Annotation:** 1 face it + open question; 2 let them finish (Jay adds the mistake after a pause); 3 say it back / paraphrase; 4 short answer (fact); 5 open question; 6 follow-up using Jay’s words.\n\n**Case study:** interrupted 7 times out of 10, on average about 11 seconds in; the doctor may miss the real reason for the visit; students: say the main worry first, bring a list, ask “Can I finish?”.\n\n**Open it up (examples):** What do you enjoy about your job? / Which part of the test was hardest? / What are you planning to study at TAFE, and why?",
+    "resources": [
+      {
+        "label": "Springer Nature media release on the 2018 doctor-interruption study",
+        "url": "https://www.springer.com/cn/about-springer/media/research-news/all-english-research-news/wait--just-a-second--is-your-doctor-listening-/15963052"
+      },
+      {
+        "label": "R U OK? — How to ask (ask, listen, encourage action, check in)",
+        "url": "https://www.ruok.org.au/how-to-ask"
+      }
+    ],
+    "realityCheck": [
+      "**Pairing matters.** Interviews between close friends turn into chats; between students who clash, they stall. Choose pairs, or let students interview a staff member.",
+      "**Some students will freeze on the first question.** The plan page is the safety net: they can read their first question straight off it.",
+      "**Eye contact norms vary across cultures**, including for some First Nations students. Teach “face it” as turning towards the person, not as staring.",
+      "**Keep topics safe.** Steer interviews away from family conflict, health or anything private. Jobs, hobbies and skills work best.",
+      "**Works in a real class:** yes. It’s short, social and the improvement is easy to see in one lesson."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: shorter article and case study, 5 key words, word bank for the annotation, simpler questions, shorter interview steps.",
+      "core": "Aimed at about Year 7 reading: the standard version with paraphrasing, the conversation annotation, the case study and the four-minute interview.",
+      "extend": "Aimed at about Year 9 reading: question choice for a purpose, tone, the study’s nuance about when interruptions help, and reflecting on tone in the group discussion."
+    }
+  }
+}

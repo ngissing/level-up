@@ -1,0 +1,1036 @@
+{
+  "id": "vpc-run-the-room",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "You’ve been in a group where two people do all the talking. Everyone else gives up. Nothing gets decided. A good leader fixes that. That leader can be you.",
+      "core": "You’ve been in that group: two people do all the talking, the rest switch off, and nothing gets decided. A good discussion leader changes everything. They open it up, keep it fair, and wrap it up. That leader can be you.",
+      "extend": "Every team meeting, group project and club committee has the same problem: a couple of voices dominate, the rest go quiet, and the group decides less well than it could. A good discussion leader fixes that. It isn’t about being the loudest. It’s about running the room so everyone’s thinking gets used."
+    },
+    "why": {
+      "support": "Leading a group is a job skill. Team leaders, coaches and supervisors do it every day.",
+      "core": "Running a discussion is a real job skill. Team leaders, shift supervisors, coaches and youth leaders do it every week. Research shows groups make better decisions when everyone gets a fair share of the talking.",
+      "extend": "Facilitation is a core workplace skill: supervisors run toolbox talks, team leaders run meetings, and community groups run forums. Research shows that groups where the talking is shared make better decisions than groups dominated by one or two voices."
+    },
+    "canDo": {
+      "support": [
+        "I can open a discussion clearly.",
+        "I can make sure everyone gets a turn.",
+        "I can ask follow-up questions.",
+        "I can sum up at the end."
+      ],
+      "core": [
+        "I can open a discussion with a clear question and rules.",
+        "I can make sure everyone gets a fair turn.",
+        "I can respond to others with follow-up questions.",
+        "I can use my body and voice to lead.",
+        "I can wrap up with a summary and a next step."
+      ],
+      "extend": [
+        "I can open a discussion with a clear question, purpose and rules.",
+        "I can balance the talking and bring in quieter voices.",
+        "I can respond to and link people’s ideas, using deliberate body language and tone.",
+        "I can summarise views fairly and steer towards a decision."
+      ]
+    },
+    "showIt": "Lead a real 10-minute discussion with 4 to 6 people: open it, keep it fair, and wrap it up.",
+    "vocab": [
+      {
+        "word": "discussion",
+        "meaning": "people talking about a question and sharing views",
+        "example": "Our discussion was about phones at school."
+      },
+      {
+        "word": "leader",
+        "meaning": "the person who runs the discussion",
+        "example": "The leader asked everyone to speak once."
+      },
+      {
+        "word": "ground rules",
+        "meaning": "simple rules everyone agrees to",
+        "example": "Our ground rule: one person talks at a time."
+      },
+      {
+        "word": "summarise",
+        "meaning": "sum up the main points in a few words",
+        "example": "At the end, I summarised both sides."
+      },
+      {
+        "word": "view",
+        "meaning": "what someone thinks about a question",
+        "example": "Her view was that lunch is too short."
+      },
+      {
+        "word": "respond",
+        "meaning": "reply to what someone said",
+        "example": "Respond to the idea, not the person.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "evidence",
+        "meaning": "a fact, example or reason that backs up a view",
+        "example": "What evidence do you have for that?",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "consensus",
+        "meaning": "when most of the group agrees",
+        "example": "We reached a consensus on Friday sport.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Run the Room in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Run the Room",
+        "sub": "Lead a discussion everyone gets a say in.",
+        "icon": "lucide:users-round",
+        "say": "Run the room. Lead a discussion everyone gets a say in."
+      },
+      {
+        "kind": "big",
+        "title": "Share the talking",
+        "text": "Groups decide **better** when everyone gets a turn.",
+        "icon": "lucide:scale",
+        "say": "Research shows groups make better decisions when the talking is shared, not grabbed by one or two people.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Leader move",
+        "pillIcon": "lucide:users-round",
+        "title": "Open it",
+        "text": "Question. Why it matters. Rules.",
+        "icon": "lucide:door-open",
+        "say": "Move one. Open it. Give the question, why it matters, and two simple rules.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Leader move",
+        "pillIcon": "lucide:users-round",
+        "title": "Go round",
+        "text": "Everyone speaks once first.",
+        "icon": "lucide:rotate-cw",
+        "say": "Move two. Go round. Everyone says one thing before anyone speaks twice.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Leader move",
+        "pillIcon": "lucide:users-round",
+        "title": "Dig in",
+        "text": "“What makes you think that?”",
+        "icon": "lucide:search",
+        "say": "Move three. Dig in. Ask follow-ups. What makes you think that? Who sees it differently?",
+        "vc": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-AP4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Leader move",
+        "pillIcon": "lucide:users-round",
+        "title": "Keep it fair",
+        "text": "Bring in quiet people. Stop talk-overs.",
+        "icon": "lucide:hand",
+        "say": "Move four. Keep it fair. Bring in quiet people. Politely stop people talking over each other.",
+        "vc": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Leader move",
+        "pillIcon": "lucide:users-round",
+        "title": "Wrap it up",
+        "text": "Sum up. Next step. Thanks.",
+        "icon": "lucide:check-check",
+        "say": "Move five. Wrap it up. Sum up the views, agree a next step, and say thanks.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Lead with your body",
+        "text": "Look around. Open hand. Calm pace.",
+        "icon": "lucide:person-standing",
+        "say": "Lead with your body too. Look around the whole group. Use an open hand to invite people in. Keep your pace calm.",
+        "vc": [
+          "VPC-U2M2-LG3",
+          "VPC-U2M2-AP5"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Lead a real 10-minute discussion.",
+        "icon": "lucide:crown",
+        "say": "Your mission. Lead a real ten-minute discussion. Open it, keep it fair, and wrap it up."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Five moves to run the room",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "A discussion leader doesn’t talk the most. They help **everyone** have a say. Use five moves.\n\n1. **Open it.** Say the question. Say why it matters. Give two rules, like “one person talks at a time”.\n2. **Go round.** Everyone says one thing first. Nobody speaks twice until all have spoken once.\n3. **Dig in.** Ask follow-ups. “What makes you think that?” “Who sees it differently?”\n4. **Keep it fair.** Bring in quiet people: “Mia, what do you think?” Stop talk-overs: “Hold on, let Sam finish.”\n5. **Wrap it up.** Sum up what people said. Agree on a next step. Say thanks.\n\nYour body helps too. Look around the whole group. Use an open hand to invite someone in. Keep your voice calm.",
+          "core": "A good discussion leader isn’t the person who talks the most. It’s the person who makes sure the **group** does its best thinking. You can do that with five moves.\n\n1. **Open it.** Say the question clearly, say why it matters, and set two or three ground rules: “One person talks at a time. Disagree with the idea, not the person.” Say how long you have.\n2. **Go round.** Give everyone a first turn before anyone speaks twice. It stops the loudest people taking over in the first minute.\n3. **Dig in.** Respond to what people say. Ask for reasons and evidence: “What makes you think that?” Link ideas: “Building on what Jai said…” Bring out disagreement: “Who sees it differently?”\n4. **Keep it fair.** Invite quieter people by name: “Ana, we haven’t heard from you yet.” Stop talk-overs politely: “Hold that thought, let Sam finish.” Pull people back on track: “Let’s get back to the question.”\n5. **Wrap it up.** **Summarise** the main views fairly, including the ones you don’t agree with. Agree on a next step or a decision. Thank people.\n\nYour body and voice do half the work. Stand or sit where you can see everyone. Sweep your eyes around the whole group. Use an open palm to hand someone the floor. Slow down when you summarise. A calm, steady voice keeps a heated discussion calm.",
+          "extend": "Leading a discussion is not about holding the floor. It’s about getting the best thinking out of the whole group. Experienced facilitators rely on five moves.\n\n1. **Open it.** State the question precisely, explain why it matters and how long you have, and set two or three ground rules (“One voice at a time”, “Challenge ideas, not people”).\n2. **Go round.** Give everyone an opening turn before anyone speaks twice. This prevents the first confident voices from framing the whole discussion.\n3. **Dig in.** Respond to contributions rather than just collecting them. Probe for reasoning and evidence (“What makes you think that?”), connect ideas (“That links to Jai’s point about cost”) and surface disagreement (“Who sees it differently?”).\n4. **Keep it fair.** Balance the airtime: invite quieter members by name, interrupt talk-overs respectfully, and redirect tangents. Fairness isn’t forcing everyone to talk equally; it’s making sure nobody is shut out.\n5. **Wrap it up.** Summarise the range of views accurately, including those you disagree with, then steer towards a decision or next step. A fair summary is what makes people trust the outcome.\n\nYour non-verbal leadership matters as much as your words. Position yourself to see everyone, distribute eye contact, use an open palm to hand over the floor, and slow your pace when summarising. When a discussion heats up, a lower, steadier voice signals calm and usually lowers the temperature."
+        },
+        "vc": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-LG3",
+          "VPC-U2M2-AP5"
+        ],
+        "vcNote": "Leading a discussion: opening, turn-taking, follow-up questions, fairness, summarising; body language and voice when leading."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The smartest groups share the talking",
+        "icon": "lucide:brain",
+        "body": {
+          "support": "In 2010, scientists in the United States tested **699** people. They put them in small groups of 2 to 5.\n\nThe groups did all kinds of tasks, like puzzles and plans.\n\nThe smartest groups were **not** the ones with the smartest people.\n\nThe best groups had two things:\n\n- people who were good at **reading how others felt**\n- talking that was **shared**, not taken over by one or two people\n\nGroups where a few people did most of the talking did worse.",
+          "core": "In 2010, a team of scientists from universities in the United States wanted to know what makes some groups smarter than others. They tested **699** people, working in small groups of two to five, on all sorts of tasks: puzzles, planning and decisions.\n\nThey expected the smartest groups to be the ones with the smartest members. They were wrong. A group’s results were only loosely linked to how clever its members were.\n\nThe best groups had two things in common:\n\n- members who were good at **reading other people’s feelings**, and\n- **turn-taking**: the talking was spread around, not grabbed by one or two people.\n\nGroups where a few people dominated the conversation did worse. The study was published in the journal *Science*.",
+          "extend": "In 2010, researchers from three American universities published a study in *Science*. Their question was simple. Is a group smart in its own way, apart from how smart its members are?\n\nThey tested **699** people in groups of two to five, on a wide range of tasks. Groups that did well on one task tended to do well on others. The team called this “collective intelligence”.\n\nSurprisingly, it was only loosely linked to how clever the members were. It was more closely linked to two things. One was **social sensitivity**: how well members read each other’s feelings. The other was **equal turn-taking**. Groups where a few people dominated the talk scored lower.\n\nFor a discussion leader, the lesson is practical. Sharing out the talking isn’t just polite. It can make the group’s decisions better."
+        },
+        "source": {
+          "name": "Woolley, Chabris, Pentland, Hashmi & Malone (2010), “Evidence for a collective intelligence factor in the performance of human groups”, Science (PubMed record)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20929725/"
+        },
+        "think": {
+          "support": [
+            "What did the best groups have?",
+            "What happened when one or two people did all the talking?"
+          ],
+          "core": [
+            "What did the scientists expect, and what did they find?",
+            "Why might a group do worse when a few people dominate?",
+            "What can a discussion leader do about it?"
+          ],
+          "extend": [
+            "Why might individual intelligence matter less than turn-taking?",
+            "Is equal talking always the goal? When might it not be?",
+            "How would you use this finding when leading a group?"
+          ]
+        },
+        "vc": [
+          "VPC-U2M2-LG2"
+        ],
+        "vcNote": "Evidence for why leaders should balance turn-taking in discussion."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a run sheet",
+      "docTitle": "RUN SHEET: “SHOULD OUR SCHOOL HAVE A FOUR-DAY WEEK?” (EXAMPLE)",
+      "vc": [
+        "VPC-U2M2-LG2",
+        "VPC-U2M2-LG3"
+      ],
+      "vcNote": "Annotating how a leader plans to open, balance, probe and close a discussion.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Open",
+          "value": "“Today’s question: should our school go to four days? We’ve got 10 minutes.”"
+        },
+        {
+          "n": 2,
+          "label": "Rules",
+          "value": "One person at a time. Disagree with the idea, not the person."
+        },
+        {
+          "n": 3,
+          "label": "Go round",
+          "value": "Everyone: yes, no or not sure, and one reason."
+        },
+        {
+          "n": 4,
+          "label": "Dig in",
+          "value": "“What makes you think that?” “Who sees it differently?”",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Fair play",
+          "value": "“Ana, we haven’t heard from you.” “Hold that thought, let Sam finish.” [OPEN HAND]"
+        },
+        {
+          "n": 6,
+          "label": "Wrap up",
+          "value": "“So, four for, two against. Main worry: longer days. Next step: we survey Year 10.” [SLOW]"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Clear question + time",
+          "note": "Everyone knows what and how long."
+        },
+        {
+          "n": 2,
+          "label": "Ground rules",
+          "note": "Agreed before it starts."
+        },
+        {
+          "n": 3,
+          "label": "Fair first turn",
+          "note": "No one speaks twice yet."
+        },
+        {
+          "n": 4,
+          "label": "Follow-ups",
+          "note": "Asks for reasons and other views."
+        },
+        {
+          "n": 5,
+          "label": "Keeping it fair",
+          "note": "Words plus a gesture to invite."
+        },
+        {
+          "n": 6,
+          "label": "Summary + next step",
+          "note": "Both sides, then what happens next."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Five moves to run the room",
+      "steps": [
+        {
+          "title": "Open",
+          "text": "Question, why, rules.",
+          "icon": "lucide:door-open"
+        },
+        {
+          "title": "Go round",
+          "text": "Everyone once first.",
+          "icon": "lucide:rotate-cw"
+        },
+        {
+          "title": "Dig in",
+          "text": "Follow-ups and reasons.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Keep it fair",
+          "text": "Bring in, hold back.",
+          "icon": "lucide:hand"
+        },
+        {
+          "title": "Wrap up",
+          "text": "Sum up, next step.",
+          "icon": "lucide:check-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What’s the leader’s main job?",
+        "options": [
+          "Help everyone have a fair say",
+          "Talk the most",
+          "Win the argument",
+          "Pick the answer before it starts"
+        ],
+        "answer": 0,
+        "explain": "A leader runs the room. They don’t take it over.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "q": "Why “go round” at the start?",
+        "options": [
+          "So everyone speaks once before anyone speaks twice",
+          "To find out who is loudest",
+          "To save time",
+          "To skip the quiet people"
+        ],
+        "answer": 0,
+        "explain": "It stops a few people taking over early.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "q": "Two people are talking over each other. What could you say?",
+        "options": [
+          "“Hold that thought, let Sam finish.”",
+          "“Both of you, be quiet!”",
+          "Nothing. Let them sort it out.",
+          "“This is pointless.”"
+        ],
+        "answer": 0,
+        "explain": "Polite and clear. It keeps things fair.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "q": "What did the 2010 study find about the best groups?",
+        "options": [
+          "The talking was shared",
+          "One person did all the talking",
+          "They had the cleverest member",
+          "They never disagreed"
+        ],
+        "answer": 0,
+        "explain": "Groups where a few people dominated did worse.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "q": "What should a good wrap-up include?",
+        "options": [
+          "A fair summary and a next step",
+          "Only the views you agree with",
+          "A new question",
+          "Nothing. Just stop."
+        ],
+        "answer": 0,
+        "explain": "Sum up all views fairly, then agree what happens next.",
+        "vc": [
+          "VPC-U2M2-LG2"
+        ]
+      },
+      {
+        "q": "Which body language helps you lead?",
+        "options": [
+          "Looking around the whole group",
+          "Staring at your notes",
+          "Folding your arms",
+          "Facing one friend"
+        ],
+        "answer": 0,
+        "explain": "Eye contact with everyone makes everyone feel included.",
+        "vc": [
+          "VPC-U2M2-LG3",
+          "VPC-U2M2-AP5"
+        ]
+      },
+      {
+        "q": "“What makes you think that?” is used to…",
+        "options": [
+          "Ask for reasons or evidence",
+          "Shut someone down",
+          "End the discussion",
+          "Change the topic"
+        ],
+        "answer": 0,
+        "explain": "It helps people back up their view.",
+        "vc": [
+          "VPC-U2M2-AP4",
+          "VPC-U2M2-LG2"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Lead a 10-minute discussion with 4 to 6 people. Open it. Keep it fair. Wrap it up.",
+      "core": "Lead a real 10-minute discussion with 4 to 6 people: open it, keep it fair, and wrap it up.",
+      "extend": "Lead a real 10-minute discussion with 4 to 6 people, balancing the talking, probing for reasons, and closing with a fair summary and a next step."
+    },
+    "checklist": [
+      "I planned my run sheet",
+      "I opened with a question, a reason and rules",
+      "Everyone spoke at least once",
+      "I asked follow-ups and kept it fair",
+      "I summed up and agreed a next step"
+    ],
+    "levelUp": "After your wrap-up, give a 30-second view of your own to the group. Use a reason, a piece of evidence and one language device to persuade them.",
+    "vc": [
+      "VPC-U2M2-LG2",
+      "VPC-U2M2-LG3",
+      "VPC-U2M2-AP5"
+    ],
+    "model": {
+      "kind": "Example opening and wrap-up",
+      "text": "**Opening**\n\n“Thanks for coming. Today’s question is: should our footy club start a girls’ team? We’ve got 10 minutes.\n\nTwo rules. One person talks at a time. And we challenge ideas, not people.\n\nLet’s go round first. Yes, no or not sure, and one reason. Mia, can you start?”\n\n**Wrap-up**\n\n“Okay, let me sum up. Four of us said yes. The main reason was more players. Two said not yet. Their worry was finding a coach.\n\nSo the next step is to ask parents if anyone can coach. Jai will post that in the group chat by Friday. Thanks, everyone.”",
+      "why": [
+        "The opening gives the question, the time and two rules before anyone argues.",
+        "Going round with “Mia, can you start?” stops the loudest people taking over.",
+        "The wrap-up sums up both sides fairly, then sets a clear next step: who, what and when."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Open and close",
+        "start": "Starts or ends without a plan.",
+        "good": "Clear question, rules and a summary.",
+        "great": "Fair summary plus a clear next step."
+      },
+      {
+        "skill": "Fair turns",
+        "start": "One or two people do the talking.",
+        "good": "Everyone speaks at least once.",
+        "great": "Brings in quiet voices. Stops talk-overs."
+      },
+      {
+        "skill": "Questions and body",
+        "start": "Collects views only.",
+        "good": "Asks follow-ups. Looks around the group.",
+        "great": "Links ideas. Calm voice and open gestures."
+      }
+    ],
+    "choices": {
+      "prompt": "What question will your group discuss?",
+      "options": [
+        "A school question, like phones or the timetable",
+        "A club, team or workplace decision",
+        "A local issue, like transport or a skatepark",
+        "A question from the news"
+      ]
+    },
+    "solo": "No group in class? Lead a 10-minute discussion somewhere else: at the dinner table, with your team or club, or on a group video call. Ask someone there to fill in the talk tally, or fill it in straight after."
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Five moves to run the room",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name the **five** leader moves.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "vc": [
+              "VPC-U2M2-LG2"
+            ]
+          },
+          {
+            "q": "Write what you could say to bring a quiet person in.",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-LG2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name two ways your body can help you lead.",
+              "core": "Name two ways your body and voice can help you lead.",
+              "extend": "How can your body and voice calm a discussion that’s getting heated?"
+            },
+            "lines": {
+              "support": 2,
+              "core": 2,
+              "extend": 3
+            },
+            "vc": [
+              "VPC-U2M2-LG3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Helps the room or hurts it?",
+        "pagebreak": true,
+        "choices": [
+          "Helps",
+          "Hurts"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Tick whether each leader move helps the discussion or hurts it. Say why.",
+        "vc": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-LG3"
+        ],
+        "cards": [
+          {
+            "from": "Leader",
+            "text": "“Ana, we haven’t heard from you yet. What do you think?”",
+            "answer": "Helps",
+            "flags": "Brings in a quiet voice."
+          },
+          {
+            "from": "Leader",
+            "text": "Only looks at their best mate while people talk.",
+            "answer": "Hurts",
+            "flags": "Others feel left out."
+          },
+          {
+            "from": "Leader",
+            "text": "“Hold that thought, let Sam finish.”",
+            "answer": "Helps",
+            "flags": "Stops a talk-over politely."
+          },
+          {
+            "from": "Leader",
+            "text": "Gives their own opinion first, for three minutes.",
+            "answer": "Hurts",
+            "flags": "Sets the answer before others speak."
+          },
+          {
+            "from": "Leader",
+            "text": "“So far, four say yes and two say no because…”",
+            "answer": "Helps",
+            "flags": "A fair summary."
+          },
+          {
+            "from": "Leader",
+            "text": "Lets the discussion drift to last night’s game.",
+            "answer": "Hurts",
+            "flags": "Off the question.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a run sheet",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "Which move?",
+          "Why does it help?"
+        ],
+        "instructions": {
+          "support": "Each number marks a leader move. Use the word bank. Write why it helps.",
+          "core": "Each number marks a leader move on the run sheet. Name it, and say why it helps the group."
+        },
+        "wordBank": {
+          "support": [
+            "open",
+            "rules",
+            "go round",
+            "dig in",
+            "keep it fair",
+            "wrap up"
+          ]
+        }
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the smartest groups share the talking",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "What did the best groups have?",
+              "core": "What did the scientists expect? What did they find?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U2M2-LG2"
+            ]
+          },
+          {
+            "q": "What happened to groups where a few people did most of the talking?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-LG2"
+            ]
+          },
+          {
+            "q": {
+              "support": "What can a leader do about it?",
+              "core": "Name two things a discussion leader can do because of this study.",
+              "extend": "How would you use this finding when you lead? Is equal talking always the goal?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U2M2-LG2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Plan your run sheet",
+        "pagebreak": true,
+        "vc": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-LG3",
+          "VPC-U2M2-AP4"
+        ],
+        "vcNote": "Planning to open, probe, balance and close a discussion, including delivery cues.",
+        "prompt": {
+          "support": "Plan your discussion. Write your **question**, two **rules**, two **follow-ups** and your **wrap-up** words.",
+          "core": "Plan your 10-minute discussion: the question, why it matters, two rules, three follow-ups, two fair-play phrases, and your wrap-up. Mark where you’ll use your body or voice.",
+          "extend": "Plan a 10-minute discussion: a precise question, purpose, rules, probing and linking questions, fair-play phrases and a closing that steers to a decision. Add deliberate delivery cues (pace, gesture, eye contact)."
+        },
+        "plan": [
+          {
+            "label": "Our question:",
+            "lines": 1
+          },
+          {
+            "label": "Why it matters:",
+            "lines": 1
+          },
+          {
+            "label": "Two rules:",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "What makes you think that?",
+          "Who sees it differently?",
+          "Building on what … said…",
+          "We haven’t heard from …",
+          "So, to sum up…",
+          "[LOOK AROUND]",
+          "[OPEN HAND]",
+          "[SLOW]"
+        ],
+        "lines": {
+          "support": 8,
+          "core": 8,
+          "extend": 8
+        },
+        "check": [
+          "question + why",
+          "rules",
+          "follow-ups",
+          "fair-play phrases",
+          "wrap-up + next step"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: run the room",
+        "pagebreak": true,
+        "where": "in class, at your club or team, or at home",
+        "vc": [
+          "VPC-U2M2-LG2",
+          "VPC-U2M2-LG3",
+          "VPC-U2M2-AP5"
+        ],
+        "vcNote": "Hands-on: leading a real discussion using active listening, questioning and deliberate body language.",
+        "instructions": "Lead a **10-minute** discussion with **4 to 6** people. Someone in the group (or your teacher) fills in the **Talk tally** while you lead.",
+        "need": [
+          "your run sheet",
+          "a timer",
+          "an observer with the talk tally"
+        ],
+        "steps": {
+          "support": [
+            "Open: question, why, two rules.",
+            "Go round. Everyone speaks once.",
+            "Ask follow-ups.",
+            "Bring in quiet people.",
+            "Sum up. Agree a next step.",
+            "Say thanks."
+          ],
+          "core": [
+            "Open: the question, why it matters, the time and two rules.",
+            "Go round: everyone speaks once before anyone speaks twice.",
+            "Dig in with follow-ups. Ask for reasons.",
+            "Keep it fair: bring in quiet people, stop talk-overs.",
+            "Look around the whole group. Use an open hand to invite people in.",
+            "Wrap up: a fair summary and a next step. Say thanks."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Our summary and next step:",
+            "lines": 3
+          },
+          {
+            "label": "The moment I had to keep it fair, and what I did:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Talk tally",
+          "Recording (with permission)",
+          "Teacher saw it"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Talk tally",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 16,
+          "core": 15
+        },
+        "vc": [
+          "VPC-U2M2-LG2"
+        ],
+        "instructions": "The observer writes each person’s name and puts a mark every time they speak. Then note the leader’s moves.",
+        "columns": [
+          "Name",
+          "Times they spoke",
+          "Leader move that helped them"
+        ],
+        "rows": [
+          [
+            "Mia",
+            "|||| ",
+            "Asked her by name"
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Look at the tally",
+        "items": [
+          {
+            "q": "Was the talking shared fairly? How can you tell from the tally?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-LG2"
+            ]
+          },
+          {
+            "q": "What would you do differently next time?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-LG3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: your 30-second case",
+        "pagebreak": true,
+        "instructions": "After your wrap-up, give your own view to the group in 30 seconds. Plan it here.",
+        "items": [
+          {
+            "q": "My view, with a reason and evidence:",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M2-AP4"
+            ]
+          },
+          {
+            "q": "The language device I used (rule of three, rhetorical question, “we”) and why it suits this group:",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M2-LG1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can open a discussion clearly.",
+          "I can make sure everyone gets a turn.",
+          "I can ask follow-ups and keep it fair.",
+          "I can sum up and agree a next step."
+        ],
+        "questions": [
+          "My strongest leader move:",
+          "The move I’ll practise next:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn five discussion-leading moves (open, go round, dig in, keep it fair, wrap up) and the body language and voice that support them. They annotate a run sheet, plan their own, and lead a real 10-minute discussion with 4 to 6 people while an observer completes a talk tally. The case study is the 2010 Science study of 699 people which found groups with more equal turn-taking performed better.",
+    "prep": [
+      "Print workbooks, plus spare talk-tally sheets for observers.",
+      "Prepare 6–8 safe, genuinely debatable questions (four-day week, phones at school, a local issue). Avoid topics that target identities.",
+      "Plan groups of 5–7 so each leader has 4–6 participants plus an observer; rotate leaders over two lessons.",
+      "Optional: a short clip of a well-run meeting or panel (e.g. a youth parliament committee)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The moves",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** run a deliberately bad 3-minute discussion (you let two students dominate). What went wrong?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** helps or hurts.",
+          "**Annotate (10 min):** the run sheet."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Why it matters + plan",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** the smartest groups.",
+          "**Model (10 min):** lead a 5-minute discussion yourself, narrating your moves.",
+          "**Plan (25 min):** run sheets; practise opening lines in pairs."
+        ]
+      },
+      {
+        "title": "Lessons 3–4 — Run the room",
+        "minutes": 100,
+        "steps": [
+          "**Discussions (60 min):** rotate leaders; observers complete talk tallies.",
+          "**Debrief (15 min):** look at tallies; what made it fair?",
+          "**Level Up (10 min):** 30-second case.",
+          "**Check & reflect (15 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "The leader runs the room; they don’t take it over.",
+      "Open, go round, dig in, keep it fair, wrap up.",
+      "Groups decide better when the talking is shared.",
+      "Eyes around the group, open hand, calm pace."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Sentence starters and fair-play phrases on a card.",
+        "Lead a smaller group (3–4) for 6–8 minutes."
+      ],
+      "extend": [
+        "Linking and probing questions; steer to a decision.",
+        "30-second persuasive case with a language device (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U2M2-LG2",
+        "evidence": "Leads a discussion, responding to others with active listening and questioning (run sheet, talk tally, teacher observation)."
+      },
+      {
+        "vc": "VPC-U2M2-LG3",
+        "evidence": "Uses body language, eye contact, gestures, pace and intonation deliberately while leading (delivery cues on run sheet; observation)."
+      },
+      {
+        "vc": "VPC-U2M2-AP4",
+        "evidence": "Structures the discussion logically and asks for evidence; Level Up view is structured with evidence."
+      },
+      {
+        "vc": "VPC-U2M2-AP5",
+        "evidence": "Uses appropriate body language and voice when presenting and summarising views."
+      },
+      {
+        "vc": "VPC-U2M2-LG1",
+        "evidence": "Level Up: influences the group with a language device suited to them.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Sort:** asking Ana — helps; only looks at best mate — hurts; hold that thought — helps; own opinion first for three minutes — hurts; fair summary — helps; drifting to the game — hurts.\n\n**Annotation:** 1 open (question + time); 2 ground rules; 3 go round; 4 dig in (follow-ups); 5 keep it fair (invite + stop talk-over, with gesture); 6 wrap up (summary + next step, slow pace).\n\n**Case study:** they expected the smartest members to make the smartest groups; instead, the best groups had socially sensitive members and shared turn-taking; groups dominated by a few did worse.",
+    "resources": [
+      {
+        "label": "PubMed — Woolley et al. (2010), Evidence for a collective intelligence factor in the performance of human groups",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20929725/"
+      },
+      {
+        "label": "Harvard Kennedy School Gender Action Portal — summary of the 2010 collective intelligence study",
+        "url": "https://www.gap.hks.harvard.edu/evidence-collective-intelligence-factor-performance-human-groups"
+      }
+    ],
+    "realityCheck": [
+      "**Group composition makes or breaks this.** Put at least one cooperative student in each group, and don’t give the hardest group to your most anxious leader.",
+      "**Rotating leaders takes time.** With 25 students, plan two lessons of discussions, or let some students lead outside class (the solo option).",
+      "**Choose topics carefully.** Debatable but safe: timetables, phones, local projects. Avoid anything that puts a student’s identity up for debate.",
+      "**Eye contact and turn-taking norms vary across cultures**, including for some First Nations students. Frame the moves as tools for this setting, not rules about right and wrong.",
+      "**Works in a real class:** yes, and the talk tally makes progress visible. Students are often surprised by who did the talking."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: shorter article and case study, 5 key words, word bank, phrase card, smaller groups and shorter discussions.",
+      "core": "Aimed at about Year 7 reading: the standard version with the five moves, run sheet, case study and 10-minute discussion.",
+      "extend": "Aimed at about Year 9 reading: probing and linking questions, steering to a decision, the study’s nuance, and a 30-second persuasive case."
+    }
+  }
+}

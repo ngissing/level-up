@@ -1,0 +1,1048 @@
+{
+  "id": "vpc-make-your-case",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "You want something to change. A crossing near school. Later buses. A place to skate. Moaning won’t change it. A short, sharp speech to the right people might.",
+      "core": "You want something to change: a crossing outside school, a later bus, somewhere to skate. Complaining to your mates won’t change it. A short, sharp speech to the people who decide just might. Young people in Victoria and WA have done exactly that.",
+      "extend": "Most things people want changed never change, because nobody makes the case to the person who can say yes. A short speech with a clear point, solid proof and a specific ask is one of the most powerful tools you have, and young Australians have used it to win crossings, skateparks and more."
+    },
+    "why": {
+      "support": "A good speech can change things. It also helps in job interviews, at council and in any group.",
+      "core": "Persuading people is a life skill: asking a boss for more shifts, a council for a crossing, or a group to back your idea. The same simple shape works every time.",
+      "extend": "Persuasion is how decisions get made in workplaces, councils and communities. Knowing how to structure a case, back it with evidence and choose language for a particular audience gives you real influence."
+    },
+    "canDo": {
+      "support": [
+        "I can say what I want in one sentence.",
+        "I can back it up with proof.",
+        "I can end with a clear ask.",
+        "I can give my speech to a real audience."
+      ],
+      "core": [
+        "I can state my point in one clear sentence.",
+        "I can back my point with proof and say where it came from.",
+        "I can use language tricks like the rule of three.",
+        "I can end with a punch: who should do what, by when.",
+        "I can give my speech to a real audience."
+      ],
+      "extend": [
+        "I can structure a persuasive speech logically: hook, point, proof, punch.",
+        "I can choose and credit evidence, and avoid plagiarism.",
+        "I can use language devices for a specific audience.",
+        "I can deliver my case to a real audience, in a tone that suits them."
+      ]
+    },
+    "showIt": "Write and give a one-minute speech that asks a real audience to do one thing, backed by proof.",
+    "vocab": [
+      {
+        "word": "persuade",
+        "meaning": "get someone to agree or act",
+        "example": "I want to persuade the council to fix the path."
+      },
+      {
+        "word": "point",
+        "meaning": "the one thing you want, said clearly",
+        "example": "My point: we need a crossing on Main Street."
+      },
+      {
+        "word": "evidence",
+        "meaning": "proof: facts, numbers, examples or stories",
+        "example": "My evidence was a count of cars at 8:30."
+      },
+      {
+        "word": "audience",
+        "meaning": "the people you are trying to persuade",
+        "example": "My audience is the school council."
+      },
+      {
+        "word": "call to action",
+        "meaning": "telling people exactly what to do",
+        "example": "My call to action: vote yes on Friday."
+      },
+      {
+        "word": "source",
+        "meaning": "where a fact came from",
+        "example": "The source was the council website.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "plagiarism",
+        "meaning": "using someone else’s words or ideas as if they were yours",
+        "example": "Copying a speech off the internet is plagiarism.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "rule of three",
+        "meaning": "grouping ideas in threes so they stick",
+        "example": "Safer, faster, fairer.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "rhetorical question",
+        "meaning": "a question you ask to make people think, not to get an answer",
+        "example": "Do we really want to wait for an accident?",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Make Your Case in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Make Your Case",
+        "sub": "Point, proof, punch.",
+        "icon": "lucide:gavel",
+        "say": "Make your case. Point, proof, punch."
+      },
+      {
+        "kind": "big",
+        "title": "Who decides?",
+        "text": "Speak to the people who can say **yes**.",
+        "icon": "lucide:target",
+        "say": "First, work out who can make the change. Then speak to them.",
+        "vc": [
+          "VPC-U2M2-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "H",
+        "pill": "Speech part",
+        "pillIcon": "lucide:gavel",
+        "title": "Hook",
+        "text": "Grab them in one line.",
+        "icon": "lucide:anchor",
+        "say": "Hook. Grab them in one line. A question, a number or a picture they can see.",
+        "vc": [
+          "VPC-U2M2-AP4",
+          "VPC-U2M2-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Speech part",
+        "pillIcon": "lucide:gavel",
+        "title": "Point",
+        "text": "What you want. One sentence.",
+        "icon": "lucide:crosshair",
+        "say": "Point. Say what you want in one sentence.",
+        "vc": [
+          "VPC-U2M2-AP4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Speech part",
+        "pillIcon": "lucide:gavel",
+        "title": "Proof",
+        "text": "Facts, numbers, a real story. Say where from.",
+        "icon": "lucide:file-check",
+        "say": "Proof. Facts, numbers or a real story. And say where your facts came from.",
+        "vc": [
+          "VPC-U2M2-AP4",
+          "VPC-U2M2-AP7"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Speech part",
+        "pillIcon": "lucide:gavel",
+        "title": "Punch",
+        "text": "Who does what, by when.",
+        "icon": "lucide:zap",
+        "say": "Punch. End with a clear ask. Who should do what, and by when.",
+        "vc": [
+          "VPC-U2M2-AP4",
+          "VPC-U2M2-LG1"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Word power",
+        "text": "Rule of three. **We**. A question that makes them think.",
+        "icon": "lucide:sparkles",
+        "say": "Use word power. Group ideas in threes. Say we. Ask a question that makes them think.",
+        "vc": [
+          "VPC-U2M2-LG1"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "One minute. One ask. A real audience.",
+        "icon": "lucide:mic",
+        "say": "Your mission. Write a one-minute speech with one clear ask. Then give it to a real audience."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Point, proof, punch",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Want something to change? Make a short speech to the people who can change it.\n\nA strong speech has four parts.\n\n1. **Hook.** Grab them fast. Ask a question. Give a number. Paint a picture.\n2. **Point.** Say what you want in **one** sentence.\n3. **Proof.** Back it up. Use facts, numbers or a real story. Say where your facts came from.\n4. **Punch.** End with a clear ask. Who should do what, and when?\n\nSome word tricks help:\n\n- **Rule of three.** “Safer, quicker, cheaper.”\n- **“We” and “you”.** It makes people feel part of it.\n\nUse your own words. Copying someone else’s speech is **plagiarism**. If you use a fact, say where it’s from: “The council website says…”",
+          "core": "Want something to change? The fastest way is often a short speech to the people who can make it happen. Persuasive speeches that work usually have four parts.\n\n1. **Hook.** Grab attention in the first line: a question (“Who here has nearly been hit crossing Smith Street?”), a striking number, or a picture people can see in their head.\n2. **Point.** State what you want in **one clear sentence**. If you can’t say it in one sentence, you’re not ready.\n3. **Proof.** Back your point with **evidence**: facts, numbers, an example or a real story. Two or three strong pieces beat ten weak ones. Always say where a fact came from: “According to VicRoads…”. That builds trust, and it avoids **plagiarism**, which is passing off someone else’s words or ideas as your own.\n4. **Punch.** End with a **call to action**: who should do what, and by when. “Please put a crossing on Smith Street before next winter.”\n\nThen add some **word power**:\n\n- **Rule of three:** “Safer, quicker, fairer.” Lists of three stick in people’s heads.\n- **“We” and “you”:** “We all use this road.” It pulls the audience onto your side.\n- **Strong verbs:** “fix”, “build”, “protect”, not “maybe look at”.\n\nFinally, check your script. Clear sentences, paragraphs and correct spelling make you look serious, especially if you send a copy afterwards.",
+          "extend": "When something needs to change, a short, well-built speech to the people who can make the decision is often more effective than a petition nobody reads. Most persuasive speeches that work follow the same logic.\n\n1. **Hook.** Earn attention in the first line: a direct question, a striking statistic or a vivid image.\n2. **Point (contention).** State your position in one precise sentence. Precision matters: “Put a zebra crossing on Thomas Street” is harder to ignore than “Make roads safer”.\n3. **Proof.** Support the point with **evidence**: data, examples, expert views or a real story. Choose quality over quantity, and **attribute** every fact (“VicRoads data from 2020 shows…”). Attribution builds credibility and avoids **plagiarism**, which includes paraphrasing someone’s argument without credit.\n4. **Punch.** Close with a specific **call to action**: who, what and by when.\n\nLanguage devices make the logic land:\n\n- **Rule of three:** “Safer, quicker, fairer.”\n- **Inclusive language:** “we”, “our town”.\n- **Rhetorical questions:** “Do we really want to wait for an accident?”\n- **Strong, concrete verbs** and **concrete images** rather than vague abstractions.\n\nMatch tone to audience. A council meeting suits formal, respectful language and local evidence; a school assembly can be warmer and more energetic. The structure stays the same; the wording changes."
+        },
+        "vc": [
+          "VPC-U2M2-AP4",
+          "VPC-U2M2-LG1",
+          "VPC-U2M2-AP7"
+        ],
+        "vcNote": "Structuring a persuasive speech (hook, point, proof, punch), language devices, and acknowledging sources to avoid plagiarism."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The crossing Flynn talked into existence",
+        "icon": "lucide:footprints",
+        "body": {
+          "support": "Flynn lives in Brighton East, in Melbourne. There was no proper crossing on busy Thomas Street. People had to dash across to reach two walking and bike trails.\n\nWhen Flynn was in primary school, he wrote a letter to the council. He got a reply, but nothing changed.\n\nYears later, at Brighton Secondary College, he entered the **Victoria Parliament Prize**. Students write a speech about a problem in their area.\n\nFlynn called the crossing **“an accident waiting to happen”**. He used proof: about **11,000 vehicles** used that stretch of road. He got his brothers, sisters and neighbours to show how busy it was.\n\nHe won. Then the council said it planned to build a crossing.",
+          "core": "Flynn grew up in Brighton East, in Melbourne. To get between two popular walking and bike trails, people had to cross busy Thomas Street. There was only a small traffic island, no proper crossing.\n\nIn primary school, Flynn wrote to the council about it. He got a reply, but nothing happened, and he gave up for a while.\n\nAt Brighton Secondary College, he tried again, this time with a speech. He entered the **Victoria Parliament Prize**, where students write a statement about an issue in their community, just like a member of parliament.\n\nHis point was clear: Thomas Street needs a crossing. He called it **“an accident waiting to happen”**. His proof included road data: about **11,000 vehicles** used that 1.6-kilometre stretch, according to VicRoads figures from 2020. He even got his siblings and neighbours to help show how busy the road was.\n\nFlynn won the prize. Afterwards, Bayside Council said it planned to put a pedestrian crossing on Thomas Street, once the Department of Transport approved it.",
+          "extend": "In Brighton East, Melbourne, people walking or riding between two popular trails had to cross Thomas Street, a busy road with only a traffic island. As a primary school student, Flynn wrote to the council asking for a proper crossing. He received a reply but no action.\n\nYears later at Brighton Secondary College, he took another route: the **Victoria Parliament Prize**, in which students write a Member’s Statement about an issue in their community.\n\nHis case was tightly built. The point was specific (a crossing on Thomas Street). The hook was memorable (**“an accident waiting to happen”**). The proof was concrete: VicRoads data from 2020 showed about **11,000 vehicles** used the 1.6-kilometre stretch, and he enlisted siblings and neighbours to demonstrate how busy it was.\n\nFlynn won the prize, earning $500 for himself and $1,000 for his school. Bayside Council then said it planned to provide a pedestrian crossing on Thomas Street, pending Department of Transport approval. The same request that stalled as a letter gained momentum as a well-evidenced speech to a bigger audience."
+        },
+        "source": {
+          "name": "Bayside City Council — “Bayside teenager wows Parliament”",
+          "url": "https://bayside.vic.gov.au/news/bayside-teenager-wows-parliament-0"
+        },
+        "think": {
+          "support": [
+            "What was Flynn’s point?",
+            "What proof did he use?"
+          ],
+          "core": [
+            "What was Flynn’s point, in one sentence?",
+            "What proof did he use, and where did it come from?",
+            "Why did the speech work better than the letter?"
+          ],
+          "extend": [
+            "How did Flynn’s hook, point and proof work together?",
+            "Why might a speech to a bigger audience succeed where a letter failed?",
+            "What would you add to make his case even stronger?"
+          ]
+        },
+        "vc": [
+          "VPC-U2M2-LG1",
+          "VPC-U2M2-AP4"
+        ],
+        "vcNote": "A real persuasive speech that used a hook, a specific point and attributed evidence."
+      },
+      {
+        "title": "A skatepark that started with a speech",
+        "icon": "lucide:trophy",
+        "body": {
+          "support": "In 2019, Harry Boylan went to a council meeting in Harvey, a country town in WA. He saw a gap: there was nowhere for young people to skate.\n\nHe gave a speech to the council. His friend Jake Baggetta backed him up with a speech too.\n\nThe council agreed. In April 2024, the new Harvey skatepark opened.",
+          "core": "In 2019, Harry Boylan went to a Shire of Harvey council meeting in country Western Australia with an idea. He’d noticed a gap in his town: nowhere decent for young people to skate.\n\nHe gave a passionate speech to the councillors, and his friend Jake Baggetta spoke to back him up. The council agreed to the project.\n\nIt took time, funding and planning, but the Harvey skatepark officially opened in April 2024. The shire president thanked the town’s young people for pushing for it.",
+          "extend": "In 2019, Harry Boylan went to a Shire of Harvey council meeting in regional Western Australia. He wanted a skatepark: the town didn’t have one. He spoke to the councillors, and his friend Jake Baggetta gave a speech to back him up.\n\nThe council agreed. The project then took nearly five years of planning, design and funding. The skatepark officially opened in April 2024, and the shire president thanked local young people for backing it.\n\nThe lesson is about persuasion and persistence. The right audience, a clear proposal and a second voice can start something. Big changes still take time."
+        },
+        "source": {
+          "name": "Harvey-Waroona Reporter — “Harvey Skatepark opens thanks to the dedication of two young locals” (2024)",
+          "url": "https://www.harveyreporter.com.au/news/south-western-times/harvey-skatepark-opens-thanks-to-the-dedication-of-two-young-locals-c-14226938"
+        },
+        "think": {
+          "support": [
+            "Who did Harry speak to?",
+            "Why did it help to have Jake speak too?"
+          ],
+          "core": [
+            "Why was the council the right audience?",
+            "How did a second speaker help?",
+            "Why do you think it took nearly five years?"
+          ],
+          "extend": [
+            "Why does a second voice strengthen a case?",
+            "What evidence might a council want before spending money?",
+            "What does this story teach about persistence?"
+          ]
+        },
+        "vc": [
+          "VPC-U2M2-LG1"
+        ],
+        "vcNote": "Persuading a specific audience (a council) to act."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a one-minute speech",
+      "docTitle": "SPEECH TO THE SCHOOL COUNCIL: “FIX THE BIKE RACKS” (EXAMPLE)",
+      "vc": [
+        "VPC-U2M2-AP4",
+        "VPC-U2M2-LG1",
+        "VPC-U2M2-AP7"
+      ],
+      "vcNote": "Annotating the structure, evidence, attribution and language devices of a persuasive speech.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "value": "Who here has come out after school to find their bike knocked over?"
+        },
+        {
+          "n": 2,
+          "label": "Point",
+          "value": "We need a new bike rack by the front gate.",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Proof 1",
+          "value": "I counted 46 bikes on Monday. The rack holds 20."
+        },
+        {
+          "n": 4,
+          "label": "Proof 2",
+          "value": "The council website says a new rack costs about $900."
+        },
+        {
+          "n": 5,
+          "label": "Word power",
+          "value": "A rack keeps our bikes safer, tidier and out of the way."
+        },
+        {
+          "n": 6,
+          "label": "Punch",
+          "value": "Please vote to buy one at the next meeting, on 14 March."
+        }
+      ],
+      "note": "Made-up example for practice. The cost is not real.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "A question the audience can picture."
+        },
+        {
+          "n": 2,
+          "label": "Point",
+          "note": "What we want, in one sentence."
+        },
+        {
+          "n": 3,
+          "label": "Proof: own count",
+          "note": "A number the speaker collected."
+        },
+        {
+          "n": 4,
+          "label": "Proof + source",
+          "note": "Says where the fact came from."
+        },
+        {
+          "n": 5,
+          "label": "Rule of three",
+          "note": "Safer, tidier, out of the way."
+        },
+        {
+          "n": 6,
+          "label": "Punch",
+          "note": "Who, what and when."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Point, proof, punch",
+      "steps": [
+        {
+          "title": "Hook",
+          "text": "Grab them in one line.",
+          "icon": "lucide:anchor"
+        },
+        {
+          "title": "Point",
+          "text": "What you want. One sentence.",
+          "icon": "lucide:crosshair"
+        },
+        {
+          "title": "Proof",
+          "text": "Evidence + where it’s from.",
+          "icon": "lucide:file-check"
+        },
+        {
+          "title": "Punch",
+          "text": "Who does what, by when.",
+          "icon": "lucide:zap"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What’s the job of the **point**?",
+        "options": [
+          "Say what you want in one sentence",
+          "Tell a joke",
+          "List every fact you found",
+          "Thank the audience"
+        ],
+        "answer": 0,
+        "explain": "If you can’t say it in one sentence, the audience won’t remember it.",
+        "vc": [
+          "VPC-U2M2-AP4"
+        ]
+      },
+      {
+        "q": "Which is the strongest **proof**?",
+        "options": [
+          "“I counted 46 bikes. The rack holds 20.”",
+          "“Everyone knows it’s bad.”",
+          "“It’s just obvious.”",
+          "“I reckon it’s annoying.”"
+        ],
+        "answer": 0,
+        "explain": "Real numbers you collected are evidence. Opinions alone aren’t.",
+        "vc": [
+          "VPC-U2M2-AP4"
+        ]
+      },
+      {
+        "q": "Which ending is a clear **punch**?",
+        "options": [
+          "Please vote to buy a rack at the 14 March meeting.",
+          "So yeah, that’s it.",
+          "Thanks for listening.",
+          "Maybe someone could look at it one day."
+        ],
+        "answer": 0,
+        "explain": "A call to action says who, what and when.",
+        "vc": [
+          "VPC-U2M2-AP4",
+          "VPC-U2M2-LG1"
+        ]
+      },
+      {
+        "q": "You use a fact from a website. What should you do?",
+        "options": [
+          "Say where it came from",
+          "Pretend you knew it already",
+          "Change the number so it sounds bigger",
+          "Leave it out"
+        ],
+        "answer": 0,
+        "explain": "Saying your source builds trust and avoids plagiarism.",
+        "vc": [
+          "VPC-U2M2-AP7"
+        ]
+      },
+      {
+        "q": "What helped Flynn win support for a crossing?",
+        "options": [
+          "A clear point and road data about 11,000 vehicles",
+          "Shouting at the council",
+          "A petition with no reasons",
+          "Waiting for someone else to do it"
+        ],
+        "answer": 0,
+        "explain": "His speech had a specific point and real proof.",
+        "vc": [
+          "VPC-U2M2-LG1"
+        ]
+      },
+      {
+        "q": "“Safer, quicker, cheaper.” This is an example of…",
+        "options": [
+          "The rule of three",
+          "Plagiarism",
+          "A closed question",
+          "A source"
+        ],
+        "answer": 0,
+        "explain": "Three ideas in a row are easy to remember.",
+        "vc": [
+          "VPC-U2M2-LG1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "q": "You’re speaking to a council, not your mates. What should change?",
+        "options": [
+          "Your tone and words get more formal",
+          "Your point disappears",
+          "You stop using evidence",
+          "Nothing at all"
+        ],
+        "answer": 0,
+        "explain": "Match tone and wording to the audience.",
+        "vc": [
+          "VPC-U2M2-AP3"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write and give a 1-minute speech. Ask a real audience to do one thing. Use proof.",
+      "core": "Write and give a one-minute speech that asks a real audience to do one thing, backed by proof.",
+      "extend": "Write and deliver a one-minute persuasive speech to a real audience, with a logical structure, attributed evidence and language chosen for that audience."
+    },
+    "checklist": [
+      "My speech has a hook, point, proof and punch",
+      "I used at least two pieces of proof and said where they came from",
+      "I used at least one word-power trick",
+      "My script is checked for spelling and punctuation",
+      "I gave my speech to a real audience"
+    ],
+    "levelUp": "Rewrite your punch for a second, different audience (e.g. your principal, then a local MP). Explain what you changed in your tone and words, and why.",
+    "vc": [
+      "VPC-U2M2-LG1",
+      "VPC-U2M2-AP4",
+      "VPC-U2M2-AP7",
+      "VPC-U2M2-AP8"
+    ],
+    "model": {
+      "kind": "Example one-minute speech",
+      "text": "**To the netball club committee**\n\nHands up if you’ve waited in the dark for a lift after Tuesday training.\n\nWe need the court lights on until 8 pm on training nights.\n\nRight now, they switch off at 7:15. Training finishes at 7:30. Last week I asked 24 players. Nineteen said they had walked to the car park in the dark.\n\nThe club’s own safety policy says members must have safe, lit paths to and from the courts.\n\nLonger lights mean safer players, happier parents and fewer worries.\n\nPlease vote to change the light timer at next month’s meeting.",
+      "why": [
+        "The point is one clear sentence, straight after the hook.",
+        "The proof includes the speaker’s own survey and names the club policy as a source.",
+        "The punch says who should do what, and when."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Structure",
+        "start": "Some parts are missing.",
+        "good": "Hook, point, proof and punch, in order.",
+        "great": "Each part leads into the next."
+      },
+      {
+        "skill": "Proof",
+        "start": "Opinion only.",
+        "good": "Two pieces of proof, with sources.",
+        "great": "Strong, local proof the audience trusts."
+      },
+      {
+        "skill": "Words and delivery",
+        "start": "Read flat from the page.",
+        "good": "Uses a word-power trick. Clear voice.",
+        "great": "Tone and words fit this audience."
+      }
+    ],
+    "choices": {
+      "prompt": "What change will you make your case for?",
+      "options": [
+        "Something at school",
+        "Something in your street or town",
+        "Something at your club, team or job",
+        "A cause you care about"
+      ]
+    },
+    "solo": "No live audience? Film your speech and send it to the people who decide, or to your teacher first. Or send your speech as a letter, then follow up in person."
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Point, proof, punch",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name the **four** parts of a strong speech.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "vc": [
+              "VPC-U2M2-AP4"
+            ]
+          },
+          {
+            "q": "What should you say when you use a fact? Why?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-AP7"
+            ]
+          },
+          {
+            "q": {
+              "support": "Write a rule-of-three line about your town.",
+              "core": "Write a rule-of-three line about something in your town.",
+              "extend": "Write a rule-of-three line and a rhetorical question about something in your town."
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-LG1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Proof or just opinion?",
+        "pagebreak": true,
+        "choices": [
+          "Proof",
+          "Opinion"
+        ],
+        "reasonLabel": "How do you know?",
+        "instructions": "Is each line real proof, or just an opinion? Say how you know.",
+        "vc": [
+          "VPC-U2M2-AP4"
+        ],
+        "cards": [
+          {
+            "from": "Speech",
+            "text": "I counted 31 cars in five minutes at 8:30 am.",
+            "answer": "Proof",
+            "flags": "A number you collected."
+          },
+          {
+            "from": "Speech",
+            "text": "Everyone hates the canteen.",
+            "answer": "Opinion",
+            "flags": "“Everyone” can’t be proved."
+          },
+          {
+            "from": "Speech",
+            "text": "The council website says the park is used by 2,000 people a week.",
+            "answer": "Proof",
+            "flags": "A fact with a source."
+          },
+          {
+            "from": "Speech",
+            "text": "It’s obviously the worst bus route ever.",
+            "answer": "Opinion",
+            "flags": "Feeling, no evidence."
+          },
+          {
+            "from": "Speech",
+            "text": "Last term, 12 students missed first period because the bus was late.",
+            "answer": "Proof",
+            "flags": "Specific, checkable."
+          },
+          {
+            "from": "Speech",
+            "text": "I just reckon it would be better.",
+            "answer": "Opinion",
+            "flags": "No reason given.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a one-minute speech",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "Which part?",
+          "What does it do?"
+        ],
+        "instructions": {
+          "support": "Each number marks a part of the speech. Use the word bank. Write what it does.",
+          "core": "Each number marks a part of the speech. Name it, and say what job it does."
+        },
+        "wordBank": {
+          "support": [
+            "hook",
+            "point",
+            "proof",
+            "source",
+            "rule of three",
+            "punch"
+          ]
+        }
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the crossing Flynn talked into existence",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What was Flynn’s **point**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U2M2-AP4"
+            ]
+          },
+          {
+            "q": {
+              "support": "What proof did he use?",
+              "core": "What **proof** did he use, and where did it come from?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U2M2-AP4",
+              "VPC-U2M2-AP7"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why did the speech work better than the letter?",
+              "core": "Why do you think the speech worked when the letter didn’t?",
+              "extend": "Why might a speech to a bigger audience succeed where a letter failed? Think about audience and evidence."
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U2M2-LG1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Get your proof",
+        "pagebreak": true,
+        "vc": [
+          "VPC-U2M2-AP1",
+          "VPC-U2M2-AP7"
+        ],
+        "instructions": {
+          "support": "Find two pieces of proof for your speech. Write where each came from.",
+          "core": "Collect two or three pieces of proof for your speech: a count you do yourself, a fact from a reliable website, or a real story. Record the source for each one."
+        },
+        "items": [
+          {
+            "q": "My point (one sentence):",
+            "lines": 1
+          },
+          {
+            "q": "Proof 1, and where it came from:",
+            "lines": 3
+          },
+          {
+            "q": "Proof 2, and where it came from:",
+            "lines": 3
+          },
+          {
+            "q": "Proof 3, and where it came from:",
+            "lines": 3,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          },
+          {
+            "q": "Who can make this change? (my audience)",
+            "lines": 1
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Write your speech",
+        "pagebreak": true,
+        "vc": [
+          "VPC-U2M2-AP4",
+          "VPC-U2M2-LG1",
+          "VPC-U2M2-AP8"
+        ],
+        "vcNote": "Sequencing a persuasive speech with evidence, devices and correct conventions.",
+        "prompt": {
+          "support": "Write your speech. Use the four parts: **hook, point, proof, punch**. Keep it to about 1 minute (about 130 words).",
+          "core": "Write your one-minute speech (about 130 to 150 words) using **hook, point, proof, punch**. Add at least one word-power trick. Say where your facts came from.",
+          "extend": "Write a one-minute speech (about 150 words) for your named audience. Use hook, point, proof and punch, at least two language devices, and attribute every fact. Choose a tone that suits the audience."
+        },
+        "plan": [
+          {
+            "label": "Hook:",
+            "lines": 1
+          },
+          {
+            "label": "Punch (who, what, when):",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Who here has…?",
+          "We need…",
+          "According to…",
+          "I asked … people. … said…",
+          "Please … by …"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "hook, point, proof, punch",
+          "sources named",
+          "a word-power trick",
+          "spelling + full stops checked"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: make your case",
+        "pagebreak": true,
+        "where": "in class, at assembly, at a club or council meeting",
+        "vc": [
+          "VPC-U2M2-LG1",
+          "VPC-U2M2-AP4"
+        ],
+        "vcNote": "Hands-on: delivering a persuasive speech to a real audience.",
+        "instructions": "Give your speech to a **real audience**: the people who can make the change, or your class acting as them. Afterwards, write down what happened.",
+        "need": [
+          "your speech or a cue card",
+          "a timer",
+          "your proof (in case they ask)"
+        ],
+        "steps": {
+          "support": [
+            "Practise twice out loud.",
+            "Make a cue card with key words.",
+            "Give your speech. Look up.",
+            "Answer one question if they ask.",
+            "Write what happened."
+          ],
+          "core": [
+            "Practise twice out loud. Time it.",
+            "Turn your speech into a cue card with key words only.",
+            "Give your speech to your audience. Look up at the hook and the punch.",
+            "Answer any questions using your proof.",
+            "Write down what happened and what you’d change."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Who I spoke to, and what they said or did:",
+            "lines": 3
+          },
+          {
+            "label": "One thing I’d change next time:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Recording",
+          "Teacher saw it",
+          "Email or letter sent",
+          "Reply from the audience"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: two audiences",
+        "pagebreak": true,
+        "instructions": "Rewrite your punch for a second, very different audience.",
+        "items": [
+          {
+            "q": "Audience 2 (who?):",
+            "lines": 1,
+            "levelUp": true
+          },
+          {
+            "q": "Your new punch for that audience:",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M2-LG1",
+              "VPC-U2M2-AP3"
+            ]
+          },
+          {
+            "q": "What did you change in your tone and words, and why?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U2M2-AP3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can say my point in one sentence.",
+          "I can back it with proof and sources.",
+          "I can end with a clear punch.",
+          "I can give my case to a real audience."
+        ],
+        "questions": [
+          "My strongest piece of proof:",
+          "What I’d do differently next time:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn a four-part persuasive structure (hook, point, proof, punch), collect and attribute evidence, use simple language devices, and deliver a one-minute speech to a real audience. Case studies: Flynn, a Brighton Secondary College student whose Victoria Parliament Prize speech about a crossing led Bayside Council to plan one; and two young locals whose council speeches started the Harvey (WA) skatepark.",
+    "prep": [
+      "Print workbooks.",
+      "Line up real audiences early: principal, SRC, a club committee, or a council youth officer. Even a class acting as “the council” works.",
+      "Have devices available for students to find one sourced fact.",
+      "Optional: a short clip of a strong youth speech (e.g. a Victoria Parliament Prize entry)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The shape of a case",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** two versions of the same request: a whinge vs a structured case. Which works?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** proof or opinion.",
+          "**Annotate (10 min):** the bike-rack speech."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Proof",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** Flynn. What made the speech stronger than the letter?",
+          "**Explicit teaching (10 min):** sources and plagiarism: say where it’s from.",
+          "**Get your proof (25 min):** students collect two or three pieces, including one they gather themselves (a count, a quick survey)."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write it",
+        "minutes": 50,
+        "steps": [
+          "**Model (10 min):** write the first two lines of a speech aloud.",
+          "**Write (30 min):** speeches; peer-check with the checklist.",
+          "**Practise (10 min):** in pairs, timed."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Make your case",
+        "minutes": 50,
+        "steps": [
+          "**Speeches (30 min):** to the real or role-played audience.",
+          "**Level Up (10 min):** rewrite the punch for a second audience.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Speak to the people who can say yes.",
+      "Hook, point, proof, punch.",
+      "Say where every fact came from.",
+      "End with who, what and when."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Two pieces of proof, not three.",
+        "Sentence starters for each part."
+      ],
+      "extend": [
+        "Rhetorical questions and inclusive language.",
+        "Tone for a named audience; rewrite the punch for two audiences (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U2M2-LG1",
+        "evidence": "Influences a specific audience with language devices (rule of three, inclusive language, rhetorical question) in the speech."
+      },
+      {
+        "vc": "VPC-U2M2-AP4",
+        "evidence": "Sequences hook, point, proof and punch logically, with evidence for each point (script and delivery)."
+      },
+      {
+        "vc": "VPC-U2M2-AP1",
+        "evidence": "Plans and edits a persuasive spoken text for a purpose and audience; identifies main ideas in the model and case study."
+      },
+      {
+        "vc": "VPC-U2M2-AP7",
+        "evidence": "Attributes every fact (“According to…”) and uses own words (Get your proof page)."
+      },
+      {
+        "vc": "VPC-U2M2-AP8",
+        "evidence": "Script uses correct sentences, paragraphing, punctuation and spelling."
+      },
+      {
+        "vc": "VPC-U2M2-AP3",
+        "evidence": "Level Up: explains how tone and wording change for a second audience.",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "vc": "VPC-U2M2-AP2",
+        "evidence": "Decodes unfamiliar words in the article and case study (e.g. pedestrian, attribution) using word families.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Sort:** 31 cars counted — proof; everyone hates — opinion; council website — proof; worst bus route — opinion; 12 students late — proof; I reckon — opinion.\n\n**Annotation:** 1 hook (question); 2 point; 3 proof (own count); 4 proof with source; 5 rule of three; 6 punch / call to action.\n\n**Case study:** point: a crossing on Thomas Street; proof: about 11,000 vehicles on the stretch (VicRoads 2020 data), plus a demonstration with siblings and neighbours; the speech had a bigger audience, a memorable hook and evidence, and went through Parliament's prize rather than a single letter.",
+    "resources": [
+      {
+        "label": "Bayside City Council — Bayside teenager wows Parliament",
+        "url": "https://bayside.vic.gov.au/news/bayside-teenager-wows-parliament-0"
+      },
+      {
+        "label": "Shire of Harvey — New skatepark in Harvey officially open (2024)",
+        "url": "https://www.harvey.wa.gov.au/news-and-events/latest-news/2024/04/new-skatepark-in-harvey-officially-open"
+      },
+      {
+        "label": "Parliament of Victoria — Victoria Parliament Prize (student competition)",
+        "url": "https://www.parliament.vic.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**The real audience is what makes this course work.** Book it early. A principal or SRC slot is usually easiest; council youth officers often welcome student speakers.",
+      "**Students will want to argue for things they can’t win** (no school, free phones). Steer them to something specific and winnable: that’s the lesson.",
+      "**Speaking is frightening for some students.** Offer a smaller audience, a recording, or a written speech sent to the decision-maker (the solo option).",
+      "**Proof is the hard part.** Students often have only opinions. The “count it yourself” idea (cars, bikes, a 20-person survey) gets everyone real evidence.",
+      "**Works in a real class:** yes, especially when one student’s speech actually gets a result. Share any replies with the class."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: shorter article and case studies, 5 key words, word bank, two pieces of proof, sentence starters.",
+      "core": "Aimed at about Year 7 reading: the standard version with sources, plagiarism, the rule of three and the Flynn case study.",
+      "extend": "Aimed at about Year 9 reading: attribution, rhetorical questions, tone for a named audience, and the two-audience Level Up."
+    }
+  }
+}

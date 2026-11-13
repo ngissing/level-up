@@ -1,0 +1,961 @@
+{
+  "id": "vpc-who-can-help",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Your boss won’t pay you. Your phone broke a week after you bought it. Someone posted a photo of you. Who do you call? There’s a right place for each one. And it’s usually free.",
+      "core": "Your boss hasn’t paid you for two shifts. A shop won’t fix the phone that broke after a week. Someone posted a private photo of you. Each problem has a right place to go, often free, but most people don’t know where to start. Asking the wrong place wastes days.",
+      "extend": "Unpaid wages, a faulty product, online abuse, a bond that won’t come back. Australia has an agency or service for almost every problem, and most are free. The hard part is knowing which one, and telling a reliable service from a dodgy website that only looks official."
+    },
+    "why": {
+      "support": "Knowing who helps saves time and stress. It also helps you help your friends and family.",
+      "core": "Knowing who to ask saves time, money and stress. It’s also how you help a mate or a family member who’s stuck.",
+      "extend": "Finding and checking the right agency is part of running your own life. It’s also one of the most useful things you can do for someone else who is stuck."
+    },
+    "canDo": {
+      "support": [
+        "I can name some places that help.",
+        "I can tell government from community services.",
+        "I can check if a service is real.",
+        "I can find how to contact them."
+      ],
+      "core": [
+        "I can tell the three levels of government apart.",
+        "I can name government and community services that help young people.",
+        "I can check whether a service is reliable.",
+        "I can find contact details and what to have ready."
+      ],
+      "extend": [
+        "I can match a problem to the right level of government or community service.",
+        "I can judge whether a service or website is reliable.",
+        "I can read a service’s web page for the key information.",
+        "I can work with others to solve a tricky problem."
+      ]
+    },
+    "showIt": "Find the right service for a real problem, check it’s reliable, and get ready to contact them.",
+    "vocab": [
+      {
+        "word": "service",
+        "meaning": "a place that helps people with something",
+        "example": "headspace is a service for young people."
+      },
+      {
+        "word": "government",
+        "meaning": "the people elected to run the country, state or town",
+        "example": "The government runs Medicare."
+      },
+      {
+        "word": "council",
+        "meaning": "the local government for your town or area",
+        "example": "The council fixes footpaths."
+      },
+      {
+        "word": "agency",
+        "meaning": "an organisation with one main job",
+        "example": "The tax agency is the ATO."
+      },
+      {
+        "word": "reliable",
+        "meaning": "can be trusted",
+        "example": "A .gov.au website is usually reliable."
+      },
+      {
+        "word": "free",
+        "meaning": "no cost",
+        "example": "Kids Helpline is free to call."
+      },
+      {
+        "word": "confidential",
+        "meaning": "kept private",
+        "example": "The chat is confidential.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "non-government",
+        "meaning": "not run by the government, like a charity",
+        "example": "Lifeline is a non-government service.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "eligible",
+        "meaning": "allowed to use something because you fit the rules",
+        "example": "You’re eligible if you’re 12 to 25.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Who Can Help? in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Who Can Help?",
+        "sub": "The right place to ask saves hours.",
+        "icon": "lucide:life-buoy",
+        "say": "Who can help? The right place to ask saves hours."
+      },
+      {
+        "kind": "big",
+        "title": "There’s a right place",
+        "text": "Most problems have a service, and most are **free**.",
+        "icon": "lucide:map-pin",
+        "say": "For most problems, there is a right place to ask. And most of them are free.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Who helps",
+        "pillIcon": "lucide:landmark",
+        "title": "Australian Government",
+        "text": "Pay, tax, Medicare, online safety.",
+        "icon": "lucide:landmark",
+        "say": "The Australian Government. Pay at work, tax, Medicare and Centrelink, and online safety.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Who helps",
+        "pillIcon": "lucide:landmark",
+        "title": "Victorian Government",
+        "text": "Licences, renting, shopping, police.",
+        "icon": "lucide:building-2",
+        "say": "The Victorian Government. Licences, renting, shopping problems, schools and police.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Who helps",
+        "pillIcon": "lucide:landmark",
+        "title": "Local council",
+        "text": "Parks, libraries, footpaths, youth services.",
+        "icon": "lucide:trees",
+        "say": "Your local council. Parks, libraries, footpaths, bins and youth services.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Who helps",
+        "pillIcon": "lucide:landmark",
+        "title": "Community services",
+        "text": "headspace, Kids Helpline, legal help.",
+        "icon": "lucide:heart-handshake",
+        "say": "Community services, not run by government. Like headspace, Kids Helpline and free legal help.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Is it the real deal?",
+        "steps": [
+          "Who runs it?",
+          "Is it free?",
+          "Real contact details?",
+          "Up to date?"
+        ],
+        "say": "Before you trust a service, check four things. Who runs it? Is it free? Does it have real contact details? Is it up to date?",
+        "vc": [
+          "VPC-U3M1-LG1",
+          "VPC-U3M1-AP1"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Find the right help for a real problem.",
+        "icon": "lucide:search-check",
+        "say": "Your mission. Pick a real problem. Find the right help, check it, and get ready to contact them."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "The right place to ask",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Most problems have a place that helps. Most are **free**.\n\n**The Australian Government** helps with:\n- pay and work rights: **Fair Work Ombudsman**.\n- tax: **ATO**.\n- Medicare and Centrelink: **Services Australia**.\n- online bullying: **eSafety Commissioner**.\n\n**The Victorian Government** helps with:\n- your licence: **Transport Victoria**.\n- renting and shopping problems: **Consumer Affairs Victoria**.\n- police and schools.\n\n**Your local council** helps with parks, libraries, footpaths and youth services.\n\n**Community services** are not run by the government. **headspace**, **Kids Helpline** and **Lifeline** help with mental health.\n\nBefore you trust a website, check:\n1. Who runs it?\n2. Is it free?\n3. Does it have a real phone number or address?\n4. Is it up to date?",
+          "core": "For most problems, there’s a right place to go, and it’s often **free**. Australia has three levels of government, plus community services.\n\n**The Australian Government** (federal) looks after things for the whole country:\n- pay and work rights: **Fair Work Ombudsman**.\n- tax and your tax file number: **Australian Taxation Office (ATO)**.\n- Medicare and Centrelink: **Services Australia**.\n- serious online bullying or image abuse: **eSafety Commissioner**.\n- scams: **Scamwatch**.\n\n**The Victorian Government** (state) looks after:\n- licences and transport: **Transport Victoria**.\n- renting, bonds and faulty products: **Consumer Affairs Victoria**.\n- police, public schools, TAFE and hospitals.\n\n**Your local council** looks after your area: parks, libraries, footpaths, bins, and youth services and programs.\n\n**Community (non-government) services** are run by charities and not-for-profits: **headspace** (mental health, ages 12 to 25), **Kids Helpline**, **Lifeline**, free legal centres, and finders like **Ask Izzy**.\n\nBefore you trust a service or website, check four things:\n1. **Who runs it?** Government sites end in **.gov.au**. Charities explain who they are on an “About us” page.\n2. **Is it free?** Real help services usually are.\n3. **Real contact details?** A phone number, opening hours, an address.\n4. **Up to date?** Look for recent dates.\n.\nThen read the service’s page for the key facts: what they help with, who can use it, and how to contact them.",
+          "extend": "For most problems, there is an agency or service set up to help, and many are **free**. Knowing which level is in charge saves days of being passed around.\n\n**The Australian Government** (federal) handles national matters. Think pay and rights at work (**Fair Work Ombudsman**), tax (**ATO**), Medicare and Centrelink (**Services Australia**), serious online abuse (**eSafety Commissioner**) and scams (**Scamwatch**).\n\n**The Victorian Government** (state) handles licences and transport (**Transport Victoria**), and renting, bonds and problems with things you buy (**Consumer Affairs Victoria**). It also runs police, public schools, TAFE and hospitals.\n\n**Local councils** handle your local area: parks, libraries, footpaths, bins and youth programs.\n\n**Non-government organisations** fill many gaps. Examples are **headspace** (mental health, ages 12–25), **Kids Helpline**, **Lifeline**, free legal centres, and finders such as **Ask Izzy**. Many get some government money but run themselves.\n\nCopycat sites sometimes look official, so check four things.\n1. **Who runs it?** Government sites end in **.gov.au**. Real charities explain who runs them and who funds them.\n2. **Cost.** Real help services are usually free. A fee to “help” with a free government process is a red flag.\n3. **Contact details.** Look for a real phone number, hours and address.\n4. **Up to date.** Look for recent dates.\n.\nThen skim the service’s page. Find what it does, who is eligible, what it costs and how to contact it. Note what you’ll need to have ready."
+        },
+        "vc": [
+          "VPC-U3M1-LG1",
+          "VPC-U3M1-AP1"
+        ],
+        "vcNote": "Identifying reliable government and non-government agencies, and reading their information for key points."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Ask Izzy: help, found fast",
+        "icon": "lucide:search-check",
+        "body": {
+          "support": "When you have nowhere to sleep, finding help is hard. You might not have much phone credit. You might not know where to look.\n\nIn **2016**, a charity called **Infoxchange** launched **Ask Izzy**. It’s a free website. It helps people find a bed, a meal, money help or a counsellor near them.\n\nIt lists more than **350,000** services across Australia.\n\nIt was built with help from people who had been homeless. They knew what was hard.\n\nYou don’t need to give your name to use it.",
+          "core": "When someone has nowhere to sleep, finding help can feel impossible. They might have little phone data, no computer and no idea which service to call.\n\nIn January **2016**, a not-for-profit called **Infoxchange** launched **Ask Izzy**. It’s a free website for your phone. It helps people find services nearby: a bed, meals, money help, family violence support, counselling and more. Google and other big companies helped build it. The Prime Minister at the time, Malcolm Turnbull, launched it.\n\nAsk Izzy lists more than **350,000** services across Australia. People who had been homeless helped design it, along with the workers who support them. So it works the way they need it to. In its first weeks, it had more than **200,000** searches.\n\nYou don’t need to give your name to use it.",
+          "extend": "Finding help is hardest for the people who need it most. Someone sleeping rough may have little data, an old phone and no idea which of dozens of services to try.\n\nIn January **2016**, the not-for-profit **Infoxchange** launched **Ask Izzy**. It’s a free, anonymous website for phones. It lists more than **350,000** services across Australia, from housing and meals to money help, family violence support and counselling. Partners included Google, REA Group and News Corp Australia. The Prime Minister at the time, Malcolm Turnbull, launched it.\n\nMost importantly, it was **co-designed** with people who had been homeless and the workers who support them. Within its first weeks, it recorded more than **200,000** searches.\n\nAsk Izzy shows that good information only helps if people can find and use it. The people who need a service are often the best guides to designing it."
+        },
+        "source": {
+          "name": "Infoxchange — “Ask Izzy set to bridge the gap for Australia’s homeless” (2016)",
+          "url": "https://www.infoxchange.org/news/2016/03/ask-izzy-set-bridge-gap-australia-s-homeless"
+        },
+        "think": {
+          "support": [
+            "What does Ask Izzy help people find?",
+            "Why did it help to ask people who had been homeless?"
+          ],
+          "core": [
+            "Why is finding help hard when you’re homeless?",
+            "Why did the designers ask people with lived experience?",
+            "How can you tell Ask Izzy is reliable?"
+          ],
+          "extend": [
+            "What design choices make a service easier to use?",
+            "Why does co-design with users matter?",
+            "What checks would you use to trust a directory like this?"
+          ]
+        },
+        "vc": [
+          "VPC-U3M1-LG1"
+        ],
+        "vcNote": "A reliable non-government service that helps people find other agencies."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a help page",
+      "docTitle": "YOUTH LEGAL HELP — CONTACT US (EXAMPLE)",
+      "vc": [
+        "VPC-U3M1-LG1",
+        "VPC-U3M1-AP1"
+      ],
+      "vcNote": "Reading a service’s web page for who runs it, eligibility, cost and contact details.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Who we are",
+          "value": "A community legal centre, funded by the Victorian Government. ABN 12 345 678 901."
+        },
+        {
+          "n": 2,
+          "label": "What we help with",
+          "value": "Fines, police, work problems, renting, online harm."
+        },
+        {
+          "n": 3,
+          "label": "Who can use us",
+          "value": "Young people aged 12 to 25 in Victoria."
+        },
+        {
+          "n": 4,
+          "label": "Cost",
+          "value": "Free and confidential.",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Contact",
+          "value": "Phone 1800 000 000, Mon–Fri 10 am–6 pm · Web chat · Email"
+        },
+        {
+          "n": 6,
+          "label": "Have ready",
+          "value": "Any letters, dates and names. In danger? Call 000."
+        },
+        {
+          "label": "Page updated",
+          "value": "3 March (this year)",
+          "rule": true
+        }
+      ],
+      "note": "Made-up example. The phone number and ABN are not real.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Who runs it",
+          "note": "Who they are and who funds them."
+        },
+        {
+          "n": 2,
+          "label": "What they do",
+          "note": "Does it match my problem?"
+        },
+        {
+          "n": 3,
+          "label": "Who can use it",
+          "note": "Am I eligible?"
+        },
+        {
+          "n": 4,
+          "label": "Cost",
+          "note": "Free is a good sign."
+        },
+        {
+          "n": 5,
+          "label": "How to contact",
+          "note": "Phone, hours, chat, email."
+        },
+        {
+          "n": 6,
+          "label": "What to have ready",
+          "note": "And what to do in an emergency."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Find the right help",
+      "steps": [
+        {
+          "title": "Name the problem",
+          "text": "One sentence.",
+          "icon": "lucide:message-square"
+        },
+        {
+          "title": "Who helps?",
+          "text": "Australia, Victoria, council, community.",
+          "icon": "lucide:landmark"
+        },
+        {
+          "title": "Check it",
+          "text": "Who runs it, cost, contact, date.",
+          "icon": "lucide:shield-check"
+        },
+        {
+          "title": "Get ready",
+          "text": "Contact details + what to have.",
+          "icon": "lucide:phone"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Your boss is paying you less than the minimum rate. Who can help?",
+        "options": [
+          "Fair Work Ombudsman",
+          "Your local council",
+          "The library",
+          "A random Facebook group"
+        ],
+        "answer": 0,
+        "explain": "The Fair Work Ombudsman (Australian Government) helps with pay and work rights.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "q": "Which website ending usually means it’s run by the government?",
+        "options": [
+          ".gov.au",
+          ".com",
+          ".net",
+          ".biz"
+        ],
+        "answer": 0,
+        "explain": "Australian government sites end in .gov.au.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "q": "There’s a broken footpath in your street. Who fixes it?",
+        "options": [
+          "Your local council",
+          "The ATO",
+          "Medicare",
+          "Kids Helpline"
+        ],
+        "answer": 0,
+        "explain": "Councils look after local footpaths, parks and libraries.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "q": "A website charges $80 to “help” you apply for something that’s free. What does that tell you?",
+        "options": [
+          "It’s a red flag",
+          "It must be the official site",
+          "It’s faster",
+          "It’s required"
+        ],
+        "answer": 0,
+        "explain": "Real help services are usually free. Go to the official site.",
+        "vc": [
+          "VPC-U3M1-LG1",
+          "VPC-U3M1-AP1"
+        ]
+      },
+      {
+        "q": "What does Ask Izzy help people find?",
+        "options": [
+          "Services like a bed, meals and counselling",
+          "Cheap phones",
+          "Sports results",
+          "Concert tickets"
+        ],
+        "answer": 0,
+        "explain": "It lists over 350,000 services across Australia.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "q": "Which is a **community** (non-government) service?",
+        "options": [
+          "headspace",
+          "The ATO",
+          "Transport Victoria",
+          "Your local council"
+        ],
+        "answer": 0,
+        "explain": "headspace is a not-for-profit youth mental health service.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pick a real problem. Find who helps. Check they’re real. Get their contact details ready.",
+      "core": "Find the right service for a real problem, check it’s reliable, and get ready to contact them.",
+      "extend": "Match a real problem to the right agency or service, judge its reliability with evidence, and prepare to contact them with everything they’ll need."
+    },
+    "checklist": [
+      "I chose a real problem (mine, made-up, or from the cards)",
+      "I found the right level of government or community service",
+      "I checked it with the four checks",
+      "I wrote its contact details and what to have ready",
+      "I contacted them, or wrote what I’d say"
+    ],
+    "levelUp": "In a small group, solve a tricky problem card together. Agree on the best service and a back-up, and explain your choice to the class.",
+    "vc": [
+      "VPC-U3M1-LG1",
+      "VPC-U3M1-AP1"
+    ],
+    "model": {
+      "kind": "Example help map",
+      "text": "**Problem:** My boss says my first two shifts were a “trial”, so he won’t pay me for them.\n\n**Who can help:** Fair Work Ombudsman (Australian Government).\n\n**Is it reliable?**\n- Who runs it: the Australian Government. Website ends in .gov.au.\n- Cost: free.\n- Contact: phone 13 13 94, plus an online enquiry form.\n- Up to date: the page was updated this year.\n\n**Have ready:** the dates and hours I worked, the business name, and my texts with the boss.\n\n**What I’ll say:** “Hi, I’m 16 and I worked two shifts. My boss says they were a trial and won’t pay me. Should I have been paid?”",
+      "why": [
+        "The problem is written in one clear sentence.",
+        "All four reliability checks have real evidence, not just “it looks fine”.",
+        "It lists what to have ready and a short opening line, so the call is easy."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Right service",
+        "start": "A general search result.",
+        "good": "The right agency or service.",
+        "great": "The right one, plus a back-up option."
+      },
+      {
+        "skill": "Reliability",
+        "start": "Says “it looks fine”.",
+        "good": "Uses the four checks.",
+        "great": "Gives evidence for each check."
+      },
+      {
+        "skill": "Ready to contact",
+        "start": "No contact details yet.",
+        "good": "Contact details and what to have ready.",
+        "great": "Plus a clear opening line or message."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of problem will you find help for?",
+      "options": [
+        "A work problem, like pay or hours",
+        "A money or shopping problem, like a faulty product",
+        "A problem in your area, like a broken path or no youth space",
+        "A health or wellbeing question (a made-up one is fine)"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: The right place to ask",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name the **four** places help can come from.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "vc": [
+              "VPC-U3M1-LG1"
+            ]
+          },
+          {
+            "q": "Name the four checks for a reliable service.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "vc": [
+              "VPC-U3M1-LG1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name one service that helps young people.",
+              "core": "Name two services that help young people, and what each one helps with.",
+              "extend": "Why do copycat sites charge for free government processes? How can you avoid them?"
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-LG1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Who can help?",
+        "pagebreak": true,
+        "choices": [
+          "Australia",
+          "Victoria",
+          "Council",
+          "Community"
+        ],
+        "reasonLabel": "Which service?",
+        "instructions": "Who can help with each problem: the Australian Government, the Victorian Government, your council, or a community service? Name the service if you can.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ],
+        "cards": [
+          {
+            "from": "Work",
+            "text": "Your boss pays you less than the minimum rate.",
+            "answer": "Australia",
+            "flags": "Fair Work Ombudsman."
+          },
+          {
+            "from": "Street",
+            "text": "The footpath outside your house is broken.",
+            "answer": "Council",
+            "flags": "Local council."
+          },
+          {
+            "from": "Licence",
+            "text": "You want to book your learner permit test.",
+            "answer": "Victoria",
+            "flags": "Transport Victoria."
+          },
+          {
+            "from": "Wellbeing",
+            "text": "You’ve felt really low for weeks and want to talk to someone.",
+            "answer": "Community",
+            "flags": "headspace or Kids Helpline."
+          },
+          {
+            "from": "Online",
+            "text": "Someone shared a private photo of you without asking.",
+            "answer": "Australia",
+            "flags": "eSafety Commissioner."
+          },
+          {
+            "from": "Shopping",
+            "text": "A shop won’t fix a phone that broke after one week.",
+            "answer": "Victoria",
+            "flags": "Consumer Affairs Victoria.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a help page",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is it?",
+          "What does it tell you?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the help page. Use the word bank. Write what it tells you.",
+          "core": "Each number marks key information on the service’s page. Name it, and say what it tells you."
+        },
+        "wordBank": {
+          "support": [
+            "who runs it",
+            "what they do",
+            "who can use it",
+            "cost",
+            "how to contact",
+            "have ready"
+          ]
+        }
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Ask Izzy",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What does Ask Izzy help people find?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-LG1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why did they ask people who had been homeless?",
+              "core": "Why did the designers ask people who had been homeless to help?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U3M1-LG1"
+            ]
+          },
+          {
+            "q": {
+              "support": "How can you tell Ask Izzy is real?",
+              "core": "Use the four checks. How can you tell Ask Izzy is reliable?",
+              "extend": "Apply the four checks to Ask Izzy. What else would make you trust a service directory?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U3M1-LG1",
+              "VPC-U3M1-AP1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: find the right help",
+        "pagebreak": true,
+        "where": "in class or at home, online",
+        "vc": [
+          "VPC-U3M1-LG1",
+          "VPC-U3M1-AP1"
+        ],
+        "vcNote": "Hands-on: identifying and checking a reliable agency for a real problem.",
+        "instructions": "Pick a real problem: yours, one a friend might have (no names), or a card from your teacher. Find the right help, check it, and get ready to contact them. Fill in your **help map** on the next page.",
+        "need": [
+          "a device with internet",
+          "your problem (written in one sentence)"
+        ],
+        "steps": {
+          "support": [
+            "Write your problem in one sentence.",
+            "Decide: Australia, Victoria, council or community?",
+            "Find the service’s own website.",
+            "Do the four checks.",
+            "Write down how to contact them.",
+            "Write what to have ready.",
+            "Contact them, or write what you’d say."
+          ],
+          "core": [
+            "Write your problem in one sentence.",
+            "Decide which level of government or community service fits.",
+            "Find the service’s own website (not an ad or a copycat).",
+            "Do the four checks and write down your evidence.",
+            "Write down the contact details, hours and what to have ready.",
+            "Contact them if you want to, or write the first thing you’d say."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My problem (one sentence):",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Help map",
+          "Screenshot of the service page",
+          "Teacher saw it"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "My help map",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "vc": [
+          "VPC-U3M1-LG1",
+          "VPC-U3M1-AP1"
+        ],
+        "instructions": "Fill in your help map. The first row is an example.",
+        "columns": [
+          "Question",
+          "My answer"
+        ],
+        "rows": [
+          [
+            "Example: who helps with unpaid shifts?",
+            "Fair Work Ombudsman (Australian Government)"
+          ],
+          [
+            "Who can help with my problem?",
+            ""
+          ],
+          [
+            "Who runs it?",
+            ""
+          ],
+          [
+            "Is it free?",
+            ""
+          ],
+          [
+            "How do I contact them? (phone, hours, chat)",
+            ""
+          ],
+          [
+            "What should I have ready?",
+            ""
+          ],
+          [
+            "What I’ll say first:",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: the tricky case",
+        "pagebreak": true,
+        "instructions": "In a group of 3 or 4, solve a tricky problem card from your teacher. Agree together.",
+        "items": [
+          {
+            "q": "Our problem card:",
+            "lines": 1,
+            "levelUp": true
+          },
+          {
+            "q": "Best service, and why we chose it:",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M1-LG1",
+              "VPC-U3M1-AP4"
+            ]
+          },
+          {
+            "q": "Our back-up option, and when we’d use it:",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M1-AP4"
+            ]
+          },
+          {
+            "q": "One thing someone else in the group noticed that helped:",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M1-AP4"
+            ],
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I know the four places help comes from.",
+          "I can match a problem to a service.",
+          "I can check if a service is reliable.",
+          "I can get ready to contact them."
+        ],
+        "questions": [
+          "One service I didn’t know about before:",
+          "Someone I could share this with:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn where help comes from (Australian Government, Victorian Government, local council, community services), match problems to the right agency, check reliability (who runs it, cost, contact details, currency), and read a service page for key information. They build a help map for a real problem and get ready to contact the service. The case study is Ask Izzy, a free directory of 350,000+ services co-designed with people who have experienced homelessness.",
+    "prep": [
+      "Print workbooks.",
+      "Make a set of problem cards (work, renting, shopping, online, local, wellbeing), including a few tricky ones for the Level Up.",
+      "Check the school’s web filter allows government and support-service sites.",
+      "Have the school wellbeing team’s contact details ready in case a student raises a real concern."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Who helps?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** three real problems on the board. Who would you call?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (15 min):** who can help?",
+          "**Discuss (5 min):** surprises."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Is it the real deal?",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the help page.",
+          "**Model (10 min):** check a real site (and a copycat-style ad) using the four checks.",
+          "**Case study (15 min):** Ask Izzy.",
+          "**Choose (15 min):** students pick their problem and start searching."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Find the right help",
+        "minutes": 50,
+        "steps": [
+          "**Do it (25 min):** help maps.",
+          "**Level Up (15 min):** tricky cards in groups.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "There’s usually a right place, and it’s often free.",
+      "Australia, Victoria, council, community.",
+      "Check: who runs it, cost, contact, up to date.",
+      "Have your facts ready before you contact them."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Problem cards with the level of government as a hint.",
+        "Pair up for the search."
+      ],
+      "extend": [
+        "Spot copycat or fee-charging sites.",
+        "Tricky cases with a back-up option (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U3M1-LG1",
+        "evidence": "Identifies a reliable government or non-government agency for a real problem and justifies its reliability (sort, help map)."
+      },
+      {
+        "vc": "VPC-U3M1-AP1",
+        "evidence": "Reads a service’s page to identify purpose, eligibility, cost and contact details (annotation, help map)."
+      },
+      {
+        "vc": "VPC-U3M1-AP4",
+        "evidence": "Collaborates and problem-solves in a small group on a civic task (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Sort:** underpaid — Australia (Fair Work Ombudsman); footpath — council; learner permit test — Victoria (Transport Victoria); feeling low — community (headspace, Kids Helpline); private photo shared — Australia (eSafety Commissioner); faulty phone — Victoria (Consumer Affairs Victoria).\n\n**Annotation:** 1 who runs it (community legal centre, state funded); 2 what they help with; 3 eligibility (12–25, Victoria); 4 cost (free, confidential); 5 contact options and hours; 6 what to have ready, and 000 for emergencies.\n\n**Case study:** beds, meals, money help, family violence support, counselling; people with lived experience know what makes help hard to find; reliable: run by a known not-for-profit, free, clear who built it, widely used.",
+    "resources": [
+      {
+        "label": "Infoxchange — Ask Izzy launch (2016)",
+        "url": "https://www.infoxchange.org/news/2016/03/ask-izzy-set-bridge-gap-australia-s-homeless"
+      },
+      {
+        "label": "Ask Izzy — find help near you",
+        "url": "https://askizzy.org.au/"
+      },
+      {
+        "label": "Fair Work Ombudsman",
+        "url": "https://www.fairwork.gov.au/"
+      },
+      {
+        "label": "Consumer Affairs Victoria",
+        "url": "https://www.consumer.vic.gov.au/"
+      },
+      {
+        "label": "eSafety Commissioner",
+        "url": "https://www.esafety.gov.au/"
+      },
+      {
+        "label": "headspace",
+        "url": "https://headspace.org.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Students may raise real, personal problems.** Make it clear they can use a made-up or “a friend might” problem. Follow your school’s wellbeing procedures if a disclosure happens.",
+      "**Never ask students to share private problems with the class.** The help map is handed to you, not presented.",
+      "**Contacting the service is optional.** Writing what they’d say is enough evidence; some students will want to actually call, which is great.",
+      "**School filters sometimes block support sites.** Test the main sites before the lesson.",
+      "**Works in a real class:** yes. Students are often surprised that most of these services are free, and many share them at home."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: shorter article and case study, 6 key words, word bank, hinted problem cards and paired searching.",
+      "core": "Aimed at about Year 7 reading: the standard version with three levels of government, the four checks, the help page and the Ask Izzy case study.",
+      "extend": "Aimed at about Year 9 reading: copycat and fee-charging sites, co-design, eligibility, and group problem-solving with a back-up option."
+    }
+  }
+}
