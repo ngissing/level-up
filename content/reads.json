@@ -126,7 +126,13 @@
     "vm-say-it-like-you-mean-it": "voice",
     "vm-have-your-say": "voice",
     "vm-community-voices-report": "voice",
-    "vpc-get-on-the-roll": "voice"
+    "vpc-get-on-the-roll": "voice",
+    "vpc-listen-up": "voice",
+    "vpc-make-your-case": "voice",
+    "vpc-run-the-room": "voice",
+    "vpc-fill-the-form": "law",
+    "vpc-who-can-help": "safety",
+    "vpc-sort-it-out": "safety"
   },
   "kinds": [
     "Book",

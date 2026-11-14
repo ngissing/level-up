@@ -1,0 +1,986 @@
+{
+  "id": "vpc-fill-the-form",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "A form comes back with a red stamp: **RETURNED**. You missed one box. Now you wait another two weeks. Most mistakes on forms are easy to stop.",
+      "core": "Your form comes back with a sticky note: **“Incomplete. Please resubmit.”** One empty box, and you’re back in the queue. Forms aren’t hard. They’re just strict. Read them the right way and you get it right the first time.",
+      "extend": "A form is a contract with a set of rules. Miss one box, use the wrong date format or sign in the wrong place, and an application for a licence, a job, a concession or a course can bounce back weeks later. The fix isn’t speed. It’s reading the instructions first and checking before you sign."
+    },
+    "why": {
+      "support": "You’ll fill in forms for jobs, Medicare, TAFE, your licence and more. Getting them right saves time and money.",
+      "core": "Jobs, TAFE, Medicare, your licence, a bank account, a sports club: they all start with a form. Getting it right the first time saves weeks of waiting, and sometimes money.",
+      "extend": "Forms are how organisations decide who gets a service, a job or a payment. Accurate, complete forms get processed; incomplete ones get delayed or rejected. It’s a skill you’ll use for the rest of your life."
+    },
+    "canDo": {
+      "support": [
+        "I can read a form before I fill it in.",
+        "I can find what I need first.",
+        "I can follow the form’s rules.",
+        "I can check it before I sign."
+      ],
+      "core": [
+        "I can skim a form and its instructions before I start.",
+        "I can turn instructions into steps.",
+        "I can follow the form’s rules: block letters, dates, required boxes.",
+        "I can check my form, then sign and date it.",
+        "I can find and fill in a real form."
+      ],
+      "extend": [
+        "I can skim a form to find what applies to me.",
+        "I can summarise long instructions as clear steps.",
+        "I can work out unfamiliar form words from their parts.",
+        "I can complete and check a real form accurately."
+      ]
+    },
+    "showIt": "Find a real form you need, turn its instructions into steps, fill it in, and check it before you sign.",
+    "vocab": [
+      {
+        "word": "form",
+        "meaning": "a document with boxes to fill in",
+        "example": "I filled in a form to join the gym."
+      },
+      {
+        "word": "surname",
+        "meaning": "your family name or last name",
+        "example": "My surname is Nguyen."
+      },
+      {
+        "word": "given name",
+        "meaning": "your first name (and middle names)",
+        "example": "My given names are Thi Mai."
+      },
+      {
+        "word": "BLOCK LETTERS",
+        "meaning": "capital letters, written one at a time",
+        "example": "Write your name in BLOCK LETTERS."
+      },
+      {
+        "word": "required",
+        "meaning": "you must fill it in",
+        "example": "Boxes marked * are required."
+      },
+      {
+        "word": "signature",
+        "meaning": "your own written name that shows you agree",
+        "example": "Your signature goes at the end."
+      },
+      {
+        "word": "declaration",
+        "meaning": "a part where you promise the information is true",
+        "example": "Read the declaration before you sign.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "residential address",
+        "meaning": "where you live",
+        "example": "Your residential address can’t be a PO box.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "applicant",
+        "meaning": "the person applying (that’s you)",
+        "example": "Applicant: write your details here.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Fill the Form in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Fill the Form",
+        "sub": "Get it right the first time.",
+        "icon": "lucide:file-pen-line",
+        "say": "Fill the form. Get it right the first time."
+      },
+      {
+        "kind": "stat",
+        "big": "1 in 20",
+        "title": "House of Reps votes in 2022 didn’t count",
+        "sub": "5.19% were informal. In two Sydney seats, over 10%. Source: AEC",
+        "say": "At the 2022 federal election, about one vote in twenty for the House of Representatives did not count. Often, people missed boxes.",
+        "vc": [
+          "VPC-U3M1-AP2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Form step",
+        "pillIcon": "lucide:file-pen-line",
+        "title": "Read it all first",
+        "text": "Skim the whole form. Read the instructions.",
+        "icon": "lucide:scan-eye",
+        "say": "Step one. Read it all first. Skim every page and read the instructions before you write anything.",
+        "vc": [
+          "VPC-U3M1-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Form step",
+        "pillIcon": "lucide:file-pen-line",
+        "title": "Gather what you need",
+        "text": "ID, numbers, dates, addresses.",
+        "icon": "lucide:folder-open",
+        "say": "Step two. Gather what you need. Your ID, card numbers, dates and addresses.",
+        "vc": [
+          "VPC-U3M1-AP2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Form step",
+        "pillIcon": "lucide:file-pen-line",
+        "title": "Follow its rules",
+        "text": "BLOCK LETTERS. Date order. Every * box.",
+        "icon": "lucide:ruler",
+        "say": "Step three. Follow the form’s rules. Block letters, the right date order, and every box marked with a star.",
+        "vc": [
+          "VPC-U3M1-AP5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Form step",
+        "pillIcon": "lucide:file-pen-line",
+        "title": "Check, then sign",
+        "text": "Check every box. Sign and date last.",
+        "icon": "lucide:pen-line",
+        "say": "Step four. Check every box against your ID. Then sign and date it. Keep a copy.",
+        "vc": [
+          "VPC-U3M1-AP2",
+          "VPC-U3M1-AP5"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Fill in a real form you need.",
+        "icon": "lucide:clipboard-check",
+        "say": "Your mission. Find a real form you need, and get it right the first time."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Forms are strict, not hard",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Forms are not hard. They are **strict**. Follow four steps.\n\n1. **Read it all first.** Look at every page. Read the instructions at the top.\n2. **Gather what you need.** Get your ID, card numbers and dates ready.\n3. **Follow its rules.**\n   - Use **BLOCK LETTERS** if it asks.\n   - Write the date the way it asks. In Australia, it’s usually day, then month, then year: 04/09/2009.\n   - Fill in every box marked **\\***. It means **required**.\n   - If a question doesn’t apply, write **N/A** (not applicable).\n   - “If no, go to question 8” means skip ahead.\n4. **Check, then sign.** Check every box. Then sign and date it. Keep a copy or a photo.",
+          "core": "Forms aren’t hard. They’re **strict**. A form is checked by someone (or a computer) looking for anything missing or wrong. Four steps get it right the first time.\n\n1. **Read it all first.** Skim every page before you write a word. Read the instructions at the top and any notes in small print. Look for words like “must”, “required” and “attach”.\n2. **Gather what you need.** Most forms want ID (like a birth certificate, passport or student card), numbers (Medicare, tax file number, a reference number) and dates. Get them on the table first.\n3. **Follow its rules.**\n   - **BLOCK LETTERS** and **black pen** if it asks.\n   - Dates the way it asks. In Australia, it’s usually **DD/MM/YYYY**: day, month, year.\n   - Every box marked **\\*** is **required**. Leave one blank and it can come back.\n   - Write **N/A** (not applicable) if a question doesn’t apply, so they know you didn’t miss it.\n   - Follow skip instructions: “If No, go to Question 8.”\n   - Don’t write in boxes marked **Office use only**.\n4. **Check, then sign.** Check every box against your ID. Read the **declaration**: you’re promising it’s true. Then sign and date it, last. Keep a copy or a photo.\n\nLong instructions? Turn them into a numbered list of steps before you start. It’s much easier to follow.",
+          "extend": "Forms aren’t hard. They’re **strict**. Every form is checked against a set of rules, by a person or a system, and anything missing, unclear or inconsistent can send it back. Four steps get it right the first time.\n\n1. **Read it all first.** Skim every page before writing anything, then read the instructions closely. Scan for signal words: *must*, *required*, *attach*, *only if*.\n2. **Gather what you need.** Identity documents, reference numbers (Medicare, tax file number, a customer number), dates and addresses. Information that doesn’t match your ID exactly is a common reason for delay.\n3. **Follow its rules.**\n   - **BLOCK LETTERS** and **black pen** where asked.\n   - Dates in the stated format; in Australia usually **DD/MM/YYYY**.\n   - Complete every **required** field (often marked **\\***).\n   - Write **N/A** where a question doesn’t apply, so the assessor knows you saw it.\n   - Follow skip logic (“If No, go to Question 8”).\n   - Leave **Office use only** sections blank.\n4. **Check, then sign.** Check each field against your documents, read the **declaration** (a legal promise that the information is true), then sign and date it last. Keep a copy.\n\nUnfamiliar form words often break into parts you know: *applicant* is the person who *applies*; *residential* comes from *reside*, to live. And long instructions are easier to follow if you first summarise them as a short, numbered list of steps."
+        },
+        "vc": [
+          "VPC-U3M1-AP2",
+          "VPC-U3M1-AP5",
+          "VPC-U3M1-LG3",
+          "VPC-U3M1-AP3"
+        ],
+        "vcNote": "Reading and completing forms: instructions, required fields, conventions (block letters, dates), summarising instructions, decoding form words."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The votes that didn’t count",
+        "icon": "lucide:vote",
+        "body": {
+          "support": "Voting is a form too. For the House of Representatives, you must number **every** box, in order.\n\nAt the 2022 federal election, **5.19%** of House of Representatives votes didn’t count. That’s about **1 in 20**. These are called **informal** votes.\n\nIn two seats in Sydney, Blaxland and Fowler, more than **10%** didn’t count.\n\nPeople counting the votes in Fowler said many voters had not filled in all the boxes.\n\nMost of these people wanted to vote. A small form mistake meant their vote was lost.",
+          "core": "Your ballot paper is a form, and it has strict rules. For the House of Representatives, you must number **every** box, in order of who you prefer.\n\nAt the 2022 federal election, the Australian Electoral Commission (AEC) counted **5.19%** of House of Representatives votes as **informal**. That means they didn’t count. It’s about one vote in twenty.\n\nIn some seats, it was much higher. In Blaxland and Fowler, in western Sydney, more than **10%** of House votes were informal.\n\nScrutineers (people who watch the count) in Fowler told SBS News that many voters had failed to fill out all the squares. Experts also pointed to language barriers and confusion about how preferential voting works.\n\nMost of these voters weren’t trying to waste their vote. A form rule they didn’t understand cost them their say.",
+          "extend": "A ballot paper is one of the most important forms you’ll ever fill in, and it’s strict. For the House of Representatives, a vote only counts if every box is numbered in order of preference.\n\nAt the 2022 federal election, the Australian Electoral Commission (AEC) recorded **5.19%** of House of Representatives votes as **informal**: about one in twenty. In the western Sydney seats of Blaxland and Fowler, the rate was more than **10%**.\n\nScrutineers in Fowler told SBS News that many voters had not filled out every square. Most had not left the paper blank on purpose. Experts pointed to language barriers, too little community outreach, and confusion about preferential voting. Analysts have also noticed that informal votes tend to rise when there are more candidates on the ballot.\n\nThe lesson reaches well beyond elections. When a form’s rules aren’t clear to the people filling it in, good intentions get lost. Reading the instructions, and helping others understand them, matters."
+        },
+        "source": {
+          "name": "Australian Electoral Commission — 2022 federal election results: House of Representatives informal votes by division",
+          "url": "https://results.aec.gov.au/27966/Website/HouseInformalByDivision-27966-NAT.htm"
+        },
+        "think": {
+          "support": [
+            "What is an informal vote?",
+            "What mistake did many people make?"
+          ],
+          "core": [
+            "What rule did many voters miss?",
+            "Why might the rate be higher in some seats?",
+            "How could voters be helped to get it right?"
+          ],
+          "extend": [
+            "Why might informality rise with more candidates?",
+            "Who is responsible when a form’s rules aren’t understood?",
+            "What would you change about how voting is explained?"
+          ]
+        },
+        "vc": [
+          "VPC-U3M1-AP2"
+        ],
+        "vcNote": "Real example of how not following a form’s instructions makes it invalid."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a form",
+      "docTitle": "YOUTH SPORT PASS — APPLICATION (EXAMPLE)",
+      "vc": [
+        "VPC-U3M1-AP2",
+        "VPC-U3M1-AP5"
+      ],
+      "vcNote": "Annotating the instructions, conventions and parts of a form.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Instructions",
+          "value": "Use BLACK pen. Write in BLOCK LETTERS. Fields marked * are required.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Surname * / Given name(s) *",
+          "value": "NGUYEN  /  THI MAI"
+        },
+        {
+          "n": 3,
+          "label": "Date of birth * (DD/MM/YYYY)",
+          "value": "04 / 09 / 2009"
+        },
+        {
+          "n": 4,
+          "label": "Postal address",
+          "value": "SAME AS ABOVE"
+        },
+        {
+          "n": 5,
+          "label": "Q6. Do you have a concession card?",
+          "value": "☐ Yes   ☒ No  →  If No, go to Q8"
+        },
+        {
+          "n": 6,
+          "label": "Declaration",
+          "value": "I declare the information is true and correct. Signature: ________  Date: __/__/____"
+        },
+        {
+          "label": "Office use only",
+          "value": "[ leave blank ]",
+          "rule": true
+        }
+      ],
+      "note": "Made-up form for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Instructions",
+          "note": "The rules for the whole form."
+        },
+        {
+          "n": 2,
+          "label": "Required + block letters",
+          "note": "* means you must fill it in."
+        },
+        {
+          "n": 3,
+          "label": "Date format",
+          "note": "Day, month, year."
+        },
+        {
+          "n": 4,
+          "label": "Same as above",
+          "note": "Saves rewriting the address."
+        },
+        {
+          "n": 5,
+          "label": "Skip instruction",
+          "note": "No? Skip to Q8."
+        },
+        {
+          "n": 6,
+          "label": "Declaration",
+          "note": "A promise it’s true. Sign last."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Four form steps",
+      "steps": [
+        {
+          "title": "Read it all",
+          "text": "Skim, then read the instructions.",
+          "icon": "lucide:scan-eye"
+        },
+        {
+          "title": "Gather",
+          "text": "ID, numbers, dates.",
+          "icon": "lucide:folder-open"
+        },
+        {
+          "title": "Follow the rules",
+          "text": "Block letters, dates, * boxes.",
+          "icon": "lucide:ruler"
+        },
+        {
+          "title": "Check + sign",
+          "text": "Check it all. Sign last.",
+          "icon": "lucide:pen-line"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What should you do **first** with a new form?",
+        "options": [
+          "Skim the whole thing and read the instructions",
+          "Sign it",
+          "Fill in the first box fast",
+          "Throw away the instructions"
+        ],
+        "answer": 0,
+        "explain": "Reading first stops most mistakes.",
+        "vc": [
+          "VPC-U3M1-AP2"
+        ]
+      },
+      {
+        "q": "A box is marked with \\*. What does that mean?",
+        "options": [
+          "You must fill it in",
+          "It’s optional",
+          "Office use only",
+          "Leave it blank"
+        ],
+        "answer": 0,
+        "explain": "* usually means required.",
+        "vc": [
+          "VPC-U3M1-AP2",
+          "VPC-U3M1-AP5"
+        ]
+      },
+      {
+        "q": "The form says DD/MM/YYYY. You were born on 4 September 2009. What do you write?",
+        "options": [
+          "04/09/2009",
+          "09/04/2009",
+          "2009/09/04",
+          "4 Sep"
+        ],
+        "answer": 0,
+        "explain": "Day, then month, then the full year.",
+        "vc": [
+          "VPC-U3M1-AP5"
+        ]
+      },
+      {
+        "q": "A question doesn’t apply to you. What should you write?",
+        "options": [
+          "N/A",
+          "Nothing at all",
+          "A dash in every box nearby",
+          "Your name"
+        ],
+        "answer": 0,
+        "explain": "N/A shows you saw the question.",
+        "vc": [
+          "VPC-U3M1-AP5"
+        ]
+      },
+      {
+        "q": "When should you sign the form?",
+        "options": [
+          "Last, after you check every box",
+          "First",
+          "Before you read it",
+          "You never need to sign"
+        ],
+        "answer": 0,
+        "explain": "Your signature says it’s all true. Check first.",
+        "vc": [
+          "VPC-U3M1-AP2"
+        ]
+      },
+      {
+        "q": "In 2022, why didn’t about 1 in 20 House of Reps votes count?",
+        "options": [
+          "They were informal, often with boxes not filled in",
+          "The machines broke",
+          "People voted twice",
+          "The forms were lost"
+        ],
+        "answer": 0,
+        "explain": "You must number every box. Missing boxes made many votes informal.",
+        "vc": [
+          "VPC-U3M1-AP2"
+        ]
+      },
+      {
+        "q": "“Applicant” comes from “apply”. What does it mean on a form?",
+        "options": [
+          "The person applying",
+          "The office worker",
+          "A type of pen",
+          "The form itself"
+        ],
+        "answer": 0,
+        "explain": "Use word parts you know to work out new words.",
+        "vc": [
+          "VPC-U3M1-AP3"
+        ],
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Find a real form you need. Write its steps. Fill it in. Check it. Then sign.",
+      "core": "Find a real form you need, turn its instructions into steps, fill it in, and check it before you sign.",
+      "extend": "Source a real form from a community, workplace or government organisation, summarise its instructions as steps, complete it accurately, and check it against your documents before signing."
+    },
+    "checklist": [
+      "I found a real form I need",
+      "I wrote its instructions as numbered steps",
+      "I followed the form’s rules (block letters, dates, required boxes)",
+      "I checked every box before I signed",
+      "My teacher saw my form (with private details covered)"
+    ],
+    "levelUp": "Help someone else fill in a form, like a younger student or a family member. Explain two of its tricky rules in your own words.",
+    "vc": [
+      "VPC-U3M1-AP2",
+      "VPC-U3M1-AP5",
+      "VPC-U3M1-LG3"
+    ],
+    "model": {
+      "kind": "Example steps and check",
+      "text": "**Form:** Basketball club registration (online)\n\n**My steps**\n1. Read the whole form first. It has four pages.\n2. Get my Medicare card and Mum’s phone number ready.\n3. Fill in my details in the format it asks.\n4. Pick the under-18 team. Skip the coaching questions (they’re for adults).\n5. Mum ticks the parent consent box, because I’m under 18.\n6. Check every page. Then submit and screenshot the confirmation.\n\n**My check**\n- Name matches my Medicare card: ✓\n- Date of birth in DD/MM/YYYY: ✓\n- Every * box filled in: ✓",
+      "why": [
+        "The steps are short, numbered and in the order the form needs them.",
+        "It notes the tricky parts: which questions to skip and who needs to give consent.",
+        "The check matches details against ID before submitting."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Steps",
+        "start": "Copies the instructions word for word.",
+        "good": "Clear numbered steps, in order.",
+        "great": "Short steps that flag the tricky parts."
+      },
+      {
+        "skill": "The form",
+        "start": "Some boxes are blank or wrong.",
+        "good": "Every required box, done correctly.",
+        "great": "Matches ID exactly. N/A where needed."
+      },
+      {
+        "skill": "Checking",
+        "start": "Signed without checking.",
+        "good": "Checked, then signed and dated.",
+        "great": "Checked against ID. Kept a copy."
+      }
+    ],
+    "choices": {
+      "prompt": "Which real form will you fill in?",
+      "options": [
+        "A sport club, gym or library membership",
+        "A work experience or job application form",
+        "A Medicare card of your own (from age 15), or a concession card",
+        "A TAFE, course or school form you need"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Forms are strict, not hard",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "items": [
+          {
+            "q": "Name the **four** form steps.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "vc": [
+              "VPC-U3M1-AP2"
+            ]
+          },
+          {
+            "q": "What does N/A mean? When do you use it?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-AP5"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why should you sign last?",
+              "core": "Why should you sign and date a form **last**?",
+              "extend": "What is a declaration, and why should you sign it last?"
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-AP2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Accepted or sent back?",
+        "pagebreak": true,
+        "choices": [
+          "Accepted",
+          "Sent back"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "The form says: black pen, BLOCK LETTERS, dates as DD/MM/YYYY, all * boxes required. Will each answer be accepted or sent back?",
+        "vc": [
+          "VPC-U3M1-AP5",
+          "VPC-U3M1-AP2"
+        ],
+        "cards": [
+          {
+            "from": "Surname *",
+            "text": "NGUYEN",
+            "answer": "Accepted",
+            "flags": "Block letters, filled in."
+          },
+          {
+            "from": "Date of birth *",
+            "text": "9/4/09",
+            "answer": "Sent back",
+            "flags": "Wrong order and not the full year."
+          },
+          {
+            "from": "Phone number *",
+            "text": "(left blank)",
+            "answer": "Sent back",
+            "flags": "Required box is empty."
+          },
+          {
+            "from": "Middle name",
+            "text": "N/A",
+            "answer": "Accepted",
+            "flags": "Shows it doesn’t apply."
+          },
+          {
+            "from": "Signature",
+            "text": "Signed, but no date written",
+            "answer": "Sent back",
+            "flags": "Date is missing."
+          },
+          {
+            "from": "Office use only",
+            "text": "Wrote “thanks!” in the box",
+            "answer": "Sent back",
+            "flags": "Never write in office-use boxes.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a form",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is it?",
+          "What does it tell you to do?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the form. Use the word bank. Write what it tells you to do.",
+          "core": "Each number marks part of the form. Name it, and say what it tells you to do."
+        },
+        "wordBank": {
+          "support": [
+            "instructions",
+            "required",
+            "date format",
+            "same as above",
+            "skip",
+            "declaration"
+          ]
+        }
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the votes that didn’t count",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "What is an informal vote?",
+              "core": "What is an informal vote? How many were there in 2022?"
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-AP2"
+            ]
+          },
+          {
+            "q": "What rule did many voters miss?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-AP2"
+            ]
+          },
+          {
+            "q": {
+              "support": "How could people be helped?",
+              "core": "How could voters be helped to fill in the ballot correctly?",
+              "extend": "Who is responsible when people don’t understand a form’s rules? What would you change?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U3M1-LG3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Turn instructions into steps",
+        "pagebreak": true,
+        "vc": [
+          "VPC-U3M1-LG3"
+        ],
+        "instructions": {
+          "support": "Read the instructions. Write them as short steps, in order.",
+          "core": "Read the instructions below. Summarise them as short, numbered steps in the order you’d do them."
+        },
+        "items": [
+          {
+            "q": "**Instructions (Youth Sport Pass):** “To apply, complete all sections of this form in black pen and block letters. Applicants under 18 must have a parent or guardian sign Section D. Attach a copy of one photo ID, such as a student card or learner permit. Return the form in person to any council customer service centre, or scan and email it to the address below. Please allow 10 business days for your pass to be posted to you.”",
+            "lines": 0
+          },
+          {
+            "q": "Step 1:",
+            "lines": 2
+          },
+          {
+            "q": "Step 2:",
+            "lines": 2
+          },
+          {
+            "q": "Step 3:",
+            "lines": 2
+          },
+          {
+            "q": "Step 4:",
+            "lines": 2
+          },
+          {
+            "q": "Step 5:",
+            "lines": 2
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: fill in a real form",
+        "pagebreak": true,
+        "where": "in class or at home, on paper or online",
+        "vc": [
+          "VPC-U3M1-AP2",
+          "VPC-U3M1-AP5",
+          "VPC-U3M1-LG3"
+        ],
+        "vcNote": "Hands-on: sourcing, summarising and completing a real form.",
+        "instructions": "Find a **real** form you need (paper or online). Write its steps first. Fill it in. Check it. Show your teacher before you submit it.",
+        "need": [
+          "the form (printed or on screen)",
+          "your ID and numbers",
+          "a black pen"
+        ],
+        "steps": {
+          "support": [
+            "Find the form on the right website, or ask for a paper copy.",
+            "Read it all first.",
+            "Write the steps in the table on the next page.",
+            "Get your ID and numbers ready.",
+            "Fill it in. Follow its rules.",
+            "Check every box. Sign and date it last.",
+            "Show your teacher. Cover private numbers."
+          ],
+          "core": [
+            "Find the form on the organisation’s own website, or get a paper copy.",
+            "Skim the whole form and read the instructions.",
+            "Write its steps in the table on the next page.",
+            "Gather your ID, numbers and dates.",
+            "Fill it in, following its rules.",
+            "Check every box against your ID. Sign and date it last.",
+            "Show your teacher (cover private numbers), then submit it if you’re ready."
+          ]
+        },
+        "notes": [
+          {
+            "label": "The form I chose, and where I found it:",
+            "lines": 2
+          },
+          {
+            "label": "The trickiest rule on this form:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Photo of the form (private details covered)",
+          "Teacher saw it",
+          "Confirmation email or receipt"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "My form: steps and check",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 15,
+          "core": 14
+        },
+        "vc": [
+          "VPC-U3M1-LG3",
+          "VPC-U3M1-AP2"
+        ],
+        "instructions": "Write the steps for your form. Tick each one when it’s done.",
+        "columns": [
+          "Step",
+          "What I need",
+          "Done?"
+        ],
+        "rows": [
+          [
+            "Read the whole form first",
+            "The form",
+            "✓"
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "Check every box, then sign and date",
+            "My ID",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: help someone else",
+        "pagebreak": true,
+        "instructions": "Help someone fill in a form, like a younger student or someone at home.",
+        "items": [
+          {
+            "q": "Who did you help, and with which form?",
+            "lines": 1,
+            "levelUp": true
+          },
+          {
+            "q": "Explain two tricky rules on that form in your own words.",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M1-LG3"
+            ]
+          },
+          {
+            "q": "Find one hard word on the form. Break it into parts to work out its meaning.",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M1-AP3"
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can read a form before I fill it in.",
+          "I can turn instructions into steps.",
+          "I can follow a form’s rules.",
+          "I can check before I sign."
+        ],
+        "questions": [
+          "The form I’ll need next:",
+          "My best tip for forms:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn four steps for forms (read it all first, gather what you need, follow its rules, check then sign), practise the conventions that get forms rejected (block letters, date formats, required fields, N/A, skip instructions, office-use boxes), summarise instructions into steps, and complete a real form they need. The case study is the 2022 federal election, where 5.19% of House of Representatives votes were informal, over 10% in two western Sydney seats.",
+    "prep": [
+      "Print workbooks.",
+      "Collect a few real forms (library, sport club, work experience, Medicare own card for 15+, concession or myki forms) for students without one in mind.",
+      "Remind students to **cover private numbers** (Medicare, TFN, bank) in any photo they show.",
+      "Optional: an AEC sample ballot paper (practice versions are on the AEC website)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Strict, not hard",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show a form returned for one blank box. How annoying is that?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** accepted or sent back.",
+          "**Annotate (10 min):** the Youth Sport Pass form."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Steps and stakes",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** the votes that didn’t count.",
+          "**Model (10 min):** summarise a paragraph of instructions into steps aloud.",
+          "**Turn instructions into steps (15 min).**",
+          "**Choose a form (10 min):** students find the real form they’ll fill in."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Do it",
+        "minutes": 50,
+        "steps": [
+          "**Do it (30 min):** steps, fill in, check.",
+          "**Teacher check (10 min):** look over forms before anything is submitted.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Forms are strict, not hard.",
+      "Read it all first; gather what you need.",
+      "Block letters, DD/MM/YYYY, every * box, N/A.",
+      "Check against your ID, then sign and date last."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A simpler real form (library or club).",
+        "Partner reads the instructions aloud."
+      ],
+      "extend": [
+        "Decode form words from their parts.",
+        "Help someone else with a form (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U3M1-AP2",
+        "evidence": "Sources and completes a real form from a community, workplace or government organisation (Do it page, teacher check)."
+      },
+      {
+        "vc": "VPC-U3M1-AP5",
+        "evidence": "Applies conventions accurately: block letters, date formats, spelling, required fields (sort, completed form)."
+      },
+      {
+        "vc": "VPC-U3M1-LG3",
+        "evidence": "Summarises instructions into sequential steps (Turn instructions into steps; My form table)."
+      },
+      {
+        "vc": "VPC-U3M1-AP3",
+        "evidence": "Decodes unfamiliar form words (applicant, residential, declaration) using word parts.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Sort:** NGUYEN — accepted; 9/4/09 — sent back (format, year); blank phone — sent back (required); N/A middle name — accepted; signed with no date — sent back; writing in office-use box — sent back.\n\n**Annotation:** 1 instructions (black pen, block letters, * required); 2 required fields in block letters; 3 date format DD/MM/YYYY; 4 “same as above”; 5 skip instruction (No → Q8); 6 declaration, sign and date last.\n\n**Steps (example):** 1 Fill in all sections in black pen and block letters. 2 If under 18, get a parent or guardian to sign Section D. 3 Attach a copy of one photo ID. 4 Return it in person or scan and email it. 5 Wait up to 10 business days for the pass in the post.\n\n**Case study:** an informal vote doesn’t count; many voters didn’t number every box; better translated information, outreach and clear instructions could help.",
+    "resources": [
+      {
+        "label": "AEC — 2022 House of Representatives informal votes by division",
+        "url": "https://results.aec.gov.au/27966/Website/HouseInformalByDivision-27966-NAT.htm"
+      },
+      {
+        "label": "SBS News — Why more than one in ten votes cast in these seats didn’t count",
+        "url": "https://www.sbs.com.au/news/article/why-more-than-one-in-ten-votes-cast-in-these-seats-at-the-federal-election-didnt-count/dyhjjay8c"
+      },
+      {
+        "label": "Services Australia — Medicare: getting your own card (from age 15)",
+        "url": "https://www.servicesaustralia.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Privacy first.** Real forms contain Medicare numbers, TFNs and addresses. Never collect them; students show forms with private details covered, and nothing is photocopied for the class.",
+      "**Some students won’t have a form they need right now.** Keep a set of real blank forms (library, sport, work experience) so everyone can do a real one.",
+      "**Don’t make students submit forms they don’t want.** The skill is completing it correctly; submitting is their choice (or a parent’s, for under-18s).",
+      "**Online forms count.** Many are now online only; students can screenshot each page instead of printing.",
+      "**Works in a real class:** yes. It’s short and immediately useful, and students often bring forms from home once they see it."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: shorter article and case study, 6 key words, word bank, a simpler real form and step prompts.",
+      "core": "Aimed at about Year 7 reading: the standard version with conventions, skip instructions, the election case study and a real form.",
+      "extend": "Aimed at about Year 9 reading: decoding form words from their parts, the wider causes of informal voting, and helping someone else (Level Up)."
+    }
+  }
+}

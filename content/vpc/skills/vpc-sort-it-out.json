@@ -1,0 +1,1006 @@
+{
+  "id": "vpc-sort-it-out",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours), plus time outside class",
+  "brief": {
+    "hook": {
+      "support": "Getting your Ls. A tax file number. Your own bank account. Big jobs like these feel scary. But each one is just a list of small steps. You can do this.",
+      "core": "Your Learner permit. A tax file number. Your own bank account or Medicare card. Big bits of life admin feel huge, so people put them off for months. But every one of them is just a list of small steps, and the official website already has the list. You just have to find it and follow it.",
+      "extend": "Learner permit, tax file number, bank account, Medicare card, TAFE enrolment: adult life comes with a stream of admin, and it’s easy to stall. The people who get it done aren’t smarter. They find the official source, skim for what applies to them, turn it into a checklist, and track each step until it’s finished."
+    },
+    "why": {
+      "support": "You’ll need to do this kind of thing a lot. Doing it step by step saves time, money and stress.",
+      "core": "Life admin never stops: licences, tax, banking, study, Centrelink. A step-by-step method means you can handle anything new, not just the one task in front of you.",
+      "extend": "Independence depends on being able to complete official processes without someone holding your hand. A reliable method for finding, reading, summarising and tracking steps transfers to every new process you’ll face."
+    },
+    "canDo": {
+      "support": [
+        "I can find the official website.",
+        "I can skim to find the parts I need.",
+        "I can write the steps in my own words.",
+        "I can do the steps and keep track."
+      ],
+      "core": [
+        "I can find the official source for a piece of life admin.",
+        "I can skim and scan a long page to find what applies to me.",
+        "I can summarise instructions as steps in my own words.",
+        "I can complete the steps and track what’s done and what’s next."
+      ],
+      "extend": [
+        "I can identify the reliable agency responsible for a process.",
+        "I can skim and scan to decide what needs close reading.",
+        "I can paraphrase complex instructions into a clear sequence.",
+        "I can complete documentation, track progress and help others solve admin problems."
+      ]
+    },
+    "showIt": "Take a real piece of life admin as far as you can: find the official steps, write your own checklist, and track each step.",
+    "vocab": [
+      {
+        "word": "life admin",
+        "meaning": "the jobs adults have to do, like forms, bills and licences",
+        "example": "Getting a tax file number is life admin."
+      },
+      {
+        "word": "official",
+        "meaning": "from the government or organisation in charge",
+        "example": "Use the official website, not an ad."
+      },
+      {
+        "word": "skim",
+        "meaning": "read fast to get the main idea",
+        "example": "I skimmed the page to see what it covered."
+      },
+      {
+        "word": "scan",
+        "meaning": "look quickly for one fact or word",
+        "example": "I scanned for the word “age”."
+      },
+      {
+        "word": "checklist",
+        "meaning": "a list of steps you tick off",
+        "example": "My checklist had six steps."
+      },
+      {
+        "word": "proof of identity",
+        "meaning": "documents that show who you are",
+        "example": "A passport is proof of identity."
+      },
+      {
+        "word": "reference number",
+        "meaning": "a number that tracks your application",
+        "example": "Write down your reference number.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "paraphrase",
+        "meaning": "say it again in your own words",
+        "example": "I paraphrased the instructions as steps.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "eligibility",
+        "meaning": "the rules about who can apply",
+        "example": "Check the eligibility first.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Sort It Out in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Sort It Out",
+        "sub": "Big life admin, one step at a time.",
+        "icon": "lucide:list-checks",
+        "say": "Sort it out. Big life admin, one step at a time."
+      },
+      {
+        "kind": "big",
+        "title": "Big job = small steps",
+        "text": "Every big job is a **list** of small ones.",
+        "icon": "lucide:footprints",
+        "say": "Every big piece of life admin is really a list of small steps.",
+        "vc": [
+          "VPC-U3M1-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Admin step",
+        "pillIcon": "lucide:list-checks",
+        "title": "Find",
+        "text": "The official website.",
+        "icon": "lucide:search",
+        "say": "Step one. Find the official website. Look for gov.au. Not an ad, not a copycat.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Admin step",
+        "pillIcon": "lucide:list-checks",
+        "title": "Skim + scan",
+        "text": "Find the parts for you.",
+        "icon": "lucide:scan-eye",
+        "say": "Step two. Skim and scan. Read the headings. Find the parts that apply to you. Skip the rest for now.",
+        "vc": [
+          "VPC-U3M1-LG2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Admin step",
+        "pillIcon": "lucide:list-checks",
+        "title": "List",
+        "text": "Your steps, your words.",
+        "icon": "lucide:list-ordered",
+        "say": "Step three. Make a list. Write the steps in your own words, in order.",
+        "vc": [
+          "VPC-U3M1-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Admin step",
+        "pillIcon": "lucide:list-checks",
+        "title": "Do",
+        "text": "One step at a time.",
+        "icon": "lucide:check",
+        "say": "Step four. Do it. One step at a time. Gather your documents, fill in the forms.",
+        "vc": [
+          "VPC-U3M1-AP2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Admin step",
+        "pillIcon": "lucide:list-checks",
+        "title": "Track",
+        "text": "Dates, numbers, next step.",
+        "icon": "lucide:calendar-check",
+        "say": "Step five. Track it. Write down dates, reference numbers and what’s next.",
+        "vc": [
+          "VPC-U3M1-LG3"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Sort out one real piece of life admin.",
+        "icon": "lucide:badge-check",
+        "say": "Your mission. Pick one real piece of life admin and take it as far as you can."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Find, skim, list, do, track",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Big jobs like getting your Ls feel hard. But they are just a list of small steps. Here’s how to do any of them.\n\n1. **Find** the official website. For your Ls in Victoria, that’s **Transport Victoria**. Government sites end in **.gov.au**.\n2. **Skim and scan.** Read the headings first. Find the parts for you, like “Who can apply” and “What to bring”. Skip the rest for now.\n3. **List.** Write the steps in your own words, in order.\n4. **Do.** One step at a time. Get your documents. Fill in the forms.\n5. **Track.** Write down the date, any reference number, and the next step.\n.\n**Example: your Learner permit in Victoria**\n- You must be at least **16**.\n- You must pass the **learner permit test**.\n- You need **proof of identity**, like a passport or birth certificate.\n- There is a fee.\n- If you’re under 21, you need **120 hours** of driving practice, with **20 at night**, before your P test.\n.\nAlways check the official website. Rules and fees can change.",
+          "core": "Getting your Ls, a tax file number or your own bank account can feel like a mountain. But every piece of life admin is just a list of small steps, and the official website usually has the list. Here’s a method that works for any of them.\n\n1. **Find** the official source. For a Victorian licence, that’s **Transport Victoria**. For tax, the **ATO**. Government sites end in **.gov.au**. Watch out for ads and copycat sites that charge you for free processes.\n2. **Skim and scan.** Official pages are long, and most of it won’t apply to you. **Skim** the headings to see what’s there. **Scan** for the words that match your situation: your age, “first time”, “what to bring”, “fees”. Read those parts closely. Skip the rest for now.\n3. **List.** **Paraphrase** the steps into your own words, as a numbered checklist, in the order you’ll do them.\n4. **Do.** One step at a time: gather documents, book, fill in forms.\n5. **Track.** Write down dates, **reference numbers** and the next step. It stops you losing your place, and it’s proof if something goes wrong.\n.\n**Example: your Learner permit in Victoria**\n- You must be at least **16**.\n- You need to pass the **learner permit knowledge test**.\n- You need **proof of identity** documents, and there’s a fee.\n- After that, learners under 21 need **120 hours** of supervised driving, including **20 at night**, before the probationary licence test.\n.\nRules and fees change, so always check the official page before you start.",
+          "extend": "Adult life comes with a steady stream of admin: licences, tax, banking, Medicare, study, Centrelink. The process is different every time, but the method for tackling it isn’t.\n\n1. **Find** the agency responsible and its official source. Licences in Victoria sit with **Transport Victoria**; tax with the **ATO**; Medicare and Centrelink with **Services Australia**. Check the domain (**.gov.au**) and be wary of ads and third-party sites that charge for free processes.\n2. **Skim and scan for relevance.** Official guidance is written for everyone, so most of it won’t apply to you. **Skim** headings and summaries to map the page, then **scan** for the conditions that match your situation (age, first-time applicant, documents, fees). Read only those sections closely.\n3. **List.** **Paraphrase** the relevant instructions into a short numbered sequence in your own words. If you can’t paraphrase a step, you don’t understand it yet: re-read it or ask.\n4. **Do.** Complete one step at a time: gather documents, make bookings, complete forms accurately.\n5. **Track.** Record dates, **reference numbers**, who you spoke to and what’s next. A simple log protects you if something is lost or disputed.\n.\n**Example: a Victorian Learner permit**\n- Minimum age **16**; pass the **learner permit knowledge test**; provide **proof of identity**; pay a fee.\n- Learners under 21 must then log **120 hours** of supervised driving, including **20 at night**, before the probationary licence test.\n.\nEligibility rules and fees change, so the official page always overrides a summary, including this one."
+        },
+        "vc": [
+          "VPC-U3M1-LG1",
+          "VPC-U3M1-LG2",
+          "VPC-U3M1-LG3"
+        ],
+        "vcNote": "Finding reliable agencies, skimming and scanning for relevance, and summarising instructions into sequential steps."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "No car, no driver? L2P",
+        "icon": "lucide:car",
+        "body": {
+          "support": "In Victoria, learners under 21 need **120 hours** of driving practice before their P test.\n\nBut what if nobody in your family can drive with you? What if you don’t have a car?\n\nThe **TAC L2P** program helps. It is **free**. It gives learners a **volunteer mentor** and a **car** to practise in. The fuel is paid for.\n\nIt’s for learners aged **16 to 21** who don’t have a supervising driver or a car. Councils and community groups run it.\n\nYou can apply through your **myVicRoads** account.",
+          "core": "To get a P licence in Victoria, learners under 21 need to log **120 hours** of supervised driving. For many young people, that’s the hardest part. What if nobody in your family has a licence? What if you don’t have a car to practise in?\n\nThat’s why the **TAC L2P** learner driver mentor program exists. It’s **free**. It matches learners with a trained **volunteer mentor** and provides a **car** and fuel, so they can build up their hours.\n\nL2P is for learners aged **16 to 21** (sometimes a little older) who don’t have a supervising driver or a car. The Transport Accident Commission (TAC) pays for it. Local councils and community groups run it.\n\nYou apply through your **myVicRoads** account. Many young people never find out it exists.",
+          "extend": "Victorian learners under 21 must log **120 hours** of supervised driving before they can take the probationary licence test. That rule assumes a learner has a licensed adult and a car. Many young people don’t.\n\nThe **TAC L2P** learner driver mentor program fills that gap. It’s **free**. It matches eligible learners with trained **volunteer mentors**, and provides a **car** and fuel, so they can build their hours safely.\n\nL2P is aimed at learners aged **16 to 21** (in some cases older) who have no supervising driver or car. The Transport Accident Commission funds it, and local councils and community groups deliver it. Learners apply through their **myVicRoads** account.\n\nIt shows why skimming for eligibility matters. A learner who only read the main licence pages might never find out there’s a free program made for exactly their situation."
+        },
+        "source": {
+          "name": "Transport Victoria — TAC L2P learner driver mentor program",
+          "url": "https://transport.vic.gov.au/Registration-and-licensing/Licences/Learner-permit/TAC-L2P-learner-driver-mentor-program"
+        },
+        "think": {
+          "support": [
+            "Why is 120 hours hard for some learners?",
+            "What does L2P give learners?"
+          ],
+          "core": [
+            "Why might 120 hours be hard for some young people?",
+            "Who is L2P for, and what does it give them?",
+            "How would you find a program like this if you needed it?"
+          ],
+          "extend": [
+            "What assumption does the 120-hour rule make?",
+            "Why do programs like L2P often go unnoticed?",
+            "How does skimming for eligibility help you find support like this?"
+          ]
+        },
+        "vc": [
+          "VPC-U3M1-LG1"
+        ],
+        "vcNote": "A reliable government program that helps young people complete a civic process."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of an official info page",
+      "docTitle": "GET YOUR LEARNER PERMIT (EXAMPLE PAGE)",
+      "vc": [
+        "VPC-U3M1-LG2",
+        "VPC-U3M1-LG1"
+      ],
+      "vcNote": "Skimming and scanning an official page to find the parts that apply to you.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Page summary",
+          "value": "How to get your learner permit in Victoria.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Who can apply",
+          "value": "You must be 16 or older."
+        },
+        {
+          "n": 3,
+          "label": "Before you book",
+          "value": "Study the Road to Solo Driving handbook. Try the practice test."
+        },
+        {
+          "n": 4,
+          "label": "What to bring",
+          "value": "Proof of identity. See the full list of documents."
+        },
+        {
+          "n": 5,
+          "label": "Fees",
+          "value": "See current fees. Concessions may apply."
+        },
+        {
+          "n": 6,
+          "label": "After you pass",
+          "value": "Under 21? Log 120 hours, including 20 at night."
+        },
+        {
+          "label": "Also on this page",
+          "value": "Overseas licences · Motorcycle permits · Heavy vehicles",
+          "rule": true
+        }
+      ],
+      "note": "Made-up page for practice, based on Victorian rules. Always check transport.vic.gov.au for the current steps.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Summary",
+          "note": "Skim this first: is it the right page?"
+        },
+        {
+          "n": 2,
+          "label": "Eligibility",
+          "note": "Can I apply?"
+        },
+        {
+          "n": 3,
+          "label": "Prepare",
+          "note": "What to do before booking."
+        },
+        {
+          "n": 4,
+          "label": "Documents",
+          "note": "What I need to bring."
+        },
+        {
+          "n": 5,
+          "label": "Cost",
+          "note": "How much, and any discounts."
+        },
+        {
+          "n": 6,
+          "label": "What’s next",
+          "note": "The step after this one."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Find, skim, list, do, track",
+      "steps": [
+        {
+          "title": "Find",
+          "text": "Official source.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Skim + scan",
+          "text": "Parts for you.",
+          "icon": "lucide:scan-eye"
+        },
+        {
+          "title": "List",
+          "text": "Steps in your words.",
+          "icon": "lucide:list-ordered"
+        },
+        {
+          "title": "Do",
+          "text": "One step at a time.",
+          "icon": "lucide:check"
+        },
+        {
+          "title": "Track",
+          "text": "Dates, numbers, next.",
+          "icon": "lucide:calendar-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What’s the **first** step for any piece of life admin?",
+        "options": [
+          "Find the official website",
+          "Pay someone to do it",
+          "Ask on social media",
+          "Fill in the first form you find"
+        ],
+        "answer": 0,
+        "explain": "The official source has the real steps and costs.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "q": "What does **skim** mean?",
+        "options": [
+          "Read fast to get the main idea",
+          "Read every word twice",
+          "Skip the whole page",
+          "Copy it out"
+        ],
+        "answer": 0,
+        "explain": "Skim headings first to see what’s on the page.",
+        "vc": [
+          "VPC-U3M1-LG2"
+        ]
+      },
+      {
+        "q": "You’re 16 and want your Ls. Which part of the page can you skip for now?",
+        "options": [
+          "Heavy vehicle licences",
+          "Who can apply",
+          "What to bring",
+          "Fees"
+        ],
+        "answer": 0,
+        "explain": "Scan for what applies to you. Heavy vehicles don’t, yet.",
+        "vc": [
+          "VPC-U3M1-LG2"
+        ]
+      },
+      {
+        "q": "Why write the steps in your **own** words?",
+        "options": [
+          "It shows you understand them, and they’re easier to follow",
+          "It makes them longer",
+          "It’s against the rules",
+          "So you can skip steps"
+        ],
+        "answer": 0,
+        "explain": "If you can’t paraphrase a step, re-read it or ask.",
+        "vc": [
+          "VPC-U3M1-LG3"
+        ]
+      },
+      {
+        "q": "What does the TAC L2P program give learners?",
+        "options": [
+          "A free volunteer mentor and a car to practise in",
+          "A free licence",
+          "A new car to keep",
+          "Cheaper fuel for everyone"
+        ],
+        "answer": 0,
+        "explain": "L2P helps learners without a driver or car get their 120 hours.",
+        "vc": [
+          "VPC-U3M1-LG1"
+        ]
+      },
+      {
+        "q": "You applied for something and got a reference number. What should you do?",
+        "options": [
+          "Write it down with the date",
+          "Forget it",
+          "Post it online",
+          "Give it to a stranger"
+        ],
+        "answer": 0,
+        "explain": "Tracking numbers and dates helps if anything goes wrong.",
+        "vc": [
+          "VPC-U3M1-LG3",
+          "VPC-U3M1-AP2"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pick one real piece of life admin. Find the official steps. Write your own checklist. Do as many steps as you can and track them.",
+      "core": "Take a real piece of life admin as far as you can: find the official steps, write your own checklist, and track each step.",
+      "extend": "Choose a real piece of life admin, identify the responsible agency, summarise its process as your own checklist, complete as many steps as you can, and keep a tracking log."
+    },
+    "checklist": [
+      "I found the official source",
+      "I skimmed and scanned for the parts that apply to me",
+      "I wrote the steps as my own checklist",
+      "I did at least one real step",
+      "I tracked dates, numbers and the next step"
+    ],
+    "levelUp": "In a group, help solve a tricky admin problem from your teacher (like a lost ID or a wrong address). Agree on the steps and who to contact.",
+    "vc": [
+      "VPC-U3M1-LG1",
+      "VPC-U3M1-LG2",
+      "VPC-U3M1-LG3",
+      "VPC-U3M1-AP2"
+    ],
+    "model": {
+      "kind": "Example admin plan",
+      "text": "**Job:** Open my first bank account.\n\n**Official source:** the bank’s own website, not an ad.\n\n**Skimmed for:** “under 18”, “what you need”, “fees”.\n\n**My checklist**\n1. Compare two youth accounts. Look for no monthly fees.\n2. Check what ID I need. It’s my passport or birth certificate, plus my Medicare card.\n3. Book a time at the branch, with a parent, because I’m under 18.\n4. Open the account and set up the app.\n5. Give my boss my BSB and account number.\n\n**Tracking**\n- 3 May: compared accounts. Picked one.\n- 6 May: booked for 10 May.\n- **Next:** find my passport.",
+      "why": [
+        "The steps are in the student’s own words and in the order they’ll do them.",
+        "It shows what was skimmed for, so only the parts that apply were read closely.",
+        "The tracking log has dates and a clear next step."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Finding",
+        "start": "Used an ad or a random site.",
+        "good": "Found the official source.",
+        "great": "Official source, and skimmed for what applies."
+      },
+      {
+        "skill": "Checklist",
+        "start": "Copied the instructions.",
+        "good": "Own words, in order.",
+        "great": "Clear steps that flag documents and costs."
+      },
+      {
+        "skill": "Doing and tracking",
+        "start": "No steps done yet.",
+        "good": "At least one step done and tracked.",
+        "great": "Several steps, with dates and next steps."
+      }
+    ],
+    "choices": {
+      "prompt": "Which piece of life admin will you sort out?",
+      "options": [
+        "Get ready for your Learner permit",
+        "Get a tax file number",
+        "Open a bank account, or get your own Medicare card",
+        "Apply for a course, concession card or youth pass"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Find, skim, list, do, track",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name the **five** steps.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "vc": [
+              "VPC-U3M1-LG3"
+            ]
+          },
+          {
+            "q": "What is the difference between **skimming** and **scanning**?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-LG2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why should you check the official website?",
+              "core": "Why should you always check the official page, even after reading this?",
+              "extend": "Why does the official page “override a summary”? Give an example of what could change."
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-LG1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Read closely or skip for now?",
+        "pagebreak": true,
+        "choices": [
+          "Read closely",
+          "Skip for now"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "You’re 16 and want to get your Learner permit. Which parts of the page should you read closely, and which can you skip for now?",
+        "vc": [
+          "VPC-U3M1-LG2"
+        ],
+        "cards": [
+          {
+            "from": "Heading",
+            "text": "Who can apply",
+            "answer": "Read closely",
+            "flags": "Tells you if you’re eligible."
+          },
+          {
+            "from": "Heading",
+            "text": "Converting an overseas licence",
+            "answer": "Skip for now",
+            "flags": "Not your situation."
+          },
+          {
+            "from": "Heading",
+            "text": "What to bring: proof of identity",
+            "answer": "Read closely",
+            "flags": "You need these documents."
+          },
+          {
+            "from": "Heading",
+            "text": "Heavy vehicle licences",
+            "answer": "Skip for now",
+            "flags": "Not yet."
+          },
+          {
+            "from": "Heading",
+            "text": "Booking your learner permit test",
+            "answer": "Read closely",
+            "flags": "A step you must do."
+          },
+          {
+            "from": "Heading",
+            "text": "Motorcycle learner permits",
+            "answer": "Skip for now",
+            "flags": "Only if you want a bike licence.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of an official info page",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is it?",
+          "What does it tell you?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the page. Use the word bank. Write what it tells you.",
+          "core": "Each number marks part of the page. Name it, and say what it tells you."
+        },
+        "wordBank": {
+          "support": [
+            "summary",
+            "who can apply",
+            "prepare",
+            "documents",
+            "cost",
+            "next step"
+          ]
+        }
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: No car, no driver? L2P",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "Why are 120 hours hard for some learners?",
+              "core": "Why might 120 hours of practice be hard for some young people?"
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U3M1-LG1"
+            ]
+          },
+          {
+            "q": "Who is L2P for, and what does it give them?",
+            "lines": 3,
+            "vc": [
+              "VPC-U3M1-LG1"
+            ]
+          },
+          {
+            "q": {
+              "support": "How would you find a program like this?",
+              "core": "How would you find a program like L2P if you needed it?",
+              "extend": "Why do programs like L2P go unnoticed? How does skimming for eligibility help?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U3M1-LG2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Say it in your own words",
+        "pagebreak": true,
+        "vc": [
+          "VPC-U3M1-LG3"
+        ],
+        "instructions": {
+          "support": "Read the instructions. Write them as short steps in your own words.",
+          "core": "Read the official-style instructions. Paraphrase them as a short, numbered checklist in your own words."
+        },
+        "items": [
+          {
+            "q": "**Instructions:** “Applicants for a learner permit must be at least 16 years of age. Prior to attending your appointment, you should review the Road to Solo Driving handbook and may wish to complete the online practice test. On the day, you must present original proof of identity documents and pay the applicable fee. Upon passing the knowledge test, your learner permit will be issued.”",
+            "lines": 0
+          },
+          {
+            "q": "Step 1:",
+            "lines": 2
+          },
+          {
+            "q": "Step 2:",
+            "lines": 2
+          },
+          {
+            "q": "Step 3:",
+            "lines": 2
+          },
+          {
+            "q": "Step 4:",
+            "lines": 2
+          },
+          {
+            "q": "Which words in the instructions were hard? What do they mean?",
+            "lines": 2,
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: sort it out",
+        "pagebreak": true,
+        "where": "in class and at home, online or in person",
+        "vc": [
+          "VPC-U3M1-LG1",
+          "VPC-U3M1-LG3",
+          "VPC-U3M1-AP2"
+        ],
+        "vcNote": "Hands-on: completing a real civic process from official source to tracked steps.",
+        "instructions": "Pick one real piece of life admin. Take it **as far as you can**. Even one real step counts. Use the tracker on the next page.",
+        "need": [
+          "a device with internet",
+          "your ID documents (keep them safe)",
+          "a parent or carer, if you’re under 18 and it needs one"
+        ],
+        "steps": {
+          "support": [
+            "Pick your job.",
+            "Find the official website.",
+            "Skim. Tick the parts that apply to you.",
+            "Write your checklist on the tracker.",
+            "Do the first step.",
+            "Write the date and the next step."
+          ],
+          "core": [
+            "Pick your job from the list, or your own.",
+            "Find the official source (check for .gov.au or the organisation’s own site).",
+            "Skim and scan. Note the parts that apply to you.",
+            "Paraphrase the steps into the tracker, in order.",
+            "Do at least one real step: gather documents, book, or fill in a form.",
+            "Record dates, reference numbers and the next step."
+          ]
+        },
+        "notes": [
+          {
+            "label": "My job, and the official source I used:",
+            "lines": 2
+          },
+          {
+            "label": "The step that was hardest, and how I sorted it:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Tracker filled in",
+          "Screenshot or confirmation (private details covered)",
+          "Teacher saw it"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "My admin tracker",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 18,
+          "core": 16
+        },
+        "vc": [
+          "VPC-U3M1-LG3",
+          "VPC-U3M1-AP2"
+        ],
+        "instructions": "Write each step in your own words. Fill in the date and any number when it’s done.",
+        "columns": [
+          "Step (in my words)",
+          "What I need",
+          "Date done",
+          "Number / what’s next"
+        ],
+        "rows": [
+          [
+            "Find the official page",
+            "Internet",
+            "3 May",
+            "Next: check ID list"
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: the tricky case",
+        "pagebreak": true,
+        "instructions": "In a group of 3 or 4, solve a tricky admin problem from your teacher.",
+        "items": [
+          {
+            "q": "Our problem:",
+            "lines": 1,
+            "levelUp": true
+          },
+          {
+            "q": "Who should we contact? How do we know it’s the right place?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M1-LG1",
+              "VPC-U3M1-AP4"
+            ]
+          },
+          {
+            "q": "Our steps, in order:",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M1-LG3",
+              "VPC-U3M1-AP4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find the official source.",
+          "I can skim and scan for what applies to me.",
+          "I can write steps in my own words.",
+          "I can do the steps and track them."
+        ],
+        "questions": [
+          "The next piece of life admin I need to sort out:",
+          "My best tip for life admin:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The boss course for Out & About. Students learn a five-step method for any piece of life admin (find the official source, skim and scan for relevance, list the steps in their own words, do them, track them), practise on a Victorian Learner permit example, and take a real process of their choosing as far as they can, keeping a tracker. The case study is the TAC L2P program, which provides free mentors and cars for learners without a supervising driver or vehicle.",
+    "prep": [
+      "Print workbooks.",
+      "Check the official pages students are likely to use (Transport Victoria, ATO, Services Australia, banks) and that school filters allow them.",
+      "Send a note home: students may need ID documents or a parent for some steps. Nothing should be brought to school unless families agree.",
+      "Prepare 4–6 tricky problem cards for the Level Up (lost birth certificate, moved house, name doesn’t match ID, missed appointment)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The method",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** list every piece of life admin students will face in the next three years.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** read closely or skip.",
+          "**Annotate (10 min):** the info page."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Paraphrase and plan",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** L2P.",
+          "**Model (10 min):** paraphrase a dense paragraph into steps aloud.",
+          "**Say it in your own words (10 min).**",
+          "**Choose and find (15 min):** students pick their job and find the official source."
+        ]
+      },
+      {
+        "title": "Lessons 3–4 — Sort it out",
+        "minutes": 100,
+        "steps": [
+          "**Do it (50 min):** skim, checklist, first steps; teacher conferences.",
+          "**Level Up (25 min):** tricky cases in groups.",
+          "**Check & reflect (25 min):** tracker review, quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Every big job is a list of small steps.",
+      "Find, skim and scan, list, do, track.",
+      "Use the official source; rules and fees change.",
+      "Write dates, numbers and the next step."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A simpler process (library card, youth pass) with fewer steps.",
+        "Partner reads the official page aloud."
+      ],
+      "extend": [
+        "Paraphrase dense official language.",
+        "Group problem-solving on a tricky case (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U3M1-LG1",
+        "evidence": "Identifies the reliable agency and official source for a process (Do it page, case study)."
+      },
+      {
+        "vc": "VPC-U3M1-LG2",
+        "evidence": "Skims and scans to decide what needs close reading (sort, annotation, Do it notes)."
+      },
+      {
+        "vc": "VPC-U3M1-LG3",
+        "evidence": "Summarises and paraphrases instructions into sequential steps (Say it in your own words; tracker)."
+      },
+      {
+        "vc": "VPC-U3M1-AP2",
+        "evidence": "Sources and completes documentation for a real process (tracker, confirmation)."
+      },
+      {
+        "vc": "VPC-U3M1-AP4",
+        "evidence": "Collaborates to problem-solve a civic admin task (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Sort:** who can apply — read; overseas licence — skip; proof of identity — read; heavy vehicles — skip; booking the test — read; motorcycle — skip.\n\n**Annotation:** 1 summary (right page?); 2 eligibility (16+); 3 preparation (handbook, practice test); 4 documents (proof of identity); 5 cost and concessions; 6 next step (120 hours incl. 20 at night if under 21).\n\n**Paraphrase (example):** 1 Make sure you’re 16 or older. 2 Read the Road to Solo Driving handbook and try the practice test. 3 Bring your original ID and the fee to your appointment. 4 Pass the knowledge test to get your permit.\n\n**Case study:** some learners have no licensed adult or car; L2P is for 16–21-year-olds without a supervising driver or car and gives a free mentor, car and fuel; find it by skimming official licence pages for support or eligibility, or asking the council’s youth services.",
+    "resources": [
+      {
+        "label": "Transport Victoria — TAC L2P learner driver mentor program",
+        "url": "https://transport.vic.gov.au/Registration-and-licensing/Licences/Learner-permit/TAC-L2P-learner-driver-mentor-program"
+      },
+      {
+        "label": "Transport Victoria — licences and learner permits",
+        "url": "https://transport.vic.gov.au/"
+      },
+      {
+        "label": "Australian Taxation Office — tax file numbers",
+        "url": "https://www.ato.gov.au/"
+      },
+      {
+        "label": "Services Australia",
+        "url": "https://www.servicesaustralia.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Students will be at very different starting points.** Some already have their Ls; some have no ID documents at all. Let them choose a process that’s real for them, and accept “as far as you can” honestly.",
+      "**ID documents are precious.** Don’t ask students to bring originals to school. Steps that need originals can happen at home or at the agency.",
+      "**Under-18s often need a parent or carer.** Plan for that: some steps become homework with a family member.",
+      "**Rules and fees change.** The course deliberately points to the official page; check the Learner permit details each year before teaching.",
+      "**Works in a real class:** yes, and it’s one of the most valued courses. Students often finish a real task (a TFN, a bank account) they’d been putting off."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: shorter article and case study, 6 key words, word bank, a simpler process option and step prompts.",
+      "core": "Aimed at about Year 7 reading: the standard version with skimming and scanning, paraphrasing, the info page, L2P and a tracked real process.",
+      "extend": "Aimed at about Year 9 reading: agency responsibility, paraphrasing dense official language, eligibility as a way to find support, and group problem-solving."
+    }
+  }
+}
