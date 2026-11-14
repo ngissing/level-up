@@ -1,0 +1,837 @@
+{
+  "id": "vm-why-ads-work",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "An ad for a drink shows friends at the beach, laughing. It doesn’t say much about the drink. Why? Because it’s selling a feeling. Learn to spot how.",
+      "core": "The ad shows mates on a beach at sunset, laughing, with a can in hand. It tells you almost nothing about the drink. That’s not an accident. Most ads aren’t selling a product; they’re selling a feeling. Once you can see how they do it, you can decide for yourself.",
+      "extend": "Ads work on two levels: what they say, and what they make you feel. Pictures, layout and words link a product or cause with a feeling or value. Reading an ad critically means taking those choices apart. Then you judge if they work, and for whom."
+    },
+    "why": {
+      "support": "Ads try to get your money or your time. Knowing their tricks helps you choose.",
+      "core": "You see hundreds of ads a day. Knowing how they work helps you make your own choices, and make better ads yourself.",
+      "extend": "Judging ads is a work skill and a life skill. You’ll use it in marketing jobs, as a shopper and as a citizen."
+    },
+    "canDo": {
+      "support": [
+        "I can say who an ad is for.",
+        "I can spot the feeling an ad sells.",
+        "I can say how pictures and words help."
+      ],
+      "core": [
+        "I can identify the audience and purpose of an ad.",
+        "I can explain how visual cues and words create a feeling.",
+        "I can judge whether an ad works."
+      ],
+      "extend": [
+        "I can infer the audience, purpose and values behind an ad.",
+        "I can analyse visual cues, layout and language.",
+        "I can judge an ad’s appeal and effect."
+      ]
+    },
+    "showIt": "Break down a real ad: who it’s for, the feeling it sells, how pictures and words do it, and whether it works.",
+    "vocab": [
+      {
+        "word": "ad",
+        "meaning": "short for advertisement: something made to sell or promote",
+        "example": "The ad played before the video."
+      },
+      {
+        "word": "target audience",
+        "meaning": "the people an ad is made for",
+        "example": "The target audience is teens."
+      },
+      {
+        "word": "visual cue",
+        "meaning": "a picture, colour or design choice that sends a message",
+        "example": "The bright colours are a visual cue for fun."
+      },
+      {
+        "word": "slogan",
+        "meaning": "a short, catchy line linked to a brand",
+        "example": "The slogan is easy to remember."
+      },
+      {
+        "word": "call to action",
+        "meaning": "what the ad tells you to do",
+        "example": "“Buy now” is a call to action."
+      },
+      {
+        "word": "appeal",
+        "meaning": "what an ad uses to grab you, like fun, fear or belonging",
+        "example": "The ad uses an appeal to belonging."
+      },
+      {
+        "word": "values",
+        "meaning": "ideas people think are important",
+        "example": "The ad links the car to the value of family.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "effective",
+        "meaning": "does what it was meant to do",
+        "example": "Was the ad effective?",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Why Ads Work in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Why Ads Work",
+        "sub": "They’re not selling a product. They’re selling a feeling.",
+        "icon": "lucide:tv",
+        "say": "Why ads work. They are not selling a product. They are selling a feeling."
+      },
+      {
+        "kind": "big",
+        "title": "Who is it for?",
+        "text": "Look at the people, the music, the place.",
+        "icon": "lucide:users",
+        "say": "First, who is it for? Look at the people in it, the music and the place. That tells you the target audience.",
+        "vc": [
+          "VM-U4O1-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Appeal",
+        "pillIcon": "lucide:heart",
+        "title": "Belonging",
+        "text": "Buy this, and you’ll fit in.",
+        "icon": "lucide:users",
+        "say": "Some ads sell belonging. Buy this, and you will fit in.",
+        "vc": [
+          "VM-U4O1-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Appeal",
+        "pillIcon": "lucide:heart",
+        "title": "Fun or fear",
+        "text": "Make you laugh, or make you worried.",
+        "icon": "lucide:smile",
+        "say": "Some make you laugh. Some make you worried.",
+        "vc": [
+          "VM-U4O1-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Appeal",
+        "pillIcon": "lucide:heart",
+        "title": "Status",
+        "text": "Buy this, and people will look up to you.",
+        "icon": "lucide:crown",
+        "say": "Some sell status. Buy this, and people will look up to you.",
+        "vc": [
+          "VM-U4O1-KK2"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Pictures do the work",
+        "text": "Colours, faces, light and layout send the message.",
+        "icon": "lucide:image",
+        "say": "Pictures do most of the work. Colours, faces, light and layout send the message before you read a word.",
+        "vc": [
+          "VM-U4O1-KK2"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Did it work?",
+        "text": "Ask: what did they want people to do? Did they do it?",
+        "icon": "lucide:target",
+        "say": "Then ask, did it work? What did they want people to do, and did they do it?",
+        "vc": [
+          "VM-U4O1-KS5"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Break down a real ad.",
+        "icon": "lucide:scan-eye",
+        "say": "Your mission. Break down a real ad."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Selling a feeling",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "An **ad** is made to get you to do something. Buy, join, click or care.\n\n**Ask: who is it for?** The **target audience** is the people an ad is made for. Look at the people in it. Look at the place and the music.\n\n**Ask: what feeling is it selling?** Ads often sell a feeling, not a product. This is called an **appeal**.\n- **Belonging:** you’ll fit in.\n- **Fun:** you’ll have a good time.\n- **Fear:** something bad might happen.\n- **Status:** people will look up to you.\n.\n**Look at the pictures.** A **visual cue** is a picture or colour that sends a message.\n- Bright colours can mean fun.\n- Dark colours can mean serious.\n- Smiling faces can mean happy.\n.\n**Look at the words.**\n- A **slogan** is a short, catchy line.\n- A **call to action** tells you what to do. “Buy now.”.\n\nThen ask: does it work? Would it get you to act?",
+          "core": "An **ad** is made to get its audience to act: buy, join, click, donate or change what they do.\n\n**1. Who is it for?** Every ad has a **target audience**. Clues: the age and look of the people in it, the setting, the music, and where the ad appears (TikTok? the AFL? a bus stop?).\n\n**2. What feeling is it selling?** Ads link a product or cause with a feeling. This is the **appeal**:\n- **belonging:** “people like you use this”.\n- **fun or humour:** you’ll enjoy it, and remember the ad.\n- **fear:** something bad could happen if you don’t act.\n- **status:** this will make you look successful.\n- **values:** family, freedom, fairness, mateship.\n\n**3. How do the visuals do it?** **Visual cues** do most of the work, often before you read anything:\n- colour: warm and bright for fun, dark for serious.\n- faces and body language: who looks happy, and why?\n- layout: what’s biggest, and where does your eye go first?\n- light and setting: sunset beach, city at night, family kitchen.\n\n**4. What do the words do?** Look for the headline, the **slogan** and the **call to action**. Check the fine print.\n\n**5. Is it effective?** An ad is **effective** if it gets its audience to act. Ask: what did the makers want? How would they know if it worked? Who might it not work for?",
+          "extend": "An **ad** is a promotional text designed to move a **target audience** to act: to buy, join, donate, click or change behaviour. Most ads persuade less through information than through association. They link a product or cause with a feeling or a set of **values**.\n\n**Inferring the audience.** Clues include the people represented (age, style, lifestyle), the setting, music, language register and placement (the platform or time slot).\n\n**Appeals.** Common appeals are belonging, humour, fear, status, aspiration and values such as mateship, family, freedom or fairness. Public-health ads often choose between fear and humour, and the choice affects who responds.\n\n**Visual cues and layout.**\n- **colour and light:** warm or cool, bright or dark.\n- **composition:** what is largest, centred or in focus; where the eye goes first.\n- **people:** facial expression, gaze (at you, or at the product?) and body language.\n- **typography and logo placement**.\n\n**Language.** Headlines, **slogans** (rhythm, rhyme, repetition), direct address (“you”), and the **call to action**. Note what the fine print says, and what it doesn’t.\n\n**Evaluating effectiveness.** An ad’s appeal is not the same as its effect. Ask what its purpose was, what evidence there is that it worked, and who supplied that evidence. Results reported by the organisation that paid for the ad deserve a second look."
+        },
+        "vc": [
+          "VM-U4O1-KK2",
+          "VM-U4O1-KS3",
+          "VM-U4O1-KS5",
+          "VM-U4O1-KK4"
+        ],
+        "vcNote": "Visual cues and presentation; inferring audience and purpose; evaluating appeal and effectiveness."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Dumb Ways to Die",
+        "icon": "lucide:train-front",
+        "body": {
+          "support": "In **November 2012**, **Metro Trains Melbourne** put out a video. It was called **Dumb Ways to Die**.\n\nIt had cute cartoon characters and a catchy song. The characters died in silly ways.\n\nAt the end, it showed the dumbest ways of all. Standing too close to the edge of a train platform. Crossing train tracks.\n\nThe ad didn’t use fear. It used **fun**. People shared it all over the world.\n\nMetro said that after the ad, there were fewer **near misses** at stations. But some experts asked if those numbers were right.\n\nAn ad can be popular. That doesn’t always mean it changed what people did.",
+          "core": "In **November 2012**, **Metro Trains Melbourne** released **Dumb Ways to Die**. Most rail safety ads used fear: crashes, injuries, grieving families. This one used **humour**.\n\nCute cartoon characters died in silly ways, set to a catchy song. Only at the end did it show the real message: the dumbest ways to die are around trains. Standing on the platform edge. Driving around the boom gates. Crossing the tracks.\n\nThe video spread around the world and won top advertising awards in **2013**.\n\nMetro reported a **20%** drop in near misses after the campaign. But even Metro said it was too early to be sure. Some people in the industry questioned the numbers, and later reports said near misses had gone up again.\n\nSo was it **effective**? It was hugely popular. Whether it changed behaviour is harder to prove.",
+          "extend": "In **November 2012**, **Metro Trains Melbourne** launched **Dumb Ways to Die**. Rail safety advertising usually relied on fear. This campaign used **humour** instead: cute animated characters dying in absurd ways, set to a catchy song, with the real message held back until the end. The dumbest ways to die are around trains.\n\nThe video spread worldwide and won major awards at Cannes in **2013**. It was later turned into a mobile game.\n\nOn effectiveness, the picture is less clear. Metro reported a **20%** fall in near misses, compared with the annual average. But a Metro spokesperson said it was too early to be confident the change would last. An awards judge noted gaps between claimed and actual results. Later reporting suggested near misses had risen again.\n\nThe case shows the difference between **appeal** (how much people liked and shared it) and **effect** (whether behaviour changed). Most of the evidence for effect came from the organisation that paid for the campaign."
+        },
+        "source": {
+          "name": "Mumbrella — “Has Dumb Ways to Die been effective?”",
+          "url": "https://mumbrella.com.au/dumb-ways-die-stopped-dumb-behavior-around-trains-270751"
+        },
+        "think": {
+          "support": [
+            "Why did the ad use fun, not fear?",
+            "Does a popular ad always change what people do?"
+          ],
+          "core": [
+            "Who was the target audience? How can you tell?",
+            "What evidence did Metro give that it worked? Why might people question it?",
+            "Would a fear ad have worked better? Why or why not?"
+          ],
+          "extend": [
+            "What is the difference between appeal and effect in this case?",
+            "Why should we question results reported by the organisation that paid for the ad?",
+            "How could Metro have measured effect more fairly?"
+          ]
+        },
+        "vc": [
+          "VM-U4O1-KS5"
+        ],
+        "vcNote": "Critically evaluating the appeal and effectiveness of a real promotional campaign."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a print ad",
+      "docTitle": "PRINT AD FOR AN ENERGY DRINK (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U4O1-KK2",
+        "VM-U4O1-KK4"
+      ],
+      "vcNote": "The visual cues, layout and features of a promotional text.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Image",
+          "value": "A skater mid-air at sunset, friends cheering below.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Headline",
+          "value": "NO LIMITS."
+        },
+        {
+          "n": 3,
+          "label": "Product",
+          "value": "A bright orange can, bottom right."
+        },
+        {
+          "n": 4,
+          "label": "Slogan",
+          "value": "Live loud."
+        },
+        {
+          "n": 5,
+          "label": "Call to action",
+          "value": "Grab yours today.",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Fine print",
+          "value": "Contains caffeine. Not for children or pregnant women."
+        }
+      ],
+      "note": "A made-up ad to show the parts.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Visual cue",
+          "note": "Sells fun and freedom."
+        },
+        {
+          "n": 2,
+          "label": "Headline",
+          "note": "Big, short, bold."
+        },
+        {
+          "n": 3,
+          "label": "Product",
+          "note": "Small. The feeling is bigger."
+        },
+        {
+          "n": 4,
+          "label": "Slogan",
+          "note": "Catchy and short."
+        },
+        {
+          "n": 5,
+          "label": "Call to action",
+          "note": "What to do now."
+        },
+        {
+          "n": 6,
+          "label": "Fine print",
+          "note": "The facts, in tiny type."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Break down an ad",
+      "steps": [
+        {
+          "title": "Who?",
+          "text": "Target audience.",
+          "icon": "lucide:users"
+        },
+        {
+          "title": "Feeling?",
+          "text": "The appeal.",
+          "icon": "lucide:heart"
+        },
+        {
+          "title": "Visuals?",
+          "text": "Colour, faces, layout.",
+          "icon": "lucide:image"
+        },
+        {
+          "title": "Words?",
+          "text": "Slogan, action.",
+          "icon": "lucide:type"
+        },
+        {
+          "title": "Work?",
+          "text": "Did people act?",
+          "icon": "lucide:target"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is a **target audience**?",
+        "options": [
+          "The people an ad is made for",
+          "Everyone in the world",
+          "The company that made it",
+          "People who hate ads"
+        ],
+        "answer": 0,
+        "explain": "Every ad is made for a group of people.",
+        "vc": [
+          "VM-U4O1-KS3"
+        ]
+      },
+      {
+        "q": "An ad shows friends laughing at a party with a drink. What feeling is it selling?",
+        "options": [
+          "Belonging and fun",
+          "Fear",
+          "Saving money",
+          "Safety"
+        ],
+        "answer": 0,
+        "explain": "It links the drink with fitting in and having fun.",
+        "vc": [
+          "VM-U4O1-KK2"
+        ]
+      },
+      {
+        "q": "Which is a **call to action**?",
+        "options": [
+          "“Grab yours today.”",
+          "“Live loud.”",
+          "A picture of a skater",
+          "The fine print"
+        ],
+        "answer": 0,
+        "explain": "It tells you what to do.",
+        "vc": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      {
+        "q": "Why is the product often small in an ad?",
+        "options": [
+          "The feeling matters more than the product",
+          "They forgot",
+          "It’s cheaper to print",
+          "It’s the law"
+        ],
+        "answer": 0,
+        "explain": "The big image sells the feeling.",
+        "vc": [
+          "VM-U4O1-KK2"
+        ]
+      },
+      {
+        "q": "What did Dumb Ways to Die use instead of fear?",
+        "options": [
+          "Humour",
+          "Facts and numbers",
+          "Celebrities",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Cute characters and a catchy song.",
+        "vc": [
+          "VM-U4O1-KS5"
+        ]
+      },
+      {
+        "q": "Metro said near misses dropped after the ad. Why check this?",
+        "options": [
+          "The company that paid for the ad reported it",
+          "It’s definitely false",
+          "Trains don’t have near misses",
+          "Ads always work"
+        ],
+        "answer": 0,
+        "explain": "Results from the people who paid deserve a second look.",
+        "vc": [
+          "VM-U4O1-KS5"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pick a real ad. Write who it is for, the feeling it sells, and how pictures and words help. Say if you think it works.",
+      "core": "Break down a real ad: its target audience, the feeling it sells, how visuals and words create that feeling, and whether you think it works.",
+      "extend": "Write a critical evaluation of a real ad or campaign: infer its audience, purpose and values, analyse its visual cues, layout and language, and judge its appeal and effectiveness with evidence."
+    },
+    "checklist": [
+      "I named the ad and where I saw it",
+      "I said who it’s for, with clues",
+      "I named the feeling it sells",
+      "I explained at least two visual cues",
+      "I explained the words (slogan or call to action)",
+      "I gave my verdict: does it work, and for whom?"
+    ],
+    "levelUp": "Find a second ad for the same kind of product that uses a different appeal (like fear instead of fun). Which works better, and for whom?",
+    "vc": [
+      "VM-U4O1-KK2",
+      "VM-U4O1-KS3",
+      "VM-U4O1-KS5"
+    ],
+    "model": {
+      "kind": "Example ad breakdown",
+      "text": "**Ad:** a sports drink ad on YouTube, before a basketball video.\n**Who it’s for:** teens who play sport. It shows young players at a local court.\n**The feeling:** being a winner, and being part of a team.\n**Visuals:** the player hits a shot in slow motion. Blue and white colours look cool and fresh. The bottle is in the team’s hands at the end.\n**Words:** the slogan “Earn it” makes the drink feel like a reward for hard work.\n**Does it work?** For sporty teens, yes: it’s exciting and short. But it never says what is in the drink. I’d want the facts before I buy.",
+      "why": [
+        "It uses clues from the ad to work out who it is for.",
+        "It names exact visual cues and explains what each one does.",
+        "The verdict says who it works for, and what it leaves out."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Audience and feeling",
+        "start": "Guesses, with no clues.",
+        "good": "Names both, with clues.",
+        "great": "Links them to values."
+      },
+      {
+        "skill": "Visuals and words",
+        "start": "Describes the ad.",
+        "good": "Explains two visual cues and the words.",
+        "great": "Explains how layout guides the eye."
+      },
+      {
+        "skill": "Verdict",
+        "start": "Just “it’s good”.",
+        "good": "Says if it works, and why.",
+        "great": "Says who it works for, and what’s missing."
+      }
+    ],
+    "choices": {
+      "prompt": "Which ad will you break down?",
+      "options": [
+        "A drink or food ad",
+        "A road or rail safety ad",
+        "A phone, game or tech ad",
+        "An ad for a charity or cause"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Selling a feeling",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How can you tell who an ad is for? Give **two** clues.",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS3"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name **three** feelings ads sell.",
+              "core": "Name four appeals, with an example ad for each."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KK2"
+            ]
+          },
+          {
+            "q": {
+              "support": "What do bright colours often mean in an ad?",
+              "core": "Name three kinds of visual cue, and what each can do.",
+              "extend": "Why is an ad’s appeal not the same as its effect?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KK2",
+              "VM-U4O1-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a print ad",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "What does it make you feel or do?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the ad. Use the word bank. Write what it does.",
+          "core": "Each number marks a feature. Say what it is, and how it works on the audience."
+        },
+        "wordBank": {
+          "support": [
+            "visual cue",
+            "headline",
+            "product",
+            "slogan",
+            "call to action",
+            "fine print"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Fact or feeling?",
+        "pagebreak": true,
+        "choices": [
+          "Fact",
+          "Feeling"
+        ],
+        "reasonLabel": "What does it want you to think or feel?",
+        "instructions": "Lines from ads. Does each give a fact you can check, or sell a feeling?",
+        "vc": [
+          "VM-U4O1-KS3",
+          "VM-U4O1-KK2"
+        ],
+        "cards": [
+          {
+            "from": "Drink ad",
+            "text": "“Live loud.”",
+            "answer": "Feeling",
+            "flags": "Freedom and fun."
+          },
+          {
+            "from": "Drink ad",
+            "text": "“Contains 80 mg of caffeine per can.”",
+            "answer": "Fact",
+            "flags": "Can be checked."
+          },
+          {
+            "from": "Phone ad",
+            "text": "“Join millions who already made the switch.”",
+            "answer": "Feeling",
+            "flags": "Belonging."
+          },
+          {
+            "from": "Phone ad",
+            "text": "“Battery lasts up to 20 hours of video.”",
+            "answer": "Fact",
+            "flags": "Can be checked (note “up to”)."
+          },
+          {
+            "from": "Car ad",
+            "text": "“Because your family deserves the best.”",
+            "answer": "Feeling",
+            "flags": "Values: family."
+          },
+          {
+            "from": "Rail safety ad",
+            "text": "“Stand behind the yellow line.”",
+            "answer": "Fact",
+            "flags": "A clear instruction.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Dumb Ways to Die",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What was the ad trying to get people to do?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS3"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why did it use fun, not fear?",
+              "core": "Who was the target audience? What clues tell you?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS3",
+              "VM-U4O1-KK2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Does a popular ad always change what people do?",
+              "core": "Was it effective? Use the evidence, and say why some people questioned it.",
+              "extend": "Explain the difference between appeal and effect in this case. How could effect have been measured more fairly?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my ad breakdown",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KK2",
+          "VM-U4O1-KS3",
+          "VM-U4O1-KS5"
+        ],
+        "vcNote": "Analysing and evaluating promotional material.",
+        "prompt": {
+          "support": "Pick a real ad. Write **who** it’s for, the **feeling** it sells, **two** things about the pictures, and if it **works**.",
+          "core": "Break down a real ad. Write who it’s for (with clues), the feeling it sells, how two visual cues and the words create it, and your verdict.",
+          "extend": "Evaluate a real ad or campaign. Infer its audience, purpose and values. Analyse visual cues, layout and language. Judge its appeal and effectiveness, and say what evidence you’d need."
+        },
+        "plan": [
+          {
+            "label": "The ad, and where I saw it:",
+            "lines": 1
+          },
+          {
+            "label": "What I notice first, and why:",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "Who it’s for:",
+          "The feeling:",
+          "Visuals:",
+          "Words:",
+          "Does it work?"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "audience + clues",
+          "feeling",
+          "visual cues",
+          "words",
+          "verdict"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can say who an ad is for.",
+          "I can name the feeling an ad sells.",
+          "I can explain visual cues.",
+          "I can judge if an ad works."
+        ],
+        "questions": [
+          "An ad that has worked on me:",
+          "One trick I’ll notice from now on:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to read promotional material critically: infer the target audience, name the appeal (belonging, fun, fear, status, values), analyse visual cues, layout and language (headline, slogan, call to action, fine print), and evaluate appeal versus effect. The case study is Metro Trains Melbourne’s Dumb Ways to Die (2012), a hugely popular humour-based safety campaign whose reported safety results were questioned. The final task is a written breakdown of a real ad.",
+    "prep": [
+      "Print workbooks.",
+      "Collect 4–6 current ads (print, video, social) across products and causes.",
+      "Check that the Dumb Ways to Die video is accessible on your network.",
+      "Avoid alcohol and gambling ads for younger students; check school policy."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Selling a feeling",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show an ad with the sound off. What is it selling, really?",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Sort (15 min):** fact or feeling."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Visuals and evaluation",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** the energy drink ad.",
+          "**Case study (25 min):** watch Dumb Ways to Die, then read and discuss.",
+          "**Choose (10 min):** pick an ad for the final mission."
+        ]
+      },
+      {
+        "title": "Lesson 3 — The breakdown",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (30 min).**",
+          "**Level Up (10 min):** compare two appeals.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Ads sell feelings and values as much as products.",
+      "Infer audience from people, setting, music and placement.",
+      "Appeals: belonging, fun, fear, status, values.",
+      "Visual cues: colour, faces, layout, light.",
+      "Appeal is not effect; check who reports the results."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A five-box breakdown frame.",
+        "Teacher picks one ad for everyone."
+      ],
+      "extend": [
+        "Analyse composition and typography.",
+        "Evaluate the evidence for effect in the case study."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O1-KK2",
+        "evidence": "Explains how visual cues and presentation influence an audience (annotation, breakdown)."
+      },
+      {
+        "vc": "VM-U4O1-KS3",
+        "evidence": "Infers meaning and context in promotional material: audience, purpose, appeal (sort, breakdown)."
+      },
+      {
+        "vc": "VM-U4O1-KS5",
+        "evidence": "Critically evaluates appeal and effectiveness, considering purpose and values (case study, verdict)."
+      },
+      {
+        "vc": "VM-U4O1-KK4",
+        "evidence": "Identifies the structures and features of promotional texts (annotation).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 image as visual cue (fun, freedom, belonging); 2 short bold headline; 3 product small, feeling big; 4 catchy slogan; 5 call to action; 6 fine print with the facts and warnings.\n\n**Sort:** feeling — “Live loud”; “join millions”; “your family deserves the best”. Fact — 80 mg caffeine; battery up to 20 hours (note “up to”); stand behind the yellow line.\n\n**Case study:** purpose was to reduce risky behaviour around trains; humour rather than fear; aimed at young people (cartoon style, catchy song, shared online); Metro reported a 20% drop in near misses, but said it was too early to be sure, an awards judge noted gaps, and later reports suggested a rise. Popular is not the same as effective.",
+    "resources": [
+      {
+        "label": "Mumbrella — Has Dumb Ways to Die been effective?",
+        "url": "https://mumbrella.com.au/dumb-ways-die-stopped-dumb-behavior-around-trains-270751"
+      },
+      {
+        "label": "Mumbrella — Dumb Ways to Die results reported by Metro",
+        "url": "https://mumbrella.com.au/?p=138464"
+      },
+      {
+        "label": "ACCC — advertising and promotions",
+        "url": "https://www.accc.gov.au/consumers/advertising-and-promotions"
+      }
+    ],
+    "realityCheck": [
+      "**Dumb Ways to Die shows cartoon deaths.** It’s mild, but warn students first, and be aware of any recent rail incidents in your community.",
+      "**Students love picking apart ads.** The challenge is getting past “it’s cringe” to how and why. The five questions keep them on task.",
+      "**Effectiveness claims are contested.** The course presents Metro’s figures and the doubts; don’t present either as settled.",
+      "**Works in a real class:** yes. Sound-off viewing is a strong hook."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a breakdown frame.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with audience, appeals, visual cues and a verdict.",
+      "extend": "Aimed at about Year 7 and up: values, composition, appeal versus effect, and the source of evidence."
+    }
+  }
+}

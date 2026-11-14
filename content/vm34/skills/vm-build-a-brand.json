@@ -1,0 +1,924 @@
+{
+  "id": "vm-build-a-brand",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Think of a brand you know. You know its colours. You know how it talks. You know what it stands for. Now make your own.",
+      "core": "Close your eyes and picture a brand you love. You can probably see its colours, hear how it talks, and say what it stands for. That’s not luck. Every part was chosen to send one clear message. This is the Advocate boss mission: you’ll build a brand of your own.",
+      "extend": "A brand is a promise, kept the same everywhere. A name, a look, a voice and a set of values all send one message to one audience. Building one draws on this whole zone. You’ll use language for an audience, visual cues, platform features and evaluation."
+    },
+    "why": {
+      "support": "Brands are everywhere. Making one shows you how they work.",
+      "core": "Small businesses, clubs, bands and causes all need a brand. Knowing how to build one, and why it works, is a real skill.",
+      "extend": "Branding mixes writing, design and planning. It’s key to marketing, small business and community work. It also sharpens how you read every brand around you."
+    },
+    "canDo": {
+      "support": [
+        "I can make a name, slogan and look for a brand.",
+        "I can make posts that match my brand.",
+        "I can fix my work after feedback."
+      ],
+      "core": [
+        "I can plan a brand with one clear message.",
+        "I can choose words and visuals that suit my audience.",
+        "I can create a set of matching promotional material.",
+        "I can draft, get feedback and revise."
+      ],
+      "extend": [
+        "I can design a brand with one message, voice and look.",
+        "I can choose words and visuals for an audience.",
+        "I can create a set of promotional material.",
+        "I can judge its appeal and revise it."
+      ]
+    },
+    "showIt": "Build a brand for yourself, a product or a community group: name, logo, slogan, voice and three posts with one clear message. Test it and revise it.",
+    "vocab": [
+      {
+        "word": "brand",
+        "meaning": "the name, look and personality of a business, group or person",
+        "example": "The brand is bright and cheeky."
+      },
+      {
+        "word": "logo",
+        "meaning": "a symbol or design for a brand",
+        "example": "The logo is a simple leaf."
+      },
+      {
+        "word": "slogan",
+        "meaning": "a short, catchy line linked to a brand",
+        "example": "Our slogan is “Fresh every day”."
+      },
+      {
+        "word": "brand voice",
+        "meaning": "the way a brand talks",
+        "example": "Our brand voice is friendly and funny."
+      },
+      {
+        "word": "consistent",
+        "meaning": "the same every time",
+        "example": "Keep your colours consistent."
+      },
+      {
+        "word": "values",
+        "meaning": "what a brand says it cares about",
+        "example": "Our values are fairness and fun."
+      },
+      {
+        "word": "target audience",
+        "meaning": "the people a brand is for",
+        "example": "Our target audience is young skaters.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "brand guide",
+        "meaning": "a page of rules for how a brand looks and sounds",
+        "example": "Check the brand guide for the colours.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Build a Brand in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Build a Brand",
+        "sub": "Logo, slogan, posts — one clear message.",
+        "icon": "lucide:sparkles",
+        "say": "Build a brand. Logo, slogan, posts. One clear message."
+      },
+      {
+        "kind": "big",
+        "title": "One message",
+        "text": "What do you want people to feel and remember?",
+        "icon": "lucide:message-square",
+        "say": "Start with one message. What do you want people to feel, and remember?",
+        "vc": [
+          "VM-U4O1-KK1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "The brand kit",
+        "steps": [
+          "Name.",
+          "Logo.",
+          "Colours.",
+          "Slogan.",
+          "Voice: how it talks."
+        ],
+        "icon": "lucide:palette",
+        "say": "A brand kit has a name, a logo, colours, a slogan, and a voice: the way the brand talks.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Rule",
+        "pillIcon": "lucide:repeat",
+        "title": "Be consistent",
+        "text": "Same colours, same voice, every time.",
+        "icon": "lucide:copy",
+        "say": "Be consistent. Same colours, same voice, every time.",
+        "vc": [
+          "VM-U4O1-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Rule",
+        "pillIcon": "lucide:repeat",
+        "title": "Know who it’s for",
+        "text": "Every choice suits your audience.",
+        "icon": "lucide:users",
+        "say": "Know who it is for. Every choice should suit your audience.",
+        "vc": [
+          "VM-U4O1-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Rule",
+        "pillIcon": "lucide:repeat",
+        "title": "Test it",
+        "text": "Ask your audience. Then fix it.",
+        "icon": "lucide:messages-square",
+        "say": "Test it. Ask your audience what they think. Then fix it.",
+        "vc": [
+          "VM-U4O1-KS6"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Build a brand. Test it. Revise it.",
+        "icon": "lucide:sparkles",
+        "say": "Your mission. Build a brand, test it, and revise it."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "More than a logo",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "A **brand** is more than a **logo**. It is the whole feel of a business, group or person.\n\n**Start with one message.** What do you want people to think and feel? Say it in one sentence.\n\n**Make a brand kit:**\n- **Name:** short and easy to say.\n- **Logo:** a simple picture or design.\n- **Colours:** two or three, used every time.\n- **Slogan:** a short, catchy line.\n- **Brand voice:** how your brand talks. Funny? Calm? Bold?\n.\n**Be consistent.** Use the same colours and voice every time. Then people will know it’s you.\n\n**Think about your audience.** Bright colours and jokes might suit kids. Calm colours might suit a health clinic.\n\n**Test it.** Show people. Ask what they think it stands for. If they get it wrong, fix it.",
+          "core": "A **brand** is the whole personality of a business, group or person: its name, look, voice and **values**. A good brand sends one clear message, everywhere it appears.\n\n**1. Start with the message and audience.**\n- Who is it for? Be specific: “young skaters in our town”, not “everyone”.\n- What should they feel and remember? Write it in one sentence.\n.\n**2. Build the brand kit.**\n- **Name:** short, easy to say and spell, and fits the feeling.\n- **Logo:** simple enough to draw from memory; works in black and white.\n- **Colours:** two or three. Colours send messages: green for nature, red for energy, blue for trust.\n- **Slogan:** short and catchy. Rhythm, rhyme or a twist help.\n- **Brand voice:** how the brand talks. Is it cheeky, calm, bold or caring?\n.\n**3. Make it consistent.** Every poster, post and sign should use the same colours and voice. Consistency builds trust and makes the brand easy to recognise.\n\n**4. Create the material.** Posts, a poster, a label or a webpage, all carrying the same message.\n\n**5. Test, revise and edit.** Show it to your audience. Ask: what does this brand stand for? Who is it for? Would you buy or join? Fix what they didn’t get. Edit spelling and punctuation last.",
+          "extend": "A **brand** is the sum of the choices that make a business, group or person recognisable: name, visual identity, voice and **values**. Strong brands are **consistent**. Every touchpoint reinforces the same message for the same **target audience**.\n\n**Strategy first.**\n- **audience:** a specific group, with needs and values you can name.\n- **message:** what the brand should make them think and feel, in one sentence.\n- **values:** what the brand stands for, such as sustainability, fun, fairness or quality.\n\n**Identity.**\n- **name:** memorable, pronounceable, and suited to the message.\n- **logo:** simple, scalable, recognisable in one colour.\n- **colour and type:** colours carry associations (green with nature, blue with trust, orange with energy); fonts carry tone.\n- **slogan:** compressed message, often using rhythm, rhyme or wordplay.\n\n**Voice.** A **brand voice** sets word choice, sentence length, humour and formality. A **brand guide** records these rules, so anyone can create on-brand material.\n\n**Material.** A brand comes alive across a set of texts: social posts, a poster, packaging, a webpage. Each uses its platform’s features but stays consistent in message, look and voice.\n\n**Evaluate and revise.** Test with the target audience. Can they say what the brand stands for, and who it’s for? Revise strategy and identity first, then edit the copy."
+        },
+        "vc": [
+          "VM-U4O1-KK1",
+          "VM-U4O1-KK2",
+          "VM-U4O1-KS4",
+          "VM-U4O1-KS6"
+        ],
+        "vcNote": "Language, visuals and audience in brand design; creating promotional material; drafting and revising."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The man on the toilet",
+        "icon": "lucide:package",
+        "body": {
+          "support": "In **2012**, three friends in **Melbourne** started a business. It sold **toilet paper**.\n\nThey called it **Who Gives A Crap**. The name was cheeky. It made people laugh.\n\nThey needed money to start. So one of them, **Simon Griffiths**, sat on a toilet in a warehouse. He said he would not get up until people had ordered **$50,000** of toilet paper.\n\nIt was streamed live online. He sat there for **50 hours**. Then they reached their goal.\n\nThe company says it gives half its profits to help build toilets in poor countries.\n\nThe name, the stunt and the cause all sent one message: funny, but doing good.",
+          "core": "In **July 2012**, three friends in **Melbourne** launched a toilet paper company. They gave it a name you don’t forget: **Who Gives A Crap**.\n\nTo raise money to start, co-founder **Simon Griffiths** sat on a toilet in an empty warehouse. It was streamed live online. He promised not to get up until people had ordered **$50,000** of toilet paper.\n\nHe sat there for **50 hours**. The campaign hit its target, and the first rolls were delivered in 2013.\n\nThe company says it gives half its profits to help build toilets in poorer countries.\n\nEverything about the brand matches. A cheeky name. A stunt that made people laugh. Bright paper wrappers. And a serious cause underneath. It is **funny on the outside, doing good on the inside**.",
+          "extend": "In **July 2012**, three Melbourne friends launched **Who Gives A Crap**, a toilet paper company with a social mission. Co-founder **Simon Griffiths** raised the start-up money with a stunt: he sat on a toilet in an empty warehouse, streamed live, and promised not to stand until the crowdfunding campaign reached **$50,000** in pre-orders.\n\nHe stayed for **50 hours**, and the target was met. The first product shipped in 2013. In 2021, CNBC reported the company had raised $30 million from investors.\n\nThe company says it donates 50% of its profits to sanitation charities.\n\nThe brand is a study in consistency. The name is irreverent. The launch stunt was absurd but memorable. The packaging is bright and playful. The voice is cheeky, and the mission is serious. Each choice reinforces one message for one audience: people who want everyday shopping to do some good, without being lectured.\n\nIt shows that humour and a serious cause can sit inside one brand, as long as every piece points the same way."
+        },
+        "source": {
+          "name": "CNBC — “This CEO sat on a toilet for 50 hours to raise funds. Now, investors are giving him $30 million” (October 2021)",
+          "url": "https://www.cnbc.com/2021/10/07/this-ceo-sat-on-a-toilet-for-50-hours-to-raise-funds-for-sanitation.html"
+        },
+        "think": {
+          "support": [
+            "Why is the name easy to remember?",
+            "What did Simon Griffiths do to raise money?"
+          ],
+          "core": [
+            "How do the name, the stunt and the cause send one message?",
+            "Who do you think the brand is for?",
+            "Would a serious name have worked as well? Why or why not?"
+          ],
+          "extend": [
+            "How does this brand combine humour and a serious cause?",
+            "Which choices make the brand consistent?",
+            "What are the risks of a cheeky brand name?"
+          ]
+        },
+        "vc": [
+          "VM-U4O1-KS5"
+        ],
+        "vcNote": "Evaluating the appeal of a real brand and the consistency of its choices."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a brand guide",
+      "docTitle": "BRAND GUIDE: “KICKBACK” SKATE REPAIRS (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U4O1-KK1",
+        "VM-U4O1-KK2",
+        "VM-U4O1-KS4"
+      ],
+      "vcNote": "The parts of a brand and how language and visuals combine.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Message",
+          "value": "Fix your board fast, so you can get back to skating.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Audience",
+          "value": "Skaters aged 12–20 in our town."
+        },
+        {
+          "n": 3,
+          "label": "Logo",
+          "value": "A skateboard wheel with a spanner through it."
+        },
+        {
+          "n": 4,
+          "label": "Colours",
+          "value": "Bright orange and black."
+        },
+        {
+          "n": 5,
+          "label": "Slogan",
+          "value": "Broke it? We fix it."
+        },
+        {
+          "n": 6,
+          "label": "Voice",
+          "value": "Short, friendly, a bit cheeky. Never rude.",
+          "rule": true
+        },
+        {
+          "n": 7,
+          "label": "Values",
+          "value": "Fast, fair prices, local."
+        }
+      ],
+      "note": "A made-up example to show the parts of a brand.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Message",
+          "note": "One sentence."
+        },
+        {
+          "n": 2,
+          "label": "Audience",
+          "note": "Specific, not “everyone”."
+        },
+        {
+          "n": 3,
+          "label": "Logo",
+          "note": "Simple, easy to draw."
+        },
+        {
+          "n": 4,
+          "label": "Colours",
+          "note": "Energy and street style."
+        },
+        {
+          "n": 5,
+          "label": "Slogan",
+          "note": "Short, with rhythm."
+        },
+        {
+          "n": 6,
+          "label": "Voice",
+          "note": "How it talks, every time."
+        },
+        {
+          "n": 7,
+          "label": "Values",
+          "note": "What it stands for."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Build a brand",
+      "steps": [
+        {
+          "title": "Message",
+          "text": "One sentence.",
+          "icon": "lucide:message-square"
+        },
+        {
+          "title": "Kit",
+          "text": "Name, logo, colours.",
+          "icon": "lucide:palette"
+        },
+        {
+          "title": "Voice",
+          "text": "How it talks.",
+          "icon": "lucide:mic"
+        },
+        {
+          "title": "Make",
+          "text": "Three posts.",
+          "icon": "lucide:layout-grid"
+        },
+        {
+          "title": "Test",
+          "text": "Then revise.",
+          "icon": "lucide:refresh-cw"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is a **brand**?",
+        "options": [
+          "The whole look and personality of a business, group or person",
+          "Just a logo",
+          "A price tag",
+          "A type of shop"
+        ],
+        "answer": 0,
+        "explain": "A brand is more than a logo.",
+        "vc": [
+          "VM-U4O1-KK1"
+        ]
+      },
+      {
+        "q": "What does **consistent** mean for a brand?",
+        "options": [
+          "The same colours and voice every time",
+          "Changing the logo every week",
+          "Using every colour",
+          "Never posting"
+        ],
+        "answer": 0,
+        "explain": "Consistency makes a brand easy to recognise.",
+        "vc": [
+          "VM-U4O1-KK2"
+        ]
+      },
+      {
+        "q": "Which audience is most specific?",
+        "options": [
+          "Skaters aged 12–20 in our town",
+          "Everyone",
+          "People",
+          "Anyone who likes stuff"
+        ],
+        "answer": 0,
+        "explain": "A clear audience helps every choice.",
+        "vc": [
+          "VM-U4O1-KK1"
+        ]
+      },
+      {
+        "q": "What is **brand voice**?",
+        "options": [
+          "The way a brand talks",
+          "A jingle",
+          "The owner’s real voice",
+          "A phone number"
+        ],
+        "answer": 0,
+        "explain": "Cheeky, calm, bold or caring: it should stay the same.",
+        "vc": [
+          "VM-U4O1-KK1"
+        ]
+      },
+      {
+        "q": "Green is often linked with…",
+        "options": [
+          "Nature",
+          "Danger",
+          "Luxury",
+          "Night"
+        ],
+        "answer": 0,
+        "explain": "Colours send messages.",
+        "vc": [
+          "VM-U4O1-KK2"
+        ]
+      },
+      {
+        "q": "How did Who Gives A Crap’s launch match its brand?",
+        "options": [
+          "It was funny, like the name",
+          "It was very serious",
+          "It was secret",
+          "It had no link to the brand"
+        ],
+        "answer": 0,
+        "explain": "The cheeky stunt matched the cheeky name.",
+        "vc": [
+          "VM-U4O1-KS5"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Make a brand. Give it a name, a logo, colours, a slogan and a voice. Make three posts. Show people and fix it.",
+      "core": "Build a brand for yourself, a product or a community group. Create a brand kit and three matching posts with one clear message. Get feedback from your audience and revise.",
+      "extend": "Design a brand with a consistent message, look and voice for a specific audience. Create a set of promotional material. Test its appeal with your audience. Then revise and edit."
+    },
+    "checklist": [
+      "My brand has one clear message",
+      "I named a specific audience",
+      "I have a name, logo, colours, slogan and voice",
+      "My three posts all look and sound the same",
+      "I got feedback and made changes",
+      "I checked spelling and punctuation last"
+    ],
+    "levelUp": "Write a one-page brand guide that someone else could use to make a fourth post. Then ask them to make it. Does it look and sound like your brand?",
+    "vc": [
+      "VM-U4O1-KS4",
+      "VM-U4O1-KK1",
+      "VM-U4O1-KK2",
+      "VM-U4O1-KS6"
+    ],
+    "solo": "No audience to test with? Show your posts to a family member without telling them about the brand. Ask what they think it stands for, and who it’s for. Or wait a day, then check your posts against your brand guide yourself.",
+    "model": {
+      "kind": "Example brand kit and post",
+      "text": "**Brand:** Second Serve (a pop-up op shop for sports gear)\n**Message:** Good gear shouldn’t sit in a cupboard. Pass it on.\n**Audience:** families with kids in local sport.\n**Logo:** a tennis ball with a recycling arrow around it.\n**Colours:** grass green and white.\n**Slogan:** Play it again.\n**Voice:** friendly, short, upbeat.\n**Post 1:** [Photo: a pile of footy boots] Outgrown your boots? Someone’s about to grow into them. Drop them at Second Serve this Saturday. #PlayItAgain",
+      "why": [
+        "The message, slogan and post all say the same thing: pass it on.",
+        "The colours and logo link sport with recycling.",
+        "The post uses the brand voice: friendly, short and upbeat."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Brand kit",
+        "start": "Parts missing.",
+        "good": "Name, logo, colours, slogan and voice.",
+        "great": "Every part fits the message."
+      },
+      {
+        "skill": "Consistency",
+        "start": "Posts look different.",
+        "good": "Posts share colours and voice.",
+        "great": "All three clearly belong to one brand."
+      },
+      {
+        "skill": "Test and revise",
+        "start": "No feedback.",
+        "good": "Feedback and two changes.",
+        "great": "Changes based on what the audience didn’t get."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you brand?",
+      "options": [
+        "Yourself (a personal or side-hustle brand)",
+        "A product or small business idea",
+        "A community group or club",
+        "An event, like a school fundraiser"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: More than a logo",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What is a brand? Why is it more than a logo?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KK1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name the **five** parts of a brand kit.",
+              "core": "Name the five parts of a brand kit, with a tip for each."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why should a brand use the same colours every time?",
+              "core": "Why does consistency matter? Give an example of a brand you know.",
+              "extend": "How do colour and type carry tone? Give two examples."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KK2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a brand guide",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "How does it fit the message?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the brand guide. Use the word bank. Write what it does.",
+          "core": "Each number marks a part. Say what it is, and how it suits the audience."
+        },
+        "wordBank": {
+          "support": [
+            "message",
+            "audience",
+            "logo",
+            "colours",
+            "slogan",
+            "voice",
+            "values"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "On brand or off brand?",
+        "pagebreak": true,
+        "choices": [
+          "On brand",
+          "Off brand"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Kickback Skate Repairs is fast, local and a bit cheeky, in orange and black. Is each post on brand?",
+        "vc": [
+          "VM-U4O1-KK1",
+          "VM-U4O1-KK2"
+        ],
+        "cards": [
+          {
+            "from": "Post",
+            "text": "Snapped your deck? Bring it in. Back on it by Friday.",
+            "answer": "On brand",
+            "flags": "Short, friendly, fast."
+          },
+          {
+            "from": "Post",
+            "text": "We wish to advise our valued customers of revised trading hours.",
+            "answer": "Off brand",
+            "flags": "Too formal."
+          },
+          {
+            "from": "Post",
+            "text": "A pastel pink and gold poster with a fancy font.",
+            "answer": "Off brand",
+            "flags": "Wrong colours and feel."
+          },
+          {
+            "from": "Post",
+            "text": "Broke it? We fix it. Orange logo, black background.",
+            "answer": "On brand",
+            "flags": "Slogan and colours."
+          },
+          {
+            "from": "Post",
+            "text": "Only losers break their boards lol.",
+            "answer": "Off brand",
+            "flags": "Cheeky is fine. Rude is not."
+          },
+          {
+            "from": "Post",
+            "text": "Local kid, local shop. New wheels in stock.",
+            "answer": "On brand",
+            "flags": "Values: local.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the man on the toilet",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did Simon Griffiths do to raise money?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS5"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why is the name easy to remember?",
+              "core": "How do the name, the stunt and the cause send one message?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS5"
+            ]
+          },
+          {
+            "q": {
+              "support": "Would you buy it? Why?",
+              "core": "Who is the brand for? Would a serious name have worked as well?",
+              "extend": "What are the risks of a cheeky brand name? Do the benefits outweigh them here?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Plan: my brand kit",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KK1",
+          "VM-U4O1-KK2",
+          "VM-U4O1-KS4"
+        ],
+        "vcNote": "Designing a brand: language and visual choices for audience and purpose.",
+        "prompt": {
+          "support": "Fill in your brand kit: **message, audience, name, logo, colours, slogan, voice**. Sketch your logo in the box.",
+          "core": "Plan your brand kit. Write your message and audience first. Then choose a name, logo, colours, slogan and voice that all fit. Sketch the logo.",
+          "extend": "Write a brand guide: audience, message and values first, then name, logo, colours, type, slogan and voice. Explain how each choice suits the audience."
+        },
+        "starters": [
+          "Message:",
+          "Audience:",
+          "Name:",
+          "Logo (sketch):",
+          "Colours:",
+          "Slogan:",
+          "Voice:"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "message first",
+          "specific audience",
+          "every part fits"
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: three posts",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KS4",
+          "VM-U4O1-KK2"
+        ],
+        "vcNote": "Creating a consistent set of promotional material.",
+        "prompt": {
+          "support": "Make **three posts** for your brand. Use your colours, slogan and voice. Sketch the picture for each.",
+          "core": "Create three posts for your brand. Each uses your colours, logo and voice, and carries your message. Sketch each picture and write the caption.",
+          "extend": "Create three posts for your brand, each with a different purpose (introduce, show, ask). Keep message, identity and voice consistent."
+        },
+        "starters": [
+          "Post 1 (picture + caption):",
+          "Post 2 (picture + caption):",
+          "Post 3 (picture + caption):"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "same colours",
+          "same voice",
+          "same message"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Test and revise",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KS6",
+          "VM-U4O1-KS5"
+        ],
+        "instructions": "Show your posts to two people from your audience. Don’t explain them first. (No one to ask? Show a family member, or wait a day and check them against your brand kit.)",
+        "items": [
+          {
+            "q": "What did they think your brand stands for? Who did they think it’s for?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS5"
+            ]
+          },
+          {
+            "q": "Would they buy, join or follow? Why or why not?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS5"
+            ]
+          },
+          {
+            "q": "Two changes I made (message, name, colours, voice or posts):",
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS6"
+            ]
+          },
+          {
+            "q": "Edits I made (spelling, punctuation):",
+            "lines": 1,
+            "vc": [
+              "VM-U4O1-KS6"
+            ]
+          },
+          {
+            "q": {
+              "support": "Is my brand better now? Why?",
+              "core": "How well does my brand work for its audience now? What would make it stronger?",
+              "extend": "Evaluate your brand’s appeal and consistency, using your audience’s feedback as evidence."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "My brand has one clear message.",
+          "My choices suit my audience.",
+          "My posts are consistent.",
+          "I tested and revised my brand."
+        ],
+        "questions": [
+          "The part of my brand I’m proudest of:",
+          "The skill from Advocate I used most:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The Advocate boss mission. Students design a brand for themselves, a product or a community group: one message, a specific audience, and a brand kit (name, logo, colours, slogan, voice), then three consistent posts. They test it with their audience, revise and edit. The case study is Who Gives A Crap (Melbourne, 2012), whose cheeky name, 50-hour toilet-sitting launch stunt and serious sanitation cause all point the same way.",
+    "prep": [
+      "Print workbooks.",
+      "Coloured pencils or devices for logos and posts.",
+      "Collect a few strong local brands (cafés, clubs) to discuss.",
+      "Students should have done Brand You, Why Ads Work or One Message first; this mission draws on all three."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What a brand is",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** name a brand from its colours alone.",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Sort (15 min):** on brand or off brand."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan the brand",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the Kickback brand guide.",
+          "**Case study (15 min):** Who Gives A Crap.",
+          "**Plan (25 min):** brand kit and logo sketch."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Make the posts",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (50 min):** three posts."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Test and revise",
+        "minutes": 50,
+        "steps": [
+          "**Test (20 min):** show two audience members.",
+          "**Revise and edit (20 min).**",
+          "**Reflect (10 min):** reflection and sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Message and audience first.",
+      "Brand kit: name, logo, colours, slogan, voice.",
+      "Colours and words carry feelings.",
+      "Consistency builds recognition and trust.",
+      "Test with the audience; revise big things, then edit."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Brand kit frame with boxes.",
+        "Two posts instead of three."
+      ],
+      "extend": [
+        "Write a full brand guide and test it on someone else (Level Up).",
+        "Give each post a different purpose."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O1-KS4",
+        "evidence": "Designs and creates promotional material appropriate for context and audience (brand kit, posts)."
+      },
+      {
+        "vc": "VM-U4O1-KK1",
+        "evidence": "Links language choices to audience and purpose (brand voice, captions)."
+      },
+      {
+        "vc": "VM-U4O1-KK2",
+        "evidence": "Uses visual cues and presentation to influence (logo, colours, layout)."
+      },
+      {
+        "vc": "VM-U4O1-KS6",
+        "evidence": "Drafts, edits and revises, showing changes after feedback (test and revise page)."
+      },
+      {
+        "vc": "VM-U4O1-KS5",
+        "evidence": "Evaluates appeal and effectiveness, considering values (case study, final evaluation).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 one-sentence message; 2 specific audience; 3 simple logo; 4 colours for energy and street style; 5 short slogan with rhythm; 6 consistent voice; 7 values.\n\n**Sort:** on brand — “snapped your deck”; slogan with orange and black; “local kid, local shop”. Off brand — formal trading-hours notice; pastel pink and gold; “only losers…” (rude, not cheeky).\n\n**Case study:** Griffiths sat on a toilet for 50 hours, streamed live, until $50,000 in pre-orders came in (July 2012); the cheeky name, funny stunt, playful wrappers and serious cause all send one message: funny on the outside, doing good inside.",
+    "resources": [
+      {
+        "label": "CNBC — the CEO who sat on a toilet for 50 hours (2021)",
+        "url": "https://www.cnbc.com/2021/10/07/this-ceo-sat-on-a-toilet-for-50-hours-to-raise-funds-for-sanitation.html"
+      },
+      {
+        "label": "Business Victoria — branding your business",
+        "url": "https://business.vic.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**The brand name includes “crap”.** It’s mild and it’s the real name, but check it suits your school community.",
+      "**Logo design can stall students who “can’t draw”.** Stress simple shapes; free design tools are fine.",
+      "**Personal brands:** some students prefer a product or club. Offer all options.",
+      "**Works in a real class:** yes. The “on brand or off brand” sort makes consistency obvious, and students enjoy testing posts on each other."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank, brand kit frame and two posts.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with message, audience, brand kit, three posts and testing.",
+      "extend": "Aimed at about Year 7 and up: brand strategy, values, a brand guide, purposeful posts and evidence-based evaluation."
+    }
+  }
+}

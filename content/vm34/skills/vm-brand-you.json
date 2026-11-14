@@ -1,0 +1,801 @@
+{
+  "id": "vm-brand-you",
+  "version": 1,
+  "duration": "2 lessons (about 1.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You apply for a job. The boss types your name into Google. What do they find? That is your brand. You can shape it.",
+      "core": "You apply for an apprenticeship. Before they call you, the boss searches your name. What comes up: a party pic from two years ago, or a profile that says who you are and what you can do? Whether you like it or not, you already have a personal brand. This course is about taking control of it.",
+      "extend": "A personal brand is the impression people form of you from what they can see: your profiles, posts and how you describe yourself. Employers, clients and customers look. Learning to shape that impression on purpose is a literacy skill: choosing words, layout and tone for an audience."
+    },
+    "why": {
+      "support": "Bosses often look you up. A good profile can help you get the job.",
+      "core": "Many employers check social media before they hire. A clear, honest profile helps you stand out for the right reasons.",
+      "extend": "Your online presence is often your first impression. Writing it for a real audience and purpose is a skill you’ll use for every job, course or side hustle."
+    },
+    "canDo": {
+      "support": [
+        "I know what a personal brand is.",
+        "I can choose words that suit a boss.",
+        "I can write a short profile about me."
+      ],
+      "core": [
+        "I can explain how language choices suit an audience and purpose.",
+        "I can identify the layout and parts of a profile.",
+        "I can write a short profile for a job or side hustle."
+      ],
+      "extend": [
+        "I can analyse how language choices fit audience and purpose.",
+        "I can identify the layout and design of profiles.",
+        "I can choose the right tone for different platforms.",
+        "I can create a profile that promotes me well."
+      ]
+    },
+    "showIt": "Write a short profile that promotes you for a job, apprenticeship or side hustle.",
+    "vocab": [
+      {
+        "word": "personal brand",
+        "meaning": "the picture people get of you from what they see",
+        "example": "My personal brand says I’m reliable."
+      },
+      {
+        "word": "profile",
+        "meaning": "a short page about you",
+        "example": "I updated my SEEK profile."
+      },
+      {
+        "word": "headline",
+        "meaning": "the short line under your name",
+        "example": "My headline is “Apprentice chef, Bendigo”."
+      },
+      {
+        "word": "audience",
+        "meaning": "the people you want to reach",
+        "example": "My audience is local employers."
+      },
+      {
+        "word": "tone",
+        "meaning": "how your words sound",
+        "example": "Keep a friendly, professional tone."
+      },
+      {
+        "word": "privacy settings",
+        "meaning": "controls for who sees your posts",
+        "example": "I set my account to private.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "platform",
+        "meaning": "an app or site where people share things",
+        "example": "LinkedIn is a work platform.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Brand You in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Brand You",
+        "sub": "What do people find when they look you up?",
+        "icon": "lucide:id-card",
+        "say": "Brand you. What do people find when they look you up?"
+      },
+      {
+        "kind": "stat",
+        "big": "70%",
+        "title": "of employers in a 2018 US survey used social media to check job applicants",
+        "sub": "CareerBuilder survey of 1,012 hiring managers",
+        "say": "In a 2018 survey in the United States, seventy percent of employers said they use social media to check people who apply for jobs.",
+        "vc": [
+          "VM-U4O1-KK1"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Who is looking?",
+        "text": "A boss? Customers? Mates? Each needs different words.",
+        "icon": "lucide:users",
+        "say": "Who is looking? A boss? Customers? Your mates? Each audience needs different words.",
+        "vc": [
+          "VM-U4O1-KK1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "A good profile",
+        "steps": [
+          "A clear photo.",
+          "A headline: who you are.",
+          "About: two or three lines.",
+          "Skills and experience.",
+          "How to contact you."
+        ],
+        "icon": "lucide:layout-template",
+        "say": "A good profile has a clear photo. A headline that says who you are. A short about section. Your skills and experience. And how to contact you.",
+        "vc": [
+          "VM-U4O1-KS1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Swap",
+        "pillIcon": "lucide:repeat",
+        "title": "“I’m a hard worker”",
+        "text": "→ “I’ve never missed a shift.”",
+        "icon": "lucide:sparkles",
+        "say": "Swap vague words for proof. Instead of I am a hard worker, say I have never missed a shift.",
+        "vc": [
+          "VM-U4O1-KK1"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Write a profile that promotes you.",
+        "icon": "lucide:id-card",
+        "say": "Your mission. Write a short profile that promotes you."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "You already have a brand",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Your **personal brand** is the picture people get of you. It comes from what they see online.\n\n**Who looks?**\n- bosses.\n- customers.\n- people you might work with.\n\n**Check what they see.** Search your name. Look at your public posts. Set personal accounts to private.\n\n**Write a profile.** A **profile** is a short page about you. It has:\n- a clear photo.\n- a **headline**: who you are.\n- a few lines about you.\n- your skills.\n- how to contact you.\n\n**Choose your words.** Think about your **audience**. A boss wants to know you are reliable. Show it.\n\n- Not great: I’m a hard worker.\n- Better: I’ve never missed a shift.\n.\nKeep your **tone** friendly and polite. Check your spelling.",
+          "core": "Your **personal brand** is the impression people get of you from what they can see: your profiles, posts and photos. Everyone has one. The question is whether you shape it.\n\n**Who’s looking?** Employers, customers, clients, and people you might work with. In a 2018 US survey, 70% of employers said they check social media before hiring.\n\n**Step 1: Check.** Search your name. Look at your public posts and photos as a boss would. Use **privacy settings** on personal accounts.\n\n**Step 2: Build a profile.** Work **platforms** like LinkedIn or SEEK have a set layout:\n- **photo:** clear, friendly, just you.\n- **headline:** who you are, in a few words (“Year 12 student | Apprentice carpenter in training”).\n- **about:** two or three sentences about you and what you want.\n- **skills and experience:** jobs, sport, volunteering, certificates.\n- **contact:** a sensible email.\n\n**Step 3: Choose your words for your audience.**\n- Give proof, not claims. “I’ve never missed a shift” beats “I’m a hard worker”.\n- Use action words: led, built, served, fixed.\n- Match the **tone** to the platform. LinkedIn is professional. An Instagram page for a side hustle can be more relaxed.\n- Be honest. Everything should be true in an interview.",
+          "extend": "Your **personal brand** is the impression others form of you from what they can find: profiles, posts, photos and how you describe yourself. You can’t opt out of having one, but you can shape it.\n\n**Audience.** Employers, clients and customers all look. In a 2018 US survey of hiring managers, 70% said they use social media to screen candidates. Of those, 57% had found something that led them not to hire someone.\n\n**Audit.** Search your name, check what’s public, and use **privacy settings** on personal accounts.\n\n**Layout and structure.** Professional **platforms** use a fixed structure, so readers can scan:\n- **photo:** clear and appropriate.\n- **headline:** role and goal in a few words.\n- **about:** a short summary in your own voice.\n- **experience and skills:** paid work, volunteering, sport, certificates.\n- **contact:** a professional email.\n\n**Language choices.** Every word should suit the audience and purpose:\n- evidence over claims: “trained three new staff” beats “great leader”.\n- action verbs and specific numbers.\n- a **tone** that fits the platform: formal on LinkedIn, more relaxed for a side-hustle page, never careless.\n- honesty: anything you claim may be tested in an interview.\n\nThe same person might write three versions: one for an employer, one for clients, and one for friends."
+        },
+        "vc": [
+          "VM-U4O1-KK1",
+          "VM-U4O1-KS1",
+          "VM-U4O1-KS2"
+        ],
+        "vcNote": "Language choices for audience and purpose; the layout and structure of profiles; techniques for different settings."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The boss is looking",
+        "icon": "lucide:search",
+        "body": {
+          "support": "In **2018**, a US jobs website called **CareerBuilder** did a survey. More than **1,000** bosses who hire people answered it.\n\n**70%** of them said they look at social media to check people who apply for jobs.\n\nSome found things that made them say no. Others liked what they saw.\n\nThis survey was in the US. But Australian bosses can look you up too.\n\nWhat would a boss find about you?",
+          "core": "In **2018**, the US jobs website **CareerBuilder** surveyed **1,012** hiring managers. The Harris Poll ran the survey.\n\n**70%** said they use social media to research job candidates.\n\nOf those who did, **57%** had found something that made them decide **not** to hire someone.\n\nThe survey was done in the United States. Australian employers aren’t counted in it. But anyone can search your name, here or anywhere.\n\nSo it pays to check what’s public, and to give employers something good to find.",
+          "extend": "In **2018**, the US jobs site **CareerBuilder** commissioned The Harris Poll to survey **1,012** hiring and HR managers.\n\n**70%** said they use social networking sites to research job candidates. Of those, **57%** said they had found content that caused them not to hire a candidate.\n\nThe survey was in the United States, so it doesn’t tell us exactly what Australian employers do. Its results also depend on what managers chose to report.\n\nStill, the lesson travels. A personal brand is built from what’s visible. Two moves follow: limit what shouldn’t be public, and create something worth finding."
+        },
+        "source": {
+          "name": "WTOP News — “Clean up your ‘digital dirt’; bosses check your social media profiles” (August 2018, reporting a CareerBuilder survey)",
+          "url": "https://wtop.com/business-finance/2018/08/checking-you-out-online-is-now-sop-for-the-boss-so-clean-up-your-digital-dirt"
+        },
+        "think": {
+          "support": [
+            "What did most bosses in the survey do?",
+            "What could a boss find about you?"
+          ],
+          "core": [
+            "What did 57% of the employers who checked find?",
+            "Why should we be careful using a US survey for Australia?",
+            "What would you want a boss to find about you?"
+          ],
+          "extend": [
+            "What are the limits of this survey for Australian job seekers?",
+            "Is it fair for employers to check social media? Why or why not?",
+            "What could you post that would help your brand?"
+          ]
+        },
+        "vc": [
+          "VM-U4O1-KK1"
+        ],
+        "vcNote": "Audience: who reads a personal brand, and why it matters."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a work profile",
+      "docTitle": "WORK PROFILE (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U4O1-KS1",
+        "VM-U4O1-KK1"
+      ],
+      "vcNote": "The layout and structure of a professional profile, and its language choices.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Photo",
+          "value": "Clear head-and-shoulders photo, plain background."
+        },
+        {
+          "n": 2,
+          "label": "Headline",
+          "value": "Year 12 VM student | Keen to start a carpentry apprenticeship",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "About",
+          "value": "I like building things and solving problems. I’m looking for an apprenticeship in Ballarat."
+        },
+        {
+          "n": 4,
+          "label": "Experience",
+          "value": "Kitchen hand, 2 years. Never missed a shift. Trained two new staff."
+        },
+        {
+          "n": 5,
+          "label": "Skills",
+          "value": "White Card. First aid. Basic hand and power tools.",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Contact",
+          "value": "firstname.lastname@email.com"
+        }
+      ],
+      "note": "A made-up example to show the parts of a profile.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Photo",
+          "note": "First thing people see."
+        },
+        {
+          "n": 2,
+          "label": "Headline",
+          "note": "Who you are and what you want."
+        },
+        {
+          "n": 3,
+          "label": "About",
+          "note": "Your own voice, kept short."
+        },
+        {
+          "n": 4,
+          "label": "Proof",
+          "note": "Facts, not claims."
+        },
+        {
+          "n": 5,
+          "label": "Skills",
+          "note": "What you can do now."
+        },
+        {
+          "n": 6,
+          "label": "Contact",
+          "note": "A sensible email."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Build your brand",
+      "steps": [
+        {
+          "title": "Search",
+          "text": "Your own name.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Lock",
+          "text": "Private accounts.",
+          "icon": "lucide:lock"
+        },
+        {
+          "title": "Pick",
+          "text": "Your audience.",
+          "icon": "lucide:users"
+        },
+        {
+          "title": "Write",
+          "text": "Proof, not claims.",
+          "icon": "lucide:pencil"
+        },
+        {
+          "title": "Check",
+          "text": "Spelling + tone.",
+          "icon": "lucide:spell-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is a **personal brand**?",
+        "options": [
+          "The picture people get of you from what they see",
+          "A logo you buy",
+          "Your bank account",
+          "Your favourite clothes label"
+        ],
+        "answer": 0,
+        "explain": "It comes from your profiles, posts and photos.",
+        "vc": [
+          "VM-U4O1-KK1"
+        ]
+      },
+      {
+        "q": "Which line gives proof, not a claim?",
+        "options": [
+          "I’ve never missed a shift.",
+          "I’m a hard worker.",
+          "I’m the best.",
+          "I’m really keen."
+        ],
+        "answer": 0,
+        "explain": "Proof can be checked. Claims can’t.",
+        "vc": [
+          "VM-U4O1-KK1"
+        ]
+      },
+      {
+        "q": "What goes in a **headline**?",
+        "options": [
+          "Who you are, in a few words",
+          "Your address",
+          "Your whole life story",
+          "A joke"
+        ],
+        "answer": 0,
+        "explain": "It’s the short line under your name.",
+        "vc": [
+          "VM-U4O1-KS1"
+        ]
+      },
+      {
+        "q": "Which email suits a work profile?",
+        "options": [
+          "firstname.lastname@email.com",
+          "partyking99@email.com",
+          "xXdarklordXx@email.com",
+          "lazybones@email.com"
+        ],
+        "answer": 0,
+        "explain": "Use a sensible email for work.",
+        "vc": [
+          "VM-U4O1-KS2"
+        ]
+      },
+      {
+        "q": "A side-hustle Instagram page can be…",
+        "options": [
+          "More relaxed than LinkedIn, but still careful",
+          "Rude to customers",
+          "Full of spelling mistakes",
+          "The same as a private account"
+        ],
+        "answer": 0,
+        "explain": "Match the tone to the platform and audience.",
+        "vc": [
+          "VM-U4O1-KS2"
+        ]
+      },
+      {
+        "q": "In the 2018 survey, what share of employers checked social media?",
+        "options": [
+          "70%",
+          "7%",
+          "100%",
+          "None"
+        ],
+        "answer": 0,
+        "explain": "Seventy percent, in a US survey of 1,012 hiring managers.",
+        "vc": [
+          "VM-U4O1-KK1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write a short profile about you. Put a headline, a few lines about you, your skills and an email.",
+      "core": "Write a short profile that promotes you for a job, apprenticeship or side hustle. Use the profile layout, and choose words for your audience.",
+      "extend": "Create a profile that promotes you to a chosen audience on a chosen platform, using its layout, with language and tone suited to that audience and purpose."
+    },
+    "checklist": [
+      "It has a headline that says who I am",
+      "The about section is two or three sentences",
+      "It gives proof, not just claims",
+      "The tone suits my audience",
+      "It has a sensible contact email",
+      "Everything in it is true"
+    ],
+    "levelUp": "Rewrite your “about” section for a different audience: customers for a side hustle, or a TAFE course. What words did you change, and why?",
+    "vc": [
+      "VM-U4O1-KK1",
+      "VM-U4O1-KS1",
+      "VM-U4O1-KS2"
+    ],
+    "model": {
+      "kind": "Example profile",
+      "text": "**Jordan T.**\n**Year 12 student | Wants to be an electrician**\n**About:** I like to fix things. I want an apprenticeship in Geelong. I can start in January.\n**Experience:** Night-fill at a supermarket for 18 months. Never late. Picked to train new staff.\n**Skills:** White Card. First aid. Can read a simple wiring plan.\n**Contact:** jordan.t@email.com",
+      "why": [
+        "The headline says who Jordan is and what they want, in one line.",
+        "The experience gives proof (“never late”) instead of claims.",
+        "The tone is friendly but professional, right for an employer."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Layout",
+        "start": "Parts are missing.",
+        "good": "Headline, about, skills and contact.",
+        "great": "Every part is short and easy to scan."
+      },
+      {
+        "skill": "Words for the audience",
+        "start": "Vague or too casual.",
+        "good": "Suits the audience.",
+        "great": "Proof and action words all through."
+      },
+      {
+        "skill": "Accuracy",
+        "start": "Many errors.",
+        "good": "Few errors.",
+        "great": "No errors, and it’s all true."
+      }
+    ],
+    "choices": {
+      "prompt": "What is your profile for?",
+      "options": [
+        "A job or apprenticeship (LinkedIn or SEEK style)",
+        "A side hustle (Instagram or Facebook page)",
+        "A TAFE or uni application",
+        "Volunteering or a sports club"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: You already have a brand",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Who might look you up online? Name **three**.",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KK1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name **four** parts of a profile.",
+              "core": "List the five parts of a work profile, and what each is for."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Rewrite “I’m a hard worker” to give proof.",
+              "core": "Rewrite “I’m a hard worker” two ways: once for a boss, once for side-hustle customers.",
+              "extend": "Why might the same person write three different profiles? Give an example."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KK1",
+              "VM-U4O1-KS2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a work profile",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "Why does it help?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the profile. Use the word bank. Write what it does.",
+          "core": "Each number marks a part. Say what it is, and how its words suit an employer."
+        },
+        "wordBank": {
+          "support": [
+            "photo",
+            "headline",
+            "about",
+            "proof",
+            "skills",
+            "contact"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Would a boss like it?",
+        "pagebreak": true,
+        "choices": [
+          "Keep it",
+          "Change it or hide it"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "You’re checking your own online presence before applying for a job. Keep it, or change or hide it?",
+        "vc": [
+          "VM-U4O1-KK1",
+          "VM-U4O1-KS2"
+        ],
+        "cards": [
+          {
+            "from": "Profile",
+            "text": "Headline: “Year 12 student | Keen to start an apprenticeship”",
+            "answer": "Keep it",
+            "flags": "Clear and on purpose."
+          },
+          {
+            "from": "Public post",
+            "text": "A photo of you at a party, two years ago.",
+            "answer": "Change it or hide it",
+            "flags": "Make it private."
+          },
+          {
+            "from": "Profile",
+            "text": "Email: lazybones2008@email.com",
+            "answer": "Change it or hide it",
+            "flags": "Use a sensible email."
+          },
+          {
+            "from": "Public post",
+            "text": "Photos of a deck you helped build.",
+            "answer": "Keep it",
+            "flags": "Proof of skills."
+          },
+          {
+            "from": "Comment",
+            "text": "A rude comment about your old boss.",
+            "answer": "Change it or hide it",
+            "flags": "Delete it."
+          },
+          {
+            "from": "Profile",
+            "text": "About: “I’m the best worker ever!!!”",
+            "answer": "Change it or hide it",
+            "flags": "A claim, not proof.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the boss is looking",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did 70% of the employers do?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KK1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Where was the survey done?",
+              "core": "Why should we be careful using a US survey for Australia?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KK1"
+            ]
+          },
+          {
+            "q": {
+              "support": "What would you want a boss to find about you?",
+              "core": "What would you want a boss to find about you? What would you hide?",
+              "extend": "Is it fair for employers to check social media? Give reasons for your view."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KK1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my profile",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KK1",
+          "VM-U4O1-KS1",
+          "VM-U4O1-KS4"
+        ],
+        "vcNote": "Creating promotional material about yourself for a chosen audience.",
+        "prompt": {
+          "support": "Write your profile. Put a **headline**, a few lines **about** you, your **skills** and an **email**.",
+          "core": "Write a profile for a job, apprenticeship or side hustle. Use the five parts. Give proof, not claims, and choose a tone for your audience.",
+          "extend": "Create a profile for a chosen audience and platform. Use its layout, and choose language and tone to suit. Give evidence for every claim."
+        },
+        "plan": [
+          {
+            "label": "My audience and platform:",
+            "lines": 1
+          },
+          {
+            "label": "Three facts that prove I’m good at something:",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "Headline:",
+          "About: I like…",
+          "Experience:",
+          "Skills:",
+          "Contact:"
+        ],
+        "lines": {
+          "support": 8,
+          "core": 8,
+          "extend": 8
+        },
+        "check": [
+          "headline",
+          "proof, not claims",
+          "tone for the audience",
+          "sensible email"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I know what a personal brand is.",
+          "I know the parts of a profile.",
+          "I chose words for my audience.",
+          "I checked what’s public about me."
+        ],
+        "questions": [
+          "One thing I changed or hid online:",
+          "The best line in my profile:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "A VM 3&4 induction course. Students learn what a personal brand is, check their own online presence, analyse the layout of a work profile (photo, headline, about, experience and skills, contact), and choose language for an audience and platform (evidence over claims, action verbs, tone). They write a profile for a job, apprenticeship or side hustle. The case study is a 2018 CareerBuilder survey: 70% of US hiring managers said they research candidates on social media.",
+    "prep": [
+      "Print workbooks.",
+      "Students don’t need to log in to real platforms; the profile can be written in the workbook.",
+      "Be ready for sensitive discoveries when students search their own names; have the eSafety Commissioner page handy."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What they see",
+        "minutes": 45,
+        "steps": [
+          "**Hook (5 min):** “a boss searches your name. What comes up?”",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** keep it or change it.",
+          "**Case study (10 min):** the boss is looking."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Write the profile",
+        "minutes": 45,
+        "steps": [
+          "**Annotate (10 min):** the work profile.",
+          "**Final mission (25 min):** write the profile.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Everyone has a personal brand; you can shape it.",
+      "Check what’s public; use privacy settings.",
+      "Profile layout: photo, headline, about, experience and skills, contact.",
+      "Evidence over claims; action words; tone for the platform.",
+      "Everything must be true."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A profile frame with the five headings.",
+        "Fewer sort cards."
+      ],
+      "extend": [
+        "Write a second version for a different audience (Level Up).",
+        "Discuss the survey’s limits and the fairness of social media screening."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O1-KK1",
+        "evidence": "Explains and uses language choices that suit audience and purpose (questions, profile)."
+      },
+      {
+        "vc": "VM-U4O1-KS1",
+        "evidence": "Identifies the layout and structural elements of a profile (annotation)."
+      },
+      {
+        "vc": "VM-U4O1-KS2",
+        "evidence": "Chooses communication techniques for different platforms and contexts (sort, Level Up)."
+      },
+      {
+        "vc": "VM-U4O1-KS4",
+        "evidence": "Creates promotional material about themselves for a context and audience (profile).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 photo (first impression); 2 headline (role and goal); 3 about (own voice, short); 4 experience as proof; 5 current skills; 6 professional contact.\n\n**Sort:** keep — the clear headline; deck photos (proof of skills). Change or hide — old party photo (make private); silly email; rude comment about a boss (delete); “best worker ever!!!” (claim, not proof).\n\n**Case study:** 70% of 1,012 US hiring managers said they research candidates on social media; 57% of those had found content that led them not to hire. It is a US survey, so it doesn’t directly describe Australian employers.",
+    "resources": [
+      {
+        "label": "WTOP — bosses check your social media (2018 CareerBuilder survey)",
+        "url": "https://wtop.com/business-finance/2018/08/checking-you-out-online-is-now-sop-for-the-boss-so-clean-up-your-digital-dirt"
+      },
+      {
+        "label": "eSafety Commissioner — young people",
+        "url": "https://www.esafety.gov.au/young-people"
+      },
+      {
+        "label": "SEEK — career advice",
+        "url": "https://www.seek.com.au/career-advice"
+      }
+    ],
+    "realityCheck": [
+      "**Self-searches can turn up upsetting things** (old posts, images shared by others). Have a private follow-up plan and the eSafety reporting link ready.",
+      "**Not every student wants an online presence.** That’s a valid choice. The profile can live in the workbook or a resume.",
+      "**The survey is American.** The course says so; use it to talk about checking where evidence comes from.",
+      "**Works in a real class:** yes. The “proof, not claims” rewrite is the moment it clicks."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 5 key words, word bank and a profile frame.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with checking, layout, language choices and tone.",
+      "extend": "Aimed at about Year 7 and up: audience analysis, survey limits, multiple versions for different audiences."
+    }
+  }
+}
