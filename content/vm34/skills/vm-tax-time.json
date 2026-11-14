@@ -1,0 +1,862 @@
+{
+  "id": "vm-tax-time",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You got your first job. Now there are tax forms. TFN. myGov. Tax return. It sounds hard. It isn’t. Most of it is one form and one app.",
+      "core": "First job, first payslip, and suddenly there are new words everywhere: TFN, tax-free threshold, myGov, tax return. It sounds scary. It isn’t. Most of it comes down to one form at the start and one tax return a year. Get them right and you might even get money back.",
+      "extend": "Tax arrives with your first job. There’s a form to fill in, tax taken from every pay, and a return to lodge each year. The forms are made for ordinary people. Once you can read them, you can avoid the mistakes that turn a refund into a bill."
+    },
+    "why": {
+      "support": "Get your tax right and you keep more of your money. Get it wrong and you can owe money.",
+      "core": "Tax mistakes cost real money: a surprise bill, or a refund you never claim. Reading the forms properly means you pay the right amount and nothing more.",
+      "extend": "Tax forms are some of the most common official texts you’ll deal with as an adult. Reading them well protects you from debts, missed refunds and scams."
+    },
+    "canDo": {
+      "support": [
+        "I know what a TFN is.",
+        "I can fill in a TFN form.",
+        "I know about the tax-free threshold.",
+        "I know how to do a tax return."
+      ],
+      "core": [
+        "I can explain what a TFN is and keep it safe.",
+        "I can read and complete a TFN declaration.",
+        "I can explain the tax-free threshold, and the two-jobs trap.",
+        "I can describe the steps to lodge a tax return."
+      ],
+      "extend": [
+        "I can identify the key features of tax forms and advice.",
+        "I can complete a TFN declaration accurately.",
+        "I can infer the consequences of choices on a tax form.",
+        "I can explain the tax return process to someone else."
+      ]
+    },
+    "showIt": "Write a short, clear tax guide for a friend starting their first job.",
+    "vocab": [
+      {
+        "word": "tax",
+        "meaning": "money paid to the government from what you earn",
+        "example": "Tax pays for roads and hospitals."
+      },
+      {
+        "word": "TFN",
+        "meaning": "tax file number: your own number for tax",
+        "example": "Keep your TFN private."
+      },
+      {
+        "word": "ATO",
+        "meaning": "Australian Taxation Office: the tax agency",
+        "example": "The ATO checks your tax return."
+      },
+      {
+        "word": "tax return",
+        "meaning": "a yearly form that works out if you paid the right tax",
+        "example": "I did my tax return in July."
+      },
+      {
+        "word": "refund",
+        "meaning": "money paid back to you",
+        "example": "I got a $300 refund."
+      },
+      {
+        "word": "myGov",
+        "meaning": "the government website and app where you do your tax",
+        "example": "Link the ATO to your myGov."
+      },
+      {
+        "word": "tax-free threshold",
+        "meaning": "the first $18,200 you earn in a year, which has no tax",
+        "example": "Claim the tax-free threshold from one job only.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "withhold",
+        "meaning": "when your boss keeps some pay back to send as tax",
+        "example": "My boss withholds $40 tax each week.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "deduction",
+        "meaning": "a work cost you can claim to pay less tax",
+        "example": "My safety boots were a deduction.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Tax Time in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Tax Time",
+        "sub": "TFNs, tax returns and myGov, without the stress.",
+        "icon": "lucide:receipt",
+        "say": "Tax time. Tax file numbers, tax returns and myGov, without the stress."
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Tax step",
+        "pillIcon": "lucide:receipt",
+        "title": "Get a TFN",
+        "text": "Free from the ATO. Keep it private.",
+        "icon": "lucide:id-card",
+        "say": "Step one. Get a tax file number. It is free from the tax office. Keep it private.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Tax step",
+        "pillIcon": "lucide:receipt",
+        "title": "Fill in the TFN form",
+        "text": "One form when you start a job.",
+        "icon": "lucide:file-pen-line",
+        "say": "Step two. When you start a job, fill in a tax file number declaration for your boss.",
+        "vc": [
+          "VM-U3O1-KK1",
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "kind": "stat",
+        "big": "$18,200",
+        "title": "the tax-free threshold",
+        "sub": "The first $18,200 you earn each year has no tax. Source: ATO",
+        "say": "The first eighteen thousand two hundred dollars you earn each year is tax free. That is the tax-free threshold.",
+        "vc": [
+          "VM-U3O1-KS2"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Two jobs? One threshold.",
+        "text": "Claim it from **one** job only, or you could get a tax bill.",
+        "icon": "lucide:triangle-alert",
+        "say": "Got two jobs? Claim the tax-free threshold from one job only. Claim it twice, and you could get a tax bill.",
+        "vc": [
+          "VM-U3O1-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Tax step",
+        "pillIcon": "lucide:receipt",
+        "title": "Do your tax return",
+        "text": "1 July to 31 October, on myGov.",
+        "icon": "lucide:calendar-check",
+        "say": "Step three. Do your tax return each year, between the first of July and the thirty-first of October. You can do it on myGov.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Write a tax guide for a friend.",
+        "icon": "lucide:book-open-check",
+        "say": "Your mission. Write a short tax guide for a friend who is starting their first job."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Your first tax year",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Tax is money you pay to the government from what you earn. Here is what to do.\n\n**1. Get a TFN.** A **tax file number** is your own number for tax. You get it from the **ATO**. It is free. Keep it private. Don’t post it or text it.\n\n**2. Fill in the TFN form.** When you start a job, your boss gives you a form. It asks for your TFN. It also asks: **do you want to claim the tax-free threshold?**\n\nThe first **$18,200** you earn in a year has no tax. If you have **one** job, you usually say yes. If you have **two** jobs, say yes for **one** job only. If you say yes for both, you could owe money later.\n\n**3. Check your payslip.** It shows how much tax your boss took out.\n\n**4. Do your tax return.** Each year, between **1 July and 31 October**, you do a **tax return**. You can do it on **myGov**. You might get a **refund**.\n\n**Watch out:** don’t click links in texts that say they are from the ATO. Go to myGov yourself.",
+          "core": "Tax is money the government collects from what you earn. It pays for things like hospitals, schools and roads. Here’s how it works in your first job.\n\n**1. Get a tax file number (TFN).** Your TFN is your personal number for tax. You apply to the **Australian Taxation Office (ATO)**, and it’s free. Keep it private: never post it, text it to strangers or put it on a resume.\n\n**2. Fill in a TFN declaration.** When you start a job, you give your employer a **TFN declaration**. It asks for your TFN, your details, and whether you want to **claim the tax-free threshold**.\n\nThe **tax-free threshold** is the first **$18,200** you earn in a financial year. You don’t pay tax on it. If you have one job, you usually claim it. If you have **two jobs at the same time**, the ATO says to generally claim it from **one** employer only, usually the one that pays you the most. Claim it from both, and each one takes out too little tax. Then you could get a **tax bill** at the end of the year.\n\n**3. Check your payslips.** Each payslip shows the tax your employer **withheld** (kept back and sent to the ATO for you).\n\n**4. Lodge your tax return.** The financial year runs from 1 July to 30 June. Between **1 July and 31 October**, you lodge a **tax return**, usually online through **myGov**. It works out whether you paid the right amount. If too much was taken, you get a **refund**.\n\n**Scam warning:** scammers pretend to be the ATO. Don’t click links in texts or emails about tax. Log in to myGov yourself.",
+          "extend": "Tax is the government’s share of what you earn, collected to fund public services. Your first job brings three tax documents into your life.\n\n**1. Tax file number (TFN).** Your unique identifier with the **Australian Taxation Office (ATO)**. It’s free, and it’s valuable to identity thieves, so keep it private.\n\n**2. TFN declaration.** You give this form to each new employer. The key decision is whether to **claim the tax-free threshold**: the first **$18,200** of income each financial year, on which no tax is payable. With one job, you usually claim it. With **two or more jobs at once**, the ATO advises you generally claim it from **one** payer only, usually the highest-paying. If you claim it from both, each employer assumes you’re entitled to the full threshold and **withholds** too little, so you can end the year with a **tax debt**.\n\n**3. Tax return.** The financial year ends on 30 June. Between **1 July and 31 October**, you lodge a return, usually through myTax via **myGov**. Your employers report your income to the ATO, so much of the return is pre-filled. You can also claim legitimate work-related **deductions**, if you kept records. The return reconciles what was withheld with what you owe, producing a **refund** or a bill.\n\nTax forms use precise wording, and small choices (a tick in one box) have real consequences months later. Read every question, and infer what each choice will mean for you. And treat any unexpected message “from the ATO” with suspicion: log in to myGov yourself rather than following a link."
+        },
+        "vc": [
+          "VM-U3O1-KK1",
+          "VM-U3O1-KS2",
+          "VM-U3O1-KS4"
+        ],
+        "vcNote": "Structures and features of tax forms and advice; reading and inferring consequences from official tax texts."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Two jobs, one threshold",
+        "icon": "lucide:briefcase",
+        "body": {
+          "support": "Lots of young people have two jobs. Maybe a café on weekends and a shop after school.\n\nEach new boss gives you a TFN form. Each form asks: claim the tax-free threshold?\n\nThe **ATO** says: with two jobs at the same time, you usually claim it from **one** job only. Pick the one that pays you more.\n\nIf you claim it from **both**, each boss takes out too little tax. At tax time, you could owe the ATO money.\n\nYou can fix it. Give one boss a new form to stop claiming it there.",
+          "core": "Lots of young Australians work two casual jobs at once: a café on weekends, a supermarket after school. Each employer gives you a TFN declaration, and each one asks the same question: **do you want to claim the tax-free threshold?**\n\nIt’s easy to tick **yes** both times. But the **Australian Taxation Office (ATO)** says that if you have more than one payer at the same time, you should generally claim the threshold from **one** payer only, usually the one who pays you the most.\n\nHere’s why. Each employer works out your tax as if theirs is your only job. If both think you get the first $18,200 tax-free, each takes out too little tax. When you lodge your tax return, the ATO adds both jobs together, and you could get a **tax bill**.\n\nIf you’ve already ticked yes twice, you can fix it. The ATO says to give one employer a withholding declaration to stop claiming the threshold there.",
+          "extend": "Many young people work two casual jobs. Each new employer asks them to fill in a TFN declaration with the same question: **do you want to claim the tax-free threshold from this payer?**\n\nThe **Australian Taxation Office** says that if you have more than one payer at the same time, you should generally claim the threshold from **one** payer only. That’s usually the one paying the most. If your total income will be over $18,200, the other payers should take out tax at the higher “no tax-free threshold” rate.\n\nThe logic is simple once you see how withholding works. Each employer works out your tax as if theirs is your only job. If both use the full $18,200 threshold, too little tax is withheld overall. When the ATO adds up your income at tax time, the gap becomes a **debt**.\n\nThe fix is another form: a withholding declaration that stops the threshold at one employer. The bigger lesson is that one tick on an official form can matter months later. Read the question, think about what it means for you, and check the ATO’s advice when you’re unsure."
+        },
+        "source": {
+          "name": "Australian Taxation Office — Your income and the tax-free threshold (income from more than one job)",
+          "url": "https://www.ato.gov.au/individuals-and-families/jobs-and-employment-types/working-as-an-employee/income-from-more-than-one-job"
+        },
+        "think": {
+          "support": [
+            "Why is it easy to make this mistake?",
+            "How can you fix it?"
+          ],
+          "core": [
+            "Why do people tick yes on both forms?",
+            "What happens at tax time if they do?",
+            "What does the ATO say to do instead?"
+          ],
+          "extend": [
+            "What does each employer assume when you claim the threshold?",
+            "Why is the problem only seen at tax time?",
+            "What does this teach you about reading forms?"
+          ]
+        },
+        "vc": [
+          "VM-U3O1-KS2"
+        ],
+        "vcNote": "Inferring the consequences of a choice on a tax form, from official ATO advice."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a TFN declaration",
+      "docTitle": "TAX FILE NUMBER DECLARATION (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U3O1-KK1",
+        "VM-U3O1-KK2"
+      ],
+      "vcNote": "Key features of a tax form and what each question means.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Q1 Your tax file number",
+          "value": "123 456 789 (example only)"
+        },
+        {
+          "n": 2,
+          "label": "Q2–5 Your details",
+          "value": "Name, address and date of birth, as on your ID"
+        },
+        {
+          "n": 3,
+          "label": "Q7 Are you an Australian resident for tax purposes?",
+          "value": "☒ Yes   ☐ No"
+        },
+        {
+          "n": 4,
+          "label": "Q8 Do you want to claim the tax-free threshold from this payer?",
+          "value": "☒ Yes   ☐ No",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Q9 Do you have a study or training loan (like HELP)?",
+          "value": "☐ Yes   ☒ No"
+        },
+        {
+          "n": 6,
+          "label": "Declaration",
+          "value": "I declare the information is true and correct. Signature + date."
+        }
+      ],
+      "note": "Simplified example based on the ATO’s TFN declaration. Question numbers may differ on the real form.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Your TFN",
+          "note": "Private. Only on forms like this."
+        },
+        {
+          "n": 2,
+          "label": "Your details",
+          "note": "Must match your ID."
+        },
+        {
+          "n": 3,
+          "label": "Residency",
+          "note": "Changes how you’re taxed."
+        },
+        {
+          "n": 4,
+          "label": "Tax-free threshold",
+          "note": "Yes for one job only."
+        },
+        {
+          "n": 5,
+          "label": "Study loans",
+          "note": "More is withheld to repay it."
+        },
+        {
+          "n": 6,
+          "label": "Declaration",
+          "note": "A promise. Sign last."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Your tax year",
+      "steps": [
+        {
+          "title": "Get a TFN",
+          "text": "Free from the ATO.",
+          "icon": "lucide:id-card"
+        },
+        {
+          "title": "TFN form",
+          "text": "Give it to each new boss.",
+          "icon": "lucide:file-pen-line"
+        },
+        {
+          "title": "Check payslips",
+          "text": "See the tax withheld.",
+          "icon": "lucide:receipt"
+        },
+        {
+          "title": "Tax return",
+          "text": "1 July to 31 October.",
+          "icon": "lucide:calendar-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Where do you get a tax file number (TFN)?",
+        "options": [
+          "From the ATO, for free",
+          "From your boss, for $50",
+          "From a website ad",
+          "From your bank"
+        ],
+        "answer": 0,
+        "explain": "Apply to the Australian Taxation Office. It’s free.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "q": "What is the tax-free threshold?",
+        "options": [
+          "The first $18,200 you earn in a year, with no tax",
+          "A tax on your first job",
+          "A discount at shops",
+          "The date tax is due"
+        ],
+        "answer": 0,
+        "explain": "You don’t pay tax on the first $18,200 you earn each financial year.",
+        "vc": [
+          "VM-U3O1-KS2"
+        ]
+      },
+      {
+        "q": "You have two jobs at the same time. What does the ATO say?",
+        "options": [
+          "Claim the tax-free threshold from one job only",
+          "Claim it from both",
+          "Claim it from neither, ever",
+          "Don’t give either boss a TFN form"
+        ],
+        "answer": 0,
+        "explain": "Usually claim it from the job that pays more.",
+        "vc": [
+          "VM-U3O1-KS2"
+        ]
+      },
+      {
+        "q": "When can you lodge your own tax return?",
+        "options": [
+          "Between 1 July and 31 October",
+          "Only in January",
+          "Any day of your birthday month",
+          "Never"
+        ],
+        "answer": 0,
+        "explain": "The financial year ends on 30 June. Lodge by 31 October.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "q": "A text says: “ATO refund waiting! Click here to claim.” What should you do?",
+        "options": [
+          "Don’t click. Log in to myGov yourself.",
+          "Click the link fast",
+          "Reply with your TFN",
+          "Forward it to friends"
+        ],
+        "answer": 0,
+        "explain": "Scammers pretend to be the ATO. Go to myGov yourself.",
+        "vc": [
+          "VM-U3O1-KS2"
+        ]
+      },
+      {
+        "q": "What does it mean when your boss **withholds** tax?",
+        "options": [
+          "They keep some pay back and send it to the ATO for you",
+          "They pay you extra",
+          "They forget to pay you",
+          "They charge you a fee"
+        ],
+        "answer": 0,
+        "explain": "Withheld tax is shown on your payslip.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write a short tax guide for a friend starting their first job.",
+      "core": "Write a short, clear tax guide for a friend starting their first job.",
+      "extend": "Write a clear, accurate tax guide for a friend starting their first job, explaining the key forms and the choices that matter."
+    },
+    "checklist": [
+      "My guide explains the TFN and keeping it private",
+      "It explains the TFN declaration and the tax-free threshold",
+      "It explains the two-jobs rule",
+      "It explains when and how to do a tax return",
+      "I checked my spelling and punctuation"
+    ],
+    "levelUp": "Find the ATO’s own page about the tax-free threshold. Add one thing from it to your guide, and say where it came from.",
+    "vc": [
+      "VM-U3O1-KK1",
+      "VM-U3O1-KS2",
+      "VM-U3O1-KS4"
+    ],
+    "model": {
+      "kind": "Example tax guide",
+      "text": "**Tax for your first job: the 4 things to know**\n\n**1. Get a TFN.** It’s your number for tax. It’s free from the ATO. Keep it private.\n\n**2. Fill in the TFN form.** Your boss gives you one. It asks if you want the tax-free threshold. That means no tax on the first $18,200 you earn in a year.\n\n**3. Two jobs?** Tick yes for one job only, the one that pays more. Tick yes on both and you could get a tax bill.\n\n**4. Do your tax return.** Between 1 July and 31 October, on myGov. You might get money back!\n\n**Never** click a link in a text about tax. Log in to myGov yourself.",
+      "why": [
+        "It’s short, with one idea per numbered step.",
+        "It explains each tax word in plain English straight away.",
+        "It warns about the two big mistakes: the two-jobs trap and scams."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Accuracy",
+        "start": "Some facts are wrong or missing.",
+        "good": "TFN, threshold and tax return are right.",
+        "great": "Also gets the two-jobs rule and dates right."
+      },
+      {
+        "skill": "Clarity",
+        "start": "Hard to follow, or full of jargon.",
+        "good": "Clear steps in plain words.",
+        "great": "A friend could follow it without asking."
+      },
+      {
+        "skill": "Conventions",
+        "start": "Many errors.",
+        "good": "Correct spelling and punctuation.",
+        "great": "Polished, with headings that help."
+      }
+    ],
+    "choices": {
+      "prompt": "Who is your guide for?",
+      "options": [
+        "A friend starting a casual job",
+        "A friend with two part-time jobs",
+        "A younger brother, sister or cousin",
+        "A new apprentice at your work"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Your first tax year",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What is a TFN? Why keep it private?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          },
+          {
+            "q": "What is the tax-free threshold? How much is it?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS2"
+            ]
+          },
+          {
+            "q": {
+              "support": "You have two jobs. What should you do on the TFN forms?",
+              "core": "You have two jobs. What should you tick on each TFN declaration? Why?",
+              "extend": "Explain why claiming the threshold from two employers leads to a tax debt."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS2"
+            ]
+          },
+          {
+            "q": "When can you do your tax return?",
+            "lines": 1,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a TFN declaration",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is it asking?",
+          "What does my answer mean?"
+        ],
+        "instructions": {
+          "support": "Each number marks a part of the form. Use the word bank. Write what it means.",
+          "core": "Each number marks a question on the form. Say what it’s asking, and what your answer means for your tax."
+        },
+        "wordBank": {
+          "support": [
+            "my TFN",
+            "my details",
+            "resident",
+            "tax-free threshold",
+            "study loan",
+            "promise + sign"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Smart move or tax trap?",
+        "pagebreak": true,
+        "choices": [
+          "Smart move",
+          "Tax trap"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Is each one a smart move or a tax trap? Say why.",
+        "vc": [
+          "VM-U3O1-KS2",
+          "VM-U3O1-KS4"
+        ],
+        "cards": [
+          {
+            "from": "New job",
+            "text": "Giving your TFN to your new boss on the TFN declaration.",
+            "answer": "Smart move",
+            "flags": "That’s what the form is for."
+          },
+          {
+            "from": "Group chat",
+            "text": "Posting a photo of your TFN letter.",
+            "answer": "Tax trap",
+            "flags": "Identity thieves want it."
+          },
+          {
+            "from": "Second job",
+            "text": "Ticking “yes” to the tax-free threshold on both jobs.",
+            "answer": "Tax trap",
+            "flags": "Too little tax taken. Possible bill."
+          },
+          {
+            "from": "September",
+            "text": "Lodging your tax return on myGov.",
+            "answer": "Smart move",
+            "flags": "Before 31 October."
+          },
+          {
+            "from": "Text message",
+            "text": "Clicking a link that says “ATO refund waiting”.",
+            "answer": "Tax trap",
+            "flags": "Likely a scam."
+          },
+          {
+            "from": "Work",
+            "text": "Keeping receipts for work boots you had to buy.",
+            "answer": "Smart move",
+            "flags": "You may be able to claim them.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: two jobs, one threshold",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "Why is this mistake easy to make?",
+              "core": "Why do people tick “yes” on both forms?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS2"
+            ]
+          },
+          {
+            "q": "What can happen at tax time if they do?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS2"
+            ]
+          },
+          {
+            "q": {
+              "support": "How can you fix it?",
+              "core": "What does the ATO say to do instead, and how can you fix it?",
+              "extend": "Explain the problem using the word “withhold”. What does this teach you about reading forms?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS2",
+              "VM-U3O1-KK2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: a tax guide for a friend",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O1-KK1",
+          "VM-U3O1-KS2",
+          "VM-U3O1-KS4"
+        ],
+        "vcNote": "Creating clear advice about tax forms for a specific reader.",
+        "prompt": {
+          "support": "Write a short tax guide for a friend with a new job. Use **4 steps**. Explain each tax word.",
+          "core": "Write a short tax guide (about 120 to 150 words) for a friend starting their first job. Cover the TFN, the TFN declaration, the tax-free threshold (and the two-jobs rule) and the tax return. Explain each tax word.",
+          "extend": "Write a tax guide for a friend starting their first job. Explain the key forms, the choices that matter and their consequences, in plain English, with a warning about scams."
+        },
+        "plan": [
+          {
+            "label": "Who is it for?",
+            "lines": 1
+          },
+          {
+            "label": "My four steps:",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "Step 1: Get your…",
+          "This means…",
+          "If you have two jobs…",
+          "Between 1 July and 31 October…",
+          "Never…"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "TFN",
+          "threshold + two jobs",
+          "tax return dates",
+          "scam warning",
+          "spelling checked"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: check the ATO",
+        "pagebreak": true,
+        "instructions": "Find the ATO’s page about the tax-free threshold.",
+        "items": [
+          {
+            "q": "One thing from the ATO page to add to your guide:",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          },
+          {
+            "q": "The page’s title and web address:",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KK2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I know what a TFN is.",
+          "I can read a TFN declaration.",
+          "I understand the tax-free threshold.",
+          "I know how to do a tax return."
+        ],
+        "questions": [
+          "The tax word I understand now:",
+          "Something I’ll do differently with my tax:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the three tax documents of a first job (TFN, TFN declaration, tax return), the tax-free threshold and the two-jobs rule, and how to spot tax scams. They annotate a simplified TFN declaration, sort smart moves from tax traps, and write a tax guide for a friend. The case study is the ATO’s advice on claiming the tax-free threshold from one payer only when working two jobs.",
+    "prep": [
+      "Print workbooks.",
+      "Optional: print a blank TFN declaration from the ATO website so students can see the real form (never collect a completed one).",
+      "Check the ATO website is reachable for the Level Up.",
+      "Check the current tax-free threshold and lodgement dates on the ATO site before teaching."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The three documents",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** who has a TFN? Who knows what it’s for?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Annotate (20 min):** the TFN declaration."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Traps",
+        "minutes": 50,
+        "steps": [
+          "**Sort (10 min):** smart move or tax trap.",
+          "**Case study (20 min):** two jobs, one threshold. Walk through the logic with a simple example on the board.",
+          "**Plan (20 min):** students plan their tax guide."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write the guide",
+        "minutes": 50,
+        "steps": [
+          "**Write (30 min):** final mission.",
+          "**Level Up (10 min):** check the ATO page.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "TFN: free from the ATO, keep it private.",
+      "TFN declaration: claim the threshold from one job only.",
+      "Tax return: 1 July to 31 October, usually on myGov.",
+      "Never follow a link in a “tax” text."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Four-step frame for the guide.",
+        "Teacher reads the case study aloud."
+      ],
+      "extend": [
+        "Explain withholding and the two-jobs debt.",
+        "Check and cite the ATO page (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O1-KK1",
+        "evidence": "Identifies the structure and features of tax forms and advice (annotation, guide)."
+      },
+      {
+        "vc": "VM-U3O1-KS2",
+        "evidence": "Reads and infers the consequences of tax-form choices (sort, case study)."
+      },
+      {
+        "vc": "VM-U3O1-KS4",
+        "evidence": "Engages with real tax documentation and explains the process (guide)."
+      },
+      {
+        "vc": "VM-U3O1-KK2",
+        "evidence": "Identifies key elements of a complex official text (ATO page, Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 TFN (private); 2 personal details (match ID); 3 residency (changes tax rates); 4 tax-free threshold (yes for one job only); 5 study or training loan (extra withheld); 6 declaration (a promise; sign last).\n\n**Sort:** TFN to new boss — smart; posting TFN — trap; threshold on both jobs — trap; lodging in September — smart; clicking refund link — trap; keeping receipts for boots — smart.\n\n**Case study:** both forms ask the same question, so people tick yes twice; each employer withholds too little and a bill can result; the ATO says to claim from one payer only (usually the highest-paying) and lodge a withholding declaration with the other.",
+    "resources": [
+      {
+        "label": "ATO — Income from more than one job (tax-free threshold)",
+        "url": "https://www.ato.gov.au/individuals-and-families/jobs-and-employment-types/working-as-an-employee/income-from-more-than-one-job"
+      },
+      {
+        "label": "ATO — Tax file numbers",
+        "url": "https://www.ato.gov.au/"
+      },
+      {
+        "label": "ATO — Tax, Super + You (free teaching resources)",
+        "url": "https://www.taxsuperandyou.gov.au/"
+      },
+      {
+        "label": "Scamwatch",
+        "url": "https://www.scamwatch.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Never collect students’ TFNs** or completed forms. Use the simplified example and blank official forms only.",
+      "**Thresholds and dates can change.** Check the ATO website each year before teaching; the course points students to the ATO for current figures.",
+      "**Some students already have tax problems** (a bill, a missing payslip). Point them to the ATO or the free Tax Help program rather than giving individual advice.",
+      "**Residency is sensitive.** Don’t ask students about visa or residency status in class.",
+      "**Works in a real class:** yes. Students with jobs bring real questions, and many go home and check their own TFN declarations."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank, a four-step frame for the guide.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with the TFN declaration, the two-jobs rule, tax returns and scams.",
+      "extend": "Aimed at about Year 7 and up: withholding, residency, deductions, and the logic of the two-jobs debt, with an ATO source in the guide."
+    }
+  }
+}

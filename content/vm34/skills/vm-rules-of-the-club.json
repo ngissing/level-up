@@ -1,0 +1,904 @@
+{
+  "id": "vm-rules-of-the-club",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You join a footy club. They hand you a code of conduct to sign. Most people sign it without reading. But it tells you the rules, and what happens if you break them.",
+      "core": "You join a footy club, a gym or a new job, and someone hands you a code of conduct to sign. Most people sign without reading. But that document says how everyone must behave, how to report problems, and what happens if you break the rules. It might even protect you.",
+      "extend": "Clubs, workplaces and community groups run on written charters and codes of conduct. They state the group’s values and the behaviour it expects. They explain how to raise concerns and what happens if rules are broken. Read them carefully, and you learn your rights, your duties, and how the group sees itself."
+    },
+    "why": {
+      "support": "A code tells you the rules. It also tells you how to get help.",
+      "core": "Codes of conduct are part of joining almost anything: a team, a job, a club, a course. Knowing what they say protects you, and helps you stand up for others.",
+      "extend": "Charters and codes shape behaviour in every group you’ll join. Reading them closely helps you know your duties, use the complaint process, and judge if a group lives up to its own words."
+    },
+    "canDo": {
+      "support": [
+        "I can find the main parts of a code.",
+        "I know what it asks me to do.",
+        "I know how to report a problem.",
+        "I can help write a code for a group."
+      ],
+      "core": [
+        "I can identify the parts of a charter or code of conduct.",
+        "I can explain what a code means for me.",
+        "I can find how to report a problem and what happens next.",
+        "I can discuss and write a code for a real group."
+      ],
+      "extend": [
+        "I can analyse the structure and features of a community charter.",
+        "I can apply a code to real situations.",
+        "I can explain how a code’s language reflects the group’s values.",
+        "I can contribute to writing a fair, clear code."
+      ]
+    },
+    "showIt": "Work with your group to write a code of conduct for a real team, class, club or workplace.",
+    "vocab": [
+      {
+        "word": "code of conduct",
+        "meaning": "a list of rules for how people must behave",
+        "example": "The club’s code of conduct bans abuse."
+      },
+      {
+        "word": "charter",
+        "meaning": "a document that says what a group believes and promises",
+        "example": "Our team charter is on the wall."
+      },
+      {
+        "word": "values",
+        "meaning": "the things a group thinks are important",
+        "example": "Our values are respect and fair play."
+      },
+      {
+        "word": "respect",
+        "meaning": "treating people well, even when you disagree",
+        "example": "Respect the umpire’s decision."
+      },
+      {
+        "word": "report",
+        "meaning": "tell the right person about a problem",
+        "example": "I reported the abuse to the coach."
+      },
+      {
+        "word": "consequence",
+        "meaning": "what happens because of what you did",
+        "example": "The consequence was a two-week ban."
+      },
+      {
+        "word": "spectator",
+        "meaning": "someone watching a game",
+        "example": "Spectators must stay behind the fence.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "zero tolerance",
+        "meaning": "not accepted at all, ever",
+        "example": "We have zero tolerance for racism.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "obligation",
+        "meaning": "something you must do",
+        "example": "Members have an obligation to be safe.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Rules of the Club in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Rules of the Club",
+        "sub": "Charters, codes of conduct and team rules.",
+        "icon": "lucide:scroll-text",
+        "say": "Rules of the club. Charters, codes of conduct and team rules."
+      },
+      {
+        "kind": "stat",
+        "big": "1 in 5",
+        "title": "footy umpires said they had been physically abused",
+        "sub": "Survey of 356 Australian rules umpires. Source: University of South Australia, 2025",
+        "say": "In a survey of footy umpires, about one in five said they had been pushed, hit or assaulted. That is why clubs have codes of conduct.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Code part",
+        "pillIcon": "lucide:scroll-text",
+        "title": "Why",
+        "text": "Purpose and values.",
+        "icon": "lucide:heart",
+        "say": "Part one. Why. The purpose of the code, and the values the group cares about.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Code part",
+        "pillIcon": "lucide:scroll-text",
+        "title": "Who",
+        "text": "Who it applies to.",
+        "icon": "lucide:users",
+        "say": "Part two. Who. Players, coaches, parents, spectators, staff.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Code part",
+        "pillIcon": "lucide:scroll-text",
+        "title": "Do and don’t",
+        "text": "Expected. Not accepted.",
+        "icon": "lucide:list-checks",
+        "say": "Part three. What you must do, and what is not accepted.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Code part",
+        "pillIcon": "lucide:scroll-text",
+        "title": "Report it",
+        "text": "Who to tell, and how.",
+        "icon": "lucide:megaphone",
+        "say": "Part four. How to report a problem. Who to tell, and how.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "5",
+        "pill": "Code part",
+        "pillIcon": "lucide:scroll-text",
+        "title": "What happens",
+        "text": "Warning, suspension, ban.",
+        "icon": "lucide:gavel",
+        "say": "Part five. What happens if someone breaks the code. A warning, a suspension, or a ban.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Write a code with your group.",
+        "icon": "lucide:pen-line",
+        "say": "Your mission. Work with your group to write a code of conduct for a real group."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "What a code of conduct is for",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Clubs, jobs and schools have rules. They write them in a **code of conduct** or a **charter**.\n\nMost codes have five parts:\n\n1. **Why.** What the group cares about. Like respect and fair play.\n2. **Who.** Who must follow it. Players? Parents? Staff?\n3. **Do and don’t.** What you **must** do. What is **not OK**.\n4. **Report it.** Who to tell if something goes wrong.\n5. **What happens.** A warning. A ban. Or being asked to leave.\n.\nLook for the word **must**. It means you have to.\n\nRead a code before you sign it. It tells you the rules. It also tells you how to get help.",
+          "core": "Almost every group you join has written rules: a **code of conduct**, a **charter**, or team rules. They’re there to keep people safe and make sure everyone knows what’s expected.\n\nMost codes have five parts:\n\n1. **Why:** the purpose and the **values**, like respect, fair play and safety.\n2. **Who:** who the code applies to. At a sports club, that often includes players, coaches, parents and **spectators**.\n3. **Do and don’t:** expected behaviour, and what’s not accepted (like abuse, bullying or discrimination).\n4. **Report it:** who to tell and how: a coach, a manager, a club welfare officer, an email.\n5. **What happens:** the **consequences**, often in steps: a warning, a suspension, a ban.\n.\nWatch the small words. **Must** and **will** mean it’s compulsory. **Should** is strongly expected. **May** means it’s allowed, or might happen. **Zero tolerance** means it won’t be accepted at all.\n\nRead a code before you sign it. It sets your obligations, but it also protects you, and tells you exactly how to get help.",
+          "extend": "Charters and codes of conduct are how groups put their values into writing. A **charter** usually states a group’s purpose and commitments. A **code of conduct** sets out the behaviour expected of members and what happens if it isn’t met.\n\nTypical structure:\n\n1. **Purpose and values:** why the code exists and what the group stands for.\n2. **Scope:** who it covers. Sports clubs often include spectators and parents, not just players.\n3. **Expected and unacceptable behaviour:** often written as lists.\n4. **Reporting process:** who to contact, how, and how confidentiality is handled.\n5. **Consequences:** usually graduated (warning, suspension, exclusion).\n.\nThe language matters. Modal verbs signal obligation: **must** and **will** are compulsory; **should** is strong expectation; **may** gives permission or possibility. Phrases like **zero tolerance** signal what the group treats as most serious.\n\nRead critically. What does the code’s wording tell you about the group’s values? Does it protect everyone, including those with less power, like junior umpires or new staff? And does the group actually enforce it?"
+        },
+        "vc": [
+          "VM-U3O1-KK1",
+          "VM-U3O1-KS4"
+        ],
+        "vcNote": "Structures and features of community charters and codes of conduct; engaging with real-life documentation."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The whistle-blowers",
+        "icon": "lucide:flag",
+        "body": {
+          "support": "Without umpires, there is no footy game. But many umpires get abused.\n\nResearchers asked **356** footy umpires about it.\n\nAbout **half** said people abused them with words at least every couple of games.\n\nAbout **1 in 5** said they had been pushed, hit or attacked.\n\nJust over half had reported it.\n\nThe researchers said clubs must look after umpires. If not, umpires may quit.\n\nThat’s one big reason clubs have a **code of conduct**.",
+          "core": "Without umpires, there’s no game. But many footy umpires cop abuse from players, coaches and the crowd. Lots of them are teenagers.\n\nResearchers from a university in South Australia asked **356** footy umpires about it. The results came out in 2025.\n\n- **49%** said they were abused with words at least every couple of games.\n- **21%** said they had been pushed, hit or attacked.\n- **53%** had reported at least one incident.\n.\nThe researchers said clubs must keep their umpires. Umpires who feel supported are more likely to stay.\n\nThat’s why most clubs have codes of conduct that cover **spectators** and parents, not just players. The codes say how to report abuse, and what happens next.",
+          "extend": "Community sport needs umpires. Yet many umpires, often teenagers, say they are abused by players, coaches and spectators.\n\nResearchers from the **University of South Australia** surveyed **356** Australian rules football umpires in 2021 and 2022. Their findings came out in 2025.\n\n- **49%** experienced verbal abuse at least every couple of games.\n- **21%** reported physical abuse (pushing, hitting or assault).\n- **53%** had reported at least one incident.\n.\nThe researchers argued that keeping umpires must come first. Umpires who feel supported are more likely to stay.\n\nCodes of conduct are one response. Many now cover spectators and parents, say how to report abuse, and set penalties that grow. Some sports make clubs responsible for their fans. But a code only works if people know it, report problems, and see it enforced."
+        },
+        "source": {
+          "name": "University of South Australia via EurekAlert! — “Footy umpires blow the whistle on abuse” (2025)",
+          "url": "https://www.eurekalert.org/news-releases/1089168"
+        },
+        "think": {
+          "support": [
+            "What happened to many umpires?",
+            "How can a code of conduct help?"
+          ],
+          "core": [
+            "What did the survey find?",
+            "Why do codes now cover spectators and parents?",
+            "What would make you report abuse?"
+          ],
+          "extend": [
+            "Why might abuse go unreported?",
+            "What makes a code of conduct work in practice?",
+            "Should clubs be punished for their supporters’ behaviour?"
+          ]
+        },
+        "vc": [
+          "VM-U3O1-KS4"
+        ],
+        "vcNote": "Real data showing why community groups write and enforce codes of conduct."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a code of conduct",
+      "docTitle": "RIVERSIDE JUNIOR FOOTBALL CLUB — CODE OF CONDUCT (EXAMPLE)",
+      "vc": [
+        "VM-U3O1-KK1",
+        "VM-U3O1-KK3"
+      ],
+      "vcNote": "The structure and language of a community code of conduct.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Our values",
+          "value": "We want everyone to feel safe, respected and welcome."
+        },
+        {
+          "n": 2,
+          "label": "This code applies to",
+          "value": "Players, coaches, officials, parents and spectators."
+        },
+        {
+          "n": 3,
+          "label": "Everyone must",
+          "value": "Respect umpires’ decisions. Encourage all players.",
+          "strong": true
+        },
+        {
+          "n": 4,
+          "label": "Not accepted",
+          "value": "Abuse, threats, racism or bullying. We have zero tolerance."
+        },
+        {
+          "n": 5,
+          "label": "How to report",
+          "value": "Tell a coach, or email our Welfare Officer: welfare@riverside.example"
+        },
+        {
+          "n": 6,
+          "label": "Consequences",
+          "value": "Warning → removal from the ground → ban from the club."
+        }
+      ],
+      "note": "Made-up club for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Values",
+          "note": "Why the code exists."
+        },
+        {
+          "n": 2,
+          "label": "Who",
+          "note": "Not just players."
+        },
+        {
+          "n": 3,
+          "label": "Must",
+          "note": "Compulsory behaviour."
+        },
+        {
+          "n": 4,
+          "label": "Zero tolerance",
+          "note": "Never accepted."
+        },
+        {
+          "n": 5,
+          "label": "Reporting",
+          "note": "Who to tell, and how."
+        },
+        {
+          "n": 6,
+          "label": "Steps",
+          "note": "Penalties get stronger."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Five parts of a code",
+      "steps": [
+        {
+          "title": "Why",
+          "text": "Values.",
+          "icon": "lucide:heart"
+        },
+        {
+          "title": "Who",
+          "text": "Who it covers.",
+          "icon": "lucide:users"
+        },
+        {
+          "title": "Do + don’t",
+          "text": "Must. Not accepted.",
+          "icon": "lucide:list-checks"
+        },
+        {
+          "title": "Report",
+          "text": "Who to tell.",
+          "icon": "lucide:megaphone"
+        },
+        {
+          "title": "What happens",
+          "text": "Warning, ban.",
+          "icon": "lucide:gavel"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is a **code of conduct**?",
+        "options": [
+          "A list of rules for how people must behave",
+          "A secret password",
+          "A game plan",
+          "A membership fee"
+        ],
+        "answer": 0,
+        "explain": "It sets out expected behaviour, reporting and consequences.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ]
+      },
+      {
+        "q": "In a code, what does **must** mean?",
+        "options": [
+          "You have to do it",
+          "It’s optional",
+          "It might happen",
+          "It’s banned"
+        ],
+        "answer": 0,
+        "explain": "“Must” means compulsory.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ]
+      },
+      {
+        "q": "A parent yells abuse at a junior umpire. Does the club code apply?",
+        "options": [
+          "Yes, if it covers spectators and parents",
+          "No, codes are only for players",
+          "Only if the parent signed it",
+          "Only at finals"
+        ],
+        "answer": 0,
+        "explain": "Many codes cover spectators and parents.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "q": "What did the umpire survey find?",
+        "options": [
+          "About half got regular verbal abuse; about 1 in 5 physical abuse",
+          "Umpires are never abused",
+          "Only adults umpire",
+          "Most umpires want more abuse"
+        ],
+        "answer": 0,
+        "explain": "That’s why clubs need codes that are enforced.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "q": "Where in a code do you find who to tell about a problem?",
+        "options": [
+          "The reporting section",
+          "The values section",
+          "The title",
+          "The logo"
+        ],
+        "answer": 0,
+        "explain": "It names who to contact and how.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ]
+      },
+      {
+        "q": "“We have **zero tolerance** for racism.” What does this mean?",
+        "options": [
+          "It won’t be accepted at all",
+          "A little is OK",
+          "Only on weekends",
+          "It’s not covered"
+        ],
+        "answer": 0,
+        "explain": "Zero tolerance signals the most serious behaviour.",
+        "vc": [
+          "VM-U3O1-KK3"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Work with your group. Write a code of conduct for a real team, class, club or job.",
+      "core": "Work with your group to write a code of conduct for a real team, class, club or workplace.",
+      "extend": "Collaborate to write a clear, fair code of conduct for a real group, using the conventions of a charter, then justify your choices."
+    },
+    "checklist": [
+      "We chose a real group",
+      "Our code has all five parts",
+      "We used must, should and may correctly",
+      "Everyone in the group had a say",
+      "I can explain why our code is fair"
+    ],
+    "levelUp": "Find the real code of conduct for a club, league or workplace you know. Compare it with yours: what did they include that you didn’t?",
+    "vc": [
+      "VM-U3O1-KK1",
+      "VM-U3O1-KS4",
+      "VM-U3O1-KS6"
+    ],
+    "model": {
+      "kind": "Example code of conduct",
+      "text": "**Year 11 VM Group Chat: Our Code**\n\n**Why:** This chat is for sharing work info and helping each other. Everyone should feel safe here.\n\n**Who:** Everyone in the chat, including teachers.\n\n**Everyone must:**\n- keep posts about school and work\n- ask before sharing someone’s photo\n\n**Not OK:** put-downs, spam, or sharing private info. We have zero tolerance for bullying.\n\n**Report it:** message the class rep or tell Ms Lee.\n\n**What happens:** 1st time, a private warning. 2nd time, removed from the chat for a week.",
+      "why": [
+        "It has all five parts, each with a clear heading.",
+        "It uses “must” for compulsory rules and “zero tolerance” for the most serious one.",
+        "The consequences are clear and get stronger in steps."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Structure",
+        "start": "Some parts are missing.",
+        "good": "All five parts, with headings.",
+        "great": "Clear, short and easy to follow."
+      },
+      {
+        "skill": "Language",
+        "start": "Rules are vague.",
+        "good": "Uses must, should and may correctly.",
+        "great": "Wording shows the group’s values."
+      },
+      {
+        "skill": "Group work",
+        "start": "One person did it.",
+        "good": "Everyone contributed.",
+        "great": "Disagreements were discussed and resolved."
+      }
+    ],
+    "choices": {
+      "prompt": "Which group will your code be for?",
+      "options": [
+        "A sports team or club",
+        "Our class or a group chat",
+        "A workplace or work experience site",
+        "An online gaming or social group"
+      ]
+    },
+    "solo": "No group? Write the code on your own for a team, workplace or chat you belong to. Then ask two members to read it and suggest one change each. Write what they said and what you changed."
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: What a code of conduct is for",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name the **five** parts of a code.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "vc": [
+              "VM-U3O1-KK1"
+            ]
+          },
+          {
+            "q": {
+              "support": "What does “must” mean in a code?",
+              "core": "What’s the difference between must, should and may?",
+              "extend": "Explain how modal verbs (must, should, may) signal different levels of obligation."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KK1"
+            ]
+          },
+          {
+            "q": "Why should you read a code before you sign it?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a code of conduct",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "Which part is it?",
+          "What does it tell members?"
+        ],
+        "instructions": {
+          "support": "Each number marks a part of the code. Use the word bank. Write what it tells members.",
+          "core": "Each number marks a part of the code. Name it, and say what it tells members."
+        },
+        "wordBank": {
+          "support": [
+            "values",
+            "who",
+            "must",
+            "not accepted",
+            "report",
+            "consequences"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Breaks the code, or OK?",
+        "pagebreak": true,
+        "choices": [
+          "Breaks the code",
+          "OK"
+        ],
+        "reasonLabel": "Which part of the code?",
+        "instructions": "Use the Riverside code above. Does each one break the code? Which part tells you?",
+        "vc": [
+          "VM-U3O1-KS4"
+        ],
+        "cards": [
+          {
+            "from": "Game day",
+            "text": "A parent yells “You’re blind, umpire!” all game.",
+            "answer": "Breaks the code",
+            "flags": "Abuse. Covers parents."
+          },
+          {
+            "from": "Game day",
+            "text": "A coach asks the umpire about a decision, calmly, after the game.",
+            "answer": "OK",
+            "flags": "Respectful."
+          },
+          {
+            "from": "Training",
+            "text": "A player makes a racist comment.",
+            "answer": "Breaks the code",
+            "flags": "Zero tolerance."
+          },
+          {
+            "from": "Game day",
+            "text": "A spectator cheers loudly for both teams.",
+            "answer": "OK",
+            "flags": "Encouraging players."
+          },
+          {
+            "from": "Online",
+            "text": "A player posts that the junior umpire should quit.",
+            "answer": "Breaks the code",
+            "flags": "Abuse and bullying."
+          },
+          {
+            "from": "Game day",
+            "text": "A parent emails the Welfare Officer about abuse they saw.",
+            "answer": "OK",
+            "flags": "Using the reporting process.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the whistle-blowers",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "What happened to many umpires?",
+              "core": "What did the umpire survey find?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why do clubs need a code?",
+              "core": "Why do many codes now cover parents and spectators?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KK1"
+            ]
+          },
+          {
+            "q": {
+              "support": "What would help umpires?",
+              "core": "What would make a code of conduct actually work?",
+              "extend": "Why might abuse go unreported? What makes a code work in practice?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Plan it together",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O1-KS6"
+        ],
+        "instructions": "In your group, discuss and agree. Write your group’s answers.",
+        "items": [
+          {
+            "q": "Our group (who the code is for):",
+            "lines": 1
+          },
+          {
+            "q": "Three values we agree on:",
+            "lines": 2
+          },
+          {
+            "q": "Something we disagreed about, and how we decided:",
+            "lines": 3
+          },
+          {
+            "q": "What I said in the discussion:",
+            "lines": 2
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: our code of conduct",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O1-KK1",
+          "VM-U3O1-KS4"
+        ],
+        "vcNote": "Creating a community charter with the structure and language of the form.",
+        "prompt": {
+          "support": "Write your group’s code. Use the **five parts**. Use the word **must** for rules everyone has to follow.",
+          "core": "Write your group’s code of conduct using the five parts and headings. Use must, should and may carefully. Keep it short enough to fit on one page.",
+          "extend": "Write a code of conduct with the conventions of a charter: values, scope, expected and unacceptable behaviour, a reporting pathway and graduated consequences. Choose your modal verbs deliberately."
+        },
+        "plan": [
+          {
+            "label": "Why (our values):",
+            "lines": 1
+          },
+          {
+            "label": "Who it covers:",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Everyone must…",
+          "Not accepted:",
+          "We have zero tolerance for…",
+          "To report a problem…",
+          "First time:"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "five parts",
+          "must / should / may",
+          "how to report",
+          "consequences in steps"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: compare with a real code",
+        "pagebreak": true,
+        "instructions": "Find the real code of conduct for a club, league or workplace you know.",
+        "items": [
+          {
+            "q": "What did the real code include that ours didn’t?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          },
+          {
+            "q": "What does its wording tell you about that group’s values?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KK3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find the parts of a code.",
+          "I know what must, should and may mean.",
+          "I know how to report a problem.",
+          "I helped write a fair code."
+        ],
+        "questions": [
+          "A code I’ll read more carefully now:",
+          "What I added to our group’s code:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students analyse the structure and language of charters and codes of conduct (values, scope, expected and unacceptable behaviour, reporting, consequences; must/should/may; zero tolerance), apply a club code to real situations, and collaborate to write a code for a real group. The case study is a 2025 University of South Australia survey of 356 Australian rules umpires: 49% reported regular verbal abuse and 21% physical abuse.",
+    "prep": [
+      "Print workbooks.",
+      "Collect two or three real codes of conduct (a local sports club, the school’s student code, a workplace code).",
+      "Plan groups of 3–4 for the shared code.",
+      "Some students umpire or referee; they may want to share experiences, or may prefer not to."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The parts of a code",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** who has signed a code of conduct? Did you read it?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Annotate (20 min):** the Riverside code."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Apply it",
+        "minutes": 50,
+        "steps": [
+          "**Sort (15 min):** breaks the code or OK?",
+          "**Case study (20 min):** the whistle-blowers.",
+          "**Plan it together (15 min):** groups agree values and scope."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write it",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (30 min):** groups write their code.",
+          "**Level Up (10 min):** compare with a real code.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Why, who, do and don’t, report it, what happens.",
+      "Must = compulsory; should = expected; may = allowed.",
+      "Codes now often cover spectators and parents.",
+      "A code only works if it’s known, used and enforced."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A code template with the five headings.",
+        "Fewer sort cards."
+      ],
+      "extend": [
+        "Modal verbs and graduated consequences.",
+        "Compare with a real code and analyse its values (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O1-KK1",
+        "evidence": "Identifies the structure and features of a community charter or code (annotation, final mission)."
+      },
+      {
+        "vc": "VM-U3O1-KS4",
+        "evidence": "Engages with real codes of conduct and applies them to situations (sort, Level Up)."
+      },
+      {
+        "vc": "VM-U3O1-KS6",
+        "evidence": "Listens and contributes to the group discussion that shapes the code (Plan it together)."
+      },
+      {
+        "vc": "VM-U3O1-KK3",
+        "evidence": "Explains how a group’s language reflects its values (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 values (purpose); 2 scope (who it covers, including parents and spectators); 3 compulsory behaviour (“must”); 4 unacceptable behaviour, zero tolerance; 5 reporting pathway; 6 graduated consequences.\n\n**Sort:** parent yelling — breaks; coach asking calmly — OK; racist comment — breaks; cheering both teams — OK; online post — breaks; emailing the Welfare Officer — OK.\n\n**Case study:** 49% verbal abuse at least every couple of games, 21% physical abuse, 53% had reported an incident; codes cover parents and spectators because much abuse comes from the crowd; codes work when they’re known, reported and enforced.",
+    "resources": [
+      {
+        "label": "University of South Australia — umpire abuse research (EurekAlert!)",
+        "url": "https://www.eurekalert.org/news-releases/1089168"
+      },
+      {
+        "label": "Play by the Rules — codes of conduct for sport",
+        "url": "https://www.playbytherules.net.au/"
+      },
+      {
+        "label": "Football Victoria — Three Strike Policy (club responsibility for spectators)",
+        "url": "https://footballvictoria.com.au/news/zero-tolerance-fv-three-strike-policy-update"
+      }
+    ],
+    "realityCheck": [
+      "**Students may have experienced abuse as players or umpires.** Keep discussion general; follow up privately if someone discloses something serious.",
+      "**Group writing can be dominated by one student.** Give roles (scribe, chair, checker) and use the “What I said” question as evidence of each person’s contribution.",
+      "**Real codes are often long and legalistic.** For the Level Up, a one-page club code works better than a 40-page policy.",
+      "**A class code can become a real class agreement.** If students want to adopt theirs, let them; it gives the task real stakes.",
+      "**Works in a real class:** yes. Sport and group chats are topics students have strong views on."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a five-heading template.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with modal verbs, the umpire case study and a group code.",
+      "extend": "Aimed at about Year 7 and up: charter conventions, graduated consequences, values in language and comparison with a real code."
+    }
+  }
+}

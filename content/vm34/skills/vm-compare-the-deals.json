@@ -1,0 +1,915 @@
+{
+  "id": "vm-compare-the-deals",
+  "version": 1,
+  "duration": "3–4 lessons (about 3 hours)",
+  "brief": {
+    "hook": {
+      "support": "Two phone plans. One says $25 a month. One says $35. Easy, right? But one has a catch. You only see it if you read the papers side by side.",
+      "core": "Two phone plans: $25 a month or $35 a month. Easy choice? Not if the cheap one locks you in for two years and charges for every extra gig. The information is all there in the documents. The skill is reading two of them side by side, fairly, and judging which one tells you the truth most clearly.",
+      "extend": "Banks, phone companies, power companies and landlords all publish documents that do the same job: describe an offer. Some make the important details easy to find. Others bury them. Comparing documents with the same purpose, and judging how well each informs you, is how you choose well and spot what’s hidden."
+    },
+    "why": {
+      "support": "Comparing deals saves you money. It also shows you which company is honest.",
+      "core": "Comparing properly can save you hundreds of dollars a year on phones, power and banking. It also teaches you which companies make information easy to find, and which hide it.",
+      "extend": "Choosing between similar offers is a constant adult task. Judging documents side by side, on the same criteria, protects your money. It also shows you which companies talk to you honestly."
+    },
+    "canDo": {
+      "support": [
+        "I can find two deals to compare.",
+        "I can compare them on the same things.",
+        "I can find the catch.",
+        "I can say which deal is better and why."
+      ],
+      "core": [
+        "I can find real documents for two similar offers.",
+        "I can compare them on the same criteria.",
+        "I can judge which document informs me better.",
+        "I can write a clear recommendation."
+      ],
+      "extend": [
+        "I can compare texts with the same purpose.",
+        "I can judge how well each one informs.",
+        "I can find what’s missing or buried.",
+        "I can write a recommendation backed by evidence."
+      ]
+    },
+    "showIt": "Compare two real documents for the same kind of deal, judge which informs you better, and recommend one.",
+    "vocab": [
+      {
+        "word": "compare",
+        "meaning": "look at two things to see how they are the same and different",
+        "example": "Compare the two plans side by side."
+      },
+      {
+        "word": "deal",
+        "meaning": "an offer to buy something on certain terms",
+        "example": "That phone deal looks cheap."
+      },
+      {
+        "word": "fee",
+        "meaning": "money you pay for a service",
+        "example": "The account has a $5 monthly fee."
+      },
+      {
+        "word": "contract",
+        "meaning": "an agreement you must stick to",
+        "example": "The plan has a 24-month contract."
+      },
+      {
+        "word": "catch",
+        "meaning": "a hidden problem in a deal",
+        "example": "The catch was the exit fee."
+      },
+      {
+        "word": "criteria",
+        "meaning": "the things you use to judge",
+        "example": "My criteria were cost, data and contract."
+      },
+      {
+        "word": "CIS",
+        "meaning": "Critical Information Summary: a short sheet about a phone plan",
+        "example": "The CIS showed the real cost.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "comparison site",
+        "meaning": "a website that compares deals for you",
+        "example": "Check who owns the comparison site.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "commission",
+        "meaning": "money paid to someone for making a sale",
+        "example": "The site earns a commission on each sign-up.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Compare the Deals in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Compare the Deals",
+        "sub": "Which one wins?",
+        "icon": "lucide:scale",
+        "say": "Compare the deals. Bank accounts, phone plans, power. Which one wins?"
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Compare",
+        "pillIcon": "lucide:scale",
+        "title": "Same kind of deal",
+        "text": "Apples with apples.",
+        "icon": "lucide:apple",
+        "say": "Step one. Compare the same kind of deal. Apples with apples.",
+        "vc": [
+          "VM-U3O1-KS5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Compare",
+        "pillIcon": "lucide:scale",
+        "title": "Same criteria",
+        "text": "Total cost. What’s included. The catch.",
+        "icon": "lucide:list-checks",
+        "say": "Step two. Use the same criteria for both. Total cost, what is included, and the catch.",
+        "vc": [
+          "VM-U3O1-KS5"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Compare",
+        "pillIcon": "lucide:scale",
+        "title": "Cost per year",
+        "text": "Add every fee.",
+        "icon": "lucide:calculator",
+        "say": "Step three. Work out the cost for a whole year. Add every fee.",
+        "vc": [
+          "VM-U3O1-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Compare",
+        "pillIcon": "lucide:scale",
+        "title": "Judge the document",
+        "text": "Which one tells you more, more clearly?",
+        "icon": "lucide:file-search",
+        "say": "Step four. Judge the documents too. Which one tells you what you need, more clearly?",
+        "vc": [
+          "VM-U3O1-KS5"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Who runs the comparison?",
+        "text": "Some comparison sites earn money from the deals they show.",
+        "icon": "lucide:eye",
+        "say": "And be careful with comparison websites. Some earn money from the deals they show you.",
+        "vc": [
+          "VM-U3O1-KS5"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Compare two real deals. Recommend one.",
+        "icon": "lucide:trophy",
+        "say": "Your mission. Compare two real deals, judge which document is clearer, and recommend one."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Apples with apples",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Phone plans, bank accounts and power deals all come with papers. The papers tell you about the deal.\n\nHere is how to compare two deals:\n\n1. **Same kind of deal.** Compare two phone plans. Not a phone plan and a bank account.\n2. **Same things.** Check the cost, what you get, and the catch, for both.\n3. **Cost per year.** Add up every fee for 12 months.\n4. **Which paper is clearer?** Can you find the cost fast? Or is it hidden?\n.\nPhone and internet plans must have a **Critical Information Summary**. It’s a short sheet with the key facts.\n\nComparison websites can help. But some earn money from the deals they show. The government has free ones too, like **Victorian Energy Compare** for power.",
+          "core": "Phone plans, bank accounts, power deals and rentals all come with documents that describe the offer. Comparing them well can save you hundreds of dollars a year.\n\n**1. Compare like with like.** Two phone plans with similar data. Two everyday bank accounts. Comparing different kinds of deal tells you nothing.\n\n**2. Use the same criteria for both.** Decide what matters before you start. Usually:\n- **total cost** (including every fee).\n- **what’s included** (data, features, interest).\n- **the catch** (contract length, exit fees, price rises, extra charges).\n\n**3. Work out the cost per year.** Monthly prices hide yearly totals. Add every fee for 12 months.\n\n**4. Judge the documents, not just the deals.** Which one puts the important facts up front? Which uses plain language? Which hides the catch in small print? A company that explains clearly is often easier to deal with later.\n\n**Useful documents:** phone and internet companies must give you a **Critical Information Summary** for each plan: a short sheet with the minimum cost, inclusions and key conditions. Banks publish fee pages and terms.\n\n**Comparison sites** can save time, but check who runs them. Some earn a **commission** from the deals they list, and may not include every company. Government sites, like **Victorian Energy Compare**, are free and independent.",
+          "extend": "Banks, telcos, energy retailers and landlords all publish documents with the same basic purpose: to describe an offer. Comparing them well is a skill in reading, not just maths.\n\n**1. Compare texts with the same purpose.** Two plans of the same type and similar size; two everyday accounts. Otherwise the comparison is meaningless.\n\n**2. Set criteria first, and apply them equally.** Typically: **total cost** (all fees), **inclusions**, and **conditions** (contract length, exit fees, price changes, excess charges). Deciding criteria first stops a flashy feature from distracting you.\n\n**3. Standardise the numbers.** Convert to a yearly cost, including one-off and conditional fees.\n\n**4. Evaluate how effectively each document informs.** Are key facts prominent or buried? Is the language plain or technical? Are the conditions near the price, or pages away? Effectiveness is part of the comparison: opaque documents carry risk.\n\nStandardised documents help. Telcos must provide a **Critical Information Summary** for each plan, so the same facts appear in the same places.\n\nBe critical of **comparison sites**. In 2014 the ACCC found that some didn’t make clear how much of the market they covered, or that commercial deals could shape what they showed. Independent government tools, such as **Victorian Energy Compare**, avoid that conflict."
+        },
+        "vc": [
+          "VM-U3O1-KS5",
+          "VM-U3O1-KK2"
+        ],
+        "vcNote": "Comparing and contrasting texts with similar purposes, and evaluating how effectively they inform."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Who’s doing the comparing?",
+        "icon": "lucide:eye",
+        "body": {
+          "support": "Comparison websites show you lots of deals at once. They are popular.\n\nIn **2014**, the **ACCC** looked at these sites. The ACCC is the government group that protects shoppers.\n\nIt found some sites did not tell people:\n- that they did **not** show every company.\n- that some companies **paid** them.\n\nThat could push people to a deal that cost more.\n\nThe ACCC told the sites to be clearer. It also told shoppers to check who runs the site.",
+          "core": "Comparison websites promise to find you the best deal on phones, power or health insurance in seconds. Millions of Australians use them.\n\nIn **2014**, the **ACCC**, the government group that protects shoppers, wrote a report on comparison sites. It looked at sites that compare power, phone and internet, and health insurance.\n\nThe ACCC was worried about two things:\n- Some sites didn’t make clear that they **didn’t show every company**.\n- Some had **money deals** with the companies they listed, and people didn’t know. These deals could push people to dearer products, even when cheaper ones existed.\n.\nIn 2015, the ACCC wrote guides for comparison sites and for shoppers. Its advice: check who runs the site, how it makes money, and whether it shows every company.",
+          "extend": "Comparison websites present themselves as neutral guides to the cheapest phone plan, power deal or health insurance.\n\nIn **2014**, after complaints, the **ACCC** published a report on comparison websites. It looked at sites comparing power, phone and internet plans, and health insurance.\n\nThe ACCC identified two key concerns:\n- Sites weren’t always clear about **market coverage**: how many companies they actually compared.\n- Some had **hidden money deals** with the companies they listed. These could steer people to dearer products when cheaper ones existed.\n.\nIn 2015, the ACCC published guides for comparison sites and for shoppers.\n\nThe lesson is to treat the comparison itself as a text to judge. A ranking is only as trustworthy as whoever made it. Ask who made it, how they’re paid, and what they left out. Then check the original documents yourself."
+        },
+        "source": {
+          "name": "ACCC media release — “Comparing apples with apples: ACCC report on the comparator website industry in Australia” (2014)",
+          "url": "https://www.accc.gov.au/media-release/comparing-apples-with-apples-accc-report-on-the-comparator-website-industry-in-australia"
+        },
+        "think": {
+          "support": [
+            "What did some comparison sites not tell people?",
+            "What should you check before you trust one?"
+          ],
+          "core": [
+            "What two problems did the ACCC find?",
+            "How could a commercial deal affect what a site shows you?",
+            "What would you check before trusting a comparison site?"
+          ],
+          "extend": [
+            "Why is a comparison site itself a text to evaluate?",
+            "What does “market coverage” mean, and why does it matter?",
+            "When would you go straight to the original documents?"
+          ]
+        },
+        "vc": [
+          "VM-U3O1-KS5"
+        ],
+        "vcNote": "Evaluating texts that compare offers, and the purposes behind them."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a Critical Information Summary",
+      "docTitle": "CRITICAL INFORMATION SUMMARY — FLEX 40 MOBILE PLAN (EXAMPLE)",
+      "vc": [
+        "VM-U3O1-KK2",
+        "VM-U3O1-KS5"
+      ],
+      "vcNote": "Locating the key elements of a standardised telco document.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "The plan",
+          "value": "Month-to-month mobile plan with 40 GB of data."
+        },
+        {
+          "n": 2,
+          "label": "Minimum monthly charge",
+          "value": "$35 a month."
+        },
+        {
+          "n": 3,
+          "label": "Minimum total cost",
+          "value": "$35 (one month). No lock-in contract.",
+          "strong": true
+        },
+        {
+          "n": 4,
+          "label": "If you go over your data",
+          "value": "Speed slows to 1.5 Mbps. No extra charge."
+        },
+        {
+          "n": 5,
+          "label": "Not included",
+          "value": "International calls and texts: extra charges apply."
+        },
+        {
+          "n": 6,
+          "label": "Leaving",
+          "value": "Cancel any time. No exit fee."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Plan type",
+          "note": "What it is."
+        },
+        {
+          "n": 2,
+          "label": "Monthly cost",
+          "note": "The least you’ll pay a month."
+        },
+        {
+          "n": 3,
+          "label": "Minimum total",
+          "note": "The least you’ll pay overall."
+        },
+        {
+          "n": 4,
+          "label": "Over the limit",
+          "note": "Slowed, not charged."
+        },
+        {
+          "n": 5,
+          "label": "Extras",
+          "note": "What costs more."
+        },
+        {
+          "n": 6,
+          "label": "Exit",
+          "note": "How easy it is to leave."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Compare fairly",
+      "steps": [
+        {
+          "title": "Like with like",
+          "text": "Same kind of deal.",
+          "icon": "lucide:apple"
+        },
+        {
+          "title": "Same criteria",
+          "text": "Cost, included, catch.",
+          "icon": "lucide:list-checks"
+        },
+        {
+          "title": "Cost per year",
+          "text": "Add every fee.",
+          "icon": "lucide:calculator"
+        },
+        {
+          "title": "Judge the docs",
+          "text": "Which is clearer?",
+          "icon": "lucide:file-search"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is a fair comparison?",
+        "options": [
+          "Two phone plans with similar data",
+          "A phone plan and a bank account",
+          "A car and a bike",
+          "A gym and a phone plan"
+        ],
+        "answer": 0,
+        "explain": "Compare like with like.",
+        "vc": [
+          "VM-U3O1-KS5"
+        ]
+      },
+      {
+        "q": "Plan A is $25 a month with a $10 monthly fee. Plan B is $33 a month, no fees. Which costs less per year?",
+        "options": [
+          "Plan B ($396)",
+          "Plan A ($300)",
+          "They cost the same",
+          "You can’t tell"
+        ],
+        "answer": 0,
+        "explain": "Plan A is $35 a month with the fee: $420 a year. Plan B is $396.",
+        "vc": [
+          "VM-U3O1-KK2"
+        ]
+      },
+      {
+        "q": "What is a **catch** in a deal?",
+        "options": [
+          "A hidden problem, like an exit fee",
+          "A free gift",
+          "The logo",
+          "A discount"
+        ],
+        "answer": 0,
+        "explain": "Look for contracts, exit fees and price rises.",
+        "vc": [
+          "VM-U3O1-KS5"
+        ]
+      },
+      {
+        "q": "What did the ACCC find about some comparison sites in 2014?",
+        "options": [
+          "Some didn’t show every company, or had deals people didn’t know about",
+          "They were all perfect",
+          "They were all illegal",
+          "They only compared cars"
+        ],
+        "answer": 0,
+        "explain": "Check who runs a comparison site and how it makes money.",
+        "vc": [
+          "VM-U3O1-KS5"
+        ]
+      },
+      {
+        "q": "Which document makes information **effective**?",
+        "options": [
+          "The one that puts the key facts up front, in plain words",
+          "The one with the most pages",
+          "The one with tiny print",
+          "The one with the most pictures"
+        ],
+        "answer": 0,
+        "explain": "Clear, prominent facts make a document effective.",
+        "vc": [
+          "VM-U3O1-KS5"
+        ]
+      },
+      {
+        "q": "What must phone and internet companies give you for each plan?",
+        "options": [
+          "A Critical Information Summary",
+          "A free phone",
+          "A paper bill",
+          "A comparison site"
+        ],
+        "answer": 0,
+        "explain": "It sums up the key facts of the plan.",
+        "vc": [
+          "VM-U3O1-KK2"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Find 2 real deals of the same kind. Compare them. Say which paper is clearer. Pick the best deal.",
+      "core": "Compare two real documents for the same kind of deal, judge which informs you better, and recommend one.",
+      "extend": "Compare two real documents with the same purpose against set criteria, evaluate how effectively each informs, and write an evidence-based recommendation."
+    },
+    "checklist": [
+      "I found two real documents for the same kind of deal",
+      "I compared them on the same criteria",
+      "I worked out the cost for a year",
+      "I judged which document was clearer",
+      "My recommendation is clear, with correct spelling and punctuation"
+    ],
+    "levelUp": "Check the same deals on a comparison site. Did it show both? Does it say how it makes money? Add what you found to your recommendation.",
+    "vc": [
+      "VM-U3O1-KS5",
+      "VM-U3O1-KS1",
+      "VM-U3O1-KS7"
+    ],
+    "model": {
+      "kind": "Example recommendation",
+      "text": "**Comparing two everyday bank accounts for a first job**\n\n| | Account A | Account B |\n|---|---|---|\n| Monthly fee | $0 under 25 | $4 (free if $1,000 deposited) |\n| ATM fees | Free at their ATMs | Free at their ATMs |\n| Cost per year (for me) | $0 | $48 (I earn about $600 a month) |\n| Clear document? | Fees on page 1 | Fee rule on page 6 |\n\n**My recommendation:** Account A. It’s free for me, and its document puts the fees up front. Account B’s fee rule was hidden on page 6, so it would cost me $48 a year.",
+      "why": [
+        "Both accounts are judged on exactly the same criteria.",
+        "It works out the yearly cost for the reader’s real situation.",
+        "It judges the documents themselves, as well as the deals."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Fair comparison",
+        "start": "Different kinds of deal, or different criteria.",
+        "good": "Same kind of deal, same criteria.",
+        "great": "Criteria fit the reader’s real needs."
+      },
+      {
+        "skill": "Evaluation",
+        "start": "Price only.",
+        "good": "Cost per year, plus the catch.",
+        "great": "Also judges which document informs better."
+      },
+      {
+        "skill": "Recommendation",
+        "start": "No clear choice.",
+        "good": "Clear choice with reasons.",
+        "great": "Evidence-based, polished and correct."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of deals will you compare?",
+      "options": [
+        "Two phone plans",
+        "Two everyday bank accounts",
+        "Two energy (power) offers",
+        "Two streaming or gym memberships"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Apples with apples",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name the **four** steps to compare fairly.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "vc": [
+              "VM-U3O1-KS5"
+            ]
+          },
+          {
+            "q": "Why work out the cost **per year**?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KK2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why be careful with comparison websites?",
+              "core": "What should you check before trusting a comparison site?",
+              "extend": "Why is judging a document’s clarity part of comparing deals?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a Critical Information Summary",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is it?",
+          "What does it tell you?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the summary. Use the word bank. Write what it tells you.",
+          "core": "Each number marks a key fact. Name it, and say what it tells you about the plan."
+        },
+        "wordBank": {
+          "support": [
+            "plan type",
+            "monthly cost",
+            "minimum total",
+            "over the limit",
+            "extras",
+            "leaving"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Fair comparison or not?",
+        "pagebreak": true,
+        "choices": [
+          "Fair",
+          "Not fair"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Is each comparison fair? Say why.",
+        "vc": [
+          "VM-U3O1-KS5"
+        ],
+        "cards": [
+          {
+            "from": "Comparing",
+            "text": "Two month-to-month phone plans, both with about 40 GB.",
+            "answer": "Fair",
+            "flags": "Same type, similar size."
+          },
+          {
+            "from": "Comparing",
+            "text": "A $25 plan’s monthly price with a $33 plan’s monthly price, ignoring a $10 fee.",
+            "answer": "Not fair",
+            "flags": "All fees must be counted."
+          },
+          {
+            "from": "Comparing",
+            "text": "Two bank accounts, both for everyday spending.",
+            "answer": "Fair",
+            "flags": "Same purpose."
+          },
+          {
+            "from": "Comparing",
+            "text": "A phone plan’s data with a bank account’s interest rate.",
+            "answer": "Not fair",
+            "flags": "Different kinds of deal."
+          },
+          {
+            "from": "Comparing",
+            "text": "Two power offers, both worked out as a cost per year.",
+            "answer": "Fair",
+            "flags": "Same yearly basis."
+          },
+          {
+            "from": "Comparing",
+            "text": "A comparison site that only lists companies that pay it.",
+            "answer": "Not fair",
+            "flags": "Not the whole market.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: who’s doing the comparing?",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "What did some sites not tell people?",
+              "core": "What two problems did the ACCC find?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS5"
+            ]
+          },
+          {
+            "q": "How could a commercial deal change what a site shows you?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS5"
+            ]
+          },
+          {
+            "q": {
+              "support": "What will you check before you use one?",
+              "core": "What will you check before trusting a comparison site?",
+              "extend": "Why is a comparison site itself a text you need to evaluate?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission, step 1: compare two real deals",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 18
+        },
+        "vc": [
+          "VM-U3O1-KS5",
+          "VM-U3O1-KS1",
+          "VM-U3O1-KK2"
+        ],
+        "vcNote": "Comparing two real texts with the same purpose on set criteria.",
+        "instructions": {
+          "support": "Find two real deals of the same kind online. Fill in the table for both.",
+          "core": "Find the official documents for two real deals of the same kind (for phones, use each plan’s Critical Information Summary). Fill in the table.",
+          "extend": "Locate the official documents for two comparable offers. Apply the same criteria to both, including how clearly each presents the information."
+        },
+        "columns": [
+          "Criteria",
+          "Deal A:",
+          "Deal B:"
+        ],
+        "rows": [
+          [
+            "Monthly cost",
+            "",
+            ""
+          ],
+          [
+            "All other fees",
+            "",
+            ""
+          ],
+          [
+            "Cost per year",
+            "",
+            ""
+          ],
+          [
+            "What’s included",
+            "",
+            ""
+          ],
+          [
+            "The catch",
+            "",
+            ""
+          ],
+          [
+            "How easy was the document to read? (1–5)",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission, step 2: my recommendation",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O1-KS5",
+          "VM-U3O1-KS7"
+        ],
+        "vcNote": "Writing an evaluation and recommendation with correct conventions.",
+        "prompt": {
+          "support": "Which deal is better for you? Why? Which paper was clearer? Write 4 to 6 sentences.",
+          "core": "Write a recommendation for someone like you (about 100 words). Say which deal wins and why, using your table. Say which document informed you better, and how.",
+          "extend": "Write an evidence-based recommendation that weighs cost, inclusions and conditions, and evaluates how effectively each document delivered the information."
+        },
+        "plan": [
+          {
+            "label": "Who it’s for:",
+            "lines": 1
+          },
+          {
+            "label": "The winner, in one sentence:",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "I compared…",
+          "Over a year, Deal A costs…",
+          "The catch with … is…",
+          "… document was clearer because…",
+          "I recommend…"
+        ],
+        "lines": {
+          "support": 9,
+          "core": 9,
+          "extend": 9
+        },
+        "check": [
+          "same criteria",
+          "cost per year",
+          "the catch",
+          "which document was clearer",
+          "spelling and punctuation"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: test a comparison site",
+        "pagebreak": true,
+        "instructions": "Look up the same kind of deal on a comparison site.",
+        "items": [
+          {
+            "q": "Did it show both of your deals? Who runs the site?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS1",
+              "VM-U3O1-KS5"
+            ]
+          },
+          {
+            "q": "How does it say it makes money? Would you trust its ranking?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can compare deals fairly.",
+          "I can work out the cost per year.",
+          "I can find the catch.",
+          "I can judge which document is clearer."
+        ],
+        "questions": [
+          "A deal I’ll compare properly next time:",
+          "The most hidden catch I found:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The boss course for Real-World Docs. Students compare two real documents with the same purpose (phone plans’ Critical Information Summaries, bank account fee pages, energy offers) on set criteria, standardise costs per year, identify the catch, and evaluate how effectively each document informs, then write a recommendation. The case study is the ACCC’s 2014 report on comparison websites (market coverage and undisclosed commercial relationships).",
+    "prep": [
+      "Print workbooks.",
+      "Bookmark Critical Information Summaries for two or three real phone plans, and Victorian Energy Compare, for students who need a starting point.",
+      "Calculators.",
+      "Check the ACCC page is reachable."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Compare fairly",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** $25 vs $35 a month. Which is cheaper? Reveal the fees.",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** fair comparison or not.",
+          "**Annotate (10 min):** the Critical Information Summary."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Who’s comparing?",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** the ACCC report.",
+          "**Model (15 min):** compare two real CISs aloud, including a yearly cost.",
+          "**Step 1 (20 min):** students find their documents and start the table."
+        ]
+      },
+      {
+        "title": "Lessons 3–4 — Recommend",
+        "minutes": 75,
+        "steps": [
+          "**Finish step 1 (20 min).**",
+          "**Step 2 (30 min):** recommendations; peer check for conventions.",
+          "**Level Up (10 min):** test a comparison site.",
+          "**Check & reflect (15 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Compare like with like, on the same criteria.",
+      "Cost per year, including every fee.",
+      "Judge the documents, not just the deals.",
+      "Check who runs a comparison site and how it’s paid."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Teacher-supplied pair of documents.",
+        "Calculator support for yearly costs."
+      ],
+      "extend": [
+        "Market coverage and commissions.",
+        "Test a comparison site against the originals (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O1-KS5",
+        "evidence": "Compares and contrasts texts with similar purposes and evaluates their effectiveness in delivering information (table, recommendation)."
+      },
+      {
+        "vc": "VM-U3O1-KS1",
+        "evidence": "Accesses relevant documents online (step 1, Level Up)."
+      },
+      {
+        "vc": "VM-U3O1-KS7",
+        "evidence": "Applies conventions of literacy in the recommendation."
+      },
+      {
+        "vc": "VM-U3O1-KK2",
+        "evidence": "Locates key elements of complex documents such as a CIS or fee schedule.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 plan type (month-to-month, 40 GB); 2 minimum monthly charge; 3 minimum total cost (one month, no lock-in); 4 excess data (slowed, not charged); 5 exclusions/extra charges (international); 6 exit (no fee).\n\n**Quiz yearly cost:** Plan A $35 × 12 = $420; Plan B $33 × 12 = $396.\n\n**Sort:** similar phone plans — fair; ignoring a fee — not fair; two everyday accounts — fair; data vs interest — not fair; two yearly power costs — fair; site that only lists paying companies — not fair.\n\n**Case study:** lack of transparency about market coverage, and undisclosed commercial relationships that could steer people to dearer products; check who runs the site, how it earns money and how much of the market it covers.",
+    "resources": [
+      {
+        "label": "ACCC — Comparing apples with apples (2014)",
+        "url": "https://www.accc.gov.au/media-release/comparing-apples-with-apples-accc-report-on-the-comparator-website-industry-in-australia"
+      },
+      {
+        "label": "Victorian Energy Compare (government, independent)",
+        "url": "https://compare.energy.vic.gov.au/"
+      },
+      {
+        "label": "Moneysmart — bank accounts",
+        "url": "https://moneysmart.gov.au/banking"
+      }
+    ],
+    "realityCheck": [
+      "**Finding the official documents is half the skill.** Some students will default to ads. Model searching for “[plan name] critical information summary”.",
+      "**Yearly cost maths trips students up.** Have calculators ready, and check one example together.",
+      "**Avoid recommending real companies yourself.** The decision is the student’s reasoning; keep the class discussion about documents, not brands.",
+      "**Energy offers are complicated.** Victorian Energy Compare simplifies them; recommend it for students choosing power.",
+      "**Works in a real class:** yes. Students enjoy “catching out” confusing documents, and some take their findings home."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a teacher-supplied pair of documents.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with criteria, yearly costs, the CIS, the ACCC case and a recommendation.",
+      "extend": "Aimed at about Year 7 and up: evaluating effectiveness, market coverage and commissions, and testing a comparison site."
+    }
+  }
+}

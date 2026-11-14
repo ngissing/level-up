@@ -1,0 +1,898 @@
+{
+  "id": "vm-insurance-decoded",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You crash your car. You have insurance. Then they say: “You pay the first $1,800.” What? Insurance papers tell you this. You just have to read them.",
+      "core": "You crash your first car. Good thing you’re insured, right? Then the insurer says you have to pay the first $1,800 yourself, and the damage to your phone in the car isn’t covered at all. It was all in the documents. Insurance papers are long, but the important parts are easy to find if you know where to look.",
+      "extend": "Insurance is a promise written in a long document. What you’re covered for, what you pay when you claim, and what’s left out are all there. Reading those key parts before you buy is the difference between a safety net and a nasty surprise."
+    },
+    "why": {
+      "support": "Insurance costs a lot. Read the papers so you know what you get.",
+      "core": "Car, phone and renters’ insurance can cost hundreds of dollars a year. Reading the papers tells you what you’re really paying for, and what you’re not.",
+      "extend": "Insurance documents are complex, and mistakes cost money. Finding the key parts, working out what they mean for you and comparing policies stops you paying for cover you can’t use."
+    },
+    "canDo": {
+      "support": [
+        "I know what insurance is.",
+        "I can find the cost and the excess.",
+        "I can find what is not covered.",
+        "I can check a real policy."
+      ],
+      "core": [
+        "I can explain premium, excess and exclusions.",
+        "I can find the key parts of a policy schedule and PDS.",
+        "I can work out what a policy means for me.",
+        "I can decode a real insurance document."
+      ],
+      "extend": [
+        "I can identify the structure and key elements of insurance documents.",
+        "I can infer how policy terms apply to real situations.",
+        "I can compare two policies and judge which informs better.",
+        "I can explain a policy in plain English."
+      ]
+    },
+    "showIt": "Decode a real insurance document: what it covers, what it costs, what it doesn’t cover, and whether you’d buy it.",
+    "vocab": [
+      {
+        "word": "insurance",
+        "meaning": "paying a company so they pay if something goes wrong",
+        "example": "Car insurance pays for crash damage."
+      },
+      {
+        "word": "premium",
+        "meaning": "what you pay for insurance",
+        "example": "My premium is $90 a month."
+      },
+      {
+        "word": "excess",
+        "meaning": "what you pay yourself when you make a claim",
+        "example": "My excess is $800."
+      },
+      {
+        "word": "claim",
+        "meaning": "asking the insurer to pay",
+        "example": "I made a claim after the crash."
+      },
+      {
+        "word": "policy",
+        "meaning": "your insurance deal and its rules",
+        "example": "Read your policy before you buy."
+      },
+      {
+        "word": "exclusion",
+        "meaning": "something the insurance won’t pay for",
+        "example": "Wear and tear is an exclusion."
+      },
+      {
+        "word": "PDS",
+        "meaning": "Product Disclosure Statement: the full rules of the policy",
+        "example": "The PDS lists what’s covered.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "comprehensive",
+        "meaning": "car insurance that covers your car and other people’s",
+        "example": "Comprehensive costs more but covers more.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "market value",
+        "meaning": "what your car is worth now, if it were sold",
+        "example": "They pay the market value, not what I paid.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Insurance Decoded in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Insurance Decoded",
+        "sub": "What are you actually covered for?",
+        "icon": "lucide:shield",
+        "say": "Insurance decoded. What are you actually covered for?"
+      },
+      {
+        "kind": "big",
+        "title": "Insurance is a deal",
+        "text": "You pay a **premium**. They pay if something goes wrong.",
+        "icon": "lucide:handshake",
+        "say": "Insurance is a deal. You pay a premium. They pay if something goes wrong. But only for what is in the deal.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Find it",
+        "pillIcon": "lucide:shield",
+        "title": "Premium",
+        "text": "What you pay to be covered.",
+        "icon": "lucide:wallet",
+        "say": "Find the premium. What you pay to be covered, each month or year.",
+        "vc": [
+          "VM-U3O1-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Find it",
+        "pillIcon": "lucide:shield",
+        "title": "Excess",
+        "text": "What **you** pay when you claim.",
+        "icon": "lucide:coins",
+        "say": "Find the excess. What you pay yourself, every time you claim.",
+        "vc": [
+          "VM-U3O1-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Find it",
+        "pillIcon": "lucide:shield",
+        "title": "What’s covered",
+        "text": "The events and things they pay for.",
+        "icon": "lucide:check-circle",
+        "say": "Find what is covered. The events and things they will pay for.",
+        "vc": [
+          "VM-U3O1-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Find it",
+        "pillIcon": "lucide:shield",
+        "title": "Exclusions",
+        "text": "What they **won’t** pay for.",
+        "icon": "lucide:ban",
+        "say": "Find the exclusions. What they will not pay for. This is where the surprises hide.",
+        "vc": [
+          "VM-U3O1-KK2",
+          "VM-U3O1-KS2"
+        ]
+      },
+      {
+        "kind": "stat",
+        "big": "9 cents",
+        "title": "back in claims, for every dollar spent",
+        "sub": "On add-on insurance sold at car dealers, 2013–2015. Source: ASIC",
+        "say": "One report found that add-on insurance sold at car yards paid back just nine cents in claims for every dollar people spent.",
+        "vc": [
+          "VM-U3O1-KS2"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Decode a real policy.",
+        "icon": "lucide:search-check",
+        "say": "Your mission. Decode a real insurance document, and decide if you would buy it."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Read the policy before you need it",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Insurance is a deal. You pay money. The company pays if something goes wrong.\n\nYou can insure a car, a phone or your things in a rental.\n\nFind these four things in the papers:\n\n1. **Premium.** What you pay. Each month or each year.\n2. **Excess.** What **you** pay when you claim. If the excess is $800 and the damage is $500, you get nothing.\n3. **What’s covered.** Crash? Theft? Fire?\n4. **Exclusions.** What they won’t pay for. Like a phone left on a bench, or wear and tear.\n.\n**Car insurance in Victoria:**\n- Injury cover (the TAC) is part of your rego.\n- Damage to other people’s cars is **not**. You need to buy that.\n- **Comprehensive** covers your car too.\n.\nRead the papers **before** you buy.",
+          "core": "Insurance is a deal: you pay the insurer money, and they pay if something specific goes wrong. You can insure a car, a phone, your things in a rental, and more.\n\nEvery policy has two main documents:\n- the **policy schedule** (or certificate): your details, the cost, your excess and who’s covered.\n- the **Product Disclosure Statement (PDS)**: the full rules. It’s long, but it has a contents page and clear headings.\n.\nFind four key things:\n\n1. **Premium:** what you pay for the cover, monthly or yearly.\n2. **Excess:** what **you** pay towards each claim. Young drivers often pay an extra “age excess”. If your excess is $800 and the damage is $600, insurance pays nothing.\n3. **What’s covered:** the events (crash, theft, fire, storm) and the items.\n4. **Exclusions:** what they **won’t** pay for. Common ones: phones left unattended, wear and tear, unlisted drivers, and driving unlicensed or over the limit.\n.\n**Car insurance in Victoria:**\n- Your rego includes the **TAC charge**, which covers injuries to people.\n- It does **not** cover damage to cars or property. For that, you need **third party property** insurance (other people’s cars) or **comprehensive** (theirs and yours).\n.\nAlways check the PDS before you buy, and use the contents page to jump to the parts that matter.",
+          "extend": "Insurance is a contract. You pay a **premium**, and the insurer agrees to pay for certain losses, under certain conditions. Two documents set out those conditions.\n\n- The **policy schedule** (or certificate of insurance) is your personal summary. It shows what’s insured, for how long, the premium, the excess and who is listed.\n- The **Product Disclosure Statement (PDS)** is the full rulebook. It’s long, but it has a clear structure: a contents page, a list of definitions, what’s covered, exclusions and how to claim. Words like “accident” and “unattended” have exact meanings.\n.\nKey elements to locate:\n\n1. **Premium:** the cost of cover, and how it’s paid.\n2. **Excess:** what you pay towards each claim. Excesses can stack up, like a basic excess plus a young driver excess.\n3. **Insured value:** for cars, often **market value** (what it’s worth now) or **agreed value** (an amount set at the start).\n4. **What’s covered and what’s not:** read the exclusions closely, and check how key words are defined.\n.\nIn Victoria, your rego includes the **TAC charge**, which covers injuries to people. It doesn’t cover damage to cars or property. That’s why **third party property** or **comprehensive** cover matters.\n\nRead the PDS before you buy. Use its structure to find the key parts. Then think through how its rules would apply to things that could really happen to you."
+        },
+        "vc": [
+          "VM-U3O1-KK1",
+          "VM-U3O1-KK2",
+          "VM-U3O1-KS2"
+        ],
+        "vcNote": "Structures and features of insurance forms; locating key elements; inferring how terms apply."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Nine cents in the dollar",
+        "icon": "lucide:car",
+        "body": {
+          "support": "When people buy a car at a car yard, they are often offered extra insurance. This is called **add-on insurance**.\n\nIn **2016**, ASIC checked it. ASIC is a government group. It checks on banks and insurance companies.\n\nFrom 2013 to 2015, people paid **$1.6 billion** for this insurance.\n\nBut they got back only **$144 million** in claims. That is about **9 cents** for every dollar they paid.\n\nCar yards got **$602 million** for selling it.\n\nASIC said this was **“a market that is failing consumers”**.",
+          "core": "When you buy a car from a dealer, the salesperson often offers **add-on insurance**. It’s extra cover, sold with the car or the car loan.\n\nIn **2016**, a government group called **ASIC** wrote a report about it. ASIC checks on banks and insurers. The report’s title said it all: **“A market that is failing consumers.”**\n\nASIC found that from 2013 to 2015, people paid **$1.6 billion** for add-on insurance. They got back only **$144 million** in claims. That’s about **9 cents** for every dollar they paid. Normal car insurance paid back about 85 cents in the dollar.\n\nCar dealers got **$602 million** for selling it.\n\nMany buyers signed up on the spot. They didn’t read what it covered, or compare it with other deals.",
+          "extend": "Car buyers are often offered **add-on insurance** when they buy. It’s cover bundled with the car or the loan, and the dealer earns a commission for selling it.\n\nIn **2016**, the Australian Securities and Investments Commission (**ASIC**) published Report 492. Its title was **“A market that is failing consumers.”** It found that from 2013 to 2015, people paid **$1.6 billion** for add-on insurance but got back only **$144 million** in claims. That’s a claims ratio of about **9%**. Comprehensive car insurance pays back about 85%. Dealers earned **$602 million** in commissions over the same years.\n\nThe way it was sold worked against careful reading. Buyers were offered cover at the end of a long sale, in a hurry, by someone who earned money from it. They often had no chance to compare.\n\nASIC’s report led to changes in how add-on insurance is sold. The lesson for any buyer: read the key parts of the document, and compare other options, before you agree."
+        },
+        "source": {
+          "name": "ASIC Report 492 — A market that is failing consumers: the sale of add-on insurance through car dealers (2016)",
+          "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/reports/rep-492-a-market-that-is-failing-consumers-the-sale-of-add-on-insurance-through-car-dealers"
+        },
+        "think": {
+          "support": [
+            "How much did people pay? How much did they get back?",
+            "Why might people buy it without reading?"
+          ],
+          "core": [
+            "What does “9 cents in the dollar” mean?",
+            "Why might buyers sign up without reading the documents?",
+            "What would you check before buying insurance at a car yard?"
+          ],
+          "extend": [
+            "Why is a claims ratio a useful way to judge insurance?",
+            "How did the sales setting work against careful reading?",
+            "Whose interests did the commissions serve?"
+          ]
+        },
+        "vc": [
+          "VM-U3O1-KS2"
+        ],
+        "vcNote": "Inferring the value of an insurance product from real regulator data."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a policy schedule",
+      "docTitle": "CAR INSURANCE — CERTIFICATE OF INSURANCE (EXAMPLE)",
+      "vc": [
+        "VM-U3O1-KK1",
+        "VM-U3O1-KK2"
+      ],
+      "vcNote": "Locating the key elements of an insurance document.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Policy type",
+          "value": "Comprehensive car insurance"
+        },
+        {
+          "n": 2,
+          "label": "Insured car",
+          "value": "2014 Toyota Corolla, rego ABC123"
+        },
+        {
+          "n": 3,
+          "label": "Sum insured",
+          "value": "Market value"
+        },
+        {
+          "n": 4,
+          "label": "Premium",
+          "value": "$1,420 a year, or $124 a month"
+        },
+        {
+          "n": 5,
+          "label": "Excess",
+          "value": "Basic $800 + under-25 driver excess $1,000",
+          "strong": true
+        },
+        {
+          "n": 6,
+          "label": "Listed drivers",
+          "value": "Jordan Lee (19). Other drivers: excess applies."
+        }
+      ],
+      "note": "Made-up example for practice. Read the PDS for exclusions.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Type of cover",
+          "note": "Covers your car and others."
+        },
+        {
+          "n": 2,
+          "label": "What’s insured",
+          "note": "Check it’s the right car."
+        },
+        {
+          "n": 3,
+          "label": "How much they pay",
+          "note": "What the car is worth now."
+        },
+        {
+          "n": 4,
+          "label": "Premium",
+          "note": "What you pay to be covered."
+        },
+        {
+          "n": 5,
+          "label": "Excess",
+          "note": "$1,800 total from you per claim."
+        },
+        {
+          "n": 6,
+          "label": "Who can drive",
+          "note": "Others may cost you more."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Four things to find",
+      "steps": [
+        {
+          "title": "Premium",
+          "text": "What you pay.",
+          "icon": "lucide:wallet"
+        },
+        {
+          "title": "Excess",
+          "text": "What you pay per claim.",
+          "icon": "lucide:coins"
+        },
+        {
+          "title": "Covered",
+          "text": "What they pay for.",
+          "icon": "lucide:check-circle"
+        },
+        {
+          "title": "Exclusions",
+          "text": "What they won’t.",
+          "icon": "lucide:ban"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is the **excess**?",
+        "options": [
+          "What you pay yourself when you claim",
+          "What you pay each month",
+          "Extra cover",
+          "A refund"
+        ],
+        "answer": 0,
+        "explain": "Your excess comes off every claim.",
+        "vc": [
+          "VM-U3O1-KK2"
+        ]
+      },
+      {
+        "q": "Your excess is $800. The damage costs $500. What does insurance pay?",
+        "options": [
+          "Nothing",
+          "$500",
+          "$800",
+          "$300"
+        ],
+        "answer": 0,
+        "explain": "The damage is less than the excess, so you pay it all.",
+        "vc": [
+          "VM-U3O1-KS2"
+        ]
+      },
+      {
+        "q": "What is an **exclusion**?",
+        "options": [
+          "Something the insurer won’t pay for",
+          "A discount",
+          "A type of car",
+          "Your premium"
+        ],
+        "answer": 0,
+        "explain": "Exclusions are where the surprises hide.",
+        "vc": [
+          "VM-U3O1-KK2"
+        ]
+      },
+      {
+        "q": "In Victoria, what does the TAC charge in your rego cover?",
+        "options": [
+          "Injuries to people",
+          "Damage to other cars",
+          "Your phone",
+          "Theft of your car"
+        ],
+        "answer": 0,
+        "explain": "You need separate cover for damage to cars and property.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ]
+      },
+      {
+        "q": "ASIC found add-on insurance at car yards paid back about…",
+        "options": [
+          "9 cents in claims per dollar",
+          "90 cents per dollar",
+          "$2 per dollar",
+          "Nothing at all"
+        ],
+        "answer": 0,
+        "explain": "People paid $1.6 billion and got $144 million back in claims.",
+        "vc": [
+          "VM-U3O1-KS2"
+        ]
+      },
+      {
+        "q": "Where is the full list of rules for a policy?",
+        "options": [
+          "The Product Disclosure Statement (PDS)",
+          "The receipt",
+          "The ad",
+          "The car’s logbook"
+        ],
+        "answer": 0,
+        "explain": "The PDS has the full rules, with a contents page.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Decode a real insurance paper. What does it cover? What does it cost? What doesn’t it cover? Would you buy it?",
+      "core": "Decode a real insurance document: what it covers, what it costs, what it doesn’t cover, and whether you’d buy it.",
+      "extend": "Decode a real insurance document’s key elements, infer how its terms apply to two realistic situations, and judge whether it’s good value, with reasons."
+    },
+    "checklist": [
+      "I found a real insurance document (PDS or policy page)",
+      "I found the premium and the excess",
+      "I found what’s covered and at least three exclusions",
+      "I worked out what would happen in a real situation",
+      "I decided if I’d buy it, with reasons"
+    ],
+    "levelUp": "Find a second policy for the same thing. Compare the two on price, excess and exclusions. Which document explained things more clearly?",
+    "vc": [
+      "VM-U3O1-KK1",
+      "VM-U3O1-KK2",
+      "VM-U3O1-KS2"
+    ],
+    "model": {
+      "kind": "Example policy decode",
+      "text": "**What:** phone insurance from a phone shop. $12 a month.\n\n**Excess:** $150 per claim. Up to 2 claims a year.\n\n**Covered:** cracked screen, water damage, theft (if you report it to police).\n\n**Not covered (exclusions):**\n- a phone left “unattended” in a public place\n- scratches and normal wear\n- a phone that was already damaged\n\n**What if I drop it and crack the screen?** I pay the $150 excess. They fix it.\n\n**Would I buy it?** Probably not. It’s $144 a year, plus $150 per claim. My screen repair would cost about $250 without insurance.",
+      "why": [
+        "It finds all four key elements: premium, excess, cover and exclusions.",
+        "It applies the rules to a real situation and works out the cost.",
+        "The decision weighs the yearly cost against what it would actually save."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Key elements",
+        "start": "Finds the price only.",
+        "good": "Premium, excess, cover and exclusions.",
+        "great": "Also checks key word definitions."
+      },
+      {
+        "skill": "Applying it",
+        "start": "Doesn’t apply it to a situation.",
+        "good": "Works out one real situation.",
+        "great": "Two situations, with the cost worked out."
+      },
+      {
+        "skill": "Decision",
+        "start": "No clear decision.",
+        "good": "Decides, with a reason.",
+        "great": "Weighs cost against real benefit."
+      }
+    ],
+    "choices": {
+      "prompt": "What kind of insurance will you decode?",
+      "options": [
+        "Car insurance (third party or comprehensive)",
+        "Phone insurance",
+        "Contents insurance for renters",
+        "Travel insurance"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Read the policy before you need it",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name the **four** key things to find.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "vc": [
+              "VM-U3O1-KK2"
+            ]
+          },
+          {
+            "q": "Your excess is $800. The repair costs $600. What do you pay? Why?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS2"
+            ]
+          },
+          {
+            "q": {
+              "support": "What does the TAC in your rego cover? What doesn’t it cover?",
+              "core": "What does the TAC charge cover, and what doesn’t it?",
+              "extend": "Explain the difference between market value and agreed value."
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KK1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a policy schedule",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is it?",
+          "What does it mean for the driver?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the certificate. Use the word bank. Write what it means.",
+          "core": "Each number marks a key element. Name it, and say what it means for Jordan."
+        },
+        "wordBank": {
+          "support": [
+            "type of cover",
+            "the car",
+            "how much they pay",
+            "premium",
+            "excess",
+            "who can drive"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Covered or not?",
+        "pagebreak": true,
+        "choices": [
+          "Covered",
+          "Not covered"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "Jordan has the comprehensive policy above. The PDS excludes: unlisted drivers under 25, wear and tear, and driving over the limit. Would each claim be paid?",
+        "vc": [
+          "VM-U3O1-KS2"
+        ],
+        "cards": [
+          {
+            "from": "Claim",
+            "text": "Jordan backs into a pole. $2,500 damage.",
+            "answer": "Covered",
+            "flags": "Paid, minus the $1,800 excess."
+          },
+          {
+            "from": "Claim",
+            "text": "Jordan’s 18-year-old mate, not listed, crashes the car.",
+            "answer": "Not covered",
+            "flags": "Unlisted driver under 25."
+          },
+          {
+            "from": "Claim",
+            "text": "The tyres are worn out.",
+            "answer": "Not covered",
+            "flags": "Wear and tear."
+          },
+          {
+            "from": "Claim",
+            "text": "The car is stolen from outside Jordan’s house.",
+            "answer": "Covered",
+            "flags": "Theft is covered by comprehensive."
+          },
+          {
+            "from": "Claim",
+            "text": "Jordan crashes after drinking, over the limit.",
+            "answer": "Not covered",
+            "flags": "Excluded."
+          },
+          {
+            "from": "Claim",
+            "text": "A tree branch falls on the car in a storm.",
+            "answer": "Covered",
+            "flags": "Storm damage, minus excess.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: nine cents in the dollar",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "How much did people pay? How much did they get back?",
+              "core": "What does “9 cents in the dollar” mean?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS2"
+            ]
+          },
+          {
+            "q": "Why might people buy it without reading the papers?",
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS2"
+            ]
+          },
+          {
+            "q": {
+              "support": "What would you check first?",
+              "core": "What would you check before buying insurance at a car yard?",
+              "extend": "Whose interests did the commissions serve? How should buyers protect themselves?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: decode a real policy",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 18
+        },
+        "vc": [
+          "VM-U3O1-KK1",
+          "VM-U3O1-KK2",
+          "VM-U3O1-KS2"
+        ],
+        "vcNote": "Locating and interpreting the key elements of a real insurance document.",
+        "instructions": {
+          "support": "Find a real insurance page or PDS online. Fill in the table.",
+          "core": "Find a real insurance PDS or policy page online (car, phone, contents or travel). Use its contents page and headings to fill in the table.",
+          "extend": "Find a real PDS. Use its structure (contents, definitions, exclusions) to fill in the table, quoting key words where they matter."
+        },
+        "columns": [
+          "What to find",
+          "What the document says"
+        ],
+        "rows": [
+          [
+            "Insurer and type of policy",
+            ""
+          ],
+          [
+            "Premium",
+            ""
+          ],
+          [
+            "Excess",
+            ""
+          ],
+          [
+            "What’s covered",
+            ""
+          ],
+          [
+            "Exclusion 1",
+            ""
+          ],
+          [
+            "Exclusion 2",
+            ""
+          ],
+          [
+            "Exclusion 3",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "What would happen?",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Imagine something goes wrong. What happens, and what do you pay?",
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS2"
+            ]
+          },
+          {
+            "q": "Would you buy it? Why or why not?",
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: compare two policies",
+        "pagebreak": true,
+        "instructions": "Find a second policy for the same thing.",
+        "items": [
+          {
+            "q": "Compare price, excess and one big exclusion:",
+            "lines": 4,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS5"
+            ]
+          },
+          {
+            "q": "Which document explained things more clearly? How?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I know premium, excess and exclusions.",
+          "I can find key parts of a policy.",
+          "I can work out what a policy means for me.",
+          "I can decide if it’s worth it."
+        ],
+        "questions": [
+          "The insurance word I’ll remember:",
+          "What I’ll check before I buy insurance:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the structure of insurance documents (policy schedule and PDS) and four key elements (premium, excess, cover, exclusions), plus how car insurance works in Victoria (TAC charge for injury; third party property or comprehensive for damage). They annotate a certificate, decide which claims would be paid, and decode a real PDS. The case study is ASIC Report 492 (2016): add-on insurance sold through car dealers returned about 9 cents in claims per dollar of premium.",
+    "prep": [
+      "Print workbooks.",
+      "Bookmark two or three real PDS documents (car, phone, contents) from major insurers so students can start quickly.",
+      "Check the ASIC report page is reachable.",
+      "Optional: a real excess example from a local insurer quote."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — The four key elements",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** the $1,800 surprise. Who pays what?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Annotate (20 min):** the certificate."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Apply it",
+        "minutes": 50,
+        "steps": [
+          "**Sort (15 min):** covered or not? Discuss the reasons.",
+          "**Case study (20 min):** nine cents in the dollar.",
+          "**Model (15 min):** use a real PDS contents page to find exclusions."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Decode a real policy",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (30 min).**",
+          "**Level Up (10 min):** compare two policies.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Premium, excess, cover, exclusions.",
+      "Schedule = your summary; PDS = full rules.",
+      "In Victoria, rego (TAC) covers injury, not damage.",
+      "Read and compare before you buy."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A teacher-chosen, simpler PDS (phone insurance).",
+        "Sentence frames for the decision."
+      ],
+      "extend": [
+        "Definitions, market vs agreed value, stacked excesses.",
+        "Compare two policies (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O1-KK1",
+        "evidence": "Identifies the structures and features of insurance documents (annotation, final mission)."
+      },
+      {
+        "vc": "VM-U3O1-KK2",
+        "evidence": "Locates key elements of a complex PDS (final mission)."
+      },
+      {
+        "vc": "VM-U3O1-KS2",
+        "evidence": "Infers how policy terms apply to real situations (sort, What would happen?)."
+      },
+      {
+        "vc": "VM-U3O1-KS5",
+        "evidence": "Compares two policies and evaluates how well each informs (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 comprehensive cover; 2 the insured car; 3 market value; 4 premium; 5 total excess $1,800 per claim; 6 listed drivers (others may cost more or be excluded).\n\n**Sort:** pole — covered (minus $1,800); unlisted 18-year-old — not covered; worn tyres — not covered; theft — covered; drink-driving — not covered; storm branch — covered.\n\n**Case study:** for every dollar of premium, about 9 cents was paid out in claims; buyers signed up at the end of a long purchase, under pressure, from a seller earning commission; check what’s covered, the claims you could realistically make, and compare with other insurers.",
+    "resources": [
+      {
+        "label": "ASIC Report 492 — add-on insurance sold through car dealers",
+        "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/reports/rep-492-a-market-that-is-failing-consumers-the-sale-of-add-on-insurance-through-car-dealers"
+      },
+      {
+        "label": "Moneysmart — insurance basics",
+        "url": "https://moneysmart.gov.au/insurance"
+      },
+      {
+        "label": "TAC — what your TAC charge covers",
+        "url": "https://www.tac.vic.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**PDS documents are long and dense.** Teach navigation (contents, definitions, exclusions), not reading cover to cover.",
+      "**Many students don’t have cars yet.** Phone and contents insurance work just as well.",
+      "**Insurance products change.** Use real current documents for the final mission; the course avoids naming specific products.",
+      "**Avoid giving personal financial advice.** The decision is the student’s reasoning, not a recommendation from you.",
+      "**Works in a real class:** yes. The sort (covered or not?) sparks strong debate, and students are often shocked by the excess on young drivers."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a simpler phone policy.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with the policy schedule, PDS, Victorian car insurance and the ASIC case.",
+      "extend": "Aimed at about Year 7 and up: definitions, market vs agreed value, stacked excesses, the claims ratio and comparing policies."
+    }
+  }
+}

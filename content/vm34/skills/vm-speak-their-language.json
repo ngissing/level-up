@@ -1,0 +1,905 @@
+{
+  "id": "vm-speak-their-language",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "First day at a café. Someone yells “86 the salmon!” and “Behind!” Huh? Every job has its own words. Learn them fast and you fit in fast.",
+      "core": "First shift in a café kitchen. Someone yells “86 the salmon!” Someone else says “Behind!” and squeezes past with a hot tray. Every workplace has its own language: words, short forms and calls that insiders use without thinking. Crack them fast and you’ll fit in fast, and stay safe.",
+      "extend": "Kitchens, building sites, shops, hospitals and airlines all build their own language. Jargon, acronyms and set phrases make work faster and safer for insiders. They can also confuse or shut out newcomers. Decoding a workplace’s language, and switching to plain words for outsiders, is a real job skill."
+    },
+    "why": {
+      "support": "If you know the words, you can do the job. You also stay safe.",
+      "core": "Knowing a workplace’s language means you understand instructions, stay safe and sound like part of the team. Knowing when **not** to use it helps you talk to customers.",
+      "extend": "Every organisation’s language shows how it works. Decoding it quickly helps you settle into new jobs, avoid costly mistakes, and talk clearly with people outside the team."
+    },
+    "canDo": {
+      "support": [
+        "I can spot work words.",
+        "I can work out what they mean.",
+        "I can ask about a word I don’t know.",
+        "I can use plain words with customers."
+      ],
+      "core": [
+        "I can explain why workplaces develop their own language.",
+        "I can work out jargon and acronyms from clues.",
+        "I can ask about unfamiliar words with confidence.",
+        "I can switch to plain language for outsiders."
+      ],
+      "extend": [
+        "I can explain how and why organisations develop their own language.",
+        "I can infer the meaning of jargon from context and word parts.",
+        "I can judge when insider language helps or harms.",
+        "I can discuss and compare the language of different workplaces."
+      ]
+    },
+    "showIt": "Make a jargon buster for a workplace you know: the insider words, what they mean, and why people use them.",
+    "vocab": [
+      {
+        "word": "jargon",
+        "meaning": "special words used by people in one job or group",
+        "example": "“Mise” is kitchen jargon."
+      },
+      {
+        "word": "acronym",
+        "meaning": "a word made from first letters",
+        "example": "PPE is an acronym."
+      },
+      {
+        "word": "PPE",
+        "meaning": "personal protective equipment, like gloves and boots",
+        "example": "Wear your PPE on site."
+      },
+      {
+        "word": "plain language",
+        "meaning": "simple words anyone can understand",
+        "example": "Use plain language with customers."
+      },
+      {
+        "word": "insider",
+        "meaning": "someone who is part of the group",
+        "example": "Insiders know the kitchen calls."
+      },
+      {
+        "word": "context",
+        "meaning": "what’s around a word that helps you work it out",
+        "example": "The context told me what “86” meant."
+      },
+      {
+        "word": "abbreviation",
+        "meaning": "a short way to write a word",
+        "example": "“Qty” is an abbreviation for quantity.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "standard phrase",
+        "meaning": "words everyone agrees to use in the same way",
+        "example": "Pilots use standard phrases.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "ambiguous",
+        "meaning": "could mean more than one thing",
+        "example": "The message was ambiguous.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Speak Their Language in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Speak Their Language",
+        "sub": "Every workplace has its own words.",
+        "icon": "lucide:languages",
+        "say": "Speak their language. Every workplace has its own words. Learn to crack them."
+      },
+      {
+        "kind": "message",
+        "title": "First shift",
+        "sender": "Head chef",
+        "text": "86 the salmon! Mise for lunch by 11. Behind!",
+        "say": "Eighty-six the salmon. Mise for lunch by eleven. Behind! If that sounds like a secret code, it is. It’s kitchen language.",
+        "vc": [
+          "VM-U3O1-KK3"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Why workplaces have their own words",
+        "text": "**Fast.** **Exact.** **Safe.**",
+        "icon": "lucide:zap",
+        "say": "Workplaces build their own words because they’re fast, exact and safe for people who know them.",
+        "vc": [
+          "VM-U3O1-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Crack it",
+        "pillIcon": "lucide:languages",
+        "title": "Look at the context",
+        "text": "What’s happening around the word?",
+        "icon": "lucide:scan-eye",
+        "say": "To crack a new word, first look at the context. What is happening around it?",
+        "vc": [
+          "VM-U3O1-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Crack it",
+        "pillIcon": "lucide:languages",
+        "title": "Break it down",
+        "text": "Letters, parts, words you know.",
+        "icon": "lucide:puzzle",
+        "say": "Next, break it down. What do the letters stand for? Does it have parts you know?",
+        "vc": [
+          "VM-U3O1-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Crack it",
+        "pillIcon": "lucide:languages",
+        "title": "Ask",
+        "text": "“Sorry, what does that mean?”",
+        "icon": "lucide:message-circle-question",
+        "say": "Still not sure? Ask. Sorry, what does that mean? Good workers ask. Guessing can be dangerous.",
+        "vc": [
+          "VM-U3O1-KS6"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Customers need plain words",
+        "text": "Insider words in. Plain words out.",
+        "icon": "lucide:users",
+        "say": "And remember. Use the insider words with the team. Use plain words with customers.",
+        "vc": [
+          "VM-U3O1-KK3"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Make a jargon buster for a workplace.",
+        "icon": "lucide:book-a",
+        "say": "Your mission. Make a jargon buster for a workplace you know."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Every job has its own language",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Every job has its own words. This is called **jargon**.\n\n- In a kitchen, “86 the salmon” means the salmon has run out.\n- On a building site, **PPE** means safety gear, like boots and gloves.\n- In a shop, “face up” means move stock to the front of the shelf.\n.\nWhy do jobs use jargon? It’s **fast**. It’s **exact**. It can keep people **safe**. “Behind!” tells people you are behind them with something hot.\n\nBut jargon can confuse new people.\n\nHow to crack a new word:\n1. **Look at the context.** What is happening?\n2. **Break it down.** What could the letters stand for?\n3. **Ask.** “Sorry, what does that mean?” It’s smart to ask.\n.\nWith customers, use **plain language**: simple words anyone gets.",
+          "core": "Every workplace builds its own language. Some of it is **jargon** (special words), some is **acronyms** (words made from first letters) and some is set calls everyone knows.\n\n- **Kitchen:** “86 the salmon” means it’s sold out. “Mise” (short for *mise en place*) means your prep. “Behind!” means “I’m behind you, don’t step back.”.\n- **Building site:** **PPE** means personal protective equipment: hard hats, boots, gloves. A **toolbox talk** is a short safety meeting.\n- **Shop:** “Face up” means pull stock to the front of the shelf. **SOH** means stock on hand.\n.\nWhy does this happen? Insider language is **fast** (one word instead of a sentence), **exact** (everyone means the same thing) and often about **safety**. It also shows you belong.\n\nBut it can shut new people out, and a misunderstood word can cause mistakes. So when you hear a new word:\n1. **Look at the context.** What’s happening around it?\n2. **Break it down.** Do the letters or parts give clues?\n3. **Ask.** “Sorry, what does that mean?” Good workers ask. Guessing can be dangerous.\n.\nAnd switch it off with outsiders. A customer doesn’t want to hear that the salmon is 86’d. Use **plain language**: “Sorry, we’ve sold out of the salmon.”",
+          "extend": "Every organisation develops its own language: **jargon**, **acronyms**, **abbreviations** and **standard phrases** that insiders use without thinking.\n\n- **Hospitality:** “86” (sold out), “mise” (prep, from the French *mise en place*), “on the pass” (ready to go out), “Behind!” and “Hot!” as safety calls.\n- **Construction:** **PPE**, **SWMS** (safe work method statement), toolbox talks, “make safe”.\n- **Retail:** “face up”, **SOH** (stock on hand), markdowns, “the floor”.\n- **Aviation and emergency services:** strict **standard phrases**, because a misheard word can be fatal.\n.\nInsider language develops for good reasons: it’s **efficient**, it’s **precise** among people who share it, and it often encodes **safety**. It also signals belonging, which is why newcomers can feel shut out.\n\nIts risk is that it’s only precise for insiders. To an outsider, or under pressure, a word can be **ambiguous**. That’s why high-risk industries define their phrases strictly.\n\nWhen you meet unfamiliar language: use the **context**, analyse the **word parts or initials**, and **ask** (precision matters more than looking clever). And know your audience: switch to **plain language** for customers, clients and anyone outside the team."
+        },
+        "vc": [
+          "VM-U3O1-KK3",
+          "VM-U3O1-KS2"
+        ],
+        "vcNote": "How organisations and industries develop their own language, and strategies for inferring meaning."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The words that mattered most",
+        "icon": "lucide:plane",
+        "body": {
+          "support": "In **1977**, two big jumbo jets were at a small airport on the island of Tenerife. It was very foggy.\n\nOne plane started to take off. But the other plane was still on the runway.\n\nThe planes crashed. **583 people died**. It was the worst plane crash ever.\n\nThe pilot of the first plane thought he was allowed to take off. He wasn’t.\n\nThe radio messages were not clear. Some words could mean more than one thing.\n\nAfter the crash, airlines changed how they talk. Now, pilots and the tower must use **standard words**. The word “take-off” is only used for the real thing.",
+          "core": "On 27 March **1977**, two Boeing 747 jumbo jets were waiting at Los Rodeos airport on the island of Tenerife. The airport was crowded and covered in thick fog.\n\nThe KLM jet started its take-off run without being cleared to go. The Pan Am jet was still on the same runway. The two planes collided. **583 people died**. It is still the deadliest accident in aviation history.\n\nInvestigators found the KLM captain believed he had been cleared to take off. The radio talk between the plane and the control tower was confusing. Some phrases weren’t the standard ones, and part of one message was lost when two people spoke at once.\n\nAfterwards, the Spanish investigators recommended that everyone use **standard phrases**, and that the word “take-off” be kept out of other instructions. Today, pilots and controllers around the world use strict, shared phrases, so a word can only mean one thing.",
+          "extend": "On 27 March **1977**, Los Rodeos airport on Tenerife was crowded and covered in fog. A KLM Boeing 747 began its take-off run without clearance. It hit a Pan Am 747 that was still on the runway. **583 people died**. It is the deadliest accident in aviation history.\n\nInvestigators found the KLM captain believed he had been cleared to take off. The radio talk with the control tower used non-standard, **ambiguous** phrases. The KLM crew radioed that they were “at take-off”. Part of the tower’s reply was lost when two radio calls overlapped.\n\nThe Spanish investigators recommended strict **standard phrases** in all radio talk, and keeping the word “take-off” out of other instructions. Aviation now uses a tightly controlled shared language, so each phrase can only mean one thing.\n\nTenerife is the most extreme example of a general truth. Workplace language is only as safe as it is exact. Shorthand that “everyone knows” can fail right when the pressure is highest."
+        },
+        "source": {
+          "name": "SKYbrary — B742 / B741, Tenerife Canary Islands Spain, 1977 (accident summary)",
+          "url": "https://skybrary.aero/accidents-and-incidents/b742-b741-tenerife-canary-islands-spain-1977"
+        },
+        "think": {
+          "support": [
+            "What went wrong with the words?",
+            "What changed after the crash?"
+          ],
+          "core": [
+            "Why was the radio talk confusing?",
+            "What did investigators recommend?",
+            "Where do people at your work or school need exact words?"
+          ],
+          "extend": [
+            "Why is insider language risky when it’s ambiguous?",
+            "Why do high-risk industries control their language so strictly?",
+            "Which workplaces you know need standard phrases?"
+          ]
+        },
+        "vc": [
+          "VM-U3O1-KK3"
+        ],
+        "vcNote": "How an industry developed strict standard language after a misunderstanding."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a kitchen handover",
+      "docTitle": "KITCHEN HANDOVER NOTE — SATURDAY CLOSE (EXAMPLE)",
+      "vc": [
+        "VM-U3O1-KK3",
+        "VM-U3O1-KS2"
+      ],
+      "vcNote": "Decoding the jargon and acronyms in a workplace text.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Menu",
+          "value": "86 barramundi. Only 4 lamb left."
+        },
+        {
+          "n": 2,
+          "label": "Prep",
+          "value": "Mise for Sunday lunch done: sauces, herbs, salad."
+        },
+        {
+          "n": 3,
+          "label": "Orders",
+          "value": "T12 nut allergy: flag on docket.",
+          "strong": true
+        },
+        {
+          "n": 4,
+          "label": "Safety",
+          "value": "New starter: teach “behind” and “hot” calls."
+        },
+        {
+          "n": 5,
+          "label": "Records",
+          "value": "Fridge temps logged at 2 pm and 9 pm."
+        },
+        {
+          "n": 6,
+          "label": "Jobs",
+          "value": "Restock dry store before 5. Ask the DM for the key."
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "86",
+          "note": "Sold out."
+        },
+        {
+          "n": 2,
+          "label": "Mise",
+          "note": "Prep (mise en place)."
+        },
+        {
+          "n": 3,
+          "label": "T12 + docket",
+          "note": "Table 12, order slip."
+        },
+        {
+          "n": 4,
+          "label": "Safety calls",
+          "note": "Said out loud to stop accidents."
+        },
+        {
+          "n": 5,
+          "label": "Temps",
+          "note": "Temperatures, for food safety."
+        },
+        {
+          "n": 6,
+          "label": "DM",
+          "note": "Duty manager."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Crack a new word",
+      "steps": [
+        {
+          "title": "Context",
+          "text": "What’s happening around it?",
+          "icon": "lucide:scan-eye"
+        },
+        {
+          "title": "Break it down",
+          "text": "Letters and parts.",
+          "icon": "lucide:puzzle"
+        },
+        {
+          "title": "Ask",
+          "text": "“What does that mean?”",
+          "icon": "lucide:message-circle-question"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is **jargon**?",
+        "options": [
+          "Special words used by people in one job or group",
+          "Rude words",
+          "Words from another country",
+          "Spelling mistakes"
+        ],
+        "answer": 0,
+        "explain": "Every workplace has its own jargon.",
+        "vc": [
+          "VM-U3O1-KK3"
+        ]
+      },
+      {
+        "q": "In a kitchen, “86 the salmon” means…",
+        "options": [
+          "The salmon is sold out",
+          "Cook 86 salmon",
+          "The salmon costs $86",
+          "Table 86 wants salmon"
+        ],
+        "answer": 0,
+        "explain": "“86” means it’s run out.",
+        "vc": [
+          "VM-U3O1-KS2"
+        ]
+      },
+      {
+        "q": "Why do workplaces make their own words?",
+        "options": [
+          "They’re fast, exact and help keep people safe",
+          "To be mean to new people",
+          "Because they can’t spell",
+          "For no reason"
+        ],
+        "answer": 0,
+        "explain": "Shared words save time and avoid mistakes.",
+        "vc": [
+          "VM-U3O1-KK3"
+        ]
+      },
+      {
+        "q": "Your boss uses a word you don’t know. What’s best?",
+        "options": [
+          "Ask what it means",
+          "Guess and hope",
+          "Pretend you know",
+          "Ignore it"
+        ],
+        "answer": 0,
+        "explain": "Asking is smart. Guessing can be dangerous.",
+        "vc": [
+          "VM-U3O1-KS6"
+        ]
+      },
+      {
+        "q": "What changed in aviation after the 1977 Tenerife crash?",
+        "options": [
+          "Pilots and controllers use strict standard phrases",
+          "Planes stopped flying in fog forever",
+          "Radios were banned",
+          "Nothing changed"
+        ],
+        "answer": 0,
+        "explain": "Standard phrases mean each word has only one meaning.",
+        "vc": [
+          "VM-U3O1-KK3"
+        ]
+      },
+      {
+        "q": "A customer asks about the fish. What should you say?",
+        "options": [
+          "“Sorry, we’ve sold out of the fish.”",
+          "“It’s 86’d, mate.”",
+          "“Ask the DM.”",
+          "“No mise left.”"
+        ],
+        "answer": 0,
+        "explain": "Use plain language with customers.",
+        "vc": [
+          "VM-U3O1-KK3"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Make a jargon buster for a workplace you know. List the words, what they mean and why they’re used.",
+      "core": "Make a jargon buster for a workplace you know: the insider words, what they mean, and why people use them.",
+      "extend": "Make a jargon buster for a real workplace or organisation, explaining what each term means, how it’s used and why the group developed it, then discuss it with others."
+    },
+    "checklist": [
+      "I chose a real workplace, sport, club or group",
+      "I listed at least six insider words or acronyms",
+      "I explained each one in plain language, with an example",
+      "I said why the workplace uses its own words",
+      "I shared and discussed my jargon buster with a group"
+    ],
+    "levelUp": "Interview someone who works there. Ask them which word confused them most when they started, and why.",
+    "vc": [
+      "VM-U3O1-KK3",
+      "VM-U3O1-KS2",
+      "VM-U3O1-KS6"
+    ],
+    "model": {
+      "kind": "Example jargon buster",
+      "text": "**Workplace:** a supermarket\n\n| Word | Means | Example |\n|---|---|---|\n| Face up | Pull stock to the front of the shelf | “Face up aisle 4 before close.” |\n| SOH | Stock on hand: how many we have | “SOH says 12 but the shelf is empty.” |\n| Markdown | A lower, reduced price | “Put markdowns on the bread at 6.” |\n| Code red | A spill. Block the area. | “Code red in dairy!” |\n\n**Why they use it:** it’s quick to say over the speaker, and everyone knows exactly what to do. “Code red” sounds calm to customers, but staff know to act fast.",
+      "why": [
+        "Each word has a plain meaning and a real example sentence.",
+        "It includes an acronym and a safety call, not just easy words.",
+        "It explains **why** the workplace uses its own language."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Words chosen",
+        "start": "Fewer than six, or not real.",
+        "good": "Six real insider words or acronyms.",
+        "great": "Includes safety words and acronyms."
+      },
+      {
+        "skill": "Explanations",
+        "start": "Meanings are unclear.",
+        "good": "Plain meaning and an example for each.",
+        "great": "Clear enough for a first-day worker."
+      },
+      {
+        "skill": "Why + discussion",
+        "start": "No reason given.",
+        "good": "Says why the group uses its own words.",
+        "great": "Compares with other workplaces in discussion."
+      }
+    ],
+    "choices": {
+      "prompt": "Which workplace or group will you decode?",
+      "options": [
+        "A café, kitchen or fast food place",
+        "A building site, workshop or farm",
+        "A shop or supermarket",
+        "A sport, gaming or online group"
+      ]
+    },
+    "solo": "No group to discuss with? Share your jargon buster with someone at home or at work. Ask them which words they knew, and write what they said."
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Every job has its own language",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Give **three** reasons workplaces use their own words.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "vc": [
+              "VM-U3O1-KK3"
+            ]
+          },
+          {
+            "q": "What are the **three** steps to crack a new word?",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "vc": [
+              "VM-U3O1-KS2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why should you use plain words with customers?",
+              "core": "Why should you switch to plain language with customers?",
+              "extend": "Insider language is “only precise for insiders”. What does that mean?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KK3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a kitchen handover",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "The insider word",
+          "What it means"
+        ],
+        "instructions": {
+          "support": "Each number marks an insider word. Use the word bank. Write what it means.",
+          "core": "Each number marks jargon or an acronym. Write the word, and what it means in plain language."
+        },
+        "wordBank": {
+          "support": [
+            "sold out",
+            "prep",
+            "table + order slip",
+            "safety calls",
+            "temperatures",
+            "duty manager"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Where would you hear it?",
+        "pagebreak": true,
+        "choices": [
+          "Kitchen",
+          "Building site",
+          "Shop"
+        ],
+        "reasonLabel": "What does it mean?",
+        "instructions": "Where would you hear each word or phrase? Then write what you think it means.",
+        "vc": [
+          "VM-U3O1-KK3",
+          "VM-U3O1-KS2"
+        ],
+        "cards": [
+          {
+            "from": "Heard at work",
+            "text": "“Two burgers on the pass!”",
+            "answer": "Kitchen",
+            "flags": "Ready to go out to customers."
+          },
+          {
+            "from": "Heard at work",
+            "text": "“Hard hats and PPE past this sign.”",
+            "answer": "Building site",
+            "flags": "Safety gear."
+          },
+          {
+            "from": "Heard at work",
+            "text": "“Check the SOH before you promise a customer.”",
+            "answer": "Shop",
+            "flags": "Stock on hand."
+          },
+          {
+            "from": "Heard at work",
+            "text": "“Toolbox talk at 7 sharp.”",
+            "answer": "Building site",
+            "flags": "Short safety meeting."
+          },
+          {
+            "from": "Heard at work",
+            "text": "“Hot! Behind!”",
+            "answer": "Kitchen",
+            "flags": "Safety calls when moving."
+          },
+          {
+            "from": "Heard at work",
+            "text": "“Face up aisle 6 before close.”",
+            "answer": "Shop",
+            "flags": "Pull stock to the front.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the words that mattered most",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "What happened at Tenerife?",
+              "core": "What happened at Tenerife in 1977?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS2"
+            ]
+          },
+          {
+            "q": {
+              "support": "What went wrong with the words?",
+              "core": "Why was the radio talk confusing?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KK3"
+            ]
+          },
+          {
+            "q": {
+              "support": "What changed after the crash?",
+              "core": "What changed after the crash, and why?",
+              "extend": "Why do high-risk industries control their language so strictly? Name another one."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KK3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Final mission: my jargon buster",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 20,
+          "core": 18
+        },
+        "vc": [
+          "VM-U3O1-KK3",
+          "VM-U3O1-KS2"
+        ],
+        "vcNote": "Documenting how a real workplace or group uses its own language.",
+        "instructions": {
+          "support": "Pick a workplace or group you know. Write 6 insider words, what they mean, and an example.",
+          "core": "Pick a real workplace or group. List at least six insider words or acronyms. Explain each in plain language, with an example sentence. Then answer the question below the table.",
+          "extend": "Document the insider language of a real workplace or organisation: at least six terms, with plain-language meanings, examples and a note on why each exists."
+        },
+        "columns": [
+          "Insider word",
+          "What it means (plain words)",
+          "Example sentence"
+        ],
+        "rows": [
+          [
+            "Face up",
+            "Pull stock to the front of the shelf",
+            "“Face up aisle 4 before close.”"
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Talk about it",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why does this workplace use its own words?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KK3"
+            ]
+          },
+          {
+            "q": "Share your jargon buster with a group. Which word surprised others most? What did you learn about their workplaces?",
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: ask an insider",
+        "pagebreak": true,
+        "instructions": "Interview someone who works in the workplace you chose.",
+        "items": [
+          {
+            "q": "Which word confused them most when they started? Why?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS6"
+            ]
+          },
+          {
+            "q": "How does their tone change when they say a safety call (like “Behind!”)?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KK4"
+            ],
+            "levels": [
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can spot insider words.",
+          "I can work out what they mean.",
+          "I feel OK asking about a word.",
+          "I can use plain words with outsiders."
+        ],
+        "questions": [
+          "The best insider word I learnt:",
+          "A workplace I’d like to learn the language of:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students explore how organisations and industries develop their own language (jargon, acronyms, standard phrases), why (speed, precision, safety, belonging) and its risks (excluding newcomers, ambiguity). They decode a kitchen handover, sort phrases by workplace, and build a jargon buster for a workplace they know, then discuss it. The case study is the 1977 Tenerife runway collision, after which aviation tightened its standard phraseology.",
+    "prep": [
+      "Print workbooks.",
+      "Collect a few real workplace texts with jargon (a roster, a site sign, a stock list) if you can.",
+      "Invite students with jobs to bring words from their workplaces.",
+      "Be ready to handle the Tenerife case sensitively; keep the focus on language, not graphic detail."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Insider language",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** read the head chef’s message aloud. Who can decode it?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Annotate (10 min):** the kitchen handover.",
+          "**Sort (10 min):** where would you hear it?"
+        ]
+      },
+      {
+        "title": "Lesson 2 — When words fail",
+        "minutes": 50,
+        "steps": [
+          "**Case study (20 min):** Tenerife.",
+          "**Discuss (10 min):** where do your workplaces need exact words?",
+          "**Start the jargon buster (20 min).**"
+        ]
+      },
+      {
+        "title": "Lesson 3 — Jargon busters",
+        "minutes": 50,
+        "steps": [
+          "**Finish (20 min).**",
+          "**Share and discuss (15 min):** groups compare workplaces.",
+          "**Check & reflect (15 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Every workplace develops its own language.",
+      "It’s fast, exact and often about safety.",
+      "Crack it: context, break it down, ask.",
+      "Plain language for customers and outsiders."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Pre-made word cards for the jargon buster.",
+        "Partner reads the case study aloud."
+      ],
+      "extend": [
+        "Analyse ambiguity and standard phraseology.",
+        "Interview an insider; tone of safety calls (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O1-KK3",
+        "evidence": "Explains how and why an organisation or industry develops its own language (jargon buster, case study)."
+      },
+      {
+        "vc": "VM-U3O1-KS2",
+        "evidence": "Infers the meaning of jargon and acronyms from context and word parts (annotation, sort)."
+      },
+      {
+        "vc": "VM-U3O1-KS6",
+        "evidence": "Listens and contributes to group discussion comparing workplace language."
+      },
+      {
+        "vc": "VM-U3O1-KK4",
+        "evidence": "Identifies how tone and intonation carry meaning in spoken workplace calls (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 86 = sold out; 2 mise = prep (mise en place); 3 T12 = table 12, docket = order slip, flag = mark the allergy; 4 safety calls (“behind”, “hot”); 5 temps = fridge temperatures for food safety; 6 DM = duty manager.\n\n**Sort:** on the pass — kitchen (ready to go out); PPE — building site; SOH — shop (stock on hand); toolbox talk — building site; Hot! Behind! — kitchen; face up — shop.\n\n**Case study:** the KLM jet began its take-off without clearance in fog and hit the Pan Am jet; 583 died; non-standard, ambiguous radio phrases and an overlapped transmission; investigators recommended standard phraseology and keeping “take-off” out of other clearances.",
+    "resources": [
+      {
+        "label": "SKYbrary — Tenerife 1977 accident summary",
+        "url": "https://skybrary.aero/accidents-and-incidents/b742-b741-tenerife-canary-islands-spain-1977"
+      },
+      {
+        "label": "SKYbrary — Final report of the Tenerife collision (bookshelf)",
+        "url": "https://skybrary.aero/bookshelf/final-report-collision-between-b747-klm-and-b747-pan-am-los-rodeos-tenerife-spain-27031977"
+      }
+    ],
+    "realityCheck": [
+      "**Students with jobs are your best resource.** They’ll know more workplace jargon than any worksheet. Let them teach the class.",
+      "**Some jargon is crude.** Set the rule early: workplace words only, and nothing offensive.",
+      "**The case study involves mass loss of life.** Keep it focused on the language lesson; check in with any student affected by a recent accident.",
+      "**Students without jobs** can decode a sport, a game, a club or the school itself (“SAC”, “VM”, “PD day”).",
+      "**Works in a real class:** yes, it’s fun and social, and students realise they already know a lot of insider language."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and pre-made word cards.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with jargon, acronyms, the Tenerife case and a jargon buster.",
+      "extend": "Aimed at about Year 7 and up: ambiguity, standard phraseology, how language reflects an organisation, and an insider interview."
+    }
+  }
+}
