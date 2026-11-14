@@ -1,0 +1,961 @@
+{
+  "id": "vm-community-campaign",
+  "version": 1,
+  "duration": "5 lessons (about 4 hours)",
+  "brief": {
+    "hook": {
+      "support": "Is there something in your town that should change? A broken skate park? No bus at night? You can run a campaign. Make your case. Get people on board.",
+      "core": "The skate park’s falling apart. The last bus leaves at 7 pm. There’s rubbish all along the creek. Complaining to your mates changes nothing. A campaign might. In this capstone, you’ll pick a local issue and build a mini campaign: a clear argument, a post that spreads it, and a short speech that makes people act.",
+      "extend": "Change in a community usually comes from a campaign. That means organised advocacy, kept up over time. It joins evidence, a clear ask and different texts for different audiences. In this capstone, you’ll run a mini campaign on a local issue. You’ll write an argument, make a post and give a speech."
+    },
+    "why": {
+      "support": "Speaking up can change things where you live.",
+      "core": "Councils, schools and clubs respond to people who organise and make a clear case. Campaign skills work for any cause, at any age.",
+      "extend": "Taking part in your community means being able to speak up well. Planning a campaign builds your skills in argument, evidence and persuasion."
+    },
+    "canDo": {
+      "support": [
+        "I can pick a local issue and say what should change.",
+        "I can back my case with facts.",
+        "I can make a post and a short speech for my campaign."
+      ],
+      "core": [
+        "I can plan a campaign: issue, audience, ask and evidence.",
+        "I can write an argument with evidence.",
+        "I can create a post and a short speech that work together."
+      ],
+      "extend": [
+        "I can plan a campaign for one issue and audience.",
+        "I can argue a point of view with reliable evidence.",
+        "I can design advocacy texts for different platforms.",
+        "I can judge how well my campaign might work."
+      ]
+    },
+    "showIt": "Run a mini campaign on a local issue: a written argument, a social post and a one-minute speech, all with one clear ask.",
+    "vocab": [
+      {
+        "word": "campaign",
+        "meaning": "an organised effort to make a change",
+        "example": "Our campaign wants a new skate park."
+      },
+      {
+        "word": "issue",
+        "meaning": "a problem people care about",
+        "example": "Litter is a big issue at the beach."
+      },
+      {
+        "word": "the ask",
+        "meaning": "the exact change you want",
+        "example": "Our ask is two more bins."
+      },
+      {
+        "word": "decision-maker",
+        "meaning": "the person or group who can make the change",
+        "example": "The council is the decision-maker."
+      },
+      {
+        "word": "evidence",
+        "meaning": "facts that support your case",
+        "example": "Our photos are evidence."
+      },
+      {
+        "word": "petition",
+        "meaning": "a request signed by many people",
+        "example": "We got 200 signatures on our petition."
+      },
+      {
+        "word": "point of view",
+        "meaning": "what you think about an issue",
+        "example": "My point of view is that we need more buses.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "counter-argument",
+        "meaning": "a reason someone might disagree",
+        "example": "A counter-argument is the cost.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Community Campaign in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Community Campaign",
+        "sub": "Pick an issue. Build a campaign. Make it count.",
+        "icon": "lucide:flag",
+        "say": "Community campaign. Pick an issue. Build a campaign. Make it count."
+      },
+      {
+        "kind": "steps",
+        "title": "Plan it",
+        "steps": [
+          "The issue: what’s wrong?",
+          "The ask: what should change?",
+          "Who decides?",
+          "Who will help?",
+          "What’s your evidence?"
+        ],
+        "icon": "lucide:list-checks",
+        "say": "Plan your campaign. What is the issue? What exactly should change? Who decides? Who will help you? And what is your evidence?",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Text",
+        "pillIcon": "lucide:file-text",
+        "title": "The argument",
+        "text": "A letter or opinion piece with evidence.",
+        "icon": "lucide:file-text",
+        "say": "Text one. The argument. A letter or opinion piece, with evidence.",
+        "vc": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Text",
+        "pillIcon": "lucide:file-text",
+        "title": "The post",
+        "text": "Grab people. Get them to sign or share.",
+        "icon": "lucide:smartphone",
+        "say": "Text two. The post. Grab people, and get them to sign or share.",
+        "vc": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Text",
+        "pillIcon": "lucide:file-text",
+        "title": "The speech",
+        "text": "One minute. Story, facts, ask.",
+        "icon": "lucide:mic",
+        "say": "Text three. The speech. One minute. A story, the facts, and your ask.",
+        "vc": [
+          "VM-U4O2-KS2"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "One ask, everywhere",
+        "text": "Every text asks for the same change.",
+        "icon": "lucide:target",
+        "say": "Keep one ask, everywhere. Every text asks for the same change.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Run a mini campaign.",
+        "icon": "lucide:flag",
+        "say": "Your mission. Run a mini campaign on a local issue."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How campaigns win",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "A **campaign** is a plan to make a change. You can run one about something in your town.\n\n**1. Pick an issue.** Choose something real and local.\n- no lights at the skate park.\n- no bus after 7 pm.\n- rubbish in the creek.\n\n**2. Make a clear ask.** Say exactly what should change. “Two lights at the skate park.”\n\n**3. Find who decides.** Is it the council? The school? A club?\n\n**4. Get evidence.** Take photos. Count things. Ask people.\n\n**5. Make three texts:**\n- **An argument:** a letter to the person who decides.\n- **A post:** to get people to sign or share.\n- **A speech:** one minute, to a group.\n.\n**6. Keep one ask.** All three texts ask for the same thing.\n\nBe polite. Be clear. Don’t give up.",
+          "core": "A **campaign** is an organised effort to change something. The best ones are clear, local and persistent.\n\n**1. Choose an issue.** Pick something real, local and fixable: lighting at the skate park, a later bus, a crossing near school, rubbish in the creek.\n\n**2. Make a specific ask.** “Make the park safer” is vague. “Install two lights at the skate park by winter” is a clear **ask**.\n\n**3. Know your decision-maker.** Who can make the change? The local council, your school principal, a club committee? Your main argument is written for them.\n\n**4. Gather evidence.** Strong campaigns use:\n- photos and observations.\n- simple surveys (“32 of 40 students said…”).\n- facts from reliable sources (council plans, government data).\n- real stories from people affected.\n\n**5. Build three texts:**\n- **Argument:** a formal letter or opinion piece. State your **point of view**, give two or three reasons with evidence, deal with a **counter-argument**, and finish with your ask.\n- **Social post:** a hook, a strong image, the ask, and a call to action (sign the **petition**, share, come to the meeting).\n- **Speech:** one minute, to a group or council meeting. A story, the key fact, the ask.\n.\n**6. Stay consistent.** Same issue, same ask, same name and look across all three.\n\nChange often takes time. Real campaigns can run for years.",
+          "extend": "A **campaign** is organised advocacy, kept up over time, for one clear change. Most community change comes from campaigns, not single complaints. That is true of new parks and new laws.\n\n**Strategy.**\n- **issue:** real, local and specific enough to fix.\n- **ask:** exact, achievable and, if you can, with a deadline.\n- **decision-maker:** who has the power to act, such as a council, principal, club committee or MP.\n- **allies:** people who are affected, or likely to back you.\n- **evidence:** photos, surveys, official data and personal stories.\n\n**Texts for different audiences.**\n- **A written argument** for the decision-maker. This is a formal letter or opinion piece. It has a clear **point of view**, reasons backed by reliable evidence, a fair answer to a **counter-argument**, and an exact ask.\n- **A social post** for supporters. It has a hook, an image, the ask and a call to action, such as a **petition** or event.\n- **A speech** for a meeting or assembly. In one minute, it joins a story, evidence and the ask.\n.\n**Consistency.** Use one name, one look and one ask in every text. That builds trust and momentum.\n\n**Evaluation.** Judge a campaign on results, not just attention. Did the decision-maker act? If so, did the change work as planned? Even winning campaigns often need follow-up."
+        },
+        "vc": [
+          "VM-U4O1-KK4",
+          "VM-U4O1-KS4",
+          "VM-U4O2-KS2"
+        ],
+        "vcNote": "Structures and features of advocacy texts; designing influential material; evidence."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "10 cents a can",
+        "icon": "lucide:recycle",
+        "body": {
+          "support": "South Australia has paid people for returning cans and bottles since **1977**. For years, groups in Victoria asked for the same thing.\n\nOne group was the **Boomerang Alliance**. It worked with local community groups. They kept asking the government to act.\n\nOn **1 November 2023**, Victoria started its own scheme. Now you get **10 cents** back for each can, bottle or carton you return.\n\nThe government said it should cut litter in half.\n\nIn **2026**, the Boomerang Alliance said the scheme needs to work better. Not enough cans are coming back.\n\nThe lesson: campaigns can take years. And after you win, you keep checking.",
+          "core": "South Australia has had a container deposit scheme since **1977**. People get money back when they return drink containers. For years, campaigners pushed for Victoria to do the same.\n\nThe **Boomerang Alliance**, an alliance of environment groups, worked with Victorian community organisations to build pressure. They argued the scheme would cut litter and boost recycling.\n\nOn **1 November 2023**, Victoria’s scheme began. People now get a **10-cent** refund for each eligible can, bottle and carton. The government said it expected the scheme to **halve** litter in Victoria.\n\nBut the campaign didn’t stop there. In **2026**, the Boomerang Alliance said return rates had stalled at around 65%, and argued the scheme needed improving.\n\nThe lesson: a clear ask, repeated over years, can win. But winning the change isn’t the end. You need to check that it works.",
+          "extend": "South Australia has run a container deposit scheme since **1977**. Victoria was one of the last states to bring one in, after years of advocacy.\n\nThe **Boomerang Alliance** is a group of environment organisations. It worked with Victorian community groups to press for a scheme. It argued that a refund would cut litter and lift recycling. It also campaigned on how the scheme was designed. More than 50,000 people signed its petition against drink companies running the scheme.\n\nOn **1 November 2023**, Victoria’s scheme began. It pays a **10-cent** refund for each eligible container. The government said it expected the scheme to **halve** litter.\n\nThe campaign went on after the win. In **February 2026**, the Boomerang Alliance said return rates had stalled at around 65%. It called for improvements.\n\nThe case shows what strong campaigns do. They make a specific ask. They build a group of allies. They keep going for years. They care about the details. And they check the results after the change. It also shows that “winning” and “working” are different tests."
+        },
+        "source": {
+          "name": "Premier of Victoria — “Victoria’s Container Deposit Scheme now open” (November 2023)",
+          "url": "https://www.premier.vic.gov.au/victorias-container-deposit-scheme-now-open"
+        },
+        "think": {
+          "support": [
+            "What did people campaign for?",
+            "Why did the campaign keep going after 2023?"
+          ],
+          "core": [
+            "What was the clear ask in this campaign?",
+            "Why might working with community groups help a campaign?",
+            "What did the campaigners say in 2026, and why does that matter?"
+          ],
+          "extend": [
+            "Which features made this campaign effective?",
+            "What is the difference between winning a change and the change working?",
+            "How would you evaluate the scheme’s success?"
+          ]
+        },
+        "vc": [
+          "VM-U4O1-KS4",
+          "VM-U4O2-KS2"
+        ],
+        "vcNote": "A real Victorian campaign: its ask, its evidence and its evaluation."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a campaign plan",
+      "docTitle": "CAMPAIGN PLAN: LIGHT UP THE SKATE PARK (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U4O1-KS4",
+        "VM-U4O1-KK4"
+      ],
+      "vcNote": "The parts of a campaign and its linked texts.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Issue",
+          "value": "The skate park has no lights. It’s dark by 5:30 pm in winter."
+        },
+        {
+          "n": 2,
+          "label": "Ask",
+          "value": "Install two lights at the skate park before next winter.",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Decision-maker",
+          "value": "The local council (parks team and ward councillor)."
+        },
+        {
+          "n": 4,
+          "label": "Evidence",
+          "value": "Photos at 6 pm. Our survey of skaters. Council’s own youth plan."
+        },
+        {
+          "n": 5,
+          "label": "Texts",
+          "value": "Letter to council. Instagram post + petition. 1-minute speech.",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Name + look",
+          "value": "#LightUpTheBowl. Yellow and black."
+        }
+      ],
+      "note": "A made-up plan to show the parts.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Issue",
+          "note": "Real, local, specific."
+        },
+        {
+          "n": 2,
+          "label": "The ask",
+          "note": "Exact, with a time."
+        },
+        {
+          "n": 3,
+          "label": "Who decides",
+          "note": "Who you write to."
+        },
+        {
+          "n": 4,
+          "label": "Evidence",
+          "note": "Photos, survey, sources."
+        },
+        {
+          "n": 5,
+          "label": "Three texts",
+          "note": "One for each audience."
+        },
+        {
+          "n": 6,
+          "label": "Brand",
+          "note": "Same look everywhere."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Run your campaign",
+      "steps": [
+        {
+          "title": "Issue",
+          "text": "What’s wrong?",
+          "icon": "lucide:circle-alert"
+        },
+        {
+          "title": "Ask",
+          "text": "What should change?",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "Evidence",
+          "text": "Prove it.",
+          "icon": "lucide:file-check"
+        },
+        {
+          "title": "Texts",
+          "text": "Letter, post, speech.",
+          "icon": "lucide:layers"
+        },
+        {
+          "title": "Act",
+          "text": "Send, share, speak.",
+          "icon": "lucide:megaphone"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is the clearest **ask**?",
+        "options": [
+          "Install two lights at the skate park before next winter.",
+          "Make the park better.",
+          "Do something about it.",
+          "Fix stuff."
+        ],
+        "answer": 0,
+        "explain": "Exact, achievable and with a time.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "q": "Who is the **decision-maker** for a local park?",
+        "options": [
+          "The local council",
+          "Your best friend",
+          "A TV station",
+          "Nobody"
+        ],
+        "answer": 0,
+        "explain": "Write your argument to the people who can act.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "q": "Which is the strongest evidence?",
+        "options": [
+          "Photos of the dark park at 6 pm",
+          "“Everyone says so.”",
+          "“I reckon it’s bad.”",
+          "A meme"
+        ],
+        "answer": 0,
+        "explain": "Evidence can be checked.",
+        "vc": [
+          "VM-U4O2-KS2"
+        ]
+      },
+      {
+        "q": "What should a campaign post include?",
+        "options": [
+          "A hook, an image, the ask and a call to action",
+          "A long essay",
+          "No ask",
+          "Only hashtags"
+        ],
+        "answer": 0,
+        "explain": "Make it easy to act.",
+        "vc": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      {
+        "q": "Why keep the same ask in every text?",
+        "options": [
+          "It makes the campaign clear and consistent",
+          "To save time",
+          "It doesn’t matter",
+          "To confuse people"
+        ],
+        "answer": 0,
+        "explain": "One ask, everywhere.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "q": "What did campaigners say about Victoria’s container scheme in 2026?",
+        "options": [
+          "Return rates had stalled and it needed improving",
+          "It was perfect",
+          "It should be scrapped",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Winning a change isn’t the end. Check that it works.",
+        "vc": [
+          "VM-U4O2-KS2"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pick a local issue. Write a letter about it. Make a post. Give a one-minute speech. Ask for the same thing in all three.",
+      "core": "Run a mini campaign on a local issue: plan it, write an argument to the decision-maker, create a social post, and give a one-minute speech, all with one clear ask and real evidence.",
+      "extend": "Plan and run a mini campaign on a local issue. Write an argument for the decision-maker. Make a social post for supporters. Give a one-minute speech. Use reliable evidence and one ask in all three. Then judge how likely it is to work."
+    },
+    "checklist": [
+      "My issue is real and local",
+      "My ask is exact",
+      "I know who the decision-maker is",
+      "I have at least two pieces of evidence",
+      "My letter, post and speech all ask for the same thing",
+      "I dealt with one counter-argument",
+      "I gave my speech to a group"
+    ],
+    "levelUp": "Send your letter to the real decision-maker (with your teacher’s help), or present your speech at a real meeting. Record what happens.",
+    "vc": [
+      "VM-U4O1-KS4",
+      "VM-U4O1-KK4"
+    ],
+    "solo": "No group for your speech? Record it on video as if speaking at a council meeting, and share it with your teacher. Ask a family member to sign your petition and tell you what convinced them.",
+    "model": {
+      "kind": "Example campaign texts",
+      "text": "**Ask:** install two lights at the Riverside skate park before next winter.\n**Letter (opening):** Dear Councillor Lee, I am writing on behalf of young people who use the Riverside skate park. In winter, it is dark by 5:30 pm, so it is unsafe after school. Of 40 skaters we surveyed, 32 said they leave early because of the dark.\n**Post:** [Photo: the empty, dark bowl at 6 pm] It’s 6 pm. This is our skate park. Two lights would change everything. Sign the petition (link in bio). #LightUpTheBowl\n**Speech (close):** “Two lights. One safer park. We’re asking council to act before winter.”",
+      "why": [
+        "The same ask appears in the letter, the post and the speech.",
+        "The letter uses a formal tone and the team’s own survey as evidence.",
+        "The post uses a strong image and a simple call to action."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Plan and ask",
+        "start": "Vague issue or ask.",
+        "good": "A clear issue, ask and decision-maker.",
+        "great": "A specific, achievable ask with a time."
+      },
+      {
+        "skill": "Evidence and argument",
+        "start": "No evidence.",
+        "good": "Two pieces of evidence.",
+        "great": "Reliable evidence and a counter-argument answered."
+      },
+      {
+        "skill": "Three texts",
+        "start": "Texts don’t match.",
+        "good": "Letter, post and speech share one ask.",
+        "great": "Each text suits its audience and platform."
+      }
+    ],
+    "choices": {
+      "prompt": "Which issue will your campaign take on?",
+      "options": [
+        "Something in a local park, skate park or sports ground",
+        "Transport (buses, crossings, bike paths)",
+        "Litter, recycling or the environment",
+        "A change at your school or club"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How campaigns win",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What makes an ask clear? Give an example.",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name **three** kinds of evidence.",
+              "core": "Name four kinds of evidence a campaign can use."
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KS2"
+            ]
+          },
+          {
+            "q": {
+              "support": "What are the three texts in a campaign?",
+              "core": "What are the three texts, and who is each one for?",
+              "extend": "Why should campaigns be judged on outcomes, not just attention?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KK4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Run your campaign",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a campaign plan",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "Why does a campaign need it?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the plan. Use the word bank. Write what it does.",
+          "core": "Each number marks a part. Say what it is, and why it matters."
+        },
+        "wordBank": {
+          "support": [
+            "issue",
+            "the ask",
+            "who decides",
+            "evidence",
+            "three texts",
+            "name and look"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Strong or weak evidence?",
+        "pagebreak": true,
+        "choices": [
+          "Strong",
+          "Weak"
+        ],
+        "reasonLabel": "Why? How could it be stronger?",
+        "instructions": "A campaign for a later bus has collected this evidence. Strong or weak?",
+        "vc": [
+          "VM-U4O2-KS2"
+        ],
+        "cards": [
+          {
+            "from": "Evidence",
+            "text": "The current timetable shows the last bus leaves at 7:02 pm.",
+            "answer": "Strong",
+            "flags": "Official and checkable."
+          },
+          {
+            "from": "Evidence",
+            "text": "“Literally everyone hates the bus.”",
+            "answer": "Weak",
+            "flags": "Exaggerated, can’t be checked."
+          },
+          {
+            "from": "Evidence",
+            "text": "Our survey: 45 of 60 Year 11s finish work after 7 pm.",
+            "answer": "Strong",
+            "flags": "Your own data, with numbers."
+          },
+          {
+            "from": "Evidence",
+            "text": "A comment on a Facebook page.",
+            "answer": "Weak",
+            "flags": "One person, unchecked."
+          },
+          {
+            "from": "Evidence",
+            "text": "A story from a student who walks home 4 km in the dark.",
+            "answer": "Strong",
+            "flags": "A real, specific story."
+          },
+          {
+            "from": "Evidence",
+            "text": "A guess that “hundreds” would use it.",
+            "answer": "Weak",
+            "flags": "Not based on data.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: 10 cents a can",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did campaigners ask for, and when did it happen?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why did they work with community groups?",
+              "core": "Why might working with community groups help a campaign?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why keep checking after you win?",
+              "core": "What did campaigners say in 2026? Why does that matter?",
+              "extend": "What is the difference between winning a change and the change working? How would you measure success?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Step 1: my campaign plan",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 18,
+          "core": 16
+        },
+        "instructions": "Plan your campaign. The first row is an example.",
+        "columns": [
+          "Part",
+          "My campaign"
+        ],
+        "rows": [
+          [
+            "Example: the ask",
+            "Two lights at the skate park before winter"
+          ],
+          [
+            "The issue",
+            ""
+          ],
+          [
+            "The ask (exact)",
+            ""
+          ],
+          [
+            "Decision-maker",
+            ""
+          ],
+          [
+            "Evidence 1 and 2",
+            ""
+          ],
+          [
+            "Campaign name or hashtag",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U4O1-KS4",
+          "VM-U4O2-KS2"
+        ],
+        "vcNote": "Planning an advocacy campaign."
+      },
+      {
+        "type": "write",
+        "title": "Step 2: my argument",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KK4",
+          "VM-U4O2-KS2"
+        ],
+        "vcNote": "Arguing a point of view with evidence, for a decision-maker.",
+        "prompt": {
+          "support": "Write a letter to the **decision-maker**. Say the **problem**, **two reasons** with facts, and your **ask**.",
+          "core": "Write a formal letter to the decision-maker. State your point of view, give two reasons with evidence, answer one counter-argument, and end with your ask.",
+          "extend": "Write a formal letter or opinion piece for the decision-maker, with a clear point of view, reliable evidence, a fair response to a counter-argument and a precise ask."
+        },
+        "starters": [
+          "Dear…",
+          "I am writing about…",
+          "First,…",
+          "Some people may say… However,…",
+          "We are asking you to…",
+          "Yours sincerely,"
+        ],
+        "lines": {
+          "support": 12,
+          "core": 12,
+          "extend": 12
+        },
+        "check": [
+          "point of view",
+          "evidence",
+          "counter-argument",
+          "the ask"
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my post and speech",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KS4",
+          "VM-U4O1-KK4"
+        ],
+        "vcNote": "Designing advocacy texts for supporters and a live audience.",
+        "prompt": {
+          "support": "Write your **post** (picture + words + ask). Then write your **one-minute speech**: a story, a fact, your ask.",
+          "core": "Write your social post (image idea, hook, ask, call to action, hashtag). Then write your one-minute speech: a story, your best evidence, and your ask.",
+          "extend": "Write a social post designed for supporters, and a one-minute speech for a meeting. Combine story, evidence and ask, and keep your campaign’s look and voice consistent."
+        },
+        "starters": [
+          "POST — Picture:",
+          "Words:",
+          "SPEECH — Story:",
+          "Fact:",
+          "Ask:"
+        ],
+        "lines": {
+          "support": 12,
+          "core": 12,
+          "extend": 12
+        },
+        "check": [
+          "same ask",
+          "hook",
+          "evidence",
+          "call to action"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: launch your campaign",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O2-KS2",
+          "VM-U4O1-KS4"
+        ],
+        "vcNote": "Delivering spoken advocacy supported by evidence.",
+        "instructions": "Give your one-minute speech to a group, and share your post or petition (in class, or for real with your teacher’s OK). (No group? Record the speech to camera.)",
+        "need": [
+          "your speech on a cue card",
+          "your post (printed or on screen)",
+          "an audience or a camera"
+        ],
+        "steps": [
+          "Give your speech: story, fact, ask.",
+          "Show your post.",
+          "Ask your audience to sign your petition or say if they’d support it.",
+          "Count your supporters.",
+          "Note one question or objection people raised."
+        ],
+        "notes": [
+          {
+            "label": "Supporters I got:",
+            "lines": 1
+          },
+          {
+            "label": "An objection someone raised, and my answer:",
+            "lines": 2
+          },
+          {
+            "label": "How likely is my campaign to work? Why?",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "petition",
+          "video",
+          "teacher saw it"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I made a clear, exact ask.",
+          "I used real evidence.",
+          "My three texts matched.",
+          "I spoke up for my issue."
+        ],
+        "questions": [
+          "The strongest part of my campaign:",
+          "What I’d do next to make it happen:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "A VM 3&4 capstone. Students run a mini campaign on a real local issue: they define the issue, a specific ask and the decision-maker, gather evidence, and produce three linked texts (a formal argument for the decision-maker, a social post for supporters and a one-minute speech), then launch it and evaluate its likely impact. The case study is Victoria’s container deposit scheme: after years of advocacy by the Boomerang Alliance and community groups, it began on 1 November 2023 with a 10-cent refund, and campaigners kept pushing for improvements afterwards.",
+    "prep": [
+      "Print workbooks.",
+      "Find your local council’s contact details and any relevant plans (youth, transport, parks).",
+      "Agree a process for sending real letters or posting real petitions (school approval, privacy).",
+      "Students should have done some Advocate and Speak Up courses first (this capstone requires two from each)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Issues and asks",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** list what you’d change about your town. Vote on the most fixable.",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Case study (15 min):** 10 cents a can."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan and evidence",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the skate park plan.",
+          "**Sort (10 min):** strong or weak evidence.",
+          "**Step 1 (30 min):** plan; design a quick survey."
+        ]
+      },
+      {
+        "title": "Lesson 3 — The argument",
+        "minutes": 50,
+        "steps": [
+          "**Gather (15 min):** survey results, photos, sources.",
+          "**Step 2 (35 min):** letter."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Post and speech",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (35 min):** post and speech.",
+          "**Rehearse (15 min):** speech in pairs."
+        ]
+      },
+      {
+        "title": "Lesson 5 — Launch",
+        "minutes": 50,
+        "steps": [
+          "**Do it (35 min):** speeches, posts, petitions.",
+          "**Reflect (15 min):** evaluate and sign off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Real, local, fixable issue.",
+      "An exact, achievable, time-bound ask.",
+      "Write to the decision-maker; rally supporters; speak to a meeting.",
+      "Evidence: photos, surveys, official sources, real stories.",
+      "One ask and one look across all texts; evaluate outcomes."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Letter and speech frames.",
+        "Work in pairs on one campaign."
+      ],
+      "extend": [
+        "Answer a counter-argument fairly.",
+        "Send the letter or present for real (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O1-KS4",
+        "evidence": "Designs and creates influential material for context and audience: letter, post and speech (all three texts)."
+      },
+      {
+        "vc": "VM-U4O1-KK4",
+        "evidence": "Uses the structures and features of advocacy texts across platforms (letter, post)."
+      },
+      {
+        "vc": "VM-U4O2-KS2",
+        "evidence": "Provides evidence to support the argument and speech (plan, letter, sort).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 specific local issue; 2 exact, time-bound ask; 3 decision-maker; 4 evidence (photos, survey, council plan); 5 three texts for three audiences; 6 consistent name and look.\n\n**Sort:** strong — official timetable; own survey with numbers; specific personal story. Weak — “everyone hates the bus”; one Facebook comment; a guess of “hundreds”.\n\n**Case study:** campaigners (including the Boomerang Alliance with community groups) pushed for years for a container deposit scheme like South Australia’s (since 1977); Victoria’s began on 1 November 2023 with a 10-cent refund; the government expected litter to halve; in 2026 campaigners said return rates had stalled around 65% and called for improvements. Winning and working are different tests.",
+    "resources": [
+      {
+        "label": "Premier of Victoria — Container Deposit Scheme now open (2023)",
+        "url": "https://www.premier.vic.gov.au/victorias-container-deposit-scheme-now-open"
+      },
+      {
+        "label": "Boomerang Alliance — Victoria",
+        "url": "https://boomerangalliance.nationbuilder.com/vic"
+      },
+      {
+        "label": "Victorian Government — Container Deposit Scheme",
+        "url": "https://www.vic.gov.au/container-deposit-scheme"
+      },
+      {
+        "label": "Local Government Victoria — find your council",
+        "url": "https://www.localgovernment.vic.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Real campaigns can get real responses.** If letters go to councillors, check them first and prepare students for slow or no replies.",
+      "**Keep it civil and local.** Steer students away from personal attacks and towards fixable, specific issues.",
+      "**Privacy:** petitions collect names; keep them in class unless there’s a proper process.",
+      "**Works in a real class:** yes. A real council reply, even a short one, is a huge motivator."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and letter and speech frames.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with plan, evidence, a formal letter, a post and a speech.",
+      "extend": "Aimed at about Year 7 and up: strategy, coalitions, counter-arguments, design details and outcome evaluation."
+    }
+  }
+}

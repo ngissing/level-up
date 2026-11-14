@@ -1,0 +1,1026 @@
+{
+  "id": "vm-adulting-admin",
+  "version": 1,
+  "duration": "5 lessons (about 4 hours)",
+  "brief": {
+    "hook": {
+      "support": "You turn 18. Now there are bills, a bank, myGov and tax. Nobody shows you how. This course does. You’ll get it all sorted.",
+      "core": "Turning 18 comes with paperwork nobody warned you about. A myGov account. A bank app. A phone bill. A tax return. And lots of fake messages pretending to be all of them. This capstone gets your admin sorted, safely. You’ll finish with a system you can keep using.",
+      "extend": "Adult life runs on documents: government accounts, bank statements, bills and contracts. Each has its own layout and rules. And scammers copy them all. In this capstone, you’ll find, read and organise the real documents of adult life. You’ll also judge how well they inform you."
+    },
+    "why": {
+      "support": "Sorting your admin saves money and stress. It keeps you safe from scams.",
+      "core": "Missed bills cost late fees. Scams cost Australians billions. Knowing your admin protects your money and your identity.",
+      "extend": "Managing official papers and online accounts is a key adult skill. Mistakes and scams can cost real money, and cause legal trouble."
+    },
+    "canDo": {
+      "support": [
+        "I can find the right websites for my admin.",
+        "I can read a bill and a bank statement.",
+        "I can spot a scam message.",
+        "I can make an admin plan."
+      ],
+      "core": [
+        "I can access official services online, safely.",
+        "I can find key information in bills, statements and myGov.",
+        "I can spot scam messages and protect my accounts.",
+        "I can create a personal admin system."
+      ],
+      "extend": [
+        "I can use official online services safely.",
+        "I can analyse how bills, statements and government texts are set out.",
+        "I can compare documents and judge how well they inform.",
+        "I can create a personal admin system that works."
+      ]
+    },
+    "showIt": "Create your own “admin sorted” cheat sheet: your key accounts, due dates and safety rules, built from real documents.",
+    "vocab": [
+      {
+        "word": "myGov",
+        "meaning": "the government website that links services like Medicare and tax",
+        "example": "I linked Medicare to my myGov account."
+      },
+      {
+        "word": "bill",
+        "meaning": "a document that says how much you owe",
+        "example": "My phone bill is due on the 15th."
+      },
+      {
+        "word": "due date",
+        "meaning": "the last day to pay",
+        "example": "Pay before the due date."
+      },
+      {
+        "word": "bank statement",
+        "meaning": "a list of money in and out of your account",
+        "example": "I checked my bank statement."
+      },
+      {
+        "word": "direct debit",
+        "meaning": "when a bill is paid from your account automatically",
+        "example": "My gym is paid by direct debit."
+      },
+      {
+        "word": "scam",
+        "meaning": "a trick to steal your money or details",
+        "example": "That text was a scam."
+      },
+      {
+        "word": "phishing",
+        "meaning": "fake messages that try to get your passwords or details",
+        "example": "The fake myGov email was phishing.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "two-step verification",
+        "meaning": "a second check, like a code, when you log in",
+        "example": "Turn on two-step verification.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "identity theft",
+        "meaning": "when someone uses your details to pretend to be you",
+        "example": "Shred old bills to prevent identity theft.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Adulting Admin in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Adulting Admin",
+        "sub": "myGov, banking and bills — all sorted.",
+        "icon": "lucide:folder-check",
+        "say": "Adulting admin. myGov, banking and bills, all sorted."
+      },
+      {
+        "kind": "steps",
+        "title": "Your admin",
+        "steps": [
+          "myGov: Medicare, tax, Centrelink.",
+          "Bank: account and app.",
+          "Bills: phone, power, rent.",
+          "Safety: passwords and scams."
+        ],
+        "icon": "lucide:folder",
+        "say": "Your admin has four parts. myGov, which links Medicare, tax and Centrelink. Your bank. Your bills. And keeping it all safe.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Rule",
+        "pillIcon": "lucide:shield",
+        "title": "Type it yourself",
+        "text": "Go to my.gov.au. Don’t click links in texts.",
+        "icon": "lucide:keyboard",
+        "say": "Rule one. Type the website yourself. Go to my dot gov dot au. Don’t click links in texts or emails.",
+        "vc": [
+          "VM-U3O1-KS1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Rule",
+        "pillIcon": "lucide:shield",
+        "title": "Find the key facts",
+        "text": "Amount. Due date. How to pay.",
+        "icon": "lucide:search",
+        "say": "Rule two. On every bill, find the key facts. How much. When it is due. How to pay.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Rule",
+        "pillIcon": "lucide:shield",
+        "title": "Lock it down",
+        "text": "Strong passphrase. Two-step login.",
+        "icon": "lucide:lock",
+        "say": "Rule three. Lock it down. Use a strong passphrase and turn on two-step login.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "kind": "stat",
+        "big": "$2.74 billion",
+        "title": "lost to scams by Australians in 2023",
+        "sub": "Source: National Anti-Scam Centre, Targeting scams report 2023",
+        "say": "In 2023, Australians reported losing two point seven four billion dollars to scams."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Make your admin cheat sheet.",
+        "icon": "lucide:folder-check",
+        "say": "Your mission. Make your own admin cheat sheet."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Get your admin sorted",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "When you are an adult, you have **admin**. That means accounts and paperwork.\n\n**1. myGov**\n**myGov** is a government website. It links things like:\n- Medicare (for health).\n- the ATO (for tax).\n- Centrelink (for payments).\n\nAlways type **my.gov.au** yourself. Don’t click links in texts or emails.\n\n**2. Your bank**\n- Check your **bank statement**. It shows money in and money out.\n- Look for things you didn’t buy.\n.\n**3. Bills**\nOn every **bill**, find:\n- how much you owe.\n- the **due date**.\n- how to pay.\n\nLate bills can cost extra.\n\n**4. Stay safe**\n- Use a long password. Don’t share it.\n- Turn on a second check, like a code.\n- A **scam** is a trick to steal your money. If a message rushes you, stop and check.",
+          "core": "Adult life comes with admin: accounts to set up, documents to read, and bills to pay on time.\n\n**1. myGov**\n**myGov** is the Australian Government’s online account. You link services to it:\n- **Medicare:** health cover and your Medicare card.\n- **ATO:** tax returns and super.\n- **Centrelink:** payments like Youth Allowance.\n\nGo to **my.gov.au** by typing it yourself, or use the official app. Real government messages won’t ask you to send your password.\n\n**2. Banking**\n- Your **bank statement** lists every transaction: date, description, money out, money in, and balance.\n- Check it each month for payments you don’t recognise.\n- Know which bills come out by **direct debit**, so your account doesn’t go into the negative.\n.\n**3. Bills**\nBills have a similar layout. Find:\n- the **account number** and billing period.\n- the **amount due** and **due date**.\n- **how to pay** (BPAY, card, direct debit).\n- what happens if you pay late.\n- how to contact them, or get help if you can’t pay.\n\n**4. Security**\n- Use a long **passphrase**, different for each account.\n- Turn on **two-step verification**.\n- Watch for **phishing**: messages pretending to be myGov, your bank or a delivery company. They often rush you or threaten you.\n- If unsure, contact the organisation using details you find yourself, not ones in the message.\n.\n**5. A system.** Keep a list of your accounts, a calendar of due dates, and a safe place for documents.",
+          "extend": "Being independent means managing official texts and accounts. Each has its own layout, language and risks.\n\n**Government services.** **myGov** links federal services such as **Medicare**, the **ATO** and **Centrelink**. Go there directly (my.gov.au or the official app), never through links in messages. Its inbox holds official letters, so check it often.\n\n**Banking documents.** A **bank statement** lists each transaction: date, description, money out, money in and balance. Read it carefully. Does it match what you expected? Spot strange payments early. Track **direct debits**, since they can push your account below zero.\n\n**Bills.** Most bills share a layout: account number, billing period, charges, amount due, due date, ways to pay and contact details. Many also include hardship information. That is support if you can’t pay. Compare two bills for similar services. You’ll see how clearly, or not, each one shows the key facts.\n\n**Security.** In 2023, Australians reported losing **$2.74 billion** to scams. Protect yourself:\n- a different **passphrase** for each account, and a password manager.\n- **two-step verification** wherever you can.\n- spot **phishing**: rushing, threats, odd links, requests for codes or passwords.\n- check using contact details you find yourself.\n- lock away or shred papers with personal details, to lower the risk of **identity theft**.\n\n**A system.** Aim for a routine: an account list (with no passwords), a due-date calendar, and a safe place for documents."
+        },
+        "vc": [
+          "VM-U3O1-KS4",
+          "VM-U3O1-KS1",
+          "VM-U3O1-KK1"
+        ],
+        "vcNote": "Accessing and engaging with real-life documents; their structures and features; digital security."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "$2.74 billion",
+        "icon": "lucide:shield-alert",
+        "body": {
+          "support": "Each year, the government counts how much money Australians lose to **scams**.\n\nIn **2023**, Australians said they lost **$2.74 billion**. That is a huge amount.\n\nMore than **600,000** scams were reported.\n\nSome scams pretend to be a bank or the government. Some offer fake jobs. Losses to fake job scams went up a lot.\n\nThe good news: losses were lower than the year before.\n\nThe lesson: stop and check before you click, pay or share your details.",
+          "core": "Each year, the **National Anti-Scam Centre** reports on scams in Australia.\n\nIts report on **2023** found that Australians reported losing **$2.74 billion** to scams. That was about **13% less** than in 2022, but still enormous.\n\nThere were more than **601,000** reports.\n\nInvestment scams caused the biggest losses. Losses to **phishing** (fake messages that steal your details) and to **job scams** went up. Job scam losses rose by more than 150%.\n\nMany scams pretend to be organisations you trust: banks, delivery companies and government services like myGov.\n\nThe best protection is simple: don’t click links in unexpected messages. Contact the organisation yourself, using details you find on its real website.",
+          "extend": "The **National Anti-Scam Centre**, part of the ACCC, publishes an annual **Targeting scams** report. It combines data from Scamwatch, ReportCyber, banks, IDCARE and ASIC.\n\nFor **2023**, combined reported losses were **$2.74 billion**, down about **13%** from 2022. Reports rose by about 18%, to more than **601,000**.\n\nInvestment scams caused the largest losses. But reported losses rose for **phishing**, payment redirection and **job scams**. Job scam losses rose by more than 150%.\n\nTwo patterns matter for young adults setting up their admin. First, scammers impersonate trusted organisations: banks, delivery companies and government services. Second, job scams target people looking for work.\n\nThese figures are reported losses. Many scams go unreported, so the true cost is likely higher.\n\nThe defences are procedural, not technical: access services directly, verify independently, never share codes, and slow down when a message creates urgency."
+        },
+        "source": {
+          "name": "Scamwatch (National Anti-Scam Centre) — Targeting scams report 2023",
+          "url": "https://www.scamwatch.gov.au/research-and-resources/targeting-scams-report"
+        },
+        "think": {
+          "support": [
+            "How much did Australians lose to scams in 2023?",
+            "What should you do before you click a link?"
+          ],
+          "core": [
+            "Which kinds of scams went up?",
+            "Why do scammers pretend to be banks or myGov?",
+            "What would you do if you got a text saying your myGov account was locked?"
+          ],
+          "extend": [
+            "Why might the real losses be higher than reported?",
+            "Why are job scams a particular risk for young people?",
+            "Why are the best defences habits, not technology?"
+          ]
+        },
+        "vc": [
+          "VM-U3O1-KS4"
+        ],
+        "vcNote": "Official data on scams, showing why secure access to real-life documents matters."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a bill",
+      "docTitle": "MOBILE PHONE BILL (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U3O1-KK1",
+        "VM-U3O1-KS4"
+      ],
+      "vcNote": "The structure and features of a bill.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Account number",
+          "value": "1234 5678"
+        },
+        {
+          "n": 2,
+          "label": "Billing period",
+          "value": "1 March to 31 March"
+        },
+        {
+          "n": 3,
+          "label": "Charges",
+          "value": "Plan $35.00. Extra data $10.00."
+        },
+        {
+          "n": 4,
+          "label": "Amount due",
+          "value": "$45.00",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Due date",
+          "value": "15 April. A late fee may apply."
+        },
+        {
+          "n": 6,
+          "label": "How to pay",
+          "value": "BPAY, card, or direct debit.",
+          "rule": true
+        },
+        {
+          "n": 7,
+          "label": "Need help?",
+          "value": "Can’t pay? Call us to talk about a payment plan."
+        }
+      ],
+      "note": "A made-up bill to show the parts.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Account no.",
+          "note": "Quote it when you call."
+        },
+        {
+          "n": 2,
+          "label": "Period",
+          "note": "What dates it covers."
+        },
+        {
+          "n": 3,
+          "label": "Charges",
+          "note": "Check each one."
+        },
+        {
+          "n": 4,
+          "label": "Amount",
+          "note": "What you owe."
+        },
+        {
+          "n": 5,
+          "label": "Due date",
+          "note": "Late can cost more."
+        },
+        {
+          "n": 6,
+          "label": "Pay",
+          "note": "Your options."
+        },
+        {
+          "n": 7,
+          "label": "Hardship",
+          "note": "Help if you can’t pay."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Get your admin sorted",
+      "steps": [
+        {
+          "title": "List",
+          "text": "Your accounts.",
+          "icon": "lucide:list"
+        },
+        {
+          "title": "Secure",
+          "text": "Passphrase + code.",
+          "icon": "lucide:lock"
+        },
+        {
+          "title": "Read",
+          "text": "Bills + statements.",
+          "icon": "lucide:file-text"
+        },
+        {
+          "title": "Calendar",
+          "text": "Due dates.",
+          "icon": "lucide:calendar"
+        },
+        {
+          "title": "Check",
+          "text": "Every month.",
+          "icon": "lucide:check-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "How should you get to myGov?",
+        "options": [
+          "Type my.gov.au yourself, or use the official app",
+          "Click a link in a text",
+          "Click a link in an email",
+          "Search for it on social media"
+        ],
+        "answer": 0,
+        "explain": "Scammers send fake links.",
+        "vc": [
+          "VM-U3O1-KS1"
+        ]
+      },
+      {
+        "q": "Which service handles your **tax**?",
+        "options": [
+          "The ATO",
+          "Medicare",
+          "Your phone company",
+          "Your bank"
+        ],
+        "answer": 0,
+        "explain": "Link the ATO to myGov for tax returns.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "q": "What **three** things should you find on every bill?",
+        "options": [
+          "Amount, due date, how to pay",
+          "Logo, colour, font",
+          "Your star sign",
+          "The CEO’s name"
+        ],
+        "answer": 0,
+        "explain": "Then you can pay on time.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ]
+      },
+      {
+        "q": "A text says: “Your myGov is locked. Click here now.” What do you do?",
+        "options": [
+          "Don’t click. Log in yourself to check.",
+          "Click quickly",
+          "Reply with your password",
+          "Forward it to friends"
+        ],
+        "answer": 0,
+        "explain": "Urgency and links are signs of phishing.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ]
+      },
+      {
+        "q": "What does a **bank statement** show?",
+        "options": [
+          "Money in, money out and your balance",
+          "Your tax return",
+          "Your phone plan",
+          "Your school results"
+        ],
+        "answer": 0,
+        "explain": "Check it for payments you don’t recognise.",
+        "vc": [
+          "VM-U3O1-KK1"
+        ]
+      },
+      {
+        "q": "In 2023, how much did Australians report losing to scams?",
+        "options": [
+          "$2.74 billion",
+          "$2.74 million",
+          "$274",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Source: National Anti-Scam Centre.",
+        "vc": [
+          "VM-U3O1-KS4"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Make an admin cheat sheet. List your accounts and websites. Write your due dates. Write your safety rules.",
+      "core": "Create your “admin sorted” cheat sheet: your key accounts and how to access them safely, a calendar of due dates, how to read your bills and statements, and your scam rules.",
+      "extend": "Create a personal admin system from real documents. Include your accounts and safe access, a due-date calendar, a guide to your bills and statements, and security rules. Then compare two similar documents. Judge which one informs better."
+    },
+    "checklist": [
+      "I listed my key accounts (no passwords!)",
+      "I wrote the real website for each one",
+      "I found the amount, due date and how to pay on a real bill",
+      "I made a calendar of due dates",
+      "I wrote at least three scam safety rules",
+      "I kept my private details private"
+    ],
+    "levelUp": "Compare two bills or statements for similar things (two phone plans, or two banks). Which one makes the key information easier to find? Why?",
+    "vc": [
+      "VM-U3O1-KS4",
+      "VM-U3O1-KS1",
+      "VM-U3O1-KK1"
+    ],
+    "model": {
+      "kind": "Example admin cheat sheet",
+      "text": "**MY ACCOUNTS** (no passwords here)\n- myGov: my.gov.au (Medicare, ATO linked)\n- Bank: official app only\n- Phone: account number on my bill\n**DUE DATES**\n- Phone: 15th of each month, $45, direct debit\n- Gym: every 2nd Friday, $25, direct debit\n**MY SCAM RULES**\n1. Never click links in texts about my accounts.\n2. Never share a code that’s sent to me.\n3. If it rushes me, stop and check.\n**MONTHLY CHECK:** read my bank statement for anything strange.",
+      "why": [
+        "It lists the real way into each account, but no passwords.",
+        "Due dates include the amount and how it’s paid, so there are no surprises.",
+        "The rules are short enough to remember."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Accounts and access",
+        "start": "Missing accounts or unsafe access.",
+        "good": "Key accounts with official websites.",
+        "great": "Safe access and two-step login noted."
+      },
+      {
+        "skill": "Reading documents",
+        "start": "Can’t find key facts.",
+        "good": "Finds amount, due date and how to pay.",
+        "great": "Checks charges and knows where to get help."
+      },
+      {
+        "skill": "Safety and system",
+        "start": "No safety rules.",
+        "good": "Three clear scam rules and a calendar.",
+        "great": "A routine that will actually work."
+      }
+    ],
+    "choices": {
+      "prompt": "Which part of your admin will you focus on most?",
+      "options": [
+        "myGov, Medicare and tax",
+        "Banking and budgeting",
+        "Phone, internet and other bills",
+        "Staying safe from scams"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Get your admin sorted",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name **three** services you can link to myGov, and what each is for.",
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "What should you find on every bill?",
+              "core": "List five things to look for on a bill."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KK1"
+            ]
+          },
+          {
+            "q": {
+              "support": "How can you tell a message might be a scam?",
+              "core": "Give three signs of a phishing message, and what to do instead.",
+              "extend": "Why are the best scam defences habits, not technology?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Get your admin sorted",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a bill",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "Why do you need it?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the bill. Use the word bank. Write what it does.",
+          "core": "Each number marks a part. Say what it is, and when you’d use it."
+        },
+        "wordBank": {
+          "support": [
+            "account number",
+            "billing period",
+            "charges",
+            "amount due",
+            "due date",
+            "how to pay",
+            "help"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Safe or scam?",
+        "pagebreak": true,
+        "choices": [
+          "Probably safe",
+          "Probably a scam"
+        ],
+        "reasonLabel": "What gives it away? What would you do?",
+        "instructions": "You get these messages. Which are probably safe, and which are probably scams?",
+        "vc": [
+          "VM-U3O1-KS4",
+          "VM-U3O1-KS1"
+        ],
+        "cards": [
+          {
+            "from": "Text",
+            "text": "myGov: Your account is suspended. Verify now: mygov-au-verify.com",
+            "answer": "Probably a scam",
+            "flags": "Fake link and urgency."
+          },
+          {
+            "from": "myGov inbox",
+            "text": "You have a new letter from Medicare. (seen after you logged in yourself)",
+            "answer": "Probably safe",
+            "flags": "You went in yourself."
+          },
+          {
+            "from": "Text",
+            "text": "Your parcel is held. Pay $2.99 to redeliver: bit.ly/xyz",
+            "answer": "Probably a scam",
+            "flags": "Small fee, short link."
+          },
+          {
+            "from": "Bank app",
+            "text": "Notification in your bank app: your phone bill direct debit was paid.",
+            "answer": "Probably safe",
+            "flags": "Inside the official app."
+          },
+          {
+            "from": "Call",
+            "text": "Caller says they’re from your bank and asks for the code just sent to you.",
+            "answer": "Probably a scam",
+            "flags": "Never share codes."
+          },
+          {
+            "from": "Text",
+            "text": "Work from home, $900 a day! Reply YES to start.",
+            "answer": "Probably a scam",
+            "flags": "A job scam.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: $2.74 billion",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How much did Australians report losing to scams in 2023?",
+            "lines": 1,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "Who do scammers pretend to be?",
+              "core": "Which kinds of scams went up? Why might young people be targeted?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "What will you do if you get a strange message?",
+              "core": "What would you do if a text said your myGov was locked?",
+              "extend": "Why might real losses be higher than reported? What does that mean for the figures?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O1-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Step 1: my accounts",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 16,
+          "core": 14
+        },
+        "instructions": "List the accounts you have, or will need. Write the real way in. Never write passwords here. The first row is an example.",
+        "columns": [
+          "Account",
+          "Real website or app",
+          "What it’s for",
+          "Two-step login on?"
+        ],
+        "rows": [
+          [
+            "Example: myGov",
+            "my.gov.au (typed in)",
+            "Medicare, tax",
+            "Yes"
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U3O1-KS1",
+          "VM-U3O1-KS4"
+        ],
+        "vcNote": "Accessing real-life services online, securely."
+      },
+      {
+        "type": "table",
+        "title": "Step 2: read a real bill or statement",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 16,
+          "core": 14
+        },
+        "instructions": "Use a real bill or statement (yours, a family member’s with permission, or one from your teacher). Cover private details. Find each part.",
+        "columns": [
+          "Part",
+          "What it says"
+        ],
+        "rows": [
+          [
+            "Example: due date",
+            "15 April"
+          ],
+          [
+            "Who it’s from",
+            ""
+          ],
+          [
+            "Amount due",
+            ""
+          ],
+          [
+            "Due date",
+            ""
+          ],
+          [
+            "How to pay",
+            ""
+          ],
+          [
+            "Something I didn’t understand",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U3O1-KK1",
+          "VM-U3O1-KS4"
+        ],
+        "vcNote": "Reading a commonly encountered real-life document."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my admin cheat sheet",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O1-KS4",
+          "VM-U3O1-KK1"
+        ],
+        "vcNote": "Creating a personal system from real-life documents.",
+        "prompt": {
+          "support": "Make your cheat sheet: **my accounts**, **due dates** and **3 scam rules**.",
+          "core": "Make your cheat sheet: accounts and how to access them safely, due dates with amounts and payment method, three scam rules and a monthly check.",
+          "extend": "Make your admin system: accounts and secure access, a due-date calendar, a guide to your key documents, security rules and a monthly routine."
+        },
+        "starters": [
+          "MY ACCOUNTS (no passwords):",
+          "DUE DATES:",
+          "MY SCAM RULES:",
+          "MONTHLY CHECK:"
+        ],
+        "lines": {
+          "support": 12,
+          "core": 12,
+          "extend": 12
+        },
+        "check": [
+          "no passwords",
+          "real websites",
+          "due dates",
+          "scam rules"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: get one thing sorted",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O1-KS4",
+          "VM-U3O1-KS1"
+        ],
+        "vcNote": "Engaging with real documentation for a real-life situation.",
+        "instructions": "Choose one real admin task and do it. Never share passwords or codes with anyone, including your teacher.",
+        "need": [
+          "a device",
+          "your own accounts (or a family member helping)",
+          "a calendar or phone"
+        ],
+        "steps": [
+          "Pick one task: set up or check myGov, turn on two-step login, read your bank statement, or set bill reminders.",
+          "Go to the official site by typing it yourself.",
+          "Do the task.",
+          "Add any due dates to your calendar.",
+          "Write down what you did (no private details)."
+        ],
+        "notes": [
+          {
+            "label": "The task I did:",
+            "lines": 1
+          },
+          {
+            "label": "What was harder than I expected:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "teacher saw it",
+          "calendar screenshot (no private details)",
+          "checklist"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: compare two",
+        "pagebreak": true,
+        "instructions": "Compare two similar documents: two phone bills, two bank statements, or two plans.",
+        "items": [
+          {
+            "q": "Which one makes the key information easier to find? How?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS5"
+            ]
+          },
+          {
+            "q": "What would you change about the harder one?",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O1-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can access services safely.",
+          "I can read a bill and a statement.",
+          "I can spot a scam.",
+          "I have an admin system."
+        ],
+        "questions": [
+          "The admin task I sorted:",
+          "My most important scam rule:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "A VM 3&4 capstone. Students access and organise the real documents of independent life: myGov and linked services (Medicare, ATO, Centrelink), bank statements, bills and digital security. They list their accounts (without passwords), read a real bill or statement, sort safe and scam messages, complete one real admin task, and create a personal admin cheat sheet. The case study is the National Anti-Scam Centre’s 2023 report: $2.74 billion in reported losses, with phishing and job scam losses rising.",
+    "prep": [
+      "Print workbooks.",
+      "Collect sample bills and statements (redacted) for students without their own.",
+      "Remind students and families: never share passwords or codes, including with teachers.",
+      "Students should have done some Real-World Docs and On the Job courses first (this capstone requires two from each).",
+      "Know your wellbeing team’s contacts: money and housing stress can come up."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What admin?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** list every account and bill an 18-year-old might have.",
+          "**Watch (5 min):** explainer.",
+          "**Read (25 min):** article + questions.",
+          "**Flow (15 min):** the admin cycle."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Bills and statements",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** the phone bill.",
+          "**Step 2 (25 min):** read a real bill or statement.",
+          "**Level Up (10 min):** compare two (optional)."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Security",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** $2.74 billion.",
+          "**Sort (15 min):** safe or scam.",
+          "**Step 1 (20 min):** my accounts."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Do it",
+        "minutes": 50,
+        "steps": [
+          "**Do it (50 min):** one real admin task."
+        ]
+      },
+      {
+        "title": "Lesson 5 — Cheat sheet",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (35 min).**",
+          "**Reflect (15 min):** reflection and sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "myGov links Medicare, ATO and Centrelink; type the address yourself.",
+      "Bills: account, period, charges, amount, due date, how to pay, help.",
+      "Statements: check monthly for unknown transactions; track direct debits.",
+      "Security: unique passphrases, two-step login, never share codes, verify independently.",
+      "A system: account list, due-date calendar, monthly check."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A provided sample bill.",
+        "Cheat sheet frame."
+      ],
+      "extend": [
+        "Compare two documents and evaluate (Level Up, KS5).",
+        "Discuss reported vs actual scam losses."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O1-KS4",
+        "evidence": "Engages with commonly encountered real-life documents (bill, statement, myGov) and completes a real task (tables, Do it)."
+      },
+      {
+        "vc": "VM-U3O1-KS1",
+        "evidence": "Accesses relevant texts and services online, securely (accounts table, sort)."
+      },
+      {
+        "vc": "VM-U3O1-KK1",
+        "evidence": "Identifies the structures and features of bills and statements (annotation, Step 2)."
+      },
+      {
+        "vc": "VM-U3O1-KS5",
+        "evidence": "Compares texts with similar purposes and evaluates how well they inform (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 account number (quote when calling); 2 billing period; 3 itemised charges (check each); 4 amount due; 5 due date (late fee); 6 payment options; 7 hardship or help.\n\n**Sort:** scam — myGov suspension text with a fake domain; parcel fee with short link; caller asking for a code; $900-a-day job. Safe — letter seen after logging in to myGov yourself; notification inside the official bank app.\n\n**Case study:** $2.74 billion reported lost in 2023, down about 13% from 2022; 601,000+ reports; phishing and job scam losses rose (job scams up more than 150%); real losses likely higher because many scams go unreported.",
+    "resources": [
+      {
+        "label": "Scamwatch — Targeting scams report",
+        "url": "https://www.scamwatch.gov.au/research-and-resources/targeting-scams-report"
+      },
+      {
+        "label": "myGov — help and security",
+        "url": "https://my.gov.au/"
+      },
+      {
+        "label": "Moneysmart (ASIC) — banking and bills",
+        "url": "https://moneysmart.gov.au/"
+      },
+      {
+        "label": "IDCARE — identity and cyber support",
+        "url": "https://www.idcare.org/"
+      }
+    ],
+    "realityCheck": [
+      "**Privacy first.** Students must never share passwords, codes, account numbers or tax file numbers in class. Redact documents.",
+      "**Not every student has accounts yet,** or a safe home situation for admin. The sample documents and “family member helping” option cover this.",
+      "**Money stress is real.** Bills and debt can be sensitive. Know your wellbeing referral pathway, and mention hardship programs.",
+      "**Works in a real class:** yes. Students regularly find they’re paying for something they forgot about."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a sample bill.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with myGov, banking, bills, security and a cheat sheet.",
+      "extend": "Aimed at about Year 7 and up: reconciliation, hardship information, reported vs actual losses, and comparing documents."
+    }
+  }
+}

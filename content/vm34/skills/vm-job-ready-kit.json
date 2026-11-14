@@ -1,0 +1,1009 @@
+{
+  "id": "vm-job-ready-kit",
+  "version": 1,
+  "duration": "5 lessons (about 4 hours), with a real job ad",
+  "brief": {
+    "hook": {
+      "support": "You find a job you want. Now you need a resume, an email and something to say on the phone. This is your kit. Build it once. Use it again and again.",
+      "core": "You’ve found the job or apprenticeship you want. Closing date: Friday. You need a resume that fits this job, a cover email that gets opened, and something sharp to say when they call. This capstone puts everything together into a kit you can actually send.",
+      "extend": "A job application is a set of linked texts. Each has its own rules: a tailored resume, a cover email, and a spoken pitch for the phone call or interview. In this capstone, you’ll make all three for a real job, and make them tell one story."
+    },
+    "why": {
+      "support": "A good kit helps you get a job.",
+      "core": "Employers look for proof that you fit the job. A tailored kit shows it, and you can reuse it for every application.",
+      "extend": "Employers look for relevant experience and personal qualities. A tailored kit shows both, in writing and out loud."
+    },
+    "canDo": {
+      "support": [
+        "I can read a job ad and find what they want.",
+        "I can make my resume fit the job.",
+        "I can write a cover email.",
+        "I can say a short pitch about me."
+      ],
+      "core": [
+        "I can decode a job ad and match myself to it.",
+        "I can tailor a resume and write a formal cover email.",
+        "I can deliver a 30-second pitch about myself.",
+        "I can make all three consistent."
+      ],
+      "extend": [
+        "I can analyse what a job ad asks for.",
+        "I can tailor a resume and cover email with evidence.",
+        "I can give a confident spoken pitch.",
+        "I can keep one message across all my texts."
+      ]
+    },
+    "showIt": "Build a complete application kit for a real job or apprenticeship: decoded ad, tailored resume, cover email and a 30-second spoken pitch.",
+    "vocab": [
+      {
+        "word": "job ad",
+        "meaning": "a notice that a job is available",
+        "example": "I found a job ad on SEEK."
+      },
+      {
+        "word": "criteria",
+        "meaning": "what the employer is looking for",
+        "example": "One of the criteria is a driver’s licence."
+      },
+      {
+        "word": "resume",
+        "meaning": "a short document about your skills and experience",
+        "example": "My resume is one page."
+      },
+      {
+        "word": "cover email",
+        "meaning": "an email you send with your resume",
+        "example": "My cover email is short and polite."
+      },
+      {
+        "word": "tailor",
+        "meaning": "change something to fit one purpose",
+        "example": "I tailored my resume for this job."
+      },
+      {
+        "word": "referee",
+        "meaning": "someone who can say good things about your work",
+        "example": "My coach is my referee."
+      },
+      {
+        "word": "attributes",
+        "meaning": "personal qualities, like reliable or friendly",
+        "example": "They want someone with good attributes.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "elevator pitch",
+        "meaning": "a very short spoken summary of who you are",
+        "example": "My elevator pitch is 30 seconds.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Job-Ready Kit in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Job-Ready Kit",
+        "sub": "Resume, cover email and pitch — ready to send.",
+        "icon": "lucide:briefcase",
+        "say": "Job ready kit. Resume, cover email and pitch, ready to send."
+      },
+      {
+        "kind": "big",
+        "title": "What employers check",
+        "text": "Relevant experience and skills, plus the right personal qualities.",
+        "icon": "lucide:search",
+        "say": "Employers check two things. Do you have relevant experience and skills? And do you have the right personal qualities?",
+        "vc": [
+          "VM-U3O2-KK2"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Your kit",
+        "steps": [
+          "Decode the ad.",
+          "Tailor your resume.",
+          "Write a cover email.",
+          "Practise a 30-second pitch.",
+          "Check it all matches."
+        ],
+        "icon": "lucide:package",
+        "say": "Your kit. Decode the ad. Tailor your resume. Write a cover email. Practise a thirty second pitch. Then check it all matches.",
+        "vc": [
+          "VM-U4O1-KS4",
+          "VM-U3O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Tip",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Use their words",
+        "text": "If the ad says “reliable”, show you’re reliable.",
+        "icon": "lucide:repeat",
+        "say": "Use their words. If the ad says reliable, show you are reliable.",
+        "vc": [
+          "VM-U3O2-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Tip",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Proof, not claims",
+        "text": "“Never missed a shift” beats “hard worker”.",
+        "icon": "lucide:badge-check",
+        "say": "Give proof, not claims. Never missed a shift beats hard worker.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Tip",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Say it out loud",
+        "text": "They might call. Be ready.",
+        "icon": "lucide:phone",
+        "say": "Say it out loud. They might call you. Be ready.",
+        "vc": [
+          "VM-U4O2-KS4"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Build your kit for a real job.",
+        "icon": "lucide:briefcase",
+        "say": "Your mission. Build your kit for a real job."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "From ad to application",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "A job **application** is more than a resume. It is a kit.\n\n**1. Decode the ad.** Find:\n- the job and the employer.\n- what they **must** have.\n- what would be nice to have.\n- how to apply, and by when.\n\n**2. Tailor your resume.** **Tailor** means make it fit this job.\n- Put the most useful things first.\n- Use the same words as the ad.\n- Give proof. “Never late in 18 months.”.\n\n**3. Write a cover email.**\n- A clear subject line.\n- Say which job.\n- Say two reasons you fit.\n- Say thanks. Sign off with your name and phone number.\n.\n**4. Be ready to talk.** They might call. Have a short **pitch** ready: who you are, what you can do, why you want this job.\n\n**5. Check it all.** Spelling. Phone number. Email address. Does it all match?",
+          "core": "A job application is a **kit** of texts that work together. Each has a different job.\n\n**1. Decode the ad.** Every ad tells you what the employer wants, if you read it carefully.\n- **Essential criteria:** what you must have (a licence, a White Card, weekend availability).\n- **Desirable criteria:** what would help.\n- **Their key words:** “reliable”, “customer focus”, “team player”.\n- **How to apply** and the closing date.\n\n**2. Tailor your resume.** One page is usually enough for a first job. **Tailor** it for each ad:\n- put your most relevant experience first (paid work, volunteering, sport, school roles all count).\n- use the ad’s key words where they’re true for you.\n- give proof: numbers, results and responsibilities.\n- list skills and tickets that match the criteria.\n- include two **referees** (ask them first).\n\n**3. Write a cover email.** This is a formal email. It’s often the first thing an employer reads.\n- **Subject:** Application: Apprentice Carpenter, [your name].\n- **Greeting:** Dear [name], or Dear Hiring Manager.\n- **Paragraph 1:** the job, and where you saw it.\n- **Paragraph 2:** two or three reasons you fit, with proof.\n- **Paragraph 3:** when you’re available, and thanks.\n- **Sign-off:** Kind regards, full name, phone.\n- Attach your resume as a PDF.\n\n**4. Prepare your pitch.** If they call, you need a 30-second answer to “Tell me about yourself”: who you are, what you can offer, why this job.\n\n**5. Make it consistent.** Your resume, email and pitch should tell the same story about you.",
+          "extend": "A job application is a set of linked texts, each with its own conventions and audience: busy employers screening many applicants.\n\n**1. Analyse the ad.** Identify **essential** and **desirable criteria**, key words that signal the employer’s values, and practical details (hours, location, closing date, how to apply). Note the tone: corporate, casual, community-focused.\n\n**2. Tailor the resume.** A first resume is usually one page. Tailor it to each ad:\n- order sections by relevance; for many young applicants, skills and experience matter more than school details.\n- frame paid work, volunteering, sport and school roles as evidence against the criteria.\n- use action verbs and specific results.\n- mirror the ad’s key words honestly.\n- include licences, tickets and referees (with permission).\n\n**3. Write the cover email.** A formal email shows your written communication and your fit:\n- a precise subject line naming the role and you.\n- an opening that names the role and source.\n- a body with two or three criterion-matched claims, each with evidence.\n- a close covering availability and appreciation.\n- professional sign-off and contact details; resume attached as a PDF.\n\n**4. Prepare the spoken pitch.** Phone screens and interviews often open with “Tell me about yourself”. An **elevator pitch** of about 30 seconds covers who you are, what you offer and why this role. Deliver it with a steady pace, warmth and confidence.\n\n**5. Consistency.** Each text should reinforce one message about you, so the employer sees the same candidate on paper and on the phone."
+        },
+        "vc": [
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS4",
+          "VM-U4O1-KS4"
+        ],
+        "vcNote": "The purpose and audience of application texts; creating workplace and promotional texts about yourself."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "What employers check first",
+        "icon": "lucide:clipboard-check",
+        "body": {
+          "support": "A government group asks bosses how they choose new workers. It is called **Jobs and Skills Australia**.\n\nIn **2024**, it wrote a report. It is called **How employers recruit**.\n\nAbout **half** of bosses check one thing first. Does the person show they have done this kind of work? Do they have the right skills?\n\nBosses also want the right **personal qualities**. Things like being on time and keen to learn.\n\nSo your kit needs to show both. Show what you can do. Show what you are like.",
+          "core": "**Jobs and Skills Australia** is a government agency. It asks employers how they hire.\n\nIn **July 2024**, it put out a report called **How employers recruit**. When employers first look at applications, about **half** check one thing. Does the person show **relevant experience and skills**?\n\nAcross many kinds of jobs, employers mostly wanted two things. They wanted **relevant work experience**. They also wanted the right **personal qualities**, like being reliable, keen and good with people.\n\nThat’s hard if you haven’t had many jobs. But “experience” can include volunteering, sport, school roles and casual work. You just need to show how they match what the employer wants.\n\nA tailored application does exactly that.",
+          "extend": "**Jobs and Skills Australia** runs a regular survey that asks employers how they hire.\n\nIts **July 2024** report, **How employers recruit**, found that about **half** of employers check one thing first. Does the applicant show **relevant experience and skills**? Across job types, employers mostly wanted **relevant work experience**, plus the right set of **personal qualities**.\n\nAnother 2024 report found that a lack of experience was one of the main reasons employers struggled to fill jobs.\n\nFor young applicants, this is a familiar trap: you need experience to get experience. The research points to a practical way out. Employers look for *evidence* of relevant experience and qualities. So your task is to turn what you have done into evidence that matches the criteria. That could be casual work, volunteering, sport, school leadership or VM work placements.\n\nA tailored application is not just polite. It’s how you get past the first check."
+        },
+        "source": {
+          "name": "Jobs and Skills Australia — How employers recruit (Recruitment Experiences and Outlook Survey report, July 2024)",
+          "url": "https://www.jobsandskills.gov.au/sites/default/files/2024-07/how_employers_recruit_-_report.docx"
+        },
+        "think": {
+          "support": [
+            "What do about half of employers check first?",
+            "What else do employers want?"
+          ],
+          "core": [
+            "What two things did employers mostly want?",
+            "How can young people show experience if they haven’t had many jobs?",
+            "Why does a tailored application help?"
+          ],
+          "extend": [
+            "What is the “experience to get experience” problem? How can applicants respond?",
+            "How would you turn one of your activities into evidence for a criterion?",
+            "Why might employers screen this way?"
+          ]
+        },
+        "vc": [
+          "VM-U3O2-KK2"
+        ],
+        "vcNote": "Official research on the audience (employers) and purpose of application texts."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a cover email",
+      "docTitle": "COVER EMAIL (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U3O2-KS4",
+        "VM-U4O1-KS4"
+      ],
+      "vcNote": "The structure and features of a cover email.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Subject",
+          "value": "Application: Casual Retail Assistant – Sam Nguyen",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Greeting",
+          "value": "Dear Ms Patel,"
+        },
+        {
+          "n": 3,
+          "label": "Opening",
+          "value": "I’m applying for the casual retail role advertised on SEEK."
+        },
+        {
+          "n": 4,
+          "label": "Match + proof",
+          "value": "You want someone reliable. In 18 months at my current job, I have never missed a shift."
+        },
+        {
+          "n": 5,
+          "label": "Availability",
+          "value": "I’m available after 3:30 pm weekdays and all weekend.",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Sign-off",
+          "value": "Kind regards, Sam Nguyen, 0400 000 000. Resume attached."
+        }
+      ],
+      "note": "A made-up example to show the parts of a cover email.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Subject",
+          "note": "Job and your name."
+        },
+        {
+          "n": 2,
+          "label": "Formal greeting",
+          "note": "Use their name if you can."
+        },
+        {
+          "n": 3,
+          "label": "Purpose",
+          "note": "Which job, and where seen."
+        },
+        {
+          "n": 4,
+          "label": "Their word + proof",
+          "note": "Matches the criteria."
+        },
+        {
+          "n": 5,
+          "label": "Practical",
+          "note": "When you can work."
+        },
+        {
+          "n": 6,
+          "label": "Close",
+          "note": "Name, phone, attachment."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Build your kit",
+      "steps": [
+        {
+          "title": "Decode",
+          "text": "The ad.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Match",
+          "text": "You to it.",
+          "icon": "lucide:link"
+        },
+        {
+          "title": "Resume",
+          "text": "Tailored.",
+          "icon": "lucide:file-text"
+        },
+        {
+          "title": "Email",
+          "text": "Formal.",
+          "icon": "lucide:mail"
+        },
+        {
+          "title": "Pitch",
+          "text": "30 seconds.",
+          "icon": "lucide:phone"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What are **essential criteria**?",
+        "options": [
+          "What you must have for the job",
+          "Nice extras",
+          "The pay",
+          "The address"
+        ],
+        "answer": 0,
+        "explain": "Match these first.",
+        "vc": [
+          "VM-U3O2-KK2"
+        ]
+      },
+      {
+        "q": "What does **tailor** your resume mean?",
+        "options": [
+          "Change it to fit this job",
+          "Make it longer",
+          "Use the same one every time",
+          "Add photos"
+        ],
+        "answer": 0,
+        "explain": "Put what matters for this job first, in their words.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "q": "Which subject line is best?",
+        "options": [
+          "Application: Casual Retail Assistant – Sam Nguyen",
+          "hi",
+          "job",
+          "Please read!!!"
+        ],
+        "answer": 0,
+        "explain": "Name the job and yourself.",
+        "vc": [
+          "VM-U3O2-KS4"
+        ]
+      },
+      {
+        "q": "Which line gives proof?",
+        "options": [
+          "In 18 months, I have never missed a shift.",
+          "I’m a hard worker.",
+          "I’m the best.",
+          "I really want this job."
+        ],
+        "answer": 0,
+        "explain": "Proof can be checked.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "q": "What should your 30-second pitch cover?",
+        "options": [
+          "Who you are, what you offer, why this job",
+          "Your whole life story",
+          "Your favourite movies",
+          "Nothing, just say hi"
+        ],
+        "answer": 0,
+        "explain": "Short, clear and about the job.",
+        "vc": [
+          "VM-U4O2-KS4"
+        ]
+      },
+      {
+        "q": "According to Jobs and Skills Australia, about half of employers check what first?",
+        "options": [
+          "Whether applicants show relevant experience and skills",
+          "Their star sign",
+          "Their school uniform",
+          "Their social media likes"
+        ],
+        "answer": 0,
+        "explain": "Show relevant experience, matched to the criteria.",
+        "vc": [
+          "VM-U3O2-KK2"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Find a real job ad. Make your resume fit it. Write an email. Practise a short talk about you.",
+      "core": "Build a complete kit for a real job or apprenticeship: decode the ad, tailor your resume, write a formal cover email and deliver a 30-second spoken pitch. Make all three tell the same story.",
+      "extend": "Build a kit for a real job. Analyse the ad. Tailor your resume and cover email with evidence matched to each criterion. Then deliver a confident elevator pitch."
+    },
+    "checklist": [
+      "I decoded a real job ad",
+      "My resume puts the most relevant things first",
+      "I used the ad’s key words honestly",
+      "My cover email has a subject, greeting, three short paragraphs and sign-off",
+      "I practised my 30-second pitch out loud",
+      "My resume, email and pitch tell the same story",
+      "I checked spelling, phone number and email"
+    ],
+    "levelUp": "Do a mock phone screen with a teacher or family member. They read the ad, then ask: “Tell me about yourself” and “Why do you want this job?” Record your answers and improve them.",
+    "vc": [
+      "VM-U4O1-KS4",
+      "VM-U3O2-KS4",
+      "VM-U3O2-KK2"
+    ],
+    "solo": "No one for the mock call? Record yourself answering “Tell me about yourself” and “Why this job?” as if on the phone. Listen back and check it matches your resume and email.",
+    "model": {
+      "kind": "Example 30-second pitch",
+      "text": "“Hi, I’m Sam. I’m in Year 12. I’ve worked at a supermarket for 18 months.\nI’ve never missed a shift. I’ve trained two new staff.\nI want your job because I like helping people. Your shop is close, so I’ll always be on time.\nI can work after school and on weekends.”",
+      "why": [
+        "It covers who Sam is, what Sam offers and why this job, in 30 seconds.",
+        "It repeats the same proof as the resume and email: never missed a shift.",
+        "It ends with practical information the employer needs."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Tailoring",
+        "start": "Same as any job.",
+        "good": "Matches the main criteria.",
+        "great": "Every point is matched, with proof."
+      },
+      {
+        "skill": "Written texts",
+        "start": "Parts missing or errors.",
+        "good": "Resume and email are clear and formal.",
+        "great": "Polished, with no errors."
+      },
+      {
+        "skill": "Pitch and consistency",
+        "start": "No pitch, or it doesn’t match.",
+        "good": "A clear 30-second pitch.",
+        "great": "Confident, and one story across all three."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you apply for?",
+      "options": [
+        "A casual job (retail, hospitality, supermarket)",
+        "An apprenticeship or traineeship",
+        "A work placement for VM",
+        "A volunteer role or sports club position"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: From ad to application",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name the **texts** in an application kit, and what each one is for.",
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KK2"
+            ]
+          },
+          {
+            "q": {
+              "support": "What does “tailor” mean? Give one way to do it.",
+              "core": "Give three ways to tailor a resume."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "What goes in a 30-second pitch?",
+              "core": "Why should your resume, email and pitch tell the same story?",
+              "extend": "How should the employer’s audience (busy, screening many applicants) shape your writing?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KK2",
+              "VM-U4O2-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Build your kit",
+        "diagram": 1
+      },
+      {
+        "type": "table",
+        "title": "Step 1: decode my ad",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 18,
+          "core": 16
+        },
+        "instructions": "Find a real job ad you’d apply for. Decode it. The first row is an example.",
+        "columns": [
+          "Part of the ad",
+          "What it says"
+        ],
+        "rows": [
+          [
+            "Example: job and employer",
+            "Casual retail assistant, Main St Hardware"
+          ],
+          [
+            "Job and employer",
+            ""
+          ],
+          [
+            "Essential criteria (must have)",
+            ""
+          ],
+          [
+            "Desirable criteria (nice to have)",
+            ""
+          ],
+          [
+            "Their key words",
+            ""
+          ],
+          [
+            "How to apply, and closing date",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U3O2-KK2"
+        ],
+        "vcNote": "Analysing the purpose and audience of a job ad."
+      },
+      {
+        "type": "table",
+        "title": "Step 2: match me to the ad",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 22,
+          "core": 20
+        },
+        "instructions": "For each thing they want, write your proof. Use paid work, volunteering, sport and school. The first row is an example.",
+        "columns": [
+          "They want…",
+          "My proof"
+        ],
+        "rows": [
+          [
+            "Example: reliable",
+            "Never missed a shift in 18 months at my supermarket job"
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U4O1-KS4"
+        ],
+        "vcNote": "Matching personal evidence to criteria."
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a cover email",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "Why does the employer need it?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the email. Use the word bank. Write what it does.",
+          "core": "Each number marks a part. Say what it is, and why it suits a busy employer."
+        },
+        "wordBank": {
+          "support": [
+            "subject",
+            "greeting",
+            "purpose",
+            "match + proof",
+            "availability",
+            "sign-off"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Send it or fix it?",
+        "pagebreak": true,
+        "choices": [
+          "Send it",
+          "Fix it"
+        ],
+        "reasonLabel": "Why? (fix it if needed)",
+        "instructions": "Bits from application kits. Ready to send, or need fixing?",
+        "vc": [
+          "VM-U3O2-KS4",
+          "VM-U4O1-KS4"
+        ],
+        "cards": [
+          {
+            "from": "Email",
+            "text": "Subject: Application: Apprentice Plumber – Jay Ross",
+            "answer": "Send it",
+            "flags": "Job and name."
+          },
+          {
+            "from": "Email",
+            "text": "hey, saw ur ad, keen 4 the job",
+            "answer": "Fix it",
+            "flags": "Too casual for a formal email."
+          },
+          {
+            "from": "Resume",
+            "text": "Email: partyboi2008@email.com",
+            "answer": "Fix it",
+            "flags": "Use a sensible email."
+          },
+          {
+            "from": "Resume",
+            "text": "White Card. First aid. Forklift licence (2025).",
+            "answer": "Send it",
+            "flags": "Tickets that match."
+          },
+          {
+            "from": "Pitch",
+            "text": "“Um, I dunno, I just need money.”",
+            "answer": "Fix it",
+            "flags": "Say why this job."
+          },
+          {
+            "from": "Email",
+            "text": "Referees: Coach Lee (asked, happy to help), 0400 111 222",
+            "answer": "Send it",
+            "flags": "Asked first.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: what employers check first",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What do about half of employers check first?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK2"
+            ]
+          },
+          {
+            "q": {
+              "support": "What else do employers want?",
+              "core": "What two things did employers mostly want?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK2"
+            ]
+          },
+          {
+            "q": {
+              "support": "What could you use as experience?",
+              "core": "How can you show experience if you haven’t had many jobs?",
+              "extend": "Turn one of your activities into evidence for a criterion in your ad."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Step 3: my tailored resume (draft)",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KS4",
+          "VM-U3O2-KS4"
+        ],
+        "vcNote": "Creating a tailored resume for a specific audience.",
+        "prompt": {
+          "support": "Draft your resume: **contact**, **skills**, **experience** with proof, and **referees**.",
+          "core": "Draft your one-page resume for this job. Order sections by what matters most. Use the ad’s key words honestly, and give proof.",
+          "extend": "Draft a tailored resume, ordered by relevance, with action verbs, results and criterion-matched evidence. Type the final version."
+        },
+        "starters": [
+          "Name and contact:",
+          "About me (2 lines):",
+          "Skills and tickets:",
+          "Experience (with proof):",
+          "Referees:"
+        ],
+        "lines": {
+          "support": 12,
+          "core": 12,
+          "extend": 12
+        },
+        "check": [
+          "relevant first",
+          "their key words",
+          "proof",
+          "referees asked"
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Step 4: my cover email",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O2-KS4",
+          "VM-U4O1-KS4"
+        ],
+        "vcNote": "Writing a formal workplace email.",
+        "prompt": {
+          "support": "Write your email: **subject**, **greeting**, **which job**, **two reasons** you fit, **thanks** and **sign-off**.",
+          "core": "Write your cover email: subject line, greeting, three short paragraphs (the job, why you fit with proof, availability and thanks) and sign-off.",
+          "extend": "Write a formal cover email with criterion-matched claims and evidence, a precise subject line and a professional close."
+        },
+        "starters": [
+          "Subject:",
+          "Dear…",
+          "I’m applying for…",
+          "You’re looking for… In my…",
+          "I’m available…",
+          "Kind regards,"
+        ],
+        "lines": {
+          "support": 12,
+          "core": 12,
+          "extend": 12
+        },
+        "check": [
+          "subject",
+          "formal",
+          "proof",
+          "sign-off + phone"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: pitch and send-ready check",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O2-KS4",
+          "VM-U4O1-KS4"
+        ],
+        "vcNote": "Delivering a spoken pitch and checking consistency across texts.",
+        "instructions": "Practise your 30-second pitch out loud, then do a mock call. Finally, check your whole kit is ready to send. (No one for the call? Record it and listen back.)",
+        "need": [
+          "your resume and email",
+          "a timer",
+          "a partner, or a phone to record"
+        ],
+        "steps": [
+          "Write your pitch on one card: who, what you offer, why this job.",
+          "Say it out loud three times. Time it.",
+          "Do a mock call: “Tell me about yourself.”",
+          "Check: do the resume, email and pitch match?",
+          "Check spelling, phone number and email address.",
+          "Save your resume as a PDF."
+        ],
+        "notes": [
+          {
+            "label": "My pitch (key words):",
+            "lines": 2
+          },
+          {
+            "label": "What I fixed after the mock call:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "finished kit",
+          "recording",
+          "teacher saw it"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can decode a job ad.",
+          "I can tailor my resume.",
+          "I can write a formal cover email.",
+          "I can pitch myself out loud."
+        ],
+        "questions": [
+          "The proof I’m proudest of:",
+          "Where I’ll send my kit:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "A VM 3&4 capstone. Students build a complete, consistent application kit for a real job, apprenticeship, placement or volunteer role: a decoded ad, a matched evidence table, a tailored resume, a formal cover email and a 30-second spoken pitch, tested in a mock call. The case study is Jobs and Skills Australia’s July 2024 report “How employers recruit”: about half of employers check at the application stage whether applicants show relevant experience and skills, and employers mostly want relevant experience plus suitable personal attributes.",
+    "prep": [
+      "Print workbooks.",
+      "Collect real local job ads (SEEK, Indeed, shop windows, apprenticeship networks), or ask students to bring one.",
+      "Devices for typing the final resume and email.",
+      "Arrange mock callers (staff, careers adviser, family).",
+      "Students should have done some of On the Job and Advocate first (this capstone requires two from each)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Decode and match",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** what would make you skip an application if you were the boss?",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Steps 1–2 (20 min):** decode the ad and match."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Case and resume",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** what employers check first.",
+          "**Sort (10 min):** send it or fix it.",
+          "**Step 3 (25 min):** resume draft."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Cover email",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the cover email.",
+          "**Step 4 (25 min):** cover email.",
+          "**Type up (15 min):** resume and email."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Pitch",
+        "minutes": 50,
+        "steps": [
+          "**Do it (35 min):** write, rehearse and do mock calls.",
+          "**Fix (15 min):** consistency and error check."
+        ]
+      },
+      {
+        "title": "Lesson 5 — Finish",
+        "minutes": 50,
+        "steps": [
+          "**Final polish (30 min):** save PDF, final check.",
+          "**Level Up or send (10 min).**",
+          "**Reflect (10 min):** reflection and sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "An application is a kit: resume, cover email, pitch.",
+      "Decode essential and desirable criteria and key words.",
+      "Tailor: relevant first, their words, proof.",
+      "Formal email structure; resume as PDF.",
+      "One consistent story across written and spoken texts."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Resume and email frames.",
+        "Fewer rows in the match table."
+      ],
+      "extend": [
+        "Criterion-matched evidence in every claim.",
+        "Mock phone screen with follow-up questions (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O1-KS4",
+        "evidence": "Designs and creates promotional material about themselves for a specific employer (resume, email, pitch)."
+      },
+      {
+        "vc": "VM-U3O2-KS4",
+        "evidence": "Creates informative content for a workplace, considering audience and purpose (cover email, resume)."
+      },
+      {
+        "vc": "VM-U3O2-KK2",
+        "evidence": "Identifies the purpose and intended audience of the ad and their own texts (decode table, questions)."
+      },
+      {
+        "vc": "VM-U4O2-KS4",
+        "evidence": "Uses voice, pace and confident delivery in a spoken pitch (Do it).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 subject naming job and applicant; 2 formal greeting; 3 purpose and source; 4 the employer’s key word plus proof; 5 availability; 6 sign-off with phone and attachment.\n\n**Sort:** send — clear subject line; tickets list; referees who were asked. Fix — “hey, saw ur ad” (too casual); silly email address; “I just need money” (say why this job).\n\n**Case study:** about half of employers check at the application stage whether applicants show relevant experience and skills; employers mostly want relevant experience plus suitable personal attributes; young people can translate volunteering, sport, school roles and casual work into matched evidence.",
+    "resources": [
+      {
+        "label": "Jobs and Skills Australia — How employers recruit (July 2024)",
+        "url": "https://www.jobsandskills.gov.au/sites/default/files/2024-07/how_employers_recruit_-_report.docx"
+      },
+      {
+        "label": "Jobs and Skills Australia — Recruitment Experiences and Outlook Survey",
+        "url": "https://www.jobsandskills.gov.au/work/recruitment-experiences-and-outlook-survey"
+      },
+      {
+        "label": "Your Career (Australian Government)",
+        "url": "https://www.yourcareer.gov.au/"
+      },
+      {
+        "label": "Apprenticeships Victoria",
+        "url": "https://www.vic.gov.au/apprenticeships-victoria"
+      }
+    ],
+    "realityCheck": [
+      "**Real ads make it real.** If students actually send their kit, celebrate it, and help them follow up.",
+      "**Students with no paid work** often undervalue sport, caring roles, volunteering and VM placements. The match table is where you help them see it.",
+      "**Referees must be asked first.** Make that a checkpoint.",
+      "**Privacy:** remind students not to put their home address or date of birth on a resume.",
+      "**Works in a real class:** yes. Mock calls with unfamiliar adults are nerve-racking but hugely valuable."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank, frames for resume and email.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with decoding, tailoring, a formal email and a 30-second pitch.",
+      "extend": "Aimed at about Year 7 and up: criterion-matched evidence, audience analysis, and a mock phone screen."
+    }
+  }
+}
