@@ -1,0 +1,866 @@
+{
+  "id": "vm-pitch-it",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You have one minute. You have an idea. Can you get someone to say yes? That is a pitch.",
+      "core": "Sixty seconds. One idea. A room of people who’ve heard a hundred pitches today. Can you make them lean in? Whether it’s a business idea, a fundraiser or yourself in a job interview, a pitch is how you get a yes.",
+      "extend": "A pitch is promotion in its most compressed form: a spoken, structured case for an idea, delivered to an audience with the power to say yes. It tests language choice, structure and delivery all at once."
+    },
+    "why": {
+      "support": "Pitching helps you sell an idea, a product or yourself.",
+      "core": "You’ll pitch all your life: for jobs, for money, for support. A clear, confident pitch can open doors.",
+      "extend": "Pitching is a core work skill in business, trades, community work and job interviews. Being able to persuade out loud, in a short time, is rare and valued."
+    },
+    "canDo": {
+      "support": [
+        "I know the parts of a pitch.",
+        "I can plan a one-minute pitch.",
+        "I can speak with eye contact and a clear voice."
+      ],
+      "core": [
+        "I can plan a 60-second pitch with a hook, problem, solution, proof and ask.",
+        "I can choose words and style for my setting.",
+        "I can deliver it with good eye contact, tone and body language."
+      ],
+      "extend": [
+        "I can structure a persuasive 60-second pitch.",
+        "I can choose language that influences my audience.",
+        "I can adjust my style for different settings.",
+        "I can deliver it with control of voice and body language."
+      ]
+    },
+    "showIt": "Pitch a product, business or idea out loud in 60 seconds to a panel.",
+    "vocab": [
+      {
+        "word": "pitch",
+        "meaning": "a short talk to get someone to say yes to your idea",
+        "example": "My pitch was one minute long."
+      },
+      {
+        "word": "hook",
+        "meaning": "an opening that grabs attention",
+        "example": "My hook was a question."
+      },
+      {
+        "word": "problem",
+        "meaning": "what is wrong or missing that your idea fixes",
+        "example": "The problem is cold lunches."
+      },
+      {
+        "word": "solution",
+        "meaning": "your idea, and how it fixes the problem",
+        "example": "Our solution is a hot lunch van."
+      },
+      {
+        "word": "the ask",
+        "meaning": "what you want the listener to do",
+        "example": "My ask is $200 to start."
+      },
+      {
+        "word": "investor",
+        "meaning": "someone who puts money into a business",
+        "example": "The investor said no."
+      },
+      {
+        "word": "tone",
+        "meaning": "how your voice sounds",
+        "example": "Use a confident, friendly tone.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "intonation",
+        "meaning": "how your voice goes up and down",
+        "example": "Her intonation showed she was excited.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Pitch It in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Pitch It",
+        "sub": "Sixty seconds to sell your idea.",
+        "icon": "lucide:rocket",
+        "say": "Pitch it. Sixty seconds to sell your idea."
+      },
+      {
+        "kind": "steps",
+        "title": "The 60-second pitch",
+        "steps": [
+          "Hook: grab them.",
+          "Problem: what’s wrong?",
+          "Solution: your idea.",
+          "Proof: why it works.",
+          "Ask: what you want."
+        ],
+        "icon": "lucide:timer",
+        "say": "A sixty second pitch has five parts. A hook to grab them. The problem. Your solution. Proof that it works. And your ask.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Say it",
+        "pillIcon": "lucide:mic",
+        "title": "Look up",
+        "text": "Eye contact with every person.",
+        "icon": "lucide:eye",
+        "say": "Look up. Make eye contact with every person on the panel.",
+        "vc": [
+          "VM-U4O1-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Say it",
+        "pillIcon": "lucide:mic",
+        "title": "Sound like you mean it",
+        "text": "Confident tone. Pause before the ask.",
+        "icon": "lucide:volume-2",
+        "say": "Sound like you mean it. Use a confident tone, and pause before your ask.",
+        "vc": [
+          "VM-U4O1-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Say it",
+        "pillIcon": "lucide:mic",
+        "title": "Stand tall",
+        "text": "Feet still. Hands open.",
+        "icon": "lucide:person-standing",
+        "say": "Stand tall. Keep your feet still and your hands open.",
+        "vc": [
+          "VM-U4O1-KK3"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Know your room",
+        "text": "A bank? A market stall? Change your words to suit.",
+        "icon": "lucide:users",
+        "say": "Know your room. Pitching to a bank is different from a market stall. Change your words to suit.",
+        "vc": [
+          "VM-U4O1-KS2"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Pitch it in 60 seconds.",
+        "icon": "lucide:rocket",
+        "say": "Your mission. Pitch your idea in sixty seconds."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Sixty seconds to yes",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A **pitch** is a short talk. You use it to get someone to say yes to your idea.\n\n**A pitch has five parts:**\n- **Hook:** grab their attention. Ask a question, or say something surprising.\n- **Problem:** what is wrong or missing?\n- **Solution:** your idea, and how it fixes the problem.\n- **Proof:** why it will work. Did people like it? Did you test it?\n- **The ask:** what do you want? Money? Help? A yes?\n.\n**How to say it:**\n- Look at the people you’re talking to.\n- Speak loud and clear.\n- Stand still. Don’t sway.\n- Smile. Look like you believe it.\n- Pause before your ask.\n.\n**Practise.** Say it out loud five times. Time it. Cut anything you don’t need.",
+          "core": "A **pitch** is a short, spoken case for an idea. You might pitch a business to an **investor**, a fundraiser to your principal, or yourself to an employer.\n\n**Structure: five parts in 60 seconds**\n- **Hook (5–10 sec):** a question, a surprising fact or a quick story. “Who here has eaten a cold pie at the footy?”.\n- **Problem (10 sec):** make it real for the listener.\n- **Solution (15 sec):** your idea, in plain words. What it is, who it’s for, how it works.\n- **Proof (15 sec):** why it will work: you tested it, people paid, you have the skills.\n- **The ask (10 sec):** exactly what you want. “$300 to buy a pie warmer.”.\n\n**Words that work:**\n- Say “you”: talk to the listener.\n- Use short sentences and strong verbs.\n- Give one number that sticks.\n.\n**Delivery:**\n- **Eye contact** around the whole panel.\n- a confident, warm **tone**: not shouting, not mumbling.\n- **body language:** stand still, feet apart, hands open.\n- a pause before your ask, so it lands.\n\n**Know your setting.** A bank manager wants numbers, in a formal style. A crowd at a market wants energy and fun. Same idea, different words.",
+          "extend": "A **pitch** is a compressed, spoken argument for an idea, aimed at someone who can say yes. Entrepreneurs pitch to **investors**, community groups pitch to councils, and job seekers pitch themselves.\n\n**Structure.** A 60-second pitch usually moves through five beats:\n- **hook:** a question, statistic or short story that creates curiosity.\n- **problem:** a concrete pain point the audience recognises.\n- **solution:** what your idea is, for whom, and how it works.\n- **proof:** evidence it will succeed, such as testing, early sales, skills or support.\n- **the ask:** a specific request, with a number if possible.\n\n**Language that influences.**\n- direct address (“you”) and inclusive language (“we”).\n- concrete, vivid nouns and active verbs.\n- one memorable figure rather than a list of statistics.\n- rhetorical questions in the hook, and a clear, confident close.\n\n**Delivery.** Oral communication carries as much weight as content:\n- sustained **eye contact** across the panel.\n- a confident **tone**, with **intonation** that rises with energy and falls to signal certainty.\n- open, still **body language**.\n- a deliberate pause before the ask.\n\n**Setting.** Adjust register to context. An investor panel expects formality and figures. A market crowd responds to energy and humour. A job interview needs warmth and evidence."
+        },
+        "vc": [
+          "VM-U4O1-KK3",
+          "VM-U4O1-KS4",
+          "VM-U4O1-KS2",
+          "VM-U4O2-KK2"
+        ],
+        "vcNote": "Structuring promotional content; oral communication; language choice; techniques for different settings."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The pitch that heard “no” 100 times",
+        "icon": "lucide:presentation",
+        "body": {
+          "support": "**Melanie Perkins** grew up in **Perth**. At uni, she taught students how to use design programs. She saw that the programs were hard to use.\n\nShe had an idea. What if design was easy, and online?\n\nShe and **Cliff Obrecht** started small. They made a website for schools to design yearbooks.\n\nThen they wanted to build something bigger. They needed money. So they **pitched** to **investors**.\n\nMost said **no**. Melanie says she heard “no” more than **100 times**.\n\nAfter each no, she changed her pitch. She made it better.\n\nIn **2013**, they launched **Canva**. Today, people all over the world use it.",
+          "core": "**Melanie Perkins** was a university student in **Perth**, teaching others how to use design software. She noticed the programs were hard to learn and expensive. Her idea: simple design tools, online, for everyone.\n\nWith **Cliff Obrecht**, she started small, with an online tool for designing school yearbooks. To build the bigger idea, they needed **investors**.\n\nPerkins has said they were rejected by more than **100** investors. Some doubted the idea. Some doubted a tech company could grow from Australia.\n\nShe has said she changed her pitch after **every** meeting. Each “no” showed her what wasn’t working.\n\nIn **2013**, they launched **Canva**. It became one of Australia’s best-known tech companies, used around the world.\n\nThe idea didn’t change much. The pitch did.",
+          "extend": "**Melanie Perkins** was a university student in **Perth** who taught design software to other students. She saw that it was difficult and expensive to learn, and imagined simple, online design tools for everyone.\n\nWith co-founder **Cliff Obrecht**, she first built an online tool for designing school yearbooks. To fund the larger vision, they had to persuade **investors**.\n\nPerkins has said more than **100** investors turned them down. They faced doubts about the market, and about building a global tech company from Australia.\n\nBy her account, she revised her pitch deck after every meeting, more than a hundred times in a year. She treated each rejection as feedback on her structure, evidence and language.\n\n**Canva** launched in **2013** and grew into one of Australia’s best-known technology companies.\n\nThe “100 rejections” figure comes from Perkins’ own retellings, not investor records. Even so, the story shows how much a pitch can change while the core idea stays the same."
+        },
+        "source": {
+          "name": "Founded — “Canva founder Melanie Perkins: origin story”",
+          "url": "https://www.founded.com/canva-founder-melanie-perkins-origin-story/"
+        },
+        "think": {
+          "support": [
+            "What problem did Melanie see?",
+            "What did she do after each “no”?"
+          ],
+          "core": [
+            "Why might investors have said no?",
+            "What do you think she changed in her pitch each time?",
+            "What would you do after your first “no”?"
+          ],
+          "extend": [
+            "What kinds of things might a founder change in a pitch after rejection?",
+            "Why should we note that the “100 rejections” figure comes from Perkins herself?",
+            "Is persistence always the right response to “no”? When might it not be?"
+          ]
+        },
+        "vc": [
+          "VM-U4O1-KS4"
+        ],
+        "vcNote": "A real pitch, revised through rejection, showing how promotional content is refined for an audience."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a pitch cue card",
+      "docTitle": "PITCH CUE CARD: HOT PIES AT THE FOOTY (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U4O1-KS4",
+        "VM-U4O2-KK2"
+      ],
+      "vcNote": "The structure and language of a short promotional pitch.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "value": "“Who here has eaten a cold pie at the footy?”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Problem",
+          "value": "Our club canteen has no pie warmer. Pies go cold in minutes."
+        },
+        {
+          "n": 3,
+          "label": "Solution",
+          "value": "A pie warmer, run by Year 12 volunteers on game days."
+        },
+        {
+          "n": 4,
+          "label": "Proof",
+          "value": "We asked parents at last week’s game. Most said they’d buy one."
+        },
+        {
+          "n": 5,
+          "label": "The ask",
+          "value": "[pause] “We’re asking the club for $300 to buy the warmer.”",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Close",
+          "value": "“Hot pies. Happy fans. Thank you.”"
+        }
+      ],
+      "note": "A made-up example to show the parts of a pitch.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "A question they can answer."
+        },
+        {
+          "n": 2,
+          "label": "Problem",
+          "note": "Real and local."
+        },
+        {
+          "n": 3,
+          "label": "Solution",
+          "note": "Plain words."
+        },
+        {
+          "n": 4,
+          "label": "Proof",
+          "note": "Evidence you gathered."
+        },
+        {
+          "n": 5,
+          "label": "The ask",
+          "note": "Exact, after a pause."
+        },
+        {
+          "n": 6,
+          "label": "Close",
+          "note": "Short and memorable."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "The 60-second pitch",
+      "steps": [
+        {
+          "title": "Hook",
+          "text": "5–10 sec",
+          "icon": "lucide:magnet"
+        },
+        {
+          "title": "Problem",
+          "text": "10 sec",
+          "icon": "lucide:circle-alert"
+        },
+        {
+          "title": "Solution",
+          "text": "15 sec",
+          "icon": "lucide:lightbulb"
+        },
+        {
+          "title": "Proof",
+          "text": "15 sec",
+          "icon": "lucide:badge-check"
+        },
+        {
+          "title": "Ask",
+          "text": "10 sec",
+          "icon": "lucide:hand"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is **the ask** in a pitch?",
+        "options": [
+          "Exactly what you want the listener to do",
+          "A question at the start",
+          "Your name",
+          "A joke"
+        ],
+        "answer": 0,
+        "explain": "Be specific: “$300 to buy a pie warmer.”",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "q": "Which is the best hook?",
+        "options": [
+          "“Who here has eaten a cold pie at the footy?”",
+          "“Um, so, my idea is…”",
+          "“This might be boring.”",
+          "“I didn’t really prepare.”"
+        ],
+        "answer": 0,
+        "explain": "A question pulls the listener in.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "q": "Where should you look while pitching?",
+        "options": [
+          "Around the whole panel",
+          "At your notes",
+          "At the floor",
+          "Out the window"
+        ],
+        "answer": 0,
+        "explain": "Eye contact builds trust.",
+        "vc": [
+          "VM-U4O1-KK3"
+        ]
+      },
+      {
+        "q": "When should you pause?",
+        "options": [
+          "Just before your ask",
+          "Every second word",
+          "Never",
+          "In the middle of the hook"
+        ],
+        "answer": 0,
+        "explain": "A pause makes the ask land.",
+        "vc": [
+          "VM-U4O1-KK3"
+        ]
+      },
+      {
+        "q": "You’re pitching to a bank manager. What should you do?",
+        "options": [
+          "Be formal and give clear numbers",
+          "Tell lots of jokes",
+          "Use slang",
+          "Skip the ask"
+        ],
+        "answer": 0,
+        "explain": "Match your style to the setting.",
+        "vc": [
+          "VM-U4O1-KS2"
+        ]
+      },
+      {
+        "q": "What did Melanie Perkins do after each investor said no?",
+        "options": [
+          "Changed her pitch",
+          "Gave up",
+          "Changed her idea completely",
+          "Argued with them"
+        ],
+        "answer": 0,
+        "explain": "Each no showed her what to improve.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan a one-minute pitch. Use the five parts. Say it out loud to a group.",
+      "core": "Plan and deliver a 60-second pitch for a product, business or idea. Use the five parts, choose words for your setting, and use good eye contact, tone and body language.",
+      "extend": "Structure and deliver a 60-second pitch to a panel, using language choices that influence your audience and a delivery style suited to the setting."
+    },
+    "checklist": [
+      "My pitch has a hook, problem, solution, proof and ask",
+      "It is 60 seconds or less",
+      "My ask is exact",
+      "I made eye contact with each person",
+      "I used a confident tone and paused before the ask",
+      "I stood still with open hands"
+    ],
+    "levelUp": "Rewrite your pitch for a different setting, such as a market crowd instead of a bank. Change at least three word choices. What changed, and why?",
+    "vc": [
+      "VM-U4O1-KK3",
+      "VM-U4O1-KS4",
+      "VM-U4O1-KS2"
+    ],
+    "solo": "No panel? Record your pitch on video, looking into the camera as if it were the panel. Watch it back with the checklist, then record a second take.",
+    "model": {
+      "kind": "Example pitch",
+      "text": "“Who here has walked past a park full of rubbish and done nothing?\nMe too. In our town, the skate park bins overflow every weekend.\nOur idea: Bin Squad. Year 11 students empty and clean the skate park bins every Sunday morning.\nWe tested it for three weekends. The park stayed clean, and two skaters joined us.\n[pause] We’re asking the council for $150 for gloves, grabbers and bin bags.\nClean park. Proud town. Thank you.”",
+      "why": [
+        "It opens with a question the panel can answer in their heads.",
+        "The proof comes from a real test, not a guess.",
+        "The ask is exact, and the pause makes it land."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Structure",
+        "start": "Parts missing.",
+        "good": "All five parts, in 60 seconds.",
+        "great": "A strong hook and a sharp close."
+      },
+      {
+        "skill": "Words",
+        "start": "Vague or too casual.",
+        "good": "Clear words for the setting.",
+        "great": "Every word earns its place."
+      },
+      {
+        "skill": "Delivery",
+        "start": "Reads from notes.",
+        "good": "Eye contact and a clear voice.",
+        "great": "Confident tone, open body, a pause that lands."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you pitch?",
+      "options": [
+        "A small business or side hustle idea",
+        "A fundraiser or event for your school or club",
+        "A fix for a problem in your town",
+        "Yourself, for a job or apprenticeship"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Sixty seconds to yes",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name the **five** parts of a pitch.",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "Give **three** tips for how to say it.",
+              "core": "Give a tip each for eye contact, tone and body language."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KK3"
+            ]
+          },
+          {
+            "q": {
+              "support": "Who might you pitch to?",
+              "core": "How would a pitch to a bank manager be different from one at a market?",
+              "extend": "Choose two language features that influence an audience. Give an example of each."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS2",
+              "VM-U4O2-KK2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a pitch cue card",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "Why does it work?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the pitch. Use the word bank. Write what it does.",
+          "core": "Each number marks a part. Say what it is, and how its words work on the listener."
+        },
+        "wordBank": {
+          "support": [
+            "hook",
+            "problem",
+            "solution",
+            "proof",
+            "the ask",
+            "close"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Bank or market?",
+        "pagebreak": true,
+        "choices": [
+          "Bank manager (formal)",
+          "Market crowd (casual)"
+        ],
+        "reasonLabel": "Why does it suit that setting?",
+        "instructions": "You’re pitching the same idea in two settings. Which setting suits each line?",
+        "vc": [
+          "VM-U4O1-KS2",
+          "VM-U4O2-KK2"
+        ],
+        "cards": [
+          {
+            "from": "Pitch line",
+            "text": "Thank you for your time today.",
+            "answer": "Bank manager (formal)",
+            "flags": "Polite and formal."
+          },
+          {
+            "from": "Pitch line",
+            "text": "Grab a free taste, you won’t regret it!",
+            "answer": "Market crowd (casual)",
+            "flags": "Fun and direct."
+          },
+          {
+            "from": "Pitch line",
+            "text": "Our costs are $2 a jar. We sell them for $8.",
+            "answer": "Bank manager (formal)",
+            "flags": "Clear numbers."
+          },
+          {
+            "from": "Pitch line",
+            "text": "Who loves hot chips? Hands up!",
+            "answer": "Market crowd (casual)",
+            "flags": "Energy, crowd fun."
+          },
+          {
+            "from": "Pitch line",
+            "text": "We are asking for a loan of $2,000.",
+            "answer": "Bank manager (formal)",
+            "flags": "An exact ask."
+          },
+          {
+            "from": "Pitch line",
+            "text": "Three for ten bucks, today only!",
+            "answer": "Market crowd (casual)",
+            "flags": "Quick deal, casual words.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the pitch that heard “no” 100 times",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What problem did Melanie Perkins see?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "What did she do after each “no”?",
+              "core": "Why might investors have said no? What do you think she changed?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "What would you do after a “no”?",
+              "core": "What would you do after your first “no”? Why?",
+              "extend": "Why should we note that the “100 rejections” figure comes from Perkins herself?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Plan: my pitch",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KS4",
+          "VM-U4O2-KK2"
+        ],
+        "vcNote": "Structuring promotional content with influential language.",
+        "prompt": {
+          "support": "Plan your pitch. Write one or two lines for each part: **hook, problem, solution, proof, ask**.",
+          "core": "Plan your 60-second pitch. Write each of the five parts. Mark where you’ll pause. Read it aloud and time it.",
+          "extend": "Plan a 60-second pitch for a chosen setting. Choose words that influence that audience. Mark pauses and words to stress."
+        },
+        "plan": [
+          {
+            "label": "My idea and my setting (who I’m pitching to):",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Hook:",
+          "Problem:",
+          "Solution:",
+          "Proof:",
+          "The ask:",
+          "Close:"
+        ],
+        "lines": {
+          "support": 8,
+          "core": 8,
+          "extend": 8
+        },
+        "check": [
+          "five parts",
+          "60 seconds",
+          "exact ask",
+          "pause marked"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: pitch it",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KK3",
+          "VM-U4O1-KS2"
+        ],
+        "vcNote": "Delivering a pitch with control of oral communication.",
+        "instructions": "Pitch your idea to a panel of three or more (classmates, teachers or family). Keep to 60 seconds. (No panel? Record it on video, looking into the camera.)",
+        "need": [
+          "your pitch on one cue card",
+          "a timer",
+          "a panel of three, or a camera"
+        ],
+        "steps": [
+          "Stand tall. Wait for quiet.",
+          "Look at the panel. Give your hook.",
+          "Run through problem, solution and proof.",
+          "Pause. Give your ask.",
+          "Close and say thank you.",
+          "Ask the panel: would you say yes? Why?"
+        ],
+        "notes": [
+          {
+            "label": "My time:",
+            "lines": 1
+          },
+          {
+            "label": "What the panel said:",
+            "lines": 2
+          },
+          {
+            "label": "What I’d change next time:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "video",
+          "panel score sheet",
+          "teacher saw it"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I used all five parts.",
+          "I kept to 60 seconds.",
+          "I made eye contact.",
+          "I sounded confident."
+        ],
+        "questions": [
+          "The part of my pitch that worked best:",
+          "Where I could pitch for real one day:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the five-part structure of a 60-second pitch (hook, problem, solution, proof, ask), language choices that influence, and delivery (eye contact, tone, intonation, body language, pause before the ask). They adjust style for different settings and pitch to a panel. The case study is Melanie Perkins and Canva: by her account, more than 100 investor rejections, with the pitch revised after every meeting, before Canva launched in 2013.",
+    "prep": [
+      "Print workbooks.",
+      "Set up a “panel” (three students or staff) with a simple score sheet based on the rubric.",
+      "Timers.",
+      "Cameras or devices for the solo option."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What makes a pitch",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show a short real pitch (e.g. a student enterprise video). Would you say yes?",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Sort (15 min):** bank or market."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the pie warmer pitch.",
+          "**Case study (15 min):** Canva.",
+          "**Plan (25 min):** write, time and rehearse in pairs."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Pitch day",
+        "minutes": 50,
+        "steps": [
+          "**Do it (35 min):** pitch to the panel; panel gives quick feedback.",
+          "**Reflect (15 min):** reflection and sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Hook, problem, solution, proof, ask: 60 seconds.",
+      "An exact ask, after a pause.",
+      "Eye contact, confident tone, still and open body.",
+      "Change words for the setting: formal and numbers for a bank; energy for a market.",
+      "Revise after feedback."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A cue card with five boxes.",
+        "Pitch to a panel of one or two."
+      ],
+      "extend": [
+        "Plan intonation and stress.",
+        "Rewrite for a second setting (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O1-KK3",
+        "evidence": "Uses eye contact, tone, body language and intonation when pitching (Do it)."
+      },
+      {
+        "vc": "VM-U4O1-KS4",
+        "evidence": "Creates promotional content suited to context and audience (pitch plan, delivery)."
+      },
+      {
+        "vc": "VM-U4O1-KS2",
+        "evidence": "Chooses communication techniques for the setting (sort, Level Up)."
+      },
+      {
+        "vc": "VM-U4O2-KK2",
+        "evidence": "Explains and uses language choices that influence an audience (plan, annotation).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 hook (a question the audience can answer); 2 real, local problem; 3 plain-words solution; 4 proof from a survey; 5 exact ask after a pause; 6 short, memorable close.\n\n**Sort:** bank — thank you for your time; costs and prices; loan of $2,000. Market — free taste; hands up for hot chips; three for ten bucks.\n\n**Case study:** design software was hard and expensive to learn; investors doubted the market and an Australian base; she revised the pitch after every meeting; Canva launched in 2013. Extend: the “100” figure comes from Perkins’ own accounts.",
+    "resources": [
+      {
+        "label": "Founded — Canva founder Melanie Perkins origin story",
+        "url": "https://www.founded.com/canva-founder-melanie-perkins-origin-story/"
+      },
+      {
+        "label": "Business Victoria — starting a business",
+        "url": "https://business.vic.gov.au/business-information/start-a-business"
+      }
+    ],
+    "realityCheck": [
+      "**Speaking anxiety is real.** Let students pitch to a small panel first, or use the video option; both meet the outcome.",
+      "**“Shark Tank” framing works,** but keep panel feedback kind and specific (use the rubric).",
+      "**Students may want to pitch themselves for a job.** That’s a great choice; the five parts still apply.",
+      "**Works in a real class:** yes. Pitch day has energy; time limits keep it moving."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a five-box cue card.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with timing, language, delivery and settings.",
+      "extend": "Aimed at about Year 7 and up: rhetorical language, intonation, register and source critique."
+    }
+  }
+}

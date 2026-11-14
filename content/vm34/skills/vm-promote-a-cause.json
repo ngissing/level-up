@@ -1,0 +1,864 @@
+{
+  "id": "vm-promote-a-cause",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Think of a local group that does good things. A footy club. A food bank. An animal shelter. They need people to help. Can you make something that gets people on board?",
+      "core": "Your local animal shelter needs volunteers. The junior footy club needs coaches. The community garden needs hands. They’re doing good work, but nobody knows. Your job: make something that gets people to care, and then to act.",
+      "extend": "Community groups live or die by whether people hear about them. Advocacy texts, such as brochures, webpages and posts, exist to get an audience to care and act. Making one that works takes research, design and drafting, then honest feedback and revision."
+    },
+    "why": {
+      "support": "Groups need help. A good brochure or post can bring people in.",
+      "core": "Every club, charity and community group needs people who can promote it. It’s a skill you can use for any cause you care about.",
+      "extend": "Advocacy is how causes win support. Designing, drafting and revising promotional material for a real group is the core skill of community and marketing work."
+    },
+    "canDo": {
+      "support": [
+        "I know the parts of a brochure.",
+        "I can make a brochure or post for a group.",
+        "I can fix my work after feedback."
+      ],
+      "core": [
+        "I can identify the structure and features of advocacy texts.",
+        "I can create a brochure, webpage or post for a community group.",
+        "I can draft, edit and revise my work."
+      ],
+      "extend": [
+        "I can analyse the structure and features of advocacy texts.",
+        "I can create influential material for a real group and audience.",
+        "I can draft, edit and revise using feedback.",
+        "I can evaluate how well my material works."
+      ]
+    },
+    "showIt": "Create a brochure, webpage or social post that promotes a community group you care about. Draft it, get feedback, and revise it.",
+    "vocab": [
+      {
+        "word": "advocate",
+        "meaning": "to speak up for a person, group or idea",
+        "example": "I advocate for my local shelter."
+      },
+      {
+        "word": "brochure",
+        "meaning": "a folded leaflet with information",
+        "example": "The brochure has three panels."
+      },
+      {
+        "word": "volunteer",
+        "meaning": "someone who helps without being paid",
+        "example": "We need volunteers on Saturday."
+      },
+      {
+        "word": "draft",
+        "meaning": "a first try that you will improve",
+        "example": "My first draft was too long."
+      },
+      {
+        "word": "feedback",
+        "meaning": "comments that help you improve",
+        "example": "My friend gave me feedback."
+      },
+      {
+        "word": "revise",
+        "meaning": "make changes to improve your work",
+        "example": "I revised the headline."
+      },
+      {
+        "word": "edit",
+        "meaning": "fix spelling, punctuation and small mistakes",
+        "example": "I edited the final copy.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "testimonial",
+        "meaning": "a short quote from someone who was helped",
+        "example": "“This club changed my life,” says Mia.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Promote a Cause in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Promote a Cause",
+        "sub": "Get people to care, then act.",
+        "icon": "lucide:heart-handshake",
+        "say": "Promote a cause. Get people to care, then get them to act."
+      },
+      {
+        "kind": "steps",
+        "title": "What people need to know",
+        "steps": [
+          "What’s the problem?",
+          "What does the group do?",
+          "How can I help?",
+          "How do I get in touch?"
+        ],
+        "icon": "lucide:help-circle",
+        "say": "People need to know four things. What is the problem? What does the group do? How can I help? And how do I get in touch?",
+        "vc": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Make it",
+        "pillIcon": "lucide:pencil",
+        "title": "Show real people",
+        "text": "A face beats a fact.",
+        "icon": "lucide:user",
+        "say": "Show real people. A face and a story move people more than a list of facts.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Make it",
+        "pillIcon": "lucide:pencil",
+        "title": "Make it easy",
+        "text": "One clear thing to do.",
+        "icon": "lucide:mouse-pointer-click",
+        "say": "Make it easy. Give people one clear thing to do.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Draft. Feedback. Revise.",
+        "text": "Nobody gets it right the first time.",
+        "icon": "lucide:refresh-cw",
+        "say": "Then draft, get feedback, and revise. Nobody gets it right the first time.",
+        "vc": [
+          "VM-U4O1-KS6"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Promote a group you care about.",
+        "icon": "lucide:heart-handshake",
+        "say": "Your mission. Promote a community group you care about."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Get people on board",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "To **advocate** means to speak up for someone or something. You can advocate for a group that helps people.\n\nGroups need **volunteers**, money and members. A **brochure**, a webpage or a post can help.\n\n**Answer four questions:**\n- What is the problem?\n- What does the group do?\n- How can people help?\n- How do they get in touch?\n.\n**Make it work:**\n- Use a strong headline.\n- Show real people in photos.\n- Tell one short story.\n- Give one clear thing to do. “Come on Saturday.”.\n- Add contact details.\n.\n**Then fix it.**\n- Write a **draft** first.\n- Ask someone for **feedback**.\n- **Revise** it. Make it better.\n- Check your spelling.",
+          "core": "To **advocate** is to speak up for a person, group or idea. Community groups, like sports clubs, food banks, shelters and youth groups, need people to advocate for them. They need **volunteers**, members and donations.\n\n**What goes in an advocacy text?** Whether it’s a **brochure**, a webpage or a post, readers need answers to four questions:\n- **The problem:** why does this group matter?\n- **The solution:** what does the group do about it?\n- **The ask:** what can the reader do? (volunteer, donate, join, share).\n- **The details:** when, where, how to get in touch.\n\n**Features that work:**\n- a headline that grabs attention and speaks to the reader.\n- photos of real people doing real things.\n- one short story or quote from someone the group has helped.\n- a single, clear call to action.\n- logo, contact details and socials.\n\n**Draft, edit and revise.** Good promotional material is rewritten several times.\n- **Draft:** get your ideas down.\n- **Feedback:** show it to someone from your audience. Ask: what’s the message? Would you act?\n- **Revise:** change the big things. Is the headline strong? Is the ask clear?\n- **Edit:** fix spelling, punctuation and layout last.",
+          "extend": "To **advocate** is to speak up in public for a person, group or cause. Community groups rely on it to find **volunteers**, members and donors.\n\n**Structure.** Strong advocacy texts often follow a problem, solution, action pattern. That is true of a **brochure**, a webpage or a post:\n- **problem:** the need, made real and local.\n- **solution:** what the group does, and proof that it helps.\n- **action:** one specific thing the reader can do.\n- **details:** when, where and how to get in touch.\n\n**Features.**\n- a headline addressed to the reader.\n- real photos of real people.\n- a **testimonial** or short story that builds a connection.\n- facts from the group itself.\n- branding: logo, colours and a steady tone.\n\n**The values behind it.** Advocacy texts appeal to values like community, fairness and belonging. Match the values to your audience.\n\n**Process.** Promotional writing takes several rounds:\n- **draft** quickly.\n- get **feedback** from your target audience, not just friends.\n- **revise** the big things first: message, structure, call to action.\n- **edit** spelling and punctuation last.\n\nEvaluate it honestly: would *you* act on it?"
+        },
+        "vc": [
+          "VM-U4O1-KK4",
+          "VM-U4O1-KS4",
+          "VM-U4O1-KS6"
+        ],
+        "vcNote": "The structures and features of advocacy texts; designing influential material; drafting, editing and revising."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "One man, one harbour, 40,000 helpers",
+        "icon": "lucide:waves",
+        "body": {
+          "support": "**Ian Kiernan** was a builder and sailor from Sydney. He sailed alone around the world in a race.\n\nOn the way, he saw rubbish everywhere in the sea. He was shocked.\n\nBack home, he asked people to help clean up **Sydney Harbour**. It happened on **8 January 1989**.\n\nAbout **40,000** people came to help.\n\nThe next year, it became **Clean Up Australia Day**. Hundreds of thousands of people joined in, all over the country.\n\nIt started with one person who spoke up for a cause.",
+          "core": "**Ian Kiernan** was a Sydney builder and yachtsman. In the 1980s, he sailed solo around the world in a race. He was shocked by how much rubbish he saw floating in the oceans.\n\nBack home, he and a group of friends organised **Clean Up Sydney Harbour** on **8 January 1989**. They expected a small turnout.\n\nAbout **40,000** volunteers came.\n\nThe next year, the idea went national as **Clean Up Australia Day**. Hundreds of thousands of people took part across the country. Later, it went global as **Clean Up the World**.\n\nThe ask was simple and specific: turn up on one day, at one place, and pick up rubbish. That made it easy for people to say yes.",
+          "extend": "**Ian Kiernan** was a Sydney builder and yachtsman. During a solo round-the-world yacht race in the 1980s, he was struck by the amount of rubbish in the world’s oceans.\n\nBack in Sydney, he and a committee of friends organised **Clean Up Sydney Harbour** on **8 January 1989**. About **40,000** volunteers turned up.\n\nThe following year it became **Clean Up Australia Day**, with hundreds of thousands of participants nationally. It later became **Clean Up the World**. Kiernan died in 2018.\n\nThe campaign’s advocacy worked for several reasons. The problem was visible and local: everyone could see the rubbish. The call to action was specific, achievable and time-bound: one day, one place, one task. Taking part was public and social, so it built a sense of community.\n\nAdvocacy doesn’t always need a big budget. It needs a clear problem, a clear ask, and a reason for people to say yes."
+        },
+        "source": {
+          "name": "Australian of the Year Awards — Ian Kiernan AO (in memoriam)",
+          "url": "https://australianoftheyear.org.au/recipients/ian-kiernan-ao-memoriam"
+        },
+        "think": {
+          "support": [
+            "What made Ian Kiernan want to act?",
+            "Why do you think so many people came?"
+          ],
+          "core": [
+            "What was the “ask” in 1989? Why was it easy to say yes to?",
+            "How did the idea grow after the first day?",
+            "What local problem could you get people to act on?"
+          ],
+          "extend": [
+            "Why did a visible, local problem help this campaign?",
+            "Which features of the call to action made it work?",
+            "Could the same approach work for a cause you care about? What would you change?"
+          ]
+        },
+        "vc": [
+          "VM-U4O1-KS5"
+        ],
+        "vcNote": "A real advocacy campaign: evaluating why its call to action worked."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a brochure",
+      "docTitle": "BROCHURE FOR A YOUTH FOOTY CLUB (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U4O1-KK4"
+      ],
+      "vcNote": "The structure and features of an advocacy brochure.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Cover",
+          "value": "Club logo. Photo of a girls’ team celebrating. “EVERY KID GETS A GAME.”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "The problem",
+          "value": "Footy fees stop some local kids from playing."
+        },
+        {
+          "n": 3,
+          "label": "What we do",
+          "value": "Free boots, no fees for families who need it, coaches who care."
+        },
+        {
+          "n": 4,
+          "label": "A real voice",
+          "value": "“I never thought I’d get to play. Now I’m captain.” — Under-14s player"
+        },
+        {
+          "n": 5,
+          "label": "How you can help",
+          "value": "Coach one night a week. Donate old boots.",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Contact",
+          "value": "Training Tues 5 pm, Memorial Oval. Email and socials."
+        }
+      ],
+      "note": "A made-up example to show the parts of a brochure.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Cover",
+          "note": "Image and headline grab you."
+        },
+        {
+          "n": 2,
+          "label": "Problem",
+          "note": "Why it matters."
+        },
+        {
+          "n": 3,
+          "label": "Solution",
+          "note": "What the group does."
+        },
+        {
+          "n": 4,
+          "label": "Testimonial",
+          "note": "A real person’s words."
+        },
+        {
+          "n": 5,
+          "label": "The ask",
+          "note": "Clear things to do."
+        },
+        {
+          "n": 6,
+          "label": "Details",
+          "note": "When, where, how."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Make it, then make it better",
+      "steps": [
+        {
+          "title": "Pick",
+          "text": "A group you care about.",
+          "icon": "lucide:heart"
+        },
+        {
+          "title": "Find out",
+          "text": "Problem + ask.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Draft",
+          "text": "Get it down.",
+          "icon": "lucide:pencil"
+        },
+        {
+          "title": "Feedback",
+          "text": "Ask your audience.",
+          "icon": "lucide:messages-square"
+        },
+        {
+          "title": "Revise",
+          "text": "Then edit.",
+          "icon": "lucide:refresh-cw"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What does **advocate** mean?",
+        "options": [
+          "Speak up for a person, group or idea",
+          "Sell something for profit",
+          "Stay quiet",
+          "Complain about a group"
+        ],
+        "answer": 0,
+        "explain": "Advocacy is speaking up for a cause.",
+        "vc": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      {
+        "q": "Which is the clearest call to action?",
+        "options": [
+          "Coach one night a week. Email us today.",
+          "Help out somehow.",
+          "We need stuff.",
+          "Think about it."
+        ],
+        "answer": 0,
+        "explain": "It is specific and easy to act on.",
+        "vc": [
+          "VM-U4O1-KS4"
+        ]
+      },
+      {
+        "q": "What is a **testimonial**?",
+        "options": [
+          "A short quote from someone the group helped",
+          "A price list",
+          "A map",
+          "A logo"
+        ],
+        "answer": 0,
+        "explain": "Real voices build trust.",
+        "vc": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      {
+        "q": "What should you fix **last**?",
+        "options": [
+          "Spelling and punctuation",
+          "The main message",
+          "The call to action",
+          "The audience"
+        ],
+        "answer": 0,
+        "explain": "Revise the big things first, then edit the small things.",
+        "vc": [
+          "VM-U4O1-KS6"
+        ]
+      },
+      {
+        "q": "Who is the best person to give feedback?",
+        "options": [
+          "Someone from your audience",
+          "Nobody",
+          "Only yourself",
+          "Someone who hates the cause"
+        ],
+        "answer": 0,
+        "explain": "Ask the people you want to reach.",
+        "vc": [
+          "VM-U4O1-KS6"
+        ]
+      },
+      {
+        "q": "Why did people say yes to Clean Up Sydney Harbour?",
+        "options": [
+          "The ask was simple: one day, one place, pick up rubbish",
+          "They were paid",
+          "It was compulsory",
+          "It was on TV every night"
+        ],
+        "answer": 0,
+        "explain": "A clear, easy ask helps people act.",
+        "vc": [
+          "VM-U4O1-KS5"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Make a brochure or post for a group you care about. Say the problem, what they do, and how people can help. Get feedback. Fix it.",
+      "core": "Create a brochure, webpage or social post that promotes a community group. Include the problem, what the group does, a clear ask and contact details. Draft it, get feedback, and revise it.",
+      "extend": "Create advocacy material for a real community group and audience, using the features of your chosen text type. Draft, seek audience feedback, revise and edit, then evaluate how well it would work."
+    },
+    "checklist": [
+      "It names the problem and what the group does",
+      "It has a clear call to action",
+      "It has contact details",
+      "It uses a photo or a real voice",
+      "I got feedback and made at least two changes",
+      "I edited spelling and punctuation last"
+    ],
+    "levelUp": "Show your final version to the group you promoted, or to someone in your audience. Ask: would you act on this? Write down what they said.",
+    "vc": [
+      "VM-U4O1-KK4",
+      "VM-U4O1-KS4",
+      "VM-U4O1-KS6"
+    ],
+    "solo": "No one from your audience to ask? Put your draft away for a day. Then read it as a stranger would, and answer the feedback questions yourself. Or send it to a family member and ask the same questions.",
+    "model": {
+      "kind": "Example social post",
+      "text": "**[Photo: a volunteer handing a box of food to a smiling mum]**\n**Nobody in our town should go to bed hungry.**\nEvery week, local families come to our food bank for help.\nWe run on volunteers, and we need more.\n**Can you give two hours on a Saturday?** You don’t need to know how. We’ll show you.\nSign up at the link in our bio.\nRiverside Hall, Saturdays 9–11 am.\n#RiversideFoodBank #LocalHeroes",
+      "why": [
+        "It opens with a strong line that names the problem.",
+        "It gives one clear, easy ask: two hours on a Saturday.",
+        "It ends with the details people need to act: where, when and how."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Structure",
+        "start": "Parts missing.",
+        "good": "Problem, solution, ask and details.",
+        "great": "Every part is short and clear."
+      },
+      {
+        "skill": "Persuasive features",
+        "start": "Just facts.",
+        "good": "Strong headline and clear ask.",
+        "great": "A real voice or story that moves people."
+      },
+      {
+        "skill": "Draft and revise",
+        "start": "No changes.",
+        "good": "Two changes after feedback.",
+        "great": "Big changes first, then careful editing."
+      }
+    ],
+    "choices": {
+      "prompt": "Which group will you promote?",
+      "options": [
+        "A local sports club",
+        "An animal shelter or wildlife group",
+        "A food bank or community kitchen",
+        "A youth group, Landcare group or other cause you care about"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Get people on board",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What **four** questions should an advocacy text answer?",
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KK4"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name **two** features that help.",
+              "core": "Name three features that make advocacy texts work, and why."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KK4"
+            ]
+          },
+          {
+            "q": {
+              "support": "What is a draft? What is feedback?",
+              "core": "What is the difference between revising and editing? Which comes first?",
+              "extend": "Why should feedback come from your audience, not just friends?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a brochure",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "How does it get people on board?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the brochure. Use the word bank. Write what it does.",
+          "core": "Each number marks a feature. Say what it is, and how it persuades."
+        },
+        "wordBank": {
+          "support": [
+            "cover",
+            "problem",
+            "solution",
+            "testimonial",
+            "the ask",
+            "details"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Ready to print, or needs editing?",
+        "pagebreak": true,
+        "choices": [
+          "Ready",
+          "Needs editing"
+        ],
+        "reasonLabel": "Fix it (if it needs it)",
+        "instructions": "Lines from a draft brochure. Are they ready, or do they need editing? Fix the ones that need it.",
+        "vc": [
+          "VM-U4O1-KS6"
+        ],
+        "cards": [
+          {
+            "from": "Draft",
+            "text": "Join us every Saterday at 9 am.",
+            "answer": "Needs editing",
+            "flags": "Saturday."
+          },
+          {
+            "from": "Draft",
+            "text": "Every tree we plant helps our river.",
+            "answer": "Ready",
+            "flags": "Clear and correct."
+          },
+          {
+            "from": "Draft",
+            "text": "We need you’re help!",
+            "answer": "Needs editing",
+            "flags": "your help."
+          },
+          {
+            "from": "Draft",
+            "text": "Families, kids and dogs on leads are welcome.",
+            "answer": "Ready",
+            "flags": "Clear and correct."
+          },
+          {
+            "from": "Draft",
+            "text": "come along its free",
+            "answer": "Needs editing",
+            "flags": "Come along. It’s free!"
+          },
+          {
+            "from": "Draft",
+            "text": "Volunteers are needed by us for the event.",
+            "answer": "Needs editing",
+            "flags": "We need volunteers for the event.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: one man, one harbour, 40,000 helpers",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What made Ian Kiernan want to act?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS5"
+            ]
+          },
+          {
+            "q": {
+              "support": "How many people came in 1989?",
+              "core": "What was the ask? Why was it easy to say yes to?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS5"
+            ]
+          },
+          {
+            "q": {
+              "support": "What local problem could you get people to help with?",
+              "core": "What local problem could you get people to act on? What would your ask be?",
+              "extend": "Which features of this call to action made it work? Could they work for your cause?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Draft: my advocacy text",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KS4",
+          "VM-U4O1-KK4"
+        ],
+        "vcNote": "Designing and creating influential material for a community group.",
+        "prompt": {
+          "support": "Pick a group. Write your **first draft**. Say the **problem**, what the group **does**, how people can **help**, and **contact** details.",
+          "core": "Pick a group and a text type (brochure, webpage or post). Write your first draft with a headline, the problem, the solution, a clear ask and details. Sketch where photos go.",
+          "extend": "Pick a real group, audience and text type. Draft it using problem, solution, action and details, with a headline, a real voice and a specific call to action."
+        },
+        "plan": [
+          {
+            "label": "Group, audience and text type:",
+            "lines": 1
+          },
+          {
+            "label": "The one thing I want readers to do:",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Headline:",
+          "The problem:",
+          "What we do:",
+          "How you can help:",
+          "Find us:"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "problem",
+          "solution",
+          "clear ask",
+          "details"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Final mission: feedback and revise",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KS6",
+          "VM-U4O1-KS5"
+        ],
+        "instructions": "Show your draft to someone from your audience. Ask them the questions below. Then revise and edit. (No one to ask? Wait a day, then read it as a stranger would.)",
+        "items": [
+          {
+            "q": "Who gave feedback (their role, not their name):",
+            "lines": 1,
+            "vc": [
+              "VM-U4O1-KS6"
+            ]
+          },
+          {
+            "q": "What did they think the message was? Would they act?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS5"
+            ]
+          },
+          {
+            "q": "Two **big** changes I made (message, headline, ask or layout):",
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS6"
+            ]
+          },
+          {
+            "q": "Small fixes I made when editing (spelling, punctuation):",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS6"
+            ]
+          },
+          {
+            "q": {
+              "support": "Is my final version better? Why?",
+              "core": "Is my final version better? What would make it even stronger?",
+              "extend": "How well would my final version work for its audience? What evidence do I have?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I know the parts of an advocacy text.",
+          "I made a clear call to action.",
+          "I used feedback to revise.",
+          "I edited my final copy."
+        ],
+        "questions": [
+          "The biggest change I made after feedback:",
+          "Another cause I’d like to promote:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the problem–solution–action structure and features of advocacy texts (headline, real images, testimonial, call to action, details), then create a brochure, webpage or post for a real community group. They draft, get audience feedback, revise big-picture elements, then edit conventions. The case study is Ian Kiernan’s Clean Up Sydney Harbour (1989), which drew about 40,000 volunteers with a simple, specific ask and grew into Clean Up Australia Day.",
+    "prep": [
+      "Print workbooks.",
+      "Collect brochures and posts from local groups (council, library, sports clubs).",
+      "Consider partnering with a real local group; students’ work could be useful to them.",
+      "Arrange feedback partners (another class, family members, a local group)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What makes people act",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** what local group would you help? What would make you sign up?",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Annotate (15 min):** the footy club brochure."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Case and draft",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** Clean Up Australia.",
+          "**Sort (10 min):** ready or needs editing.",
+          "**Draft (25 min):** first draft."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Feedback and revise",
+        "minutes": 50,
+        "steps": [
+          "**Feedback (15 min):** audience partner.",
+          "**Revise and edit (25 min).**",
+          "**Reflect (10 min):** reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Advocacy: speaking up so people care and act.",
+      "Problem, solution, ask, details.",
+      "Real people, a real voice, one clear call to action.",
+      "Revise big things first; edit small things last.",
+      "Feedback from the audience, not just friends."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A post template (shortest text type).",
+        "Fewer sort cards."
+      ],
+      "extend": [
+        "Use problem–solution–action explicitly and evaluate with evidence.",
+        "Present the work to the real group (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O1-KK4",
+        "evidence": "Identifies and uses the structures and features of advocacy texts (annotation, draft)."
+      },
+      {
+        "vc": "VM-U4O1-KS4",
+        "evidence": "Designs and creates influential material suited to context and audience (draft, final version)."
+      },
+      {
+        "vc": "VM-U4O1-KS6",
+        "evidence": "Drafts, edits and revises, showing changes made after feedback (feedback page, sort)."
+      },
+      {
+        "vc": "VM-U4O1-KS5",
+        "evidence": "Evaluates the appeal and effectiveness of their own and others’ material (case study, final reflection).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 cover with image and headline; 2 the problem; 3 the solution; 4 testimonial; 5 the ask (call to action); 6 details.\n\n**Sort:** needs editing — Saterday → Saturday; you’re → your; “come along its free” → “Come along. It’s free!”; passive “volunteers are needed by us” → “We need volunteers”. Ready — trees and river; families, kids and dogs.\n\n**Case study:** Kiernan was shocked by ocean rubbish on a solo round-the-world race; Clean Up Sydney Harbour on 8 January 1989 drew about 40,000 volunteers; the ask was simple, specific and time-bound; it became Clean Up Australia Day the next year, then Clean Up the World.",
+    "resources": [
+      {
+        "label": "Australian of the Year — Ian Kiernan AO",
+        "url": "https://australianoftheyear.org.au/recipients/ian-kiernan-ao-memoriam"
+      },
+      {
+        "label": "Clean Up Australia",
+        "url": "https://www.cleanup.org.au/"
+      },
+      {
+        "label": "Volunteering Victoria",
+        "url": "https://www.volunteeringvictoria.org.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Real groups make it real.** If a local group will use the best work, motivation goes up sharply.",
+      "**Check facts with the group.** Students shouldn’t invent statistics about a real organisation; use what the group publishes or tells them.",
+      "**Photos of real people need consent.** Use sketches or placeholders unless consent is given.",
+      "**Works in a real class:** yes. The edit sort is quick and students like finding errors."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a post template.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with four questions, features, and draft–feedback–revise.",
+      "extend": "Aimed at about Year 7 and up: problem–solution–action, values, testimonials, and evaluating with evidence."
+    }
+  }
+}

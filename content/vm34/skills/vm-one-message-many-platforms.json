@@ -1,0 +1,818 @@
+{
+  "id": "vm-one-message-many-platforms",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "A message on a poster looks different from the same message in a video. Each one is made for different people. Learn to pick the right one.",
+      "core": "The same cause can show up as a poster at a bus stop, a webpage full of detail, and a 15-second reel. Same message, three very different texts. Each platform has its own layout, its own audience and its own rules. Pick the wrong one, and your message disappears.",
+      "extend": "Advocacy texts are shaped by their platform. A brochure, a webpage and a social post can carry one message. But their structures, features and audiences differ. Choosing the platform, and writing for it, matters as much as the message."
+    },
+    "why": {
+      "support": "If you want people to hear you, you need to pick the right place to say it.",
+      "core": "Whether you’re promoting a business, a club or a cause, you need to know which platform reaches your audience, and how to write for it.",
+      "extend": "Media jobs, community groups and small businesses all need people who can adapt one message for many platforms."
+    },
+    "canDo": {
+      "support": [
+        "I know the parts of a poster, a webpage and a short video.",
+        "I can pick a platform for an audience.",
+        "I can change a message to suit a platform."
+      ],
+      "core": [
+        "I can identify the structure and features of posters, webpages and social posts.",
+        "I can choose a platform to suit an audience.",
+        "I can adapt one message for two platforms."
+      ],
+      "extend": [
+        "I can analyse the layout and features of texts on different platforms.",
+        "I can justify a platform choice for an audience.",
+        "I can adapt one message across platforms, and judge the results."
+      ]
+    },
+    "showIt": "Take one message for a cause. Make it work on two platforms, and explain your choices.",
+    "vocab": [
+      {
+        "word": "platform",
+        "meaning": "where a message appears: a poster, a webpage, an app",
+        "example": "TikTok is a platform."
+      },
+      {
+        "word": "message",
+        "meaning": "the main idea you want people to get",
+        "example": "Our message is “wear sunscreen”."
+      },
+      {
+        "word": "cause",
+        "meaning": "an idea or group you want to support",
+        "example": "Sun safety is a good cause."
+      },
+      {
+        "word": "layout",
+        "meaning": "how words and pictures are arranged",
+        "example": "The poster layout is simple."
+      },
+      {
+        "word": "adapt",
+        "meaning": "change something to suit a new use",
+        "example": "I adapted my poster for Instagram."
+      },
+      {
+        "word": "reel",
+        "meaning": "a short video on social media",
+        "example": "Our reel is 15 seconds long."
+      },
+      {
+        "word": "advocacy",
+        "meaning": "speaking up for a cause",
+        "example": "The group does advocacy for young carers.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "engagement",
+        "meaning": "how much people interact: likes, shares, comments",
+        "example": "The reel got high engagement.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "One Message, Many Platforms in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "One Message, Many Platforms",
+        "sub": "Same cause. Different places.",
+        "icon": "lucide:layout-grid",
+        "say": "One message, many platforms. Same cause. Different places."
+      },
+      {
+        "kind": "big",
+        "title": "Start with one message",
+        "text": "One sentence. If you can’t say it short, it won’t work anywhere.",
+        "icon": "lucide:message-square",
+        "say": "Start with one message. One sentence. If you cannot say it short, it will not work anywhere."
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Platform",
+        "pillIcon": "lucide:layout-grid",
+        "title": "Poster",
+        "text": "Three seconds. Big picture, few words.",
+        "icon": "lucide:image",
+        "say": "A poster. People look for three seconds. Use a big picture and few words.",
+        "vc": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Platform",
+        "pillIcon": "lucide:layout-grid",
+        "title": "Webpage",
+        "text": "Detail, headings, links, a button.",
+        "icon": "lucide:globe",
+        "say": "A webpage. People come looking for detail. Use headings, links and a button to act.",
+        "vc": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Platform",
+        "pillIcon": "lucide:layout-grid",
+        "title": "Short video",
+        "text": "Hook in the first two seconds.",
+        "icon": "lucide:smartphone",
+        "say": "A short video. You have two seconds to hook people before they scroll.",
+        "vc": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Who are you trying to reach?",
+        "text": "Then pick the platform they use.",
+        "icon": "lucide:users",
+        "say": "Ask who you are trying to reach. Then pick the platform they actually use.",
+        "vc": [
+          "VM-U4O1-KS2"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "One message, two platforms.",
+        "icon": "lucide:layout-grid",
+        "say": "Your mission. Take one message and make it work on two platforms."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Same message, different place",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "A **platform** is where a message appears. A poster, a webpage and a short video are all platforms.\n\nYou can put the same **message** on each one. But each needs a different **layout**.\n\n**Poster**\n- People look for about three seconds.\n- Use one big picture.\n- Use a few big words.\n- Say what to do.\n.\n**Webpage**\n- People come to find out more.\n- Use headings.\n- Give more detail.\n- Add a button, like “Join now”.\n.\n**Short video (reel)**\n- People scroll fast.\n- Grab them in the first two seconds.\n- Keep it short.\n- Add words on screen. Many people watch with the sound off.\n.\n**Pick your platform.** Think about who you want to reach. Where do they look? Young people might see a reel. Parents might read a webpage.",
+          "core": "A **platform** is where a message appears: a poster, a brochure, a webpage, a social media post or a **reel**. Most **causes** and businesses use several. But one message needs to be **adapted** for each, because each platform has its own features and audience.\n\n**Poster or flyer**\n- Seen in passing, for a few seconds.\n- One strong image, a short headline, a clear call to action.\n- Logo and a web address or QR code for more.\n\n**Brochure**\n- Picked up and read for a minute or two.\n- Folded panels, headings, short sections, photos, contact details.\n\n**Webpage**\n- Visited by people who want to know more.\n- Headline and main image at the top, then headings, short sections, links and a big button (“Donate”, “Sign up”).\n\n**Social media post or reel**\n- Seen while scrolling; you have about two seconds.\n- Hook first, then the message; captions on screen; hashtags; a call to action in the caption.\n- Casual tone, but still clear.\n\n**Choose for your audience.** Ask: who do I need to reach, where do they spend time, and how much time will they give me? A sports club wanting teen players might use a reel. The same club asking parents to volunteer might use a flyer and a webpage.",
+          "extend": "Organisations rarely rely on one text. A campaign’s core **message** is usually **adapted** across several **platforms**, each with distinct structures and features, and each reaching a different audience in a different context.\n\n**Print: posters and flyers.** Viewed in passing. They rely on visual impact: a dominant image, a short headline, minimal text, a call to action, and a logo or QR code linking to more.\n\n**Print: brochures.** Read briefly but deliberately. Panels, headings and short sections organise more information, with images, testimonials and contact details.\n\n**Webpages.** Visited by people seeking information. A clear visual hierarchy (headline, hero image, headings, short sections), links for depth, and prominent buttons for action.\n\n**Social media.** Encountered while scrolling. Content must hook within seconds, work without sound, and invite **engagement**: shares, comments, follows. The tone is often personal and informal.\n\n**Choosing a platform** means matching audience, purpose and context: who must be reached, where they spend attention, and how long they will give. **Evaluating** an adapted campaign means asking whether each version suits its platform, and whether the message stayed consistent across all of them."
+        },
+        "vc": [
+          "VM-U4O1-KK4",
+          "VM-U4O1-KS1",
+          "VM-U4O1-KS2"
+        ],
+        "vcNote": "The structures and features of advocacy texts on different platforms; choosing techniques for different contexts."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Slip, Slop, Slap goes everywhere",
+        "icon": "lucide:sun",
+        "body": {
+          "support": "In **1981**, a TV ad came out in Victoria. A cartoon seagull named **Sid** sang a short song. It went: **Slip** on a shirt. **Slop** on sunscreen. **Slap** on a hat.\n\nThe ad was made for the **Cancer Council**. Its message was simple: protect your skin from the sun.\n\nThe message spread. It went on posters. It went into schools. It became a program called **SunSmart**.\n\nLater, two more words were added: **Seek** shade and **Slide** on sunglasses.\n\nToday, the same message is on websites and social media too. It is the same idea, on many platforms.",
+          "core": "In **1981**, a cartoon seagull named **Sid** appeared on Victorian TV, singing a jingle: **Slip** on a shirt, **Slop** on sunscreen, **Slap** on a hat. The ad was made for Cancer Council Victoria. It became one of Australia’s best-known health messages.\n\nThe message was simple enough to work almost anywhere. It moved from TV onto posters, into schools and beaches. In **1988**, Cancer Council Victoria set up the **SunSmart** program to take it further.\n\nIn **2007**, according to Cancer Council Australia, the slogan grew to **Slip, Slop, Slap, Seek, Slide**: seek shade, and slide on sunglasses.\n\nToday, SunSmart messages also appear online and on social media. The platforms have changed a lot since 1981. The core message is still easy to remember: five short words.",
+          "extend": "In **1981**, Cancer Council Victoria launched a TV ad starring **Sid the Seagull**, singing: **Slip** on a shirt, **Slop** on sunscreen, **Slap** on a hat. Three rhyming verbs made the message short, memorable and easy to repeat.\n\nIts simplicity meant it could move across **platforms**: TV, radio, posters, school programs and beach signs. In **1988**, its success led to the **SunSmart** program.\n\nCancer Council Australia says the slogan was updated in **2007** to **Slip, Slop, Slap, Seek, Slide**, adding shade and sunglasses. Other sources date the change slightly differently.\n\nToday, sun-safety campaigns also run online and on social media, platforms that didn’t exist in 1981. Each version uses its platform’s features, but the core message stays consistent.\n\nThe lesson for any campaign: a message that can be said in a few words can travel almost anywhere. The platform shapes the text. The message holds it together."
+        },
+        "source": {
+          "name": "Cancer Council Australia — Slip, Slop, Slap, Seek, Slide",
+          "url": "https://www.cancer.org.au/cancer-information/causes-and-prevention/sun-safety/campaigns-and-events/slip-slop-slap-seek-slide"
+        },
+        "think": {
+          "support": [
+            "What were the three words in 1981?",
+            "Name two places the message has appeared."
+          ],
+          "core": [
+            "Why did the message work on so many platforms?",
+            "What changed in 2007, and why?",
+            "If you ran a sun-safety campaign for teens today, which platform would you use?"
+          ],
+          "extend": [
+            "Why does a short, rhythmic message travel well across platforms?",
+            "How would you adapt Slip, Slop, Slap, Seek, Slide for a reel, a webpage and a poster?",
+            "How could you tell if a campaign on many platforms was working?"
+          ]
+        },
+        "vc": [
+          "VM-U4O1-KS1",
+          "VM-U4O1-KS2"
+        ],
+        "vcNote": "One real message adapted across many platforms over time."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a cause webpage",
+      "docTitle": "WEBPAGE FOR A LOCAL SURF CLUB (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U4O1-KK4",
+        "VM-U4O1-KS1"
+      ],
+      "vcNote": "The layout, design and structure of an advocacy webpage.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Logo + menu",
+          "value": "Club logo. Home | Join | Events | Contact"
+        },
+        {
+          "n": 2,
+          "label": "Headline",
+          "value": "Be the one who keeps the beach safe.",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Main image",
+          "value": "Young lifesavers on patrol, smiling."
+        },
+        {
+          "n": 4,
+          "label": "Short sections",
+          "value": "What we do. Who can join. What training you get."
+        },
+        {
+          "n": 5,
+          "label": "Button",
+          "value": "JOIN THE CLUB",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Footer",
+          "value": "Address, email, socials."
+        }
+      ],
+      "note": "A made-up example to show the parts of a webpage.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Navigation",
+          "note": "Find other pages."
+        },
+        {
+          "n": 2,
+          "label": "Headline",
+          "note": "The message, short."
+        },
+        {
+          "n": 3,
+          "label": "Hero image",
+          "note": "Shows the feeling."
+        },
+        {
+          "n": 4,
+          "label": "Headings",
+          "note": "More detail, in chunks."
+        },
+        {
+          "n": 5,
+          "label": "Call to action",
+          "note": "One big button."
+        },
+        {
+          "n": 6,
+          "label": "Contact",
+          "note": "Ways to reach them."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Adapt your message",
+      "steps": [
+        {
+          "title": "Message",
+          "text": "One sentence.",
+          "icon": "lucide:message-square"
+        },
+        {
+          "title": "Audience",
+          "text": "Who? Where?",
+          "icon": "lucide:users"
+        },
+        {
+          "title": "Platform",
+          "text": "Pick one or two.",
+          "icon": "lucide:layout-grid"
+        },
+        {
+          "title": "Adapt",
+          "text": "Use its features.",
+          "icon": "lucide:shuffle"
+        },
+        {
+          "title": "Check",
+          "text": "Same message?",
+          "icon": "lucide:check-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "How long do people usually look at a poster?",
+        "options": [
+          "A few seconds",
+          "Ten minutes",
+          "An hour",
+          "All day"
+        ],
+        "answer": 0,
+        "explain": "So posters need a big picture and few words.",
+        "vc": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      {
+        "q": "Why add words on screen to a reel?",
+        "options": [
+          "Many people watch with the sound off",
+          "To make it longer",
+          "It’s the law",
+          "To hide the picture"
+        ],
+        "answer": 0,
+        "explain": "Captions help the message land without sound.",
+        "vc": [
+          "VM-U4O1-KK4"
+        ]
+      },
+      {
+        "q": "Where would you put lots of detail and links?",
+        "options": [
+          "A webpage",
+          "A poster",
+          "A bumper sticker",
+          "A 5-second video"
+        ],
+        "answer": 0,
+        "explain": "People visit webpages to find out more.",
+        "vc": [
+          "VM-U4O1-KS1"
+        ]
+      },
+      {
+        "q": "A club wants teenagers to join. Which platform might reach them best?",
+        "options": [
+          "A short video on social media",
+          "A newspaper ad",
+          "A letter in the mail",
+          "A fax"
+        ],
+        "answer": 0,
+        "explain": "Pick the platform your audience actually uses.",
+        "vc": [
+          "VM-U4O1-KS2"
+        ]
+      },
+      {
+        "q": "What does **adapt** mean?",
+        "options": [
+          "Change something to suit a new use",
+          "Copy it exactly",
+          "Delete it",
+          "Make it longer"
+        ],
+        "answer": 0,
+        "explain": "Keep the message; change the text to suit the platform.",
+        "vc": [
+          "VM-U4O1-KS2"
+        ]
+      },
+      {
+        "q": "Why did Slip, Slop, Slap work on so many platforms?",
+        "options": [
+          "It was short and easy to remember",
+          "It was very long",
+          "It was only on TV",
+          "It had no words"
+        ],
+        "answer": 0,
+        "explain": "A short message can travel almost anywhere.",
+        "vc": [
+          "VM-U4O1-KS1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pick a cause. Write one message. Make it for two platforms: a poster and a short video.",
+      "core": "Pick a cause. Write one message, then adapt it for two platforms. Explain why each version suits its platform and audience.",
+      "extend": "Choose a cause and audience. Adapt one core message for two platforms, using each one’s features. Justify your choices. Then judge which version would work better."
+    },
+    "checklist": [
+      "My message is one sentence",
+      "I chose two platforms for my audience",
+      "Each version uses its platform’s features",
+      "The message stays the same in both",
+      "I explained my choices"
+    ],
+    "levelUp": "Add a third platform. Then ask two people from your audience which version they’d notice first, and why.",
+    "vc": [
+      "VM-U4O1-KK4",
+      "VM-U4O1-KS1",
+      "VM-U4O1-KS2"
+    ],
+    "model": {
+      "kind": "Example: one message, two platforms",
+      "text": "**Cause:** our local Landcare group needs volunteers.\n**Message:** Give two hours, plant 100 trees.\n**Platform 1: poster at the supermarket**\n- Photo: muddy hands holding a seedling.\n- Headline: GIVE 2 HOURS. PLANT 100 TREES.\n- Small text: Sunday 9 am, Lake Reserve. Scan to sign up.\n**Platform 2: 15-second reel**\n- 0–2 sec: a time-lapse of a bare hill turning green. Text: “This was us.”\n- 3–12 sec: volunteers laughing, planting. Text: “2 hours. 100 trees.”\n- 13–15 sec: “Sunday 9 am. Link in bio.”\n**Why:** the poster reaches older shoppers in a few seconds. The reel reaches young people who scroll.",
+      "why": [
+        "The message is the same in both: two hours, 100 trees.",
+        "Each version uses its platform’s features: a few big words on the poster, a hook in the first two seconds of the reel.",
+        "It explains which audience each platform reaches."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Message",
+        "start": "No clear message.",
+        "good": "One clear message.",
+        "great": "Short, memorable and the same in both."
+      },
+      {
+        "skill": "Platform features",
+        "start": "Both versions look the same.",
+        "good": "Each uses its platform’s features.",
+        "great": "Each is clearly made for its platform."
+      },
+      {
+        "skill": "Explaining choices",
+        "start": "No reasons.",
+        "good": "Explains audience for each.",
+        "great": "Judges which would work better, and why."
+      }
+    ],
+    "choices": {
+      "prompt": "Which cause will you promote?",
+      "options": [
+        "A local sports club looking for players",
+        "A sun-safety or road-safety message",
+        "A community group you care about",
+        "A school event or fundraiser"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Same message, different place",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why do posters use a big picture and few words?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KK4"
+            ]
+          },
+          {
+            "q": {
+              "support": "Give **two** tips for a short video.",
+              "core": "Name two features each of a webpage and a reel."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KK4",
+              "VM-U4O1-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Who might see a reel? Who might read a webpage?",
+              "core": "A club wants players and volunteers. Which platforms should it use for each? Why?",
+              "extend": "Why must a message stay consistent across platforms, even when the texts are very different?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a cause webpage",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "Why is it there?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the webpage. Use the word bank. Write what it does.",
+          "core": "Each number marks a feature. Say what it is, and how it helps the cause."
+        },
+        "wordBank": {
+          "support": [
+            "navigation",
+            "headline",
+            "main image",
+            "headings",
+            "call to action",
+            "contact"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Which platform fits?",
+        "pagebreak": true,
+        "choices": [
+          "Poster",
+          "Webpage",
+          "Short video"
+        ],
+        "reasonLabel": "Why that one?",
+        "instructions": "For each job, pick the best platform.",
+        "vc": [
+          "VM-U4O1-KS2",
+          "VM-U4O1-KK4"
+        ],
+        "cards": [
+          {
+            "from": "The job",
+            "text": "Grab people at a bus stop in three seconds.",
+            "answer": "Poster",
+            "flags": "Seen in passing."
+          },
+          {
+            "from": "The job",
+            "text": "Explain how to apply, step by step, with links.",
+            "answer": "Webpage",
+            "flags": "Room for detail."
+          },
+          {
+            "from": "The job",
+            "text": "Reach 16-year-olds scrolling at night.",
+            "answer": "Short video",
+            "flags": "Where they are."
+          },
+          {
+            "from": "The job",
+            "text": "Remind swimmers at the beach entrance.",
+            "answer": "Poster",
+            "flags": "Right place, right time."
+          },
+          {
+            "from": "The job",
+            "text": "Show how much sunscreen to use.",
+            "answer": "Short video",
+            "flags": "Showing beats telling."
+          },
+          {
+            "from": "The job",
+            "text": "Give parents the details for a club’s season.",
+            "answer": "Webpage",
+            "flags": "They’ll read for longer.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: Slip, Slop, Slap goes everywhere",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What was the message in 1981?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name **two** places the message appeared.",
+              "core": "Why did the message work on so many platforms?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O1-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Which platform would you use to tell teens about sun safety?",
+              "core": "Which platform would you use for a teen sun-safety campaign today? Why?",
+              "extend": "How would you adapt Slip, Slop, Slap, Seek, Slide for a reel and a webpage?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O1-KS2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: one message, two platforms",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O1-KK4",
+          "VM-U4O1-KS1",
+          "VM-U4O1-KS2"
+        ],
+        "vcNote": "Adapting an advocacy message for two platforms and audiences.",
+        "prompt": {
+          "support": "Pick a cause. Write **one message**. Plan a **poster** and a **short video** for it.",
+          "core": "Pick a cause. Write one message. Adapt it for two platforms, using each one’s features. Then explain why each suits its audience.",
+          "extend": "Pick a cause and audience. Adapt one core message for two platforms. Justify your choices, and judge which version would work better."
+        },
+        "plan": [
+          {
+            "label": "My cause and audience:",
+            "lines": 1
+          },
+          {
+            "label": "My message (one sentence):",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Platform 1:",
+          "Platform 2:",
+          "Why these platforms:"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "one message",
+          "two platforms",
+          "platform features",
+          "reasons"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I know the parts of a poster, webpage and reel.",
+          "I can pick a platform for an audience.",
+          "I kept my message the same.",
+          "I explained my choices."
+        ],
+        "questions": [
+          "The platform I found easiest to write for:",
+          "A message I’ve seen on many platforms:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students compare the structures and features of advocacy texts on different platforms (poster, brochure, webpage, social media), choose platforms for audiences, and adapt one core message across two platforms, explaining their choices. The case study is Slip, Slop, Slap (1981), which travelled from a TV jingle to posters, schools, the SunSmart program and online, growing to Slip, Slop, Slap, Seek, Slide.",
+    "prep": [
+      "Print workbooks.",
+      "Collect one cause on three platforms (e.g. a local club’s poster, website and Instagram).",
+      "Have the 1981 Sid the Seagull ad ready to show (widely available online)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Platforms",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** one cause on three platforms. What’s the same? What’s different?",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Sort (15 min):** which platform fits?"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Webpages and the case",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** the surf club webpage.",
+          "**Case study (20 min):** watch Sid the Seagull, read and discuss.",
+          "**Plan (15 min):** choose a cause, audience and message."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Adapt it",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (30 min).**",
+          "**Level Up (10 min):** ask two audience members.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "One message, said in a sentence.",
+      "Poster: seconds, image, few words, action.",
+      "Webpage: detail, headings, links, a button.",
+      "Social: hook in two seconds, captions, casual but clear.",
+      "Pick the platform your audience uses; keep the message consistent."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Poster and reel templates.",
+        "Teacher gives a cause."
+      ],
+      "extend": [
+        "Evaluate which version would work better.",
+        "Add a third platform and test with the audience."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O1-KK4",
+        "evidence": "Identifies the structures and features of advocacy texts on different platforms (annotation, sort)."
+      },
+      {
+        "vc": "VM-U4O1-KS1",
+        "evidence": "Identifies layout, design and structural elements of written, digital and visual texts (annotation, final task)."
+      },
+      {
+        "vc": "VM-U4O1-KS2",
+        "evidence": "Chooses communication techniques suited to setting and audience (sort, final task reasons)."
+      },
+      {
+        "vc": "VM-U4O1-KS5",
+        "evidence": "Evaluates the appeal and effectiveness of adapted versions (final task verdict, Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 logo and navigation; 2 short headline carrying the message; 3 hero image showing the feeling; 4 headings and short sections for detail; 5 one big call-to-action button; 6 footer with contact details.\n\n**Sort:** poster — bus stop; beach entrance. Webpage — how to apply, with links; season details for parents. Short video — 16-year-olds scrolling; how much sunscreen to use.\n\n**Case study:** Slip on a shirt, Slop on sunscreen, Slap on a hat (1981, Sid the Seagull, for Cancer Council Victoria); TV, posters, schools, beaches, SunSmart (1988), now online; short and rhythmic, so it travels; Seek and Slide added (Cancer Council Australia says 2007).",
+    "resources": [
+      {
+        "label": "Cancer Council Australia — Slip, Slop, Slap, Seek, Slide",
+        "url": "https://www.cancer.org.au/cancer-information/causes-and-prevention/sun-safety/campaigns-and-events/slip-slop-slap-seek-slide"
+      },
+      {
+        "label": "SunSmart (Cancer Council Victoria) — about SunSmart",
+        "url": "https://www.sunsmart.com.au/about-sunsmart"
+      },
+      {
+        "label": "NFSA — the Slip Slop Slap jingle",
+        "url": "https://www.nfsa.gov.au/collection/curated/slip-slop-slap-jingle-peter-best-and-phillip-adams"
+      }
+    ],
+    "realityCheck": [
+      "**The date of “Seek, Slide” varies by source (2005–2010).** The course uses Cancer Council Australia’s date and says so at extend level.",
+      "**Students may want to make real posts.** Keep them in the workbook or a private mock-up unless your school has a consent process.",
+      "**Sid the Seagull is retro.** That’s the point: compare how platforms have changed while the message hasn’t.",
+      "**Works in a real class:** yes. The landcare-style model gives a clear pattern to copy."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank, poster and reel templates.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with four platforms, platform choice and reasons.",
+      "extend": "Aimed at about Year 7 and up: visual hierarchy, engagement, consistency across platforms, and evaluation."
+    }
+  }
+}
