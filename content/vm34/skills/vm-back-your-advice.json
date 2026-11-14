@@ -1,0 +1,827 @@
+{
+  "id": "vm-back-your-advice",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Your mate says energy drinks are fine every day. Is that true? How do they know? Good advice has proof. And you say where the proof came from.",
+      "core": "“Trust me, bro” isn’t evidence. When you give advice at work, in a talk or online, people want to know: how do you know that? Good advice is backed by facts from sources people can trust, and you give credit to whoever did the work.",
+      "extend": "Advice is only as strong as its evidence. To present it well, find reliable support and say where it came from. And respect copyright when you use other people’s words, images or music."
+    },
+    "why": {
+      "support": "Proof makes people trust your advice. Giving credit is fair and it’s the law.",
+      "core": "Backing your advice with evidence makes people trust you. Crediting sources keeps you honest, and keeps you out of trouble.",
+      "extend": "Workplaces, courses and public life all expect evidence and credit. Breaking copyright can cost money and trust."
+    },
+    "canDo": {
+      "support": [
+        "I can find facts to back my advice.",
+        "I can say where a fact came from.",
+        "I know when I need to give credit."
+      ],
+      "core": [
+        "I can support advice with evidence from reliable sources.",
+        "I can attribute sources when I speak and write.",
+        "I can explain the basics of copyright."
+      ],
+      "extend": [
+        "I can pick reliable evidence to support advice.",
+        "I can credit and reference sources correctly.",
+        "I can explain and apply the rules of copyright.",
+        "I can judge the evidence in my own work."
+      ]
+    },
+    "showIt": "Give a short piece of spoken advice backed by two pieces of evidence. Credit each source out loud, and add a reference list.",
+    "vocab": [
+      {
+        "word": "evidence",
+        "meaning": "facts that show something is true",
+        "example": "What evidence do you have?"
+      },
+      {
+        "word": "source",
+        "meaning": "where information comes from",
+        "example": "The source was a government website."
+      },
+      {
+        "word": "reliable",
+        "meaning": "can be trusted",
+        "example": "The Bureau of Meteorology is a reliable source."
+      },
+      {
+        "word": "credit",
+        "meaning": "saying who made or said something",
+        "example": "I gave credit to the photographer."
+      },
+      {
+        "word": "copyright",
+        "meaning": "the legal right of a creator to control their work",
+        "example": "The song is protected by copyright."
+      },
+      {
+        "word": "reference list",
+        "meaning": "a list of the sources you used",
+        "example": "My reference list has three sources."
+      },
+      {
+        "word": "attribution",
+        "meaning": "saying who created a work or idea",
+        "example": "Add attribution under the photo.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "Creative Commons",
+        "meaning": "licences that let you reuse some work if you follow the rules",
+        "example": "This image has a Creative Commons licence.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Back Your Advice in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Back Your Advice",
+        "sub": "Facts, sources and credit where it’s due.",
+        "icon": "lucide:file-check",
+        "say": "Back your advice. Facts, sources, and credit where it is due."
+      },
+      {
+        "kind": "big",
+        "title": "“Trust me” isn’t proof",
+        "text": "People want to know how you know.",
+        "icon": "lucide:circle-help",
+        "say": "Trust me is not proof. People want to know how you know.",
+        "vc": [
+          "VM-U4O2-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Check",
+        "pillIcon": "lucide:search-check",
+        "title": "Who wrote it?",
+        "text": "An expert? A government site? A random post?",
+        "icon": "lucide:user-search",
+        "say": "Check the source. Who wrote it? An expert? A government website? Or a random post?",
+        "vc": [
+          "VM-U4O2-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Say it",
+        "pillIcon": "lucide:mic",
+        "title": "Credit out loud",
+        "text": "“According to the ABS…”",
+        "icon": "lucide:quote",
+        "say": "Give credit out loud. According to the Australian Bureau of Statistics, and so on.",
+        "vc": [
+          "VM-U4O2-KS6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "List it",
+        "pillIcon": "lucide:list",
+        "title": "Reference list",
+        "text": "Who, when, what, where.",
+        "icon": "lucide:book-marked",
+        "say": "Then list your sources. Who wrote it, when, what it is called, and where to find it.",
+        "vc": [
+          "VM-U4O2-KS6"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Copyright",
+        "text": "Songs, photos and videos belong to someone. Ask, or use free ones.",
+        "icon": "lucide:copyright",
+        "say": "Remember copyright. Songs, photos and videos belong to someone. Ask first, or use ones that are free to use.",
+        "vc": [
+          "VM-U4O2-KK4"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Advice, backed and credited.",
+        "icon": "lucide:file-check",
+        "say": "Your mission. Give advice that is backed by evidence, with every source credited."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "How do you know?",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Advice is better with **evidence**. Evidence is a fact that shows you’re right.\n\n**Find a good source.** A **source** is where a fact comes from. Ask:\n- Who wrote it?\n- Do they know about this?\n- Is it new?\n- Are they trying to sell me something?\n.\n**Good sources** include government websites, experts and trusted news.\n\n**Give credit.** When you use a fact, say where it came from.\n- When you speak: “The Cancer Council says…”.\n- When you write: put the source in a **reference list** at the end.\n.\n**Copyright.** Songs, photos and videos belong to the person who made them. That’s called **copyright**. You can’t just use them.\n- Ask first.\n- Or use free ones that say you can.\n- Always say who made it.",
+          "core": "Good advice answers the question everyone’s thinking: *how do you know?*\n\n**1. Find evidence.** **Evidence** includes facts, numbers, expert advice and real examples. One strong piece beats five weak ones.\n\n**2. Check the source is reliable.** A **reliable** source is one you can trust. Ask:\n- **Who** made it? An expert, a government agency, a trusted organisation?\n- **When?** Is it up to date?\n- **Why?** Is it trying to inform you, or sell to you?\n- **Can you check it** somewhere else?\n.\n**3. Give credit when you speak.** This is called **attribution**. It also makes your advice sound stronger.\n- “According to the Bureau of Meteorology…”.\n- “A 2024 report by the ABS found…”.\n- “Dr Smith, a sleep expert, says…”.\n\n**4. List your sources.** A **reference list** at the end of slides or a handout. A simple format:\n- **Who.** (**Year**). *Title*. **Website**. Link.\n- Example: Cancer Council Australia. (2024). *Slip, Slop, Slap, Seek, Slide*. cancer.org.au.\n\n**5. Respect copyright.** **Copyright** protects songs, images, videos and writing. It belongs to the creator, even if it’s online and free to view.\n- Use your own photos and music, or.\n- use content with a licence that allows it, and credit the creator, or.\n- ask permission.\n.\nPutting someone’s song in your video without permission can break copyright law.",
+          "extend": "Advice gets its strength from **evidence**: data, expert views, research and real examples. To present it well, choose **reliable** evidence and make clear where it came from.\n\n**Evaluating sources.** Consider:\n- **authority:** who created it, and what expertise they have.\n- **currency:** how recent it is.\n- **purpose:** to inform, persuade or sell.\n- **corroboration:** whether other reliable sources agree.\n\n**Attribution in speech.** Spoken **attribution** shows you are honest and well informed: “According to…”, “Research from… shows…”. Name the source before the claim, so listeners can judge it.\n\n**Referencing in writing.** A **reference list** gives readers enough to find each source. A simple author–date format:\n- **Author or organisation. (Year). *Title*. Publisher or website. URL**.\n\nBe consistent, list sources in alphabetical order, and include everything you quoted or used.\n\n**Copyright principles.** In Australia, **copyright** is automatic. Creators don’t need to register it. It covers text, images, music, film and software. It usually lasts 70 years after the creator dies. Being able to view something online does not mean you can reuse it.\n\nYour options:\n- create your own material.\n- use material under a licence such as **Creative Commons**, following its conditions (usually attribution).\n- seek permission.\n- rely on limited exceptions, such as some uses for study, criticism or review.\n\nAttribution is required in most cases. But crediting a creator does not, by itself, give you permission to use their work."
+        },
+        "vc": [
+          "VM-U4O2-KS2",
+          "VM-U4O2-KK4",
+          "VM-U4O2-KS6"
+        ],
+        "vcNote": "Providing evidence; copyright principles; conventions of attribution and referencing."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The kookaburra and the flute",
+        "icon": "lucide:music",
+        "body": {
+          "support": "**Kookaburra Sits in the Old Gum Tree** is a kids’ song. A teacher named **Marion Sinclair** wrote it in **1934**.\n\nIn the 1980s, the band **Men at Work** had a huge hit called **Down Under**. It has a flute part.\n\nYears later, people noticed the flute part sounded like the kookaburra song.\n\nThe company that owned the kookaburra song took the band’s record company to court. In **2010**, the court agreed. The flute part copied a big part of the song.\n\nThe owners got **5%** of the money the song makes from then on.\n\nThe lesson: even a short tune belongs to someone. Give credit, and ask first.",
+          "core": "**Kookaburra Sits in the Old Gum Tree** was written in **1934** by **Marion Sinclair**, a teacher. Later, the copyright was owned by a company called **Larrikin Music**.\n\nIn the early 1980s, **Men at Work** had a worldwide hit with **Down Under**. Its famous flute part included a few bars that sounded like the kookaburra song.\n\nLarrikin took legal action against the record company and the songwriters. In **February 2010**, the Federal Court found that **Down Under** had copied a **substantial part** of the kookaburra song. That broke copyright.\n\nLarrikin had asked for a large share of the song’s royalties. The court gave it **5%**.\n\nThe band appealed and lost in **2011**.\n\nIt was only a few bars of a kids’ song. But copyright still applied, decades later.",
+          "extend": "**Kookaburra Sits in the Old Gum Tree** was written in **1934** by **Marion Sinclair**. The copyright was later held by **Larrikin Music**.\n\nMen at Work’s **Down Under** became an international hit in the early 1980s. Its flute riff included a short phrase resembling the kookaburra round.\n\nLarrikin sued the record company and songwriters. In **February 2010**, the Federal Court found that **Down Under** reproduced a **substantial part** of Kookaburra, infringing copyright. The judge stressed that this did not mean the riff was the “hook” of Down Under.\n\nLarrikin had sought up to 60% of royalties. In July 2010, the court awarded **5%** of the income from Down Under. An appeal was dismissed in **2011**.\n\nThe case shows several copyright principles at work. Protection lasts long after creation. A small part can still be “substantial” if it is an important part of the original. And familiarity, such as a song everyone learned at school, doesn’t make a work free to use.\n\nIt’s also a reminder that attribution and permission are different things. Using someone else’s work needs a legal basis, not just good intentions."
+        },
+        "source": {
+          "name": "Clayton Utz — “Men at Work go down (under) in Kookaburra copyright claim” (February 2010)",
+          "url": "https://www.claytonutz.com/insights/2010/february/men-at-work-go-down-under-in-kookaburra-copyright-claim"
+        },
+        "think": {
+          "support": [
+            "Who wrote the kookaburra song, and when?",
+            "What did the court decide?"
+          ],
+          "core": [
+            "Why did a few bars of a kids’ song matter so much?",
+            "What does “substantial part” mean here?",
+            "How could you avoid a problem like this in your own work?"
+          ],
+          "extend": [
+            "What copyright principles does this case show?",
+            "Why is attribution not the same as permission?",
+            "Was 5% a fair result? Give reasons."
+          ]
+        },
+        "vc": [
+          "VM-U4O2-KK4"
+        ],
+        "vcNote": "A real Australian copyright case showing the principles of copyright."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of backed-up advice",
+      "docTitle": "SLIDE: GET ENOUGH SLEEP BEFORE A SHIFT (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U4O2-KS2",
+        "VM-U4O2-KS6",
+        "VM-U4O2-KK4"
+      ],
+      "vcNote": "Evidence, spoken attribution, image credit and a reference list.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Advice",
+          "value": "Get 8 to 10 hours of sleep before an early shift.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Evidence",
+          "value": "Teens need about 8 to 10 hours of sleep a night."
+        },
+        {
+          "n": 3,
+          "label": "Spoken credit",
+          "value": "“According to the Sleep Health Foundation…”"
+        },
+        {
+          "n": 4,
+          "label": "Image",
+          "value": "Photo of an alarm clock."
+        },
+        {
+          "n": 5,
+          "label": "Image credit",
+          "value": "Photo: my own.",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Reference",
+          "value": "Sleep Health Foundation. (Year). Teenage sleep. sleephealthfoundation.org.au"
+        }
+      ],
+      "note": "A made-up slide to show the parts. Check facts against the source before using them.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Advice",
+          "note": "What to do."
+        },
+        {
+          "n": 2,
+          "label": "Evidence",
+          "note": "The fact behind it."
+        },
+        {
+          "n": 3,
+          "label": "Attribution",
+          "note": "Who says so, out loud."
+        },
+        {
+          "n": 4,
+          "label": "Image",
+          "note": "Whose is it?"
+        },
+        {
+          "n": 5,
+          "label": "Credit",
+          "note": "Your own, or credited."
+        },
+        {
+          "n": 6,
+          "label": "Reference",
+          "note": "Who, year, title, where."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Back it up",
+      "steps": [
+        {
+          "title": "Advice",
+          "text": "What to do.",
+          "icon": "lucide:lightbulb"
+        },
+        {
+          "title": "Find",
+          "text": "Evidence.",
+          "icon": "lucide:search"
+        },
+        {
+          "title": "Check",
+          "text": "Who? When? Why?",
+          "icon": "lucide:search-check"
+        },
+        {
+          "title": "Say it",
+          "text": "“According to…”",
+          "icon": "lucide:quote"
+        },
+        {
+          "title": "List it",
+          "text": "References.",
+          "icon": "lucide:book-marked"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Which is the most **reliable** source for health advice?",
+        "options": [
+          "A government health website",
+          "A random comment online",
+          "An ad for vitamins",
+          "A meme"
+        ],
+        "answer": 0,
+        "explain": "Check who wrote it and why.",
+        "vc": [
+          "VM-U4O2-KS2"
+        ]
+      },
+      {
+        "q": "Which line gives **credit** out loud?",
+        "options": [
+          "“According to the Bureau of Meteorology…”",
+          "“Trust me…”",
+          "“Everyone knows…”",
+          "“I heard somewhere…”"
+        ],
+        "answer": 0,
+        "explain": "Name the source before the fact.",
+        "vc": [
+          "VM-U4O2-KS6"
+        ]
+      },
+      {
+        "q": "What is **copyright**?",
+        "options": [
+          "A creator’s legal right to control their work",
+          "A type of printer",
+          "A free licence",
+          "A website"
+        ],
+        "answer": 0,
+        "explain": "It protects songs, images, videos and writing.",
+        "vc": [
+          "VM-U4O2-KK4"
+        ]
+      },
+      {
+        "q": "A photo is free to view online. Can you put it in your video?",
+        "options": [
+          "Only with permission or a licence that allows it",
+          "Yes, always",
+          "Yes, if you like it",
+          "Yes, if it’s small"
+        ],
+        "answer": 0,
+        "explain": "Free to view is not free to use.",
+        "vc": [
+          "VM-U4O2-KK4"
+        ]
+      },
+      {
+        "q": "What goes in a reference?",
+        "options": [
+          "Who, year, title and where to find it",
+          "Just the website name",
+          "Your opinion",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Enough for someone else to find it.",
+        "vc": [
+          "VM-U4O2-KS6"
+        ]
+      },
+      {
+        "q": "In 2010, what did the court decide about Down Under?",
+        "options": [
+          "It copied a substantial part of the kookaburra song",
+          "It was completely original",
+          "The kookaburra song had no copyright",
+          "The case was thrown out"
+        ],
+        "answer": 0,
+        "explain": "Even a few bars can matter.",
+        "vc": [
+          "VM-U4O2-KK4"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Give some advice out loud. Back it with two facts. Say where each fact came from. Write a list of your sources.",
+      "core": "Give one to two minutes of spoken advice, backed by two pieces of evidence from reliable sources. Credit each source out loud, credit any images, and add a reference list.",
+      "extend": "Present spoken advice backed by reliable evidence. Credit sources out loud, credit images correctly and add a consistent reference list. Then judge how strong your evidence is."
+    },
+    "checklist": [
+      "My advice is clear",
+      "I used two pieces of evidence",
+      "Each source is reliable (I checked who, when, why)",
+      "I said where each fact came from",
+      "Images are my own, or credited and allowed",
+      "I wrote a reference list"
+    ],
+    "levelUp": "Find a third source that agrees with your evidence, and one that disagrees. Which do you trust more, and why?",
+    "vc": [
+      "VM-U4O2-KS2",
+      "VM-U4O2-KK4",
+      "VM-U4O2-KS6"
+    ],
+    "model": {
+      "kind": "Example advice with credits",
+      "text": "**Advice:** wear sunscreen when you work outside, even on cloudy days.\n**Spoken:** “The Cancer Council says UV can be high on cool or cloudy days. It says to protect your skin when the UV is 3 or more. You can check the UV each day. Look on the Bureau of Meteorology site, or the SunSmart app.”\n**Image:** a tradie in a hat. **Credit:** my own photo.\n**References**\nBureau of Meteorology. (2026). UV index forecasts. bom.gov.au\nCancer Council Australia. (2026). Slip, Slop, Slap, Seek, Slide. cancer.org.au",
+      "why": [
+        "The source is named before each fact, so listeners can judge it.",
+        "Both sources are expert or government organisations.",
+        "The image is the speaker’s own, and the references are consistent and in A–Z order."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Evidence",
+        "start": "No evidence, or unreliable.",
+        "good": "Two pieces from reliable sources.",
+        "great": "Strong, up-to-date evidence that fits the advice."
+      },
+      {
+        "skill": "Attribution",
+        "start": "Sources not named.",
+        "good": "Each source named out loud.",
+        "great": "Smooth credits, like “According to…”."
+      },
+      {
+        "skill": "References and copyright",
+        "start": "No list, or images not credited.",
+        "good": "A reference list and image credits.",
+        "great": "Consistent format; all material allowed."
+      }
+    ],
+    "choices": {
+      "prompt": "What advice will you give?",
+      "options": [
+        "Staying safe at work (sun, lifting, hearing)",
+        "Money tips (saving, phone plans, scams)",
+        "Health tips (sleep, food, energy drinks)",
+        "Driving or getting your licence"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: How do you know?",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What **questions** should you ask to check a source?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KS2"
+            ]
+          },
+          {
+            "q": {
+              "support": "How do you give credit when you speak?",
+              "core": "Write two ways to give credit out loud, and one reference in the simple format."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS6"
+            ]
+          },
+          {
+            "q": {
+              "support": "What is copyright?",
+              "core": "Give three ways to use images or music without breaking copyright.",
+              "extend": "Why is crediting a creator not the same as having permission?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KK4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of backed-up advice",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "Why is it needed?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the slide. Use the word bank. Write what it does.",
+          "core": "Each number marks a part. Say what it is, and why it matters."
+        },
+        "wordBank": {
+          "support": [
+            "advice",
+            "evidence",
+            "spoken credit",
+            "image",
+            "image credit",
+            "reference"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Credit or permission needed?",
+        "pagebreak": true,
+        "choices": [
+          "Needs credit or permission",
+          "No credit needed"
+        ],
+        "reasonLabel": "What should you do?",
+        "instructions": "You’re making a talk with slides. Do you need to credit, or get permission for, each thing?",
+        "vc": [
+          "VM-U4O2-KK4",
+          "VM-U4O2-KS6"
+        ],
+        "cards": [
+          {
+            "from": "Your talk",
+            "text": "A fact you found on the ABS website.",
+            "answer": "Needs credit or permission",
+            "flags": "Credit the ABS."
+          },
+          {
+            "from": "Your talk",
+            "text": "A photo you took yourself.",
+            "answer": "No credit needed",
+            "flags": "It’s yours (you can still label it)."
+          },
+          {
+            "from": "Your talk",
+            "text": "A photo from a Google image search.",
+            "answer": "Needs credit or permission",
+            "flags": "Check the licence, or ask."
+          },
+          {
+            "from": "Your talk",
+            "text": "A hit song playing under your video.",
+            "answer": "Needs credit or permission",
+            "flags": "Needs permission or a licence."
+          },
+          {
+            "from": "Your talk",
+            "text": "Your own opinion about the topic.",
+            "answer": "No credit needed",
+            "flags": "It’s your idea."
+          },
+          {
+            "from": "Your talk",
+            "text": "A quote from an expert in a news story.",
+            "answer": "Needs credit or permission",
+            "flags": "Name the expert and the source.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the kookaburra and the flute",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did the court decide in 2010?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KK4"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why did a short tune matter?",
+              "core": "What does “substantial part” mean in this case?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KK4"
+            ]
+          },
+          {
+            "q": {
+              "support": "How can you avoid a problem like this?",
+              "core": "How could you avoid a copyright problem in your own talk or video?",
+              "extend": "Why is attribution not the same as permission? Use the case."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KK4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my backed-up advice",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O2-KS2",
+          "VM-U4O2-KS6",
+          "VM-U4O2-KK4"
+        ],
+        "vcNote": "Supporting advice with evidence, with attribution and referencing.",
+        "prompt": {
+          "support": "Write your advice. Add **two facts**. Write who said each fact. Then write your **sources** at the bottom.",
+          "core": "Write your one-to-two-minute advice script. Include two pieces of evidence, each credited out loud. Note any images and their credit. Add a reference list.",
+          "extend": "Write your advice script with reliable evidence and spoken attribution. Credit all images. Add a consistent, A–Z reference list. Then judge how strong your evidence is."
+        },
+        "plan": [
+          {
+            "label": "My advice (one sentence):",
+            "lines": 1
+          },
+          {
+            "label": "Source 1 and Source 2 (who, when, why I trust them):",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "My advice:",
+          "According to…",
+          "… also says…",
+          "References:"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "clear advice",
+          "two credited facts",
+          "image credit",
+          "reference list"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can find reliable evidence.",
+          "I can credit sources out loud.",
+          "I can write a reference list.",
+          "I understand copyright."
+        ],
+        "questions": [
+          "The most reliable source I used, and why:",
+          "One thing I’ll do differently with images or music:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to back advice with reliable evidence (checking who, when, why and whether others agree), give spoken attribution (“According to…”), write a simple reference list, and apply copyright basics (automatic protection, free to view is not free to use, licences, permission). They give one to two minutes of spoken advice with two credited sources. The case study is the Kookaburra / Down Under case (Federal Court, 2010), where a few bars of a 1934 children’s song were found to be a substantial part, and the owner was awarded 5% of royalties.",
+    "prep": [
+      "Print workbooks.",
+      "Show students how to filter image searches by licence, or use free image libraries.",
+      "Optional: play both songs so students can hear the similarity.",
+      "Agree on a simple reference format for your school."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — How do you know?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** “Trust me, bro” — rank five pieces of advice by how much you trust them, and why.",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Annotate (15 min):** the sleep slide."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Copyright",
+        "minutes": 50,
+        "steps": [
+          "**Case study (20 min):** play both songs, then read.",
+          "**Sort (15 min):** credit or permission needed?",
+          "**Research (15 min):** find two sources for your advice."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Backed-up advice",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (25 min):** script and references.",
+          "**Present (15 min):** small groups.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Evidence: facts, expert advice, real examples.",
+      "Check sources: who, when, why, does anyone else agree?",
+      "Credit out loud: “According to…”",
+      "Reference: who, year, title, where.",
+      "Copyright is automatic; free to view isn’t free to use; credit is not permission."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Teacher-provided list of reliable sites.",
+        "One piece of evidence is fine to start."
+      ],
+      "extend": [
+        "Evaluate conflicting sources (Level Up).",
+        "Discuss Creative Commons licences and exceptions."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O2-KS2",
+        "evidence": "Provides reliable evidence to support advice (script, plan)."
+      },
+      {
+        "vc": "VM-U4O2-KK4",
+        "evidence": "Explains copyright principles and applies them to images and music (sort, case study)."
+      },
+      {
+        "vc": "VM-U4O2-KS6",
+        "evidence": "Applies conventions of spoken attribution and referencing (script, reference list)."
+      },
+      {
+        "vc": "VM-U4O2-KS5",
+        "evidence": "Critically evaluates the strength of evidence in own work (extend task, Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 advice; 2 evidence; 3 spoken attribution; 4 image; 5 image credit (own photo); 6 reference (who, year, title, where).\n\n**Sort:** needs credit or permission — ABS fact (credit); Google image (check licence or ask); hit song (permission or licence); expert quote (credit). No credit needed — your own photo; your own opinion.\n\n**Case study:** in 2010 the Federal Court found Down Under reproduced a substantial part of Kookaburra (1934, Marion Sinclair; copyright held by Larrikin Music); 5% of royalties awarded; appeal dismissed in 2011. A small but important part can be substantial.\n\n**Note:** check any facts in the sleep diagram and sunscreen model against current Sleep Health Foundation, Cancer Council and Bureau of Meteorology advice before teaching.",
+    "resources": [
+      {
+        "label": "Clayton Utz — Kookaburra copyright claim (2010)",
+        "url": "https://www.claytonutz.com/insights/2010/february/men-at-work-go-down-under-in-kookaburra-copyright-claim"
+      },
+      {
+        "label": "Australian Copyright Council — information sheets",
+        "url": "https://www.copyright.org.au/"
+      },
+      {
+        "label": "Smartcopying — copyright guide for Australian schools",
+        "url": "https://www.smartcopying.edu.au/"
+      },
+      {
+        "label": "Creative Commons Australia",
+        "url": "https://creativecommons.org.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Students will want to use music in videos.** Point them to royalty-free libraries; this is where the lesson becomes real.",
+      "**Referencing formats vary.** Keep it simple and consistent; who, year, title, where is enough at this level.",
+      "**Check the facts in the examples** (sleep hours, UV advice) against current sources before teaching.",
+      "**Works in a real class:** yes. Playing both songs side by side is a great hook."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a list of trusted sites.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with source checking, attribution, references and copyright.",
+      "extend": "Aimed at about Year 7 and up: corroboration, Creative Commons, exceptions, credit vs permission and evaluating evidence."
+    }
+  }
+}

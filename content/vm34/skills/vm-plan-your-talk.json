@@ -1,0 +1,820 @@
+{
+  "id": "vm-plan-your-talk",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Have you heard a talk that went everywhere and nowhere? You got lost. A plan fixes that. Start, middle, end. With signs along the way.",
+      "core": "You’ve sat through a talk that wandered: no clear point, no idea where it was going, no ending. Listeners can’t scroll back up. They need you to tell them where you’re going, take them there step by step, and tell them when you’ve arrived.",
+      "extend": "Listeners can’t reread. A spoken text has to carry its own map: a clear opening, a small number of connected points, and an ending that pulls it together, with signposts that show how each idea links to the next."
+    },
+    "why": {
+      "support": "A plan helps people follow you. It helps you not get lost too.",
+      "core": "Any time you speak at work, in class or at a meeting, a clear plan makes you easier to follow and easier to remember.",
+      "extend": "Structuring oral content is a core skill for presentations, briefings, interviews and meetings. It’s what makes advice usable."
+    },
+    "canDo": {
+      "support": [
+        "I can plan a talk with a start, middle and end.",
+        "I can use signpost words like “first” and “next”.",
+        "I can put my points in a good order."
+      ],
+      "core": [
+        "I can structure a talk: hook, main points, wrap-up.",
+        "I can put my points in a logical order.",
+        "I can use signposts to link my ideas."
+      ],
+      "extend": [
+        "I can sequence and structure oral content for a purpose.",
+        "I can signal connections between ideas with signposts.",
+        "I can write a clear script with correct conventions."
+      ]
+    },
+    "showIt": "Plan a two-to-three-minute talk on cue cards: a hook, three connected points, signposts and a strong wrap-up.",
+    "vocab": [
+      {
+        "word": "hook",
+        "meaning": "an opening that grabs attention",
+        "example": "My hook was a surprising fact."
+      },
+      {
+        "word": "main point",
+        "meaning": "one of the key ideas in your talk",
+        "example": "My first main point is about cost."
+      },
+      {
+        "word": "signpost",
+        "meaning": "a word or phrase that shows where your talk is going",
+        "example": "“Next” is a signpost."
+      },
+      {
+        "word": "wrap-up",
+        "meaning": "the ending that sums up your talk",
+        "example": "My wrap-up repeats the three points."
+      },
+      {
+        "word": "cue card",
+        "meaning": "a small card with notes to help you speak",
+        "example": "I glanced at my cue card."
+      },
+      {
+        "word": "sequence",
+        "meaning": "the order things go in",
+        "example": "I changed the sequence of my points."
+      },
+      {
+        "word": "preview",
+        "meaning": "telling the audience what’s coming",
+        "example": "“Today I’ll cover three things” is a preview.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "transition",
+        "meaning": "a link that moves from one idea to the next",
+        "example": "“That brings me to…” is a transition.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Plan Your Talk in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Plan Your Talk",
+        "sub": "Hook, main points, wrap-up. Done.",
+        "icon": "lucide:list-ordered",
+        "say": "Plan your talk. Hook, main points, wrap-up. Done."
+      },
+      {
+        "kind": "big",
+        "title": "Listeners can’t scroll back",
+        "text": "So you have to show them the way.",
+        "icon": "lucide:ear",
+        "say": "Listeners cannot scroll back up. So you have to show them the way.",
+        "vc": [
+          "VM-U4O2-KS1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "The plan",
+        "steps": [
+          "Hook.",
+          "Preview: “Three things.”",
+          "Point 1.",
+          "Point 2.",
+          "Point 3.",
+          "Wrap-up."
+        ],
+        "icon": "lucide:list-ordered",
+        "say": "The plan. A hook. A preview: today, three things. Point one. Point two. Point three. And a wrap-up.",
+        "vc": [
+          "VM-U4O2-KS1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Signpost",
+        "pillIcon": "lucide:signpost",
+        "title": "Start a point",
+        "text": "“First…” “The second thing is…”",
+        "icon": "lucide:arrow-right",
+        "say": "Signposts tell people where you are. First. The second thing is.",
+        "vc": [
+          "VM-U4O2-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Signpost",
+        "pillIcon": "lucide:signpost",
+        "title": "Link ideas",
+        "text": "“That’s why…” “On the other hand…”",
+        "icon": "lucide:link",
+        "say": "They link ideas. That is why. On the other hand.",
+        "vc": [
+          "VM-U4O2-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Signpost",
+        "pillIcon": "lucide:signpost",
+        "title": "Wrap up",
+        "text": "“So, to sum up…”",
+        "icon": "lucide:flag",
+        "say": "And they show the end is coming. So, to sum up.",
+        "vc": [
+          "VM-U4O2-KS3"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Plan a talk on cue cards.",
+        "icon": "lucide:list-ordered",
+        "say": "Your mission. Plan a short talk on cue cards."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "A map for your listeners",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "When you read, you can go back. When you listen, you can’t. So a talk needs a clear plan.\n\n**A good plan:**\n- **Hook:** grab attention. Ask a question. Tell a short story.\n- **Say what’s coming:** “I’ll tell you three things.”.\n- **Main points:** two or three. Not ten.\n- **Wrap-up:** say your points again in one or two lines. End strong.\n.\n**Put your points in order.** You could go:\n- from first to last (time order).\n- from smallest to biggest.\n- from problem to fix.\n\n**Use signposts.** A **signpost** is a word that shows where your talk is going.\n- To start a point: “First…” “Next…”.\n- To link ideas: “So…” “Because of that…”.\n- To finish: “To sum up…”.\n\n**Use cue cards.** Write a few key words on each card. Don’t write the whole talk.",
+          "core": "Readers can go back a page. Listeners can’t. That’s why a talk needs a stronger structure than writing, and why good speakers keep telling the audience where they are.\n\n**The structure:**\n- **Hook:** a question, a surprising fact or a short story.\n- **Preview:** tell them what’s coming. “I’m going to cover three things: cost, safety and time.”.\n- **Main points:** two or three. Each with one example or piece of evidence.\n- **Wrap-up:** sum up the points, and end with a strong final line or a call to action.\n.\n**Sequence your points.** Choose an order that makes sense for your topic:\n- **time order:** first, then, finally.\n- **problem → solution**.\n- **least to most important:** save your best point for last.\n- **simple to complex:** build up.\n\n**Signpost every move.** **Signposts** are words that show how ideas connect. They help listeners keep up.\n- **Starting a point:** “First…”, “My second point is…”, “Finally…”.\n- **Adding:** “Also…”, “On top of that…”.\n- **Cause and effect:** “Because of this…”, “That’s why…”.\n- **Contrast:** “But…”, “On the other hand…”.\n- **Wrapping up:** “So, to sum up…”, “The one thing to remember is…”.\n\n**Cue cards.** One card per section. Key words only, in big writing, numbered in order.",
+          "extend": "Spoken texts are processed in real time. Listeners cannot reread, so a talk needs a more explicit structure than writing, with frequent signals about where it is and where it is going.\n\n**Structure.**\n- **hook:** a question, statistic, anecdote or bold claim.\n- **preview:** an outline of the main points, so listeners know the shape.\n- **body:** usually two to four main points, each developed with an example or evidence.\n- **wrap-up:** a summary and a memorable close, often a call to action or a return to the hook.\n\n**Sequencing.** Choose an organising principle to suit the purpose: chronological; problem–solution; cause–effect; or least to most important, ending on your strongest point.\n\n**Signalling connections.** **Signposts** and **transitions** are the spoken equivalent of headings and paragraphs:\n- **enumerating:** first, second, finally.\n- **adding:** in addition, also, what’s more.\n- **cause and effect:** as a result, which means, that’s why.\n- **contrast:** however, on the other hand, but.\n- **summing up:** to sum up, the key point is.\n\nRepetition is a feature, not a fault. Restating your points in the wrap-up helps listeners remember.\n\n**Script and cue cards.** Writing a full script helps you check sentence structure, punctuation and flow. Then reduce it to cue cards with key words, so you speak rather than read."
+        },
+        "vc": [
+          "VM-U4O2-KS1",
+          "VM-U4O2-KS3"
+        ],
+        "vcNote": "Sequencing and structuring oral content; signalling connections between ideas."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Three stories",
+        "icon": "lucide:presentation",
+        "body": {
+          "support": "In **2005**, **Steve Jobs** gave a speech to students at **Stanford University** in the US. He started Apple, the company that makes iPhones.\n\nHe began by saying what was coming. He said he would tell **three stories** from his life. That’s it. Just three.\n\nThen he told them, one by one:\n- **Story 1:** about joining the dots in your life.\n- **Story 2:** about love and loss.\n- **Story 3:** about death.\n.\nThe plan was simple. Everyone knew where he was going.",
+          "core": "On **12 June 2005**, **Steve Jobs**, co-founder of Apple, gave the graduation speech at **Stanford University** in the US.\n\nHis structure was simple, and he told the audience exactly what it was. Near the start, he said he wanted to tell them **three stories** from his life. Nothing more.\n\nThen he signposted each one clearly as he went:\n- the **first** story was about connecting the dots: how small choices made sense later.\n- the **second** was about love and loss: being fired from the company he started.\n- the **third** was about death.\n\nEach story ended with a lesson, and the speech closed with a short, memorable line.\n\nThe speech is about 15 minutes long. Because the structure was so clear, listeners always knew where they were.",
+          "extend": "On **12 June 2005**, Apple co-founder **Steve Jobs** delivered the commencement address at **Stanford University**.\n\nIts structure is often used to teach speech planning. Early on, Jobs previewed it in plain words: he would tell **three stories** from his life. Nothing more. That preview set expectations and gave the audience a mental map.\n\nEach story was then explicitly signposted (“the first story”, “my second story”, “my third story”) and each ended with a lesson that linked back to the speech’s overall theme:\n- connecting the dots, and trusting that choices will make sense later.\n- love and loss, including being fired from the company he co-founded.\n- death, and how awareness of it shapes priorities.\n\nThe close returned to a single, repeated line.\n\nFortune has reported that the screenwriter Aaron Sorkin helped with the speech, though how much is disputed. Either way, the lesson is the same: a simple, explicit structure makes a talk easy to follow and remember."
+        },
+        "source": {
+          "name": "Stanford News — “‘You’ve got to find what you love,’ Jobs says” (June 2005)",
+          "url": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says"
+        },
+        "think": {
+          "support": [
+            "How did Jobs tell the audience what was coming?",
+            "Why does a simple plan help listeners?"
+          ],
+          "core": [
+            "What signposts did Jobs use?",
+            "Why might three be a good number of points?",
+            "How did each story link to the next?"
+          ],
+          "extend": [
+            "Why is a preview more important in a speech than in writing?",
+            "How did each story link back to one theme?",
+            "Does it matter who helped write the speech? Why or why not?"
+          ]
+        },
+        "vc": [
+          "VM-U4O2-KS1",
+          "VM-U4O2-KS3"
+        ],
+        "vcNote": "A real speech with an explicit, signposted structure."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a talk plan",
+      "docTitle": "TALK PLAN: WHY EVERYONE SHOULD LEARN TO SWIM (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U4O2-KS1",
+        "VM-U4O2-KS3"
+      ],
+      "vcNote": "The structure and signposts of a planned talk.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "value": "“Hands up if you’ve ever been dumped by a wave.”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Preview",
+          "value": "“I’ll give you three reasons to learn to swim.”"
+        },
+        {
+          "n": 3,
+          "label": "Point 1",
+          "value": "“First, it keeps you safe at the beach.”"
+        },
+        {
+          "n": 4,
+          "label": "Point 2",
+          "value": "“On top of that, it opens up jobs, like lifeguarding.”"
+        },
+        {
+          "n": 5,
+          "label": "Point 3",
+          "value": "“Finally, and most importantly, you could save someone else.”",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Wrap-up",
+          "value": "“So: safety, jobs and saving lives. Book a lesson this summer.”"
+        }
+      ],
+      "note": "A made-up plan to show the structure.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "A question they can answer."
+        },
+        {
+          "n": 2,
+          "label": "Preview",
+          "note": "The map: three reasons."
+        },
+        {
+          "n": 3,
+          "label": "Signpost",
+          "note": "“First” starts the list."
+        },
+        {
+          "n": 4,
+          "label": "Adding",
+          "note": "“On top of that” links on."
+        },
+        {
+          "n": 5,
+          "label": "Best last",
+          "note": "Strongest point at the end."
+        },
+        {
+          "n": 6,
+          "label": "Wrap-up",
+          "note": "Repeat, then a call to act."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Plan your talk",
+      "steps": [
+        {
+          "title": "Hook",
+          "text": "Grab them.",
+          "icon": "lucide:magnet"
+        },
+        {
+          "title": "Preview",
+          "text": "Say what’s coming.",
+          "icon": "lucide:map"
+        },
+        {
+          "title": "Points",
+          "text": "Two or three.",
+          "icon": "lucide:list-ordered"
+        },
+        {
+          "title": "Signposts",
+          "text": "Link each move.",
+          "icon": "lucide:signpost"
+        },
+        {
+          "title": "Wrap-up",
+          "text": "Sum up, end strong.",
+          "icon": "lucide:flag"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Why does a talk need a clearer plan than writing?",
+        "options": [
+          "Listeners can’t go back",
+          "Talks are always longer",
+          "It’s a rule",
+          "Writing doesn’t need a plan"
+        ],
+        "answer": 0,
+        "explain": "Listeners can’t reread, so you show them the way.",
+        "vc": [
+          "VM-U4O2-KS1"
+        ]
+      },
+      {
+        "q": "What is a **preview**?",
+        "options": [
+          "Telling the audience what’s coming",
+          "The last line",
+          "A joke",
+          "A picture"
+        ],
+        "answer": 0,
+        "explain": "“I’ll cover three things…”",
+        "vc": [
+          "VM-U4O2-KS1"
+        ]
+      },
+      {
+        "q": "Which is a signpost for **contrast**?",
+        "options": [
+          "On the other hand",
+          "First",
+          "To sum up",
+          "Also"
+        ],
+        "answer": 0,
+        "explain": "It shows an opposite idea is coming.",
+        "vc": [
+          "VM-U4O2-KS3"
+        ]
+      },
+      {
+        "q": "How many main points suit a short talk?",
+        "options": [
+          "Two or three",
+          "Ten",
+          "Twenty",
+          "None"
+        ],
+        "answer": 0,
+        "explain": "Fewer points are easier to remember.",
+        "vc": [
+          "VM-U4O2-KS1"
+        ]
+      },
+      {
+        "q": "What should go on a cue card?",
+        "options": [
+          "Key words, in big writing",
+          "The whole talk",
+          "Nothing",
+          "A drawing only"
+        ],
+        "answer": 0,
+        "explain": "Key words help you speak, not read.",
+        "vc": [
+          "VM-U4O2-KS1"
+        ]
+      },
+      {
+        "q": "How did Steve Jobs start his 2005 speech plan?",
+        "options": [
+          "He said he’d tell three stories",
+          "He read a list of rules",
+          "He showed a video",
+          "He didn’t plan it"
+        ],
+        "answer": 0,
+        "explain": "A clear preview gave the audience a map.",
+        "vc": [
+          "VM-U4O2-KS3"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan a short talk on cue cards. Put a hook, two or three points, signpost words and a wrap-up.",
+      "core": "Plan a two-to-three-minute talk on cue cards: a hook, a preview, three points in a logical order with signposts, and a strong wrap-up.",
+      "extend": "Write a script for a two-to-three-minute talk with a clear structure, a logical sequence and signposts linking every move, using correct conventions. Then reduce it to cue cards."
+    },
+    "checklist": [
+      "It starts with a hook",
+      "It previews the main points",
+      "It has two or three main points, in a sensible order",
+      "I used a signpost for every new point",
+      "It ends with a wrap-up and a strong last line",
+      "My cue cards have key words only"
+    ],
+    "levelUp": "Say your talk out loud to someone without your cue cards. Ask them to name your three points. If they can’t, add stronger signposts.",
+    "vc": [
+      "VM-U4O2-KS1",
+      "VM-U4O2-KS3"
+    ],
+    "model": {
+      "kind": "Example cue cards",
+      "text": "**Card 1, Hook + preview:** “Who’s eaten two-minute noodles three nights in a row?” Three tips: plan, shop, cook.\n**Card 2, Point 1:** First: plan. Five meals. Write the list.\n**Card 3, Point 2:** Next: shop. Stick to the list. Buy home brand.\n**Card 4, Point 3:** Most importantly: cook. Big batch Sunday. Freeze it.\n**Card 5, Wrap-up:** To sum up: plan, shop, cook. Your wallet will thank you.",
+      "why": [
+        "Card 1 hooks and previews the three tips in one go.",
+        "Each card starts with a signpost: “First”, “Next”, “Most importantly”.",
+        "Only key words are written, so the speaker talks rather than reads."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Structure",
+        "start": "No clear start or end.",
+        "good": "Hook, points and wrap-up.",
+        "great": "A preview and a strong last line."
+      },
+      {
+        "skill": "Order",
+        "start": "Points jump around.",
+        "good": "Points in a sensible order.",
+        "great": "Best point saved for last."
+      },
+      {
+        "skill": "Signposts",
+        "start": "No signposts.",
+        "good": "A signpost for each point.",
+        "great": "Signposts link ideas, not just list them."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your talk be about?",
+      "options": [
+        "Tips for something you’re good at (cooking, gaming, sport, a trade)",
+        "How to manage money, a phone plan or a first job",
+        "Why people should join a club, group or cause",
+        "A topic from another subject"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: A map for your listeners",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why does a talk need a clearer plan than writing?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name the **four** parts of a good plan.",
+              "core": "Name two ways to order your points. When would you use each?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Write **three** signpost words.",
+              "core": "Write one signpost each for starting a point, adding, contrast and wrapping up.",
+              "extend": "Why is repetition a feature, not a fault, in a talk?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a talk plan",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "How does it help listeners?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the plan. Use the word bank. Write what it does.",
+          "core": "Each number marks a part. Name it, and say how it helps listeners follow."
+        },
+        "wordBank": {
+          "support": [
+            "hook",
+            "preview",
+            "signpost",
+            "adding",
+            "best point last",
+            "wrap-up"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "What does the signpost do?",
+        "pagebreak": true,
+        "choices": [
+          "Starts a point",
+          "Links ideas",
+          "Wraps up"
+        ],
+        "reasonLabel": "Use it in a sentence",
+        "instructions": "Sort each signpost by what it does. Then use it in a sentence.",
+        "vc": [
+          "VM-U4O2-KS3"
+        ],
+        "cards": [
+          {
+            "from": "Signpost",
+            "text": "First of all…",
+            "answer": "Starts a point",
+            "flags": "Begins the list."
+          },
+          {
+            "from": "Signpost",
+            "text": "Because of that…",
+            "answer": "Links ideas",
+            "flags": "Cause and effect."
+          },
+          {
+            "from": "Signpost",
+            "text": "To sum up…",
+            "answer": "Wraps up",
+            "flags": "The end is near."
+          },
+          {
+            "from": "Signpost",
+            "text": "My second point is…",
+            "answer": "Starts a point",
+            "flags": "Moves on."
+          },
+          {
+            "from": "Signpost",
+            "text": "On the other hand…",
+            "answer": "Links ideas",
+            "flags": "Contrast."
+          },
+          {
+            "from": "Signpost",
+            "text": "The one thing to remember is…",
+            "answer": "Wraps up",
+            "flags": "Final message.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: three stories",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "How did Steve Jobs tell the audience what was coming?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "What were the three stories about?",
+              "core": "What signposts did he use? Why did they help?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KS3"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why does a simple plan help listeners?",
+              "core": "Why might three be a good number of points?",
+              "extend": "How did each story link back to one theme? Why does that matter?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my talk plan",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O2-KS1",
+          "VM-U4O2-KS3",
+          "VM-U4O2-KS8"
+        ],
+        "vcNote": "Sequencing and structuring oral content with signposts, written with correct conventions.",
+        "prompt": {
+          "support": "Plan your talk. Write a **hook**, **two or three points** with signpost words, and a **wrap-up**.",
+          "core": "Plan a two-to-three-minute talk. Write your hook and preview, three points in a sensible order, a signpost for each, and a wrap-up. Then make cue cards.",
+          "extend": "Write a short script for your talk with a hook, preview, three points, transitions and a wrap-up. Check sentence structure and punctuation. Then make cue cards."
+        },
+        "plan": [
+          {
+            "label": "Topic and audience:",
+            "lines": 1
+          },
+          {
+            "label": "My order (time, problem → fix, or best last?):",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Hook:",
+          "Preview: I’ll tell you…",
+          "First,…",
+          "Next,…",
+          "Finally,…",
+          "To sum up,…"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "hook + preview",
+          "points in order",
+          "signposts",
+          "wrap-up"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can plan a start, middle and end.",
+          "I put my points in a good order.",
+          "I used signposts.",
+          "I made cue cards with key words."
+        ],
+        "questions": [
+          "My favourite signpost:",
+          "Where I’ll use this plan next:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn why talks need explicit structure (listeners can’t reread), plan a talk with a hook, preview, two or three sequenced points and a wrap-up, and use signposts and transitions to signal connections. They produce a plan and cue cards (extend: a script with correct conventions). The case study is Steve Jobs’ 2005 Stanford address, structured as three clearly previewed and signposted stories.",
+    "prep": [
+      "Print workbooks.",
+      "Blank cue cards (index cards).",
+      "Optional: the opening minute of the Stanford speech (widely available online) to hear the preview."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Why plans matter",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** teacher gives a deliberately rambling 1-minute talk. What went wrong?",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Sort (15 min):** what does the signpost do?"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Structure and the case",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** the swimming plan.",
+          "**Case study (20 min):** three stories (play the opening).",
+          "**Plan (15 min):** topic, audience and order."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Plan and cue cards",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (30 min).**",
+          "**Level Up (10 min):** partner names your three points.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Listeners can’t reread: be explicit.",
+      "Hook, preview, two or three points, wrap-up.",
+      "Choose an order: time, problem → fix, best last.",
+      "Signpost every move: start, add, cause, contrast, sum up.",
+      "Cue cards: key words only."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Two main points.",
+        "A signpost bank on the desk."
+      ],
+      "extend": [
+        "Write a full script and edit for conventions.",
+        "Use transitions that show relationships, not just lists."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O2-KS1",
+        "evidence": "Sequences and structures oral content with a hook, preview, points and wrap-up (plan, cue cards)."
+      },
+      {
+        "vc": "VM-U4O2-KS3",
+        "evidence": "Signals connections between related ideas with signposts and transitions (sort, plan)."
+      },
+      {
+        "vc": "VM-U4O2-KS8",
+        "evidence": "Applies conventions of sentence structure and punctuation in a script (extend final task).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 hook question; 2 preview of three reasons; 3 “first” signpost; 4 “on top of that” adds; 5 strongest point last (“finally, and most importantly”); 6 wrap-up repeats the points and ends with a call to action.\n\n**Sort:** starts a point — first of all; my second point is. Links — because of that; on the other hand. Wraps up — to sum up; the one thing to remember is.\n\n**Case study:** Jobs previewed “three stories”; signposted each as first, second, third; topics were connecting the dots, love and loss, and death; each ended with a lesson linked to the theme.",
+    "resources": [
+      {
+        "label": "Stanford News — Jobs’ 2005 commencement address",
+        "url": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says"
+      },
+      {
+        "label": "Fortune — on the writing of the Stanford speech (2016)",
+        "url": "https://fortune.com/2016/02/24/apple-steve-jobs-stanford/"
+      }
+    ],
+    "realityCheck": [
+      "**The third story is about death.** Jobs speaks about his cancer diagnosis. Preview it with students and be mindful of recent losses.",
+      "**The rambling-talk hook works best if it’s genuinely bad.** Students instantly see the value of structure.",
+      "**Cue cards beat scripts for delivery,** but writing a script first helps weaker writers check their ideas link.",
+      "**Works in a real class:** yes. It pairs directly with Nail the Delivery and the Speak Up presentation."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and two main points.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with preview, sequencing, signposts and cue cards.",
+      "extend": "Aimed at about Year 7 and up: organising principles, transitions, purposeful repetition and a scripted draft."
+    }
+  }
+}
