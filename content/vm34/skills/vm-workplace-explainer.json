@@ -1,0 +1,946 @@
+{
+  "id": "vm-workplace-explainer",
+  "version": 1,
+  "duration": "5 lessons (about 4 hours)",
+  "brief": {
+    "hook": {
+      "support": "How do you learn a new thing? Lots of people watch a video. Now you make one. Teach a work skill in under three minutes.",
+      "core": "Stuck on how to change a bike tyre, tie a tie or set up a router? You probably watched a video. Now flip it: you’re the expert. Pick a task from a workplace you know, and teach it in under three minutes, clearly enough that a new starter could do it after one watch.",
+      "extend": "Workplaces now train staff and help customers with how-to videos. Making a good one takes three skills: writing clear steps, speaking clearly, and putting shots in order. All of it is shaped for a viewer who has never done the task."
+    },
+    "why": {
+      "support": "Videos help people learn. Making one shows you really know the job.",
+      "core": "Workplaces use short videos to train new staff. Making one uses writing, speaking and planning skills employers value.",
+      "extend": "Making how-to content for a real workplace is a skill you can use in training, trades, shops, cafés and online content."
+    },
+    "canDo": {
+      "support": [
+        "I can plan a how-to video.",
+        "I can write clear steps and what to say.",
+        "I can make a short video that teaches a job."
+      ],
+      "core": [
+        "I can explain the purpose and audience of an instructional video.",
+        "I can script and storyboard clear steps.",
+        "I can make a short explainer video for a workplace task."
+      ],
+      "extend": [
+        "I can analyse the purpose and features of how-to videos.",
+        "I can put steps in order and script them for a viewer.",
+        "I can narrate clearly, on camera or as a voice-over.",
+        "I can test and improve my video."
+      ]
+    },
+    "showIt": "Script, storyboard and film an explainer video (under three minutes) that teaches a task from a workplace you know. Test it on someone new.",
+    "vocab": [
+      {
+        "word": "explainer video",
+        "meaning": "a short video that shows how to do something",
+        "example": "I made an explainer video on folding shirts."
+      },
+      {
+        "word": "script",
+        "meaning": "the words you will say",
+        "example": "My script is one page."
+      },
+      {
+        "word": "storyboard",
+        "meaning": "a plan of what each shot will show",
+        "example": "My storyboard has six boxes."
+      },
+      {
+        "word": "shot",
+        "meaning": "one piece of video, from start to stop",
+        "example": "The next shot is a close-up."
+      },
+      {
+        "word": "close-up",
+        "meaning": "a shot taken very near, to show detail",
+        "example": "Use a close-up of the hands."
+      },
+      {
+        "word": "voice-over",
+        "meaning": "talking over the video, without being on screen",
+        "example": "I recorded the voice-over later."
+      },
+      {
+        "word": "caption",
+        "meaning": "words on screen",
+        "example": "Add captions for people watching without sound.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "sequence",
+        "meaning": "the order of steps or shots",
+        "example": "The sequence must match the real task.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Workplace Explainer in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Workplace Explainer Video",
+        "sub": "Teach a work skill in under three minutes.",
+        "icon": "lucide:clapperboard",
+        "say": "Workplace explainer video. Teach a work skill in under three minutes."
+      },
+      {
+        "kind": "stat",
+        "big": "51%",
+        "title": "of US YouTube users said it’s very important for learning how to do new things",
+        "sub": "Pew Research Center survey, 2018",
+        "say": "In a 2018 survey in the United States, about half of YouTube users said it is very important for figuring out how to do things they have not done before.",
+        "vc": [
+          "VM-U3O2-KS1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Make it",
+        "steps": [
+          "Pick one task.",
+          "Write the steps.",
+          "Storyboard the shots.",
+          "Script what you’ll say.",
+          "Film it. Test it."
+        ],
+        "icon": "lucide:list-ordered",
+        "say": "Pick one task. Write the steps. Storyboard the shots. Script what you will say. Then film it and test it.",
+        "vc": [
+          "VM-U4O2-KS1",
+          "VM-U3O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Tip",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Show the hands",
+        "text": "Close-ups of what to do.",
+        "icon": "lucide:hand",
+        "say": "Show the hands. Use close-ups of exactly what to do.",
+        "vc": [
+          "VM-U3O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Tip",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Say what you show",
+        "text": "Words and pictures match.",
+        "icon": "lucide:mic",
+        "say": "Say what you show. Your words and pictures should match.",
+        "vc": [
+          "VM-U4O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Tip",
+        "pillIcon": "lucide:lightbulb",
+        "title": "Safety first",
+        "text": "Warnings before the risky step.",
+        "icon": "lucide:triangle-alert",
+        "say": "Safety first. Put warnings before the risky step.",
+        "vc": [
+          "VM-U3O2-KS4"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Make an explainer video.",
+        "icon": "lucide:video",
+        "say": "Your mission. Make an explainer video for a workplace task."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Teach it on screen",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "An **explainer video** shows how to do something. Lots of workplaces use them to train new staff.\n\n**Who is it for?** A new worker. They have never done the task. Every step must be clear.\n\n**Plan it.**\n- Pick **one** task. Keep it short. Under three minutes.\n- Write the steps in order.\n- Make a **storyboard**. Draw a box for each **shot**. Show what the camera sees.\n- Write a **script**. Say what you are doing in each shot.\n.\n**Film it.**\n- Use **close-ups** of hands doing the task.\n- Hold the camera still.\n- Film in good light.\n- Speak clearly.\n- Put safety warnings before the risky step.\n.\n**Test it.** Show it to someone new. Can they do the task after watching? If not, fix it.",
+          "core": "An **explainer video** teaches one task, step by step. Workplaces use them for training, safety and customer help.\n\n**Purpose and audience.** The purpose is to **instruct**. The audience is someone who has never done the task. They might be watching on a phone, on a break, with the sound off. That shapes everything.\n\n**1. Choose one task.** Pick something from a workplace you know: closing a till, folding a T-shirt display, cleaning a coffee machine, checking tyre pressure. Keep it under three minutes.\n\n**2. Write the steps.** Use procedure skills: action words first, one action per step, exact details, warnings before risky steps.\n\n**3. Storyboard.** A **storyboard** is a row of boxes, one per **shot**. In each box, sketch what the camera sees and note what you’ll say.\n\n**4. Script.** Write the narration.\n- Open with what you’ll teach and why it matters (5 seconds).\n- Signpost each step: “First…”, “Next…”, “Finally…”.\n- Say what the viewer sees, as they see it.\n- End with a quick recap and a finish check.\n.\n**5. Film.**\n- **Close-ups** for detail. Wide shots to show where things are.\n- Steady camera, good light, quiet room.\n- Speak slowly and clearly, on camera or as a **voice-over**.\n- Add **captions** for key steps and warnings.\n.\n**6. Test.** Show it to someone who has never done the task. Watch them try it. Fix any step where they get stuck.",
+          "extend": "Instructional video is now a mainstream training format, used for staff induction, safety, product support and skills. Its purpose is to **instruct**. Its audience is a novice, often watching on a small screen, possibly without sound, possibly while trying the task.\n\n**Planning.** Choose a single, well-bounded task from a real workplace, achievable in under three minutes. Break it into a **sequence** of steps using procedural conventions: imperative verbs, one action per step, precise detail, and warnings placed before hazards.\n\n**Storyboarding.** A **storyboard** maps each **shot** to its content: framing (wide to orient, **close-up** for detail), what happens, and the narration or **caption** that goes with it. It is the visual equivalent of a procedure.\n\n**Scripting.** Narration should:\n- open with the purpose and the outcome.\n- signpost each step and its relationship to the next.\n- describe what is on screen as it appears; word and image must match.\n- close with a recap and a finish check.\n\n**Production.** Steady framing, adequate light, clear audio. Deliver narration with controlled pace, pauses between steps, and clear intonation, on camera or as **voice-over**. Use captions for key steps and safety warnings.\n\n**Testing.** The only real test is a novice attempting the task after one viewing. Each hesitation shows where the sequence, framing or narration needs revising."
+        },
+        "vc": [
+          "VM-U3O2-KS1",
+          "VM-U3O2-KS4",
+          "VM-U4O2-KS1"
+        ],
+        "vcNote": "The purpose and audience of instructional texts; creating instructional content for a workplace; sequencing oral content."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "Learning by watching",
+        "icon": "lucide:monitor-play",
+        "body": {
+          "support": "In **2018**, a US research group called the **Pew Research Center** asked adults about YouTube.\n\nAbout **half** of the people who used YouTube said it was **very important** for one thing. Working out how to do things they had never done before.\n\nThat is why so many workplaces now make short videos. They help new workers learn.\n\nThe survey was in the United States. But people in Australia watch how-to videos too.",
+          "core": "In **2018**, the **Pew Research Center**, a US research group, surveyed adults about how they use YouTube.\n\nOf the people who used YouTube, **87%** said it was important for figuring out how to do things they hadn’t done before. **51%** said it was **very** important.\n\nThat’s why so many workplaces now use short videos to train staff and help customers. A good video can show what words alone can’t: where to put your hands, what the right result looks like, and what to avoid.\n\nThe survey was done in the United States, so it doesn’t tell us exactly about Australia. But how-to videos are a common way people learn here too.",
+          "extend": "In mid-**2018**, the **Pew Research Center** surveyed US adults about YouTube. Among YouTube users, **87%** said the site was important for figuring out how to do things they hadn’t done before, and **51%** said it was **very** important.\n\nThe finding helps explain why workplaces have embraced short instructional video for induction, safety and customer support. Video can show spatial and physical detail that is hard to describe in words: hand position, sequence, and what a correct result looks like.\n\nThere are limits. The survey covered the United States, so it doesn’t describe Australian habits directly. It measured what people said was important, not how well they learned. And popularity is not quality: many how-to videos are unclear, unsafe or wrong.\n\nThat makes design matter. A good workplace explainer is planned like a procedure, scripted like a talk, and tested on a real beginner."
+        },
+        "source": {
+          "name": "Pew Research Center — “Many turn to YouTube for children’s content, news, how-to lessons” (November 2018)",
+          "url": "https://www.pewresearch.org/internet/2018/11/07/many-turn-to-youtube-for-childrens-content-news-how-to-lessons/"
+        },
+        "think": {
+          "support": [
+            "What did about half of YouTube users say?",
+            "Why do workplaces make how-to videos?"
+          ],
+          "core": [
+            "What can a video show that words alone can’t?",
+            "Why should we be careful using a US survey for Australia?",
+            "What makes a how-to video good or bad?"
+          ],
+          "extend": [
+            "What are the limits of this survey as evidence?",
+            "Why isn’t a popular video always a good one?",
+            "How would you test whether your video actually teaches?"
+          ]
+        },
+        "vc": [
+          "VM-U3O2-KS1"
+        ],
+        "vcNote": "Research on the purpose and audience of instructional video."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a storyboard and script",
+      "docTitle": "STORYBOARD: CLEANING THE MILK STEAM WAND (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U3O2-KS4",
+        "VM-U4O2-KS1"
+      ],
+      "vcNote": "Sequencing shots and narration for an instructional video.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Shot 1 (wide)",
+          "value": "Barista at the machine. SAY: “Here’s how to clean the steam wand in 30 seconds.”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Caption",
+          "value": "CAUTION: wand is hot. Wear the glove."
+        },
+        {
+          "n": 3,
+          "label": "Shot 2 (close-up)",
+          "value": "Hand points wand into tray. SAY: “First, point the wand into the drip tray.”"
+        },
+        {
+          "n": 4,
+          "label": "Shot 3 (close-up)",
+          "value": "Steam bursts. SAY: “Next, purge it for two seconds.”"
+        },
+        {
+          "n": 5,
+          "label": "Shot 4 (close-up)",
+          "value": "Cloth wipes wand. SAY: “Then wipe it with a damp cloth.”",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Shot 5 (wide)",
+          "value": "Clean wand. SAY: “No milk left? You’re done.”"
+        }
+      ],
+      "note": "A made-up storyboard to show the parts.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Open",
+          "note": "Say what you’ll teach."
+        },
+        {
+          "n": 2,
+          "label": "Warning",
+          "note": "Before the risk, on screen."
+        },
+        {
+          "n": 3,
+          "label": "Signpost",
+          "note": "“First”, with a close-up."
+        },
+        {
+          "n": 4,
+          "label": "Exact detail",
+          "note": "“Two seconds”."
+        },
+        {
+          "n": 5,
+          "label": "Match",
+          "note": "Words match the picture."
+        },
+        {
+          "n": 6,
+          "label": "Finish check",
+          "note": "How to know it’s done."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Make your explainer",
+      "steps": [
+        {
+          "title": "Task",
+          "text": "Pick one.",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "Steps",
+          "text": "In order.",
+          "icon": "lucide:list-ordered"
+        },
+        {
+          "title": "Shots",
+          "text": "Storyboard them.",
+          "icon": "lucide:layout-grid"
+        },
+        {
+          "title": "Film",
+          "text": "Close-ups.",
+          "icon": "lucide:video"
+        },
+        {
+          "title": "Test",
+          "text": "On a beginner.",
+          "icon": "lucide:user-check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Who is a workplace explainer video for?",
+        "options": [
+          "Someone who has never done the task",
+          "Experts only",
+          "Your friends",
+          "Nobody"
+        ],
+        "answer": 0,
+        "explain": "Make every step clear for a beginner.",
+        "vc": [
+          "VM-U3O2-KS1"
+        ]
+      },
+      {
+        "q": "What is a **storyboard**?",
+        "options": [
+          "A plan of what each shot will show",
+          "A list of actors",
+          "The final video",
+          "A type of camera"
+        ],
+        "answer": 0,
+        "explain": "One box per shot.",
+        "vc": [
+          "VM-U3O2-KS4"
+        ]
+      },
+      {
+        "q": "When should you use a **close-up**?",
+        "options": [
+          "To show detail, like hands doing a step",
+          "Never",
+          "Only at the start",
+          "To show the whole room"
+        ],
+        "answer": 0,
+        "explain": "Close-ups show exactly what to do.",
+        "vc": [
+          "VM-U3O2-KS4"
+        ]
+      },
+      {
+        "q": "Why add **captions**?",
+        "options": [
+          "Many people watch with the sound off",
+          "To make it longer",
+          "To hide mistakes",
+          "It’s required by law"
+        ],
+        "answer": 0,
+        "explain": "Captions help key steps land.",
+        "vc": [
+          "VM-U3O2-KS4"
+        ]
+      },
+      {
+        "q": "What’s the best test of your video?",
+        "options": [
+          "A beginner tries the task after watching",
+          "You watch it again",
+          "Count the likes",
+          "Make it longer"
+        ],
+        "answer": 0,
+        "explain": "Where they get stuck shows what to fix.",
+        "vc": [
+          "VM-U4O2-KS1"
+        ]
+      },
+      {
+        "q": "In the 2018 Pew survey, what did 51% of YouTube users say?",
+        "options": [
+          "It’s very important for learning how to do new things",
+          "They never watch it",
+          "It’s only for music",
+          "It’s bad for learning"
+        ],
+        "answer": 0,
+        "explain": "How-to videos are a major way people learn.",
+        "vc": [
+          "VM-U3O2-KS1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Pick a job task. Plan the steps and shots. Write what you’ll say. Film a short video. Show it to someone new.",
+      "core": "Script, storyboard and film an explainer video (under three minutes) for a task from a workplace you know. Test it on someone who has never done the task, and fix it.",
+      "extend": "Plan, script, storyboard and make a how-to video, under three minutes, for a real workplace task. Narrate it clearly. Test it on a beginner, then fix it."
+    },
+    "checklist": [
+      "I picked one workplace task",
+      "My steps are in order, with action words",
+      "My storyboard shows every shot",
+      "My script signposts each step, and matches the pictures",
+      "I added a safety warning before any risky step",
+      "It is under three minutes",
+      "I tested it on someone new and fixed it"
+    ],
+    "levelUp": "Add captions for every step and warning. Then test it again with the sound off. Can they still do the task?",
+    "vc": [
+      "VM-U3O2-KS4",
+      "VM-U3O2-KS1",
+      "VM-U4O2-KS1"
+    ],
+    "solo": "No one to test it on? Wait a day. Then try the task yourself, doing only what the video shows and says. Note every place you had to guess. A family member can also watch and try.",
+    "model": {
+      "kind": "Example script (opening)",
+      "text": "**[Wide shot: worker at a shop shelf]** “This is how to face up a shelf, so customers can find things fast. It takes about a minute.”\n**[Close-up: hands pull a can forward]** “First, pull each product to the front edge.”\n**[Close-up: label turned]** “Next, turn it so the label faces out.”\n**[Caption: LIFT WITH YOUR LEGS]** “Before you lift a heavy box, bend your knees.”\n**[Wide shot: neat shelf]** “Finally, step back and check. Every label faces out, every gap is filled. Done.”",
+      "why": [
+        "Each line says what the camera shows, then what the narrator says.",
+        "Signposts (“First”, “Next”, “Finally”) match the order of the shots.",
+        "The safety caption comes before the lifting step, not after."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Planning",
+        "start": "No clear steps.",
+        "good": "Steps and a storyboard in order.",
+        "great": "Every shot planned, with safety."
+      },
+      {
+        "skill": "Video",
+        "start": "Hard to see or hear.",
+        "good": "Clear shots and narration.",
+        "great": "Close-ups, captions and words that match."
+      },
+      {
+        "skill": "Testing",
+        "start": "Not tested.",
+        "good": "Tested on someone new.",
+        "great": "Fixed every place they got stuck."
+      }
+    ],
+    "choices": {
+      "prompt": "Which task will your video teach?",
+      "options": [
+        "A café or kitchen task",
+        "A shop or warehouse task",
+        "A trade, garden or workshop task (safely)",
+        "A task from your VM work placement or job"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Teach it on screen",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What is an explainer video for? Who watches it?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name **four** steps to make one.",
+              "core": "List the six steps to make an explainer video."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why use close-ups?",
+              "core": "Give three filming tips, and why each helps the viewer.",
+              "extend": "Why must word and image match in an instructional video?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "flow",
+        "title": "Make your explainer",
+        "diagram": 1
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a storyboard and script",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "How does it help the viewer?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the storyboard. Use the word bank. Write what it does.",
+          "core": "Each number marks a part. Say what it is, and how it helps a beginner."
+        },
+        "wordBank": {
+          "support": [
+            "opening",
+            "warning",
+            "signpost",
+            "exact detail",
+            "words match picture",
+            "finish check"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Show it or say it?",
+        "pagebreak": true,
+        "choices": [
+          "Show it (close-up)",
+          "Say it (narration)",
+          "Both + caption"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "For each part of a video about cleaning a coffee machine, should you show it, say it, or both with a caption?",
+        "vc": [
+          "VM-U3O2-KS4",
+          "VM-U4O2-KS4"
+        ],
+        "cards": [
+          {
+            "from": "Video part",
+            "text": "Which button to press.",
+            "answer": "Show it (close-up)",
+            "flags": "Detail is easier to see."
+          },
+          {
+            "from": "Video part",
+            "text": "Why cleaning matters (taste and hygiene).",
+            "answer": "Say it (narration)",
+            "flags": "An idea, not an action."
+          },
+          {
+            "from": "Video part",
+            "text": "The steam is very hot.",
+            "answer": "Both + caption",
+            "flags": "A safety warning."
+          },
+          {
+            "from": "Video part",
+            "text": "How the clean nozzle should look.",
+            "answer": "Show it (close-up)",
+            "flags": "The finish check."
+          },
+          {
+            "from": "Video part",
+            "text": "How long to run the steam: 2 seconds.",
+            "answer": "Both + caption",
+            "flags": "An exact detail to remember."
+          },
+          {
+            "from": "Video part",
+            "text": "Do this at the end of every shift.",
+            "answer": "Say it (narration)",
+            "flags": "When to do it.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: learning by watching",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did about half of YouTube users say in the 2018 survey?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why do workplaces make how-to videos?",
+              "core": "What can video show that words alone can’t?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "What makes a how-to video good?",
+              "core": "Why be careful using a US survey for Australia?",
+              "extend": "What are the limits of this survey as evidence? Why isn’t popular the same as good?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KS1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Step 1: my storyboard",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 24,
+          "core": 20
+        },
+        "instructions": "Plan each shot. Sketch or describe what the camera sees. Write what you’ll say. The first row is an example.",
+        "columns": [
+          "Shot",
+          "What we see (sketch or describe)",
+          "What I say / caption"
+        ],
+        "rows": [
+          [
+            "Example: 1 (wide)",
+            "Me at the till",
+            "“Here’s how to close the till.”"
+          ],
+          [
+            "1",
+            "",
+            ""
+          ],
+          [
+            "2",
+            "",
+            ""
+          ],
+          [
+            "3",
+            "",
+            ""
+          ],
+          [
+            "4",
+            "",
+            ""
+          ],
+          [
+            "5",
+            "",
+            ""
+          ]
+        ],
+        "vc": [
+          "VM-U3O2-KS4",
+          "VM-U4O2-KS1"
+        ],
+        "vcNote": "Sequencing instructional content shot by shot."
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my script",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O2-KS4",
+          "VM-U4O2-KS1"
+        ],
+        "vcNote": "Scripting instructional content for a workplace audience.",
+        "prompt": {
+          "support": "Write what you’ll say. Start with **what you’ll teach**. Use **First, Next, Finally**. Put the **warning** before the risky step.",
+          "core": "Write your full script. Open with what you’ll teach and why. Signpost each step. Match words to each shot. Add a warning and a finish check.",
+          "extend": "Write your full script with an opening, signposted steps, narration matched to each shot, captions for key details and warnings, and a recap."
+        },
+        "plan": [
+          {
+            "label": "The task, the workplace and the viewer:",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "This is how to…",
+          "First,…",
+          "Next,…",
+          "Careful:…",
+          "Finally,…",
+          "You’re done when…"
+        ],
+        "lines": {
+          "support": 12,
+          "core": 12,
+          "extend": 12
+        },
+        "check": [
+          "opening",
+          "signposts",
+          "warning before risk",
+          "finish check"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: film and test",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O2-KS4",
+          "VM-U4O2-KS4"
+        ],
+        "vcNote": "Producing and testing an instructional video.",
+        "instructions": "Film your video (under three minutes). Then test it on someone who has never done the task. Only film tasks that are safe, and get permission if you film at a workplace. (No tester? Wait a day and try it yourself from the video only.)",
+        "need": [
+          "a phone or tablet",
+          "the equipment for the task",
+          "permission to film",
+          "a tester"
+        ],
+        "steps": [
+          "Film each shot from your storyboard.",
+          "Record the narration (on camera or voice-over).",
+          "Edit: put shots in order, add captions, trim to under 3 minutes.",
+          "Show it to your tester once.",
+          "Watch them try the task. Don’t help.",
+          "Fix the parts where they got stuck."
+        ],
+        "notes": [
+          {
+            "label": "Length of my video:",
+            "lines": 1
+          },
+          {
+            "label": "Where my tester got stuck:",
+            "lines": 2
+          },
+          {
+            "label": "What I changed:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "video file",
+          "tester notes",
+          "teacher saw it"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I planned my steps and shots.",
+          "My words matched my pictures.",
+          "I put safety first.",
+          "I tested and fixed my video."
+        ],
+        "questions": [
+          "The hardest part of making the video:",
+          "Another task I could teach on video:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "A VM 3&4 capstone. Students plan, storyboard, script and film an explainer video (under three minutes) teaching a task from a workplace they know, then test it on a novice and revise. It draws on procedural writing (Write the Procedure), structure and signposting (Plan Your Talk) and delivery (Nail the Delivery). The case study is a 2018 Pew Research Center survey: 51% of US YouTube users said the site is very important for figuring out how to do things they haven’t done before.",
+    "prep": [
+      "Print workbooks.",
+      "Devices to film and edit (phones and a free editing app are enough).",
+      "A safe filming space; check risks for any trade or kitchen task.",
+      "Consent: students filming at a workplace need the employer’s permission; filming other people needs their consent.",
+      "Students should have done some On the Job and Speak Up courses first (this capstone requires two from each)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What makes a good explainer",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** watch a good and a bad how-to video. What’s the difference?",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Sort (15 min):** show it or say it."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the steam wand storyboard.",
+          "**Case study (10 min):** learning by watching.",
+          "**Step 1 (30 min):** storyboard."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Script",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (40 min):** script.",
+          "**Rehearse (10 min):** read the script aloud with the storyboard."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Film",
+        "minutes": 50,
+        "steps": [
+          "**Do it (50 min):** film and record narration."
+        ]
+      },
+      {
+        "title": "Lesson 5 — Edit and test",
+        "minutes": 50,
+        "steps": [
+          "**Edit (20 min).**",
+          "**Test (20 min):** novice tries the task; fix.",
+          "**Reflect (10 min):** reflection and sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Purpose: instruct. Audience: a beginner, often on a phone, maybe without sound.",
+      "One task, under three minutes.",
+      "Storyboard each shot; script each step with signposts.",
+      "Close-ups for detail; words match pictures; captions for key steps and warnings.",
+      "Test on a novice and revise."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A three-shot storyboard.",
+        "A short, simple task."
+      ],
+      "extend": [
+        "Captions throughout and a sound-off test (Level Up).",
+        "Evaluate the limits of the survey evidence."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O2-KS4",
+        "evidence": "Creates instructional content for a chosen workplace, considering audience and purpose (storyboard, script, video)."
+      },
+      {
+        "vc": "VM-U3O2-KS1",
+        "evidence": "Explains the purpose and audience of instructional texts (questions, case study)."
+      },
+      {
+        "vc": "VM-U4O2-KS1",
+        "evidence": "Sequences and structures oral content (script, storyboard)."
+      },
+      {
+        "vc": "VM-U4O2-KS4",
+        "evidence": "Uses pace, intonation and clear delivery in narration (video).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 opening stating the task; 2 on-screen safety warning before the risk; 3 signposted first step with close-up; 4 exact detail (two seconds); 5 narration matches the picture; 6 finish check.\n\n**Sort:** show — which button; how the clean nozzle looks. Say — why cleaning matters; when to do it. Both + caption — hot steam warning; 2-second purge.\n\n**Case study:** in a 2018 US survey, 87% of YouTube users said it was important, and 51% very important, for learning how to do new things; video shows physical detail that words can’t; limits: US data, self-reported importance, and popularity isn’t quality.",
+    "resources": [
+      {
+        "label": "Pew Research Center — YouTube and how-to lessons (2018)",
+        "url": "https://www.pewresearch.org/internet/2018/11/07/many-turn-to-youtube-for-childrens-content-news-how-to-lessons/"
+      },
+      {
+        "label": "WorkSafe Victoria — young workers",
+        "url": "https://www.worksafe.vic.gov.au/young-workers"
+      },
+      {
+        "label": "eSafety Commissioner — filming and sharing images of others",
+        "url": "https://www.esafety.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Safety and consent come first.** No dangerous tasks on camera; get workplace permission and consent from anyone filmed.",
+      "**Editing can eat time.** Set a strict limit, or allow a single continuous take with voice-over.",
+      "**Students without a job** can use a school task (canteen, library, workshop) or a home task with a work-like purpose.",
+      "**Works in a real class:** yes. Watching a novice follow the video is funny, humbling and very instructive."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a three-shot storyboard.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with storyboard, signposted script, filming tips and testing.",
+      "extend": "Aimed at about Year 7 and up: framing choices, word–image matching, captions, survey limits and novice testing."
+    }
+  }
+}
