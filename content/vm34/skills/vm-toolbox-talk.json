@@ -1,0 +1,871 @@
+{
+  "id": "vm-toolbox-talk",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "It’s 7 am on a worksite. The crew stands around. Someone talks for five minutes about one danger. Then everyone asks questions. That is a toolbox talk. Could you run one?",
+      "core": "7 am. The crew’s got coffee in hand, and the supervisor has five minutes to make sure nobody gets hurt today. That’s a toolbox talk: short, spoken, about one hazard, and it only works if people actually listen and speak up. Could you run one?",
+      "extend": "A toolbox talk is a short safety briefing before work starts: one hazard, a few clear actions, and a real discussion. It tests everything about speaking at work, from tone and eye contact to listening and asking good questions."
+    },
+    "why": {
+      "support": "Safety talks stop people getting hurt. Speaking up is a skill you can learn.",
+      "core": "Toolbox talks happen on worksites, in kitchens, warehouses and farms. Running one, and joining in, is a real work skill.",
+      "extend": "Clear speaking and active listening are what make a safety briefing work. They are also the skills employers rate most."
+    },
+    "canDo": {
+      "support": [
+        "I can plan a short safety talk.",
+        "I can speak clearly to a group.",
+        "I can listen and ask questions."
+      ],
+      "core": [
+        "I can plan a toolbox talk about one hazard.",
+        "I can use eye contact, tone and body language.",
+        "I can lead a discussion, listen and answer questions."
+      ],
+      "extend": [
+        "I can plan and deliver a toolbox talk for a chosen workplace.",
+        "I can adjust tone, eye contact and pace for my audience.",
+        "I can use active listening and questioning to run a discussion.",
+        "I can explain the purpose and audience of a safety briefing."
+      ]
+    },
+    "showIt": "Plan and run a five-minute toolbox talk about one workplace hazard, with a discussion at the end.",
+    "vocab": [
+      {
+        "word": "toolbox talk",
+        "meaning": "a short safety talk before work",
+        "example": "Today’s toolbox talk is about ladders."
+      },
+      {
+        "word": "hazard",
+        "meaning": "something that could cause harm",
+        "example": "Strong wind is a hazard on a roof."
+      },
+      {
+        "word": "briefing",
+        "meaning": "a short talk to give people information",
+        "example": "The briefing took five minutes."
+      },
+      {
+        "word": "eye contact",
+        "meaning": "looking at the people you’re talking to",
+        "example": "Make eye contact with the whole group."
+      },
+      {
+        "word": "tone",
+        "meaning": "how your voice sounds",
+        "example": "Use a calm, serious tone."
+      },
+      {
+        "word": "active listening",
+        "meaning": "listening carefully and showing you understand",
+        "example": "Nod and repeat back what they said."
+      },
+      {
+        "word": "open question",
+        "meaning": "a question that can’t be answered yes or no",
+        "example": "“What could go wrong here?”",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "sign-on sheet",
+        "meaning": "a list people sign to show they were there",
+        "example": "Everyone signed the sign-on sheet.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Toolbox Talk in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Toolbox Talk",
+        "sub": "Five minutes that keep people safe.",
+        "icon": "lucide:hard-hat",
+        "say": "Toolbox talk. Five minutes that keep people safe."
+      },
+      {
+        "kind": "big",
+        "title": "One hazard",
+        "text": "Not ten. One. Today’s biggest risk.",
+        "icon": "lucide:triangle-alert",
+        "say": "Pick one hazard. Not ten. One. The biggest risk today.",
+        "vc": [
+          "VM-U3O2-KS1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "The plan",
+        "steps": [
+          "Hook: why today?",
+          "The hazard.",
+          "What to do.",
+          "Ask questions.",
+          "Sign on."
+        ],
+        "icon": "lucide:list-ordered",
+        "say": "The plan. A hook: why this matters today. The hazard. What to do about it. Ask questions. Then everyone signs on."
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Body",
+        "pillIcon": "lucide:user",
+        "title": "Look at people",
+        "text": "Eye contact. Stand still. Hands free.",
+        "icon": "lucide:eye",
+        "say": "Look at people. Make eye contact. Stand still. Keep your hands free.",
+        "vc": [
+          "VM-U3O2-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Voice",
+        "pillIcon": "lucide:mic",
+        "title": "Loud, calm, slow",
+        "text": "Serious, not scary.",
+        "icon": "lucide:volume-2",
+        "say": "Speak loud, calm and slow. Serious, not scary.",
+        "vc": [
+          "VM-U3O2-KK4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Talk",
+        "pillIcon": "lucide:messages-square",
+        "title": "Ask, then listen",
+        "text": "“What could go wrong here?”",
+        "icon": "lucide:ear",
+        "say": "Ask open questions. What could go wrong here? Then really listen to the answers.",
+        "vc": [
+          "VM-U3O2-KK5"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Run a five-minute toolbox talk.",
+        "icon": "lucide:hard-hat",
+        "say": "Your mission. Plan and run a five minute toolbox talk."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Five minutes that matter",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A **toolbox talk** is a short safety talk. It happens before work starts. It takes about five minutes.\n\nThey happen on building sites, in kitchens, in warehouses and on farms.\n\n**A good toolbox talk:**\n- is about **one hazard**.\n- says why it matters today.\n- says what to do.\n- asks the group questions.\n- ends with everyone signing on.\n\n**How to say it:**\n- Stand where everyone can see you.\n- Make **eye contact** with the whole group.\n- Speak loud and slow.\n- Use a calm, serious **tone**.\n.\n**Listen too.** Ask, “What could go wrong here?” Let people answer. Nod. Say back what they said.\n\nIf you are in the group, listen. Ask a question if you’re not sure.",
+          "core": "A **toolbox talk** is a short safety **briefing** before work starts. It’s usually five to ten minutes, standing up, on site. You’ll find them on building sites, in kitchens, warehouses and farms.\n\n**Purpose and audience.** The purpose is to keep people safe *today*. The audience is the crew: busy, often tired, and keen to start. So keep it short and about one thing.\n\n**Plan it:**\n- **Hook:** why this matters today (“Wind’s up to 60 km/h this arvo.”).\n- **The hazard:** what could hurt someone, and how.\n- **What to do:** two or three clear actions.\n- **Questions:** ask the group.\n- **Sign-on:** everyone signs to show they were there.\n\n**Deliver it:**\n- **Eye contact:** look around the whole group, not at your notes.\n- **Body language:** stand still and face people. Don’t fold your arms.\n- **Tone:** calm and serious. Not bored, not panicked.\n- **Voice:** loud enough for the back row, and slow.\n.\n**Run the discussion.** Ask **open questions**: “What’s the worst that could happen here?” Then use **active listening**: look at the speaker, nod, and repeat back the main point. Thank people for speaking up, even if they disagree.",
+          "extend": "A **toolbox talk** is a short, informal safety **briefing** held before work, typically five to ten minutes, on site and standing up. They are common in construction, hospitality, warehousing and agriculture.\n\n**Purpose and audience.** The aim is to focus a crew on one hazard relevant to that day’s work. The audience is time-poor and may have heard many talks before, so relevance and brevity matter more than detail.\n\n**Structure:**\n- **hook:** why this hazard matters today.\n- **the hazard:** what could happen, to whom, and how.\n- **controls:** two or three specific actions.\n- **discussion:** open questions to the group.\n- **sign-on sheet:** a record that people attended.\n\n**Oral communication:**\n- **eye contact** across the whole group shows you mean it, and lets you check people are following.\n- **body language:** an open, still stance, facing the group.\n- **tone and intonation:** serious and calm; stress key words such as “never” and “before”.\n- **pace and volume:** slower and louder than normal talk, especially outdoors.\n\n**Discussion conventions.** Use open questions to draw on the crew’s knowledge: they often know the site’s risks better than the speaker. Practise **active listening**: look at the speaker, don’t interrupt, paraphrase their point, and follow up. A talk where only one person speaks is a lecture, not a toolbox talk."
+        },
+        "vc": [
+          "VM-U3O2-KK4",
+          "VM-U3O2-KK5",
+          "VM-U3O2-KS1"
+        ],
+        "vcNote": "The purpose and audience of a safety briefing, elements of oral communication and the conventions of discussion."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The wall on Swanston Street",
+        "icon": "lucide:wind",
+        "body": {
+          "support": "On **28 March 2013**, a strong wind blew through Melbourne. Gusts reached about **100 km/h**.\n\nOn Swanston Street, a brick wall stood next to a building site. A big sign board was fixed to the wall.\n\nThe wind pushed on the sign. The wall fell onto the footpath. **Three people walking past were killed.**\n\nLater, the building company, **Grocon**, was fined **$250,000**. So was the sign company.\n\nThe sign made the wall less safe in strong wind. A change in the weather can change the danger. That is why crews talk about hazards before work, every day.",
+          "core": "On **28 March 2013**, strong winds hit Melbourne, with gusts up to about **102 km/h**.\n\nOn Swanston Street, in Carlton, an old brick wall stood beside a building site. A large **hoarding** (a sign board) had been fixed to it. The hoarding caught the wind like a sail.\n\nThe wall collapsed onto the footpath. **Three people walking past were killed.**\n\nThe builder, **Grocon**, was fined **$250,000** in 2014. In 2016, the company that put up the sign was also fined **$250,000**.\n\nNobody had checked if the wall could hold the sign in strong wind. The weather that day was forecast. It’s the kind of change a daily safety talk is for: today is different, so what could go wrong?",
+          "extend": "On **28 March 2013**, strong winds struck Melbourne, with gusts recorded up to about **102 km/h**.\n\nOn Swanston Street, Carlton, an old masonry wall stood at the edge of a building site. A large **hoarding** had been attached to it, adding a big surface for the wind to push against.\n\nThe wall collapsed onto the footpath, **killing three people walking past**.\n\nThe builder, **Grocon**, was fined **$250,000** in 2014 over safety failures. The company that installed the hoarding was fined **$250,000** in 2016. A coroner’s inquest in 2018 also found Grocon responsible.\n\nThe hazard wasn’t new: the wall had stood for decades. What changed was the hoarding, and then the weather. Toolbox talks exist for exactly this. They are a daily check on what is different today, and a chance for anyone to say “that doesn’t look right”."
+        },
+        "source": {
+          "name": "Australian Institute for Disaster Resilience — Industrial wall collapse, Swanston Street, Melbourne (2013)",
+          "url": "https://knowledge.aidr.org.au/resources/industrial-wall-collapse-swanston-street"
+        },
+        "think": {
+          "support": [
+            "What happened on Swanston Street?",
+            "Why did the sign make the wall less safe?"
+          ],
+          "core": [
+            "What two things changed to make the wall dangerous?",
+            "How could a daily safety talk help in a case like this?",
+            "Who should be able to speak up on a worksite?"
+          ],
+          "extend": [
+            "Why do toolbox talks focus on what is different today?",
+            "Why might a worker not say “that doesn’t look right”? How can a speaker make it easier?",
+            "What would you say in a toolbox talk on a high-wind day?"
+          ]
+        },
+        "vc": [
+          "VM-U3O2-KS1"
+        ],
+        "vcNote": "A real case showing the purpose of daily safety briefings."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a toolbox talk plan",
+      "docTitle": "TOOLBOX TALK PLAN — HIGH WINDS (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U3O2-KS1",
+        "VM-U3O2-KK5"
+      ],
+      "vcNote": "The structure and purpose of a toolbox talk.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "value": "Wind gusts up to 70 km/h are forecast after lunch.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "The hazard",
+          "value": "Loose sheets, signs and fences can blow over or fly off."
+        },
+        {
+          "n": 3,
+          "label": "What to do",
+          "value": "Tie down sheets. Check fences. Stop crane work over 40 km/h."
+        },
+        {
+          "n": 4,
+          "label": "Ask the crew",
+          "value": "What else on this site could the wind move?"
+        },
+        {
+          "n": 5,
+          "label": "Listen",
+          "value": "Note answers. Thank people. Act on them.",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Sign-on",
+          "value": "Everyone prints and signs their name."
+        }
+      ],
+      "note": "A made-up example to show the parts of a plan.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Why today",
+          "note": "Makes it matter now."
+        },
+        {
+          "n": 2,
+          "label": "One hazard",
+          "note": "What could happen."
+        },
+        {
+          "n": 3,
+          "label": "Clear actions",
+          "note": "Exact, doable steps."
+        },
+        {
+          "n": 4,
+          "label": "Open question",
+          "note": "Not yes or no."
+        },
+        {
+          "n": 5,
+          "label": "Active listening",
+          "note": "Show you heard it."
+        },
+        {
+          "n": 6,
+          "label": "Record",
+          "note": "Proof people were there."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Run a toolbox talk",
+      "steps": [
+        {
+          "title": "Hook",
+          "text": "Why today?",
+          "icon": "lucide:calendar"
+        },
+        {
+          "title": "Hazard",
+          "text": "One risk.",
+          "icon": "lucide:triangle-alert"
+        },
+        {
+          "title": "Actions",
+          "text": "Two or three.",
+          "icon": "lucide:list-checks"
+        },
+        {
+          "title": "Ask",
+          "text": "Open questions.",
+          "icon": "lucide:messages-square"
+        },
+        {
+          "title": "Sign on",
+          "text": "Everyone signs.",
+          "icon": "lucide:pen-line"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "How many hazards should one toolbox talk cover?",
+        "options": [
+          "One",
+          "All of them",
+          "At least ten",
+          "None"
+        ],
+        "answer": 0,
+        "explain": "One clear hazard is easier to remember.",
+        "vc": [
+          "VM-U3O2-KS1"
+        ]
+      },
+      {
+        "q": "Which is an **open question**?",
+        "options": [
+          "“What could go wrong here?”",
+          "“Got it?”",
+          "“Are we good?”",
+          "“Any questions? No? Great.”"
+        ],
+        "answer": 0,
+        "explain": "It can’t be answered with yes or no.",
+        "vc": [
+          "VM-U3O2-KK5"
+        ]
+      },
+      {
+        "q": "Where should you look during the talk?",
+        "options": [
+          "Around the whole group",
+          "At your notes",
+          "At the ground",
+          "At one person only"
+        ],
+        "answer": 0,
+        "explain": "Eye contact with everyone keeps them with you.",
+        "vc": [
+          "VM-U3O2-KK4"
+        ]
+      },
+      {
+        "q": "What tone suits a safety talk?",
+        "options": [
+          "Calm and serious",
+          "Bored",
+          "Panicked",
+          "Joking the whole time"
+        ],
+        "answer": 0,
+        "explain": "Serious, not scary.",
+        "vc": [
+          "VM-U3O2-KK4"
+        ]
+      },
+      {
+        "q": "Someone says, “The back fence is loose.” What does **active listening** look like?",
+        "options": [
+          "Look at them, nod and say, “So the back fence is loose. Thanks, we’ll check it.”",
+          "Keep talking",
+          "Say, “Not now.”",
+          "Check your phone"
+        ],
+        "answer": 0,
+        "explain": "Show you heard it, repeat it back, and act on it.",
+        "vc": [
+          "VM-U3O2-KK5",
+          "VM-U3O2-KS5"
+        ]
+      },
+      {
+        "q": "In the Swanston Street case, what made the wall less safe in the wind?",
+        "options": [
+          "A big sign board fixed to it",
+          "Rain",
+          "An earthquake",
+          "A truck"
+        ],
+        "answer": 0,
+        "explain": "The hoarding caught the wind like a sail.",
+        "vc": [
+          "VM-U3O2-KS1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Plan a five-minute toolbox talk about one hazard. Run it for a group. Ask them questions and listen.",
+      "core": "Plan and run a five-minute toolbox talk about one workplace hazard. Use eye contact, a calm tone and open questions, and listen to the answers.",
+      "extend": "Plan and deliver a toolbox talk for a chosen workplace, adjusting your voice and body language for the audience, and run a real discussion using open questions and active listening."
+    },
+    "checklist": [
+      "My talk is about one hazard",
+      "I said why it matters today",
+      "I gave two or three clear actions",
+      "I made eye contact with the whole group",
+      "I asked at least one open question",
+      "I listened and repeated back an answer"
+    ],
+    "levelUp": "Make a sign-on sheet for your talk, with the date, topic and space for names. Then ask one person what they’ll remember from your talk. Was it what you wanted?",
+    "vc": [
+      "VM-U3O2-KK4",
+      "VM-U3O2-KK5",
+      "VM-U3O2-KS5",
+      "VM-U3O2-KS1"
+    ],
+    "solo": "No group? Record your talk on video, speaking to the camera as if it were a crew. Write two open questions and the answers you’d expect. Then watch it back and check your eye contact and tone.",
+    "model": {
+      "kind": "Example toolbox talk",
+      "text": "“Morning, everyone. Quick one today: ladders.\nWe’ve got gutter work on the north side this week. A fall from a ladder can break bones, or worse.\nThree things. Check the feet before you climb. Keep three points of contact. And never stand on the top two rungs.\nSo, what’s the worst ladder spot on this site?”\n[Listen.] “Right, the slope by the shed. Good call, Jas. We’ll use the platform there instead.\nSign on before you head off. Thanks, team.”",
+      "why": [
+        "It opens with why the talk matters this week, not a list of rules.",
+        "It gives three short actions, then asks an open question.",
+        "The speaker repeats back what Jas said and acts on it."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Planning",
+        "start": "Many hazards, or no clear actions.",
+        "good": "One hazard and clear actions.",
+        "great": "A hook that makes it matter today."
+      },
+      {
+        "skill": "Delivery",
+        "start": "Reads from notes, hard to hear.",
+        "good": "Eye contact and a calm, clear voice.",
+        "great": "Strong body language and good pace."
+      },
+      {
+        "skill": "Discussion",
+        "start": "No questions.",
+        "good": "Asks an open question.",
+        "great": "Listens, repeats back and follows up."
+      }
+    ],
+    "choices": {
+      "prompt": "Which hazard will your toolbox talk be about?",
+      "options": [
+        "Ladders and working at height",
+        "Hot surfaces and burns in a kitchen",
+        "Lifting heavy boxes in a warehouse",
+        "Working outside on a hot day"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Five minutes that matter",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What is a toolbox talk for? Who is it for?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name **three** things to do with your voice and body.",
+              "core": "Give one tip each for eye contact, body language, tone and voice."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KK4"
+            ]
+          },
+          {
+            "q": {
+              "support": "What is active listening?",
+              "core": "Write one open question for a toolbox talk. How would you show you’re listening to the answer?",
+              "extend": "Why is a talk where only one person speaks “a lecture, not a toolbox talk”?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KK5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a toolbox talk plan",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "Why does it help the crew?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the plan. Use the word bank. Write what it does.",
+          "core": "Each number marks a part. Say what it is, and how it helps the crew."
+        },
+        "wordBank": {
+          "support": [
+            "why today",
+            "one hazard",
+            "clear actions",
+            "open question",
+            "active listening",
+            "record"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Helps or hurts the talk?",
+        "pagebreak": true,
+        "choices": [
+          "Helps",
+          "Hurts"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "A speaker is running a toolbox talk. Does each thing help or hurt?",
+        "vc": [
+          "VM-U3O2-KK4",
+          "VM-U3O2-KK5"
+        ],
+        "cards": [
+          {
+            "from": "The speaker",
+            "text": "Looks around at the whole group.",
+            "answer": "Helps",
+            "flags": "Eye contact keeps people with you."
+          },
+          {
+            "from": "The speaker",
+            "text": "Reads the whole talk off a phone.",
+            "answer": "Hurts",
+            "flags": "No eye contact."
+          },
+          {
+            "from": "The speaker",
+            "text": "Asks, “What could go wrong here?”",
+            "answer": "Helps",
+            "flags": "An open question."
+          },
+          {
+            "from": "The speaker",
+            "text": "Says, “Any questions? No? Good,” and walks off.",
+            "answer": "Hurts",
+            "flags": "No time to answer."
+          },
+          {
+            "from": "The speaker",
+            "text": "Repeats back what a worker said.",
+            "answer": "Helps",
+            "flags": "Active listening."
+          },
+          {
+            "from": "The speaker",
+            "text": "Talks about ten different hazards.",
+            "answer": "Hurts",
+            "flags": "Too much to remember.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the wall on Swanston Street",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What happened on 28 March 2013?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why did the sign make the wall less safe?",
+              "core": "What two things changed to make the wall dangerous?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why do crews talk about safety every day?",
+              "core": "How could a daily toolbox talk help in a case like this?",
+              "extend": "Why might a worker not speak up? How can a speaker make it easier?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KS1",
+              "VM-U3O2-KK5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Plan: my toolbox talk",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O2-KS1",
+          "VM-U3O2-KS4"
+        ],
+        "vcNote": "Planning an oral briefing for a workplace audience and purpose.",
+        "prompt": {
+          "support": "Plan your talk. Write the **hook**, the **hazard**, **two actions** and **one question**.",
+          "core": "Plan your toolbox talk. Write a hook, the hazard, two or three actions and two open questions. Keep it to five minutes.",
+          "extend": "Plan a toolbox talk for a chosen workplace. Write a hook that makes it matter today, the hazard, specific actions and open questions. Note where you’ll stress key words."
+        },
+        "plan": [
+          {
+            "label": "Workplace and crew:",
+            "lines": 1
+          },
+          {
+            "label": "The one hazard:",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Morning, everyone. Quick one today:",
+          "Here’s why it matters today…",
+          "Three things…",
+          "So, what…?"
+        ],
+        "lines": {
+          "support": 8,
+          "core": 8,
+          "extend": 8
+        },
+        "check": [
+          "hook",
+          "one hazard",
+          "clear actions",
+          "open questions"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: run your toolbox talk",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O2-KK4",
+          "VM-U3O2-KK5",
+          "VM-U3O2-KS5"
+        ],
+        "vcNote": "Delivering an oral briefing and leading a discussion.",
+        "instructions": "Run your toolbox talk for a group: your class, a team, or your crew at work. Keep it to five minutes. (No group? Record it on video as if speaking to a crew, then watch it back.)",
+        "need": [
+          "your plan (on one card, not a full page)",
+          "a group of at least three, or a camera",
+          "a sign-on sheet (Level Up)"
+        ],
+        "steps": [
+          "Stand where everyone can see you.",
+          "Give your hook and the hazard.",
+          "Give your actions. Look around the group.",
+          "Ask an open question. Wait for answers.",
+          "Repeat back one answer. Thank the speaker.",
+          "Ask everyone to sign on."
+        ],
+        "notes": [
+          {
+            "label": "One answer someone gave, and what I said back:",
+            "lines": 2
+          },
+          {
+            "label": "My eye contact and tone: how did I go?",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "video",
+          "sign-on sheet",
+          "teacher saw it"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I kept my talk to one hazard.",
+          "I made eye contact with the group.",
+          "I used a calm, clear voice.",
+          "I asked and listened."
+        ],
+        "questions": [
+          "The hardest part of speaking to the group:",
+          "What I’d do differently next time:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the purpose and structure of a toolbox talk (hook, one hazard, actions, open questions, sign-on), the elements of oral communication (eye contact, body language, tone, intonation, pace) and discussion conventions (open questions, active listening). They plan and run a five-minute toolbox talk for a group. The case study is the 2013 Swanston Street wall collapse, where a hoarding fixed to an old wall, and high winds, led to three deaths.",
+    "prep": [
+      "Print workbooks.",
+      "Book space where students can stand and talk in small groups (outdoors works well).",
+      "Print blank sign-on sheets.",
+      "Arrange cameras or devices for students doing the solo option.",
+      "Be aware that the Swanston Street collapse killed three people walking past; handle with care."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What a toolbox talk is",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** show a real toolbox talk video (WorkSafe or industry). What did the speaker do well?",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Sort (15 min):** helps or hurts."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the high-wind plan.",
+          "**Case study (20 min):** Swanston Street.",
+          "**Plan (20 min):** write the talk on one card; practise in pairs."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Run it",
+        "minutes": 50,
+        "steps": [
+          "**Do it (35 min):** groups of four; each student runs a talk, others join the discussion.",
+          "**Reflect (15 min):** peer feedback on eye contact and listening, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "One hazard, why it matters today, two or three actions.",
+      "Eye contact around the group; still, open stance; calm, serious tone; slow and loud.",
+      "Ask open questions, then listen and repeat back.",
+      "A toolbox talk is a discussion, not a lecture."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A cue card with four boxes: hook, hazard, actions, question.",
+        "Run the talk to two or three people."
+      ],
+      "extend": [
+        "Stress key words and plan intonation.",
+        "Make and use a sign-on sheet; check what people remembered."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O2-KK4",
+        "evidence": "Uses eye contact, tone, body language and intonation when speaking to a group (Do it)."
+      },
+      {
+        "vc": "VM-U3O2-KK5",
+        "evidence": "Uses discussion conventions: open questions and active listening (Do it, sort)."
+      },
+      {
+        "vc": "VM-U3O2-KS5",
+        "evidence": "Listens and contributes to small group discussion, as speaker and as crew member (Do it)."
+      },
+      {
+        "vc": "VM-U3O2-KS1",
+        "evidence": "Explains the purpose and audience of a safety briefing (questions, case study)."
+      },
+      {
+        "vc": "VM-U3O2-KS4",
+        "evidence": "Creates instructional content for a chosen workplace, considering audience and purpose (plan).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 hook: why it matters today; 2 one hazard and what could happen; 3 clear, specific actions; 4 open question; 5 active listening and acting on answers; 6 sign-on record.\n\n**Sort:** helps — eye contact around the group; open question; repeating back. Hurts — reading off a phone; “any questions? no? good”; ten hazards.\n\n**Case study:** on 28 March 2013 strong winds (gusts to about 102 km/h) brought down a wall on Swanston Street, Carlton, killing three people walking past; a hoarding attached to the wall caught the wind; Grocon was fined $250,000 (2014) and the sign company $250,000 (2016). The two changes: the hoarding, then the high winds.",
+    "resources": [
+      {
+        "label": "AIDR — Industrial wall collapse, Swanston Street (2013)",
+        "url": "https://knowledge.aidr.org.au/resources/industrial-wall-collapse-swanston-street"
+      },
+      {
+        "label": "WorkSafe Victoria — young workers",
+        "url": "https://www.worksafe.vic.gov.au/young-workers"
+      },
+      {
+        "label": "WorkSafe Victoria — safety basics",
+        "url": "https://www.worksafe.vic.gov.au/safety-basics"
+      }
+    ],
+    "realityCheck": [
+      "**The case study is about real deaths in Melbourne.** Don’t name the people who died. Some students may know of it.",
+      "**Speaking to a group is the hard part for many students.** Start in pairs, then fours. The solo video option is a real alternative, not a lesser one.",
+      "**Students in trades classes may have done real toolbox talks.** Ask them to model one.",
+      "**Works in a real class:** yes. Running it outdoors makes it feel real, and noise forces students to slow down and project."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a four-box cue card.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with the talk structure, delivery tips and discussion skills.",
+      "extend": "Aimed at about Year 7 and up: intonation and stress, audience analysis, why people don’t speak up, and a sign-on sheet."
+    }
+  }
+}

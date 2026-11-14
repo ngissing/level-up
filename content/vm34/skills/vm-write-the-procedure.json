@@ -1,0 +1,884 @@
+{
+  "id": "vm-write-the-procedure",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You know how to close up the shop. The new person doesn’t. Can you write it down so they get it right? That is a procedure.",
+      "core": "You’ve done the closing shift a hundred times. Now a new starter has to do it alone, from your notes. Will the till get counted? Will the fryer get switched off? A good procedure means the job gets done right, every time, by anyone.",
+      "extend": "A procedure turns what one experienced worker knows into steps anyone can follow safely. Writing one well means thinking like a beginner: what they need, in what order, and where it can go wrong."
+    },
+    "why": {
+      "support": "Clear steps keep people safe. They help the job get done right.",
+      "core": "Workplaces run on procedures. Being able to write one makes you useful fast.",
+      "extend": "Clear procedures cut mistakes, train new staff and protect workplaces. Even surgeons use them."
+    },
+    "canDo": {
+      "support": [
+        "I know the parts of a procedure.",
+        "I can write steps in the right order.",
+        "I can write a procedure for a job."
+      ],
+      "core": [
+        "I can explain the features of a procedure.",
+        "I can write clear numbered steps with action words.",
+        "I can write a procedure for a real workplace task."
+      ],
+      "extend": [
+        "I can analyse the features of procedural texts.",
+        "I can use headings and layout so readers find things fast.",
+        "I can write a tested procedure for a chosen workplace and audience."
+      ]
+    },
+    "showIt": "Write a procedure for a real workplace task, for a new worker to follow. Then test it on someone.",
+    "vocab": [
+      {
+        "word": "procedure",
+        "meaning": "the steps for doing a job the right way",
+        "example": "Follow the closing procedure."
+      },
+      {
+        "word": "step",
+        "meaning": "one action in a set order",
+        "example": "Step 3: switch off the fryer."
+      },
+      {
+        "word": "action word",
+        "meaning": "a word that tells you what to do",
+        "example": "“Switch”, “check” and “lock” are action words."
+      },
+      {
+        "word": "warning",
+        "meaning": "a note about danger",
+        "example": "Warning: the oil is hot."
+      },
+      {
+        "word": "equipment",
+        "meaning": "the tools or gear you need",
+        "example": "Equipment: gloves and a cloth."
+      },
+      {
+        "word": "checklist",
+        "meaning": "a list you tick as you go",
+        "example": "Tick the checklist when each step is done."
+      },
+      {
+        "word": "purpose",
+        "meaning": "what the procedure is for",
+        "example": "Purpose: to close the shop safely.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "scope",
+        "meaning": "who and what the procedure covers",
+        "example": "Scope: all casual staff.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Write the Procedure in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Write the Procedure",
+        "sub": "Steps anyone can follow.",
+        "icon": "lucide:list-ordered",
+        "say": "Write the procedure. Steps anyone can follow."
+      },
+      {
+        "kind": "big",
+        "title": "Think like a beginner",
+        "text": "They’ve never done it. What do they need?",
+        "icon": "lucide:user",
+        "say": "Think like a beginner. They have never done this job. What do they need to know?",
+        "vc": [
+          "VM-U3O2-KS4"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "The parts",
+        "steps": [
+          "A clear title.",
+          "What you need.",
+          "Safety first.",
+          "Numbered steps.",
+          "How to know it’s done."
+        ],
+        "icon": "lucide:list-checks",
+        "say": "A procedure has a clear title. What you need. Safety first. Numbered steps. And how to know it is done.",
+        "vc": [
+          "VM-U3O2-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Do",
+        "pillIcon": "lucide:check",
+        "title": "Start with an action word",
+        "text": "“Switch off the fryer.”",
+        "icon": "lucide:zap",
+        "say": "Start each step with an action word. Switch off the fryer.",
+        "vc": [
+          "VM-U3O2-KS6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Do",
+        "pillIcon": "lucide:check",
+        "title": "One action per step",
+        "text": "Not three things at once.",
+        "icon": "lucide:footprints",
+        "say": "One action per step. Not three things at once.",
+        "vc": [
+          "VM-U3O2-KS6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Do",
+        "pillIcon": "lucide:check",
+        "title": "Warn before the danger",
+        "text": "Not after.",
+        "icon": "lucide:triangle-alert",
+        "say": "Put the warning before the dangerous step. Not after.",
+        "vc": [
+          "VM-U3O2-KK3"
+        ]
+      },
+      {
+        "kind": "stat",
+        "big": "1.5% → 0.8%",
+        "title": "deaths after surgery, once hospitals used a 19-step checklist",
+        "sub": "Eight hospitals, 7,688 patients. Source: Harvard Gazette, 2009",
+        "say": "When eight hospitals started using a simple checklist, deaths after surgery fell from one and a half percent to under one percent."
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Write a procedure. Test it on someone.",
+        "icon": "lucide:list-ordered",
+        "say": "Your mission. Write a procedure for a real job. Then test it on someone."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Steps anyone can follow",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "A **procedure** tells you how to do a job the right way. It is a list of **steps**.\n\nGood procedures are written for a beginner. Think about someone who has never done the job.\n\n**A procedure has:**\n- a clear title.\n- the **equipment** you need.\n- safety notes.\n- numbered steps.\n- how to know it’s done.\n\n**Writing the steps:**\n- Start each step with an **action word**. “Switch off the fryer.”.\n- Put one action in each step.\n- Put the steps in order.\n- Put a **warning** before a dangerous step.\n- Use short, plain words.\n- Add a picture if it helps.\n.\n**Test it.** Ask someone to follow it. Watch where they get stuck. Fix that step.",
+          "core": "A **procedure** sets out how to do a job safely and correctly, every time. Workplaces use them to train new staff and to make sure jobs aren’t done differently by every person.\n\n**Write for a beginner.** Imagine someone on their first shift. What do they need to know, and in what order?\n\n**The usual parts:**\n- **Title:** the job, clearly named.\n- **Purpose:** what it’s for.\n- **Equipment:** what you need before you start.\n- **Safety:** hazards and protective gear.\n- **Steps:** numbered, in order.\n- **Finish check:** how you know it’s done right.\n\n**Writing the steps:**\n- Start with an **action word**: switch, check, wipe, lock.\n- One action per step. Long steps get skipped.\n- Be exact: “Set the oven to 180°C”, not “turn the oven up”.\n- Put a **warning** *before* the risky step.\n- Use headings and white space, so people can find their place.\n- Add a photo or simple drawing where words aren’t enough, like which switch to press.\n.\n**Test it.** Give it to someone who has never done the job. Watch, but don’t help. Every time they stop or ask a question, that step needs fixing.",
+          "extend": "A **procedure** (or standard operating procedure) documents how a task is done safely and consistently. It turns one experienced worker’s knowledge into steps anyone can follow, which is why workplaces use them for training, quality and safety.\n\n**Audience first.** Write for the least experienced person who might use it. Experts skip steps they no longer notice. Beginners need them all.\n\n**Typical structure:**\n- **title** naming the task.\n- **purpose** and **scope** (who and what it covers).\n- **equipment** and materials.\n- **safety:** hazards, protective gear, warnings.\n- **numbered steps** in time order.\n- **finish check** and sign-off.\n\n**Language features:**\n- imperatives (command verbs) at the start of each step: switch, check, lock.\n- one action per step.\n- precise measures: times, temperatures, quantities.\n- warnings placed *before* the hazard, often marked visually.\n- headings, numbering and white space, so readers can find their place mid-task.\n- visuals (photos, labelled drawings) where words alone are unclear.\n\n**Test and revise.** Ask a new user to follow it without help. Each hesitation or question shows a step to rewrite. Procedures should also be reviewed when equipment or rules change."
+        },
+        "vc": [
+          "VM-U3O2-KK3",
+          "VM-U3O2-KS6",
+          "VM-U3O2-KS3"
+        ],
+        "vcNote": "The characteristics, structure and language conventions of procedural texts."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "A checklist that saved lives",
+        "icon": "lucide:stethoscope",
+        "body": {
+          "support": "Surgery is risky. Small mistakes can kill.\n\nIn **2007 and 2008**, the World Health Organization tested a **checklist** for surgery. It had **19** steps. Teams checked things like the patient’s name and the right part of the body.\n\nEight hospitals around the world used it. Doctors studied **7,688** patients.\n\nBefore the checklist, **1.5%** of patients died after surgery. After it, **0.8%** died. Problems after surgery also went down.\n\nThe checklist was simple. But it made sure nobody skipped a step.",
+          "core": "Surgery is fast and complex. Even expert teams can skip a step. They might forget to check for an allergy.\n\nIn **2007–2008**, the World Health Organization tested a **19-item Surgical Safety Checklist** in **eight hospitals** around the world, from London to Manila. Teams used it at three times. Before the patient was put to sleep. Before the first cut. And before the patient left the room.\n\nResearchers studied **7,688 patients**, before and after the checklist. The results came out in 2009:\n- deaths fell from **1.5%** to **0.8%**.\n- serious complications fell from **11%** to **7%**.\n\nThe steps weren’t new. Most teams already knew them. The checklist just made sure they happened, every time.",
+          "extend": "Modern surgery depends on many people doing many things in the right order. Even expert teams occasionally miss a step.\n\nIn **2007–2008**, the World Health Organization trialled a **19-item Surgical Safety Checklist** in **eight hospitals** in eight cities, in rich and poor countries. It was organised around three pauses: before anaesthesia, before the first cut, and before the patient left the operating room.\n\nResearchers compared **7,688 patients** before and after the checklist. Their 2009 results showed:\n- deaths fell from **1.5%** to **0.8%**.\n- major complications fell from **11%** to **7%**.\n\nThe study used a before-and-after design, so other changes over time may have played a part. Still, the result was striking for a one-page document.\n\nThe checklist added no new medical knowledge. It worked because of its design: short, ordered, spoken aloud, and placed at the moments when mistakes happen. That is what a good procedure does."
+        },
+        "source": {
+          "name": "Harvard Gazette — “Surgical safety checklist drops deaths and complications by more than one-third” (2009)",
+          "url": "https://news.harvard.edu/gazette/story/2009/01/surgical-safety-checklist-drops-deaths-and-complications-by-more-than-one-third/"
+        },
+        "think": {
+          "support": [
+            "What did the checklist help teams do?",
+            "What happened to the number of deaths?"
+          ],
+          "core": [
+            "Why might expert teams still skip steps?",
+            "The steps weren’t new. So why did the checklist work?",
+            "Which job you know could use a checklist?"
+          ],
+          "extend": [
+            "Why might a before-and-after study not prove the checklist alone caused the change?",
+            "Which design features made the checklist work?",
+            "How could those features improve a workplace procedure?"
+          ]
+        },
+        "vc": [
+          "VM-U3O2-KK3"
+        ],
+        "vcNote": "A real procedural text whose design features changed outcomes."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a procedure",
+      "docTitle": "PROCEDURE: CLEANING THE MILK STEAM WAND (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U3O2-KK3",
+        "VM-U3O2-KS3"
+      ],
+      "vcNote": "The structure and features of a procedural text.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Purpose",
+          "value": "Keep the steam wand clean and safe after each use."
+        },
+        {
+          "n": 2,
+          "label": "Equipment",
+          "value": "Clean damp cloth. Heat-proof glove."
+        },
+        {
+          "n": 3,
+          "label": "Warning",
+          "value": "The wand is very hot. Wear the glove.",
+          "strong": true
+        },
+        {
+          "n": 4,
+          "label": "Step 1",
+          "value": "Point the wand into the drip tray."
+        },
+        {
+          "n": 5,
+          "label": "Step 2",
+          "value": "Purge the wand: turn on the steam for 2 seconds."
+        },
+        {
+          "n": 6,
+          "label": "Step 3",
+          "value": "Wipe the wand with the damp cloth.",
+          "rule": true
+        },
+        {
+          "n": 7,
+          "label": "Finish check",
+          "value": "No milk left on the wand."
+        }
+      ],
+      "note": "A made-up example to show the parts of a procedure.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Purpose",
+          "note": "Why the job matters."
+        },
+        {
+          "n": 2,
+          "label": "Equipment",
+          "note": "Get it before you start."
+        },
+        {
+          "n": 3,
+          "label": "Warning",
+          "note": "Before the danger."
+        },
+        {
+          "n": 4,
+          "label": "Action word",
+          "note": "Starts with a verb."
+        },
+        {
+          "n": 5,
+          "label": "Exact detail",
+          "note": "“2 seconds”, not “a bit”."
+        },
+        {
+          "n": 6,
+          "label": "One action",
+          "note": "One thing per step."
+        },
+        {
+          "n": 7,
+          "label": "Finish check",
+          "note": "How you know it’s done."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "How to write a procedure",
+      "steps": [
+        {
+          "title": "Do the job",
+          "text": "Note every step.",
+          "icon": "lucide:hand"
+        },
+        {
+          "title": "Write",
+          "text": "Action word first.",
+          "icon": "lucide:pencil"
+        },
+        {
+          "title": "Add safety",
+          "text": "Warn before danger.",
+          "icon": "lucide:triangle-alert"
+        },
+        {
+          "title": "Test",
+          "text": "A beginner tries it.",
+          "icon": "lucide:user-check"
+        },
+        {
+          "title": "Fix",
+          "text": "Where they got stuck.",
+          "icon": "lucide:wrench"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Who should a procedure be written for?",
+        "options": [
+          "Someone who has never done the job",
+          "Only the boss",
+          "Experts only",
+          "Customers"
+        ],
+        "answer": 0,
+        "explain": "Write for a beginner. Experts skip steps they don’t notice.",
+        "vc": [
+          "VM-U3O2-KS4"
+        ]
+      },
+      {
+        "q": "Which step is written best?",
+        "options": [
+          "Switch off the fryer.",
+          "The fryer should probably be turned off at some point.",
+          "Fryer, lights, till and doors.",
+          "Do the usual with the fryer."
+        ],
+        "answer": 0,
+        "explain": "It starts with an action word, and has one action.",
+        "vc": [
+          "VM-U3O2-KS6"
+        ]
+      },
+      {
+        "q": "Where should a warning go?",
+        "options": [
+          "Before the risky step",
+          "After the risky step",
+          "At the very end",
+          "Nowhere"
+        ],
+        "answer": 0,
+        "explain": "Readers need it before they do the dangerous thing.",
+        "vc": [
+          "VM-U3O2-KK3"
+        ]
+      },
+      {
+        "q": "Which is more exact?",
+        "options": [
+          "Set the oven to 180°C.",
+          "Turn the oven up.",
+          "Make the oven hot.",
+          "Use the oven."
+        ],
+        "answer": 0,
+        "explain": "Exact numbers mean everyone does it the same.",
+        "vc": [
+          "VM-U3O2-KS6"
+        ]
+      },
+      {
+        "q": "What is the best way to test a procedure?",
+        "options": [
+          "Watch a beginner follow it, without helping",
+          "Read it yourself",
+          "Ask the boss if it looks good",
+          "Don’t test it"
+        ],
+        "answer": 0,
+        "explain": "Where they get stuck shows what to fix.",
+        "vc": [
+          "VM-U3O2-KS4"
+        ]
+      },
+      {
+        "q": "In the surgery study, what happened to deaths after the checklist?",
+        "options": [
+          "They fell from 1.5% to 0.8%",
+          "They doubled",
+          "Nothing changed",
+          "They fell to zero"
+        ],
+        "answer": 0,
+        "explain": "A simple checklist made sure steps weren’t skipped.",
+        "vc": [
+          "VM-U3O2-KK3"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write a procedure for a job you know. Use numbered steps. Start each step with an action word. Add a picture. Test it on someone.",
+      "core": "Write a procedure for a real workplace task, for a new worker. Include the main parts, numbered steps, a warning and at least one picture. Test it on someone and fix it.",
+      "extend": "Write a procedure for a task in a chosen workplace, for its least experienced worker. Use procedural structure, language and visuals, test it on a new user, and revise it."
+    },
+    "checklist": [
+      "It has a clear title",
+      "It lists the equipment needed",
+      "At least one step has a photo or simple drawing",
+      "It has a warning before any risky step",
+      "Each step starts with an action word",
+      "Each step has one action",
+      "I tested it, and fixed where someone got stuck"
+    ],
+    "levelUp": "Add a “Purpose” and “Scope” to your procedure, and a short contents list or headings so a reader can jump to the part they need.",
+    "vc": [
+      "VM-U3O2-KS4",
+      "VM-U3O2-KK3",
+      "VM-U3O2-KS6"
+    ],
+    "solo": "No one to test it on? Wait a day, then follow your procedure exactly as written, doing only what it says. Note each place you had to guess.",
+    "model": {
+      "kind": "Example procedure",
+      "text": "**PROCEDURE: CLOSING THE FRYER**\n**Purpose:** Shut down the fryer safely at the end of the shift.\n**Equipment:** Heat-proof gloves. Fryer lid.\n**Warning:** Oil stays hot for hours. Never move the fryer while it is hot.\n1. Switch off the fryer at the wall.\n2. Put on the heat-proof gloves.\n3. Lift the baskets out and hang them on the hooks.\n4. Place the lid on the fryer.\n5. Leave the oil to cool overnight.\n**Finish check:** Fryer off at the wall, lid on, baskets hung up.",
+      "why": [
+        "The warning comes before any step where you could get burnt.",
+        "Each step starts with an action word and has one action.",
+        "The finish check tells the worker how to know the job is done."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Structure",
+        "start": "Just a few steps.",
+        "good": "Title, equipment, warning and steps.",
+        "great": "Plus purpose and a finish check."
+      },
+      {
+        "skill": "Clear steps",
+        "start": "Steps are long or out of order.",
+        "good": "Numbered, in order, one action each.",
+        "great": "Action words and exact details all through."
+      },
+      {
+        "skill": "Tested",
+        "start": "Not tested.",
+        "good": "Tested on someone.",
+        "great": "Fixed every place they got stuck."
+      }
+    ],
+    "choices": {
+      "prompt": "Which task will you write a procedure for?",
+      "options": [
+        "Closing up a café or takeaway",
+        "Restocking a shelf in a shop",
+        "Cleaning and storing a power tool",
+        "A task from your own job"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Steps anyone can follow",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Who should a procedure be written for? Why?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name **four** parts of a procedure.",
+              "core": "List the six usual parts of a procedure."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KK3"
+            ]
+          },
+          {
+            "q": {
+              "support": "Give **two** tips for writing steps.",
+              "core": "Give three tips for writing steps, with an example of each.",
+              "extend": "Why do experts make poor testers of their own procedures?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a procedure",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "Why does it help the reader?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the procedure. Use the word bank. Write what it does.",
+          "core": "Each number marks a feature. Say what it is, and how it helps the reader."
+        },
+        "wordBank": {
+          "support": [
+            "purpose",
+            "equipment",
+            "warning",
+            "action word",
+            "exact detail",
+            "one action",
+            "finish check"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Good step or needs fixing?",
+        "pagebreak": true,
+        "choices": [
+          "Good step",
+          "Needs fixing"
+        ],
+        "reasonLabel": "Why? (rewrite it if it needs fixing)",
+        "instructions": "Is each step written well? If it needs fixing, rewrite it.",
+        "vc": [
+          "VM-U3O2-KS6"
+        ],
+        "cards": [
+          {
+            "from": "Shop closing",
+            "text": "Lock the front door.",
+            "answer": "Good step",
+            "flags": "Action word, one action."
+          },
+          {
+            "from": "Shop closing",
+            "text": "Then sort out the till and lights and stuff.",
+            "answer": "Needs fixing",
+            "flags": "Three things, and vague."
+          },
+          {
+            "from": "Kitchen",
+            "text": "Set the oven to 180°C.",
+            "answer": "Good step",
+            "flags": "Exact number."
+          },
+          {
+            "from": "Kitchen",
+            "text": "The oven might need turning down a bit.",
+            "answer": "Needs fixing",
+            "flags": "No action word, not exact."
+          },
+          {
+            "from": "Workshop",
+            "text": "Unplug the drill before changing the bit.",
+            "answer": "Good step",
+            "flags": "Safety in the right place."
+          },
+          {
+            "from": "Workshop",
+            "text": "Change the bit. (Unplug it first.)",
+            "answer": "Needs fixing",
+            "flags": "The warning comes too late.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: a checklist that saved lives",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What was the checklist for?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK3"
+            ]
+          },
+          {
+            "q": "What happened to deaths after the checklist came in?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK3"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why did a simple list help?",
+              "core": "The steps weren’t new. So why did the checklist work?",
+              "extend": "Which design features made the checklist work? How could they improve a workplace procedure?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KK3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my procedure",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O2-KS4",
+          "VM-U3O2-KS6"
+        ],
+        "vcNote": "Creating procedural content for a workplace, with correct conventions.",
+        "prompt": {
+          "support": "Write a procedure for a job you know. Give it a **title**, the **equipment**, a **warning** and **numbered steps**. Draw a picture for one step.",
+          "core": "Write a procedure for a real workplace task, for a new worker. Include a title, purpose, equipment, a warning, numbered steps and a finish check. Sketch a picture for the hardest step.",
+          "extend": "Write a procedure for a task in a chosen workplace. Include purpose and scope, equipment, safety, numbered steps and a finish check. Use headings so readers can find their place, and a labelled sketch where words aren’t enough."
+        },
+        "plan": [
+          {
+            "label": "The task and the workplace:",
+            "lines": 1
+          },
+          {
+            "label": "Where could someone get hurt or get it wrong?",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "PROCEDURE:",
+          "Purpose:",
+          "Equipment:",
+          "Warning:",
+          "1.",
+          "Finish check:"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "title + equipment",
+          "warning before danger",
+          "action words",
+          "one action per step"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Test it",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O2-KS4"
+        ],
+        "vcNote": "Testing procedural content with its audience and revising it.",
+        "instructions": "Give your procedure to someone who hasn’t done the task. Watch them follow it. Don’t help. Then fix it. (No one to test it on? Wait a day, then follow it yourself, doing only what it says.)",
+        "need": [
+          "your procedure",
+          "a tester (or yourself, a day later)",
+          "the task’s equipment, if it’s safe to use"
+        ],
+        "steps": [
+          "Give your tester the procedure. Say nothing else.",
+          "Watch them do the task. Don’t help.",
+          "Mark each step where they stop, guess or ask.",
+          "Rewrite those steps.",
+          "Test it again."
+        ],
+        "notes": [
+          {
+            "label": "Who tested it:",
+            "lines": 1
+          },
+          {
+            "label": "Where they stopped or asked a question:",
+            "lines": 2
+          },
+          {
+            "label": "What I changed:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "marked-up procedure",
+          "photo of the test",
+          "teacher saw it"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I know the parts of a procedure.",
+          "I start steps with action words.",
+          "I put warnings before danger.",
+          "I tested and fixed my procedure."
+        ],
+        "questions": [
+          "The step I had to fix most:",
+          "A procedure at work or school that needs rewriting:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn the structure and language of procedures (title, purpose, equipment, safety, numbered steps, finish check; action words first, one action per step, exact details, warnings before the hazard), write a procedure for a real workplace task, and test it on a new user. The case study is the WHO Surgical Safety Checklist study (2009), where a 19-item checklist was followed by fewer deaths and complications.",
+    "prep": [
+      "Print workbooks.",
+      "Collect a few real procedures (school science lab, canteen, workshop) for comparison.",
+      "Plan for testing: pairs swap procedures, or test with another class."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What makes a procedure work",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** write steps for making toast; a partner follows them literally.",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Sort (15 min):** good step or needs fixing."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Structure and the case",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** the steam wand procedure.",
+          "**Case study (20 min):** the surgical checklist.",
+          "**Plan (15 min):** choose a task; list steps and hazards."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write and test",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (25 min).**",
+          "**Test it (15 min):** swap and follow.",
+          "**Fix & reflect (10 min):** revise, reflect, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Write for a beginner.",
+      "Parts: title, purpose, equipment, safety, numbered steps, finish check.",
+      "Action word first; one action per step; exact details.",
+      "Warnings go before the hazard.",
+      "Test on a new user and fix where they stop."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A frame with headings and numbered lines.",
+        "Choose a short task (5 steps)."
+      ],
+      "extend": [
+        "Add purpose, scope and headings (Level Up).",
+        "Analyse the study design in the case study."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O2-KS4",
+        "evidence": "Creates procedural content for a workplace, considering audience and purpose, and revises after testing (procedure, Test it)."
+      },
+      {
+        "vc": "VM-U3O2-KK3",
+        "evidence": "Identifies the characteristics of procedural texts (annotation, case study)."
+      },
+      {
+        "vc": "VM-U3O2-KS6",
+        "evidence": "Applies literacy conventions: imperatives, sentence structure, punctuation (sort, procedure)."
+      },
+      {
+        "vc": "VM-U3O2-KS3",
+        "evidence": "Uses headings and layout so readers can locate information (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 purpose; 2 equipment before you start; 3 warning placed before the hazard; 4 step starting with an action word; 5 exact detail (2 seconds); 6 one action per step; 7 finish check.\n\n**Sort:** good — lock the front door; set the oven to 180°C; unplug the drill before changing the bit. Needs fixing — “sort out the till and lights and stuff” (split into separate exact steps); “the oven might need turning down” (action word and number); “change the bit (unplug it first)” (move the warning before the action).\n\n**Case study:** a 19-item checklist used at three moments in surgery; deaths fell from 1.5% to 0.8% and major complications from 11% to 7% across 7,688 patients in eight hospitals; it worked by making sure known steps weren’t skipped. Extend: the before-and-after design means other changes may have contributed.",
+    "resources": [
+      {
+        "label": "Harvard Gazette — surgical safety checklist results (2009)",
+        "url": "https://news.harvard.edu/gazette/story/2009/01/surgical-safety-checklist-drops-deaths-and-complications-by-more-than-one-third/"
+      },
+      {
+        "label": "World Health Organization — Surgical Safety Checklist",
+        "url": "https://www.who.int/teams/integrated-health-services/patient-safety/research/safe-surgery"
+      },
+      {
+        "label": "WorkSafe Victoria — young workers",
+        "url": "https://www.worksafe.vic.gov.au/young-workers"
+      }
+    ],
+    "realityCheck": [
+      "**The toast hook works.** Partners follow steps literally (“put bread in toaster” before “get bread”). It makes “write for a beginner” obvious.",
+      "**Students without jobs:** let them write for a home or school task (cleaning a bike chain, setting up a gaming console, a canteen job).",
+      "**Don’t overstate the study.** It was a before-and-after design; the course says so at extend level.",
+      "**Works in a real class:** yes. Testing is the part students remember."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a procedure frame.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with the six parts, step-writing rules and testing.",
+      "extend": "Aimed at about Year 7 and up: imperatives, purpose and scope, headings for navigation, and study-design critique."
+    }
+  }
+}
