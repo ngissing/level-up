@@ -1,0 +1,875 @@
+{
+  "id": "vm-rights-at-work",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Your boss says breaks are only for full-timers. Is that true? You have rights at work. You also have jobs to do. The facts are written down. You just need to know where.",
+      "core": "Your manager says casuals don’t get breaks, payslips are “a hassle”, and you’ll be paid for your trial “if it works out”. Is any of that legal? You have rights at work, and responsibilities too. The facts are written down by the people who make and enforce the rules. You just need to know where to look, and who to ask.",
+      "extend": "Every worker in Australia has rights and responsibilities. They are set out in official texts written for new workers. Learn to read those texts. Ask who they are for and what they are for. Then learn where to get reliable help. It is your best protection against being underpaid or unsafe."
+    },
+    "why": {
+      "support": "Young workers are often paid the wrong amount. Knowing your rights helps you stop that.",
+      "core": "Young workers are among the most likely to be underpaid or put at risk. Knowing your rights, and your responsibilities, means you can spot problems and get them fixed.",
+      "extend": "Rights only protect you if you know them. Read official texts with care. Know which agency handles which problem. That turns rules on paper into real protection."
+    },
+    "canDo": {
+      "support": [
+        "I know some of my rights at work.",
+        "I know my jobs at work.",
+        "I can find the right place to get help.",
+        "I can write a rights card for a new worker."
+      ],
+      "core": [
+        "I can name my main rights and responsibilities at work.",
+        "I can explain the purpose and audience of official work information.",
+        "I can find reliable help for different work problems.",
+        "I can write clear rights information for a new worker."
+      ],
+      "extend": [
+        "I can analyse how official work texts are built and worded.",
+        "I can explain their purpose and audience.",
+        "I can find reliable sources of help.",
+        "I can write an informative text for young workers."
+      ]
+    },
+    "showIt": "Make a “know your rights” card for a new young worker: rights, responsibilities and where to get help.",
+    "vocab": [
+      {
+        "word": "rights",
+        "meaning": "what the law says you must get",
+        "example": "You have the right to a payslip."
+      },
+      {
+        "word": "responsibilities",
+        "meaning": "what you must do",
+        "example": "Working safely is your responsibility."
+      },
+      {
+        "word": "award",
+        "meaning": "the rules for minimum pay in a type of job",
+        "example": "The award sets my pay rate."
+      },
+      {
+        "word": "payslip",
+        "meaning": "a record of what you were paid",
+        "example": "I get a payslip every week."
+      },
+      {
+        "word": "casual",
+        "meaning": "work with no set hours",
+        "example": "Casuals get a higher hourly rate."
+      },
+      {
+        "word": "Fair Work Ombudsman",
+        "meaning": "the government agency for pay and work rights",
+        "example": "I called the Fair Work Ombudsman."
+      },
+      {
+        "word": "wage theft",
+        "meaning": "when a boss deliberately doesn’t pay what they owe",
+        "example": "Wage theft is a crime in Victoria.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "WorkSafe",
+        "meaning": "the Victorian agency for safety at work",
+        "example": "Report a dangerous site to WorkSafe.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "entitlement",
+        "meaning": "something you have a legal right to",
+        "example": "Breaks are an entitlement.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Rights at Work in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Rights at Work",
+        "sub": "Know what you’re owed, and what you owe.",
+        "icon": "lucide:scale",
+        "say": "Rights at work. Know what you are owed, and what you owe."
+      },
+      {
+        "kind": "big",
+        "title": "Your rights",
+        "text": "Right pay. A payslip. Breaks. A safe place to work.",
+        "icon": "lucide:shield-check",
+        "say": "You have rights. The right pay. A payslip. Breaks. And a safe place to work.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Your responsibilities",
+        "text": "Turn up. Follow safe instructions. Work safely.",
+        "icon": "lucide:hard-hat",
+        "say": "You have responsibilities too. Turn up on time. Follow safe instructions. Work safely and look out for others.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Get help",
+        "pillIcon": "lucide:life-buoy",
+        "title": "Pay and conditions",
+        "text": "Fair Work Ombudsman",
+        "icon": "lucide:wallet",
+        "say": "Problem with pay or conditions? The Fair Work Ombudsman.",
+        "vc": [
+          "VM-U3O2-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Get help",
+        "pillIcon": "lucide:life-buoy",
+        "title": "Safety",
+        "text": "WorkSafe Victoria",
+        "icon": "lucide:hard-hat",
+        "say": "Problem with safety? WorkSafe Victoria.",
+        "vc": [
+          "VM-U3O2-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Get help",
+        "pillIcon": "lucide:life-buoy",
+        "title": "Advice and support",
+        "text": "A union, the Young Workers Centre",
+        "icon": "lucide:users",
+        "say": "Want advice or support? A union, or the Young Workers Centre.",
+        "vc": [
+          "VM-U3O2-KS2"
+        ]
+      },
+      {
+        "kind": "stat",
+        "big": "10 years",
+        "title": "the maximum jail term for wage theft in Victoria",
+        "sub": "Wage theft became a crime on 1 July 2021. Source: Victorian Government",
+        "say": "In Victoria, wage theft is a crime. A boss who deliberately underpays workers can face up to ten years in jail.",
+        "vc": [
+          "VM-U3O2-KK2"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Make a rights card for a new worker.",
+        "icon": "lucide:id-card",
+        "say": "Your mission. Make a know your rights card for a new young worker."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Know what you’re owed",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "Everyone at work has **rights** and **responsibilities**.\n\n**Your rights include:**\n- the right pay for your job and age.\n- a **payslip** every time you’re paid.\n- breaks.\n- a safe place to work.\n- being treated fairly.\n\n**Your responsibilities include:**\n- turning up on time.\n- following safe instructions.\n- working safely.\n- telling someone if you see a danger.\n\nWhen you start a job, your boss must give you a **Fair Work Information Statement**. It lists your main rights.\n\n**Where to get help:**\n- Pay problems: the **Fair Work Ombudsman**.\n- Safety problems: **WorkSafe Victoria**.\n- Advice: a union, or the **Young Workers Centre**.\n\nThese services are free.",
+          "core": "Every worker in Australia has **rights** (what you must get) and **responsibilities** (what you must do).\n\n**Your rights include:**\n- the minimum pay for your job and age, set by an **award**.\n- a **payslip** within one working day of being paid.\n- breaks and leave (casuals get a higher hourly rate instead of paid leave).\n- a safe workplace, with training and safety gear.\n- fair treatment, with no bullying.\n- joining a union if you want to.\n\n**Your responsibilities include:**\n- turning up on time and doing the job.\n- following reasonable and safe instructions.\n- working safely, and reporting hazards.\n- giving notice if you leave.\n\nWhen you start, your employer must give you the **Fair Work Information Statement**. Casuals also get the **Casual Employment Information Statement**. These are official texts for new workers. They use plain words. Headings help you find what you need.\n\n**Where to get help (all free):**\n- Pay, breaks or conditions: the **Fair Work Ombudsman**.\n- Safety: **WorkSafe Victoria**.\n- **Wage theft** (when a boss underpays on purpose): the **Wage Inspectorate Victoria**.\n- Advice and support: your union, or the **Young Workers Centre**.",
+          "extend": "Australian workers have legal **rights** and **responsibilities**. They come from laws, awards and agreements. Official texts explain them to workers.\n\n**Core rights include:**\n- minimum pay for your role and age, set by an **award**.\n- a **payslip** within one working day of pay day.\n- limits on weekly hours, and paid leave (casuals get a higher rate instead).\n- a safe workplace, with training, supervision and safety gear.\n- protection from bullying, discrimination and unfair sacking.\n- the freedom to join a union.\n\n**Responsibilities include:** following fair and lawful directions, working safely, reporting hazards and giving notice.\n\nNew employees must get the **Fair Work Information Statement**. Casuals also get the **Casual Employment Information Statement**. Their purpose is to inform. Their audience is new workers with no legal training. That shapes their features: plain words, short sections, headings and contact details.\n\n**Reliable help depends on the problem:**\n- pay and conditions: the **Fair Work Ombudsman**.\n- health and safety: **WorkSafe Victoria**.\n- **wage theft**, a crime in Victoria since 2021: the **Wage Inspectorate Victoria**.\n- independent advice: unions and the **Young Workers Centre**.\n\nBe wary of advice on forums or social media. Official sources are current and accurate."
+        },
+        "vc": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS1",
+          "VM-U3O2-KS2"
+        ],
+        "vcNote": "The structure, language, purpose and audience of official information about workplace rights; reliable sources of help."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "When underpaying became a crime",
+        "icon": "lucide:gavel",
+        "body": {
+          "support": "In **2021**, Victoria made a new law. If a boss **deliberately** underpays workers, it is a **crime**. It is called **wage theft**.\n\nA boss can go to jail for up to **10 years**. A company can be fined over **$1 million**.\n\nIn **2022**, the Wage Inspectorate Victoria charged a restaurant in Macedon, and its owner. They were the first business in Australia to face these charges.\n\nThe charges said four former workers were not paid about **$7,000**. That included pay, extra weekend pay and super.\n\nIf you think you’re underpaid, you can get help. It’s free.",
+          "core": "On **1 July 2021**, Victoria became the first state to make deliberate underpayment of workers a **crime**. It’s called **wage theft**. Under the law, individuals can be jailed for up to **10 years**, and companies fined more than **$1.1 million**.\n\nThe law is enforced by the **Wage Inspectorate Victoria**.\n\nIn **2022**, the Inspectorate laid the first criminal wage theft charges in Australia. It charged a restaurant in Macedon, and its owner, with **94** offences. The charges alleged that four former staff were not paid about **$7,000** in wages, penalty rates and superannuation.\n\nMany underpaid workers are young and in casual jobs. They often don’t know their rights, or are scared to speak up. The law gives them another place to go for help.",
+          "extend": "On **1 July 2021**, Victoria became the first state to make deliberate underpayment a crime: **wage theft**. A person can face up to **10 years’ jail**. A company can be fined more than **$1.1 million**. The **Wage Inspectorate Victoria** enforces the law.\n\nIn **2022**, the Inspectorate laid Australia’s first criminal wage theft charges. It charged a Macedon restaurant and its owner with **94** offences. It alleged that four former staff were short-changed about **$7,000**. That included wages, penalty rates and super.\n\nThe Fair Work system mostly gets money back through civil action. This law adds a criminal path. It targets underpaying on purpose, not honest mistakes.\n\nYoung casuals are often most at risk. They may not know their award or get payslips. They may fear losing shifts if they speak up. Knowing which agency handles which problem is the first step to a fix."
+        },
+        "source": {
+          "name": "HRM Online — “Victorian restaurant becomes first Australian business to face criminal wage theft charges” (2022)",
+          "url": "https://hrmonline.com.au/?p=13884"
+        },
+        "think": {
+          "support": [
+            "What is wage theft?",
+            "What happened in Macedon?"
+          ],
+          "core": [
+            "What changed in Victoria in 2021?",
+            "Why are young casual workers often most at risk?",
+            "Where could an underpaid worker get help?"
+          ],
+          "extend": [
+            "How is a criminal law different from recovering money through Fair Work?",
+            "Why might the law target deliberate underpayment, not mistakes?",
+            "Would this law change how employers behave? Why?"
+          ]
+        },
+        "vc": [
+          "VM-U3O2-KS2"
+        ],
+        "vcNote": "A real enforcement case showing where workers can seek reliable help."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a rights information sheet",
+      "docTitle": "YOUR RIGHTS AT WORK — INFORMATION FOR NEW EMPLOYEES (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U3O2-KK1",
+        "VM-U3O2-KK2",
+        "VM-U3O2-KS1"
+      ],
+      "vcNote": "The structure and features of an official information text, and its purpose and audience.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Who this is for",
+          "value": "Read this if you are starting a new job."
+        },
+        {
+          "n": 2,
+          "label": "Your pay",
+          "value": "You must be paid at least the minimum rate in your award.",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "Payslips",
+          "value": "You must get a payslip within 1 working day of being paid."
+        },
+        {
+          "n": 4,
+          "label": "Hours and leave",
+          "value": "Maximum weekly hours, and leave if you are not a casual."
+        },
+        {
+          "n": 5,
+          "label": "Unions",
+          "value": "You can choose to join a union."
+        },
+        {
+          "n": 6,
+          "label": "Get help",
+          "value": "Fair Work Ombudsman: fairwork.gov.au or 13 13 94."
+        }
+      ],
+      "note": "Simplified example based on the Fair Work Information Statement.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Audience",
+          "note": "Says who should read it."
+        },
+        {
+          "n": 2,
+          "label": "Heading + must",
+          "note": "A clear right."
+        },
+        {
+          "n": 3,
+          "label": "Exact detail",
+          "note": "A time limit you can check."
+        },
+        {
+          "n": 4,
+          "label": "Summary",
+          "note": "Short points, more info elsewhere."
+        },
+        {
+          "n": 5,
+          "label": "Choice",
+          "note": "“Can” = your choice."
+        },
+        {
+          "n": 6,
+          "label": "Contact",
+          "note": "Where to get help."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Who helps with what",
+      "steps": [
+        {
+          "title": "Pay + conditions",
+          "text": "Fair Work Ombudsman",
+          "icon": "lucide:wallet"
+        },
+        {
+          "title": "Safety",
+          "text": "WorkSafe Victoria",
+          "icon": "lucide:hard-hat"
+        },
+        {
+          "title": "Wage theft",
+          "text": "Wage Inspectorate Victoria",
+          "icon": "lucide:gavel"
+        },
+        {
+          "title": "Advice",
+          "text": "A union, Young Workers Centre",
+          "icon": "lucide:users"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "How soon after pay day must you get a payslip?",
+        "options": [
+          "Within 1 working day",
+          "Within a month",
+          "Only if you ask",
+          "Never"
+        ],
+        "answer": 0,
+        "explain": "Payslips must be given within one working day of pay day.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "q": "Which is a **responsibility** at work?",
+        "options": [
+          "Following safe instructions",
+          "Getting a payslip",
+          "Being paid the minimum rate",
+          "Joining a union"
+        ],
+        "answer": 0,
+        "explain": "The others are rights.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "q": "You think you’re underpaid. Who can help, for free?",
+        "options": [
+          "The Fair Work Ombudsman",
+          "A random forum",
+          "Your boss’s friend",
+          "Nobody"
+        ],
+        "answer": 0,
+        "explain": "The Fair Work Ombudsman handles pay and conditions.",
+        "vc": [
+          "VM-U3O2-KS2"
+        ]
+      },
+      {
+        "q": "You see a dangerous machine with no guard. Who handles safety?",
+        "options": [
+          "WorkSafe Victoria",
+          "The ATO",
+          "Centrelink",
+          "The council"
+        ],
+        "answer": 0,
+        "explain": "WorkSafe Victoria handles workplace safety.",
+        "vc": [
+          "VM-U3O2-KS2"
+        ]
+      },
+      {
+        "q": "What is the Fair Work Information Statement for?",
+        "options": [
+          "Telling new employees their main rights",
+          "Advertising jobs",
+          "Paying tax",
+          "Booking shifts"
+        ],
+        "answer": 0,
+        "explain": "Its purpose is to inform; its audience is new employees.",
+        "vc": [
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS1"
+        ]
+      },
+      {
+        "q": "Since 2021, deliberately underpaying workers in Victoria is…",
+        "options": [
+          "A crime",
+          "Allowed for casuals",
+          "Only a warning",
+          "Legal if it’s small"
+        ],
+        "answer": 0,
+        "explain": "Wage theft can mean up to 10 years’ jail.",
+        "vc": [
+          "VM-U3O2-KS2"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Make a rights card for a new young worker. Put their rights, their jobs and where to get help.",
+      "core": "Make a “know your rights” card for a new young worker: rights, responsibilities and where to get help.",
+      "extend": "Create an informative “know your rights” text for new young workers, choosing the content, structure and language for that audience, with reliable sources of help."
+    },
+    "checklist": [
+      "My card has at least four rights",
+      "It has at least three responsibilities",
+      "It says where to get help, with real contact details",
+      "It’s written for a new young worker",
+      "I checked my facts on an official website"
+    ],
+    "levelUp": "Find the real Fair Work Information Statement. Name one thing it includes that your card doesn’t, and explain who it’s written for.",
+    "vc": [
+      "VM-U3O2-KK1",
+      "VM-U3O2-KK2",
+      "VM-U3O2-KS1",
+      "VM-U3O2-KS2"
+    ],
+    "model": {
+      "kind": "Example rights card",
+      "text": "**NEW AT WORK? KNOW YOUR RIGHTS**\n\n**You have the right to:**\n- the right pay for your job and age\n- a payslip within 1 working day of pay day\n- breaks, and a safe place to work\n- be treated fairly\n\n**You need to:**\n- turn up on time\n- follow safe instructions\n- tell someone about dangers\n\n**Need help? It’s free.**\n- Pay: Fair Work Ombudsman, 13 13 94\n- Safety: WorkSafe Victoria\n- Advice: Young Workers Centre",
+      "why": [
+        "It has a clear title, and headings a new worker can scan.",
+        "Rights and responsibilities are both included, in plain words.",
+        "It ends with real places to get help, matched to the problem."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Content",
+        "start": "Few rights, or some are wrong.",
+        "good": "Four rights and three responsibilities.",
+        "great": "Accurate details, like the payslip time limit."
+      },
+      {
+        "skill": "Purpose and audience",
+        "start": "Not clear who it’s for.",
+        "good": "Written for a new young worker.",
+        "great": "Easy to scan, in plain words."
+      },
+      {
+        "skill": "Reliable help",
+        "start": "No help listed.",
+        "good": "Real places to get help.",
+        "great": "Each problem matched to the right agency."
+      }
+    ],
+    "choices": {
+      "prompt": "Who is your rights card for?",
+      "options": [
+        "A new worker at a café or fast food place",
+        "A new apprentice on a worksite",
+        "A new casual in a shop",
+        "A friend starting their first job"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Know what you’re owed",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name **three** rights and **two** responsibilities.",
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KK1"
+            ]
+          },
+          {
+            "q": "What must your employer give you when you start? Who is it written for?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK2",
+              "VM-U3O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Who helps with pay? Who helps with safety?",
+              "core": "Match each problem to the right place: pay, safety, wage theft, advice.",
+              "extend": "Why does the right source of help depend on the problem?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KS2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a rights information sheet",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "Why is it written this way?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the sheet. Use the word bank. Write what it does.",
+          "core": "Each number marks a feature. Say what it is, and why it suits new workers."
+        },
+        "wordBank": {
+          "support": [
+            "who it’s for",
+            "a right",
+            "exact detail",
+            "short summary",
+            "a choice",
+            "where to get help"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Right or responsibility?",
+        "pagebreak": true,
+        "choices": [
+          "Right",
+          "Responsibility"
+        ],
+        "reasonLabel": "Who can help if it goes wrong?",
+        "instructions": "Is each one a right (what you must get) or a responsibility (what you must do)? Then say who could help if it goes wrong.",
+        "vc": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KS2"
+        ],
+        "cards": [
+          {
+            "from": "At work",
+            "text": "Getting a payslip after each pay.",
+            "answer": "Right",
+            "flags": "Fair Work Ombudsman."
+          },
+          {
+            "from": "At work",
+            "text": "Wearing the safety boots you were given.",
+            "answer": "Responsibility",
+            "flags": "Working safely."
+          },
+          {
+            "from": "At work",
+            "text": "Being paid at least the award rate.",
+            "answer": "Right",
+            "flags": "Fair Work Ombudsman."
+          },
+          {
+            "from": "At work",
+            "text": "Telling your supervisor about a spill.",
+            "answer": "Responsibility",
+            "flags": "Reporting hazards."
+          },
+          {
+            "from": "At work",
+            "text": "Having a guard on a dangerous machine.",
+            "answer": "Right",
+            "flags": "WorkSafe Victoria."
+          },
+          {
+            "from": "At work",
+            "text": "Giving notice before you leave the job.",
+            "answer": "Responsibility",
+            "flags": "Check your award.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: when underpaying became a crime",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "What is wage theft?",
+              "core": "What changed in Victoria in 2021?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KS2"
+            ]
+          },
+          {
+            "q": "What were the restaurant and its owner charged with?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KS2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Where can an underpaid worker get help?",
+              "core": "Why are young casual workers often most at risk, and where can they get help?",
+              "extend": "How is a criminal law different from recovering money through Fair Work? Why does that matter?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KS2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my rights card",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KS1",
+          "VM-U3O2-KS2"
+        ],
+        "vcNote": "Creating informative content about rights for a specific workplace audience.",
+        "prompt": {
+          "support": "Make a rights card for a new young worker. Put **4 rights**, **3 responsibilities** and **where to get help**.",
+          "core": "Make a “know your rights” card for a new young worker in a workplace you choose. Include at least four rights, three responsibilities and real places to get help. Use headings and short points they can scan.",
+          "extend": "Create a “know your rights” text for new young workers in a specific industry. Choose content, structure and language for that audience, and include accurate, reliable sources of help."
+        },
+        "plan": [
+          {
+            "label": "Who it’s for (job and age):",
+            "lines": 1
+          },
+          {
+            "label": "Where I checked my facts:",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "NEW AT WORK?",
+          "You have the right to…",
+          "You need to…",
+          "Need help? It’s free."
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "title + headings",
+          "rights",
+          "responsibilities",
+          "real help, matched to the problem"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: the real statement",
+        "pagebreak": true,
+        "instructions": "Find the real Fair Work Information Statement on fairwork.gov.au.",
+        "items": [
+          {
+            "q": "One thing it includes that your card doesn’t:",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O2-KK1"
+            ]
+          },
+          {
+            "q": "Who is it written for? How can you tell from its features?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O2-KK2",
+              "VM-U3O2-KK3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I know my main rights at work.",
+          "I know my responsibilities.",
+          "I know where to get help.",
+          "I can write clear rights info."
+        ],
+        "questions": [
+          "A right I didn’t know about before:",
+          "Who I’d contact first if I was underpaid:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students read official information about workplace rights and responsibilities (based on the Fair Work Information Statement), analyse its purpose, audience and features, match problems to reliable agencies (Fair Work Ombudsman, WorkSafe Victoria, Wage Inspectorate Victoria, unions, Young Workers Centre), and create a “know your rights” card for a new young worker. The case study is Victoria’s 2021 wage theft law and Australia’s first criminal wage theft charges (2022).",
+    "prep": [
+      "Print workbooks.",
+      "Have the current Fair Work Information Statement and Casual Employment Information Statement ready (fairwork.gov.au).",
+      "Check pay and leave details against current Fair Work information each year.",
+      "Know your school’s referral path if a student is being exploited at work."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Rights and responsibilities",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** three things a manager said. Legal or not?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (20 min):** right or responsibility, and who helps."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Official information",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** the information sheet: purpose, audience, features.",
+          "**Case study (20 min):** wage theft law.",
+          "**Plan (15 min):** rights card audience and content."
+        ]
+      },
+      {
+        "title": "Lesson 3 — The rights card",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (30 min).**",
+          "**Level Up (10 min):** compare with the real statement.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Rights: right pay, payslips, breaks, safety, fair treatment.",
+      "Responsibilities: on time, safe instructions, work safely, report hazards.",
+      "Official information is written to inform new employees: plain language, headings, contacts.",
+      "Pay → Fair Work Ombudsman; safety → WorkSafe; wage theft → Wage Inspectorate Victoria."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A card template with three headings.",
+        "Fewer sort cards."
+      ],
+      "extend": [
+        "Analyse features against purpose and audience.",
+        "Compare with the real Fair Work Information Statement (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O2-KK1",
+        "evidence": "Identifies the structure and language of official workplace information (annotation, rights card)."
+      },
+      {
+        "vc": "VM-U3O2-KK2",
+        "evidence": "Identifies the purpose and intended audience of the text (annotation, Level Up)."
+      },
+      {
+        "vc": "VM-U3O2-KS1",
+        "evidence": "Explains the purpose and audience of informational texts, and writes for a specific audience (rights card)."
+      },
+      {
+        "vc": "VM-U3O2-KS2",
+        "evidence": "Identifies reliable, accurate sources of help for different problems (sort, card)."
+      },
+      {
+        "vc": "VM-U3O2-KK3",
+        "evidence": "Explains the characteristics of an informational text (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 audience statement; 2 heading plus a right expressed with “must”; 3 precise, checkable detail (time limit); 4 brief summary of standards; 5 permission/choice (“can”); 6 contact details for help.\n\n**Sort:** payslip — right (FWO); safety boots — responsibility; award rate — right (FWO); reporting a spill — responsibility; machine guard — right (WorkSafe); giving notice — responsibility.\n\n**Case study:** from 1 July 2021, deliberate underpayment became a crime (up to 10 years’ jail, fines over $1.1m for companies); in 2022 a Macedon restaurant and owner faced 94 charges over about $7,000 allegedly owed to four former staff; young casuals often don’t know their award, lack payslips or fear losing shifts.",
+    "resources": [
+      {
+        "label": "HRM Online — first criminal wage theft charges (2022)",
+        "url": "https://hrmonline.com.au/?p=13884"
+      },
+      {
+        "label": "Premier of Victoria — Wage theft now a crime in Victoria",
+        "url": "https://www.premier.vic.gov.au/wage-theft-now-crime-victoria"
+      },
+      {
+        "label": "Fair Work Ombudsman — Fair Work Information Statement",
+        "url": "https://www.fairwork.gov.au/"
+      },
+      {
+        "label": "Young Workers Centre (Victoria)",
+        "url": "https://www.youngworkers.org.au/"
+      },
+      {
+        "label": "WorkSafe Victoria — young workers",
+        "url": "https://www.worksafe.vic.gov.au/young-workers"
+      }
+    ],
+    "realityCheck": [
+      "**Some students are being underpaid right now.** Expect disclosures. Point them to the Fair Work Ombudsman or the Young Workers Centre rather than advising on their case.",
+      "**Pay rules change.** Check payslip, award and leave details on fairwork.gov.au each year.",
+      "**Avoid naming the employer in the case study as guilty.** The source reports charges; the course says “charged” and “alleged”.",
+      "**Unions can be a political topic.** Present joining a union as a legal right and a source of advice, not as a recommendation.",
+      "**Works in a real class:** yes. Students with jobs immediately check their own payslips."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a card template.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with information statements, agencies, wage theft and a rights card.",
+      "extend": "Aimed at about Year 7 and up: National Employment Standards, purpose and audience analysis, civil vs criminal pathways, and the real statement."
+    }
+  }
+}

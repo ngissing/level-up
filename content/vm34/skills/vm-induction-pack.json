@@ -1,0 +1,936 @@
+{
+  "id": "vm-induction-pack",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Remember your first day somewhere new? You didn’t know where to go. You didn’t know who to ask. An induction pack fixes that. Now you get to write one.",
+      "core": "First day. You don’t know where the toilets are, who your supervisor is, or what to do if the fire alarm goes. An induction pack answers all of that before anyone has to ask. This is the boss mission for On the Job: you’ll build one for a real workplace.",
+      "extend": "An induction pack is a workplace’s first impression. It is also its first safety control. Building one pulls together all you’ve learned in this zone. You’ll mix three kinds of work writing. Then you’ll organise it so a nervous new starter can find things fast."
+    },
+    "why": {
+      "support": "New workers get hurt most in their first months. A good pack helps keep them safe.",
+      "core": "WorkSafe Victoria says young workers are most likely to be hurt in their first six months in a new job. A good induction is one of the best protections.",
+      "extend": "Young workers are most at risk early in a new job. A clear induction is a legal duty for employers. It is also a real safety tool."
+    },
+    "canDo": {
+      "support": [
+        "I can plan what goes in an induction pack.",
+        "I can use a contents page and headings.",
+        "I can write an induction pack for a workplace."
+      ],
+      "core": [
+        "I can plan an induction pack for a workplace and audience.",
+        "I can use a contents page, headings and sub-headings.",
+        "I can write clear information and procedures for a new worker."
+      ],
+      "extend": [
+        "I can plan a pack for a workplace, audience and purpose.",
+        "I can organise it with contents and headings.",
+        "I can mix facts and steps.",
+        "I can point new workers to reliable help."
+      ]
+    },
+    "showIt": "Build an induction pack for a new young worker at a workplace you choose. Test it: can a reader find answers fast?",
+    "vocab": [
+      {
+        "word": "induction",
+        "meaning": "the welcome and training on your first days",
+        "example": "My induction took two hours."
+      },
+      {
+        "word": "contents page",
+        "meaning": "a list of what is in a document, with page numbers",
+        "example": "Check the contents page for “Safety”."
+      },
+      {
+        "word": "heading",
+        "meaning": "a title for a section",
+        "example": "The heading says “Your first day”."
+      },
+      {
+        "word": "sub-heading",
+        "meaning": "a smaller title inside a section",
+        "example": "Under Safety is the sub-heading “Fire”."
+      },
+      {
+        "word": "supervisor",
+        "meaning": "the person in charge of your work",
+        "example": "Ask your supervisor if you’re not sure."
+      },
+      {
+        "word": "emergency",
+        "meaning": "a sudden, dangerous event",
+        "example": "In an emergency, go to the car park."
+      },
+      {
+        "word": "organisational text",
+        "meaning": "a text about how a workplace runs",
+        "example": "The staff handbook is an organisational text.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "onboarding",
+        "meaning": "everything that helps a new worker settle in",
+        "example": "Good onboarding takes weeks, not hours.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Induction Pack in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Induction Pack",
+        "sub": "Everything a new starter needs.",
+        "icon": "lucide:book-open",
+        "say": "Induction pack. Everything a new starter needs."
+      },
+      {
+        "kind": "big",
+        "title": "The first six months",
+        "text": "Young workers are most likely to be hurt early in a new job.",
+        "icon": "lucide:triangle-alert",
+        "say": "WorkSafe Victoria says young workers are most likely to be hurt in their first six months in a new job.",
+        "vc": [
+          "VM-U3O2-KK2"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "What goes in",
+        "steps": [
+          "Welcome.",
+          "Who’s who.",
+          "Your first day.",
+          "Safety and emergencies.",
+          "Your rights.",
+          "Who to ask."
+        ],
+        "icon": "lucide:list",
+        "say": "What goes in? A welcome. Who is who. Your first day. Safety and emergencies. Your rights. And who to ask for help.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Find it fast",
+        "pillIcon": "lucide:search",
+        "title": "Contents page",
+        "text": "What’s in it, and where.",
+        "icon": "lucide:list-ordered",
+        "say": "Start with a contents page. What is in the pack, and where.",
+        "vc": [
+          "VM-U3O2-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Find it fast",
+        "pillIcon": "lucide:search",
+        "title": "Clear headings",
+        "text": "“Fire” beats “Miscellaneous”.",
+        "icon": "lucide:heading",
+        "say": "Use clear headings. Fire is better than miscellaneous.",
+        "vc": [
+          "VM-U3O2-KS3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Find it fast",
+        "pillIcon": "lucide:search",
+        "title": "Mix the text types",
+        "text": "Info to read. Steps to follow.",
+        "icon": "lucide:layers",
+        "say": "Mix the text types. Information to read. Steps to follow.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Build an induction pack. Test it.",
+        "icon": "lucide:book-open",
+        "say": "Your mission. Build an induction pack for a new young worker. Then test it."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Welcome aboard",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "An **induction** is the welcome and training a new worker gets. An **induction pack** is the document that goes with it.\n\n**Who is it for?** A new worker. They are nervous. They don’t know anyone. They don’t know the rules.\n\n**What goes in it:**\n- **Welcome:** what the business does.\n- **Who’s who:** your **supervisor**, and who to ask.\n- **Your first day:** when to arrive, what to wear, where to go.\n- **Safety:** dangers, safety gear, and what to do in an **emergency**.\n- **Your rights:** pay, breaks, and where to get help.\n- **Steps:** how to do one or two key jobs.\n\n**Make it easy to use:**\n- Put a **contents page** at the front.\n- Use clear **headings**.\n- Keep sections short.\n- Use dot points and numbered steps.\n.\nA new worker should find any answer in under a minute.",
+          "core": "An **induction** is how a workplace welcomes and trains a new worker. The **induction pack** is the document that goes with it: in print, online or both.\n\n**Purpose and audience.** The purpose is to help a new worker settle in and stay safe. The audience is someone on their first day: nervous, new to the place and often young. WorkSafe Victoria says employers must give young workers the induction, training and information they need to work safely.\n\n**What goes in it:**\n- **Welcome:** what the business does and what it values.\n- **Who’s who:** your **supervisor**, and who to go to for what.\n- **Your first day:** start time, uniform, where to go, breaks.\n- **Safety:** how to spot and report hazards, safety gear, first aid and **emergency** steps.\n- **Your rights:** pay, breaks, payslips, and where to get help.\n- **How we do it:** procedures for one or two key tasks.\n\nThat’s a mix of text types. Some parts are **informational** (facts to read). Some are **procedural** (steps to follow). Some are **organisational** (how the workplace runs).\n\n**Make it easy to find things:**\n- a **contents page** with section names and page numbers.\n- clear **headings** and **sub-headings** (“Fire” beats “Other info”).\n- short sections, dot points and numbered steps.\n- the most important things (safety, who to ask) early.\n\n**Test it.** Give it to someone and ask, “What do you do if the fire alarm goes?” Time how long they take to find the answer.",
+          "extend": "An **induction** introduces a new worker to a workplace: its people, rules, hazards and ways of working. The **induction pack** is the document behind it, and often the first thing a new starter reads.\n\n**Purpose and audience.** Its purposes are to inform, to instruct and to protect. Its audience is a new, often young, worker who is anxious, overloaded with information and unlikely to read it all. WorkSafe Victoria says employers are responsible for giving young workers the induction, training and information they need to work safely.\n\n**Typical sections:**\n- **welcome:** what the organisation does and values.\n- **who’s who:** the **supervisor** and key contacts.\n- **first day:** start time, uniform, location, breaks.\n- **health and safety:** spotting and reporting hazards, controls and safety gear, policies, first aid and **emergency** procedures.\n- **rights and responsibilities:** pay, payslips, breaks and reliable sources of help.\n- **key procedures:** one or two core tasks.\n\nAn induction pack is a hybrid. It combines **organisational** texts (how the workplace runs), **informational** texts (facts) and **procedural** texts (steps). Each part should use the features of its type.\n\n**Navigation.** Readers rarely read a pack from start to end. They look things up. So it needs a **contents page**, informative **headings** and **sub-headings**, short sections, and safety-critical information placed early. Longer packs may need an index.\n\n**Test it** by asking a new reader to find specific answers, and timing them. Every slow search shows a heading or section to fix."
+        },
+        "vc": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS3",
+          "VM-U3O2-KS2"
+        ],
+        "vcNote": "The structure and language of organisational, informational and procedural texts; navigation features; reliable sources of help."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The first six months",
+        "icon": "lucide:hard-hat",
+        "body": {
+          "support": "**WorkSafe Victoria** looks after safety at work in Victoria.\n\nIn **February 2026**, it put out a warning to employers.\n\nIt said young workers are most likely to be hurt in their **first six months** in a new job. This includes **apprentices**. They are new. They don’t know the dangers yet.\n\nWorkSafe said bosses must do more. They must train young workers. They must tell them how to stay safe.\n\nWorkSafe says a good start covers:\n- how to spot and report danger.\n- the dangers at that workplace.\n- the safety rules.\n- first aid and emergencies.\n\nAn induction pack is one way to do this.",
+          "core": "**WorkSafe Victoria** is the agency that enforces safety at work in Victoria.\n\nIn **February 2026**, it urged employers to do more to protect **apprentices**. It said young workers are most likely to be hurt in the **first six months** of a new job. They are still learning the work and its risks.\n\nWorkSafe runs a campaign for bosses called **“Would you work for you?”** It asks them to see their workplace through a young worker’s eyes.\n\nWorkSafe says bosses must give young workers the training and information they need. A safety induction should cover:\n- how to spot and report unsafe work.\n- the hazards at that workplace, and how they are controlled.\n- safety rules and procedures.\n- first aid and emergencies.\n\nThose are the core sections of a good induction pack.",
+          "extend": "**WorkSafe Victoria** is the state’s workplace health and safety regulator.\n\nIn **February 2026**, it urged employers to do more to protect **apprentices**. It said young workers, including many apprentices, have the highest chance of being injured in the **first six months** of a new job, while they are still learning the work and its risks.\n\nIts employer campaign, **“Would you work for you?”**, asks employers to see their workplace through a young worker’s eyes. Would they feel safe, trained and able to speak up?\n\nWorkSafe’s guidance says employers are responsible for giving young workers the induction, training and information they need to work safely. It lists four key parts of a young worker’s safety induction:\n- an introduction to health and safety, including how to spot and report unsafe work.\n- the workplace’s hazards and how they are controlled.\n- safety policies and procedures.\n- first aid and emergency procedures.\n\nAn induction pack turns that guidance into a document. But a pack only works if it is read, understood and backed by supervision. Young workers may not ask questions for fear of looking slow."
+        },
+        "source": {
+          "name": "WorkSafe Victoria — “Employers urged to do more to protect apprentices” (February 2026)",
+          "url": "https://worksafe.vic.gov.au/news/2026-02/employers-urged-do-more-protect-apprentices"
+        },
+        "think": {
+          "support": [
+            "When are young workers most likely to get hurt?",
+            "What should a safety induction cover?"
+          ],
+          "core": [
+            "Why are young workers most at risk in their first six months?",
+            "What does “Would you work for you?” ask employers to do?",
+            "Which of the four parts would matter most in a job you know?"
+          ],
+          "extend": [
+            "Why isn’t a document enough on its own to keep new workers safe?",
+            "Why might young workers not ask questions? How could a pack help?",
+            "How would you test whether an induction pack actually works?"
+          ]
+        },
+        "vc": [
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS2"
+        ],
+        "vcNote": "Official safety guidance on the purpose and audience of workplace inductions."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of an induction pack contents page",
+      "docTitle": "WELCOME TO THE TEAM — INDUCTION PACK: CONTENTS (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U3O2-KS3",
+        "VM-U3O2-KK1"
+      ],
+      "vcNote": "Navigation features and the mix of text types in an organisational document.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "1. Welcome",
+          "value": "Page 2: who we are and what we do"
+        },
+        {
+          "n": 2,
+          "label": "2. Who’s who",
+          "value": "Page 3: your supervisor and who to ask"
+        },
+        {
+          "n": 3,
+          "label": "3. Your first day",
+          "value": "Page 4: start time, uniform, breaks"
+        },
+        {
+          "n": 4,
+          "label": "4. Safety",
+          "value": "Page 5: 4.1 Hazards. 4.2 Safety gear. 4.3 Fire and first aid",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "5. Your rights",
+          "value": "Page 7: pay, payslips and getting help"
+        },
+        {
+          "n": 6,
+          "label": "6. How we do it",
+          "value": "Page 8: opening and closing steps",
+          "rule": true
+        },
+        {
+          "n": 7,
+          "label": "Sign-off",
+          "value": "Page 10: “I have read this pack” — name, signature, date"
+        }
+      ],
+      "note": "A made-up example to show how a pack is organised.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Organisational",
+          "note": "How the place runs."
+        },
+        {
+          "n": 2,
+          "label": "Contacts early",
+          "note": "Who to ask, up front."
+        },
+        {
+          "n": 3,
+          "label": "Informational",
+          "note": "Facts for day one."
+        },
+        {
+          "n": 4,
+          "label": "Sub-headings",
+          "note": "Jump to the exact part."
+        },
+        {
+          "n": 5,
+          "label": "Reliable help",
+          "note": "Rights and where to go."
+        },
+        {
+          "n": 6,
+          "label": "Procedural",
+          "note": "Steps to follow."
+        },
+        {
+          "n": 7,
+          "label": "Record",
+          "note": "Proof it was read."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Build an induction pack",
+      "steps": [
+        {
+          "title": "Pick",
+          "text": "Workplace + new starter.",
+          "icon": "lucide:building"
+        },
+        {
+          "title": "Plan",
+          "text": "Sections + contents.",
+          "icon": "lucide:list"
+        },
+        {
+          "title": "Write",
+          "text": "Info and steps.",
+          "icon": "lucide:pencil"
+        },
+        {
+          "title": "Test",
+          "text": "Find it in a minute?",
+          "icon": "lucide:timer"
+        },
+        {
+          "title": "Fix",
+          "text": "Headings + order.",
+          "icon": "lucide:wrench"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Who is an induction pack written for?",
+        "options": [
+          "A new worker",
+          "The boss",
+          "Customers",
+          "WorkSafe"
+        ],
+        "answer": 0,
+        "explain": "Its audience is someone new: nervous and unsure.",
+        "vc": [
+          "VM-U3O2-KK2"
+        ]
+      },
+      {
+        "q": "What does a **contents page** do?",
+        "options": [
+          "Shows what’s in the pack, and where",
+          "Lists the staff",
+          "Gives the pay rates",
+          "Welcomes you"
+        ],
+        "answer": 0,
+        "explain": "It helps readers jump to what they need.",
+        "vc": [
+          "VM-U3O2-KS3"
+        ]
+      },
+      {
+        "q": "Which heading is best?",
+        "options": [
+          "Fire and first aid",
+          "Other info",
+          "Misc",
+          "Stuff to know"
+        ],
+        "answer": 0,
+        "explain": "It tells readers exactly what’s in the section.",
+        "vc": [
+          "VM-U3O2-KS3"
+        ]
+      },
+      {
+        "q": "Steps for closing the shop are which type of text?",
+        "options": [
+          "Procedural",
+          "Persuasive",
+          "A story",
+          "A poem"
+        ],
+        "answer": 0,
+        "explain": "Steps to follow are procedural.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "q": "When are young workers most likely to get hurt?",
+        "options": [
+          "In their first six months in a new job",
+          "After five years",
+          "Only on weekends",
+          "Never"
+        ],
+        "answer": 0,
+        "explain": "WorkSafe Victoria says the first six months are the riskiest.",
+        "vc": [
+          "VM-U3O2-KK2"
+        ]
+      },
+      {
+        "q": "Where should a new worker go for help with underpayment?",
+        "options": [
+          "The Fair Work Ombudsman",
+          "A social media group",
+          "Nowhere",
+          "The customers"
+        ],
+        "answer": 0,
+        "explain": "A good pack points to reliable help.",
+        "vc": [
+          "VM-U3O2-KS2"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Make an induction pack for a new worker. Put in a contents page and at least four sections. Test it on someone.",
+      "core": "Build an induction pack for a new young worker at a workplace you choose. Include a contents page, at least five sections with headings, and one procedure. Test it: can a reader find answers fast?",
+      "extend": "Build an induction pack for a workplace and audience you choose. Mix organisational, informational and procedural writing. Organise it with contents, headings and sub-headings. Point to reliable help. Then test it and fix it."
+    },
+    "checklist": [
+      "It has a contents page",
+      "It has at least five sections with clear headings",
+      "It covers safety and emergencies",
+      "It says who to ask and where to get help",
+      "It includes at least one procedure with numbered steps",
+      "I tested it: someone found answers fast"
+    ],
+    "levelUp": "Add sub-headings to your safety section (like 4.1, 4.2) and list them on the contents page. Then time a reader finding three answers. Fix the slowest one.",
+    "vc": [
+      "VM-U3O2-KS4",
+      "VM-U3O2-KK1",
+      "VM-U3O2-KK2",
+      "VM-U3O2-KS3"
+    ],
+    "solo": "No one to test it on? Write five questions a new worker might ask. Put the pack away for a day, then time yourself finding each answer using only the contents and headings.",
+    "model": {
+      "kind": "Example induction pack section",
+      "text": "**4. SAFETY**\n**4.1 Hazards here**\nThe fryers and grill are hot all shift. Floors near the sinks get wet.\n**4.2 Your safety gear**\nWear non-slip, closed shoes every shift. Use the heat-proof gloves on the fryer hooks.\n**4.3 If there’s a fire**\n1. Tell the shift manager straight away.\n2. Leave by the nearest exit. Don’t stop for your bag.\n3. Go to the meeting point: the far corner of the car park.\n4. Wait there until the manager says it’s safe.\n**Who to ask:** your shift manager, or Dani (Safety Rep).",
+      "why": [
+        "Numbered sub-headings let readers jump to the part they need.",
+        "It moves from facts to read (4.1, 4.2) to steps to follow (4.3).",
+        "It ends by naming who to ask, so new workers aren’t left guessing."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Content",
+        "start": "Missing safety or who to ask.",
+        "good": "Five clear sections, including safety.",
+        "great": "Rights, reliable help and a procedure too."
+      },
+      {
+        "skill": "Easy to find",
+        "start": "No contents page.",
+        "good": "Contents page and clear headings.",
+        "great": "Sub-headings, with safety near the front."
+      },
+      {
+        "skill": "Tested",
+        "start": "Not tested.",
+        "good": "Tested on someone.",
+        "great": "Fixed the slowest answer."
+      }
+    ],
+    "choices": {
+      "prompt": "Which workplace is your induction pack for?",
+      "options": [
+        "A café or fast food outlet",
+        "A supermarket or shop",
+        "A building site or workshop (for an apprentice)",
+        "A sports club or community group (for volunteers)"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Welcome aboard",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Who reads an induction pack? How might they feel?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name **four** sections of an induction pack.",
+              "core": "List the six sections. Which are informational, and which are procedural?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KK1"
+            ]
+          },
+          {
+            "q": {
+              "support": "How do you make a pack easy to use?",
+              "core": "Give three ways to help readers find things fast.",
+              "extend": "Why do readers look things up in a pack instead of reading it all? How should that shape its design?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KS3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of an induction pack contents page",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "Why is it there?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the contents page. Use the word bank. Write what it does.",
+          "core": "Each number marks a section. Say what type of text it is, and why it’s there."
+        },
+        "wordBank": {
+          "support": [
+            "how the place runs",
+            "who to ask",
+            "facts for day one",
+            "sub-headings",
+            "where to get help",
+            "steps",
+            "proof it was read"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Which section does it go in?",
+        "pagebreak": true,
+        "choices": [
+          "Your first day",
+          "Safety",
+          "Your rights",
+          "How we do it"
+        ],
+        "reasonLabel": "Why there?",
+        "instructions": "A manager wrote notes for the pack. Which section does each one belong in?",
+        "vc": [
+          "VM-U3O2-KS3",
+          "VM-U3O2-KK1"
+        ],
+        "cards": [
+          {
+            "from": "Manager’s notes",
+            "text": "Start at 7 am. Use the side door.",
+            "answer": "Your first day",
+            "flags": "Facts for day one."
+          },
+          {
+            "from": "Manager’s notes",
+            "text": "Fire meeting point: back car park.",
+            "answer": "Safety",
+            "flags": "Emergency info."
+          },
+          {
+            "from": "Manager’s notes",
+            "text": "Payslips are emailed every Thursday.",
+            "answer": "Your rights",
+            "flags": "Pay information."
+          },
+          {
+            "from": "Manager’s notes",
+            "text": "1. Count the till. 2. Lock the safe.",
+            "answer": "How we do it",
+            "flags": "Numbered steps."
+          },
+          {
+            "from": "Manager’s notes",
+            "text": "Wear closed, non-slip shoes.",
+            "answer": "Safety",
+            "flags": "Safety gear."
+          },
+          {
+            "from": "Manager’s notes",
+            "text": "Underpaid? Call the Fair Work Ombudsman.",
+            "answer": "Your rights",
+            "flags": "Reliable help.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the first six months",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "When are young workers most likely to be hurt? Why?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK2"
+            ]
+          },
+          {
+            "q": "What four things should a safety induction cover?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK1"
+            ]
+          },
+          {
+            "q": {
+              "support": "How can an induction pack help keep new workers safe?",
+              "core": "Which of the four parts would matter most in a job you know? Why?",
+              "extend": "Why isn’t a document enough on its own? What else does a new worker need?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KK2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Plan: my contents page",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O2-KS3",
+          "VM-U3O2-KS4"
+        ],
+        "vcNote": "Organising a workplace document with contents, headings and sub-headings.",
+        "prompt": {
+          "support": "Pick a workplace. Write your **contents page**: at least **four** section headings.",
+          "core": "Pick a workplace and a new starter. Write your contents page: at least five sections, with clear headings and page numbers.",
+          "extend": "Pick a workplace and audience. Write a contents page with sections and sub-headings, with safety-critical information early."
+        },
+        "plan": [
+          {
+            "label": "Workplace and new starter (job, age):",
+            "lines": 1
+          },
+          {
+            "label": "The three things they most need to know on day one:",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "WELCOME TO…",
+          "1. Welcome",
+          "2. Who’s who",
+          "3. Your first day",
+          "4. Safety"
+        ],
+        "lines": {
+          "support": 8,
+          "core": 8,
+          "extend": 8
+        },
+        "check": [
+          "five sections",
+          "clear headings",
+          "safety early"
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my safety section",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O2-KS4",
+          "VM-U3O2-KK1"
+        ],
+        "vcNote": "Creating informative and procedural content for a workplace.",
+        "prompt": {
+          "support": "Write your **Safety** section. Say what the dangers are, what to wear, and the **steps** if there’s a fire.",
+          "core": "Write your Safety section. Use sub-headings: hazards, safety gear, and numbered emergency steps. End with who to ask.",
+          "extend": "Write your Safety section with numbered sub-headings. Combine informational writing (hazards, controls) and procedural writing (emergency steps), and end with reliable contacts."
+        },
+        "starters": [
+          "4. SAFETY",
+          "4.1 Hazards here",
+          "4.2 Your safety gear",
+          "4.3 If there’s a fire",
+          "Who to ask:"
+        ],
+        "lines": {
+          "support": 12,
+          "core": 12,
+          "extend": 12
+        },
+        "check": [
+          "sub-headings",
+          "facts and steps",
+          "who to ask",
+          "other sections done on a device"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: the one-minute test",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O2-KS3",
+          "VM-U3O2-KS4"
+        ],
+        "vcNote": "Testing navigation features with a real reader, and revising.",
+        "instructions": "Give your finished pack to someone. Ask them three questions. Time how long each answer takes to find. (No one to test it on? Wait a day, then time yourself.)",
+        "need": [
+          "your finished induction pack",
+          "a tester (or yourself, a day later)",
+          "a timer"
+        ],
+        "steps": [
+          "Write three questions a new worker might ask.",
+          "Give your tester the pack.",
+          "Ask each question. Start the timer.",
+          "Stop the timer when they find the answer.",
+          "Fix the heading or section for the slowest one."
+        ],
+        "notes": [
+          {
+            "label": "Question 1, and time taken:",
+            "lines": 1
+          },
+          {
+            "label": "Question 2, and time taken:",
+            "lines": 1
+          },
+          {
+            "label": "Question 3, and time taken:",
+            "lines": 1
+          },
+          {
+            "label": "What I changed:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "finished pack",
+          "test results",
+          "teacher saw it"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I planned my pack for a real audience.",
+          "I used a contents page and headings.",
+          "I mixed facts and steps.",
+          "I tested and fixed my pack."
+        ],
+        "questions": [
+          "What I’d want in an induction pack on my first day:",
+          "The skill from On the Job I used most:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The On the Job boss mission. Students build an induction pack for a new young worker at a chosen workplace, combining organisational, informational and procedural writing, organised with a contents page, headings and sub-headings, and pointing to reliable help. They test it with a timed “find the answer” test. The case study is WorkSafe Victoria’s February 2026 warning that young workers, including apprentices, are most at risk in their first six months, and its guidance on what a safety induction should cover.",
+    "prep": [
+      "Print workbooks.",
+      "Collect a real induction pack or staff handbook (your school’s staff or student induction works).",
+      "Devices for writing the full pack.",
+      "Students should have done Rights at Work, Write the Procedure or Handle With Care first; the pack draws on all three."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What goes in a pack",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** list everything you didn’t know on your first day somewhere new.",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Sort (15 min):** which section?"
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the contents page.",
+          "**Case study (20 min):** the first six months.",
+          "**Plan (20 min):** workplace, audience and contents page."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (50 min):** safety section in the workbook; other sections on a device."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Test and fix",
+        "minutes": 50,
+        "steps": [
+          "**Do it (25 min):** one-minute test in pairs.",
+          "**Fix (15 min):** revise headings and order.",
+          "**Reflect (10 min):** reflection and sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Audience: a nervous new starter who will look things up, not read it all.",
+      "Sections: welcome, who’s who, first day, safety, rights, procedures.",
+      "Mix of organisational, informational and procedural text, each with its own features.",
+      "Contents page, clear headings and sub-headings; safety early.",
+      "Point to reliable help; test with real questions."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A four-section pack.",
+        "A frame for the safety section."
+      ],
+      "extend": [
+        "Numbered sub-headings and safety-critical ordering.",
+        "Discuss why a document isn’t enough without supervision."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O2-KS4",
+        "evidence": "Creates informative and procedural content for a chosen workplace, considering audience and purpose (pack)."
+      },
+      {
+        "vc": "VM-U3O2-KK1",
+        "evidence": "Uses the structure and language of organisational, informational and procedural texts (sort, safety section)."
+      },
+      {
+        "vc": "VM-U3O2-KK2",
+        "evidence": "Shows understanding of purpose and audience (questions, case study, planning)."
+      },
+      {
+        "vc": "VM-U3O2-KS3",
+        "evidence": "Uses a contents page, headings and sub-headings so readers locate information (contents page, one-minute test)."
+      },
+      {
+        "vc": "VM-U3O2-KS2",
+        "evidence": "Points readers to reliable, accurate sources of help (rights section).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 organisational (who we are); 2 contacts early; 3 informational (first day facts); 4 sub-headings for navigation; 5 rights and reliable help; 6 procedural (steps); 7 sign-off record.\n\n**Sort:** 7 am start — first day; fire meeting point — safety; payslips Thursday — rights; till and safe steps — how we do it; non-slip shoes — safety; Fair Work Ombudsman — rights.\n\n**Case study:** young workers, including apprentices, have the highest chance of injury in their first six months, while they’re still learning the job and its risks; a safety induction should cover how to spot and report unsafe work, hazards and controls, policies and procedures, and first aid and emergencies.",
+    "resources": [
+      {
+        "label": "WorkSafe Victoria — Employers urged to do more to protect apprentices (Feb 2026)",
+        "url": "https://worksafe.vic.gov.au/news/2026-02/employers-urged-do-more-protect-apprentices"
+      },
+      {
+        "label": "WorkSafe Victoria — Would you work for you?",
+        "url": "https://www.worksafe.vic.gov.au/would-you-work-for-you"
+      },
+      {
+        "label": "WorkSafe Victoria — Young workers: information for employers",
+        "url": "https://www.worksafe.vic.gov.au/young-workers-information-employers"
+      },
+      {
+        "label": "Fair Work Ombudsman",
+        "url": "https://www.fairwork.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**This is a big task.** The workbook holds the contents page and safety section; the rest goes on a device. Four sections are fine at support level.",
+      "**Students without jobs:** a sports club, a school canteen or a volunteer role works well.",
+      "**Avoid fake contacts.** Students should use roles (“shift manager”) or real agencies, not made-up phone numbers.",
+      "**Works in a real class:** yes. The timed test is competitive and shows why headings matter."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a four-section pack.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with six sections, text types, navigation and a timed test.",
+      "extend": "Aimed at about Year 7 and up: hybrid text types, safety-critical ordering, numbered sub-headings and the limits of documents."
+    }
+  }
+}

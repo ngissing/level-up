@@ -1,0 +1,846 @@
+{
+  "id": "vm-incident-report",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "Something goes wrong at work. Someone slips. A machine sparks. What do you write down? A good report says what happened. Then it can be fixed.",
+      "core": "Someone slips on a wet floor at work. Nobody is badly hurt, so nobody writes it down. Next week, someone else slips, and this time they break a wrist. An incident report is how a workplace learns from what goes wrong, before it goes wrong again.",
+      "extend": "An incident report is a record that a workplace can act on. If it’s vague, full of blame or never written, the same hazard waits for the next person. Learn to write one that is clear, factual and useful."
+    },
+    "why": {
+      "support": "Reports help stop the same thing happening again.",
+      "core": "Most workplaces have to record incidents. A clear report protects you, your workmates and the business.",
+      "extend": "Reports feed safety decisions, insurance claims and legal records. The quality of the writing decides whether anyone can act on it."
+    },
+    "canDo": {
+      "support": [
+        "I know the parts of an incident report.",
+        "I can tell facts from opinions.",
+        "I can write a clear report."
+      ],
+      "core": [
+        "I can explain the structure and purpose of an incident report.",
+        "I can keep facts separate from opinion and blame.",
+        "I can write a clear, correct incident report."
+      ],
+      "extend": [
+        "I can analyse the structure and language of incident reports.",
+        "I can explain who reads them and why.",
+        "I can write a factual report with correct sentences and punctuation.",
+        "I can design a better report form for a workplace."
+      ]
+    },
+    "showIt": "Write an incident report about a workplace incident, using only facts, in clear and correct sentences.",
+    "vocab": [
+      {
+        "word": "incident",
+        "meaning": "something that happened that hurt someone or could have",
+        "example": "I reported the incident to my supervisor."
+      },
+      {
+        "word": "near miss",
+        "meaning": "an incident where nobody was hurt, but they could have been",
+        "example": "The falling box was a near miss."
+      },
+      {
+        "word": "hazard",
+        "meaning": "something that could cause harm",
+        "example": "The wet floor is a hazard."
+      },
+      {
+        "word": "witness",
+        "meaning": "a person who saw what happened",
+        "example": "Two witnesses saw her slip."
+      },
+      {
+        "word": "fact",
+        "meaning": "something that can be checked",
+        "example": "It happened at 2:15 pm."
+      },
+      {
+        "word": "opinion",
+        "meaning": "what someone thinks or feels",
+        "example": "“He was careless” is an opinion."
+      },
+      {
+        "word": "action taken",
+        "meaning": "what was done after the incident",
+        "example": "Action taken: put out a wet floor sign.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "objective",
+        "meaning": "based on facts, not feelings",
+        "example": "Keep the report objective.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Incident Report in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Incident Report",
+        "sub": "Write it down so it doesn’t happen again.",
+        "icon": "lucide:clipboard-pen",
+        "say": "Incident report. Write it down, so it does not happen again."
+      },
+      {
+        "kind": "big",
+        "title": "Safe first",
+        "text": "Make the area safe. Get first aid. Then report.",
+        "icon": "lucide:shield-alert",
+        "say": "First, make the area safe and get first aid. Then report it."
+      },
+      {
+        "kind": "steps",
+        "title": "What a report says",
+        "steps": [
+          "What happened.",
+          "When and where.",
+          "Who was involved, and who saw it.",
+          "Any injury or damage.",
+          "What was done about it."
+        ],
+        "icon": "lucide:list-checks",
+        "say": "A report says what happened. When and where. Who was involved, and who saw it. Any injury or damage. And what was done about it.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Keep",
+        "pillIcon": "lucide:check",
+        "title": "Facts",
+        "text": "“The floor near the sink was wet.”",
+        "icon": "lucide:check-circle",
+        "say": "Keep the facts. The floor near the sink was wet.",
+        "vc": [
+          "VM-U3O2-KS6"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Leave out",
+        "pillIcon": "lucide:x",
+        "title": "Blame",
+        "text": "“Sam is always careless.”",
+        "icon": "lucide:x-circle",
+        "say": "Leave out opinions and blame. Sam is always careless does not help anyone fix the problem.",
+        "vc": [
+          "VM-U3O2-KS6"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Near misses count",
+        "text": "Nobody hurt this time? Report it anyway.",
+        "icon": "lucide:triangle-alert",
+        "say": "Near misses count. If nobody was hurt this time, report it anyway. Next time might be different.",
+        "vc": [
+          "VM-U3O2-KK2"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Write a clear incident report.",
+        "icon": "lucide:clipboard-pen",
+        "say": "Your mission. Write a clear incident report, using only the facts."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Write it down, get it fixed",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "An **incident** is when someone gets hurt, or could have. A **near miss** is when nobody was hurt, but they could have been.\n\n**First, be safe.**\n- Make the area safe.\n- Get first aid if someone is hurt.\n- Tell your supervisor.\n.\n**Then write a report.** Most workplaces have a form. It asks:\n- What happened?\n- When and where?\n- Who was hurt? Who saw it?\n- Was anything damaged?\n- What did you do?\n.\n**Write facts, not opinions.** A **fact** can be checked. An **opinion** is what someone thinks.\n\n- Fact: The floor near the sink was wet.\n- Opinion: Sam is careless.\n.\nUse full sentences. Write in the order things happened. Check your spelling. Sign and date it.",
+          "core": "An **incident** is any event at work that hurts someone, or could have. A **near miss** is an incident where nobody was hurt, but they could have been. Both should be reported.\n\n**First, make it safe.** Remove the **hazard** if you can, get first aid, and tell your supervisor.\n\n**Then report it.** Most workplaces use a set form, so every report has the same parts:\n- **Details:** date, time and exact place.\n- **People:** who was involved, and any **witnesses**.\n- **What happened:** the events, in order.\n- **Injury or damage:** what and how bad.\n- **Action taken:** what was done straight away, and what should change.\n- **Sign-off:** your name, signature and the date.\n\n**Who reads it?** Your supervisor, a safety officer, maybe an insurer or WorkSafe. They weren’t there. The report has to tell them exactly what happened.\n\n**How to write it:**\n- Stick to **facts**: things that can be checked. Leave out **opinions** and blame.\n- Use full sentences, in time order.\n- Be exact. “At 2:15 pm” is better than “in the afternoon”.\n- Check spelling and punctuation. A report may be read in court.",
+          "extend": "An **incident** is any work event that causes harm, or could have. A **near miss** is one where harm was avoided, often by luck. Safety experts treat near misses as warnings, so most workplaces require them to be reported.\n\n**First, make it safe:** control the **hazard**, give first aid and notify a supervisor. Serious incidents must also be reported to WorkSafe Victoria.\n\n**Structure.** Report forms follow a set structure, so readers can find information fast and compare reports:\n- **details:** date, time and exact location.\n- **people:** those involved, and **witnesses**.\n- **description:** what happened, in time order.\n- **injury or damage**.\n- **action taken:** immediate response and suggested changes.\n- **sign-off:** name, signature, date.\n\n**Audience and purpose.** Readers include supervisors, safety staff, insurers, regulators and sometimes courts. None of them were there. The purpose is to record what happened, so the cause can be fixed.\n\n**Language.** Keep the report **objective**:\n- facts that can be checked, not opinions or blame.\n- past tense, in time order.\n- precise times, places and measures.\n- correct sentences, punctuation and spelling.\n\nA report that blames a person often hides the real cause. That might be a missing sign, poor training or a broken process."
+        },
+        "vc": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KK2",
+          "VM-U3O2-KS6"
+        ],
+        "vcNote": "The structure, language, purpose and audience of an incident report, and the conventions of factual writing."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The warnings nobody passed on",
+        "icon": "lucide:flame",
+        "body": {
+          "support": "In **September 1998**, there was an explosion at a gas plant at **Longford**, in Gippsland, Victoria.\n\n**Two workers died.** Eight more were hurt. Much of Victoria had no gas for about **two weeks**.\n\nA **Royal Commission** looked into what went wrong. It found the company, **Esso**, was at fault. The workers were not to blame.\n\nThe Commission found there had been **warning signs**. A similar problem happened a few weeks before. But it was not reported to the right people. So nothing was fixed.\n\nThe lesson: report problems, even small ones. Someone needs to know.",
+          "core": "On **25 September 1998**, an explosion and fire tore through the Esso gas plant at **Longford**, in Gippsland, Victoria.\n\n**Two workers were killed** and eight were injured. Gas to most of Victoria was cut off for about **two weeks**. Homes had no hot water. Many businesses had to close.\n\nThe Victorian Government set up a **Royal Commission**. It found that **Esso**, the company, was responsible, not the workers at the plant. Workers had not been trained for what happened.\n\nThe Commission also found **warning signs**. A similar problem had happened on **28 August**, less than a month before. It was not reported to the people who could have acted on it.\n\nIf warnings aren’t written down and passed on, a workplace can’t learn from them.",
+          "extend": "On **25 September 1998**, an explosion and fire destroyed part of the Esso gas plant at **Longford**, in Gippsland. **Two workers were killed** and eight injured. Victoria’s gas supply was cut for about **two weeks**, shutting down homes and industry.\n\nA **Royal Commission** found that **Esso**, the company, was responsible, rather than the operators on shift. Workers had not been trained to deal with the conditions that led to the blast.\n\nThe Commission also found **warning signs** that went nowhere. A similar incident on **28 August**, less than a month earlier, was not reported to the people who could have acted on it.\n\nSafety researcher Andrew Hopkins studied the disaster in his book *Lessons from Longford*. A key lesson is that a reporting system is only useful if people use it, and if reports reach someone who acts.\n\nIncident reports are how a workplace remembers. Without them, the same hazard can strike twice."
+        },
+        "source": {
+          "name": "Australian Institute for Disaster Resilience — Longford gas explosion, September 1998",
+          "url": "https://knowledge.aidr.org.au/resources/industrial-longford-gas-explosion/"
+        },
+        "think": {
+          "support": [
+            "What happened at Longford?",
+            "Why does reporting small problems matter?"
+          ],
+          "core": [
+            "Who did the Royal Commission find was responsible?",
+            "What happened on 28 August, and why does it matter?",
+            "How could a clear report have helped?"
+          ],
+          "extend": [
+            "Why might blaming workers hide the real cause of an incident?",
+            "What makes a reporting system actually work?",
+            "Who needs to read an incident report, and what do they need from it?"
+          ]
+        },
+        "vc": [
+          "VM-U3O2-KK2"
+        ],
+        "vcNote": "A real disaster showing the purpose of reporting incidents and warning signs."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of an incident report",
+      "docTitle": "INCIDENT REPORT FORM (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U3O2-KK1",
+        "VM-U3O2-KS6"
+      ],
+      "vcNote": "The structure and language of an incident report.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Date, time, place",
+          "value": "Tue 4 March, 2:15 pm. Kitchen, near the back sink.",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "People involved",
+          "value": "Kitchen hand (injured). Witness: dishwasher on shift."
+        },
+        {
+          "n": 3,
+          "label": "What happened",
+          "value": "The kitchen hand slipped on water near the sink and fell onto her left side."
+        },
+        {
+          "n": 4,
+          "label": "Injury or damage",
+          "value": "Bruised left elbow. No damage to equipment."
+        },
+        {
+          "n": 5,
+          "label": "Action taken",
+          "value": "Ice pack given. Wet floor sign put out. Leaking hose reported for repair.",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Reported by",
+          "value": "Name, signature, date: 4 March."
+        }
+      ],
+      "note": "A made-up example to show the parts of a report.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Exact details",
+          "note": "Date, time, exact place."
+        },
+        {
+          "n": 2,
+          "label": "People",
+          "note": "Roles, plus any witness."
+        },
+        {
+          "n": 3,
+          "label": "Facts only",
+          "note": "Past tense, no blame."
+        },
+        {
+          "n": 4,
+          "label": "Harm",
+          "note": "What was hurt or damaged."
+        },
+        {
+          "n": 5,
+          "label": "Action",
+          "note": "Fixed now, and the cause."
+        },
+        {
+          "n": 6,
+          "label": "Sign-off",
+          "note": "Who wrote it, and when."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "After an incident",
+      "steps": [
+        {
+          "title": "Make it safe",
+          "text": "Control the hazard.",
+          "icon": "lucide:shield-alert"
+        },
+        {
+          "title": "First aid",
+          "text": "Help anyone hurt.",
+          "icon": "lucide:cross"
+        },
+        {
+          "title": "Tell",
+          "text": "Your supervisor.",
+          "icon": "lucide:message-circle"
+        },
+        {
+          "title": "Write",
+          "text": "The report, same day.",
+          "icon": "lucide:clipboard-pen"
+        },
+        {
+          "title": "Fix",
+          "text": "The cause.",
+          "icon": "lucide:wrench"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What is a **near miss**?",
+        "options": [
+          "An incident where nobody was hurt, but could have been",
+          "An injury that needs a doctor",
+          "A late shift",
+          "A broken machine"
+        ],
+        "answer": 0,
+        "explain": "Near misses are warnings. Report them too.",
+        "vc": [
+          "VM-U3O2-KK2"
+        ]
+      },
+      {
+        "q": "What should you do **first** after an incident?",
+        "options": [
+          "Make the area safe and get first aid",
+          "Write the report",
+          "Post about it",
+          "Go home"
+        ],
+        "answer": 0,
+        "explain": "Safety first. Then report.",
+        "vc": [
+          "VM-U3O2-KK1"
+        ]
+      },
+      {
+        "q": "Which sentence belongs in a report?",
+        "options": [
+          "The floor near the sink was wet.",
+          "Sam is always careless.",
+          "This place is a joke.",
+          "I reckon it was his fault."
+        ],
+        "answer": 0,
+        "explain": "Only the first is a fact that can be checked.",
+        "vc": [
+          "VM-U3O2-KS6"
+        ]
+      },
+      {
+        "q": "Which time is best in a report?",
+        "options": [
+          "At 2:15 pm",
+          "In the arvo",
+          "Some time after lunch",
+          "Earlier"
+        ],
+        "answer": 0,
+        "explain": "Be exact. Readers weren’t there.",
+        "vc": [
+          "VM-U3O2-KS6"
+        ]
+      },
+      {
+        "q": "Who might read an incident report?",
+        "options": [
+          "A supervisor, safety officer or insurer",
+          "Only you",
+          "Customers",
+          "Nobody"
+        ],
+        "answer": 0,
+        "explain": "Reports are for people who weren’t there and need to act.",
+        "vc": [
+          "VM-U3O2-KK2"
+        ]
+      },
+      {
+        "q": "What did the Longford Royal Commission find about an earlier warning sign?",
+        "options": [
+          "It wasn’t reported to people who could act",
+          "There were none",
+          "It was fixed straight away",
+          "Workers caused it"
+        ],
+        "answer": 0,
+        "explain": "A similar problem a month earlier went nowhere.",
+        "vc": [
+          "VM-U3O2-KK2"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write an incident report. Say what happened, when, where, who, and what was done. Use facts only.",
+      "core": "Write an incident report about a workplace incident. Use the right structure, facts only, and clear, correct sentences.",
+      "extend": "Write an objective incident report for a workplace incident, using the standard structure, precise language and correct conventions. Then suggest one change to stop it happening again."
+    },
+    "checklist": [
+      "It has the date, time and exact place",
+      "It says who was involved, and any witnesses",
+      "It tells what happened, in time order",
+      "It has facts only, no blame",
+      "It says what action was taken",
+      "I checked spelling and punctuation"
+    ],
+    "levelUp": "Find a real incident report form from a workplace or WorkSafe Victoria. Name one section it has that the example doesn’t, and say why it’s there.",
+    "vc": [
+      "VM-U3O2-KK1",
+      "VM-U3O2-KK2",
+      "VM-U3O2-KS6"
+    ],
+    "model": {
+      "kind": "Example incident report",
+      "text": "**Date, time, place:** Saturday 9 March, 11:40 am. Front counter of the café.\n**People involved:** Barista (injured). Witness: front-of-house staff member.\n**What happened:** The barista was steaming milk. The steam wand was still hot when she wiped it. She burned the back of her right hand.\n**Injury:** Small red burn, about 2 cm across.\n**Action taken:** Hand cooled under running water for 20 minutes. Supervisor told at 11:45 am. Suggest a cloth with a long handle for wiping the wand.\n**Reported by:** Name, signature, 9 March.",
+      "why": [
+        "Every part of the form is filled in, so readers can find things fast.",
+        "It uses exact times and sizes, not guesses.",
+        "It says what happened and how to fix it, without blaming anyone."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Structure",
+        "start": "Parts are missing.",
+        "good": "All the main parts are there.",
+        "great": "Each part is exact and easy to find."
+      },
+      {
+        "skill": "Facts, not opinions",
+        "start": "Has blame or guesses.",
+        "good": "Mostly facts.",
+        "great": "Only facts, with exact times and places."
+      },
+      {
+        "skill": "Writing conventions",
+        "start": "Hard to follow.",
+        "good": "Full sentences, in time order.",
+        "great": "Correct spelling and punctuation all through."
+      }
+    ],
+    "choices": {
+      "prompt": "Which incident will you report?",
+      "options": [
+        "A burn in a café kitchen",
+        "A box falling off a shelf in a warehouse (a near miss)",
+        "A trip over a cable in a shop",
+        "A cut from a tool on a worksite"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Write it down, get it fixed",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What is the difference between an incident and a near miss?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Name **four** things a report asks.",
+              "core": "List the six parts of an incident report."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KK1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why should a report have facts, not opinions?",
+              "core": "Who reads incident reports? Why do they need facts, not opinions?",
+              "extend": "Why might a report that blames a person hide the real cause?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KK2",
+              "VM-U3O2-KS6"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of an incident report",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "Why does the reader need it?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the report. Use the word bank. Write what it does.",
+          "core": "Each number marks a part. Say what it is, and why the reader needs it."
+        },
+        "wordBank": {
+          "support": [
+            "exact details",
+            "people",
+            "facts only",
+            "harm",
+            "action",
+            "sign-off"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Fact or opinion?",
+        "pagebreak": true,
+        "choices": [
+          "Fact (keep it)",
+          "Opinion (leave it out)"
+        ],
+        "reasonLabel": "How do you know?",
+        "instructions": "These sentences are from a draft report. Keep the facts. Cross out the opinions and blame.",
+        "vc": [
+          "VM-U3O2-KS6"
+        ],
+        "cards": [
+          {
+            "from": "Draft report",
+            "text": "The box fell from the top shelf at 3:05 pm.",
+            "answer": "Fact (keep it)",
+            "flags": "Exact time and place. It can be checked."
+          },
+          {
+            "from": "Draft report",
+            "text": "The new guy stacks things like an idiot.",
+            "answer": "Opinion (leave it out)",
+            "flags": "Blame and name-calling."
+          },
+          {
+            "from": "Draft report",
+            "text": "Nobody was hurt.",
+            "answer": "Fact (keep it)",
+            "flags": "It can be checked."
+          },
+          {
+            "from": "Draft report",
+            "text": "This shop is a disaster waiting to happen.",
+            "answer": "Opinion (leave it out)",
+            "flags": "A feeling, not a fact."
+          },
+          {
+            "from": "Draft report",
+            "text": "The shelf had no lip to stop boxes sliding.",
+            "answer": "Fact (keep it)",
+            "flags": "A hazard you can see."
+          },
+          {
+            "from": "Draft report",
+            "text": "Management never listens to us.",
+            "answer": "Opinion (leave it out)",
+            "flags": "Raise it another way.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the warnings nobody passed on",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What happened at Longford in 1998?",
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Who was found to be at fault?",
+              "core": "What did the Royal Commission find about the warning signs?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U3O2-KK2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why should you report small problems?",
+              "core": "How could clear reports have helped?",
+              "extend": "What makes a reporting system actually work? Use the case to explain."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U3O2-KK2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: my incident report",
+        "pagebreak": true,
+        "vc": [
+          "VM-U3O2-KK1",
+          "VM-U3O2-KS6"
+        ],
+        "vcNote": "Writing an incident report with the right structure and conventions.",
+        "prompt": {
+          "support": "Pick an incident. Write a report. Fill in each part. Use **facts only**.",
+          "core": "Pick an incident. Write an incident report with all six parts. Use facts only, exact details and full sentences in time order.",
+          "extend": "Pick an incident. Write an objective incident report with all six parts, using precise language and correct conventions. In “Action taken”, suggest one change to fix the cause."
+        },
+        "plan": [
+          {
+            "label": "The incident I chose:",
+            "lines": 1
+          },
+          {
+            "label": "What happened, in order (dot points):",
+            "lines": 3
+          }
+        ],
+        "starters": [
+          "Date, time, place:",
+          "People involved:",
+          "What happened:",
+          "Injury or damage:",
+          "Action taken:",
+          "Reported by:"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "all six parts",
+          "facts only",
+          "time order",
+          "spelling + punctuation"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: a real form",
+        "pagebreak": true,
+        "instructions": "Find a real incident report form from a workplace or WorkSafe Victoria.",
+        "items": [
+          {
+            "q": "One section it has that the example doesn’t:",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O2-KK1"
+            ]
+          },
+          {
+            "q": "Why is that section there? Who needs it?",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VM-U3O2-KK2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I know the parts of an incident report.",
+          "I can tell facts from opinions.",
+          "I can write in time order.",
+          "I checked my spelling and punctuation."
+        ],
+        "questions": [
+          "The hardest part of writing the report:",
+          "Why near misses should be reported:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn what incidents and near misses are, what to do first, the six-part structure of an incident report, who reads reports, and how to write objectively (facts, not opinions or blame; time order; precise details; correct conventions). The case study is the 1998 Esso Longford gas explosion, where a Royal Commission found the company responsible and that an earlier warning sign wasn’t reported to people who could act. The final mission is a written incident report.",
+    "prep": [
+      "Print workbooks.",
+      "Find a real incident report form (your school’s, or a workplace’s) for the Level Up.",
+      "Check whether any students have a connection to Longford or the gas industry in Gippsland."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Incidents and near misses",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** “nobody was hurt, so nobody wrote it down.” What could go wrong?",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Sort (15 min):** fact or opinion."
+        ]
+      },
+      {
+        "title": "Lesson 2 — The structure and the case",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** the report form.",
+          "**Case study (20 min):** Longford.",
+          "**Plan (15 min):** pick an incident and list events in order."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Write the report",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (30 min).**",
+          "**Level Up (10 min):** compare with a real form.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Make it safe and get first aid before writing anything.",
+      "Six parts: details, people, what happened, injury or damage, action taken, sign-off.",
+      "Readers weren’t there: be exact.",
+      "Facts, not opinions or blame. Blame hides real causes.",
+      "Report near misses: they are warnings."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "A report frame with the six headings.",
+        "Fewer sort cards."
+      ],
+      "extend": [
+        "Suggest a change to fix the cause.",
+        "Discuss why blame hides causes (the Longford findings)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U3O2-KK1",
+        "evidence": "Identifies the structure and language of an incident report (annotation, report)."
+      },
+      {
+        "vc": "VM-U3O2-KK2",
+        "evidence": "Explains the purpose and audience of incident reports (questions, case study)."
+      },
+      {
+        "vc": "VM-U3O2-KS6",
+        "evidence": "Applies the conventions of literacy: full sentences, time order, punctuation and spelling (report, sort)."
+      },
+      {
+        "vc": "VM-U3O2-KS4",
+        "evidence": "Creates informative content for a workplace, suggesting a fix for the cause (report).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 exact date, time and place; 2 people by role, plus a witness; 3 objective description in past tense, no blame; 4 injury or damage; 5 immediate action and fixing the cause; 6 sign-off (who and when).\n\n**Sort:** facts — box fell at 3:05 pm; nobody hurt; shelf had no lip. Opinions — “stacks like an idiot”; “disaster waiting to happen”; “management never listens” (a real concern, but for a different channel).\n\n**Case study:** an explosion and fire at the Esso gas plant at Longford on 25 September 1998 killed two workers and injured eight, and cut Victoria’s gas for about two weeks; the Royal Commission found Esso responsible, not the operators; a similar incident on 28 August wasn’t reported to people who could act.",
+    "resources": [
+      {
+        "label": "AIDR — Longford gas explosion, September 1998",
+        "url": "https://knowledge.aidr.org.au/resources/industrial-longford-gas-explosion/"
+      },
+      {
+        "label": "WorkSafe Victoria — reporting an incident",
+        "url": "https://www.worksafe.vic.gov.au/report-incident"
+      },
+      {
+        "label": "WorkSafe Victoria — young workers",
+        "url": "https://www.worksafe.vic.gov.au/young-workers"
+      }
+    ],
+    "realityCheck": [
+      "**Longford is close to home in Gippsland.** Some families lost people or jobs. Don’t name the workers who died, and handle questions gently.",
+      "**Students will want to write “it was his fault”.** The sort is where that habit gets broken. Ask “could a camera check that?”",
+      "**Some sources give the gas outage as 10 to 19 days.** The course says “about two weeks”.",
+      "**Works in a real class:** yes. Students with jobs often recognise their own workplace’s form."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and a report frame.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with the six-part structure, audience and objective writing.",
+      "extend": "Aimed at about Year 7 and up: why near misses matter, why blame hides causes, a reporting-system analysis and a suggested fix."
+    }
+  }
+}
