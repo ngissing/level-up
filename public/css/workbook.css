@@ -326,3 +326,8 @@ body.answers .wb-doc .doc-card { font-size: 8.5pt; }
 .wb-good.tight .wb-rubric tbody th, .wb-good.tight .wb-rubric td { padding: 1.2mm 2.5mm; }
 .wb-good.tight .wb-small { margin-top: 1.2mm; font-size: 8.5pt; }
 .wb-good.tight .wb-solo { margin-top: 2mm; padding: 1.8mm 4mm; font-size: 9.5pt; }
+
+/* Tables inside a model answer (e.g. a jargon buster or a comparison). */
+.wb-model table { width: 100%; border-collapse: collapse; margin: 1mm 0 2mm; }
+.wb-model th, .wb-model td { text-align: left; padding: 1mm 2.5mm; border-bottom: 1px solid #d8d2c4; vertical-align: top; }
+.wb-model th { border-bottom: 2px solid var(--ink); }

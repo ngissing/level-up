@@ -909,3 +909,7 @@ a.daily-card:hover { transform: translate(-1px, -1px); box-shadow: 6px 6px 0 var
 .students-table td:first-child input { min-width: 170px; }
 .students-table tr.just-saved td { background: color-mix(in srgb, var(--lime) 30%, white); }
 .students-table tr:target td { background: color-mix(in srgb, var(--lime) 30%, white); }
+.model table { width: 100%; border-collapse: collapse; margin: 4px 0 12px; font-size: .95rem; }
+.model th, .model td { text-align: left; padding: 6px 10px; border-bottom: 1px solid #e3ddd1; vertical-align: top; }
+.model th { border-bottom: 2px solid var(--ink); }
+@media (max-width: 600px) { .good > summary small { display: none; } }
