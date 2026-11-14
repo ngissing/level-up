@@ -1,0 +1,989 @@
+{
+  "id": "vpc-apply-for-real",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You found a job or course you want. Now what? You need the right papers, a short email, and to be ready for questions. This is where you go for it.",
+      "core": "You’ve found a job, apprenticeship or course you actually want. Now comes the part most people rush: the right documents, a cover email that matches the ad, and being ready for the interview. Do this well and you stand out from the pile.",
+      "extend": "Finding an opportunity is only half the job. The application is a set of documents written for one reader. The interview is a conversation you can prepare for. This course takes you from “I want that” to “application sent, interview ready”."
+    },
+    "why": {
+      "support": "A good application gets you an interview. A good interview gets you the job.",
+      "core": "Employers and course providers judge you on your documents first. A complete, tailored application gets you to interview, and practice makes the interview much less scary.",
+      "extend": "Applications are judged quickly, often against a checklist. Knowing exactly which documents are needed, fitting them to the criteria and rehearsing the interview can turn a long shot into a real chance."
+    },
+    "canDo": {
+      "support": [
+        "I can find what an application needs.",
+        "I can write a short cover email.",
+        "I can check my application with others.",
+        "I can answer interview questions."
+      ],
+      "core": [
+        "I can work out every document an application needs.",
+        "I can plan and write a cover email that matches the ad.",
+        "I can check my application with a group and fix it.",
+        "I can answer interview questions with real examples."
+      ],
+      "extend": [
+        "I can identify the documents required for work and further study.",
+        "I can plan, draft and polish an application tailored to the criteria.",
+        "I can research the employer or provider using reliable sources.",
+        "I can collaborate to review documents, and prepare for an interview."
+      ]
+    },
+    "showIt": "Complete a real application with the right documents, check it with a group, and do a mock interview with feedback.",
+    "vocab": [
+      {
+        "word": "application",
+        "meaning": "everything you send to ask for a job or course",
+        "example": "My application had a resume and an email."
+      },
+      {
+        "word": "cover email",
+        "meaning": "a short email or letter that goes with your resume",
+        "example": "My cover email said why I want the job."
+      },
+      {
+        "word": "referee",
+        "meaning": "a person who can tell an employer what you’re like",
+        "example": "My footy coach is my referee."
+      },
+      {
+        "word": "interview",
+        "meaning": "a meeting where they ask you questions",
+        "example": "The interview was 15 minutes."
+      },
+      {
+        "word": "tax file number",
+        "meaning": "your number for tax (TFN)",
+        "example": "Give your TFN after you get the job."
+      },
+      {
+        "word": "trial shift",
+        "meaning": "a short try-out at the job",
+        "example": "They asked me to do a trial shift."
+      },
+      {
+        "word": "USI",
+        "meaning": "Unique Student Identifier: a free number you need for TAFE and training",
+        "example": "I made my USI before I enrolled.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "tailor",
+        "meaning": "change something to fit one reader",
+        "example": "I tailored my email to the ad.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "selection criteria",
+        "meaning": "the list of things they choose people by",
+        "example": "My email matched each selection criterion.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Apply for Real in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Apply for Real",
+        "sub": "Application in, interview ready.",
+        "icon": "lucide:send",
+        "say": "Apply for real. Application in, interview ready."
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Apply",
+        "pillIcon": "lucide:send",
+        "title": "List the documents",
+        "text": "What do they ask for?",
+        "icon": "lucide:folder-open",
+        "say": "Step one. List the documents. A resume, a cover email, maybe a form, a check, or a student number for TAFE.",
+        "vc": [
+          "VPC-U3M2-LG1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Apply",
+        "pillIcon": "lucide:send",
+        "title": "Match the ad",
+        "text": "Use their words. Give proof.",
+        "icon": "lucide:target",
+        "say": "Step two. Match the ad. Use their words, and give a real example for each must-have.",
+        "vc": [
+          "VPC-U3M2-LG3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Apply",
+        "pillIcon": "lucide:send",
+        "title": "Check it together",
+        "text": "Fresh eyes find mistakes.",
+        "icon": "lucide:users",
+        "say": "Step three. Check it together. Fresh eyes find the mistakes you can’t see.",
+        "vc": [
+          "VPC-U3M2-AP3",
+          "VPC-U3M2-AP4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Apply",
+        "pillIcon": "lucide:send",
+        "title": "Practise the interview",
+        "text": "What I did, how, what happened.",
+        "icon": "lucide:mic",
+        "say": "Step four. Practise the interview. Answer with a real example: what you did, how you did it, and what happened.",
+        "vc": [
+          "VPC-U3M2-AP3"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Not before the offer",
+        "text": "Tax file number and bank details come **after** you get the job.",
+        "icon": "lucide:shield-alert",
+        "say": "Remember. Your tax file number and bank details come after you get the job. Never before.",
+        "vc": [
+          "VPC-U3M2-LG1"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Trial shifts",
+        "text": "Doing real work? You should be **paid**.",
+        "icon": "lucide:scale",
+        "say": "And if they ask for a trial shift: an unpaid try-out should be short and supervised. If you are doing real work, you should be paid.",
+        "vc": [
+          "VPC-U3M2-LG1"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Apply for real. Practise the interview.",
+        "icon": "lucide:award",
+        "say": "Your mission. Complete a real application, check it with a group, and do a mock interview."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "From “I want that” to “application sent”",
+        "minutes": {
+          "support": 4,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "You’ve found a job or course you want. Here’s how to apply.\n\n**1. List the documents.** Read the ad again. What do they want?\n- a **resume**.\n- a **cover email** (a short note about why you want it).\n- maybe a form, or **referees** (people who can say you’re good).\n- for TAFE: a **USI**, a free student number.\n\n**2. Match the ad.** In your email, use their words. If they want “reliable”, show you are: “I haven’t missed a footy training all year.”\n\n**3. Check it together.** Ask two people to read it. Fix the mistakes.\n\n**4. Practise the interview.** Answer with an example: what you did, how you did it, and what happened.\n\n**Keep these until you get the job:** your **tax file number** and your bank details. Don’t give them before.",
+          "core": "You’ve found an opportunity you actually want. Here’s how to turn it into an application, and an interview.\n\n**1. List every document.** Go back to the ad and list exactly what they ask for:\n- a **resume**.\n- a **cover email** or letter: a short note about why you want this and why you fit.\n- sometimes an application form, your availability, or **referees** (people who can vouch for you; always ask them first).\n- checks or tickets the job needs, like a **Working with Children Check**.\n- for TAFE and other training: a **USI** (Unique Student Identifier), which is free to create online.\n\n**2. Match the ad.** **Tailor** your cover email to this one ad. Use their words, and give a real example for each must-have. If they want “reliable”, prove it: “I’ve worked every Saturday at the canteen for a year.”\n\n**3. Check it together.** Swap with others. Does it answer the ad? Are the spelling, punctuation and contact details right? Fresh eyes find mistakes you can’t see.\n\n**4. Practise the interview.** Most questions are really asking: “Can you do this? Will you fit in?” Answer with an example: **what** happened, **how** you handled it, and **what happened** in the end. Prepare one question to ask them too.\n\n**Not yet:** your **tax file number**, bank details and super details are only needed **after** you get the job. Anyone asking for them before is a red flag.",
+          "extend": "Finding an opportunity is half the work. The other half is an application tailored to one reader, and an interview you’ve rehearsed.\n\n**1. Identify every required document.** Re-read the ad or course page and list exactly what’s required: a **resume**; a **cover letter** or email; sometimes an application form, availability or **referees** (always ask permission first); any mandatory checks or tickets, such as a **Working with Children Check**; and, for nationally recognised training, a **USI** (Unique Student Identifier), free to create online.\n\n**2. Tailor it.** Address the **selection criteria** directly, in the employer’s language, with evidence. “Reliable” becomes “I’ve opened the canteen every Saturday for a year without missing a shift.”\n\n**3. Review it collaboratively.** Peer review catches what you can’t see in your own writing: missing criteria, unclear sentences, errors in spelling, punctuation or contact details.\n\n**4. Rehearse the interview.** Most questions test two things: capability and fit. Answer with a specific example: the situation, what you did, and the result. Prepare a question of your own; it signals genuine interest.\n\n**5. Know who you’re applying to.** Use reliable sources (their website, recent news) to learn what they do. Check the information is current.\n\n**Sequence matters:** a **tax file number**, bank and super details belong in onboarding, **after** an offer. A request for them before an interview is a common sign of a scam."
+        },
+        "vc": [
+          "VPC-U3M2-LG1",
+          "VPC-U3M2-LG3",
+          "VPC-U3M2-AP3"
+        ],
+        "vcNote": "Identifying required documents for work and further learning, and planning and completing an application."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The trial shift",
+        "icon": "lucide:chef-hat",
+        "body": {
+          "support": "Sometimes, after you apply, a boss says: “Come in and do a trial shift.”\n\nIs that OK? Do you get paid?\n\nThe **Fair Work Ombudsman** is the government group that checks bosses follow work laws. It says:\n\n- An unpaid trial is only OK to **show a skill** the job needs.\n- It should be **short**: only as long as it takes to show that skill.\n- The boss must **watch** you the whole time.\n.\nIf you’re doing **real work**, like serving customers, you should be **paid**.",
+          "core": "After an application, some employers ask for a “trial shift”. Lots of young people have done unpaid ones without knowing the rules.\n\nThe **Fair Work Ombudsman** is the government agency that checks workplace laws are followed. It has clear rules, including for cafés and restaurants:\n\n- An employer can ask for an **unpaid trial** only so you can **show specific skills** the job needs.\n- It must be **no longer than needed** to show those skills.\n- You must be **directly supervised** the whole time.\n.\nIf you’re doing **productive work**, like serving customers, making coffee for sale or cleaning up, it’s work. You should be **paid** for it.\n\nKnowing this before you go in means you can ask the right question: “How long will the trial be, and is it paid?”",
+          "extend": "After an application, some employers, especially in hospitality, ask people to do a “trial shift”. Unpaid trials have been common, and many young workers don’t know where the legal line is.\n\nThe **Fair Work Ombudsman** checks that workplace laws are followed. It has published guidance for the hospitality industry. An unpaid trial may be legal only if all of these are true:\n\n- it’s needed so you can **show specific skills** the job requires.\n- it lasts **no longer than needed** to show those skills.\n- you are **directly supervised** the whole time.\n\nIf you do **productive work**, like serving customers, making food for sale or cleaning, that’s a job, and it must be paid.\n\nThe practical skill is to ask about it politely before you agree: “How long is the trial, what will I be doing, and is it paid?” That’s not being difficult. It’s knowing your rights."
+        },
+        "source": {
+          "name": "Fair Work Ombudsman — Unpaid work: hospitality industry (fact sheet)",
+          "url": "https://www.fairwork.gov.au/sites/default/files/migration/723/Unpaid-work-hospitality-industry.pdf"
+        },
+        "think": {
+          "support": [
+            "When is an unpaid trial OK?",
+            "When should you be paid?"
+          ],
+          "core": [
+            "What three rules does the Fair Work Ombudsman give for unpaid trials?",
+            "What counts as “productive work”?",
+            "How could you ask about a trial politely?"
+          ],
+          "extend": [
+            "Why might young applicants accept unpaid trials that break these rules?",
+            "Where is the line between showing a skill and doing real work?",
+            "How would you raise the question professionally?"
+          ]
+        },
+        "vc": [
+          "VPC-U3M2-LG1"
+        ],
+        "vcNote": "Understanding the documented rules that apply to a common step in getting a job."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a cover email",
+      "docTitle": "EMAIL: APPLICATION FOR CASUAL KITCHEN HAND (EXAMPLE)",
+      "vc": [
+        "VPC-U3M2-LG3",
+        "VPC-U3M2-AP4"
+      ],
+      "vcNote": "Annotating the structure and conventions of a tailored cover email.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Subject",
+          "value": "Application: Casual Kitchen Hand (weekends)"
+        },
+        {
+          "n": 2,
+          "label": "Greeting",
+          "value": "Dear Ms Rossi,"
+        },
+        {
+          "n": 3,
+          "label": "Which job",
+          "value": "I’d like to apply for the casual kitchen hand job I saw in your window."
+        },
+        {
+          "n": 4,
+          "label": "Why I fit",
+          "value": "You asked for someone reliable. I have run the footy club canteen every Saturday this season.",
+          "strong": true
+        },
+        {
+          "n": 5,
+          "label": "Availability",
+          "value": "I can work all weekend, and Monday and Wednesday after 3:30 pm."
+        },
+        {
+          "n": 6,
+          "label": "Attached + sign-off",
+          "value": "My resume is attached. Kind regards, Jaz Kaur, 0400 000 000"
+        }
+      ],
+      "note": "Made-up example for practice.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Clear subject",
+          "note": "Says the job straight away."
+        },
+        {
+          "n": 2,
+          "label": "Greeting by name",
+          "note": "Find out who to write to."
+        },
+        {
+          "n": 3,
+          "label": "Which job + where",
+          "note": "They may have several jobs."
+        },
+        {
+          "n": 4,
+          "label": "Match + proof",
+          "note": "Their word, then real proof."
+        },
+        {
+          "n": 5,
+          "label": "Availability",
+          "note": "The ad asked for it."
+        },
+        {
+          "n": 6,
+          "label": "Documents + contact",
+          "note": "What’s attached, and how to reach me."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Apply for real",
+      "steps": [
+        {
+          "title": "List",
+          "text": "Every document they ask for.",
+          "icon": "lucide:folder-open"
+        },
+        {
+          "title": "Match",
+          "text": "Their words + your proof.",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "Check",
+          "text": "Fresh eyes, together.",
+          "icon": "lucide:users"
+        },
+        {
+          "title": "Practise",
+          "text": "Interview with examples.",
+          "icon": "lucide:mic"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "When should you give an employer your tax file number?",
+        "options": [
+          "After you get the job",
+          "In your first email",
+          "Before the interview",
+          "In your resume"
+        ],
+        "answer": 0,
+        "explain": "TFN, bank and super details come after the offer.",
+        "vc": [
+          "VPC-U3M2-LG1"
+        ]
+      },
+      {
+        "q": "The ad asks for someone “reliable”. What’s the best line for your email?",
+        "options": [
+          "I’ve worked every Saturday at the canteen for a year.",
+          "I am reliable.",
+          "Everyone says I’m nice.",
+          "I really need money."
+        ],
+        "answer": 0,
+        "explain": "Use their word, then prove it with an example.",
+        "vc": [
+          "VPC-U3M2-LG3"
+        ]
+      },
+      {
+        "q": "What should you do before you list someone as a referee?",
+        "options": [
+          "Ask them first",
+          "Nothing",
+          "Pay them",
+          "Write their answers for them"
+        ],
+        "answer": 0,
+        "explain": "Always ask permission, and tell them about the job.",
+        "vc": [
+          "VPC-U3M2-LG1"
+        ]
+      },
+      {
+        "q": "What’s a good way to answer an interview question?",
+        "options": [
+          "Give a real example: what, how, and what happened",
+          "Say yes or no",
+          "Talk about something else",
+          "Read your resume out loud"
+        ],
+        "answer": 0,
+        "explain": "Examples prove you can do the job.",
+        "vc": [
+          "VPC-U3M2-AP3"
+        ]
+      },
+      {
+        "q": "You’re asked to do an unpaid trial and serve customers all day. Is that OK?",
+        "options": [
+          "No. Real work should be paid.",
+          "Yes, always",
+          "Yes, if it’s on a weekend",
+          "Only if you’re under 18"
+        ],
+        "answer": 0,
+        "explain": "Unpaid trials should be short, supervised and only to show a skill.",
+        "vc": [
+          "VPC-U3M2-LG1"
+        ]
+      },
+      {
+        "q": "What is a **USI**?",
+        "options": [
+          "A free student number you need for TAFE and training",
+          "A kind of resume",
+          "A bank account",
+          "A trial shift"
+        ],
+        "answer": 0,
+        "explain": "You need a Unique Student Identifier for nationally recognised training.",
+        "vc": [
+          "VPC-U3M2-LG1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Do a real application. Get the right documents. Check it with a group. Do a practice interview.",
+      "core": "Complete a real application with the right documents, check it with a group, and do a mock interview with feedback.",
+      "extend": "Complete a real application tailored to the selection criteria, review it collaboratively, research the employer or provider, and do a mock interview with feedback."
+    },
+    "checklist": [
+      "I listed every document the application needs",
+      "I wrote a cover email that matches the ad",
+      "My group checked my application and I fixed it",
+      "I did a mock interview and got feedback",
+      "I sent my application, or I know exactly when I will"
+    ],
+    "levelUp": "Research the employer or provider before your interview, using two reliable sources. Write three facts about them and one question to ask.",
+    "vc": [
+      "VPC-U3M2-LG1",
+      "VPC-U3M2-LG3",
+      "VPC-U3M2-AP3",
+      "VPC-U3M2-AP4"
+    ],
+    "model": {
+      "kind": "Example cover email",
+      "text": "**Subject:** Volunteer application: weekend dog walker\n\nDear Sam,\n\nI’d like to apply to volunteer as a weekend dog walker at Second Chance Animal Rescue. I saw the role on your website.\n\nYou asked for someone who is calm with animals and reliable. I walk my neighbour’s two dogs every day before school, and I haven’t missed a day this year.\n\nI can volunteer every Saturday and Sunday morning.\n\nMy resume is attached. My referee is my neighbour, Mrs Lee, and she’s happy for you to call her.\n\nThank you for reading my application.\n\nKind regards,\nTaylor Nguyen\n0400 000 000",
+      "why": [
+        "The subject line and first sentence say exactly which role.",
+        "It uses the ad’s own words (“calm”, “reliable”) and proves them with a real example.",
+        "It covers availability, what’s attached and a referee who agreed."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Documents",
+        "start": "Some documents missing.",
+        "good": "Every document the ad asks for.",
+        "great": "All documents, checked and correct."
+      },
+      {
+        "skill": "Cover email",
+        "start": "The same email for any job.",
+        "good": "Matches the ad, with an example.",
+        "great": "Proof for each must-have. No mistakes."
+      },
+      {
+        "skill": "Interview",
+        "start": "Short answers, no examples.",
+        "good": "Answers with real examples.",
+        "great": "Clear examples, plus a good question for them."
+      }
+    ],
+    "choices": {
+      "prompt": "What will you apply for?",
+      "options": [
+        "A casual or part-time job",
+        "An apprenticeship or traineeship",
+        "A TAFE course or short course",
+        "A volunteer role or work experience placement"
+      ]
+    },
+    "solo": "No group to check your application or play the interviewer? Read your email aloud to someone at home, and record yourself answering four interview questions. Send the recording to your teacher for feedback."
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: From “I want that” to “application sent”",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Name the **four** steps.",
+            "lines": 0,
+            "boxes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "vc": [
+              "VPC-U3M2-LG3"
+            ]
+          },
+          {
+            "q": "Name **three** documents an application might need.",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M2-LG1"
+            ]
+          },
+          {
+            "q": "What should you keep until **after** you get the job? Why?",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M2-LG1"
+            ]
+          },
+          {
+            "q": {
+              "support": "How should you answer an interview question?",
+              "core": "How should you answer an interview question? Give the three parts.",
+              "extend": "What two things are most interview questions really testing? How do examples help?"
+            },
+            "lines": 2,
+            "vc": [
+              "VPC-U3M2-AP3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "sort",
+        "title": "Now or after the offer?",
+        "pagebreak": true,
+        "choices": [
+          "With my application",
+          "After the offer"
+        ],
+        "reasonLabel": "Why?",
+        "instructions": "When does each document go to an employer or course provider: with your application, or after they offer you the job or place?",
+        "vc": [
+          "VPC-U3M2-LG1"
+        ],
+        "cards": [
+          {
+            "from": "Document",
+            "text": "Your resume",
+            "answer": "With my application",
+            "flags": "They need it to choose."
+          },
+          {
+            "from": "Document",
+            "text": "Your tax file number",
+            "answer": "After the offer",
+            "flags": "Only once you’re employed."
+          },
+          {
+            "from": "Document",
+            "text": "A cover email",
+            "answer": "With my application",
+            "flags": "It introduces you."
+          },
+          {
+            "from": "Document",
+            "text": "Your bank account details",
+            "answer": "After the offer",
+            "flags": "For pay, once you’re hired."
+          },
+          {
+            "from": "Document",
+            "text": "Referees’ names and numbers",
+            "answer": "With my application",
+            "flags": "Often asked for up front."
+          },
+          {
+            "from": "Document",
+            "text": "Your super fund details",
+            "answer": "After the offer",
+            "flags": "Part of starting the job.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a cover email",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What part is it?",
+          "Why does it work?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the email. Use the word bank. Write why it works.",
+          "core": "Each number marks part of the email. Name it, and say why it helps the application."
+        },
+        "wordBank": {
+          "support": [
+            "subject",
+            "greeting",
+            "which job",
+            "match + proof",
+            "availability",
+            "attached + sign-off"
+          ]
+        }
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the trial shift",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": {
+              "support": "When is an unpaid trial OK?",
+              "core": "What three rules does the Fair Work Ombudsman give for unpaid trials?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U3M2-LG1"
+            ]
+          },
+          {
+            "q": "Give an example of **real work** that should be paid.",
+            "lines": 2,
+            "vc": [
+              "VPC-U3M2-LG1"
+            ]
+          },
+          {
+            "q": {
+              "support": "What could you ask before a trial shift?",
+              "core": "Write how you’d politely ask about a trial shift before agreeing.",
+              "extend": "Why might young applicants accept trials that break these rules? How would you raise it professionally?"
+            },
+            "lines": 3,
+            "vc": [
+              "VPC-U3M2-LG1"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Write your cover email",
+        "pagebreak": true,
+        "vc": [
+          "VPC-U3M2-LG3",
+          "VPC-U3M2-AP4"
+        ],
+        "vcNote": "Planning, drafting and polishing a tailored cover email with correct conventions.",
+        "prompt": {
+          "support": "Write a short cover email for your real application. Say which job, why you fit (with an example), and when you can work.",
+          "core": "Write a cover email for your real application. Use the ad’s words, give a real example for each must-have, add your availability and say what’s attached.",
+          "extend": "Write a cover email or letter that addresses each selection criterion in the employer’s language, with evidence, in a professional tone."
+        },
+        "plan": [
+          {
+            "label": "The job or course, and where I found it:",
+            "lines": 1
+          },
+          {
+            "label": "Their must-haves, and my proof for each:",
+            "lines": 3
+          }
+        ],
+        "starters": [
+          "Dear …,",
+          "I’d like to apply for…",
+          "You asked for… I…",
+          "I can work…",
+          "My resume is attached.",
+          "Kind regards,"
+        ],
+        "lines": {
+          "support": 9,
+          "core": 9,
+          "extend": 9
+        },
+        "check": [
+          "subject line",
+          "their words + my proof",
+          "availability",
+          "spelling + contact details checked"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: apply for real",
+        "pagebreak": true,
+        "where": "in class with a group, and online or in person",
+        "vc": [
+          "VPC-U3M2-LG1",
+          "VPC-U3M2-LG3",
+          "VPC-U3M2-AP3"
+        ],
+        "vcNote": "Hands-on: completing a real application, peer review and a mock interview.",
+        "instructions": "Finish your application. Check it with a group of 3. Fix it. Then do a **mock interview**: your group asks four questions and fills in the feedback table.",
+        "need": [
+          "the ad or course page",
+          "your resume (from My Resume, or a new one)",
+          "your cover email",
+          "a group of 3"
+        ],
+        "steps": {
+          "support": [
+            "List every document you need.",
+            "Finish your email and resume.",
+            "Swap with your group. They check it.",
+            "Fix what they found.",
+            "Do a mock interview: 4 questions.",
+            "Send it, or write when you will."
+          ],
+          "core": [
+            "List every document the application needs.",
+            "Finish your cover email and resume.",
+            "Group check: each person reads one application against the ad.",
+            "Fix what the group found.",
+            "Mock interview: your group asks four questions and gives feedback.",
+            "Send your application, or write the date you will."
+          ]
+        },
+        "notes": [
+          {
+            "label": "Documents in my application:",
+            "lines": 2
+          },
+          {
+            "label": "What the group helped me fix:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "Application (copy or screenshot)",
+          "Feedback table",
+          "Teacher saw it",
+          "Confirmation of sending"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Mock interview feedback",
+        "pagebreak": true,
+        "rowHeight": {
+          "support": 26,
+          "core": 24
+        },
+        "vc": [
+          "VPC-U3M2-AP3"
+        ],
+        "instructions": "Your interviewers fill this in. Did each answer have a real example? One tip for each.",
+        "columns": [
+          "Question",
+          "Real example? (✓/✗)",
+          "One tip"
+        ],
+        "rows": [
+          [
+            "Tell us about yourself.",
+            "✓",
+            "Shorter. Start with your work at the canteen."
+          ],
+          [
+            "Why do you want this job (or course)?",
+            "",
+            ""
+          ],
+          [
+            "Tell us about a time you worked in a team.",
+            "",
+            ""
+          ],
+          [
+            "What would you do if a customer was upset?",
+            "",
+            ""
+          ],
+          [
+            "Do you have any questions for us?",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Level Up challenge: know who you’re applying to",
+        "pagebreak": true,
+        "instructions": "Research the employer or provider using two reliable sources.",
+        "items": [
+          {
+            "q": "My two sources (and why I trust them):",
+            "lines": 2,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M2-LG2"
+            ]
+          },
+          {
+            "q": "Three facts about them:",
+            "lines": 3,
+            "levelUp": true,
+            "vc": [
+              "VPC-U3M2-LG2"
+            ]
+          },
+          {
+            "q": "One question I’ll ask them in the interview:",
+            "lines": 2,
+            "levelUp": true
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I can list what an application needs.",
+          "I can write a cover email that matches the ad.",
+          "I can check documents with a group.",
+          "I can answer interview questions with examples."
+        ],
+        "questions": [
+          "What I applied for (or will):",
+          "My best interview answer:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The boss course for Next Steps. Students identify every document a real application needs (resume, cover email, referees, checks, a USI for training, and what comes only after an offer), write a cover email tailored to the ad, review applications in a group, and do a mock interview with structured feedback. The case study is the Fair Work Ombudsman’s guidance on unpaid trial shifts.",
+    "prep": [
+      "Print workbooks, with spare feedback tables.",
+      "Students need a real opportunity: from Job Hunt or Check the Course, or a volunteer or work-experience role. Have a few local options ready.",
+      "Make sure each student has a resume (My Resume) or time to draft one.",
+      "Optional: invite a local employer or careers adviser to sit on interview panels."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — What they need",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** two applications for the same job. Which gets the interview?",
+          "**Watch (5 min):** explainer.",
+          "**Read (15 min):** article + questions.",
+          "**Sort (10 min):** now or after the offer.",
+          "**Case study (10 min):** the trial shift."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Write it",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the cover email.",
+          "**Model (10 min):** tailor an email to an ad aloud.",
+          "**Write (30 min):** students’ cover emails."
+        ]
+      },
+      {
+        "title": "Lessons 3–4 — Check it, practise it",
+        "minutes": 100,
+        "steps": [
+          "**Group check (25 min):** read applications against the ad; fix.",
+          "**Mock interviews (45 min):** groups of 3 rotate; feedback tables.",
+          "**Level Up (15 min):** research the employer.",
+          "**Check & reflect (15 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "List every document the ad asks for.",
+      "Their words, your proof.",
+      "Fresh eyes find mistakes.",
+      "Answer with a real example. TFN and bank details only after the offer."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Sentence starters for the email.",
+        "Interview questions given in advance."
+      ],
+      "extend": [
+        "Address selection criteria explicitly.",
+        "Research the employer with reliable sources (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VPC-U3M2-LG1",
+        "evidence": "Identifies the documents required for a real work or learning opportunity, and when each is needed (sort, Do it notes)."
+      },
+      {
+        "vc": "VPC-U3M2-LG3",
+        "evidence": "Plans, drafts and completes a tailored application (cover email, documents)."
+      },
+      {
+        "vc": "VPC-U3M2-AP3",
+        "evidence": "Participates in group review and mock interviews to complete documentation (feedback table, observation)."
+      },
+      {
+        "vc": "VPC-U3M2-AP4",
+        "evidence": "Applies conventions: sentence structure, paragraphing, punctuation and spelling in the cover email."
+      },
+      {
+        "vc": "VPC-U3M2-LG2",
+        "evidence": "Researches the employer or provider and checks the accuracy of the information (Level Up).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Sort:** resume — with application; TFN — after the offer; cover email — with application; bank details — after the offer; referees — with application; super details — after the offer.\n\n**Annotation:** 1 clear subject; 2 greeting by name; 3 which job and where seen; 4 matches “reliable” with proof; 5 availability (asked for in the ad); 6 what’s attached, sign-off and contact.\n\n**Case study:** an unpaid trial must be only to show specific skills, no longer than needed, and directly supervised; productive work (serving customers, making food for sale, cleaning) must be paid; e.g. “How long is the trial, what will I be doing, and is it paid?”",
+    "resources": [
+      {
+        "label": "Fair Work Ombudsman — Unpaid work: hospitality industry",
+        "url": "https://www.fairwork.gov.au/sites/default/files/migration/723/Unpaid-work-hospitality-industry.pdf"
+      },
+      {
+        "label": "Fair Work Ombudsman — Before starting employment",
+        "url": "https://www.fairwork.gov.au/starting-employment/before-starting-employment"
+      },
+      {
+        "label": "Unique Student Identifier (USI)",
+        "url": "https://www.usi.gov.au/"
+      },
+      {
+        "label": "Youth Central — applying for jobs",
+        "url": "https://www.youthcentral.vic.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Applying for real is a big step.** Not every student is ready to send an application. The evidence is a complete, checked application; sending it is encouraged but their choice.",
+      "**Peer review needs structure.** Give each reviewer one job (check the ad’s must-haves, or check spelling and contact details) or feedback becomes “looks good”.",
+      "**Mock interviews can be stressful.** Let nervous students do the first one with you, or record answers privately (the solo option).",
+      "**Unpaid trials are common in hospitality.** Some students will have done one. Keep the discussion about rules, not about shaming employers or families.",
+      "**Works in a real class:** yes, especially with a guest interviewer. Students often send applications that week."
+    ],
+    "levels": {
+      "support": "Aimed at about Year 5 reading: shorter article and case study, 6 key words, word bank, sentence starters and questions given in advance.",
+      "core": "Aimed at about Year 7 reading: the standard version with documents, tailoring, group review, the trial-shift case and mock interviews.",
+      "extend": "Aimed at about Year 9 reading: selection criteria, onboarding sequence, the legal nuance of trials, and researching the employer."
+    }
+  }
+}

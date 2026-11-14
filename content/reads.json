@@ -132,7 +132,12 @@
     "vpc-run-the-room": "voice",
     "vpc-fill-the-form": "law",
     "vpc-who-can-help": "safety",
-    "vpc-sort-it-out": "safety"
+    "vpc-sort-it-out": "safety",
+    "vpc-job-hunt": "work",
+    "vpc-check-the-course": "money",
+    "vpc-apply-for-real": "work",
+    "vpc-pitch-your-project": "voice",
+    "vpc-showcase": "screen"
   },
   "kinds": [
     "Book",
