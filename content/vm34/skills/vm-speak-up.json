@@ -1,0 +1,952 @@
+{
+  "id": "vm-speak-up",
+  "version": 1,
+  "duration": "4 lessons (about 3.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "This is your big talk. Your topic. Your voice. Pick something that matters. Teach people how to do it, or why it counts.",
+      "core": "This is the Speak Up boss mission: a three-to-five-minute presentation on something that matters in everyday life or your community. How to enrol to vote. How to rent your first place. Why people should give blood. You’ll plan it, back it, rehearse it and deliver it, then judge it honestly.",
+      "extend": "The Speak Up showcase brings this whole zone together: audience, structure, evidence and delivery. You’ll give advice or information about community life or everyday life. You’ll take questions. Then you’ll judge your own performance honestly."
+    },
+    "why": {
+      "support": "Speaking up helps you, and it helps other people too.",
+      "core": "Speaking clearly to a group about something real is one of the most useful skills you can leave school with.",
+      "extend": "Giving clear advice, backed by evidence, matters at work, in study and in your community. Judging your own performance is how you keep getting better."
+    },
+    "canDo": {
+      "support": [
+        "I can plan a talk with a start, middle and end.",
+        "I can back my talk with facts.",
+        "I can speak clearly and look at my audience.",
+        "I can say how my talk went."
+      ],
+      "core": [
+        "I can structure a presentation to inform or advise.",
+        "I can support it with evidence and credit my sources.",
+        "I can deliver it with control of voice and body.",
+        "I can evaluate my own presentation."
+      ],
+      "extend": [
+        "I can plan and order a talk to advise or advocate.",
+        "I can use credited evidence, and mix logic, reasoning and emotion.",
+        "I can control my voice, body and pace.",
+        "I can judge my own work honestly."
+      ]
+    },
+    "showIt": "Plan and deliver a three-to-five-minute presentation on civic participation or managing everyday life. Take questions, then evaluate it.",
+    "vocab": [
+      {
+        "word": "presentation",
+        "meaning": "a planned talk, often with pictures or slides",
+        "example": "My presentation is four minutes."
+      },
+      {
+        "word": "inform",
+        "meaning": "to give facts and explain",
+        "example": "My talk will inform people about voting."
+      },
+      {
+        "word": "instruct",
+        "meaning": "to show people how to do something",
+        "example": "I’ll instruct people how to enrol."
+      },
+      {
+        "word": "advocate",
+        "meaning": "to speak up for a cause",
+        "example": "I advocate for giving blood."
+      },
+      {
+        "word": "civic",
+        "meaning": "to do with being part of a community",
+        "example": "Voting is a civic duty."
+      },
+      {
+        "word": "evaluate",
+        "meaning": "to judge how well something worked",
+        "example": "I evaluated my talk from the video."
+      },
+      {
+        "word": "visual aid",
+        "meaning": "a slide, object or picture that helps your talk",
+        "example": "My visual aid was a real enrolment form.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "credibility",
+        "meaning": "how much people trust what you say",
+        "example": "Good sources build credibility.",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Speak Up in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Speak Up: Your Presentation",
+        "sub": "Your topic. Your voice. Your showcase.",
+        "icon": "lucide:presentation",
+        "say": "Speak up. Your topic, your voice, your showcase."
+      },
+      {
+        "kind": "big",
+        "title": "Pick something real",
+        "text": "Voting, renting, a licence, giving blood, volunteering.",
+        "icon": "lucide:target",
+        "say": "Pick something real. Voting. Renting. Getting your licence. Giving blood. Volunteering.",
+        "vc": [
+          "VM-U4O2-KS1"
+        ]
+      },
+      {
+        "kind": "steps",
+        "title": "Bring it together",
+        "steps": [
+          "Know your audience.",
+          "Plan: hook, points, wrap-up.",
+          "Back it with evidence.",
+          "Rehearse your delivery.",
+          "Take questions.",
+          "Evaluate."
+        ],
+        "icon": "lucide:layers",
+        "say": "Bring it all together. Know your audience. Plan a hook, your points and a wrap-up. Back it with evidence. Rehearse your delivery. Take questions. And evaluate how it went.",
+        "vc": [
+          "VM-U4O2-KS1",
+          "VM-U4O2-KS2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Slides",
+        "pillIcon": "lucide:monitor",
+        "title": "Few words",
+        "text": "A picture and a few words. You do the talking.",
+        "icon": "lucide:image",
+        "say": "If you use slides, use a picture and a few words. You do the talking.",
+        "vc": [
+          "VM-U4O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Slides",
+        "pillIcon": "lucide:monitor",
+        "title": "Face the room",
+        "text": "Not the screen.",
+        "icon": "lucide:eye",
+        "say": "Face the room, not the screen.",
+        "vc": [
+          "VM-U4O2-KK1"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Speak up for three to five minutes.",
+        "icon": "lucide:presentation",
+        "say": "Your mission. Plan and deliver a three to five minute presentation."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Your showcase",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "This is your big talk. It is three to five minutes long.\n\n**Pick a topic.** Choose something real.\n- how to enrol to vote.\n- how to get your learner permit.\n- how to rent your first place.\n- why people should give blood or volunteer.\n\n**Decide your purpose.**\n- To **inform**: give facts.\n- To **instruct**: show how to do it.\n- To **advocate**: get people to act.\n.\n**Plan it.**\n- Hook.\n- Say what’s coming.\n- Two or three points.\n- Wrap-up.\n\n**Back it up.** Use two or three facts. Say where they came from.\n\n**Practise.** Out loud. Time it. Film it.\n\n**On the day:**\n- Slow down. Look up. Stand still.\n- Take questions.\n.\n**After:** watch your video. What went well? What would you change?",
+          "core": "This is your showcase: a three-to-five-minute presentation on something that matters in everyday life or your community.\n\n**1. Choose a topic and purpose.** Topics could include enrolling to vote, getting your licence, renting, Medicare, a first job, giving blood, volunteering, or joining a community group. Then decide your purpose:\n- **inform:** explain what it is and why it matters.\n- **instruct:** show the audience how to do it, step by step.\n- **advocate:** persuade them to act.\n\nMany talks do two of these. Inform first, then advocate.\n\n**2. Know your audience.** What do they know already? What do they care about? Choose examples from their world.\n\n**3. Structure it.** Hook, preview, two or three main points with signposts, wrap-up with a call to action.\n\n**4. Back it.** Use two or three pieces of evidence from reliable sources, credited out loud (“According to the Australian Electoral Commission…”). Use logic, reasoning and emotion: a fact, a “because… so…”, a short story.\n\n**5. Visual aids.** Optional, but useful. If you use slides: one idea per slide, a picture and a few words, and credit images. Face the room, not the screen. A real object, like an enrolment form, can work better than slides.\n\n**6. Rehearse.** Out loud, timed and recorded, at least three times. Mark up your cue cards.\n\n**7. Deliver and take questions.** Slow down, pause, look up, stand still. Listen, repeat, answer, check.\n\n**8. Evaluate.** Watch the recording. Use the rubric. Name specific moments. Set a target.",
+          "extend": "Your showcase is a three-to-five-minute talk. It **informs**, **instructs** or **advocates** on taking part in your community (**civic** life) or managing everyday life.\n\n**Purpose and topic.** Choose a topic with real value for your audience. Ideas: enrolling to vote, getting a licence, renting, health services, rights at work, volunteering or giving blood. Decide your main purpose. Strong talks often combine them: inform, then instruct, then advocate.\n\n**Audience.** Think about what they know and care about. Choose examples, words and your mix of logic, reasoning and emotion to suit.\n\n**Structure.** Hook, preview, main points linked by signposts, and a wrap-up with a clear call to action. Pick an order that fits: steps for instructions, problem then solution for advocacy.\n\n**Evidence and credit.** Use reliable, current evidence. Credit it out loud to build **credibility**. Add a reference list. Credit and clear any images, music or video.\n\n**Visual aids.** Use slides or objects only where they add meaning. Few words, strong images, one idea each. Never read your slides.\n\n**Delivery.** Control your pace, pauses, intonation, eye contact, stance and gestures. Handle questions with active listening, rephrasing and honest answers.\n\n**Judge your own work.** Watch a recording against the rubric. Name exact moments. Find causes, not just symptoms. For example: “I rushed point 2 because I hadn’t practised the link.” Then set one or two targets."
+        },
+        "vc": [
+          "VM-U4O2-KS1",
+          "VM-U4O2-KS2",
+          "VM-U4O2-KS4",
+          "VM-U4O2-KK1"
+        ],
+        "vcNote": "Structuring oral content to advise or advocate; evidence; delivery; self-evaluation."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "“Be proud of who you are”",
+        "icon": "lucide:award",
+        "body": {
+          "support": "**Dylan Alcott** is a champion athlete. He won gold medals in wheelchair tennis and basketball.\n\nIn **January 2022**, he was named **Australian of the Year**. He was the first person with a disability to win it.\n\nHe gave a speech. He told the truth about his life. He said that as a kid, he hated having a disability.\n\nThen he spoke to young people with disability. He told them to be proud of who they are.\n\nHe also asked the government for help for people with disability.\n\nHis speech used a true story and a clear ask. Lots of people heard it.",
+          "core": "**Dylan Alcott** has won Paralympic gold medals in wheelchair tennis and wheelchair basketball.\n\nIn **January 2022**, he was named **Australian of the Year**. He was the first person with a disability to win the award.\n\nIn his speech, he was honest. He said that as a kid, he hated having a disability. He didn’t want to be different. That true story made people listen.\n\nThen he spoke to young people with disability. He told them to be proud of who they are.\n\nHe also made clear **asks** of the government. He asked for secure funding for the **NDIS**, the scheme that supports people with disability. He also asked for free COVID tests for people with disability.\n\nThe speech went from a story, to a message, to action. That’s a strong plan for any talk that tries to change things.",
+          "extend": "**Dylan Alcott** has won Paralympic gold in wheelchair tennis and wheelchair basketball. In **January 2022**, he was named **Australian of the Year**. He was the first person with a disability to receive the award.\n\nHis speech is a strong model of **civic** advocacy. It opened with humour. Then it turned personal. He said he hated his disability as a child and didn’t want to be different. Sharing that built trust, or **credibility**, and made people feel for him.\n\nNext, he spoke straight to one audience: young people with disability. He urged them to be proud of who they are.\n\nFinally, he made clear asks of the government. He wanted guaranteed funding for the **National Disability Insurance Scheme (NDIS)**. He also wanted free rapid COVID tests for people with disability.\n\nThe speech moved from personal story (emotion), to message (reasons for inclusion), to action. Different audiences heard different things. Young people heard hope. Governments heard a request.\n\nReports of his exact words vary a little. Check a full recording before you quote him."
+        },
+        "source": {
+          "name": "International Paralympic Committee — “Paralympic champion Dylan Alcott named Australian of the Year” (January 2022)",
+          "url": "https://www.paralympic.org/news/paralympic-champion-dylan-alcott-named-australian-year"
+        },
+        "think": {
+          "support": [
+            "What did Dylan Alcott say about being a kid?",
+            "What did he ask young people to do?"
+          ],
+          "core": [
+            "How did his story help people listen?",
+            "What did he ask the government for?",
+            "How did his speech move from story, to message, to action?"
+          ],
+          "extend": [
+            "Which audiences did the speech address, and how?",
+            "How did personal disclosure build credibility?",
+            "Why should you check a full recording before quoting a speech?"
+          ]
+        },
+        "vc": [
+          "VM-U4O2-KS1",
+          "VM-U4O2-KK3"
+        ],
+        "vcNote": "A real speech that advocates, structured from story to message to action."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a showcase plan",
+      "docTitle": "PRESENTATION PLAN: ENROL TO VOTE AT 17 (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U4O2-KS1",
+        "VM-U4O2-KS2"
+      ],
+      "vcNote": "Structure, evidence and purpose in a planned presentation.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "value": "“Raise your hand if you’re 17. You can enrol to vote today.”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Preview",
+          "value": "What enrolling is, how to do it, and why it matters."
+        },
+        {
+          "n": 3,
+          "label": "Inform",
+          "value": "“According to the AEC, you can enrol at 16 and vote at 18.”"
+        },
+        {
+          "n": 4,
+          "label": "Instruct",
+          "value": "Show the online form, step by step."
+        },
+        {
+          "n": 5,
+          "label": "Advocate",
+          "value": "A short story: why my nan always votes.",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "Wrap-up",
+          "value": "“Five minutes online. Your voice, counted. Do it tonight.”"
+        },
+        {
+          "n": 7,
+          "label": "References",
+          "value": "Australian Electoral Commission. (Year). Enrol to vote. aec.gov.au"
+        }
+      ],
+      "note": "A made-up plan to show the parts. Check facts against the source.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Hook",
+          "note": "Speaks to them directly."
+        },
+        {
+          "n": 2,
+          "label": "Preview",
+          "note": "The map."
+        },
+        {
+          "n": 3,
+          "label": "Evidence",
+          "note": "Credited out loud."
+        },
+        {
+          "n": 4,
+          "label": "Steps",
+          "note": "Shows how."
+        },
+        {
+          "n": 5,
+          "label": "Emotion",
+          "note": "A story that persuades."
+        },
+        {
+          "n": 6,
+          "label": "Call to action",
+          "note": "Short and clear."
+        },
+        {
+          "n": 7,
+          "label": "References",
+          "note": "Where it came from."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "From idea to showcase",
+      "steps": [
+        {
+          "title": "Pick",
+          "text": "Topic + purpose.",
+          "icon": "lucide:target"
+        },
+        {
+          "title": "Plan",
+          "text": "Structure + audience.",
+          "icon": "lucide:list-ordered"
+        },
+        {
+          "title": "Back",
+          "text": "Evidence + credit.",
+          "icon": "lucide:file-check"
+        },
+        {
+          "title": "Rehearse",
+          "text": "Out loud, filmed.",
+          "icon": "lucide:mic"
+        },
+        {
+          "title": "Present",
+          "text": "Then evaluate.",
+          "icon": "lucide:presentation"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "A talk that shows people **how** to do something is…",
+        "options": [
+          "Instructional",
+          "A story",
+          "A joke",
+          "An advert"
+        ],
+        "answer": 0,
+        "explain": "To instruct is to show how.",
+        "vc": [
+          "VM-U4O2-KS1"
+        ]
+      },
+      {
+        "q": "What should a slide have?",
+        "options": [
+          "A picture and a few words",
+          "Every word of your talk",
+          "Tiny writing",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "You do the talking. The slide supports you.",
+        "vc": [
+          "VM-U4O2-KS4"
+        ]
+      },
+      {
+        "q": "Where should you face when using slides?",
+        "options": [
+          "The audience",
+          "The screen",
+          "The floor",
+          "The door"
+        ],
+        "answer": 0,
+        "explain": "Face the room, not the screen.",
+        "vc": [
+          "VM-U4O2-KK1"
+        ]
+      },
+      {
+        "q": "Which line gives evidence with credit?",
+        "options": [
+          "“According to the AEC, you can enrol at 16.”",
+          "“Everyone knows you can enrol.”",
+          "“I reckon it’s 16.”",
+          "“Trust me.”"
+        ],
+        "answer": 0,
+        "explain": "Name the source, then the fact.",
+        "vc": [
+          "VM-U4O2-KS2"
+        ]
+      },
+      {
+        "q": "What makes a good self-evaluation?",
+        "options": [
+          "Specific moments and a target",
+          "Just “it was good”",
+          "Only what others did wrong",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Name what happened, why, and what you’ll change.",
+        "vc": [
+          "VM-U4O2-KS4"
+        ]
+      },
+      {
+        "q": "What structure did Dylan Alcott’s speech follow?",
+        "options": [
+          "Story, then message, then action",
+          "Only facts",
+          "Only jokes",
+          "Questions only"
+        ],
+        "answer": 0,
+        "explain": "It moved from his story to a message to clear asks.",
+        "vc": [
+          "VM-U4O2-KS1"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Give a three-minute talk about something real, like voting or getting your licence. Use facts. Take questions. Then say how it went.",
+      "core": "Plan and deliver a three-to-five-minute presentation that informs, instructs or advocates on civic participation or managing everyday life. Use evidence with credits, take questions, then evaluate your presentation.",
+      "extend": "Plan and deliver a three-to-five-minute talk on community life or managing everyday life. Give advice, or speak up for a cause. Use reliable, credited evidence. Mix logic, reasoning and emotion on purpose. Take questions. Then judge your performance."
+    },
+    "checklist": [
+      "My topic is real and useful for my audience",
+      "It has a hook, preview, main points and wrap-up",
+      "I used two or three credited facts",
+      "I have a reference list",
+      "I rehearsed it out loud at least three times",
+      "I took questions",
+      "I watched my recording and evaluated it"
+    ],
+    "levelUp": "Give your presentation to a real audience outside class: a younger class, a club, or a community group. Ask them one question afterwards: what will you do now?",
+    "vc": [
+      "VM-U4O2-KS1",
+      "VM-U4O2-KS2",
+      "VM-U4O2-KS4",
+      "VM-U4O2-KK1"
+    ],
+    "solo": "No audience? Record your presentation as a video, speaking to the camera as if it were a room. Ask two people to watch it and send you a question each. Record your answers.",
+    "model": {
+      "kind": "Example presentation opening and evaluation",
+      "text": "**Opening:** “Hands up if you’re 17. [pause] You can enrol to vote today, on your phone. I’ll show you what it is, how to do it, and why it matters.”\n**Point 1:** “First, what is it? According to the Australian Electoral Commission, you can enrol from 16. You can vote from 18.”\n**Self-evaluation:** My hook worked. People put their hands up. I rushed point 2. I hadn’t practised using the form while I talked. Someone asked about moving house. I answered, then checked: “Does that help?”\n**My target:** rehearse with the form open, and slow down in point 2.",
+      "why": [
+        "The opening hooks, previews and promises a clear map in three short lines.",
+        "The evidence is credited to an official source, out loud.",
+        "The evaluation names a cause (“hadn’t practised”) and a specific target."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Structure and evidence",
+        "start": "No clear plan or sources.",
+        "good": "Clear structure and credited facts.",
+        "great": "Strong flow, evidence and a reference list."
+      },
+      {
+        "skill": "Delivery",
+        "start": "Reads from notes or slides.",
+        "good": "Clear voice and eye contact.",
+        "great": "Confident pace, pauses, gestures and Q&A."
+      },
+      {
+        "skill": "Evaluation",
+        "start": "Just “it was good”.",
+        "good": "Names what went well and what to fix.",
+        "great": "Names causes and sets clear targets."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your presentation be about?",
+      "options": [
+        "Enrolling to vote, or how voting works",
+        "Getting your learner permit or licence",
+        "Renting, Medicare, a bank account or another adult task",
+        "Volunteering, giving blood or joining a community group"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Your showcase",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What is the difference between informing, instructing and advocating?",
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Give **two** tips for slides.",
+              "core": "Give three tips for using slides or other visual aids."
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "How do you check how your talk went?",
+              "core": "What makes a good self-evaluation?",
+              "extend": "Why name causes, not just symptoms, in a self-evaluation? Give an example."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a showcase plan",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What is this part?",
+          "How does it help the audience?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the plan. Use the word bank. Write what it does.",
+          "core": "Each number marks a part. Say what it is, and which purpose it serves: inform, instruct or advocate."
+        },
+        "wordBank": {
+          "support": [
+            "hook",
+            "preview",
+            "evidence",
+            "steps",
+            "story",
+            "call to action",
+            "references"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Inform, instruct or advocate?",
+        "pagebreak": true,
+        "choices": [
+          "Inform",
+          "Instruct",
+          "Advocate"
+        ],
+        "reasonLabel": "How can you tell?",
+        "instructions": "Here are some talk titles. What is the main purpose of each?",
+        "vc": [
+          "VM-U4O2-KS1"
+        ],
+        "cards": [
+          {
+            "from": "Talk title",
+            "text": "What Medicare covers, and what it doesn’t.",
+            "answer": "Inform",
+            "flags": "Explains facts."
+          },
+          {
+            "from": "Talk title",
+            "text": "How to apply for your learner permit, step by step.",
+            "answer": "Instruct",
+            "flags": "Shows how."
+          },
+          {
+            "from": "Talk title",
+            "text": "Why every 18-year-old should give blood.",
+            "answer": "Advocate",
+            "flags": "Asks people to act."
+          },
+          {
+            "from": "Talk title",
+            "text": "How to read a rental lease before you sign.",
+            "answer": "Instruct",
+            "flags": "Steps to follow."
+          },
+          {
+            "from": "Talk title",
+            "text": "Our town needs a youth space. Here’s why.",
+            "answer": "Advocate",
+            "flags": "Argues for change."
+          },
+          {
+            "from": "Talk title",
+            "text": "How preferential voting works.",
+            "answer": "Inform",
+            "flags": "Explains a system.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: “Be proud of who you are”",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What did Dylan Alcott say about his childhood?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KK3"
+            ]
+          },
+          {
+            "q": {
+              "support": "What did he ask young people to do?",
+              "core": "What did he ask the government for?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KS1"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why did his story help people listen?",
+              "core": "How did his speech move from story, to message, to action?",
+              "extend": "Which audiences did the speech address, and how? What can you borrow for your own talk?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS1",
+              "VM-U4O2-KK3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Plan: my presentation",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O2-KS1",
+          "VM-U4O2-KS2",
+          "VM-U4O2-KS6"
+        ],
+        "vcNote": "Sequencing and structuring oral content, with evidence and referencing.",
+        "prompt": {
+          "support": "Plan your talk: **hook**, **two or three points**, **two facts** with sources, and a **wrap-up**.",
+          "core": "Plan your presentation: purpose, audience, hook, preview, main points with signposts, evidence credited out loud, and a wrap-up with a call to action. Add a reference list.",
+          "extend": "Plan your presentation with a clear purpose and organising principle. Include attributed evidence, a deliberate mix of logic, reasoning and emotion, transitions and a call to action. Add a consistent reference list."
+        },
+        "plan": [
+          {
+            "label": "Topic, purpose and audience:",
+            "lines": 1
+          },
+          {
+            "label": "Visual aid (slides, object or none):",
+            "lines": 1
+          }
+        ],
+        "starters": [
+          "Hook:",
+          "Preview:",
+          "Point 1 (with evidence):",
+          "Point 2:",
+          "Point 3:",
+          "Wrap-up:",
+          "References:"
+        ],
+        "lines": {
+          "support": 12,
+          "core": 12,
+          "extend": 12
+        },
+        "check": [
+          "structure",
+          "credited evidence",
+          "call to action",
+          "reference list"
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: your showcase",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O2-KS4",
+          "VM-U4O2-KK1"
+        ],
+        "vcNote": "Delivering a presentation with control of oral communication.",
+        "instructions": "Rehearse at least three times, then present to your audience and take questions. Record it. (No audience? Record it to camera, and ask two people to send you a question each.)",
+        "need": [
+          "your cue cards",
+          "visual aid (if using)",
+          "a camera",
+          "an audience"
+        ],
+        "steps": [
+          "Rehearse out loud and time it (three times).",
+          "Present: hook, points, wrap-up.",
+          "Look up, slow down, pause.",
+          "Take at least two questions.",
+          "Thank your audience."
+        ],
+        "notes": [
+          {
+            "label": "My time:",
+            "lines": 1
+          },
+          {
+            "label": "Questions I was asked:",
+            "lines": 2
+          }
+        ],
+        "evidence": [
+          "video",
+          "peer feedback",
+          "teacher saw it"
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Final mission: evaluate my presentation",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O2-KS5",
+          "VM-U4O2-KS4"
+        ],
+        "instructions": "Watch your recording. Use the rubric. Be specific.",
+        "items": [
+          {
+            "q": "Structure and evidence: what worked, and what didn’t?",
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS5"
+            ]
+          },
+          {
+            "q": "Delivery: voice, eye contact and body. Name a specific moment.",
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS5",
+              "VM-U4O2-KS4"
+            ]
+          },
+          {
+            "q": "Questions: how did I handle them?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KS5"
+            ]
+          },
+          {
+            "q": {
+              "support": "One thing I’d change next time:",
+              "core": "Why did my weakest moment happen? What will I change?",
+              "extend": "Identify the cause of my weakest moment, and set two targets."
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I planned a clear structure.",
+          "I backed my talk with credited facts.",
+          "I delivered it with confidence.",
+          "I evaluated my presentation honestly."
+        ],
+        "questions": [
+          "The moment I was proudest of:",
+          "Where I want to speak up next:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "The Speak Up boss mission and the VM Unit 4 Outcome 2 showcase. Students plan and deliver a three-to-five-minute presentation that informs, instructs or advocates on civic participation or managing everyday life (e.g. enrolling to vote, licensing, renting, Medicare, volunteering, blood donation). It draws together audience, structure, evidence and attribution, delivery and question handling, followed by critical self-evaluation from a recording. The case study is Dylan Alcott’s 2022 Australian of the Year speech, which moved from personal story to message to specific policy asks.",
+    "prep": [
+      "Print workbooks.",
+      "Book presentation time (about 6 minutes per student including questions).",
+      "Devices to record (with consent).",
+      "Students should have done at least two of Know Your Audience, Plan Your Talk, Back Your Advice and Nail the Delivery.",
+      "Consider inviting a real audience (another class, parents, a community member)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Topic and purpose",
+        "minutes": 50,
+        "steps": [
+          "**Hook (5 min):** what’s one adult task nobody taught you?",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Sort (10 min):** inform, instruct or advocate.",
+          "**Case study (10 min):** Dylan Alcott."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Plan and research",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (10 min):** the enrolment plan.",
+          "**Plan (40 min):** structure, evidence and references."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Rehearse",
+        "minutes": 50,
+        "steps": [
+          "**Rehearse (50 min):** three timed runs in pairs, with peer feedback; mark up cue cards; prepare visual aids."
+        ]
+      },
+      {
+        "title": "Lesson 4 — Showcase",
+        "minutes": 50,
+        "steps": [
+          "**Do it (40 min):** presentations and questions (may need a second session).",
+          "**Evaluate (10 min):** start the evaluation; finish from the recording."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Real topic, clear purpose: inform, instruct or advocate.",
+      "Audience shapes examples, words and the logic–emotion mix.",
+      "Hook, preview, signposted points, wrap-up with a call to action.",
+      "Credited evidence and a reference list.",
+      "Rehearse, deliver, take questions, evaluate with causes and targets."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Three minutes; two main points.",
+        "A plan frame and a list of trusted sites."
+      ],
+      "extend": [
+        "Combine purposes deliberately.",
+        "Critical evaluation identifying causes and two targets."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O2-KS1",
+        "evidence": "Sequences and structures oral content to advise or advocate (plan, presentation)."
+      },
+      {
+        "vc": "VM-U4O2-KS2",
+        "evidence": "Provides reliable evidence to support advice (plan, presentation)."
+      },
+      {
+        "vc": "VM-U4O2-KS4",
+        "evidence": "Uses body language, eye contact, gestures, pace and intonation appropriately (Do it)."
+      },
+      {
+        "vc": "VM-U4O2-KK1",
+        "evidence": "Shows knowledge of the elements of oral communication (evaluation)."
+      },
+      {
+        "vc": "VM-U4O2-KS5",
+        "evidence": "Critically evaluates own work with specific evidence and targets (evaluation page).",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "vc": "VM-U4O2-KS6",
+        "evidence": "Applies conventions of referencing and attribution (spoken credits, reference list).",
+        "levels": [
+          "extend"
+        ]
+      },
+      {
+        "vc": "VM-U4O2-KK3",
+        "evidence": "Uses logic, reasoning and emotion deliberately to influence (plan, presentation).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 hook addressing the audience; 2 preview; 3 credited evidence (inform); 4 step-by-step (instruct); 5 personal story (advocate, emotion); 6 call to action; 7 reference.\n\n**Sort:** inform — Medicare coverage; preferential voting. Instruct — learner permit steps; reading a lease. Advocate — give blood; youth space.\n\n**Case study:** Alcott (Paralympic gold medallist) was named Australian of the Year in January 2022, the first person with a disability to receive it; he spoke about hating his disability as a child; urged young people with disability to be proud; asked for guaranteed NDIS funding and free rapid antigen tests for people with disability. Structure: story → message → action.\n\n**Note:** check the AEC enrolment ages in the diagram (enrol from 16, vote from 18) against aec.gov.au before teaching.",
+    "resources": [
+      {
+        "label": "International Paralympic Committee — Dylan Alcott named Australian of the Year",
+        "url": "https://www.paralympic.org/news/paralympic-champion-dylan-alcott-named-australian-year"
+      },
+      {
+        "label": "Australian Electoral Commission — enrol to vote",
+        "url": "https://www.aec.gov.au/"
+      },
+      {
+        "label": "Australian Red Cross Lifeblood",
+        "url": "https://www.lifeblood.com.au/"
+      },
+      {
+        "label": "VicRoads — learner permit",
+        "url": "https://www.vicroads.vic.gov.au/"
+      }
+    ],
+    "realityCheck": [
+      "**This is the big one.** Some students will be very anxious. Offer the recorded option, a smaller audience, or presenting in pairs with clear individual sections.",
+      "**Topics should be useful, not just interesting.** Steer students towards something their audience will actually do.",
+      "**The case study involves disability and personal disclosure.** Keep the focus on how the speech works.",
+      "**Works in a real class:** yes, especially with a real audience; younger students asking questions raises the stakes in a good way."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank, plan frame and a three-minute talk.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with purpose, structure, credited evidence, delivery and evaluation.",
+      "extend": "Aimed at about Year 7 and up: combined purposes, organising principles, credibility, the logic–emotion mix and causal self-evaluation."
+    }
+  }
+}

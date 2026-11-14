@@ -1,0 +1,875 @@
+{
+  "id": "vm-nail-the-delivery",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You know what to say. But your hands shake. You talk too fast. You look at the floor. Good news: delivery is a skill. You can practise it.",
+      "core": "Two people give the same talk, word for word. One holds the room. The other loses it in thirty seconds. The difference is delivery: voice, pace, eye contact, body language. And the good news is that none of it is a gift. It’s practice.",
+      "extend": "Your words get attention. Your delivery decides if you keep it. Voice, pace, eye contact and gesture are skills you can control and practise. So is taking questions well."
+    },
+    "why": {
+      "support": "Practice makes you calmer and clearer when you speak.",
+      "core": "Job interviews, presentations, meetings and speeches all depend on delivery. Practising it makes you more confident everywhere.",
+      "extend": "Delivery skills help in every spoken task at work. Practice and honest self-review are how good speakers get better."
+    },
+    "canDo": {
+      "support": [
+        "I can speak loud, slow and clear.",
+        "I can look at my audience.",
+        "I can answer a question politely."
+      ],
+      "core": [
+        "I can control my voice: volume, pace, pauses and tone.",
+        "I can use eye contact, body language and gestures.",
+        "I can take and answer questions well."
+      ],
+      "extend": [
+        "I can control my voice, pace and tone for effect.",
+        "I can use body language, eye contact and gesture on purpose.",
+        "I can handle questions with active listening.",
+        "I can judge my own delivery."
+      ]
+    },
+    "showIt": "Rehearse and deliver a two-minute talk, then take questions. Watch it back and evaluate your delivery.",
+    "vocab": [
+      {
+        "word": "delivery",
+        "meaning": "how you say your talk",
+        "example": "Her delivery was calm and clear."
+      },
+      {
+        "word": "pace",
+        "meaning": "how fast or slow you speak",
+        "example": "Slow your pace when you’re nervous."
+      },
+      {
+        "word": "pause",
+        "meaning": "a short stop in your talk",
+        "example": "Pause before your big point."
+      },
+      {
+        "word": "eye contact",
+        "meaning": "looking at the people you speak to",
+        "example": "Make eye contact around the room."
+      },
+      {
+        "word": "body language",
+        "meaning": "what your body says without words",
+        "example": "Crossed arms is closed body language."
+      },
+      {
+        "word": "gesture",
+        "meaning": "a movement of your hands to help your meaning",
+        "example": "She held up three fingers for three points."
+      },
+      {
+        "word": "intonation",
+        "meaning": "how your voice goes up and down",
+        "example": "Flat intonation sounds bored.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "rehearse",
+        "meaning": "practise out loud before the real thing",
+        "example": "I rehearsed five times.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Nail the Delivery in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Nail the Delivery",
+        "sub": "Voice, pace, eye contact — practise like a pro.",
+        "icon": "lucide:mic",
+        "say": "Nail the delivery. Voice, pace, eye contact. Practise like a pro."
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Voice",
+        "pillIcon": "lucide:volume-2",
+        "title": "Slow down",
+        "text": "Nerves make you fast. Go slower than feels right.",
+        "icon": "lucide:gauge",
+        "say": "Slow down. Nerves make you speak fast. Go slower than feels right.",
+        "vc": [
+          "VM-U4O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Voice",
+        "pillIcon": "lucide:volume-2",
+        "title": "Pause",
+        "text": "Before a big point. After a question.",
+        "icon": "lucide:pause",
+        "say": "Pause. Before a big point, and after you ask a question.",
+        "vc": [
+          "VM-U4O2-KS4"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Body",
+        "pillIcon": "lucide:person-standing",
+        "title": "Eyes up",
+        "text": "Look at one person per sentence.",
+        "icon": "lucide:eye",
+        "say": "Eyes up. Look at one person for each sentence, then move to the next.",
+        "vc": [
+          "VM-U4O2-KK1"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "4",
+        "pill": "Body",
+        "pillIcon": "lucide:person-standing",
+        "title": "Stand still",
+        "text": "Feet planted. Hands free to gesture.",
+        "icon": "lucide:footprints",
+        "say": "Stand still. Feet planted. Hands free to gesture.",
+        "vc": [
+          "VM-U4O2-KK1"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Questions",
+        "text": "Listen. Repeat it. Answer. Check.",
+        "icon": "lucide:messages-square",
+        "say": "When someone asks a question: listen, repeat it back, answer it, then check they are happy with your answer.",
+        "vc": [
+          "VM-U4O2-KK5"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "Rehearse. Deliver. Take questions.",
+        "icon": "lucide:mic",
+        "say": "Your mission. Rehearse, deliver a two minute talk, and take questions."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "It’s not just what you say",
+        "minutes": {
+          "support": 3,
+          "core": 5,
+          "extend": 6
+        },
+        "body": {
+          "support": "**Delivery** is how you say your talk. It matters as much as the words.\n\n**Your voice**\n- Speak loud enough for the back row.\n- Slow down. Nerves make you fast.\n- **Pause** before a big point.\n- Sound interested. Let your voice go up and down.\n.\n**Your body**\n- Stand still, with feet apart.\n- Make **eye contact** around the room.\n- Use your hands. Hold up three fingers for three points.\n- Don’t cross your arms or hide your hands.\n.\n**Practise**\n- Say it out loud, not in your head.\n- Practise in front of a mirror or a mate.\n- Film yourself. Watch it back.\n.\n**Questions**\n- Listen to the whole question.\n- Say thanks.\n- Answer it short and clear.\n- Don’t know? Say, “I’m not sure. I’ll find out.”.",
+          "core": "**Delivery** is everything about *how* you speak. Two people can say the same words and get very different results.\n\n**Voice**\n- **Volume:** loud enough for the back row. Breathe from your belly, not your chest.\n- **Pace:** nerves speed you up. Aim for slower than feels natural.\n- **Pauses:** pause before a key point, after a question, and at the end of each section. Silence feels longer to you than to them.\n- **Intonation:** let your voice rise and fall. A flat voice sounds bored. Stress key words.\n- **Tone:** match the topic: serious, warm, excited.\n.\n**Body**\n- **Eye contact:** one person per sentence, moving around the room. Not the floor, not the ceiling, not your notes.\n- **Stance:** feet planted, shoulders relaxed. Don’t sway or pace.\n- **Gestures:** natural and purposeful, like counting points on your fingers.\n- **Face:** let it match your words.\n.\n**Rehearse properly**\n- Out loud, standing up, with your cue cards.\n- Time it.\n- Film it. Watch once with sound off (body), once with eyes closed (voice).\n.\n**Taking questions**\n- **Listen** to the whole question without interrupting.\n- **Repeat** or rephrase it, so everyone hears it and you’ve understood it.\n- **Answer** briefly.\n- **Check:** “Does that answer your question?”.\n- If you don’t know, say so, and offer to find out. Never make something up.",
+          "extend": "**Delivery** is the voice and body side of a talk. Audiences judge how confident and believable you are mostly from it, often before they take in your words.\n\n**Vocal elements**\n- **volume:** backed by your breath, and suited to the room.\n- **pace:** varied on purpose, slower for hard or key ideas.\n- **pauses:** to show structure and let ideas land.\n- **intonation and stress:** your voice rising and falling to show what matters; a falling voice at the end of a sentence sounds sure.\n- **tone:** suited to your purpose and audience.\n\n**Physical elements**\n- **eye contact:** steady, and spread across the room; it builds trust and lets you read reactions.\n- **stance:** grounded, open and still, not swaying.\n- **gesture:** on purpose, to back up meaning (counting, comparing, showing size).\n- **face:** matching your words.\n\n**Rehearsal and self-review.** Rehearse aloud, standing, timed and recorded. Watch once on mute for body language. Listen once with eyes closed for voice. Set one or two clear targets each time. Don’t try to fix everything at once.\n\n**Question time.** Discussion conventions apply:\n- active listening: let the person finish, and show you’re listening.\n- rephrase the question to check you understood, and so everyone hears it.\n- answer briefly, then check they’re happy.\n- be honest about what you don’t know (“I’ll find out”).\n- stay polite with hard questions."
+        },
+        "vc": [
+          "VM-U4O2-KK1",
+          "VM-U4O2-KS4",
+          "VM-U4O2-KK5"
+        ],
+        "vcNote": "Elements of oral communication; body language, eye contact, gesture, pace and intonation; discussion conventions for questions."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "The Australian who helped the King speak",
+        "icon": "lucide:radio",
+        "body": {
+          "support": "**Lionel Logue** was born in **Adelaide** in **1880**. He taught people how to speak well.\n\nLater he moved to London. In **1926**, a man came to see him. It was the son of the King. He had a bad **stammer**. Speaking in public was very hard for him.\n\nLogue gave him exercises. They worked on breathing. They practised and practised.\n\nIn **1936**, the man became **King George VI**.\n\nIn **1939**, war began. The King had to speak to millions of people on the radio. Logue was in the room with him. The King got through the speech.\n\nA film about them, **The King’s Speech**, came out in **2010**.",
+          "core": "**Lionel Logue** was born in **Adelaide** in **1880**. He became a speech teacher, and later moved to London.\n\nIn **1926**, the **Duke of York** came to him for help. He had a severe **stammer**. Public speaking was painful for him, but as a royal, he couldn’t avoid it.\n\nLogue gave him breathing exercises and voice exercises, and they practised for years.\n\nIn **1936**, the Duke unexpectedly became **King George VI**.\n\nOn **3 September 1939**, Britain went to war. The King had to make a radio broadcast to millions of people across the Empire. Logue was with him for the speech. He got through it, slowly and steadily.\n\nTheir story became the film **The King’s Speech** (2010).\n\nThe King’s delivery wasn’t a gift. It was built through years of practice.",
+          "extend": "**Lionel Logue** was born in **Adelaide** in **1880**. He taught public speaking in Australia, then moved to London in the 1920s.\n\nIn **1926**, the **Duke of York**, second son of King George V, came to him. The Duke had a severe **stammer**, and his public duties were an ordeal.\n\nLogue’s approach combined breathing and voice exercises with steady, long-term practice. The two worked together for many years.\n\nIn **1936**, after his brother abdicated, the Duke became **King George VI**. Broadcasts were now part of the job. On **3 September 1939**, as Britain entered World War II, the King addressed the Empire by radio. Logue was in the room.\n\nThe Australian Dictionary of Biography records Logue’s role in the King’s speaking life. Their story was later told in the film **The King’s Speech** (2010).\n\nThe case is a reminder that delivery is a set of skills, built through rehearsal, feedback and persistence."
+        },
+        "source": {
+          "name": "Australian Dictionary of Biography — Logue, Lionel George (1880–1953)",
+          "url": "https://adb.anu.edu.au/biography/logue-lionel-george-10852"
+        },
+        "think": {
+          "support": [
+            "Why was public speaking hard for the King?",
+            "What did Logue and the King do to help?"
+          ],
+          "core": [
+            "What kinds of exercises did Logue use?",
+            "Why do you think it took years, not weeks?",
+            "What does this story show about practice?"
+          ],
+          "extend": [
+            "Why does delivery depend on practice more than talent?",
+            "How did the context (radio, war, a nation listening) raise the stakes?",
+            "What can you take from this case for your own rehearsal?"
+          ]
+        },
+        "vc": [
+          "VM-U4O2-KK1",
+          "VM-U4O2-KS4"
+        ],
+        "vcNote": "A real case of delivery skills built through rehearsal."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a marked-up script",
+      "docTitle": "MARKED-UP SCRIPT: OPENING OF A TALK ON VOLUNTEERING (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U4O2-KK1",
+        "VM-U4O2-KS4"
+      ],
+      "vcNote": "Planning voice and body language on a script.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "(look up)",
+          "value": "Good morning, everyone."
+        },
+        {
+          "n": 2,
+          "label": "(slow)",
+          "value": "Two hours a week. That’s all it takes.",
+          "strong": true
+        },
+        {
+          "n": 3,
+          "label": "/ pause",
+          "value": "Two hours a week / can change someone’s life."
+        },
+        {
+          "n": 4,
+          "label": "STRESS",
+          "value": "It changed MINE."
+        },
+        {
+          "n": 5,
+          "label": "(3 fingers)",
+          "value": "I’ll tell you three ways to start.",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "↑ question",
+          "value": "Who here has ever helped at a sausage sizzle?"
+        }
+      ],
+      "note": "A made-up script to show delivery marks.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Eye contact",
+          "note": "Look up from the start."
+        },
+        {
+          "n": 2,
+          "label": "Pace",
+          "note": "Slow for the key line."
+        },
+        {
+          "n": 3,
+          "label": "Pause",
+          "note": "Lets it land."
+        },
+        {
+          "n": 4,
+          "label": "Stress",
+          "note": "Lean on one word."
+        },
+        {
+          "n": 5,
+          "label": "Gesture",
+          "note": "Show the three points."
+        },
+        {
+          "n": 6,
+          "label": "Intonation",
+          "note": "Voice rises for a question."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Answering a question",
+      "steps": [
+        {
+          "title": "Listen",
+          "text": "To the end.",
+          "icon": "lucide:ear"
+        },
+        {
+          "title": "Thank",
+          "text": "“Good question.”",
+          "icon": "lucide:smile"
+        },
+        {
+          "title": "Repeat",
+          "text": "So all hear it.",
+          "icon": "lucide:repeat"
+        },
+        {
+          "title": "Answer",
+          "text": "Short and clear.",
+          "icon": "lucide:message-circle"
+        },
+        {
+          "title": "Check",
+          "text": "“Does that help?”",
+          "icon": "lucide:check"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "Nerves usually make you speak…",
+        "options": [
+          "Too fast",
+          "Too slow",
+          "Perfectly",
+          "In a deep voice"
+        ],
+        "answer": 0,
+        "explain": "Aim for slower than feels natural.",
+        "vc": [
+          "VM-U4O2-KS4"
+        ]
+      },
+      {
+        "q": "When should you **pause**?",
+        "options": [
+          "Before a big point",
+          "In the middle of every word",
+          "Never",
+          "Only at the very end"
+        ],
+        "answer": 0,
+        "explain": "A pause lets important points land.",
+        "vc": [
+          "VM-U4O2-KS4"
+        ]
+      },
+      {
+        "q": "Where should your eyes be?",
+        "options": [
+          "On one person per sentence, around the room",
+          "On your notes",
+          "On the ceiling",
+          "On the floor"
+        ],
+        "answer": 0,
+        "explain": "Eye contact builds trust.",
+        "vc": [
+          "VM-U4O2-KK1"
+        ]
+      },
+      {
+        "q": "What is good **body language**?",
+        "options": [
+          "Feet planted, hands free",
+          "Arms crossed",
+          "Hands in pockets",
+          "Swaying side to side"
+        ],
+        "answer": 0,
+        "explain": "Still, open and relaxed.",
+        "vc": [
+          "VM-U4O2-KK1"
+        ]
+      },
+      {
+        "q": "Someone asks a question you can’t answer. What do you say?",
+        "options": [
+          "“I’m not sure. I’ll find out and let you know.”",
+          "Make something up",
+          "“That’s a dumb question.”",
+          "Ignore it"
+        ],
+        "answer": 0,
+        "explain": "Be honest, and follow up.",
+        "vc": [
+          "VM-U4O2-KK5"
+        ]
+      },
+      {
+        "q": "How did the King improve his speaking?",
+        "options": [
+          "Years of exercises and practice with Lionel Logue",
+          "He was born good at it",
+          "He never spoke in public",
+          "He read faster"
+        ],
+        "answer": 0,
+        "explain": "Delivery is built through practice.",
+        "vc": [
+          "VM-U4O2-KS4"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Practise a two-minute talk. Then give it to a group. Answer their questions. Watch a video of it and say how you went.",
+      "core": "Rehearse and deliver a two-minute talk with good voice and body language. Take at least two questions. Then watch a recording and evaluate your delivery.",
+      "extend": "Rehearse, deliver and record a two-minute talk. Control your voice, pace, intonation and body language. Handle questions with active listening. Then judge your delivery against clear targets."
+    },
+    "checklist": [
+      "I rehearsed out loud at least three times",
+      "I spoke slowly and paused before key points",
+      "I made eye contact around the room",
+      "I stood still and used gestures",
+      "I answered at least two questions well",
+      "I watched my recording and set a target"
+    ],
+    "levelUp": "Give your talk again a day later, working on just one target from your evaluation. Record both and compare. What improved?",
+    "vc": [
+      "VM-U4O2-KK1",
+      "VM-U4O2-KS4",
+      "VM-U4O2-KK5",
+      "VM-U4O2-KS7"
+    ],
+    "solo": "No audience? Record your talk on video. Then ask a family member or friend to send you two questions about it, and record your answers. Evaluate both recordings.",
+    "model": {
+      "kind": "Example self-evaluation",
+      "text": "**Talk:** why everyone should do a first aid course (2 min 10 sec).\n**Voice:** clear and loud enough. I rushed the middle, about 30 seconds too fast. My pause before “it could be your mum” worked well.\n**Body:** good eye contact at the start. I looked at my cards too much in point 2. I swayed a bit.\n**Questions:** someone asked about cost. I repeated it, answered, and checked: “Does that help?” I didn’t know the exact price, so I said I’d find out.\n**My target for next time:** slow down in point 2, and plant my feet.",
+      "why": [
+        "It names exact moments, not just “good” or “bad”.",
+        "It covers voice, body and questions.",
+        "It sets one clear target for next time."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Voice",
+        "start": "Too fast or too quiet.",
+        "good": "Clear, with some pauses.",
+        "great": "Varied pace and stress for effect."
+      },
+      {
+        "skill": "Body",
+        "start": "Eyes on notes, closed body.",
+        "good": "Eye contact and a steady stance.",
+        "great": "Purposeful gestures, eye contact everywhere."
+      },
+      {
+        "skill": "Questions and evaluation",
+        "start": "Struggled with questions.",
+        "good": "Answered politely and clearly.",
+        "great": "Repeated, answered, checked, and set a target."
+      }
+    ],
+    "choices": {
+      "prompt": "What will your two-minute talk be about?",
+      "options": [
+        "Use your talk from Plan Your Talk",
+        "Something you know a lot about",
+        "Advice for younger students",
+        "A cause or club you care about"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: It’s not just what you say",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Give **two** tips for your voice and **two** for your body.",
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KK1",
+              "VM-U4O2-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "How should you practise?",
+              "core": "Why watch your recording once with the sound off, and once with your eyes closed?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "What do you say if you don’t know an answer?",
+              "core": "List the steps for answering a question.",
+              "extend": "Why rephrase a question before answering it?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KK5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a marked-up script",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What does the mark mean?",
+          "Why does it help?"
+        ],
+        "instructions": {
+          "support": "Each number marks a delivery note. Use the word bank. Write what it means.",
+          "core": "Each number marks a delivery note. Say what it means, and how it helps the audience."
+        },
+        "wordBank": {
+          "support": [
+            "eye contact",
+            "slow pace",
+            "pause",
+            "stress a word",
+            "gesture",
+            "voice goes up"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Good answer or not?",
+        "pagebreak": true,
+        "choices": [
+          "Good answer",
+          "Needs work"
+        ],
+        "reasonLabel": "Why? What would be better?",
+        "instructions": "After a talk, someone asks a question. Is each response good?",
+        "vc": [
+          "VM-U4O2-KK5",
+          "VM-U4O2-KS7"
+        ],
+        "cards": [
+          {
+            "from": "Speaker",
+            "text": "“Good question. So you’re asking about cost?”",
+            "answer": "Good answer",
+            "flags": "Thanks and checks."
+          },
+          {
+            "from": "Speaker",
+            "text": "Starts answering before the question is finished.",
+            "answer": "Needs work",
+            "flags": "Listen to the end."
+          },
+          {
+            "from": "Speaker",
+            "text": "“I’m not sure. I’ll find out and email you.”",
+            "answer": "Good answer",
+            "flags": "Honest, with follow-up."
+          },
+          {
+            "from": "Speaker",
+            "text": "Makes up a number to sound smart.",
+            "answer": "Needs work",
+            "flags": "Never invent facts."
+          },
+          {
+            "from": "Speaker",
+            "text": "Answers, then asks, “Does that help?”",
+            "answer": "Good answer",
+            "flags": "Checks they’re happy."
+          },
+          {
+            "from": "Speaker",
+            "text": "“We covered that already.”",
+            "answer": "Needs work",
+            "flags": "Answer again, kindly.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: the Australian who helped the King speak",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Why was public speaking hard for the King?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KK1"
+            ]
+          },
+          {
+            "q": {
+              "support": "What did Logue and the King do?",
+              "core": "What kinds of exercises did Logue use?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KS4"
+            ]
+          },
+          {
+            "q": {
+              "support": "What does this story show about practice?",
+              "core": "What does this story show about practice? How will you rehearse?",
+              "extend": "Why does delivery depend on practice more than talent? What will you take from this for your rehearsal?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KS4"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "questions",
+        "title": "Plan: my rehearsal",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O2-KS4",
+          "VM-U4O2-KK1"
+        ],
+        "instructions": "Mark up your talk (or cue cards) with delivery notes. Then rehearse it out loud.",
+        "items": [
+          {
+            "q": "My talk topic, and how long it takes when I time it:",
+            "lines": 1,
+            "vc": [
+              "VM-U4O2-KS4"
+            ]
+          },
+          {
+            "q": "Where I’ll pause (copy the lines):",
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KS4"
+            ]
+          },
+          {
+            "q": "Words I’ll stress, and gestures I’ll use:",
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KK1"
+            ]
+          },
+          {
+            "q": "Two questions I think people might ask, and my answers:",
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KK5"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do-it",
+        "title": "Do it: deliver and take questions",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O2-KK1",
+          "VM-U4O2-KS4",
+          "VM-U4O2-KK5",
+          "VM-U4O2-KS7",
+          "VM-U4O2-KS5"
+        ],
+        "vcNote": "Delivering a talk, managing questions and evaluating own delivery.",
+        "instructions": "Give your two-minute talk to a group and take at least two questions. Record it. Then watch it back. (No audience? Record it, and ask someone to send you two questions.)",
+        "need": [
+          "your marked-up cue cards",
+          "a group, or a camera",
+          "a timer"
+        ],
+        "steps": [
+          "Stand, breathe, look up.",
+          "Give your talk. Pause before key points.",
+          "Ask: “Any questions?” Wait.",
+          "Listen, thank, repeat, answer, check.",
+          "Watch your recording: once with sound off, once with eyes closed."
+        ],
+        "notes": [
+          {
+            "label": "Voice: what went well, and what to fix:",
+            "lines": 2
+          },
+          {
+            "label": "Body: what went well, and what to fix:",
+            "lines": 2
+          },
+          {
+            "label": "Questions: how I handled them:",
+            "lines": 1
+          },
+          {
+            "label": "My one target for next time:",
+            "lines": 1
+          }
+        ],
+        "evidence": [
+          "video",
+          "peer feedback",
+          "teacher saw it"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I rehearsed out loud.",
+          "I controlled my voice and pace.",
+          "I used eye contact and body language.",
+          "I handled questions well."
+        ],
+        "questions": [
+          "The delivery skill I improved most:",
+          "My target for my next talk:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn vocal elements (volume, pace, pauses, intonation, tone) and physical elements (eye contact, stance, gesture, facial expression), mark up a script, rehearse properly (out loud, timed, recorded, reviewed with sound off and eyes closed), and handle questions (listen, thank, repeat, answer, check; admit what you don’t know). They deliver a two-minute talk, take questions and evaluate a recording. The case study is Adelaide-born speech therapist Lionel Logue, who helped King George VI manage his stammer through years of practice.",
+    "prep": [
+      "Print workbooks.",
+      "Devices to record talks (students’ phones are fine with consent).",
+      "Small groups of 4–5 for delivery.",
+      "Be sensitive to students who stammer or have speech anxiety; discuss adjustments privately beforehand."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Voice and body",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** teacher reads the same paragraph twice, badly then well. What changed?",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Annotate (15 min):** the marked-up script."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Rehearse",
+        "minutes": 50,
+        "steps": [
+          "**Case study (15 min):** Lionel Logue.",
+          "**Sort (10 min):** good answer or not.",
+          "**Rehearse (25 min):** mark up, rehearse in pairs, record a practice run."
+        ]
+      },
+      {
+        "title": "Lesson 3 — Deliver",
+        "minutes": 50,
+        "steps": [
+          "**Do it (35 min):** groups; each student delivers and takes questions.",
+          "**Evaluate & reflect (15 min):** watch recording, set a target, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Slow down; pause before key points; vary your voice.",
+      "Eye contact one person per sentence; feet planted; purposeful gestures.",
+      "Rehearse out loud, timed and recorded.",
+      "Questions: listen, thank, repeat, answer, check. Never make it up.",
+      "Evaluate with specific moments and one target."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Deliver to a group of two or three.",
+        "One question is enough."
+      ],
+      "extend": [
+        "Plan intonation and stress deliberately.",
+        "Deliver twice and compare (Level Up)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O2-KK1",
+        "evidence": "Uses eye contact, tone, body language and intonation (Do it, recording)."
+      },
+      {
+        "vc": "VM-U4O2-KS4",
+        "evidence": "Uses body language, eye contact, gestures, pace and intonation appropriately (Do it, rehearsal plan)."
+      },
+      {
+        "vc": "VM-U4O2-KK5",
+        "evidence": "Applies active listening and questioning conventions when taking questions (sort, Do it)."
+      },
+      {
+        "vc": "VM-U4O2-KS7",
+        "evidence": "Listens and contributes in small group discussion, as speaker and audience (Do it)."
+      },
+      {
+        "vc": "VM-U4O2-KS5",
+        "evidence": "Critically evaluates own delivery with specific evidence and a target (evaluation notes).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 look up (eye contact); 2 slow pace for the key line; 3 pause to let it land; 4 stress one word; 5 gesture for three points; 6 rising intonation for a question.\n\n**Sort:** good — thanks and checks the question; honest “I’ll find out”; “does that help?”. Needs work — interrupting; making up a number; “we covered that already”.\n\n**Case study:** Logue (born Adelaide, 1880) treated the Duke of York’s stammer from 1926 with breathing and voice exercises and years of practice; the Duke became King George VI in 1936; Logue was present for the 3 September 1939 war broadcast.",
+    "resources": [
+      {
+        "label": "Australian Dictionary of Biography — Lionel Logue",
+        "url": "https://adb.anu.edu.au/biography/logue-lionel-george-10852"
+      },
+      {
+        "label": "Speak Easy Association of Australia (stuttering support)",
+        "url": "https://www.speakeasy.org.au/"
+      }
+    ],
+    "realityCheck": [
+      "**Some students stammer or have severe speech anxiety.** Plan adjustments privately: smaller groups, recorded delivery, or pairing. The Logue case should be handled as a story of support, not a “cure”.",
+      "**Watching yourself on video is uncomfortable.** Normalise it; the sound-off/eyes-closed method makes it less personal and more useful.",
+      "**Recording requires consent.** Keep recordings on school devices or delete after evaluation.",
+      "**Works in a real class:** yes. The “read it badly, then well” hook is memorable."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 8 key words (6 at foundation), word bank and a small group.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with voice, body, rehearsal and question steps.",
+      "extend": "Aimed at about Year 7 and up: intonation and stress, targeted rehearsal, rephrasing questions and critical self-evaluation."
+    }
+  }
+}

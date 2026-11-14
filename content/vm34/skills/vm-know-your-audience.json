@@ -1,0 +1,817 @@
+{
+  "id": "vm-know-your-audience",
+  "version": 1,
+  "duration": "3 lessons (about 2.5 hours)",
+  "brief": {
+    "hook": {
+      "support": "You tell your mates about a good job. Then you tell your nan. Do you use the same words? No. Good speakers change their words to suit who is listening.",
+      "core": "Explain why you want to get your Ls: once to your mates, once to your parents, once to a driving instructor. Same goal, three different talks. Good speakers don’t just know their topic. They know who’s listening, and they choose every word for that crowd.",
+      "extend": "Strong speakers start with the audience. What do they already know? What do they care about? What will move them? Your words, and your mix of logic, reasoning and emotion, should follow from that."
+    },
+    "why": {
+      "support": "The right words help people listen to you.",
+      "core": "Whether you’re giving advice at work, speaking at a club or talking to a boss, choosing words for your audience decides whether they listen.",
+      "extend": "Thinking about your audience is the first step in any talk that gives advice or tries to persuade. You’ll need it at work, in your community and in public debate."
+    },
+    "canDo": {
+      "support": [
+        "I can think about who is listening.",
+        "I can choose words for an audience.",
+        "I can tell facts from feelings in a talk."
+      ],
+      "core": [
+        "I can work out what an audience knows and cares about.",
+        "I can explain how word choice influences an audience.",
+        "I can identify logic, reasoning and emotion in a talk."
+      ],
+      "extend": [
+        "I can analyse what an audience knows and values.",
+        "I can explain how word choice affects an audience.",
+        "I can analyse how speakers mix logic, reasoning and emotion.",
+        "I can judge my own choices for an audience."
+      ]
+    },
+    "showIt": "Write the opening of a talk twice, for two different audiences. Explain how and why you changed it.",
+    "vocab": [
+      {
+        "word": "audience",
+        "meaning": "the people listening to you",
+        "example": "My audience is Year 9 students."
+      },
+      {
+        "word": "logic",
+        "meaning": "facts and clear thinking",
+        "example": "He used logic: the numbers showed it."
+      },
+      {
+        "word": "reasoning",
+        "meaning": "explaining why, step by step",
+        "example": "Her reasoning made sense."
+      },
+      {
+        "word": "emotion",
+        "meaning": "a feeling, like pride, fear or hope",
+        "example": "The story stirred emotion."
+      },
+      {
+        "word": "formal",
+        "meaning": "careful and polite language",
+        "example": "Use formal words with a boss."
+      },
+      {
+        "word": "informal",
+        "meaning": "relaxed, everyday language",
+        "example": "I was informal with my mates."
+      },
+      {
+        "word": "jargon",
+        "meaning": "special words only some people know",
+        "example": "Explain jargon for beginners.",
+        "levels": [
+          "core",
+          "extend"
+        ]
+      },
+      {
+        "word": "inclusive language",
+        "meaning": "words like “we” and “us” that bring the audience in",
+        "example": "“We can fix this together.”",
+        "levels": [
+          "extend"
+        ]
+      }
+    ]
+  },
+  "explainer": {
+    "title": "Know Your Audience in 2 minutes",
+    "videoUrl": null,
+    "scenes": [
+      {
+        "kind": "title",
+        "title": "Know Your Audience",
+        "sub": "The same talk lands differently for different crowds.",
+        "icon": "lucide:users",
+        "say": "Know your audience. The same talk lands differently for different crowds."
+      },
+      {
+        "kind": "steps",
+        "title": "Ask three questions",
+        "steps": [
+          "What do they already know?",
+          "What do they care about?",
+          "What do I want them to do?"
+        ],
+        "icon": "lucide:help-circle",
+        "say": "Before you speak, ask three questions. What do they already know? What do they care about? And what do I want them to do?",
+        "vc": [
+          "VM-U4O2-KK2"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "1",
+        "pill": "Mix",
+        "pillIcon": "lucide:blend",
+        "title": "Logic",
+        "text": "Facts and numbers.",
+        "icon": "lucide:calculator",
+        "say": "Use logic. Facts and numbers.",
+        "vc": [
+          "VM-U4O2-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "2",
+        "pill": "Mix",
+        "pillIcon": "lucide:blend",
+        "title": "Reasoning",
+        "text": "Because… so…",
+        "icon": "lucide:link",
+        "say": "Use reasoning. Because this, so that.",
+        "vc": [
+          "VM-U4O2-KK3"
+        ]
+      },
+      {
+        "kind": "flag",
+        "letter": "3",
+        "pill": "Mix",
+        "pillIcon": "lucide:blend",
+        "title": "Emotion",
+        "text": "A story or a feeling.",
+        "icon": "lucide:heart",
+        "say": "Use emotion. A story or a feeling that people remember.",
+        "vc": [
+          "VM-U4O2-KK3"
+        ]
+      },
+      {
+        "kind": "big",
+        "title": "Change the words",
+        "text": "Mates: “It’s heaps good.” Boss: “It works well.”",
+        "icon": "lucide:repeat",
+        "say": "Then change your words. To your mates, it is heaps good. To your boss, it works well.",
+        "vc": [
+          "VM-U4O2-KK2"
+        ]
+      },
+      {
+        "kind": "end",
+        "title": "Your mission",
+        "text": "One talk, two audiences.",
+        "icon": "lucide:users",
+        "say": "Your mission. Write one talk for two different audiences."
+      }
+    ]
+  },
+  "read": {
+    "articles": [
+      {
+        "title": "Who’s listening?",
+        "minutes": {
+          "support": 3,
+          "core": 4,
+          "extend": 5
+        },
+        "body": {
+          "support": "Your **audience** is the people listening to you. Good speakers think about them first.\n\n**Ask three questions:**\n- What do they already know?\n- What do they care about?\n- What do I want them to do?\n.\n**Choose your words.**\n- With mates, you can be **informal**. “It’s heaps good.”.\n- With a boss, be more **formal**. “It works well.”.\n- With kids, use short, simple words.\n.\n**Use a mix of three things:**\n- **Logic:** facts and numbers.\n- **Reasoning:** explain why. “Because… so…”.\n- **Emotion:** a story or feeling.\n.\nSome people want facts. Some people want a story. Most people need both.",
+          "core": "Your **audience** is the people you’re speaking to. Before you plan a single word, think about them.\n\n**Three questions:**\n- **What do they know?** Experts get bored by basics. Beginners get lost in **jargon**.\n- **What do they care about?** Parents care about safety. Bosses care about cost and time. Teens care about freedom and their mates.\n- **What do I want them to do?** Agree? Act? Change a habit?\n.\n**Language choice.** The words you choose change how people react.\n- **Formal** or **informal**: “Good morning, everyone” or “Hey, legends”?\n- Simple or technical words.\n- “You” speaks to them. “We” brings them in.\n- Strong words stir feelings: “dangerous” hits harder than “not ideal”.\n.\n**Logic, reasoning and emotion.** Speakers persuade with a mix of:\n- **Logic:** facts, numbers and evidence.\n- **Reasoning:** linking ideas so they make sense. “Because… so… which means…”.\n- **Emotion:** stories, images and feelings like pride, fear or hope.\n.\nThe right mix depends on the audience. A safety officer might lead with logic. A coach before a grand final might lead with emotion. The best talks use all three.",
+          "extend": "An **audience** shapes every choice in a talk. Before planning content, effective speakers analyse:\n- **knowledge:** what the audience already knows, and what **jargon** they share.\n- **values and concerns:** what matters to them, such as safety, money, fairness, belonging or status.\n- **attitude:** whether they are likely to agree, disagree or not care.\n- **purpose:** what you want them to think, feel or do afterwards.\n\n**Language choice** follows from that analysis:\n- **register:** formal or informal, technical or plain.\n- **pronouns:** “you” for direct address; **inclusive language** (“we”, “us”, “our”) to build unity.\n- **connotation:** words carry feelings as well as meanings (“reckless” or “risky”, “invest” or “spend”).\n- **examples:** chosen from the audience’s own world.\n\n**Logic, reasoning and emotion.** Persuasive speakers combine three tools:\n- **logic:** facts, statistics and evidence.\n- **reasoning:** cause and effect, comparisons and step-by-step explanation.\n- **emotion:** stories, vivid images and appeals to feelings and values.\n\nToo much logic can feel cold. Too much emotion can feel manipulative. The balance should suit the audience and the occasion. A hostile audience often needs evidence first. A sympathetic one may respond more to a story.\n\nAfter speaking, **evaluate your own choices**: what landed, what didn’t, and why?"
+        },
+        "vc": [
+          "VM-U4O2-KK2",
+          "VM-U4O2-KK3"
+        ],
+        "vcNote": "How language choice influences an audience; logic, reasoning and emotion."
+      }
+    ],
+    "caseStudies": [
+      {
+        "title": "One speech, many audiences",
+        "icon": "lucide:landmark",
+        "body": {
+          "support": "On **13 February 2008**, the Prime Minister, **Kevin Rudd**, gave a speech. He said **sorry** to the **Stolen Generations**.\n\nThese are First Nations people who were taken from their families as kids.\n\nMany people heard the speech:\n- people who were taken as kids.\n- the people in Parliament.\n- millions of people watching on TV.\n\nHe told the true story of one woman. Her name was **Nanna Nungala Fejo**. She was taken from her family when she was a little girl. Her story helped people feel what happened.\n\nHe also gave reasons. He said why the nation needed to say sorry.",
+          "core": "On **13 February 2008**, the Prime Minister, **Kevin Rudd**, made a formal **apology** in Parliament. It was to the **Stolen Generations**. These are First Nations children who were taken from their families by governments.\n\nThe speech had many audiences at once. Some people from the Stolen Generations sat in Parliament House. Politicians from all parties were there. Thousands of people stood outside. Millions watched live on TV.\n\nRudd used **emotion**. He told the true story of **Nanna Nungala Fejo**. She was taken from her family as a young girl. One story helped people imagine what happened to many.\n\nHe used **reasoning** too. He said why the apology was needed, and why it mattered for the future.\n\nHis words were formal. He spoke for “we”, the nation. He spoke to “you”, the Stolen Generations.",
+          "extend": "On **13 February 2008**, the Prime Minister, **Kevin Rudd**, gave the **National Apology** to the **Stolen Generations**. These are First Nations children who were taken from their families under past government laws.\n\nFew speeches have had so many audiences at once. In Parliament House sat members of the Stolen Generations and their families. Politicians from all parties were in the room. Outside, thousands gathered. Millions watched live across the country.\n\nThe speech mixed **emotion** and **reasoning**. Rudd told the story of **Nanna Nungala Fejo**, who was taken from her family as a young child. One personal story made a national history feel real. He then gave reasons why an apology was needed, and what it should lead to.\n\nHis **language choices** suited a formal, national event. He used “we” to speak for the nation. He used “you” to speak straight to the Stolen Generations.\n\nThe National Museum of Australia lists the Apology as one of the nation’s defining moments."
+        },
+        "source": {
+          "name": "National Museum of Australia — Defining Moments: National Apology",
+          "url": "https://www.nma.gov.au/defining-moments/resources/national-apology"
+        },
+        "think": {
+          "support": [
+            "Who was listening to the speech?",
+            "Why do you think he told one person’s story?"
+          ],
+          "core": [
+            "Name three audiences for the speech.",
+            "How did the story of Nanna Fejo use emotion?",
+            "Why might the speech also need reasoning?"
+          ],
+          "extend": [
+            "How did the speaker address several audiences at once?",
+            "Why is one personal story often more powerful than a large number?",
+            "How do “we” and “you” work differently in this speech?"
+          ]
+        },
+        "vc": [
+          "VM-U4O2-KK2",
+          "VM-U4O2-KK3"
+        ],
+        "vcNote": "A real speech addressing several audiences with language choice, emotion and reasoning."
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "type": "document",
+      "title": "Anatomy of a talk for an audience",
+      "docTitle": "TALK TO YEAR 11 STUDENTS: DRIVING WITH MATES (SIMPLIFIED EXAMPLE)",
+      "vc": [
+        "VM-U4O2-KK2",
+        "VM-U4O2-KK3"
+      ],
+      "vcNote": "Language choice, logic, reasoning and emotion in a talk.",
+      "sections": [
+        {
+          "n": 1,
+          "label": "Opening",
+          "value": "“Hands up if you’ve been in a car with a P-plater.”",
+          "strong": true
+        },
+        {
+          "n": 2,
+          "label": "Story",
+          "value": "“Last year my cousin’s mate crashed with three friends in the car.”"
+        },
+        {
+          "n": 3,
+          "label": "Fact",
+          "value": "“In Victoria, P1 drivers can only carry one passenger aged 16 to 21.”"
+        },
+        {
+          "n": 4,
+          "label": "Because… so…",
+          "value": "“More mates means more noise, so more mistakes.”"
+        },
+        {
+          "n": 5,
+          "label": "We",
+          "value": "“We all want to get our licence and keep it.”",
+          "rule": true
+        },
+        {
+          "n": 6,
+          "label": "The ask",
+          "value": "“So when your mate gets their Ps, don’t be the extra passenger.”"
+        }
+      ],
+      "note": "A made-up talk to show the techniques.",
+      "callouts": [
+        {
+          "n": 1,
+          "label": "Engage",
+          "note": "A question from their world."
+        },
+        {
+          "n": 2,
+          "label": "Emotion",
+          "note": "A story they can picture."
+        },
+        {
+          "n": 3,
+          "label": "Logic",
+          "note": "A fact they can check."
+        },
+        {
+          "n": 4,
+          "label": "Reasoning",
+          "note": "Links cause and effect."
+        },
+        {
+          "n": 5,
+          "label": "Inclusive",
+          "note": "“We” brings them in."
+        },
+        {
+          "n": 6,
+          "label": "Action",
+          "note": "What to do, in their words."
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "Plan for your audience",
+      "steps": [
+        {
+          "title": "Who?",
+          "text": "Age, job, mood.",
+          "icon": "lucide:users"
+        },
+        {
+          "title": "Know?",
+          "text": "What they know.",
+          "icon": "lucide:brain"
+        },
+        {
+          "title": "Care?",
+          "text": "What matters.",
+          "icon": "lucide:heart"
+        },
+        {
+          "title": "Mix",
+          "text": "Logic + emotion.",
+          "icon": "lucide:blend"
+        },
+        {
+          "title": "Words",
+          "text": "Formal or not?",
+          "icon": "lucide:type"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "q": "What should you think about **first** when planning a talk?",
+        "options": [
+          "Who is listening",
+          "What font to use",
+          "How long your hair is",
+          "Nothing"
+        ],
+        "answer": 0,
+        "explain": "Start with the audience.",
+        "vc": [
+          "VM-U4O2-KK2"
+        ]
+      },
+      {
+        "q": "Which is **logic**?",
+        "options": [
+          "“P1 drivers can carry only one peer passenger.”",
+          "“Imagine how your mum would feel.”",
+          "“Hey legends!”",
+          "“I reckon it’s bad.”"
+        ],
+        "answer": 0,
+        "explain": "A fact you can check.",
+        "vc": [
+          "VM-U4O2-KK3"
+        ]
+      },
+      {
+        "q": "Which is **emotion**?",
+        "options": [
+          "A story about a crash",
+          "A table of numbers",
+          "A list of rules",
+          "A web address"
+        ],
+        "answer": 0,
+        "explain": "Stories stir feelings.",
+        "vc": [
+          "VM-U4O2-KK3"
+        ]
+      },
+      {
+        "q": "Which opening suits a job interview panel?",
+        "options": [
+          "“Good morning, and thank you for having me.”",
+          "“Hey, what’s up?”",
+          "“Yo.”",
+          "“Let’s get this over with.”"
+        ],
+        "answer": 0,
+        "explain": "A formal setting needs formal words.",
+        "vc": [
+          "VM-U4O2-KK2"
+        ]
+      },
+      {
+        "q": "Why say “we” in a talk?",
+        "options": [
+          "It brings the audience in",
+          "It sounds bossy",
+          "It’s shorter",
+          "It hides the speaker"
+        ],
+        "answer": 0,
+        "explain": "Inclusive language builds unity.",
+        "vc": [
+          "VM-U4O2-KK2"
+        ]
+      },
+      {
+        "q": "In the 2008 Apology, why tell Nanna Fejo’s story?",
+        "options": [
+          "One real story helps people feel what happened",
+          "To fill time",
+          "To give a statistic",
+          "To make a joke"
+        ],
+        "answer": 0,
+        "explain": "A personal story makes a big history real.",
+        "vc": [
+          "VM-U4O2-KK3"
+        ],
+        "levels": [
+          "core",
+          "extend"
+        ]
+      }
+    ]
+  },
+  "show": {
+    "task": {
+      "support": "Write the start of a talk two times. One for your mates. One for adults. Change the words to suit each.",
+      "core": "Write the opening of a talk (about one minute) twice, for two different audiences. Use logic, reasoning and emotion. Then explain how and why you changed your words.",
+      "extend": "Write the opening of a talk for two very different audiences. Change your words, and your mix of logic, reasoning and emotion. Then judge your choices."
+    },
+    "checklist": [
+      "I named both audiences",
+      "Each version uses words that suit its audience",
+      "I used a fact (logic)",
+      "I explained a reason (because… so…)",
+      "I used a story or feeling (emotion)",
+      "I explained what I changed, and why"
+    ],
+    "levelUp": "Read both versions aloud to someone from each audience. Ask which parts worked. Was it the logic or the emotion?",
+    "vc": [
+      "VM-U4O2-KK2",
+      "VM-U4O2-KK3"
+    ],
+    "model": {
+      "kind": "Example: one topic, two audiences",
+      "text": "**Topic:** why young people should learn first aid.\n**Audience 1: Year 10 students**\n“Who here has seen someone get hurt at footy, or at a party? Most of us just freeze. A first aid course takes one day. It means next time, you’re the one who knows what to do.”\n**Audience 2: the school council**\n“Good evening. Young people are often first on the scene, at sport, at work and at home. A one-day first aid course would give every Year 10 student the skills to help. We’re asking the council to fund it.”\n**What I changed:** for students, I used a question and a feeling. For the council, I used formal words, reasons and a clear ask.",
+      "why": [
+        "The student version opens with a question from their world.",
+        "The council version uses formal words and a clear request.",
+        "The final note explains each change and why."
+      ]
+    },
+    "rubric": [
+      {
+        "skill": "Audience",
+        "start": "Both versions are the same.",
+        "good": "Words suit each audience.",
+        "great": "Examples come from each audience’s world."
+      },
+      {
+        "skill": "Logic, reasoning, emotion",
+        "start": "Only one is used.",
+        "good": "All three are used.",
+        "great": "The mix suits each audience."
+      },
+      {
+        "skill": "Explaining choices",
+        "start": "No reasons.",
+        "good": "Says what changed.",
+        "great": "Says why, and judges what worked."
+      }
+    ],
+    "choices": {
+      "prompt": "What is your talk about?",
+      "options": [
+        "A safety message (driving, sun, water, work)",
+        "Why people should join a club or group you’re in",
+        "Advice about money or getting a job",
+        "A change you want at school or in your town"
+      ]
+    }
+  },
+  "workbook": {
+    "pages": [
+      {
+        "type": "cover"
+      },
+      {
+        "type": "goals"
+      },
+      {
+        "type": "vocab-match",
+        "title": "Word Power",
+        "instructions": "Draw a line from each word to its meaning."
+      },
+      {
+        "type": "reading",
+        "title": "Read: Who’s listening?",
+        "article": 0,
+        "pagebreak": true,
+        "instructions": "Read the article on the app (or your teacher’s copy). Then answer the questions."
+      },
+      {
+        "type": "questions",
+        "title": "Check your reading",
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "What **three** questions should you ask about your audience?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KK2"
+            ]
+          },
+          {
+            "q": "Explain logic, reasoning and emotion in your own words.",
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KK3"
+            ]
+          },
+          {
+            "q": {
+              "support": "How would you start a talk to your mates? To a boss?",
+              "core": "Give two language choices that change how an audience reacts. Give an example of each.",
+              "extend": "Why might a hostile audience need evidence first?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KK2"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "doc-annotate",
+        "title": "Anatomy of a talk for an audience",
+        "diagram": 0,
+        "pagebreak": true,
+        "columns": [
+          "What technique is this?",
+          "How does it work on Year 11s?"
+        ],
+        "instructions": {
+          "support": "Each number marks part of the talk. Use the word bank. Write what it does.",
+          "core": "Each number marks a technique. Name it, and say how it suits this audience."
+        },
+        "wordBank": {
+          "support": [
+            "question",
+            "story (emotion)",
+            "fact (logic)",
+            "reasoning",
+            "we",
+            "the ask"
+          ]
+        }
+      },
+      {
+        "type": "sort",
+        "title": "Logic, reasoning or emotion?",
+        "pagebreak": true,
+        "choices": [
+          "Logic",
+          "Reasoning",
+          "Emotion"
+        ],
+        "reasonLabel": "How can you tell?",
+        "instructions": "Lines from talks about wearing a helmet. Which tool does each one use?",
+        "vc": [
+          "VM-U4O2-KK3"
+        ],
+        "cards": [
+          {
+            "from": "Talk",
+            "text": "Helmets are required by law on bikes in Victoria.",
+            "answer": "Logic",
+            "flags": "A fact."
+          },
+          {
+            "from": "Talk",
+            "text": "Imagine your little brother in a hospital bed.",
+            "answer": "Emotion",
+            "flags": "A picture and a feeling."
+          },
+          {
+            "from": "Talk",
+            "text": "Your head hits first, so a helmet takes the hit instead.",
+            "answer": "Reasoning",
+            "flags": "Cause and effect."
+          },
+          {
+            "from": "Talk",
+            "text": "My mate still can’t remember the day he fell.",
+            "answer": "Emotion",
+            "flags": "A personal story."
+          },
+          {
+            "from": "Talk",
+            "text": "If you can’t afford a new head, buy a helmet.",
+            "answer": "Reasoning",
+            "flags": "If… then…"
+          },
+          {
+            "from": "Talk",
+            "text": "A good helmet costs about the same as a pizza night.",
+            "answer": "Logic",
+            "flags": "A comparison you can check.",
+            "levels": [
+              "core",
+              "extend"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "case-study",
+        "title": "Case study: one speech, many audiences",
+        "caseStudy": 0,
+        "pagebreak": true,
+        "items": [
+          {
+            "q": "Who were the audiences for the 2008 Apology?",
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KK2"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why tell one person’s story?",
+              "core": "How did the story of Nanna Fejo use emotion?"
+            },
+            "lines": 2,
+            "vc": [
+              "VM-U4O2-KK3"
+            ]
+          },
+          {
+            "q": {
+              "support": "Why did the speech use formal words?",
+              "core": "Why did the speech also need reasoning?",
+              "extend": "How do “we” and “you” work differently in this speech?"
+            },
+            "lines": 3,
+            "vc": [
+              "VM-U4O2-KK2",
+              "VM-U4O2-KK3"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "write",
+        "title": "Final mission: one talk, two audiences",
+        "pagebreak": true,
+        "vc": [
+          "VM-U4O2-KK2",
+          "VM-U4O2-KK3",
+          "VM-U4O2-KS5"
+        ],
+        "vcNote": "Choosing language and appeals for two audiences, and evaluating the choices.",
+        "prompt": {
+          "support": "Pick a topic. Write the start of a talk for **your mates**. Then write it for **adults**. Say what you changed.",
+          "core": "Write the opening of a talk twice, for two different audiences. Use logic, reasoning and emotion. Then explain what you changed, and why.",
+          "extend": "Write the opening of a talk for two contrasting audiences. Adjust register, examples and the balance of logic, reasoning and emotion. Then evaluate your choices."
+        },
+        "plan": [
+          {
+            "label": "Topic:",
+            "lines": 1
+          },
+          {
+            "label": "Audience 1 and Audience 2 (what each knows and cares about):",
+            "lines": 2
+          }
+        ],
+        "starters": [
+          "Audience 1:",
+          "Audience 2:",
+          "What I changed, and why:"
+        ],
+        "lines": {
+          "support": 10,
+          "core": 10,
+          "extend": 10
+        },
+        "check": [
+          "two audiences",
+          "logic",
+          "reasoning",
+          "emotion",
+          "reasons for changes"
+        ]
+      },
+      {
+        "type": "reflect",
+        "title": "How did you go?",
+        "pagebreak": true,
+        "rate": [
+          "I think about my audience first.",
+          "I can change my words to suit.",
+          "I can use logic, reasoning and emotion.",
+          "I can explain my choices."
+        ],
+        "questions": [
+          "An audience I find hard to talk to:",
+          "What I’ll do differently next time I speak:"
+        ]
+      },
+      {
+        "type": "signoff"
+      }
+    ]
+  },
+  "teacher": {
+    "overview": "Students learn to analyse an audience (knowledge, values, purpose), choose language for it (formality, jargon, pronouns, strong words) and combine logic, reasoning and emotion. They write the opening of a talk twice for two audiences and explain their changes. The case study is the 2008 National Apology to the Stolen Generations, which addressed several audiences at once using a personal story, reasoning and inclusive language.",
+    "prep": [
+      "Print workbooks.",
+      "Read the case study and plan for it carefully: some students may have family connections to the Stolen Generations. Consult your Koorie Engagement Support Officer or First Nations staff if possible.",
+      "Optional: show a short, appropriate clip of the Apology (the National Museum of Australia has resources)."
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1 — Who’s listening?",
+        "minutes": 50,
+        "steps": [
+          "**Hook (10 min):** explain why you want your Ls to mates, parents and an instructor.",
+          "**Watch (5 min):** explainer.",
+          "**Read (20 min):** article + questions.",
+          "**Sort (15 min):** logic, reasoning or emotion."
+        ]
+      },
+      {
+        "title": "Lesson 2 — Techniques and the case",
+        "minutes": 50,
+        "steps": [
+          "**Annotate (15 min):** the driving talk.",
+          "**Case study (25 min):** the National Apology, handled respectfully.",
+          "**Plan (10 min):** topic and two audiences."
+        ]
+      },
+      {
+        "title": "Lesson 3 — One talk, two audiences",
+        "minutes": 50,
+        "steps": [
+          "**Final mission (30 min).**",
+          "**Level Up (10 min):** read aloud to each audience.",
+          "**Check & reflect (10 min):** quick check, reflection, sign-off."
+        ]
+      }
+    ],
+    "keyPoints": [
+      "Start with the audience: know, care, do.",
+      "Language choice: formality, jargon, “you” and “we”, strong words.",
+      "Logic (facts), reasoning (because… so…), emotion (stories, feelings).",
+      "The right mix depends on the audience."
+    ],
+    "differentiation": {
+      "support": [
+        "Word bank for the annotation.",
+        "Choose mates vs adults as the two audiences.",
+        "Fewer sort cards."
+      ],
+      "extend": [
+        "Analyse register, connotation and inclusive language.",
+        "Evaluate own choices (KS5)."
+      ]
+    },
+    "lookFors": [
+      {
+        "vc": "VM-U4O2-KK2",
+        "evidence": "Explains and uses language choices that influence an audience (annotation, two versions)."
+      },
+      {
+        "vc": "VM-U4O2-KK3",
+        "evidence": "Identifies and uses logic, reasoning and emotion (sort, case study, two versions)."
+      },
+      {
+        "vc": "VM-U4O2-KS5",
+        "evidence": "Critically evaluates their own language choices for each audience (final explanation).",
+        "levels": [
+          "extend"
+        ]
+      }
+    ],
+    "answers": "**Annotation:** 1 question from the audience’s world; 2 story (emotion); 3 checkable fact (logic); 4 cause and effect (reasoning); 5 inclusive “we”; 6 a clear ask in their language.\n\n**Sort:** logic — helmet law; cost comparison. Reasoning — head hits first so helmet takes the hit; “if you can’t afford a new head”. Emotion — little brother in hospital; mate who can’t remember.\n\n**Case study:** audiences were members of the Stolen Generations, politicians, crowds outside and millions watching; Nanna Fejo’s story made the history personal; reasoning explained why an apology was needed; “we” spoke for the nation, “you” addressed the Stolen Generations.\n\n**Note:** the P1 peer-passenger rule in the diagram reflects VicRoads rules at time of writing; check current rules.",
+    "resources": [
+      {
+        "label": "National Museum of Australia — National Apology",
+        "url": "https://www.nma.gov.au/defining-moments/resources/national-apology"
+      },
+      {
+        "label": "Reconciliation Victoria — National Apology resources",
+        "url": "https://www.reconciliationvic.org.au/learn/national-apology-anniversary-resources"
+      },
+      {
+        "label": "Healing Foundation — Stolen Generations",
+        "url": "https://healingfoundation.org.au/"
+      }
+    ],
+    "realityCheck": [
+      "**The case study is about real trauma.** Some students or families may be directly affected. Frame it respectfully, don’t ask students to share family history, and know your support pathways.",
+      "**Keep the focus on how the speech works,** not on debating whether the Apology was right.",
+      "**Check the P-plate passenger rule** in the diagram against current VicRoads rules before teaching.",
+      "**Works in a real class:** yes. “Mates vs nan” is an instantly understood hook."
+    ],
+    "levels": {
+      "support": "Aimed at about Years 3–4 reading: shorter article and case study, 6 key words, word bank and mates-vs-adults versions.",
+      "core": "Aimed at about Years 5–6 reading: the standard version with audience questions, language choice and the three tools.",
+      "extend": "Aimed at about Year 7 and up: register, connotation, inclusive language, hostile vs sympathetic audiences and self-evaluation."
+    }
+  }
+}
