@@ -167,17 +167,24 @@ export function requirements(skill) {
 }
 
 export function isUnlocked(skill, done) {
+  if (done?.allOpen) return true; // trial account: everything open
   return requirements(skill).every((r) => r.ids.filter((id) => done.has(id)).length >= r.min);
 }
 
 // ---------- Student state ----------
 export function progressFor(userId) {
   const rows = db.prepare('SELECT * FROM progress WHERE user_id = ?').all(userId);
-  return Object.fromEntries(rows.map((r) => [r.skill_id, { ...r, steps: JSON.parse(r.steps || '[]') }]));
+  const out = Object.fromEntries(rows.map((r) => [r.skill_id, { ...r, steps: JSON.parse(r.steps || '[]') }]));
+  // Not enumerable, so Object.values(progress) still lists only skills.
+  const allOpen = db.prepare('SELECT all_open FROM users WHERE id = ?').get(userId)?.all_open === 1;
+  Object.defineProperty(out, 'allOpen', { value: allOpen });
+  return out;
 }
 
 export function doneSet(progress) {
-  return new Set(Object.values(progress).filter((p) => p.status === 'complete').map((p) => p.skill_id));
+  const done = new Set(Object.values(progress).filter((p) => p.status === 'complete').map((p) => p.skill_id));
+  if (progress.allOpen) done.allOpen = true;
+  return done;
 }
 
 // locked | soon | open | started | submitted | complete
@@ -235,7 +242,7 @@ export function syncBadges(userId) {
 
 // Skills that became available because `skillId` was completed.
 export function newlyUnlocked(done, skillId) {
-  const before = new Set(done); before.delete(skillId);
+  const before = new Set(done); before.delete(skillId); before.allOpen = done.allOpen;
   return skillList(getSkill(skillId)?.program).filter((s) => !isUnlocked(s, before) && isUnlocked(s, done));
 }
 
