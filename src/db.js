@@ -121,6 +121,8 @@ CREATE TABLE IF NOT EXISTS reading_log (
 // Migrations for databases created by earlier versions.
 const cols = (t) => db.prepare(`PRAGMA table_info(${t})`).all().map((c) => c.name);
 if (!cols('users').includes('reading_level')) db.exec("ALTER TABLE users ADD COLUMN reading_level TEXT NOT NULL DEFAULT 'core'");
+// Trial accounts: every skill is unlocked (set per student on the Students page).
+if (!cols('users').includes('all_open')) db.exec('ALTER TABLE users ADD COLUMN all_open INTEGER NOT NULL DEFAULT 0');
 if (!cols('users').includes('program')) db.exec("ALTER TABLE users ADD COLUMN program TEXT NOT NULL DEFAULT 'f10'");
 // VM Literacy was split into Units 1 & 2 and Units 3 & 4: existing VM students start in Units 1 & 2.
 db.exec("UPDATE users SET program = 'vm12' WHERE program = 'vm'");

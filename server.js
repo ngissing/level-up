@@ -403,7 +403,8 @@ app.post('/teacher/students/:id', teacher, (req, res) => {
   const name = cleanName(req.body.name) || s.name;
   const reading_level = LEVEL_IDS.includes(req.body.reading_level) ? req.body.reading_level : s.reading_level;
   const program = PROGRAM_IDS.includes(req.body.program) ? req.body.program : s.program;
-  db.prepare('UPDATE users SET name = ?, class_id = ?, reading_level = ?, program = ? WHERE id = ?').run(name, c ? c.id : null, reading_level, program, id);
+  const all_open = req.body.all_open === '1' ? 1 : 0;
+  db.prepare('UPDATE users SET name = ?, class_id = ?, reading_level = ?, program = ?, all_open = ? WHERE id = ?').run(name, c ? c.id : null, reading_level, program, all_open, id);
   const pw = String(req.body.password || '');
   if (pw && pw.length < 4) { res.flash('error', `Saved ${name}, but the new password was too short (4 characters or more), so it wasn’t changed.`); return res.redirect(`/teacher/students?saved=${id}#s${id}`); }
   if (pw) {
