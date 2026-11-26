@@ -147,8 +147,6 @@ textarea { resize: vertical; }
 .confetti { position: absolute; width: 10px; height: 14px; top: -20px; animation: fall linear forwards; border: 1.5px solid var(--ink); }
 @keyframes fall { to { transform: translateY(260px) rotate(540deg); opacity: 0; } }
 
-.next-up { margin-bottom: 44px; }
-.next-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); gap: 26px 22px; padding-top: 6px; }
 
 .node {
   display: flex; align-items: center; gap: 12px; text-decoration: none;
@@ -175,8 +173,26 @@ a.node:hover { transform: translate(-2px, -2px) rotate(-.4deg); box-shadow: var(
 .state-soon { background: #fff; border-style: dashed; }
 .state-soon .node-state { background: #ebe6dc; }
 
-.zone-band { background: var(--zone); border: var(--bw) solid var(--ink); border-radius: 28px; box-shadow: var(--shadow-lg); padding: clamp(22px, 3vw, 36px); }
-.zone-head { display: flex; gap: 18px; align-items: center; margin-bottom: 30px; color: var(--zone-ink); }
+/* Zones are <details>: a card that opens to show the pathway. */
+.zone > summary, .zone-band > summary { list-style: none; cursor: pointer; }
+.zone > summary::-webkit-details-marker, .zone-band > summary::-webkit-details-marker { display: none; }
+.zone-toggle { display: inline-flex; align-items: center; gap: 6px; font-family: var(--display); font-weight: 700; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; background: #fff; color: var(--ink); border: 2px solid var(--ink); border-radius: 999px; padding: 5px 12px; white-space: nowrap; }
+.zone-toggle .ico { width: 16px; height: 16px; transition: transform .15s; }
+details[open] > summary .zone-toggle .ico { transform: rotate(180deg); }
+details:not([open]) > summary .t-open, details[open] > summary .t-closed { display: none; }
+summary:hover .zone-toggle { background: var(--ink); color: #fff; }
+summary:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+.resume { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); background: #fff; border: 2px solid var(--ink); border-radius: 14px; padding: 7px 12px; box-shadow: 2px 2px 0 var(--ink); min-width: 0; }
+.resume:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--ink); }
+.resume .ico { flex: none; width: 18px; height: 18px; }
+.resume span { display: grid; min-width: 0; line-height: 1.2; }
+.resume small { font-size: .72rem; font-weight: 600; color: var(--muted); }
+.resume b { font-size: .92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.zone-band { background: var(--zone); border: var(--bw) solid var(--ink); border-radius: 28px; box-shadow: var(--shadow-lg); padding: clamp(18px, 3vw, 30px); }
+.zone-head { display: flex; flex-wrap: wrap; gap: 14px 18px; align-items: center; color: var(--zone-ink); }
+.zone-band[open] > .zone-head { margin-bottom: 30px; }
+.zone-head .zone-title { flex: 1 1 260px; min-width: 0; }
 .zone-head h2 { margin: 0; font-size: 2rem; }
 .zone-head p { margin: 2px 0 0; }
 .band-nodes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px 24px; }
@@ -188,18 +204,29 @@ a.node:hover { transform: translate(-2px, -2px) rotate(-.4deg); box-shadow: var(
 .trail-arrow .ico { width: 22px; height: 22px; stroke-width: 3; }
 .crossroads { margin-top: 36px; }
 
-.zones { display: grid; grid-template-columns: repeat(var(--zones, 5), minmax(0, 1fr)); gap: 16px; }
-.zone { background: #fff; border: var(--bw) solid var(--ink); border-radius: 24px; box-shadow: var(--shadow-lg); overflow: hidden; display: flex; flex-direction: column; }
-.zone-top { background: var(--zone); color: var(--zone-ink); padding: 18px 16px 14px; border-bottom: var(--bw) solid var(--ink); }
-.zone-top h2 { margin: 12px 0 4px; font-size: 1.45rem; }
-.zone-top p { font-size: .86rem; line-height: 1.4; margin-bottom: 10px; min-height: 3.6em; }
+.zones { display: grid; grid-template-columns: repeat(var(--zones, 5), minmax(0, 1fr)); gap: 16px; align-items: start; }
+.zone { background: #fff; border: var(--bw) solid var(--ink); border-radius: 24px; box-shadow: var(--shadow-lg); overflow: hidden; }
+.zone-top { background: var(--zone); color: var(--zone-ink); padding: 18px 16px 16px; display: grid; gap: 10px; }
+.zone-top h2 { margin: 2px 0 4px; font-size: 1.45rem; }
+.zone-top p { font-size: .86rem; line-height: 1.4; margin: 0; min-height: 3.6em; }
 .zone-top small { font-weight: 600; font-size: .78rem; }
+.zone-top .zone-toggle { justify-self: start; }
+/* An open zone takes the full width, with its pathway laid out left to right. */
+/* One zone open at a time (name="zone"); it moves to the top so the closed cards stay in a neat row. */
+.zone[open] { grid-column: 1 / -1; order: -1; }
+@media (min-width: 1181px) { .zones:has(> .zone[open]) { grid-template-columns: repeat(var(--zones-rest, 4), minmax(0, 1fr)); } }
+.zone[open] > .zone-top { border-bottom: var(--bw) solid var(--ink); grid-template-columns: auto minmax(0, 1fr) minmax(160px, 220px) auto; align-items: center; column-gap: 18px; }
+.zone[open] > .zone-top p { min-height: 0; }
+.zone[open] > .zone-top .resume { grid-column: 2 / 4; justify-self: start; }
+.zone[open] > .zone-top .zone-toggle { grid-column: 4; grid-row: 1; justify-self: end; }
 .zone-meter { height: 10px; border: 2px solid var(--ink); border-radius: 999px; background: #fff; overflow: hidden; margin-bottom: 4px; }
 .zone-meter span { display: block; height: 100%; background: var(--ink); }
-.trail { padding: 26px 14px 20px; display: grid; gap: 26px; position: relative; flex: 1;
-  background-image: linear-gradient(var(--ink), var(--ink)); background-size: 3px 100%; background-position: 50% 0; background-repeat: no-repeat; }
-.tier { display: grid; gap: 24px; position: relative; }
-.tier-label { justify-self: center; font-family: var(--display); font-weight: 800; font-size: .7rem; text-transform: uppercase; letter-spacing: .1em; background: var(--ink); color: #fff; padding: 2px 10px; border-radius: 999px; }
+.trail { padding: 22px clamp(14px, 2vw, 26px) 26px; display: flex; gap: 14px; align-items: flex-start; }
+.tier { flex: 1 1 0; min-width: 0; display: grid; gap: 22px; align-content: start; }
+/* The tier name: one tidy pill, centred above its skills (it never stretches). */
+.tier-label { justify-self: center; align-self: start; display: inline-flex; align-items: center; justify-content: center; font-family: var(--display); font-weight: 800; font-size: .72rem; line-height: 1; text-transform: uppercase; letter-spacing: .1em; background: var(--ink); color: #fff; padding: 7px 14px 6px; border-radius: 999px; white-space: nowrap; }
+.tier-arrow { flex: none; align-self: flex-start; display: grid; place-items: center; padding-top: 2px; color: var(--ink); }
+.tier-arrow .ico { width: 22px; height: 22px; stroke-width: 3; }
 .zone .node { flex-direction: column; align-items: flex-start; gap: 10px; padding: 22px 14px 14px; }
 .zone .tier-3 .node { border-width: 4px; }
 .zone .tier-3 .node::after { content: "BOSS"; position: absolute; left: 10px; top: -12px; font: 800 .65rem var(--display); letter-spacing: .1em; background: var(--coral); border: 2px solid var(--ink); padding: 1px 7px; border-radius: 999px; color: var(--ink); }
@@ -480,6 +507,14 @@ section.panel > .table, .panel .table { margin-top: 10px; }
 }
 @media (max-width: 900px) {
   .zones { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .zone[open] > .zone-top { grid-template-columns: auto minmax(0, 1fr) auto; }
+  .zone[open] > .zone-top .zone-progress { grid-column: 1 / -1; grid-row: 2; }
+  .zone[open] > .zone-top .resume { grid-column: 1 / -1; }
+  .zone[open] > .zone-top .zone-toggle { grid-column: 3; }
+  /* The pathway runs top to bottom on smaller screens. */
+  .trail { flex-direction: column; align-items: stretch; }
+  .tier { flex: none; }
+  .tier-arrow { align-self: center; transform: rotate(90deg); }
   .band-nodes, .band-nodes.four { grid-template-columns: 1fr 1fr; }
   .skill-layout { grid-template-columns: 1fr; }
   /* Phones and tablets: all seven steps as one row of numbers, with the current step named above. */
@@ -499,6 +534,12 @@ section.panel > .table, .panel .table { margin-top: 10px; }
   .mainnav a span { font-size: .9rem; }
   .me-name { display: none; }
   .zones, .band-nodes, .band-nodes.four { grid-template-columns: 1fr; }
+  /* Compact zone cards on phones: icon beside the name. */
+  .zone > .zone-top { grid-template-columns: auto minmax(0, 1fr); column-gap: 14px; }
+  .zone > .zone-top > :not(.sticker):not(.zone-title) { grid-column: 1 / -1; }
+  .zone > .zone-top .zone-title { align-self: center; }
+  .zone > .zone-top p { min-height: 0; }
+  .zone[open] > .zone-top .zone-toggle { grid-column: 1 / -1; grid-row: auto; justify-self: start; }
   .hero-stats { min-width: 0; }
   .ex-controls { flex-wrap: wrap; }
   .celebrate { flex-wrap: wrap; }
