@@ -41,6 +41,7 @@ You need Node.js 22.13 or later (it uses the built-in `node:sqlite`).
 | `ella` | `student123` | VM Literacy Units 3 & 4 student (Core) |
 | `noah`, `lia` | `student123` | VPC Literacy students (Noah is Foundation, Lia is Core) |
 | `ruby`, `liam`, `amira`, `cooper` | `student123` | Have finished their program's starting zone, so the next zones are open: Ruby (F–10 Base Camp), Liam (VM 1 & 2 Induction), Amira (VM 3 & 4 Site Induction), Cooper (VPC The Workshop). All Core. |
+| `ava`, `hamish`, `isla`, `jayden`, `khadija`, `lachlan`, `maya`, `nikau`, `olivia`, `patrick`, `sienna`, `tyler`, `will`, `zoe` | `student123` | Sample F–10 class **10B Literacy (sample)**, taught by `teacher`. Fourteen students at very different stages: well ahead (Ava, Khadija, Will), waiting for sign-off (Isla, Olivia, Ava), work sent back with a comment (Nikau), stuck on a quick check (Jayden, Sienna), stalled for three weeks (Patrick), slow and steady (Maya, Tyler) and not started (Lachlan has never logged in; Zoe logged in but hasn't started). |
 
 Change the admin password straight away, or set `ADMIN_PASSWORD` before the first run.
 
