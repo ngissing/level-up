@@ -35,6 +35,7 @@ Merge a pull request into `main`, or push to `main`, and Railway redeploys by it
 
 - **Keep it to one replica.** SQLite is one file on one volume, so don't scale the service above 1 instance.
 - **Backups.** Turn on volume backups under the volume's **Backups** tab.
+- **Students' uploaded work** is stored on the same volume, in `/data/uploads`. Photos are shrunk to about 100–300 KB each before upload, so a class uses little space, but check the volume's size now and then under its **Metrics** tab. Deleting a student's account deletes their files.
 - **Codespaces is separate.** Codespaces and Railway each have their own database. Accounts you made in Codespaces don't carry over, so use Codespaces for testing and Railway for real classes.
 - **No demo accounts.** Railway doesn't add the demo accounts (`kai`, `teacher`, …), because their passwords are public in the README.
 - **Workbook QR codes** point at whatever address the page was opened from. To force one address, set `BASE_URL`, e.g. `https://levelup.example.com`.

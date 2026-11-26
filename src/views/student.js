@@ -4,6 +4,8 @@ import { PROGRAMS } from '../programs.js';
 import { LEVELS, LEVEL_IDS } from '../levels.js';
 import { diagram, phone } from './diagrams.js';
 import { rubricTable } from './workbook.js';
+import { uploadBox, uploadList } from './uploads.js';
+import { listFor as uploadsFor } from '../uploads.js';
 import {
   content, skillList, zoneSkills, skillState, doneSet, requirements, allBadges, coverage, STEPS, audioFor, readUnits, workbookBlocks, plainText,
 } from '../content.js';
@@ -339,16 +341,18 @@ function checkStep(skill, p, result) {
   </div>`;
 }
 
-function showStep(skill, p, ready) {
+function showStep(skill, p, ready, work = []) {
+  const sent = work.length ? html`<div class="up-sent"><h3>${icon('lucide:paperclip')} Your work</h3>${uploadList(work)}</div>` : '';
   const s = skill.course.show;
   const handsOn = skill.course.workbook.pages.find((x) => x.type === 'do-it');
   if (p?.status === 'submitted') {
-    return html`<div class="panel center-panel">${icon('lucide:hourglass', 'big-ico')}<h2>Sent to your teacher</h2><p>Your teacher will check your workbook and sign it off. Pick another skill from the map while you wait!</p><a class="btn btn-ink" href="/map">${icon('lucide:map')} Back to the map</a></div>`;
+    return html`<div class="panel center-panel">${icon('lucide:hourglass', 'big-ico')}<h2>Sent to your teacher</h2><p>Your teacher will check your work and sign it off. Pick another skill from the map while you wait!</p>${sent}<a class="btn btn-ink" href="/map">${icon('lucide:map')} Back to the map</a></div>`;
   }
   const marks = parseMarks(p?.rubric, s.rubric);
   if (p?.status === 'complete') {
     return html`<div class="panel center-panel">${sticker(skill.badge.icon, { color: skill.zoneObj.color, ink: skill.zoneObj.ink, size: 'xl' })}<h2>Done! You earned “${skill.badge.name}”</h2>${p.teacher_comment ? html`<blockquote class="t-comment">${icon('lucide:message-circle')} ${p.teacher_comment}</blockquote>` : ''}
       ${marks && s.rubric ? html`<div class="marked-rubric"><h3>${icon('lucide:ruler')} How your teacher marked it</h3><div class="rubric-wrap">${rubricTable(s.rubric, { marks })}</div></div>` : ''}
+      ${sent}
       <a class="btn btn-ink" href="/map">${icon('lucide:map')} Choose your next skill</a></div>`;
   }
   return html`<div class="panel">
@@ -358,6 +362,7 @@ function showStep(skill, p, ready) {
     ${s.choices ? html`<p class="my-pick">${icon('lucide:hand')} ${p?.choice ? html`<b>Your pick:</b> ${p.choice} · <a href="/skill/${skill.id}?step=brief#pick">change</a>` : html`<a href="/skill/${skill.id}?step=brief#pick">Pick what yours will be about</a>`}</p>` : ''}
     ${s.solo ? html`<div class="callout-box solo">${icon('lucide:user')}<div><strong>Working on your own?</strong><p>${mdInline(s.solo)}</p></div></div>` : ''}
     ${goodLooksLike(skill, { marks, open: !!marks })}
+    ${p?.status === 'started' ? uploadBox(skill, work) : ''}
     ${ready.missing.length ? html`<div class="callout-box warn">${icon('lucide:list-todo')}<div><strong>Before you send it in, finish:</strong><ul>${ready.missing.map((m) => html`<li>${m}</li>`)}</ul></div></div>` : ''}
     <form method="post" action="/skill/${skill.id}/submit" class="show-form">
       <fieldset><legend>Tick each one</legend>
@@ -443,7 +448,7 @@ export function skillPage(req, { skill, progress, step, quizResult, passPct }) {
       see: () => html`${seeStep(skill)}${doneBtn('see')}`,
       workbook: () => html`${workbookStep(skill)}${doneBtn('workbook', 'I’ve done my workbook pages')}`,
       check: () => checkStep(skill, p, quizResult),
-      show: () => (student ? showStep(skill, p, readiness(skill, p, passPct))
+      show: () => (student ? showStep(skill, p, readiness(skill, p, passPct), uploadsFor(req.user.id, skill.id))
         : html`<div class="panel"><h2>Show it</h2><div class="callout-box">${icon('lucide:target')}<div><strong>Final task</strong><p>${skill.course.show.task}</p></div></div><ul>${skill.course.show.checklist.map((x) => html`<li>${x}</li>`)}</ul><p><b>Level Up:</b> ${skill.course.show.levelUp}</p>
           ${skill.course.show.solo ? html`<div class="callout-box solo">${icon('lucide:user')}<div><strong>Working on your own?</strong><p>${mdInline(skill.course.show.solo)}</p></div></div>` : ''}
           ${goodLooksLike(skill, { open: true })}</div>`),

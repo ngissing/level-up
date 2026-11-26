@@ -1,4 +1,6 @@
 import { html, icon, md, mdInline, raw, mdLines } from '../html.js';
+import { uploadList } from './uploads.js';
+import { listFor as uploadsFor } from '../uploads.js';
 import { page, sticker, vcChip, empty, initials, levelTag } from './layout.js';
 import { LEVELS, LEVEL_IDS, levelInfo } from '../levels.js';
 import { content, skillList, getSkill, skillState, doneSet, coverage, STEPS, courseFor, vcFor, evidenceFor } from '../content.js';
@@ -35,6 +37,13 @@ function classFilter(classes, current, action, program) {
       </select></label></form>`;
 }
 
+// A student's uploaded work for one skill (photos show as thumbnails; tap to open full size).
+function workBlock(userId, skillId, { empty = '', compact = false } = {}) {
+  const list = uploadsFor(userId, skillId);
+  if (!list.length) return empty ? html`<p class="q-meta muted">${icon('lucide:paperclip')} ${empty}</p>` : '';
+  return html`<div class="up-teacher ${compact ? 'compact' : ''}">${compact ? '' : html`<h4>${icon('lucide:paperclip')} Their work (${list.length})</h4>`}${uploadList(list)}</div>`;
+}
+
 export function dashboardPage(req, { students, queue, classes, classId, progressByUser, weekCount, program = 'f10', counts }) {
   const skills = skillList(program);
   const body = html`<section class="page-head row">
@@ -60,6 +69,7 @@ export function dashboardPage(req, { students, queue, classes, classId, progress
       <p class="q-meta">${icon('lucide:circle-help')} Quick check: <b>${q.quiz_best}/${q.quiz_total}</b> ${q.level_up ? html`<span class="lvl-chip">${icon('lucide:star')} says Level Up done</span>` : ''}</p>
       ${q.choice ? html`<p class="q-meta">${icon('lucide:hand')} Their pick: <b>${q.choice}</b></p>` : ''}
       <blockquote>${q.reflection || '—'}</blockquote>
+      ${workBlock(q.user_id, q.skill_id, { empty: 'No photos or files sent. Check their workbook.' })}
       <form method="post" action="/teacher/signoff">
         <input type="hidden" name="user_id" value="${q.user_id}"><input type="hidden" name="skill_id" value="${q.skill_id}">
         ${rubricPicker(s)}
@@ -123,7 +133,7 @@ export function studentDetailPage(req, { student, progress, badges, warmups = nu
       <td><span class="status status-${st}">${DOT[st]}</span>${p?.level_up ? html` <span class="lvl-chip">${icon('lucide:star')}</span>` : ''}</td>
       <td>${p ? `${p.steps.length}/${STEPS.length}` : '—'}</td>
       <td>${p?.quiz_best != null ? `${p.quiz_best}/${p.quiz_total}` : '—'}</td>
-      <td class="notes">${p?.choice ? html`<small>${icon('lucide:hand')} Pick: ${p.choice}</small><br>` : ''}${p?.reflection ? html`<em>“${p.reflection}”</em>` : ''}${p?.teacher_comment ? html`<br><small>You: ${p.teacher_comment}</small>` : ''}</td>
+      <td class="notes">${p?.choice ? html`<small>${icon('lucide:hand')} Pick: ${p.choice}</small><br>` : ''}${p?.reflection ? html`<em>“${p.reflection}”</em>` : ''}${p?.teacher_comment ? html`<br><small>You: ${p.teacher_comment}</small>` : ''}${p ? workBlock(student.id, s.id, { compact: true }) : ''}</td>
       <td>${s.ready ? html`<a class="btn btn-sm btn-ghost" href="/workbook/${s.id}?student=${student.id}" target="_blank" title="Printed at ${student.name.split(' ')[0]}’s reading level">${icon('lucide:printer')} Print</a>` : ''}</td>
       <td>${st !== 'complete' && st !== 'soon' ? html`<form method="post" action="/teacher/signoff">
           <input type="hidden" name="user_id" value="${student.id}"><input type="hidden" name="skill_id" value="${s.id}">

@@ -192,9 +192,9 @@ const BLOCKS = {
     ${b.questions.map((q) => html`<p class="wb-q">${q}</p>${lines(2)}`)}`;
   },
 
-  signoff(b, { skill }) {
+  signoff(b, { skill, sendQr }) {
     const handsOn = skill.course.workbook.pages.some((p) => p.type === 'do-it');
-    return html`<div class="wb-signoff">
+    return html`${sendQr ? html`<div class="wb-send"><div class="wb-send-qr">${raw(sendQr)}</div><p><b>${icon('lucide:camera')} Send your work from your phone</b>Scan this code, log in, and take photos of your workbook pages. Your teacher can check them straight away.</p></div>` : ''}<div class="wb-signoff">
       <h3>${icon('lucide:badge-check')} Teacher check</h3>
       <div class="so-grid">
         <span><i class="tickbox"></i> Workbook complete</span>
@@ -277,7 +277,9 @@ export async function workbookPage(req, skill, { answers = false, baseUrl = '' }
   const c = content(skill.program);
   const z = skill.zoneObj;
   const qr = baseUrl ? await QRCode.toString(`${baseUrl}/skill/${skill.id}?step=watch`, { type: 'svg', margin: 0, color: { dark: '#111111', light: '#ffffff' } }) : null;
-  const ctx = { skill, c, answers };
+  // A second QR code on the sign-off box: scan with a phone to add photos of this work.
+  const sendQr = baseUrl ? await QRCode.toString(`${baseUrl}/skill/${skill.id}?step=show#work`, { type: 'svg', margin: 0, color: { dark: '#111111', light: '#ffffff' } }) : null;
+  const ctx = { skill, c, answers, sendQr };
 
   const sheets = workbookSheets(skill.course);
   const body = sheets.map((blocks, i) => sheet(skill, i + 2, blocks.map((b) => html`<div class="wb-block blk-${b.type}">${BLOCKS[b.type] ? BLOCKS[b.type](b, ctx) : html`<p>Unknown block: ${b.type}</p>`}</div>`)));
