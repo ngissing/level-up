@@ -144,6 +144,8 @@ if (!cols('users').includes('program')) db.exec("ALTER TABLE users ADD COLUMN pr
 // VM Literacy was split into Units 1 & 2 and Units 3 & 4: existing VM students start in Units 1 & 2.
 db.exec("UPDATE users SET program = 'vm12' WHERE program = 'vm'");
 // Student's pick for the final task (their own topic or text), and the teacher's rubric marks.
+// When the student last did something in a skill (shown on the map as "pick up where you left off").
+if (!cols('progress').includes('updated_at')) db.exec('ALTER TABLE progress ADD COLUMN updated_at TEXT');
 if (!cols('progress').includes('choice')) db.exec('ALTER TABLE progress ADD COLUMN choice TEXT');
 if (!cols('progress').includes('rubric')) db.exec('ALTER TABLE progress ADD COLUMN rubric TEXT');
 

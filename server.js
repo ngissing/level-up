@@ -131,7 +131,7 @@ app.get('/skill/:id', student, (req, res) => {
 app.post('/skill/:id/start', student, (req, res) => {
   const skill = loadSkill(req, res); if (!skill) return;
   if (!canWork(skill, progressFor(req.user.id))) return res.redirect(`/skill/${skill.id}`);
-  db.prepare('INSERT OR IGNORE INTO progress (user_id, skill_id) VALUES (?, ?)').run(req.user.id, skill.id);
+  db.prepare("INSERT OR IGNORE INTO progress (user_id, skill_id, updated_at) VALUES (?, ?, datetime('now'))").run(req.user.id, skill.id);
   res.redirect(`/skill/${skill.id}?step=brief`);
 });
 
@@ -141,7 +141,7 @@ app.post('/skill/:id/step', student, (req, res) => {
   const step = req.body.step;
   if (!p || !STEPS.some((s) => s.id === step)) return res.redirect(`/skill/${skill.id}`);
   const steps = [...new Set([...p.steps, step])];
-  db.prepare('UPDATE progress SET steps = ? WHERE user_id = ? AND skill_id = ?').run(JSON.stringify(steps), req.user.id, skill.id);
+  db.prepare("UPDATE progress SET steps = ?, updated_at = datetime('now') WHERE user_id = ? AND skill_id = ?").run(JSON.stringify(steps), req.user.id, skill.id);
   const idx = STEPS.findIndex((s) => s.id === step);
   res.redirect(`/skill/${skill.id}?step=${STEPS[Math.min(idx + 1, STEPS.length - 1)].id}`);
 });
@@ -153,7 +153,7 @@ app.post('/skill/:id/choice', student, (req, res) => {
   if (p?.status === 'started' && req.user.role === 'student') {
     const raw = req.body.choice === '__own' ? req.body.own : req.body.choice;
     const choice = String(raw || '').replace(/\s+/g, ' ').trim().slice(0, 120);
-    if (choice) db.prepare('UPDATE progress SET choice = ? WHERE user_id = ? AND skill_id = ?').run(choice, req.user.id, skill.id);
+    if (choice) db.prepare("UPDATE progress SET choice = ?, updated_at = datetime('now') WHERE user_id = ? AND skill_id = ?").run(choice, req.user.id, skill.id);
     else res.flash('error', 'Pick one, or type your own idea.');
   }
   res.redirect(`/skill/${skill.id}?step=brief#pick`);
@@ -171,7 +171,7 @@ app.post('/skill/:id/quiz', student, (req, res) => {
   const passed = (score / qs.length) * 100 >= passPct();
   const best = Math.max(score, p.quiz_best ?? 0);
   const steps = passed ? [...new Set([...p.steps, 'check'])] : p.steps;
-  db.prepare('UPDATE progress SET quiz_best = ?, quiz_total = ?, steps = ? WHERE user_id = ? AND skill_id = ?')
+  db.prepare("UPDATE progress SET quiz_best = ?, quiz_total = ?, steps = ?, updated_at = datetime('now') WHERE user_id = ? AND skill_id = ?")
     .run(best, qs.length, JSON.stringify(steps), req.user.id, skill.id);
   req.flash = passed
     ? { type: 'ok', text: `${score}/${qs.length} — nice! Quick check ticked off.` }
@@ -194,7 +194,7 @@ app.post('/skill/:id/submit', student, (req, res) => {
   if (!p || p.status !== 'started') return res.redirect(`/skill/${skill.id}?step=show`);
   if (readiness(skill, p, passPct()).missing.length) return res.redirect(`/skill/${skill.id}?step=show`);
   const levelUp = req.body.level_up ? 1 : 0;
-  db.prepare(`UPDATE progress SET status = 'submitted', submitted_at = datetime('now'), reflection = ?, level_up = ?,
+  db.prepare(`UPDATE progress SET status = 'submitted', submitted_at = datetime('now'), updated_at = datetime('now'), reflection = ?, level_up = ?,
     steps = ? WHERE user_id = ? AND skill_id = ?`)
     .run(String(req.body.reflection || '').slice(0, 2000), levelUp, JSON.stringify([...new Set([...p.steps, 'show'])]), req.user.id, skill.id);
   if (getSetting('require_signoff') !== '1') {

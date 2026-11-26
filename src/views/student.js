@@ -37,16 +37,43 @@ function node(skill, progress, done) {
     : html`<div class="node state-${st}" style="--zone:${z.color};--zone-ink:${z.ink}" aria-disabled="true">${inner}</div>`;
 }
 
+// When a student last did something in a skill (older rows fall back to their other dates).
+const touched = (p) => (p ? p.updated_at || p.completed_at || p.submitted_at || p.started_at || '' : '');
+function lastWorked(skills, progress) {
+  return skills.filter((s) => progress[s.id]).sort((a, b) => touched(progress[b.id]).localeCompare(touched(progress[a.id])))[0] || null;
+}
+// "Pick up where you left off": the skill the student touched most recently in a zone.
+function resumeLine(skill, progress) {
+  if (!skill) return '';
+  const p = progress[skill.id];
+  const [ic, label] = p.status === 'complete' ? ['lucide:check', 'Last finished']
+    : p.status === 'submitted' ? ['lucide:hourglass', 'With your teacher']
+      : ['lucide:play', `Keep going · ${p.steps.length} of ${STEPS.length} steps`];
+  return html`<a class="resume" href="/skill/${skill.id}">${icon(ic)}<span><small>${label}</small><b>${skill.title}</b></span></a>`;
+}
+// Columns for n zone cards: one row for up to 5, otherwise two rows.
+const cols = (n) => Math.max(1, n > 5 ? Math.ceil(n / 2) : n);
+// The open/close hint on a zone card.
+function toggle(skills, done) {
+  const n = skills.filter((s) => done.has(s.id)).length;
+  return html`<span class="zone-toggle"><span class="t-closed">${n === skills.length ? 'All done · show skills' : 'Show the pathway'}</span><span class="t-open">Hide</span>${icon('lucide:chevron-down')}</span>`;
+}
+
 export function mapPage(req, { progress, newBadges, unlocked, extras = null }) {
   const c = content(req.user.program);
   const done = doneSet(progress);
   const all = skillList(c.program);
   const base = c.zones[c.baseZone], cross = c.zones[c.crossZone];
-  const nextUp = all.filter((s) => ['started', 'open'].includes(skillState(s, progress, done)))
-    .sort((a, b) => (progress[b.id] ? 1 : 0) - (progress[a.id] ? 1 : 0)).slice(0, 4);
+  // Zones show as cards that open to reveal their pathway. Open by default: the zone the
+  // student last worked in, Base Camp until it's done, and the Crossroads once it's unlocked.
+  const zones0 = c.map.zones.filter((z) => ![c.baseZone, c.crossZone].includes(z.id));
+  const latest = lastWorked(zones0.flatMap((z) => zoneSkills(z.id)), progress);
+  const baseSkills = zoneSkills(c.baseZone), crossSkills = zoneSkills(c.crossZone);
+  const baseOpen = baseSkills.some((s) => !done.has(s.id));
+  const crossOpen = crossSkills.some((s) => ['open', 'started', 'submitted'].includes(skillState(s, progress, done)));
   const badgeCount = req.badgeCount || 0;
   const first = req.user.name.split(' ')[0];
-  const zones = c.map.zones.filter((z) => ![c.baseZone, c.crossZone].includes(z.id));
+  const zones = zones0;
   const tierLabel = ['', 'Starters', 'Level 2', 'Boss level'];
 
   const body = html`
@@ -86,50 +113,51 @@ export function mapPage(req, { progress, newBadges, unlocked, extras = null }) {
       <span class="daily-go">Browse ${icon('lucide:arrow-right')}</span></a>
   </section>` : ''}
 
-  ${nextUp.length ? html`<section class="next-up">
-    <h2 class="section-title">${icon('lucide:sparkles')} Up next — your choice</h2>
-    <div class="next-grid">${nextUp.map((s) => node(s, progress, done))}</div>
-  </section>` : ''}
-
-  <section class="zone-band" style="--zone:${base.color};--zone-ink:${base.ink}">
-    <header class="zone-head">
+  <details class="zone-band" style="--zone:${base.color};--zone-ink:${base.ink}" ${baseOpen ? raw('open') : ''}>
+    <summary class="zone-head">
       ${sticker(base.icon, { color: base.color, ink: base.ink, size: 'lg' })}
-      <div><h2>${base.name}</h2><p>${base.pitch}</p></div>
-    </header>
-    <div class="band-nodes">${zoneSkills(c.baseZone).map((s) => node(s, progress, done))}</div>
-  </section>
+      <div class="zone-title"><h2>${base.name}</h2><p>${base.pitch}</p></div>
+      ${resumeLine(lastWorked(baseSkills, progress), progress)}
+      ${toggle(baseSkills, done)}
+    </summary>
+    <div class="band-nodes">${baseSkills.map((s) => node(s, progress, done))}</div>
+  </details>
 
-  <div class="trail-arrow" aria-hidden="true">${icon('lucide:arrow-down')}<span>then choose your zone</span>${icon('lucide:arrow-down')}</div>
+  <div class="trail-arrow" aria-hidden="true">${icon('lucide:arrow-down')}<span>then choose a zone</span>${icon('lucide:arrow-down')}</div>
 
-  <section class="zones" style="--zones:${zones.length > 5 ? Math.ceil(zones.length / 2) : zones.length}">
+  <section class="zones" style="--zones:${cols(zones.length)};--zones-rest:${cols(zones.length - 1)}">
     ${zones.map((z) => {
       const zs = zoneSkills(z.id);
       const n = zs.filter((s) => done.has(s.id)).length;
-      return html`<article class="zone" style="--zone:${z.color};--zone-ink:${z.ink}">
-        <header class="zone-top">
+      const open = latest && latest.zone === z.id;
+      return html`<details class="zone" name="zone" style="--zone:${z.color};--zone-ink:${z.ink}" ${open ? raw('open') : ''}>
+        <summary class="zone-top">
           ${sticker(z.icon, { color: z.color, ink: z.ink, size: 'lg' })}
-          <h2>${z.name}</h2>
-          <p>${z.pitch}</p>
-          <div class="zone-meter"><span style="width:${(n / zs.length) * 100}%"></span></div>
-          <small>${n}/${zs.length} done</small>
-        </header>
+          <div class="zone-title"><h2>${z.name}</h2><p>${z.pitch}</p></div>
+          <div class="zone-progress"><div class="zone-meter"><span style="width:${(n / zs.length) * 100}%"></span></div>
+          <small>${n}/${zs.length} done</small></div>
+          ${resumeLine(lastWorked(zs, progress), progress)}
+          ${toggle(zs, done)}
+        </summary>
         <div class="trail">
-          ${[1, 2, 3].map((t) => html`<div class="tier tier-${t}">
+          ${[1, 2, 3].map((t) => html`${t > 1 ? html`<span class="tier-arrow" aria-hidden="true">${icon('lucide:arrow-right')}</span>` : ''}<div class="tier tier-${t}">
             <span class="tier-label">${tierLabel[t]}</span>
             ${zs.filter((s) => s.tier === t).map((s) => node(s, progress, done))}
           </div>`)}
         </div>
-      </article>`;
+      </details>`;
     })}
   </section>
 
-  <section class="zone-band crossroads" style="--zone:${cross.color};--zone-ink:${cross.ink}">
-    <header class="zone-head">
+  <details class="zone-band crossroads" style="--zone:${cross.color};--zone-ink:${cross.ink}" ${crossOpen ? raw('open') : ''}>
+    <summary class="zone-head">
       ${sticker(cross.icon, { color: cross.color, ink: cross.ink, size: 'lg' })}
-      <div><h2>${cross.name}</h2><p>${cross.pitch}</p></div>
-    </header>
-    <div class="band-nodes four">${zoneSkills(c.crossZone).map((s) => node(s, progress, done))}</div>
-  </section>`;
+      <div class="zone-title"><h2>${cross.name}</h2><p>${cross.pitch}</p></div>
+      ${resumeLine(lastWorked(crossSkills, progress), progress)}
+      ${toggle(crossSkills, done)}
+    </summary>
+    <div class="band-nodes four">${crossSkills.map((s) => node(s, progress, done))}</div>
+  </details>`;
   return page(req, { title: 'Map', body, active: '/map', wide: true });
 }
 
