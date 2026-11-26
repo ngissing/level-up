@@ -16,11 +16,15 @@ import { warmupPage, warmupResultPage, warmupEmptyPage, readsPage, storyPage } f
 import { landingPage } from './src/views/landing.js';
 import * as review from './src/review.js';
 import * as reads from './src/reads.js';
+import * as uploads from './src/uploads.js';
+import { uploadItem } from './src/views/uploads.js';
 
 const app = express();
 app.disable('x-powered-by');
 app.set('trust proxy', 1);
-app.use(express.urlencoded({ extended: false }));
+// Forms are parsed everywhere except the file-upload route, which reads the raw file itself.
+const formParser = express.urlencoded({ extended: false });
+app.use((req, res, next) => (req.method === 'POST' && /^\/skill\/[^/]+\/uploads$/.test(req.path) ? next() : formParser(req, res, next)));
 app.use(express.static(path.join(ROOT_DIR, 'public'), { maxAge: '1h' }));
 // Fonts come from npm packages and are served locally (fast, offline-friendly, no layout shift).
 app.use('/fonts/lexend', express.static(path.join(ROOT_DIR, 'node_modules/@fontsource-variable/lexend/files'), { maxAge: '30d', immutable: true }));
@@ -437,6 +441,69 @@ app.get('/teacher/skill/:id/explainer', requireRole(), (req, res) => {
 });
 
 // ---------- Admin ----------
+// ---------- Uploaded work ----------
+// Students add photos, PDFs, Word files or links to a skill while it's in progress
+// (not while it's with the teacher). Files are sent as the raw request body by
+// public/js/app.js, which also shrinks photos and strips their location data first.
+const mayEditUploads = (req, skillId) => progressFor(req.user.id)[skillId]?.status === 'started';
+const myStudentSkill = (req) => {
+  const skill = getSkill(req.params.id);
+  return skill && skill.program === req.user.program ? skill : null;
+};
+
+app.post('/skill/:id/uploads', studentOnly, express.raw({ type: () => true, limit: uploads.MAX_BYTES }), (req, res) => {
+  const skill = myStudentSkill(req);
+  if (!skill) return res.status(404).json({ error: 'Skill not found.' });
+  if (!mayEditUploads(req, skill.id)) return res.status(409).json({ error: 'You can add work while a skill is in progress.' });
+  if (uploads.countFor(req.user.id, skill.id) >= uploads.MAX_FILES) return res.status(409).json({ error: `You can add up to ${uploads.MAX_FILES} things. Remove one first.` });
+  if (!Buffer.isBuffer(req.body) || !req.body.length) return res.status(400).json({ error: 'That file was empty. Try again.' });
+  let name = '';
+  try { name = decodeURIComponent(req.get('x-file-name') || ''); } catch { /* keep blank */ }
+  const r = uploads.saveFile(req.user.id, skill.id, req.body, name);
+  if (r.error) return res.status(415).json(r);
+  res.json({ html: String(uploadItem(r.upload, { canDelete: true })), count: uploads.countFor(req.user.id, skill.id) });
+});
+// Errors from the upload body parser (e.g. too big) come back as JSON the page can show.
+app.use('/skill/:id/uploads', (err, req, res, next) => {
+  if (!err) return next();
+  res.status(err.status || 500).json({ error: err.type === 'entity.too.large' ? 'That file is too big (10 MB is the limit).' : 'That didn’t upload. Check your connection and try again.' });
+});
+
+app.post('/skill/:id/uploads/link', studentOnly, (req, res) => {
+  const skill = myStudentSkill(req);
+  if (!skill) return res.status(404).send('Skill not found');
+  const back = `/skill/${skill.id}?step=show#work`;
+  if (!mayEditUploads(req, skill.id)) { res.flash('error', 'You can add work while a skill is in progress.'); return res.redirect(back); }
+  if (uploads.countFor(req.user.id, skill.id) >= uploads.MAX_FILES) { res.flash('error', `You can add up to ${uploads.MAX_FILES} things. Remove one first.`); return res.redirect(back); }
+  const r = uploads.saveLink(req.user.id, skill.id, req.body.url, req.body.label);
+  res.flash(r.error ? 'error' : 'ok', r.error || 'Link added.');
+  res.redirect(back);
+});
+
+app.post('/uploads/:id/delete', studentOnly, (req, res) => {
+  const u = uploads.get(req.params.id);
+  if (!u || u.user_id !== req.user.id) return res.status(404).send('Not found');
+  const back = `/skill/${u.skill_id}?step=show#work`;
+  if (!mayEditUploads(req, u.skill_id)) { res.flash('error', 'This work is with your teacher, so it can’t be changed right now.'); return res.redirect(back); }
+  uploads.remove(u);
+  if ((req.get('accept') || '').includes('application/json')) return res.json({ ok: true, count: uploads.countFor(req.user.id, u.skill_id) });
+  res.redirect(back);
+});
+
+// View a file: the student who sent it, or a teacher/admin who can see that student.
+app.get('/uploads/:id', student, (req, res) => {
+  const u = uploads.get(req.params.id);
+  const allowed = u && (u.user_id === req.user.id || (req.user.role !== 'student' && canSee(req.user, u.user_id)));
+  if (!allowed || u.kind === 'link' || !uploads.fileExists(u)) return res.status(404).send('Not found');
+  res.set({
+    'Content-Type': u.mime,
+    'X-Content-Type-Options': 'nosniff',
+    'Cache-Control': 'private, max-age=3600',
+    'Content-Disposition': `${u.kind === 'doc' ? 'attachment' : 'inline'}; filename="${u.name.replace(/"/g, '')}"`,
+  });
+  res.send(uploads.read(u));
+});
+
 const admin = requireRole('admin');
 
 app.get('/admin', admin, (req, res) => {
@@ -519,7 +586,10 @@ app.post('/admin/users/:id/password', admin, (req, res) => {
 });
 
 app.post('/admin/users/:id/delete', admin, (req, res) => {
-  if (Number(req.params.id) !== req.user.id) db.prepare('DELETE FROM users WHERE id = ?').run(Number(req.params.id));
+  if (Number(req.params.id) !== req.user.id) {
+    uploads.removeAllFor(Number(req.params.id)); // their files on disk go too
+    db.prepare('DELETE FROM users WHERE id = ?').run(Number(req.params.id));
+  }
   res.redirect('/admin');
 });
 

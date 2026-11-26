@@ -54,7 +54,9 @@ Change the admin password straight away, or set `ADMIN_PASSWORD` before the firs
 - **My Curriculum** shows which parts of the VC they've shown.
 
 **Teachers**
-- Sign-off queue (approve, or send back with a comment, and confirm Level Up work).
+- Sign-off queue (approve, or send back with a comment, and confirm Level Up work). Photos, files and links students attached show as thumbnails; tap to open full size.
+- **Students send work from their phones.** On a course's *Show it* step, students take a photo, choose a file (photo, PDF or Word, up to 5 per course, 10 MB each) or paste a video link. Photos are shrunk on the phone and their location data removed before upload. Every workbook's sign-off box has a QR code that opens the upload box. Only the student, their teachers and admins can see the files.
+- **All open** for trial accounts: tick it on the Students page and that student has every skill unlocked.
 - Class progress grid, and per-student VC evidence.
 - “Sign off on paper” for students who worked from the booklet only.
 - A teacher guide for each skill: lesson sequence, explicit teaching points, differentiation, look-fors mapped to the VC, and answers.

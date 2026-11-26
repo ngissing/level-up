@@ -9,11 +9,28 @@ const file = process.env.DB_FILE
   || (process.env.RAILWAY_VOLUME_MOUNT_PATH && path.join(process.env.RAILWAY_VOLUME_MOUNT_PATH, 'levelup.db'))
   || path.join(ROOT_DIR, 'data', 'levelup.db');
 mkdirSync(path.dirname(file), { recursive: true });
+// Students' uploaded work lives next to the database (so on Railway it's on the volume too).
+export const UPLOAD_DIR = process.env.UPLOAD_DIR || path.join(path.dirname(file), 'uploads');
+mkdirSync(UPLOAD_DIR, { recursive: true });
 
 export const db = new DatabaseSync(file);
 db.exec(`
 PRAGMA journal_mode = WAL;
 PRAGMA foreign_keys = ON;
+
+-- Work students upload for a skill: photos, PDFs, Word files, or a link (e.g. a video on OneDrive).
+CREATE TABLE IF NOT EXISTS uploads (
+  id TEXT PRIMARY KEY,
+  user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  skill_id TEXT NOT NULL,
+  kind TEXT NOT NULL CHECK (kind IN ('image','pdf','doc','link')),
+  mime TEXT,
+  name TEXT,
+  size INTEGER,
+  url TEXT,
+  created_at TEXT DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS uploads_by_skill ON uploads (user_id, skill_id);
 
 CREATE TABLE IF NOT EXISTS classes (
   id INTEGER PRIMARY KEY,

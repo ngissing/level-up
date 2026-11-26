@@ -275,3 +275,78 @@ for (const nav of document.querySelectorAll('.prog-switch')) {
 document.querySelectorAll('.pick-opt.own input[type=text]').forEach((t) => {
   t.addEventListener('input', () => { t.closest('.pick-opt').querySelector('input[type=radio]').checked = true; });
 });
+
+// ---------- Add your work (Show it step) ----------
+// Photos are shrunk on the phone before upload (quicker on mobile data). Redrawing
+// them also drops hidden location (GPS) data. Other files go up as they are.
+(function () {
+  const box = document.querySelector('[data-uploads]');
+  if (!box) return;
+  const skillId = box.dataset.uploads;
+  const max = Number(box.dataset.max) || 5;
+  const list = box.querySelector('[data-up-list]');
+  const status = box.querySelector('[data-up-status]');
+  const actions = box.querySelector('.up-actions');
+  const linkBox = box.querySelector('.up-link');
+  const LIMIT = 10 * 1024 * 1024;
+  const say = (text, bad) => { status.textContent = text; status.classList.toggle('bad', !!bad); };
+  const refresh = () => { const full = list.children.length >= max; actions.hidden = full; if (linkBox) linkBox.hidden = full; };
+
+  async function shrink(file) {
+    if (!file.type.startsWith('image/')) return { blob: file, name: file.name };
+    try {
+      const img = await createImageBitmap(file, { imageOrientation: 'from-image' });
+      const scale = Math.min(1, 1600 / Math.max(img.width, img.height));
+      const canvas = document.createElement('canvas');
+      canvas.width = Math.round(img.width * scale); canvas.height = Math.round(img.height * scale);
+      canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+      const blob = await new Promise((r) => canvas.toBlob(r, 'image/jpeg', 0.82));
+      if (blob) return { blob, name: (file.name || 'photo').replace(/\.[^.]+$/, '') + '.jpg' };
+    } catch (e) { /* fall back to the original file */ }
+    return { blob: file, name: file.name };
+  }
+
+  function send(blob, name, label) {
+    return new Promise((resolve) => {
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', `/skill/${encodeURIComponent(skillId)}/uploads`);
+      xhr.setRequestHeader('Accept', 'application/json');
+      xhr.setRequestHeader('Content-Type', 'application/octet-stream');
+      xhr.setRequestHeader('X-File-Name', encodeURIComponent(name || 'file'));
+      xhr.upload.onprogress = (e) => { if (e.lengthComputable) say(`Uploading ${label}… ${Math.round((e.loaded / e.total) * 100)}%`); };
+      xhr.onload = () => {
+        let data = {};
+        try { data = JSON.parse(xhr.responseText); } catch (e) { /* ignore */ }
+        if (xhr.status === 200 && data.html) { list.insertAdjacentHTML('beforeend', data.html); refresh(); resolve(true); }
+        else { say(data.error || 'That didn’t upload. Try again.', true); resolve(false); }
+      };
+      xhr.onerror = () => { say('No connection. Check your internet and try again.', true); resolve(false); };
+      xhr.send(blob);
+    });
+  }
+
+  box.addEventListener('change', async (e) => {
+    const input = e.target.closest('[data-up-input]');
+    if (!input || !input.files.length) return;
+    const files = [...input.files].slice(0, Math.max(0, max - list.children.length));
+    input.value = '';
+    let ok = 0;
+    for (const [i, file] of files.entries()) {
+      const label = files.length > 1 ? `${i + 1} of ${files.length}` : (file.type.startsWith('image/') ? 'your photo' : 'your file');
+      say(`Getting ${label} ready…`);
+      const { blob, name } = await shrink(file);
+      if (blob.size > LIMIT) { say(`${file.name} is too big (10 MB is the limit).`, true); continue; }
+      if (await send(blob, name, label)) ok++;
+    }
+    if (ok) say(ok === 1 ? 'Added. Your teacher will see it when you send this in.' : `Added ${ok} things. Your teacher will see them when you send this in.`);
+  });
+
+  box.addEventListener('submit', async (e) => {
+    const form = e.target.closest('[data-up-delete]');
+    if (!form) return;
+    e.preventDefault();
+    const res = await fetch(form.action, { method: 'POST', headers: { Accept: 'application/json' } }).catch(() => null);
+    if (res && res.ok) { form.closest('li').remove(); refresh(); say('Removed.'); }
+    else say('That couldn’t be removed. Try again.', true);
+  });
+})();

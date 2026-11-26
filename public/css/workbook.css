@@ -331,3 +331,8 @@ body.answers .wb-doc .doc-card { font-size: 8.5pt; }
 .wb-model table { width: 100%; border-collapse: collapse; margin: 1mm 0 2mm; }
 .wb-model th, .wb-model td { text-align: left; padding: 1mm 2.5mm; border-bottom: 1px solid #d8d2c4; vertical-align: top; }
 .wb-model th { border-bottom: 2px solid var(--ink); }
+/* Sign-off page: scan to send your work from a phone */
+.wb-send { display: flex; gap: 4mm; align-items: center; border: 2px dashed var(--ink); border-radius: 10px; padding: 3mm 4mm; margin: 0 0 4mm; break-inside: avoid; }
+.wb-send-qr > svg { width: 24mm; height: 24mm; display: block; }
+.wb-send p { margin: 0; font-size: 9.5pt; line-height: 1.35; }
+.wb-send b { display: flex; align-items: center; gap: 4px; font-size: 10.5pt; margin-bottom: 1mm; }
